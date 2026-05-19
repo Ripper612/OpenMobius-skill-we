@@ -1,0 +1,111 @@
+{
+  "card_id": "m4k_1pF5zFI_case_004_gll货币对范围交易案例",
+  "type": "case",
+  "title": "GLL范围交易：低点突破后的CSD与流动性缺失分析",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity (BSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "change_in_state_of_delivery_csd",
+    "fair_value_gap_fvg",
+    "protected_high_low",
+    "liquidity",
+    "low_resistance_liquidity",
+    "market_structure_shift_mss",
+    "buyside_sellside_liquidity"
+  ],
+  "school": "ICT",
+  "asset": "GLL",
+  "timeframe": "1H / 5M",
+  "market_context": "GLL在1.8850-1.9350范围内盘整整个交易日。纽约盘中价格突破范围低点至1.8826，形成CSD信号。但由于亚洲和伦敦高点已被扫除，缺乏失败摇摆目标，风险收益比受限。",
+  "key_observation": "虽然价格突破范围低点形成了有效的CSD和受保护低点，但由于高点已被扫除，不存在低阻力流动性目标，导致交易机会的风险回报比不佳。",
+  "analysis_steps": [
+    "Step 1: 识别GLL在1.8850-1.9350形成的日内盘整范围，观察整个纽约盘前的振荡行为。",
+    "Step 2: 确认价格突破范围低点至1.8826，形成Change in State of Delivery（CSD）信号。",
+    "Step 3: 在1小时图上确认CSD发生在1.9043水平，作为潜在上行目标（买方流动性）。",
+    "Step 4: 下钻至5分钟图，在1.8826附近识别新的受保护低点形成。",
+    "Step 5: 评估交易目标：理想目标应为范围高点1.9350，但发现亚洲和伦敦高点已被扫除。",
+    "Step 6: 分析风险回报：由于缺乏失败摇摆（failure swings）作为中间目标，仅能回测至日开盘价，风险收益比不理想。",
+    "Step 7: 结论：虽然可尝试交易以获得2R收益，但整体机会质量受限。"
+  ],
+  "outcome": null,
+  "lessons": "在范围交易中，突破低点形成CSD虽然提供入场信号，但必须验证上行目标的可用性。若高点已被扫除且缺乏失败摇摆，则缺乏低阻力流动性目标，导致风险回报比不佳。应优先选择具有清晰失败摇摆或多个流动性层级的交易机会。",
+  "primary_image": "cards/m4k_1pF5zFI/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/m4k_1pF5zFI/images/case_004_detail_1.jpg",
+    "cards/m4k_1pF5zFI/images/case_004_detail_2.jpg",
+    "cards/m4k_1pF5zFI/images/case_004_detail_3.jpg",
+    "cards/m4k_1pF5zFI/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "GLL 5分钟K线图，时间范围从05:00至19:30。图上显示价格从1.8980上升至1.9190，随后下跌至1.8826。图上有4条水平线分别位于1.9080、1.9160、1.8880和1.8826。两个矩形框分别标注在1.9080至1.9160区间和1.8826至1.8880区间。右侧显示14:30至15:30的K线，其中14:30处有一根长下影线的黑色K线，15:00为绿色K线，15:3",
+    "case_004_detail_1.jpg": "GLL 1 小时 K 线图。图上绘制了一个矩形框，上边界在 1.9350，下边界在 1.8850。可见价格范围约从 1.8650 到 1.9450。图表左侧显示早期 K 线波动较大，中间区域 K 线在矩形框内密集波动，包含绿色和黑色 K 线混合。右侧最新三根 K 线分别为黑色、绿色、黑色，均在 1.9050 至 1.9150 区间内。图上有两条水平线分别位于 1.9350 和 1.8850，与矩形",
+    "case_004_detail_2.jpg": "GLL/USD 1小时K线图。图上显示价格范围从1.8650至1.9500。图中绘制有一个矩形框标注，范围约在1.8850至1.9330之间。两条水平虚线分别位于1.9043和1.9330价位。K线序列显示多根绿色和黑色蜡烛体在矩形框内交替出现，形成盘整形态。图右侧最新K线为黑色实体，其后跟随一根绿色K线。图底部显示时间刻度，标记有08:00、06:00、12:00、18:00等时间点，以及一条竖",
+    "case_004_detail_3.jpg": "GLL 货币对 K 线图。图上显示价格范围从 1.8650 到 1.9500。两条水平虚线分别位于 1.9100 和 1.8850 处。一个矩形框标注了从 1.8850 到 1.9350 的价格区间。图右侧显示文字标签'0.0115 (0.61%) 115'。K 线由绿色和黑色主体组成，多数 K 线具有上下影线。图表右侧最新的两根 K 线分别为绿色和黑色主体。底部时间轴显示时间刻度，但具体时间框架",
+    "case_004_detail_4.jpg": "GBP/USD 5分钟K线图。图上可见4条水平线分别位于1.9160、1.9080、1.9020和1.8920。图右侧标注有3个矩形区域，分别覆盖1.9150至1.9080、1.9080至1.9020和1.9020至1.8920的价格范围。左侧K线显示早期盘整形态，随后出现向上突破至1.9190附近，之后回落。最近的K线在1.9000至1.9150区间内波动。图上方显示时间戳为2025年8月13日"
+  },
+  "sources": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        541.839,
+        703.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整分析了范围识别、低点突破、CSD确认、多时间框架验证和风险回报评估，关键价位清晰可读，分析逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:58.180374Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GLL范围交易：低点突破后的CSD与流动性缺失分析\",\"school\":\"ICT\",\"asset\":\"GLL\",\"timeframe\":\"1H / 5M\",\"market_context\":\"GLL在1.8850-1.9350范围内盘整整个交易日。纽约盘中价格突破范围低点至1.8826，形成CSD信号。但由于亚洲和伦敦高点已被扫除，缺乏失败摇摆目标，风险收益比受限。\",\"key_observation\":\"虽然价格突破范围低点形成了有效的CSD和受保护低点，但由于高点已被扫除，不存在低阻力流动性目标，导致交易机会的风险回报比不佳。\",\"analysis_steps\":[\"Step 1: 识别GLL在1.8850-1.9350形成的日内盘整范围，观察整个纽约盘前的振荡行为。\",\"Step 2: 确认价格突破范围低点至1.8826，形成Change in State of Delivery（CSD）信号。\",\"Step 3: 在1小时图上确认CSD发生在1.9043水平，作为潜在上行目标（买方流动性）。\",\"Step 4: 下钻至5分钟图，在1.8826附近识别新的受保护低点形成。\",\"Step 5: 评估交易目标：理想目标应为范围高点1.9350，但发现亚洲和伦敦高点已被扫除。\",\"Step 6: 分析风险回报：由于缺乏失败摇摆（failure swings）作为中间目标，仅能回测至日开盘价，风险收益比不理想。\",\"Step 7: 结论：虽然可尝试交易以获得2R收益，但整体机会质量受限。\"],\"outcome\":null,\"lessons\":\"在范围交易中，突破低点形成CSD虽然提供入场信号，但必须验证上行目标的可用性。若高点已被扫除且缺乏失败摇摆，则缺乏低阻力流动性目标，导致风险回报比不佳。应优先选择具有清晰失败摇摆或多个流动性层级的交易机会。\",\"primary_image_frame_id\":\"m4k_1pF5zFI_f023\",\"supporting_image_frame_ids\":[\"m4k_1pF5zFI_f019\",\"m4k_1pF5zFI_f020\",\"m4k_1pF5zFI_f021\",\"m4k_1pF5zFI_f024\"],\"related_concepts\":[\"Order Block\",\"Change in State of Delivery (CSD)\",\"Fair Value Gap (FVG)\",\"Protected Swing\",\"Liquidity\",\"Low Resistance Liquidity\",\"Market Structure Shift (MSS)\",\"Buyside Liquidity (BSL)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整分析了范围识别、低点突破、CSD确认、多时间框架验证和风险回报评估，关键价位清晰可读，分析逻辑完整。\"}",
+  "error": null
+}

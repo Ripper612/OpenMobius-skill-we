@@ -1,0 +1,191 @@
+{
+  "card_id": "failure_swings",
+  "type": "merged_concept",
+  "canonical_term": "Failure Swings",
+  "aliases": [
+    "Failed swings",
+    "失败摆动"
+  ],
+  "school": "ICT",
+  "definition": "价格在回撤或扩展过程中未能创出新的摆动高点或低点的K线形态。上升趋势中新摆动高点低于前一摆动高点，下降趋势中新摆动低点高于前一摆动低点。失败摆动点常被视为低阻力流动性区域，作为后续价格扩展的目标水平或支撑/阻力参考。",
+  "identification_rules": [
+    "在上升趋势中，价格回撤后新形成的摆动高点低于前一个摆动高点，形成较低的高点",
+    "在下降趋势中，价格反弹后新形成的摆动低点高于前一个摆动低点，形成较高的低点",
+    "失败摆动通常出现在缓慢、浅层的对向运动（shallow opposing run）之后，而非大幅对向运动后",
+    "可在图表上识别为一系列逐渐降低的高点或逐渐升高的低点序列",
+    "可在多个时间框架上识别，作为多时间框架对齐的参考点",
+    "failure swings通常在价格巩固或反转前形成"
+  ],
+  "trading_implication": "失败摆动作为低阻力流动性区域，是价格扩展的潜在目标价位。在多时间框架交易中，当高时间框架（如周线）显示方向偏差时，低时间框架（如日线）上的失败摆动可作为扩展目标的边界参考。当价格形成V形反转或确认反向结构后，可预期价格将交易至这些区域。常与公允价值缺口（FVG）结合使用以确定风险回报比和止损位置。",
+  "common_mistakes": [
+    "将failure swings与新的摆动点混淆，导致错误的目标设定",
+    "将失败摆动与受保护摆动（Protected Swing）混淆，两者在趋势延续中的角色不同",
+    "未在多时间框架背景下理解failure swings的意义，仅在单一时间框架上交易",
+    "未能区分浅层对向运动和大幅对向运动，导致错误判断失败摆动的形成时机",
+    "过度依赖failure swings而忽视其他确认信号（如CSD、扩展确认、时间框架对齐）"
+  ],
+  "related_concepts": [
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Shallow opposing run",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "27S9gjgcSlI_case_003_eur_usd与gbp_usd做多交易案例",
+      "video_id": "27S9gjgcSlI",
+      "title": "EUR/USD与GBP/USD SMT确认后的Breaker Block做多交易"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_002_usdjpy_周线反转到15分钟入场案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "USDJPY周线反转到15分钟入场，2.4R风险回报比"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_006_es1期货60分钟图的订单块与流动性链条",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 60分钟图：低阻力流动性扫荡与订单块反向运行"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_007_es1期货5分钟图的多层级订单块与推进块形成",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 5分钟图多层级订单块与推进块的形成与验证"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_008_es1期货1分钟图的精细订单块入场与止损设置",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 1分钟图：订单块入场、均值阈值止损与高阻力流动性无效化"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_004_dll日线多月度摆动点分析",
+      "video_id": "HbOeD_JVens",
+      "title": "DLL日线3月度摆动点识别与交易反应分析"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_006_xagusd小时线与gch小时线的分形应用",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGUSD与GCH小时线的分形摆动点验证"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_001_btc日线扩张走势中的均衡点应用",
+      "video_id": "IPZjNI1B5a0",
+      "title": "ETH日线扩张走势中的均衡点应用与PD数组匹配"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_002_ym指数多日连续扩张的均衡点追踪",
+      "video_id": "IPZjNI1B5a0",
+      "title": "YM指数多日连续扩张的均衡点追踪"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_010_btc_日线图_高时间框架目标达成后的反转",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "HTF目标达成后的看跌交付状态改变"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_011_twitter用户案例_缓慢closure的continuati",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC缓慢closure失败：consolidation而非continuation"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_003_ym_5分钟图大操纵腿处理",
+      "video_id": "upHS7SDL9kg",
+      "title": "YM 5分钟图大操纵腿使用-1标准差目标反转"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_004_bll_1小时图多阶段投影追踪",
+      "video_id": "upHS7SDL9kg",
+      "title": "BLL 1小时图多阶段投影追踪与目标命中"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_failure_swings",
+      "segment_ids": [
+        "seg_004",
+        "seg_015"
+      ],
+      "time_range": [
+        144.48,
+        766.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_failure_swings",
+      "segment_ids": [
+        "seg_009",
+        "seg_020"
+      ],
+      "time_range": [
+        401.84000000000003,
+        1044.559
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:27.897453Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": null,
+  "error": null
+}

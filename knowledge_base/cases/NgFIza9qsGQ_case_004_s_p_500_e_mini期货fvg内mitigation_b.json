@@ -1,0 +1,87 @@
+{
+  "card_id": "NgFIza9qsGQ_case_004_s_p_500_e_mini期货fvg内mitigation_b",
+  "type": "case",
+  "title": "ES期货：Mitigation Block内FVG做空设置",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "mitigation_block",
+    "displacement",
+    "order_block_ob",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1M / 15M",
+  "market_context": "ES在09:57附近出现大幅向下跳空，形成Displacement。随后价格在10:00-10:14期间进入下行趋势，在回撤过程中形成多个Mitigation Block区域。",
+  "key_observation": "博主在Mitigation Block内部识别出低时间框架的Fair Value Gap设置，可用于精确做空入场，止损设在高点，目标为下行目标。",
+  "analysis_steps": [
+    "Step 1: 识别15分钟图表中的大幅向下跳空缺口（约09:57），确认Displacement形成。",
+    "Step 2: 在下行趋势中标注两个Mitigation Block区域（粉红色矩形，约3878-3903和3848-3878）。",
+    "Step 3: 在1分钟图表中观察Mitigation Block内部的低时间框架Fair Value Gap设置。",
+    "Step 4: 确定做空入场点：当价格回测进入FVG时做空。",
+    "Step 5: 设置风险管理：止损设在Mitigation Block的高点，目标为下行目标。"
+  ],
+  "outcome": null,
+  "lessons": "在高时间框架Mitigation Block内寻找低时间框架FVG，可提高做空入场的精确性。结合止损和目标位的明确设置，形成高概率交易设置。",
+  "primary_image": "cards/NgFIza9qsGQ/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/NgFIza9qsGQ/images/case_004_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 15分钟K线图。图上显示从09:51至10:14的价格走势，整体价格范围从3928.62至3848.00。图表左侧显示一段相对平稳的区间，随后在09:57附近出现大幅向下跳空缺口。之后形成一系列黑色K线，伴随下影线。图上用两个粉红色矩形框标注了两个价格区间，分别约在3878-3903和3848-3878之间。从10:00开始，K线进入下行趋势，期间穿插绿色K线。右侧价格刻度显示当前",
+    "case_004_detail_1.jpg": "S&P 500 E-mini Futures 1分钟K线图。图表显示约1小时的交易活动，时间范围从09:37至10:27。可见价格范围从3849.25至3911.00。K线序列由绿色和黑色蜡烛组成，其中10:00附近出现一根带有明显下影线的大黑色K线。图下方用灰色矩形标注了3849.25至3870.00之间的区域。整个序列中K线普遍呈现上下影线，部分影线长度超过主体。右侧价格刻度清晰显示各价位标记"
+  },
+  "sources": [
+    {
+      "video_id": "NgFIza9qsGQ",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        545.04,
+        582.9590000000001
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了两个时间框架的图表，清晰标注了Mitigation Block和FVG位置，明确说明了入场、止损和目标的设置逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:37.934718Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货：Mitigation Block内FVG做空设置\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1M / 15M\",\"market_context\":\"ES在09:57附近出现大幅向下跳空，形成Displacement。随后价格在10:00-10:14期间进入下行趋势，在回撤过程中形成多个Mitigation Block区域。\",\"key_observation\":\"博主在Mitigation Block内部识别出低时间框架的Fair Value Gap设置，可用于精确做空入场，止损设在高点，目标为下行目标。\",\"analysis_steps\":[\"Step 1: 识别15分钟图表中的大幅向下跳空缺口（约09:57），确认Displacement形成。\",\"Step 2: 在下行趋势中标注两个Mitigation Block区域（粉红色矩形，约3878-3903和3848-3878）。\",\"Step 3: 在1分钟图表中观察Mitigation Block内部的低时间框架Fair Value Gap设置。\",\"Step 4: 确定做空入场点：当价格回测进入FVG时做空。\",\"Step 5: 设置风险管理：止损设在Mitigation Block的高点，目标为下行目标。\"],\"outcome\":null,\"lessons\":\"在高时间框架Mitigation Block内寻找低时间框架FVG，可提高做空入场的精确性。结合止损和目标位的明确设置，形成高概率交易设置。\",\"primary_image_frame_id\":\"NgFIza9qsGQ_f020\",\"supporting_image_frame_ids\":[\"NgFIza9qsGQ_f019\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Mitigation Block\",\"Displacement\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了两个时间框架的图表，清晰标注了Mitigation Block和FVG位置，明确说明了入场、止损和目标的设置逻辑。\"}",
+  "error": null
+}

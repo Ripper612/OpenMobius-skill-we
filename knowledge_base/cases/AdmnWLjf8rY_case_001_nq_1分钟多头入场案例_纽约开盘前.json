@@ -1,0 +1,113 @@
+{
+  "card_id": "AdmnWLjf8rY_case_001_nq_1分钟多头入场案例_纽约开盘前",
+  "type": "case",
+  "title": "NQ 1分钟多头入场：伦敦高点流动性扫盘后的折价区入场",
+  "related_concepts": [
+    {
+      "term": "Drawn Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Stop Raid",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Discount Zone",
+      "card_id": "premium_discount_area",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array",
+      "card_id": "premium_discount_array",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "draw_on_liquidity",
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "smart_money_technique_smt",
+    "liquidity_sweep",
+    "premium_discount_area",
+    "premium_discount_array",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "纽约开盘前（2023年2月10日06:00-09:00），基于伦敦高点作为drawn liquidity，15分钟图表完成止损扫盘后，在1分钟图表折价区寻找多头入场机会，目标回归伦敦高点。",
+  "key_observation": "ES与NQ在小时图上形成SMT（一个创新高，一个未创新高），伦敦高点等高位作为drawn liquidity；15分钟图表扫盘后形成bullish candle close，为1分钟入场提供确认信号。",
+  "analysis_steps": [
+    "Step 1: 在小时图上识别drawn liquidity——伦敦高点的等高位（equal highs），同时观察ES与NQ的分歧（SMT）。",
+    "Step 2: 切换到15分钟图表，确认存在旧低点（old low on M15），等待价格扫盘该低点。",
+    "Step 3: 观察15分钟图表中价格下穿旧低点后收回，形成bullish candle close，确认止损扫盘完成。",
+    "Step 4: 切换到1分钟图表，识别刚被扫盘的15分钟旧低点，观察价格向上位移（displacement）形成等高位。",
+    "Step 5: 在1分钟图表的折价区（discount zone）寻找入场点，使用1:2风险回报比（最低1:1）。",
+    "Step 6: 确定止盈目标为伦敦高点（drawn liquidity），可在该高点进行部分平仓。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架协调的关键：用高时间框架（HTF）确定drawn liquidity和市场结构，用中时间框架（M15）确认止损扫盘和反转信号，用低时间框架（1M）精确入场。折价区入场结合1:2风险回报比提高交易质量。",
+  "primary_image": "cards/AdmnWLjf8rY/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/AdmnWLjf8rY/images/case_001_detail_1.jpg",
+    "cards/AdmnWLjf8rY/images/case_001_detail_2.jpg",
+    "cards/AdmnWLjf8rY/images/case_001_detail_3.jpg",
+    "cards/AdmnWLjf8rY/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 NQ1! 1 分钟 K 线图，时间轴显示 06:00 至 13:00，日期标注为 2/10/2023。右侧价格轴可见范围约 14800 至 14955。K 线从左侧约 14955 处向下延伸至约 09:00 时段的低点约 14595，随后回升至约 14870 区域。图右侧绘有一个浅绿色矩形，纵向范围约 14430 至 14930，其下半部分与一个灰色矩形重叠，灰色矩形纵向范围约 14430",
+    "case_001_detail_1.jpg": "图上为多面板布局，左侧为 NQ1! 5 分钟 K 线图，日期标注为 2/10/2023，可见价格范围约 14779 至 15060。右上面板为较高时间框架 K 线图，价格范围约 14700 至 15900，时间跨度覆盖 8 月中旬至 10 月初，右侧价格轴标注 14910.00 与 14852.00 两个高亮价位。右下面板为另一时间框架 K 线图，价格范围约 14620 至 15080，同样在右侧",
+    "case_001_detail_2.jpg": "图标题栏显示'Stop Raid'，右上角标注'M15 Chart'，表明为15分钟K线图。图上有两条水平线：上方一条标注为'Draw On Liquidity'，位于K线群上方；下方一条标注为'Stop Raid'，位于K线群下方低点附近。K线群整体从左下向右上排列，由绿色与黑色K线交替组成。图右侧靠近'Stop Raid'水平线处有一根K线，其下影线向下穿破该水平线后收回。图上无价格刻度数字可",
+    "case_001_detail_3.jpg": "NQ1! 15 分钟 K 线图，时间范围覆盖 2023 年 2 月 10 日 21:00 至次日约 22:30。图右侧价格刻度可见范围约从 14800 至 15010。图上有一条水平线位于 15010 附近，另有当前价标签显示 14863.50。图上绘制有一条向右上方延伸的趋势线，标注文字为 SWT，起点约在 14610 区域，延伸至图右侧约 14830 附近。K 线序列在约 06:00 处出现一",
+    "case_001_detail_4.jpg": "NQ1! 1 分钟 K 线图，时间轴显示 2023 年 2 月 10 日，时间范围约从 06:00 至 13:00。图右侧价格刻度范围约 14800 至 14955，当前价格标签显示 14874.00（绿色高亮）。图上有一个矩形标注，覆盖约 14845 至 14865 价格区间，位于 08:10 至 09:00 时间段附近。另有一条从左下向右上延伸的斜线，起点约在 14830 附近。K 线在约 0"
+  },
+  "sources": [
+    {
+      "video_id": "AdmnWLjf8rY",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        184.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从HTF drawn liquidity识别、M15止损扫盘确认、到1M折价区入场的全流程，关键价位、时间框架、分析步骤均清晰可追踪。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:24.368891Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 1分钟多头入场：伦敦高点流动性扫盘后的折价区入场\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"纽约开盘前（2023年2月10日06:00-09:00），基于伦敦高点作为drawn liquidity，15分钟图表完成止损扫盘后，在1分钟图表折价区寻找多头入场机会，目标回归伦敦高点。\",\"key_observation\":\"ES与NQ在小时图上形成SMT（一个创新高，一个未创新高），伦敦高点等高位作为drawn liquidity；15分钟图表扫盘后形成bullish candle close，为1分钟入场提供确认信号。\",\"analysis_steps\":[\"Step 1: 在小时图上识别drawn liquidity——伦敦高点的等高位（equal highs），同时观察ES与NQ的分歧（SMT）。\",\"Step 2: 切换到15分钟图表，确认存在旧低点（old low on M15），等待价格扫盘该低点。\",\"Step 3: 观察15分钟图表中价格下穿旧低点后收回，形成bullish candle close，确认止损扫盘完成。\",\"Step 4: 切换到1分钟图表，识别刚被扫盘的15分钟旧低点，观察价格向上位移（displacement）形成等高位。\",\"Step 5: 在1分钟图表的折价区（discount zone）寻找入场点，使用1:2风险回报比（最低1:1）。\",\"Step 6: 确定止盈目标为伦敦高点（drawn liquidity），可在该高点进行部分平仓。\"],\"outcome\":null,\"lessons\":\"多时间框架协调的关键：用高时间框架（HTF）确定drawn liquidity和市场结构，用中时间框架（M15）确认止损扫盘和反转信号，用低时间框架（1M）精确入场。折价区入场结合1:2风险回报比提高交易质量。\",\"primary_image_frame_id\":\"AdmnWLjf8rY_f006\",\"supporting_image_frame_ids\":[\"AdmnWLjf8rY_f001\",\"AdmnWLjf8rY_f002\",\"AdmnWLjf8rY_f004\",\"AdmnWLjf8rY_f005\"],\"related_concepts\":[\"Drawn Liquidity\",\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Smart Money Technique (SMT)\",\"Stop Raid\",\"Discount Zone\",\"Premium/Discount Array\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从HTF drawn liquidity识别、M15止损扫盘确认、到1M折价区入场的全流程，关键价位、时间框架、分析步骤均清晰可追踪。\"}",
+  "error": null
+}

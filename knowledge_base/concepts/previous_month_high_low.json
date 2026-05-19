@@ -1,0 +1,65 @@
+{
+  "card_id": "previous_month_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Previous Month High/Low",
+  "aliases": [
+    "Monthly High/Low",
+    "Prior Month High/Low"
+  ],
+  "school": "ICT",
+  "definition": "前一个自然月的最高价和最低价水平。作为流动性吸引区域，用于框架反转或作为价格回测的目标，在多个时间框架上应用相同原理。",
+  "identification_rules": [
+    "在月线图上标记前一个完整自然月的最高点和最低点",
+    "将这两条水平线延伸至当前月份的图表中，用虚线或不同颜色标记以区分",
+    "除非价格处于盘整状态，否则预期价格会向前月高点或低点之一或两者移动"
+  ],
+  "trading_implication": "前月高低点作为关键流动性水平，用于预测价格的潜在目标区域。当价格未处于盘整时，通常会向这些水平移动以框架反转或吸收流动性。这些水平可帮助交易者识别价格可能停顿、反转或继续的区域，是多时间框架分析的重要参考。",
+  "common_mistakes": [
+    "未在多个时间框架上同时标记前月高低点，导致错过更高层级的流动性目标",
+    "在价格处于盘整状态时仍然期望价格必然到达前月高低点",
+    "混淆前月高低点与当月高低点，导致流动性预测错误"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "HbOeD_JVens_case_004_dll日线多月度摆动点分析",
+      "video_id": "HbOeD_JVens",
+      "title": "DLL日线3月度摆动点识别与交易反应分析"
+    },
+    {
+      "card_id": "YESqIoA7Wyg_case_001_黄金日线月度高低点回测案例",
+      "video_id": "YESqIoA7Wyg",
+      "title": "黄金日线月度高低点回测与流动性识别"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "YESqIoA7Wyg",
+      "original_card_id": "YESqIoA7Wyg_concept_previous_month_high_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.44,
+        373.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134998Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

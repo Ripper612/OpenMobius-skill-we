@@ -1,0 +1,127 @@
+{
+  "card_id": "qdQYhePcvGE_case_015_usd日线与小时图的月度交易框架",
+  "type": "case",
+  "title": "USD日线月度框架与小时图延续交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity (SSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Candle 2/3/4 Model",
+      "card_id": "fractal_model_candle_phases",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery_csd",
+    "market_structure_shift_mss",
+    "protected_high_low",
+    "buyside_sellside_liquidity",
+    "equilibrium_eq",
+    "displacement",
+    "high_low_time_frame",
+    "fractal_model_candle_phases"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1D / 1H / 4H",
+  "market_context": "USD在月线扫除高点后形成V型反转，日线确认CSD，月度交易框架建立看空偏差。月初价格预期向下扫除卖方流动性。",
+  "key_observation": "月线高点被扫除后形成V型反转并确认CSD；日线形成受保护摆动点；小时图FVG与日线OB重合，提供高概率看空入场机会。",
+  "analysis_steps": [
+    "Step 1: 观察月线与日线联动，标记月线高点被扫除的位置，确认V型反转形态。",
+    "Step 2: 验证日线是否形成CSD（交付状态改变），确认趋势反转信号。",
+    "Step 3: 在日线上识别受保护摆动点，作为月度交易框架的关键参考。",
+    "Step 4: 观察日线Candle 3的收盘，预期Candle 4形成看空延续信号。",
+    "Step 5: 下钻到小时图，定位HTF（日线）的FVG与OB重合区域（约23675-23775）。",
+    "Step 6: 在小时图上识别EQ（均衡点）和HTF订单块，确定价格应尊重的关键水平。",
+    "Step 7: 观察小时图价格回测进入HTF FVG，确认可以在LTF上寻找看空延续。",
+    "Step 8: 升至4小时图验证，确认不应突破高点（23775），形成摆动点。",
+    "Step 9: 在4小时图上识别反转蜡烛和反转扩张蜡烛，确认看空偏差。",
+    "Step 10: 回到小时图，使用4小时高低点作为卖出参考，寻找等高点（equal highs）进行做空。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架联动分析：月线框架确定方向偏差，日线确认反转信号，小时图执行具体交易。HTF的FVG与OB重合形成高概率区域。受保护摆动点和等高点是关键入场参考。时间框架越低，风险回报比越优化。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_015_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_015_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_015_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_015_detail_3.jpg",
+    "cards/qdQYhePcvGE/images/case_015_detail_4.jpg",
+    "cards/qdQYhePcvGE/images/case_015_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_015_primary.jpg": "USD 1小时K线图。图表显示价格范围从23300到23850。图上有三条水平线分别位于23576.78、23675和23450处。右侧区域标注了两个矩形框，分别对应23675至23775和23400至23475的价格区间。图右下角显示交易面板，包含Sell、Buy和Flatten按钮。图上可见一段整理形态，价格在23675至23450之间波动，随后出现向上突破至23775，之后回落。最右侧显示绿",
+    "case_015_detail_1.jpg": "图表为日线级别 USD 走势。可见价格范围从 22400 到 24300。图上有两条水平线分别位于 23600 和 23200 处，两线之间形成一个矩形标注区域。右下角显示文字标签包括'The Market Lens'、'10~28 Model'、'23:00:00'、'Bias Bullish'及'SMT(Auto): 0.51, 0.82'。K 线从 7 月下旬开始上升趋势，8 月中旬达到高点",
+    "case_015_detail_2.jpg": "图表显示 USD 资产的日线级别 K 线图，时间跨度从 7 月至 10 月中旬。价格范围在 22400.00 至 24300.00 之间。图上有多条水平线标注，包括 23274.25、23200.00、23500.00 和 23550.00 处的水平线。图中绘制了两个矩形框，分别覆盖约 23100-23600 和 23700-24100 的价格区间。K 线由绿色和黑色蜡烛组成，显示整个时期内的价格",
+    "case_015_detail_3.jpg": "USD 1小时K线图。图上显示价格范围从23225到23850。左侧有一条水平虚线标记在23554.25。图中央有一条蓝色水平线约在23700处。右侧区域有两个矩形标注框，分别覆盖23700-23775和23575-23650的价格区间。最近的K线显示绿色和黑色蜡烛交替出现，伴随多根上影线刺破23750附近。图右下角显示时间标记和交易界面按钮。",
+    "case_015_detail_4.jpg": "USD 4小时K线图。图表显示价格范围约从23400到23850。图上有两条水平线分别位于23775和23675处。右侧区域有一个米色矩形标注框覆盖23625至23675价格区间。图表中部显示一次向上突破至23800附近后的回落，随后形成盘整。右侧最新K线为两根绿色蜡烛，位于23750附近。底部工具栏显示时间框架选择为4小时，交易方向按钮为Sell、Buy、Flatten。",
+    "case_015_detail_5.jpg": "USD 4 小时 K 线图。图上显示价格范围从 23350 到 23825。可见多根绿色和黑色 K 线交替出现。图中有两条水平虚线分别位于 23428 和 23600 价格水平。在中部区域有一个黄色矩形标注框，范围约在 23500 至 23600 之间。右上角显示'The Market Lens'标题，左下角显示'NQ1(4H)'、'4H-4H Model'、'bias:Bearish'等文字标签"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_034",
+        "seg_035",
+        "seg_036"
+      ],
+      "time_range": [
+        1713.36,
+        1917.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了月线→日线→小时图→4小时图的分析链条，关键价位（23775、23675、23450等）、时间框架、反转信号、FVG/OB位置均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:21.375072Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD日线月度框架与小时图延续交易\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1D / 1H / 4H\",\"market_context\":\"USD在月线扫除高点后形成V型反转，日线确认CSD，月度交易框架建立看空偏差。月初价格预期向下扫除卖方流动性。\",\"key_observation\":\"月线高点被扫除后形成V型反转并确认CSD；日线形成受保护摆动点；小时图FVG与日线OB重合，提供高概率看空入场机会。\",\"analysis_steps\":[\"Step 1: 观察月线与日线联动，标记月线高点被扫除的位置，确认V型反转形态。\",\"Step 2: 验证日线是否形成CSD（交付状态改变），确认趋势反转信号。\",\"Step 3: 在日线上识别受保护摆动点，作为月度交易框架的关键参考。\",\"Step 4: 观察日线Candle 3的收盘，预期Candle 4形成看空延续信号。\",\"Step 5: 下钻到小时图，定位HTF（日线）的FVG与OB重合区域（约23675-23775）。\",\"Step 6: 在小时图上识别EQ（均衡点）和HTF订单块，确定价格应尊重的关键水平。\",\"Step 7: 观察小时图价格回测进入HTF FVG，确认可以在LTF上寻找看空延续。\",\"Step 8: 升至4小时图验证，确认不应突破高点（23775），形成摆动点。\",\"Step 9: 在4小时图上识别反转蜡烛和反转扩张蜡烛，确认看空偏差。\",\"Step 10: 回到小时图，使用4小时高低点作为卖出参考，寻找等高点（equal highs）进行做空。\"],\"outcome\":null,\"lessons\":\"多时间框架联动分析：月线框架确定方向偏差，日线确认反转信号，小时图执行具体交易。HTF的FVG与OB重合形成高概率区域。受保护摆动点和等高点是关键入场参考。时间框架越低，风险回报比越优化。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f061\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f059\",\"qdQYhePcvGE_f060\",\"qdQYhePcvGE_f062\",\"qdQYhePcvGE_f063\",\"qdQYhePcvGE_f064\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Change in the state of delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Protected Swing\",\"Sellside Liquidity (SSL)\",\"Equilibrium (EQ)\",\"Displacement\",\"HTF / LTF\",\"Candle 2/3/4 Model\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了月线→日线→小时图→4小时图的分析链条，关键价位（23775、23675、23450等）、时间框架、反转信号、FVG/OB位置均清晰可读。\"}",
+  "error": null
+}

@@ -1,0 +1,98 @@
+{
+  "card_id": "o0v4KQxZbpU_case_022_回测第二十天交易",
+  "type": "case",
+  "title": "NAS100回测第20天：扫低后FVG入场做多获3R收益",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Break Even",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "turtle_soup",
+    "displacement",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "NAS100在早盘形成高点后持续下跌，在10:00-10:20时段扫低至约15100水平，随后在11:00前后反弹。博主在回测中追踪多个交易时段的结构变化。",
+  "key_observation": "价格在扫低后形成Fair Value Gap，博主识别该FVG作为做多入场点，设置止损于扫低低点，目标为范围另一侧，最终获得3R收益后将止损移至保本。",
+  "analysis_steps": [
+    "Step 1: 标记第四个交易时段的高低点，观察价格走势",
+    "Step 2: 识别扫低（sweep down）形成的结构",
+    "Step 3: 在扫低后寻找反弹的位移（displacement）信号",
+    "Step 4: 在第七个交易时段标记新的高低点，确认10:00蜡烛扫低了前期低点",
+    "Step 5: 观察是否有回到范围内的可能性，评估后续高点目标概率",
+    "Step 6: 在后续时段识别扫低并寻找向上位移",
+    "Step 7: 确认Fair Value Gap形成，投影斐波那契水平确定3R目标位",
+    "Step 8: 在FVG处建立做多头寸，止损设在扫低低点",
+    "Step 9: 价格达到3R目标后，将止损移至保本位置"
+  ],
+  "outcome": "交易成功获得3R收益，随后止损移至保本，保护了利润。",
+  "lessons": "在扫低后形成的Fair Value Gap是高概率做多入场点；使用3倍风险回报比作为目标；达到目标后及时调整止损至保本可以锁定利润并消除风险。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_022_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_022_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_022_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_022_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_022_detail_4.jpg",
+    "cards/o0v4KQxZbpU/images/case_022_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_022_primary.jpg": "NAS100 1分钟K线图。图上显示从约15320下跌至15100的下行走势，跨越约20根K线。图中标注有两个矩形区域，均标记为FVG文字标签。上方绿色矩形区域位于15240至15280价格范围，下方粉色矩形区域位于15100至15150价格范围。中间区域显示5根K线在15150至15200之间的整理形态。右侧价格刻度显示多条水平参考线。",
+    "case_022_detail_1.jpg": "NAS100 1 分钟图表。左侧面板显示 K 线图，从约 09:20 开始上升至 09:30 附近达到高点，随后从 09:30 至 10:20 持续下跌。右侧面板显示同一时段的成交量柱状图，绿色和黑色柱子交替出现。图右侧价格刻度标注有四条水平线，分别位于 15610、15450、15350 和 15310 处。可见价格范围约从 15310 至 15610，跨度约 300 点。",
+    "case_022_detail_2.jpg": "NAS100 1分钟K线图。图上有两个矩形区域标注：上方绿色区域约在15100至15362之间，下方粉色区域约在15100至15200之间。可见K线整体价格范围约从15100到15400。图右侧显示多条带粉色标签的水平线。最近几根K线中包含一根绿色K线、两根黑色K线，其中一根黑色K线具有较长的下影线。图表底部显示时间标记为'Fri 04 Aug 23 - 11:24'和'Fri 04 Aug 23",
+    "case_022_detail_3.jpg": "NAS100 1分钟图表。图上显示两个面板，左侧为历史K线序列，右侧为放大视图。图上绘制了4条水平线，分别位于15384、15310、15265.77和15200价格水平。右侧面板中有一根黑色K线和一根绿色K线，两根K线之间及其下方标记了两个矩形区域。价格范围约从15200至15400。除水平线和矩形标注外，未见其他指标或形态标记。",
+    "case_022_detail_4.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示约20根混合颜色的K线，包含绿色和黑色蜡烛，伴随上下影线。右侧面板显示4根大型K线：黑色、绿色、黑色、黑色，从约15325跨越至15100。绿色K线夹在两根黑色K线之间。图上绘制多条水平线，间隔约25点，覆盖15100至15340的价格范围。右侧价格刻度标注清晰。图表顶部显示资产代码NAS100、时间框架1m及Backtesting标签",
+    "case_022_detail_5.jpg": "NAS100 1分钟K线图。图上显示从约15100上升至15320的上升趋势，跨越约20根K线。图表中部有两个矩形标注框，分别位于15160-15240和15240-15320价格区间。右侧价格刻度显示多条水平线标记。图上可见一根大型绿色K线位于15300-15350区间，以及两根黑色K线位于15150-15200区间。图右侧显示价格刻度标签，最高至15425.00000000，最低至15100."
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        1195.0,
+        1373.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "转录文本清晰描述了完整的分析流程、入场逻辑、目标设置和结果；图表清晰显示FVG标注、扫低结构和价格反弹过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:39.334864Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NAS100回测第20天：扫低后FVG入场做多获3R收益\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"NAS100在早盘形成高点后持续下跌，在10:00-10:20时段扫低至约15100水平，随后在11:00前后反弹。博主在回测中追踪多个交易时段的结构变化。\",\"key_observation\":\"价格在扫低后形成Fair Value Gap，博主识别该FVG作为做多入场点，设置止损于扫低低点，目标为范围另一侧，最终获得3R收益后将止损移至保本。\",\"analysis_steps\":[\"Step 1: 标记第四个交易时段的高低点，观察价格走势\",\"Step 2: 识别扫低（sweep down）形成的结构\",\"Step 3: 在扫低后寻找反弹的位移（displacement）信号\",\"Step 4: 在第七个交易时段标记新的高低点，确认10:00蜡烛扫低了前期低点\",\"Step 5: 观察是否有回到范围内的可能性，评估后续高点目标概率\",\"Step 6: 在后续时段识别扫低并寻找向上位移\",\"Step 7: 确认Fair Value Gap形成，投影斐波那契水平确定3R目标位\",\"Step 8: 在FVG处建立做多头寸，止损设在扫低低点\",\"Step 9: 价格达到3R目标后，将止损移至保本位置\"],\"outcome\":\"交易成功获得3R收益，随后止损移至保本，保护了利润。\",\"lessons\":\"在扫低后形成的Fair Value Gap是高概率做多入场点；使用3倍风险回报比作为目标；达到目标后及时调整止损至保本可以锁定利润并消除风险。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f044\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f041\",\"o0v4KQxZbpU_f042\",\"o0v4KQxZbpU_f043\",\"o0v4KQxZbpU_f045\",\"o0v4KQxZbpU_f046\"],\"related_concepts\":[\"Fair Value Gap\",\"Sweep\",\"Displacement\",\"Order Block\",\"Risk Reward Ratio\",\"Break Even\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"转录文本清晰描述了完整的分析流程、入场逻辑、目标设置和结果；图表清晰显示FVG标注、扫低结构和价格反弹过程。\"}",
+  "error": null
+}

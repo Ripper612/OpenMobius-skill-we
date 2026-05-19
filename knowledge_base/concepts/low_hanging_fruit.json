@@ -1,0 +1,56 @@
+{
+  "card_id": "low_hanging_fruit",
+  "type": "merged_concept",
+  "canonical_term": "Low Hanging Fruit",
+  "aliases": [
+    "低垂的果实",
+    "易得的果实"
+  ],
+  "school": "ICT",
+  "definition": "指-2到-2.5标准差区域与其他PD数组（如Sellside Liquidity、Order Block、Equal Highs等）重合形成的高概率交易机会区域。",
+  "identification_rules": [
+    "使用Fibonacci标准差投影工具，以操纵腿（Manipulation Leg）为锚点投影出-2到-2.5标准差水平",
+    "检查-2到-2.5标准差区域是否与至少一个PD数组（FVG、Order Block、Equal Highs/Lows、Sellside Liquidity等）重合",
+    "当多个投影的-2到-2.5或-4标准差相互重合时，重合区域的置信度更高",
+    "该区域通常预示价格将在此发生回撤或反转，而非突破"
+  ],
+  "trading_implication": "Low Hanging Fruit是寻找高概率交易目标的方法。当价格达到-2到-2.5标准差且与PD数组重合时，交易者可预期价格在此区域发生反应（回撤或反转）。该区域可作为做空或做多的目标位，特别是在多时间框架分析中结合每日档案（Daily Profile）使用时效果显著。",
+  "common_mistakes": [
+    "仅依赖单一标准差投影而忽视PD数组的确认，导致虚假信号",
+    "未能正确识别操纵腿（Manipulation Leg），导致投影锚点错误",
+    "混淆-2到-2.5与-4标准差的用途，-4通常用于最大扩张（Max Expansion）而非初始目标"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_low_hanging_fruit",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_007"
+      ],
+      "time_range": [
+        129.52,
+        785.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133862Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

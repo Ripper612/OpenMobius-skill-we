@@ -1,0 +1,103 @@
+{
+  "card_id": "DMUiDBnTYc8_case_003_usoil_5分钟图_大型订单块与平均阈值应用",
+  "type": "case",
+  "title": "USOIL 5分钟：大型订单块与平均阈值优化入场",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "mean_threshold",
+    "fair_value_gap",
+    "liquidity",
+    "risk_to_reward",
+    "market_structure_shift",
+    "fibonacci_retracement"
+  ],
+  "school": "ICT",
+  "asset": "USOIL",
+  "timeframe": "5M",
+  "market_context": "油价从高位74.50下行至72.50附近，形成一系列大幅下跌K线。价格在重要水平附近扫荡流动性后，出现反转信号，为订单块验证和平均阈值应用提供了实战案例。",
+  "key_observation": "博主识别了由多根连续下跌K线组成的大型订单块，通过应用平均阈值（50% Fib）作为入场点，将风险回报比从1.3提升至2.6，展示了在大型订单块中优化入场的方法。",
+  "analysis_steps": [
+    "Step 1: 识别价格到达小时级别公允价值缺口（FVG），确认重要水平存在。",
+    "Step 2: 观察价格扫荡流动性（sweep），验证下跌K线是否能收盘在其上方以确认订单块。",
+    "Step 3: 确认价格收盘在下跌K线序列上方，验证订单块有效性。",
+    "Step 4: 识别失败摆动（failure swings）作为目标位，初步计算风险回报比为1.3。",
+    "Step 5: 对大型订单块应用平均阈值方法——从K线实体低点到高点取50% Fib水平。",
+    "Step 6: 使用平均阈值作为新的入场点，止损仍在订单块低点，重新计算风险回报比提升至2.6。",
+    "Step 7: 在图表上验证价格最终到达失败摆动高点，确认交易设置的有效性。"
+  ],
+  "outcome": "价格经过一段时间的波动后最终到达失败摆动高点，虽然过程不够干净，但验证了使用平均阈值入场的有效性，风险回报比从1.3提升至2.6。",
+  "lessons": "当订单块由多根K线组成且开盘价作为入场点不合理时，应使用平均阈值（50% Fib）作为替代入场点。这种方法能显著改善风险回报比，同时保持止损和目标位不变，提高交易的性价比。",
+  "primary_image": "cards/DMUiDBnTYc8/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/DMUiDBnTYc8/images/case_003_detail_1.jpg",
+    "cards/DMUiDBnTYc8/images/case_003_detail_2.jpg",
+    "cards/DMUiDBnTYc8/images/case_003_detail_3.jpg",
+    "cards/DMUiDBnTYc8/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USOIL 5 分钟 K 线图，日期标注为 21/12/2023。图上可见价格范围约从 72.10 至 74.50。左侧 K 线从约 74.50 向下运行至约 73.80，随后出现数根大幅下行 K 线，最低延伸至约 72.50 附近。图上有一条水平线位于约 73.80 处，标注文字为 '0.00'；另有一条蓝色水平线位于约 73.30 处。图中有一个黄色矩形区域，覆盖约 72.90 至 73.20",
+    "case_003_detail_1.jpg": "图为教学用蜡烛图，顶部标题栏显示'Mean Threshold'，右侧价格轴标注三条虚线水平线，分别标记为0、0.5、1。图底部有一条实线水平线，标注文字为'Important Level'。图上共约14根K线，绿色与黑色交替出现。K线序列从左上方向下延伸至接近'Important Level'线附近，随后右侧K线序列向上延伸，最右侧数根K线高点超过标记为0的虚线水平线。图右下角显示页码5，画面背",
+    "case_003_detail_2.jpg": "图表为 USOL 5 分钟 K 线图，时间轴显示从 01:00 至 16:00，日期标注为 Thu 21 Dec 21 09:30。图上可见价格范围约从 72.40 至 74.50。图中有一个浅黄色矩形标注区域，横跨图表大部分水平范围，覆盖价格约 73.00 至 73.20 区间。K 线在左侧区域于 73.80 至 74.50 之间运行，随后逐步下行，在约 08:00 时出现一根带长下影线的 K ",
+    "case_003_detail_3.jpg": "USOIL 5 分钟 K 线图，日期标注为 21/12/2023，图右上角显示 TTrader_edu 水印。图上可见价格范围约从 71.60 到 75.60。图上有一条蓝色水平线位于约 75.00 处横跨全图。图中央区域有一个交易设置标注框，由三条水平线划分：入场线约 73.71（标注 Open P&L: 0.48, Qty: 2100, Risk/Reward Ratio: 1.3）、目标线约",
+    "case_003_detail_4.jpg": "USOIL 5 分钟 K 线图，日期标注为 22/12/2023，图上顶部标注账户名 TTrader_edu。可见价格范围约从 71.00 到 74.90。图上有一个米黄色矩形区域横跨约 72.90 至 73.40 价格区间，延伸至图表左侧至约 10:00 时段。图右侧有一个绿色大矩形覆盖约 10:00 至 19:00 时段，内部还有一个灰色矩形覆盖下方区域。图上有一条从约 10:00 向右上方延"
+  },
+  "sources": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        192.159,
+        516.919
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了USOIL 5分钟图的分析过程，清晰标注了订单块、平均阈值、入场点、止损和目标位，并明确给出了风险回报比从1.3到2.6的改善数据。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:10.673946Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USOIL 5分钟：大型订单块与平均阈值优化入场\",\"school\":\"ICT\",\"asset\":\"USOIL\",\"timeframe\":\"5M\",\"market_context\":\"油价从高位74.50下行至72.50附近，形成一系列大幅下跌K线。价格在重要水平附近扫荡流动性后，出现反转信号，为订单块验证和平均阈值应用提供了实战案例。\",\"key_observation\":\"博主识别了由多根连续下跌K线组成的大型订单块，通过应用平均阈值（50% Fib）作为入场点，将风险回报比从1.3提升至2.6，展示了在大型订单块中优化入场的方法。\",\"analysis_steps\":[\"Step 1: 识别价格到达小时级别公允价值缺口（FVG），确认重要水平存在。\",\"Step 2: 观察价格扫荡流动性（sweep），验证下跌K线是否能收盘在其上方以确认订单块。\",\"Step 3: 确认价格收盘在下跌K线序列上方，验证订单块有效性。\",\"Step 4: 识别失败摆动（failure swings）作为目标位，初步计算风险回报比为1.3。\",\"Step 5: 对大型订单块应用平均阈值方法——从K线实体低点到高点取50% Fib水平。\",\"Step 6: 使用平均阈值作为新的入场点，止损仍在订单块低点，重新计算风险回报比提升至2.6。\",\"Step 7: 在图表上验证价格最终到达失败摆动高点，确认交易设置的有效性。\"],\"outcome\":\"价格经过一段时间的波动后最终到达失败摆动高点，虽然过程不够干净，但验证了使用平均阈值入场的有效性，风险回报比从1.3提升至2.6。\",\"lessons\":\"当订单块由多根K线组成且开盘价作为入场点不合理时，应使用平均阈值（50% Fib）作为替代入场点。这种方法能显著改善风险回报比，同时保持止损和目标位不变，提高交易的性价比。\",\"primary_image_frame_id\":\"DMUiDBnTYc8_f012\",\"supporting_image_frame_ids\":[\"DMUiDBnTYc8_f010\",\"DMUiDBnTYc8_f011\",\"DMUiDBnTYc8_f013\",\"DMUiDBnTYc8_f014\"],\"related_concepts\":[\"Order Block\",\"Mean Threshold\",\"Fair Value Gap\",\"Liquidity\",\"Risk/Reward Ratio\",\"Market Structure Shift\",\"Fibonacci Retracement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了USOIL 5分钟图的分析过程，清晰标注了订单块、平均阈值、入场点、止损和目标位，并明确给出了风险回报比从1.3到2.6的改善数据。\"}",
+  "error": null
+}

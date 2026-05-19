@@ -1,0 +1,127 @@
+{
+  "card_id": "0xygpCMwxbQ_case_003_标普500_1分钟图表的高点突破交易",
+  "type": "case",
+  "title": "标普500 1分钟图表的高点突破与OTE回测交易",
+  "related_concepts": [
+    {
+      "term": "Stop Raid",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity_sweep",
+    "market_structure_shift",
+    "fair_value_gap",
+    "order_block",
+    "breaker_block",
+    "premium_discount",
+    "equilibrium",
+    "premium_discount_premium_",
+    "low_resistance_liquidity",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1M",
+  "market_context": "标普500在1分钟图表上形成Stop Raid后出现Structure Shift，价格突破前期高点并回测至Discount区域，寻找PD Array中的OTE入场机会。",
+  "key_observation": "价格突破高点后回测，在Discount/Premium分界线附近形成Breaker Block和Fair Value Gap，构成完整的PD Array结构，但缺乏低时间框架流动性扫除确认。",
+  "analysis_steps": [
+    "Step 1: 识别Stop Raid——价格在约4157水平形成停顿，随后出现Structure Shift向下突破。",
+    "Step 2: 标记Discount/Premium分界线——使用斐波那契回撤工具在4153-4159区间内划分0.5水平线（EQ）。",
+    "Step 3: 识别PD Array组成——在回测区域发现Breaker Block和Fair Value Gap两个关键结构。",
+    "Step 4: 定位OTE入场点——在Discount区域内的Breaker Block处标记最优交易入场点。",
+    "Step 5: 设置风险管理——止损设在Breaker Block高点，目标指向新低。",
+    "Step 6: 对比5分钟图表——验证同一设置在更高时间框架上的表现，确认Order Block作为PD Array。",
+    "Step 7: 评估完整性——指出该设置缺乏低时间框架流动性扫除（Lower Timeframe Liquidity Raid），不符合完整标准。"
+  ],
+  "outcome": null,
+  "lessons": "虽然OTE和Breaker Block提供了清晰的入场结构，但完整的高概率交易需要在低时间框架上确认流动性扫除。缺乏LTF确认的设置虽然有效，但风险更高。Box Setup等替代方法可在无LTF扫除时使用，但需谨慎对待。",
+  "primary_image": "cards/0xygpCMwxbQ/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/0xygpCMwxbQ/images/case_003_detail_1.jpg",
+    "cards/0xygpCMwxbQ/images/case_003_detail_2.jpg",
+    "cards/0xygpCMwxbQ/images/case_003_detail_3.jpg",
+    "cards/0xygpCMwxbQ/images/case_003_detail_4.jpg",
+    "cards/0xygpCMwxbQ/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图为 S&P 500 E-mini Futures 1 分钟 K 线图，时间轴显示 Fri 12 May 23 09:52 附近。图右上角有文字标注五行：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图中绘有一个矩形框，覆盖约 4153 至 4159 价格区间。矩形区域内叠加斐波那契回撤工具，标注水平线分别为 0.79",
+    "case_003_detail_1.jpg": "图表为 S&P 500 E-mini 期货（CME_MINI）1 分钟 K 线图。图右上角有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图右侧价格轴当前价标签显示 4157.00，以绿色高亮背景标注。图上有一条近水平线，从约 09:30 时间位置向右延伸，对应价格约 4157.0 至 4157.2。可见",
+    "case_003_detail_2.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，日期为 2023 年 5 月 12 日。图右上角有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。右侧价格轴可见两个高亮标签：4157.75 与 4142.25。图左侧 K 线在 4158 至 4165 区间内横向排列，约 09:20 至 0",
+    "case_003_detail_3.jpg": "NASDAQ 100 E-mini Futures 1 分钟 K 线图，时间轴显示 13:05 至 14:00。图右侧价格刻度范围约从 13257.5 至 13325.0，当前价格标签高亮显示约 13271.50。图上 K 线序列整体自左上向右下排列，期间夹杂数根绿色 K 线。图右上角有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD A",
+    "case_003_detail_4.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，时间轴显示 2023 年 5 月 10 日 13:15 至 14:10 区间。图右侧有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上有一条水平线，位于约 13267 价位，从 13:28 延伸至 13:45 附近",
+    "case_003_detail_5.jpg": "图为 NASDAQ 100 E-mini Futures 1 分钟 K 线图，时间轴显示 13:15 至 14:10，当前时间戳标注为 Wed 10 May 23 13:42。图右侧价格轴当前价标签显示 13266.50。图右上角有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图中央有一个绿色矩形区域（目"
+  },
+  "sources": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        367.8,
+        548.1
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了1分钟图表的分析过程，清晰标注了所有关键结构（Stop Raid、Structure Shift、FVG、OB、OTE），并明确指出缺陷所在。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:14:39.392693Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500 1分钟图表的高点突破与OTE回测交易\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1M\",\"market_context\":\"标普500在1分钟图表上形成Stop Raid后出现Structure Shift，价格突破前期高点并回测至Discount区域，寻找PD Array中的OTE入场机会。\",\"key_observation\":\"价格突破高点后回测，在Discount/Premium分界线附近形成Breaker Block和Fair Value Gap，构成完整的PD Array结构，但缺乏低时间框架流动性扫除确认。\",\"analysis_steps\":[\"Step 1: 识别Stop Raid——价格在约4157水平形成停顿，随后出现Structure Shift向下突破。\",\"Step 2: 标记Discount/Premium分界线——使用斐波那契回撤工具在4153-4159区间内划分0.5水平线（EQ）。\",\"Step 3: 识别PD Array组成——在回测区域发现Breaker Block和Fair Value Gap两个关键结构。\",\"Step 4: 定位OTE入场点——在Discount区域内的Breaker Block处标记最优交易入场点。\",\"Step 5: 设置风险管理——止损设在Breaker Block高点，目标指向新低。\",\"Step 6: 对比5分钟图表——验证同一设置在更高时间框架上的表现，确认Order Block作为PD Array。\",\"Step 7: 评估完整性——指出该设置缺乏低时间框架流动性扫除（Lower Timeframe Liquidity Raid），不符合完整标准。\"],\"outcome\":null,\"lessons\":\"虽然OTE和Breaker Block提供了清晰的入场结构，但完整的高概率交易需要在低时间框架上确认流动性扫除。缺乏LTF确认的设置虽然有效，但风险更高。Box Setup等替代方法可在无LTF扫除时使用，但需谨慎对待。\",\"primary_image_frame_id\":\"0xygpCMwxbQ_f013\",\"supporting_image_frame_ids\":[\"0xygpCMwxbQ_f012\",\"0xygpCMwxbQ_f014\",\"0xygpCMwxbQ_f015\",\"0xygpCMwxbQ_f016\",\"0xygpCMwxbQ_f017\"],\"related_concepts\":[\"Stop Raid\",\"Market Structure Shift\",\"Fair Value Gap\",\"Order Block\",\"Breaker Block\",\"Optimal Trade Entry\",\"Premium / Discount\",\"Equilibrium\",\"PD Array\",\"Low Resistance Liquidity\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了1分钟图表的分析过程，清晰标注了所有关键结构（Stop Raid、Structure Shift、FVG、OB、OTE），并明确指出缺陷所在。\"}",
+  "error": null
+}

@@ -1,0 +1,96 @@
+{
+  "card_id": "FGkb_50BfT8_case_002_nq日线多日低点未扫除的流动性分析",
+  "type": "case",
+  "title": "NQ日线多日低点未扫除的低阻力流动性分析",
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "low_resistance_liquidity",
+    "high_resistance_liquidity",
+    "failure_swing",
+    "market_structure",
+    "order_block",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D",
+  "market_context": "NQ在日线上形成区间震荡，前三天的低点未被扫除，形成低阻力流动性。高点处出现失败摆动，为做多偏差提供支撑。",
+  "key_observation": "博主观察到NQ日线前三天的低点均未被扫除，这些未扫除的低点构成低阻力流动性。同时高点处形成失败摆动，这种结构组合为后续做多交易提供了偏差依据。",
+  "analysis_steps": [
+    "Step 1: 观察NQ日线最近三天的价格行为，识别每日的高点和低点。",
+    "Step 2: 发现前三天的低点都未被扫除，这些低点形成低阻力流动性（Low Resistance Liquidity）。",
+    "Step 3: 检查高点区域，发现第二天的高点突破了第一天的高点，但随后形成失败摆动。",
+    "Step 4: 在日线上标记高阻力流动性（在高点处）和低阻力流动性（在未扫除的低点处）。",
+    "Step 5: 综合分析：低点未扫除+高点失败摆动 = 做多偏差信号，可用于建立做多交易设置的偏差。"
+  ],
+  "outcome": null,
+  "lessons": "在高时间框架（日线）上，未被扫除的摆动低点形成低阻力流动性，而高点的失败摆动形成高阻力流动性。这种结构组合能够有效指导交易偏差方向：低点未扫+高点失败 = 看多偏差，可作为后续做多交易的高概率设置依据。",
+  "primary_image": "cards/FGkb_50BfT8/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/FGkb_50BfT8/images/case_002_detail_1.jpg",
+    "cards/FGkb_50BfT8/images/case_002_detail_2.jpg",
+    "cards/FGkb_50BfT8/images/case_002_detail_3.jpg",
+    "cards/FGkb_50BfT8/images/case_002_detail_4.jpg",
+    "cards/FGkb_50BfT8/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NQ1! 日线 K 线图，时间范围约覆盖 2024 年 3 月至 5 月初。图右侧价格刻度显示可见区间约从 17500 至 18920。图上有两条水平参考线：一条位于约 18172.50 处（右侧带高亮标签），另一条虚线位于约 17668 处。图中部可见一组连续阴线，K 线实体较大，随后右侧出现数根阳线。黄色十字光标位于图表中央约 17668 水平线附近。底部时间轴标注显示当前选中日期为 2024",
+    "case_002_detail_1.jpg": "图表为 NQ1! 日线蜡烛图，右上角标注 TTrades_edu。可见价格范围约从 17600 到 18675。图右侧有一根体量较大的黑色 K 线，从约 18400 延伸至约 17600，其后紧跟一根小绿色 K 线位于约 17600 至 17650 区间。图右侧有两条水平线分别位于约 18050 和 18025 附近。左侧价格轴标注 18019.75 处有一条虚线水平线。图右侧价格轴当前价标签显示",
+    "case_002_detail_2.jpg": "图表为 NQ1! 日线 K 线图，时间范围覆盖约 1 月中旬至 2 月下旬 2024 年。图右侧价格轴可见当前价约 17760.25，以蓝色高亮标注。图上有两条带水平括号线的标注，分别位于约 18560 和 18220 价位附近。图中最近数根 K 线区域有两个粉色矩形框标注，位于约 17680 至 17800 区间。光标十字线定位于 2024 年 2 月 21 日约 17762 处，并有一条虚线水",
+    "case_002_detail_3.jpg": "图表为 NQ1! 日线蜡烛图，右下角时间标注显示 7/3/2024，右侧价格轴当前高亮标签约为 18520。图上可见三个矩形标注区域：一个灰色边框矩形覆盖约 17760 至 18300 价格区间，一个粉色填充矩形位于约 17540 至 17760 区间，另一个矩形框覆盖约 18000 至 18560 区间并配有两条水平线。K 线从左侧约 17500 起，经过一段绿黑交替排列后，右侧出现数根较长的绿",
+    "case_002_detail_4.jpg": "图为 NQ1! 日线蜡烛图，右侧价格轴可见范围约 17000 至 19000。图上标注有两个白色轮廓矩形框，覆盖左中区域多根 K 线，价格范围约 17800 至 18420。另有两个粉色填充矩形：一个位于左侧约 17550 至 17750，一个位于上方约 18580 至 18680。图右侧当前价格标签显示 17731.75，并有一条虚线水平延伸至图左。图中部偏右有一根较长黑色 K 线，从约 184",
+    "case_002_detail_5.jpg": "NQ1! 日线蜡烛图，图上可见价格范围约从 17500 至 19000。图上绘有两个矩形框标注：一个覆盖约 18120 至 18400 区间，另一个覆盖约 18400 至 18640 区间。另有一个粉色填充矩形位于约 17720 至 17800 区间。图右侧价格轴当前高亮标签约为 18006。K 线序列中可见多根交替出现的绿色与黑色蜡烛，最右侧可见一根较长的黑色蜡烛，实体从约 18400 延伸至约"
+  },
+  "sources": [
+    {
+      "video_id": "FGkb_50BfT8",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        193.599,
+        370.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ日线结构进行了完整分析，清晰展示了未扫除低点的识别、失败摆动的标记，以及这些结构对交易偏差的影响。资产、时间框架、关键价位和分析步骤均明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:04.847967Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线多日低点未扫除的低阻力流动性分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D\",\"market_context\":\"NQ在日线上形成区间震荡，前三天的低点未被扫除，形成低阻力流动性。高点处出现失败摆动，为做多偏差提供支撑。\",\"key_observation\":\"博主观察到NQ日线前三天的低点均未被扫除，这些未扫除的低点构成低阻力流动性。同时高点处形成失败摆动，这种结构组合为后续做多交易提供了偏差依据。\",\"analysis_steps\":[\"Step 1: 观察NQ日线最近三天的价格行为，识别每日的高点和低点。\",\"Step 2: 发现前三天的低点都未被扫除，这些低点形成低阻力流动性（Low Resistance Liquidity）。\",\"Step 3: 检查高点区域，发现第二天的高点突破了第一天的高点，但随后形成失败摆动。\",\"Step 4: 在日线上标记高阻力流动性（在高点处）和低阻力流动性（在未扫除的低点处）。\",\"Step 5: 综合分析：低点未扫除+高点失败摆动 = 做多偏差信号，可用于建立做多交易设置的偏差。\"],\"outcome\":null,\"lessons\":\"在高时间框架（日线）上，未被扫除的摆动低点形成低阻力流动性，而高点的失败摆动形成高阻力流动性。这种结构组合能够有效指导交易偏差方向：低点未扫+高点失败 = 看多偏差，可作为后续做多交易的高概率设置依据。\",\"primary_image_frame_id\":\"FGkb_50BfT8_f008\",\"supporting_image_frame_ids\":[\"FGkb_50BfT8_f010\",\"FGkb_50BfT8_f011\",\"FGkb_50BfT8_f012\",\"FGkb_50BfT8_f001\",\"FGkb_50BfT8_f013\"],\"related_concepts\":[\"Low Resistance Liquidity\",\"High Resistance Liquidity\",\"Failure Swing\",\"Market Structure\",\"Order Block\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ日线结构进行了完整分析，清晰展示了未扫除低点的识别、失败摆动的标记，以及这些结构对交易偏差的影响。资产、时间框架、关键价位和分析步骤均明确。\"}",
+  "error": null
+}

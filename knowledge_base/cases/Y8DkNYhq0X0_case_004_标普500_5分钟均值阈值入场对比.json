@@ -1,0 +1,91 @@
+{
+  "card_id": "Y8DkNYhq0X0_case_004_标普500_5分钟均值阈值入场对比",
+  "type": "case",
+  "title": "标普500 5分钟均值阈值入场对比",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Entry Point",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "mean_threshold",
+    "fibonacci_retracement",
+    "stop_loss"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "5M",
+  "market_context": "标普500期货在5分钟图上形成订单块，价格从高点下跌至低点后反弹。博主对比了使用订单块开盘价与均值阈值作为两种不同入场点的效果。",
+  "key_observation": "均值阈值（Mean Threshold）作为入场点相比订单块开盘价能显著减小止损距离，从3.5点缩小至1.75点，提高了风险回报比。",
+  "analysis_steps": [
+    "Step 1: 识别价格形成的订单块（Order Block），标记其身体高点和低点范围。",
+    "Step 2: 计算订单块的均值阈值，即从身体高点到身体低点的0.5斐波那契水平（中点）。",
+    "Step 3: 对比两种入场方式——使用订单块开盘价入场 vs 使用均值阈值入场。",
+    "Step 4: 分析使用开盘价入场时的止损位置需要设在订单块低点，止损距离为3.5点。",
+    "Step 5: 分析使用均值阈值入场时的止损位置可以更紧凑，止损距离缩小至1.75点。",
+    "Step 6: 验证均值阈值入场点在实际价格走势中的有效性，确认其可行性。"
+  ],
+  "outcome": "均值阈值入场方式在该案例中有效运作，成功减小了止损距离，改善了风险回报比。",
+  "lessons": "均值阈值提供了一个更精确的入场点选择，能在保持交易有效性的同时降低风险敞口。交易者应根据个人偏好在开盘价和均值阈值之间选择，并通过回测验证哪种方式更适合自己。",
+  "primary_image": "cards/Y8DkNYhq0X0/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/Y8DkNYhq0X0/images/case_004_detail_1.jpg",
+    "cards/Y8DkNYhq0X0/images/case_004_detail_2.jpg",
+    "cards/Y8DkNYhq0X0/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从05:30至12:00的价格走势，价格范围约3994.00至4016.50。图中有一条水平线位于4007.50处。在4003.00至4007.50区间内有一个矩形标注，标签为'OB'。右侧价格刻度显示当前价格为4010.50，带绿色背景高亮。K线序列中包含多根绿色和黑色蜡烛，其中07:00附近有一根黑色蜡烛带有较长上影线。09:",
+    "case_004_detail_1.jpg": "S&P 500 E-mini 期货 5 分钟 K 线图。图上显示从 05:10 至 13:00 的价格走势，价格范围约 4000.00 至 4024.50。图中有两条水平线分别位于 4012.00 和 4008.00，两线之间用矩形框标注。K 线序列显示上升趋势至 07:30 形成高点，随后出现长上影线的黑色 K 线，之后价格下跌至 08:15 附近的 4000.00 低点，随后反弹。右侧价格标尺",
+    "case_004_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示价格范围约从4000.00至4024.00。两条水平线分别位于4015.00和4006.00处，之间用矩形框标注为'OE'。K线序列包含绿色和黑色蜡烛，其中部分K线具有较长的上下影线。最高点约在4019.00附近出现长上影线。图表底部显示成交量指标。右侧价格刻度标注清晰，时间轴显示从05:00至13:00的交易时段。",
+    "case_004_detail_3.jpg": "S期货5分钟K线图，价格范围从3999.50至4617.50。图上显示从06:00至12:15的交易时段，包含多根绿色和黑色K线。在07:45至08:30期间出现明显下行走势，伴随长下影线。图上有一条水平线标注在4006.00价格水平，其下方有一个矩形框标注区域。从08:45开始出现绿色K线恢复，右侧价格轴显示当前价格为4010.50。"
+  },
+  "sources": [
+    {
+      "video_id": "Y8DkNYhq0X0",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        400.62,
+        498.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰讲解了均值阈值的定义、计算方法、与开盘价入场的对比，以及具体的止损距离数据（3.5点 vs 1.75点），图表也清晰显示了相关区域标注。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:39.077245Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500 5分钟均值阈值入场对比\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"5M\",\"market_context\":\"标普500期货在5分钟图上形成订单块，价格从高点下跌至低点后反弹。博主对比了使用订单块开盘价与均值阈值作为两种不同入场点的效果。\",\"key_observation\":\"均值阈值（Mean Threshold）作为入场点相比订单块开盘价能显著减小止损距离，从3.5点缩小至1.75点，提高了风险回报比。\",\"analysis_steps\":[\"Step 1: 识别价格形成的订单块（Order Block），标记其身体高点和低点范围。\",\"Step 2: 计算订单块的均值阈值，即从身体高点到身体低点的0.5斐波那契水平（中点）。\",\"Step 3: 对比两种入场方式——使用订单块开盘价入场 vs 使用均值阈值入场。\",\"Step 4: 分析使用开盘价入场时的止损位置需要设在订单块低点，止损距离为3.5点。\",\"Step 5: 分析使用均值阈值入场时的止损位置可以更紧凑，止损距离缩小至1.75点。\",\"Step 6: 验证均值阈值入场点在实际价格走势中的有效性，确认其可行性。\"],\"outcome\":\"均值阈值入场方式在该案例中有效运作，成功减小了止损距离，改善了风险回报比。\",\"lessons\":\"均值阈值提供了一个更精确的入场点选择，能在保持交易有效性的同时降低风险敞口。交易者应根据个人偏好在开盘价和均值阈值之间选择，并通过回测验证哪种方式更适合自己。\",\"primary_image_frame_id\":\"Y8DkNYhq0X0_f017\",\"supporting_image_frame_ids\":[\"Y8DkNYhq0X0_f014\",\"Y8DkNYhq0X0_f015\",\"Y8DkNYhq0X0_f016\"],\"related_concepts\":[\"Order Block\",\"Mean Threshold\",\"Fibonacci Retracement\",\"Risk Management\",\"Entry Point\",\"Stop Loss\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰讲解了均值阈值的定义、计算方法、与开盘价入场的对比，以及具体的止损距离数据（3.5点 vs 1.75点），图表也清晰显示了相关区域标注。\"}",
+  "error": null
+}

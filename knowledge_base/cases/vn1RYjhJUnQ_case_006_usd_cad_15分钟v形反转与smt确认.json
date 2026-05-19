@@ -1,0 +1,111 @@
+{
+  "card_id": "vn1RYjhJUnQ_case_006_usd_cad_15分钟v形反转与smt确认",
+  "type": "case",
+  "title": "USD/CAD 15分钟V形反转与SMT确认的高质量设置",
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "V-shaped reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Continuation Order Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery_csd",
+    "order_block",
+    "v_shaped_reversal",
+    "smart_money_technique_smt",
+    "displacement",
+    "protected_high_low",
+    "propulsion_block",
+    "low_resistance_liquidity",
+    "fair_value_gap_fvg"
+  ],
+  "school": "ICT",
+  "asset": "USD/CAD",
+  "timeframe": "15m",
+  "market_context": "USD/CAD在15分钟图表上形成C2闭合并扫除范围高点，随后出现V形反转配合CSD信号，同时SMT指标显示BUY确认，为下行延续奠定基础。",
+  "key_observation": "博主强调理想的设置应包含三个要素：C2闭合、范围高点扫除、V形反转与CSD配对，以及SMT确认信号。这三者结合形成高概率的交易机会。",
+  "analysis_steps": [
+    "Step 1: 识别C2闭合和范围高点扫除，确认积累/巩固阶段已完成。",
+    "Step 2: 观察V形反转形态，确认其与CSD（交付状态改变）配对，形成反转信号。",
+    "Step 3: 确认SMT指标显示BUY信号，验证智能货币技术的多头分歧现象。",
+    "Step 4: 寻找延续订单块（Continuation Order Block），第一次未形成，继续观察。",
+    "Step 5: 在新高处形成延续订单块，触发向下位移（Displacement）。",
+    "Step 6: 确认在更高时间框架K线内形成受保护摆动（Protected Swing），识别低阻力流动性。",
+    "Step 7: 验证价格向下延续，确认交易设置的有效性。"
+  ],
+  "outcome": "价格形成受保护摆动后向下延续，交易设置得到确认。",
+  "lessons": "高质量的交易设置需要多个确认信号的协同：C2闭合+范围高点扫除+V形反转+CSD+SMT确认。单一信号不足，需要等待完整的结构形成。受保护摆动和低阻力流动性是判断延续方向的关键。",
+  "primary_image": "cards/vn1RYjhJUnQ/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/vn1RYjhJUnQ/images/case_006_detail_1.jpg",
+    "cards/vn1RYjhJUnQ/images/case_006_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "CAD 15 分钟 K 线图。图上显示价格范围从 1.40300 到 1.40640。标注包括一条向上倾斜的趋势线标记为 DAY，从左下指向右上，穿过 C2 标记点。图中有两条水平虚线分别位于 1.40517 和 1.40560 处。黄色矩形框覆盖约 1.40520 至 1.40560 的价格区间。K 线显示在 06:00 时段有一根大幅绿色 K 线，从 1.40400 上升至 1.40550。图",
+    "case_006_detail_1.jpg": "图表显示 USD 资产的 K 线走势。可见价格范围从 25660 到 26060。图上有 4 条水平线分别位于 25920、25800、25740 和 25970 处。标注了 3 个矩形区域，其中两个分别标记为 C2（约 25740-25800 区间）和 C4（约 25880-25940 区间）。右侧显示绿色 K 线，左侧为黑色 K 线。图右下角显示 NGI1 (1ka)、15m-M Model、",
+    "case_006_detail_2.jpg": "CAD 图表显示一段时间内的 K 线走势。图上绘有一条向上倾斜的趋势线标记为 DAY，从左下方向右上方延伸。一条水平虚线位于 1.40506 处。右侧信息栏显示 USDCAD (1s4)、15m-4H Model、时间 00:15:00、Bias: Neutral 和 SMTAutist: BUY。可见价格范围从 1.40220 到 1.40680。K 线呈现多次绿色和黑色交替，其中约 06:00"
+  },
+  "sources": [
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "segment_ids": [
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        510.96,
+        594.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析步骤、关键价位、时间框架和交易结果，图表清晰标注了C2、DAY趋势线、SMT信号和价格走势，所有核心要素均可从转录和图表中直接读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:06.012159Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD/CAD 15分钟V形反转与SMT确认的高质量设置\",\"school\":\"ICT\",\"asset\":\"USD/CAD\",\"timeframe\":\"15m\",\"market_context\":\"USD/CAD在15分钟图表上形成C2闭合并扫除范围高点，随后出现V形反转配合CSD信号，同时SMT指标显示BUY确认，为下行延续奠定基础。\",\"key_observation\":\"博主强调理想的设置应包含三个要素：C2闭合、范围高点扫除、V形反转与CSD配对，以及SMT确认信号。这三者结合形成高概率的交易机会。\",\"analysis_steps\":[\"Step 1: 识别C2闭合和范围高点扫除，确认积累/巩固阶段已完成。\",\"Step 2: 观察V形反转形态，确认其与CSD（交付状态改变）配对，形成反转信号。\",\"Step 3: 确认SMT指标显示BUY信号，验证智能货币技术的多头分歧现象。\",\"Step 4: 寻找延续订单块（Continuation Order Block），第一次未形成，继续观察。\",\"Step 5: 在新高处形成延续订单块，触发向下位移（Displacement）。\",\"Step 6: 确认在更高时间框架K线内形成受保护摆动（Protected Swing），识别低阻力流动性。\",\"Step 7: 验证价格向下延续，确认交易设置的有效性。\"],\"outcome\":\"价格形成受保护摆动后向下延续，交易设置得到确认。\",\"lessons\":\"高质量的交易设置需要多个确认信号的协同：C2闭合+范围高点扫除+V形反转+CSD+SMT确认。单一信号不足，需要等待完整的结构形成。受保护摆动和低阻力流动性是判断延续方向的关键。\",\"primary_image_frame_id\":\"vn1RYjhJUnQ_f020\",\"supporting_image_frame_ids\":[\"vn1RYjhJUnQ_f018\",\"vn1RYjhJUnQ_f019\"],\"related_concepts\":[\"Change in the state of delivery (CSD)\",\"Order Block\",\"V-shaped reversal\",\"Smart Money Technique (SMT)\",\"Displacement\",\"Protected Swing\",\"Continuation Order Block\",\"Low Resistance Liquidity\",\"Fair Value Gap (FVG)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析步骤、关键价位、时间框架和交易结果，图表清晰标注了C2、DAY趋势线、SMT信号和价格走势，所有核心要素均可从转录和图表中直接读取。\"}",
+  "error": null
+}

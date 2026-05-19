@@ -1,0 +1,105 @@
+{
+  "card_id": "HFfChGFHD44_case_002_e_mini_s_p_500期货_15分钟_box_setup案",
+  "type": "case",
+  "title": "ES 15分钟 低点Box Setup：激进下行后激进回升",
+  "related_concepts": [
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Range",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Support",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "box_setup",
+    "displacement",
+    "fair_value_gap",
+    "order_block",
+    "consolidation",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "15M",
+  "market_context": "E-MINI S&P 500期货在4月20日形成一个明确的低点Box Setup。价格从高点4187.5激进下行至低点4146.50附近，随后激进回升，展示典型的Box Setup结构。",
+  "key_observation": "博主演示了在低点处识别Box Setup的方法：通过标记激进下行的偏离（Deviation）和随后的激进回升（Aggressive back in），使用K线实体而非影线来确定支撑位。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别一个明确的价格范围（Range），上边界约4187.5，下边界约4141.0",
+    "Step 2: 观察价格从范围上方激进下行，形成偏离（Deviation from range）",
+    "Step 3: 标记偏离点位置，然后观察价格是否激进回升回到范围内",
+    "Step 4: 切换到15分钟图确认Box Setup结构，标记低点约4146.50处的支撑位",
+    "Step 5: 使用K线实体（而非影线）来标记支撑价格，确保支撑位高于范围下边界",
+    "Step 6: 等待价格从低点激进回升，验证Box Setup的有效性",
+    "Step 7: 在15分钟图上观察价格从低点4102.07附近回升至4118附近，形成新的Box Setup结构"
+  ],
+  "outcome": "价格在低点处形成Box Setup后激进回升，从约4104回升至4118附近，展示了该设置的有效性。博主标记了支撑位和阻力位，为后续交易提供了参考。",
+  "lessons": "Box Setup的核心是识别激进的偏离和激进的回升。使用K线实体而非影线来标记支撑位更加可靠。在低点处的Box Setup提供了做多的机会，特别是当价格激进下行后激进回升时。",
+  "primary_image": "cards/HFfChGFHD44/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/HFfChGFHD44/images/case_002_detail_1.jpg",
+    "cards/HFfChGFHD44/images/case_002_detail_2.jpg",
+    "cards/HFfChGFHD44/images/case_002_detail_3.jpg",
+    "cards/HFfChGFHD44/images/case_002_detail_4.jpg",
+    "cards/HFfChGFHD44/images/case_002_detail_5.jpg",
+    "cards/HFfChGFHD44/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为 E-MINI S&P 500 期货（JUN 2023）15 分钟 K 线图，来自 CME_MINI。图上可见价格范围约 4094 至 4126。图上有一个红色边框矩形，覆盖约 4101.75 至 4118.50 区间，横跨多根 K 线。矩形右侧延伸出两个填色矩形：上方为绿色（薄荷色）矩形，覆盖约 4101.75 至 4123.50；下方为粉红色矩形，覆盖约 4094 至 4101.75。右",
+    "case_002_detail_1.jpg": "图表为 E-MINI S&P 500 期货（2023年6月）1小时 K 线图，交易所为 CME_MINI。可见价格范围约从 4127.5 至 4205.0。图上绘有一个红色边框矩形，横跨约日期17至19，价格区间约 4141 至 4187.5。图右侧有两个填色矩形：上方为粉色矩形，价格区间约 4187.5 至 4198；下方为浅绿色矩形，价格区间约 4141 至 4187.5。右侧价格轴上可见三个",
+    "case_002_detail_2.jpg": "图为 E-MINI S&P 500 期货（ES）1 小时 K 线图，可见价格范围约 4130 至 4205。图上有两条横跨全图的红色水平线，分别位于约 4187.5 和 4141.0。图上另有一个粉色矩形框，覆盖约 4187.5 至 4200.0 的价格区间，水平范围从 18 Apr 延伸至约 20 Apr。18 Apr 附近出现一根较长的阴线，从约 4197 下行至约 4165。图右侧价格轴显示",
+    "case_002_detail_3.jpg": "图表为 E-MINI S&P 500 期货（JUN 2023）15 分钟 K 线图，来自 CME，时间轴显示 2023 年 4 月 20 日。图上可见价格范围约从 4136 至 4168。图中有一条红色水平线位于约 4146.50 处，横跨约 04:30 至 07:15 时间段。图右侧价格轴标注两个价格标签：4153.50（带高亮背景）与 4146.50。图左侧可见一根大阴线，随后出现多根小实体 ",
+    "case_002_detail_4.jpg": "图表为 E-MINI S&P 500 FUTURES（JUN 2023）5 分钟 K 线图，来自 CME，时间轴显示 Thu 20 Apr 23。图上可见价格范围约从 4136 至 4168。左侧出现一段连续大阴线，从约 4168 下行至约 4142。此后 K 线在约 4144 至 4154 区间内横向排列。图上有两条红色水平线，分别位于约 4154 和约 4146 附近，各对应一个矩形框标注区域",
+    "case_002_detail_5.jpg": "E-MINI S&P 500 期货（2023年6月）15分钟K线图，数据来源CME-MINI。图右侧价格刻度范围约从4100.00至4132.00。右侧价格轴显示两个价格标签：4115.75（绿色高亮，为当前价）及4102.07。图上K线呈现左侧自约4132向下运行至约4104区域，随后回升至约4118，再次回落至约4106后再度上行至约4118附近。图上未见任何矩形框、趋势线、文字标注或指标面板",
+    "case_002_detail_6.jpg": "图为 E-MINI S&P 500 期货（JUN 2023）15 分钟 K 线图，来自 CME MINI，时间轴显示当前时间为 Thu 06 Apr '23 08:45。图右侧有一个交易标注区域，包含两个矩形框：上方粉色矩形覆盖约 4118.00 至 4123.50 区间，标注文字为\"Stop: 5.50 (0.13%) 22, Amount: 750\"；下方绿色矩形覆盖约 4111.00 至 4"
+  },
+  "sources": [
+    {
+      "video_id": "HFfChGFHD44",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        184.5,
+        366.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了Box Setup的识别过程，包括范围标记、偏离识别、激进回升确认，以及使用实体标记支撑位的具体方法。资产、时间框架、关键价位均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:19.863906Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 15分钟 低点Box Setup：激进下行后激进回升\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"15M\",\"market_context\":\"E-MINI S&P 500期货在4月20日形成一个明确的低点Box Setup。价格从高点4187.5激进下行至低点4146.50附近，随后激进回升，展示典型的Box Setup结构。\",\"key_observation\":\"博主演示了在低点处识别Box Setup的方法：通过标记激进下行的偏离（Deviation）和随后的激进回升（Aggressive back in），使用K线实体而非影线来确定支撑位。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别一个明确的价格范围（Range），上边界约4187.5，下边界约4141.0\",\"Step 2: 观察价格从范围上方激进下行，形成偏离（Deviation from range）\",\"Step 3: 标记偏离点位置，然后观察价格是否激进回升回到范围内\",\"Step 4: 切换到15分钟图确认Box Setup结构，标记低点约4146.50处的支撑位\",\"Step 5: 使用K线实体（而非影线）来标记支撑价格，确保支撑位高于范围下边界\",\"Step 6: 等待价格从低点激进回升，验证Box Setup的有效性\",\"Step 7: 在15分钟图上观察价格从低点4102.07附近回升至4118附近，形成新的Box Setup结构\"],\"outcome\":\"价格在低点处形成Box Setup后激进回升，从约4104回升至4118附近，展示了该设置的有效性。博主标记了支撑位和阻力位，为后续交易提供了参考。\",\"lessons\":\"Box Setup的核心是识别激进的偏离和激进的回升。使用K线实体而非影线来标记支撑位更加可靠。在低点处的Box Setup提供了做多的机会，特别是当价格激进下行后激进回升时。\",\"primary_image_frame_id\":\"HFfChGFHD44_f012\",\"supporting_image_frame_ids\":[\"HFfChGFHD44_f007\",\"HFfChGFHD44_f008\",\"HFfChGFHD44_f009\",\"HFfChGFHD44_f001\",\"HFfChGFHD44_f010\",\"HFfChGFHD44_f011\"],\"related_concepts\":[\"Box Setup\",\"Displacement\",\"Fair Value Gap\",\"Order Block\",\"Range\",\"Support\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了Box Setup的识别过程，包括范围标记、偏离识别、激进回升确认，以及使用实体标记支撑位的具体方法。资产、时间框架、关键价位均清晰可读。\"}",
+  "error": null
+}

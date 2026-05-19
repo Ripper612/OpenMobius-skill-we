@@ -1,0 +1,62 @@
+{
+  "card_id": "fractal_model_candle_phases",
+  "type": "merged_concept",
+  "canonical_term": "Fractal Model - Candle Phases",
+  "aliases": [
+    "Candle 2/3/4 Model",
+    "分形模型蜡烛阶段"
+  ],
+  "school": "ICT",
+  "definition": "TTrades分形模型中的K线阶段划分体系。Candle 2为反转蜡烛（Change in State of Delivery），Candle 3和Candle 4为延续蜡烛，允许交易者在错过反转后的后续蜡烛中继续交易延续走势。",
+  "identification_rules": [
+    "Candle 2：形成Change in State of Delivery（CSD），标志趋势反转点，通常伴随较大的wick",
+    "Candle 3：在Candle 2反转后的第一根延续蜡烛，继续朝反转方向运动",
+    "Candle 4：在Candle 3之后的第二根延续蜡烛，继续延续走势",
+    "识别时需观察蜡烛的收盘位置、wick大小及其相对于关键水平（如daily open、session lows、range high/low）的关系"
+  ],
+  "trading_implication": "该模型提供多个交易入场机会。若错过Candle 2反转，交易者仍可在Candle 3和Candle 4的延续阶段建立头寸。交易目标通常为daily open、session lows或range high/low等关键水平。该模型跨越多个时间框架应用（如1小时、15分钟、5分钟），允许交易者在不同周期上识别相同的分形结构。",
+  "common_mistakes": [
+    "在没有形成明确CSD的情况下过早交易，导致在盘整区间内被套",
+    "忽视时间框架的连续性，未能在HTF和LTF之间验证分形结构的一致性",
+    "对Candle 2的反转蜡烛识别不准确，导致后续Candle 3/4的交易逻辑失效",
+    "贪心追求更大的目标而忽视关键水平（如daily open、session lows），导致止损被触发"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "qdQYhePcvGE_case_015_usd日线与小时图的月度交易框架",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD日线月度框架与小时图延续交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_fractal_model_candle_phases",
+      "segment_ids": [
+        "seg_010",
+        "seg_023"
+      ],
+      "time_range": [
+        473.199,
+        1100.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133125Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

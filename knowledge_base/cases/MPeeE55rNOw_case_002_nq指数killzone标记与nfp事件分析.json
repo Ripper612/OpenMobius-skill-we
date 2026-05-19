@@ -1,0 +1,113 @@
+{
+  "card_id": "MPeeE55rNOw_case_002_nq指数killzone标记与nfp事件分析",
+  "type": "case",
+  "title": "NQ指数Killzone标记与NFP事件分析",
+  "related_concepts": [
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "NFP Event",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "ICT Killzones & Pivots Indicator",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "killzone",
+    "power_of_3_indicator",
+    "order_block",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15m",
+  "market_context": "分析NQ指数在一个完整交易日内的Killzone时段划分，重点观察亚洲盘整、伦敦等待NFP、纽约上午大幅波动的特点，强调纽约上午时段创造日内大部分波幅。",
+  "key_observation": "博主通过标记不同交易时段的Killzone，展示了亚洲积累、伦敦操纵、纽约上午分配的典型日内结构，其中纽约上午（08:30-11:00）创造了日内最大波幅，NFP事件（08:30）是关键触发点。",
+  "analysis_steps": [
+    "Step 1: 在EURUSD 15分钟图上标记亚洲盘整区间（20:00-00:00），观察价格在该时段的积累行为。",
+    "Step 2: 标记伦敦时段（02:00-05:00），观察价格在等待NFP事件期间的操纵特征，价格波动有限。",
+    "Step 3: 在NQ1! 15分钟图上重复标记亚洲盘整区间（20:00-00:00），确认指数与外汇的时段对应关系。",
+    "Step 4: 标记伦敦时段（02:00-05:00）在NQ上的表现，确认价格在NFP前的等待状态。",
+    "Step 5: 标记纽约上午Killzone（08:30-11:00），观察该时段内价格的大幅波动和方向性移动。",
+    "Step 6: 标记纽约午间时段（12:00-13:00）和下午时段（13:30-16:00），完成日内完整Killzone划分。",
+    "Step 7: 在日线图上展示多个Killzone区间的叠加效果，观察不同时段的订单块和支撑阻力。",
+    "Step 8: 加载ICT Killzones & Pivots指标，展示自动化标记功能，验证手动标记的准确性。",
+    "Step 9: 调整指标设置（Session Drawing Limit、Timeframe Limit、Timezone），确保指标与交易时区对齐。",
+    "Step 10: 在1小时图上应用指标，观察AS.H/AS.L、LO.H/LO.L、NYL.H/NYL.L等关键水平线的位置。",
+    "Step 11: 在15分钟图上应用指标，展示完整的Killzone标记（AS、LO、HYM_H、HYM_L、PM等），强调纽约上午时段的波幅贡献。"
+  ],
+  "outcome": null,
+  "lessons": "Killzone标记是ICT交易体系中的关键工具，用于识别高波动性交易时段。亚洲盘整、伦敦操纵、纽约分配的三阶段模式在指数和外汇中表现一致。NFP事件在纽约上午Killzone内触发，通常产生日内最大波幅。自动化指标可提高标记效率，但需确保时区设置正确。",
+  "primary_image": "cards/MPeeE55rNOw/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/MPeeE55rNOw/images/case_002_detail_1.jpg",
+    "cards/MPeeE55rNOw/images/case_002_detail_2.jpg",
+    "cards/MPeeE55rNOw/images/case_002_detail_3.jpg",
+    "cards/MPeeE55rNOw/images/case_002_detail_4.jpg",
+    "cards/MPeeE55rNOw/images/case_002_detail_5.jpg",
+    "cards/MPeeE55rNOw/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "HYML.H 1 小时 K 线图。图上显示 ICT Killzones & Pivots 指标面板，右侧为该指标的设置窗口。图表中标注了 8 条带文字标签的水平线及对应的矩形区域，分别标记为 AS.H、AS.L、LO.I、FRWD、NYL.H、NYL.L、HYML.H、HYML.L，价格范围从 14800 到 15060。左侧 K 线显示约 8 根蜡烛在 14840 至 14920 区间内的盘整形",
+    "case_002_detail_1.jpg": "EURUSD 15分钟K线图。图上可见两个矩形标注框：蓝色矩形覆盖约1.08900至1.09150价格区间，绿色矩形覆盖约1.09050至1.09250价格区间。图表左侧显示从1.09300向下运行至1.08000的K线序列，右侧显示从1.08000向上反弹至1.08600附近的K线。图上有黄色十字光标标记，位置约在1.08400。右下角显示时间戳'6/10/2023'和'EURUSD | 15m",
+    "case_002_detail_2.jpg": "EURUSD 15分钟K线图。图上显示从左至右的价格走势，整体价格范围在1.04800至1.06050之间。图中有一条蓝色矩形框标注在约1.05350至1.05450的价格区域。右侧价格轴显示当前价格标记。底部时间轴显示交易时间，标注有'Fri 06 Oct 23 02:00'。图上可见成交量指标。K线呈现多次上升、下降和整理的循环形态，其中包含多根绿色上升K线和黑色下降K线。",
+    "case_002_detail_3.jpg": "NQ1! 15分钟K线图。图上可见价格范围约从14680到14900。图中标注有两个矩形框：蓝色矩形位于约14820至14900区间，黄色矩形位于约14760至14820区间。左侧显示价格标签14779.00。图表右下角标注时间戳为6/10/2023及15分钟周期。K线整体呈现上升后下跌的形态，右侧可见一根长黑色K线从高点向下刺破至图表下方。",
+    "case_002_detail_4.jpg": "NQ1! 期货 15 分钟 K 线图。图上可见三个矩形标注区域：左侧一个米色矩形约在 14720 至 14800 区间，中部一个米色矩形约在 14800 至 14860 区间，中心区域一个蓝色矩形约在 14860 至 14880 区间。图上有一条水平虚线位于 14741.00 价格水平。K 线整体价格范围从 14620.00 至 14960.00。右侧可见一根长黑色 K 线，从约 14920 向下",
+    "case_002_detail_5.jpg": "USD 日线图。图上可见多个矩形标注框，分别位于约 14920-14940、14800-14820、14860-14880、14840-14860、15040-15120 及 14700-14780 等价格区间，其中部分框体以浅米色填充，部分以浅蓝色填充。K 线整体价格范围约从 14600 到 15160。图上标注有日期'8/10/2023'及文字'NQ(1 15A'。右上角显示'TFrades_",
+    "case_002_detail_6.jpg": "NQ1! 15分钟K线图。图上显示一个名为'ICT Killzones & Pivots [TFO]'的指标面板，右侧为该指标的设置窗口。图表中标注了多个矩形区域和水平线，包括标记为LO_H、LO_L、HYM_H、HYM_L、AS_H、AS_L、PM的价格区间，以及标记为'True Day Open'的水平线。可见价格范围约从14660至15140。K线在整个可见范围内活动，多条K线的影线穿过标注"
+  },
+  "sources": [
+    {
+      "video_id": "MPeeE55rNOw",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.4,
+        370.039
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了Killzone标记的全过程，从手动标记到指标应用，资产代码、时间框架、关键时段都清晰可读，分析步骤按实际讲解顺序记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:01.512165Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ指数Killzone标记与NFP事件分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15m\",\"market_context\":\"分析NQ指数在一个完整交易日内的Killzone时段划分，重点观察亚洲盘整、伦敦等待NFP、纽约上午大幅波动的特点，强调纽约上午时段创造日内大部分波幅。\",\"key_observation\":\"博主通过标记不同交易时段的Killzone，展示了亚洲积累、伦敦操纵、纽约上午分配的典型日内结构，其中纽约上午（08:30-11:00）创造了日内最大波幅，NFP事件（08:30）是关键触发点。\",\"analysis_steps\":[\"Step 1: 在EURUSD 15分钟图上标记亚洲盘整区间（20:00-00:00），观察价格在该时段的积累行为。\",\"Step 2: 标记伦敦时段（02:00-05:00），观察价格在等待NFP事件期间的操纵特征，价格波动有限。\",\"Step 3: 在NQ1! 15分钟图上重复标记亚洲盘整区间（20:00-00:00），确认指数与外汇的时段对应关系。\",\"Step 4: 标记伦敦时段（02:00-05:00）在NQ上的表现，确认价格在NFP前的等待状态。\",\"Step 5: 标记纽约上午Killzone（08:30-11:00），观察该时段内价格的大幅波动和方向性移动。\",\"Step 6: 标记纽约午间时段（12:00-13:00）和下午时段（13:30-16:00），完成日内完整Killzone划分。\",\"Step 7: 在日线图上展示多个Killzone区间的叠加效果，观察不同时段的订单块和支撑阻力。\",\"Step 8: 加载ICT Killzones & Pivots指标，展示自动化标记功能，验证手动标记的准确性。\",\"Step 9: 调整指标设置（Session Drawing Limit、Timeframe Limit、Timezone），确保指标与交易时区对齐。\",\"Step 10: 在1小时图上应用指标，观察AS.H/AS.L、LO.H/LO.L、NYL.H/NYL.L等关键水平线的位置。\",\"Step 11: 在15分钟图上应用指标，展示完整的Killzone标记（AS、LO、HYM_H、HYM_L、PM等），强调纽约上午时段的波幅贡献。\"],\"outcome\":null,\"lessons\":\"Killzone标记是ICT交易体系中的关键工具，用于识别高波动性交易时段。亚洲盘整、伦敦操纵、纽约分配的三阶段模式在指数和外汇中表现一致。NFP事件在纽约上午Killzone内触发，通常产生日内最大波幅。自动化指标可提高标记效率，但需确保时区设置正确。\",\"primary_image_frame_id\":\"MPeeE55rNOw_f012\",\"supporting_image_frame_ids\":[\"MPeeE55rNOw_f007\",\"MPeeE55rNOw_f008\",\"MPeeE55rNOw_f009\",\"MPeeE55rNOw_f010\",\"MPeeE55rNOw_f011\",\"MPeeE55rNOw_f013\"],\"related_concepts\":[\"Killzone\",\"Power of 3\",\"Accumulation, Manipulation, Distribution\",\"Order Block\",\"Market Structure\",\"NFP Event\",\"Liquidity\",\"ICT",
+  "error": null
+}

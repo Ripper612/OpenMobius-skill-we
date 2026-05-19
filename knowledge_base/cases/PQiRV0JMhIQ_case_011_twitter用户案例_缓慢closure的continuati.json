@@ -1,0 +1,95 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_011_twitter用户案例_缓慢closure的continuati",
+  "type": "case",
+  "title": "BTC缓慢closure失败：consolidation而非continuation",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Closure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Support Level",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "continuation_pattern",
+    "consolidation",
+    "failure_swings",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC形成V形反转，出现公允价值缺口(FVG)作为兴趣点。价格需要突破关键支撑位并快速收盘确认，以启动下行continuation。",
+  "key_observation": "价格用3根K线才勉强穿过关键支撑位，第4根K线才真正跌破，表现出缓慢closure而非快速确认，反映出continuation失败，转为consolidation形态。",
+  "analysis_steps": [
+    "Step 1: 识别V形反转和FVG作为关键兴趣点，预期快速向下突破并收盘确认。",
+    "Step 2: 观察价格第1、2、3根K线在关键支撑位附近挣扎，未能快速收盘突破。",
+    "Step 3: 第4根K线才真正跌破支撑位，但这种缓慢的多根K线closure表明力度不足。",
+    "Step 4: 识别出现的failure swings（失败摇摆），表明价格可能在区间内反复而非持续下行。",
+    "Step 5: 将分析框架从continuation转变为consolidation，预期价格可能反向交易回到区间范围。"
+  ],
+  "outcome": "价格未能形成可信的continuation，反而形成consolidation，后续价格在区间内反复交易，未能延续下行趋势。",
+  "lessons": "快速closure是continuation的关键信号；缓慢多根K线才穿过关键位表明力度不足，应转向consolidation思维；failure swings出现时需谨慎，宁可等待更清晰的突破确认。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_011_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_011_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_011_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_011_primary.jpg": "图表显示一份K线图，价格范围约从23500到25500。图上绘制有两个矩形标注区域：一个浅绿色矩形覆盖约24000至24500价格区间，另一个浅黄色矩形覆盖约24500至25000价格区间。此外还有一条向上倾斜的趋势线从图表左下方延伸至右上方。K线由绿色和黑色蜡烛组成，其中部分K线呈现长下影线形态，中间区域有数根高大的黑色K线显示向下运动。",
+    "case_011_detail_1.jpg": "BTC 1 小时 K 线图。图上显示价格范围约从 21700 到 23400。可见多条水平线标注在 23200、22400、22000 附近。图中存在一条向上倾斜的趋势线。中间区域有一个矩形框标注在 22300 至 22600 价格范围。K 线形态显示先前的盘整区间，随后出现向上突破至 23200 附近（带长上影线），之后出现急速下跌至 21700 附近（带长下影线）。右侧最新 K 线显示一根绿色",
+    "case_011_detail_2.jpg": "多资产对比图表显示烛线图。左侧呈现从约26500下跌至23500的下降趋势。图表中央有一根大幅上升的绿色烛线，其后跟随一根大幅下跌的黑色烛线。图上有两个矩形标注：黄色矩形覆盖约24800至25600价格区间，灰色矩形位于其下方。右侧显示较小的烛线形成盘整形态，最右端为一根小绿烛。整体价格范围约23500至26500。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_026",
+        "seg_027"
+      ],
+      "time_range": [
+        1418.88,
+        1503.679
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析过程：识别FVG→预期快速突破→观察缓慢closure→识别failure swings→转向consolidation思维，所有关键步骤和结论清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:59.200326Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC缓慢closure失败：consolidation而非continuation\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC形成V形反转，出现公允价值缺口(FVG)作为兴趣点。价格需要突破关键支撑位并快速收盘确认，以启动下行continuation。\",\"key_observation\":\"价格用3根K线才勉强穿过关键支撑位，第4根K线才真正跌破，表现出缓慢closure而非快速确认，反映出continuation失败，转为consolidation形态。\",\"analysis_steps\":[\"Step 1: 识别V形反转和FVG作为关键兴趣点，预期快速向下突破并收盘确认。\",\"Step 2: 观察价格第1、2、3根K线在关键支撑位附近挣扎，未能快速收盘突破。\",\"Step 3: 第4根K线才真正跌破支撑位，但这种缓慢的多根K线closure表明力度不足。\",\"Step 4: 识别出现的failure swings（失败摇摆），表明价格可能在区间内反复而非持续下行。\",\"Step 5: 将分析框架从continuation转变为consolidation，预期价格可能反向交易回到区间范围。\"],\"outcome\":\"价格未能形成可信的continuation，反而形成consolidation，后续价格在区间内反复交易，未能延续下行趋势。\",\"lessons\":\"快速closure是continuation的关键信号；缓慢多根K线才穿过关键位表明力度不足，应转向consolidation思维；failure swings出现时需谨慎，宁可等待更清晰的突破确认。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f050\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f049\",\"PQiRV0JMhIQ_f051\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Continuation\",\"Consolidation\",\"Failure Swings\",\"Order Block\",\"Closure\",\"Support Level\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析过程：识别FVG→预期快速突破→观察缓慢closure→识别failure swings→转向consolidation思维，所有关键步骤和结论清晰。\"}",
+  "error": null
+}

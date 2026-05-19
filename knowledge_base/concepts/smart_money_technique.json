@@ -1,0 +1,677 @@
+{
+  "card_id": "smart_money_technique",
+  "type": "merged_concept",
+  "canonical_term": "Smart Money Technique",
+  "aliases": [
+    "SMT",
+    "SMT fill",
+    "分歧现象",
+    "智能货币技术",
+    "机构操纵技术",
+    "相关资产分歧",
+    "相关资产分歧信号"
+  ],
+  "school": "SMC",
+  "definition": "通过对比相关资产（如ES/NQ、DXY/EURUSD、GC/AU）或不同时间框架的价格走势，识别一个资产创出新高/新低而另一个未能跟随的分歧现象，用于确认市场结构转变、受保护摆动的有效性及机构操纵意图，作为反转或趋势延续的辅助确认信号。",
+  "identification_rules": [
+    "选取两个相关资产对（如ES/NQ、DXY/EURUSD/GBPUSD、GC/AU EUR/AU GBP、CL/RB/HO）或同一资产的高低时间框架，在同一时间周期内对比价格走势",
+    "识别其中一个资产突破或创出新高/新低（扫除流动性），而另一个资产未能跟随，形成分歧（失败摆动/failure swing）",
+    "确认分歧出现在关键价格水平附近（如前期摆动高低点、等高/等低点、FVG、OB区域）",
+    "分歧可细分为：高低点分歧（一个创新高另一个未创新高）、FVG分歧（一个填补缺口另一个未填补）、外部到内部分歧（一个触及外部流动性另一个未触及）、精准摆动点分歧（同一时段两资产收盘方向相反）",
+    "SMT出现后，检查是否伴随市场结构转变（MSS）、交付状态改变（CSD）、位移（Displacement）或新的订单块形成",
+    "在高时间框架（日线、4小时）确认分歧后，切换至低时间框架（小时、15分钟）寻找具体入场结构",
+    "两阶段SMT（两个连续的分歧信号）视为更强的反转确认",
+    "若SMT被后续价格突破，则该分歧信号失效，不再有效",
+    "在经济数据发布（如CPI）等高波动事件后，价格快速扫除前期高/低点并产生FVG或Displacement，随后反向运行，可识别为机构操纵型SMT",
+    "当主要资产摆动信号不明确时，若相关资产已扫除对应流动性点，可将其作为主要资产形成受保护摆动的二次验证"
+  ],
+  "trading_implication": "SMT作为辅助确认工具而非独立入场信号，与OB、FVG、MSS、CSD等结构工具组合使用。分歧确认后可预期价格从已扫荡的流动性区域反向运行；两阶段SMT或SMT与CSD组合时信号强度最高。可帮助交易者在多资产中选择最优交易对象（做空弱势资产），并在反转序列早期入场，无需等待turtle soup阶段。止损设于未被突破的极值点。",
+  "common_mistakes": [
+    "仅依赖单一资产的价格走势判断趋势反转，忽视相关资产的分歧确认",
+    "将SMT作为独立入场信号而非辅助确认工具使用",
+    "未正确选取相关资产对，将非相关资产的价格差异误判为SMT分歧",
+    "在SMT形成后未等待下跌/上涨K线收盘穿过关键水平确认，过早入场",
+    "将操纵过程中的突破误认为真实趋势反转，在操纵高点追多或操纵低点追空",
+    "忽视经济数据发布时间（Killzone），未能识别操纵的时间背景",
+    "未在足够高的时间框架（如4小时或日线）上观察分歧，导致信号可靠性不足",
+    "在SMT被后续价格突破后仍认为其有效，忽视分歧失效信号",
+    "在整理区间内的OB上寻找SMT，因整理区间订单块可信度较低",
+    "在没有相对强弱确认的情况下仓促交易SMT信号",
+    "混淆SMT与普通价格分歧，未结合流动性扫荡和市场结构变化进行确认",
+    "在没有SMT配合的情况下，仍将不完全的K线形态视为有效交易信号",
+    "仅在低时间框架过度交易SMT信号，忽视高时间框架偏差强度差异"
+  ],
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Precision Swing Point",
+      "card_id": "precision_swing_point",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array",
+      "card_id": "premium_discount_array",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Correlated Assets",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Continuation Candle",
+      "card_id": "continuation_candle",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Midnight Open",
+      "card_id": "midnight_open",
+      "exists": true
+    },
+    {
+      "term": "Relevant High/Low",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "8BWkRGhuj1k_case_004_usd_日线7月23日至7月29日的空头交易设置",
+      "video_id": "8BWkRGhuj1k",
+      "title": "USD日线空头交易设置：从日线识别到15分钟精确入场"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_002_gld月线至小时线的看涨交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "GLD月线至小时线的看涨交易——受保护摆动入场"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_006_eth_1小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "ETH 1小时线多时间框架看跌交易"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_004_es_5分钟空头案例_伦敦会话扫盘",
+      "video_id": "AdmnWLjf8rY",
+      "title": "ES 5分钟空头案例：伦敦会话扫盘后的drawn liquidity狙击"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_005_nq_多时间框架综合分析案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ 多时间框架综合分析：6点反转到10点延续交易"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_006_es1期货60分钟图的订单块与流动性链条",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 60分钟图：低阻力流动性扫荡与订单块反向运行"
+    },
+    {
+      "card_id": "HrjYoxAUb3s_case_001_美元看跌时的eur_usd和usd_jpy配对案例",
+      "video_id": "HrjYoxAUb3s",
+      "title": "美元看跌时的EUR/USD和USD/JPY配对交易案例"
+    },
+    {
+      "card_id": "HrjYoxAUb3s_case_003_美元盘整时的eur_cad_eur_nzd_eur_aud配对",
+      "video_id": "HrjYoxAUb3s",
+      "title": "美元盘整时的EUR/CAD、EUR/NZD、EUR/AUD配对分析"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_001_黄金期货_gc_日线至5分钟多时间框架延续交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "黄金期货(GC)日线至5分钟多时间框架延续交易"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_004_黄金15分钟多重反转扩张案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "黄金15分钟多重反转扩张案例"
+    },
+    {
+      "card_id": "YESqIoA7Wyg_case_004_纳斯达克月线至15分钟自上而下分析",
+      "video_id": "YESqIoA7Wyg",
+      "title": "纳斯达克月线至15分钟自上而下分析与流动性狙击"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_001_gbpusd_1小时图的mitigation_block交易",
+      "video_id": "bbWPoajy2MY",
+      "title": "GBPUSD 1小时图的两个Mitigation Block案例分析"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_002_nzdusd周五至周五的交易演变",
+      "video_id": "klaiq36QnEM",
+      "title": "NZDUSD周五日线订单块与纽约盘卖出设置"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_008_usd多层级延续交易的完整案例",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD多层级延续交易：日线延续+小时图反转入场达成2R"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_016_usd_4小时与15分钟的反转与延续交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD 4H反转后15分钟反转与延续交易"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_003_usd期货月线到日线到小时线的多级分形",
+      "video_id": "tyoxl1l-6iI",
+      "title": "USD期货月线到日线到小时线的多级分形交易"
+    },
+    {
+      "card_id": "wy3OSPxu5U0_case_003_usd_8月15日的多级别空头交易分析",
+      "video_id": "wy3OSPxu5U0",
+      "title": "USD 8月15日多级别空头交易分析：从日线OB到5分钟FVG入场"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_005_纳斯达克100的纽约反转与操纵",
+      "video_id": "xdzyejskSKE",
+      "title": "NQ纽约开盘8:30操纵反转与时间窗口交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-wr4xATE37g",
+      "original_card_id": "-wr4xATE37g_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.96,
+        190.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "0R61Y6Pn74Q",
+      "original_card_id": "0R61Y6Pn74Q_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.519,
+        121.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        414.96,
+        754.24
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "5fnFOh5YuM0",
+      "original_card_id": "5fnFOh5YuM0_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.12,
+        369.319
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "5rbFskdmEmU",
+      "original_card_id": "5rbFskdmEmU_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        183.9,
+        360.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_005",
+        "seg_008"
+      ],
+      "time_range": [
+        268.479,
+        440.56
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "9PKJ0U1gl4g",
+      "original_card_id": "9PKJ0U1gl4g_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        196.28,
+        373.479
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "A8UpRZlRzlg",
+      "original_card_id": "A8UpRZlRzlg_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.72,
+        187.0
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        295.58
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_017"
+      ],
+      "time_range": [
+        757.36,
+        820.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FGkb_50BfT8",
+      "original_card_id": "FGkb_50BfT8_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        370.84,
+        549.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_008"
+      ],
+      "time_range": [
+        524.8,
+        565.36
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "IJcfC6wAPZU",
+      "original_card_id": "IJcfC6wAPZU_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.96,
+        372.599
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "IPZjNI1B5a0",
+      "original_card_id": "IPZjNI1B5a0_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        727.959,
+        907.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        697.12,
+        748.399
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "Ovotm9l99QQ",
+      "original_card_id": "Ovotm9l99QQ_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.859,
+        187.5
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_020",
+        "seg_022",
+        "seg_023",
+        "seg_031"
+      ],
+      "time_range": [
+        949.279,
+        1532.48
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "WFqLwOp2pXw",
+      "original_card_id": "WFqLwOp2pXw_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        121.6,
+        206.07999999999998
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "WwmS47Gb3M0",
+      "original_card_id": "WwmS47Gb3M0_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.84,
+        551.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "klaiq36QnEM",
+      "original_card_id": "klaiq36QnEM_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_001",
+        "seg_007"
+      ],
+      "time_range": [
+        2.82,
+        812.519
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "nWHint4Yano",
+      "original_card_id": "nWHint4Yano_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        366.319,
+        407.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_007",
+        "seg_010",
+        "seg_020",
+        "seg_028",
+        "seg_037",
+        "seg_040"
+      ],
+      "time_range": [
+        422.56,
+        2098.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "tyoxl1l-6iI",
+      "original_card_id": "tyoxl1l-6iI_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_009"
+      ],
+      "time_range": [
+        609.36,
+        705.76
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        192.959,
+        727.639
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wy3OSPxu5U0",
+      "original_card_id": "wy3OSPxu5U0_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        421.68,
+        450.199
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xdzyejskSKE",
+      "original_card_id": "xdzyejskSKE_concept_smart_money_technique",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.399,
+        726.92
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 26,
+    "source_videos": 26,
+    "high_confidence_sources": 16,
+    "medium_confidence_sources": 10,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:52:12.294674Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 4"
+  ],
+  "merge_notes": "全部26张原始卡school字段均为SMC，无冲突。部分卡片（5rbFskdmEmU）将SMT描述为单资产标记工具，与主流多资产分歧定义存在细微差异，已综合纳入识别规则中的位移/缺乏位移判断维度。",
+  "error": null
+}

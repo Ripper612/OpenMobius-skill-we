@@ -1,0 +1,134 @@
+{
+  "card_id": "confirmation_levels",
+  "type": "merged_concept",
+  "canonical_term": "Confirmation Levels",
+  "aliases": [
+    "Confirmation stages",
+    "Order of Reversal"
+  ],
+  "school": "ICT",
+  "definition": "交易者根据风险偏好选择的反转确认程度等级，由五个递进结构阶段组成：Turtle Soup、Inversion、CSD/OB、Breaker Block、FVG。确认程度越高，止损位置越安全，但入场时机越晚；确认程度越低，入场越早，但止损被扫概率越高。",
+  "identification_rules": [
+    "少量确认（Little Confirmation）：仅识别Turtle Soup——价格扫过前期摆动高点/低点，无受保护的摆动点作为止损参考，确认度最低。",
+    "中等确认（More Confirmation）：在Turtle Soup基础上，等待Inversion形成（扫高后价格收盘于FVG下方等反向收盘信号）或CSD出现，提供初步结构确认。",
+    "高确认（High Confirmation）：依次出现Turtle Soup、Inversion、CSD/OB、Breaker Block，最终在反转方向形成新的FVG，为最高确认级别。",
+    "确认程度越高，止损位置越接近价格，入场风险越低，但入场机会越少。",
+    "交易者须在交易前选定一个确认等级并机械化执行，不在同一交易中混用不同阶段作为触发条件。"
+  ],
+  "trading_implication": "交易者应根据自身风险偏好选定一个确认等级并专注执行：早期阶段（Turtle Soup）风险高但机会早，适合激进交易者，需做好止损频繁被扫的心理准备；后期阶段（Breaker/FVG）确认充分、止损更安全，但入场点较晚。关键是选定一个阶段并保持一致性，以积累有效的交易统计，建议结合高低点和流动性使用。",
+  "common_mistakes": [
+    "同时标记和使用所有五个阶段，导致入场点混乱，无法建立一致的交易规则和数据记录。",
+    "在不同交易中使用不同的确认阶段作为入场触发，导致无法积累有效的交易统计。",
+    "误认为必须等待所有五个阶段完成才能入场，错失早期高概率机会。",
+    "混淆各阶段的定义，例如将Inversion与CSD混为一谈，导致识别错误。",
+    "在交易遇到困难时频繁切换确认程度或策略，而非坚持选定的方法。",
+    "使用少量确认入场但未做好止损被扫的心理准备，导致频繁止损出局。"
+  ],
+  "related_concepts": [
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "CSD / Change in the state of delivery",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "wik00c9_2nk_case_001_eurusd_1分钟反转序列案例",
+      "video_id": "wik00c9_2nk",
+      "title": "EURUSD 1分钟整理区间扫低后的完整反转序列"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "r_UF8U-hsL8",
+      "original_card_id": "r_UF8U-hsL8_concept_order_of_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        11.12,
+        393.84000000000003
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "r_UF8U-hsL8",
+      "original_card_id": "r_UF8U-hsL8_concept_confirmation_levels",
+      "segment_ids": [
+        "seg_003",
+        "seg_005"
+      ],
+      "time_range": [
+        124.0,
+        352.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 1,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:22.958854Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "两张原始卡来自同一视频，school 均为 ICT，无冲突。第一张卡侧重五阶段结构定义（Order of Reversal），第二张侧重确认等级选择框架，已综合为统一定义。",
+  "error": null
+}

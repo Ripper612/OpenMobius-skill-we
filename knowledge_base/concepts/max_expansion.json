@@ -1,0 +1,59 @@
+{
+  "card_id": "max_expansion",
+  "type": "merged_concept",
+  "canonical_term": "Max Expansion",
+  "aliases": [
+    "-4 Standard Deviation",
+    "Fourth Standard Deviation Extension"
+  ],
+  "school": "ICT",
+  "definition": "价格达到-4标准差水平时的最大扩展点。此后可标记该波段的折价区和溢价区，预期价格回撤至均衡点（EQ）。",
+  "identification_rules": [
+    "使用斐波那契回撤工具，设置标准差为1、0、-1、-2、-2.5、-4",
+    "以操纵腿（manipulation leg）为锚点投影标准差水平",
+    "当价格穿过-2至-2.5标准差后继续延伸，触及-4标准差水平即为Max Expansion",
+    "Max Expansion通常出现在价格完成位移（Displacement）后的极端点"
+  ],
+  "trading_implication": "Max Expansion标志着价格波段的极端扩展。到达此点后，交易者应标记该区间的折价区（下半部分）和溢价区（上半部分），以0.5斐波那契水平（均衡点）为分界线。预期价格将从Max Expansion回撤至均衡点，该区域常与PD arrays（如FVG、Order Block、等高点）形成汇聚，提供高概率交易设置。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "kTWXpAo1uE8_case_002_第二个案例_下跌后上升的标准差投影与pd数组对齐",
+      "video_id": "kTWXpAo1uE8",
+      "title": "NQ1! 下跌后反弹：标准差投影与Order Block及Equal Highs对齐"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_max_expansion",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        129.52,
+        403.96
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134071Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

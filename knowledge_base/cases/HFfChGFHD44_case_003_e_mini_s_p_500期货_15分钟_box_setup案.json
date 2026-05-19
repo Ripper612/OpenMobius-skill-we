@@ -1,0 +1,103 @@
+{
+  "card_id": "HFfChGFHD44_case_003_e_mini_s_p_500期货_15分钟_box_setup案",
+  "type": "case",
+  "title": "ES 15分钟 Box Setup案例3：高点激进回入与2R目标设置",
+  "related_concepts": [
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "2R Target",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "box_setup",
+    "inducement",
+    "displacement",
+    "order_block",
+    "fair_value_gap"
+  ],
+  "school": "ICT",
+  "asset": "ES (E-MINI S&P 500 Futures)",
+  "timeframe": "15M",
+  "market_context": "价格在高点4187.5-4141.0区间形成Box Setup，激进上行后激进回入该范围，博主标记偏差区域并设置止损与2R目标进行空头交易。",
+  "key_observation": "在高点处识别Box Setup，价格激进突破后快速回入原范围，形成明确的Inducement设置，为空头交易提供高概率入场机会。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别高点4187.5和低点4141.0形成的Box Setup范围",
+    "Step 2: 观察价格激进上行突破高点，随后激进回入Box范围内",
+    "Step 3: 标记偏差区域（Deviation from range），即价格超出Box的部分",
+    "Step 4: 确认回测点位，价格重新进入Box范围",
+    "Step 5: 在15分钟图上切换，标记止损位于高点附近（约4123.50），基于K线体的支撑",
+    "Step 6: 设置目标为2R，从入场点向下至Box下方（约4101.75-4094区间）",
+    "Step 7: 执行空头交易，等待价格向下运行至目标区域"
+  ],
+  "outcome": "价格从入场点4118.00附近下行，止损5.50点（0.13%），目标达成2R收益（约7.25点），交易成功完成。",
+  "lessons": "Box Setup在高点处提供明确的Inducement机会；激进突破后的快速回入是空头信号；使用K线体而非影线确定支撑位更可靠；2R目标设置基于Box的另一侧边界，提供清晰的风险回报比。",
+  "primary_image": "cards/HFfChGFHD44/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/HFfChGFHD44/images/case_003_detail_1.jpg",
+    "cards/HFfChGFHD44/images/case_003_detail_2.jpg",
+    "cards/HFfChGFHD44/images/case_003_detail_3.jpg",
+    "cards/HFfChGFHD44/images/case_003_detail_4.jpg",
+    "cards/HFfChGFHD44/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 E-MINI S&P 500 期货（JUN 2023）15 分钟 K 线图，来自 CME_MINI。图上可见价格范围约 4094 至 4126。图上有一个红色边框矩形，覆盖约 4101.75 至 4118.50 区间，横跨多根 K 线。矩形右侧延伸出两个填色矩形：上方为绿色（薄荷色）矩形，覆盖约 4101.75 至 4123.50；下方为粉红色矩形，覆盖约 4094 至 4101.75。右",
+    "case_003_detail_1.jpg": "图表为 E-MINI S&P 500 期货（2023年6月）1小时 K 线图，交易所为 CME_MINI。可见价格范围约从 4127.5 至 4205.0。图上绘有一个红色边框矩形，横跨约日期17至19，价格区间约 4141 至 4187.5。图右侧有两个填色矩形：上方为粉色矩形，价格区间约 4187.5 至 4198；下方为浅绿色矩形，价格区间约 4141 至 4187.5。右侧价格轴上可见三个",
+    "case_003_detail_2.jpg": "图为 E-MINI S&P 500 期货（ES）1 小时 K 线图，可见价格范围约 4130 至 4205。图上有两条横跨全图的红色水平线，分别位于约 4187.5 和 4141.0。图上另有一个粉色矩形框，覆盖约 4187.5 至 4200.0 的价格区间，水平范围从 18 Apr 延伸至约 20 Apr。18 Apr 附近出现一根较长的阴线，从约 4197 下行至约 4165。图右侧价格轴显示",
+    "case_003_detail_3.jpg": "图表为 E-MINI S&P 500 期货（JUN 2023）15 分钟 K 线图，来自 CME，时间轴显示 2023 年 4 月 20 日。图上可见价格范围约从 4136 至 4168。图中有一条红色水平线位于约 4146.50 处，横跨约 04:30 至 07:15 时间段。图右侧价格轴标注两个价格标签：4153.50（带高亮背景）与 4146.50。图左侧可见一根大阴线，随后出现多根小实体 ",
+    "case_003_detail_4.jpg": "图为 E-MINI S&P 500 期货（JUN 2023）15 分钟 K 线图，来自 CME MINI，时间轴显示当前时间为 Thu 06 Apr '23 08:45。图右侧有一个交易标注区域，包含两个矩形框：上方粉色矩形覆盖约 4118.00 至 4123.50 区间，标注文字为\"Stop: 5.50 (0.13%) 22, Amount: 750\"；下方绿色矩形覆盖约 4111.00 至 4",
+    "case_003_detail_5.jpg": "图为 S&P 500 E-mini Futures（CME_MINI）1 分钟 K 线图，时间轴范围约从 08:10 至 10:30，日期标注为 2023 年 5 月 10 日（周三）。可见价格范围约从 4156 至 4177。图上 K 线从左侧约 4156 区域向右上方延伸至约 4172，随后出现一根向下的 K 线至约 4164。右侧价格轴有两个高亮标签：4169.50 及 4164.00。图上"
+  },
+  "sources": [
+    {
+      "video_id": "HFfChGFHD44",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        184.5,
+        380.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从1小时到15分钟的分析过程，清晰标记了Box范围、偏差区域、止损和目标位置，并给出了具体的交易结果数据。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:19.785442Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 15分钟 Box Setup案例3：高点激进回入与2R目标设置\",\"school\":\"ICT\",\"asset\":\"ES (E-MINI S&P 500 Futures)\",\"timeframe\":\"15M\",\"market_context\":\"价格在高点4187.5-4141.0区间形成Box Setup，激进上行后激进回入该范围，博主标记偏差区域并设置止损与2R目标进行空头交易。\",\"key_observation\":\"在高点处识别Box Setup，价格激进突破后快速回入原范围，形成明确的Inducement设置，为空头交易提供高概率入场机会。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别高点4187.5和低点4141.0形成的Box Setup范围\",\"Step 2: 观察价格激进上行突破高点，随后激进回入Box范围内\",\"Step 3: 标记偏差区域（Deviation from range），即价格超出Box的部分\",\"Step 4: 确认回测点位，价格重新进入Box范围\",\"Step 5: 在15分钟图上切换，标记止损位于高点附近（约4123.50），基于K线体的支撑\",\"Step 6: 设置目标为2R，从入场点向下至Box下方（约4101.75-4094区间）\",\"Step 7: 执行空头交易，等待价格向下运行至目标区域\"],\"outcome\":\"价格从入场点4118.00附近下行，止损5.50点（0.13%），目标达成2R收益（约7.25点），交易成功完成。\",\"lessons\":\"Box Setup在高点处提供明确的Inducement机会；激进突破后的快速回入是空头信号；使用K线体而非影线确定支撑位更可靠；2R目标设置基于Box的另一侧边界，提供清晰的风险回报比。\",\"primary_image_frame_id\":\"HFfChGFHD44_f012\",\"supporting_image_frame_ids\":[\"HFfChGFHD44_f007\",\"HFfChGFHD44_f008\",\"HFfChGFHD44_f009\",\"HFfChGFHD44_f011\",\"HFfChGFHD44_f013\"],\"related_concepts\":[\"Box Setup\",\"Inducement\",\"Displacement\",\"Order Block\",\"Fair Value Gap\",\"Risk Management\",\"2R Target\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从1小时到15分钟的分析过程，清晰标记了Box范围、偏差区域、止损和目标位置，并给出了具体的交易结果数据。\"}",
+  "error": null
+}

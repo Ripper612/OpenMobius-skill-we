@@ -1,0 +1,97 @@
+{
+  "card_id": "qdQYhePcvGE_case_009_gbp_usd小时图与5分钟的candle_3交易",
+  "type": "case",
+  "title": "GBP/USD小时反转后5分钟Candle 3延续交易",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Continuation Pattern",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity (Buyside)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "time_frame_confluence",
+    "reversal_candle"
+  ],
+  "school": "ICT",
+  "asset": "GBP/USD",
+  "timeframe": "5M (with 1H context)",
+  "market_context": "纽约开盘时段，GBP/USD小时图形成反转信号后，博主在5分钟图寻求延续交易机会。价格在1.9720-1.9890区间内波动，显示新交易时段的活跃度增加。",
+  "key_observation": "小时图形成反转蜡烛后，5分钟图出现Change in State of Delivery，价格在此区域平衡后形成延续信号。Candle 3未能扩张，预示Candle 4可能形成延续。",
+  "analysis_steps": [
+    "Step 1: 观察小时图，识别价格未突破范围两侧，随后形成反转蜡烛（黑色蜡烛从1.9900回落）",
+    "Step 2: 下移至5分钟图，进入纽约开盘时段寻求延续交易而非反转交易",
+    "Step 3: 识别5分钟图上的Change in State of Delivery，价格向下触及此区域后平衡",
+    "Step 4: 观察价格突破下跌蜡烛收盘价，形成买入信号，止损设在当前低点",
+    "Step 5: 监控Candle 3形态，若未能扩张则预期Candle 4延续；若形成看跌反转则避免交易",
+    "Step 6: 目标设定为2R或买方流动性/上方投影位"
+  ],
+  "outcome": null,
+  "lessons": "在多时间框架分析中，高时间框架（小时图）提供交易偏向，低时间框架（5分钟图）用于精确入场。Change in State of Delivery与价格平衡结合可识别高概率延续点。Candle 3的形态（是否扩张）是判断Candle 4是否延续的关键指标。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_009_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_009_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_009_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_009_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_009_primary.jpg": "GLL 5分钟K线图。图上显示从23:00至10:30时间段的价格走势，价格范围在1.9700至1.9920之间。图上有三条水平虚线分别位于1.9894、1.9810和1.9751。标注了多个矩形区域，其中两个分别标记为'c4'和'c2'，其余矩形区域未标记。K线由绿色和黑色蜡烛组成，早期出现一根较大的黑色K线从1.9820跌至1.9730。右上角显示'The Market Lens'、'RESI",
+    "case_009_detail_1.jpg": "GBP/USD 1小时K线图。图上显示价格范围从1.9300至2.0248。可见三条水平线分别位于1.9950、1.9680和1.9450。图中标注有矩形框标记为C1、I1、C2等，框体位于1.9450至1.9680区间。K线呈现混合形态，包含绿色和黑色蜡烛，其中一根黑色蜡烛达到约1.9900高度后回落。图右下角显示时间戳16:00:00及\"Bias: Bullish\"文字标签。",
+    "case_009_detail_2.jpg": "GLL 1 小时 K 线图。图上显示价格范围从 1.9300 到 2.0248。可见多条水平线标注，分别位于 1.9950、1.9450 和 1.9800 价位。图上有两个矩形框标注，分别覆盖 1.9800-1.9900 和 1.9450-1.9650 区间。标注有一条向下趋势线标记为 C1，以及文字标记 C2。K 线形态显示在 1.9450-1.9900 区间内有多根 K 线形成整理，其中包含绿",
+    "case_009_detail_3.jpg": "GBP/USD 5分钟K线图。图上显示从约00:35至10:00的交易时段。价格范围从1.9680至1.9920。图上有两条水平虚线分别位于1.9757和1.9750。可见两个矩形标注框分别围绕1.9760-1.9790和1.9730-1.9760区间。图上标记有文字'c2'位于1.9720-1.9730附近。K线呈现先涨后跌再整理的形态，早期上升至1.9890，随后下跌至1.9720，中间段出现"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        1072.32,
+        1168.559
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从小时图反转识别到5分钟图Candle 3交易的全过程，包括具体价位、蜡烛形态、入场逻辑和目标设定。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:02.590875Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBP/USD小时反转后5分钟Candle 3延续交易\",\"school\":\"ICT\",\"asset\":\"GBP/USD\",\"timeframe\":\"5M (with 1H context)\",\"market_context\":\"纽约开盘时段，GBP/USD小时图形成反转信号后，博主在5分钟图寻求延续交易机会。价格在1.9720-1.9890区间内波动，显示新交易时段的活跃度增加。\",\"key_observation\":\"小时图形成反转蜡烛后，5分钟图出现Change in State of Delivery，价格在此区域平衡后形成延续信号。Candle 3未能扩张，预示Candle 4可能形成延续。\",\"analysis_steps\":[\"Step 1: 观察小时图，识别价格未突破范围两侧，随后形成反转蜡烛（黑色蜡烛从1.9900回落）\",\"Step 2: 下移至5分钟图，进入纽约开盘时段寻求延续交易而非反转交易\",\"Step 3: 识别5分钟图上的Change in State of Delivery，价格向下触及此区域后平衡\",\"Step 4: 观察价格突破下跌蜡烛收盘价，形成买入信号，止损设在当前低点\",\"Step 5: 监控Candle 3形态，若未能扩张则预期Candle 4延续；若形成看跌反转则避免交易\",\"Step 6: 目标设定为2R或买方流动性/上方投影位\"],\"outcome\":null,\"lessons\":\"在多时间框架分析中，高时间框架（小时图）提供交易偏向，低时间框架（5分钟图）用于精确入场。Change in State of Delivery与价格平衡结合可识别高概率延续点。Candle 3的形态（是否扩张）是判断Candle 4是否延续的关键指标。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f039\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f001\",\"qdQYhePcvGE_f037\",\"qdQYhePcvGE_f038\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Candle 3 Continuation Pattern\",\"Liquidity (Buyside)\",\"Multi-Timeframe Analysis\",\"Price Action\",\"Reversal Candle\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从小时图反转识别到5分钟图Candle 3交易的全过程，包括具体价位、蜡烛形态、入场逻辑和目标设定。\"}",
+  "error": null
+}

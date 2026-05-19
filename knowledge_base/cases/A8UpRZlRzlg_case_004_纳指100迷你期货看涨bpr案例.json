@@ -1,0 +1,105 @@
+{
+  "card_id": "A8UpRZlRzlg_case_004_纳指100迷你期货看涨bpr案例",
+  "type": "case",
+  "title": "纳指100迷你期货看涨BPR形成与做多入场",
+  "related_concepts": [
+    {
+      "term": "BPR (Balanced Price Range)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "ote_optimal_trade_entry",
+    "liquidity",
+    "order_block",
+    "fibonacci_retracement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "纳指100迷你期货经历看空运动（aggressive sell产生FVG）后遇到看多运动（aggressive buy产生FVG），两个FVG重叠形成BPR区域，构成高概率做多入场点。",
+  "key_observation": "博主演示BPR（平衡价格区间）的核心机制：看空运动与看多运动产生的两个FVG重叠，形成强支撑区域，作为可靠的做多入场点，并可结合OT（最优交易入场）工具优化风险回报比。",
+  "analysis_steps": [
+    "Step 1: 识别看空运动（aggressive sell）产生的FVG缺口",
+    "Step 2: 识别随后看多运动（aggressive buy）产生的第二个FVG缺口",
+    "Step 3: 观察两个FVG重叠的区域，确认BPR形成",
+    "Step 4: 在BPR区域内标记做多入场点",
+    "Step 5: 使用斐波那契回撤（0.5、0.62、0.79水平）在BPR内精确定位OTE（最优交易入场）",
+    "Step 6: 设置止损位于BPR上方的摆动高点，目标指向新低点"
+  ],
+  "outcome": null,
+  "lessons": "BPR由看空FVG与看多FVG重叠形成，是市场结构平衡的表现，提供高概率做多机会。结合OT工具可优化风险回报比。内部范围流动性的扫荡常先于价格突破发生，需在低时间框架观察确认。",
+  "primary_image": "cards/A8UpRZlRzlg/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/A8UpRZlRzlg/images/case_004_detail_1.jpg",
+    "cards/A8UpRZlRzlg/images/case_004_detail_2.jpg",
+    "cards/A8UpRZlRzlg/images/case_004_detail_3.jpg",
+    "cards/A8UpRZlRzlg/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，来源标注为 CME_MINI / TradingView。图右侧价格刻度范围约从 11316 至 11400。图中央偏左区域绘有一个矩形框，框体覆盖约 11341 至 11349 价格区间，矩形上下边各对应一条水平线。图右侧价格轴显示两个高亮标签：11349.25 与 11341.75。K 线序列从图左约 2",
+    "case_004_detail_1.jpg": "图表标题显示为 NASDAQ 100 E-mini Futures，来自 CME MINI，平台为 TradingView。图右侧价格刻度显示当前价约 11399.25，另一标签显示 11374.75。K 线从图左上方约 11476 区域向下运行至约 11374 低点后回升，右侧 K 线回升至约 11460 附近。图上约 11:00 时间区域有一个矩形标注框，附近有文字标签",
+    "case_004_detail_2.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，时间轴显示 2022 年 10 月 3 日 21:00 至次日 00:10 区间。图右侧价格刻度范围约 11310 至 11400。图中绘有斐波那契回撤工具，标注 0.5、0.62、0.79 三个水平位，分别对应约 11347、11342、11328 价位。图上另有两个矩形框标注，一个位于约 11344 至 ",
+    "case_004_detail_3.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，来自 TradingView CME_MINI 数据源。可见价格范围约从 11440 至 11576。图右侧价格轴标注两个高亮价格标签：11517.00 与 11503.75。图上约 09:30 附近有一根较长阴线，随后 K 线在 11460 至 11510 区间内形成多根密集排列。约 09:30 处一根 K",
+    "case_004_detail_4.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，来源为 TradingView，时间轴显示范围约为 07:50 至 11:00，日期标注为 Wed 05 Oct '22。可见价格范围约从 11432 至 11577。图上有一个灰色半透明矩形标注，覆盖约 09:10 至 09:30 时段、价格约 11500 至 11524 区间内的数根 K 线。右侧价格轴当"
+  },
+  "sources": [
+    {
+      "video_id": "A8UpRZlRzlg",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        187.0,
+        338.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了BPR形成机制、价格标注清晰（11341-11349区间），分析步骤按顺序展开，图表标注详细，资产代码与时间框架明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:12.214624Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳指100迷你期货看涨BPR形成与做多入场\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"纳指100迷你期货经历看空运动（aggressive sell产生FVG）后遇到看多运动（aggressive buy产生FVG），两个FVG重叠形成BPR区域，构成高概率做多入场点。\",\"key_observation\":\"博主演示BPR（平衡价格区间）的核心机制：看空运动与看多运动产生的两个FVG重叠，形成强支撑区域，作为可靠的做多入场点，并可结合OT（最优交易入场）工具优化风险回报比。\",\"analysis_steps\":[\"Step 1: 识别看空运动（aggressive sell）产生的FVG缺口\",\"Step 2: 识别随后看多运动（aggressive buy）产生的第二个FVG缺口\",\"Step 3: 观察两个FVG重叠的区域，确认BPR形成\",\"Step 4: 在BPR区域内标记做多入场点\",\"Step 5: 使用斐波那契回撤（0.5、0.62、0.79水平）在BPR内精确定位OTE（最优交易入场）\",\"Step 6: 设置止损位于BPR上方的摆动高点，目标指向新低点\"],\"outcome\":null,\"lessons\":\"BPR由看空FVG与看多FVG重叠形成，是市场结构平衡的表现，提供高概率做多机会。结合OT工具可优化风险回报比。内部范围流动性的扫荡常先于价格突破发生，需在低时间框架观察确认。\",\"primary_image_frame_id\":\"A8UpRZlRzlg_f011\",\"supporting_image_frame_ids\":[\"A8UpRZlRzlg_f010\",\"A8UpRZlRzlg_f009\",\"A8UpRZlRzlg_f012\",\"A8UpRZlRzlg_f013\"],\"related_concepts\":[\"BPR (Balanced Price Range)\",\"FVG (Fair Value Gap)\",\"Displacement\",\"OTE (Optimal Trade Entry)\",\"Liquidity\",\"Order Block\",\"Fibonacci Retracement\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了BPR形成机制、价格标注清晰（11341-11349区间），分析步骤按顺序展开，图表标注详细，资产代码与时间框架明确。\"}",
+  "error": null
+}

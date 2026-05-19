@@ -1,0 +1,58 @@
+{
+  "card_id": "long_term_high_long_term_low",
+  "type": "merged_concept",
+  "canonical_term": "Long-term High / Long-term Low",
+  "aliases": [
+    "LTH / LTL"
+  ],
+  "school": "ICT",
+  "definition": "由高时间框架水平的价格反应形成的摆动点。需在其两侧各形成一个中期摆动点来验证，确认该高/低点的有效性。",
+  "identification_rules": [
+    "价格对高时间框架水平（HTF Level）产生反应，形成初始摆动点",
+    "在该摆动点的左侧形成一个中期摆动点（ITH 或 ITL）",
+    "在该摆动点的右侧形成另一个中期摆动点（ITH 或 ITL）",
+    "两侧的中期摆动点都需通过各自的短期摆动点验证（短期高点两侧各有更低的高点，或短期低点两侧各有更高的低点）",
+    "长期摆动点通常在价格扫除短期摆动点后、形成相反方向的短期摆动点时确认"
+  ],
+  "trading_implication": "长期摆动点标志着市场结构中的关键转折点，代表机构订单流的重要反应区域。确认后的长期高点通常成为后续下跌的阻力或反弹目标，长期低点则成为上升的支撑。交易者可用其识别趋势反转的有效性，以及寻找中期摆动点作为进场或止损参考。",
+  "common_mistakes": [
+    "未等待两侧中期摆动点的完整形成就过早标记长期摆动点",
+    "混淆短期摆动点与长期摆动点，导致错误的结构判断",
+    "忽视长期摆动点必须由高时间框架水平反应形成的前提条件",
+    "在价格仅扫除一侧的中期摆动点时就认为长期摆动点已失效"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "umyCqr_0NsI",
+      "original_card_id": "umyCqr_0NsI_concept_long_term_high_long_term_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.599,
+        729.519
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133819Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

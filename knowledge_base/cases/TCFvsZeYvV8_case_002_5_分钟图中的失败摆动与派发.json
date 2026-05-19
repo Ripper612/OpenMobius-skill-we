@@ -1,0 +1,104 @@
+{
+  "card_id": "TCFvsZeYvV8_case_002_5_分钟图中的失败摆动与派发",
+  "type": "case",
+  "title": "5分钟图中的失败摆动与派发交易设置",
+  "related_concepts": [
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity (SSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "accumulation_manipulation_distribution_amd",
+    "order_block_ob",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "failure_swing",
+    "inversion",
+    "consolidation"
+  ],
+  "school": "ICT",
+  "asset": "NQ21",
+  "timeframe": "5M",
+  "market_context": "价格在1分钟图上经历大幅下跌后，在5分钟图上形成盘整区间。博主识别出积累-操纵-派发（AMD）周期，其中操纵阶段扫除卖方流动性，随后派发向上至失败摆动高点。",
+  "key_observation": "在5分钟图上，价格在盘整区间内扫除低点后，形成反转形态（inversion），随后向上派发至失败摆动高点（failure swing high），该高点处存在卖方流动性（sellside liquidity）。",
+  "analysis_steps": [
+    "Step 1: 在1分钟图上识别从14435.00下跌至14290.00的大幅下跌，随后在14340-14360区间形成盘整。",
+    "Step 2: 切换至5分钟图，确认盘整区间（consolidation）的上下边界，标记为14332.00和14304.00。",
+    "Step 3: 识别操纵阶段（manipulation）：价格激进地离开盘整区间，扫除下方低点，同时扫除卖方流动性。",
+    "Step 4: 识别派发阶段（distribution）：价格向上回到盘整区间，形成反转形态（inversion）。",
+    "Step 5: 定位失败摆动高点（failure swing high）处的卖方流动性，作为派发的目标。",
+    "Step 6: 在反转形态处确定入场点，以扫除的低点作为止损，以失败摆动高点作为目标。"
+  ],
+  "outcome": null,
+  "lessons": "AMD周期在5分钟图上清晰可见：积累阶段形成盘整，操纵阶段扫除流动性，派发阶段向上至失败摆动高点。反转形态（inversion）提供高概率入场机会，止损设在操纵阶段的低点，目标设在失败摆动高点处的卖方流动性。",
+  "primary_image": "cards/TCFvsZeYvV8/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/TCFvsZeYvV8/images/case_002_detail_1.jpg",
+    "cards/TCFvsZeYvV8/images/case_002_detail_2.jpg",
+    "cards/TCFvsZeYvV8/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 5分钟K线图。图上显示从03:00至14:30的价格走势，可见价格范围约14252至14364。图中有一条水平线位于14332.00。两个矩形框标注分别覆盖14300-14340区间（蓝色）和14268-14290区间（红色）。K线序列呈现绿色和黑色交替排列。图右下角显示当前价格标签14064.75。时间轴标注从03:00至14:30，日期标记为27/10/2023。",
+    "case_002_detail_1.jpg": "USD 1 分钟 K 线图，时间戳显示 30/10/2023，NQ21 合约。图上可见价格范围从 14435.00 至 14300.00。右侧标注有两条水平线，分别位于 14334.25 和 14330.75，上方还有一条标记为'RYO 8:30'的水平线位于 14365.00。图上绘制两个矩形区域：上方绿色矩形覆盖约 14340 至 14475 价格范围，下方粉红色矩形覆盖约 14300 至 1",
+    "case_002_detail_2.jpg": "USD 1分钟K线图，时间范围显示30/10/2023。图上可见价格从14435.00下跌至约14290.00，随后在14340.00至14360.00区间内形成整理。图上有两个矩形标注：绿色矩形覆盖14340.00至14360.00区间，粉红色矩形覆盖14305.00至14330.00区间。两条水平线分别位于14360.00和14430.00处。右侧标注显示NYD 6:30和0:00时间标记。K",
+    "case_002_detail_3.jpg": "USD 5分钟K线图。图上显示从01:00至14:00的价格走势。可见价格范围约14283.00至14364.00。图上有两条水平线分别位于14332.00和14304.00，两线之间用矩形框标注。矩形框内包含多根绿色和黑色K线，显示价格在该区间内的波动。图右侧标注显示当前时间为27/10/2023，周期为HQ11 5分钟。底部时间轴清晰可见，未见其他指标或形态标注。"
+  },
+  "sources": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        291.84000000000003,
+        375.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了AMD周期的三个阶段，清晰标注了关键价位（14332.00、14304.00）、流动性位置、反转形态和入场/止损/目标设置。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:40.091537Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"5分钟图中的失败摆动与派发交易设置\",\"school\":\"ICT\",\"asset\":\"NQ21\",\"timeframe\":\"5M\",\"market_context\":\"价格在1分钟图上经历大幅下跌后，在5分钟图上形成盘整区间。博主识别出积累-操纵-派发（AMD）周期，其中操纵阶段扫除卖方流动性，随后派发向上至失败摆动高点。\",\"key_observation\":\"在5分钟图上，价格在盘整区间内扫除低点后，形成反转形态（inversion），随后向上派发至失败摆动高点（failure swing high），该高点处存在卖方流动性（sellside liquidity）。\",\"analysis_steps\":[\"Step 1: 在1分钟图上识别从14435.00下跌至14290.00的大幅下跌，随后在14340-14360区间形成盘整。\",\"Step 2: 切换至5分钟图，确认盘整区间（consolidation）的上下边界，标记为14332.00和14304.00。\",\"Step 3: 识别操纵阶段（manipulation）：价格激进地离开盘整区间，扫除下方低点，同时扫除卖方流动性。\",\"Step 4: 识别派发阶段（distribution）：价格向上回到盘整区间，形成反转形态（inversion）。\",\"Step 5: 定位失败摆动高点（failure swing high）处的卖方流动性，作为派发的目标。\",\"Step 6: 在反转形态处确定入场点，以扫除的低点作为止损，以失败摆动高点作为目标。\"],\"outcome\":null,\"lessons\":\"AMD周期在5分钟图上清晰可见：积累阶段形成盘整，操纵阶段扫除流动性，派发阶段向上至失败摆动高点。反转形态（inversion）提供高概率入场机会，止损设在操纵阶段的低点，目标设在失败摆动高点处的卖方流动性。\",\"primary_image_frame_id\":\"TCFvsZeYvV8_f013\",\"supporting_image_frame_ids\":[\"TCFvsZeYvV8_f010\",\"TCFvsZeYvV8_f011\",\"TCFvsZeYvV8_f012\"],\"related_concepts\":[\"Accumulation, Manipulation, Distribution (AMD)\",\"Order Block (OB)\",\"Liquidity\",\"Sellside Liquidity (SSL)\",\"Failure Swing\",\"Inversion\",\"Consolidation\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了AMD周期的三个阶段，清晰标注了关键价位（14332.00、14304.00）、流动性位置、反转形态和入场/止损/目标设置。\"}",
+  "error": null
+}

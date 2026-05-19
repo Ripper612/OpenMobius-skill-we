@@ -1,0 +1,527 @@
+{
+  "card_id": "killzone",
+  "type": "merged_concept",
+  "canonical_term": "Killzone",
+  "aliases": [
+    "10-11 AM Trading Window",
+    "AM Session Silver Bullet Window",
+    "ICT Killzone",
+    "Kill Zone",
+    "London Killzone",
+    "Session Liquidity",
+    "trading session window",
+    "交易时段",
+    "交易时段窗口",
+    "交易时间窗口",
+    "交易猎杀区",
+    "交易窗口",
+    "活跃交易时段",
+    "猎杀区",
+    "高波动性交易时段",
+    "高波动性时间窗口"
+  ],
+  "school": "ICT",
+  "definition": "交易日中特定的高波动性、高流动性时间窗口，分为亚洲（20:00-00:00）、伦敦（02:00-05:00）、纽约上午（外汇07:00-10:00，指数08:30-11:00）、纽约下午（13:30-16:00）四个时段（均为EST）。机构资金在此时段进行流动性扫荡和价格操纵，随后产生位移，形成可交易的订单块和状态改变。",
+  "identification_rules": [
+    "按EST时区划分四个主要时段：亚洲20:00-00:00、伦敦02:00-05:00、纽约上午（外汇）07:00-10:00 /（指数）08:30-11:00、伦敦收盘10:00-12:00、纽约下午（指数）13:30-16:00",
+    "确保图表时区设置为纽约时间（EST），否则时段标记将出现偏差",
+    "观察该时段内价格波动幅度和K线活跃度是否明显高于其他时段",
+    "在Killzone内识别操纵阶段（Manipulation）：价格扫除前期会话高低点或摆动高低点后，随即产生强势位移（Displacement）",
+    "位移突破会话高低点表明价格继续朝该方向运行；缺乏位移则表明价格可能反向运行至会话范围另一侧",
+    "在Killzone内寻找状态改变（Change in State of Delivery / CSD）信号，确认趋势延续或反转方向",
+    "结合高时间框架结构（FVG、Order Block、Breaker Block、流动性目标）在Killzone内出现的交易机会",
+    "需结合多时间框架确认：高时间框架确定偏向，低时间框架在Killzone内寻找具体入场信号（如MSS、FVG、OB）",
+    "Silver Bullet策略的Killzone特指10:00-11:00 AM，需先观察9:00 AM小时线高低点是否被扫除，入场必须在11:00 AM前完成",
+    "可使用ICT Killzone & Pivots指标自动标记各时段价格范围框和会话高低点；时间过滤器应用于设定时间框架以下的图表"
+  ],
+  "trading_implication": "Killzone是时间维度的交易过滤工具，也是多时间框架模型的执行约束条件。交易者先在日线/高时间框架确定内外部流动性目标和偏向，再等待进入Killzone时段，在低时间框架寻找操纵后的位移、MSS、FVG、OB等入场信号。仅执行Killzone内确认的设置，可避免低流动性时段虚假信号，提高胜率和执行效率。伦敦时段常表现为操纵，纽约上午时段通常产生日内主要波幅。",
+  "common_mistakes": [
+    "在Killzone外的低流动性时段执行相同的技术形态，导致虚假信号增加和滑点风险",
+    "未明确定义自己交易品种和时间框架对应的Killzone时段，导致执行不一致",
+    "未正确设置图表时区为纽约时间（EST），导致Killzone时间标记错误",
+    "混淆外汇和指数的纽约上午时段时间（外汇07:00-10:00 vs 指数08:30-11:00）",
+    "仅关注Killzone时间而忽视该时段内的具体价格结构（FVG、OB、流动性扫荡等）",
+    "混淆Killzone与具体入场信号（如FVG、MSS）：Killzone仅是时间过滤条件，不是入场信号本身",
+    "忽视Killzone内的操纵阶段，过早入场而被流动性扫荡",
+    "混淆不同Killzone时段的特征，未能区分伦敦反转与纽约反转的形成条件",
+    "未能结合多时间框架确认Killzone内交易设置的有效性",
+    "设置时间过滤器时忽视整点小时的闭合（如要包含完整8点小时，应从7点开始设置）",
+    "Silver Bullet策略中在11:00 AM之后仍执行入场信号，或忽视价格未扫除9:00 AM高低点时不应寻找交易的规则"
+  ],
+  "related_concepts": [
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Silver Bullet",
+      "card_id": "silver_bullet",
+      "exists": true
+    },
+    {
+      "term": "Session High/Low",
+      "card_id": "session_high_low",
+      "exists": true
+    },
+    {
+      "term": "Daily Profile",
+      "card_id": "daily_profile",
+      "exists": true
+    },
+    {
+      "term": "London Reversal",
+      "card_id": "london_reversal",
+      "exists": true
+    },
+    {
+      "term": "Stop Raid",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Time Filter",
+      "card_id": "time_filter",
+      "exists": true
+    },
+    {
+      "term": "HTF",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "LTF",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_004_黄金小时到分钟级多时间框架交易",
+      "video_id": "1YRs4Z1lMws",
+      "title": "黄金小时到分钟级多时间框架交易——OTE与FVG汇聚入场"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_001_btc日线第四天交易案例",
+      "video_id": "5fnFOh5YuM0",
+      "title": "BTC日线第四天交易案例：从摆动低点到多时间框架入场"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_005_gbpusd_60分钟到5分钟的自上而下交易",
+      "video_id": "75S4vwD4P1U",
+      "title": "GBPUSD 60分钟到5分钟自上而下交易：Breaker Block与Unicorn Model"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_001_cl原油期货看跌案例",
+      "video_id": "EYzP7c24AwM",
+      "title": "CL原油期货日线看跌确认与多时间框架派发"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_002_cl原油期货看涨案例",
+      "video_id": "EYzP7c24AwM",
+      "title": "CL原油期货午夜开盘支撑看涨结构验证"
+    },
+    {
+      "card_id": "MPeeE55rNOw_case_001_eurusd亚洲_伦敦_纽约会话交易案例",
+      "video_id": "MPeeE55rNOw",
+      "title": "EURUSD 15分钟四大会话Killzone识别与波动特征分析"
+    },
+    {
+      "card_id": "MPeeE55rNOw_case_002_nq指数killzone标记与nfp事件分析",
+      "video_id": "MPeeE55rNOw",
+      "title": "NQ指数Killzone标记与NFP事件分析"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_007_伦敦时段的投影与派发预测",
+      "video_id": "TCFvsZeYvV8",
+      "title": "伦敦时段操纵腿投影与派发预测"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_001_黄金周线至15分钟多时间框架交易案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "黄金周线至15分钟多时间框架交易案例"
+    },
+    {
+      "card_id": "YESqIoA7Wyg_case_003_标普500指数会话流动性操纵案例",
+      "video_id": "YESqIoA7Wyg",
+      "title": "ES 15分钟会话流动性操纵与缺乏位移预测"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_005_高级反转k线看跌交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "高级反转K线看跌交易：930时间窗口入场达成2R目标"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_005_gbp_usd日线到小时图纽约时段交易",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "GBP/USD纽约时段小时图FVG交易设置"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_001_nq日线扫盘至内部流动性案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "NQ日线扫盘至内部流动性案例"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_002_eth小时图多次fvg回测案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "ETH小时图多次FVG回测与5分钟入场设置达成2R"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_003_nq日线低阻力流动性扫盘案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "NQ日线低阻力流动性扫盘与小时图MSS+FVG入场"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_002_第二个silver_bullet交易案例",
+      "video_id": "o0v4KQxZbpU",
+      "title": "Silver Bullet窗口内价格未能有效扫盘的反转失败案例"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_003_回测第一天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "7月第一个Silver Bullet做空交易回测"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_004_回测第二天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "次日Silver Bullet会话中的扫低反弹做多交易"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_005_回测第三天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第三天交易——10-11AM窗口无扫盘，交易跳过"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_006_回测第四天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第四天：FVG入场失效，订单被取消"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_008_回测第六天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第六天交易：11AM无有效扫盘，订单取消"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_009_回测第七天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第七天：FVG入场做空未成交"
+    },
+    {
+      "card_id": "wDXTIDbIMwU_case_001_s_p_500_e_mini期货日内交易分析",
+      "video_id": "wDXTIDbIMwU",
+      "title": "ES日内顶级分析：从日线到15秒的多级联动交易"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_005_纳斯达克100的纽约反转与操纵",
+      "video_id": "xdzyejskSKE",
+      "title": "NQ纽约开盘8:30操纵反转与时间窗口交易"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_001_轻质原油期货看涨伦敦反转案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油期货伦敦反转看涨交易案例"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_003_轻质原油期货低阻力流动性案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油低阻力流动性伦敦反转纽约延续案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "original_card_id": "1YRs4Z1lMws_concept_killzone",
+      "segment_ids": [
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        482.08,
+        553.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "75S4vwD4P1U",
+      "original_card_id": "75S4vwD4P1U_concept_killzone",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        550.079,
+        634.6
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "A8UpRZlRzlg",
+      "original_card_id": "A8UpRZlRzlg_concept_killzone",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.72,
+        187.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_killzone",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.08,
+        546.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IeXtmeKqjnQ",
+      "original_card_id": "IeXtmeKqjnQ_concept_kill_zone",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.08,
+        191.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "MPeeE55rNOw",
+      "original_card_id": "MPeeE55rNOw_concept_killzone",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.48,
+        828.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "MPeeE55rNOw",
+      "original_card_id": "MPeeE55rNOw_concept_ict_killzone_indicator",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        191.4,
+        550.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_killzone",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.0,
+        192.4
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "YESqIoA7Wyg",
+      "original_card_id": "YESqIoA7Wyg_concept_killzone_session_liquidity",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        373.12,
+        727.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_killzone",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        811.56,
+        1106.7
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "mwmWNCTEYtY",
+      "original_card_id": "mwmWNCTEYtY_concept_killzone",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        193.0,
+        550.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "o0v4KQxZbpU",
+      "original_card_id": "o0v4KQxZbpU_concept_killzone",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_006"
+      ],
+      "time_range": [
+        64.28,
+        561.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_killzone",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.04,
+        192.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xdzyejskSKE",
+      "original_card_id": "xdzyejskSKE_concept_killzone",
+      "segment_ids": [
+        "seg_001",
+        "seg_004"
+      ],
+      "time_range": [
+        10.599,
+        726.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "y6SnEdASVLY",
+      "original_card_id": "y6SnEdASVLY_concept_killzone",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.24,
+        161.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 15,
+    "source_videos": 14,
+    "high_confidence_sources": 13,
+    "medium_confidence_sources": 2,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:07.073266Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['General', 'ICT']",
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "14张ICT + 1张General，按多数选ICT。General卡（wik00c9_2nk）内容与ICT体系一致，仅school标注不同。",
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "card_id": "ivirRu3fc4o_case_004_连续fvg和ote的多次头皮交易",
+  "type": "case",
+  "title": "NQ 15秒图多次FVG和OTE头皮交易序列",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement (0.5, 0.62)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Discount Zone",
+      "card_id": "premium_discount_area",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Scalping",
+      "card_id": "scalping",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "optimal_trade_entry_ote",
+    "displacement",
+    "premium_discount_area",
+    "order_block_ob",
+    "market_structure",
+    "scalping"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15s",
+  "market_context": "NQ100 E-mini期货在15秒图上出现连续的向下位移进入FVG，随后多次反弹进入上方FVG，价格在多个公允价值缺口之间反复运动，形成多个头皮交易机会。",
+  "key_observation": "博主识别出价格在多个FVG之间的反复运动模式，利用0.62和0.5斐波那契水平作为OTE入场点，通过快速头皮交易在折价区和溢价区之间获利。",
+  "analysis_steps": [
+    "Step 1: 识别初始向下位移进入下方FVG，标记该区域作为潜在支撑。",
+    "Step 2: 在FVG起点做空，风险设置在该FVG的高点，目标是0.62斐波那契水平（折价区）。",
+    "Step 3: 价格到达0.62 fib后反弹，识别新的向上位移和上方FVG形成。",
+    "Step 4: 在下方FVG反弹后做多，目标是上方FVG区域，但因风险过高而放弃该交易。",
+    "Step 5: 价格进入上方FVG后做空，风险设置在该FVG高点，目标是下方低点或OTE区域。",
+    "Step 6: 在OTE区域（0.62 fib附近）平仓部分头寸，而非等待完整下跌。",
+    "Step 7: 识别新的向上位移和结构突破，寻找OTE做多入场点。",
+    "Step 8: 做多进入OTE区域，目标是上方高点或该侧的完整移动。"
+  ],
+  "outcome": "博主通过多次头皮交易在OTE和FVG之间获利，强调快速出场和部分平仓策略，避免承担过大风险，每次交易周期短且风险有限。",
+  "lessons": "在15秒图上利用连续FVG和OTE进行头皮交易时，关键是快速识别位移和结构，使用0.62 fib作为折价区目标，在OTE区域平仓而非追求完整移动，风险管理优先于利润最大化。",
+  "primary_image": "cards/ivirRu3fc4o/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/ivirRu3fc4o/images/case_004_detail_1.jpg",
+    "cards/ivirRu3fc4o/images/case_004_detail_2.jpg",
+    "cards/ivirRu3fc4o/images/case_004_detail_3.jpg",
+    "cards/ivirRu3fc4o/images/case_004_detail_4.jpg",
+    "cards/ivirRu3fc4o/images/case_004_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "NASDAQ 100 E-mini Futures 15秒K线图。图上显示从09-17至10-07的价格走势，价格范围约13310至13824.50。图上有三条灰色矩形区域覆盖在K线上，分别位于不同价格段。三条红色水平线分别标注为0.5、0.62、0.79，对应斐波那契水平。另有一条蓝色水平线位于约13540处。K线呈现绿红交替的蜡烛图形态，显示价格波动和整理特征。右侧价格刻度清晰可见，当前价格显",
+    "case_004_detail_1.jpg": "NQ100 15分钟K线图。图上显示从09-15至10-02的价格走势，整体价格范围从13318到13824。图上标注有三条带标签的水平线，分别标记为0.5、0.62、0.78，对应价格约13872、13842、13748。图上还有两个矩形框，其中一个位于上方价格区域，另一个位于中部。K线形态显示下方多根绿色K线，中上方出现混合的红绿K线，在13584至13624区间有明显的横盘整理。",
+    "case_004_detail_2.jpg": "NASDAQ 100 E-mini Futures 15秒K线图。图上显示从09-15至10-08的价格走势，整体呈上升趋势，从约13100上升至13825。图上有两个矩形标注框：粉色矩形覆盖上方区域（约13784至13825），绿色矩形覆盖下方区域（约13700至13784）。图上标注有4条水平线，其中两条带有标签'0.5'和'0.65'，分别位于13804.50和13784.00。右侧价格轴显",
+    "case_004_detail_3.jpg": "NASDAQ 100 E-mini Futures 15秒K线图。图上显示价格范围从13312.00至13824.00。四条水平线分别位于13872.50、13784.00、13544.00和13312.00。两个灰色矩形框标注了13544-13784和13784-13872两个价格区间。K线呈现绿红交替形态，右侧价格轴显示当前价13762.50，背景为红色高亮。图上未见其他标注或指标。",
+    "case_004_detail_4.jpg": "NASDAQ 100 E-mini Futures 15秒K线图。图上显示价格范围约13818至13824.50。图表中央有三个矩形区域标注：上方粉红色矩形约在13820至13824.50区间，中间绿色矩形约在13818至13820区间，下方灰色矩形在13818以下。K线密集分布在这些区域内，包含多根绿色和红色蜡烛体。时间轴显示从09:27至10:17的15秒级别时间刻度。右侧价格刻度清晰可见。",
+    "case_004_detail_5.jpg": "NASDAQ-100 E-mini Futures 15分钟K线图。图上显示从09:30至10:17的交易时段。右侧价格刻度范围约13320至13824.50。图上有6条水平线标注，分别位于13824.25、13792、13748、13872、13364和13332价位。两个灰色矩形框分别标记在13748-13792区间和13332-13364区间。K线呈绿红交替排列，显示多个时间段内的价格波动。"
+  },
+  "sources": [
+    {
+      "video_id": "ivirRu3fc4o",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        188.959,
+        355.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了多个交易周期，清晰标注了FVG、OTE、斐波那契水平，详细说明了入场、止损和平仓逻辑，资产、时间框架、价格水平均可从图表读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:37.999283Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 15秒图多次FVG和OTE头皮交易序列\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15s\",\"market_context\":\"NQ100 E-mini期货在15秒图上出现连续的向下位移进入FVG，随后多次反弹进入上方FVG，价格在多个公允价值缺口之间反复运动，形成多个头皮交易机会。\",\"key_observation\":\"博主识别出价格在多个FVG之间的反复运动模式，利用0.62和0.5斐波那契水平作为OTE入场点，通过快速头皮交易在折价区和溢价区之间获利。\",\"analysis_steps\":[\"Step 1: 识别初始向下位移进入下方FVG，标记该区域作为潜在支撑。\",\"Step 2: 在FVG起点做空，风险设置在该FVG的高点，目标是0.62斐波那契水平（折价区）。\",\"Step 3: 价格到达0.62 fib后反弹，识别新的向上位移和上方FVG形成。\",\"Step 4: 在下方FVG反弹后做多，目标是上方FVG区域，但因风险过高而放弃该交易。\",\"Step 5: 价格进入上方FVG后做空，风险设置在该FVG高点，目标是下方低点或OTE区域。\",\"Step 6: 在OTE区域（0.62 fib附近）平仓部分头寸，而非等待完整下跌。\",\"Step 7: 识别新的向上位移和结构突破，寻找OTE做多入场点。\",\"Step 8: 做多进入OTE区域，目标是上方高点或该侧的完整移动。\"],\"outcome\":\"博主通过多次头皮交易在OTE和FVG之间获利，强调快速出场和部分平仓策略，避免承担过大风险，每次交易周期短且风险有限。\",\"lessons\":\"在15秒图上利用连续FVG和OTE进行头皮交易时，关键是快速识别位移和结构，使用0.62 fib作为折价区目标，在OTE区域平仓而非追求完整移动，风险管理优先于利润最大化。\",\"primary_image_frame_id\":\"ivirRu3fc4o_f010\",\"supporting_image_frame_ids\":[\"ivirRu3fc4o_f008\",\"ivirRu3fc4o_f009\",\"ivirRu3fc4o_f011\",\"ivirRu3fc4o_f012\",\"ivirRu3fc4o_f013\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Optimal Trade Entry (OTE)\",\"Displacement\",\"Fibonacci Retracement (0.5, 0.62)\",\"Discount Zone\",\"Premium Zone\",\"Order Block (OB)\",\"Market Structure\",\"Scalping\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了多个交易周期，清晰标注了FVG、OTE、斐波那契水平，详细说明了入场、止损和平仓逻辑，资产、时间框架、价格水平均可从图表读出。\"}",
+  "error": null
+}

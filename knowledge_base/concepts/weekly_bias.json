@@ -1,0 +1,54 @@
+{
+  "card_id": "weekly_bias",
+  "type": "merged_concept",
+  "canonical_term": "Weekly Bias",
+  "aliases": [
+    "周线偏向",
+    "周线方向预期"
+  ],
+  "school": "ICT",
+  "definition": "在周线时间框架上，通过分析流动性、高低点、公允价值缺口和K线收盘位置，预判该周价格是否倾向于上升或下降的方向性预期。",
+  "identification_rules": [
+    "观察周线上的流动性分布（内部流动性转外部流动性）",
+    "识别周线K线的收盘位置（如第2根或第3根K线的收盘）",
+    "检查周线上是否存在公允价值缺口（FVG）",
+    "确认周线高低点的位置关系，判断价格扩张方向",
+    "基于上述因素综合判断本周价格预期方向（上升或下降）"
+  ],
+  "trading_implication": "Weekly Bias是分形交易模型的第一步，为后续日线摆动点和小时线入场提供方向性框架。确立周线偏向后，交易者在日线上寻找摆动点形成（通常为第2或第3根K线收盘），并确认其交付状态改变（CSD），最后在小时线上执行分形模型入场，实现多时间框架的对齐。",
+  "common_mistakes": [
+    "材料未明确提及常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_weekly_bias",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        9.679,
+        102.64
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136613Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

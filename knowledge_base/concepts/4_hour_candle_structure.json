@@ -1,0 +1,60 @@
+{
+  "card_id": "4_hour_candle_structure",
+  "type": "merged_concept",
+  "canonical_term": "4-Hour Candle Structure",
+  "aliases": [
+    "4-Hour OHLC",
+    "4H Candle"
+  ],
+  "school": "ICT",
+  "definition": "在10:00 AM和2:00 PM（美东时间）形成的四小时周期蜡烛，用于识别开高低收(OHLC)形态和趋势延续信号。通过分析这两个时间点的K线结构判断价格动向。",
+  "identification_rules": [
+    "10:00 AM EST时形成第一根4小时蜡烛，2:00 PM EST时形成第二根4小时蜡烛",
+    "看涨结构：开-低-高-收(Open-Low-High-Close)，表现为积累-操纵-派发模式",
+    "看跌结构：开-高-低-收(Open-High-Low-Close)，表现为分布后下跌",
+    "观察该蜡烛是否能突破或回测前期订单块、公允价值缺口等关键水平",
+    "确认蜡烛收盘位置相对于午夜开盘价(Midnight Open)和日开盘价(Daily Open)的位置"
+  ],
+  "trading_implication": "4小时蜡烛结构用于确认日内趋势延续或反转。若形成看涨OHLC结构(开低高收)，预示继续上涨；若形成看跌结构(开高低收)，预示继续下跌。该结构常与午夜开盘、8:30开盘、9:30纽约开盘等时间水平配合使用，作为支撑/阻力和订单块识别的参考，帮助交易者在高概率时间窗口入场。",
+  "common_mistakes": [
+    "未能区分10:00和2:00两个4小时蜡烛的不同作用，混淆时间点",
+    "仅看蜡烛形态而忽视其与日开盘价、午夜开盘价等关键水平的关系",
+    "在4小时蜡烛未完全形成时过早入场，未等待完整的OHLC结构确认",
+    "忽视4小时蜡烛与低时间框架(如30分钟、15分钟)的对应关系，导致入场时机不当"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_4_hour_candle_structure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.84,
+        904.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131030Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

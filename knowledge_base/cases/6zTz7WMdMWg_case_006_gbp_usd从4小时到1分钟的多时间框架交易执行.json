@@ -1,0 +1,115 @@
+{
+  "card_id": "6zTz7WMdMWg_case_006_gbp_usd从4小时到1分钟的多时间框架交易执行",
+  "type": "case",
+  "title": "GBP/USD 4小时到1分钟多时间框架交易执行",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Open Low High Close",
+      "card_id": "open_low_high_close",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "swing_low_swing_high",
+    "market_structure",
+    "open_low_high_close",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "GBP/USD",
+  "timeframe": "4H / 15M / 1M",
+  "market_context": "GBP/USD在4小时图上形成下行趋势后出现反弹。博主从4小时高点作为流动性目标，通过15分钟和1分钟图确认订单块和FVG的低风险入场点。",
+  "key_observation": "价格在1分钟图上触及订单块和FVG区域（约1.27140-1.27180）后产生向上位移，未能突破前一根K线高点，预示向下寻求新低或回测流动性。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上标记前一个高点（约1.28000+）作为已知流动性目标",
+    "Step 2: 在15分钟图上标记4小时新开盘价（约1.27270）和摆动点结构",
+    "Step 3: 下钻到1分钟图，观察价格是否形成开-低-高-收结构以确认趋势方向",
+    "Step 4: 识别1分钟图上的摆动点，确认价格未能突破该点（无位移），预示向下寻求新低",
+    "Step 5: 标记订单块（OB）位置约1.27140-1.27180和相邻的公允价值缺口（FVG）",
+    "Step 6: 确认价格在订单块处产生向上位移，关闭了看跌FVG",
+    "Step 7: 识别新形成的FVG作为低风险买入点，部分平仓目标设在该高点，最终目标指向4小时已知流动性（前高）"
+  ],
+  "outcome": "价格从订单块和FVG区域反弹，产生向上位移并继续上行。博主在1分钟图上确认了低风险买入机会，目标指向4小时高点。后续在5分钟图上观察到价格达到4小时开盘价附近并继续上行至该时间框架的高点。",
+  "lessons": "多时间框架分析中，从高时间框架（4小时）确定流动性目标，通过中间时间框架（15分钟）确认结构，在低时间框架（1分钟）执行交易。订单块和FVG的组合提供高概率入场点；观察位移和K线收盘位置判断趋势延续或反转意图。",
+  "primary_image": "cards/6zTz7WMdMWg/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/6zTz7WMdMWg/images/case_006_detail_1.jpg",
+    "cards/6zTz7WMdMWg/images/case_006_detail_2.jpg",
+    "cards/6zTz7WMdMWg/images/case_006_detail_3.jpg",
+    "cards/6zTz7WMdMWg/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 Mon 07 Aug '23 约 05:20 至 07:10。图右侧价格刻度范围约 1.27100 至 1.27290，当前价标签显示 1.27147。图上有两条水平虚线位于约 1.27190 至 1.27200 区域。图中约 06:00 至 06:10 附近有一个矩形框标注，标签文字为 OB，价格范围约 1.27140 至 1.27180。K 线序",
+    "case_006_detail_1.jpg": "GBPUSD 4小时K线图，图右上角标注账户名TTrades_edu。可见价格范围约从1.26300至1.28900。图上绘有三个矩形框标注，分别位于约1.28000至1.28200区间、约1.26900至1.27100区间及约1.26400至1.26600区间。右侧价格轴显示当前价1.27587（绿色高亮标签），另有1.26734和1.26586两个价格标签。K线序列从左侧约1.28800区域向",
+    "case_006_detail_2.jpg": "GBP/USD 4小时K线图，可见价格范围约从1.26400至1.29000。图左侧K线整体呈下行排列，随后出现一段绿色K线上行区段。图上标注有三个矩形框，分别位于约1.27800–1.28200、1.27000–1.27400及1.26900–1.27200区间。另有一条水平线标注文字'OB'，位于约1.27420处。图右侧价格轴显示当前价格标签为1.27282。图上还可见一个灰色圆形光标位于约",
+    "case_006_detail_3.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 2023 年 8 月 7 日 05:10 至 07:00 区间。图右侧价格刻度范围约从 1.27100 至 1.27390，当前价格标签显示 1.27211。图上有三条水平线：一条虚线位于约 1.27280，一条实线位于约 1.27200，另一条实线位于约 1.27130。K 线序列从 05:10 起整体向下排列，至 05:55 附近触及低点区域后出",
+    "case_006_detail_4.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 2023 年 8 月 7 日 05:20 至 07:05。图右侧价格刻度范围约从 1.27100 至 1.27300。图上有两条水平线：一条虚线位于约 1.27280，一条实线位于约 1.27120。图左侧 K 线呈连续下行排列，从约 1.27300 下行至约 1.27120。05:50 至 06:00 区间内出现多根交替绿黑 K 线，价格在约 1."
+  },
+  "sources": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        902.399,
+        1323.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从4小时到1分钟的分析过程，清晰标注了关键价位、订单块、FVG位置，并说明了入场逻辑和目标设置。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:18.695508Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBP/USD 4小时到1分钟多时间框架交易执行\",\"school\":\"ICT\",\"asset\":\"GBP/USD\",\"timeframe\":\"4H / 15M / 1M\",\"market_context\":\"GBP/USD在4小时图上形成下行趋势后出现反弹。博主从4小时高点作为流动性目标，通过15分钟和1分钟图确认订单块和FVG的低风险入场点。\",\"key_observation\":\"价格在1分钟图上触及订单块和FVG区域（约1.27140-1.27180）后产生向上位移，未能突破前一根K线高点，预示向下寻求新低或回测流动性。\",\"analysis_steps\":[\"Step 1: 在4小时图上标记前一个高点（约1.28000+）作为已知流动性目标\",\"Step 2: 在15分钟图上标记4小时新开盘价（约1.27270）和摆动点结构\",\"Step 3: 下钻到1分钟图，观察价格是否形成开-低-高-收结构以确认趋势方向\",\"Step 4: 识别1分钟图上的摆动点，确认价格未能突破该点（无位移），预示向下寻求新低\",\"Step 5: 标记订单块（OB）位置约1.27140-1.27180和相邻的公允价值缺口（FVG）\",\"Step 6: 确认价格在订单块处产生向上位移，关闭了看跌FVG\",\"Step 7: 识别新形成的FVG作为低风险买入点，部分平仓目标设在该高点，最终目标指向4小时已知流动性（前高）\"],\"outcome\":\"价格从订单块和FVG区域反弹，产生向上位移并继续上行。博主在1分钟图上确认了低风险买入机会，目标指向4小时高点。后续在5分钟图上观察到价格达到4小时开盘价附近并继续上行至该时间框架的高点。\",\"lessons\":\"多时间框架分析中，从高时间框架（4小时）确定流动性目标，通过中间时间框架（15分钟）确认结构，在低时间框架（1分钟）执行交易。订单块和FVG的组合提供高概率入场点；观察位移和K线收盘位置判断趋势延续或反转意图。\",\"primary_image_frame_id\":\"6zTz7WMdMWg_f038\",\"supporting_image_frame_ids\":[\"6zTz7WMdMWg_f031\",\"6zTz7WMdMWg_f032\",\"6zTz7WMdMWg_f036\",\"6zTz7WMdMWg_f037\",\"6zTz7WMdMWg_f039\",\"6zTz7WMdMWg_f040\",\"6zTz7WMdMWg_f041\",\"6zTz7WMdMWg_f042\",\"6zTz7WMdMWg_f043\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Swing Point\",\"Market Structure\",\"Open Low High Close\",\"Multi-timeframe Analysis\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从4小时到1分钟的分析过程，清晰标注了关键价位、订单块、FVG位置，并说明了入场逻辑和目标设置。\"}",
+  "error": null
+}

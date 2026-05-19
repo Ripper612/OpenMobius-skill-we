@@ -1,0 +1,56 @@
+{
+  "card_id": "continuation_psp",
+  "type": "merged_concept",
+  "canonical_term": "Continuation PSP",
+  "aliases": [
+    "持续精密摆动点"
+  ],
+  "school": "SMC",
+  "definition": "在已确认反转后、价格朝向目标运行过程中形成的精密摆动点。一资产回测进入区间形成PSP，另一资产突破该PSP高点形成二阶SMT，但不产生新摆动点。用于确认趋势继续而非反转。",
+  "identification_rules": [
+    "必须在已确认的反转（通过二阶SMT或关键水平确认）之后形成",
+    "一个相关资产回测进入先前的范围，收盘时形成PSP",
+    "另一个相关资产突破该PSP的高点，形成二阶SMT",
+    "该二阶SMT不产生新的摆动点（swing point）",
+    "形成时仍有未完成的目标在上方或下方"
+  ],
+  "trading_implication": "Continuation PSP用于在已确认趋势中寻找加仓或继续持仓的信号，而非反转信号。当识别到Continuation PSP时，交易者应继续朝向原有目标方向运行，而不是将其误判为反转。这是区别于标准PSP（用于反转确认）的关键用途。任何与既定流动性方向相反的PSP都应作为继续信号处理。",
+  "common_mistakes": [
+    "将Continuation PSP误认为反转信号，导致在趋势继续时反向开仓被止损",
+    "忽视目标是否仍然开放（open）的条件，在目标已达成后仍尝试交易Continuation PSP",
+    "未能区分Continuation PSP与标准二阶PSP的本质差异（是否产生新摆动点）",
+    "在相关资产未形成二阶SMT时错误地标记Continuation PSP"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_continuation_psp",
+      "segment_ids": [
+        "seg_012",
+        "seg_028"
+      ],
+      "time_range": [
+        646.0,
+        1700.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131846Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

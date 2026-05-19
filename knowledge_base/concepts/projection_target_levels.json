@@ -1,0 +1,60 @@
+{
+  "card_id": "projection_target_levels",
+  "type": "merged_concept",
+  "canonical_term": "Projection Target Levels",
+  "aliases": [
+    "Fibonacci Projection Targets",
+    "Projections"
+  ],
+  "school": "ICT",
+  "definition": "基于操纵腿（Manipulation Leg）大小，使用斐波那契投影工具计算的价格目标位。正常腿瞄准-2至-2.5标准差，大腿瞄准-1标准差，极端情况可扩展至-4至-4.5。",
+  "identification_rules": [
+    "在Candle 2反转点处识别Change in State of Delivery（CSD）",
+    "找到操纵腿的低点，再找到形成该低点的摆动高点（或反向）",
+    "用斐波那契回撤工具锚定在低点，延伸至摆动高点，生成投影水平线",
+    "根据操纵腿大小判断目标等级：正常腿（相对较小）→ -2至-2.5；大腿（接近目标范围的一半）→ -1标准差；极端腿 → -4至-4.5"
+  ],
+  "trading_implication": "投影目标提供价格可能停止或反转的预期区域。在缺乏流动性的区域（如历史新高）或作为与其他汇聚因素（如前期高点、左侧流动性）结合的确认工具使用。根据操纵腿大小调整预期：大腿应降低目标预期至-1而非-2，避免不合理的价格移动预测。",
+  "common_mistakes": [
+    "对所有操纵腿大小使用相同的投影目标（-2至-2.5），忽视大腿应瞄准-1标准差的调整",
+    "在缺乏CSD确认前过早标记投影",
+    "贪心持仓至最终目标（-4至-4.5）而不在-2至-2.5的流动性点获利，导致价格反转时失去整个收益"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "original_card_id": "upHS7SDL9kg_concept_projection_target_levels",
+      "segment_ids": [
+        "seg_003",
+        "seg_008",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        96.24000000000001,
+        579.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135103Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

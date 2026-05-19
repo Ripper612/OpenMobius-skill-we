@@ -1,0 +1,113 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_005_uni_1小时图_缓慢closure的consolidation",
+  "type": "case",
+  "title": "UNI 1H：缓慢closure识别consolidation而非continuation",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "V-shaped Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Closure Speed",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "consolidation",
+    "continuation_pattern",
+    "v_shaped_reversal",
+    "order_block_ob",
+    "inducement",
+    "market_structure",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "UNIUSDT",
+  "timeframe": "1H",
+  "market_context": "UNI在1小时图上形成下跌后的反弹结构。价格创出新低进入FVG区域，随后出现多根向上K线试图收复失地，但上升速度缓慢，表现出consolidation特征而非强势continuation。",
+  "key_observation": "博主观察到价格虽然向上反弹，但用6根K线才无法收回2根下跌K线失去的水平，说明上升缺乏力度。这种缓慢的closure过程表明形成的是consolidation range而非真实的continuation，最终价格扫除低点。",
+  "analysis_steps": [
+    "Step 1: 识别新低进入FVG（Fair Value Gap）的结构",
+    "Step 2: 观察反弹K线的closure速度——2根下跌K线vs 6根上升K线无法收回该水平",
+    "Step 3: 判断closure缓慢（非V形反转）表明这是consolidation而非continuation",
+    "Step 4: 确认如果收盘突破该水平也不构成有效信号，因为未达到point of interest",
+    "Step 5: 识别consolidation内部的manipulation为噪音，应避免交易",
+    "Step 6: 等待价格扫除低点，形成可信的reversal低点",
+    "Step 7: 观察后续是否形成快速（1-3根K线）的V形反转并收盘突破，确认continuation"
+  ],
+  "outcome": "价格最终扫除低点。随后形成快速V形反转，用少数几根K线快速收复失地并收盘突破关键水平，确认了continuation信号，预示高时间框架趋势延续。",
+  "lessons": "缓慢的closure过程是consolidation的关键识别特征，而非continuation。交易者应避免在consolidation内部的manipulation中交易。真正的continuation应表现为快速（1-3根K线）的V形反转，低点被扫除后形成可信的支撑。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_005_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_005_detail_2.jpg",
+    "cards/PQiRV0JMhIQ/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表显示一份蜡烛图，价格范围从约 2.0814 到 4.0914。图上绘有一条水平线位于约 3.8 价格水平。K 线由绿色和黑色蜡烛组成，呈现不同的影线长度和主体大小。图表右侧可见时间刻度标签，但资产代码和时间框架在当前视图中不清晰。除水平线外，未见其他标注或指标。",
+    "case_005_detail_1.jpg": "UNI 1 小时 K 线图。图表显示从左至右跨越约 24 小时的价格走势，价格范围在 3.50 至 8.00 之间。左侧出现一根大型黑色 K 线，上影线延伸至约 7.00 附近。中间区域有一根黑色 K 线，下影线向下刺破至约 4.50 以下。右侧为一系列较小的绿色和黑色 K 线，呈现相对紧凑的波动形态。整个图表中绿色 K 线和黑色 K 线交替出现，未见其他标注或指标。",
+    "case_005_detail_2.jpg": "图表显示一个烛线图，价格范围从约 2.0914 到 4.0914。图上包含多根绿色和黑色烛线，分布在整个可见区域。烛线具有不同长度的影线，表现出价格在该范围内的波动。左侧价格刻度清晰可见，底部显示时间刻度。图上未见任何标注、水平线、趋势线或指标。资产代码和时间框架在图上不清晰。",
+    "case_005_detail_3.jpg": "图上为 BTC 1 小时 K 线图，价格范围约从 3.8000 到 4.3000。图表显示约 40 根 K 线，绿色和黑色 K 线交替出现。左下方有一根带长下影线的大绿色 K 线。中间区域出现多根黑色 K 线，伴随较长的上影线。右侧区域 K 线主体较小，显示盘整特征。图上有一个矩形框标注，位置约在 4.0500 至 4.1500 价格区间。整体 K 线呈现高波动性，多数 K 线带有明显的上下影线。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        520.719,
+        616.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整清晰：资产(UNI)、时间框架(1H)、关键观察(closure缓慢)、分析步骤(从FVG到consolidation判断到最终扫低)、结果(扫低后形成continuation)都有明确表述。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:44.539941Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"UNI 1H：缓慢closure识别consolidation而非continuation\",\"school\":\"ICT\",\"asset\":\"UNIUSDT\",\"timeframe\":\"1H\",\"market_context\":\"UNI在1小时图上形成下跌后的反弹结构。价格创出新低进入FVG区域，随后出现多根向上K线试图收复失地，但上升速度缓慢，表现出consolidation特征而非强势continuation。\",\"key_observation\":\"博主观察到价格虽然向上反弹，但用6根K线才无法收回2根下跌K线失去的水平，说明上升缺乏力度。这种缓慢的closure过程表明形成的是consolidation range而非真实的continuation，最终价格扫除低点。\",\"analysis_steps\":[\"Step 1: 识别新低进入FVG（Fair Value Gap）的结构\",\"Step 2: 观察反弹K线的closure速度——2根下跌K线vs 6根上升K线无法收回该水平\",\"Step 3: 判断closure缓慢（非V形反转）表明这是consolidation而非continuation\",\"Step 4: 确认如果收盘突破该水平也不构成有效信号，因为未达到point of interest\",\"Step 5: 识别consolidation内部的manipulation为噪音，应避免交易\",\"Step 6: 等待价格扫除低点，形成可信的reversal低点\",\"Step 7: 观察后续是否形成快速（1-3根K线）的V形反转并收盘突破，确认continuation\"],\"outcome\":\"价格最终扫除低点。随后形成快速V形反转，用少数几根K线快速收复失地并收盘突破关键水平，确认了continuation信号，预示高时间框架趋势延续。\",\"lessons\":\"缓慢的closure过程是consolidation的关键识别特征，而非continuation。交易者应避免在consolidation内部的manipulation中交易。真正的continuation应表现为快速（1-3根K线）的V形反转，低点被扫除后形成可信的支撑。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f019\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f018\",\"PQiRV0JMhIQ_f020\",\"PQiRV0JMhIQ_f021\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Consolidation\",\"Continuation\",\"V-shaped Reversal\",\"Closure Speed\",\"Order Block (OB)\",\"Manipulation\",\"Market Structure\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整清晰：资产(UNI)、时间框架(1H)、关键观察(closure缓慢)、分析步骤(从FVG到consolidation判断到最终扫低)、结果(扫低后形成continuation)都有明确表述。\"}",
+  "error": null
+}

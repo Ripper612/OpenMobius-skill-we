@@ -1,0 +1,64 @@
+{
+  "card_id": "continuation_trading",
+  "type": "merged_concept",
+  "canonical_term": "Continuation Trading",
+  "aliases": [
+    "Continuation Entry",
+    "Continuation Setup"
+  ],
+  "school": "ICT",
+  "definition": "在趋势反转确认后，于对立K线（opposing candles）或相关结构处寻找做空/做多机会，预期价格延续新趋势方向的交易方法。",
+  "identification_rules": [
+    "首先确认趋势反转已形成（通过Change in State of Delivery、Inversion或Breaker Block等PD array）",
+    "观察价格回撤至反转前的关键结构（如摆动高点或对立K线）",
+    "在对立K线处形成新的K线序列，预期价格将再次离开该区域",
+    "结合选定的单一PD array与高点/低点（Liquidity）进行确认",
+    "在较低时间框架验证Swing Formation或额外的PD array信号"
+  ],
+  "trading_implication": "Continuation Trading强调在反转确认后才入场，而非试图捕捉反转本身。交易者选择一个熟悉的PD array（如Change in State of Delivery），在价格回撤至对立K线处寻找做空/做多机会。这种方法提供可重复、机械化的入场规则，便于积累交易数据和优化模型。止损通常设在摆动高点或相关身体水平。",
+  "common_mistakes": [
+    "同时标记所有PD array导致图表混乱，难以实时执行交易",
+    "在反转确认前过早入场，试图捕捉反转而非延续",
+    "未在对立K线处等待Swing Formation或充分确认就入场",
+    "未将选定的PD array与高点/低点或流动性结合使用",
+    "频繁更换PD array选择，导致入场规则不一致，无法积累有效数据"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "qdQYhePcvGE_case_011_spx_1小时反转与5分钟延续",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD 1小时反转失败后5分钟延续交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "r_UF8U-hsL8",
+      "original_card_id": "r_UF8U-hsL8_concept_continuation_trading",
+      "segment_ids": [
+        "seg_003",
+        "seg_007"
+      ],
+      "time_range": [
+        124.0,
+        573.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:54:49.228320Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

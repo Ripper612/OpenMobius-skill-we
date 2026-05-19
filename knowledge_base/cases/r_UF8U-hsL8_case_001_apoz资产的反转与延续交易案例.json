@@ -1,0 +1,127 @@
+{
+  "card_id": "r_UF8U-hsL8_case_001_apoz资产的反转与延续交易案例",
+  "type": "case",
+  "title": "APOZ反转序列与延续做空交易案例",
+  "related_concepts": [
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candles",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Time Frame Alignment",
+      "card_id": "time_frame_alignment",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "turtle_soup_entry",
+    "inversion",
+    "change_in_state_of_delivery_csd",
+    "breaker_block",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "premium_discount_premium_",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift_mss",
+    "time_frame_alignment"
+  ],
+  "school": "ICT",
+  "asset": "APOZ",
+  "timeframe": "5M",
+  "market_context": "APOZ在2025年4月24日形成高点约34.000，随后出现扫荡高点后的反转序列，包括Turtle Soup、Inversion、CSD和Breaker Block的完整确认过程，最终演变为持续下跌走势。",
+  "key_observation": "博主展示了从最少确认（Turtle Soup）到最多确认（Turtle Soup+Inversion+CSD+Breaker Block+FVG）的反转阶梯式确认过程，强调通过聚焦单一PD array（如CSD）而非多个工具来建立可重复的交易模型。",
+  "analysis_steps": [
+    "Step 1: 识别价格扫荡左侧摆动高点（约34.000），形成Turtle Soup，这是反转的最初信号但确认度最低。",
+    "Step 2: 等待价格收盘跌破FVG（公允价值缺口），形成Inversion，增加反转确认度。",
+    "Step 3: 确认Change in State of Delivery（CSD），即一系列向上收盘的K线被打破，进一步确认反转。",
+    "Step 4: 识别Breaker Block和额外的FVG，形成完整的PD array堆积，提供最高确认度。",
+    "Step 5: 在30分钟和5分钟时间框架上验证相同的反转结构，确保时间框架对齐。",
+    "Step 6: 在反转后的回撤中，寻找对立K线（opposing candles）作为延续做空的入场机会。",
+    "Step 7: 在3分钟时间框架上重复验证Turtle Soup、Inversion、CSD和Breaker Block，确认下行延续。"
+  ],
+  "outcome": "价格从34.000高点反转后持续下跌至33.500以下，博主在对立K线处多次获得做空延续机会，展示了该模型的有效性。",
+  "lessons": "不需要掌握所有PD array工具，而应选择一个核心工具（如CSD）并精通它，以建立可重复、机械化的交易模型。多时间框架确认和对立K线的识别是延续交易的关键。",
+  "primary_image": "cards/r_UF8U-hsL8/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/r_UF8U-hsL8/images/case_001_detail_1.jpg",
+    "cards/r_UF8U-hsL8/images/case_001_detail_2.jpg",
+    "cards/r_UF8U-hsL8/images/case_001_detail_3.jpg",
+    "cards/r_UF8U-hsL8/images/case_001_detail_4.jpg",
+    "cards/r_UF8U-hsL8/images/case_001_detail_5.jpg",
+    "cards/r_UF8U-hsL8/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "APOZ 5分钟K线图，时间跨度从4月24日18:00至4月27日21:00。图上显示价格范围33.400至34.050。三个矩形标注框分别标记止损、开仓盈亏和目标价位信息。图右侧显示交易面板，包含买卖按钮。K线呈现绿黑相间的蜡烛形态，早期交易时段出现长下影线，中间区间显示33.600至33.950之间的盘整形态，跨越多根K线。4月27日18:00处出现跳空高开。",
+    "case_001_detail_1.jpg": "图上显示一个 K 线图表，标题为'Little Confirmation'。图表包含绿色和黑色 K 线，上半部分呈现交替的绿黑 K 线序列，中间部分出现一段下跌趋势由多根黑色 K 线组成，右侧显示上升趋势由绿色 K 线构成。图中有一个粉红色矩形标注在下方中部区域，带有虚线指向。左下角显示'TTrades'标志和数字'4'。左侧标注文字'1. turtle soup'。图上未显示具体价格数字或时间框",
+    "case_001_detail_2.jpg": "APOZ 5分钟K线图。图上显示从约33.400至34.075的价格范围。两条水平虚线分别位于33.975和33.775。图右侧有两个绿色标注框，分别标记为'Open P&L: 0.015, Qty: 0.195, Risk/Reward Ratio: 1'和'Target: 0.205 (0.60%) 41, Amount: 50200'。一条竖直虚线标记当前时间为2025年4月24日19:00",
+    "case_001_detail_3.jpg": "APOZ 5分钟K线图。图上显示价格范围从33.450至34.100。可见三条水平线分别位于34.000、33.875和33.575。图上有一个粉色矩形标注位于34.000至34.025区间，以及一条蓝色上升趋势线从33.850延伸至33.950。K线形态显示09:00时出现向下跳空至33.450，之后在33.850至33.950区间形成整理。图右侧显示交易界面按钮，包括Sell、Buy和Flat",
+    "case_001_detail_4.jpg": "APOZ 5分钟K线图。图上显示价格范围从33.425至34.075。两条水平线分别位于34.000和33.895处。图中央有一个粉红色矩形标注，位于33.975至34.025区间。K线序列显示中间区域有多根K线在33.600至33.975之间波动，右侧出现一段从33.950向下至33.425的下行走势。图上有一条竖虚线标记时间戳'Thu 24 Apr 25 18:30'。底部显示交易控制面板，包",
+    "case_001_detail_5.jpg": "APOZ 5分钟K线图。图上显示从18:00至21:00的价格走势，价格范围约34.075至33.425。图中有三条水平线分别位于34.000、33.950和33.870处。图上标注有两个矩形框，一个覆盖33.870至34.000区间，另一个覆盖33.880至33.920区间。K线呈现绿色和黑色主体，多根K线具有较长的下影线。图右下方显示交易界面，包含Sell、Buy和Flatten按钮。",
+    "case_001_detail_6.jpg": "APOZ 5分钟K线图。图上显示从18:00至21:00时间段的价格走势，价格范围在33.425至34.075之间。图上有4条水平虚线分别位于34.000、33.875、33.750、33.625价格水平。可见多根绿色和黑色K线，其中约33.450处有一根长下影线。图右侧标注当前价格为33.750，用蓝色圆圈标记。图上有两个矩形框分别标注在33.950-34.000和33.750-33.850区间"
+  },
+  "sources": [
+    {
+      "video_id": "r_UF8U-hsL8",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        229.2,
+        632.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了APOZ的反转过程，清晰标注了资产代码、时间框架、关键价位（34.000、33.900、33.775等），详细讲解了分析步骤顺序，并展示了交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:27.242052Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"APOZ反转序列与延续做空交易案例\",\"school\":\"ICT\",\"asset\":\"APOZ\",\"timeframe\":\"5M\",\"market_context\":\"APOZ在2025年4月24日形成高点约34.000，随后出现扫荡高点后的反转序列，包括Turtle Soup、Inversion、CSD和Breaker Block的完整确认过程，最终演变为持续下跌走势。\",\"key_observation\":\"博主展示了从最少确认（Turtle Soup）到最多确认（Turtle Soup+Inversion+CSD+Breaker Block+FVG）的反转阶梯式确认过程，强调通过聚焦单一PD array（如CSD）而非多个工具来建立可重复的交易模型。\",\"analysis_steps\":[\"Step 1: 识别价格扫荡左侧摆动高点（约34.000），形成Turtle Soup，这是反转的最初信号但确认度最低。\",\"Step 2: 等待价格收盘跌破FVG（公允价值缺口），形成Inversion，增加反转确认度。\",\"Step 3: 确认Change in State of Delivery（CSD），即一系列向上收盘的K线被打破，进一步确认反转。\",\"Step 4: 识别Breaker Block和额外的FVG，形成完整的PD array堆积，提供最高确认度。\",\"Step 5: 在30分钟和5分钟时间框架上验证相同的反转结构，确保时间框架对齐。\",\"Step 6: 在反转后的回撤中，寻找对立K线（opposing candles）作为延续做空的入场机会。\",\"Step 7: 在3分钟时间框架上重复验证Turtle Soup、Inversion、CSD和Breaker Block，确认下行延续。\"],\"outcome\":\"价格从34.000高点反转后持续下跌至33.500以下，博主在对立K线处多次获得做空延续机会，展示了该模型的有效性。\",\"lessons\":\"不需要掌握所有PD array工具，而应选择一个核心工具（如CSD）并精通它，以建立可重复、机械化的交易模型。多时间框架确认和对立K线的识别是延续交易的关键。\",\"primary_image_frame_id\":\"r_UF8U-hsL8_f001\",\"supporting_image_frame_ids\":[\"r_UF8U-hsL8_f006\",\"r_UF8U-hsL8_f010\",\"r_UF8U-hsL8_f012\",\"r_UF8U-hsL8_f013\",\"r_UF8U-hsL8_f014\",\"r_UF8U-hsL8_f015\"],\"related_concepts\":[\"Turtle Soup\",\"Inversion\",\"Change in State of Delivery (CSD)\",\"Breaker Block\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"PD Array\",\"Opposing Candles\",\"Market Structure Shift (MSS)\",\"Time Frame Alignment\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了APOZ的反转过程，清晰标注了资产代码、时间框架、关键价位（34.000、33.900、33.775等），详细讲解了分析步骤顺序，并展示了交易结果。\"}",
+  "error": null
+}

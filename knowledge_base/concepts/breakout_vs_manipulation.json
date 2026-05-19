@@ -1,0 +1,55 @@
+{
+  "card_id": "breakout_vs_manipulation",
+  "type": "merged_concept",
+  "canonical_term": "Breakout vs Manipulation",
+  "aliases": [
+    "真突破与假突破",
+    "突破与操纵"
+  ],
+  "school": "ICT",
+  "definition": "价格在相关摆动点的两种反应模式：突破指价格穿过摆动点后继续延伸；操纵指价格虚假穿过摆动点后反向运行，诱诱交易者入场。",
+  "identification_rules": [
+    "观察价格在相关摆动点的第2或第3根K线收盘位置，判断是否形成反转、回撤或延续。",
+    "突破表现为：价格穿过摆动点后无反转，继续朝原方向延伸至范围另一侧或失败摆动。",
+    "操纵表现为：价格穿过摆动点后立即反向运行，未能形成持续的方向性延伸。",
+    "使用分形模型（Fractal Model）在相关摆动点处寻找K线结构，以区分两种行为。"
+  ],
+  "trading_implication": "识别突破与操纵是判断价格真实意图的关键。突破预示趋势延续或反转完成，可跟随方向交易；操纵则是诱导陷阱，应避免在虚假突破处入场。通过观察价格在相关摆动点的反应阶段（反转、回撤或延续），交易者可确定是否存在真实的交易机会或应等待更清晰的信号。",
+  "common_mistakes": [
+    "在价格穿过摆动点的第一时间立即入场，未等待第2或第3根K线收盘确认真实意图。",
+    "混淆相关摆动点与失败摆动，导致在不可信的水平处交易。",
+    "未考虑有效分离（Valid Separation）的要求，在摆动点距离过近时仍期望反转，容易被操纵扫损。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_breakout_vs_manipulation",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        139.76,
+        303.44
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131355Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

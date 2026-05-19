@@ -1,0 +1,90 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_004_btc_1小时图_consolidation范围内的虚假突破",
+  "type": "case",
+  "title": "BTC 1小时：盘整内虚假突破的识别与风险规避",
+  "related_concepts": [
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Continuation vs Reversal",
+      "card_id": "continuation_vs_reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "consolidation",
+    "inducement",
+    "order_block",
+    "market_structure",
+    "continuation_vs_reversal"
+  ],
+  "school": "SMC",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC在经历下跌回调后形成上升趋势，价格进入108000-112000区间的明显盘整形态，右侧K线出现长上影线，暗示突破乏力。",
+  "key_observation": "价格在盘整范围内形成虚假的continuation信号，上升缓慢无法快速穿过关键阻力位，多根下收阴线表明突破失败，最终反向下行。",
+  "analysis_steps": [
+    "Step 1: 识别盘整结构——价格进入108000-112000区间，形成明显的consolidation范围，用矩形框标注。",
+    "Step 2: 观察突破尝试——价格从盘整低点上升，出现长上影线试图突破上方阻力，但未能有效穿过。",
+    "Step 3: 评估上升动能——统计K线形态：2根下跌K线后跟随6根上升K线，但仍无法回到关键阻力位，上升缺乏力度。",
+    "Step 4: 识别虚假信号——连续出现下收阴线（down-close candles），表明突破失败，价格无法维持在阻力位上方。",
+    "Step 5: 确认反向风险——盘整被识别为consolidation而非continuation，避免追多，等待新的操纵或反向突破。"
+  ],
+  "outcome": "价格未能突破盘整上沿，形成虚假突破后反向下行，识别盘整结构的交易者规避了追多损失。",
+  "lessons": "在盘整范围内，缓慢的上升和连续下收阴线是虚假突破的关键信号；不应追逐缺乏快速V形反转特征的突破；识别consolidation结构能有效规避虚假信号导致的损失。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_004_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "BTC 1 小时 K 线图。图上显示从约 56000 到 127000 的价格范围。中部区域有一个矩形标注框，框体位置约在 108000 至 112000 之间，标记出一个盘整区域。图上绘制了两条水平线分别对应 112000 和 108000 价格位。K 线序列由绿色和黑色蜡烛组成，显示双向价格波动。最右侧 K 线呈现长上影线，上影线延伸至 120000 上方。底部可见成交量指标。",
+    "case_004_detail_1.jpg": "BTC 1 小时 K 线图。图上显示约 60 根 K 线，价格范围从 0.90000 到 1.17000。左侧显示初期下跌段，随后形成上升趋势至 1.13000 附近。中段出现下跌回调至 1.00000 区域。右侧显示从低点恢复的上升段，最终进入 1.12000 至 1.14500 区间的盘整形态，该区间用矩形框标注。盘整区内 K 线呈绿黑交替排列，多数 K 线具有上下影线。图右上方有一条水平线位",
+    "case_004_detail_2.jpg": "UNI 1 小时 K 线图。图表显示从左至右跨越约 24 小时的价格走势，价格范围在 3.50 至 8.00 之间。左侧出现一根大型黑色 K 线，上影线延伸至约 7.00 附近。中间区域有一根黑色 K 线，下影线向下刺破至约 4.50 以下。右侧为一系列较小的绿色和黑色 K 线，呈现相对紧凑的波动形态。整个图表中绿色 K 线和黑色 K 线交替出现，未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        464.08,
+        549.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了盘整识别、虚假突破判断、K线计数分析等步骤，资产、时间框架、价格范围均清晰，分析逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:36.945526Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC 1小时：盘整内虚假突破的识别与风险规避\",\"school\":\"SMC\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC在经历下跌回调后形成上升趋势，价格进入108000-112000区间的明显盘整形态，右侧K线出现长上影线，暗示突破乏力。\",\"key_observation\":\"价格在盘整范围内形成虚假的continuation信号，上升缓慢无法快速穿过关键阻力位，多根下收阴线表明突破失败，最终反向下行。\",\"analysis_steps\":[\"Step 1: 识别盘整结构——价格进入108000-112000区间，形成明显的consolidation范围，用矩形框标注。\",\"Step 2: 观察突破尝试——价格从盘整低点上升，出现长上影线试图突破上方阻力，但未能有效穿过。\",\"Step 3: 评估上升动能——统计K线形态：2根下跌K线后跟随6根上升K线，但仍无法回到关键阻力位，上升缺乏力度。\",\"Step 4: 识别虚假信号——连续出现下收阴线（down-close candles），表明突破失败，价格无法维持在阻力位上方。\",\"Step 5: 确认反向风险——盘整被识别为consolidation而非continuation，避免追多，等待新的操纵或反向突破。\"],\"outcome\":\"价格未能突破盘整上沿，形成虚假突破后反向下行，识别盘整结构的交易者规避了追多损失。\",\"lessons\":\"在盘整范围内，缓慢的上升和连续下收阴线是虚假突破的关键信号；不应追逐缺乏快速V形反转特征的突破；识别consolidation结构能有效规避虚假信号导致的损失。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f017\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f016\",\"PQiRV0JMhIQ_f018\"],\"related_concepts\":[\"Consolidation\",\"Inducement\",\"Order Block\",\"Market Structure\",\"Price Action\",\"Continuation vs Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了盘整识别、虚假突破判断、K线计数分析等步骤，资产、时间框架、价格范围均清晰，分析逻辑连贯。\"}",
+  "error": null
+}

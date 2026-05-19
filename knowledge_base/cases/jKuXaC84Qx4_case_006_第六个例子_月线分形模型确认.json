@@ -1,0 +1,113 @@
+{
+  "card_id": "jKuXaC84Qx4_case_006_第六个例子_月线分形模型确认",
+  "type": "case",
+  "title": "月线分形模型确认与日线EQ失效下行演示",
+  "related_concepts": [
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "aligned_timeframe",
+    "equilibrium_eq",
+    "expansion",
+    "consolidation",
+    "candle_two_closure",
+    "market_structure",
+    "time_frame_confluence",
+    "swing_high_low"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1M / 1D / 1H",
+  "market_context": "月线形成扩展、盘整和candle two看涨收盘的分形结构。日线确认该结构后，价格在小时线上不尊重EQ（均衡点），最终下行至低点，演示分形模型跨时间框架的应用。",
+  "key_observation": "博主展示月线分形模型（expansion-consolidation-candle two bullish close）如何在日线得到确认，但小时线价格不尊重EQ，反而下行至低点，说明分形概念跨时间框架的有效性和交易的不确定性。",
+  "analysis_steps": [
+    "Step 1: 在月线上识别分形模型结构——扩展、盘整、candle two看涨收盘，预期下月价格走高。",
+    "Step 2: 切换到日线确认该分形结构的有效性。",
+    "Step 3: 在日线上观察价格是否在EQ上方收盘，以及是否会交易至前期摆动高点。",
+    "Step 4: 切换到小时线，发现价格不尊重EQ（disrespecting the EQ），立即下破EQ并收盘在下方。",
+    "Step 5: 根据EQ下破，预期价格可能下行至低点（lows），但强调这不是100%确定的结果。",
+    "Step 6: 说明价格阶段性变化的重要性——即使EQ被破，如果价格被重新买入，仍可能再次走高。"
+  ],
+  "outcome": "价格在小时线上不尊重EQ，立即下破并收盘在EQ下方，随后下行至低点。但博主强调这不是绝对结果，价格阶段性变化可能改变方向。",
+  "lessons": "分形模型是跨时间框架的概念，月线结构可在日线确认，但低时间框架（小时线）的价格行为可能与高时间框架预期不符。交易者需具备判断力，不能机械地追求目标位，需观察价格的实时阶段变化和相关资产的影响。",
+  "primary_image": "cards/jKuXaC84Qx4/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/jKuXaC84Qx4/images/case_006_detail_1.jpg",
+    "cards/jKuXaC84Qx4/images/case_006_detail_2.jpg",
+    "cards/jKuXaC84Qx4/images/case_006_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图上显示一张蜡烛图，从左下向右上呈现上升趋势。左侧区间显示绿色和黑色蜡烛混合排列，主体较小，伴有上下影线。中间区间绿色蜡烛逐渐增大，形成明显上升段。右侧上方区间蜡烛主体缩小，绿色和黑色蜡烛交替出现。整体图表未显示资产代码、时间框架、价格刻度或其他文字标注。",
+    "case_006_detail_1.jpg": "图表为蜡烛图形式，显示价格从左侧上升趋势进入下降趋势。左侧有绿色阴影区域覆盖多根K线。图上标注有3条水平线和多个矩形框。中间部分出现一根大型黑色K线，随后是混合的绿色和黑色K线形成的盘整。右侧显示一根大黑K线后跟一根绿K线。图上绘有向下倾斜的趋势线。具体价格数值、资产代码和时间框架均无法清晰识别。",
+    "case_006_detail_2.jpg": "图上显示一份烛线图表，包含多根绿色和黑色主体的K线。图表中标注有三个矩形区域：一个浅绿色矩形、一个浅灰色矩形和一个浅黄色矩形。这些矩形覆盖图表的不同价格区间。K线呈现上下波动的价格行为，但图上未显示资产代码、时间框架或具体价格刻度标签。",
+    "case_006_detail_3.jpg": "图表显示一份K线图，包含多根绿色和黑色蜡烛体。图上标注有三个矩形区域，分别用浅绿色、浅灰色和浅黄色填充。K线呈现波动走势，多根K线具有较长的下影线。左侧区域显示下降趋势，中间区域呈现盘整形态，右侧区域显示价格波动。图上未显示资产代码、时间框架或价格刻度标签。"
+  },
+  "sources": [
+    {
+      "video_id": "jKuXaC84Qx4",
+      "segment_ids": [
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        753.16,
+        840.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了月线→日线→小时线的分形模型应用过程，清晰说明了EQ失效和价格下行的具体步骤，并强调了交易的不确定性和阶段性变化的重要性。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:42:07.198392Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"月线分形模型确认与日线EQ失效下行演示\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1M / 1D / 1H\",\"market_context\":\"月线形成扩展、盘整和candle two看涨收盘的分形结构。日线确认该结构后，价格在小时线上不尊重EQ（均衡点），最终下行至低点，演示分形模型跨时间框架的应用。\",\"key_observation\":\"博主展示月线分形模型（expansion-consolidation-candle two bullish close）如何在日线得到确认，但小时线价格不尊重EQ，反而下行至低点，说明分形概念跨时间框架的有效性和交易的不确定性。\",\"analysis_steps\":[\"Step 1: 在月线上识别分形模型结构——扩展、盘整、candle two看涨收盘，预期下月价格走高。\",\"Step 2: 切换到日线确认该分形结构的有效性。\",\"Step 3: 在日线上观察价格是否在EQ上方收盘，以及是否会交易至前期摆动高点。\",\"Step 4: 切换到小时线，发现价格不尊重EQ（disrespecting the EQ），立即下破EQ并收盘在下方。\",\"Step 5: 根据EQ下破，预期价格可能下行至低点（lows），但强调这不是100%确定的结果。\",\"Step 6: 说明价格阶段性变化的重要性——即使EQ被破，如果价格被重新买入，仍可能再次走高。\"],\"outcome\":\"价格在小时线上不尊重EQ，立即下破并收盘在EQ下方，随后下行至低点。但博主强调这不是绝对结果，价格阶段性变化可能改变方向。\",\"lessons\":\"分形模型是跨时间框架的概念，月线结构可在日线确认，但低时间框架（小时线）的价格行为可能与高时间框架预期不符。交易者需具备判断力，不能机械地追求目标位，需观察价格的实时阶段变化和相关资产的影响。\",\"primary_image_frame_id\":\"jKuXaC84Qx4_f027\",\"supporting_image_frame_ids\":[\"jKuXaC84Qx4_f026\",\"jKuXaC84Qx4_f028\",\"jKuXaC84Qx4_f029\"],\"related_concepts\":[\"Fractal Model\",\"Equilibrium (EQ)\",\"Expansion\",\"Consolidation\",\"Candle Two Closure\",\"Market Structure\",\"Multi-Timeframe Analysis\",\"Price Action\",\"Swing High/Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了月线→日线→小时线的分形模型应用过程，清晰说明了EQ失效和价格下行的具体步骤，并强调了交易的不确定性和阶段性变化的重要性。\"}",
+  "error": null
+}

@@ -1,0 +1,608 @@
+{
+  "card_id": "change_in_the_state_of_delivery_csd",
+  "type": "merged_concept",
+  "canonical_term": "Change in the State of Delivery (CSD)",
+  "aliases": [
+    "CISD",
+    "Delivery State Change",
+    "Shift of Trend",
+    "State of Delivery Change",
+    "State of Delivery Shift",
+    "交付状态改变",
+    "交付状态转变",
+    "状态改变"
+  ],
+  "school": "ICT",
+  "definition": "价格突破前一有效摆动高点或低点（或特定K线结构的开盘价/收盘价水平），并以收盘价确认穿越，标志短期价格交付阶段从一个方向转变为另一个方向。常伴随位移发生，用于确认高时间框架K线影线已形成或受保护摆动点已建立，预示趋势反转或延续。",
+  "identification_rules": [
+    "识别前一有效摆动高点或低点（或关键K线的开盘价/收盘价水平），价格必须以收盘价完全穿越该水平，仅触及不构成CSD",
+    "识别一系列同向收盘的K线序列（连续上涨或下跌收盘），观察收盘方向是否发生改变，且该改变发生在重要价格水平（摆动点、FVG、OB）附近",
+    "确认突破伴随明显的位移（Displacement）——快速有力的价格运动，而非缓慢盘整后的穿越；K线在摆动点水平盘整半根后才穿过通常不构成有效CSD",
+    "在高时间框架出现Candle 2或Candle 3反向闭合（价格扫除前一摆动点后反向收盘），同时在低时间框架确认价格已穿越该摆动点水平，两个条件同时满足才构成有效CSD",
+    "观察K线在开盘后是否形成较浅的反向影线（opposing run），随后价格突破该影线方向不再创新极值，确认受保护摆动点（Protected Swing）已形成",
+    "CSD遵循分形原理，可在多个时间框架识别（日线、小时线、30分钟、15分钟、5分钟），高时间框架CSD对低时间框架具有指导意义",
+    "看涨CSD：收盘价向上穿越前期摆动高点或关键开盘价；看跌CSD：收盘价向下穿越前期摆动低点或关键开盘价",
+    "CSD形成后观察是否出现V形反转形态，而非K线中部盘整后的缓慢穿越"
+  ],
+  "trading_implication": "CSD是确认交付阶段转变的关键入场触发信号。核心用法：(1)确认高时间框架K线影线已形成后，交易扩张方向（\"让影线形成，再交易实体\"）；(2)CSD形成后等待价格回测该水平或形成订单块/Propulsion Block作为最优入场点；(3)将CSD水平用作止损参考；(4)结合SMT（相关资产走势分歧）提高信号可靠性；(5)需与高时间框架偏差方向对齐，在多时间框架联动分析中使用。影线较大时应调整目标至开盘价或当日低/高点，而非盲目追击扩张。",
+  "common_mistakes": [
+    "仅根据价格触及关键水平就入场，未等待收盘价完全穿越该水平的闭合确认",
+    "将CSD与简单的价格突破混淆——CSD必须伴随明显位移和结构改变，任何突破都不算",
+    "将CSD与市场结构转变（MSS）混淆——CSD更强调单根或少数K线的收盘穿越确认及交付意图改变，MSS关注更大摆动结构的转变",
+    "在没有高时间框架确认的情况下仅基于低时间框架CSD入场，增加虚假信号风险",
+    "未在多个时间框架上验证CSD，导致低时间框架CSD与高时间框架趋势不一致",
+    "在影线完全形成前过早入场，导致被浅影线扫出；大幅反向运动后仍期待同一K线内的CSD，应等待下一根K线",
+    "仅看高时间框架Candle 2/3闭合，未在低时间框架验证CSD就入场，导致进入盘整而非趋势",
+    "K线在摆动点水平盘整后才缓慢穿过，误认为有效CSD，此类情况通常只是盘整",
+    "在整理或操纵阶段误认为CSD成立，未能区分真实突破与假突破",
+    "忽视CSD需与价格交付阶段（扩张/回撤/整理）结合使用，单独使用成功率较低",
+    "在没有配对SMT的情况下，将未扫出摆动极值点的形态误认为有效CSD",
+    "大影线日线上过早交易反转，应等待次日延续日确认"
+  ],
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 / Candle 3 Closure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Phases of Price Delivery",
+      "card_id": "phases_of_price_delivery",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Timeframe Alignment",
+      "card_id": "timeframe_alignment",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Fail to Close Outside Range",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_002_usdcad小时线延续交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD小时线看跌延续交易——从C2收盘到突破前日低点"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_005_gbpusd小时线到5分钟线反转案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "GBPUSD小时线11点反转到5分钟线CSD下行交易"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_006_usdcad_4小时线到15分钟线交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD 4H-15M 多次试探高点后形成交付状态改变反转"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_007_nq1日线到小时线延续交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "NQ1日线看跌二号收盘后小时线延续交易"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_003_英镑日元周线到4小时的买卖模式转换",
+      "video_id": "3OivsP1j_UE",
+      "title": "GBPJPY 周线到4小时的卖买模式转换与流动性追踪"
+    },
+    {
+      "card_id": "4Gm8p6O7Ebs_case_002_白银日线扩张至反转案例",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "白银日线三天扩张至反转案例"
+    },
+    {
+      "card_id": "4Gm8p6O7Ebs_case_006_原油日线扩张与盘整周期",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "原油日线扩张-盘整-再扩张的循环分析"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_001_btc日线第四天交易案例",
+      "video_id": "5fnFOh5YuM0",
+      "title": "BTC日线第四天交易案例：从摆动低点到多时间框架入场"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_002_eth多时间框架延续交易",
+      "video_id": "5fnFOh5YuM0",
+      "title": "ETH多时间框架延续交易：日线摆动确认到1H和5M入场"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_002_apoz_usd_日线与多时间框架联动的空头交易",
+      "video_id": "8BWkRGhuj1k",
+      "title": "APOZ/USD 日线反转信号与多时间框架空头交易"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_001_eur_aud日线至小时线的反转交易案例",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "EUR/AUD日线偏差确认至小时线CSD反转交易"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_005_es标普500指数日线至小时线的看跌延续",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "ES日线C2与CSD确认后的小时线看跌延续至投影目标"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_005_nq1日线月度结构分析",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1日线月度结构中的回撤入场与反转信号"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_003_黄金期货_3分钟30分钟模型案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "黄金期货3分钟-30分钟模型：整固高点扫除与CSD确认下跌"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_002_黄金_gc_多日扫盘后的看空交易",
+      "video_id": "FgP2lc9nneM",
+      "title": "黄金(GC)7日无新摆动后的日线Candle 2看空交易"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_002_黄金期货_gc_4小时至15分钟浅回撤延续",
+      "video_id": "IJcfC6wAPZU",
+      "title": "黄金期货(GC)4小时至15分钟浅回撤延续交易"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_002_ym指数多日连续扩张的均衡点追踪",
+      "video_id": "IPZjNI1B5a0",
+      "title": "YM指数多日连续扩张的均衡点追踪"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_003_eth看跌扩张中的均衡点反转案例",
+      "video_id": "IPZjNI1B5a0",
+      "title": "ETH看跌扩张中的均衡点反转案例"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_004_eur_usd小时线中的均衡点和wick应用",
+      "video_id": "IPZjNI1B5a0",
+      "title": "EUR/USD 1H中的0.5 Wick均衡点与PD数组看跌交易设置"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_005_eth多日看跌扩张的均衡点确认",
+      "video_id": "IPZjNI1B5a0",
+      "title": "ETH多日看跌扩张中均衡点的连续尊重与FVG触及反转"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_006_4小时图表上的均衡点分形应用",
+      "video_id": "IPZjNI1B5a0",
+      "title": "4小时图表上的均衡点分形应用与Propulsion Block确认"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_002_前一日高点被扫后的wick尊重案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "前一日高点被扫后的wick尊重案例"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_003_fvg回测中的wick尊重与扩展",
+      "video_id": "LKNQDAdId4s",
+      "title": "FVG回测中的wick尊重与扩展多例分析"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_007_fvg回测后的多层级wick分析",
+      "video_id": "LKNQDAdId4s",
+      "title": "日线wick的0.5位置在多时间框架上的回测与扩展分析"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_010_btc_日线图_高时间框架目标达成后的反转",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "HTF目标达成后的看跌交付状态改变"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_001_白银小时图反转扩张案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "白银小时图浅层对抗反转扩张至均衡点"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_002_日线扫盘后的5分钟入场案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "日线扫盘后通过小时图FVG和5分钟CSD的多层级入场"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_003_gbp_jpy小时图多次内外流动性振荡案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "GBP/JPY小时图内外流动性多次振荡与推进块交易"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_001_usd_1分钟图_盘整突破后的反转识别",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1分钟：盘整突破后的扩张-扩张反转确认"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_006_gbpusd_1小时图_多阶段反转与日线对齐",
+      "video_id": "VD4xb9VfMHA",
+      "title": "GBPUSD 1H：范围突破反转与日线收盘对齐"
+    },
+    {
+      "card_id": "WFqLwOp2pXw_case_001_usd_15分钟盘整后的延续上升",
+      "video_id": "WFqLwOp2pXw",
+      "title": "USD 15分钟盘整后的受保护摆动延续上升"
+    },
+    {
+      "card_id": "WFqLwOp2pXw_case_002_apoz_1小时盘整中的均衡点反应",
+      "video_id": "WFqLwOp2pXw",
+      "title": "APOZ 1小时盘整中的均衡点反应与低点扫盘"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_002_纳斯达克_nq_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ日线-1小时-15分钟多头设置：前日低点扫除+FVG目标"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_003_欧元兑加元_eurcad_日线_1小时_15分钟做空案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "EURCAD日线-1小时-15分钟多时间框架做空案例"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_004_纳斯达克_nq_反转案例_使用反转和交付状态改变",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ反转案例：利用CSD和FVG的做多入场"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_005_纳斯达克_nq_做空案例_使用日开盘替代午夜开盘",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ做空案例：日开盘替代午夜开盘的订单块入场"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_004_美元日元日线到5分钟的多次入场机会",
+      "video_id": "iEaMbuFZb24",
+      "title": "USD/JPY日线到5分钟的多次入场机会分析"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_001_黄金日线反转交易案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "SPX日线小影线反转交易——从CSD到流动性目标"
+    },
+    {
+      "card_id": "nWHint4Yano_case_003_美元扫盘后eurusd的做空设置",
+      "video_id": "nWHint4Yano",
+      "title": "美元扫盘后EURUSD的做空设置"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_015_usd日线与小时图的月度交易框架",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD日线月度框架与小时图延续交易"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_002_apoz日线到小时线的分形验证",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线K线2收盘下钻至小时线的分形验证"
+    },
+    {
+      "card_id": "ubCe509_JLY_case_001_es1期货周线到15分钟的多时间框架对齐交易",
+      "video_id": "ubCe509_JLY",
+      "title": "ES1期货周线到15分钟多时间框架对齐做空交易"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_006_usd_cad_15分钟v形反转与smt确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD/CAD 15分钟V形反转与SMT确认的高质量设置"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_003_spx_15分钟下跌反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "SPX 15分钟下跌反转：Turtle Soup到Breaker Block的完整形态"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_002_eth日线看跌结构的小时图breaker延续",
+      "video_id": "xP-o11jRCyg",
+      "title": "ETH日线看跌结构的小时图CSD确认与5分钟breaker延续交易"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_002_虚假伦敦反转与真实纽约反转",
+      "video_id": "xdzyejskSKE",
+      "title": "虚假伦敦反转与真实纽约反转的区分"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_006_标普500的高时间框架缺口与反转",
+      "video_id": "xdzyejskSKE",
+      "title": "ES高时间框架缺口与伦敦纽约时段反转交易"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_003_轻质原油期货低阻力流动性案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油低阻力流动性伦敦反转纽约延续案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_008",
+        "seg_010",
+        "seg_014",
+        "seg_016",
+        "seg_017",
+        "seg_020",
+        "seg_021"
+      ],
+      "time_range": [
+        77.88,
+        887.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "27S9gjgcSlI",
+      "original_card_id": "27S9gjgcSlI_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        559.44,
+        741.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_010",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_016",
+        "seg_017",
+        "seg_021",
+        "seg_022",
+        "seg_030",
+        "seg_031"
+      ],
+      "time_range": [
+        538.8,
+        1653.279
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_007",
+        "seg_010",
+        "seg_014"
+      ],
+      "time_range": [
+        171.519,
+        768.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "original_card_id": "Pcbyc9TdNsU_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        10.36,
+        415.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        371.0,
+        1033.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_007",
+        "seg_008",
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        97.88,
+        557.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_003",
+        "seg_005",
+        "seg_013",
+        "seg_016",
+        "seg_017",
+        "seg_023"
+      ],
+      "time_range": [
+        100.07900000000001,
+        1100.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "sIcsLFSNoXM",
+      "original_card_id": "sIcsLFSNoXM_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.32,
+        726.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        11.04,
+        968.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "original_card_id": "vn1RYjhJUnQ_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        10.88,
+        618.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xP-o11jRCyg",
+      "original_card_id": "xP-o11jRCyg_concept_change_in_the_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        11.0,
+        852.199
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 12,
+    "source_videos": 12,
+    "high_confidence_sources": 12,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:40.117170Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "12张原始卡均标注school为ICT，无冲突。各卡对CSD的描述侧重不同（影线确认、K线序列、开盘价穿越、摆动点突破等），均为ICT体系内对同一概念的不同角度阐述，已综合整合。",
+  "error": null
+}

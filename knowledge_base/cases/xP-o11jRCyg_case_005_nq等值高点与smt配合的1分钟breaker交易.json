@@ -1,0 +1,109 @@
+{
+  "card_id": "xP-o11jRCyg_case_005_nq等值高点与smt配合的1分钟breaker交易",
+  "type": "case",
+  "title": "ETH 1分钟等值高点SMT配合Breaker交易",
+  "related_concepts": [
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "FVG",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "CSD",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "propulsion_block",
+    "breaker_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "mean_threshold",
+    "liquidity_sweep",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "ETHUSD",
+  "timeframe": "1M",
+  "market_context": "ETH在15分钟图上形成等值高点，同时NQ出现SMT信号（一个创新高而另一个未创新高），提示多头延续机会。博主在1分钟图上寻找breaker block和propulsion block的确认。",
+  "key_observation": "博主观察到ETH形成等值高点后出现看涨K线收盘，结合NQ的SMT信号，预期价格将继续走高。通过1分钟图上的多次扫盘确认（扫除低点后形成更高高点），识别出breaker block的形成。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图上识别ETH的等值高点和NQ的SMT信号（一个创新高，一个未创新高），确认看涨偏差。",
+    "Step 2: 切换到1分钟时间框架，观察价格回测至50%中值（mean threshold）区域。",
+    "Step 3: 确认该50%区域作为propulsion block被尊重（价格未破），预期继续上行。",
+    "Step 4: 等待价格回测至FVG区域，观察是否能够收盘突破该区域。",
+    "Step 5: 识别低点被扫除（lows swept out），形成低-高-低-高的结构，预期形成breaker block。",
+    "Step 6: 当价格创出更高高点时，之前的上升K线形成breaker block，确认多头延续信号。",
+    "Step 7: 在breaker block形成后寻找入场机会，计划在收盘时入场，止损设置在低点或K线实体处。"
+  ],
+  "outcome": null,
+  "lessons": "在多时间框架配合下，通过等值高点+SMT信号确认趋势方向；在低时间框架上，多次扫盘确认（propulsion block被尊重、低点被扫除）后形成的breaker block提供高概率入场点。关键是等待结构完全确认后再入场，而非提前预判。",
+  "primary_image": "cards/xP-o11jRCyg/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/xP-o11jRCyg/images/case_005_detail_1.jpg",
+    "cards/xP-o11jRCyg/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "ETH 15分钟K线图。图上显示价格范围约从2974.00至3025.00。图中有一个矩形框标注，框体范围约在2988.00至3004.00之间。矩形内部有一个黄色加号标记。图上可见多根黑色和绿色K线，其中黑色K线主体较大，绿色K线相对较小。多根K线具有较长的下影线。右下角显示时间戳17:15:23 UTC和数值8,402。",
+    "case_005_detail_1.jpg": "ETH 1 小时 K 线图。图上显示价格从约 2640 上升至 2768，随后出现回调。图中标注有两个重叠的矩形区域，均位于 2680 至 2730 价格范围内，用浅蓝色和灰色填充。在约 2670 水平处有一个黄色文字标注。可见 K 线在 2768 处形成长上影线，之后出现一根向下跳空的 K 线，随即被一根绿色 K 线部分收回。整体图表未显示其他技术指标。",
+    "case_005_detail_2.jpg": "ETHUSD 1 小时 K 线图。图上标注了三条带文字标签的水平线，分别位于 3050、2950 和 2850 价位，标签内容涉及目标价、PRZ 和斐波那契回撤水平。可见 K 线从左侧约 3050 下行至右侧约 2750，期间形成多根黑色和绿色 K 线。中部区域有一根较大的绿色 K 线从 2800 附近上升至 2950 附近。图上还有一个黄色圆形标记位于中部价格区域。右下角显示时间戳 17:16:"
+  },
+  "sources": [
+    {
+      "video_id": "xP-o11jRCyg",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        726.6,
+        852.199
+      ]
+    }
+  ],
+  "extraction_confidence": "medium",
+  "confidence_reason": "博主对分析步骤讲解清晰，但图表中的具体价位标注不够明确，且未明确给出最终交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:01.051340Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH 1分钟等值高点SMT配合Breaker交易\",\"school\":\"ICT\",\"asset\":\"ETHUSD\",\"timeframe\":\"1M\",\"market_context\":\"ETH在15分钟图上形成等值高点，同时NQ出现SMT信号（一个创新高而另一个未创新高），提示多头延续机会。博主在1分钟图上寻找breaker block和propulsion block的确认。\",\"key_observation\":\"博主观察到ETH形成等值高点后出现看涨K线收盘，结合NQ的SMT信号，预期价格将继续走高。通过1分钟图上的多次扫盘确认（扫除低点后形成更高高点），识别出breaker block的形成。\",\"analysis_steps\":[\"Step 1: 在15分钟图上识别ETH的等值高点和NQ的SMT信号（一个创新高，一个未创新高），确认看涨偏差。\",\"Step 2: 切换到1分钟时间框架，观察价格回测至50%中值（mean threshold）区域。\",\"Step 3: 确认该50%区域作为propulsion block被尊重（价格未破），预期继续上行。\",\"Step 4: 等待价格回测至FVG区域，观察是否能够收盘突破该区域。\",\"Step 5: 识别低点被扫除（lows swept out），形成低-高-低-高的结构，预期形成breaker block。\",\"Step 6: 当价格创出更高高点时，之前的上升K线形成breaker block，确认多头延续信号。\",\"Step 7: 在breaker block形成后寻找入场机会，计划在收盘时入场，止损设置在低点或K线实体处。\"],\"outcome\":null,\"lessons\":\"在多时间框架配合下，通过等值高点+SMT信号确认趋势方向；在低时间框架上，多次扫盘确认（propulsion block被尊重、低点被扫除）后形成的breaker block提供高概率入场点。关键是等待结构完全确认后再入场，而非提前预判。\",\"primary_image_frame_id\":\"xP-o11jRCyg_f028\",\"supporting_image_frame_ids\":[\"xP-o11jRCyg_f027\",\"xP-o11jRCyg_f031\"],\"related_concepts\":[\"SMT\",\"Equal Highs\",\"Propulsion Block\",\"Breaker Block\",\"FVG\",\"CSD\",\"Mean Threshold\",\"Liquidity Sweep\",\"Order Block\"],\"extraction_confidence\":\"medium\",\"confidence_reason\":\"博主对分析步骤讲解清晰，但图表中的具体价位标注不够明确，且未明确给出最终交易结果。\"}",
+  "error": null
+}

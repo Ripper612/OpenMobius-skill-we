@@ -1,0 +1,52 @@
+{
+  "card_id": "rebalance_after_creation",
+  "type": "merged_concept",
+  "canonical_term": "Rebalance After Creation",
+  "aliases": [
+    "After Creation Rebalance",
+    "FVG回补"
+  ],
+  "school": "ICT",
+  "definition": "FVG形成后，价格回落并闭合该缺口区域的过程。回补完成后缺口消失，不存在不平衡，价格倾向于反转或具有反转可能性。",
+  "identification_rules": [
+    "识别已形成的FVG（两根K线之间的价格跳空区域）",
+    "观察价格是否回落并进入该FVG区域",
+    "确认价格闭合整个缺口，使该区域不再存在不平衡",
+    "回补完成后，观察价格是否出现反转或反转信号"
+  ],
+  "trading_implication": "Rebalance After Creation表明市场已消除特定的不平衡状态。当FVG被完全回补后，该区域的支撑/阻力作用减弱，价格失去继续原方向运行的动力，因此倾向于反转。交易者可将回补完成作为潜在反转信号或趋势变化的确认，用于调整头寸或寻找反向交易机会。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "opYUBJ8IFgg",
+      "original_card_id": "opYUBJ8IFgg_concept_rebalance_after_creation",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.04,
+        77.52
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135253Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

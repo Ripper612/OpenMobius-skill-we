@@ -1,0 +1,51 @@
+{
+  "card_id": "bias_selection",
+  "type": "merged_concept",
+  "canonical_term": "Bias Selection",
+  "aliases": [
+    "Bias Filter",
+    "Bias Setting"
+  ],
+  "school": "ICT",
+  "definition": "指标设置中的一个参数，用于筛选显示特定方向的交易设置。可选择看涨（Bullish）、看跌（Bearish）或中立（Neutral），以过滤符合交易者偏好方向的信号。",
+  "identification_rules": [
+    "在指标设置面板（Inputs）中找到 Bias 选项，通常位于 GENERAL SETTINGS 或 Fractal 参数区块下方",
+    "Bias 有三个可选值：Bullish（仅显示看涨设置）、Bearish（仅显示看跌设置）、Neutral（同时显示两个方向的设置）",
+    "选择 Bearish 后，所有看涨设置会从图表中消失，仅保留看跌设置；选择 Bullish 则反之；选择 Neutral 则两者都显示"
+  ],
+  "trading_implication": "Bias Selection 是一个过滤工具，帮助交易者根据当前市场结构或交易计划快速聚焦于特定方向的机会。例如，在纽约盘前分析中，如果交易者预期价格走低，可将 Bias 设为 Bearish，指标将自动隐藏所有看涨设置，只显示看跌的 C2、C3、C4 等信号，提高分析效率。",
+  "common_mistakes": [
+    "材料未明确提及常见误区，但隐含风险是：过度依赖 Bias 过滤可能导致忽视反向信号，应定期切换至 Neutral 以确保未遗漏重要的市场结构变化"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_bias_selection",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.08,
+        546.399
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131235Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

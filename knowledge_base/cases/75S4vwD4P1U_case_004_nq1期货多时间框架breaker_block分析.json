@@ -1,0 +1,112 @@
+{
+  "card_id": "75S4vwD4P1U_case_004_nq1期货多时间框架breaker_block分析",
+  "type": "case",
+  "title": "NQ1期货多时间框架Breaker Block与投影目标分析",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Projection",
+      "card_id": "projection",
+      "exists": true
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "manipulation_leg",
+    "projection",
+    "risk_to_reward_management",
+    "market_structure",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M / 5M",
+  "market_context": "NQ1期货在2023年12月12日出现下跌后反弹，从约16295低点回升。博主展示了如何在1分钟和5分钟时间框架上识别Breaker Block结构，并结合投影技术确定交易目标。",
+  "key_observation": "Breaker Block由一系列上涨收盘K线组成，代表价格突破后的新支撑区域。通过识别操纵腿（manipulation leg）并投影至高点，可以获得多个风险回报比目标，最终达成3.62R的交易。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图表上识别下跌序列和随后的反弹结构，标记出灰色Order Block区域（约16310-16400）。",
+    "Step 2: 在反弹过程中识别一系列上涨收盘K线，将其标记为青绿色Breaker Block区域（约16390-16530）。",
+    "Step 3: 比较Breaker Block与Order Block的区别——Breaker Block包含完整K线（包括上下影线），而Order Block仅标记开盘价。",
+    "Step 4: 识别操纵腿（低点→高点→更低的低点→更高的高点之间的下跌段），用于投影计算。",
+    "Step 5: 将操纵腿投影至反弹高点，得到2R、2.5R、4R、4.5R等多个目标水平。",
+    "Step 6: 在1分钟图表上确认Breaker Block的具体入场位置，止损设置在Breaker Block低点下方。",
+    "Step 7: 交易执行：在Breaker Block处入场，首先达到2R目标，随后价格继续上升触及投影的4R-4.5R水平。"
+  ],
+  "outcome": "交易成功达成3.62R的风险回报比。价格在Breaker Block入场后，先触及2R目标，随后继续上升至投影的4R-4.5R区域，最终获利。",
+  "lessons": "Breaker Block提供了比传统Order Block更精确的入场点和止损位置，能获得更优的风险回报比。结合投影技术识别操纵腿，可以预设多个目标水平，提高交易的系统性和盈利潜力。多时间框架确认增强了交易信号的可靠性。",
+  "primary_image": "cards/75S4vwD4P1U/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/75S4vwD4P1U/images/case_004_detail_1.jpg",
+    "cards/75S4vwD4P1U/images/case_004_detail_2.jpg",
+    "cards/75S4vwD4P1U/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为 NQ1! 5 分钟 K 线图，日期标注为 12/12/2023，右上角显示 TTrades_edu 水印。可见价格范围约从 16315 至 16550。图上有两个矩形标注区域：一个灰色矩形覆盖约 16320 至 16400 区间，内含两条水平线；一个青绿色矩形覆盖约 16390 至 16530 区间，内含一条向右上方延伸的虚线斜线。图上另有三个橙色圆点标记分布于不同 K 线位置。K 线在约",
+    "case_004_detail_1.jpg": "图表为 NQ1 期货 1 分钟 K 线图，日期标注为 12/12/2023。可见价格范围约从 16360 至 16560。图上有一个浅灰色矩形标注框，带有蓝色选择控制点，覆盖约 16460 至 16510 区间，横跨约 09:30 至 10:30 时段。图上另有多个橙色圆点标记分布于 08:00、09:30 及 09:55 附近。右侧价格轴有多个蓝色高亮标签集中于 16464 至 16493 区间",
+    "case_004_detail_2.jpg": "NQ1! 5分钟K线图，日期标注为2023年12月12日。图右侧价格轴可见范围约从16295至16575。图上标注有两个绿色矩形框，位于价格约16455至16530区间，以及一个灰色矩形框位于约16310至16400区间。灰色矩形框内有一条水平线位于约16460处。K线序列从08:30附近开始下行，经历一段下跌后于09:30附近低点约16295处出现回升，随后K线向上延伸至绿色矩形框区域。图上多处",
+    "case_004_detail_3.jpg": "图表为 NQ1! 1 分钟 K 线图，日期标注为 12/12/2023，右上角显示账户名 TTrades_edu。可见价格范围约从 16370 到 16550。图右侧叠加两个矩形标注区域：一个青绿色矩形覆盖约 16430 至 16540 区间，一个灰色矩形覆盖约 16370 至 16470 区间，两矩形存在重叠部分。灰色矩形内部有两条水平线。图上另有三个橙色圆点标记，分别位于约 16460、164"
+  },
+  "sources": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.12,
+        550.079
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了NQ1期货的多时间框架分析过程，清晰标注了Breaker Block、Order Block、投影目标和交易结果，数字和结构都可从图表和讲解中准确读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:06.622617Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1期货多时间框架Breaker Block与投影目标分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M / 5M\",\"market_context\":\"NQ1期货在2023年12月12日出现下跌后反弹，从约16295低点回升。博主展示了如何在1分钟和5分钟时间框架上识别Breaker Block结构，并结合投影技术确定交易目标。\",\"key_observation\":\"Breaker Block由一系列上涨收盘K线组成，代表价格突破后的新支撑区域。通过识别操纵腿（manipulation leg）并投影至高点，可以获得多个风险回报比目标，最终达成3.62R的交易。\",\"analysis_steps\":[\"Step 1: 在5分钟图表上识别下跌序列和随后的反弹结构，标记出灰色Order Block区域（约16310-16400）。\",\"Step 2: 在反弹过程中识别一系列上涨收盘K线，将其标记为青绿色Breaker Block区域（约16390-16530）。\",\"Step 3: 比较Breaker Block与Order Block的区别——Breaker Block包含完整K线（包括上下影线），而Order Block仅标记开盘价。\",\"Step 4: 识别操纵腿（低点→高点→更低的低点→更高的高点之间的下跌段），用于投影计算。\",\"Step 5: 将操纵腿投影至反弹高点，得到2R、2.5R、4R、4.5R等多个目标水平。\",\"Step 6: 在1分钟图表上确认Breaker Block的具体入场位置，止损设置在Breaker Block低点下方。\",\"Step 7: 交易执行：在Breaker Block处入场，首先达到2R目标，随后价格继续上升触及投影的4R-4.5R水平。\"],\"outcome\":\"交易成功达成3.62R的风险回报比。价格在Breaker Block入场后，先触及2R目标，随后继续上升至投影的4R-4.5R区域，最终获利。\",\"lessons\":\"Breaker Block提供了比传统Order Block更精确的入场点和止损位置，能获得更优的风险回报比。结合投影技术识别操纵腿，可以预设多个目标水平，提高交易的系统性和盈利潜力。多时间框架确认增强了交易信号的可靠性。\",\"primary_image_frame_id\":\"75S4vwD4P1U_f001\",\"supporting_image_frame_ids\":[\"75S4vwD4P1U_f013\",\"75S4vwD4P1U_f014\",\"75S4vwD4P1U_f015\"],\"related_concepts\":[\"Breaker Block\",\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Manipulation Leg\",\"Projection\",\"Risk to Reward Ratio\",\"Market Structure\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了NQ1期货的多时间框架分析过程，清晰标注了Breaker Block、Order Block、投影目标和交易结果，数字和结构都可从图表和讲解中准确读取。\"}",
+  "error": null
+}

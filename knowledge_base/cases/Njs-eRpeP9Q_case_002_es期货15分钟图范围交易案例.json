@@ -1,0 +1,99 @@
+{
+  "card_id": "Njs-eRpeP9Q_case_002_es期货15分钟图范围交易案例",
+  "type": "case",
+  "title": "ES期货15分钟图范围交易中的流动性识别",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buy Side Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Range Trading",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "swing_formation",
+    "order_block",
+    "equal_lows"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "15m",
+  "market_context": "ES期货在15分钟图上呈现明显的范围波动，价格在3732-3828之间振荡，形成多个高低点。市场处于区间整理状态，未形成明确的单边趋势。",
+  "key_observation": "博主通过识别明显的摆动高低点来定位买方和卖方流动性，然后在范围内寻找相等高低点形成的多个流动性目标区域，用于范围交易的入场和出场决策。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别最明显的摆动高点（约3845-3856）和摆动低点（约3800-3825），标记为Buy Side Liquidity和Sell Side Liquidity。",
+    "Step 2: 观察做空者会在摆动高点上方放置止损单（买方流动性），做多者会在摆动低点下方放置止损单（卖方流动性）。",
+    "Step 3: 在5分钟图上进一步细化，识别多个Sell Side Liquidity区域（如3817.50-3820.00和3818.75-3821.25），这些是较小的摆动低点。",
+    "Step 4: 切换到15分钟图表，绘制主要的范围框架，上边界约3823.00，下边界约3744.00，确认范围的整体结构。",
+    "Step 5: 在15分钟图上绘制4条蓝色矩形框，标记多个相等高低点形成的流动性目标区域，这些区域代表价格可能反复测试的关键水平。",
+    "Step 6: 确认在范围内，一旦上方流动性被扫除，就寻找做空设置；一旦下方流动性被扫除，就寻找做多设置。"
+  ],
+  "outcome": null,
+  "lessons": "在范围交易中，关键是识别摆动高低点处的流动性聚集区域。通过绘制明显的高低点和相等高低点，可以预测价格在范围内的多个目标区域。流动性被扫除后才是寻找交易设置的时机，而不是在流动性区域本身入场。",
+  "primary_image": "cards/Njs-eRpeP9Q/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/Njs-eRpeP9Q/images/case_002_detail_1.jpg",
+    "cards/Njs-eRpeP9Q/images/case_002_detail_2.jpg",
+    "cards/Njs-eRpeP9Q/images/case_002_detail_3.jpg",
+    "cards/Njs-eRpeP9Q/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示价格范围从3743.25至3828.00。图表中绘制了4条蓝色矩形框标注，分别位于不同价格区间。K线呈现绿色和红色混合，显示多根K线在3780至3800区间内波动。图右侧价格刻度显示当前价格在3817.25附近。图上未见其他指标或文字标签。",
+    "case_002_detail_1.jpg": "ES 5分钟K线图。图上标注两个矩形区域：上方绿色矩形标记为'Buy Side Liquidity'，位于约3845至3856价格范围；下方粉红色矩形标记为'Sell Side Liquidity'，位于约3800至3825价格范围。K线图显示约24小时的价格走势，从19:00至次日20:00，价格在3800至3856之间波动。绿色K线表示收涨，红色K线表示收跌。图右侧价格刻度显示最新价格约384",
+    "case_002_detail_2.jpg": "ES 5分钟K线图。图上可见价格范围约从3812.50至3865.00。图中标注有两个粉红色矩形区域，均标记为'Sell Side Liquidity'。下方矩形区域位于约3817.50至3820.00价格范围，上方矩形区域位于约3818.75至3821.25价格范围。K线呈现多根带有上下影线的蜡烛体，显示价格在标注区域附近的波动特征。右侧价格刻度显示当前价格约在3844.75附近。",
+    "case_002_detail_3.jpg": "ES 5分钟K线图。图上可见价格范围从3802.50至3885.00。右侧价格轴显示当前价为3817.25。图上有两条水平参考线分别位于3871.25和3813.25。图中标注了三个粉红色矩形区域，均标记为Sell Side Liquidity或SSL，分别位于3813.25至3820.00和3805.00至3825.00的价格区间。K线在整个可见时间范围内呈现振荡形态。",
+    "case_002_detail_4.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上绘制了一个矩形框，上边界约在3823.00，下边界约在3744.00，覆盖图表中间至右侧的大部分K线。可见价格范围从3744.00至3823.00。K线序列中绿色和红色蜡烛交替出现，多根K线具有较长的上下影线。图表右侧显示最新K线呈绿色，价格在上升。除矩形框外，图上未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "Njs-eRpeP9Q",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.0,
+        187.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从5分钟到15分钟图的分析过程，清晰标注了流动性区域，资产代码、时间框架、价格范围都从图表中明确读取，分析步骤按讲解顺序记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:45.870939Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货15分钟图范围交易中的流动性识别\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"15m\",\"market_context\":\"ES期货在15分钟图上呈现明显的范围波动，价格在3732-3828之间振荡，形成多个高低点。市场处于区间整理状态，未形成明确的单边趋势。\",\"key_observation\":\"博主通过识别明显的摆动高低点来定位买方和卖方流动性，然后在范围内寻找相等高低点形成的多个流动性目标区域，用于范围交易的入场和出场决策。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别最明显的摆动高点（约3845-3856）和摆动低点（约3800-3825），标记为Buy Side Liquidity和Sell Side Liquidity。\",\"Step 2: 观察做空者会在摆动高点上方放置止损单（买方流动性），做多者会在摆动低点下方放置止损单（卖方流动性）。\",\"Step 3: 在5分钟图上进一步细化，识别多个Sell Side Liquidity区域（如3817.50-3820.00和3818.75-3821.25），这些是较小的摆动低点。\",\"Step 4: 切换到15分钟图表，绘制主要的范围框架，上边界约3823.00，下边界约3744.00，确认范围的整体结构。\",\"Step 5: 在15分钟图上绘制4条蓝色矩形框，标记多个相等高低点形成的流动性目标区域，这些区域代表价格可能反复测试的关键水平。\",\"Step 6: 确认在范围内，一旦上方流动性被扫除，就寻找做空设置；一旦下方流动性被扫除，就寻找做多设置。\"],\"outcome\":null,\"lessons\":\"在范围交易中，关键是识别摆动高低点处的流动性聚集区域。通过绘制明显的高低点和相等高低点，可以预测价格在范围内的多个目标区域。流动性被扫除后才是寻找交易设置的时机，而不是在流动性区域本身入场。\",\"primary_image_frame_id\":\"Njs-eRpeP9Q_f007\",\"supporting_image_frame_ids\":[\"Njs-eRpeP9Q_f003\",\"Njs-eRpeP9Q_f004\",\"Njs-eRpeP9Q_f005\",\"Njs-eRpeP9Q_f006\"],\"related_concepts\":[\"Liquidity\",\"Buy Side Liquidity\",\"Sell Side Liquidity\",\"Swing High\",\"Swing Low\",\"Order Block\",\"Range Trading\",\"Equal Highs\",\"Equal Lows\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从5分钟到15分钟图的分析过程，清晰标注了流动性区域，资产代码、时间框架、价格范围都从图表中明确读取，分析步骤按讲解顺序记录。\"}",
+  "error": null
+}

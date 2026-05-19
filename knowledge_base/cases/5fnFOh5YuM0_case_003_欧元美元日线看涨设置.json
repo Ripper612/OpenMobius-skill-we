@@ -1,0 +1,111 @@
+{
+  "card_id": "5fnFOh5YuM0_case_003_欧元美元日线看涨设置",
+  "type": "case",
+  "title": "欧元美元日线看涨设置：低阻力流动性与摆动结构确认",
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Bullish Closure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "low_resistance_liquidity",
+    "swing_low_swing_high",
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "change_in_the_state_of_delivery",
+    "premium_discount_premium_",
+    "risk_to_reward"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1D",
+  "market_context": "欧元美元日线上形成失败摆动（等高点）和整固，博主识别低阻力流动性并确认看涨偏向，随后在1小时和5分钟时间框架上寻找多种入场机会。",
+  "key_observation": "日线上识别出失败摆动高点（等高点）作为低阻力流动性，整固低点被突破后形成看涨摆动点（低点两侧各有更高的低点），预示后续上涨延续。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别失败摆动高点（多个等高点），标记为低阻力流动性目标。",
+    "Step 2: 观察整固低点被扫出，确认价格不会深度回撤，预示扩张阶段即将开始。",
+    "Step 3: 等待看涨收盘确认，即价格收盘穿过形成低点的下跌K线。",
+    "Step 4: 确认摆动点结构（低点两侧各有更高的低点），标志着日线级别的看涨设置成立。",
+    "Step 5: 在1小时时间框架上寻找延续入场，观察价格是否进入PD数组（公允价值缺口）并获得收盘确认。",
+    "Step 6: 如果1小时收盘确认，可直接在该水平入场，止损设在K线实体低点，目标2R。",
+    "Step 7: 或者下钻到5分钟时间框架，等待更精确的入场信号（如收盘穿过形成低点的K线）。",
+    "Step 8: 在伦敦时段出现反转后，期待纽约时段延续，若出现反转则扫出低点，形成新的入场机会。"
+  ],
+  "outcome": "交易成功达到2R目标。价格在1小时和5分钟时间框架上都获得确认后入场，最终突破至目标位置。",
+  "lessons": "多时间框架分析的关键是日线方向确认优先；低阻力流动性（失败摆动）是高概率目标；灵活选择入场方式（直接1小时入场或下钻5分钟精确入场）都可行，核心是等待收盘确认和摆动结构验证。",
+  "primary_image": "cards/5fnFOh5YuM0/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/5fnFOh5YuM0/images/case_003_detail_1.jpg",
+    "cards/5fnFOh5YuM0/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为日线（1D）K线图，资产代码不可读。可见价格范围约从1.02400至1.06400。图上有一个较大矩形框标注区域，覆盖约1.03600至1.05200价格区间。矩形框内部还有一个较小矩形框，覆盖约1.03600至1.04200区间。图上有一条贯穿全图的水平虚线位于约1.04150处。右侧最新K线附近有两个小圆圈标记，分别位于约1.04800和1.04050。图右侧还有两条短水平虚线位于约1.",
+    "case_003_detail_1.jpg": "图表为日线蜡烛图，左侧价格轴显示范围约从1.02000至1.06450。图上绘有一个水平矩形框，覆盖价格区间约1.05200至1.05800，横跨多根K线。图右侧可见一根较长的黑色K线，实体从约1.04500延伸至1.03700附近。图中有一个黄色圆形标记，位于约1.05400处的K线顶部附近。左侧K线区域由绿色与黑色K线交替排列，整体价格范围约在1.02000至1.04500之间。左侧价格轴当前",
+    "case_003_detail_2.jpg": "图表为1小时K线图，资产代码不可读。图上可见价格范围约从103500至105600。左侧K线呈现从约103500上行至105200的走势，随后在约104600至104900区间出现约8至10根小实体K线的横盘整理。图右侧出现两根相邻的大实体K线：一根黑色实体K线从约104800向下延伸至103700，紧邻一根绿色实体K线从约103700向上延伸至104800。图上有两条水平虚线，分别位于约1047"
+  },
+  "sources": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        548.56,
+        904.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线识别、1小时和5分钟入场的全过程，关键价位、摆动结构、收盘确认都清晰可见，交易结果明确（达到2R）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:26:58.994405Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"欧元美元日线看涨设置：低阻力流动性与摆动结构确认\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1D\",\"market_context\":\"欧元美元日线上形成失败摆动（等高点）和整固，博主识别低阻力流动性并确认看涨偏向，随后在1小时和5分钟时间框架上寻找多种入场机会。\",\"key_observation\":\"日线上识别出失败摆动高点（等高点）作为低阻力流动性，整固低点被突破后形成看涨摆动点（低点两侧各有更高的低点），预示后续上涨延续。\",\"analysis_steps\":[\"Step 1: 在日线上识别失败摆动高点（多个等高点），标记为低阻力流动性目标。\",\"Step 2: 观察整固低点被扫出，确认价格不会深度回撤，预示扩张阶段即将开始。\",\"Step 3: 等待看涨收盘确认，即价格收盘穿过形成低点的下跌K线。\",\"Step 4: 确认摆动点结构（低点两侧各有更高的低点），标志着日线级别的看涨设置成立。\",\"Step 5: 在1小时时间框架上寻找延续入场，观察价格是否进入PD数组（公允价值缺口）并获得收盘确认。\",\"Step 6: 如果1小时收盘确认，可直接在该水平入场，止损设在K线实体低点，目标2R。\",\"Step 7: 或者下钻到5分钟时间框架，等待更精确的入场信号（如收盘穿过形成低点的K线）。\",\"Step 8: 在伦敦时段出现反转后，期待纽约时段延续，若出现反转则扫出低点，形成新的入场机会。\"],\"outcome\":\"交易成功达到2R目标。价格在1小时和5分钟时间框架上都获得确认后入场，最终突破至目标位置。\",\"lessons\":\"多时间框架分析的关键是日线方向确认优先；低阻力流动性（失败摆动）是高概率目标；灵活选择入场方式（直接1小时入场或下钻5分钟精确入场）都可行，核心是等待收盘确认和摆动结构验证。\",\"primary_image_frame_id\":\"5fnFOh5YuM0_f025\",\"supporting_image_frame_ids\":[\"5fnFOh5YuM0_f024\",\"5fnFOh5YuM0_f026\",\"5fnFOh5YuM0_f027\"],\"related_concepts\":[\"Low Resistance Liquidity\",\"Swing Point\",\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"Change in the state of delivery\",\"Bullish Closure\",\"PD array\",\"Risk/Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线识别、1小时和5分钟入场的全过程，关键价位、摆动结构、收盘确认都清晰可见，交易结果明确（达到2R）。\"}",
+  "error": null
+}

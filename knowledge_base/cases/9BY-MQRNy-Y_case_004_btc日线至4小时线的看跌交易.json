@@ -1,0 +1,115 @@
+{
+  "card_id": "9BY-MQRNy-Y_case_004_btc日线至4小时线的看跌交易",
+  "type": "case",
+  "title": "日线看跌后上移4小时线寻找清晰V形反转交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "V-shaped Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Time Frame Alignment",
+      "card_id": "time_frame_alignment",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "market_structure",
+    "consolidation",
+    "v_shaped_reversal",
+    "failure_swing",
+    "time_frame_alignment"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1D / 4H",
+  "market_context": "BTC日线形成看跌收盘（candle 2），价格从约105500跌至102000。小时线结构混乱，博主通过上移至4小时线获得清晰的整理和V形反转结构，展示了时间框架灵活应用的实战案例。",
+  "key_observation": "当低时间框架（1H）图表混乱时，可上移至更高时间框架（4H）获得清晰的市场结构。4小时线显示明确的consolidation和V形反转，为交易提供了高概率的设置。",
+  "analysis_steps": [
+    "Step 1: 观察日线形成看跌收盘candle，价格从约105500向下收至102000附近。",
+    "Step 2: 下移至1小时线寻找低时间框架交易机会，但发现小时线结构过于混乱。",
+    "Step 3: 根据时间框架灵活性原则，上移至4小时线重新分析市场结构。",
+    "Step 4: 在4小时线上识别出清晰的consolidation区域（约103600-104200）和V形反转结构。",
+    "Step 5: 识别4小时线上的Fair Value Gap（FVG），预期价格会回测该区域。",
+    "Step 6: 等待价格回测FVG区域，寻求retracement回到整理范围以获得更好的风险回报比（2R）。",
+    "Step 7: 确认价格突破并继续下行，验证看跌交易的有效性。",
+    "Step 8: 观察consolidation中的failure swings on highs和低点扫荡，为后续反应做准备。"
+  ],
+  "outcome": "价格成功回测FVG区域，获得retracement回到整理范围，随后继续下行，实现了预期的2R风险回报比交易。",
+  "lessons": "当单一时间框架混乱时，灵活上移至更高时间框架可获得清晰的市场结构和高概率交易设置。不必严格固定在预定时间框架，根据实际图表清晰度调整是专业交易者的重要技能。",
+  "primary_image": "cards/9BY-MQRNy-Y/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/9BY-MQRNy-Y/images/case_004_detail_1.jpg",
+    "cards/9BY-MQRNy-Y/images/case_004_detail_2.jpg",
+    "cards/9BY-MQRNy-Y/images/case_004_detail_3.jpg",
+    "cards/9BY-MQRNy-Y/images/case_004_detail_4.jpg",
+    "cards/9BY-MQRNy-Y/images/case_004_detail_5.jpg",
+    "cards/9BY-MQRNy-Y/images/case_004_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "BTCUSDT 4 小时 K 线图，可见价格范围约从 98000 至 112000。图上右侧区域有数根大实体黑色 K 线，主体跨度约从 104000 至 109000。图中部可见一个矩形标注框，覆盖约 106200 至 107200 区间；另有一个较小矩形框位于约 103600 至 104200 区间；右侧还有一个小矩形框位于约 107800 至 108200 区间。图上未见文字标签或指标面板。右",
+    "case_004_detail_1.jpg": "图表为 BTCUSDT 日线蜡烛图，可见价格范围约从 97000 至 115000。图左侧有一根较长的绿色 K 线，主体从约 97500 延伸至 109000。图中部可见多根绿色与黑色 K 线交替排列，价格在约 103000 至 111500 区间内波动。图右侧有一根较大的黑色 K 线，主体从约 105500 向下延伸至 102000。图上有一条水平线位于约 105000 处，横跨图表延伸至右侧，",
+    "case_004_detail_2.jpg": "图表显示 BTCUSDT K 线图，可见价格范围约从 99000 至 111000。图左侧有一段绿色 K 线群从约 104000 上行至 108500，随后出现多根黑色 K 线向下运行至约 103000。图上有两个矩形标注区域：一个浅灰色矩形位于约 107800 至 108400，一个浅蓝色矩形位于约 103800 至 104600。图右侧有两根较大的黑色 K 线，附近有一个小绿色矩形标注。图上另",
+    "case_004_detail_3.jpg": "图为 BTCUSDT 日线 K 线图，可见价格范围约从 94000 至 112000。图中部有一个浅蓝色矩形标注区域，覆盖约 101000 至 104000 价格区间，横跨约 2 至 3 根 K 线。图上有一条水平线从该矩形区域延伸至图右侧，对应价格约 103500。图右侧最新 K 线为一根实体较长的阴线，主体从约 107000 延伸至约 96000。右侧价格轴上有多个高亮标签，集中在 10300",
+    "case_004_detail_4.jpg": "BTCUSDT 日线K线图，可见价格范围约从84000至112000。图中左侧区域出现一根大阳线后跟随一系列K线，最高点约在112000附近。图右侧出现一根大阴线，实体从约100800向下延伸至约97000。图上有一条水平线延伸至约100300至100800区域，并在该区域附近有两个矩形标注框。图右侧最新K线为大阴线实体，影线较短。时间轴显示跨度从约4月至8月。",
+    "case_004_detail_5.jpg": "BTCUSDT 1 小时 K 线图，可见价格范围约从 94000 至 109000。图上绘制有多个浅色矩形区域，分布在约 104500–105500、101500–102500、100500–101500、97500–99000、96500–97500 等价格区间。图中有两条竖向虚线将图表分为三段。图右侧出现数根大实体 K 线，涵盖约 103000 至 108000 区间。图中部可见一段连续下行的",
+    "case_004_detail_6.jpg": "图表显示 BTCUSDT 的 K 线图，价格范围约从 94500 到 109000。图上有一条贯穿全图的黄色水平带状区域位于约 100000 处，另有两条水平线分别位于约 102250 和 104500。左侧区域有一个灰色矩形框标注于约 101500 至 102500 区间。图左部分 K 线以黑色（阴线）为主，从约 102000 下行至约 94500；图中部出现绿色 K 线，价格在约 99000 "
+  },
+  "sources": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "segment_ids": [
+        "seg_014",
+        "seg_015",
+        "seg_017",
+        "seg_018"
+      ],
+      "time_range": [
+        662.64,
+        865.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从日线观察、小时线混乱、上移4小时线、识别FVG、等待retracement到最终交易执行的全过程，资产、时间框架、价格区间、交易结果均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:01.462648Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线看跌后上移4小时线寻找清晰V形反转交易\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1D / 4H\",\"market_context\":\"BTC日线形成看跌收盘（candle 2），价格从约105500跌至102000。小时线结构混乱，博主通过上移至4小时线获得清晰的整理和V形反转结构，展示了时间框架灵活应用的实战案例。\",\"key_observation\":\"当低时间框架（1H）图表混乱时，可上移至更高时间框架（4H）获得清晰的市场结构。4小时线显示明确的consolidation和V形反转，为交易提供了高概率的设置。\",\"analysis_steps\":[\"Step 1: 观察日线形成看跌收盘candle，价格从约105500向下收至102000附近。\",\"Step 2: 下移至1小时线寻找低时间框架交易机会，但发现小时线结构过于混乱。\",\"Step 3: 根据时间框架灵活性原则，上移至4小时线重新分析市场结构。\",\"Step 4: 在4小时线上识别出清晰的consolidation区域（约103600-104200）和V形反转结构。\",\"Step 5: 识别4小时线上的Fair Value Gap（FVG），预期价格会回测该区域。\",\"Step 6: 等待价格回测FVG区域，寻求retracement回到整理范围以获得更好的风险回报比（2R）。\",\"Step 7: 确认价格突破并继续下行，验证看跌交易的有效性。\",\"Step 8: 观察consolidation中的failure swings on highs和低点扫荡，为后续反应做准备。\"],\"outcome\":\"价格成功回测FVG区域，获得retracement回到整理范围，随后继续下行，实现了预期的2R风险回报比交易。\",\"lessons\":\"当单一时间框架混乱时，灵活上移至更高时间框架可获得清晰的市场结构和高概率交易设置。不必严格固定在预定时间框架，根据实际图表清晰度调整是专业交易者的重要技能。\",\"primary_image_frame_id\":\"9BY-MQRNy-Y_f024\",\"supporting_image_frame_ids\":[\"9BY-MQRNy-Y_f022\",\"9BY-MQRNy-Y_f023\",\"9BY-MQRNy-Y_f025\",\"9BY-MQRNy-Y_f026\",\"9BY-MQRNy-Y_f027\",\"9BY-MQRNy-Y_f028\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Market Structure\",\"Consolidation\",\"V-shaped Reversal\",\"Failure Swing\",\"Time Frame Alignment\",\"Risk Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从日线观察、小时线混乱、上移4小时线、识别FVG、等待retracement到最终交易执行的全过程，资产、时间框架、价格区间、交易结果均清晰可读。\"}",
+  "error": null
+}

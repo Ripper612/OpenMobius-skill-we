@@ -1,0 +1,51 @@
+{
+  "card_id": "shooter_candle",
+  "type": "merged_concept",
+  "canonical_term": "Shooter Candle",
+  "aliases": [
+    "射手形K线"
+  ],
+  "school": "Price Action",
+  "definition": "当价格在高时间框架上激进向上突破范围后再向下回落时形成的K线形态，具有长上影线和较小实体，反映了买方流动性被扫荡后的回落。",
+  "identification_rules": [
+    "价格先激进向上突破一个范围的高点",
+    "随后在同一根K线或相邻K线内激进回落至范围内",
+    "在高时间框架上形成长上影线的K线形态",
+    "与hammer candle相反，hammer是向下突破后回升，shooter是向上突破后回落"
+  ],
+  "trading_implication": "Shooter Candle表明买方流动性（Buyside Liquidity）在高点被扫荡，价格随后回落至范围内。交易者可用其识别潜在的OTE（最优交易入场点）区域或作为偏差信号。在多时间框架分析中，可作为寻找低时间框架入场机会的触发信号，特别是结合FVG或OB等PD array进行交易。",
+  "common_mistakes": [
+    "材料未明确提及常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_shooter_candle",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        188.22,
+        293.3
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135819Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

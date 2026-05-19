@@ -1,0 +1,67 @@
+{
+  "card_id": "valid_separation",
+  "type": "merged_concept",
+  "canonical_term": "Valid Separation",
+  "aliases": [
+    "adequate distance between swing points",
+    "sufficient separation"
+  ],
+  "school": "Price Action",
+  "definition": "两个相邻摆动点之间的价格距离足够大，使得交易者可以信任在该摆动点形成的反转，而无需担心更极端点被突破。",
+  "identification_rules": [
+    "比较当前摆动点与前一个摆动点之间的价格距离",
+    "距离过近（如等高或接近）则为无效分离（Invalid Separation），不足以信任反转",
+    "距离足够远时，价格在该摆动点反转后可以不触及前一个极端点而被信任",
+    "判断标准需要交易者的经验和判断力，无机械化公式"
+  ],
+  "trading_implication": "Valid Separation是判断摆动点是否可交易的关键。当价格交易到具有有效分离的摆动点时，如果形成反转，交易者可以信任该反转并交易离开该点，而无需担心前一个极端点被突破。这帮助交易者区分相关摆动点（Relevant Swings）和失败摆动（Failure Swings），从而提高交易的可靠性。",
+  "common_mistakes": [
+    "将距离过近的摆动点视为相关摆动点，导致在反转失败时被套",
+    "依赖机械化规则判断分离是否有效，而忽视了这需要经验和判断力",
+    "未能区分有效分离与无效分离，导致在不可信的摆动点进行交易"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "HbOeD_JVens_case_005_gch日线有效分离度判断与反转确认",
+      "video_id": "HbOeD_JVens",
+      "title": "GCH日线有效分离度判断与反转确认"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_006_xagusd小时线与gch小时线的分形应用",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGUSD与GCH小时线的分形摆动点验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_valid_separation",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_010"
+      ],
+      "time_range": [
+        10.88,
+        712.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136571Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

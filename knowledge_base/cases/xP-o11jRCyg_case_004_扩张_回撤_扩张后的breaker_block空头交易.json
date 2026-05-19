@@ -1,0 +1,111 @@
+{
+  "card_id": "xP-o11jRCyg_case_004_扩张_回撤_扩张后的breaker_block空头交易",
+  "type": "case",
+  "title": "ETH 1H扩张-回撤-扩张后的Breaker Block空头延续交易",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Confirmation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "2R Target",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "market_structure_shift",
+    "displacement",
+    "swing_formation",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "ETH",
+  "timeframe": "1H / 5M",
+  "market_context": "ETH在1小时图上经历明显的扩张-回撤-扩张循环，形成摆动高点后出现看跌结构转变，为空头延续交易提供机会。",
+  "key_observation": "价格在扩张后形成摆动高点，随后在1H和5M时间框架上都识别到有效的Breaker Block，提供高概率空头延续入场点。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别扩张-回撤-扩张的完整周期，确认形成摆动高点（约2768）。",
+    "Step 2: 检查Change in State of Delivery（CSD），确认市场结构转变为看跌。",
+    "Step 3: 在1小时图上标记Breaker Block——扫出左侧摆动高点后的下跌K线，形成高-低-更高的高-更低的低结构。",
+    "Step 4: 下钻到5分钟图确认对齐，验证同样的CSD和Breaker Block结构。",
+    "Step 5: 在5分钟图上等待看跌收盘信号（扫高后的包含K线+看跌收盘），标记为5M Breaker Block。",
+    "Step 6: 设置止损在Breaker Block高点或摆动高点，目标设为2R。",
+    "Step 7: 执行空头交易，追踪价格走势直至达成2R目标。"
+  ],
+  "outcome": "交易成功达成2R目标。在1小时图上的Breaker Block空头延续交易命中，价格从入场点下跌至目标区域。",
+  "lessons": "多时间框架确认（HTF→LTF）提高交易概率；等待看跌收盘信号而非盲目做空；Breaker Block在扩张-回撤-扩张后形成时具有高可靠性；2R风险回报比是可达成的目标。",
+  "primary_image": "cards/xP-o11jRCyg/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/xP-o11jRCyg/images/case_004_detail_1.jpg",
+    "cards/xP-o11jRCyg/images/case_004_detail_2.jpg",
+    "cards/xP-o11jRCyg/images/case_004_detail_3.jpg",
+    "cards/xP-o11jRCyg/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "ETH 1 小时 K 线图。图上显示从 2270 上升至 2775 的上升趋势，约跨越 20 根 K 线。之后出现下跌，随后进入一个由灰色矩形标记的区间，该区间范围约在 2220 至 2340 之间。矩形内的 K 线呈现黑绿混合颜色，其中一根 K 线具有较长的下影线，向下刺至约 2200 附近。图右侧显示当前时间为 17:09:59 UTC，资产为 ETH。",
+    "case_004_detail_1.jpg": "ETH 蜡烛图。图表显示从约 1700 到 2765.5 的价格范围。图上有一条水平线位于 2215.0 附近。可见绿色和黑色蜡烛交替出现，上方区域（2700-2765）的多根蜡烛具有较长上影线，下方区域（1700-1800）的多根蜡烛具有较长下影线。图表中部偏右位置有一根黄色高亮蜡烛，位于约 2150 价格水平。图上标注有一个矩形框，范围约在 2100 至 2250 之间。右下角显示时间戳'17",
+    "case_004_detail_2.jpg": "图表显示一份 K 线图，价格范围约从 10704 至 12962。图上标注有三个矩形区域，分别对应三个价格水平：上方灰色区域标记为 Open: 9.7 @ 12281 ETH - Amount: 47.09；中间灰色区域标记为 Open: 0.5 @ 11743 ETH - Amount: 5.87；下方浅青色区域标记为 Support: 6.7 @ 10700 ETH - Amount: 20.",
+    "case_004_detail_3.jpg": "图表显示一条上升趋势，从1267.4上升至1294.8，跨越约40根K线。图上标记了两个矩形区域：上方灰色区域范围1290.8至1294.8，下方浅青色区域范围1278.0至1290.8。两条水平线分别位于1290.8和1278.0处。K线在标记区域内显示多个带有上下影线的形态，影线穿过矩形边界。右侧价格刻度清晰可见，底部显示时间轴标记。",
+    "case_004_detail_4.jpg": "ETH 1 小时 K 线图。图上显示价格从约 2640 上升至 2768，随后出现回调。图中标注有两个重叠的矩形区域，均位于 2680 至 2730 价格范围内，用浅蓝色和灰色填充。在约 2670 水平处有一个黄色文字标注。可见 K 线在 2768 处形成长上影线，之后出现一根向下跳空的 K 线，随即被一根绿色 K 线部分收回。整体图表未显示其他技术指标。"
+  },
+  "sources": [
+    {
+      "video_id": "xP-o11jRCyg",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        548.48,
+        726.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从1H到5M的分析过程，清晰标记了Breaker Block，明确说明交易达成2R，所有关键步骤和结果都有图表支持。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:51.036525Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH 1H扩张-回撤-扩张后的Breaker Block空头延续交易\",\"school\":\"ICT\",\"asset\":\"ETH\",\"timeframe\":\"1H / 5M\",\"market_context\":\"ETH在1小时图上经历明显的扩张-回撤-扩张循环，形成摆动高点后出现看跌结构转变，为空头延续交易提供机会。\",\"key_observation\":\"价格在扩张后形成摆动高点，随后在1H和5M时间框架上都识别到有效的Breaker Block，提供高概率空头延续入场点。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别扩张-回撤-扩张的完整周期，确认形成摆动高点（约2768）。\",\"Step 2: 检查Change in State of Delivery（CSD），确认市场结构转变为看跌。\",\"Step 3: 在1小时图上标记Breaker Block——扫出左侧摆动高点后的下跌K线，形成高-低-更高的高-更低的低结构。\",\"Step 4: 下钻到5分钟图确认对齐，验证同样的CSD和Breaker Block结构。\",\"Step 5: 在5分钟图上等待看跌收盘信号（扫高后的包含K线+看跌收盘），标记为5M Breaker Block。\",\"Step 6: 设置止损在Breaker Block高点或摆动高点，目标设为2R。\",\"Step 7: 执行空头交易，追踪价格走势直至达成2R目标。\"],\"outcome\":\"交易成功达成2R目标。在1小时图上的Breaker Block空头延续交易命中，价格从入场点下跌至目标区域。\",\"lessons\":\"多时间框架确认（HTF→LTF）提高交易概率；等待看跌收盘信号而非盲目做空；Breaker Block在扩张-回撤-扩张后形成时具有高可靠性；2R风险回报比是可达成的目标。\",\"primary_image_frame_id\":\"xP-o11jRCyg_f025\",\"supporting_image_frame_ids\":[\"xP-o11jRCyg_f023\",\"xP-o11jRCyg_f024\",\"xP-o11jRCyg_f026\",\"xP-o11jRCyg_f027\"],\"related_concepts\":[\"Breaker Block\",\"Order Block\",\"Change in State of Delivery\",\"Market Structure Shift\",\"Displacement\",\"Swing High\",\"Liquidity\",\"Multi-Timeframe Confirmation\",\"Risk Management\",\"2R Target\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从1H到5M的分析过程，清晰标记了Breaker Block，明确说明交易达成2R，所有关键步骤和结果都有图表支持。\"}",
+  "error": null
+}

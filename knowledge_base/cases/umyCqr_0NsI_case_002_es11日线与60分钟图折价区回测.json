@@ -1,0 +1,109 @@
+{
+  "card_id": "umyCqr_0NsI_case_002_es11日线与60分钟图折价区回测",
+  "type": "case",
+  "title": "ES11日线折价区在60分钟图中的多次中期低点回测",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Discount",
+      "card_id": "discount",
+      "exists": true
+    },
+    {
+      "term": "Short-term Low (STL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Intermediate-term Low (ITL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Long-term Low (LTL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Rebalance",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "discount",
+    "order_block_ob",
+    "market_structure",
+    "swing_formation"
+  ],
+  "school": "ICT",
+  "asset": "ES11",
+  "timeframe": "1D / 60M",
+  "market_context": "ES11在日线上形成折价区FVG，价格下探至该区域后在60分钟图上展现多个短期低点和中期低点的形成过程，最终在长期低点附近完成平衡并继续上升。",
+  "key_observation": "博主展示了价格如何在日线折价区内，通过60分钟图的结构标记（短期低点、中期低点、长期低点），逐步验证市场结构，并在FVG重新平衡后恢复上升趋势。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别折价区FVG，标记其上下边界",
+    "Step 2: 切换至60分钟图，在折价区内标记第一个短期低点（STL）",
+    "Step 3: 观察价格反应，确认是否形成中期低点（ITL），需要在短期低点右侧形成另一个短期低点",
+    "Step 4: 标记长期低点（LTL），需要在中期低点两侧各有短期低点被扫除后确认",
+    "Step 5: 追踪价格在长期低点附近形成的多个中期低点，每次都伴随短期低点的扫除",
+    "Step 6: 观察价格在FVG区域内的整理和反弹，确认中期低点不被破坏",
+    "Step 7: 确认价格完成FVG平衡后继续向上运动，验证整个结构的有效性"
+  ],
+  "outcome": null,
+  "lessons": "在高时间框架（日线）识别的折价区FVG中，低时间框架（60分钟）的多个中期低点形成过程遵循一致的结构规则：短期低点的扫除→中期低点的确认→长期低点的验证。价格在FVG内完成平衡后继续上升，说明该区域的支撑有效性。不应预期长期低点被破坏，除非市场结构发生转变。",
+  "primary_image": "cards/umyCqr_0NsI/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/umyCqr_0NsI/images/case_002_detail_1.jpg",
+    "cards/umyCqr_0NsI/images/case_002_detail_2.jpg",
+    "cards/umyCqr_0NsI/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ES11 60分钟K线图。图上标注有多个'STL'文字标签分布在图表中部和右侧区域。图下方标记'Long Term Low'文本。图表左侧显示明显的下降趋势，由一系列创出更低高点和更低低点的K线组成。中部区域出现整理形态，由多根小实体K线构成。右侧区域出现绿色实体K线，表示恢复。图表整体显示从高位向下运动后在低位区域的整理和反弹过程。时间标记显示18/1/2024。",
+    "case_002_detail_1.jpg": "ES11 日线图。图表显示一系列绿色和黑色 K 线，从左侧向右延伸。左侧以绿色 K 线为主，中间部分出现黑色 K 线与绿色 K 线交替。图右侧绘有一条灰色水平矩形框。图下方有黄色十字光标标记，位于一条水平虚线上。图上标注显示日期 16/1/2024 及资产代码 ES11 和时间框架 D。价格刻度和具体数值不清晰可见。",
+    "case_002_detail_2.jpg": "图表为蜡烛图形式，显示从左至右的下跌趋势。图上标注有两处文字标签：右侧中部有'0:00'时间标记，下方有'Long Term Low'标签指向一条水平线。图右下角显示'ES11 60M'文字。图表下方有一条灰色水平带状区域。整个图表中包含多根绿色和黑色蜡烛，多数蜡烛具有下影线。图上还有'STL'文字标签出现两次。",
+    "case_002_detail_3.jpg": "ES11 60分钟K线图。图上标注有多个'STL'文字标签分布在K线上，以及一个'Long Term Low'标签指向图表中部的低点区域。图右上角显示'0.00'标注。图中央有一条灰色水平带状区域。K线形态显示：左侧约8根K线呈下降趋势，中部形成反转低点，随后出现上升趋势，右侧K线继续上升。整个可见区间内混合出现绿色和黑色K线。图表底部显示日期'19/1/2024'和资产代码'ES11'及时间框架"
+  },
+  "sources": [
+    {
+      "video_id": "umyCqr_0NsI",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        372.28,
+        729.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线与60分钟图的结构标记过程，清晰标注了STL、ITL、LTL等关键点，并解释了每个结构的形成条件和验证逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:23.052953Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES11日线折价区在60分钟图中的多次中期低点回测\",\"school\":\"ICT\",\"asset\":\"ES11\",\"timeframe\":\"1D / 60M\",\"market_context\":\"ES11在日线上形成折价区FVG，价格下探至该区域后在60分钟图上展现多个短期低点和中期低点的形成过程，最终在长期低点附近完成平衡并继续上升。\",\"key_observation\":\"博主展示了价格如何在日线折价区内，通过60分钟图的结构标记（短期低点、中期低点、长期低点），逐步验证市场结构，并在FVG重新平衡后恢复上升趋势。\",\"analysis_steps\":[\"Step 1: 在日线图上识别折价区FVG，标记其上下边界\",\"Step 2: 切换至60分钟图，在折价区内标记第一个短期低点（STL）\",\"Step 3: 观察价格反应，确认是否形成中期低点（ITL），需要在短期低点右侧形成另一个短期低点\",\"Step 4: 标记长期低点（LTL），需要在中期低点两侧各有短期低点被扫除后确认\",\"Step 5: 追踪价格在长期低点附近形成的多个中期低点，每次都伴随短期低点的扫除\",\"Step 6: 观察价格在FVG区域内的整理和反弹，确认中期低点不被破坏\",\"Step 7: 确认价格完成FVG平衡后继续向上运动，验证整个结构的有效性\"],\"outcome\":null,\"lessons\":\"在高时间框架（日线）识别的折价区FVG中，低时间框架（60分钟）的多个中期低点形成过程遵循一致的结构规则：短期低点的扫除→中期低点的确认→长期低点的验证。价格在FVG内完成平衡后继续上升，说明该区域的支撑有效性。不应预期长期低点被破坏，除非市场结构发生转变。\",\"primary_image_frame_id\":\"umyCqr_0NsI_f019\",\"supporting_image_frame_ids\":[\"umyCqr_0NsI_f016\",\"umyCqr_0NsI_f017\",\"umyCqr_0NsI_f020\",\"umyCqr_0NsI_f021\",\"umyCqr_0NsI_f022\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Discount\",\"Short-term Low (STL)\",\"Intermediate-term Low (ITL)\",\"Long-term Low (LTL)\",\"Order Block (OB)\",\"Market Structure\",\"Swing Low\",\"Rebalance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线与60分钟图的结构标记过程，清晰标注了STL、ITL、LTL等关键点，并解释了每个结构的形成条件和验证逻辑。\"}",
+  "error": null
+}

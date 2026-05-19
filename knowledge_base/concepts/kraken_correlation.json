@@ -1,0 +1,61 @@
+{
+  "card_id": "kraken_correlation",
+  "type": "merged_concept",
+  "canonical_term": "Kraken Correlation",
+  "aliases": [
+    "Kraken SMT"
+  ],
+  "school": "SMC",
+  "definition": "两个相关资产在摆动点间形成的Smart Money Technique，其中一个资产的摆动点与另一资产的价格形成相反方向的收盘，用于确认反转信号。",
+  "identification_rules": [
+    "识别两个高度相关的资产（如原油与汽油、黄金与英镑计价黄金、股指对）",
+    "观察两资产在同一时间周期内是否在摆动点处形成相反方向的收盘（一个看涨收盘，另一个看跌收盘）",
+    "确认该形态出现在第一阶段SMT之后，作为两阶段SMT序列的第二阶段",
+    "验证该形态与关键价格水平（如FVG、订单块或摆动高低点）的关系"
+  ],
+  "trading_implication": "Kraken Correlation是最高概率的反转确认信号。当第一阶段SMT与关键价格水平形成后，随后出现Kraken Correlation（通常伴随精准摆动点PSP），可确认反转成立。交易者应在该形态确认后交易后续蜡烛，目标指向范围的对立面或流动性目标。",
+  "common_mistakes": [
+    "将单一的相反收盘误认为Kraken Correlation，忽视其必须作为两阶段SMT第二阶段的结构要求",
+    "在没有第一阶段SMT或关键价格水平确认的情况下交易Kraken Correlation",
+    "混淆Kraken Correlation与普通的PSP，未能识别其作为更高概率确认信号的特殊性"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3eVxTV_7L2U_case_005_黄金三角_gc_gbpusd_的摆动确认交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "黄金/英镑三角形态的PSP与相关性确认交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_kraken_correlation",
+      "segment_ids": [
+        "seg_012",
+        "seg_013",
+        "seg_016"
+      ],
+      "time_range": [
+        646.0,
+        1107.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133711Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

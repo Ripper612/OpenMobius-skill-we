@@ -1,0 +1,153 @@
+{
+  "card_id": "higher_time_frame_wick",
+  "type": "merged_concept",
+  "canonical_term": "Higher Time Frame Wick",
+  "aliases": [
+    "HTF Wick",
+    "高时间框架影线",
+    "高时间框架灯芯"
+  ],
+  "school": "ICT",
+  "definition": "高时间框架K线上形成的长影线，由低时间框架的「扩张+扩张」反转结构组成。价格扩张至关键摆动高/低点后遭遇拒绝，立即出现反向扩张，形成V形或倒V形反转，表明智能资金完成操纵阶段，价格将沿反转方向继续运行。",
+  "identification_rules": [
+    "在高时间框架（如日线、周线、小时线）K线上识别明显的长影线结构，通常呈V形或倒V形反转",
+    "反转必须发生在相关的摆动高/低点（如前一天高点、前一周高点），而非随机价格水平",
+    "在低时间框架上验证：该高时间框架影线由低时间框架的「扩张+扩张」组成，而非「扩张+回撤」",
+    "确认信号：低时间框架中扩张方向改变，形成交付状态改变（Change in the state of delivery）",
+    "影线形成后，价格应沿高时间框架偏差方向（与影线相反方向）继续运行"
+  ],
+  "trading_implication": "高时间框架影线表明价格在关键水平遭遇拒绝，预示反转或趋势改变。交易者可在影线完全形成后，于低时间框架寻找反转确认信号建立头寸，或等待受保护摆动点形成后交易延续走势。止损设在影线极值，目标为斐波那契投影或流动性目标。不必追高/追低捕捉影线本身，而是交易影线形成后的延续走势。",
+  "common_mistakes": [
+    "影线未完全形成时过早入场，导致被止损",
+    "忽视高时间框架偏差（Bias）的确认，仅基于低时间框架的影线交易",
+    "对随机高点/低点形成的扩张-扩张形态误认为是高时间框架影线，忽视相关摆动点的要求",
+    "混淆「扩张+扩张」与「扩张+回撤」结构，未能正确区分高时间框架影线与普通回撤",
+    "试图在影线形成时立即交易，而不等待低时间框架的确认信号或受保护摆动点",
+    "未等待影线形成后的价格确认就建立头寸，增加被诱导（Inducement）的风险"
+  ],
+  "related_concepts": [
+    {
+      "term": "T-Spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Candle Closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Formation Liquidity",
+      "card_id": "formation_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "CqMIh-Vvhbg_case_002_eur_aud小时线与5分钟线的多时间框架分析",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "EUR/AUD多时间框架Fractal模型分析与指标参数调整"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_013_uni_1小时图_高时间框架wick形成的continuatio",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "UNI 1H：高时间框架wick形成时的continuation交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_higher_time_frame_wick",
+      "segment_ids": [
+        "seg_002",
+        "seg_006"
+      ],
+      "time_range": [
+        191.2,
+        1082.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_higher_time_frame_wick",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_008",
+        "seg_012",
+        "seg_021"
+      ],
+      "time_range": [
+        11.04,
+        1019.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:42.002468Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

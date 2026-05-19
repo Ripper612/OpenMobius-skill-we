@@ -1,0 +1,256 @@
+{
+  "card_id": "internal_range_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Internal Range Liquidity",
+  "aliases": [
+    "FVG内部流动性",
+    "IRL",
+    "Internal Liquidity",
+    "盘整区间内流动性"
+  ],
+  "school": "ICT",
+  "definition": "在盘整区间或FVG内部识别的流动性目标，包括公允价值缺口、OTE（区间中点/0.5斐波那契）及内部支撑阻力位。价格在外部流动性（摆动高低点）与内部流动性之间循环运动，内部流动性作为价格回撤或反转的第一目标位。",
+  "identification_rules": [
+    "识别明确的盘整区间或FVG，标记其内部的高点和低点位置",
+    "在外部范围（External Range Liquidity）内部识别公允价值缺口或关键价格水平，该水平通常由价格快速位移（Displacement）形成",
+    "计算区间的OTE（通常为0.5斐波那契水平或区间中点），作为内部流动性参考位",
+    "标记区间内的Order Block或Fair Value Gap作为内部支撑阻力",
+    "当价格从外部范围回撤进入该水平时，预期出现反转；突破区间后反弹时，第一目标指向这些内部流动性位置",
+    "可在任何时间框架上识别，从周线到5分钟图表均适用",
+    "在相关资产对上标记相同FVG范围，观察两者是否都能到达内部高低点，若出现分歧则形成SMT"
+  ],
+  "trading_implication": "内部流动性作为通用模型框架的关键水平，是价格反转或缓解的第一目标。市场在外部流动性（摆动高低点）与内部流动性（FVG/OTE）之间循环：价格从外部流动性移向内部流动性，再继续向新的外部流动性运动。高时间框架内部流动性为低时间框架交易提供方向偏差；结合摆动形态（烛线2收盘或烛线3形成）可确认反转有效性。亦可通过比较相关资产是否同时触及内部高低点来识别SMT分歧。",
+  "common_mistakes": [
+    "将内部流动性与外部流动性混淆：内部是FVG/OTE/区间内支撑阻力，外部是摆动高低点",
+    "忽视盘整区间内部的流动性，直接将目标设定在区间外的高点或低点",
+    "未能区分Internal Range Liquidity与区间外的流动性目标，导致目标位设置过高或过低",
+    "假设价格总是完美地在内外流动性之间循环，实际中价格可能跳过某些区域或不完全回补FVG",
+    "在单一时间框架上应用该概念，忽视多时间框架关系对交易设置的重要性",
+    "仅在单个资产上分析，忽视相关资产的对比，无法识别真正的SMT",
+    "混淆正相关和反相关对的预期结构（正相关应同向，反相关应反向）",
+    "未正确标记FVG的内部高点和低点，导致无法准确比较资产间的分歧"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Universal Model",
+      "card_id": "universal_model",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "27S9gjgcSlI_case_007_es与nq在fvg内的smt分析",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ在15分钟FVG内的SMT分析与1分钟下钻验证"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_003_英镑日元周线到4小时的买卖模式转换",
+      "video_id": "3OivsP1j_UE",
+      "title": "GBPJPY 周线到4小时的卖买模式转换与流动性追踪"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_004_纳指5分钟开盘范围内的内外流动性循环",
+      "video_id": "3OivsP1j_UE",
+      "title": "NQ1 5分钟开盘范围内的内外流动性循环"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_001_黄金周线至15分钟多时间框架交易案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "黄金周线至15分钟多时间框架交易案例"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_002_日线扫盘后的5分钟入场案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "日线扫盘后通过小时图FVG和5分钟CSD的多层级入场"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_004_usd_jpy日线趋势延续案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "USD/JPY日线趋势延续：从内部流动性到外部流动性的机制化交易"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_003_usd_1小时图_多日反转与保护摆动",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1H：突破前日高点后的反转与FVG目标"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_001_纳斯达克与标普500强弱对比交易",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "纳斯达克与标普500强弱对比做多交易"
+    },
+    {
+      "card_id": "k3hTgbHBz1U_case_001_标普500期货15分钟诱导模型案例",
+      "video_id": "k3hTgbHBz1U",
+      "title": "标普500期货15分钟诱导模型：流动性扫荡与止损运行"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_001_nq日线扫盘至内部流动性案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "NQ日线扫盘至内部流动性案例"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_002_eth小时图多次fvg回测案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "ETH小时图多次FVG回测与5分钟入场设置达成2R"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_004_5分钟图激进位移入场案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "ETH 1小时图：830高点扫除后的激进位移入场"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_005_audcad月线至小时图多时间框架案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "AUDCAD月线至小时图多时间框架FVG与MSS入场"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_006_audjpy周线至15分钟图高时间框架案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "AUDJPY周线FVG至15分钟Breaker Block高概率入场"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_002_nq第二个例子_从内部流动性到外部流动性",
+      "video_id": "q40pRwjuPYQ",
+      "title": "NQ从15分钟内部流动性到5分钟扫盘再到30秒FVG入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "original_card_id": "27S9gjgcSlI_concept_internal_range_liquidity",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        920.56,
+        1020.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "3OivsP1j_UE",
+      "original_card_id": "3OivsP1j_UE_concept_internal_range_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.48,
+        713.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_internal_range_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        11.2,
+        379.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "hh_kKK4Fhrw",
+      "original_card_id": "hh_kKK4Fhrw_concept_internal_range_liquidity",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.799,
+        368.58
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:38.373334Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'SMC']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "3张ICT + 1张SMC，按多数选ICT。SMC卡侧重FVG内部高低点与SMT分歧分析，与ICT卡的FVG/内部流动性框架高度兼容，相关内容已整合入规则与用途中。",
+  "error": null
+}

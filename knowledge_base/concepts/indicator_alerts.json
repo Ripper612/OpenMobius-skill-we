@@ -1,0 +1,53 @@
+{
+  "card_id": "indicator_alerts",
+  "type": "merged_concept",
+  "canonical_term": "Indicator Alerts",
+  "aliases": [
+    "Setup Alerts",
+    "Warning and Error Messages"
+  ],
+  "school": "General",
+  "definition": "指标中可启用的通知功能，当新的交易设置（如C2、C3、C4闭合）形成时自动发送警报提醒交易者。",
+  "identification_rules": [
+    "在指标设置面板的 General Settings 中找到 Warnings and Error Messages 或 Alerts 选项",
+    "启用该选项后，每当满足设定条件的新设置形成时会触发通知",
+    "可结合 Bias（看涨/看跌/中立）和 Time Filter（时间过滤）设置来精准控制何时接收警报"
+  ],
+  "trading_implication": "Indicator Alerts 使交易者无需持续盯盘即可及时捕捉符合交易模型的设置形成时刻。通过启用此功能并配合偏差设置和时间过滤器，交易者可以在特定交易时段（如纽约盘）和特定方向（看涨/看跌）的设置出现时收到通知，提高交易执行效率和反应速度。",
+  "common_mistakes": [
+    "未根据实际使用的时间框架启用警报，导致接收到不适用的通知",
+    "忽视时间过滤器设置，在非目标交易时段也接收警报造成干扰",
+    "未结合 Bias 设置精准过滤，导致接收过多无关方向的警报"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_indicator_alerts",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.2,
+        369.08
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133465Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

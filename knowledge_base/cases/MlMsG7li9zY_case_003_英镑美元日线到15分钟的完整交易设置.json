@@ -1,0 +1,123 @@
+{
+  "card_id": "MlMsG7li9zY_case_003_英镑美元日线到15分钟的完整交易设置",
+  "type": "case",
+  "title": "英镑美元日线FVG填补后的多头设置与15分钟OTE入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "premium_discount",
+    "equilibrium_eq",
+    "optimal_trade_entry_ote",
+    "premium_discount_premium_",
+    "liquidity",
+    "market_structure",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1D / 15M",
+  "market_context": "英镑美元填补日线FVG后形成新高，随后进入折价区。博主识别出日线内的Premium/Discount结构，并向下钻取到15分钟图表寻找具体入场机会。",
+  "key_observation": "价格填补日线FVG后创出新高，形成aggressive displacement range。在折价区内存在PD array（小FVG），为多头提供了明确的目标和入场框架。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别已填补的FVG和随后形成的新高（约1.28600）",
+    "Step 2: 标记aggressive displacement range从高到低，确定折价区范围（约1.27325-1.25200）",
+    "Step 3: 在折价区内识别PD array中的小FVG作为潜在目标",
+    "Step 4: 确认价格回测前一天低点（previous day low），并在其上方形成支撑",
+    "Step 5: 下钻到15分钟图表，标记亚洲时段范围（Asia range high/low）和午夜（midnight）",
+    "Step 6: 观察15分钟图表中Asia low被扫除，随后形成aggressive move higher",
+    "Step 7: 在15分钟图表中标记新的Premium/Discount range，计算OTE（Optimal Trade Entry）",
+    "Step 8: 对比OTE入场的风险回报比（3.43）与均衡点入场（1.6），确认OTE优越性",
+    "Step 9: 验证价格在OTE水平没有K线收盘破位，显示该水平被尊重",
+    "Step 10: 追踪价格向上运行至日线FVG目标，并突破该水平继续上升"
+  ],
+  "outcome": "价格从OTE入场点上升至日线FVG目标（约1.28600），并继续突破该水平进一步上升，交易达到预期目标并超出。",
+  "lessons": "通过多时间框架分析（日线识别结构，15分钟寻找OTE）可以找到高概率入场点。OTE相比均衡点提供更优的风险回报比。价格对关键水平的尊重（无收盘破位）是确认支撑有效性的重要信号。",
+  "primary_image": "cards/MlMsG7li9zY/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/MlMsG7li9zY/images/case_003_detail_1.jpg",
+    "cards/MlMsG7li9zY/images/case_003_detail_2.jpg",
+    "cards/MlMsG7li9zY/images/case_003_detail_3.jpg",
+    "cards/MlMsG7li9zY/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "GBPUSD 日线图。图上显示从 6 月初至 7 月中旬的 K 线序列。两条水平线分别位于 1.28600（标记为 0）和 1.27325（标记为 0.5），将价格区间分为上下两个矩形区域。上方粉色矩形范围约 1.28600 至 1.27325，下方绿色矩形范围约 1.27325 至 1.25200。K 线序列由绿色和黑色蜡烛交替组成，整体价格范围从 1.23800 至 1.29400。图右侧显示",
+    "case_003_detail_1.jpg": "GBPUSD 日线图。图表显示从约 1.24000 至 1.28800 的价格范围。左侧显示一系列绿色 K 线构成上升序列，随后在约 1.28000 处转为黑色 K 线形成下降序列。图上可见一根长上影线的 K 线在 Jun 5 附近，影线向上刺破至约 1.28600。中部区域有一个灰色圆形标注带十字光标，位置约在 1.25000 价格水平。右侧价格刻度显示 1.27412、1.25340、1.24",
+    "case_003_detail_2.jpg": "GBPUSD 日线图。图上显示从5月末至6月中旬的上升趋势，随后进入6月中旬至6月末的震荡阶段。两条水平线分别标记在1.27900和1.20200处，均标注为0.5。两个矩形框分别覆盖1.20200至1.27900区间和1.27900至1.28600区间。K线序列包含多根绿色蜡烛和黑色蜡烛交替出现，部分K线具有较长的下影线。右侧显示当前价格标记为1.27900。",
+    "case_003_detail_3.jpg": "GBPUSD 15分钟K线图。图上显示价格范围约1.25900至1.26450。右侧标注有三条水平线，分别位于1.26370、1.26000和1.25600处。图上有两个矩形框：粉色矩形标记为'0.5'，覆盖1.26000至1.26370区间；绿色矩形标记为'[0:00]'，覆盖1.25600至1.26000区间。另有文字标签'[0:4]'标注在上方矩形区域。K线图显示多根绿色和黑色实体的蜡烛线，",
+    "case_003_detail_4.jpg": "GBPUSD 15分钟K线图。图上显示价格范围约1.25900至1.26850。图表中部有两个矩形区域用浅绿色和浅灰色填充，分别覆盖1.26100至1.26700和1.25900至1.26100的价格区间。图上标注有四条水平线及斐波那契水平标签，其中0.5和0.79标签分别对应1.26300和1.26100。K线形态显示01:00时段出现向下跳空缺口，伴随长下影线。06:00至09:00区间内K线"
+  },
+  "sources": [
+    {
+      "video_id": "MlMsG7li9zY",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        361.32,
+        509.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到15分钟的分析过程，清晰标注了关键价位（1.28600、1.27325、1.25200等），明确说明了OTE入场点和日线FVG目标，交易结果也有明确描述。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:22.288578Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"英镑美元日线FVG填补后的多头设置与15分钟OTE入场\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1D / 15M\",\"market_context\":\"英镑美元填补日线FVG后形成新高，随后进入折价区。博主识别出日线内的Premium/Discount结构，并向下钻取到15分钟图表寻找具体入场机会。\",\"key_observation\":\"价格填补日线FVG后创出新高，形成aggressive displacement range。在折价区内存在PD array（小FVG），为多头提供了明确的目标和入场框架。\",\"analysis_steps\":[\"Step 1: 在日线图上识别已填补的FVG和随后形成的新高（约1.28600）\",\"Step 2: 标记aggressive displacement range从高到低，确定折价区范围（约1.27325-1.25200）\",\"Step 3: 在折价区内识别PD array中的小FVG作为潜在目标\",\"Step 4: 确认价格回测前一天低点（previous day low），并在其上方形成支撑\",\"Step 5: 下钻到15分钟图表，标记亚洲时段范围（Asia range high/low）和午夜（midnight）\",\"Step 6: 观察15分钟图表中Asia low被扫除，随后形成aggressive move higher\",\"Step 7: 在15分钟图表中标记新的Premium/Discount range，计算OTE（Optimal Trade Entry）\",\"Step 8: 对比OTE入场的风险回报比（3.43）与均衡点入场（1.6），确认OTE优越性\",\"Step 9: 验证价格在OTE水平没有K线收盘破位，显示该水平被尊重\",\"Step 10: 追踪价格向上运行至日线FVG目标，并突破该水平继续上升\"],\"outcome\":\"价格从OTE入场点上升至日线FVG目标（约1.28600），并继续突破该水平进一步上升，交易达到预期目标并超出。\",\"lessons\":\"通过多时间框架分析（日线识别结构，15分钟寻找OTE）可以找到高概率入场点。OTE相比均衡点提供更优的风险回报比。价格对关键水平的尊重（无收盘破位）是确认支撑有效性的重要信号。\",\"primary_image_frame_id\":\"MlMsG7li9zY_f015\",\"supporting_image_frame_ids\":[\"MlMsG7li9zY_f013\",\"MlMsG7li9zY_f014\",\"MlMsG7li9zY_f016\",\"MlMsG7li9zY_f017\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Optimal Trade Entry (OTE)\",\"PD array\",\"Liquidity\",\"Market Structure\",\"Multi-timeframe analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到15分钟的分析过程，清晰标注了关键价位（1.28600、1.27325、1.25200等），明确说明了OTE入场点和日线FVG目",
+  "error": null
+}

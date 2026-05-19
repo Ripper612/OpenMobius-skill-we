@@ -1,0 +1,110 @@
+{
+  "card_id": "bbWPoajy2MY_case_005_美日日线图的流动性与mitigation_block确认",
+  "type": "case",
+  "title": "美日日线买方流动性与Mitigation Block的交易汇聚",
+  "related_concepts": [
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "mitigation_block",
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "displacement",
+    "market_structure_shift",
+    "breaker_block",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "USDJPY",
+  "timeframe": "1D",
+  "market_context": "美日日线从2023年6月低点约66.00上升至9月高点约93.00，随后回调至68.00附近。图表显示多个Mitigation Block区域和买方流动性标记，展示价格在关键订单块处的反复测试与突破行为。",
+  "key_observation": "博主通过将买方曲线的Order Block拖移到卖方曲线，识别出FVG与Mitigation Block的交易汇聚点。当价格扫除买方流动性后，在Mitigation Block处形成高概率的交易设置。",
+  "analysis_steps": [
+    "Step 1: 在美日日线左侧识别买方流动性区域（约66.00-72.00），标记为绿色矩形",
+    "Step 2: 标记上方灰色矩形区域（约81.00-87.00）作为Mitigation Block",
+    "Step 3: 观察价格从低点上升至高点93.00的位移过程，确认突破结构",
+    "Step 4: 标记价格回调时在75.00和81.00水平的多个Mitigation Block区域",
+    "Step 5: 将旧的看跌Order Block（买方曲线）拖移到卖方曲线，与FVG形成交易汇聚",
+    "Step 6: 确认价格在Mitigation Block处的重新积累与再次位移，验证交易设置有效性",
+    "Step 7: 识别当前价格在Mitigation Block内的位置，作为潜在的短期交易机会"
+  ],
+  "outcome": null,
+  "lessons": "Mitigation Block是旧Order Block在价格突破后转变而来的支撑/阻力区。通过将买方流动性的Order Block拖移到卖方曲线，可以在FVG与Mitigation Block重叠处找到高概率交易汇聚点。价格在这些区域的重新测试往往预示着下一波位移的开始。",
+  "primary_image": "cards/bbWPoajy2MY/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/bbWPoajy2MY/images/case_005_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USDJPY 日线图，时间范围从 2023 年 6 月至 2024 年 4 月。图上有两个矩形标注区域：下方绿色矩形标记为'Bullish Liquidity'，覆盖 66.00 至 72.00 价格区间；上方灰色矩形覆盖 81.00 至 87.00 价格区间。图上有两条水平虚线分别位于 75.00 和 81.00 价格水平。K 线从 6 月低点约 66.00 上升至 9 月高点约 93.00，随",
+    "case_005_detail_1.jpg": "USDJPY 日线图，时间范围从 2021 年 6 月至 2024 年 4 月。图上可见价格从 64.00 上升至 95.00 附近的高点，随后下跌至 68.00 附近。图上标注有两个灰色矩形区域，分别位于 81-84 和 74-77 价格水平。下方显示成交量指标，低价区域呈绿色。图右下角显示当前日期为 28/12/2021，资产标记为 USDJPY。"
+  },
+  "sources": [
+    {
+      "video_id": "bbWPoajy2MY",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        368.8,
+        623.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "美日日线案例清晰展示了Mitigation Block的完整应用，资产、时间框架、关键价位、分析步骤均从图表和转录文本中准确提取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:36.209606Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美日日线买方流动性与Mitigation Block的交易汇聚\",\"school\":\"ICT\",\"asset\":\"USDJPY\",\"timeframe\":\"1D\",\"market_context\":\"美日日线从2023年6月低点约66.00上升至9月高点约93.00，随后回调至68.00附近。图表显示多个Mitigation Block区域和买方流动性标记，展示价格在关键订单块处的反复测试与突破行为。\",\"key_observation\":\"博主通过将买方曲线的Order Block拖移到卖方曲线，识别出FVG与Mitigation Block的交易汇聚点。当价格扫除买方流动性后，在Mitigation Block处形成高概率的交易设置。\",\"analysis_steps\":[\"Step 1: 在美日日线左侧识别买方流动性区域（约66.00-72.00），标记为绿色矩形\",\"Step 2: 标记上方灰色矩形区域（约81.00-87.00）作为Mitigation Block\",\"Step 3: 观察价格从低点上升至高点93.00的位移过程，确认突破结构\",\"Step 4: 标记价格回调时在75.00和81.00水平的多个Mitigation Block区域\",\"Step 5: 将旧的看跌Order Block（买方曲线）拖移到卖方曲线，与FVG形成交易汇聚\",\"Step 6: 确认价格在Mitigation Block处的重新积累与再次位移，验证交易设置有效性\",\"Step 7: 识别当前价格在Mitigation Block内的位置，作为潜在的短期交易机会\"],\"outcome\":null,\"lessons\":\"Mitigation Block是旧Order Block在价格突破后转变而来的支撑/阻力区。通过将买方流动性的Order Block拖移到卖方曲线，可以在FVG与Mitigation Block重叠处找到高概率交易汇聚点。价格在这些区域的重新测试往往预示着下一波位移的开始。\",\"primary_image_frame_id\":\"bbWPoajy2MY_f019\",\"supporting_image_frame_ids\":[\"bbWPoajy2MY_f020\",\"bbWPoajy2MY_f021\"],\"related_concepts\":[\"Mitigation Block\",\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"Buyside Liquidity\",\"Displacement\",\"Market Structure Shift\",\"Breaker Block\",\"PD array\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"美日日线案例清晰展示了Mitigation Block的完整应用，资产、时间框架、关键价位、分析步骤均从图表和转录文本中准确提取。\"}",
+  "error": null
+}

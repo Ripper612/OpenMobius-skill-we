@@ -1,0 +1,95 @@
+{
+  "card_id": "sIcsLFSNoXM_case_001_nq100日线看跌方向性k线形成过程",
+  "type": "case",
+  "title": "NQ100日线看跌方向性K线形成过程分析",
+  "related_concepts": [
+    {
+      "term": "Directional Candle",
+      "card_id": "directional_candle",
+      "exists": true
+    },
+    {
+      "term": "Open High Low Close",
+      "card_id": "open_high_low_close",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Accumulation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "directional_candle",
+    "open_high_low_close",
+    "displacement",
+    "market_structure",
+    "inducement"
+  ],
+  "school": "Price Action",
+  "asset": "NQ1!",
+  "timeframe": "1D",
+  "market_context": "NQ100在11月2日形成一根看跌方向性K线。价格从亚洲时段积累后在高点形成，随后在纽约时段出现下跌位移，最终以低于开盘价收盘。",
+  "key_observation": "博主通过15分钟图表展示日线K线的形成过程：亚洲时段积累、高点形成、纽约开盘后强势下跌位移、最终收盘形成看跌方向性K线，体现了Open→High→Close的完整结构。",
+  "analysis_steps": [
+    "Step 1: 标记日线开盘价位置（约17913.50），作为分析基准点",
+    "Step 2: 观察亚洲时段在15分钟图上的积累形态，价格在开盘价附近整理",
+    "Step 3: 识别日线高点在亚洲时段形成（约18210），相对开盘价上方",
+    "Step 4: 观察纽约开盘后出现的强势下跌位移，价格从高点快速下行至日线开盘价下方",
+    "Step 5: 确认日线收盘价低于开盘价，形成看跌方向性K线（Close < Open）",
+    "Step 6: 验证看跌方向性K线的特征：相对较小的上影线、较大的实体、整体向下的方向性"
+  ],
+  "outcome": null,
+  "lessons": "方向性K线的形成是多个时间框架内价格运动的综合体现。通过低时间框架（15分钟）观察高时间框架（日线）K线的形成过程，可以理解机构资金的积累、操纵和派发逻辑：亚洲积累→高点形成→纽约位移下跌→最终收盘。这种多时间框架分析有助于识别真实的方向性K线。",
+  "primary_image": "cards/sIcsLFSNoXM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/sIcsLFSNoXM/images/case_001_detail_1.jpg",
+    "cards/sIcsLFSNoXM/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "E-mini Futures 15分钟K线图。图上显示一条水平线位于18210处。图表左侧显示初始下跌走势，从18250跌至18150。中间区域显示18000至18210之间的整理形态，包含绿色和黑色K线。图上有一根黄色高亮K线位于18210附近。右侧显示一个标记为'Daily Open'的矩形区域，覆盖17950至18100价格范围。随后出现两根连续的大黑色K线，分别从18100跌至17950，",
+    "case_001_detail_1.jpg": "图上展示了一个标题为'Directional candle'的教学示例。左侧为一个看跌烛线序列，包含多根绿色和黑色K线，整体呈下行趋势。图上用黄色箭头和标签分别标注了Open、High、Low、Close四个价格点。右侧单独显示一根大型黑色K线作为看跌烛线的代表形态。图中有一条虚线标注为'Opening Price'。下方标注'Bearish Example'。图表由TTrades平台提供。",
+    "case_001_detail_2.jpg": "NQ100 日线图。图表显示从 11 月 2 日起的 K 线序列，价格范围从 17640 到 18220。图上有一条水平虚线位于 17913.50 处，旁边标注有黄色加号符号。K 线呈现绿黑相间的蜡烛图形态，从左侧 17640 附近开始，逐步向上延伸至右侧 18220 附近。图右下角显示时间戳'11/2/2024'和'NQ11 D'标记。底部工具栏显示'Sell 14:58 M'文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.519,
+        190.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线看跌K线从形成到收盘的全过程，资产代码、时间框架、关键价位、分析步骤均清晰可读，15分钟图表细节充分支撑日线分析。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:57.936357Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ100日线看跌方向性K线形成过程分析\",\"school\":\"Price Action\",\"asset\":\"NQ1!\",\"timeframe\":\"1D\",\"market_context\":\"NQ100在11月2日形成一根看跌方向性K线。价格从亚洲时段积累后在高点形成，随后在纽约时段出现下跌位移，最终以低于开盘价收盘。\",\"key_observation\":\"博主通过15分钟图表展示日线K线的形成过程：亚洲时段积累、高点形成、纽约开盘后强势下跌位移、最终收盘形成看跌方向性K线，体现了Open→High→Close的完整结构。\",\"analysis_steps\":[\"Step 1: 标记日线开盘价位置（约17913.50），作为分析基准点\",\"Step 2: 观察亚洲时段在15分钟图上的积累形态，价格在开盘价附近整理\",\"Step 3: 识别日线高点在亚洲时段形成（约18210），相对开盘价上方\",\"Step 4: 观察纽约开盘后出现的强势下跌位移，价格从高点快速下行至日线开盘价下方\",\"Step 5: 确认日线收盘价低于开盘价，形成看跌方向性K线（Close < Open）\",\"Step 6: 验证看跌方向性K线的特征：相对较小的上影线、较大的实体、整体向下的方向性\"],\"outcome\":null,\"lessons\":\"方向性K线的形成是多个时间框架内价格运动的综合体现。通过低时间框架（15分钟）观察高时间框架（日线）K线的形成过程，可以理解机构资金的积累、操纵和派发逻辑：亚洲积累→高点形成→纽约位移下跌→最终收盘。这种多时间框架分析有助于识别真实的方向性K线。\",\"primary_image_frame_id\":\"sIcsLFSNoXM_f007\",\"supporting_image_frame_ids\":[\"sIcsLFSNoXM_f005\",\"sIcsLFSNoXM_f006\"],\"related_concepts\":[\"Directional Candle\",\"Open High Low Close\",\"Displacement\",\"Market Structure\",\"Accumulation\",\"Manipulation\",\"Distribution\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线看跌K线从形成到收盘的全过程，资产代码、时间框架、关键价位、分析步骤均清晰可读，15分钟图表细节充分支撑日线分析。\"}",
+  "error": null
+}

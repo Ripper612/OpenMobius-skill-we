@@ -1,0 +1,218 @@
+{
+  "card_id": "fibonacci_retracement",
+  "type": "merged_concept",
+  "canonical_term": "Fibonacci Retracement",
+  "aliases": [
+    "0.5 Fibonacci Level",
+    "Fib"
+  ],
+  "school": "ICT",
+  "definition": "将斐波那契工具应用于价格区间（如破坏块、FVG）以标记0.5中点位置，作为额外的支撑或阻力区域。在破坏块中从K线收盘价向最低/最高点绘制，0.5水平标记价格可能产生反应的关键价位；在FVG中则用于精细化入场点，降低风险敞口。",
+  "identification_rules": [
+    "在破坏块形成后，从K线收盘价向最低点或最高点绘制斐波那契网格，标记0.5水平",
+    "当K线具有较大下影线时，使用收盘价到最低点的距离计算0.5 Fib水平",
+    "在已识别的FVG或价格区间上应用斐波那契工具，标记50%几何中点位置",
+    "0.5 Fib水平应与破坏块的均值阈值（Mean Threshold）或Order Block开盘价结合使用，进一步精确入场点"
+  ],
+  "trading_implication": "0.5 Fib水平在破坏块中充当额外支撑或阻力，价格触及但未穿过该水平时确认区域有效性。在FVG中，相比顶部入场，于中点入场可显著降低风险敞口，适用于大时间框架FVG的精细化入场，也可与小时间框架不平衡或Order Block结合使用，以接受更低胜率换取更优风险回报。",
+  "common_mistakes": [
+    "仅使用K线实体而不考虑下影线，导致0.5 Fib水平计算不准确",
+    "未将0.5 Fib水平与均值阈值、Order Block开盘价或其他破坏块特征结合分析",
+    "价格已穿过0.5 Fib水平后仍期望该水平产生反应，应在触及但未穿过时确认有效性"
+  ],
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Imbalance",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_001_nq1日线看跌ote案例",
+      "video_id": "1YRs4Z1lMws",
+      "title": "NQ1日线看跌OTE案例：从摆动高低点绘制斐波那契寻找空头入场"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_002_ym1日线看涨ote案例",
+      "video_id": "1YRs4Z1lMws",
+      "title": "YM1日线看涨OTE案例：FVG与订单块汇聚的多重确认"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_003_eurusd日线到小时级联ote分析",
+      "video_id": "1YRs4Z1lMws",
+      "title": "EURUSD日线到小时级联OTE分析"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_005_es日线周度目标到5分钟ote执行",
+      "video_id": "1YRs4Z1lMws",
+      "title": "ES日线周度目标到5分钟OTE最优入场执行"
+    },
+    {
+      "card_id": "A8UpRZlRzlg_case_004_纳指100迷你期货看涨bpr案例",
+      "video_id": "A8UpRZlRzlg",
+      "title": "纳指100迷你期货看涨BPR形成与做多入场"
+    },
+    {
+      "card_id": "CAuN4tvLInQ_case_002_标普500期货多头入场机会分析",
+      "video_id": "CAuN4tvLInQ",
+      "title": "标普500期货两个做多入场机会分析"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_003_usoil_5分钟图_大型订单块与平均阈值应用",
+      "video_id": "DMUiDBnTYc8",
+      "title": "USOIL 5分钟：大型订单块与平均阈值优化入场"
+    },
+    {
+      "card_id": "Gu7FjYYcKhI_case_001_标普500期货周五日内行情分析",
+      "video_id": "Gu7FjYYcKhI",
+      "title": "ES1!日内折价溢价区域识别与交易偏向确定"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_002_前一日高点被扫后的wick尊重案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "前一日高点被扫后的wick尊重案例"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_005_es小时图wick被不尊重后的高点扫除",
+      "video_id": "LKNQDAdId4s",
+      "title": "ES小时图wick被不尊重后的高点扫除"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_006_黄金盘整中的wick被不尊重案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "黄金盘整中wick被不尊重导致扫低案例"
+    },
+    {
+      "card_id": "Njs-eRpeP9Q_case_003_2022导师设置交易案例",
+      "video_id": "Njs-eRpeP9Q",
+      "title": "1分钟图上的2022导师设置交易案例"
+    },
+    {
+      "card_id": "PlZD45uLPjE_case_001_标普500_1小时线seek_and_destroy模式分析",
+      "video_id": "PlZD45uLPjE",
+      "title": "标普500 1小时线Seek and Destroy模式识别与交易入场"
+    },
+    {
+      "card_id": "Y8DkNYhq0X0_case_004_标普500_5分钟均值阈值入场对比",
+      "video_id": "Y8DkNYhq0X0",
+      "title": "标普500 5分钟均值阈值入场对比"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_002_15分钟fvg回测的多次低时间框架入场",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "4小时FVG回测中的1分钟多次低时间框架入场"
+    },
+    {
+      "card_id": "Zm2oKad3Tb8_case_001_标普500期货早盘交易准备分析",
+      "video_id": "Zm2oKad3Tb8",
+      "title": "标普500期货早盘交易准备：从日线到1分钟的多时间框架分析流程"
+    },
+    {
+      "card_id": "_94CPMjWi9E_case_002_eth小时图上升结构分析",
+      "video_id": "_94CPMjWi9E",
+      "title": "ETH小时图激进上升Displacement与MSS结构分析"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_001_s_p_500期货5分钟线上的ote和breaker_block",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES 5分钟线OTE和Breaker Block的入场设置"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_002_s_p_500小时线上的smart_money反转和ote应用",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES小时线Smart Money反转后的OTE最优入场应用"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_003_s_p_500期货1分钟线上的多层ote嵌套",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES 1分钟线多层OTE嵌套的精确入场分析"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_005_激进上升突破后的做多头皮交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "激进上升突破后在OTE区域做多头皮交易"
+    },
+    {
+      "card_id": "lpam8F-N3EM_case_001_纳斯达克100期货15分钟到1分钟的做空案例",
+      "video_id": "lpam8F-N3EM",
+      "title": "NQ1! 15分钟等高点流动性扫除到1分钟位移做空案例"
+    },
+    {
+      "card_id": "wwMjc9RfpCg_case_001_标普500期货小时图操纵腿案例",
+      "video_id": "wwMjc9RfpCg",
+      "title": "标普500期货1小时图操纵腿与标准差目标确认"
+    },
+    {
+      "card_id": "yq4Z7q4E6nU_case_002_ote区域交易与5分钟精确入场案例",
+      "video_id": "yq4Z7q4E6nU",
+      "title": "1小时OTE区域多时间框架精确入场与4R获利案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "dcIdzqD3kMU",
+      "original_card_id": "dcIdzqD3kMU_concept_fibonacci_retracement",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        275.22,
+        455.699
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "fwUUkJ5q6tc",
+      "original_card_id": "fwUUkJ5q6tc_concept_0_5_fibonacci_level",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.24,
+        143.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:34.965600Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "两张原始卡均为ICT，无学派冲突。卡1聚焦破坏块中的0.5 Fib应用，卡2聚焦FVG入场精细化，定义与规则已整合两者场景。",
+  "error": null
+}

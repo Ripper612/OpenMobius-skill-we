@@ -1,0 +1,115 @@
+{
+  "card_id": "mwmWNCTEYtY_case_005_audcad月线至小时图多时间框架案例",
+  "type": "case",
+  "title": "AUDCAD月线至小时图多时间框架FVG与MSS入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Internal Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Discount / Premium",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk-Reward Ratio (2R)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "internal_range_liquidity",
+    "buyside_sellside_liquidity",
+    "breaker_block",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "AUDCAD",
+  "timeframe": "1W / 1D / 4H / 1H",
+  "market_context": "AUDCAD从月线FVG出发，经历日线等低摆动形成，随后在4小时图确认内外部流动性关系，最终在小时图形成MSS和FVG的高概率入场点。",
+  "key_observation": "博主通过多时间框架联动分析，从月线的公允价值缺口识别出高阶流动性目标，逐级向下确认日线的等低摆动和折价区位置，最后在小时图捕捉MSS与FVG的同步信号，实现2R目标。",
+  "analysis_steps": [
+    "Step 1: 在月线图识别AUDCAD的公允价值缺口（FVG）作为高阶参考点。",
+    "Step 2: 下移至日线图，观察价格创出前月低点后形成等低摆动（equal lows），确认日线结构。",
+    "Step 3: 在日线图识别该区域处于折价区（discount of range），为后续入场提供偏差。",
+    "Step 4: 下移至4小时图，确认内部流动性（internal liquidity）与外部流动性（external liquidity）的关系。",
+    "Step 5: 在4小时图等待从内部流动性到外部流动性的扩张（expansion），避免反向扩张。",
+    "Step 6: 下移至小时图，寻找市场结构转变（MSS）信号。",
+    "Step 7: 在小时图识别MSS后，寻找公允价值缺口（FVG）作为具体入场点。",
+    "Step 8: 确认FVG位置靠近折价区且与破坏块（breaker block）的K线体对齐。",
+    "Step 9: 设置止损在下跌K线的低点或以下，目标设定为2R（风险回报比2:1）。",
+    "Step 10: 执行交易，价格触及目标位置，达成2R收益。"
+  ],
+  "outcome": "交易成功达成2R目标。价格从小时图FVG入场点上升，触及预设的2R目标位置，该位置恰好位于高阶流动性（月线FVG下方的摆动高点）附近。",
+  "lessons": "多时间框架联动分析的核心是从高阶时间框架（月线）识别宏观流动性目标，逐级向下确认中阶（日线、4小时）的结构与偏差，最后在低阶时间框架（小时）捕捉精确的MSS+FVG入场信号。折价区与breaker block的对齐进一步提高了入场的高概率性。",
+  "primary_image": "cards/mwmWNCTEYtY/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/mwmWNCTEYtY/images/case_005_detail_1.jpg",
+    "cards/mwmWNCTEYtY/images/case_005_detail_2.jpg",
+    "cards/mwmWNCTEYtY/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "AUDCAD 4小时K线图。图上可见三个矩形区域标注：粉色矩形位于上方约0.89100至0.89800区间，灰色矩形位于中下方约0.38200至0.48500区间，浅绿色矩形位于中间约0.48500至0.68500区间。图表左侧显示从0.89100向下的大幅下跌至0.37700附近，右侧显示在浅绿色矩形区域内的K线密集整理形态。图右下角标注日期为23/4/2024。可见价格范围从0.37700至0",
+    "case_005_detail_1.jpg": "AUDCAD 周线图，时间跨度从 2022 年至 2025 年。图上显示一系列绿色和黑色 K 线，价格范围约从 0.76000 到 0.95000。图中有一条水平虚线位于 0.80625 处。图上标注有日期'30/4/2024'和文字'ABH Mar 24'。在 2024 年末附近有一个黄色十字标记。K 线普遍具有上下影线，整个周期内呈现多次上下波动。",
+    "case_005_detail_2.jpg": "AUDCAD 日线图，价格范围从 0.87100 到 0.90800。图上显示约 2 个月的 K 线数据，从 1 月下旬至 4 月中旬。左侧显示初期下跌走势，中间区域出现绿黑相间的波动，右侧有一条竖直虚线标注在 19/4/2024 日期处。K 线呈现多根绿色和黑色蜡烛体，伴随上下影线。图右上角有一条竖直虚线，下方标注日期。",
+    "case_005_detail_3.jpg": "AUDUSD 4小时K线图显示从左侧高点0.83900开始的下跌走势，延伸至0.57600低点。图上有一条粉红色矩形框标注在0.58900至0.59500价格区间。下方有两条灰色水平线分别位于0.58900和0.59000。K线在下跌过程中出现一根长下影线，下影线触及0.57600后收回。随后K线在0.58000至0.59500区间内震荡，形成多根小幅波动的K线。图表底部显示日期标记21/4/20"
+  },
+  "sources": [
+    {
+      "video_id": "mwmWNCTEYtY",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        550.36,
+        913.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从月线到小时图的分析全过程，清晰标注了FVG、MSS、流动性关系，交易结果明确（2R达成），所有关键价位和时间框架均可从图表和讲解中确认。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:20.423314Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"AUDCAD月线至小时图多时间框架FVG与MSS入场\",\"school\":\"ICT\",\"asset\":\"AUDCAD\",\"timeframe\":\"1W / 1D / 4H / 1H\",\"market_context\":\"AUDCAD从月线FVG出发，经历日线等低摆动形成，随后在4小时图确认内外部流动性关系，最终在小时图形成MSS和FVG的高概率入场点。\",\"key_observation\":\"博主通过多时间框架联动分析，从月线的公允价值缺口识别出高阶流动性目标，逐级向下确认日线的等低摆动和折价区位置，最后在小时图捕捉MSS与FVG的同步信号，实现2R目标。\",\"analysis_steps\":[\"Step 1: 在月线图识别AUDCAD的公允价值缺口（FVG）作为高阶参考点。\",\"Step 2: 下移至日线图，观察价格创出前月低点后形成等低摆动（equal lows），确认日线结构。\",\"Step 3: 在日线图识别该区域处于折价区（discount of range），为后续入场提供偏差。\",\"Step 4: 下移至4小时图，确认内部流动性（internal liquidity）与外部流动性（external liquidity）的关系。\",\"Step 5: 在4小时图等待从内部流动性到外部流动性的扩张（expansion），避免反向扩张。\",\"Step 6: 下移至小时图，寻找市场结构转变（MSS）信号。\",\"Step 7: 在小时图识别MSS后，寻找公允价值缺口（FVG）作为具体入场点。\",\"Step 8: 确认FVG位置靠近折价区且与破坏块（breaker block）的K线体对齐。\",\"Step 9: 设置止损在下跌K线的低点或以下，目标设定为2R（风险回报比2:1）。\",\"Step 10: 执行交易，价格触及目标位置，达成2R收益。\"],\"outcome\":\"交易成功达成2R目标。价格从小时图FVG入场点上升，触及预设的2R目标位置，该位置恰好位于高阶流动性（月线FVG下方的摆动高点）附近。\",\"lessons\":\"多时间框架联动分析的核心是从高阶时间框架（月线）识别宏观流动性目标，逐级向下确认中阶（日线、4小时）的结构与偏差，最后在低阶时间框架（小时）捕捉精确的MSS+FVG入场信号。折价区与breaker block的对齐进一步提高了入场的高概率性。\",\"primary_image_frame_id\":\"mwmWNCTEYtY_f026\",\"supporting_image_frame_ids\":[\"mwmWNCTEYtY_f023\",\"mwmWNCTEYtY_f024\",\"mwmWNCTEYtY_f025\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Internal Liquidity\",\"External Liquidity\",\"Discount / Premium\",\"Breaker Block\",\"Multi-Timeframe Analysis\",\"Risk-Reward Ratio (2R)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从月线到小时图的分析全过程，清晰标注了FVG、MSS、流动性关系，交易结果明确（2R达成），所有关键价位和时间框架均可从图表和讲解中确认。\"}",
+  "error": null
+}

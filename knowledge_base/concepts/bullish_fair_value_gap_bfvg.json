@@ -1,0 +1,56 @@
+{
+  "card_id": "bullish_fair_value_gap_bfvg",
+  "type": "merged_concept",
+  "canonical_term": "Bullish Fair Value Gap (BFVG)",
+  "aliases": [
+    "BISI",
+    "Buy Side Imbalance Sell Side Inefficiency"
+  ],
+  "school": "ICT",
+  "definition": "买方流动性被提供但卖方流动性不足的三根K线不平衡形态。第一根K线的高点与第三根K线的低点不重叠，形成向上的价格缺口。",
+  "identification_rules": [
+    "识别三根连续K线：第一根K线的高点不与第三根K线的低点重叠",
+    "缺口方向向上，表示买方订单被执行但卖方订单不足",
+    "通常出现在价格快速上升后，伴随强势位移",
+    "标记缺口的起点、中点（Consequent Encroachment/50%位置）和完全填补点"
+  ],
+  "trading_implication": "BFVG作为未来支撑位，当价格回归时应在Consequent Encroachment处或缺口内收盘后反向运行。若价格收盘穿过Consequent Encroachment或完全填补缺口，则BFVG失效。失效后该缺口可反转为阻力位（Fair Value Gap Inversion），支撑后续的价格反向运动。",
+  "common_mistakes": [
+    "未区分BFVG与SFVG（看跌公允价值缺口），导致交易方向错误",
+    "忽视Consequent Encroachment的重要性，未能正确判断缺口是否被尊重",
+    "在缺口完全被填补或价格穿过中点后仍然交易该缺口，导致无效交易",
+    "期望BFVG立即被回测，忽视缺口可能在整合期后才被回归的情况"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "original_card_id": "ZVUDpCyvxfQ_concept_bullish_fair_value_gap_bisi",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        363.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131402Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

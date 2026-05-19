@@ -1,0 +1,156 @@
+{
+  "card_id": "equal_highs_and_equal_lows",
+  "type": "merged_concept",
+  "canonical_term": "Equal Highs and Equal Lows",
+  "aliases": [
+    "Clustered Highs/Lows",
+    "Relative Equal Highs",
+    "Relative Equal Lows",
+    "Relatively Equal Highs/Lows",
+    "相同价格水平的摆动点"
+  ],
+  "school": "ICT",
+  "definition": "两个或多个摆动高点或低点价格水平相对接近或聚集在同一区域形成的相等高低点。未被扫除时代表外部流动性汇集区域，是价格后续运动的目标水平；价格倾向于回测并突破这些区域以扫取流动性。",
+  "identification_rules": [
+    "在图表上识别两个或多个摆动高点或低点，确认其价格水平相对接近或聚集在同一区域（而非单个突出的摆动点）",
+    "检查后续摆动点是否在前一摆动高/低点的相近价格水平形成，或多个摆动点是否集中于同一价格区域",
+    "确认这些相等水平是否已被价格扫除（突破）：未被扫除的标记为有效流动性目标，已被扫除的不再视为有效目标",
+    "观察价格在接近这些水平时是否出现回测、突破或反弹行为",
+    "可在多个时间框架（如1分钟、5分钟、15分钟等）上识别并交叉验证"
+  ],
+  "trading_implication": "未被扫除的相等高低点是寻找 Draw on Liquidity 的关键外部流动性目标。做多时可将相等高点作为利润目标，做空时可将相等低点作为目标。价格接近相等高点时可能面临阻力或突破机会，接近相等低点时可能获得支撑或进一步下跌。结合位移（Displacement）分析判断价格是否真正突破，也可与会话高低点、前日高低点等流动性水平结合确定反转点。",
+  "common_mistakes": [
+    "将已被扫除的相等高低点误认为仍是有效目标区域",
+    "将单个突出的摆动点误认为相等高低点，应确保至少两个摆动点在相近价格水平",
+    "未在多个时间框架上验证相等水平的有效性，导致误判流动性位置",
+    "忽视价格是否真正发生位移（Displacement）突破这些水平，仅凭价格接近就做出交易决策",
+    "混淆相等高低点与其他流动性来源（如 FVG、Order Block），未能正确排列目标优先级",
+    "忽视相等高低点作为流动性汇集区的意义，未将其纳入价格目标或反转框架"
+  ],
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Draw on Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "External Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Session High/Low",
+      "card_id": "session_high_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "PePk1V0Q4QQ_case_001_s_p_500_e_mini期货24日交易案例",
+      "video_id": "PePk1V0Q4QQ",
+      "title": "S&P 500 E-mini期货24日MSS、位移与FVG多头入场分析"
+    },
+    {
+      "card_id": "PePk1V0Q4QQ_case_002_多个市场结构转变和缺口的连续识别",
+      "video_id": "PePk1V0Q4QQ",
+      "title": "5分钟图表上的多个市场结构转变与FVG连续识别"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MmvC4rsmmcM",
+      "original_card_id": "MmvC4rsmmcM_concept_equal_highs_and_equal_lows",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        0.659,
+        361.919
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Njs-eRpeP9Q",
+      "original_card_id": "Njs-eRpeP9Q_concept_equal_highs_and_equal_lows",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.0,
+        283.84000000000003
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "U8xH2dEgH5A",
+      "original_card_id": "U8xH2dEgH5A_concept_equal_highs_and_equal_lows",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        254.58,
+        439.139
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:36.536503Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'SMC']"
+  ],
+  "merge_notes": "3 张原始卡中 1 张标注 ICT、2 张标注 SMC，按多数应选 SMC；但 ICT 与 SMC 在此概念上高度重叠，且 ICT 卡内容最完整，按实质内容归属选 ICT。",
+  "error": null
+}

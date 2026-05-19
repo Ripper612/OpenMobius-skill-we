@@ -1,0 +1,65 @@
+{
+  "card_id": "stacked_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Stacked Liquidity",
+  "aliases": [
+    "stacked highs/lows",
+    "堆积流动性"
+  ],
+  "school": "ICT",
+  "definition": "多个连续失败摆动在同一价格区域形成的流动性堆积。这些失败摆动表现为相近的摆动高点或低点，构成价格的主要目标区域。",
+  "identification_rules": [
+    "识别连续的失败摆动（failure swings），即相邻摆动高/低点之间缺乏明显分离",
+    "确认这些失败摆动集中在同一价格区域内，形成水平堆积",
+    "验证该区域内的摆动点具有相似的价格水平，而非分散分布",
+    "区分堆积流动性与单个摆动点：堆积需要至少两个以上相近的失败摆动"
+  ],
+  "trading_implication": "堆积流动性是交易者的主要目标区域。在反转交易中，交易者希望价格向堆积流动性方向运行。在设置交易时，应避免在止损一侧留下堆积流动性（高阻力流动性），而应在目标一侧寻求堆积流动性。这提高了交易的概率和风险回报比。",
+  "common_mistakes": [
+    "将单个失败摆动误认为堆积流动性，忽视了需要多个相近摆动点的要求",
+    "在止损一侧留下堆积流动性，导致价格容易反向触及止损",
+    "未能区分堆积流动性与其他高阻力流动性区域的差异"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "HbOeD_JVens_case_002_原油日线失败摆动与相关摆动点的构建",
+      "video_id": "HbOeD_JVens",
+      "title": "原油日线失败摆动与堆积低点的交易目标识别"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_003_xageur日线反转与目标位置确认",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGEUR日线反转确认与失败摆动堆积目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_stacked_liquidity",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        476.879,
+        524.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135972Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

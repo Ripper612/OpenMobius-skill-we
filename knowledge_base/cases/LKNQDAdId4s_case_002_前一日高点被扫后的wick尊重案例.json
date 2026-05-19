@@ -1,0 +1,114 @@
+{
+  "card_id": "LKNQDAdId4s_case_002_前一日高点被扫后的wick尊重案例",
+  "type": "case",
+  "title": "前一日高点被扫后的wick尊重案例",
+  "related_concepts": [
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "0.5 Fibonacci Level",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Zone",
+      "card_id": "premium_discount_zone",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "wick",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery_csd",
+    "order_block",
+    "fibonacci_retracement",
+    "premium_discount_zone",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1H",
+  "market_context": "博主展示多个资产（BTC、ES1!、CL1!等）在日线高点被扫出后收回至范围内形成wick的案例。这些wick随后在小时图上配合CSD信号，指导价格在wick的特定部分形成高点后向下或向上扩展。",
+  "key_observation": "当价格扫出前一日高点后收回到范围内形成wick时，该wick的上下半部分成为关键参考。在CSD信号配合下，价格倾向于在wick的下半部分（0.5位置）形成高点后向下扩展，或在上半部分形成低点后向上扩展。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别价格扫出前一日高点后收回至范围内形成的大wick结构。",
+    "Step 2: 标记wick的0.5（50%）位置作为关键分界线，将wick分为上下两个半部分。",
+    "Step 3: 在小时图上观察是否出现CSD（交付状态改变）信号，确认趋势转变。",
+    "Step 4: 根据wick的位置和CSD信号预期价格的下一步行动：若要向下扩展，价格应在wick下半部分形成高点；若要向上扩展，价格应在wick上半部分形成低点。",
+    "Step 5: 观察价格是否遵循预期的开-低-高-收或开-高-低-收的K线结构来验证wick尊重。",
+    "Step 6: 当价格形成预期的高点或低点后，观察是否出现向下或向上的扩展运动。"
+  ],
+  "outcome": null,
+  "lessons": "Wick尊重是ICT框架中的关键概念。当前一日高点被扫出后形成的wick，其0.5位置成为判断下一步方向的临界点。配合CSD信号，交易者可以预期价格在wick的特定半部分形成转折点，随后向相反方向扩展。这提供了高概率的入场和止损参考。",
+  "primary_image": "cards/LKNQDAdId4s/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/LKNQDAdId4s/images/case_002_detail_1.jpg",
+    "cards/LKNQDAdId4s/images/case_002_detail_2.jpg",
+    "cards/LKNQDAdId4s/images/case_002_detail_3.jpg",
+    "cards/LKNQDAdId4s/images/case_002_detail_4.jpg",
+    "cards/LKNQDAdId4s/images/case_002_detail_5.jpg",
+    "cards/LKNQDAdId4s/images/case_002_detail_6.jpg",
+    "cards/LKNQDAdId4s/images/case_002_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为 K 线图，时间轴显示日期 15 至 20，底部标注 1H 时间框架。价格刻度范围约从 20080 至 20700。图上有一条水平线及一个矩形标注，均位于约 20240 至 20260 价格区域，横跨日期 15 至 17 区间。日期 15 附近出现一根大阴线，从约 20620 下行至 20380；日期 16 出现另一根大阴线，低点延伸至约 20180。日期 17 出现一根大阳线，随后紧跟一根",
+    "case_002_detail_1.jpg": "图表为日线K线图，时间轴覆盖10月初至10月30日附近，价格刻度范围约19840至20960。图右侧当前价格标签显示20321.25，并有一条水平虚线延伸至全图。图上有一个矩形标注，覆盖约10月7日至9日区间，价格范围约20240至20440。图中可见多根绿色阳线与黑色阴线交替出现，10月14日附近出现一根较大阳线，随后10月15至16日出现两根较大阴线，最新K线主体位于20320附近，下影线延伸",
+    "case_002_detail_2.jpg": "图表为日线K线图，右侧价格刻度范围约从5820至6120。图上可见约4至5根K线：左侧一根黑色K线主体位于5840至5890区间；随后出现一根大绿色K线，主体从约5840延伸至6000；之后两根绿色K线主体位于5980至6040附近，上影线延伸至约6080。右侧价格轴标注当前价6021.75，对应一条水平虚线贯穿全图。图上另有一条短水平实线标注于约6020至6030区间。垂直虚线标注当前日期为Tu",
+    "case_002_detail_3.jpg": "图表为 K 线图，价格刻度范围约从 5968.00 至 6068.00。图右侧当前价标签显示 6039.50，并有一条水平虚线贯穿全图。图上另有两条水平实线，分别位于约 6039 和 6026，向右延伸至图表边缘。Nov 11 15:00 处有一条垂直虚线标注。约 Nov 11 06:00 附近有一个小型蓝色矩形框，覆盖价格区间约 6036 至 6042。Nov 12 附近出现两根主体较长的绿色 ",
+    "case_002_detail_4.jpg": "图为 K 线图，右上角标注'The Market Lens'水印。图右侧价格刻度范围约从 5968.00 至 6068.00，当前价格标签显示 6034.50。图上有一条位于约 6040.00 的水平线及一条位于约 6008.00 的水平线。另有一条水平虚线位于约 6034 处。图左侧 Nov 10-11 区间可见多根 K 线在 6024 至 6044 范围内密集排列。Nov 12 约 12:00",
+    "case_002_detail_5.jpg": "图表右上角标注'The Market Lens'水印。图右侧价格刻度范围约从5780到5960，当前价格标签显示5931.00。图上有一个浅黄色矩形区域，纵向范围约5855至5880，横向跨越图表大部分可见区域。图上有两条水平线，分别位于约5880和5870附近。时间轴显示从前一日23:00至次日约02:45，跨越Wed 06 Nov。约01:30处有一根大阳线，实体从约5840延伸至5875，上",
+    "case_002_detail_6.jpg": "图表为 K 线图，右上角标注'The Market Lens'水印，右下角显示'CL1!'。价格刻度范围约从 66.90 到 69.70。图上有一条贯穿全图的水平虚线位于 68.86，左侧价格轴对应标签高亮显示该价位。图上另有一条垂直虚线位于 Wed 13 Nov 04:00 时间处。在该垂直线附近，图上出现一根大幅下跌 K 线（从约 68.20 跌至 66.90），随后紧跟一根大幅上涨 K 线收",
+    "case_002_detail_7.jpg": "图为烛台图，时间轴跨越11月13日至15日，价格刻度范围约66.90至69.70。图左侧价格轴标注当前价68.86（蓝色高亮）。图上有一条水平线从约Wed 13 Nov 04:00处延伸至Thu 14 Nov 09:00处，对应价格约68.86，两端各有一个圆形控制点。图底部有一条虚线水平线位于66.99处。Nov 13日04:00附近出现一根大阴线，主体从约68.30向下延伸至约66.90，紧随"
+  },
+  "sources": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        192.959,
+        372.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对wick尊重案例的分析完整清晰，包括资产、时间框架、关键价位、分析步骤和预期结果都有详细展示。多个图表示例验证了该概念的应用。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:33:42.477142Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"前一日高点被扫后的wick尊重案例\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1H\",\"market_context\":\"博主展示多个资产（BTC、ES1!、CL1!等）在日线高点被扫出后收回至范围内形成wick的案例。这些wick随后在小时图上配合CSD信号，指导价格在wick的特定部分形成高点后向下或向上扩展。\",\"key_observation\":\"当价格扫出前一日高点后收回到范围内形成wick时，该wick的上下半部分成为关键参考。在CSD信号配合下，价格倾向于在wick的下半部分（0.5位置）形成高点后向下扩展，或在上半部分形成低点后向上扩展。\",\"analysis_steps\":[\"Step 1: 在日线图上识别价格扫出前一日高点后收回至范围内形成的大wick结构。\",\"Step 2: 标记wick的0.5（50%）位置作为关键分界线，将wick分为上下两个半部分。\",\"Step 3: 在小时图上观察是否出现CSD（交付状态改变）信号，确认趋势转变。\",\"Step 4: 根据wick的位置和CSD信号预期价格的下一步行动：若要向下扩展，价格应在wick下半部分形成高点；若要向上扩展，价格应在wick上半部分形成低点。\",\"Step 5: 观察价格是否遵循预期的开-低-高-收或开-高-低-收的K线结构来验证wick尊重。\",\"Step 6: 当价格形成预期的高点或低点后，观察是否出现向下或向上的扩展运动。\"],\"outcome\":null,\"lessons\":\"Wick尊重是ICT框架中的关键概念。当前一日高点被扫出后形成的wick，其0.5位置成为判断下一步方向的临界点。配合CSD信号，交易者可以预期价格在wick的特定半部分形成转折点，随后向相反方向扩展。这提供了高概率的入场和止损参考。\",\"primary_image_frame_id\":\"LKNQDAdId4s_f008\",\"supporting_image_frame_ids\":[\"LKNQDAdId4s_f007\",\"LKNQDAdId4s_f009\",\"LKNQDAdId4s_f010\",\"LKNQDAdId4s_f011\",\"LKNQDAdId4s_f012\",\"LKNQDAdId4s_f001\",\"LKNQDAdId4s_f013\"],\"related_concepts\":[\"Wick\",\"Previous Day High\",\"Fair Value Gap\",\"Change in the state of delivery (CSD)\",\"Order Block\",\"0.5 Fibonacci Level\",\"Premium/Discount Zone\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对wick尊重案例的分析完整清晰，包括资产、时间框架、关键价位、分析步骤和预期结果都有详细展示。多个图表示例验证了该概念的应用。\"}",
+  "error": null
+}

@@ -1,0 +1,107 @@
+{
+  "card_id": "kTWXpAo1uE8_case_003_第三个案例_多重投影的汇聚与目标确认",
+  "type": "case",
+  "title": "多重投影汇聚：-4与-2.5标准差重合确认目标",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Confluence",
+      "card_id": "confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "fair_value_gap",
+    "standard_deviation_projection",
+    "order_block",
+    "premium_discount_premium_",
+    "market_structure",
+    "confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "60m",
+  "market_context": "NQ11在10月中旬形成上升趋势后在15400-15450区域触及+1标准差，随后出现回撤。博主通过多个操纵腿投影来识别下行目标区域。",
+  "key_observation": "博主识别出两个独立的操纵腿投影，其中第一个投影的-4标准差与第二个投影的-2到-2.5标准差在同一价格区域重合，形成强汇聚目标。",
+  "analysis_steps": [
+    "Step 1: 标记第一个操纵腿并投影其标准差水平（-1、-2、-2.5、-4）。",
+    "Step 2: 观察价格触及+1标准差后开始回撤，检查是否到达-2到-2.5或-4标准差。",
+    "Step 3: 向左查看并识别一个公允价值缺口（FVG），标记其近端和后续侵蚀。",
+    "Step 4: 确认-4标准差与左侧低点对齐，作为第一个目标。",
+    "Step 5: 价格下行并扫过这些低点，继续向下触及-4标准差区域。",
+    "Step 6: 识别第二个操纵腿并投影其标准差。",
+    "Step 7: 观察第二个投影的-2到-2.5标准差与第一个投影的-4标准差重合。",
+    "Step 8: 价格最终到达这个汇聚区域，验证多重投影目标的有效性。"
+  ],
+  "outcome": "价格成功扫过初始低点，继续下行至-4标准差区域，随后在第二个操纵腿的-2到-2.5标准差处（与第一投影的-4重合）形成强支撑，验证了多重投影汇聚的目标确认。",
+  "lessons": "多个独立投影的标准差水平重合时，形成强汇聚区域，提高目标的可靠性。通过叠加不同操纵腿的投影，可以识别高概率的价格目标区域。PD数组（FVG、标准差水平）的组合使用增强了目标确认的强度。",
+  "primary_image": "cards/kTWXpAo1uE8/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/kTWXpAo1uE8/images/case_003_detail_1.jpg",
+    "cards/kTWXpAo1uE8/images/case_003_detail_2.jpg",
+    "cards/kTWXpAo1uE8/images/case_003_detail_3.jpg",
+    "cards/kTWXpAo1uE8/images/case_003_detail_4.jpg",
+    "cards/kTWXpAo1uE8/images/case_003_detail_5.jpg",
+    "cards/kTWXpAo1uE8/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NQ11 60分钟K线图，价格范围从14775到15475。图上有两条水平线分别位于15225.25和15050.00。右侧标注有数字标签2、2.5、4分别对应不同价格水平。图上绘制一个粉红色矩形框，覆盖15400至15450价格区间。K线显示从左侧约15050的低点上升至15425附近，随后出现长上影线K线，之后下跌至15225区域。",
+    "case_003_detail_1.jpg": "NQ211 60分钟K线图，时间范围显示12/10/2023。图上可见价格范围从14777到15545。左侧有一条水平线标记在15044处。图表中部有一个粉红色矩形框标注在15400至15500价格区间。下方有两个黄色矩形框分别标注在14950至15050价格区间。K线显示从高点15400附近向下跳空至15250附近，随后形成多根K线的整理形态，价格在15000至15100区间内波动。最新K线显示",
+    "case_003_detail_2.jpg": "USD 60分钟K线图，时间范围从10月15日10:00至20:00。图上可见价格范围约14975至15500。标注包括三个矩形框：粉色矩形位于约15425-15475区间，两个黄色矩形分别位于约15075-15125和14900-14925区间。K线显示从10:00至12:00期间在15000-15500区间内的整理，随后12:00至13:00出现下行，最低触及15100附近。13:00至16:",
+    "case_003_detail_3.jpg": "NQ11 60分钟K线图，时间范围跨越10月至11月。图上可见价格范围约从14500到15600。标注包括三条水平线分别位于15100、14950和14700处。图中有两个黄色矩形框分别标记在15050-15150区间和14900-15000区间。左下角显示数值标签包括1467.00、14650.50、14561.50。图上标有数字标签2.5和4。K线形态显示从中部约15450的高点向下运行，右侧",
+    "case_003_detail_4.jpg": "USD 60分钟K线图。图上显示从15600下跌至14100的下行走势。图中标注有5条水平线，分别位于15100、14900、14400、14300和14200价位。图上有3个黄色矩形框标注，分别位于15050-15150、14900-15000和14100-14300区间。左下角显示当前价格标签14217.75。时间轴显示5/11/2023和NQ11 60m标记。可见价格范围约13600至156",
+    "case_003_detail_5.jpg": "USD 60分钟K线图。图表显示从6月11日至11月13日的价格走势。左侧显示四个价格标注：15492.00、14912.75、14366.50、14291.50。图上可见价格整体范围约从14000到15600。K线形态显示上升至约15500附近形成高点，随后下跌至14200-14400区间，最后在图表右侧呈现反弹走势。图右下角有Sell、Buy、Flatten三个按钮。",
+    "case_003_detail_6.jpg": "图表显示 USD 日线（1D）K 线图，价格范围从 14050 到 15550。图上绘制了多根绿色和黑色 K 线，跨越整个可见区间，每根 K 线均带有上下影线。图右侧显示两条水平线，分别位于约 14800 和 14600 价格水平。左下角显示当前价格标记 14467.75 和 14300.25。图上标注有日期信息"
+  },
+  "sources": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        425.56,
+        607.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了两个操纵腿的投影过程、标准差水平标注、价格走势验证，以及多重投影汇聚的具体形成过程。资产、时间框架、关键价位和分析步骤均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:17.120514Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"多重投影汇聚：-4与-2.5标准差重合确认目标\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"60m\",\"market_context\":\"NQ11在10月中旬形成上升趋势后在15400-15450区域触及+1标准差，随后出现回撤。博主通过多个操纵腿投影来识别下行目标区域。\",\"key_observation\":\"博主识别出两个独立的操纵腿投影，其中第一个投影的-4标准差与第二个投影的-2到-2.5标准差在同一价格区域重合，形成强汇聚目标。\",\"analysis_steps\":[\"Step 1: 标记第一个操纵腿并投影其标准差水平（-1、-2、-2.5、-4）。\",\"Step 2: 观察价格触及+1标准差后开始回撤，检查是否到达-2到-2.5或-4标准差。\",\"Step 3: 向左查看并识别一个公允价值缺口（FVG），标记其近端和后续侵蚀。\",\"Step 4: 确认-4标准差与左侧低点对齐，作为第一个目标。\",\"Step 5: 价格下行并扫过这些低点，继续向下触及-4标准差区域。\",\"Step 6: 识别第二个操纵腿并投影其标准差。\",\"Step 7: 观察第二个投影的-2到-2.5标准差与第一个投影的-4标准差重合。\",\"Step 8: 价格最终到达这个汇聚区域，验证多重投影目标的有效性。\"],\"outcome\":\"价格成功扫过初始低点，继续下行至-4标准差区域，随后在第二个操纵腿的-2到-2.5标准差处（与第一投影的-4重合）形成强支撑，验证了多重投影汇聚的目标确认。\",\"lessons\":\"多个独立投影的标准差水平重合时，形成强汇聚区域，提高目标的可靠性。通过叠加不同操纵腿的投影，可以识别高概率的价格目标区域。PD数组（FVG、标准差水平）的组合使用增强了目标确认的强度。\",\"primary_image_frame_id\":\"kTWXpAo1uE8_f001\",\"supporting_image_frame_ids\":[\"kTWXpAo1uE8_f016\",\"kTWXpAo1uE8_f017\",\"kTWXpAo1uE8_f018\",\"kTWXpAo1uE8_f019\",\"kTWXpAo1uE8_f020\",\"kTWXpAo1uE8_f021\"],\"related_concepts\":[\"Displacement\",\"Fair Value Gap\",\"Standard Deviation Projection\",\"Order Block\",\"PD Array\",\"Market Structure\",\"Confluence\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了两个操纵腿的投影过程、标准差水平标注、价格走势验证，以及多重投影汇聚的具体形成过程。资产、时间框架、关键价位和分析步骤均清晰可见。\"}",
+  "error": null
+}

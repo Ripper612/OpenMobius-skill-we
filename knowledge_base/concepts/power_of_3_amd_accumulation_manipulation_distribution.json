@@ -1,0 +1,208 @@
+{
+  "card_id": "power_of_3_amd_accumulation_manipulation_distribution",
+  "type": "merged_concept",
+  "canonical_term": "Power of 3 / AMD (Accumulation, Manipulation, Distribution)",
+  "aliases": [
+    "AMD",
+    "AMD模型",
+    "Box Setup",
+    "Daily OHLC Pattern",
+    "Power of Three",
+    "三阶段模型",
+    "周期运动模式",
+    "积累-操纵-派发模型"
+  ],
+  "school": "ICT",
+  "definition": "价格在一个周期内的典型三阶段运动模式：积累阶段（低波动盘整，形成明确高低点范围）、操纵阶段（突破盘整一侧扫荡流动性，常伴随FVG产生）、派发阶段（反向运行至盘整另一侧完成趋势扩展）。适用于周线、日线、日内等多个时间框架，可嵌套出现。",
+  "identification_rules": [
+    "积累阶段：价格在明确高低点范围内反复波动形成水平整理，无法有效突破，通常伴随较小K线体量；标记该范围的最低/最高K线实体作为基准",
+    "操纵阶段：价格激进突破盘整一侧，扫除该侧流动性，常伴随FVG产生；突破后价格回归盘整范围内，不形成持续趋势",
+    "派发阶段：价格反向运行至盘整另一侧，通过Change in State of Delivery（收盘突破形成操纵腿的K线序列）确认趋势转变，通常伴随较大K线体量",
+    "在指定时间框架（周线/日线/4小时线等）上识别完整的开盘-低点-高点-收盘（OHLC）序列对应三阶段结构",
+    "周线级别特征：积累多出现于周一/周初，操纵多出现于周中（如周三），派发多出现于周末/周后期",
+    "可在多个时间框架同时观察该模式，高时间框架的AMD结构对低时间框架形成制约；每个阶段内部可嵌套更小周期的AMD形态",
+    "操纵阶段后形成的高/低点可作为Change in State of Delivery及Order Block的确认信号"
+  ],
+  "trading_implication": "AMD模型用于构建高概率入场策略：积累阶段标记区间边界作为兴趣点，避免交易；操纵阶段扫荡流动性后等待CSD或Order Block确认，在派发阶段早期入场；止损设于操纵高/低点，目标通过投影操纵腿至-2至-2.5标准差区域或盘整另一侧支撑/阻力位确定。结合Killzone时间窗口、经济日历及多时间框架对齐（日线→小时线→5分钟线）提高精确性。",
+  "common_mistakes": [
+    "在操纵阶段（扫荡流动性时）过早入场，未等待CSD确认，被假突破或Inducement止损",
+    "未等待更低时间框架确认就入场，导致与高时间框架结构不对齐",
+    "混淆积累范围的边界，错误标记最低/最高K线实体位置，或混淆盘整高低点导致错误预期派发方向",
+    "误将操纵阶段的反向运动视为趋势反转，而非中期调整后的派发延续",
+    "忽视操纵阶段形成的Order Block或Change in State of Delivery的确认作用",
+    "忽视操纵腿的标准差投影计算，无法准确设定目标位",
+    "未在Premium/Discount区域限制入场，在不利位置追单",
+    "在积累阶段（如周一）进行交易，此时缺乏明确方向性",
+    "未能结合经济日历识别高影响新闻前后的AMD阶段转换",
+    "未能识别嵌套的扩张形态，导致在更小周期上的预测失效",
+    "在不完整的周期上应用AMD模式，导致错误的趋势预期",
+    "仅关注单一周期的Power of 3，忽视高时间框架AMD结构对低时间框架的制约"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FXJBFbZQbck_case_004_周一新周开盘缺口到前日高点的完整交易流程",
+      "video_id": "FXJBFbZQbck",
+      "title": "周一新周开盘缺口到前日高点的完整AMD交易流程"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "CHIK5oBRKiw",
+      "original_card_id": "CHIK5oBRKiw_concept_accumulation_manipulation_distribution",
+      "segment_ids": [
+        "seg_004",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        416.56,
+        945.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_accumulation_manipulation_distribution_a",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        191.84,
+        726.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Tjk9bXERZy0",
+      "original_card_id": "Tjk9bXERZy0_concept_power_of_3_accumulation_manipulation_dis",
+      "segment_ids": [
+        "seg_003",
+        "seg_005"
+      ],
+      "time_range": [
+        325.479,
+        769.32
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "original_card_id": "hKCMqh0ZsY0_concept_accumulation_manipulation_distribution",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        191.76,
+        549.079
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_accumulation_manipulation_distribution_a",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        730.44,
+        877.759
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:24.907607Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "5张原始卡均标注ICT，school无冲突。各卡侧重不同时间框架（周线/日线/日内）及不同应用细节，已综合为统一规则，无内容矛盾。",
+  "error": null
+}

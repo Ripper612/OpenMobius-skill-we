@@ -1,0 +1,101 @@
+{
+  "card_id": "o0v4KQxZbpU_case_003_回测第一天交易",
+  "type": "case",
+  "title": "7月第一个Silver Bullet做空交易回测",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Silver Bullet AM Session",
+      "card_id": "silver_bullet_strategy",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "killzone",
+    "silver_bullet_strategy"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1M",
+  "market_context": "在FX Replay中回测7月第一个Silver Bullet AM session交易。价格在10:00 AM开始标记小时高低点，随后在10 AM后扫低形成Breaker Block结构。",
+  "key_observation": "价格在标记的小时范围内扫低后形成Breaker Block，博主识别出这个反转结构作为做空入场点，要求在11 AM前完成交易。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上标记10:00 AM的高低点作为Silver Bullet session的范围边界。",
+    "Step 2: 在1分钟图上观察价格是否扫破小时低点或高点。",
+    "Step 3: 识别价格扫低后形成的Breaker Block（先前的支撑转为阻力）。",
+    "Step 4: 确认收盘在Breaker Block上方的看跌K线，作为做空入场信号。",
+    "Step 5: 设置止损在Breaker Block高点，目标指向小时低点。",
+    "Step 6: 风险管理设置为1%账户风险，在达到3R后将止损移至盈亏平衡。",
+    "Step 7: 交易在11 AM前执行，价格在第二天才触及最终目标。"
+  ],
+  "outcome": "交易在11 AM前被触发，立即获得3R收益。博主将止损移至盈亏平衡后，价格在次日才触及完整目标位。",
+  "lessons": "Breaker Block是反转结构中的高概率入场点；在达到3R后移至盈亏平衡可以锁定利润同时保留上行空间；Silver Bullet AM session框架提供了明确的时间和结构约束，提高了交易的纪律性。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_003_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_003_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示从约15080上升至15277的K线序列，右侧面板显示从15277下跌至约15100后反弹至15232的K线序列。图上标注有多条水平参考线，以及两个矩形区域框：一个浅绿色矩形框和一个浅粉色矩形框。右侧价格刻度显示最高价15277.534000，最低价约15080.000000。底部时间轴显示分钟级别时间戳。",
+    "case_003_detail_1.jpg": "USD 1 分钟 K 线图。图上显示从 09:45 至 11:10 的价格走势，价格范围约 15770 至 15930。左侧显示一段绿色 K 线后跟随黑色 K 线的下跌，随后在 15810 附近形成整理。图上标注有两个价格标签：15841.50 和 [0:00]，其中 [0:00] 处有矩形框标注。从 10:05 开始出现绿色 K 线上升，之后 K 线呈混合颜色在 15830 至 15850 区间",
+    "case_003_detail_2.jpg": "NAS100 1分钟K线图。图上可见多条水平线标注，分别位于15277.51、15150和15100价格水平。图表中有两个矩形区域标注：粉色矩形覆盖约15150至15250区间，浅绿色矩形覆盖约15100至15200区间。可见价格范围从15090至15277.51。K线序列显示上升趋势后跟随下降趋势，右侧可见一根大型绿色K线，中间部分可见一根大型黑色K线。图表标题显示为Backtesting模式。",
+    "case_003_detail_3.jpg": "NAS100 1小时K线图。图上标注两个矩形区域：上方区域从15222.27至15372.43，填充粉红色；下方区域从15050.00至15222.27，填充绿色。左侧主图显示较长时间周期内K线在两个区域间的波动，右侧副图展示最近1小时内的K线活动，主要集中在绿色区域范围内，包含绿色和黑色K线体。图上未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        215.439,
+        561.399
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从结构识别、入场设置、风险管理到交易结果的全过程，关键价位和时间框架清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:35.537430Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"7月第一个Silver Bullet做空交易回测\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1M\",\"market_context\":\"在FX Replay中回测7月第一个Silver Bullet AM session交易。价格在10:00 AM开始标记小时高低点，随后在10 AM后扫低形成Breaker Block结构。\",\"key_observation\":\"价格在标记的小时范围内扫低后形成Breaker Block，博主识别出这个反转结构作为做空入场点，要求在11 AM前完成交易。\",\"analysis_steps\":[\"Step 1: 在1小时图上标记10:00 AM的高低点作为Silver Bullet session的范围边界。\",\"Step 2: 在1分钟图上观察价格是否扫破小时低点或高点。\",\"Step 3: 识别价格扫低后形成的Breaker Block（先前的支撑转为阻力）。\",\"Step 4: 确认收盘在Breaker Block上方的看跌K线，作为做空入场信号。\",\"Step 5: 设置止损在Breaker Block高点，目标指向小时低点。\",\"Step 6: 风险管理设置为1%账户风险，在达到3R后将止损移至盈亏平衡。\",\"Step 7: 交易在11 AM前执行，价格在第二天才触及最终目标。\"],\"outcome\":\"交易在11 AM前被触发，立即获得3R收益。博主将止损移至盈亏平衡后，价格在次日才触及完整目标位。\",\"lessons\":\"Breaker Block是反转结构中的高概率入场点；在达到3R后移至盈亏平衡可以锁定利润同时保留上行空间；Silver Bullet AM session框架提供了明确的时间和结构约束，提高了交易的纪律性。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f013\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f008\",\"o0v4KQxZbpU_f014\",\"o0v4KQxZbpU_f015\"],\"related_concepts\":[\"Breaker Block\",\"Order Block\",\"Fair Value Gap\",\"Market Structure Shift\",\"Killzone\",\"Risk Management\",\"Silver Bullet AM Session\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从结构识别、入场设置、风险管理到交易结果的全过程，关键价位和时间框架清晰可见。\"}",
+  "error": null
+}

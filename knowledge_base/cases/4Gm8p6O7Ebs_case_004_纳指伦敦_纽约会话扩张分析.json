@@ -1,0 +1,111 @@
+{
+  "card_id": "4Gm8p6O7Ebs_case_004_纳指伦敦_纽约会话扩张分析",
+  "type": "case",
+  "title": "纳指1H伦敦-纽约会话扩张-回撤-扩张循环分析",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "displacement",
+    "market_structure_shift",
+    "order_block",
+    "liquidity",
+    "power_of_3_indicator",
+    "retracement",
+    "continuation_pattern"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H",
+  "market_context": "纳指在伦敦会话形成低点（约21300）并收于下跌K线上方，确认反转。随后纽约会话继续扩张，展现大幅-小幅-大幅的典型范围模式，预示持续性信号。",
+  "key_observation": "博主观察到伦敦会话形成受保护摆动低点，纽约会话未操纵前期高点而是直接扩张，形成扩张-回撤-扩张的循环模式，这是延续信号的关键特征。",
+  "analysis_steps": [
+    "Step 1: 识别伦敦会话的浅速下跌（shallow and slow move）作为回撤信号。",
+    "Step 2: 确认在约21300处形成低点，并观察收盘是否突破该低点形成的K线。",
+    "Step 3: 验证伦敦会话反转：价格收于下跌K线上方，确认低点形成。",
+    "Step 4: 预期纽约会话延续（New York continuation）而非反转。",
+    "Step 5: 观察纽约会话是否操纵前期高点（约21775）；若不操纵而直接扩张，则确认延续。",
+    "Step 6: 识别大幅范围-小幅范围-大幅范围的循环模式（large range, small range, large range）。",
+    "Step 7: 标记前一日高点（previous day high）作为潜在目标。",
+    "Step 8: 观察后续是否形成巩固或回撤，以确认是否继续扩张或形成交易信号。"
+  ],
+  "outcome": null,
+  "lessons": "伦敦会话形成的受保护摆动低点与纽约会话的直接扩张（不操纵高点）结合，形成强有力的延续信号。大幅-小幅-大幅范围循环是判断市场结构延续的关键特征，而非反转。两个交易日的扩张虽未达到完整的三日模式，但仍提供了有效的交易设置。",
+  "primary_image": "cards/4Gm8p6O7Ebs/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/4Gm8p6O7Ebs/images/case_004_detail_1.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_004_detail_2.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_004_detail_3.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表资产为 NQ1!，时间框架为 1 小时，货币单位为 USD。可见价格范围约从 21300 至 21950。图上绘有多条水平线：约 21775 处一条实线，约 21670 处一条蓝色实线，约 21575 处一条点状虚线延伸至图右侧，约 21450 处一条蓝色实线。K 线走势呈现左侧下行至约 21300 后向上回升至约 21875 的形态，中段有多根 K 线在 21450 至 21540 区间内密",
+    "case_004_detail_1.jpg": "图表为 NQ1! 1 小时 K 线图，货币单位为 USD，来源标注为 The Market Lens / TTrades_edu。可见价格范围约从 21160 至 22000。图左侧呈现一段连续下行 K 线序列，从约 21960 下行至约 21280。图中部有约 10 根 K 线在 21480 至 21640 区间内横向排列。随后出现一根大阴线跌至约 21280，之后数根绿色 K 线回升至约 21",
+    "case_004_detail_2.jpg": "图表为 NQ1! 1 小时 K 线图，货币单位为 USD，右上角标注 The Market Lens 及 TTrades_edu。可见价格范围约从 21120 至 22000。图左侧呈现一段连续下行的 K 线序列，从约 22000 下行至约 21300。此后 K 线在约 21400 至 21560 区间内形成多根密集排列的小实体 K 线。图中有一条蓝色水平线位于约 21560，一条灰色实线位于约 ",
+    "case_004_detail_3.jpg": "图表为 NQ1! 1 小时 K 线图，价格刻度范围约从 21300 至 21950。图左侧 K 线从约 21625 下行至约 21300，随后在约 21450 至 21525 区间出现多根小实体 K 线聚集。此后一段连续绿色 K 线从约 21450 上行至约 21790，图上在约 21790 处绘有一条水平线段。图中约 21575 处有一条蓝色水平线及一条虚线水平线。右侧价格轴当前价标签显示 21",
+    "case_004_detail_4.jpg": "图表为 NQ1! 1 小时 K 线图，价格轴范围约 21500 至 22150。图左侧出现一根大幅下行 K 线，从约 22050 跌至 21650 附近。此后 K 线在 21550 至 21650 区间内形成多根密集排列。图中部约 21775 至 21825 处绘有一个矩形标注框。图右侧近 Jun 5-6 时段出现两根大幅上行绿色 K 线，价格区间约 21750 至 22050。图上有一条点状水平"
+  },
+  "sources": [
+    {
+      "video_id": "4Gm8p6O7Ebs",
+      "segment_ids": [
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "time_range": [
+        756.9590000000001,
+        879.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了伦敦-纽约会话的分析过程，资产、时间框架、关键价位（21300低点、21775高点）、分析步骤均清晰，图表标注明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:24:09.808403Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳指1H伦敦-纽约会话扩张-回撤-扩张循环分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H\",\"market_context\":\"纳指在伦敦会话形成低点（约21300）并收于下跌K线上方，确认反转。随后纽约会话继续扩张，展现大幅-小幅-大幅的典型范围模式，预示持续性信号。\",\"key_observation\":\"博主观察到伦敦会话形成受保护摆动低点，纽约会话未操纵前期高点而是直接扩张，形成扩张-回撤-扩张的循环模式，这是延续信号的关键特征。\",\"analysis_steps\":[\"Step 1: 识别伦敦会话的浅速下跌（shallow and slow move）作为回撤信号。\",\"Step 2: 确认在约21300处形成低点，并观察收盘是否突破该低点形成的K线。\",\"Step 3: 验证伦敦会话反转：价格收于下跌K线上方，确认低点形成。\",\"Step 4: 预期纽约会话延续（New York continuation）而非反转。\",\"Step 5: 观察纽约会话是否操纵前期高点（约21775）；若不操纵而直接扩张，则确认延续。\",\"Step 6: 识别大幅范围-小幅范围-大幅范围的循环模式（large range, small range, large range）。\",\"Step 7: 标记前一日高点（previous day high）作为潜在目标。\",\"Step 8: 观察后续是否形成巩固或回撤，以确认是否继续扩张或形成交易信号。\"],\"outcome\":null,\"lessons\":\"伦敦会话形成的受保护摆动低点与纽约会话的直接扩张（不操纵高点）结合，形成强有力的延续信号。大幅-小幅-大幅范围循环是判断市场结构延续的关键特征，而非反转。两个交易日的扩张虽未达到完整的三日模式，但仍提供了有效的交易设置。\",\"primary_image_frame_id\":\"4Gm8p6O7Ebs_f029\",\"supporting_image_frame_ids\":[\"4Gm8p6O7Ebs_f026\",\"4Gm8p6O7Ebs_f027\",\"4Gm8p6O7Ebs_f028\",\"4Gm8p6O7Ebs_f030\"],\"related_concepts\":[\"Protected Swing\",\"Displacement\",\"Market Structure Shift\",\"Order Block\",\"Liquidity\",\"Power of 3\",\"Retracement\",\"Continuation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了伦敦-纽约会话的分析过程，资产、时间框架、关键价位（21300低点、21775高点）、分析步骤均清晰，图表标注明确。\"}",
+  "error": null
+}

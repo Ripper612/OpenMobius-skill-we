@@ -1,0 +1,58 @@
+{
+  "card_id": "three_day_lookback",
+  "type": "merged_concept",
+  "canonical_term": "Three Day Lookback",
+  "aliases": [
+    "3 Day Lookback"
+  ],
+  "school": "ICT",
+  "definition": "向后查看三个交易日的价格数据，标记出多个前日高低点水平，以增加汇聚点和流动性目标的识别精度。",
+  "identification_rules": [
+    "在当前交易日，回溯查看过去三个交易日的K线数据",
+    "标记这三个交易日中每一日的高点和低点水平",
+    "将这些高低点水平延伸至当前日期，形成多条水平线",
+    "观察这些水平线是否产生汇聚（confluence），特别是多个前日高低点重合或接近的区域"
+  ],
+  "trading_implication": "通过标记三日回溯的前日高低点，交易者可以识别更强的流动性汇聚区域。这些汇聚点作为价格的吸引目标，增强了前日高低点作为drawn liquidity的可靠性。在趋势确认后，交易者可以预期价格向这些汇聚的高低点水平运动，从而在低时间框架上寻找更精确的入场点。",
+  "common_mistakes": [
+    "仅查看前一日的高低点，忽视三日回溯可能产生的汇聚效应",
+    "将三日回溯的高低点与当前日期的价格行为混淆，导致偏差的流动性预期"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FXJBFbZQbck_case_003_nasdaq日线多日偏差与订单块验证",
+      "video_id": "FXJBFbZQbck",
+      "title": "NASDAQ日线多日偏差与订单块验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "original_card_id": "FXJBFbZQbck_concept_three_day_lookback",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        190.92,
+        371.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136201Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

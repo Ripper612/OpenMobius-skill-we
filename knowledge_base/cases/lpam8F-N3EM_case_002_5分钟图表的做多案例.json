@@ -1,0 +1,103 @@
+{
+  "card_id": "lpam8F-N3EM_case_002_5分钟图表的做多案例",
+  "type": "case",
+  "title": "NQ 5分钟图表MSS+位移后的折价区FVG做多案例",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift",
+    "displacement",
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5m",
+  "market_context": "价格在5分钟图上形成市场结构转变（MSS）并产生强劲位移，突破前期摆动高点后回调至折价区，为做多提供高概率入场机会。",
+  "key_observation": "博主识别到5分钟图上的MSS+位移后，价格回归至折价区内未被平仓的FVG，该FVG成为最优做多入场点，具有良好的风险回报比。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别流动性抢夺（Liquidity Grab），确认价格触及更高时间框架（15分钟）的FVG。",
+    "Step 2: 确认市场结构转变（MSS），价格突破前期摆动高点。",
+    "Step 3: 使用斐波那契工具标记位移范围（从低点到高点），确定50%位置作为折价区与溢价区的分界线。",
+    "Step 4: 在折价区内识别未被平仓的FVG，确认其为最优交易入场点（OTE）。",
+    "Step 5: 设置三个部分平仓位：第一部分在小订单块或FVG处平仓；第二部分在5处平仓；第三部分作为最终头寸持有至更高目标。",
+    "Step 6: 设置止损位于该FVG低点的蜡烛线低点，或与前期摆动高点对齐以控制风险。"
+  ],
+  "outcome": "交易执行成功，第一部分平仓获利134.50点（数量0.342），风险回报比2.21，设置风险31.75点，目标750点，最终目标11634.00（对应摆动高点12231.50）。",
+  "lessons": "在5分钟图上，MSS+位移后的折价区FVG提供高概率做多入场。关键是确保入场点位于折价区内，使用分批平仓策略锁定利润，同时严格控制风险回报比。避免在溢价区入场，确保止损设置合理。",
+  "primary_image": "cards/lpam8F-N3EM/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/lpam8F-N3EM/images/case_002_detail_1.jpg",
+    "cards/lpam8F-N3EM/images/case_002_detail_2.jpg",
+    "cards/lpam8F-N3EM/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NQ 5分钟K线图。图上标注了多个价格水平线和矩形区域。左侧为灰色矩形区域，中间偏右为绿色矩形区域标注'Closed FVG: 134.50, Qty: 0.342 Risk/Reward Ratio: 2.21'，下方为粉色矩形区域标注'Setup: 31.75 (S 4291.25) Takeout: 750'。图上还标注了'Target: 11,634.00 (Swing 12,231.50",
+    "case_002_detail_1.jpg": "NASDAQ 100 E-mini Futures 5分钟图表。图上有一个灰色矩形区域，纵跨约11917.00至12273.50价格范围。右侧标注栏显示多条文字标签，包括'Liquidity Grab'、'MSS + Displacement'、'50% Fib of Displacement Range'、'Return to the FVG/OB'、'Solid Risk : Reward'等",
+    "case_002_detail_2.jpg": "NQ 5分钟K线图。图上显示从01:00至20:00的交易时段。右侧标注栏列出三项文字标签：'of Displacement Range'、'Return to the FVG/OB'、'Solid Risk : Reward'。图中有一条灰色矩形框标注，覆盖约11940至12100的价格区间。K线整体价格范围从11940到12345。图右侧显示多个价格标签，包括12220.50、12195.25",
+    "case_002_detail_3.jpg": "NQ 5分钟K线图。图上显示从约12226下跌至11865的价格走势，随后出现恢复性上升。图表中有一个灰色矩形标注覆盖11865至12000价格区间。右侧标注栏显示文字标签包括'of Displacement Range'、'Return to the FVG/OB'、'Solid Risk : Reward'。图上绘有两条趋势线，一条向上、一条向下。可见K线整体价格范围约从11865到12345"
+  },
+  "sources": [
+    {
+      "video_id": "lpam8F-N3EM",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        128.319,
+        311.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟图表的分析过程，包括MSS识别、位移标记、FVG定位、入场点确认和三部分平仓策略，并提供了具体的交易结果数据。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:28.462132Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 5分钟图表MSS+位移后的折价区FVG做多案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5m\",\"market_context\":\"价格在5分钟图上形成市场结构转变（MSS）并产生强劲位移，突破前期摆动高点后回调至折价区，为做多提供高概率入场机会。\",\"key_observation\":\"博主识别到5分钟图上的MSS+位移后，价格回归至折价区内未被平仓的FVG，该FVG成为最优做多入场点，具有良好的风险回报比。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别流动性抢夺（Liquidity Grab），确认价格触及更高时间框架（15分钟）的FVG。\",\"Step 2: 确认市场结构转变（MSS），价格突破前期摆动高点。\",\"Step 3: 使用斐波那契工具标记位移范围（从低点到高点），确定50%位置作为折价区与溢价区的分界线。\",\"Step 4: 在折价区内识别未被平仓的FVG，确认其为最优交易入场点（OTE）。\",\"Step 5: 设置三个部分平仓位：第一部分在小订单块或FVG处平仓；第二部分在5处平仓；第三部分作为最终头寸持有至更高目标。\",\"Step 6: 设置止损位于该FVG低点的蜡烛线低点，或与前期摆动高点对齐以控制风险。\"],\"outcome\":\"交易执行成功，第一部分平仓获利134.50点（数量0.342），风险回报比2.21，设置风险31.75点，目标750点，最终目标11634.00（对应摆动高点12231.50）。\",\"lessons\":\"在5分钟图上，MSS+位移后的折价区FVG提供高概率做多入场。关键是确保入场点位于折价区内，使用分批平仓策略锁定利润，同时严格控制风险回报比。避免在溢价区入场，确保止损设置合理。\",\"primary_image_frame_id\":\"lpam8F-N3EM_f008\",\"supporting_image_frame_ids\":[\"lpam8F-N3EM_f006\",\"lpam8F-N3EM_f001\",\"lpam8F-N3EM_f007\"],\"related_concepts\":[\"Market Structure Shift\",\"Displacement\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Premium/Discount\",\"Optimal Trade Entry\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟图表的分析过程，包括MSS识别、位移标记、FVG定位、入场点确认和三部分平仓策略，并提供了具体的交易结果数据。\"}",
+  "error": null
+}

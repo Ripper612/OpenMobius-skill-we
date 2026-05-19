@@ -1,0 +1,259 @@
+{
+  "card_id": "standard_deviation_projection",
+  "type": "merged_concept",
+  "canonical_term": "Standard Deviation Projection",
+  "aliases": [
+    "-2 to -2.5 Standard Deviation Target",
+    "SD投影",
+    "Standard Deviation Extension",
+    "标准差投影",
+    "标准差水平"
+  ],
+  "school": "ICT",
+  "definition": "以操纵腿（从极值高点到低点或反向，或失败摇摆的低点到高点）的幅度为基准单位，向目标方向投影1、2、2.5、4、4.5倍标准差水平线，预测价格在趋势中可能到达的目标区域。-2至-2.5标准差为首选目标，-4至-4.5为延伸目标。",
+  "identification_rules": [
+    "识别明确的操纵腿（Manipulation Leg）或失败摇摆（Failure Swing），确定其起点（极值高点或低点）与终点",
+    "以操纵腿或失败摇摆的起点到终点距离为基准单位，向目标方向按倍数（1、2、2.5、4、4.5等）投影标准差水平线并标记在图表上",
+    "重点关注-2至-2.5标准差区域作为首选目标位，-4至-4.5标准差区域作为延伸目标位",
+    "将标准差水平线与订单块、公允价值缺口、旧高/低点、等高/等低进行汇聚确认，重叠区域信号更强",
+    "在多时间框架分析中，高时间框架的标准差水平可与低时间框架入场点结合使用"
+  ],
+  "trading_implication": "标准差投影为交易者提供基于统计学的量化目标位，避免仅依赖固定风险回报比。在确认操纵或失败摇摆后立即投影，以2-2.5倍标准差为首选获利目标，4-4.5倍为延伸目标。常与AMD模型（积累-操纵-派发）及交付状态改变（CSD）结合使用，并需与订单块、公允价值缺口等工具汇聚，提高目标区域可靠性。",
+  "common_mistakes": [
+    "在未确认操纵腿或失败摇摆的情况下盲目投影标准差，导致目标位置不准确",
+    "混淆投影的起点和终点，使用错误的K线序列（如从操纵移动的低点到高点而非失败摇摆的低点到高点）进行计算",
+    "忽视标准差目标与其他技术工具（订单块、公允价值缺口）的汇聚，单独依赖投影作为交易决策",
+    "在低时间框架上投影高时间框架的操纵腿，导致目标位置偏离"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Weekly Profile",
+      "card_id": "weekly_profile",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "7p9MBFk8EEM_case_004_黄金xauusd周线到4小时多级别案例",
+      "video_id": "7p9MBFk8EEM",
+      "title": "黄金XAUUSD周线到4小时多级别订单块与标准差投影案例"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_005_nq_日线到5分钟多头案例_标准差投影",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ日线到5分钟多头案例（标准差投影）"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_001_nq期货8月11日纽约开盘扫盘案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ期货8月11日纽约开盘扫盘与CISD交易案例"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_002_nq日线到2分钟多时间框架联动案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ日线FVG到2分钟CISD多时间框架联动做空"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_003_es期货10月11日双向交易案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "ES期货10月11日双向交易案例：操纵-CISD-订单块完整设置"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_001_第一个amd与标准差投影案例",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "AMD标准差投影与AMD模型的完整交易案例"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_003_多时段amd案例_亚洲_伦敦_纽约",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "NQ11多时段AMD模式：亚洲积累-伦敦操纵-纽约派发"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_005_1_分钟图中的新日开盘缺口与多层_amd",
+      "video_id": "TCFvsZeYvV8",
+      "title": "1分钟新日开盘缺口中的多层AMD与标准差投影"
+    },
+    {
+      "card_id": "hKCMqh0ZsY0_case_001_nasdaq周线交易案例",
+      "video_id": "hKCMqh0ZsY0",
+      "title": "FOMC/NFP周期内的周线操纵-分布交易案例"
+    },
+    {
+      "card_id": "hKCMqh0ZsY0_case_002_core_pce新闻交易案例",
+      "video_id": "hKCMqh0ZsY0",
+      "title": "Core PCE新闻交易：周四扫低反转，周五标准差投影目标"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_001_第一个反转案例_上升后下跌的标准差投影",
+      "video_id": "kTWXpAo1uE8",
+      "title": "NQ1! 60m上升后激进下跌的标准差投影分析"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_002_第二个案例_下跌后上升的标准差投影与pd数组对齐",
+      "video_id": "kTWXpAo1uE8",
+      "title": "NQ1! 下跌后反弹：标准差投影与Order Block及Equal Highs对齐"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_003_第三个案例_多重投影的汇聚与目标确认",
+      "video_id": "kTWXpAo1uE8",
+      "title": "多重投影汇聚：-4与-2.5标准差重合确认目标"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_004_nq日线到小时线的多时间框架分析",
+      "video_id": "kTWXpAo1uE8",
+      "title": "NQ日线到小时线的多时间框架操纵腿投影分析"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_006_经典卖方周的标准差投影应用",
+      "video_id": "kTWXpAo1uE8",
+      "title": "卖方周标准差投影确认黄色目标区域交易"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_004_bll_1小时图多阶段投影追踪",
+      "video_id": "upHS7SDL9kg",
+      "title": "BLL 1小时图多阶段投影追踪与目标命中"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_005_rty_5分钟图双向投影与获利管理",
+      "video_id": "upHS7SDL9kg",
+      "title": "RTY 5分钟双向投影与获利管理实战"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "7p9MBFk8EEM",
+      "original_card_id": "7p9MBFk8EEM_concept_standard_deviation_projection",
+      "segment_ids": [
+        "seg_011",
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "time_range": [
+        483.039,
+        640.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_standard_deviation_projection",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        545.519,
+        696.92
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "CHIK5oBRKiw",
+      "original_card_id": "CHIK5oBRKiw_concept_standard_deviation_projection",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        192.159,
+        846.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "original_card_id": "hKCMqh0ZsY0_concept_standard_deviation_projection",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        191.76,
+        728.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:06.261719Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "3张ICT + 1张Price Action，按多数选ICT。各卡对投影基准点描述略有差异（操纵腿 vs 失败摇摆），已在识别规则中并列保留。",
+  "error": null
+}

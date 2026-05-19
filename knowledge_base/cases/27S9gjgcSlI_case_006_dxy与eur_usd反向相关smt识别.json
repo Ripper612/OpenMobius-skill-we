@@ -1,0 +1,97 @@
+{
+  "card_id": "27S9gjgcSlI_case_006_dxy与eur_usd反向相关smt识别",
+  "type": "case",
+  "title": "DXY与EUR/USD反向相关SMT识别与反转预测",
+  "related_concepts": [
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Inversely Correlated Pairs",
+      "card_id": "inversely_correlated_pairs",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Divergence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal Signal",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher High / Lower High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher Low / Lower Low",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "inversely_correlated_pairs",
+    "market_structure_shift"
+  ],
+  "school": "SMC",
+  "asset": "DXY / EURUSD",
+  "timeframe": "1H",
+  "market_context": "美元指数DXY与欧元美元EUR/USD呈反向相关。DXY从约105.50大幅下跌至104.00，同时EUR/USD从约1.07上升至1.09。博主在1小时图表上识别多个SMT点位，预示反转机会。",
+  "key_observation": "在反向相关资产对中，当一个资产创新高/低而另一个未能同步创新低/高时，形成SMT（Smart Money Technique）分歧，预示即将反转。DXY创新低时EU应创新高；分歧出现时为反转信号。",
+  "analysis_steps": [
+    "Step 1: 建立DXY与EUR/USD的反向相关基准——标记初始高点和低点，确认两者结构相反。",
+    "Step 2: 识别第一个SMT点位——DXY形成低点后出现更高的低点，但EUR/USD应形成更低的高点却形成了更高的低点，产生分歧。",
+    "Step 3: 验证第一个SMT后的反转——DXY随后反转向下，EUR/USD反转向上，确认SMT预测有效。",
+    "Step 4: 识别第二个SMT点位——DXY的低点处，EUR/USD未能创新高，再次出现结构分歧。",
+    "Step 5: 追踪后续价格行为——观察DXY是否继续下跌、EUR/USD是否继续上升，验证SMT的预测能力。",
+    "Step 6: 标记第三个SMT候选点位——在10:00时间点的低点处，虽然EUR/USD已追上，但仍观察是否形成反转。"
+  ],
+  "outcome": null,
+  "lessons": "在反向相关资产对中，SMT分歧是高概率反转信号。当预期的反向结构未出现时（如DXY创新低但EUR/USD未创新高），表明智能资金正在改变方向，可用于提前识别反转点。多个SMT点位的连续出现增强了反转的确定性。",
+  "primary_image": "cards/27S9gjgcSlI/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/27S9gjgcSlI/images/case_006_detail_1.jpg",
+    "cards/27S9gjgcSlI/images/case_006_detail_2.jpg",
+    "cards/27S9gjgcSlI/images/case_006_detail_3.jpg",
+    "cards/27S9gjgcSlI/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图上为双面板布局，左侧为美元指数 DXY 1 小时 K 线图，右侧为 EUR/USD 1 小时 K 线图，均来自 FXReplay 回测平台。左侧 DXY 图可见价格范围约 103.80 至 106.20，右侧 EUR/USD 图可见价格范围约 1.065 至 1.092。左侧图中存在一根跨度较大的单根 K 线，从约 105.50 下行至约 104.00 区域；右侧图中对应位置存在一根跨度较大的单",
+    "case_006_detail_1.jpg": "图为教学幻灯片第8页，顶部标题文字为'Inversely Correlated Pairs SMT'。图中包含四组蜡烛图示意图，排列为2行2列。每组由两个并排的无价格刻度蜡烛图构成，各自带有文字标签。上排左组标注'High'与'Higher High'，上排右组标注'Low'与'Higher Low'；下排左组标注'High'与'Lower High'，下排右组标注'Low'与'Lower Low",
+    "case_006_detail_2.jpg": "图为双面板布局，左侧为 DXY（美元指数）1 小时 K 线图，右侧为 EUR/USD 1 小时 K 线图，均来自 FXReplay 回测平台。左侧 DXY 图上可见一根大幅下跌 K 线，随后价格在约 104.00 至 104.55 区间内形成多根 K 线的横盘整理，图上标注有两个无标签矩形框，分别位于约 104.40–104.55 和 103.90–104.05 区域。右侧 EUR/USD 图上可",
+    "case_006_detail_3.jpg": "图为双面板布局，左侧为美元指数DXY 1小时K线图，右侧为EURUSD 1小时K线图，均来自FXreplay回测平台。左侧DXY图上可见一根从约105.50下行至约104.00的大幅阴线，其后跟随一组在约104.00至104.60区间内的多根K线，图上有两个红色边框矩形标注该区域。右侧EURUSD图上可见一根从约1.07上行至约1.09的大幅阳线，其后跟随一组在约1.085至1.090区间内的多根",
+    "case_006_detail_4.jpg": "图为 FXReplay 回测平台的双面板 1 小时 K 线图，左侧为美元指数 DXY，右侧为 EUR/USD，时间节点均标注为 Fri 17 Nov 23 10:00。左侧 DXY 面板可见价格范围约 103.80 至 105.50，图上有一个矩形框标注于约 104.30 至 104.55 区间，矩形内绘有一条上升趋势线，另有一条虚线水平线位于约 104.02。右侧 EUR/USD 面板可见价格范"
+  },
+  "sources": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        741.48,
+        920.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了DXY与EUR/USD的1小时图表，清晰标注了多个SMT点位，逐步讲解了识别过程和反转验证，资产代码、时间框架、价格范围均从图表读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:18:25.178885Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"DXY与EUR/USD反向相关SMT识别与反转预测\",\"school\":\"SMC\",\"asset\":\"DXY / EURUSD\",\"timeframe\":\"1H\",\"market_context\":\"美元指数DXY与欧元美元EUR/USD呈反向相关。DXY从约105.50大幅下跌至104.00，同时EUR/USD从约1.07上升至1.09。博主在1小时图表上识别多个SMT点位，预示反转机会。\",\"key_observation\":\"在反向相关资产对中，当一个资产创新高/低而另一个未能同步创新低/高时，形成SMT（Smart Money Technique）分歧，预示即将反转。DXY创新低时EU应创新高；分歧出现时为反转信号。\",\"analysis_steps\":[\"Step 1: 建立DXY与EUR/USD的反向相关基准——标记初始高点和低点，确认两者结构相反。\",\"Step 2: 识别第一个SMT点位——DXY形成低点后出现更高的低点，但EUR/USD应形成更低的高点却形成了更高的低点，产生分歧。\",\"Step 3: 验证第一个SMT后的反转——DXY随后反转向下，EUR/USD反转向上，确认SMT预测有效。\",\"Step 4: 识别第二个SMT点位——DXY的低点处，EUR/USD未能创新高，再次出现结构分歧。\",\"Step 5: 追踪后续价格行为——观察DXY是否继续下跌、EUR/USD是否继续上升，验证SMT的预测能力。\",\"Step 6: 标记第三个SMT候选点位——在10:00时间点的低点处，虽然EUR/USD已追上，但仍观察是否形成反转。\"],\"outcome\":null,\"lessons\":\"在反向相关资产对中，SMT分歧是高概率反转信号。当预期的反向结构未出现时（如DXY创新低但EUR/USD未创新高），表明智能资金正在改变方向，可用于提前识别反转点。多个SMT点位的连续出现增强了反转的确定性。\",\"primary_image_frame_id\":\"27S9gjgcSlI_f028\",\"supporting_image_frame_ids\":[\"27S9gjgcSlI_f027\",\"27S9gjgcSlI_f029\",\"27S9gjgcSlI_f030\",\"27S9gjgcSlI_f031\"],\"related_concepts\":[\"SMT\",\"Inversely Correlated Pairs\",\"Market Structure Shift\",\"Divergence\",\"Reversal Signal\",\"Higher High / Lower High\",\"Higher Low / Lower Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了DXY与EUR/USD的1小时图表，清晰标注了多个SMT点位，逐步讲解了识别过程和反转验证，资产代码、时间框架、价格范围均从图表读取。\"}",
+  "error": null
+}

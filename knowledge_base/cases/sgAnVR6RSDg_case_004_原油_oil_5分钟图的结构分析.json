@@ -1,0 +1,105 @@
+{
+  "card_id": "sgAnVR6RSDg_case_004_原油_oil_5分钟图的结构分析",
+  "type": "case",
+  "title": "原油5分钟图上升趋势中的结构转变与下降趋势形成",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Higher High / Higher Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower High / Lower Low",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "short_term_high_short_term_low",
+    "order_block_ob",
+    "displacement",
+    "premium_discount",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "HQ11",
+  "timeframe": "5M",
+  "market_context": "原油在5分钟图上呈现典型的上升趋势，形成高点和低点的递升结构。价格在17790附近创出高点后，随后突破关键低点，触发市场结构转变，预示下降趋势可能形成。",
+  "key_observation": "博主通过追踪摆动高点和低点的递升/递降模式，识别出当价格突破先前的摆动低点时，市场结构发生转变。关键是观察价格是否在突破后形成更低的高点，以确认下降趋势的建立。",
+  "analysis_steps": [
+    "Step 1: 识别上升趋势中的摆动高点和低点递升模式（higher highs, higher lows）",
+    "Step 2: 标记关键的摆动低点（约17690），该低点在先前的上升中被用作支撑",
+    "Step 3: 观察价格是否突破这个关键低点并以收盘价确认突破",
+    "Step 4: 当价格突破低点后，判断是否形成更低的高点（lower high）以确认结构转变",
+    "Step 5: 确认市场结构转变（MSS）后，寻找做空机会指向更低的目标（old lows）",
+    "Step 6: 注意折价区（discount）的存在，如果只是扫荡可能继续上升，需要等待确认信号"
+  ],
+  "outcome": null,
+  "lessons": "在识别趋势转变时，不仅要看价格突破关键水平，更要确认后续是否形成与新趋势方向一致的摆动结构（如下降趋势中的lower high）。单纯的突破可能是扫荡流动性，需要结合折价/溢价区域和后续K线形态来确认真实的结构转变。",
+  "primary_image": "cards/sgAnVR6RSDg/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/sgAnVR6RSDg/images/case_004_detail_1.jpg",
+    "cards/sgAnVR6RSDg/images/case_004_detail_2.jpg",
+    "cards/sgAnVR6RSDg/images/case_004_detail_3.jpg",
+    "cards/sgAnVR6RSDg/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD 5分钟K线图，时间范围为2024年1月24日。图上显示价格范围从17640到17830。可见多根绿色和黑色K线交替出现，中间部分有一根黑色K线带有较长上影线，约在17790附近。图上有两条水平虚线分别位于17690和17645.25处。右侧标注显示WYO 8:30。图表右下角有黄色十字光标标记在约17690价格水平。最后几根K线显示从17710下跌至17645的下行走势。",
+    "case_004_detail_1.jpg": "USD 5分钟K线图，时间范围从09:00至19:00（2024年1月24日）。图上显示价格在17650至17800之间波动，包含多根绿色和黑色K线。两条水平虚线分别位于17718.75和17745.00。图右侧标注有'HTO 8:30'和'24/1/2024 HQ11 5m'文字。一条竖直虚线标记在13:35时刻，该位置附近有绿色十字标记。多根K线显示粉红色影线。图下方可见交易界面按钮'Sell",
+    "case_004_detail_2.jpg": "USD 5分钟K线图，时间范围从09:30至19:30，日期标注为24/1/2024。图上显示约50根K线，绿色和黑色蜡烛交替出现。价格范围在17640至17800之间。图上有一条水平线位于17700.50附近。多个粉红色圆圈标记在各个摆动高点和低点处。右下角显示交易按钮（Sell、Buy、Flatten）。左下角显示时间戳15:31:50和ETH、ADJ标签。",
+    "case_004_detail_3.jpg": "USD 5分钟K线图，时间范围从08:00至18:30，日期标注为2024年1月24日。图上显示价格范围从17610.00至17840.00。两条水平虚线分别位于17741.00和17690.00处。K线序列中绿色和黑色蜡烛交替出现，在13:00附近有一个黄色标记。右下角显示时间戳\"Wed 24 Jan 24 13:25\"，左下角显示\"NYC 8:30\"标注。图上未见其他指标或形态标注。",
+    "case_004_detail_4.jpg": "USD 5分钟K线图，时间范围为2024年1月24日07:00至19:30。图上显示约50根K线，价格整体范围从17640到17840。图中有两条水平线分别位于17740和17690，形成一个矩形标注区域。K线呈现上升、下降、整理的混合形态，其中12:00至13:00间出现上升至17790附近的高点，随后13:00至16:00间回落至17690附近。多数K线具有上下影线，绿色和黑色K线交替出现。右"
+  },
+  "sources": [
+    {
+      "video_id": "sgAnVR6RSDg",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        612.48,
+        758.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析步骤清晰完整，关键价位（17790、17690）、时间框架（5分钟）、资产代码（HQ11）均从图表中明确读出，分析逻辑按顺序展开，涵盖趋势识别、结构转变判断和交易决策点。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:04.137657Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油5分钟图上升趋势中的结构转变与下降趋势形成\",\"school\":\"ICT\",\"asset\":\"HQ11\",\"timeframe\":\"5M\",\"market_context\":\"原油在5分钟图上呈现典型的上升趋势，形成高点和低点的递升结构。价格在17790附近创出高点后，随后突破关键低点，触发市场结构转变，预示下降趋势可能形成。\",\"key_observation\":\"博主通过追踪摆动高点和低点的递升/递降模式，识别出当价格突破先前的摆动低点时，市场结构发生转变。关键是观察价格是否在突破后形成更低的高点，以确认下降趋势的建立。\",\"analysis_steps\":[\"Step 1: 识别上升趋势中的摆动高点和低点递升模式（higher highs, higher lows）\",\"Step 2: 标记关键的摆动低点（约17690），该低点在先前的上升中被用作支撑\",\"Step 3: 观察价格是否突破这个关键低点并以收盘价确认突破\",\"Step 4: 当价格突破低点后，判断是否形成更低的高点（lower high）以确认结构转变\",\"Step 5: 确认市场结构转变（MSS）后，寻找做空机会指向更低的目标（old lows）\",\"Step 6: 注意折价区（discount）的存在，如果只是扫荡可能继续上升，需要等待确认信号\"],\"outcome\":null,\"lessons\":\"在识别趋势转变时，不仅要看价格突破关键水平，更要确认后续是否形成与新趋势方向一致的摆动结构（如下降趋势中的lower high）。单纯的突破可能是扫荡流动性，需要结合折价/溢价区域和后续K线形态来确认真实的结构转变。\",\"primary_image_frame_id\":\"sgAnVR6RSDg_f023\",\"supporting_image_frame_ids\":[\"sgAnVR6RSDg_f021\",\"sgAnVR6RSDg_f022\",\"sgAnVR6RSDg_f024\",\"sgAnVR6RSDg_f025\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Swing High / Swing Low\",\"Order Block (OB)\",\"Displacement\",\"Premium / Discount\",\"Liquidity\",\"Higher High / Higher Low\",\"Lower High / Lower Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析步骤清晰完整，关键价位（17790、17690）、时间框架（5分钟）、资产代码（HQ11）均从图表中明确读出，分析逻辑按顺序展开，涵盖趋势识别、结构转变判断和交易决策点。\"}",
+  "error": null
+}

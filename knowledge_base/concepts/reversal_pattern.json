@@ -1,0 +1,68 @@
+{
+  "card_id": "reversal_pattern",
+  "type": "merged_concept",
+  "canonical_term": "Reversal Pattern",
+  "aliases": [
+    "Daily Reversal",
+    "反转形态"
+  ],
+  "school": "Price Action",
+  "definition": "日线形态，价格开盘后交易至前一日高点/低点，形成浅灯芯后反向运行。需低时间框架的交付状态改变确认，用于识别日内反转交易机会。",
+  "identification_rules": [
+    "价格开盘后首先交易至前一日高点（看跌反转）或前一日低点（看涨反转）",
+    "在该关键水平形成浅灯芯（shallow wick），支持反向扩展",
+    "在低时间框架（1小时、30分钟、15分钟或5分钟）观察到交付状态改变（CSD）以确认日线灯芯",
+    "反转后价格交易回向日内均衡点（EQ）或前一日范围内的其他关键水平"
+  ],
+  "trading_implication": "反转形态用于识别日内高概率反向交易。看跌反转：价格触及前一日高点后反向，可交易至EQ或前一日低点。看涨反转：价格触及前一日低点后反向，可交易至EQ或前一日高点。低时间框架CSD确认是入场触发条件，浅灯芯是必要条件（大灯芯则等待后续K线确认）。",
+  "common_mistakes": [
+    "未确认低时间框架的交付状态改变就入场，导致假突破被扫损",
+    "灯芯过大时仍立即交易反转，应等待后续K线（candle three）确认",
+    "混淆开盘方向：开盘后先上升触及前一日高点是看跌反转信号；开盘后先下降触及前一日低点是看涨反转信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_005_gbpusd小时线到5分钟线反转案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "GBPUSD小时线11点反转到5分钟线CSD下行交易"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_006_es_nq比值图表9_30反转与后续走势",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES/NQ比值9:30反转与相关性变化分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_reversal_pattern",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        43.2,
+        452.76
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135421Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

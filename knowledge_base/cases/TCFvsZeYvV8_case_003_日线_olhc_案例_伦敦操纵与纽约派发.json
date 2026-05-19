@@ -1,0 +1,123 @@
+{
+  "card_id": "TCFvsZeYvV8_case_003_日线_olhc_案例_伦敦操纵与纽约派发",
+  "type": "case",
+  "title": "日线OLHC案例：伦敦操纵与纽约派发的AMD模型",
+  "related_concepts": [
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Accumulation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "New Day Opening Gap",
+      "card_id": "new_day_opening_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "power_of_3_amd",
+    "inducement",
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "market_structure_shift",
+    "new_day_opening_gap",
+    "displacement",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "1D",
+  "market_context": "亚洲盘整后，伦敦盘通过激进下行制造日线下影线（操纵），随后纽约盘派发上行，完成日线OLHC结构。展示Power of Three在日线级别的应用。",
+  "key_observation": "博主识别出日线级别的完整AMD周期：亚洲盘积累（Accumulation）→伦敦盘操纵（Manipulation）制造下影线→纽约盘派发（Distribution）上行，最终形成Open-Low-High-Close的日线K线结构。",
+  "analysis_steps": [
+    "Step 1: 观察午夜开盘后亚洲盘的盘整区间，标记为积累阶段（Accumulation）。",
+    "Step 2: 进入伦敦盘后，识别激进的下行走势，形成下影线，这是操纵（Manipulation）阶段。",
+    "Step 3: 观察伦敦盘在下行后的反弹，确认下影线已形成，预期纽约盘派发上行。",
+    "Step 4: 纽约开盘后价格持续上行，确认派发（Distribution）阶段启动。",
+    "Step 5: 追踪整日走势至收盘，确认形成Open-Low-High-Close的日线K线结构。",
+    "Step 6: 在1分钟图表上识别纽约开盘缺口（New Day Opening Gap）及其后续的操纵走势。",
+    "Step 7: 使用标准差投影和PD array（等低点、伦敦操纵位）确定派发下行的目标位。"
+  ],
+  "outcome": "日线完成OLHC结构，伦敦设定日线低点，纽约派发上行至新高。在1分钟图表上，纽约开盘后出现激进下行，扫过等低点和伦敦操纵位，最终在第4标准差附近完成派发。",
+  "lessons": "Power of Three（AMD模型）在日线框架内可预测整日走势：亚洲盘整→伦敦操纵制造日线下影线→纽约派发。通过识别各时段的结构转变和流动性扫荡，可在高时间框架内预判低时间框架的具体走势方向和目标位。",
+  "primary_image": "cards/TCFvsZeYvV8/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/TCFvsZeYvV8/images/case_003_detail_1.jpg",
+    "cards/TCFvsZeYvV8/images/case_003_detail_2.jpg",
+    "cards/TCFvsZeYvV8/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 1小时K线图，价格范围14290至14490。图上显示一段从左侧高点14490开始的下行走势，中间在14310至14420区间形成整理，该区间用浅绿色矩形标注。18时出现一根长黑色K线从14420跌至14380。01时30分处有向下跳空缺口。右侧显示一个黑色矩形标注，标记价格约在14310至14420区间。图表底部显示时间轴从7:00至19:30，当前时间标记为03:00。左下角显示144",
+    "case_003_detail_1.jpg": "USD 5分钟K线图。图上显示从03:00至14:30的价格走势，可见价格范围约14252至14364。图中有一条水平线位于14332.00。两个矩形框标注分别覆盖14300-14340区间（蓝色）和14268-14290区间（红色）。K线序列呈现绿色和黑色交替排列。图右下角显示当前价格标签14064.75。时间轴标注从03:00至14:30，日期标记为27/10/2023。",
+    "case_003_detail_2.jpg": "USD 15分钟K线图。图上显示价格范围从14200到14490。左侧为一组绿黑相间的K线集群，位于14460至14490区间。随后出现一根大幅下跌的黑色K线，从14400下行至14370。之后约8根K线呈交替绿黑形态逐步下行至14310附近。图中央附近形成一个14310至14340的盘整区间，包含约4根K线。图上有一条水平线位于14307.25处，贯穿图表下方区域。右侧显示时间戳'Thu 26 ",
+    "case_003_detail_3.jpg": "USD 15分钟K线图。图上显示价格范围从14210到14490。可见一根大黑色K线从约14410下跌至14270，随后形成多根小型K线在14300至14420区间内整理。图上标注有两条水平线及两个粉红色矩形区域。右侧显示时间标记为26/10/2023及NQ211 15M。底部工具栏显示Sell、Buy、Flatten等交易按钮。"
+  },
+  "sources": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        379.44,
+        675.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线AMD周期的三个阶段，清晰标注了时间框架（亚洲/伦敦/纽约）、关键价位、K线结构，并在多个时间框架上验证了分析逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:47.318623Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线OLHC案例：伦敦操纵与纽约派发的AMD模型\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"1D\",\"market_context\":\"亚洲盘整后，伦敦盘通过激进下行制造日线下影线（操纵），随后纽约盘派发上行，完成日线OLHC结构。展示Power of Three在日线级别的应用。\",\"key_observation\":\"博主识别出日线级别的完整AMD周期：亚洲盘积累（Accumulation）→伦敦盘操纵（Manipulation）制造下影线→纽约盘派发（Distribution）上行，最终形成Open-Low-High-Close的日线K线结构。\",\"analysis_steps\":[\"Step 1: 观察午夜开盘后亚洲盘的盘整区间，标记为积累阶段（Accumulation）。\",\"Step 2: 进入伦敦盘后，识别激进的下行走势，形成下影线，这是操纵（Manipulation）阶段。\",\"Step 3: 观察伦敦盘在下行后的反弹，确认下影线已形成，预期纽约盘派发上行。\",\"Step 4: 纽约开盘后价格持续上行，确认派发（Distribution）阶段启动。\",\"Step 5: 追踪整日走势至收盘，确认形成Open-Low-High-Close的日线K线结构。\",\"Step 6: 在1分钟图表上识别纽约开盘缺口（New Day Opening Gap）及其后续的操纵走势。\",\"Step 7: 使用标准差投影和PD array（等低点、伦敦操纵位）确定派发下行的目标位。\"],\"outcome\":\"日线完成OLHC结构，伦敦设定日线低点，纽约派发上行至新高。在1分钟图表上，纽约开盘后出现激进下行，扫过等低点和伦敦操纵位，最终在第4标准差附近完成派发。\",\"lessons\":\"Power of Three（AMD模型）在日线框架内可预测整日走势：亚洲盘整→伦敦操纵制造日线下影线→纽约派发。通过识别各时段的结构转变和流动性扫荡，可在高时间框架内预判低时间框架的具体走势方向和目标位。\",\"primary_image_frame_id\":\"TCFvsZeYvV8_f018\",\"supporting_image_frame_ids\":[\"TCFvsZeYvV8_f013\",\"TCFvsZeYvV8_f001\",\"TCFvsZeYvV8_f019\",\"TCFvsZeYvV8_f020\",\"TCFvsZeYvV8_f021\",\"TCFvsZeYvV8_f022\",\"TCFvsZeYvV8_f023\"],\"related_concepts\":[\"Power of 3 / AMD\",\"Accumulation\",\"Manipulation\",\"Distribution\",\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"Market Structure Shift\",\"New Day Opening Gap\",\"Displacement\",\"PD array\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线AMD周期的三个阶段，清晰标注了时间框架（亚洲/伦敦/纽约）、关键价位、K线结构，并在多个时间框架上验证了分析逻辑。\"}",
+  "error": null
+}

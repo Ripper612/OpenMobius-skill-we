@@ -1,0 +1,97 @@
+{
+  "card_id": "o0v4KQxZbpU_case_001_第一个silver_bullet交易案例",
+  "type": "case",
+  "title": "Silver Bullet交易案例：9AM高点扫盘后做空至9AM低点",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Silver Bullet Strategy",
+      "card_id": "silver_bullet_strategy",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "breaker_block",
+    "liquidity",
+    "market_structure",
+    "silver_bullet_strategy",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1M",
+  "market_context": "价格在9 AM小时线形成明确的高低点范围。上午9点后价格向上突破9 AM高点（约15120），随后在10-11 AM窗口内回落，形成做空机会。",
+  "key_observation": "价格在9 AM高点上方扫盘后形成Breaker Block，在10-11 AM交易窗口内出现明确的做空入场信号，目标指向9 AM低点。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上标记9 AM K线的高点和低点作为参考范围。",
+    "Step 2: 切换到1分钟图表，标记10-11 AM的Silver Bullet交易窗口。",
+    "Step 3: 等待价格突破9 AM高点（止损扫盘），确认Breaker Block形成。",
+    "Step 4: 观察价格回落过程中的Order Block和Fair Value Gap支撑。",
+    "Step 5: 在午夜开盘价（Midnight Opening Price）附近寻找做空入场点，设置止损在9 AM高点。",
+    "Step 6: 目标设定为9 AM低点（约15048），执行做空交易。"
+  ],
+  "outcome": "成功获得3R收益，价格从入场点下跌至9 AM低点目标位。",
+  "lessons": "Silver Bullet策略通过在特定时间窗口（10-11 AM）等待高时间框架结构的突破和回测，结合Order Block和FVG等微观结构，提供高概率的入场机会。严格的时间窗口限制和明确的止损/目标设置是成功的关键。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_001_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "USD 1 分钟 K 线图。图上显示从 09:20 至 11:30 的 K 线序列，价格范围约从 15048.00 至 13168.00。K 线由绿色和黑色混合组成。图上标记有两个矩形区域：一个位于 13124 至 13136 价格水平，另一个位于 15076 至 15100 价格水平。在上方矩形区域附近有文字标签'(0:00)'。左侧价格刻度清晰可见，底部时间轴显示分钟级别时间戳。",
+    "case_001_detail_1.jpg": "USD 1 小时 K 线图。图上显示约 24 小时的价格走势，价格范围从 15036.00 到 15148.00。K 线由绿色（上升）和黑色（下降）蜡烛组成。左侧区间显示绿黑交替的小幅波动，中间区间出现一根长下影线的黑色 K 线，下影线延伸至约 15064 区域。右侧显示绿色 K 线的恢复。图右下角有'Sell'和'Buy'按钮。左下角显示当前价格标签 15048.00。时间轴显示从 03:00 ",
+    "case_001_detail_2.jpg": "USD 1分钟K线图，时间范围从09:00至11:10。图上显示价格在15048至15124区间内形成整理形态，由多根绿色和黑色K线组成。一条矩形框标注了该整理区域。图上有两条水平线分别位于15120和15124处。价格随后向上突破至15156，之后出现回落K线。右侧标注显示[0:00]。图表右下角显示交易按钮和平台信息。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        64.28,
+        179.239
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从HTF标记、LTF窗口设置、止损扫盘识别、入场信号确认到目标执行的全流程，并明确给出3R收益结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:30.161223Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"Silver Bullet交易案例：9AM高点扫盘后做空至9AM低点\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1M\",\"market_context\":\"价格在9 AM小时线形成明确的高低点范围。上午9点后价格向上突破9 AM高点（约15120），随后在10-11 AM窗口内回落，形成做空机会。\",\"key_observation\":\"价格在9 AM高点上方扫盘后形成Breaker Block，在10-11 AM交易窗口内出现明确的做空入场信号，目标指向9 AM低点。\",\"analysis_steps\":[\"Step 1: 在1小时图上标记9 AM K线的高点和低点作为参考范围。\",\"Step 2: 切换到1分钟图表，标记10-11 AM的Silver Bullet交易窗口。\",\"Step 3: 等待价格突破9 AM高点（止损扫盘），确认Breaker Block形成。\",\"Step 4: 观察价格回落过程中的Order Block和Fair Value Gap支撑。\",\"Step 5: 在午夜开盘价（Midnight Opening Price）附近寻找做空入场点，设置止损在9 AM高点。\",\"Step 6: 目标设定为9 AM低点（约15048），执行做空交易。\"],\"outcome\":\"成功获得3R收益，价格从入场点下跌至9 AM低点目标位。\",\"lessons\":\"Silver Bullet策略通过在特定时间窗口（10-11 AM）等待高时间框架结构的突破和回测，结合Order Block和FVG等微观结构，提供高概率的入场机会。严格的时间窗口限制和明确的止损/目标设置是成功的关键。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f006\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f004\",\"o0v4KQxZbpU_f005\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Breaker Block\",\"Liquidity\",\"Market Structure\",\"Silver Bullet Strategy\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从HTF标记、LTF窗口设置、止损扫盘识别、入场信号确认到目标执行的全流程，并明确给出3R收益结果。\"}",
+  "error": null
+}

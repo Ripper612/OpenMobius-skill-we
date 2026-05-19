@@ -1,0 +1,121 @@
+{
+  "card_id": "75S4vwD4P1U_case_005_gbpusd_60分钟到5分钟的自上而下交易",
+  "type": "case",
+  "title": "GBPUSD 60分钟到5分钟自上而下交易：Breaker Block与Unicorn Model",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Unicorn Model",
+      "card_id": "unicorn_model",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Top-Down Analysis",
+      "card_id": "top_down_analysis",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "fair_value_gap",
+    "unicorn_model",
+    "displacement",
+    "order_block",
+    "liquidity",
+    "market_structure",
+    "killzone",
+    "top_down_analysis"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "60分钟 / 5分钟",
+  "market_context": "GBPUSD在2023年12月27日伦敦交易时段，价格从约1.27150下行至1.26900附近，形成扫除低点后的位移上升。交易发生在伦敦杀伤区（London Kill Zone）期间。",
+  "key_observation": "博主在60分钟图上识别到Breaker Block与Fair Value Gap（Unicorn Model）重叠的高概率设置，随后下钻到5分钟图寻找具体入场点，演示高时间框架背景对低时间框架交易的指导作用。",
+  "analysis_steps": [
+    "Step 1: 在60分钟图上观察价格行为，识别低点扫除（sweep at the low）后的位移上升（displacement up）。",
+    "Step 2: 标记出摆动结构：低点、高点、更低的低点，然后创建更高的高点，确认上升趋势。",
+    "Step 3: 识别这些上升收盘K线形成的Breaker Block。",
+    "Step 4: 发现Breaker Block与Fair Value Gap重叠，形成Unicorn Model设置。",
+    "Step 5: 注意到伦敦杀伤区已启动，下钻到5分钟图寻找具体入场。",
+    "Step 6: 在5分钟图上重复识别摆动结构（低、高、更低的低），确认位移创建更高的高点。",
+    "Step 7: 标记5分钟图上的Breaker Block和Fair Value Gap。",
+    "Step 8: 设定入场点在Fair Value Gap起点，止损在低点，目标设为1R或更高的摆动高点。",
+    "Step 9: 投影操纵腿至-2标准差，计算出3.62R的风险回报比。",
+    "Step 10: 观察价格触及止盈目标，交易成功完成。"
+  ],
+  "outcome": "交易成功。价格从Fair Value Gap入场点上升，触及预设的止盈目标，实现3.62R的风险回报比。",
+  "lessons": "高时间框架的Unicorn Model（Breaker Block + FVG重叠）提供了强有力的交易背景。下钻到低时间框架可以精确定位入场点。在伦敦杀伤区内交易增加了成功概率。风险回报比的计算和投影操纵腿帮助确定合理的目标位。",
+  "primary_image": "cards/75S4vwD4P1U/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/75S4vwD4P1U/images/case_005_detail_1.jpg",
+    "cards/75S4vwD4P1U/images/case_005_detail_2.jpg",
+    "cards/75S4vwD4P1U/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "GBPUSD 5 分钟 K 线图，日期标注为 2023 年 12 月 27 日，图右侧当前价标签显示 1.27135。图上可见价格区间约从 1.26600 至 1.27560。图右侧中部有一个浅绿色矩形框，覆盖约 1.27000 至 1.27440 区间，延伸至图表右侧未来区域；其内部叠加一个较小的灰色矩形，范围约 1.27080 至 1.27360。1.27000 下方另有灰色阴影区延伸至约 1",
+    "case_005_detail_1.jpg": "GBPUSD 60 分钟 K 线图，图上水印文字为 TTrader_edu，底部时间轴显示日期范围约为 12 月 22 日至 29 日。右侧价格刻度范围约从 1.26500 至 1.27550。图右侧最新一根 K 线为大阴线，实体从约 1.27150 延伸至 1.26950，下影线延伸至约 1.26900。左侧价格轴显示当前价格标签为 1.27120，另有一标签 1.27090 可见。图中部可见多",
+    "case_005_detail_2.jpg": "GBPUSD 60 分钟 K 线图，图右下角标注日期 27/12/2023。图上可见价格范围约从 1.26500 至 1.27500。图中央区域约 26 日时间段附近有一组小实体 K 线聚集于 1.26900 至 1.27000 区间，其中一根 K 线带有选中控制点（蓝色方块）。图上有两条水平线延伸至右侧，分别位于约 1.26970 和 1.26900 附近。图右侧有一根大实体黑色 K 线，主体跨",
+    "case_005_detail_3.jpg": "GBPUSD 5 分钟 K 线图，日期标注为 2023 年 12 月 27 日。图上可见价格范围约从 1.26620 到 1.27340。图左侧至中部有一段由多根大实体阴线组成的下行 K 线序列，从约 1.27340 下行至 1.27000 附近。图中部有两条水平线分别位于约 1.27020 与 1.26940，两线之间形成一个浅色矩形区域。图上另有橙色与蓝色圆点标记分布于 1.27060 至 1"
+  },
+  "sources": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        550.079,
+        807.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对GBPUSD案例的分析完整清晰，包括资产、时间框架、关键价位、分析步骤和交易结果，演示了完整的自上而下交易流程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:16.806877Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD 60分钟到5分钟自上而下交易：Breaker Block与Unicorn Model\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"60分钟 / 5分钟\",\"market_context\":\"GBPUSD在2023年12月27日伦敦交易时段，价格从约1.27150下行至1.26900附近，形成扫除低点后的位移上升。交易发生在伦敦杀伤区（London Kill Zone）期间。\",\"key_observation\":\"博主在60分钟图上识别到Breaker Block与Fair Value Gap（Unicorn Model）重叠的高概率设置，随后下钻到5分钟图寻找具体入场点，演示高时间框架背景对低时间框架交易的指导作用。\",\"analysis_steps\":[\"Step 1: 在60分钟图上观察价格行为，识别低点扫除（sweep at the low）后的位移上升（displacement up）。\",\"Step 2: 标记出摆动结构：低点、高点、更低的低点，然后创建更高的高点，确认上升趋势。\",\"Step 3: 识别这些上升收盘K线形成的Breaker Block。\",\"Step 4: 发现Breaker Block与Fair Value Gap重叠，形成Unicorn Model设置。\",\"Step 5: 注意到伦敦杀伤区已启动，下钻到5分钟图寻找具体入场。\",\"Step 6: 在5分钟图上重复识别摆动结构（低、高、更低的低），确认位移创建更高的高点。\",\"Step 7: 标记5分钟图上的Breaker Block和Fair Value Gap。\",\"Step 8: 设定入场点在Fair Value Gap起点，止损在低点，目标设为1R或更高的摆动高点。\",\"Step 9: 投影操纵腿至-2标准差，计算出3.62R的风险回报比。\",\"Step 10: 观察价格触及止盈目标，交易成功完成。\"],\"outcome\":\"交易成功。价格从Fair Value Gap入场点上升，触及预设的止盈目标，实现3.62R的风险回报比。\",\"lessons\":\"高时间框架的Unicorn Model（Breaker Block + FVG重叠）提供了强有力的交易背景。下钻到低时间框架可以精确定位入场点。在伦敦杀伤区内交易增加了成功概率。风险回报比的计算和投影操纵腿帮助确定合理的目标位。\",\"primary_image_frame_id\":\"75S4vwD4P1U_f022\",\"supporting_image_frame_ids\":[\"75S4vwD4P1U_f019\",\"75S4vwD4P1U_f020\",\"75S4vwD4P1U_f021\"],\"related_concepts\":[\"Breaker Block\",\"Fair Value Gap\",\"Unicorn Model\",\"Displacement\",\"Order Block\",\"Liquidity\",\"Market Structure\",\"Killzone\",\"Risk Reward Ratio\",\"Top-Down Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对GBPUSD案例的分析完整清晰，包括资产、时间框架、关键价位、分析步骤和交易结果，演示了完整的自上而下交易流程。\"}",
+  "error": null
+}

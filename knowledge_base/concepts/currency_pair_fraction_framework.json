@@ -1,0 +1,59 @@
+{
+  "card_id": "currency_pair_fraction_framework",
+  "type": "merged_concept",
+  "canonical_term": "Currency Pair Fraction Framework",
+  "aliases": [
+    "货币对分数模型",
+    "货币强弱分数框架"
+  ],
+  "school": "General",
+  "definition": "通过分数数学模型解释货币对强弱关系的框架。分子分母同向变化导致无趋势；反向变化产生强趋势。弱货币配强货币得极弱货币，强货币配弱货币得极强货币。",
+  "identification_rules": [
+    "分子分母同向变化（同升或同降）→ 无趋势/盘整状态",
+    "分子上升、分母下降 → 极强看涨趋势",
+    "分子下降、分母上升 → 极强看跌趋势",
+    "一方变化、另一方盘整 → 中等强度趋势",
+    "弱货币（分子）配强货币（分母）→ 极弱货币对",
+    "强货币（分子）配弱货币（分母）→ 极强货币对"
+  ],
+  "trading_implication": "该框架用于外汇交易中的货币对选择。通过识别分子分母的相对强弱和方向关系，交易者可以找到趋势最强的货币对进行交易。应避免配对同向运动的货币（无趋势），优先选择反向运动的货币对以获得最强趋势。",
+  "common_mistakes": [
+    "配对两个弱货币或两个强货币，导致价格无趋势、盘整",
+    "忽视分子分母的相对方向，只看单一货币强弱",
+    "将盘整货币与趋势货币配对，期望获得强趋势（实际只得中等趋势）"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "original_card_id": "HrjYoxAUb3s_concept_currency_pair_fraction_framework",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.92,
+        161.96
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132024Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

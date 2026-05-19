@@ -1,0 +1,97 @@
+{
+  "card_id": "HbOeD_JVens_case_005_gch日线有效分离度判断与反转确认",
+  "type": "case",
+  "title": "GCH日线有效分离度判断与反转确认",
+  "related_concepts": [
+    {
+      "term": "Relevant Swing",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Valid Separation",
+      "card_id": "valid_separation",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Level",
+      "card_id": "higher_time_frame_level",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "valid_separation",
+    "swing_formation",
+    "failure_swing",
+    "market_structure",
+    "higher_time_frame_level",
+    "reversal"
+  ],
+  "school": "ICT",
+  "asset": "GCH",
+  "timeframe": "1D",
+  "market_context": "GCH日线上升至约6300附近形成高点，随后出现数根大阴线回落至5800-6100区间。博主通过分析摆动点间的分离度来判断反转的有效性。",
+  "key_observation": "博主强调相关摆动点（relevant swing low/high）之间必须具有充分的分离度（valid separation），才能信任从该点形成的反转。分离度不足的摆动点不应作为交易依据。",
+  "analysis_steps": [
+    "Step 1: 识别GCH日线上的相关摆动低点和高点，确认其为更高时间框架的结构（如月线低点/高点）。",
+    "Step 2: 评估当前摆动点与前一个摆动点之间的价格分离度，判断分离是否充分。",
+    "Step 3: 对比两种情况：分离度充分的摆动点 vs 分离度不足的摆动点，说明为何后者不可信。",
+    "Step 4: 确认当前低点具有有效分离度后，观察价格是否从该点形成反转，并追踪后续走势。",
+    "Step 5: 验证反转后价格突破前期高点，形成新的相关摆动高点，完成交易模型的形成。"
+  ],
+  "outcome": null,
+  "lessons": "有效分离度是判断摆动点可信度的关键。仅凭摆动点本身不足以交易，必须确保该点与前一摆动点间距足够远，才能信任从此点形成的反转。经验和判断力在评估分离度时至关重要。",
+  "primary_image": "cards/HbOeD_JVens/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/HbOeD_JVens/images/case_005_detail_1.jpg",
+    "cards/HbOeD_JVens/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为 GCH 的 K 线图，图右侧价格刻度从约 4390 延伸至约 6385。图左侧 K 线在约 5000 至 5500 区间内横向整理，随后出现一段上行走势，K 线高点延伸至约 6300 附近。在约 6300 区域出现数根实体较大的阴线，之后 K 线回落至约 5800 附近。图右侧最新数根 K 线在约 5900 至 6100 区间内波动。图上可见一条水平虚线位于约 6000 价位处。图上未见其",
+    "case_005_detail_1.jpg": "图表显示资产代码含GCH字样，纵轴标注USD，价格范围约从4800至5249。图上绘有两个矩形框：上方矩形覆盖约5180至5240区间，下方矩形覆盖约5060至5180区间。图中部有一根较大的阴线，从约5200下行至5060附近，其后跟随数根阳线回升至5200区域。图右侧有一条从约5100向右延伸的斜线标注。图上未见文字术语标签或指标面板。",
+    "case_005_detail_2.jpg": "图表为 GCH 资产的 1 小时 K 线图，可见价格范围约从 4980 到 5310。图上绘制有两个矩形框：上方矩形框覆盖约 5280 至 5310 区间，包含多根 K 线；下方矩形框覆盖约 5060 至 5120 区间，包含数根 K 线。图中央位置有一根较大的阴线，从约 5280 向下延伸至约 5060。图左下方可见一段由较小 K 线组成的区域，价格范围约在 4980 至 5080 之间。图上未"
+  },
+  "sources": [
+    {
+      "video_id": "HbOeD_JVens",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        565.36,
+        781.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对GCH日线案例的分析步骤清晰完整，资产代码、时间框架、关键价位均可从图表读取，分离度判断的逻辑明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:57.199620Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GCH日线有效分离度判断与反转确认\",\"school\":\"ICT\",\"asset\":\"GCH\",\"timeframe\":\"1D\",\"market_context\":\"GCH日线上升至约6300附近形成高点，随后出现数根大阴线回落至5800-6100区间。博主通过分析摆动点间的分离度来判断反转的有效性。\",\"key_observation\":\"博主强调相关摆动点（relevant swing low/high）之间必须具有充分的分离度（valid separation），才能信任从该点形成的反转。分离度不足的摆动点不应作为交易依据。\",\"analysis_steps\":[\"Step 1: 识别GCH日线上的相关摆动低点和高点，确认其为更高时间框架的结构（如月线低点/高点）。\",\"Step 2: 评估当前摆动点与前一个摆动点之间的价格分离度，判断分离是否充分。\",\"Step 3: 对比两种情况：分离度充分的摆动点 vs 分离度不足的摆动点，说明为何后者不可信。\",\"Step 4: 确认当前低点具有有效分离度后，观察价格是否从该点形成反转，并追踪后续走势。\",\"Step 5: 验证反转后价格突破前期高点，形成新的相关摆动高点，完成交易模型的形成。\"],\"outcome\":null,\"lessons\":\"有效分离度是判断摆动点可信度的关键。仅凭摆动点本身不足以交易，必须确保该点与前一摆动点间距足够远，才能信任从此点形成的反转。经验和判断力在评估分离度时至关重要。\",\"primary_image_frame_id\":\"HbOeD_JVens_f023\",\"supporting_image_frame_ids\":[\"HbOeD_JVens_f024\",\"HbOeD_JVens_f026\"],\"related_concepts\":[\"Relevant Swing\",\"Valid Separation\",\"Swing Low\",\"Swing High\",\"Failure Swing\",\"Market Structure\",\"Higher Time Frame Level\",\"Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对GCH日线案例的分析步骤清晰完整，资产代码、时间框架、关键价位均可从图表读取，分离度判断的逻辑明确。\"}",
+  "error": null
+}

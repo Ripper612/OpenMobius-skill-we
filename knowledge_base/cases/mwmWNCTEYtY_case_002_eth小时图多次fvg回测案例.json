@@ -1,0 +1,109 @@
+{
+  "card_id": "mwmWNCTEYtY_case_002_eth小时图多次fvg回测案例",
+  "type": "case",
+  "title": "ETH小时图多次FVG回测与5分钟入场设置达成2R",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Internal Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk-Reward Ratio (2R)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "internal_range_liquidity",
+    "buyside_sellside_liquidity",
+    "market_structure_shift_mss",
+    "killzone",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ETH",
+  "timeframe": "1H",
+  "market_context": "ETH在日线FVG上方形成折价区，小时图价格从低点上升至高点后回测多个FVG区域。伦敦时段（Kill Zone）内价格触及小时FVG，随后继续上升寻求外部流动性。",
+  "key_observation": "博主观察到价格在小时图上形成多个FVG，并在5分钟图上识别出两个相邻FVG区域，利用这些不平衡区域作为入场和止损参考点，最终达成2R目标。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别日线开盘缺口（Fair Value Gap），标记为高时间框架的重要参考水平。",
+    "Step 2: 下降至小时图，观察价格从内部流动性（internal liquidity）向外部流动性（external liquidity）的运动，确认小时FVG的形成。",
+    "Step 3: 在伦敦时段（Kill Zone）内，价格回测小时FVG，确认这是潜在的交易设置触发点。",
+    "Step 4: 进一步下降至5分钟图，识别两个相邻的FVG区域，其中一个作为入场点，另一个作为止损参考。",
+    "Step 5: 在第一个FVG的起点处设置多头入场，允许价格先下探至第二个FVG，然后反弹。",
+    "Step 6: 将止损设置在第二个FVG的低点，目标设定为2R（两倍风险回报比），对应小时高点附近。",
+    "Step 7: 交易执行后，价格被触及入场点，随后上升至目标区域，完成从内部流动性到外部流动性的运动。"
+  ],
+  "outcome": "交易成功达成2R目标。价格在入场后上升至小时高点附近，完成预期的流动性扫荡。博主提到若在RTP（Return To Previous）后将止损移至盈亏平衡，持有者会在到达日线FVG前被止损出局；但保持原始止损则交易最终成功。",
+  "lessons": "多时间框架分析的重要性：从日线FVG确定大方向，小时图识别结构，5分钟图精确入场。FVG的多次回测提供了高概率的入场和止损设置。内部到外部流动性的运动是判断趋势延续的关键。Kill Zone时段内的交易设置往往具有更高的成功率。",
+  "primary_image": "cards/mwmWNCTEYtY/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/mwmWNCTEYtY/images/case_002_detail_1.jpg",
+    "cards/mwmWNCTEYtY/images/case_002_detail_2.jpg",
+    "cards/mwmWNCTEYtY/images/case_002_detail_3.jpg",
+    "cards/mwmWNCTEYtY/images/case_002_detail_4.jpg",
+    "cards/mwmWNCTEYtY/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ETH 1 小时 K 线图。图上显示价格范围约从 1764000 到 1779400。两条水平线分别位于 1774400 和 1768000。绿色矩形区域标注为'Target: 75.80 (0.425) 50k Amulet: 5515.79'，覆盖上方价格区间。粉色矩形区域标注为'Stop: 23.75 (0.133) 5% Amulet: 4500'，位于下方。K 线显示从左侧低点上升至右侧",
+    "case_002_detail_1.jpg": "TTUSDT_OKX 日线图。图表显示从 1 月下旬至 4 月中旬的上升趋势，由绿色和黑色 K 线交替组成，高点约 18650。随后从 4 月中旬至下旬出现急速下跌，由连续黑色 K 线构成，低点约 16450。图右侧最新 K 线为绿色，收盘价在 17000 上方。图上有一条水平线位于 17400 价格水平，跨越中间多根 K 线。可见价格范围约 16450 至 18700。",
+    "case_002_detail_2.jpg": "ETH 1 小时 K 线图。图上显示从左下方约 17620 的低点向上的一系列绿色 K 线，逐步上升至约 17790 附近。图上有一条粉红色矩形区域，跨越图表中部至右侧，位于 17740 至 17790 价格范围内。右侧最新 K 线为绿色，上影线刺破至约 17800。图左下角显示时间标记'23/4/2024'及'10:11 | 6:08'。图表右下角显示当前时间戳。除上述矩形标注外，未见其他指标或",
+    "case_002_detail_3.jpg": "ETH 1 小时 K 线图。图上显示价格范围约从 17400 到 17800。图中有一段上升的 K 线序列，主要由绿色 K 线组成，从左侧约 17500 上升至中部约 17710，共约 8 根 K 线。上升段后出现一根黑色 K 线。图上标注有两个粉红色矩形区域，分别位于 17790-17800 和 17680-17690 价格水平。另有一条水平虚线位于 17690。图右下角显示时间标记'24-4-",
+    "case_002_detail_4.jpg": "ETH 1小时K线图。图上显示价格范围从17664到17792。图中有两条水平线分别位于17748和17688处，以及两个矩形区域分别覆盖17688至17748和17748至17792的价格范围。矩形区域用不同颜色标记，下方为浅灰色，上方为浅绿色。图表左侧显示从约16:00开始的K线走势，右侧显示24/4/2024日期标记。K线在整个可见区间内呈现多次上下波动，主要在17688至17748区间内震",
+    "case_002_detail_5.jpg": "TTvindex_okt 1 小时 K 线图。图上有一条粉红色水平矩形区域，范围约从 17790 到 17945。可见 K 线价格范围从 17620 到 17945。图表中部有黄色高亮区域标记在约 17740 价格水平。多根 K 线呈绿色和黑色主体，部分 K 线具有较长下影线。图右下角标注文字'24-4-2024 HOT1 / 60M'。图上未见其他指标或复杂标注。"
+  },
+  "sources": [
+    {
+      "video_id": "mwmWNCTEYtY",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        193.0,
+        372.479
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到5分钟的多时间框架分析过程，清晰标注了FVG位置、入场点、止损和目标，交易结果明确达成2R。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:03.147173Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH小时图多次FVG回测与5分钟入场设置达成2R\",\"school\":\"ICT\",\"asset\":\"ETH\",\"timeframe\":\"1H\",\"market_context\":\"ETH在日线FVG上方形成折价区，小时图价格从低点上升至高点后回测多个FVG区域。伦敦时段（Kill Zone）内价格触及小时FVG，随后继续上升寻求外部流动性。\",\"key_observation\":\"博主观察到价格在小时图上形成多个FVG，并在5分钟图上识别出两个相邻FVG区域，利用这些不平衡区域作为入场和止损参考点，最终达成2R目标。\",\"analysis_steps\":[\"Step 1: 在日线图上识别日线开盘缺口（Fair Value Gap），标记为高时间框架的重要参考水平。\",\"Step 2: 下降至小时图，观察价格从内部流动性（internal liquidity）向外部流动性（external liquidity）的运动，确认小时FVG的形成。\",\"Step 3: 在伦敦时段（Kill Zone）内，价格回测小时FVG，确认这是潜在的交易设置触发点。\",\"Step 4: 进一步下降至5分钟图，识别两个相邻的FVG区域，其中一个作为入场点，另一个作为止损参考。\",\"Step 5: 在第一个FVG的起点处设置多头入场，允许价格先下探至第二个FVG，然后反弹。\",\"Step 6: 将止损设置在第二个FVG的低点，目标设定为2R（两倍风险回报比），对应小时高点附近。\",\"Step 7: 交易执行后，价格被触及入场点，随后上升至目标区域，完成从内部流动性到外部流动性的运动。\"],\"outcome\":\"交易成功达成2R目标。价格在入场后上升至小时高点附近，完成预期的流动性扫荡。博主提到若在RTP（Return To Previous）后将止损移至盈亏平衡，持有者会在到达日线FVG前被止损出局；但保持原始止损则交易最终成功。\",\"lessons\":\"多时间框架分析的重要性：从日线FVG确定大方向，小时图识别结构，5分钟图精确入场。FVG的多次回测提供了高概率的入场和止损设置。内部到外部流动性的运动是判断趋势延续的关键。Kill Zone时段内的交易设置往往具有更高的成功率。\",\"primary_image_frame_id\":\"mwmWNCTEYtY_f012\",\"supporting_image_frame_ids\":[\"mwmWNCTEYtY_f007\",\"mwmWNCTEYtY_f008\",\"mwmWNCTEYtY_f009\",\"mwmWNCTEYtY_f011\",\"mwmWNCTEYtY_f013\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Internal Liquidity\",\"External Liquidity\",\"Market Structure Shift (MSS)\",\"Killzone\",\"Multi-timeframe Analysis\",\"Risk-Reward Ratio (2R)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到5分钟的多时间框架分析过程，清晰标注了FVG位置、入场点、止损和目标，交易结果明确达成2R。\"}",
+  "error": null
+}

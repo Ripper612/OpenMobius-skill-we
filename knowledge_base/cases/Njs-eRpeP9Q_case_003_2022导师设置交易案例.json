@@ -1,0 +1,105 @@
+{
+  "card_id": "Njs-eRpeP9Q_case_003_2022导师设置交易案例",
+  "type": "case",
+  "title": "1分钟图上的2022导师设置交易案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "market_structure_shift",
+    "premium_discount_premium_",
+    "fibonacci_retracement"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1M",
+  "market_context": "价格在短期高点附近，交易者面临是否直接买入或等待更优入场的选择。博主演示如何通过识别位移、FVG和折价区来构建高概率交易设置。",
+  "key_observation": "在短期高点形成后，价格产生位移并留下FVG。通过斐波那契回撤工具在折价区识别有效入场点，避免在高风险区域直接入场。",
+  "analysis_steps": [
+    "Step 1: 识别短期高点（short term high）位置，标记为潜在反转区域。",
+    "Step 2: 观察价格从高点产生的位移（displacement），伴随强势K线运动。",
+    "Step 3: 在位移过程中识别形成的公允价值缺口（FVG），用矩形框标注缺口区域。",
+    "Step 4: 从位移范围绘制斐波那契回撤，确定折价区（discount zone）的位置。",
+    "Step 5: 在折价区内寻找有效入场点，作为2022导师设置的完整交易机制。",
+    "Step 6: 识别相对等高点和等低点（relative equal highs/lows），标记为后续目标或风险区域。",
+    "Step 7: 观察市场结构转变（structure shift），确认趋势延续或反转信号。"
+  ],
+  "outcome": null,
+  "lessons": "2022导师设置的核心是：在短期高点后等待位移形成FVG，然后利用斐波那契回撤在折价区寻找入场，而非直接在高点买入。相对等高/低点成为后续交易目标。",
+  "primary_image": "cards/Njs-eRpeP9Q/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/Njs-eRpeP9Q/images/case_003_detail_1.jpg",
+    "cards/Njs-eRpeP9Q/images/case_003_detail_2.jpg",
+    "cards/Njs-eRpeP9Q/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 1分钟图表。图上显示价格范围从3747.50至3815.75。图表中部有一个粉红色矩形框标注，框体位置约在3755至3775价格区间，涵盖多根K线。图上有三条水平线分别位于3815.75、3777.50和3747.50处。右侧价格轴显示当前价格为3797.50。图表左侧显示早期高点约3815，下方显示低点约3747.50。除矩形框和水平线外，未见其他标",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示价格范围从3743.25至3828.00。图表中绘制了4条蓝色矩形框标注，分别位于不同价格区间。K线呈现绿色和红色混合，显示多根K线在3780至3800区间内波动。图右侧价格刻度显示当前价格在3817.25附近。图上未见其他指标或文字标签。",
+    "case_003_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示从左至右的K线序列，价格范围约4420至4660。K线以红绿交替形式呈现，显示多个局部高点和低点。右侧最新K线为绿色，对应价格标签4682.25。图上标注有时间戳",
+    "case_003_detail_3.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上绘制一个矩形框，上边界约在4505.50，下边界约在4420.50，框内包含多根绿红相间的K线。矩形框左侧K线显示从更高位置向下运动，框内K线在该区间内反复波动。图右侧价格刻度显示当前价格范围从4400到4540。矩形框外未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "Njs-eRpeP9Q",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        187.76,
+        283.84000000000003
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了2022导师设置的全流程：短期高点→位移→FVG→斐波那契折价区→入场点，图表清晰标注，分析步骤明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:43.601782Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"1分钟图上的2022导师设置交易案例\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1M\",\"market_context\":\"价格在短期高点附近，交易者面临是否直接买入或等待更优入场的选择。博主演示如何通过识别位移、FVG和折价区来构建高概率交易设置。\",\"key_observation\":\"在短期高点形成后，价格产生位移并留下FVG。通过斐波那契回撤工具在折价区识别有效入场点，避免在高风险区域直接入场。\",\"analysis_steps\":[\"Step 1: 识别短期高点（short term high）位置，标记为潜在反转区域。\",\"Step 2: 观察价格从高点产生的位移（displacement），伴随强势K线运动。\",\"Step 3: 在位移过程中识别形成的公允价值缺口（FVG），用矩形框标注缺口区域。\",\"Step 4: 从位移范围绘制斐波那契回撤，确定折价区（discount zone）的位置。\",\"Step 5: 在折价区内寻找有效入场点，作为2022导师设置的完整交易机制。\",\"Step 6: 识别相对等高点和等低点（relative equal highs/lows），标记为后续目标或风险区域。\",\"Step 7: 观察市场结构转变（structure shift），确认趋势延续或反转信号。\"],\"outcome\":null,\"lessons\":\"2022导师设置的核心是：在短期高点后等待位移形成FVG，然后利用斐波那契回撤在折价区寻找入场，而非直接在高点买入。相对等高/低点成为后续交易目标。\",\"primary_image_frame_id\":\"Njs-eRpeP9Q_f008\",\"supporting_image_frame_ids\":[\"Njs-eRpeP9Q_f007\",\"Njs-eRpeP9Q_f009\",\"Njs-eRpeP9Q_f010\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Market Structure Shift\",\"Premium/Discount\",\"Fibonacci Retracement\",\"Optimal Trade Entry\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了2022导师设置的全流程：短期高点→位移→FVG→斐波那契折价区→入场点，图表清晰标注，分析步骤明确。\"}",
+  "error": null
+}

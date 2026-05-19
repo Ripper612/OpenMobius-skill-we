@@ -1,0 +1,80 @@
+{
+  "card_id": "stop_loss_placement_invalidation",
+  "type": "merged_concept",
+  "canonical_term": "Stop Loss Placement / Invalidation",
+  "aliases": [
+    "Invalidation Level",
+    "Stop Loss Level"
+  ],
+  "school": "ICT",
+  "definition": "止损位置的设定方式，分为完整止损（在受保护摆动低点）和身体止损（在K线实体低点）。完整止损风险回报率低但更安全；身体止损可改善风险回报但可能被扫出后反向。",
+  "identification_rules": [
+    "完整止损（Full Invalidation）：放置在受保护摆动的低点，即价格扫出重要水平后收盘于下跌K线序列上方形成的摆动低点",
+    "身体止损（Body Invalidation）：放置在K线实体的低点，通常为下跌K线序列中的最低实体位置，位于完整止损上方",
+    "完整止损提供更大的风险回报比（如2R或更高），但被扫出的概率更高",
+    "身体止损提供较小的风险回报比，但减少被扫出后反向的风险"
+  ],
+  "trading_implication": "止损位置直接影响风险回报比和交易被扫出的概率。交易者需在两者间权衡：若无法从完整止损获得目标风险回报（如2R），可将止损移至身体位置以改善比率，但需接受被扫出后价格反向的风险。止损位置应基于交易者使用的价格驱动模型（如订单块、公允价值缺口等）确定。",
+  "common_mistakes": [
+    "未区分完整止损和身体止损的风险特征，盲目选择其一",
+    "在无法获得足够风险回报时仍坚持完整止损，导致交易设置不可行",
+    "未考虑被扫出后反向的可能性，在身体止损被触发后继续持仓",
+    "使用不同的价格驱动模型（如Breaker Block、Fair Value Gap等）时，未明确定义止损失效的具体条件"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-wr4xATE37g_case_004_apoz_usd的买方受保护摆动形成与延续",
+      "video_id": "-wr4xATE37g",
+      "title": "APOZ/USD买方受保护摆动形成与低风险买入延续"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_004_黄金期货gc1小时线与5分钟线的看涨设置",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "黄金期货GC1小时线C2与5分钟线的看涨Order Block设置"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_008_es1期货1分钟图的精细订单块入场与止损设置",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 1分钟图：订单块入场、均值阈值止损与高阻力流动性无效化"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_003_apoz_某资产_4小时图到15分钟图的空头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "APOZ 4H到15M空头交易：受保护高点与反转入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_stop_loss_placement_invalidation",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        43.52,
+        554.16
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136057Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

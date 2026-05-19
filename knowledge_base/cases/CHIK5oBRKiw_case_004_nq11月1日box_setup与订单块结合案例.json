@@ -1,0 +1,120 @@
+{
+  "card_id": "CHIK5oBRKiw_case_004_nq11月1日box_setup与订单块结合案例",
+  "type": "case",
+  "title": "NQ1! 11月1日Box Setup与订单块结合做多案例",
+  "related_concepts": [
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Accumulation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "CSD",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Projection",
+      "card_id": "projection",
+      "exists": true
+    },
+    {
+      "term": "AMD",
+      "card_id": "power_of_3_accumulation_manipulation_distribution",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "box_setup",
+    "inducement",
+    "displacement",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift",
+    "fair_value_gap",
+    "projection",
+    "power_of_3_accumulation_manipulation_distribution"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "NQ1! 11月1日上午，价格在09:50-10:20区间形成积累范围（Box Setup），随后向上位移突破，在10:40-10:50区间回测至订单块区域寻求做多机会。",
+  "key_observation": "博主识别出积累范围内的操纵腿向上位移，随后价格回测至该操纵腿形成的订单块，通过CSD（交付状态改变）确认后形成高概率做多入场点。",
+  "analysis_steps": [
+    "Step 1: 在1分钟图上识别09:50-10:20区间的积累范围（Box Setup），标记该范围的最高身体部分。",
+    "Step 2: 识别从积累范围向上的操纵腿（Manipulation），这是一个强势的位移（Displacement）。",
+    "Step 3: 将操纵腿向上投影以确定目标价位（Projection Targets）。",
+    "Step 4: 等待价格回测至操纵腿底部形成的订单块（Order Block）区域，约在14628-14648。",
+    "Step 5: 确认订单块的有效性：观察一根向下收盘的K线进入该区域，随后出现一系列向上收盘的K线，验证CSD（Change in State of Delivery）。",
+    "Step 6: 在订单块上方收盘确认后入场做多，止损设在操纵腿的低点（约14596）。",
+    "Step 7: 目标设定为投影目标和旧高点（约14648附近的先前高点）。"
+  ],
+  "outcome": "价格在10:40-10:50区间回测至订单块后，于10:51附近确认CSD并向上运行，达到投影目标区域。交易按计划执行，止损未被触及，目标达成。",
+  "lessons": "Box Setup与订单块结合提供高概率入场：先识别积累范围和操纵腿，投影目标，然后等待CSD确认的订单块回测。这种多重确认方法降低假突破风险，提高交易胜率。",
+  "primary_image": "cards/CHIK5oBRKiw/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/CHIK5oBRKiw/images/case_004_detail_1.jpg",
+    "cards/CHIK5oBRKiw/images/case_004_detail_2.jpg",
+    "cards/CHIK5oBRKiw/images/case_004_detail_3.jpg",
+    "cards/CHIK5oBRKiw/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "NQ11 一分钟 K 线图，时间轴显示 2023 年 11 月 1 日约 10:00 至 11:50。图右侧价格刻度范围约 14564 至 14680。图上有一个绿色矩形框覆盖约 10:20 至 10:50 区间、价格约 14624 至 14648，另有一个粉红色矩形框覆盖约 10:45 至 10:51 区间。图右侧显示交易管理面板，包含三个标注框：Stop 标注显示 10.00（0.07%）、数",
+    "case_004_detail_1.jpg": "图表显示 NQ1! 1 分钟 K 线图，日期标注为 1/11/2023，右上角标注 TTrades_edu。右侧价格刻度范围约从 14564.00 至 14676.00，当前价格标签显示 14634.50。图左侧约 09:50 至 10:00 区间内可见一组小幅波动 K 线，价格集中在 14564 至 14580 附近。约 10:20 处出现一根较长的绿色 K 线，从约 14588 上行至 146",
+    "case_004_detail_2.jpg": "NQ1! 1分钟K线图，时间范围约为10:20至12:10，日期标注为1/11/2023。图上可见价格刻度从14564.00至14676.00。图上有一个绿色半透明矩形框覆盖10:25至10:40区间约14628至14648价格带，另有一个粉红色矩形框位于约10:40至10:45区间约14644至14650处。灰色半透明矩形框位于约10:40至10:50纵向延伸至约14580。图上有多条短水平线分",
+    "case_004_detail_3.jpg": "NQ1! 1分钟K线图，日期标注为2023年1月11日，价格轴范围约14564至14676。图上有一个粉红色矩形框标注于10:40附近K线区域，价格范围约14628至14648；一个绿色矩形框覆盖10:25至10:40区间，价格范围约14628至14644；右侧有一个较大的浅绿色矩形框覆盖11:00至12:00区间，价格范围约14608至14644。图上另有数条短水平线分布于10:40附近，价格分",
+    "case_004_detail_4.jpg": "NQ1! 1分钟K线图，时间轴显示约10:40至12:40区间，日期标注为2023年11月1日。图上可见三个矩形标注：左侧一个粉红色矩形位于约14628至14660区间，中部一个绿色矩形位于约14596至14640区间，右侧一个粉红色矩形位于约14580至14600区间。图上另有一条从左上向右下延伸的虚线斜线贯穿中部区域。右侧价格轴标注多个价格标签，当前价附近显示14585.25、14590.25"
+  },
+  "sources": [
+    {
+      "video_id": "CHIK5oBRKiw",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        666.12,
+        945.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从Box Setup识别、操纵腿投影、订单块确认到CSD验证的全流程，图表清晰标注，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:54.096790Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1! 11月1日Box Setup与订单块结合做多案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"NQ1! 11月1日上午，价格在09:50-10:20区间形成积累范围（Box Setup），随后向上位移突破，在10:40-10:50区间回测至订单块区域寻求做多机会。\",\"key_observation\":\"博主识别出积累范围内的操纵腿向上位移，随后价格回测至该操纵腿形成的订单块，通过CSD（交付状态改变）确认后形成高概率做多入场点。\",\"analysis_steps\":[\"Step 1: 在1分钟图上识别09:50-10:20区间的积累范围（Box Setup），标记该范围的最高身体部分。\",\"Step 2: 识别从积累范围向上的操纵腿（Manipulation），这是一个强势的位移（Displacement）。\",\"Step 3: 将操纵腿向上投影以确定目标价位（Projection Targets）。\",\"Step 4: 等待价格回测至操纵腿底部形成的订单块（Order Block）区域，约在14628-14648。\",\"Step 5: 确认订单块的有效性：观察一根向下收盘的K线进入该区域，随后出现一系列向上收盘的K线，验证CSD（Change in State of Delivery）。\",\"Step 6: 在订单块上方收盘确认后入场做多，止损设在操纵腿的低点（约14596）。\",\"Step 7: 目标设定为投影目标和旧高点（约14648附近的先前高点）。\"],\"outcome\":\"价格在10:40-10:50区间回测至订单块后，于10:51附近确认CSD并向上运行，达到投影目标区域。交易按计划执行，止损未被触及，目标达成。\",\"lessons\":\"Box Setup与订单块结合提供高概率入场：先识别积累范围和操纵腿，投影目标，然后等待CSD确认的订单块回测。这种多重确认方法降低假突破风险，提高交易胜率。\",\"primary_image_frame_id\":\"CHIK5oBRKiw_f027\",\"supporting_image_frame_ids\":[\"CHIK5oBRKiw_f026\",\"CHIK5oBRKiw_f028\",\"CHIK5oBRKiw_f029\",\"CHIK5oBRKiw_f030\"],\"related_concepts\":[\"Box Setup\",\"Accumulation\",\"Manipulation\",\"Displacement\",\"Order Block\",\"CSD\",\"Change in State of Delivery\",\"Fair Value Gap\",\"Projection\",\"AMD\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从Box Setup识别、操纵腿投影、订单块确认到CSD验证的全流程，图表清晰标注，交易结果明确。\"}",
+  "error": null
+}

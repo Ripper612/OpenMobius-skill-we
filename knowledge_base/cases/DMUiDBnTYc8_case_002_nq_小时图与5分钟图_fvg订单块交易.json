@@ -1,0 +1,114 @@
+{
+  "card_id": "DMUiDBnTYc8_case_002_nq_小时图与5分钟图_fvg订单块交易",
+  "type": "case",
+  "title": "NQ小时图FVG与5分钟订单块的多时间框架交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Important Level",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "buyside_sellside_liquidity",
+    "displacement",
+    "mean_threshold",
+    "turtle_soup"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H / 5M",
+  "market_context": "NQ在11/12/2023日内交易中，小时图形成公允价值缺口(FVG)作为重要水平，价格从高点回落后在5分钟图寻找订单块交易机会。",
+  "key_observation": "博主强调必须在高时间框架(小时图)确认重要水平(FVG或买方流动性)，才能在低时间框架(5分钟图)的订单块交易中获得有效信号，否则订单块缺乏有效性。",
+  "analysis_steps": [
+    "Step 1: 在小时图识别买方流动性(Buy Side Liquidity)位置约16296.25，确认为重要水平",
+    "Step 2: 观察价格向该重要水平靠近，形成公允价值缺口(FVG)",
+    "Step 3: 切换到5分钟图，等待价格回测进入FVG区域",
+    "Step 4: 确认价格扫盘(sweep)该FVG区域内的流动性",
+    "Step 5: 寻找一系列下跌K线(down close candles)，验证收盘价是否突破这些K线的开盘价",
+    "Step 6: 在订单块的开盘价处设置入场点，止损设在该订单块的低点",
+    "Step 7: 目标设定为2倍风险回报比(2R)或买方流动性位置"
+  ],
+  "outcome": "博主展示了两个交易例子：第一个因缺乏小时图重要水平而被止损；第二个因有小时图FVG支撑而成功验证，价格最终达到目标区域。",
+  "lessons": "多时间框架确认至关重要：订单块必须基于高时间框架的重要水平(FVG、买卖方流动性)才具有有效性。仅在低时间框架形成的订单块容易失效。使用Mean Threshold(50%斐波那契)可优化大型订单块的入场精度。",
+  "primary_image": "cards/DMUiDBnTYc8/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/DMUiDBnTYc8/images/case_002_detail_1.jpg",
+    "cards/DMUiDBnTYc8/images/case_002_detail_2.jpg",
+    "cards/DMUiDBnTYc8/images/case_002_detail_3.jpg",
+    "cards/DMUiDBnTYc8/images/case_002_detail_4.jpg",
+    "cards/DMUiDBnTYc8/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NQ1! 5分钟K线图，日期标注为2023年11月12日，图右上角显示TTrades_edu水印。图上可见价格范围约从16240到16645。图中有一个大型青色矩形框，覆盖约16295至16490价格区间，时间跨度约从11:30至13:00，框内含一条向上的虚线斜线。青色矩形内部下方有一个灰色小矩形和一个浅棕色小矩形，分别位于约16295至16365和16295至16330区间。全图横向铺设一个黄",
+    "case_002_detail_1.jpg": "图表显示 NQ1! 合约的 K 线图，时间轴覆盖约 08:00 至 16:30，日期标注为 11/12/2023。图上有一个大面积黄色矩形区域，纵向范围约从 16295 至 16465，横向延伸至图右侧。图右侧价格轴可见多条水平线，分别标注 NYO（约 16295）、8:30（约 16280）、0:00（约 16265）。约 11:30 处出现一根大阴线，从约 16415 下行至约 16300。约",
+    "case_002_detail_2.jpg": "图表显示 NQ1! 合约的 K 线图，右上角标注 TTrades_edu。图右侧价格刻度范围约从 16130 到 16415。图上有一条虚线水平线位于约 16296.25 处。K 线序列呈现先下行后上行的弧形走势，低点区域约在 16130 附近，随后出现数根连续绿色 K 线，其中一根主体从约 16300 延伸至 16390，紧接一根上影线延伸至约 16415。时间轴底部标注 11/12/2023 ",
+    "case_002_detail_3.jpg": "图表资产为 NQ1!，日期标注为 11/12/2023，右上角显示 TTrades_edu 水印。图上可见价格范围约从 16160 至 16440。图中约 10:30 处有一根较大阴线，从约 16420 下跌至约 16230，随后在约 16239 处有一条水平线标注。图上有两个重叠矩形区域，一个灰色、一个浅绿色，覆盖约 16230 至 16400 的价格区间，时间范围约从 11:00 至 13:0",
+    "case_002_detail_4.jpg": "图为教学示意图，顶部标题文字为'Orderblocks'，无资产代码及时间框架信息。图分上下两个K线面板。上方面板顶部有一条虚线水平线标注'Important Level'，右侧有一条实线水平线标注'OB'；K线序列从上方'Important Level'附近向下延伸至'OB'线下方。下方面板底部有一条实线水平线标注'Important Level'，右侧有一条实线水平线标注'OB'；K线序列从下",
+    "case_002_detail_5.jpg": "图为教学用蜡烛图，顶部标题栏显示'Mean Threshold'，右侧价格轴标注三条虚线水平线，分别标记为0、0.5、1。图底部有一条实线水平线，标注文字为'Important Level'。图上共约14根K线，绿色与黑色交替出现。K线序列从左上方向下延伸至接近'Important Level'线附近，随后右侧K线序列向上延伸，最右侧数根K线高点超过标记为0的虚线水平线。图右下角显示页码5，画面背"
+  },
+  "sources": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.4,
+        332.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了多时间框架分析流程、具体价格水平、入场逻辑、止损设置及交易结果，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:09.250441Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ小时图FVG与5分钟订单块的多时间框架交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H / 5M\",\"market_context\":\"NQ在11/12/2023日内交易中，小时图形成公允价值缺口(FVG)作为重要水平，价格从高点回落后在5分钟图寻找订单块交易机会。\",\"key_observation\":\"博主强调必须在高时间框架(小时图)确认重要水平(FVG或买方流动性)，才能在低时间框架(5分钟图)的订单块交易中获得有效信号，否则订单块缺乏有效性。\",\"analysis_steps\":[\"Step 1: 在小时图识别买方流动性(Buy Side Liquidity)位置约16296.25，确认为重要水平\",\"Step 2: 观察价格向该重要水平靠近，形成公允价值缺口(FVG)\",\"Step 3: 切换到5分钟图，等待价格回测进入FVG区域\",\"Step 4: 确认价格扫盘(sweep)该FVG区域内的流动性\",\"Step 5: 寻找一系列下跌K线(down close candles)，验证收盘价是否突破这些K线的开盘价\",\"Step 6: 在订单块的开盘价处设置入场点，止损设在该订单块的低点\",\"Step 7: 目标设定为2倍风险回报比(2R)或买方流动性位置\"],\"outcome\":\"博主展示了两个交易例子：第一个因缺乏小时图重要水平而被止损；第二个因有小时图FVG支撑而成功验证，价格最终达到目标区域。\",\"lessons\":\"多时间框架确认至关重要：订单块必须基于高时间框架的重要水平(FVG、买卖方流动性)才具有有效性。仅在低时间框架形成的订单块容易失效。使用Mean Threshold(50%斐波那契)可优化大型订单块的入场精度。\",\"primary_image_frame_id\":\"DMUiDBnTYc8_f009\",\"supporting_image_frame_ids\":[\"DMUiDBnTYc8_f008\",\"DMUiDBnTYc8_f007\",\"DMUiDBnTYc8_f006\",\"DMUiDBnTYc8_f003\",\"DMUiDBnTYc8_f010\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Buyside Liquidity\",\"Displacement\",\"Mean Threshold\",\"High Time Frame (HTF)\",\"Low Time Frame (LTF)\",\"Sweep\",\"Important Level\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了多时间框架分析流程、具体价格水平、入场逻辑、止损设置及交易结果，分析步骤清晰有序。\"}",
+  "error": null
+}

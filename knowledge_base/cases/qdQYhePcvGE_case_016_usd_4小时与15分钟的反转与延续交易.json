@@ -1,0 +1,113 @@
+{
+  "card_id": "qdQYhePcvGE_case_016_usd_4小时与15分钟的反转与延续交易",
+  "type": "case",
+  "title": "USD 4H反转后15分钟反转与延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "reversal_candle",
+    "smart_money_technique",
+    "market_structure_shift",
+    "protected_high_low",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "4H / 15m",
+  "market_context": "USD在4小时图形成反转蜡烛和反转扩张蜡烛，形成摆动点。价格在23650附近形成高点，随后回撤至23480-23500区间。4小时偏向看空，为15分钟反转交易提供高时间框架偏差支持。",
+  "key_observation": "4小时形成明确的反转信号（反转蜡烛+反转扩张蜡烛），高点不应被突破。在此高时间框架偏差下，可在15分钟图上交易反转或延续设置。第二根蜡烛具有小上影线，支持向下扩张。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别反转蜡烛和反转扩张蜡烛，确认摆动点形成，标记不应被突破的高点（约23650）。",
+    "Step 2: 确定4小时偏差为看空（Bearish bias），为低时间框架交易提供方向指引。",
+    "Step 3: 切换至15分钟图，观察价格回撤至23480-23500区间，寻找等高点（Equal Highs）作为卖出机会。",
+    "Step 4: 分析第二根蜡烛的结构：开低走高但具有小上影线，相比第一根蜡烛的大上影线，小上影线支持向下扩张。",
+    "Step 5: 在15分钟图上识别SMT（Smart Money Technique）信号和CSD（Change in State of Delivery），形成V形反转。",
+    "Step 6: 决策：可选择交易第二根蜡烛的反转（如果有强烈的高时间框架偏差），或等待第三根蜡烛的延续信号。",
+    "Step 7: 设定目标：如果价格趋势向下，预期交易至4R（4倍风险），或在扩张日持仓至日线收盘。",
+    "Step 8: 价格形成扩张，无法在回撤中收盘，确认延续信号。形成受保护的摆动点（Protected Swing），为延续交易提供支撑。"
+  ],
+  "outcome": "交易执行成功。开仓P&L为7.60，数量0.18，风险收益比4:1。止损点位27.75，目标点位111.00。价格最终向下扩张，达到目标区域。",
+  "lessons": "在强偏差下可以交易低时间框架反转。关键是识别高时间框架的反转信号（反转蜡烛、反转扩张蜡烛），然后在低时间框架上寻找具体的反转或延续设置。小上影线支持向下扩张，受保护的摆动点提供延续交易的高概率入场点。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_016_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_016_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_016_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_016_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_016_primary.jpg": "USD 15分钟K线图。图上显示一条从左侧高点23650下跌至23370.25的下行走势，随后在23420至23510区间内出现整理。右侧区域有绿色K线，最右端为黑色K线。图上标注有三个文本框：一个显示开仓P&L为7.60、数量0.18、风险收益比4；一个显示止损点位27.75；一个显示目标点位111.00。两条水平虚线分别位于23509.00和23370.25处。图表底部显示时间标记为'Mon ",
+    "case_016_detail_1.jpg": "USD 4 小时 K 线图。图上显示价格范围从 23350 到 23825。可见多根绿色和黑色 K 线交替出现。图中有两条水平虚线分别位于 23428 和 23600 价格水平。在中部区域有一个黄色矩形标注框，范围约在 23500 至 23600 之间。右上角显示'The Market Lens'标题，左下角显示'NQ1(4H)'、'4H-4H Model'、'bias:Bearish'等文字标签",
+    "case_016_detail_2.jpg": "USD 15分钟K线图。图上显示价格范围从23410到23590。两条水平线分别位于23480和23500处，围成一个矩形区域。图上方约23560处有一个红色X标记。K线呈现绿色和黑色混合，多根K线具有较长的下影线。图右侧显示时间标记为'Mon 01 Sep 25 11:00'，下方标注'NGT (15m)'、'Bias: Bearish'等文字。底部工具栏显示'10x'、'15m'、'Sell'",
+    "case_016_detail_3.jpg": "图表显示 USD 资产的分钟级别 K 线图。可见价格范围从 23290 到 23660。图上有两条水平线分别位于 23506 和 23470，围绕这两条线有矩形标注框。左侧图表显示价格从 23550 附近下跌至 23370 附近，期间有多根带长下影线的 K 线。右侧显示价格从 23420 附近上升，包含多根绿色 K 线和一根黑色 K 线。图上标注有红色 X 符号位于 23550 附近。右下角显示文"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_036",
+        "seg_037",
+        "seg_038"
+      ],
+      "time_range": [
+        1869.039,
+        2033.039
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了4小时和15分钟的分析过程，清晰标注了关键价位、反转信号、交易决策逻辑和最终结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:20.855945Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 4H反转后15分钟反转与延续交易\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"4H / 15m\",\"market_context\":\"USD在4小时图形成反转蜡烛和反转扩张蜡烛，形成摆动点。价格在23650附近形成高点，随后回撤至23480-23500区间。4小时偏向看空，为15分钟反转交易提供高时间框架偏差支持。\",\"key_observation\":\"4小时形成明确的反转信号（反转蜡烛+反转扩张蜡烛），高点不应被突破。在此高时间框架偏差下，可在15分钟图上交易反转或延续设置。第二根蜡烛具有小上影线，支持向下扩张。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别反转蜡烛和反转扩张蜡烛，确认摆动点形成，标记不应被突破的高点（约23650）。\",\"Step 2: 确定4小时偏差为看空（Bearish bias），为低时间框架交易提供方向指引。\",\"Step 3: 切换至15分钟图，观察价格回撤至23480-23500区间，寻找等高点（Equal Highs）作为卖出机会。\",\"Step 4: 分析第二根蜡烛的结构：开低走高但具有小上影线，相比第一根蜡烛的大上影线，小上影线支持向下扩张。\",\"Step 5: 在15分钟图上识别SMT（Smart Money Technique）信号和CSD（Change in State of Delivery），形成V形反转。\",\"Step 6: 决策：可选择交易第二根蜡烛的反转（如果有强烈的高时间框架偏差），或等待第三根蜡烛的延续信号。\",\"Step 7: 设定目标：如果价格趋势向下，预期交易至4R（4倍风险），或在扩张日持仓至日线收盘。\",\"Step 8: 价格形成扩张，无法在回撤中收盘，确认延续信号。形成受保护的摆动点（Protected Swing），为延续交易提供支撑。\"],\"outcome\":\"交易执行成功。开仓P&L为7.60，数量0.18，风险收益比4:1。止损点位27.75，目标点位111.00。价格最终向下扩张，达到目标区域。\",\"lessons\":\"在强偏差下可以交易低时间框架反转。关键是识别高时间框架的反转信号（反转蜡烛、反转扩张蜡烛），然后在低时间框架上寻找具体的反转或延续设置。小上影线支持向下扩张，受保护的摆动点提供延续交易的高概率入场点。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f068\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f064\",\"qdQYhePcvGE_f065\",\"qdQYhePcvGE_f067\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Reversal Candle\",\"Smart Money Technique\",\"Change in State of Delivery\",\"Protected Swing\",\"Market Structure Shift\",\"Displacement\",\"Equal Highs\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了4小时和15分钟的分析过程，清晰标注了关键价位、反转信号、交易决策逻辑和最终结果。\"}",
+  "error": null
+}

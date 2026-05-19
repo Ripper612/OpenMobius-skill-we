@@ -1,0 +1,100 @@
+{
+  "card_id": "vn1RYjhJUnQ_case_002_月线到日线的多时间框架验证",
+  "type": "case",
+  "title": "月线C2闭合与日线CSD的多时间框架验证",
+  "related_concepts": [
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Candle to Closure",
+      "card_id": "wick_closure",
+      "exists": true
+    },
+    {
+      "term": "T-spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "EQ (Equilibrium)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Fractal Concept",
+      "card_id": "fractal_model",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "wick_closure",
+    "t_spot",
+    "time_frame_confluence",
+    "fractal_model",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "1D / 1M",
+  "market_context": "价格在月线上形成C2（第二个下跌周期）闭合，同时日线出现CSD（交付状态改变），两个时间框架的信号叠加确认，为向上反应提供了多层次的结构支撑。",
+  "key_observation": "博主通过月线到日线的递推验证，确认了两个关键条件：月线K线闭合 + 日线CSD成立，进而识别出T-spot和EQ区域作为价格回测的关键支撑，最终形成向上反应。",
+  "analysis_steps": [
+    "Step 1: 检查月线是否存在完整的K线闭合（candle to closure）——确认存在。",
+    "Step 2: 下钻至日线确认是否存在CSD（交付状态改变）——通过扫荡低点和K线序列确认存在。",
+    "Step 3: 两个条件同时满足后，指标自动打印出后续逻辑（T-spot和EQ）。",
+    "Step 4: 观察价格是否进入并尊重T-spot和EQ区域——价格确实进入该区域。",
+    "Step 5: 确认价格从该区域获得向上反应——反应成立，形成continuation higher。"
+  ],
+  "outcome": "价格在T-spot和EQ区域获得支撑，形成向上反应（continuation higher），验证了多时间框架结构的有效性。",
+  "lessons": "多时间框架验证的核心是递推逻辑：高时间框架（月线）的结构需要低时间框架（日线）的CSD确认才能完整成立。当两个条件同时满足时，T-spot和EQ区域成为高概率的反应点，体现了分形概念在不同周期的一致性应用。",
+  "primary_image": "cards/vn1RYjhJUnQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/vn1RYjhJUnQ/images/case_002_detail_1.jpg",
+    "cards/vn1RYjhJUnQ/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示 USD 资产的日线级别 K 线图，价格范围从 21800.00 到 27800.00。图上有三条水平线分别位于 26600.00、25200.00 和 24200.00，其中 24200.00 至 26600.00 之间用矩形框标注。一条向下倾斜的趋势线标记为 YM11，从约 24400.00 向下延伸。图右侧显示 NDI1(18)、10-14 Model、SD 23:00:00 和 R",
+    "case_002_detail_1.jpg": "USD 价格图表，时间跨度从 2025 年 2 月至 2026 年 8 月。图上显示一系列 K 线，价格范围从 19600.00 至 29600.00。图表中有一条水平虚线位于 24409.76 价格水平。K 线序列显示从 2025 年 2 月开始的上升趋势，期间出现两根黑色 K 线（3 月和 4 月初），其余多为绿色 K 线。9 月份 K 线达到约 25000 水平，之后出现黑色 K 线，随后为",
+    "case_002_detail_2.jpg": "USD 日线图，价格范围从 23400.00 至 27000.00。图上有两条主要水平线分别位于 25600.00 和 24400.00，两条线之间形成矩形区域。另有一条矩形框标注在 25200.00 至 25800.00 区间。图中标注有趋势线标记为'V#11'，位于 24200.00 至 24400.00 区间。K 线显示从 10 月初开始上升至 11 月初的 26600.00，随后下跌至 2"
+  },
+  "sources": [
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        288.56,
+        338.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了月线到日线的递推验证过程，清晰说明了两个条件的检查步骤、指标逻辑的触发机制，以及最终的价格反应结果，所有关键要素均有明确表述。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:53.044776Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"月线C2闭合与日线CSD的多时间框架验证\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"1D / 1M\",\"market_context\":\"价格在月线上形成C2（第二个下跌周期）闭合，同时日线出现CSD（交付状态改变），两个时间框架的信号叠加确认，为向上反应提供了多层次的结构支撑。\",\"key_observation\":\"博主通过月线到日线的递推验证，确认了两个关键条件：月线K线闭合 + 日线CSD成立，进而识别出T-spot和EQ区域作为价格回测的关键支撑，最终形成向上反应。\",\"analysis_steps\":[\"Step 1: 检查月线是否存在完整的K线闭合（candle to closure）——确认存在。\",\"Step 2: 下钻至日线确认是否存在CSD（交付状态改变）——通过扫荡低点和K线序列确认存在。\",\"Step 3: 两个条件同时满足后，指标自动打印出后续逻辑（T-spot和EQ）。\",\"Step 4: 观察价格是否进入并尊重T-spot和EQ区域——价格确实进入该区域。\",\"Step 5: 确认价格从该区域获得向上反应——反应成立，形成continuation higher。\"],\"outcome\":\"价格在T-spot和EQ区域获得支撑，形成向上反应（continuation higher），验证了多时间框架结构的有效性。\",\"lessons\":\"多时间框架验证的核心是递推逻辑：高时间框架（月线）的结构需要低时间框架（日线）的CSD确认才能完整成立。当两个条件同时满足时，T-spot和EQ区域成为高概率的反应点，体现了分形概念在不同周期的一致性应用。\",\"primary_image_frame_id\":\"vn1RYjhJUnQ_f001\",\"supporting_image_frame_ids\":[\"vn1RYjhJUnQ_f011\",\"vn1RYjhJUnQ_f012\"],\"related_concepts\":[\"CSD (Change in the state of delivery)\",\"Candle to Closure\",\"T-spot\",\"EQ (Equilibrium)\",\"Multi-timeframe Analysis\",\"Fractal Concept\",\"Order Block\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了月线到日线的递推验证过程，清晰说明了两个条件的检查步骤、指标逻辑的触发机制，以及最终的价格反应结果，所有关键要素均有明确表述。\"}",
+  "error": null
+}

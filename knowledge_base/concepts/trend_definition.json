@@ -1,0 +1,63 @@
+{
+  "card_id": "trend_definition",
+  "type": "merged_concept",
+  "canonical_term": "Trend Definition",
+  "aliases": [
+    "Trend",
+    "趋势定义"
+  ],
+  "school": "ICT",
+  "definition": "价格以激进的方式向特定目标（如订单块或价格水平）移动。理想情况下，趋势中回调较少，表现为持续的单向推进。",
+  "identification_rules": [
+    "观察价格是否以激进的方式向明确的目标移动（如4小时订单块或日线订单块）",
+    "确认趋势中回调数量较少，主要表现为单向推进而非频繁震荡",
+    "识别价格是否在达到目标后继续延伸或反转，以判断趋势的延续性"
+  ],
+  "trading_implication": "趋势定义是入场决策的基础。交易者通过识别激进的价格推进来确认趋势存在，进而选择合适的入场方式（诱导、减伤块、低时间框架模型等）。理想的趋势特征（少回调、强推进）使交易者能以更小的止损风险获得更大的目标收益。",
+  "common_mistakes": [
+    "将任何价格移动都视为趋势，而忽视了'激进'和'向目标推进'的核心要素",
+    "在趋势中频繁回调时仍然坚持做多/做空，未能识别趋势可能已失效"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FXJBFbZQbck_case_002_usd日线下降趋势中的前日低点扫盘",
+      "video_id": "FXJBFbZQbck",
+      "title": "USD日线下降趋势中的前日低点反复扫盘"
+    },
+    {
+      "card_id": "NgFIza9qsGQ_case_001_s_p_500_e_mini期货看涨诱导入场案例",
+      "video_id": "NgFIza9qsGQ",
+      "title": "ES期货看涨诱导入场：高点突破后回到区间的做多机会"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "NgFIza9qsGQ",
+      "original_card_id": "NgFIza9qsGQ_concept_trend_definition",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.359,
+        187.799
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136408Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

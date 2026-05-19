@@ -1,0 +1,55 @@
+{
+  "card_id": "liquidity_sweep_asia_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Liquidity Sweep (Asia High/Low)",
+  "aliases": [
+    "Asia high/low sweep",
+    "Asia liquidity sweep"
+  ],
+  "school": "ICT",
+  "definition": "London交易时段扫除亚洲时段形成的高低点流动性。当London同时扫除Asia高低两侧后，通常为纽约设置盘整条件，价格在这些扫荡点之间反复振荡。",
+  "identification_rules": [
+    "识别Asia时段形成的明确高点和低点范围",
+    "观察London时段是否依次触及或突破Asia高点和低点",
+    "确认London在扫荡这些流动性后，价格未能持续突破而是回到范围内",
+    "当London同时扫除Asia高低两侧时，预期New York将进入盘整而非扩张"
+  ],
+  "trading_implication": "Liquidity Sweep标志着市场结构从扩张转向盘整。交易者应识别这一模式后，预期价格在扫荡点之间来回振荡，而非单向突破。可通过标记Equilibrium和Premium/Discount区域，交易价格回归到初始范围内的机会，而非追求范围外的突破。这通常表明高概率的盘整日而非趋势日。",
+  "common_mistakes": [
+    "在Liquidity Sweep完成后仍试图追求范围外的突破，而忽视价格回归范围内的倾向",
+    "未能同时确认Asia高低两侧都被扫除，导致误判盘整条件",
+    "混淆Liquidity Sweep与真正的Displacement，后者应伴随持续的方向性突破而非回归"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "original_card_id": "4WCiIyCiBrQ_concept_liquidity_sweep_asia_high_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.0,
+        372.039
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133796Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

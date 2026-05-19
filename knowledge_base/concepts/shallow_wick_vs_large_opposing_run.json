@@ -1,0 +1,59 @@
+{
+  "card_id": "shallow_wick_vs_large_opposing_run",
+  "type": "merged_concept",
+  "canonical_term": "Shallow Wick vs Large Opposing Run",
+  "aliases": [
+    "Shallow Opposing Run vs Large Opposing Run",
+    "Shallow Wick vs Large Wick"
+  ],
+  "school": "ICT",
+  "definition": "判断K线wick形成后是否支持当根K线内扩展的对比。浅wick表示反向运动幅度小，支持同根K线内立即交易扩展；大wick表示反向运动幅度大，需等待下一根K线才能交易扩展。",
+  "identification_rules": [
+    "浅wick：K线开盘后反向运动幅度较小，形成Change in State of Delivery（CSD）后，价格立即反向并在同根K线内形成Protected Swing，支持当根K线内的body扩展。",
+    "大wick：K线开盘后反向运动幅度较大，未能在同根K线内形成CSD确认的Protected Swing，价格继续反向运动，需等待下一根K线（Candle 3）开盘后才能交易扩展。",
+    "判断标准：观察wick是否形成了明确的Protected Swing或CSD确认点；浅wick会在同根K线内完成这一确认，大wick则不会。"
+  ],
+  "trading_implication": "浅wick允许交易者在同根K线内立即入场交易body扩展，风险相对明确。大wick则要求交易者耐心等待下一根K线开盘，避免在wick形成过程中被止损。核心原则是\"let the wick form and then trade the body\"——先让wick完全形成，再交易随后的body扩展，这样可以避免频繁被扫停。",
+  "common_mistakes": [
+    "试图在wick形成过程中过早入场，导致被wick扫停（\"If you always try to catch the wick, you're going to get continuously stopped out\"）。",
+    "遇到大wick时仍试图在同根K线内交易，而不是等待下一根K线（Candle 3）的开盘。",
+    "混淆wick的大小与Protected Swing的形成，未能确认CSD就仓促入场。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_shallow_wick_vs_large_opposing_run",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_007",
+        "seg_009",
+        "seg_013",
+        "seg_020"
+      ],
+      "time_range": [
+        54.16,
+        1044.559
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135799Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

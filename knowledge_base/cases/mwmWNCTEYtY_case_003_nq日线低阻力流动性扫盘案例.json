@@ -1,0 +1,106 @@
+{
+  "card_id": "mwmWNCTEYtY_case_003_nq日线低阻力流动性扫盘案例",
+  "type": "case",
+  "title": "NQ日线低阻力流动性扫盘与小时图MSS+FVG入场",
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "low_resistance_liquidity",
+    "market_structure_shift",
+    "fair_value_gap",
+    "displacement",
+    "premium_discount",
+    "killzone",
+    "time_frame_confluence",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "NQ日线周四扫除周三高点后，周五反转并收盘低于开盘价。前日低点形成低阻力流动性（未被扫除的摆动低点），成为下行目标。",
+  "key_observation": "周三至周五的日线结构显示：Thursday扫高→Friday反转→前日低点排成一线形成低阻力流动性。这些低点未被充分扫除，价格倾向轻松穿过。",
+  "analysis_steps": [
+    "Step 1: 在日线图上标记周三高点、周四高点和周五低点，识别前日低点的排列形成低阻力流动性。",
+    "Step 2: 确定两个关键点位：开盘价和该上升K线的均值（mean threshold），其中均值更符合折价/溢价分析。",
+    "Step 3: 下移至小时图，观察何时进入Kill Zone或到达关键点位，发现FVG在该区域保持完整。",
+    "Step 4: 进一步下移至5分钟图，寻找对830高点的扫盘和市场结构转变（MSS）。",
+    "Step 5: 识别大幅向下位移后形成的FVG，在该FVG的后续侵蚀点（consequent encroachment）处入场。",
+    "Step 6: 设置止损在扫盘高点，目标设定为2R，验证交易执行结果。"
+  ],
+  "outcome": "成功达成2R。价格在5分钟图上触及FVG后续侵蚀点入场，止损设在扫盘高点，最终运行至前日低点（日线低阻力流动性目标），验证了该模型的有效性。",
+  "lessons": "低阻力流动性（未被扫除的摆动低点）是高概率目标。结合多时间框架分析（日线识别结构→小时图确认Kill Zone→5分钟图精确入场）能提高交易精准度。MSS+FVG组合在折价区提供高质量入场机会，2R目标易于达成。",
+  "primary_image": "cards/mwmWNCTEYtY/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/mwmWNCTEYtY/images/case_003_detail_1.jpg",
+    "cards/mwmWNCTEYtY/images/case_003_detail_2.jpg",
+    "cards/mwmWNCTEYtY/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "TTvusd_okt 日线图表。图上显示一系列绿色和黑色 K 线，价格范围约从 17700 到 18900。图右侧约 18000-18100 区域有一个黄色矩形框标注。图中有一条水平虚线位于约 18045 处。底部时间轴显示日期标记，包括 12/4 2024、HQ11 D 和 Fri 12 Apr 24。K 线普遍具有上下影线，绿色和黑色 K 线交替出现。",
+    "case_003_detail_1.jpg": "TTI 日线图表。图上显示一系列绿色和黑色 K 线，价格范围约从 17700 到 18900。图中有一条水平虚线位于约 18100 处。图表底部显示日期标记为 12/4 2024 和 Mon 13 Apr 24。右下角显示时间戳 11:31:39 UTC+4。图上可见黄色十字光标标记。K 线普遍呈现上下影线形态，绿色和黑色 K 线交替出现。",
+    "case_003_detail_2.jpg": "TTvusd_okt 图表显示烛线图。可见价格范围约从 17700 到 18900。图上有一条水平虚线位于 18337.50 处。右侧区域有一个矩形标注框，框内及附近有一条向下倾斜的趋势线。图表右侧还有一个黄色文字符号。烛线序列由绿色和黑色交替组成，多数烛线具有上下影线。图下方显示日期标记'12/4/2024'和'HQ1 | D'。",
+    "case_003_detail_3.jpg": "ETH 1小时K线图。图上显示价格范围约从17700到18750。左侧有一根大幅上升的绿色K线，随后跟随多根黑色K线形成下降走势。图上标注有两条水平线，分别位于18134.75和18175.00处。右侧有一条蓝色水平线贯穿整个图表。图上有两个矩形框标注，分别框定不同的价格区间。中间偏右位置有一根带黄色高亮的小绿色K线。底部显示时间戳为15/4 2024。"
+  },
+  "sources": [
+    {
+      "video_id": "mwmWNCTEYtY",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        372.479,
+        730.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线结构识别、小时图Kill Zone确认、5分钟图MSS+FVG入场的全流程，并明确给出2R交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:02.961801Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线低阻力流动性扫盘与小时图MSS+FVG入场\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"NQ日线周四扫除周三高点后，周五反转并收盘低于开盘价。前日低点形成低阻力流动性（未被扫除的摆动低点），成为下行目标。\",\"key_observation\":\"周三至周五的日线结构显示：Thursday扫高→Friday反转→前日低点排成一线形成低阻力流动性。这些低点未被充分扫除，价格倾向轻松穿过。\",\"analysis_steps\":[\"Step 1: 在日线图上标记周三高点、周四高点和周五低点，识别前日低点的排列形成低阻力流动性。\",\"Step 2: 确定两个关键点位：开盘价和该上升K线的均值（mean threshold），其中均值更符合折价/溢价分析。\",\"Step 3: 下移至小时图，观察何时进入Kill Zone或到达关键点位，发现FVG在该区域保持完整。\",\"Step 4: 进一步下移至5分钟图，寻找对830高点的扫盘和市场结构转变（MSS）。\",\"Step 5: 识别大幅向下位移后形成的FVG，在该FVG的后续侵蚀点（consequent encroachment）处入场。\",\"Step 6: 设置止损在扫盘高点，目标设定为2R，验证交易执行结果。\"],\"outcome\":\"成功达成2R。价格在5分钟图上触及FVG后续侵蚀点入场，止损设在扫盘高点，最终运行至前日低点（日线低阻力流动性目标），验证了该模型的有效性。\",\"lessons\":\"低阻力流动性（未被扫除的摆动低点）是高概率目标。结合多时间框架分析（日线识别结构→小时图确认Kill Zone→5分钟图精确入场）能提高交易精准度。MSS+FVG组合在折价区提供高质量入场机会，2R目标易于达成。\",\"primary_image_frame_id\":\"mwmWNCTEYtY_f017\",\"supporting_image_frame_ids\":[\"mwmWNCTEYtY_f001\",\"mwmWNCTEYtY_f018\",\"mwmWNCTEYtY_f019\"],\"related_concepts\":[\"Low Resistance Liquidity\",\"Market Structure Shift\",\"Fair Value Gap\",\"Displacement\",\"Premium / Discount\",\"Killzone\",\"Multi-timeframe Analysis\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线结构识别、小时图Kill Zone确认、5分钟图MSS+FVG入场的全流程，并明确给出2R交易结果。\"}",
+  "error": null
+}

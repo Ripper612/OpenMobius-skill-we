@@ -1,0 +1,105 @@
+{
+  "card_id": "premium_and_discount",
+  "type": "merged_concept",
+  "canonical_term": "Premium and Discount",
+  "aliases": [
+    "PD区域",
+    "溢价区/折价区"
+  ],
+  "school": "ICT",
+  "definition": "将一个价格区间（如日内交易范围或Impulse/Displacement腿的高低点）用0.5斐波那契水平（均衡点/EQ）分割，上方为溢价区（利于做空），下方为折价区（利于做多），用于判断价格相对区间中点的位置并优化入场选择。",
+  "identification_rules": [
+    "确定一个完整的价格区间（如日内交易范围的高低点，或一个Impulse/Displacement腿的高点到低点）",
+    "计算该区间的0.5斐波那契水平（即中点/均衡点EQ）",
+    "0.5水平线上方的区域标记为Premium（溢价区）",
+    "0.5水平线下方的区域标记为Discount（折价区）",
+    "在折价区寻找做多入场点（如Fair Value Gap、Order Block），在溢价区寻找做空入场点"
+  ],
+  "trading_implication": "Premium/Discount框架作为OTE（最优交易入场点）的核心汇聚条件：在折价区入场做多，价格离高点更远，风险更低；在溢价区入场做空，价格离低点更远，风险更低。常与订单块、公允价值缺口等PD array结构结合使用，提高交易概率和风险回报比。",
+  "common_mistakes": [
+    "混淆溢价区和折价区的方向性含义（溢价区应做空，折价区应做多）",
+    "未能正确识别价格区间的边界，导致0.5中点位置计算错误",
+    "机械地在折价区或溢价区入场，忽视其他确认信号（如CSD、订单块、Fair Value Gap）的必要性"
+  ],
+  "related_concepts": [
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "IeXtmeKqjnQ",
+      "original_card_id": "IeXtmeKqjnQ_concept_premium_and_discount",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.48,
+        369.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_premium_and_discount",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        192.959,
+        371.44
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:51.697138Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": null,
+  "error": null
+}

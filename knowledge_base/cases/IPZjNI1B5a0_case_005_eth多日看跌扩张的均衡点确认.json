@@ -1,0 +1,128 @@
+{
+  "card_id": "IPZjNI1B5a0_case_005_eth多日看跌扩张的均衡点确认",
+  "type": "case",
+  "title": "ETH多日看跌扩张中均衡点的连续尊重与FVG触及反转",
+  "related_concepts": [
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fractal concept",
+      "card_id": "fractal_model",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "equilibrium_eq",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery_csd",
+    "protected_high_low",
+    "smart_money_technique_smt",
+    "displacement",
+    "fractal_model",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "ETH",
+  "timeframe": "1D / 1H",
+  "market_context": "ETH经历连续三天的看跌扩张，每日价格都在尊重日线均衡点（EQ）的下半部分，形成明确的下行偏差。最终价格触及FVG后出现反转信号。",
+  "key_observation": "博主观察到三天连续的看跌扩张模式，每日都精确尊重前一日均衡点的0.5位置，以及对应的PD array（订单块、FVG等），最后在触及FVG后产生反转。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别前一日的均衡点（EQ）位置，确认是否存在PD array（对立K线/订单块）",
+    "Step 2: 在小时图上验证价格是否尊重该均衡点的下半部分（0.5位置），以及是否存在受保护的摆动高点",
+    "Step 3: 观察第一天的扩张：价格上升至对立K线后回落，确认下半部分被尊重，随后继续下行扩张",
+    "Step 4: 进入第二天，确认前一日的看跌收盘，检查是否有新的PD array；识别高点的扫荡或SMT现象",
+    "Step 5: 在扫荡高点后观察交付状态改变（CSD），价格继续下行",
+    "Step 6: 第三天重复模式：尊重前一日K线的下半部分（0.5 Wick），同时尊重当日K线的下半部分，继续下行",
+    "Step 7: 识别三天扩张后的失效点：当出现三天连续扩张至新低时，预期新的交付阶段（巩固、回撤或反转）",
+    "Step 8: 在4小时图上应用相同的分形概念，验证扩张-回撤-反转的周期性",
+    "Step 9: 观察价格最终触及FVG，确认反转信号的形成"
+  ],
+  "outcome": "价格在三天看跌扩张后触及FVG，随后出现反转。博主通过等待新的日线收盘来确认新的交付阶段，而非提前入场。",
+  "lessons": "均衡点的0.5位置是多日扩张中的关键尊重水平；连续三天的扩张通常预示新的交付阶段即将开始；分形概念适用于所有时间框架；等待新的收盘确认比提前预测更可靠。",
+  "primary_image": "cards/IPZjNI1B5a0/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/IPZjNI1B5a0/images/case_005_detail_1.jpg",
+    "cards/IPZjNI1B5a0/images/case_005_detail_2.jpg",
+    "cards/IPZjNI1B5a0/images/case_005_detail_3.jpg",
+    "cards/IPZjNI1B5a0/images/case_005_detail_4.jpg",
+    "cards/IPZjNI1B5a0/images/case_005_detail_5.jpg",
+    "cards/IPZjNI1B5a0/images/case_005_detail_6.jpg",
+    "cards/IPZjNI1B5a0/images/case_005_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "日线K线图，价格轴右侧刻度从约44.00延伸至79.00。图左侧可见数根绿色与黑色K线交替出现于77.00至79.00区间，随后出现一段连续黑色K线向下延伸至约68.00附近。图中部出现一根带上下影线的小实体K线，随后数根绿色K线从约67.00回升至70.50区域。最新数根K线中包含一根带长上影线的K线，上影线延伸至约71.50。图上有一条虚线水平线位于约68.75处。底部时间轴可见11月日期标注",
+    "case_005_detail_1.jpg": "图表为日线K线图，左侧价格轴可见范围约从1.04000至1.30500。图上K线整体呈下行排列，从左侧约1.29500区域向右下方延伸至约1.06000附近。图右侧最新数根K线区域有一个矩形标注框，覆盖价格约1.05800至1.07200之间的4至5根K线。左侧价格轴当前价标签显示约1.06350，并有一条水平虚线延伸至图右侧。图中有一条垂直虚线将左侧历史K线与右侧空白区域分隔。黄色圆形光标位于约",
+    "case_005_detail_2.jpg": "EUR/USD 1小时K线图。图右上角标注资产为EUR/USD。图上可见价格范围约从1.04450至1.06250。图中央区域有一根大阴线，从约1.05600下跌至约1.04700。大阴线左侧有一个黄色矩形标注框，覆盖约1.05150至1.05450区间内的数根小K线。图右侧可见两根大阳线与一根大阴线并排排列，价格范围约在1.04700至1.05800之间。图上有一条水平线延伸至约1.04950位",
+    "case_005_detail_3.jpg": "EUR/USD 1小时K线图。图上可见价格范围约从1.04400至1.06250。图中央有一个黄色矩形标注区域，覆盖约1.04950至1.05300的价格区间，并有两条水平线从矩形右侧延伸。矩形上方附近有一个红色X标记，位于约1.05250处。图右侧可见两根较大K线：一根绿色K线和一根黑色K线，黑色K线实体从约1.05500延伸至1.04700，下影线触及约1.04650。图左侧K线显示价格在约1",
+    "case_005_detail_4.jpg": "图表为1小时K线图，资产代码不清晰，右侧价格刻度范围约从1.03400至1.04900。图上有两个黄色矩形框标注：一个位于约1.04300至1.04700区间，另一个位于约1.03550至1.03900区间。图中有一根主体较长的黑色阴线，主体跨度约从1.04800延伸至1.03600。图上有一个红色×标记，位于约1.04750附近。图上可见两条水平线，分别位于约1.04400和1.03550处，右",
+    "case_005_detail_5.jpg": "EUR/USD 1小时K线图。图上有两条水平线，分别位于约1.06000和1.03400附近，横跨图表左侧区域。图上有两个黄色矩形框标注：一个位于约1.05000至1.05300区间，另一个位于约1.04000至1.04400区间。图右侧可见数根大实体K线，从约1.05800向下延伸至约1.03600。右侧价格轴当前价格标签显示约1.04750。图中约1.05800处有一个红色'x'标记。图左侧可",
+    "case_005_detail_6.jpg": "图表为 ETH 1 分钟 K 线图，可见价格范围约从 66.00 至 72.60。图上有两条水平线，分别位于约 71.00 和 69.40 处，另有一条虚线水平线位于约 68.51 处并在左侧价格轴有对应标签。图右侧有一根较大的绿色 K 线，主体约从 69.00 延伸至 71.00，其后紧跟一根较大的黑色 K 线，主体约从 68.50 延伸至 71.00。图中段可见一段连续下行的 K 线序列，从约",
+    "case_005_detail_7.jpg": "图表为1小时K线图，资产代码不可读。图上可见价格范围约从65.60至71.20。图中有一个橙黄色矩形框标注区域，覆盖约68.20至69.00价格区间。矩形框附近有一个粉红色X标记及一根黄色高亮K线。图上有两条水平线分别位于约71.00和69.20处，另有一条水平虚线位于约68.45处。图右侧可见两根大型黑色阴线，其中一根延伸至约65.80，以及一根大型绿色阳线。时间轴标注显示Wed 15 Nov "
+  },
+  "sources": [
+    {
+      "video_id": "IPZjNI1B5a0",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        727.959,
+        1086.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三天看跌扩张的全过程，清晰标注了EQ、PD array、FVG等关键位置，并在日线和小时图上详细讲解了每一步的分析逻辑和价格行为。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:38.670570Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH多日看跌扩张中均衡点的连续尊重与FVG触及反转\",\"school\":\"ICT\",\"asset\":\"ETH\",\"timeframe\":\"1D / 1H\",\"market_context\":\"ETH经历连续三天的看跌扩张，每日价格都在尊重日线均衡点（EQ）的下半部分，形成明确的下行偏差。最终价格触及FVG后出现反转信号。\",\"key_observation\":\"博主观察到三天连续的看跌扩张模式，每日都精确尊重前一日均衡点的0.5位置，以及对应的PD array（订单块、FVG等），最后在触及FVG后产生反转。\",\"analysis_steps\":[\"Step 1: 在日线图上识别前一日的均衡点（EQ）位置，确认是否存在PD array（对立K线/订单块）\",\"Step 2: 在小时图上验证价格是否尊重该均衡点的下半部分（0.5位置），以及是否存在受保护的摆动高点\",\"Step 3: 观察第一天的扩张：价格上升至对立K线后回落，确认下半部分被尊重，随后继续下行扩张\",\"Step 4: 进入第二天，确认前一日的看跌收盘，检查是否有新的PD array；识别高点的扫荡或SMT现象\",\"Step 5: 在扫荡高点后观察交付状态改变（CSD），价格继续下行\",\"Step 6: 第三天重复模式：尊重前一日K线的下半部分（0.5 Wick），同时尊重当日K线的下半部分，继续下行\",\"Step 7: 识别三天扩张后的失效点：当出现三天连续扩张至新低时，预期新的交付阶段（巩固、回撤或反转）\",\"Step 8: 在4小时图上应用相同的分形概念，验证扩张-回撤-反转的周期性\",\"Step 9: 观察价格最终触及FVG，确认反转信号的形成\"],\"outcome\":\"价格在三天看跌扩张后触及FVG，随后出现反转。博主通过等待新的日线收盘来确认新的交付阶段，而非提前入场。\",\"lessons\":\"均衡点的0.5位置是多日扩张中的关键尊重水平；连续三天的扩张通常预示新的交付阶段即将开始；分形概念适用于所有时间框架；等待新的收盘确认比提前预测更可靠。\",\"primary_image_frame_id\":\"IPZjNI1B5a0_f030\",\"supporting_image_frame_ids\":[\"IPZjNI1B5a0_f025\",\"IPZjNI1B5a0_f026\",\"IPZjNI1B5a0_f027\",\"IPZjNI1B5a0_f028\",\"IPZjNI1B5a0_f029\",\"IPZjNI1B5a0_f031\",\"IPZjNI1B5a0_f032\"],\"related_concepts\":[\"Equilibrium (EQ)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Premium/Discount Array (PD array)\",\"Change in the state of delivery (CSD)\",\"Protected Swing\",\"Smart Money Technique (SMT)\",\"Displacement\",\"Fractal concept\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三天看跌扩张的全过程，清晰标注了EQ、PD array、FVG等关键位置，并在日线和小时图上详细讲解了每一步的分析逻辑和价格行为。\"}",
+  "error": null
+}

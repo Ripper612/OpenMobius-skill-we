@@ -1,0 +1,85 @@
+{
+  "card_id": "0OjlQ91TZiU_case_005_期货评估账户风险管理案例",
+  "type": "case",
+  "title": "期货评估账户风险管理：基于回撤额度的仓位规模调整",
+  "related_concepts": [
+    {
+      "term": "Position Sizing",
+      "card_id": "position_sizing",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Drawdown",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk-Reward Ratio",
+      "card_id": "risk_to_reward_ratio_risk_to_",
+      "exists": true
+    },
+    {
+      "term": "Account Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Prop Firm Evaluation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "position_sizing",
+    "risk_to_reward_ratio_risk_to_"
+  ],
+  "school": "Risk Management",
+  "asset": "MNQ1!",
+  "timeframe": "5M / 1M",
+  "market_context": "博主以25K期货评估账户为例，分析账户实际可用回撤仅1500美元的约束条件，讨论如何根据回撤额度而非账户总额来调整风险参数。",
+  "key_observation": "25K评估账户的实际可用回撤仅1500美元；若按账户规模1%风险，实际风险达回撤的177%，6-7次连续亏损即爆账；应改为基于回撤额度的7-10%风险以保留10-15次容错交易。",
+  "analysis_steps": [
+    "Step 1: 识别评估账户的真实约束——25K账户实际可用回撤仅1500美元，而非25000美元。",
+    "Step 2: 计算按账户规模1%风险的实际风险比——1%的25K账户（250美元）相当于回撤1500美元的177%。",
+    "Step 3: 评估连续亏损容错能力——按1%风险，6-7次连续亏损即导致账户爆炸。",
+    "Step 4: 重新基准化风险参数——将风险基准从账户总额改为实际回撤额度1500美元。",
+    "Step 5: 确定合理风险百分比——在回撤额度基础上采用7-10%风险，可容纳10-15次连续亏损。",
+    "Step 6: 调整交易表单——将风险计算从账户规模改为回撤额度，风险比例从1%调整为7-10%。"
+  ],
+  "outcome": "博主确立了评估账户的风险管理框架：基于1500美元回撤额度，采用7-10%风险比例，使账户能容纳10-15次连续亏损；获得资金后进一步降低风险以增加缓冲空间。",
+  "lessons": "期货评估账户风险管理的核心是基于实际回撤额度而非账户总额来计算风险；盲目按账户规模1%风险会严重高估实际容错能力；合理的7-10%回撤风险比例能提供足够的交易容错空间。",
+  "primary_image": "cards/0OjlQ91TZiU/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/0OjlQ91TZiU/images/case_005_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图为 MNQ1! 5 分钟 K 线图，日期标注为 18/12/2023，时间轴覆盖约 08:00 至 12:00。图中央有一个交易标注框，分为上下两个矩形区域：上方绿色区域标注为目标位，文字显示 Target: 37.00 (0.223%) Amount: 103084.51，价格范围约 16848 至 16885；下方灰色区域标注为止损位，文字显示 Stop: 17.75 (0.115%) Am",
+    "case_005_detail_1.jpg": "图表资产为 MNQ1!，时间框架为 1 分钟，日期标注为 18/12/2023。图右侧价格刻度范围约从 16820 至 19915。图上可见两个重叠矩形区域，位于 09:40 至 09:55 时间段：一个浅灰色矩形覆盖约 16832 至 16880，一个浅青色矩形覆盖约 16845 至 16910。图右侧有一条标注为 'Buy Limit' 的水平线位于约 16845，另有一条虚线水平线位于约 1"
+  },
+  "sources": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        568.12,
+        673.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对25K评估账户的风险管理逻辑完整清晰，关键数字（25K、1500美元、1%、177%、7-10%、10-15次）均明确，分析步骤和结论完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:07:14.243419Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"期货评估账户风险管理：基于回撤额度的仓位规模调整\",\"school\":\"Risk Management\",\"asset\":\"MNQ1!\",\"timeframe\":\"5M / 1M\",\"market_context\":\"博主以25K期货评估账户为例，分析账户实际可用回撤仅1500美元的约束条件，讨论如何根据回撤额度而非账户总额来调整风险参数。\",\"key_observation\":\"25K评估账户的实际可用回撤仅1500美元；若按账户规模1%风险，实际风险达回撤的177%，6-7次连续亏损即爆账；应改为基于回撤额度的7-10%风险以保留10-15次容错交易。\",\"analysis_steps\":[\"Step 1: 识别评估账户的真实约束——25K账户实际可用回撤仅1500美元，而非25000美元。\",\"Step 2: 计算按账户规模1%风险的实际风险比——1%的25K账户（250美元）相当于回撤1500美元的177%。\",\"Step 3: 评估连续亏损容错能力——按1%风险，6-7次连续亏损即导致账户爆炸。\",\"Step 4: 重新基准化风险参数——将风险基准从账户总额改为实际回撤额度1500美元。\",\"Step 5: 确定合理风险百分比——在回撤额度基础上采用7-10%风险，可容纳10-15次连续亏损。\",\"Step 6: 调整交易表单——将风险计算从账户规模改为回撤额度，风险比例从1%调整为7-10%。\"],\"outcome\":\"博主确立了评估账户的风险管理框架：基于1500美元回撤额度，采用7-10%风险比例，使账户能容纳10-15次连续亏损；获得资金后进一步降低风险以增加缓冲空间。\",\"lessons\":\"期货评估账户风险管理的核心是基于实际回撤额度而非账户总额来计算风险；盲目按账户规模1%风险会严重高估实际容错能力；合理的7-10%回撤风险比例能提供足够的交易容错空间。\",\"primary_image_frame_id\":\"0OjlQ91TZiU_f019\",\"supporting_image_frame_ids\":[\"0OjlQ91TZiU_f020\"],\"related_concepts\":[\"Position Sizing\",\"Risk Management\",\"Drawdown\",\"Risk-Reward Ratio\",\"Account Management\",\"Prop Firm Evaluation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对25K评估账户的风险管理逻辑完整清晰，关键数字（25K、1500美元、1%、177%、7-10%、10-15次）均明确，分析步骤和结论完整。\"}",
+  "error": null
+}

@@ -1,0 +1,251 @@
+{
+  "card_id": "retest_entry",
+  "type": "merged_concept",
+  "canonical_term": "Retest Entry",
+  "aliases": [
+    "continuation entry",
+    "retest of important level"
+  ],
+  "school": "ICT",
+  "definition": "价格出现激进位移后，等待回测关键水平（订单块、公允价值缺口或扫出的摆动高/低点）并在该水平处形成对立K线（收盘穿过前期相反方向K线序列）后的入场机会。相比追逐初始反转，提供更高确认度与更优风险回报比。",
+  "identification_rules": [
+    "价格先形成激进位移，远离关键水平，确认趋势方向或反转",
+    "价格随后回测该关键水平（Fair Value Gap、Order Block 或扫出的摆动高/低点）",
+    "在回测水平处形成对立K线（opposing candle），即收盘价穿过形成该摆动的同向K线序列",
+    "对立K线收盘须穿过相关结构，新的受保护摆动点由此确立，作为止损参考位",
+    "可通过相关资产 SMT 配对验证对立K线有效性（即使未完全扫盘）",
+    "入场通常在低时间框架识别，需与高时间框架结构方向对齐",
+    "入场前验证风险回报比（通常 2R 或以上）仍可达"
+  ],
+  "trading_implication": "Retest Entry 适用于错过初始反转信号或初始入场风险回报不足的情况。通过等待价格回测重要水平并形成新的订单块结构，交易者获得更清晰的确认信号与明确的止损位（新受保护摆动极值）。多时间框架对齐时概率最高，止损设于对立K线极值，目标指向原趋势目标位或 2R 以上。",
+  "common_mistakes": [
+    "在激进位移后立即追逐，不等待价格回测关键水平形成对立K线",
+    "将任何回测都视为有效的 Retest Entry，忽视对立K线必须收盘穿过相关结构的要求",
+    "在价格未充分接触关键水平（如 Fair Value Gap 或摆动点）时过早入场",
+    "混淆 Retest Entry 与简单价格反弹，后者缺乏结构确认",
+    "未等待新的受保护摆动点完全形成就仓促入场，导致止损位不明确或被扫出",
+    "在扩张K线已消耗大部分时间和范围后才寻求入场，导致目标无法达成",
+    "未验证风险回报比是否满足要求（如 2R），导致入场后无法获利",
+    "未确保多时间框架对齐就入场，导致趋势延续失败"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Continuation Entry",
+      "card_id": "retest_entry",
+      "exists": true
+    },
+    {
+      "term": "Reversal Entry",
+      "card_id": "reversal_entry",
+      "exists": true
+    },
+    {
+      "term": "Reversal Sequence",
+      "card_id": "reversal_sequence",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Expansion",
+      "card_id": "candle_3_expansion",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "IJcfC6wAPZU_case_001_黄金期货_gc_日线至5分钟多时间框架延续交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "黄金期货(GC)日线至5分钟多时间框架延续交易"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_003_原油期货_cl_激进位移后的回测入场",
+      "video_id": "IJcfC6wAPZU",
+      "title": "原油期货CL激进位移后的回测入场策略"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_004_纳指期货_nq_盘整突破后的多次延续机会",
+      "video_id": "IJcfC6wAPZU",
+      "title": "NQ盘整突破后的多次延续交易机会"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_005_标普500_es_范围突破的延续交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "ES范围突破后的多次延续入场与2R目标达成"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_001_btc小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "BTC小时图V形反转到5分钟图多头延续交易"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_002_es_标普500期货_小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "ES 1H到5M多头延续入场，通过FVG和受保护低点获得3.17R"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_003_apoz_某资产_4小时图到15分钟图的空头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "APOZ 4H到15M空头交易：受保护高点与反转入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_continuation_entry",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_015",
+        "seg_017",
+        "seg_021",
+        "seg_024"
+      ],
+      "time_range": [
+        548.8,
+        1219.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_continuation_entry",
+      "segment_ids": [
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_014",
+        "seg_019",
+        "seg_021"
+      ],
+      "time_range": [
+        265.44,
+        921.68
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IJcfC6wAPZU",
+      "original_card_id": "IJcfC6wAPZU_concept_continuation_entry",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.96,
+        910.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IJcfC6wAPZU",
+      "original_card_id": "IJcfC6wAPZU_concept_retest_entry",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        551.44,
+        731.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_continuation_entry",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_012",
+        "seg_014",
+        "seg_017",
+        "seg_018"
+      ],
+      "time_range": [
+        149.76,
+        988.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 4,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:01.337719Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "5 张原始卡均标注 ICT，school 无冲突。其中 4 张以 continuation_entry 为主题，1 张明确标注 retest_entry；综合后以 retest_entry 为规范术语，continuation entry 相关内容作为同类入场逻辑纳入。",
+  "error": null
+}

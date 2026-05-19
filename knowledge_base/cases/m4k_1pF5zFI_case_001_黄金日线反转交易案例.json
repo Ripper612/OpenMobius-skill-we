@@ -1,0 +1,107 @@
+{
+  "card_id": "m4k_1pF5zFI_case_001_黄金日线反转交易案例",
+  "type": "case",
+  "title": "SPX日线小影线反转交易——从CSD到流动性目标",
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected High",
+      "card_id": "protected_swing_protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Phases of Price",
+      "card_id": "phases_of_price",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery_csd",
+    "protected_swing_protected_high_low",
+    "equilibrium_eq",
+    "liquidity",
+    "displacement",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "phases_of_price"
+  ],
+  "school": "ICT",
+  "asset": "SPX",
+  "timeframe": "1D",
+  "market_context": "SPX在大幅扩张后形成反转日。博主通过日线和小时线结合分析，识别出小影线支持向下扩张的条件，并确认了受保护高点和CSD信号。",
+  "key_observation": "反转日需要小影线而非大影线才能支持扩张。该日线形成小影线，配合小时线内的CSD（交付状态改变），预示价格将向下扩张至前一日EQ和流动性位置。",
+  "analysis_steps": [
+    "Step 1: 识别大幅扩张后的新价格阶段——预期反转或回撤，而非盘整。",
+    "Step 2: 判断反转日是否支持扩张——需要小影线而非大影线，以便价格有足够空间向下运行。",
+    "Step 3: 在小时线上确认CSD（交付状态改变）——观察到扩张进入盘整，再扩张回落形成小影线的过程。",
+    "Step 4: 标记受保护高点——确认日线已形成小影线，支持向下扩张。",
+    "Step 5: 确定交易目标——使用前一日EQ（均衡点）和流动性（前一日高低点）作为下行目标。",
+    "Step 6: 验证结果——价格确实向下扩张，达到预期的流动性和EQ区域。"
+  ],
+  "outcome": "价格成功向下扩张，交易至前一日EQ和流动性位置，验证了小影线反转交易的有效性。",
+  "lessons": "反转日的影线大小决定了扩张潜力：小影线支持扩张，大影线则应等待次日或回看日线开盘。小时线CSD与日线结构结合，可提高反转交易的确定性。流动性和EQ是可靠的下行目标。",
+  "primary_image": "cards/m4k_1pF5zFI/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/m4k_1pF5zFI/images/case_001_detail_1.jpg",
+    "cards/m4k_1pF5zFI/images/case_001_detail_2.jpg",
+    "cards/m4k_1pF5zFI/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表标题为'Trading Candle 2'，由 TTrades 平台提供。图上展示一系列蜡烛线，左侧为上升趋势的绿色和黑色 K 线序列，中间区域有灰色矩形和浅青色矩形标注重叠，中间至右侧为下降趋势的黑色 K 线序列。右侧最后两根 K 线分别为绿色和黑色，均带有较长的下影线。图上标注有'CSD'文字标签。两条竖直线和一条水平线用于分隔不同区域。",
+    "case_001_detail_1.jpg": "SPX02 图表显示价格范围从 3420.0 至 3510.0。图上有多条水平线标注，其中 3505.0 和 3477.0 处各有一条。左侧显示 3465.0 至 3475.0 区间的盘整，随后出现向上跳空至 3480.0，之后 K 线上升至 3505.0 附近形成盘整。右侧显示一根大幅上升的绿色 K 线从 3410.0 上升至 3500.0，其后跟随一根黑色 K 线。图上有两条虚线水平线位于 3",
+    "case_001_detail_2.jpg": "SPX500 图表显示蜡烛线走势。图上有两条水平线，分别位于 3504.0 和 3479.0 价格水平。可见价格范围从 3420.0 至 3528.0。左侧显示一系列绿色和黑色 K 线在 3440 至 3472 区间内波动。中间部分出现一根大幅上升的绿色 K 线，从约 3456 上升至 3500，上影线延伸至 3508。右侧显示价格在 3464 至 3500 区间内的波动，包含一根大幅绿色 K 线",
+    "case_001_detail_3.jpg": "SPX500 1小时K线图。图上显示从22日18:00至25日03:00的价格走势，价格范围3424.0至3532.0。图中有两条水平虚线分别位于3501.0和3476.0，两线之间用矩形框标注。08:00至12:00期间K线从3456.0上升至3508.0。12:00至次日06:00期间K线在3476.0至3501.0区间内震荡。03:00至06:00出现一根大幅上升的绿色K线，随后06:00至"
+  },
+  "sources": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        186.4,
+        354.15999999999997
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线反转判断、小时线CSD确认、目标位设置和结果验证的全过程，关键价位和分析步骤清晰可追踪。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:57.966628Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"SPX日线小影线反转交易——从CSD到流动性目标\",\"school\":\"ICT\",\"asset\":\"SPX\",\"timeframe\":\"1D\",\"market_context\":\"SPX在大幅扩张后形成反转日。博主通过日线和小时线结合分析，识别出小影线支持向下扩张的条件，并确认了受保护高点和CSD信号。\",\"key_observation\":\"反转日需要小影线而非大影线才能支持扩张。该日线形成小影线，配合小时线内的CSD（交付状态改变），预示价格将向下扩张至前一日EQ和流动性位置。\",\"analysis_steps\":[\"Step 1: 识别大幅扩张后的新价格阶段——预期反转或回撤，而非盘整。\",\"Step 2: 判断反转日是否支持扩张——需要小影线而非大影线，以便价格有足够空间向下运行。\",\"Step 3: 在小时线上确认CSD（交付状态改变）——观察到扩张进入盘整，再扩张回落形成小影线的过程。\",\"Step 4: 标记受保护高点——确认日线已形成小影线，支持向下扩张。\",\"Step 5: 确定交易目标——使用前一日EQ（均衡点）和流动性（前一日高低点）作为下行目标。\",\"Step 6: 验证结果——价格确实向下扩张，达到预期的流动性和EQ区域。\"],\"outcome\":\"价格成功向下扩张，交易至前一日EQ和流动性位置，验证了小影线反转交易的有效性。\",\"lessons\":\"反转日的影线大小决定了扩张潜力：小影线支持扩张，大影线则应等待次日或回看日线开盘。小时线CSD与日线结构结合，可提高反转交易的确定性。流动性和EQ是可靠的下行目标。\",\"primary_image_frame_id\":\"m4k_1pF5zFI_f007\",\"supporting_image_frame_ids\":[\"m4k_1pF5zFI_f010\",\"m4k_1pF5zFI_f011\",\"m4k_1pF5zFI_f012\"],\"related_concepts\":[\"Change in the state of delivery (CSD)\",\"Protected High\",\"Equilibrium (EQ)\",\"Liquidity\",\"Displacement\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Phases of Price\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线反转判断、小时线CSD确认、目标位设置和结果验证的全过程，关键价位和分析步骤清晰可追踪。\"}",
+  "error": null
+}

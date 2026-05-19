@@ -1,0 +1,102 @@
+{
+  "card_id": "kTWXpAo1uE8_case_006_经典卖方周的标准差投影应用",
+  "type": "case",
+  "title": "卖方周标准差投影确认黄色目标区域交易",
+  "related_concepts": [
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "London Session Low",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "standard_deviation_projection",
+    "inducement",
+    "order_block",
+    "fair_value_gap",
+    "market_structure",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H / 2H (多时间框架)",
+  "market_context": "周二高点14450后出现分布迹象，价格留下等低点后开始回撤。博主识别出经典卖方周结构，预期向周四扩展，通过小时图操纵和标准差投影确认目标区域。",
+  "key_observation": "识别周二高点后的分布特征，通过多时间框架标准差投影锁定黄色目标区域（约14160-14270），价格最终触及伦敦低点完成交易。",
+  "analysis_steps": [
+    "Step 1: 在日线或周线上识别周二高点14450后出现分布迹象和等低点形成",
+    "Step 2: 标记出回撤过程中的上升K线，观察其是否提供反应",
+    "Step 3: 下探到小时图，在小时图上找到操纵点（manipulation）",
+    "Step 4: 使用标准差投影从小时图操纵点向外投影，确定整体目标黄色盒子区域",
+    "Step 5: 验证价格是否触及黄色目标区域及其后续的包含（encroachment）",
+    "Step 6: 下探到更低时间框架，查看日线轮廓（daily profile）",
+    "Step 7: 在低时间框架上寻找入场点，目标指向伦敦低点"
+  ],
+  "outcome": "价格成功触及黄色目标区域，随后下跌至伦敦低点，完成交易目标。",
+  "lessons": "经典卖方周结构结合多时间框架标准差投影能有效确认目标区域。通过从高时间框架识别操纵点，再投影至低时间框架寻找精确入场，可提高交易成功率。",
+  "primary_image": "cards/kTWXpAo1uE8/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/kTWXpAo1uE8/images/case_006_detail_1.jpg",
+    "cards/kTWXpAo1uE8/images/case_006_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "USD 2分钟K线图。图上显示价格范围从14100.00至14520.00。图中标注有5条水平线，分别位于14469.25、14413.50、14320.00、14257.00和14160.79。两个矩形区域分别覆盖14320.00至14450.00区间（灰色）和14160.00至14270.00区间（黄色）。K线显示先向上冲至14469.25后回落，随后在14320.00附近形成整理，最终向下突",
+    "case_006_detail_1.jpg": "USD 1分钟K线图，时间范围从07:16至12:16。图上显示从14310上升至14450的上升趋势，跨越约20根K线。在09:30附近出现一根长上影线K线，上影线刺破14500后回落至14370。图上有三条水平线分别位于14461、14380和14310。两个矩形标注框分别覆盖14310-14420和14380-14450价格区间。右侧有浅蓝色矩形覆盖10:00至11:30时间段。图表底部显示",
+    "case_006_detail_2.jpg": "USD 1分钟K线图，时间范围从05:00至13:30。图上有三条水平线分别位于14380、14320和14410价位。两个矩形区域标注了价格区间：一个覆盖14320至14410，另一个覆盖14280至14450。图表显示09:00处出现向上跳空至14450，随后在09:30达到14490高点。之后价格从14450急速下跌至14270，跌幅约180点。10:00至11:00期间K线在14320至1"
+  },
+  "sources": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "segment_ids": [
+        "seg_008"
+      ],
+      "time_range": [
+        785.6,
+        863.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲述了从识别卖方周结构、应用标准差投影、确认黄色目标区域到最终触及伦敦低点的全过程，关键价位和时间框架清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:28.007498Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"卖方周标准差投影确认黄色目标区域交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H / 2H (多时间框架)\",\"market_context\":\"周二高点14450后出现分布迹象，价格留下等低点后开始回撤。博主识别出经典卖方周结构，预期向周四扩展，通过小时图操纵和标准差投影确认目标区域。\",\"key_observation\":\"识别周二高点后的分布特征，通过多时间框架标准差投影锁定黄色目标区域（约14160-14270），价格最终触及伦敦低点完成交易。\",\"analysis_steps\":[\"Step 1: 在日线或周线上识别周二高点14450后出现分布迹象和等低点形成\",\"Step 2: 标记出回撤过程中的上升K线，观察其是否提供反应\",\"Step 3: 下探到小时图，在小时图上找到操纵点（manipulation）\",\"Step 4: 使用标准差投影从小时图操纵点向外投影，确定整体目标黄色盒子区域\",\"Step 5: 验证价格是否触及黄色目标区域及其后续的包含（encroachment）\",\"Step 6: 下探到更低时间框架，查看日线轮廓（daily profile）\",\"Step 7: 在低时间框架上寻找入场点，目标指向伦敦低点\"],\"outcome\":\"价格成功触及黄色目标区域，随后下跌至伦敦低点，完成交易目标。\",\"lessons\":\"经典卖方周结构结合多时间框架标准差投影能有效确认目标区域。通过从高时间框架识别操纵点，再投影至低时间框架寻找精确入场，可提高交易成功率。\",\"primary_image_frame_id\":\"kTWXpAo1uE8_f029\",\"supporting_image_frame_ids\":[\"kTWXpAo1uE8_f027\",\"kTWXpAo1uE8_f028\"],\"related_concepts\":[\"Standard Deviation Projection\",\"Distribution\",\"Manipulation\",\"Order Block\",\"Fair Value Gap\",\"Market Structure\",\"Multi-Timeframe Analysis\",\"London Session Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲述了从识别卖方周结构、应用标准差投影、确认黄色目标区域到最终触及伦敦低点的全过程，关键价位和时间框架清晰可见。\"}",
+  "error": null
+}

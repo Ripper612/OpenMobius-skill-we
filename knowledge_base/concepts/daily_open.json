@@ -1,0 +1,63 @@
+{
+  "card_id": "daily_open",
+  "type": "merged_concept",
+  "canonical_term": "Daily Open",
+  "aliases": [
+    "日开盘",
+    "每日开盘价"
+  ],
+  "school": "ICT",
+  "definition": "每个交易日开始时的开盘价格。在Twitter模型中可作为midnight open的替代时间参考点，用于确定交易时间窗口和设置止损位置。",
+  "identification_rules": [
+    "在日线图上标记当日K线的开盘价位置",
+    "在低时间框架（如15分钟图）上绘制水平线，对应该日线开盘价",
+    "可通过交易平台指标（如ICT Kill Zones and Pivots）自动标记Daily Open"
+  ],
+  "trading_implication": "Daily Open作为关键参考水平，用于确定低时间框架的交易入场点。交易者可在Daily Open上方或下方寻找交易机会，将其作为止损位置参考。在多时间框架分析中，价格相对于Daily Open的位置帮助判断当日的交易方向和风险回报比。",
+  "common_mistakes": [
+    "将Daily Open与midnight open混淆，两者在不同市场或交易时段可能存在差异",
+    "未在低时间框架上正确标记Daily Open水平，导致入场和止损位置不准确"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_005_es日线周度目标到5分钟ote执行",
+      "video_id": "1YRs4Z1lMws",
+      "title": "ES日线周度目标到5分钟OTE最优入场执行"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_005_纳斯达克_nq_做空案例_使用日开盘替代午夜开盘",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ做空案例：日开盘替代午夜开盘的订单块入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "WwmS47Gb3M0",
+      "original_card_id": "WwmS47Gb3M0_concept_daily_open",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.28,
+        551.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132091Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

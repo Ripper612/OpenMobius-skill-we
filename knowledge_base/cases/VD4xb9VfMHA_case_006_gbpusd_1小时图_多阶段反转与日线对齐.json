@@ -1,0 +1,118 @@
+{
+  "card_id": "VD4xb9VfMHA_case_006_gbpusd_1小时图_多阶段反转与日线对齐",
+  "type": "case",
+  "title": "GBPUSD 1H：范围突破反转与日线收盘对齐",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Phases of Price",
+      "card_id": "phases_of_price",
+      "exists": true
+    },
+    {
+      "term": "Daily Closure Alignment",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery_csd",
+    "market_structure_shift_mss",
+    "equilibrium_eq",
+    "displacement",
+    "premium_discount",
+    "phases_of_price"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1H",
+  "market_context": "GBPUSD在1.36900-1.37700区间内盘整约12根K线，随后向上突破至1.37700上方。价格扩张至日线摆动高点后形成灯芯反转，随即回落并与日线收盘结构对齐。",
+  "key_observation": "博主通过观察价格扩张与回缩的节奏、日线收盘有效性（I model）以及交付状态改变（CSD）的多重对齐，确认了反转的有效性。关键是价格不尊重灯芯的均衡点（EQ），预示反转失败。",
+  "analysis_steps": [
+    "Step 1: 识别1.36900-1.37700的整合区间，约12根K线在此范围内波动。",
+    "Step 2: 观察向上突破至1.37700上方，价格扩张至日线摆动高点。",
+    "Step 3: 检查扩张是否伴随回缩：价格扩张后立即遭遇回缩，未能继续上行。",
+    "Step 4: 分析灯芯形态：价格未能尊重灯芯的均衡点（EQ），表明反转可能失败。",
+    "Step 5: 验证日线收盘对齐：日线收盘形成有效的I model结构，与1H反转对齐。",
+    "Step 6: 确认交付状态改变（CSD）：价格突破前期结构，预示短期趋势反转。",
+    "Step 7: 预期支撑：基于日线结构，预期价格不应跌破FVG区域，应在此获得支撑。",
+    "Step 8: 观察后续走势：价格向下扩张3根K线进入范围，随后向上回缩8根K线（约2/3的下跌幅度）。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架对齐（日线收盘+1H反转+CSD）大幅提升反转信号的有效性。灯芯不尊重EQ、扩张与回缩的节奏失衡是反转失败的预警信号。使用日线收盘和交付状态改变来验证1H反转，而非单纯依赖形态。",
+  "primary_image": "cards/VD4xb9VfMHA/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/VD4xb9VfMHA/images/case_006_detail_1.jpg",
+    "cards/VD4xb9VfMHA/images/case_006_detail_2.jpg",
+    "cards/VD4xb9VfMHA/images/case_006_detail_3.jpg",
+    "cards/VD4xb9VfMHA/images/case_006_detail_4.jpg",
+    "cards/VD4xb9VfMHA/images/case_006_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "GBPUSD 1 小时 K 线图。图上可见价格范围从 1.36400 到 1.38200。标注有三条矩形框：一条覆盖 1.37000 至 1.37700 区间，一条覆盖 1.36800 至 1.36900 区间，一条覆盖 1.37200 至 1.37700 区间。图上有三条水平线分别位于 1.37700、1.37000 和 1.36800。左侧显示价格标记 1.37333。K 线序列显示从左至右经",
+    "case_006_detail_1.jpg": "USD 1小时K线图。图上显示价格范围从1.36000至1.38300。图中绘制一条蓝色矩形框，上边界约1.37700，下边界约1.36900，标记出一个整合区间。图左侧显示多根K线在该区间内波动，右侧出现绿色K线突破矩形上边界。图上标注当前时间为27 Jun '25 14:00，价格标签显示1.37227。底部工具栏显示交易按钮Sell、Buy、Flatten等。",
+    "case_006_detail_2.jpg": "GBPUSD 1 小时图。图上显示从 25 日至 2 日的价格走势。可见三条蓝色水平线分别位于 1.37700、1.36900 和 1.37200 附近。25 至 29 日期间，K 线在 1.36900 至 1.37700 区间内形成盘整，约 12 根 K 线在此范围内波动。29 日出现向上突破至 1.37700 上方。30 日价格回落至 1.37200 附近进行回测。7 月 1 日出现一根大幅绿",
+    "case_006_detail_3.jpg": "GBPUSD 1 小时 K 线图。图上显示从 6 月 26 日至 7 月 3 日的价格走势，价格范围约 1.36000 至 1.38400。图中有三条水平线分别位于 1.37700、1.37500 和 1.36800。两个矩形框标注了价格区间：一个覆盖 1.36800 至 1.37700 区域，另一个在 1.37200 至 1.37300 区间。6 月 26 至 29 日期间 K 线在 1.368",
+    "case_006_detail_4.jpg": "GBPUSD 1 小时 K 线图。图上绘有两条蓝色水平线，分别位于 1.37700 和 1.37000。一条虚线水平线位于 1.37483。可见价格范围约从 1.36300 到 1.37900。图表左侧显示多根 K 线在 1.37200 至 1.37500 区间内波动。中部出现一根大幅下跌的黑色 K 线，从 1.37600 下行至 1.36600。右侧显示绿色和黑色 K 线，价格在 1.37300",
+    "case_006_detail_5.jpg": "图表显示 USD 货币对的 K 线图，价格范围从 1.36100 到 1.37900。图上有三条蓝色水平线分别位于 1.37700、1.37000 和 1.37200 处。中间区域有一个矩形框标注，范围约在 1.37000 至 1.37700 之间。K 线呈现先上升后下跌再反弹的形态，最高点达 1.37900，随后出现大幅下跌至 1.36100 附近，右侧最新 K 线显示绿色实体，收盘价约在 1."
+  },
+  "sources": [
+    {
+      "video_id": "VD4xb9VfMHA",
+      "segment_ids": [
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        919.8389999999999,
+        1072.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从区间识别、突破、灯芯反转、日线对齐到后续走势的全过程分析，关键价位（1.37700、1.36900、1.37200）清晰，分析步骤逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:12.315081Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD 1H：范围突破反转与日线收盘对齐\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1H\",\"market_context\":\"GBPUSD在1.36900-1.37700区间内盘整约12根K线，随后向上突破至1.37700上方。价格扩张至日线摆动高点后形成灯芯反转，随即回落并与日线收盘结构对齐。\",\"key_observation\":\"博主通过观察价格扩张与回缩的节奏、日线收盘有效性（I model）以及交付状态改变（CSD）的多重对齐，确认了反转的有效性。关键是价格不尊重灯芯的均衡点（EQ），预示反转失败。\",\"analysis_steps\":[\"Step 1: 识别1.36900-1.37700的整合区间，约12根K线在此范围内波动。\",\"Step 2: 观察向上突破至1.37700上方，价格扩张至日线摆动高点。\",\"Step 3: 检查扩张是否伴随回缩：价格扩张后立即遭遇回缩，未能继续上行。\",\"Step 4: 分析灯芯形态：价格未能尊重灯芯的均衡点（EQ），表明反转可能失败。\",\"Step 5: 验证日线收盘对齐：日线收盘形成有效的I model结构，与1H反转对齐。\",\"Step 6: 确认交付状态改变（CSD）：价格突破前期结构，预示短期趋势反转。\",\"Step 7: 预期支撑：基于日线结构，预期价格不应跌破FVG区域，应在此获得支撑。\",\"Step 8: 观察后续走势：价格向下扩张3根K线进入范围，随后向上回缩8根K线（约2/3的下跌幅度）。\"],\"outcome\":null,\"lessons\":\"多时间框架对齐（日线收盘+1H反转+CSD）大幅提升反转信号的有效性。灯芯不尊重EQ、扩张与回缩的节奏失衡是反转失败的预警信号。使用日线收盘和交付状态改变来验证1H反转，而非单纯依赖形态。\",\"primary_image_frame_id\":\"VD4xb9VfMHA_f033\",\"supporting_image_frame_ids\":[\"VD4xb9VfMHA_f030\",\"VD4xb9VfMHA_f031\",\"VD4xb9VfMHA_f032\",\"VD4xb9VfMHA_f034\",\"VD4xb9VfMHA_f035\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Change in the state of delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Equilibrium (EQ)\",\"Displacement\",\"Premium / Discount\",\"Phases of Price\",\"Daily Closure Alignment\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从区间识别、突破、灯芯反转、日线对齐到后续走势的全过程分析，关键价位（1.37700、1.36900、1.37200）清晰，分析步骤逻辑完整。\"}",
+  "error": null
+}

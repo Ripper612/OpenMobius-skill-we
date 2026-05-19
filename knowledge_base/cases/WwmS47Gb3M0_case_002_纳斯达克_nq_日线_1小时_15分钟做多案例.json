@@ -1,0 +1,114 @@
+{
+  "card_id": "WwmS47Gb3M0_case_002_纳斯达克_nq_日线_1小时_15分钟做多案例",
+  "type": "case",
+  "title": "NQ日线-1小时-15分钟多头设置：前日低点扫除+FVG目标",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Midnight Open",
+      "card_id": "midnight_open",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "smart_money_technique_smt",
+    "change_in_the_state_of_delivery_csd",
+    "market_structure_shift_mss",
+    "equilibrium_eq",
+    "premium_discount",
+    "liquidity",
+    "midnight_open"
+  ],
+  "school": "ICT",
+  "asset": "NQ",
+  "timeframe": "1D / 1H / 15M",
+  "market_context": "NQ在日线上扫除前日低点，触发1小时看跌FVG形成。15分钟出现SMT与市场结构转变信号，为多头入场提供机会。",
+  "key_observation": "博主识别到前日低点被扫除后，1小时形成的看跌FVG成为目标区域；15分钟同时出现SMT和CSD，确认多头设置的有效性。",
+  "analysis_steps": [
+    "Step 1: 在NQ日线图上标记前日低点（Previous Day Low）",
+    "Step 2: 下钻至1小时图，识别并标记看跌FVG，确认该FVG已被触及且处于折价区上方的均衡位置",
+    "Step 3: 进一步下钻至15分钟图，确认前日低点再次被扫除",
+    "Step 4: 在15分钟图上识别SMT（与GBP CAD出现分歧）和市场结构转变（CSD），确认突破前期高点并收盘于下跌K线序列上方",
+    "Step 5: 确定入场点位于午夜开盘（Midnight Open）下方，止损设在该低点，计算风险回报比达到最少2R",
+    "Step 6: 执行多头入场，目标指向1小时FVG的均衡位置"
+  ],
+  "outcome": "价格从午夜开盘下方入场后上升，成功触及1小时FVG的均衡位置，达成目标。",
+  "lessons": "多时间框架协同分析提高入场确定性：日线前日低点扫除→1小时FVG目标→15分钟SMT+CSD确认。使用午夜开盘作为参考点可精确定位风险回报比。",
+  "primary_image": "cards/WwmS47Gb3M0/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/WwmS47Gb3M0/images/case_002_detail_1.jpg",
+    "cards/WwmS47Gb3M0/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ETH 1 小时 K 线图。图上有一个黄色矩形标注区域，标记为'TTrade_oKu'，覆盖图表左侧上方区域。图表显示从左侧约 18240 处向下跳空至 18060 附近。随后 K 线形成盘整形态，多根小实体 K 线在 18060 至 18150 区间内排列。图表右侧显示上升趋势，K 线从 18060 逐步上升至 18180 附近，最后一根绿色 K 线上影线延伸至约 18200。图右侧标注'0.0",
+    "case_002_detail_1.jpg": "TTI/USDT 日线图表。图上显示约 20 根 K 线，价格范围从 18640 到 17600。左侧为绿色看涨 K 线，中间段混合绿色和黑色 K 线，右侧有一根特别长的黑色 K 线，其下影线从约 18400 向下刺至 17600 附近。图上标注有日期'4/4/2024'、时间'16:11 D'和文字'61.80 Apr 24'。右下角有黄色十字光标标记。底部工具栏显示'Sell'和'Buy'按钮",
+    "case_002_detail_2.jpg": "TTIndex_okt 图表显示从左至右的价格走势。图上标注有两个矩形区域：上方黄色矩形覆盖约 18200 至 18625 价格范围，下方浅蓝色矩形覆盖约 17850 至 18200 价格范围。K 线从左侧约 18975 下跌至中间约 17850，随后反弹至右侧约 18625。图右下角显示日期标记'5/4/2024'及'HO11 6004'。可见价格范围整体跨度约 17800 至 18725。"
+  },
+  "sources": [
+    {
+      "video_id": "WwmS47Gb3M0",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        194.28,
+        372.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程、具体价位标记、入场逻辑和交易结果，信息清晰完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:52.080021Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线-1小时-15分钟多头设置：前日低点扫除+FVG目标\",\"school\":\"ICT\",\"asset\":\"NQ\",\"timeframe\":\"1D / 1H / 15M\",\"market_context\":\"NQ在日线上扫除前日低点，触发1小时看跌FVG形成。15分钟出现SMT与市场结构转变信号，为多头入场提供机会。\",\"key_observation\":\"博主识别到前日低点被扫除后，1小时形成的看跌FVG成为目标区域；15分钟同时出现SMT和CSD，确认多头设置的有效性。\",\"analysis_steps\":[\"Step 1: 在NQ日线图上标记前日低点（Previous Day Low）\",\"Step 2: 下钻至1小时图，识别并标记看跌FVG，确认该FVG已被触及且处于折价区上方的均衡位置\",\"Step 3: 进一步下钻至15分钟图，确认前日低点再次被扫除\",\"Step 4: 在15分钟图上识别SMT（与GBP CAD出现分歧）和市场结构转变（CSD），确认突破前期高点并收盘于下跌K线序列上方\",\"Step 5: 确定入场点位于午夜开盘（Midnight Open）下方，止损设在该低点，计算风险回报比达到最少2R\",\"Step 6: 执行多头入场，目标指向1小时FVG的均衡位置\"],\"outcome\":\"价格从午夜开盘下方入场后上升，成功触及1小时FVG的均衡位置，达成目标。\",\"lessons\":\"多时间框架协同分析提高入场确定性：日线前日低点扫除→1小时FVG目标→15分钟SMT+CSD确认。使用午夜开盘作为参考点可精确定位风险回报比。\",\"primary_image_frame_id\":\"WwmS47Gb3M0_f009\",\"supporting_image_frame_ids\":[\"WwmS47Gb3M0_f008\",\"WwmS47Gb3M0_f010\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Smart Money Technique (SMT)\",\"Change in the state of delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Equilibrium (EQ)\",\"Premium / Discount\",\"Liquidity\",\"Midnight Open\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个时间框架的分析过程、具体价位标记、入场逻辑和交易结果，信息清晰完整。\"}",
+  "error": null
+}

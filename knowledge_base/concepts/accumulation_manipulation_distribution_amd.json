@@ -1,0 +1,250 @@
+{
+  "card_id": "accumulation_manipulation_distribution_amd",
+  "type": "merged_concept",
+  "canonical_term": "Accumulation, Manipulation, Distribution (AMD)",
+  "aliases": [
+    "AMD模型",
+    "Power of 3",
+    "三阶段模型",
+    "价格三阶段模型",
+    "盒子设置的三个阶段"
+  ],
+  "school": "ICT",
+  "definition": "价格在一个完整周期内的三阶段运动模型：积累阶段（价格在区间内横盘盘整，机构悄然建仓）；操纵阶段（价格激进突破区间边界，扫荡前期摆动高/低点流动性，制造虚假突破诱导零售交易者）；派发阶段（价格激进反向运动，朝真实方向扩张完成周期）。三阶段须依次出现。",
+  "identification_rules": [
+    "积累阶段：价格在明确区间内多次震荡横盘，形成相对平坦的价格行动，通常伴随订单块（OB）或公允价值缺口（FVG）的形成",
+    "操纵阶段：价格从积累区间激进突破（向上或向下），扫除前期摆动高点或低点的流动性，随后立即激进回撤至积累区间内，形成虚假突破；通常伴随FVG产生",
+    "操纵阶段确认：应伴随市场结构转变（MSS）、交付状态改变（CSD）或相关资产分歧（SMT）信号",
+    "派发阶段：价格从操纵区域反向激进运动，突破积累区间的另一侧，向目标流动性区域扩张",
+    "三阶段须按顺序出现（积累→操纵→派发），不可跳过或颠倒",
+    "标记积累区间的上下边界，追踪激进突破和激进回测的发生位置及强度",
+    "可使用操纵腿的高点到低点（或反之）进行标准差投影，确定派发阶段的价格目标",
+    "该模型为分形结构，可应用于多个时间框架（月线、日线、小时线等），也可跨交易时段分析（如亚洲积累、伦敦操纵、纽约派发）"
+  ],
+  "trading_implication": "AMD模型用于区分虚假突破与真实趋势启动，识别高概率入场点。在积累阶段识别区间边界并建立方向偏向；在操纵阶段等待流动性扫荡（Stop Raid）和反向确认信号（MSS/CSD）；在派发阶段于回测关键水平（OB、FVG、OTE等PD Array）入场，止损设于操纵高/低点，目标为标准差投影位或前期摆动点。跨时间框架分析（高时间框架确认AMD结构，低时间框架精化入场）可提高精准度。",
+  "common_mistakes": [
+    "在操纵阶段假突破处立即跟风入场，未等待流动性扫荡完成和反向确认信号（MSS/CSD）",
+    "将单次位移或任意虚假突破误认为操纵阶段，忽视激进回撤至积累区间的必要性",
+    "在派发阶段未完成前过早入场，被困于持续的操纵中",
+    "过度关注积累区间本身的具体价格，而忽视激进突破和激进回测的位置与强度",
+    "在溢价区域寻找做多入场点，或在折价区域寻找做空入场点，方向与派发阶段相悖",
+    "在买方曲线上尝试做空、在卖方曲线上尝试做多，导致逆势入场被扫出",
+    "混淆派发阶段与积累阶段，导致方向判断错误",
+    "忽视不同时间框架AMD周期的叠加效应，未在高时间框架确认结构就在低时间框架交易",
+    "未结合CSD、SMT等确认信号，凭主观判断AMD的形成",
+    "仅观察单根K线而忽视整个三阶段周期的完整性",
+    "未能正确识别积累区域边界，导致操纵腿标准差投影不准确"
+  ],
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Price/Discount Array (PD Array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projections",
+      "card_id": "standard_deviation_projections",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "E6bpY4dQvlE_case_001_s_p_500_e_mini期货15秒图box_setup交易案",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES E-mini期货15秒图Box Setup做多交易案例"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_005_nq1日线月度结构分析",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1日线月度结构中的回撤入场与反转信号"
+    },
+    {
+      "card_id": "FXJBFbZQbck_case_006_亚洲盘提前触及前日高点导致交易机会消失",
+      "video_id": "FXJBFbZQbck",
+      "title": "亚洲盘提前触及前日高点导致纽约盘交易机会消失"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_001_第一个amd与标准差投影案例",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "AMD标准差投影与AMD模型的完整交易案例"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_003_多时段amd案例_亚洲_伦敦_纽约",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "NQ11多时段AMD模式：亚洲积累-伦敦操纵-纽约派发"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_002_5_分钟图中的失败摆动与派发",
+      "video_id": "TCFvsZeYvV8",
+      "title": "5分钟图中的失败摆动与派发交易设置"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_006_识别操纵后的盘整_从操纵反推盘整范围",
+      "video_id": "TCFvsZeYvV8",
+      "title": "通过识别操纵反推盘整范围的方法论"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_007_伦敦时段的投影与派发预测",
+      "video_id": "TCFvsZeYvV8",
+      "title": "伦敦时段操纵腿投影与派发预测"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "original_card_id": "0xygpCMwxbQ_concept_accumulation_manipulation_distribution",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        367.8,
+        548.1
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_accumulation_manipulation_distribution",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        481.74,
+        491.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "E6bpY4dQvlE",
+      "original_card_id": "E6bpY4dQvlE_concept_accumulation_manipulation_distribution_a",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        182.099
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_accumulation_manipulation_distribution",
+      "segment_ids": [
+        "seg_015"
+      ],
+      "time_range": [
+        678.16,
+        719.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "original_card_id": "Pcbyc9TdNsU_concept_accumulation_manipulation_distribution_a",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.36,
+        593.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_accumulation_manipulation_distribution_a",
+      "segment_ids": [
+        "seg_013"
+      ],
+      "time_range": [
+        481.16,
+        522.44
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 6,
+    "source_videos": 6,
+    "high_confidence_sources": 6,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:21.690788Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "6张原始卡均标注ICT，school无冲突，直接选ICT。",
+  "error": null
+}

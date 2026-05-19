@@ -1,0 +1,108 @@
+{
+  "card_id": "WwmS47Gb3M0_case_001_黄金_xauusd_日线_1小时_15分钟做多案例",
+  "type": "case",
+  "title": "黄金日线触及前日低点，1H看跌FVG+M15 SMT做多案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Midnight Open",
+      "card_id": "midnight_open",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "smart_money_technique_smt",
+    "change_in_state_of_delivery_csd",
+    "liquidity",
+    "midnight_open",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "1D / 1H / M15",
+  "market_context": "黄金处于日线上升趋势中。价格触及前日低点后，1小时形成看跌FVG（Fair Value Gap），15分钟出现SMT（与白银的分歧）和交付状态改变（CSD），为做多提供高概率设置。",
+  "key_observation": "博主应用MXM Traders Twitter模型：识别前日低点被触及→1小时看跌FVG形成→15分钟出现SMT和CSD→在午夜开盘下方寻找做多入场，目标回补1小时FVG。",
+  "analysis_steps": [
+    "Step 1: 在日线图上确认黄金处于上升趋势，标记前日低点位置。",
+    "Step 2: 下降到1小时时间框架，观察价格触及前日低点后是否形成看跌FVG（不平衡区域）。",
+    "Step 3: 进一步下降到15分钟时间框架，寻找Market Structure Shift或Change in State of Delivery（CSD）信号。",
+    "Step 4: 识别15分钟图上的SMT现象（黄金创新低但白银未创新低），确认做多信号。",
+    "Step 5: 在午夜开盘（Midnight Open）下方寻找入场点，设置止损于FVG蜡烛的低点。",
+    "Step 6: 确保风险回报比至少为2R，目标指向1小时看跌FVG区域。"
+  ],
+  "outcome": "成功触及1小时FVG目标。根据图表标注，目标价位2397.5已达成（标注为'Achieved: 0.50 x'），止损设置在2210.275处，风险回报比达到预期。",
+  "lessons": "MXM模型通过多时间框架联动（日线→1小时→15分钟）识别高概率入场点。关键要素包括：前期流动性扫荡、更小时间框架的结构转变、SMT确认，以及相对于午夜开盘的位置。严格的2R最小风险回报比管理确保交易的可行性。",
+  "primary_image": "cards/WwmS47Gb3M0/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/WwmS47Gb3M0/images/case_001_detail_1.jpg",
+    "cards/WwmS47Gb3M0/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "XAUUSD 15分钟K线图。图上标注有三个矩形区域和一条趋势线。上方黄色矩形标记为'Target: 2,870 (1.00) 2397.5 Achieved: 0.50 x'，中间绿色矩形标记为'Open FVG: 4.75% +0.2 x 2'，下方黄色矩形标记为'Stop: 11.00 (0.50) 1.00% x Achieved: 0000'。可见价格范围从2210.275至2412.0",
+    "case_001_detail_1.jpg": "XAUUSD 4小时K线图。图上显示从左侧约2204000的低点上升至中部约2424000的高点，随后出现大幅下跌。一条水平虚线标注在2344500处，贯穿整个图表。图上标有'0/0'和'FEL'两个文字标签。左侧显示一段盘整区间，中部显示一根长上影线的大黑色K线，下方显示下跌后的整理形态。图表右侧显示时间标记为12/4/2024。",
+    "case_001_detail_2.jpg": "TTUSDT 15分钟K线图。图上显示价格从左侧约2412.00向下跳空至2280.00。中间区域K线在2240.00至2360.00之间震荡整理。右侧出现从2240.00向下的快速下跌至2020.00。图上有一条黄色矩形框标注，覆盖约2280.00至2380.00的价格区间。另有一条水平虚线位于2372.30处，标记有黄色十字光标。图上文字标签包括'FEB'和'5/0'。"
+  },
+  "sources": [
+    {
+      "video_id": "WwmS47Gb3M0",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.84,
+        194.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了MXM模型在XAUUSD上的应用，清晰标注了前日低点、1H FVG、M15 SMT/CSD、入场点、止损和目标价位，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:47.723547Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金日线触及前日低点，1H看跌FVG+M15 SMT做多案例\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"1D / 1H / M15\",\"market_context\":\"黄金处于日线上升趋势中。价格触及前日低点后，1小时形成看跌FVG（Fair Value Gap），15分钟出现SMT（与白银的分歧）和交付状态改变（CSD），为做多提供高概率设置。\",\"key_observation\":\"博主应用MXM Traders Twitter模型：识别前日低点被触及→1小时看跌FVG形成→15分钟出现SMT和CSD→在午夜开盘下方寻找做多入场，目标回补1小时FVG。\",\"analysis_steps\":[\"Step 1: 在日线图上确认黄金处于上升趋势，标记前日低点位置。\",\"Step 2: 下降到1小时时间框架，观察价格触及前日低点后是否形成看跌FVG（不平衡区域）。\",\"Step 3: 进一步下降到15分钟时间框架，寻找Market Structure Shift或Change in State of Delivery（CSD）信号。\",\"Step 4: 识别15分钟图上的SMT现象（黄金创新低但白银未创新低），确认做多信号。\",\"Step 5: 在午夜开盘（Midnight Open）下方寻找入场点，设置止损于FVG蜡烛的低点。\",\"Step 6: 确保风险回报比至少为2R，目标指向1小时看跌FVG区域。\"],\"outcome\":\"成功触及1小时FVG目标。根据图表标注，目标价位2397.5已达成（标注为'Achieved: 0.50 x'），止损设置在2210.275处，风险回报比达到预期。\",\"lessons\":\"MXM模型通过多时间框架联动（日线→1小时→15分钟）识别高概率入场点。关键要素包括：前期流动性扫荡、更小时间框架的结构转变、SMT确认，以及相对于午夜开盘的位置。严格的2R最小风险回报比管理确保交易的可行性。\",\"primary_image_frame_id\":\"WwmS47Gb3M0_f007\",\"supporting_image_frame_ids\":[\"WwmS47Gb3M0_f005\",\"WwmS47Gb3M0_f006\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Smart Money Technique (SMT)\",\"Change in State of Delivery (CSD)\",\"Liquidity\",\"Midnight Open\",\"Risk Management\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了MXM模型在XAUUSD上的应用，清晰标注了前日低点、1H FVG、M15 SMT/CSD、入场点、止损和目标价位，交易结果明确。\"}",
+  "error": null
+}

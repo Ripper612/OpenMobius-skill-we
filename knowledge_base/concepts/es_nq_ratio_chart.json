@@ -1,0 +1,54 @@
+{
+  "card_id": "es_nq_ratio_chart",
+  "type": "merged_concept",
+  "canonical_term": "ES/NQ Ratio Chart",
+  "aliases": [
+    "ES divided by NQ chart",
+    "ES/NQ comparison chart"
+  ],
+  "school": "SMC",
+  "definition": "在TradingView上绘制ES除以NQ的比值图表。图表上升表示ES相对强于NQ；下降表示ES相对弱于NQ。用于直观判断两个相关资产的相对强弱关系。",
+  "identification_rules": [
+    "在TradingView中创建ES/NQ的除法公式图表（ES ÷ NQ）",
+    "观察比值图表的方向：上升趋势表示ES相对强势、NQ相对弱势；下降趋势表示ES相对弱势、NQ相对强势",
+    "比值图表的反转（从上升转为下降或反之）表示两资产间相关性的改变"
+  ],
+  "trading_implication": "通过ES/NQ比值图表的方向快速判断两资产相对强弱，指导交易策略选择。当比值上升（ES强NQ弱）时，优先在ES上寻找做多机会，在NQ上寻找做空机会；反之亦然。比值图表的反转可能领先于实际价格反转，提供早期预警信号。",
+  "common_mistakes": [
+    "混淆比值图表方向与单个资产的涨跌方向，导致交易信号反向",
+    "仅依赖比值图表而忽视ES和NQ各自的具体K线形态、订单块等细节结构"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "original_card_id": "c_mh19e3mhI_concept_es_nq_ratio_chart",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        184.26,
+        828.66
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132774Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

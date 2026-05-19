@@ -1,0 +1,93 @@
+{
+  "card_id": "rXMVPUZPw4A_case_002_es_5分钟图_被甩出的交易案例",
+  "type": "case",
+  "title": "ES 5分钟图：价格提前触及目标导致交易被甩出",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "High-Low-Higher High",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "market_structure",
+    "breaker_block"
+  ],
+  "school": "ICT",
+  "asset": "ES11",
+  "timeframe": "5M",
+  "market_context": "ES期货在5分钟图上形成高-低-更高的结构，价格通过下跌K线进行位移，随后回测形成Breaker Block和FVG。",
+  "key_observation": "博主识别出高-低-更高的市场结构和Breaker Block，但价格在到达预期入场点（Breaker Block回测区域）之前已提前触及目标价位，导致交易机会被错过。",
+  "analysis_steps": [
+    "Step 1: 识别高-低-更高的市场结构（High-Low-Higher High）",
+    "Step 2: 确认价格通过一系列下跌K线进行位移（Displacement through down close candles）",
+    "Step 3: 标记最低的下跌K线系列作为参考点",
+    "Step 4: 预期价格回测至Breaker Block区域",
+    "Step 5: 确认在Breaker Block处形成Fair Value Gap（FVG）",
+    "Step 6: 设置止损位于Breaker Block上方（较大的止损范围）",
+    "Step 7: 观察价格在到达入场点前已提前触及目标，导致不进场"
+  ],
+  "outcome": "价格在到达预期的Breaker Block回测入场点之前已提前触及目标价位，交易者因此不进场，被甩出这笔交易。",
+  "lessons": "即使市场结构和Breaker Block识别正确，也需要监控价格是否提前到达目标。价格提前触及目标意味着风险回报比不再有利，应该放弃该交易机会，避免被动进场。",
+  "primary_image": "cards/rXMVPUZPw4A/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/rXMVPUZPw4A/images/case_002_detail_1.jpg",
+    "cards/rXMVPUZPw4A/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 5分钟K线图，时间戳显示11/9/2023。图表显示从07:00至12:30的价格走势，整体价格范围从4029.75至4046.00。K线序列中绿色和黑色蜡烛交替出现，呈上升趋势。图上绘制有一条灰色矩形框，位置约在4038.00至4041.00区间。09:30附近的K线显示长上影线，刺破至4043.00后收回。图右下方有黄色十字标记。左下角显示€511.72标签。",
+    "case_002_detail_1.jpg": "USD 5分钟K线图。图上显示从02:00至19:00的价格走势，价格范围在4520.00至4548.00之间。图表中绘有一条从左下向右上延伸的上升趋势线。K线以绿色和黑色混合显示，整体呈上升趋势。右下角标注文字为'2023'和'ES11 | 5M'。图上未见其他指标或标注。",
+    "case_002_detail_2.jpg": "USD 5分钟K线图，时间范围从02:00至15:00。图上显示价格从4522.00上升至4542.00，随后急速下跌至4524.00。可见一条向上倾斜的趋势线从左下方延伸至中上方。图右侧有一个灰色矩形框标注，覆盖4536.00至4542.00价格区间。图上有两条水平线分别位于4534.00和4527.23处。K线序列中绿色K线主要出现在上升阶段，黑色K线主要出现在下跌和整理阶段。"
+  },
+  "sources": [
+    {
+      "video_id": "rXMVPUZPw4A",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        268.08,
+        380.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了结构识别、Breaker Block标记、FVG确认和最终被甩出的全过程，关键价位和分析步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:17.957467Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 5分钟图：价格提前触及目标导致交易被甩出\",\"school\":\"ICT\",\"asset\":\"ES11\",\"timeframe\":\"5M\",\"market_context\":\"ES期货在5分钟图上形成高-低-更高的结构，价格通过下跌K线进行位移，随后回测形成Breaker Block和FVG。\",\"key_observation\":\"博主识别出高-低-更高的市场结构和Breaker Block，但价格在到达预期入场点（Breaker Block回测区域）之前已提前触及目标价位，导致交易机会被错过。\",\"analysis_steps\":[\"Step 1: 识别高-低-更高的市场结构（High-Low-Higher High）\",\"Step 2: 确认价格通过一系列下跌K线进行位移（Displacement through down close candles）\",\"Step 3: 标记最低的下跌K线系列作为参考点\",\"Step 4: 预期价格回测至Breaker Block区域\",\"Step 5: 确认在Breaker Block处形成Fair Value Gap（FVG）\",\"Step 6: 设置止损位于Breaker Block上方（较大的止损范围）\",\"Step 7: 观察价格在到达入场点前已提前触及目标，导致不进场\"],\"outcome\":\"价格在到达预期的Breaker Block回测入场点之前已提前触及目标价位，交易者因此不进场，被甩出这笔交易。\",\"lessons\":\"即使市场结构和Breaker Block识别正确，也需要监控价格是否提前到达目标。价格提前触及目标意味着风险回报比不再有利，应该放弃该交易机会，避免被动进场。\",\"primary_image_frame_id\":\"rXMVPUZPw4A_f012\",\"supporting_image_frame_ids\":[\"rXMVPUZPw4A_f011\",\"rXMVPUZPw4A_f013\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Market Structure\",\"Breaker Block\",\"High-Low-Higher High\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了结构识别、Breaker Block标记、FVG确认和最终被甩出的全过程，关键价位和分析步骤清晰。\"}",
+  "error": null
+}

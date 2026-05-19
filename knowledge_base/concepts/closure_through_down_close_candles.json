@@ -1,0 +1,59 @@
+{
+  "card_id": "closure_through_down_close_candles",
+  "type": "merged_concept",
+  "canonical_term": "Closure Through Down Close Candles",
+  "aliases": [
+    "Closure Through Series of Down Candles",
+    "Down Close Candles Confirmation"
+  ],
+  "school": "ICT",
+  "definition": "价格通过一系列向下收盘的K线穿过关键价格水平，确认市场结构转变或趋势反转的有效性。需等待此闭合确认后才能确定低点或高点的有效性。",
+  "identification_rules": [
+    "识别关键价格水平（如SMT形成的低点、摆动点等）",
+    "观察价格是否形成一系列连续的向下收盘K线（down close candles）",
+    "确认这些向下收盘K线是否穿过并闭合在该关键水平之下",
+    "穿过该水平的闭合必须由多根K线组成的系列完成，而非单根K线",
+    "此确认表明低点已被有效建立，可预期后续上升延续"
+  ],
+  "trading_implication": "Closure Through Down Close Candles是确认市场结构转变有效性的关键信号。当价格通过一系列向下收盘K线穿过关键水平时，表明该低点已被机构确认，交易者可以预期后续的上升延续。这种确认允许交易者以更高的概率进场，通常与Change in State of Delivery配合使用，形成多时间框架对齐的交易设置。",
+  "common_mistakes": [
+    "仅用单根K线穿过关键水平作为确认，而非等待一系列向下收盘K线的闭合",
+    "未区分向下收盘K线系列与简单的价格下跌，导致误判确认信号",
+    "在未获得此确认前过早进场，增加被扫荡流动性的风险",
+    "忽视此确认与SMT或其他市场结构信号的配合使用，降低交易概率"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "original_card_id": "5fnFOh5YuM0_concept_closure_through_down_close_candles",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        191.4,
+        904.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131710Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

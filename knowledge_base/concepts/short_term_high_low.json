@@ -1,0 +1,67 @@
+{
+  "card_id": "short_term_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Short-term High/Low",
+  "aliases": [
+    "短期目标",
+    "近期摆动高/低点"
+  ],
+  "school": "ICT",
+  "definition": "在当前价格走势中最近形成的摆动高点或低点。当continuation同时扫除这些点位时，往往预示反向运动而非趋势延续，需要谨慎对待。",
+  "identification_rules": [
+    "识别最近几根K线形成的局部高点或低点，通常在当前走势的左侧邻近区域",
+    "区别于更高时间框架的目标（HTF target）或流动性聚集点（Buyside/Sellside Liquidity）",
+    "当价格突破这些点位时，观察是否同时形成continuation或仅为操纵（manipulation）",
+    "短期高/低通常不如订单块（Order Block）或公允价值缺口（FVG）那样显著，但在判断continuation有效性时仍需关注"
+  ],
+  "trading_implication": "当continuation形成时同时扫除短期高/低，这通常是操纵信号，预示价格可能反向运动而非继续原方向。交易者应等待额外确认（如新的continuation或市场结构转变），而非立即入场。这是避免被止损的关键——通过识别这种情况，可以判断continuation是否真实可信。",
+  "common_mistakes": [
+    "在continuation扫除短期高/低时立即入场，忽视了这可能是操纵而非真实突破",
+    "混淆短期高/低与更重要的流动性聚集点（如buyside/sellside liquidity），导致风险管理不当",
+    "未能区分是否同时满足'扫除短期高/低'和'形成continuation'两个条件，仅看到其中一个就入场",
+    "忽视短期高/低被扫除时可能形成的反向市场结构转变（bearish/bullish change in state of delivery）"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "PQiRV0JMhIQ_case_007_多资产图表_consolidation范围的操纵与突破",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1H：Consolidation范围内的低点操纵与突破确认"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "original_card_id": "PQiRV0JMhIQ_concept_short_term_high_low",
+      "segment_ids": [
+        "seg_002",
+        "seg_012",
+        "seg_014",
+        "seg_015",
+        "seg_017",
+        "seg_018",
+        "seg_024"
+      ],
+      "time_range": [
+        54.079,
+        1365.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135866Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

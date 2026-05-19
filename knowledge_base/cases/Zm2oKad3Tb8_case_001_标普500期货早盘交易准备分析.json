@@ -1,0 +1,129 @@
+{
+  "card_id": "Zm2oKad3Tb8_case_001_标普500期货早盘交易准备分析",
+  "type": "case",
+  "title": "标普500期货早盘交易准备：从日线到1分钟的多时间框架分析流程",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Midnight Opening Price",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Economic Calendar",
+      "card_id": "economic_calendar",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "order_block",
+    "equilibrium",
+    "market_structure",
+    "fibonacci_retracement",
+    "high_low_time_frame",
+    "economic_calendar"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1D / 4H / 1H / 15M / 5M / 1M",
+  "market_context": "标普500期货在日线上形成等低点后出现位移，预期价格将回测折价区。8:30有高影响力经济数据发布。分析师准备从日线识别目标，逐级向下到1分钟寻找具体入场点。",
+  "key_observation": "日线等低点形成后的位移范围未回测到折价区，表明价格预期向上。需要在午夜开盘价下方扫除流动性后才能做多。",
+  "analysis_steps": [
+    "Step 1: 观察日线价格走势，识别最近的高点和等低点，判断位移范围的存在。",
+    "Step 2: 在日线上标记等低点作为后续目标，确认位移范围未回测到折价区。",
+    "Step 3: 查阅经济日历（Forex Factory），标记8:30高影响力新闻时间点。",
+    "Step 4: 在15分钟图上标记明显的高点和低点，识别流动性位置。",
+    "Step 5: 在15分钟上标记午夜开盘价（Midnight opening price），作为做多的关键参考。",
+    "Step 6: 识别15分钟上的公允价值缺口（FVG），作为潜在支撑区域。",
+    "Step 7: 在5分钟图上标记位移范围的停止点，确定高低点用于回测。",
+    "Step 8: 在5分钟上识别FVG，标记0.625斐波那契回撤位作为备选入场区。",
+    "Step 9: 在1分钟图上标记午夜开盘价和FVG，准备具体的入场、止损和目标位。",
+    "Step 10: 设置交易计划：首选在8:30后扫除下方流动性后做多，止损在低点，分批获利至高点；备选在0.625斐波那契位入场。"
+  ],
+  "outcome": null,
+  "lessons": "早盘交易准备需要从高时间框架（日线）识别大方向和目标，再通过中等时间框架（15分钟）标记关键流动性和新闻时间，最后在低时间框架（5分钟、1分钟）寻找具体入场点。多时间框架的协调使用能提高交易的确定性和风险管理的精准度。",
+  "primary_image": "cards/Zm2oKad3Tb8/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/Zm2oKad3Tb8/images/case_001_detail_2.jpg",
+    "cards/Zm2oKad3Tb8/images/case_001_detail_3.jpg",
+    "cards/Zm2oKad3Tb8/images/case_001_detail_4.jpg",
+    "cards/Zm2oKad3Tb8/images/case_001_detail_5.jpg",
+    "cards/Zm2oKad3Tb8/images/case_001_detail_6.jpg",
+    "cards/Zm2oKad3Tb8/images/case_001_detail_7.jpg",
+    "cards/Zm2oKad3Tb8/images/case_001_detail_8.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 日线图。图上显示从三月下旬至十一月的价格走势，整体价格范围从 3560.00 至 4680.00。图中有两条水平线标注，分别位于 4148.50 和 4280.00 处。K 线呈现绿色（上升）和红色（下降）交替分布，中间区域显示在 4148.50 至 4280.00 之间的盘整形态。右侧价格刻度清晰可见，最新报价显示在 4148.50 附近。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 日线图。图上显示从3月下旬至11月中旬的价格走势。可见价格范围约从3560.00至4680.00。图上有两条水平线分别位于4353.00和4113.00，围成一个矩形标注区域。该矩形跨越8月中旬至9月中旬的时间段。K线呈现绿色和红色交替分布，早期从高点4680.00下跌至6月低点3560.00附近，随后逐步回升。右侧价格刻度显示当前价格标记。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 日线图。图上显示从 3 月下旬至 11 月初的价格走势。可见价格范围约从 3650 到 4680。图中有一个矩形标注框，位于 4180 至 4313 之间，标记为 EQ。矩形右侧有三条文字标签分别标记为 0.75、0.5、0.25。K 线由绿色（上升）和红色（下降）蜡烛组成，10 月中旬后的 K 线在 4180 至 4313 区间内呈现整理形态。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示从约4128.00至4187.75的上升趋势，跨越约20根K线。图表右侧标注有5条水平线，分别位于4187.75、4175.00、4168.25、4155.00和4143.00处，每条线之间用矩形框标记。K线由绿色和红色混合组成。右侧价格轴显示当前价格为4167.50。图上未见其他指标或标注。",
+    "case_001_detail_5.jpg": "S&P 500 E-mini Futures 15分钟图表。图上显示从约4145到4187.75的价格范围。图表左侧显示一根大型绿色K线，随后是一系列红绿相间的K线在4155至4187.75区间内波动。图上标注有5条水平线分别位于4187.75、4180、4170、4155和4145处。图中央有一个矩形标注标记为'Midnight opening price'，指向约4145至4160的价格区域。",
+    "case_001_detail_6.jpg": "ES 15分钟K线图。图上有4条水平线标注价格水平，分别位于4167.75、4162.25、4152.50和4143.00。图上绘制了3个矩形区域：上方绿色区域跨越4167.75至4180.00、中间灰色区域跨越4143.00至4162.25、下方粉色区域跨越4143.00至4152.50。图中标注文字'Midnight opening price'位于图表中部。可见K线从左侧低位上升至高位后，随",
+    "case_001_detail_7.jpg": "S&P 500 E-mini Futures 1 分钟图。图上显示从 03:00 至 15:00 的价格走势，价格范围在 4124.25 至 4197.75 之间。图上有 4 条水平线标注，其中一条标记为'Midnight opening price'位于 4148.25，另有标记'eft PVG'的线条。图下方有两个矩形区域分别对应不同价格区间。K 线序列显示初期上升后转为下降趋势，中间出现整固",
+    "case_001_detail_8.jpg": "ES 1分钟K线图。图上显示从05:00至16:00的价格走势，整体价格范围4095.00至4220.25。图上有4条水平线标注关键价位。右侧标注了3个矩形框，分别标记为目标价、开仓信息和止损价。图表左下方标注'Midnight opening price'。K线形态显示早期下跌趋势，随后出现向上反转，绿色K线从低点上升至4165.00附近，之后红色K线回落。图上未见其他技术指标。"
+  },
+  "sources": [
+    {
+      "video_id": "Zm2oKad3Tb8",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.96,
+        237.159
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到1分钟的分析流程，每个时间框架的操作步骤清晰，关键价位（等低点、午夜开盘价、FVG、斐波那契位）都有图表标注，入场逻辑和风险管理方案明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:39.341250Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500期货早盘交易准备：从日线到1分钟的多时间框架分析流程\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1D / 4H / 1H / 15M / 5M / 1M\",\"market_context\":\"标普500期货在日线上形成等低点后出现位移，预期价格将回测折价区。8:30有高影响力经济数据发布。分析师准备从日线识别目标，逐级向下到1分钟寻找具体入场点。\",\"key_observation\":\"日线等低点形成后的位移范围未回测到折价区，表明价格预期向上。需要在午夜开盘价下方扫除流动性后才能做多。\",\"analysis_steps\":[\"Step 1: 观察日线价格走势，识别最近的高点和等低点，判断位移范围的存在。\",\"Step 2: 在日线上标记等低点作为后续目标，确认位移范围未回测到折价区。\",\"Step 3: 查阅经济日历（Forex Factory），标记8:30高影响力新闻时间点。\",\"Step 4: 在15分钟图上标记明显的高点和低点，识别流动性位置。\",\"Step 5: 在15分钟上标记午夜开盘价（Midnight opening price），作为做多的关键参考。\",\"Step 6: 识别15分钟上的公允价值缺口（FVG），作为潜在支撑区域。\",\"Step 7: 在5分钟图上标记位移范围的停止点，确定高低点用于回测。\",\"Step 8: 在5分钟上识别FVG，标记0.625斐波那契回撤位作为备选入场区。\",\"Step 9: 在1分钟图上标记午夜开盘价和FVG，准备具体的入场、止损和目标位。\",\"Step 10: 设置交易计划：首选在8:30后扫除下方流动性后做多，止损在低点，分批获利至高点；备选在0.625斐波那契位入场。\"],\"outcome\":null,\"lessons\":\"早盘交易准备需要从高时间框架（日线）识别大方向和目标，再通过中等时间框架（15分钟）标记关键流动性和新闻时间，最后在低时间框架（5分钟、1分钟）寻找具体入场点。多时间框架的协调使用能提高交易的确定性和风险管理的精准度。\",\"primary_image_frame_id\":\"Zm2oKad3Tb8_f010\",\"supporting_image_frame_ids\":[\"Zm2oKad3Tb8_f002\",\"Zm2oKad3Tb8_f001\",\"Zm2oKad3Tb8_f003\",\"Zm2oKad3Tb8_f006\",\"Zm2oKad3Tb8_f007\",\"Zm2oKad3Tb8_f005\",\"Zm2oKad3Tb8_f008\",\"Zm2oKad3Tb8_f009\"],\"related_concepts\":[\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Order Block\",\"Equilibrium\",\"Midnight Opening Price\",\"Market Structure\",\"Fibonacci Retracement\",\"HTF / LTF\",\"Economic Calendar\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到1分钟的分析流程，每个时间框架的操作步骤清晰，关键价位（等低点、午夜开盘价、FVG、斐波那契位）都有图表标注，入场逻辑和风险管理方案明确。\"}",
+  "error": null
+}

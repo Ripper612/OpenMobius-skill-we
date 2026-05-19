@@ -1,0 +1,98 @@
+{
+  "card_id": "3OivsP1j_UE_case_002_黄金60分钟到1分钟的多时间框架做空交易",
+  "type": "case",
+  "title": "黄金60分钟FVG确认后的多时间框架做空交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Internal/External Liquidity",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "displacement",
+    "time_frame_confluence",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "60M / 5M / 1M",
+  "market_context": "黄金在60分钟图表上形成FVG并被价格尊重，博主识别出从内部流动性向外部流动性的转变，确立做空偏差指向旧低点。",
+  "key_observation": "60分钟FVG被尊重，价格从内部范围流动性向外部范围流动性转变，提供明确的做空偏差指向小时图旧低点。",
+  "analysis_steps": [
+    "Step 1: 在60分钟图表上识别FVG，观察价格当前正在尊重该FVG区域。",
+    "Step 2: 确认从内部流动性到外部流动性的转变，建立做空偏差指向旧低点。",
+    "Step 3: 下降到5分钟图表，等待会话开始（NYO标记处）寻找做空设置。",
+    "Step 4: 在5分钟图表中观察价格向下位移并进入FVG，等待高点确认。",
+    "Step 5: 价格在5分钟FVG中形成高点并尊重该区域，确认后下降到1分钟图表。",
+    "Step 6: 在1分钟图表上，价格在5分钟FVG中形成高点后向下位移。",
+    "Step 7: 识别最后一根上升蜡烛，当价格获取流动性后，在订单块处设置做空入场。",
+    "Step 8: 设置止损在该高点，目标为60分钟图表的旧低点。"
+  ],
+  "outcome": "交易获利3.23R，价格从1分钟订单块入场点下行至60分钟旧低点。",
+  "lessons": "多时间框架分析中，高时间框架（60分钟）的FVG和流动性转变提供可靠的交易偏差，通过在低时间框架（5分钟和1分钟）等待高点确认和订单块入场，可以实现高概率的风险回报比交易。",
+  "primary_image": "cards/3OivsP1j_UE/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/3OivsP1j_UE/images/case_002_detail_1.jpg",
+    "cards/3OivsP1j_UE/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "XAUUSD 1 分钟 K 线图，日期为 2023 年 6 月 9 日，图右下角标注平台为 TTrades_edu。可见价格范围约从 1922.200 到 1928.200。图上有一个粉红色矩形框，横跨约 08:20 至 08:40 时间段，价格区间约在 1925.800 至 1926.200 之间。图右侧标注有两个价格标签：左轴虚线处约 1925.985，右轴绿色高亮当前价约 1924.960。",
+    "case_002_detail_1.jpg": "XAUUSD 60 分钟 K 线图，日期标注为 2023 年 9 月 6 日。图上可见价格范围约从 1919.500 至 1934.000。左侧有一根较长的阴线，从约 1934.000 下行至 1927.000 附近。图中央区域有一个粉红色矩形框，带有选中控制点，覆盖价格约 1926.000 至 1928.000 区间。图右侧有一条水平线延伸至约 1922.500。右侧价格轴当前价标签显示 192",
+    "case_002_detail_2.jpg": "XAUUSD 5 分钟 K 线图，日期为 2023 年 6 月 9 日，可见价格范围约 1921.500 至 1930.500。图上有一个粉色矩形区域，横跨图表左侧至约 07:30 时间位置，价格区间约在 1926.500 至 1927.000 之间。图上约 08:00 处有一条垂直虚线，标注文字为'0:00'；约 08:30 处标注文字'NYO'。右侧价格轴当前价格标签显示 1926.075。约"
+  },
+  "sources": [
+    {
+      "video_id": "3OivsP1j_UE",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        193.04,
+        346.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从60分钟到1分钟的分析过程，清晰标注了FVG、订单块、入场点和目标，并给出了具体的交易结果3.23R。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:20:19.503332Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金60分钟FVG确认后的多时间框架做空交易\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"60M / 5M / 1M\",\"market_context\":\"黄金在60分钟图表上形成FVG并被价格尊重，博主识别出从内部流动性向外部流动性的转变，确立做空偏差指向旧低点。\",\"key_observation\":\"60分钟FVG被尊重，价格从内部范围流动性向外部范围流动性转变，提供明确的做空偏差指向小时图旧低点。\",\"analysis_steps\":[\"Step 1: 在60分钟图表上识别FVG，观察价格当前正在尊重该FVG区域。\",\"Step 2: 确认从内部流动性到外部流动性的转变，建立做空偏差指向旧低点。\",\"Step 3: 下降到5分钟图表，等待会话开始（NYO标记处）寻找做空设置。\",\"Step 4: 在5分钟图表中观察价格向下位移并进入FVG，等待高点确认。\",\"Step 5: 价格在5分钟FVG中形成高点并尊重该区域，确认后下降到1分钟图表。\",\"Step 6: 在1分钟图表上，价格在5分钟FVG中形成高点后向下位移。\",\"Step 7: 识别最后一根上升蜡烛，当价格获取流动性后，在订单块处设置做空入场。\",\"Step 8: 设置止损在该高点，目标为60分钟图表的旧低点。\"],\"outcome\":\"交易获利3.23R，价格从1分钟订单块入场点下行至60分钟旧低点。\",\"lessons\":\"多时间框架分析中，高时间框架（60分钟）的FVG和流动性转变提供可靠的交易偏差，通过在低时间框架（5分钟和1分钟）等待高点确认和订单块入场，可以实现高概率的风险回报比交易。\",\"primary_image_frame_id\":\"3OivsP1j_UE_f012\",\"supporting_image_frame_ids\":[\"3OivsP1j_UE_f010\",\"3OivsP1j_UE_f011\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Displacement\",\"Internal/External Liquidity\",\"Multi-timeframe Analysis\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从60分钟到1分钟的分析过程，清晰标注了FVG、订单块、入场点和目标，并给出了具体的交易结果3.23R。\"}",
+  "error": null
+}

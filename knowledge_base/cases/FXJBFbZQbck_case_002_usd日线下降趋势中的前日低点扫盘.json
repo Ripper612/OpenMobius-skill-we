@@ -1,0 +1,105 @@
+{
+  "card_id": "FXJBFbZQbck_case_002_usd日线下降趋势中的前日低点扫盘",
+  "type": "case",
+  "title": "USD日线下降趋势中的前日低点反复扫盘",
+  "related_concepts": [
+    {
+      "term": "Previous Day Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Previous Day High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Draw on Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Trend",
+      "card_id": "trend_definition",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "draw_on_liquidity",
+    "fair_value_gap",
+    "trend_definition",
+    "market_structure",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1D",
+  "market_context": "USD处于明确的下降趋势中，从7月高点1.11400向下延伸至11月低点约1.05400。价格在下跌过程中多次触及前日低点，中间穿插FVG回测，形成典型的趋势下行流动性扫盘模式。",
+  "key_observation": "在下降趋势中，价格反复触及并扫除前日低点作为主要流动性目标。博主指出这是识别趋势方向和预测价格目标的关键方法：在熊市中预期前日低点被反复扫出，而非前日高点。",
+  "analysis_steps": [
+    "Step 1: 识别USD处于明确的下降趋势，从1.11400高点向下延伸至1.05400低点。",
+    "Step 2: 标记出多个前日低点水平线，观察价格在下跌中是否反复触及这些水平。",
+    "Step 3: 确认价格在下跌过程中多次扫出前日低点（如Sep中旬、Sep下旬、Oct初等多个时间点）。",
+    "Step 4: 识别FVG回测现象，在某些前日低点未被触及时，价格进入FVG区域进行回测后继续下行。",
+    "Step 5: 观察回测后的下跌K线（黑色收盘）尊重FVG的后续下跌，确认趋势延续。",
+    "Step 6: 总结规律：在下降趋势中，前日低点是可预测的流动性目标，可用于设置交易目标和低时间框架入场点。"
+  ],
+  "outcome": null,
+  "lessons": "在明确的下降趋势中，前日低点是最可靠的流动性扫盘目标。通过识别趋势方向（上升趋势扫前日高点，下降趋势扫前日低点），交易者可以预测价格目标并在低时间框架上寻找最优入场点。FVG回测是趋势延续的确认信号。",
+  "primary_image": "cards/FXJBFbZQbck/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/FXJBFbZQbck/images/case_002_detail_1.jpg",
+    "cards/FXJBFbZQbck/images/case_002_detail_2.jpg",
+    "cards/FXJBFbZQbck/images/case_002_detail_3.jpg",
+    "cards/FXJBFbZQbck/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为日线（1D）K线图，资产代码显示为USD，可见价格范围约从1.05400至1.11400。图左侧有一根较长的绿色K线延伸至1.11400上方。图右侧K线整体呈下行排列，从约1.11000区域向下延伸至约1.05400。图上有一个矩形标注，位于约1.06800至1.07600价格区间，对应时间轴Sep至Oct区域。左侧价格轴当前高亮标签显示1.09310。光标十字线定位于Mon 28 Aug ",
+    "case_002_detail_1.jpg": "图表为 USD 日线蜡烛图，可见价格范围约从 1.05400 至 1.11400。K 线序列从左侧约 1.11400 高点向右下方延伸至右侧约 1.06200 低点，时间轴跨越 7 月至 11 月初。图上在约 1.07000 至 1.07200 区域有两条水平线，并在 Sep 至 Oct 区间约 1.07000–1.07600 处标注有一个矩形框。右侧价格轴当前价标签显示约 1.06919，带高亮",
+    "case_002_detail_2.jpg": "图为 USD 日线（1D）K 线图，右侧价格轴范围约从 102.600 至 107.600，刻度间距为 0.200。图右侧当前价标签高亮显示为 105.441。图上有一条虚线水平线位于 104.440 附近，另有一条短水平线段位于 104.200 区域，对应 Sep 11 至 18 日期间。图上有一条垂直虚线标注于 Fri 22 Sep '23，并附有黄色十字光标。K 线序列从 7 月 10 日延",
+    "case_002_detail_3.jpg": "图表为 USD 日线蜡烛图，可见价格范围约从 102.600 至 107.600。图右侧价格轴上有绿色高亮标签显示当前价 106.653，另有一条虚线水平线对应光标位置 104.785。图上约在 104.200 处有一条水平线标注。K 线序列从 8 月中旬延伸至 9 月底，整体以绿色 K 线为主，其中 9 月中旬出现数根绿黑交替的 K 线，集中于 104.800 至 105.600 区间。9 月下",
+    "case_002_detail_4.jpg": "图为教学幻灯片，标题为'Previous Day High & Low'，页码为2，底部注明'Daily Timeframe'。图上文字说明Previous Day High & Low为流动性水平，可用作draw on liquidity。图中包含两组示意K线图：左侧为3根绿色K线，右侧为3根黑色K线，每组均标有'Previous Day High'上边界水平线和'Previous Day Lo"
+  },
+  "sources": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.4,
+        190.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "资产代码USD、时间框架1D、价格范围1.05400-1.11400均从图表清晰读出；博主分析步骤完整，从趋势识别到前日低点扫盘再到FVG回测，逻辑清晰；多个图表帧展示了完整的下跌过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:24.833659Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD日线下降趋势中的前日低点反复扫盘\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1D\",\"market_context\":\"USD处于明确的下降趋势中，从7月高点1.11400向下延伸至11月低点约1.05400。价格在下跌过程中多次触及前日低点，中间穿插FVG回测，形成典型的趋势下行流动性扫盘模式。\",\"key_observation\":\"在下降趋势中，价格反复触及并扫除前日低点作为主要流动性目标。博主指出这是识别趋势方向和预测价格目标的关键方法：在熊市中预期前日低点被反复扫出，而非前日高点。\",\"analysis_steps\":[\"Step 1: 识别USD处于明确的下降趋势，从1.11400高点向下延伸至1.05400低点。\",\"Step 2: 标记出多个前日低点水平线，观察价格在下跌中是否反复触及这些水平。\",\"Step 3: 确认价格在下跌过程中多次扫出前日低点（如Sep中旬、Sep下旬、Oct初等多个时间点）。\",\"Step 4: 识别FVG回测现象，在某些前日低点未被触及时，价格进入FVG区域进行回测后继续下行。\",\"Step 5: 观察回测后的下跌K线（黑色收盘）尊重FVG的后续下跌，确认趋势延续。\",\"Step 6: 总结规律：在下降趋势中，前日低点是可预测的流动性目标，可用于设置交易目标和低时间框架入场点。\"],\"outcome\":null,\"lessons\":\"在明确的下降趋势中，前日低点是最可靠的流动性扫盘目标。通过识别趋势方向（上升趋势扫前日高点，下降趋势扫前日低点），交易者可以预测价格目标并在低时间框架上寻找最优入场点。FVG回测是趋势延续的确认信号。\",\"primary_image_frame_id\":\"FXJBFbZQbck_f006\",\"supporting_image_frame_ids\":[\"FXJBFbZQbck_f005\",\"FXJBFbZQbck_f003\",\"FXJBFbZQbck_f004\",\"FXJBFbZQbck_f007\"],\"related_concepts\":[\"Previous Day Low\",\"Previous Day High\",\"Liquidity\",\"Draw on Liquidity\",\"Fair Value Gap\",\"Trend\",\"Market Structure\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"资产代码USD、时间框架1D、价格范围1.05400-1.11400均从图表清晰读出；博主分析步骤完整，从趋势识别到前日低点扫盘再到FVG回测，逻辑清晰；多个图表帧展示了完整的下跌过程。\"}",
+  "error": null
+}

@@ -1,0 +1,94 @@
+{
+  "card_id": "1oco9lesido_case_001_es1标普500期货的位移与fvg交易案例",
+  "type": "case",
+  "title": "ES1期货两次突破对比：不足位移vs充分位移与FVG交易",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Short-term High",
+      "card_id": "short_term_high",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "fair_value_gap",
+    "order_block",
+    "premium_discount_premium_",
+    "market_structure",
+    "short_term_high"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "1m",
+  "market_context": "ES1标普500期货在2022年6月30日08:00-12:20时段内，从高位下跌至约3737低点后反弹。期间出现两次短期高点突破，第一次位移不足，第二次位移充分并形成FVG。",
+  "key_observation": "博主对比两次突破短期高点的现象：第一次突破时位移范围较小（4根K线的范围与突破距离相近），第二次突破时位移充分（范围更大、距离更远），充分位移后形成FVG，交易者在折价区买入获利。",
+  "analysis_steps": [
+    "Step 1: 识别短期高点（short-term high）的位置，约在3768附近。",
+    "Step 2: 分析第一次突破该高点时的位移现象——4根K线的范围与突破高点上方的距离相近，位移不足。",
+    "Step 3: 对比第二次突破同一短期高点时的表现——相同时间内（4根K线）覆盖更大的价格范围，突破距离更远，位移充分。",
+    "Step 4: 在充分位移后识别形成的Fair Value Gap（FVG），位置约在3748-3758区间。",
+    "Step 5: 确认买入点位在FVG的折价区（discount area），即从FVG低点到位移高点的下半部分。"
+  ],
+  "outcome": null,
+  "lessons": "位移（Displacement）的充分性是判断突破质量的关键指标。充分位移表现为在相同时间内覆盖更大价格范围，这样的突破更可能形成有效的FVG。在充分位移后形成的FVG中，折价区提供高概率的买入机会，因为价格已经证明了向上的动能。",
+  "primary_image": "cards/1oco9lesido/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/1oco9lesido/images/case_001_detail_1.jpg",
+    "cards/1oco9lesido/images/case_001_detail_2.jpg",
+    "cards/1oco9lesido/images/case_001_detail_3.jpg",
+    "cards/1oco9lesido/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES1! 标普500期货1分钟K线图，时间范围约为08:00至12:20，日期标注显示30 Jun 22。图上可见价格刻度范围约从3733至3800。图中有两个矩形标注，位于约3748至3768价格区间，集中在10:00附近时段。右侧价格轴标注当前价3781.50（红色高亮），另有3764.50及3754.75等价格标签可见。K线整体呈现从左侧高位向中部低点下行后再向右侧高位回升的形态，低点约在3",
+    "case_001_detail_1.jpg": "ES1! 标普500期货1分钟K线图，可见价格范围约3735至3800。图上时间轴显示08:00至12:20区间。K线从左侧约3800区域向下运行至约10:00时段的低点约3737附近，随后一系列K线向上回升至右侧约3800区域。图上在低点附近绘制有两个矩形框，价格区间分别约在3752至3758及3762至3768，另有一条水平线位于约3768处，横跨09:50至10:10时段。右侧价格轴标注当前",
+    "case_001_detail_2.jpg": "图为 ES1!（S&P 500 E-mini Futures）1 分钟 K 线图，来源标注为 CME_MINI / TradingView。图右侧价格轴可见范围约从 3735 至 3800，当前价格标签显示 3761.50（红色高亮）。图中部绘有一个矩形标注，价格区间约在 3745 至 3758 之间，附近有一条水平虚线。图右侧覆盖有右键上下文菜单，菜单显示 'Copy price (3745.5",
+    "case_001_detail_3.jpg": "ES1! 标普500期货1分钟K线图，可见价格范围约3733至3800。图上左侧K线群从约3780下行至约3755，随后继续下探至约3733低点，之后回升至3800附近。图中约10:20至10:35时段绘有两个重叠矩形框，价格区间约在3748至3762之间。图右侧约11:11处有一条带两端圆形控制点的垂直线段，范围约3754至3756。右侧价格轴当前价标签显示3761，以红色高亮背景标注。图中另有",
+    "case_001_detail_4.jpg": "ES1! 标普500期货1分钟K线图，时间轴覆盖08:00至12:20区间。图上可见价格范围约从3735至3800。图中有一条水平线位于约3761附近，横跨09:40至10:20区域。图上另有两个灰色矩形框，分别位于约3762至3768及3752至3758价格区间，集中在10:20至10:40时间段附近。K线在09:30至10:00区间出现向下延伸至约3737的低点，随后在10:00至12:00区"
+  },
+  "sources": [
+    {
+      "video_id": "1oco9lesido",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        148.34
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了两次突破的对比分析，清晰标注了价格区间（3748-3768）、时间框架（1分钟）、资产代码（ES1!），并详细解释了位移充分性与FVG形成的因果关系。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:16:47.722715Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES1期货两次突破对比：不足位移vs充分位移与FVG交易\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"1m\",\"market_context\":\"ES1标普500期货在2022年6月30日08:00-12:20时段内，从高位下跌至约3737低点后反弹。期间出现两次短期高点突破，第一次位移不足，第二次位移充分并形成FVG。\",\"key_observation\":\"博主对比两次突破短期高点的现象：第一次突破时位移范围较小（4根K线的范围与突破距离相近），第二次突破时位移充分（范围更大、距离更远），充分位移后形成FVG，交易者在折价区买入获利。\",\"analysis_steps\":[\"Step 1: 识别短期高点（short-term high）的位置，约在3768附近。\",\"Step 2: 分析第一次突破该高点时的位移现象——4根K线的范围与突破高点上方的距离相近，位移不足。\",\"Step 3: 对比第二次突破同一短期高点时的表现——相同时间内（4根K线）覆盖更大的价格范围，突破距离更远，位移充分。\",\"Step 4: 在充分位移后识别形成的Fair Value Gap（FVG），位置约在3748-3758区间。\",\"Step 5: 确认买入点位在FVG的折价区（discount area），即从FVG低点到位移高点的下半部分。\"],\"outcome\":null,\"lessons\":\"位移（Displacement）的充分性是判断突破质量的关键指标。充分位移表现为在相同时间内覆盖更大价格范围，这样的突破更可能形成有效的FVG。在充分位移后形成的FVG中，折价区提供高概率的买入机会，因为价格已经证明了向上的动能。\",\"primary_image_frame_id\":\"1oco9lesido_f003\",\"supporting_image_frame_ids\":[\"1oco9lesido_f002\",\"1oco9lesido_f004\",\"1oco9lesido_f005\",\"1oco9lesido_f006\"],\"related_concepts\":[\"Displacement\",\"Fair Value Gap\",\"Order Block\",\"Premium/Discount\",\"Market Structure\",\"Short-term High\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了两次突破的对比分析，清晰标注了价格区间（3748-3768）、时间框架（1分钟）、资产代码（ES1!），并详细解释了位移充分性与FVG形成的因果关系。\"}",
+  "error": null
+}

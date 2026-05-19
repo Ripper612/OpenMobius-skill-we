@@ -1,0 +1,53 @@
+{
+  "card_id": "body_vs_wick_selection",
+  "type": "merged_concept",
+  "canonical_term": "Body vs Wick Selection",
+  "aliases": [
+    "Body/Wick Selection",
+    "实体与影线选择"
+  ],
+  "school": "Price Action",
+  "definition": "在标记摆动高低点时，根据时间框架选择使用K线实体或影线。低时间框架（如1分钟、5分钟）通常用实体，高时间框架（如日线、4小时线）通常用影线。",
+  "identification_rules": [
+    "低时间框架（LTF）：优先使用K线实体标记摆动高低点，忽略影线",
+    "高时间框架（HTF）：优先使用K线影线标记摆动高低点，关注极值而非收盘价",
+    "当低时间框架的实体标记不够精确时，可考虑切换到影线标记以获得更准确的支撑阻力位"
+  ],
+  "trading_implication": "正确选择实体或影线直接影响支撑阻力位的精确性，进而影响止损设置和入场点位。在Box Setup中，使用实体标记范围高低点用于识别偏离和回测；在高时间框架（如日线）中使用影线标记偏离范围，然后在低时间框架中寻找具体交易设置。",
+  "common_mistakes": [
+    "在低时间框架中使用影线标记，导致支撑阻力位过于宽松，止损设置不精确",
+    "在高时间框架中使用实体标记，可能遗漏重要的流动性扫荡信息"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HFfChGFHD44",
+      "original_card_id": "HFfChGFHD44_concept_body_vs_wick_selection",
+      "segment_ids": [
+        "seg_001",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        508.139
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131282Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

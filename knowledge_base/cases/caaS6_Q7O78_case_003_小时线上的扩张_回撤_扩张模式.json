@@ -1,0 +1,115 @@
+{
+  "card_id": "caaS6_Q7O78_case_003_小时线上的扩张_回撤_扩张模式",
+  "type": "case",
+  "title": "小时线扩张-回撤-扩张模式与5分钟精确入场",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "market_structure_shift",
+    "aligned_timeframe",
+    "power_of_3_indicator"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC在小时线上经历强势上升至前期高点后，形成失败的突破（未能收盘在范围外），随后回撤至订单块区域，再次扩张突破，展现典型的积累-操纵-派发周期。",
+  "key_observation": "博主识别出小时线上的扩张-失败回闭-回撤-再次扩张的完整模式，并通过5分钟线上的CSD（交付状态改变）和V形反转精确入场，实现2R快速获利。",
+  "analysis_steps": [
+    "Step 1: 在日线上观察到前一天收盘在前一天高点上方，预期价格继续走高。",
+    "Step 2: 在小时线上确认价格突破前一天高点，但随后形成失败的突破（未能收盘在范围外）。",
+    "Step 3: 识别失败回闭后的回撤为正常的回测行为，而非反转，预期继续走高。",
+    "Step 4: 观察到价格收盘回到范围内部，为后续上升做准备。",
+    "Step 5: 在小时线上确认扫除流动性（sweep）和CSD（交付状态改变），标志着趋势反转。",
+    "Step 6: 下钻到5分钟线，识别V形反转和收盘确认信号。",
+    "Step 7: 在5分钟线上以CSD高点作为止损，入场做空，目标2R。",
+    "Step 8: 价格快速下行，快速达成2R目标。"
+  ],
+  "outcome": "在5分钟线上快速获得2R收益，验证了小时线模式在低时间框架上的可交易性。",
+  "lessons": "扩张-失败回闭-回撤-再次扩张是跨时间框架的分形模式，可应用于任何时间周期。关键是识别失败的突破和CSD信号，结合低时间框架的V形反转精确入场，风险回报比优异。",
+  "primary_image": "cards/caaS6_Q7O78/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/caaS6_Q7O78/images/case_003_detail_1.jpg",
+    "cards/caaS6_Q7O78/images/case_003_detail_2.jpg",
+    "cards/caaS6_Q7O78/images/case_003_detail_3.jpg",
+    "cards/caaS6_Q7O78/images/case_003_detail_4.jpg",
+    "cards/caaS6_Q7O78/images/case_003_detail_5.jpg",
+    "cards/caaS6_Q7O78/images/case_003_detail_6.jpg",
+    "cards/caaS6_Q7O78/images/case_003_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表显示一段K线序列，价格范围从70.00至72.50。图上绘有4条水平线分别位于71.57、71.36、71.00和70.90处。两个矩形框分别标注在71.00至71.36区间和70.90至71.00区间。K线由绿色和黑色蜡烛组成，其中包含一根绿色K线上影线延伸至72.30，一根黑色K线上影线延伸至72.20。图右上角显示'The Market Lens'文字标签。多条竖虚线将图表分割成若干区域",
+    "case_003_detail_1.jpg": "K线图显示价格范围从58400到62600。图上有一个浅绿色矩形标注区域，覆盖约61000至62200的价格范围。两条水平虚线分别标注在60468.96和60200.12处。右侧可见一根长下影线的黑色K线，下影线向下刺破至约58900。图右侧有一根绿色K线。中间区域显示多根小实体K线在60400至61200之间的整理形态。图上右上角显示'The Market Lens'文字标签。",
+    "case_003_detail_2.jpg": "BTC/USD 1小时K线图。图上显示从64500下跌至58250的价格走势。左侧标注多个价格水平点，包括63851.99、63750.00、63370.00、62489.33、61302.91、60878.55、60469.96。图中绘制有多个矩形区域标注，分别位于63000-62000、63500-62500、61300-60500、61000-58750价格范围。一条向下倾斜的趋势线从左上向",
+    "case_003_detail_3.jpg": "图表显示一份K线图，价格范围从58750到65000。图上有多个矩形标注区域，分别用浅绿色和灰色填充。左侧区域显示从63250向下的价格运动至约60500，中间区域显示从60500向上的反弹至63000附近，右侧显示近期K线在63000水平附近的混合走势。图上标注了四个价格数值：63801.96、63250.00、60878.55、60469.96。右上角显示'The Market Lens'文字",
+    "case_003_detail_4.jpg": "图表显示 BTC_USDT 的蜡烛图，价格范围从 53500 到 73000。图上有两条水平虚线分别位于 66393.07 和 66000.00，其中 66393.07 处左侧带有圆形指示符。图中央区域约 59500 至 63000 价格段内绘制了两个矩形框。右侧边缘有一条竖直虚线。K 线序列由绿色和黑色蜡烛交替组成，多数 K 线具有上下影线。图右上角标注'The Market Lens'，左下角",
+    "case_003_detail_5.jpg": "图表显示一组 K 线，价格范围从 66.50 到 75.00。图上有两条水平虚线分别位于 71.03 和 70.50 处。K 线序列包含黑色和绿色蜡烛，其中中间部分显示多根 K 线在 70.00 至 71.30 区间内的整理形态。最左侧 K 线呈现长上影线，最右侧区域有一根黑色 K 线与绿色 K 线相邻。图右上角标注'The Market Lens'文字。",
+    "case_003_detail_6.jpg": "图表显示一段K线走势，价格范围从69.60至72.60。图上有三条水平线分别位于70.20、70.98和72.05处。在图表中部偏上方有一个矩形标注框，位置约在72.00至72.10区间。右侧可见一根大幅绿色K线，主体从约71.00延伸至71.95，其后紧跟一根黑色K线。整个图表由多根绿色和黑色K线组成，显示价格在指定范围内的波动。图右上角标注有'The Market Lens'文字。",
+    "case_003_detail_7.jpg": "图表为烛线图，价格范围从 70.00 到 72.50。图上标注有三条水平线，分别位于 71.42、71.60 和 70.90 处。左侧显示从 71.70 下跌至 70.20 的下降趋势，中间部分显示从 70.20 上升至 72.30 的上升趋势，其中一根黑色烛线在 72.20 处，上影线延伸至 72.30。右侧显示绿色和黑色烛线在 71.00 至 71.30 区间内的交替形态。图右上角标注'The"
+  },
+  "sources": [
+    {
+      "video_id": "caaS6_Q7O78",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        724.88,
+        1033.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从日线到小时线再到5分钟线的分析过程，清晰标注了关键价位、模式识别步骤和交易结果，资产、时间框架、入场逻辑均明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:47.218292Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"小时线扩张-回撤-扩张模式与5分钟精确入场\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC在小时线上经历强势上升至前期高点后，形成失败的突破（未能收盘在范围外），随后回撤至订单块区域，再次扩张突破，展现典型的积累-操纵-派发周期。\",\"key_observation\":\"博主识别出小时线上的扩张-失败回闭-回撤-再次扩张的完整模式，并通过5分钟线上的CSD（交付状态改变）和V形反转精确入场，实现2R快速获利。\",\"analysis_steps\":[\"Step 1: 在日线上观察到前一天收盘在前一天高点上方，预期价格继续走高。\",\"Step 2: 在小时线上确认价格突破前一天高点，但随后形成失败的突破（未能收盘在范围外）。\",\"Step 3: 识别失败回闭后的回撤为正常的回测行为，而非反转，预期继续走高。\",\"Step 4: 观察到价格收盘回到范围内部，为后续上升做准备。\",\"Step 5: 在小时线上确认扫除流动性（sweep）和CSD（交付状态改变），标志着趋势反转。\",\"Step 6: 下钻到5分钟线，识别V形反转和收盘确认信号。\",\"Step 7: 在5分钟线上以CSD高点作为止损，入场做空，目标2R。\",\"Step 8: 价格快速下行，快速达成2R目标。\"],\"outcome\":\"在5分钟线上快速获得2R收益，验证了小时线模式在低时间框架上的可交易性。\",\"lessons\":\"扩张-失败回闭-回撤-再次扩张是跨时间框架的分形模式，可应用于任何时间周期。关键是识别失败的突破和CSD信号，结合低时间框架的V形反转精确入场，风险回报比优异。\",\"primary_image_frame_id\":\"caaS6_Q7O78_f031\",\"supporting_image_frame_ids\":[\"caaS6_Q7O78_f025\",\"caaS6_Q7O78_f026\",\"caaS6_Q7O78_f027\",\"caaS6_Q7O78_f028\",\"caaS6_Q7O78_f029\",\"caaS6_Q7O78_f030\",\"caaS6_Q7O78_f032\",\"caaS6_Q7O78_f033\",\"caaS6_Q7O78_f034\",\"caaS6_Q7O78_f035\"],\"related_concepts\":[\"Displacement\",\"Order Block\",\"Fair Value Gap\",\"CSD (Change in the state of delivery)\",\"Liquidity\",\"Market Structure Shift\",\"Fractal Model\",\"Power of 3\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从日线到小时线再到5分钟线的分析过程，清晰标注了关键价位、模式识别步骤和交易结果，资产、时间框架、入场逻辑均明确。\"}",
+  "error": null
+}

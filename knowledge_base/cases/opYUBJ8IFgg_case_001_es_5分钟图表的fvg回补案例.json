@@ -1,0 +1,76 @@
+{
+  "card_id": "opYUBJ8IFgg_case_001_es_5分钟图表的fvg回补案例",
+  "type": "case",
+  "title": "ES 5分钟图表多个FVG的回补走势分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Rebalance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Price Reversal",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5m",
+  "market_context": "S&P 500 E-mini期货在5分钟图上呈现上升趋势，期间形成多个公允价值缺口（FVG），价格在后续走势中逐一回补这些缺口区域。",
+  "key_observation": "博主指出FVG有两种回补方式：一是在FVG形成后价格回补（post-creation rebalance），二是在FVG形成前价格已回补（pre-creation rebalance）。后者占大多数K线。回补后的区域不再存在不平衡，价格倾向于反转或有反转可能。",
+  "analysis_steps": [
+    "Step 1: 识别图表上多个已形成的FVG缺口（约3768.75-3778.00、3764.50-3794.00、3784.00-3814.00等区间）",
+    "Step 2: 观察价格下跌并闭合这些FVG缺口的过程，标注为'Rebalance'区域",
+    "Step 3: 注意到每次FVG被回补后，该区域不再存在不平衡状态",
+    "Step 4: 指出回补后价格有反转或反转可能性的特征",
+    "Step 5: 引入第二种回补方式——在FVG创建前就被回补的情况，通过三根K线（10:40、10:45、10:50）的例子说明"
+  ],
+  "outcome": null,
+  "lessons": "FVG回补是市场结构中的关键现象。理解两种回补方式（事后回补和事前回补）有助于识别价格反转点。回补完成后的区域失去不平衡特性，成为潜在的反转区域，可用于交易决策。",
+  "primary_image": "cards/opYUBJ8IFgg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/opYUBJ8IFgg/images/case_001_detail_1.jpg",
+    "cards/opYUBJ8IFgg/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES 5分钟K线图。图上显示从约00:00到16:00的交易时段。可见价格范围从3745.50至3833.00。图上有两个灰色矩形框，均标注为'Rebalance'：下方矩形框位于3764.50至3794.00区间，上方矩形框位于3784.00至3814.00区间。K线呈绿红交替形态，在两个Rebalance区域附近多次振荡。右侧价格刻度显示当前价格约3828.50。图表底部显示时间戳01:47:",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上绘制了一条灰色矩形框，位置约在3768.75至3778.00价格区间。矩形框内及周边标注有多个蓝色小方块标记。图右侧价格刻度显示范围从3754.00至3828.00。K线序列中绿色和红色K线交替出现，整体呈上升趋势。最高点附近的K线显示长上影线。图上标注文字包括'Fib 0.5'及多个价格数字。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示价格范围从3748.00至3833.00。两条带\"Rebalance\"标签的灰色矩形框分别标注在3764.50至3792.50和3792.50至3820.00区间。图表左侧显示早期盘整，中部出现一根大幅下跌的红色K线，随后价格上升至图表右侧的高点。右侧价格标签显示3784.50。整体K线序列由绿色和红色K线混合组成，反映上升趋势中"
+  },
+  "sources": [
+    {
+      "video_id": "opYUBJ8IFgg",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.04,
+        77.52
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了ES 5分钟图表上的多个FVG及其回补过程，标注清晰，价格区间和时间戳可从图表读取，分析步骤按讲解顺序记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:13.368263Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 5分钟图表多个FVG的回补走势分析\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5m\",\"market_context\":\"S&P 500 E-mini期货在5分钟图上呈现上升趋势，期间形成多个公允价值缺口（FVG），价格在后续走势中逐一回补这些缺口区域。\",\"key_observation\":\"博主指出FVG有两种回补方式：一是在FVG形成后价格回补（post-creation rebalance），二是在FVG形成前价格已回补（pre-creation rebalance）。后者占大多数K线。回补后的区域不再存在不平衡，价格倾向于反转或有反转可能。\",\"analysis_steps\":[\"Step 1: 识别图表上多个已形成的FVG缺口（约3768.75-3778.00、3764.50-3794.00、3784.00-3814.00等区间）\",\"Step 2: 观察价格下跌并闭合这些FVG缺口的过程，标注为'Rebalance'区域\",\"Step 3: 注意到每次FVG被回补后，该区域不再存在不平衡状态\",\"Step 4: 指出回补后价格有反转或反转可能性的特征\",\"Step 5: 引入第二种回补方式——在FVG创建前就被回补的情况，通过三根K线（10:40、10:45、10:50）的例子说明\"],\"outcome\":null,\"lessons\":\"FVG回补是市场结构中的关键现象。理解两种回补方式（事后回补和事前回补）有助于识别价格反转点。回补完成后的区域失去不平衡特性，成为潜在的反转区域，可用于交易决策。\",\"primary_image_frame_id\":\"opYUBJ8IFgg_f003\",\"supporting_image_frame_ids\":[\"opYUBJ8IFgg_f002\",\"opYUBJ8IFgg_f001\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Rebalance\",\"Imbalance\",\"Price Reversal\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了ES 5分钟图表上的多个FVG及其回补过程，标注清晰，价格区间和时间戳可从图表读取，分析步骤按讲解顺序记录。\"}",
+  "error": null
+}

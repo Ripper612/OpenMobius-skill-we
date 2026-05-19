@@ -1,0 +1,106 @@
+{
+  "card_id": "iEaMbuFZb24_case_001_pdf示例_从看涨到看跌的多时间框架转变",
+  "type": "case",
+  "title": "低时间框架看涨订单块被高时间框架看跌结构破坏",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Bearish Engulfing",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "market_structure_shift",
+    "change_in_the_state_of_delivery",
+    "liquidity",
+    "high_resistance_liquidity",
+    "fair_value_gap",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "Multiple (Daily / Intermediate / Lower timeframes)",
+  "market_context": "博主通过PDF示例和TradingView图表展示多时间框架分析的必要性。低时间框架显示看涨订单块，但高时间框架已形成看跌结构（扫除前期高点、看跌吞没），导致低时间框架交易失败。",
+  "key_observation": "单独在低时间框架交易看涨订单块会被止损扫出，因为高时间框架已经形成看跌偏差。必须先确立高时间框架偏差，再在低时间框架寻找对齐的交易机会。",
+  "analysis_steps": [
+    "Step 1: 在低时间框架识别看涨订单块（价格取出低点后收盘穿过该低点）",
+    "Step 2: 在高时间框架检查市场结构，发现已扫除前期摆动高点并形成看跌吞没蜡烛",
+    "Step 3: 认识到高时间框架看跌偏差与低时间框架看涨设置冲突，导致止损被扫出",
+    "Step 4: 改变策略，在高时间框架确立看跌偏差（收盘低于前一日低点）",
+    "Step 5: 在中间时间框架寻找交付状态改变（CSD）形成的结构",
+    "Step 6: 在低时间框架寻找看跌订单块和对立蜡烛，与高时间框架看跌扩张对齐"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架分析至关重要：高时间框架提供偏差和大方向，中间时间框架提供结构参考，低时间框架用于精确入场。单独依赖低时间框架容易被高时间框架结构破坏。必须确保所有时间框架对齐才能获得扩张。",
+  "primary_image": "cards/iEaMbuFZb24/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/iEaMbuFZb24/images/case_001_detail_1.jpg",
+    "cards/iEaMbuFZb24/images/case_001_detail_2.jpg",
+    "cards/iEaMbuFZb24/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图上显示一个标题为'Trading a pattern'的K线图示例。图中包含约20根K线，主要由绿色（上升）和黑色（下降）蜡烛体组成。中间区域有一个浅绿色矩形框标注，下方有一个灰色矩形框标注。右侧最新K线呈现长上影线形态。左下角显示'TTrades'品牌标识和数字'4'。图上未标注具体价格数字、资产代码或时间框架。",
+    "case_001_detail_1.jpg": "图上显示一组 K 线序列，共约 12 根蜡烛，绿色和黑色混合排列。K 线具有不同长度的上下影线。图右侧有一条带文字标签'OB'的水平线。页面左上角标题为'Trading a pattern'，左下角显示'TTrades'品牌标识。未提供资产代码、时间框架或具体价格刻度信息。",
+    "case_001_detail_2.jpg": "图上显示一个标题为'Trading a pattern'的K线图示。图中包含一系列绿色和黑色K线，展示价格波动序列。图上标注有两个矩形区域：上方一个灰色背景矩形，下方一个浅绿色背景矩形。右侧标注文字'OB'。左下角显示'TTrades'品牌标识。整体为教学或演示性质的图表，未显示具体资产代码、时间框架或价格刻度数值。",
+    "case_001_detail_3.jpg": "图上展示三根K线，无具体资产代码或时间框架标注。第一根为绿色K线带上影线，第二根为黑色K线带上影线，第三根为浅灰色K线，主体较长并带下影线。图上方标注文字'Trading in direction of the HTF'，下方标注'Higher Timeframe'，左下角显示'TTrades'品牌标识。图上未显示价格刻度、具体数值或其他技术指标。"
+  },
+  "sources": [
+    {
+      "video_id": "iEaMbuFZb24",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.0,
+        192.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从看涨到看跌的转变过程，清晰说明了多时间框架分析的步骤和原因，虽无具体资产代码但分析逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:41:37.277134Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"低时间框架看涨订单块被高时间框架看跌结构破坏\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"Multiple (Daily / Intermediate / Lower timeframes)\",\"market_context\":\"博主通过PDF示例和TradingView图表展示多时间框架分析的必要性。低时间框架显示看涨订单块，但高时间框架已形成看跌结构（扫除前期高点、看跌吞没），导致低时间框架交易失败。\",\"key_observation\":\"单独在低时间框架交易看涨订单块会被止损扫出，因为高时间框架已经形成看跌偏差。必须先确立高时间框架偏差，再在低时间框架寻找对齐的交易机会。\",\"analysis_steps\":[\"Step 1: 在低时间框架识别看涨订单块（价格取出低点后收盘穿过该低点）\",\"Step 2: 在高时间框架检查市场结构，发现已扫除前期摆动高点并形成看跌吞没蜡烛\",\"Step 3: 认识到高时间框架看跌偏差与低时间框架看涨设置冲突，导致止损被扫出\",\"Step 4: 改变策略，在高时间框架确立看跌偏差（收盘低于前一日低点）\",\"Step 5: 在中间时间框架寻找交付状态改变（CSD）形成的结构\",\"Step 6: 在低时间框架寻找看跌订单块和对立蜡烛，与高时间框架看跌扩张对齐\"],\"outcome\":null,\"lessons\":\"多时间框架分析至关重要：高时间框架提供偏差和大方向，中间时间框架提供结构参考，低时间框架用于精确入场。单独依赖低时间框架容易被高时间框架结构破坏。必须确保所有时间框架对齐才能获得扩张。\",\"primary_image_frame_id\":\"iEaMbuFZb24_f003\",\"supporting_image_frame_ids\":[\"iEaMbuFZb24_f002\",\"iEaMbuFZb24_f004\",\"iEaMbuFZb24_f005\"],\"related_concepts\":[\"Order Block\",\"Market Structure Shift\",\"Change in the state of delivery\",\"Liquidity\",\"Bearish Engulfing\",\"High Resistance Liquidity\",\"Fair Value Gap\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从看涨到看跌的转变过程，清晰说明了多时间框架分析的步骤和原因，虽无具体资产代码但分析逻辑完整。\"}",
+  "error": null
+}

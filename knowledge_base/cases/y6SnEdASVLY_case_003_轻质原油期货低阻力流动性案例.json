@@ -1,0 +1,104 @@
+{
+  "card_id": "y6SnEdASVLY_case_003_轻质原油期货低阻力流动性案例",
+  "type": "case",
+  "title": "轻质原油低阻力流动性伦敦反转纽约延续案例",
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "low_resistance_liquidity",
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "inducement",
+    "market_structure_shift_mss",
+    "propulsion_block",
+    "killzone"
+  ],
+  "school": "ICT",
+  "asset": "CL1! (Light Crude Oil Futures)",
+  "timeframe": "30M / 15M / 1H",
+  "market_context": "伦敦时段形成一系列上升收盘K线至高点，触及低阻力流动性区域。纽约开盘后出现操纵性上行走势，随后反向下行延续趋势。",
+  "key_observation": "伦敦时段在低阻力流动性处形成反转信号（一系列上升收盘K线），纽约时段8:30开盘的操纵性上行走势提供了高概率做空入场机会，价格随后继续下行至10:00重要时间水平。",
+  "analysis_steps": [
+    "Step 1: 识别伦敦时段末期形成的一系列上升收盘K线，这些K线汇聚在低阻力流动性高点附近。",
+    "Step 2: 确认市场结构转变（CSD）信号——价格收盘跌破该高点，形成反转确认。",
+    "Step 3: 进入纽约时段后，观察8:30开盘时的价格行为——出现操纵性上行走势（与预期下行方向相反）。",
+    "Step 4: 将操纵性上行视为诱导（Inducement），在其后形成的订单块（Order Block）处设置做空入场。",
+    "Step 5: 设置止损于操纵性上行的高点，目标利润设定为2R。",
+    "Step 6: 价格在10:00（重要时间水平）附近达成目标，确认了伦敦反转+纽约延续的交易逻辑。"
+  ],
+  "outcome": "交易成功达成2R目标利润，价格在10:00时间水平附近创出新低。",
+  "lessons": "低阻力流动性区域（未被扫除的摆动高/低点）是高概率反转点；纽约时段的操纵性走势（与前期趋势相反）常预示反向延续；多时间框架协调（伦敦反转+纽约延续）提高交易确定性；重要时间水平（8:30、10:00）与价格结构结合使用可精确定位目标。",
+  "primary_image": "cards/y6SnEdASVLY/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/y6SnEdASVLY/images/case_003_detail_1.jpg",
+    "cards/y6SnEdASVLY/images/case_003_detail_2.jpg",
+    "cards/y6SnEdASVLY/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "Light Crude Oil Futures 30分钟K线图。图上显示从左至右约20根K线，价格范围从77.00至71.00。图中标注有三条水平线，分别标记为0/0（75.00）、W/D（74.50）和S/D（74.00）。右侧有一个矩形框标注，覆盖约75.80至76.80的价格区间。K线呈现绿色和黑色混合，左侧显示下降趋势，中间区域出现盘整，右侧有一根较大的黑色K线。图表底部显示时间标记21/",
+    "case_003_detail_1.jpg": "轻质原油期货 30 分钟 K 线图。图表显示从左至右的时间序列，左侧为 NYO 标记。图上有两条水平虚线分别位于 76.56 和 76.10 价格水平。图右侧有一根大型黑色 K 线，价格范围约 76.40 至 76.80。中间区域有一根黄色高亮 K 线，位于 76.10 至 76.15 附近。左侧和中心部分包含多根绿色和黑色 K 线，均带有上下影线。图上标注有两个矩形框，分别围绕不同价格区间。",
+    "case_003_detail_2.jpg": "轻质原油期货 15 分钟 K 线图。图上显示从左侧高点 76.70 向下的价格走势。中间区域有一条矩形框标注，范围在 71.10 至 71.60 之间，框内标有黄色十字符号及文字标签'OTE'。图上可见两条水平线分别位于 71.60 和 71.10 处。左侧 K 线显示向上跳空至 76.20 附近后回落，中间区域 K 线在 71.10 至 71.60 范围内震荡，右侧最新 K 线为绿色实体，收盘价",
+    "case_003_detail_3.jpg": "轻质原油期货 1 小时 K 线图。图表显示从左侧初始尖峰上升至 74.00 后，随后形成 72.60 至 73.20 区间的盘整。中部出现约 15 根 K 线的下跌趋势，从 73.20 下行至 71.40。右侧最新一根 K 线为黑色实体，价格范围在 71.20 至 72.60 之间，下影线向下延伸至约 71.00。图上有两个矩形标注框，均标记为 0.00，覆盖 71.20 至 72.60 的价格区"
+  },
+  "sources": [
+    {
+      "video_id": "y6SnEdASVLY",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        346.24,
+        524.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了伦敦-纽约跨时段分析流程，清晰标注了关键价位、时间水平、入场逻辑和交易结果，图表中可见低阻力流动性、操纵走势和订单块的具体位置。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:35.417865Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"轻质原油低阻力流动性伦敦反转纽约延续案例\",\"school\":\"ICT\",\"asset\":\"CL1! (Light Crude Oil Futures)\",\"timeframe\":\"30M / 15M / 1H\",\"market_context\":\"伦敦时段形成一系列上升收盘K线至高点，触及低阻力流动性区域。纽约开盘后出现操纵性上行走势，随后反向下行延续趋势。\",\"key_observation\":\"伦敦时段在低阻力流动性处形成反转信号（一系列上升收盘K线），纽约时段8:30开盘的操纵性上行走势提供了高概率做空入场机会，价格随后继续下行至10:00重要时间水平。\",\"analysis_steps\":[\"Step 1: 识别伦敦时段末期形成的一系列上升收盘K线，这些K线汇聚在低阻力流动性高点附近。\",\"Step 2: 确认市场结构转变（CSD）信号——价格收盘跌破该高点，形成反转确认。\",\"Step 3: 进入纽约时段后，观察8:30开盘时的价格行为——出现操纵性上行走势（与预期下行方向相反）。\",\"Step 4: 将操纵性上行视为诱导（Inducement），在其后形成的订单块（Order Block）处设置做空入场。\",\"Step 5: 设置止损于操纵性上行的高点，目标利润设定为2R。\",\"Step 6: 价格在10:00（重要时间水平）附近达成目标，确认了伦敦反转+纽约延续的交易逻辑。\"],\"outcome\":\"交易成功达成2R目标利润，价格在10:00时间水平附近创出新低。\",\"lessons\":\"低阻力流动性区域（未被扫除的摆动高/低点）是高概率反转点；纽约时段的操纵性走势（与前期趋势相反）常预示反向延续；多时间框架协调（伦敦反转+纽约延续）提高交易确定性；重要时间水平（8:30、10:00）与价格结构结合使用可精确定位目标。\",\"primary_image_frame_id\":\"y6SnEdASVLY_f013\",\"supporting_image_frame_ids\":[\"y6SnEdASVLY_f001\",\"y6SnEdASVLY_f014\",\"y6SnEdASVLY_f015\"],\"related_concepts\":[\"Low Resistance Liquidity\",\"Change in the state of delivery (CSD)\",\"Order Block (OB)\",\"Inducement\",\"Manipulation\",\"Market Structure Shift (MSS)\",\"Propulsion Block\",\"Killzone\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了伦敦-纽约跨时段分析流程，清晰标注了关键价位、时间水平、入场逻辑和交易结果，图表中可见低阻力流动性、操纵走势和订单块的具体位置。\"}",
+  "error": null
+}

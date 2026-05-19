@@ -1,0 +1,117 @@
+{
+  "card_id": "ubCe509_JLY_case_004_欧元兑美元日线到5分钟的整固交易",
+  "type": "case",
+  "title": "欧元兑美元日线整固到5分钟多时间框架做空",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Accumulation Manipulation Distribution",
+      "card_id": "accumulation_manipulation_distribution_accumula",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "consolidation",
+    "change_in_the_state_of_delivery",
+    "propulsion_block",
+    "accumulation_manipulation_distribution_accumula",
+    "equilibrium",
+    "breaker_block"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "欧元兑美元在日线上形成整固区间，高点约1.04600，低点约1.03400。价格在整固高点被扫出后回撤至公允价值缺口，预期向整固低点运行。",
+  "key_observation": "博主通过多时间框架对齐（日线→小时线→5分钟线）确认做空偏差：日线整固结构明确，小时线在交付状态改变处形成一系列上升收盘后下跌的K线，5分钟线在伦敦盘回撤至小时线关键位置时提供入场确认。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别整固结构，高点1.04600附近被扫出，价格回撤至公允价值缺口，预期向整固低点1.03400运行（积累-操纵-派发模型）。",
+    "Step 2: 切换至小时线确认做空偏差，观察到在关键水平处有一系列上升收盘的K线随后下跌，确认交付状态改变（CSD）。",
+    "Step 3: 检查小时线是否尊重0.5斐波那契水平（交付状态改变的中点），确认价格未收盘突破该水平，支持继续下行。",
+    "Step 4: 等待5分钟线对齐，价格在伦敦盘回撤至小时线的关键点（公允价值缺口和扫出的高点），观察5分钟线的收盘确认。",
+    "Step 5: 5分钟线收盘穿过一系列上升收盘K线后，确认做空信号形成，止损设在摆动高点，目标指向小时线低点或日线整固低点。",
+    "Step 6: 推进块（Propulsion Block）形成，价格未能从整固高点反弹，确认下行趋势延续，执行做空至整固低点。"
+  ],
+  "outcome": "交易成功执行做空，止损0.00096（0.09%），目标0.00191（0.18%），风险收益比1.99，最终价格到达整固低点1.03400附近。",
+  "lessons": "多时间框架对齐是高概率交易的关键：日线提供整体偏差和结构，小时线确认交付状态改变和0.5水平尊重，5分钟线提供精确入场点。等待所有时间框架对齐后再入场，可显著提高成功率。",
+  "primary_image": "cards/ubCe509_JLY/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/ubCe509_JLY/images/case_004_detail_1.jpg",
+    "cards/ubCe509_JLY/images/case_004_detail_2.jpg",
+    "cards/ubCe509_JLY/images/case_004_detail_3.jpg",
+    "cards/ubCe509_JLY/images/case_004_detail_4.jpg",
+    "cards/ubCe509_JLY/images/case_004_detail_5.jpg",
+    "cards/ubCe509_JLY/images/case_004_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "EURUSD 5分钟K线图。图上显示从左侧约1.04160水平向下运动至右侧约1.03880水平的价格走势。图中有三条水平线分别位于1.04115、1.04160和1.03993。图上标注有两个矩形框，上方框标记为'Stop: 0.00096 (0.09%) 9.6, Amount: 49900'，下方框标记为'Closed P&L: 0.00191 (0.18%) 19.1, Amount: 5",
+    "case_004_detail_1.jpg": "EUR/USD 日线图，价格范围从 1.07000 至 1.02000。图上显示从 11 月 11 日至 2 月期间的 K 线序列，以绿色和黑色蜡烛交替出现。一条水平虚线标记在 1.06000 价位。图表底部标注有日期刻度，其中 20 日 11 月处用垂直虚线特别标记。整体呈现下行走势，伴随多根 K 线具有上下影线。右上角显示资产代码 EUR/USD，左下角显示 TradingView Pro 标",
+    "case_004_detail_2.jpg": "EURUSD 日线图，显示从 11 月初至 2 月初的价格走势。图上价格范围从 1.02000 至 1.07000。左侧显示一根大幅下跌的黑色 K 线，随后出现绿色和黑色 K 线交替出现的模式，跨越 11 月中旬至 12 月中旬。12 月 25 日附近出现一根大幅下跌的黑色 K 线，从 1.05200 跌至 1.03200。图右侧有一个矩形框标注，框内包含 1.04200 至 1.04400 区间",
+    "case_004_detail_3.jpg": "EUR/USD 1 小时 K 线图。图上显示约 48 小时的价格走势，从 12 月 30 日 04:00 至 2025 年 1 月 1 日。可见价格范围从 1.03400 至 1.05000。图上有三条水平线分别位于 1.04500、1.04100 和 1.03400。中部区域 1.04100 至 1.04300 间有矩形标注框。K 线形态显示：先前在 1.04600 附近形成高点后回落，随后在 ",
+    "case_004_detail_4.jpg": "EUR/USD 1小时K线图。图上显示价格范围从1.03400至1.05000。图中有三条水平线分别位于1.04600、1.04300和1.03400处。中间部分有一个矩形框标注了1.04600至1.04300的区间。K线序列显示一根大幅下跌的黑色K线，其上影线触及1.04650，主体跨越至1.03700附近。随后出现多根绿色和黑色K线在1.04000至1.04200区间内震荡整理，最终价格回升至",
+    "case_004_detail_5.jpg": "EURUSD 5分钟K线图，时间范围从00:00至10:00。图上可见价格范围从1.03820至1.04360。左侧有一条水平线标记在1.04125附近，右侧有一条水平线标记在1.04140附近。图中央有一个矩形框标注，覆盖约1.04100至1.04230的价格区间。K线显示早期在1.04000至1.04080区间内的横盘整理，随后从02:00开始上升至1.04230，之后出现下行，形成多根带有上",
+    "case_004_detail_6.jpg": "EUR/USD 5分钟K线图。图上显示从01:00至10:00的价格走势，价格范围从1.03820至1.04360。图中绘有三条水平线分别位于1.04160、1.04180和1.04080。在04:00至06:00时段内有两个矩形标注框，分别覆盖1.04130-1.04200和1.04080-1.04130的价格区间。K线形态显示01:00至02:00下跌至1.04000，随后02:00至04:0"
+  },
+  "sources": [
+    {
+      "video_id": "ubCe509_JLY",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        730.44,
+        968.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线→小时线→5分钟线的分析过程，清晰标注了关键价位、入场点、止损和目标，交易结果明确记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:14.814127Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"欧元兑美元日线整固到5分钟多时间框架做空\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"欧元兑美元在日线上形成整固区间，高点约1.04600，低点约1.03400。价格在整固高点被扫出后回撤至公允价值缺口，预期向整固低点运行。\",\"key_observation\":\"博主通过多时间框架对齐（日线→小时线→5分钟线）确认做空偏差：日线整固结构明确，小时线在交付状态改变处形成一系列上升收盘后下跌的K线，5分钟线在伦敦盘回撤至小时线关键位置时提供入场确认。\",\"analysis_steps\":[\"Step 1: 在日线上识别整固结构，高点1.04600附近被扫出，价格回撤至公允价值缺口，预期向整固低点1.03400运行（积累-操纵-派发模型）。\",\"Step 2: 切换至小时线确认做空偏差，观察到在关键水平处有一系列上升收盘的K线随后下跌，确认交付状态改变（CSD）。\",\"Step 3: 检查小时线是否尊重0.5斐波那契水平（交付状态改变的中点），确认价格未收盘突破该水平，支持继续下行。\",\"Step 4: 等待5分钟线对齐，价格在伦敦盘回撤至小时线的关键点（公允价值缺口和扫出的高点），观察5分钟线的收盘确认。\",\"Step 5: 5分钟线收盘穿过一系列上升收盘K线后，确认做空信号形成，止损设在摆动高点，目标指向小时线低点或日线整固低点。\",\"Step 6: 推进块（Propulsion Block）形成，价格未能从整固高点反弹，确认下行趋势延续，执行做空至整固低点。\"],\"outcome\":\"交易成功执行做空，止损0.00096（0.09%），目标0.00191（0.18%），风险收益比1.99，最终价格到达整固低点1.03400附近。\",\"lessons\":\"多时间框架对齐是高概率交易的关键：日线提供整体偏差和结构，小时线确认交付状态改变和0.5水平尊重，5分钟线提供精确入场点。等待所有时间框架对齐后再入场，可显著提高成功率。\",\"primary_image_frame_id\":\"ubCe509_JLY_f032\",\"supporting_image_frame_ids\":[\"ubCe509_JLY_f026\",\"ubCe509_JLY_f027\",\"ubCe509_JLY_f028\",\"ubCe509_JLY_f029\",\"ubCe509_JLY_f030\",\"ubCe509_JLY_f031\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Consolidation\",\"Change in the state of delivery\",\"Propulsion Block\",\"Accumulation Manipulation Distribution\",\"Multi-timeframe alignment\",\"Equilibrium\",\"Breaker Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线→小时线→5分钟线的分析过程，清晰标注了关键价位、入场点、止损和目标，交易结果明确记录。\"}",
+  "error": null
+}

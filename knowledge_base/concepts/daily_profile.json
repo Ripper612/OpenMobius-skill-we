@@ -1,0 +1,196 @@
+{
+  "card_id": "daily_profile",
+  "type": "merged_concept",
+  "canonical_term": "Daily Profile",
+  "aliases": [
+    "Daily manipulation profile",
+    "Daily session profile",
+    "Intraday Session Analysis",
+    "Session Profile",
+    "日内交易档案",
+    "每日价格档案"
+  ],
+  "school": "ICT",
+  "definition": "按亚洲、伦敦、纽约等时段划分的日内价格分析框架，通过识别各时段高低点、盘整区域、失败摆动及时段间结构连续性，结合Power of 3（积累→操纵→派发）模式，预判机构操纵方向与价格延续目标。",
+  "identification_rules": [
+    "将一个完整交易日分解为亚洲、伦敦、纽约上午（NY AM）、纽约下午（NY PM）四个主要时段。",
+    "在每个时段内标记该时段的高点、低点、盘整区域及OHLC结构。",
+    "识别各时段内是否存在失败摆动（failure swings）或等高/低点（equal highs/lows）。",
+    "观察伦敦时段：判断是否盘整、失败触及高时间框架（HTF）关键水平，或形成摆动高/低点。",
+    "观察纽约时段：识别是否对伦敦形成的区间进行操纵（向上或向下刺破），随后产生交付状态改变（CSD）。",
+    "确认Power of 3模式：积累（伦敦盘整或失败）→ 操纵（纽约扫荡流动性或操纵区间）→ 派发（价格沿新方向延续）。",
+    "检查时段间连续性：若某时段未触及HTF关键水平，后续时段触及则可能形成反转信号（如纽约反转）；若伦敦时段内触及HTF关键水平则可能形成伦敦反转。",
+    "结合上位时间框架偏向（看涨/看跌），预判下一时段价格目标（如突破亚洲高点或扫除亚洲低点）。",
+    "标记关键时间点：伦敦开盘、伦敦收盘、纽约8:30、纽约9:30作为操纵发生或订单块形成的预期窗口。",
+    "在15分钟和5分钟时间框架上验证伦敦时段区间范围及纽约时段操纵点位。"
+  ],
+  "trading_implication": "Daily Profile作为上位框架，帮助交易者在日内低时间框架（1分钟、5分钟）保持方向一致性。通过识别伦敦时段结构（盘整或失败触及HTF关键水平），预期纽约时段操纵方向；结合CSD确认，在折价区或溢价区寻找OTE入场，以前一日高点、区间另一侧或前期摆动高/低点为目标。时段转换点（8:30、9:30）为高概率操纵点和订单块形成位置。",
+  "common_mistakes": [
+    "未在多个时间框架上验证Daily Profile结构，仅在单一时间框架判断导致误判。",
+    "将伦敦时段的盘整误认为无交易机会，忽视其作为操纵前积累阶段的意义。",
+    "在未确认CSD（交付状态改变）的情况下过早入场，导致被诱导（Inducement）反向扫荡。",
+    "混淆操纵方向：未正确识别纽约是向上还是向下操纵伦敦区间，导致交易方向错误。",
+    "忽视Daily Profile而只关注低时间框架，导致逆势交易或方向判断错误。",
+    "将Daily Profile中的高点/低点与具体的Order Block或FVG混淆，应将其作为宏观参考而非精确入场位。",
+    "未能根据Daily Profile的时段特征调整交易预期，例如伦敦时段盘整时仍期待亚洲高点被突破。",
+    "将伪反转误认为真反转：伦敦形成低点但未触及HTF关键水平，后续纽约继续运行该方向而非反转。",
+    "忽视时段转换的重要性：未在正确的时段开盘时间（如8:30、9:30）观察价格行为，导致错过操纵点和订单块形成。",
+    "混淆伦敦反转与纽约反转：伦敦反转要求伦敦时段内触及HTF关键水平；纽约反转则是伦敦未触及但纽约触及后的反转。",
+    "过度依赖单一时段的OHLC而忽视跨时段的结构连续性。"
+  ],
+  "related_concepts": [
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Order of Reversal",
+      "card_id": "confirmation_levels",
+      "exists": true
+    },
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "Tjk9bXERZy0_case_003_日线与15分钟图的跨时间框架扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "日线扩张形态在15分钟跨时段追踪"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "IeXtmeKqjnQ",
+      "original_card_id": "IeXtmeKqjnQ_concept_daily_profile",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.08,
+        191.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_daily_profile",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        548.36,
+        904.32
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xdzyejskSKE",
+      "original_card_id": "xdzyejskSKE_concept_daily_profile",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        192.56,
+        726.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:42.573836Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "3张原始卡school字段均为ICT，无冲突，直接选ICT。",
+  "error": null
+}

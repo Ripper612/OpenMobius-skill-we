@@ -1,0 +1,102 @@
+{
+  "card_id": "nWHint4Yano_case_003_美元扫盘后eurusd的做空设置",
+  "type": "case",
+  "title": "美元扫盘后EURUSD的做空设置",
+  "related_concepts": [
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "liquidity_sweep",
+    "aligned_timeframe"
+  ],
+  "school": "SMC",
+  "asset": "EURUSD",
+  "timeframe": "1H",
+  "market_context": "美元在周一至周四形成反转低点后，周五回归整理区间。通过EURGBP的看跌表现确认欧元相对较弱，为EURUSD做空提供了相对强弱的确认信号。",
+  "key_observation": "博主通过对比EURGBP和GBPUSD的相对强弱，确认欧元是外汇中最弱的货币。EURGBP形成看跌吞没形态，EURUSD日线收盘看跌，而GBPUSD收盘看涨，这种分歧确认了欧元的弱势。",
+  "analysis_steps": [
+    "Step 1: 观察美元指数(DXY)在周一至周四形成反转低点，预期周五回归整理区间。",
+    "Step 2: 检查EURGBP日线，发现看跌吞没形态，虽然突破了前高但形成吞没，预示可能反转。",
+    "Step 3: 对比EURUSD和GBPUSD的日线收盘：EURUSD收盘看跌，GBPUSD收盘看涨，确认欧元相对较弱。",
+    "Step 4: 转向小时级别分析EURUSD，寻找市场结构转变(CSD)和分形模型。",
+    "Step 5: 识别EURUSD小时级别扫除整理区间高点后的延续下跌，形成做空设置。",
+    "Step 6: 对比EURUSD和GBPUSD的小时级别表现，EURUSD在8:00 a.m.扫除低点，而GBPUSD直到9:00 a.m.才扫除，显示欧元下跌力度更强。"
+  ],
+  "outcome": "EURUSD形成明显的下跌扩展(expansion lower)，相比GBPUSD的表现，欧元展现出更强的下行动能，验证了做空设置的有效性。",
+  "lessons": "相对强弱分析对于选择正确的交易资产至关重要。即使交易思路正确，如果选择了错误的资产，也会导致交易失败或错过扩展行情。通过多资产对比确认最弱的货币，能显著提高交易成功率。",
+  "primary_image": "cards/nWHint4Yano/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/nWHint4Yano/images/case_003_detail_1.jpg",
+    "cards/nWHint4Yano/images/case_003_detail_2.jpg",
+    "cards/nWHint4Yano/images/case_003_detail_3.jpg",
+    "cards/nWHint4Yano/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "EURUSD 1 小时 K 线图。图上显示约 1.05500 至 1.10000 的价格范围。K 线由绿色和黑色主体组成，分布在整个可见区间。图上有两个浅绿色填充的矩形标注区域：下方矩形约在 1.07000 至 1.08500 之间，上方矩形约在 1.08000 至 1.09500 之间。两个矩形区域存在部分重叠。除矩形标注外，图上未见其他文字标签、水平线或指标。",
+    "case_003_detail_1.jpg": "EURUSD 日线图。图表显示约 40 根 K 线，价格范围从 1.05500 到 1.12000。左侧显示初期下跌走势，中间区域出现盘整，右侧显示上升走势。K 线由绿色（上升）和黑色（下降）组成，多数 K 线具有上下影线。图上未见水平线、趋势线或其他标注。右侧面板显示多个交易对列表。底部显示时间轴标记。",
+    "case_003_detail_2.jpg": "GBPUSD 日线图表。图上显示约三个月的价格走势，由绿色和黑色 K 线组成。图表中部偏上方位置有一根特别大的黑色 K 线，具有明显的上下影线。该大黑线之后跟随一系列较小的黑色 K 线。绿色 K 线分散分布在整个图表中。可见价格范围从约 1.20000 到 1.37000。图上未见其他标注、水平线或指标。",
+    "case_003_detail_3.jpg": "DXY 日线图表。图上显示美元指数从约 107.5 的高点下跌至 101.5 的低点，随后反弹至约 106.5。整个价格走势跨越多根 K 线，在 102.5 至 104.5 区间内形成整理区域，该区域内 K 线呈现绿黑相间的形态，部分 K 线具有较长的上下影线。右侧价格轴清晰标注价格刻度，图上未见其他标注、水平线或指标。",
+    "case_003_detail_4.jpg": "EURUSD 多周期对比图表。图上显示多根 K 线，绿色和黑色交替出现，每根 K 线均带有上下影线。价格范围从约 0.97000 到 1.12000。右侧面板列出多个货币对代码，包括 EURUSD、EURJPY、EURGBP 等。图表顶部工具栏可见绘图工具和指标选项。左侧价格刻度清晰可见。未见明确的时间框架标注或其他技术标注。"
+  },
+  "sources": [
+    {
+      "video_id": "nWHint4Yano",
+      "segment_ids": [
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        490.4,
+        715.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从美元分析→相对强弱对比→资产选择→小时级别设置→交易结果的全流程，关键价位、时间框架、分析步骤均清晰可辨。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:14.017170Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美元扫盘后EURUSD的做空设置\",\"school\":\"SMC\",\"asset\":\"EURUSD\",\"timeframe\":\"1H\",\"market_context\":\"美元在周一至周四形成反转低点后，周五回归整理区间。通过EURGBP的看跌表现确认欧元相对较弱，为EURUSD做空提供了相对强弱的确认信号。\",\"key_observation\":\"博主通过对比EURGBP和GBPUSD的相对强弱，确认欧元是外汇中最弱的货币。EURGBP形成看跌吞没形态，EURUSD日线收盘看跌，而GBPUSD收盘看涨，这种分歧确认了欧元的弱势。\",\"analysis_steps\":[\"Step 1: 观察美元指数(DXY)在周一至周四形成反转低点，预期周五回归整理区间。\",\"Step 2: 检查EURGBP日线，发现看跌吞没形态，虽然突破了前高但形成吞没，预示可能反转。\",\"Step 3: 对比EURUSD和GBPUSD的日线收盘：EURUSD收盘看跌，GBPUSD收盘看涨，确认欧元相对较弱。\",\"Step 4: 转向小时级别分析EURUSD，寻找市场结构转变(CSD)和分形模型。\",\"Step 5: 识别EURUSD小时级别扫除整理区间高点后的延续下跌，形成做空设置。\",\"Step 6: 对比EURUSD和GBPUSD的小时级别表现，EURUSD在8:00 a.m.扫除低点，而GBPUSD直到9:00 a.m.才扫除，显示欧元下跌力度更强。\"],\"outcome\":\"EURUSD形成明显的下跌扩展(expansion lower)，相比GBPUSD的表现，欧元展现出更强的下行动能，验证了做空设置的有效性。\",\"lessons\":\"相对强弱分析对于选择正确的交易资产至关重要。即使交易思路正确，如果选择了错误的资产，也会导致交易失败或错过扩展行情。通过多资产对比确认最弱的货币，能显著提高交易成功率。\",\"primary_image_frame_id\":\"nWHint4Yano_f023\",\"supporting_image_frame_ids\":[\"nWHint4Yano_f018\",\"nWHint4Yano_f019\",\"nWHint4Yano_f020\",\"nWHint4Yano_f022\"],\"related_concepts\":[\"Relative Strength\",\"Market Structure Shift (MSS)\",\"Change in the state of delivery (CSD)\",\"Order Block (OB)\",\"Liquidity Sweep\",\"Fractal Model\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从美元分析→相对强弱对比→资产选择→小时级别设置→交易结果的全流程，关键价位、时间框架、分析步骤均清晰可辨。\"}",
+  "error": null
+}

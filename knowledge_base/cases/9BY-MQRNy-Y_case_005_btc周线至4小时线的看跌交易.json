@@ -1,0 +1,105 @@
+{
+  "card_id": "9BY-MQRNy-Y_case_005_btc周线至4小时线的看跌交易",
+  "type": "case",
+  "title": "BTC周线至4小时线的看跌交易设置",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "protected_high_low",
+    "fair_value_gap",
+    "displacement",
+    "market_structure_shift",
+    "liquidity",
+    "aligned_timeframe"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1W → 4H",
+  "market_context": "周线形成扩展、整理、扫盘对立订单流后的看跌收盘。价格从约128000下行至约75000，形成明确的下行结构。",
+  "key_observation": "周线candle 2形成看跌收盘后，直接跳至4小时线寻找入场。4小时线形成受保护摆动和扫盘后继续下行，最终达成目标位置。",
+  "analysis_steps": [
+    "Step 1: 在周线上识别扩展、整理、扫盘对立订单流的结构，确认看跌偏差已形成。",
+    "Step 2: 观察周线candle 2的看跌收盘，确认下行信号。",
+    "Step 3: 直接跳至4小时线，寻找高时间框架背景下的入场机会。",
+    "Step 4: 在4小时线上识别受保护摆动（Protected Swing），该摆动在约95000-96500区间形成。",
+    "Step 5: 等待价格扫盘该受保护摆动后的反向运动，确认继续下行的意图。",
+    "Step 6: 在扫盘完成后入场做空，目标位置为约88000-92500区间的Order Block。",
+    "Step 7: 观察价格快速下行至目标位置，达成3R或更高的风险回报比。"
+  ],
+  "outcome": "价格快速下行至短期目标位置（约88000-92500区间），达成预期的风险回报比目标。",
+  "lessons": "使用周线确定偏差和大方向后，可直接跳至4小时线寻找入场，无需中间时间框架。受保护摆动和扫盘后的继续运动是高概率入场信号。时间框架的灵活组合（周线+4小时线）比固定的三层结构更高效。",
+  "primary_image": "cards/9BY-MQRNy-Y/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/9BY-MQRNy-Y/images/case_005_detail_1.jpg",
+    "cards/9BY-MQRNy-Y/images/case_005_detail_2.jpg",
+    "cards/9BY-MQRNy-Y/images/case_005_detail_3.jpg",
+    "cards/9BY-MQRNy-Y/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表显示 BTCUSDT 4 小时 K 线图，可见价格范围约从 86000 到 99000。图上有一条带标签'ALT'的水平线位于约 94100 处，另有一条无标签水平线位于约 92000 处。右侧区域有两个矩形标注：一个灰色矩形位于约 95000 至 96500，一个浅绿色矩形位于约 90500 至 93500。图上显示三个文字标注框，分别标记买入价、持仓盈亏及目标价信息。右侧可见数根大实体 K",
+    "case_005_detail_1.jpg": "BTCUSDT 周线 K 线图，可见价格范围约从 70000 至 130000。图中左侧区域 K 线在约 95000 至 105000 区间内有一段整理，随后 K 线向上延伸至约 114000 至 119000 区间形成另一段整理，期间多根 K 线带有较长上影线。此后一根绿色 K 线上探至约 128000 附近。随后图中出现连续数根大型黑色 K 线，从约 128000 下行至约 75000。图右侧",
+    "case_005_detail_2.jpg": "图表为 BTCUSDT K 线图，平台标识为 TTrades.com。图上可见价格刻度范围约从 72000 至 130000。图中央弹出一个'Change interval'对话框，输入框内显示数字'4'，下方注释为'4 minutes'，遮挡部分 K 线区域。图右侧有一个矩形标注框，覆盖约 88000 至 96000 区间。图上另有一条虚线水平线位于约 88000 附近。K 线序列从左侧低位延伸",
+    "case_005_detail_3.jpg": "BTCUSDT 4小时K线图，可见价格范围约从46000至99000。图右侧有两根较长的绿色K线柱体。图上标注有三个矩形框：一个灰色矩形位于约95500至96500区间，一个青绿色矩形位于约88000至92500区间，另一个灰色矩形位于约91000至93500区间。图上另有一条水平线横跨全图，位于约94100处。图右侧可见数根大幅下行的黑色K线，随后出现两根大幅上行的绿色K线。图上未见文字标签或指",
+    "case_005_detail_4.jpg": "BTCUSDT 4 小时 K 线图，可见价格范围约从 86000 至 99000。图上有两条水平线分别位于约 94700 和 94200 附近。图上标注有四个矩形框：一个灰色矩形位于约 95000 至 96500 区间，一个灰色矩形位于约 91500 至 93000 区间，一个浅蓝色矩形位于约 88500 至 91500 区间，一个灰色矩形位于约 87000 至 89500 区间。K 线从图中部高"
+  },
+  "sources": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "segment_ids": [
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        865.44,
+        1072.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了周线结构、4小时线入场过程、受保护摆动识别和目标达成，所有关键价位和步骤清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:14.471830Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC周线至4小时线的看跌交易设置\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1W → 4H\",\"market_context\":\"周线形成扩展、整理、扫盘对立订单流后的看跌收盘。价格从约128000下行至约75000，形成明确的下行结构。\",\"key_observation\":\"周线candle 2形成看跌收盘后，直接跳至4小时线寻找入场。4小时线形成受保护摆动和扫盘后继续下行，最终达成目标位置。\",\"analysis_steps\":[\"Step 1: 在周线上识别扩展、整理、扫盘对立订单流的结构，确认看跌偏差已形成。\",\"Step 2: 观察周线candle 2的看跌收盘，确认下行信号。\",\"Step 3: 直接跳至4小时线，寻找高时间框架背景下的入场机会。\",\"Step 4: 在4小时线上识别受保护摆动（Protected Swing），该摆动在约95000-96500区间形成。\",\"Step 5: 等待价格扫盘该受保护摆动后的反向运动，确认继续下行的意图。\",\"Step 6: 在扫盘完成后入场做空，目标位置为约88000-92500区间的Order Block。\",\"Step 7: 观察价格快速下行至目标位置，达成3R或更高的风险回报比。\"],\"outcome\":\"价格快速下行至短期目标位置（约88000-92500区间），达成预期的风险回报比目标。\",\"lessons\":\"使用周线确定偏差和大方向后，可直接跳至4小时线寻找入场，无需中间时间框架。受保护摆动和扫盘后的继续运动是高概率入场信号。时间框架的灵活组合（周线+4小时线）比固定的三层结构更高效。\",\"primary_image_frame_id\":\"9BY-MQRNy-Y_f033\",\"supporting_image_frame_ids\":[\"9BY-MQRNy-Y_f031\",\"9BY-MQRNy-Y_f032\",\"9BY-MQRNy-Y_f034\",\"9BY-MQRNy-Y_f035\"],\"related_concepts\":[\"Order Block\",\"Protected Swing\",\"Fair Value Gap\",\"Displacement\",\"Market Structure Shift\",\"Liquidity\",\"Fractal Model\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了周线结构、4小时线入场过程、受保护摆动识别和目标达成，所有关键价位和步骤清晰可见。\"}",
+  "error": null
+}

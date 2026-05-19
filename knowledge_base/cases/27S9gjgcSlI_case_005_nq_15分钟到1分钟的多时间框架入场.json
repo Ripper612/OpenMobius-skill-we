@@ -1,0 +1,116 @@
+{
+  "card_id": "27S9gjgcSlI_case_005_nq_15分钟到1分钟的多时间框架入场",
+  "type": "case",
+  "title": "NQ 15分钟到1分钟多时间框架入场与FVG调整",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "breaker_block",
+    "high_resistance_liquidity",
+    "change_in_state_of_delivery_csd",
+    "equal_lows",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15分钟 → 1分钟",
+  "market_context": "CPI数据发布后，NQ与ES出现分歧（SMT），NQ创新高而ES未能跟随。博主识别到NQ高点的High Resistance Liquidity，预期该高点将被保护，寻求做空机会。",
+  "key_observation": "CPI发布后NQ与ES形成Smart Money Technique分歧，NQ创高ES未创高，表明NQ相对强势但存在反转风险。下跌后形成Breaker Block，为做空提供入场信号。",
+  "analysis_steps": [
+    "Step 1: 观察CPI发布后NQ与ES的高点分歧，识别SMT现象——NQ创新高而ES未能跟随。",
+    "Step 2: 确认NQ高点形成High Resistance Liquidity，决定以该高点作为止损位而非Breaker Block本身。",
+    "Step 3: 识别下跌后的Breaker Block（高低高低低的下跌收盘K线），作为初始做空入场信号。",
+    "Step 4: 在15分钟图上标记PD array（Premium/Discount Array），包含FVG、OB等支撑阻力区域。",
+    "Step 5: 错过15分钟初始入场后，下钻到1分钟图寻找更精确的setup。",
+    "Step 6: 在1分钟图上识别CSD（交付状态改变），即价格突破上升K线序列后的下跌，确认趋势转变。",
+    "Step 7: 在1分钟PD array内识别FVG作为备选入场点，以获得更优的风险回报比（从1.65R调整至2R）。",
+    "Step 8: 最终选择在1分钟FVG处入场，以实现2R的目标风险回报比。"
+  ],
+  "outcome": "交易执行成功。初始在15分钟Breaker Block处入场后，价格下跌至等低点（Equal Lows）。若错过该入场，通过1分钟下钻在FVG处重新入场，最终目标指向原始15分钟PD array的下方流动性（Equal Lows区域），实现2R风险回报。",
+  "lessons": "多时间框架分析中，当高时间框架初始入场被错过时，可下钻至低时间框架在PD array内寻找精确setup。利用FVG调整入场位置能优化风险回报比。SMT分歧识别和High Resistance Liquidity的正确止损位置设置是关键。",
+  "primary_image": "cards/27S9gjgcSlI/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/27S9gjgcSlI/images/case_005_detail_1.jpg",
+    "cards/27S9gjgcSlI/images/case_005_detail_2.jpg",
+    "cards/27S9gjgcSlI/images/case_005_detail_3.jpg",
+    "cards/27S9gjgcSlI/images/case_005_detail_4.jpg",
+    "cards/27S9gjgcSlI/images/case_005_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图为 NQ（E-MINI NASDAQ-100 FUTURES）1 分钟 K 线图，来自 FXReplay 回测平台。可见价格范围约 16700 至 17000。图上有两条贯穿全图的水平线，分别位于约 16900 和 16800 附近。图右侧标注有一个粉色矩形区域，标签显示止损信息：Stop 35.75（0.21%）143，Amount 750；其下方有一个绿色矩形区域，标签显示 Closed P",
+    "case_005_detail_1.jpg": "图为 FXReplay 平台双面板 15 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ）。两个面板均在 Thu 11 Jan '24 03:45 处标有垂直虚线。右侧 NQ 面板可见价格范围约 16800 至 17080，图上有一个绿色矩形区域覆盖约 17047.49 至 17080.00 区间，当前",
+    "case_005_detail_2.jpg": "图为 FXReplay 回测平台上并排显示的两个 15 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES，右侧为 E-MINI NASDAQ-100 FUTURES，日期均对齐至 2024 年 1 月 11 日。左图价格轴范围约 4780 至 4844，图上有一条水平虚线位于约 4814.25，并有一个小矩形标注区域位于约 4834 至 4838 附近。右图价格轴范围约 168",
+    "case_005_detail_3.jpg": "图为 FXReplay 回测平台的双面板 15 分钟 K 线图，左侧为 E-MINI S&P 500 期货（ES），右侧为 E-MINI NASDAQ-100 期货（NQ）。左侧面板可见一个矩形标注区域，位于约 4828 至 4840 区间，右侧边缘有一根较长的 K 线，当前价格标签显示 4814.25。右侧面板标注有三个叠加矩形区域：红色区域位于约 17014 至 17040，粉色区域位于约 1",
+    "case_005_detail_4.jpg": "NQ（E-MINI NASDAQ-100 FUTURES）15 分钟 K 线图，来自 FXReplay 回测平台。图上可见价格范围约 16660 至 17180。图右侧有三个叠加的矩形标注区域：绿色大矩形覆盖约 16800 至 17200，粉红色矩形覆盖约 17000 至 17060，青色矩形覆盖约 16800 至 17000。图右侧标注有止损位（432 +Stop Loss 15.50）和止盈位",
+    "case_005_detail_5.jpg": "图表为 NQ1!（E-MINI NASDAQ-100 FUTURES）15 分钟 K 线图，来自 FXReplay 回测平台。可见价格范围约从 16660 至 17220。图左侧至中部呈现一段上行 K 线序列，随后在约 17060 附近出现顶部并转为下行。图右侧出现一根带长下影线的大阴线，下影线延伸至约 16490。图上叠加两个矩形标注：粉色矩形覆盖约 16960 至 17060 区间，浅蓝色矩形"
+  },
+  "sources": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        559.44,
+        741.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从15分钟SMT识别、Breaker Block确认、到1分钟下钻寻找FVG入场的全过程，关键价位、时间框架、交易逻辑清晰，图表标注详细。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:18:25.312126Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 15分钟到1分钟多时间框架入场与FVG调整\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15分钟 → 1分钟\",\"market_context\":\"CPI数据发布后，NQ与ES出现分歧（SMT），NQ创新高而ES未能跟随。博主识别到NQ高点的High Resistance Liquidity，预期该高点将被保护，寻求做空机会。\",\"key_observation\":\"CPI发布后NQ与ES形成Smart Money Technique分歧，NQ创高ES未创高，表明NQ相对强势但存在反转风险。下跌后形成Breaker Block，为做空提供入场信号。\",\"analysis_steps\":[\"Step 1: 观察CPI发布后NQ与ES的高点分歧，识别SMT现象——NQ创新高而ES未能跟随。\",\"Step 2: 确认NQ高点形成High Resistance Liquidity，决定以该高点作为止损位而非Breaker Block本身。\",\"Step 3: 识别下跌后的Breaker Block（高低高低低的下跌收盘K线），作为初始做空入场信号。\",\"Step 4: 在15分钟图上标记PD array（Premium/Discount Array），包含FVG、OB等支撑阻力区域。\",\"Step 5: 错过15分钟初始入场后，下钻到1分钟图寻找更精确的setup。\",\"Step 6: 在1分钟图上识别CSD（交付状态改变），即价格突破上升K线序列后的下跌，确认趋势转变。\",\"Step 7: 在1分钟PD array内识别FVG作为备选入场点，以获得更优的风险回报比（从1.65R调整至2R）。\",\"Step 8: 最终选择在1分钟FVG处入场，以实现2R的目标风险回报比。\"],\"outcome\":\"交易执行成功。初始在15分钟Breaker Block处入场后，价格下跌至等低点（Equal Lows）。若错过该入场，通过1分钟下钻在FVG处重新入场，最终目标指向原始15分钟PD array的下方流动性（Equal Lows区域），实现2R风险回报。\",\"lessons\":\"多时间框架分析中，当高时间框架初始入场被错过时，可下钻至低时间框架在PD array内寻找精确setup。利用FVG调整入场位置能优化风险回报比。SMT分歧识别和High Resistance Liquidity的正确止损位置设置是关键。\",\"primary_image_frame_id\":\"27S9gjgcSlI_f025\",\"supporting_image_frame_ids\":[\"27S9gjgcSlI_f019\",\"27S9gjgcSlI_f020\",\"27S9gjgcSlI_f021\",\"27S9gjgcSlI_f023\",\"27S9gjgcSlI_f024\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Breaker Block\",\"High Resistance Liquidity\",\"Premium/Discount Array (PD array)\",\"Change in State of Delivery (CSD)\",\"Equal Lows\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"hi",
+  "error": null
+}

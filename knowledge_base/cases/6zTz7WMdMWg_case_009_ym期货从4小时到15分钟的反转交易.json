@@ -1,0 +1,95 @@
+{
+  "card_id": "6zTz7WMdMWg_case_009_ym期货从4小时到15分钟的反转交易",
+  "type": "case",
+  "title": "YM期货4小时到15分钟的反转交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "HTF/LTF Analysis",
+      "card_id": "multiple_timeframe_analysis",
+      "exists": true
+    },
+    {
+      "term": "Bias",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "displacement",
+    "risk_to_reward",
+    "multiple_timeframe_analysis"
+  ],
+  "school": "ICT",
+  "asset": "YM",
+  "timeframe": "4H / 15M",
+  "market_context": "YM在4小时图上未能收盘在前一根高点之上，形成向下偏差信号。新的4小时蜡烛开启后价格下跌，进入15分钟FVG阵列。",
+  "key_observation": "4小时未能突破前高给出向下偏差，确立做空偏差。15分钟图显示价格进入FVG，为执行时间框架提供高概率入场机会。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上观察YM未能收盘在前一根高点之上，确认向下偏差信号。",
+    "Step 2: 切换到15分钟执行时间框架，识别FVG阵列和新形成的FVG。",
+    "Step 3: 在15分钟FVG的起点设置入场，止损放在FVG高点。",
+    "Step 4: 目标设定在4小时低点，计算风险回报比为2.3R。",
+    "Step 5: 价格从范围的一侧运行到另一侧，成功达到目标。"
+  ],
+  "outcome": "交易成功，获得2.3R收益。价格从15分钟FVG入场点运行至4小时低点目标。",
+  "lessons": "使用高时间框架（4小时）确定偏差和交易偏向，使用低时间框架（15分钟）进行精确执行。FVG和市场结构转变的组合提供高概率设置。这些概念具有分形特性，可应用于任何时间框架。",
+  "primary_image": "cards/6zTz7WMdMWg/images/case_009_primary.jpg",
+  "supporting_images": [
+    "cards/6zTz7WMdMWg/images/case_009_detail_1.jpg",
+    "cards/6zTz7WMdMWg/images/case_009_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_009_primary.jpg": "图表显示资产代码左上角模糊，时间框架标注为 15M，时间轴从 06:00 延伸至约 23:00。图上有一个蓝色矩形框，覆盖约 09:00 至 14:30 时段，价格范围约 35210 至 35510。14:00 附近另有一个小型灰色矩形，价格范围约 35260 至 35300。右侧价格轴当前价格标签显示 35465。K 线以绿色和黑色交替排列，可见价格范围约从 35300 至 35550。图右上角",
+    "case_009_detail_1.jpg": "图左上角资产代码显示为1M!1，图右下角时间框架标注为4H。K线图可见价格范围约从35100至35640。图上有一条短水平线段标注，连接两个锚点，位于约35510至35520区间，右侧锚点附有圆形控制柄。图右侧价格轴显示两个高亮标签：35514（蓝色）与35506（绿色）。时间轴底部高亮标注两个时间节点：Fri 21 Jul '23 06:00与Fri 21 Jul '23 14:00。K线序列由",
+    "case_009_detail_2.jpg": "图为 15 分钟 K 线图，时间轴显示 04:00 至次日 00:00，日期标注为 2023 年 7 月 23 日。图上有两个矩形标注：一个蓝色边框矩形覆盖约 09:00 至 14:00 时段，价格范围约 35200 至 35480；一个青色填充矩形覆盖约 15:00 至 19:00 时段，同一价格范围内，上方叠加灰色矩形区域约 35380 至 35480。右侧价格轴标注 35477、35418、"
+  },
+  "sources": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "segment_ids": [
+        "seg_009"
+      ],
+      "time_range": [
+        1323.6,
+        1500.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了4小时和15分钟图表，清晰说明了分析步骤、入场点、止损、目标和最终结果（2.3R收益）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:26.573448Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"YM期货4小时到15分钟的反转交易\",\"school\":\"ICT\",\"asset\":\"YM\",\"timeframe\":\"4H / 15M\",\"market_context\":\"YM在4小时图上未能收盘在前一根高点之上，形成向下偏差信号。新的4小时蜡烛开启后价格下跌，进入15分钟FVG阵列。\",\"key_observation\":\"4小时未能突破前高给出向下偏差，确立做空偏差。15分钟图显示价格进入FVG，为执行时间框架提供高概率入场机会。\",\"analysis_steps\":[\"Step 1: 在4小时图上观察YM未能收盘在前一根高点之上，确认向下偏差信号。\",\"Step 2: 切换到15分钟执行时间框架，识别FVG阵列和新形成的FVG。\",\"Step 3: 在15分钟FVG的起点设置入场，止损放在FVG高点。\",\"Step 4: 目标设定在4小时低点，计算风险回报比为2.3R。\",\"Step 5: 价格从范围的一侧运行到另一侧，成功达到目标。\"],\"outcome\":\"交易成功，获得2.3R收益。价格从15分钟FVG入场点运行至4小时低点目标。\",\"lessons\":\"使用高时间框架（4小时）确定偏差和交易偏向，使用低时间框架（15分钟）进行精确执行。FVG和市场结构转变的组合提供高概率设置。这些概念具有分形特性，可应用于任何时间框架。\",\"primary_image_frame_id\":\"6zTz7WMdMWg_f049\",\"supporting_image_frame_ids\":[\"6zTz7WMdMWg_f048\",\"6zTz7WMdMWg_f050\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"Displacement\",\"Risk/Reward Ratio\",\"HTF/LTF Analysis\",\"Bias\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了4小时和15分钟图表，清晰说明了分析步骤、入场点、止损、目标和最终结果（2.3R收益）。\"}",
+  "error": null
+}

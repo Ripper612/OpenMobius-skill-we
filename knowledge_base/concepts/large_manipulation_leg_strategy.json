@@ -1,0 +1,57 @@
+{
+  "card_id": "large_manipulation_leg_strategy",
+  "type": "merged_concept",
+  "canonical_term": "Large Manipulation Leg Strategy",
+  "aliases": [
+    "Large Manipulation Leg",
+    "Large Range Manipulation"
+  ],
+  "school": "ICT",
+  "definition": "当操纵腿（从反转点的高点到低点或反之的整个价格范围）过大时，降低价格目标预期，使用-1标准差作为主要目标而非-2至-2.5标准差的策略调整方法。",
+  "identification_rules": [
+    "识别Change in State of Delivery（交付状态改变）后，标记出完整的操纵腿范围（从高点到低点或反之）",
+    "比较操纵腿范围与预期目标范围的比例关系，当操纵腿接近或超过目标范围的50%时判定为Large Manipulation Leg",
+    "观察投影目标是否不合理（如在纽约盘中后期预期YM下跌500-600点），作为Large Manipulation Leg的确认信号",
+    "当标准投影目标（-2至-2.5或-4至-4.5）显得过度时，改用-1标准差作为主要交易目标"
+  ],
+  "trading_implication": "在操纵腿过大的情况下，不应追求极端的价格目标。应将-1标准差作为主要目标寻找，同时在左侧图表中寻找与-1标准差对齐的流动性或支撑阻力位作为汇聚点。若价格未在-1标准差反转，才考虑扩展至-2至-2.5的目标。此策略特别适用于小时图分析日内范围。",
+  "common_mistakes": [
+    "在操纵腿过大时仍然追求-2至-2.5甚至-4至-4.5的目标，导致价格目标不合理",
+    "未能识别操纵腿的相对大小，对所有情况使用统一的标准差目标而不做调整",
+    "忽视-1标准差与左侧历史低点的汇聚关系，错过高概率的反转点"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "original_card_id": "upHS7SDL9kg_concept_large_manipulation_leg_strategy",
+      "segment_ids": [
+        "seg_003",
+        "seg_010",
+        "seg_011",
+        "seg_013"
+      ],
+      "time_range": [
+        96.24000000000001,
+        526.9590000000001
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133732Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

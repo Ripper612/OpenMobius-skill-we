@@ -1,0 +1,87 @@
+{
+  "card_id": "o0v4KQxZbpU_case_013_回测第十一天交易",
+  "type": "case",
+  "title": "回测第十一天：11 AM无交易机会分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "displacement",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1D",
+  "market_context": "回测序列中的第十一天。博主按日线框架逐日分析，标记每日9 AM的高低点，寻找位移和FVG形成的交易机会。该日在11 AM时段未出现有效的交易设置。",
+  "key_observation": "11 AM时段没有出现任何有效的交易机会。博主标记了9 AM的高低点后，观察是否有激进的位移回到区间内或FVG形成，但该日未满足入场条件。",
+  "analysis_steps": [
+    "Step 1: 标记该日9 AM的低点和高点作为参考结构",
+    "Step 2: 观察价格是否出现激进的位移（Displacement）回到该区间",
+    "Step 3: 检查是否形成可用的公允价值缺口（FVG）用于交易",
+    "Step 4: 评估风险回报比，确定止损位置和目标位置",
+    "Step 5: 确认11 AM时段无有效交易机会，继续进入下一天分析"
+  ],
+  "outcome": null,
+  "lessons": "并非每个交易日都会出现高概率的交易机会。严格遵循交易规则，在没有明确的位移或FVG形成时保持观望，避免强行入场。这体现了纪律性交易的重要性。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_013_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_013_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_013_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_013_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_013_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_013_primary.jpg": "NAS100 1分钟图表。左侧面板显示从09:21至10:00的K线序列，包含多根绿色和黑色蜡烛。右侧面板展示较大的K线形态，包含一根绿色K线和一根黑色K线。图上标注两条水平线：15825.7901337和15201.6900000。右侧价格刻度范围约15401.69至15608.00。图表底部显示时间轴和交易工具栏。",
+    "case_013_detail_1.jpg": "NAS100 日线图。图上显示从约 13500 至 18870 的上升趋势。可见多条绿色 K 线，其中上方区域有一根较大的绿色主体 K 线。图上标注有两条带文字标签的水平线，均位于 14880 处，标签分别为'Swing_LL-S-SWING_TG_17'和'Target_14.880000 (0.382) 14880000, Amount: 280.2'。左下方区域显示早期的小幅波动后开始上升。",
+    "case_013_detail_2.jpg": "NAS100 日线图。左侧为线图展示从约13500上升至19700的上升趋势，随后下降至约13500。图上有两条水平线分别位于16500和15000，两线之间有矩形标注。右侧为K线图，顶部一根绿色K线位于17500-17000区间，其下方为一系列黑色K线从17000逐步下降至13500。图表标题显示'Backtesting'，底部时间戳显示'15:05:09 BTC-d'。",
+    "case_013_detail_3.jpg": "NAS100 日线图。左侧面板显示从约17500下跌至14600的下降趋势，跨越多根K线。右侧面板显示约15000至16500区间内的整理形态，由绿色和黑色K线交替组成。图上有一条水平线位于16848处，以及一个矩形标注框从下方约14600延伸至上方约16848。右下角显示当前价格为16848.00000。",
+    "case_013_detail_4.jpg": "NAS100 日线图表，分为左右两个面板。左侧面板显示完整的日线K线走势，从约14640上升至15565，随后回落至14640附近。右侧面板为放大视图，展示最近几根K线的详细形态，包括一根大绿色K线和一根大黑色K线。图上标注有多条水平线，分别位于15565.79、15242.4、15008和14640价位。下方面板显示成交量柱状图。整体价格范围约从14640至15565。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_008"
+      ],
+      "time_range": [
+        743.92,
+        892.639
+      ]
+    }
+  ],
+  "extraction_confidence": "medium",
+  "confidence_reason": "博主明确提及11 AM无交易机会，但未详细展开该日的具体价格走势或结构细节。分析步骤基于通用的ICT框架推导。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:07.761242Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第十一天：11 AM无交易机会分析\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1D\",\"market_context\":\"回测序列中的第十一天。博主按日线框架逐日分析，标记每日9 AM的高低点，寻找位移和FVG形成的交易机会。该日在11 AM时段未出现有效的交易设置。\",\"key_observation\":\"11 AM时段没有出现任何有效的交易机会。博主标记了9 AM的高低点后，观察是否有激进的位移回到区间内或FVG形成，但该日未满足入场条件。\",\"analysis_steps\":[\"Step 1: 标记该日9 AM的低点和高点作为参考结构\",\"Step 2: 观察价格是否出现激进的位移（Displacement）回到该区间\",\"Step 3: 检查是否形成可用的公允价值缺口（FVG）用于交易\",\"Step 4: 评估风险回报比，确定止损位置和目标位置\",\"Step 5: 确认11 AM时段无有效交易机会，继续进入下一天分析\"],\"outcome\":null,\"lessons\":\"并非每个交易日都会出现高概率的交易机会。严格遵循交易规则，在没有明确的位移或FVG形成时保持观望，避免强行入场。这体现了纪律性交易的重要性。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f029\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f025\",\"o0v4KQxZbpU_f026\",\"o0v4KQxZbpU_f028\",\"o0v4KQxZbpU_f030\"],\"related_concepts\":[\"Fair Value Gap\",\"Displacement\",\"Order Block\",\"Market Structure\",\"Risk Management\"],\"extraction_confidence\":\"medium\",\"confidence_reason\":\"博主明确提及11 AM无交易机会，但未详细展开该日的具体价格走势或结构细节。分析步骤基于通用的ICT框架推导。\"}",
+  "error": null
+}

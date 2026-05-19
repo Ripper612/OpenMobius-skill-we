@@ -1,0 +1,109 @@
+{
+  "card_id": "bbWPoajy2MY_case_004_原油日线图的order_block与mitigation_blo",
+  "type": "case",
+  "title": "原油日线Order Block与Mitigation Block的多层级回测",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Reaccumulation",
+      "card_id": "reaccumulation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "mitigation_block",
+    "breaker_block",
+    "fair_value_gap",
+    "displacement",
+    "reaccumulation",
+    "market_structure_shift",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "1D",
+  "market_context": "原油（黄金）日线图显示从高位2008.00下跌至低位1932.00，随后形成反弹结构。博主在左侧识别关键的Order Block和后续的多个Mitigation Block，用于追踪价格的回测反应和交易机会。",
+  "key_observation": "博主识别左侧下跌中形成的Order Block（由下跌蜡烛组成），价格突破后回测该区域产生反应。后续价格在多个Mitigation Block区域形成短线交易机会，这些区域由先前的高点转化而来。",
+  "analysis_steps": [
+    "Step 1: 在左侧下跌趋势中识别由下跌蜡烛（down close candles）形成的Order Block",
+    "Step 2: 标记价格突破该Order Block后的Displacement（位移）",
+    "Step 3: 当价格回测该Order Block时，观察是否产生反应和反弹",
+    "Step 4: 识别价格突破后形成的第一个Mitigation Block（先前的高点转化为支撑）",
+    "Step 5: 在Mitigation Block区域内识别Fair Value Gap（公允价值缺口），该缺口位于折价区",
+    "Step 6: 标记价格再次突破后形成的第二个Mitigation Block",
+    "Step 7: 观察价格在多个Mitigation Block区域的重新积累（reaccumulation）和持续上升",
+    "Step 8: 确认通过使用旧的Order Block和Mitigation Block的组合，可以获得多个交易机会和汇聚点"
+  ],
+  "outcome": "价格在这些Mitigation Block区域形成了多个买入机会，通过回测和重新积累，价格继续向上突破原始整固区域，产生了有效的买入信号。博主指出这是一个成功的买入案例，展示了如何利用旧的Order Block和Mitigation Block来识别交易设置。",
+  "lessons": "Mitigation Block是先前失败的Order Block转化而来，当价格突破结构后，这些区域可作为新的支撑。通过将旧的Order Block从买方曲线转移到卖方曲线，可以获得额外的汇聚点。Fair Value Gap与Mitigation Block的组合提供了高概率的交易入场点。",
+  "primary_image": "cards/bbWPoajy2MY/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/bbWPoajy2MY/images/case_004_detail_1.jpg",
+    "cards/bbWPoajy2MY/images/case_004_detail_2.jpg",
+    "cards/bbWPoajy2MY/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "XAUUSD 24小时K线图。图上显示从2023年11月28日起的价格走势，整体价格范围从1928.00至2016.00。图中标注有三个矩形区域和两条水平虚线。矩形分别覆盖1928-1992、1964-2000、1992-2008价格区间。两条水平虚线分别位于1964.00和1992.00。K线从左侧低点1928.00逐步上升，右侧K线呈上升趋势，最新K线收于2012.00附近。",
+    "case_004_detail_1.jpg": "XAUUSD 240 分钟 K 线图。图上显示从 2008.00 向下至约 1932.00 的下跌趋势。图中标注有两条水平线分别位于 1922.00 和 1964.00，以及两个矩形框：一个覆盖 1922.00 至 1964.00 区间，另一个位于 1936.00 至 1948.00 区间。K 线结构中绿色蜡烛与黑色蜡烛交替出现。图表底部标注日期为 14/11/2023，资产为 XAUUSD 24",
+    "case_004_detail_2.jpg": "XAUUSD 240 分钟图表。图上可见两个矩形标注：一个大型黄色矩形覆盖约 1944 至 1992 价格区间，一个灰色矩形位于上方约 1960 至 1992 区间。图右侧显示三条水平虚线分别位于 1973.885、1968.365 和 1962.622 处。K 线整体价格范围从 1930.00 至 2016.00。图表显示多根绿色和黑色 K 线，下影线和上影线长度不一，下方区域约 1936-19",
+    "case_004_detail_3.jpg": "USDJPY 日线图，时间范围从 2021 年 6 月至 2024 年 4 月。图上可见价格从 64.00 上升至 95.00 附近的高点，随后下跌至 68.00 附近。图上标注有两个灰色矩形区域，分别位于 81-84 和 74-77 价格水平。下方显示成交量指标，低价区域呈绿色。图右下角显示当前日期为 28/12/2021，资产标记为 USDJPY。"
+  },
+  "sources": [
+    {
+      "video_id": "bbWPoajy2MY",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        368.8,
+        623.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对原油日线案例进行了完整的分析，清晰展示了Order Block识别、Mitigation Block标记、价格回测反应的全过程，并给出了明确的交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:23.408449Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油日线Order Block与Mitigation Block的多层级回测\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"1D\",\"market_context\":\"原油（黄金）日线图显示从高位2008.00下跌至低位1932.00，随后形成反弹结构。博主在左侧识别关键的Order Block和后续的多个Mitigation Block，用于追踪价格的回测反应和交易机会。\",\"key_observation\":\"博主识别左侧下跌中形成的Order Block（由下跌蜡烛组成），价格突破后回测该区域产生反应。后续价格在多个Mitigation Block区域形成短线交易机会，这些区域由先前的高点转化而来。\",\"analysis_steps\":[\"Step 1: 在左侧下跌趋势中识别由下跌蜡烛（down close candles）形成的Order Block\",\"Step 2: 标记价格突破该Order Block后的Displacement（位移）\",\"Step 3: 当价格回测该Order Block时，观察是否产生反应和反弹\",\"Step 4: 识别价格突破后形成的第一个Mitigation Block（先前的高点转化为支撑）\",\"Step 5: 在Mitigation Block区域内识别Fair Value Gap（公允价值缺口），该缺口位于折价区\",\"Step 6: 标记价格再次突破后形成的第二个Mitigation Block\",\"Step 7: 观察价格在多个Mitigation Block区域的重新积累（reaccumulation）和持续上升\",\"Step 8: 确认通过使用旧的Order Block和Mitigation Block的组合，可以获得多个交易机会和汇聚点\"],\"outcome\":\"价格在这些Mitigation Block区域形成了多个买入机会，通过回测和重新积累，价格继续向上突破原始整固区域，产生了有效的买入信号。博主指出这是一个成功的买入案例，展示了如何利用旧的Order Block和Mitigation Block来识别交易设置。\",\"lessons\":\"Mitigation Block是先前失败的Order Block转化而来，当价格突破结构后，这些区域可作为新的支撑。通过将旧的Order Block从买方曲线转移到卖方曲线，可以获得额外的汇聚点。Fair Value Gap与Mitigation Block的组合提供了高概率的交易入场点。\",\"primary_image_frame_id\":\"bbWPoajy2MY_f015\",\"supporting_image_frame_ids\":[\"bbWPoajy2MY_f013\",\"bbWPoajy2MY_f014\",\"bbWPoajy2MY_f020\",\"bbWPoajy2MY_f021\"],\"related_concepts\":[\"Order Block\",\"Mitigation Block\",\"Breaker Block\",\"Fair Value Gap\",\"Displacement\",\"Reaccumulation\",\"Market Structure Shift\",\"PD Array\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对原油日线案例进行了完整的分析，清晰展示了Order Block识别、Mitigation",
+  "error": null
+}

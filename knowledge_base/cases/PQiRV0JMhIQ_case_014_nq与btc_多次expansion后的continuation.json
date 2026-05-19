@@ -1,0 +1,89 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_014_nq与btc_多次expansion后的continuation",
+  "type": "case",
+  "title": "BTC多次expansion后continuation失败的避坑案例",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Objective",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "expansion",
+    "continuation_pattern",
+    "market_structure",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC在1小时图上经历多根K线的强势expansion，价格从约65000上升至67000，创出高时间框架目标后，随后的continuation设置失败。",
+  "key_observation": "博主指出：在价格已经完成多根expansion K线（1、2、3根）并击中显著高点后，不应该在该区域做多，因为这是容易被困在新价格阶段的危险区域。",
+  "analysis_steps": [
+    "Step 1: 观察NQ图表，发现价格已经run out所有之前的高点。",
+    "Step 2: 识别出3根连续的expansion K线，价格从约65000上升至67000。",
+    "Step 3: 确认价格已经击中高时间框架目标（significant high）。",
+    "Step 4: 分析continuation设置在该区域失败的原因——价格已经完成了主要的位移，后续continuation缺乏动能。",
+    "Step 5: 得出结论：不应该在已经有多根expansion且击中HTF目标后的区域做多。"
+  ],
+  "outcome": null,
+  "lessons": "避免在多根expansion K线已经完成且价格击中高时间框架目标后追求continuation交易。此类设置容易导致被困在新价格阶段。应该回到日线等更高时间框架，在折价区寻找更高概率的入场点，而不是在已经exhausted的区域追单。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_014_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_014_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_014_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_014_primary.jpg": "BTC 1 小时 K 线图。图上绘制了两个矩形框，分别覆盖约 63500 至 65500 和 64500 至 66500 的价格区间。图表右侧显示多根绿色 K 线，从约 65000 上升至 67000，其中最右侧一根绿色 K 线体积较大，下影线向下延伸至约 65500。中间区域可见黑色 K 线分布在 64000 至 65000 范围内。整体可见价格范围约从 61000 至 67000。",
+    "case_014_detail_1.jpg": "多资产并行显示的K线图表。图上显示多个交易对的蜡烛图，价格范围约从23700到26500。K线由绿色（看涨）和黑色（看跌）蜡烛组成，每根K线均显示上下影线。图表左侧为价格刻度，底部为时间轴。右上角可见绘图工具栏。图上未见明确的资产代码或时间框架标注。",
+    "case_014_detail_2.jpg": "BTC 1 小时 K 线图。图上显示从约 23700 上升至 26000 的上升趋势，由多根绿色 K 线和黑色 K 线交替组成。在价格区间 25800 至 26000 处有一条水平线。图中央有一个浅绿色矩形标注，覆盖价格范围约 24800 至 25800。图表右侧最新 K 线为绿色，收盘价约 25400。整体可见价格范围从 23700 至 26300。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_032"
+      ],
+      "time_range": [
+        1703.84,
+        1767.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了BTC 1H图表的expansion过程、具体价格区间（65000-67000）、失败的continuation现象，以及明确的交易原则说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:07.376817Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC多次expansion后continuation失败的避坑案例\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC在1小时图上经历多根K线的强势expansion，价格从约65000上升至67000，创出高时间框架目标后，随后的continuation设置失败。\",\"key_observation\":\"博主指出：在价格已经完成多根expansion K线（1、2、3根）并击中显著高点后，不应该在该区域做多，因为这是容易被困在新价格阶段的危险区域。\",\"analysis_steps\":[\"Step 1: 观察NQ图表，发现价格已经run out所有之前的高点。\",\"Step 2: 识别出3根连续的expansion K线，价格从约65000上升至67000。\",\"Step 3: 确认价格已经击中高时间框架目标（significant high）。\",\"Step 4: 分析continuation设置在该区域失败的原因——价格已经完成了主要的位移，后续continuation缺乏动能。\",\"Step 5: 得出结论：不应该在已经有多根expansion且击中HTF目标后的区域做多。\"],\"outcome\":null,\"lessons\":\"避免在多根expansion K线已经完成且价格击中高时间框架目标后追求continuation交易。此类设置容易导致被困在新价格阶段。应该回到日线等更高时间框架，在折价区寻找更高概率的入场点，而不是在已经exhausted的区域追单。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f057\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f058\",\"PQiRV0JMhIQ_f059\"],\"related_concepts\":[\"Displacement\",\"Expansion\",\"Continuation\",\"Higher Time Frame Objective\",\"Market Structure\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了BTC 1H图表的expansion过程、具体价格区间（65000-67000）、失败的continuation现象，以及明确的交易原则说明。\"}",
+  "error": null
+}

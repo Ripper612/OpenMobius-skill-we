@@ -1,0 +1,106 @@
+{
+  "card_id": "IJcfC6wAPZU_case_002_黄金期货_gc_4小时至15分钟浅回撤延续",
+  "type": "case",
+  "title": "黄金期货(GC)4小时至15分钟浅回撤延续交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Shallow Retracement",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk-Reward Ratio (2R)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "opposing_run",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "GC1!",
+  "timeframe": "4H / 15m",
+  "market_context": "黄金期货前日大幅上涨后形成浅回撤。价格回测进入4小时FVG区域（约2836-2842），未形成激进反转K线，为延续做多的高概率设置。",
+  "key_observation": "4小时扫盘后形成CSD（交付状态改变），15分钟多次回测FVG并形成对立K线（down close candles），确认买方控制，最终完成2R目标。",
+  "analysis_steps": [
+    "Step 1: 观察前日大幅上涨后的浅回撤走势，确认非激进反转K线，预示延续可能性。",
+    "Step 2: 在4小时图表上识别FVG区域（约2836-2842），价格小幅回测该区域。",
+    "Step 3: 切换至15分钟图表，观察新4小时K线开盘后扫出低点，形成CSD（市场结构转变）。",
+    "Step 4: 识别15分钟内多次形成的down close candles进入重要水平（FVG），作为对立K线确认。",
+    "Step 5: 等待价格突破对立K线上方，设置止损于扫盘低点，目标设定为2R（前期高点）。",
+    "Step 6: 价格回测订单块（Order Block）后再次形成down close candle，低点被尊重，随后上涨触及前期高点完成2R目标。"
+  ],
+  "outcome": "交易成功完成2R目标。价格从FVG区域反弹，突破对立K线后持续上涨，最终触及前期高点（约2859-2860），达成预期收益目标。",
+  "lessons": "多时间框架对齐是高概率交易的关键：4小时CSD与15分钟对立K线的共振确认了买方意图。浅回撤进FVG而非激进反转是延续信号。等待对立K线闭合突破而非急速入场，可提高胜率并优化风险回报比。",
+  "primary_image": "cards/IJcfC6wAPZU/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/IJcfC6wAPZU/images/case_002_detail_1.jpg",
+    "cards/IJcfC6wAPZU/images/case_002_detail_2.jpg",
+    "cards/IJcfC6wAPZU/images/case_002_detail_3.jpg",
+    "cards/IJcfC6wAPZU/images/case_002_detail_4.jpg",
+    "cards/IJcfC6wAPZU/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为 GC1!（黄金期货）15 分钟 K 线图，右下角标注 '15m-4H Model' 及 'Bias: Neutral'。可见价格范围约从 2828.0 至 2868.0。图上有一个大面积黄色矩形区域，覆盖约 2836.0 至 2842.0 价格区间，横跨图表左侧大部分时间段。右侧区域有一个青绿色矩形，覆盖约 2843.0 至 2860.0，以及一个灰色矩形覆盖约 2843.0 至 2855",
+    "case_002_detail_1.jpg": "GC1! 15 分钟 K 线图，标注显示 15m-4H Model，Bias: Neutral，时间戳 03:45:00。图上可见价格范围约 2828.0 至 2868.0。图中有一个大面积浅黄色矩形区域，横跨图表大部分水平范围，价格区间约 2836.0 至 2842.0。右侧另有一个较小浅黄色矩形，约位于 2842.0 至 2846.0。图右侧有两条水平虚线，分别位于约 2845.0 和 284",
+    "case_002_detail_2.jpg": "图表为 GC1!（黄金期货）15 分钟 K 线图，右下角标注 '15m-4H Model'、'Bias: Neutral'。可见价格范围约从 2828.0 至 2868.0。图上有一个大型浅黄色矩形区域，覆盖约 2836.0 至 2842.0 价格区间，横跨从 1 月 31 日 15:00 至 2 月 1 日 06:00 的时间段。在约 2844.0 至 2846.0 处有一条水平虚线与一条水平实",
+    "case_002_detail_3.jpg": "图表为 GC1!（黄金期货）15 分钟 K 线图，右下角标注 '15m-4H Model'、'Bias: Neutral'。可见价格范围约 2828.0 至 2868.0。图上有一个大型浅黄色矩形框，横跨 Jan 31 15:00 至 Feb 1 06:00，覆盖价格区间约 2836.0 至 2842.0。另有一个较小的黄色矩形框位于 06:00 至 09:00 附近，覆盖约 2843.0 至 2",
+    "case_002_detail_4.jpg": "GC1！黄金期货 15 分钟 K 线图，图右下角标注「15m-4H Model」及「Bias: Neutral」。图上可见三个矩形标注区域：一个大范围浅黄色矩形横跨约 2836 至 2843 价格区间，覆盖图表左侧大部分时间段；一个青绿色矩形位于图右侧约 2843 至 2856 区间；一个灰色矩形与青绿色矩形部分重叠，范围约 2844 至 2850。右侧价格轴有两个高亮标签：青绿色背景的 2859",
+    "case_002_detail_5.jpg": "图表为 GC1!（黄金期货）15 分钟 K 线图，右下角标注 '15m-4H Model' 及 'Bias Neutral'。可见价格范围约 2829 至 2868。图上有三个矩形标注区域：一个米黄色矩形覆盖约 2842 至 2848 区间，横跨图表左侧至中部；一个青绿色矩形位于图表右侧，覆盖约 2848 至 2860 区间；一个灰色矩形与青绿色矩形部分重叠，覆盖约 2843 至 2850 区间。"
+  },
+  "sources": [
+    {
+      "video_id": "IJcfC6wAPZU",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.599,
+        551.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了4小时至15分钟的分析过程，清晰标注了FVG、CSD、对立K线等关键结构，交易结果明确（2R目标完成），所有关键价位和时间框架均可从图表读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:03.735422Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金期货(GC)4小时至15分钟浅回撤延续交易\",\"school\":\"ICT\",\"asset\":\"GC1!\",\"timeframe\":\"4H / 15m\",\"market_context\":\"黄金期货前日大幅上涨后形成浅回撤。价格回测进入4小时FVG区域（约2836-2842），未形成激进反转K线，为延续做多的高概率设置。\",\"key_observation\":\"4小时扫盘后形成CSD（交付状态改变），15分钟多次回测FVG并形成对立K线（down close candles），确认买方控制，最终完成2R目标。\",\"analysis_steps\":[\"Step 1: 观察前日大幅上涨后的浅回撤走势，确认非激进反转K线，预示延续可能性。\",\"Step 2: 在4小时图表上识别FVG区域（约2836-2842），价格小幅回测该区域。\",\"Step 3: 切换至15分钟图表，观察新4小时K线开盘后扫出低点，形成CSD（市场结构转变）。\",\"Step 4: 识别15分钟内多次形成的down close candles进入重要水平（FVG），作为对立K线确认。\",\"Step 5: 等待价格突破对立K线上方，设置止损于扫盘低点，目标设定为2R（前期高点）。\",\"Step 6: 价格回测订单块（Order Block）后再次形成down close candle，低点被尊重，随后上涨触及前期高点完成2R目标。\"],\"outcome\":\"交易成功完成2R目标。价格从FVG区域反弹，突破对立K线后持续上涨，最终触及前期高点（约2859-2860），达成预期收益目标。\",\"lessons\":\"多时间框架对齐是高概率交易的关键：4小时CSD与15分钟对立K线的共振确认了买方意图。浅回撤进FVG而非激进反转是延续信号。等待对立K线闭合突破而非急速入场，可提高胜率并优化风险回报比。\",\"primary_image_frame_id\":\"IJcfC6wAPZU_f001\",\"supporting_image_frame_ids\":[\"IJcfC6wAPZU_f015\",\"IJcfC6wAPZU_f016\",\"IJcfC6wAPZU_f017\",\"IJcfC6wAPZU_f018\",\"IJcfC6wAPZU_f019\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Change in the state of delivery (CSD)\",\"Order Block (OB)\",\"Opposing Candle\",\"Market Structure Shift (MSS)\",\"Shallow Retracement\",\"Multi-timeframe Alignment\",\"Risk-Reward Ratio (2R)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了4小时至15分钟的分析过程，清晰标注了FVG、CSD、对立K线等关键结构，交易结果明确（2R目标完成），所有关键价位和时间框架均可从图表读取。\"}",
+  "error": null
+}

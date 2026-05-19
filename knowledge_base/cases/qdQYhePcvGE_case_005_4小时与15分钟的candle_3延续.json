@@ -1,0 +1,99 @@
+{
+  "card_id": "qdQYhePcvGE_case_005_4小时与15分钟的candle_3延续",
+  "type": "case",
+  "title": "4小时反转后的15分钟Candle 3延续交易",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Continuation",
+      "card_id": "candle_3_continuation",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Higher Timeframe Bias",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "candle_3_continuation",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "time_frame_confluence",
+    "reversal_candle"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "4H / 15m",
+  "market_context": "USD资产在4小时图上形成明显反转蜡烛线（大幅上升后下跌再回升），博主利用该高时间框架反转信号，在15分钟图上寻找Candle 3延续交易机会。",
+  "key_observation": "4小时图上出现清晰的反转蜡烛线（大wick结构），博主不急于在该蜡烛线内交易，而是等待其完全收盘，然后在15分钟图上确认Change in State of Delivery（CSD）后进行延续交易。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别反转蜡烛线，观察其大wick结构（开盘上升→下跌→回升）",
+    "Step 2: 等待4小时蜡烛线完全收盘，不在其内部波动时交易",
+    "Step 3: 切换到15分钟图，寻找第一根蜡烛线（Candle 1）的低点",
+    "Step 4: 确认价格是否在15分钟图上收盘突破该低点（Change in State of Delivery确认）",
+    "Step 5: 一旦CSD确认，预期价格向上交易至更高目标位",
+    "Step 6: 观察价格是否触及目标后出现回撤，若回撤后再次收盘突破，则形成Candle 3延续信号"
+  ],
+  "outcome": "价格在15分钟图上确认CSD后向上运行，触及目标位，随后出现回撤。博主表示若价格继续回撤并再次收盘突破，将形成延续交易机会，但具体最终结果未在转录中完全展开。",
+  "lessons": "高时间框架反转蜡烛线可作为低时间框架交易的偏差确认；Candle 3延续模型需要等待完整的CSD确认和回撤后的再次突破；避免在高时间框架蜡烛线内部交易，应等待其完全收盘。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_005_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_005_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 15分钟K线图。图上显示从12:00至18:00的价格走势，价格范围约21300至21620。图中有一个黄色矩形标注，覆盖21460至21540价格区间。09:00处出现一根大幅上升的绿色K线，随后10:00出现大幅下跌的黑色K线。11:00至15:00期间K线在21420至21480区间内波动。图右侧标注显示'15m-4H Mixes1'、'Bias: Neutral'、'SMT(usd",
+    "case_005_detail_1.jpg": "图表显示 USD 资产的 K 线图。左侧价格刻度范围从 21280.00 到 21760.00。图上有两条水平线：21520.00 和 21405.50。图表中标注有多个矩形区域，包括两个米色矩形分别位于 21520-21540 和 21440-21480 价格区间，以及右侧的青绿色矩形和灰色矩形区域。K 线呈现多根蜡烛线形态，具有较长的上下影线。右上角显示'The Market Lens'和'P",
+    "case_005_detail_2.jpg": "USD 30分钟K线图。图上可见三个矩形标注区域：左侧米色区域约在21462至21520价格范围，中心灰色区域约在21440至21520范围，中右绿色阴影区域约在21520至21680范围。图上有三条水平线分别位于21680、21520和21462价格位置。K线整体价格范围从21280到21760。图中包含多根带长影线的K线，其中一根黑色K线在21300附近呈现长下影线形态。绿色K线集中分布在绿色",
+    "case_005_detail_3.jpg": "USD 15分钟K线图。图上可见价格范围从21300到21620。左侧有一个黄色矩形标注，覆盖约21440至21540的价格区间。图上绘有三条水平虚线分别位于21560、21480和21389.50处。右侧显示当前价格为21389.50，带圆形指示符。K线图显示多根绿色和黑色实体的蜡烛线，部分蜡烛线具有较长的上影线。图表底部显示时间轴标记从12:00至21:00，以及日期标记为'Mon 02 Ju"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        701.519,
+        787.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了4小时与15分钟的交易流程，清晰标注了关键价位（21520、21440等），明确说明了CSD确认和Candle 3延续的判断标准。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:52.152313Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"4小时反转后的15分钟Candle 3延续交易\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"4H / 15m\",\"market_context\":\"USD资产在4小时图上形成明显反转蜡烛线（大幅上升后下跌再回升），博主利用该高时间框架反转信号，在15分钟图上寻找Candle 3延续交易机会。\",\"key_observation\":\"4小时图上出现清晰的反转蜡烛线（大wick结构），博主不急于在该蜡烛线内交易，而是等待其完全收盘，然后在15分钟图上确认Change in State of Delivery（CSD）后进行延续交易。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别反转蜡烛线，观察其大wick结构（开盘上升→下跌→回升）\",\"Step 2: 等待4小时蜡烛线完全收盘，不在其内部波动时交易\",\"Step 3: 切换到15分钟图，寻找第一根蜡烛线（Candle 1）的低点\",\"Step 4: 确认价格是否在15分钟图上收盘突破该低点（Change in State of Delivery确认）\",\"Step 5: 一旦CSD确认，预期价格向上交易至更高目标位\",\"Step 6: 观察价格是否触及目标后出现回撤，若回撤后再次收盘突破，则形成Candle 3延续信号\"],\"outcome\":\"价格在15分钟图上确认CSD后向上运行，触及目标位，随后出现回撤。博主表示若价格继续回撤并再次收盘突破，将形成延续交易机会，但具体最终结果未在转录中完全展开。\",\"lessons\":\"高时间框架反转蜡烛线可作为低时间框架交易的偏差确认；Candle 3延续模型需要等待完整的CSD确认和回撤后的再次突破；避免在高时间框架蜡烛线内部交易，应等待其完全收盘。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f026\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f024\",\"qdQYhePcvGE_f025\",\"qdQYhePcvGE_f027\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Candle 3 Continuation\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Multi-Timeframe Analysis\",\"Reversal Candle\",\"Higher Timeframe Bias\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了4小时与15分钟的交易流程，清晰标注了关键价位（21520、21440等），明确说明了CSD确认和Candle 3延续的判断标准。\"}",
+  "error": null
+}

@@ -1,0 +1,63 @@
+{
+  "card_id": "economic_calendar",
+  "type": "merged_concept",
+  "canonical_term": "Economic Calendar",
+  "aliases": [
+    "新闻日历",
+    "经济日历"
+  ],
+  "school": "General",
+  "definition": "用于识别可能导致市场波动的经济新闻事件的工具。通过forexfactory.com等平台按影响等级（高/中/低）过滤新闻，帮助交易者规划交易时间和风险管理策略。",
+  "identification_rules": [
+    "访问forexfactory.com的日历功能，按交易资产对应的货币或指数进行筛选",
+    "将新闻事件按影响等级分类：红色标记为高影响(High Impact)、黄色为中影响(Medium Impact)、灰色为低影响(Low Impact)",
+    "识别关键经济指标如CPI、PPI、NFP(非农就业)、FOMC、Core PCE等",
+    "记录每个新闻事件的发布时间和日期，确定其在交易周内的位置"
+  ],
+  "trading_implication": "根据新闻影响等级制定分层交易规则：高影响新闻需避免前一天和发布当天交易，中影响新闻避免发布前一个交易时段，低影响新闻无限制。通过经济日历规划周交易策略，重点关注高影响新闻发布后的价格行动，结合周线结构分析(Weekly Profile)预测价格走势和获利目标。",
+  "common_mistakes": [
+    "在高影响新闻发布前交易，导致不可预测的波动和止损被扫",
+    "忽视周一交易（通常为周线积累阶段），增加不必要风险",
+    "未按资产类型正确筛选相关新闻（如交易NASDAQ应筛选美元相关指标而非其他货币对）",
+    "在新闻发布前一天(如NFP前的周四)仍然持仓，被操纵性波动打出"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "Zm2oKad3Tb8_case_001_标普500期货早盘交易准备分析",
+      "video_id": "Zm2oKad3Tb8",
+      "title": "标普500期货早盘交易准备：从日线到1分钟的多时间框架分析流程"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "original_card_id": "hKCMqh0ZsY0_concept_economic_calendar",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.719,
+        549.079
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132430Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,104 @@
+{
+  "card_id": "-GkOTMYoJT4_case_002_标普500十五分钟图停损扫盘案例",
+  "type": "case",
+  "title": "标普500十五分钟图停损扫盘后FVG填补上升案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD Array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "liquidity",
+    "inducement",
+    "market_structure_shift_mss",
+    "equilibrium_eq",
+    "optimal_trade_entry_ote"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "15M",
+  "market_context": "标普500在15分钟图上形成了一个完整的诱导设置周期：先是积极上升至4002-4004高点，随后出现快速下跌，在PD数组内的低点被扫除后，价格填补之前的FVG并向上扩展。",
+  "key_observation": "价格在PD数组内的低点被完全扫除（停损扫盘），随后立即填补公允价值缺口并继续向上扩展，这是典型的诱导设置特征，显示机构在低点收集流动性后的上升动作。",
+  "analysis_steps": [
+    "Step 1: 识别初始上升结构——价格从约3974上升至4002-4004形成摆动高点",
+    "Step 2: 观察快速下跌——价格出现积极向下运动，形成多个黑色K线",
+    "Step 3: 定位PD数组内的低点——在下跌过程中，价格在PD数组范围内（约3983-3988）形成低点",
+    "Step 4: 确认停损扫盘——价格完全扫除该低点，触及或穿过该区域",
+    "Step 5: 观察FVG填补——价格随后回升并填补之前形成的公允价值缺口",
+    "Step 6: 确认上升扩展——价格突破之前的摆动高点，向上扩展至新的买方流动性区域（约4013.25）"
+  ],
+  "outcome": "价格成功填补FVG后向上扩展，达到目标区4013.25，止损设置在4005.20附近，显示完整的诱导-扫盘-上升周期的成功执行。",
+  "lessons": "PD数组内的低点扫盘是强烈的诱导信号，表明机构在收集卖方流动性后准备上升。最优的交易入场点出现在价格刚进入PD数组但未达到折价区均衡点时，此时风险回报比最优。",
+  "primary_image": "cards/-GkOTMYoJT4/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/-GkOTMYoJT4/images/case_002_detail_1.jpg",
+    "cards/-GkOTMYoJT4/images/case_002_detail_2.jpg",
+    "cards/-GkOTMYoJT4/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 15 分钟 K 线图，资产标识为 CME_MINI。图右侧价格刻度范围约从 3972 至 4012，当前价格标签显示 3985.25。时间轴从 20:00 延伸至 19:00 次日，图中可见跨越约 23 至 09:00 时段的 K 线序列。图上有一个灰色矩形框，水平范围约从 07:30 至 09:30，垂直价格范围约在 3983 至 3988 之间。0",
+    "case_002_detail_1.jpg": "图表为 S&P 500 E-mini Futures（CME_MINI）15 分钟 K 线图，可见价格范围约从 3972.00 至 4012.00。图右侧价格轴显示当前价标签为 3989.75。图左侧至中部呈现一段由绿色 K 线组成的上行序列，从约 3974 区域上行至约 4002-4004 高点。此后出现数根黑色实体 K 线向下运行，其中两根较大黑色 K 线集中于时间轴 05:00-06:00 ",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 15 分钟 K 线图，来自 CME_MINI。图右侧价格刻度范围约 3972 至 4012。图上可见两个矩形标注区域，均位于 08:00 至 09:00 附近：较大矩形覆盖约 3984 至 3996 价格区间，较小矩形覆盖约 3984 至 3988 区间。图右侧当前价格标签显示 3982.50。K 线从左侧 21:00 起呈上行排列至约 04:00 高",
+    "case_002_detail_3.jpg": "S&P 500 E-mini Futures 15 分钟 K 线图，日期标注为 Thu 23 Mar 23，当前价格标签显示 3968.50。图上可见价格范围约从 3956.00 至 3998.00。图中 3984.00 至 3987.00 区间内有两个浅灰色矩形框标注，位于 07:00 至 09:00 时间段附近。图右侧有一根较长的绿色 K 线延伸至图表顶部。图表下半部分绘有手绘示意线条，呈 W"
+  },
+  "sources": [
+    {
+      "video_id": "-GkOTMYoJT4",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        165.0,
+        345.06
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰：资产（ES）、时间框架（15M）、关键价位（3983-3988低点、4002-4004高点、4013.25目标）、分析步骤（诱导-扫盘-填补-扩展）均有明确说明，图表也清晰展示了整个过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:02:10.828259Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500十五分钟图停损扫盘后FVG填补上升案例\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"15M\",\"market_context\":\"标普500在15分钟图上形成了一个完整的诱导设置周期：先是积极上升至4002-4004高点，随后出现快速下跌，在PD数组内的低点被扫除后，价格填补之前的FVG并向上扩展。\",\"key_observation\":\"价格在PD数组内的低点被完全扫除（停损扫盘），随后立即填补公允价值缺口并继续向上扩展，这是典型的诱导设置特征，显示机构在低点收集流动性后的上升动作。\",\"analysis_steps\":[\"Step 1: 识别初始上升结构——价格从约3974上升至4002-4004形成摆动高点\",\"Step 2: 观察快速下跌——价格出现积极向下运动，形成多个黑色K线\",\"Step 3: 定位PD数组内的低点——在下跌过程中，价格在PD数组范围内（约3983-3988）形成低点\",\"Step 4: 确认停损扫盘——价格完全扫除该低点，触及或穿过该区域\",\"Step 5: 观察FVG填补——价格随后回升并填补之前形成的公允价值缺口\",\"Step 6: 确认上升扩展——价格突破之前的摆动高点，向上扩展至新的买方流动性区域（约4013.25）\"],\"outcome\":\"价格成功填补FVG后向上扩展，达到目标区4013.25，止损设置在4005.20附近，显示完整的诱导-扫盘-上升周期的成功执行。\",\"lessons\":\"PD数组内的低点扫盘是强烈的诱导信号，表明机构在收集卖方流动性后准备上升。最优的交易入场点出现在价格刚进入PD数组但未达到折价区均衡点时，此时风险回报比最优。\",\"primary_image_frame_id\":\"-GkOTMYoJT4_f001\",\"supporting_image_frame_ids\":[\"-GkOTMYoJT4_f009\",\"-GkOTMYoJT4_f010\",\"-GkOTMYoJT4_f011\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Premium/Discount Array (PD Array)\",\"Liquidity\",\"Inducement\",\"Market Structure Shift (MSS)\",\"Equilibrium (EQ)\",\"Optimal Trade Entry (OTE)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰：资产（ES）、时间框架（15M）、关键价位（3983-3988低点、4002-4004高点、4013.25目标）、分析步骤（诱导-扫盘-填补-扩展）均有明确说明，图表也清晰展示了整个过程。\"}",
+  "error": null
+}

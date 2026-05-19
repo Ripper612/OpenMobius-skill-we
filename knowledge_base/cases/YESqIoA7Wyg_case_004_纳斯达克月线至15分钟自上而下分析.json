@@ -1,0 +1,124 @@
+{
+  "card_id": "YESqIoA7Wyg_case_004_纳斯达克月线至15分钟自上而下分析",
+  "type": "case",
+  "title": "纳斯达克月线至15分钟自上而下分析与流动性狙击",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Session Analysis",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "smart_money_technique",
+    "liquidity",
+    "market_structure_shift",
+    "reversal_vs_continuation",
+    "buyside_sellside_liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NQ1",
+  "timeframe": "M / D / 15m",
+  "market_context": "2023年7月31日，纳斯达克月线形成FVG并收盘尊重该缺口，日线显示与ES的SMT（NASDAQ低点更低而ES高点更高），预示下行趋势。",
+  "key_observation": "博主通过月线FVG回测确认下行预期，日线SMT识别相关性裂缝，随后在15分钟图上通过会话流动性组织和伦敦高点扫荡实现精准做空入场。",
+  "analysis_steps": [
+    "Step 1: 在月线图上识别NASDAQ进入FVG并收盘尊重该缺口，标记前月低点作为下行目标。",
+    "Step 2: 切换到日线图，对比ES同期走势，发现NASDAQ创低点而ES创高点，确认SMT（市场结构分歧）。",
+    "Step 3: 在日线上等待位移下行和收盘突破上升K线，确认下行趋势转变信号。",
+    "Step 4: 应用次日模型（Next Day Model），预期价格回测至前日低点。",
+    "Step 5: 切换到15分钟图，标记前日低点作为流动性目标（drawn liquidity）。",
+    "Step 6: 观察亚洲会话范围完成情况，监测是否出现位移或缺乏位移。",
+    "Step 7: 等待纽约上午会话开始，监测伦敦高点扫荡和下行位移信号。",
+    "Step 8: 伦敦高点被扫荡后出现下行位移，确认做空入场条件。",
+    "Step 9: 追踪该范围的最优交易入场点（OTE），设置止损于范围高点。",
+    "Step 10: 执行做空交易，目标指向前日低点（15520.00附近）。"
+  ],
+  "outcome": "交易成功执行：止损37.75点（0.24%），平仓价格99.00，数量1.25手，风险回报比2.23，目标命中15520.00附近的前日低点。",
+  "lessons": "自上而下分析的核心是多时间框架对齐：月线确认大方向（FVG回测），日线识别结构转变（SMT），低时间框架精准入场（会话流动性+位移）。流动性狙击需要耐心等待会话组织完成和关键点位扫荡，而非急于入场。",
+  "primary_image": "cards/YESqIoA7Wyg/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/YESqIoA7Wyg/images/case_004_detail_1.jpg",
+    "cards/YESqIoA7Wyg/images/case_004_detail_2.jpg",
+    "cards/YESqIoA7Wyg/images/case_004_detail_3.jpg",
+    "cards/YESqIoA7Wyg/images/case_004_detail_4.jpg",
+    "cards/YESqIoA7Wyg/images/case_004_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD 15分钟K线图。图上显示价格范围约从15540到15780。图右侧有三个带标注的矩形框：上方标记'Stop: 37.75 (0.24%) [31, Amount: 199900]'、中间标记'Closed FILL: 99.00, Qty: 1.25 [30] Reward Ratio: 2.23'、下方标记'Target: 99.00 (0.61) 39k, Amount: 200262",
+    "case_004_detail_1.jpg": "USD 月线图，时间跨度从 2021 年至 2025 年。图上显示一系列绿色和黑色 K 线，价格范围约从 11000 到 17800。左上角标注绿色高亮框显示 16250.00，图中可见两条水平参考线分别位于约 16250 和 14250 价位。图下方标注日期 31/7/2023 和合约代码 NQ1 | M。K 线形态显示 2022 年末至 2023 年初上升趋势，随后在 2023 年中期出现下行",
+    "case_004_detail_2.jpg": "USD 日线图，时间范围从 6 月中旬至 9 月中旬 2023 年。图上显示绿色和黑色 K 线交替出现，价格范围约 14700 至 16600。图上有三条水平线分别位于 16200、16100 和 15200 处。在 16100 至 16200 区间有一个矩形标注。图右下方有一条向下倾斜的趋势线标记为'Sell'。底部时间轴标注显示'31/7/2023'和'HQ1 | D'。右下角按钮显示'Sel",
+    "case_004_detail_3.jpg": "USD 日线图。图上显示从 14700 至 16600 的价格范围。图表左侧起始于约 14700，经过约 20 根 K 线上升至 16200 附近。上升段以绿色 K 线为主，间有黑色 K 线。之后价格下行至 15400 附近，用时约 10 根 K 线。图上有两条水平线分别位于 16100 和 15500。一条向下倾斜的趋势线标记为'Jaz'，从 16200 附近向下延伸至 16000 附近。图右上",
+    "case_004_detail_4.jpg": "USD 15分钟K线图。图上显示从15770下跌至15520的急速下行，随后在15520至15650区间内形成盘整。图中有一条水平线位于15601.75，将盘整区域分为上下两部分。盘整区域内包含约15根K线，其中绿色和黑色K线交替出现。图右侧标注显示时间为7/6/2023，周期为NQ11 | 15m。可见价格范围从15520到15770。",
+    "case_004_detail_5.jpg": "USD 15分钟K线图。图上显示价格范围从15530.00至15770.00。左侧区域以绿色K线为主，中间区域出现黑色K线并伴有较长下影线。图上有两条水平线分别位于15565.72和15550.00处。右侧标注显示时间为7/8/2023，周期为NQ11 | 15m。图上绘制了两个矩形框，分别覆盖15550-15600和15600-15650价格区间。整体呈现盘整形态，K线在特定价格区间内波动。"
+  },
+  "sources": [
+    {
+      "video_id": "YESqIoA7Wyg",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        548.76,
+        769.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从月线到15分钟的分析全过程，清晰标注了关键价位、会话流动性、入场条件和交易结果，所有数据均可从图表和讲解中读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:54.918394Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克月线至15分钟自上而下分析与流动性狙击\",\"school\":\"ICT\",\"asset\":\"NQ1\",\"timeframe\":\"M / D / 15m\",\"market_context\":\"2023年7月31日，纳斯达克月线形成FVG并收盘尊重该缺口，日线显示与ES的SMT（NASDAQ低点更低而ES高点更高），预示下行趋势。\",\"key_observation\":\"博主通过月线FVG回测确认下行预期，日线SMT识别相关性裂缝，随后在15分钟图上通过会话流动性组织和伦敦高点扫荡实现精准做空入场。\",\"analysis_steps\":[\"Step 1: 在月线图上识别NASDAQ进入FVG并收盘尊重该缺口，标记前月低点作为下行目标。\",\"Step 2: 切换到日线图，对比ES同期走势，发现NASDAQ创低点而ES创高点，确认SMT（市场结构分歧）。\",\"Step 3: 在日线上等待位移下行和收盘突破上升K线，确认下行趋势转变信号。\",\"Step 4: 应用次日模型（Next Day Model），预期价格回测至前日低点。\",\"Step 5: 切换到15分钟图，标记前日低点作为流动性目标（drawn liquidity）。\",\"Step 6: 观察亚洲会话范围完成情况，监测是否出现位移或缺乏位移。\",\"Step 7: 等待纽约上午会话开始，监测伦敦高点扫荡和下行位移信号。\",\"Step 8: 伦敦高点被扫荡后出现下行位移，确认做空入场条件。\",\"Step 9: 追踪该范围的最优交易入场点（OTE），设置止损于范围高点。\",\"Step 10: 执行做空交易，目标指向前日低点（15520.00附近）。\"],\"outcome\":\"交易成功执行：止损37.75点（0.24%），平仓价格99.00，数量1.25手，风险回报比2.23，目标命中15520.00附近的前日低点。\",\"lessons\":\"自上而下分析的核心是多时间框架对齐：月线确认大方向（FVG回测），日线识别结构转变（SMT），低时间框架精准入场（会话流动性+位移）。流动性狙击需要耐心等待会话组织完成和关键点位扫荡，而非急于入场。\",\"primary_image_frame_id\":\"YESqIoA7Wyg_f026\",\"supporting_image_frame_ids\":[\"YESqIoA7Wyg_f020\",\"YESqIoA7Wyg_f021\",\"YESqIoA7Wyg_f022\",\"YESqIoA7Wyg_f024\",\"YESqIoA7Wyg_f025\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Smart Money Technique\",\"Liquidity\",\"Market Structure Shift\",\"Next Day Model\",\"Optimal Trade Entry\",\"Session Analysis\",\"Buyside Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从月线到15分钟的分析全过程，清晰标注了关键价位、会话流动性、入场条件和交易结果，所有数据均可从图表和讲解中读取。\"}",
+  "error": null
+}

@@ -1,0 +1,110 @@
+{
+  "card_id": "SlWxhzhLo3A_case_003_原油日线范围交易案例",
+  "type": "case",
+  "title": "原油日线范围交易：失败摇摆反转与目标设定",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "protected_high_low",
+    "equilibrium",
+    "failure_swing",
+    "displacement",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": "CL",
+  "timeframe": "1D",
+  "market_context": "原油在月低点附近形成失败摇摆，价格在日线范围内波动。日线显示从高点下跌至月低点附近，随后在该区域形成多个失败摇摆，为反转交易提供结构基础。",
+  "key_observation": "原油在日线范围高点与月低点之间形成失败摇摆，小时图显示反转K线（大影线）后跟随小影线扩张K线，预示向下扩张至月低点的可能性。",
+  "analysis_steps": [
+    "Step 1: 识别日线范围结构——观察原油在月低点附近形成的失败摇摆和范围高点。",
+    "Step 2: 确认反转信号——在小时图上发现反转K线（大上影线），表明价格在高点遭遇卖压。",
+    "Step 3: 验证扩张K线——观察反转K线后的小时K线呈现小影线扩张形态，确认向下的动能。",
+    "Step 4: 设定交易目标——不贪心地以日线开盘价作为初始目标，而非直接追求月低点。",
+    "Step 5: 考虑风险管理——若反转失败（形成高-低-更高高），需要在更低位置寻找更高低点作为替代交易机会。",
+    "Step 6: 观察价格执行——价格最终向下扩张至月低点，验证了基于日线结构的交易逻辑。"
+  ],
+  "outcome": "价格从反转K线处向下扩张，最终触及月低点附近，达成向下目标。交易者通过以日线开盘价作为第一目标而非贪心追求月低点，实现了风险可控的交易。",
+  "lessons": "在范围交易中，当识别到失败摇摆和反转信号时，应根据日线结构（如开盘价）设定保守目标。同时需考虑反转失败的情景，预留替代交易机会。小时图的K线形态（大影线+小影线扩张）可有效确认日线反转意图。",
+  "primary_image": "cards/SlWxhzhLo3A/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/SlWxhzhLo3A/images/case_003_detail_1.jpg",
+    "cards/SlWxhzhLo3A/images/case_003_detail_2.jpg",
+    "cards/SlWxhzhLo3A/images/case_003_detail_3.jpg",
+    "cards/SlWxhzhLo3A/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "BLL 日线图，价格范围从 59.00 至 68.00。图上有两条水平虚线分别位于 65.50 和 64.83 处。图中央有一个矩形框标注，大致覆盖 65.20 至 65.80 的价格区间。K 线序列显示绿色和黑色蜡烛交替出现，跨越约 60 个交易日。右下角显示时间标记'Tue 30 Sep 25'。左上角显示资产代码 BLL 和货币单位 USD。",
+    "case_003_detail_1.jpg": "BLL 日线图。图上显示从 7 月中旬至 11 月中旬的 K 线走势。价格范围从 58.50 至 68.00。图上有一条水平虚线位于 61.64 处。图表底部标注了一个矩形框，标记时间段为'Aug 30-Sep 26'。K 线呈现先升后跌再升的整体形态，初期从 64.50 上升至 68.00，随后下跌至 61.64 附近，之后在 61.64 至 65.00 区间内波动。图右侧显示当前价格为 61.",
+    "case_003_detail_2.jpg": "BLL 日线图，价格范围从 59.00 到 68.00。图上有一条水平线及一个矩形标注位于 65.50 价格水平。K 线序列显示从左侧 68.00 附近下跌至 61.50，随后反弹至 65.00 附近。中间区域呈现 62.00 至 64.50 之间的盘整形态，跨越约 15 根 K 线。绿色和黑色 K 线交替出现，部分 K 线带有上下影线。时间轴显示从 8 月至 11 月中旬的数据。",
+    "case_003_detail_3.jpg": "BLL 1 小时 K 线图，显示从 9 月 23 日至 10 月 1 日的价格走势。图上有 4 条水平虚线分别位于 65.60、64.20、63.40 和 62.80 价格水平。图中标注了两个矩形区域，其中一个标记为 C4 位于 63.00 至 63.60 区间，另一个位于 64.60 至 65.20 区间。K 线整体价格范围从 62.00 到 66.00。右下角显示时间戳 12:00:00 和标",
+    "case_003_detail_4.jpg": "BLL 1 小时 K 线图，价格范围从 63.20 到 67.00。图上有三条水平虚线分别位于 65.04、65.80 和 64.60 处。左下角有一个浅绿色矩形框。图表显示从 9 月 25 日至 10 月初的价格走势，包含多根绿色和黑色 K 线。9 月 26 日出现向上跳空缺口，随后形成高点 66.35 的绿色 K 线。9 月 29 日再次出现高点 66.15 的绿色 K 线。图右下角标注显示当"
+  },
+  "sources": [
+    {
+      "video_id": "SlWxhzhLo3A",
+      "segment_ids": [
+        "seg_016",
+        "seg_017",
+        "seg_018",
+        "seg_019"
+      ],
+      "time_range": [
+        720.32,
+        949.279
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对原油案例的分析完整清晰：资产代码CL、日线时间框架、范围结构、失败摇摆、反转K线形态、目标设定逻辑和最终价格执行都有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:05.713576Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油日线范围交易：失败摇摆反转与目标设定\",\"school\":\"ICT\",\"asset\":\"CL\",\"timeframe\":\"1D\",\"market_context\":\"原油在月低点附近形成失败摇摆，价格在日线范围内波动。日线显示从高点下跌至月低点附近，随后在该区域形成多个失败摇摆，为反转交易提供结构基础。\",\"key_observation\":\"原油在日线范围高点与月低点之间形成失败摇摆，小时图显示反转K线（大影线）后跟随小影线扩张K线，预示向下扩张至月低点的可能性。\",\"analysis_steps\":[\"Step 1: 识别日线范围结构——观察原油在月低点附近形成的失败摇摆和范围高点。\",\"Step 2: 确认反转信号——在小时图上发现反转K线（大上影线），表明价格在高点遭遇卖压。\",\"Step 3: 验证扩张K线——观察反转K线后的小时K线呈现小影线扩张形态，确认向下的动能。\",\"Step 4: 设定交易目标——不贪心地以日线开盘价作为初始目标，而非直接追求月低点。\",\"Step 5: 考虑风险管理——若反转失败（形成高-低-更高高），需要在更低位置寻找更高低点作为替代交易机会。\",\"Step 6: 观察价格执行——价格最终向下扩张至月低点，验证了基于日线结构的交易逻辑。\"],\"outcome\":\"价格从反转K线处向下扩张，最终触及月低点附近，达成向下目标。交易者通过以日线开盘价作为第一目标而非贪心追求月低点，实现了风险可控的交易。\",\"lessons\":\"在范围交易中，当识别到失败摇摆和反转信号时，应根据日线结构（如开盘价）设定保守目标。同时需考虑反转失败的情景，预留替代交易机会。小时图的K线形态（大影线+小影线扩张）可有效确认日线反转意图。\",\"primary_image_frame_id\":\"SlWxhzhLo3A_f028\",\"supporting_image_frame_ids\":[\"SlWxhzhLo3A_f027\",\"SlWxhzhLo3A_f001\",\"SlWxhzhLo3A_f029\",\"SlWxhzhLo3A_f031\",\"SlWxhzhLo3A_f032\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in the state of delivery\",\"Protected Swing\",\"Equilibrium\",\"Failure Swing\",\"Displacement\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对原油案例的分析完整清晰：资产代码CL、日线时间框架、范围结构、失败摇摆、反转K线形态、目标设定逻辑和最终价格执行都有明确说明。\"}",
+  "error": null
+}

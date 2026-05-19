@@ -1,0 +1,110 @@
+{
+  "card_id": "CqMIh-Vvhbg_case_005_es标普500指数日线至小时线的看跌延续",
+  "type": "case",
+  "title": "ES日线C2与CSD确认后的小时线看跌延续至投影目标",
+  "related_concepts": [
+    {
+      "term": "C2 Closure",
+      "card_id": "candle_2_closure",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "T-Spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "Formation Liquidity",
+      "card_id": "formation_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Extension",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_2_closure",
+    "change_in_the_state_of_delivery_csd",
+    "t_spot",
+    "formation_liquidity",
+    "order_block",
+    "market_structure",
+    "consolidation",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "1H / 1D",
+  "market_context": "ES在日线上形成C2收盘（收盘在前一日高点内侧）并伴随CSD（交付状态改变），预示反转信号。进入纽约盘后价格进行盘整，随后向下扩展。",
+  "key_observation": "博主通过日线C2和CSD确认看跌方向，然后在小时线上利用T-Spot作为关键阻力位，结合Formation Liquidity（前一日低点）作为下行目标，最终价格达到投影目标。",
+  "analysis_steps": [
+    "Step 1: 观察ES日线收盘在前一日高点内侧，形成C2收盘结构",
+    "Step 2: 确认日线存在CSD（交付状态改变），预示反转信号",
+    "Step 3: 从日线反转生成投影目标（使用斐波那契延伸），标记下行目标区域",
+    "Step 4: 在小时线上识别T-Spot区域作为关键阻力位，设定不应收盘突破该位置的条件",
+    "Step 5: 进入纽约盘后观察价格盘整（consolidation），预期在扩展前进行操纵",
+    "Step 6: 确认价格操纵了盘整区间的一侧后，预期向下扩展",
+    "Step 7: 利用Formation Liquidity（前一日低点）与投影目标对齐，确认下行目标",
+    "Step 8: 价格扩展至前一日低点并命中投影目标，交易完成"
+  ],
+  "outcome": "价格成功扩展至Formation Liquidity（前一日低点）区域，命中投影目标，看跌延续确认。",
+  "lessons": "日线C2+CSD的组合是强有力的反转信号；小时线T-Spot提供关键阻力确认；Formation Liquidity与投影目标的对齐提高了目标的可靠性；盘整后的操纵是扩展前的典型预兆。",
+  "primary_image": "cards/CqMIh-Vvhbg/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/CqMIh-Vvhbg/images/case_005_detail_1.jpg",
+    "cards/CqMIh-Vvhbg/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "ES1! 1小时K线图，图右下角标注'1H-1D Model'，时间显示07:00:00，Bias标注为Neutral。图上可见价格范围约从5972到6056。图上标有文字标签'C2'位于约6054附近高点处。图上有两条水平延伸线：一条虚线位于约5990，一条实线位于约6032。图上有多个矩形标注区域，分别位于约6038至6042及6028至6036区间。图左侧中部有一系列带数字标签的短横线，标注",
+    "case_005_detail_1.jpg": "GC1！5 分钟 K 线图，可见价格范围约 2640.0 至 2670.0。图上有一个黄色矩形标注区域，标签为 C2，覆盖约 13:00 至 20:00 时段、价格区间 2651.0 至 2656.0。另有一个绿色矩形区域，覆盖约 20:00 至图中日期分界线，价格区间 2653.0 至 2667.0。图上三条水平虚线分别对应 Target（2666.9）、Closed P&L 入场线（2657.",
+    "case_005_detail_2.jpg": "ES1! 1小时K线图，图右下角标注'1H-1D Model'及'Bias: Neutral'。可见价格范围约从5972至6056。图上有一处文字标注'C2'位于约6052价位附近。图中绘有两个矩形框，一个位于约6036至6040区间，另一个位于右侧约6040水平延伸区域。图中央有多条斐波那契延伸水平线，标签分别为-2、-2.5、-4、-4.5，分布于约6016至5988区间。一条虚线水平线位于约"
+  },
+  "sources": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        1082.88,
+        1168.039
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线信号识别、小时线确认、到最终目标达成的全过程，关键价位、时间框架、分析步骤均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:40.414101Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES日线C2与CSD确认后的小时线看跌延续至投影目标\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"1H / 1D\",\"market_context\":\"ES在日线上形成C2收盘（收盘在前一日高点内侧）并伴随CSD（交付状态改变），预示反转信号。进入纽约盘后价格进行盘整，随后向下扩展。\",\"key_observation\":\"博主通过日线C2和CSD确认看跌方向，然后在小时线上利用T-Spot作为关键阻力位，结合Formation Liquidity（前一日低点）作为下行目标，最终价格达到投影目标。\",\"analysis_steps\":[\"Step 1: 观察ES日线收盘在前一日高点内侧，形成C2收盘结构\",\"Step 2: 确认日线存在CSD（交付状态改变），预示反转信号\",\"Step 3: 从日线反转生成投影目标（使用斐波那契延伸），标记下行目标区域\",\"Step 4: 在小时线上识别T-Spot区域作为关键阻力位，设定不应收盘突破该位置的条件\",\"Step 5: 进入纽约盘后观察价格盘整（consolidation），预期在扩展前进行操纵\",\"Step 6: 确认价格操纵了盘整区间的一侧后，预期向下扩展\",\"Step 7: 利用Formation Liquidity（前一日低点）与投影目标对齐，确认下行目标\",\"Step 8: 价格扩展至前一日低点并命中投影目标，交易完成\"],\"outcome\":\"价格成功扩展至Formation Liquidity（前一日低点）区域，命中投影目标，看跌延续确认。\",\"lessons\":\"日线C2+CSD的组合是强有力的反转信号；小时线T-Spot提供关键阻力确认；Formation Liquidity与投影目标的对齐提高了目标的可靠性；盘整后的操纵是扩展前的典型预兆。\",\"primary_image_frame_id\":\"CqMIh-Vvhbg_f039\",\"supporting_image_frame_ids\":[\"CqMIh-Vvhbg_f037\",\"CqMIh-Vvhbg_f038\"],\"related_concepts\":[\"C2 Closure\",\"Change in the state of delivery (CSD)\",\"T-Spot\",\"Formation Liquidity\",\"Order Block\",\"Fibonacci Extension\",\"Market Structure\",\"Consolidation\",\"Manipulation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线信号识别、小时线确认、到最终目标达成的全过程，关键价位、时间框架、分析步骤均清晰可读。\"}",
+  "error": null
+}

@@ -1,0 +1,331 @@
+{
+  "card_id": "premium_discount_array",
+  "type": "merged_concept",
+  "canonical_term": "Premium/Discount Array",
+  "aliases": [
+    "PD array",
+    "Price Delivery Array",
+    "高时间框架价格结构阵列",
+    "PDA",
+    "PD数组",
+    "价格结构工具集合",
+    "价格驱动阵列"
+  ],
+  "school": "ICT",
+  "definition": "价格回归到溢价区或折价区时可能遇到的一系列支撑或阻力位的集合，由FVG、Order Block、Breaker Block、BPR、Inversion等多个结构性障碍重叠排列组成。用0.5斐波那契均衡点将价格区间分为上半溢价区（利于做空）和下半折价区（利于做多），交易者可从中选择一个概念作为主要交易信号。",
+  "identification_rules": [
+    "在高时间框架上用0.5斐波那契水平（均衡点）将关键价格区间分为上半溢价区和下半折价区",
+    "在溢价区或折价区内，按价格顺序标记所有结构性障碍：FVG、Order Block、Breaker Block、BPR、Inversion、前期摆动高低点等，形成有序数组",
+    "只纳入被前期价格行为尊重过、具有结构意义的关键位，而非所有价格水平",
+    "将这些结构视为整体数组区域，而非单个独立的支撑阻力位",
+    "根据个人模型从数组中选择一个概念（如OB、FVG、Breaker Block等）作为主要交易信号，并明确对应的无效化点",
+    "当价格突破数组中某一元素后，继续关注下一个数组元素作为目标位",
+    "在低时间框架上寻找具体入场设置（如位移、破坏块）时，需与高时间框架PD Array中的关键位置对齐"
+  ],
+  "trading_implication": "PD Array是连接高时间框架宏观结构与低时间框架微观入场的桥梁。高时间框架确认方向后，在折价区寻找做多机会，在溢价区寻找做空机会；低时间框架在数组内寻找位移、OB或FVG等具体入场模型。若PD Array被突破则预示趋势延续；若被尊重则可能形成反转。止损和无效化点依据所选工具集合设定，确认程度影响入场时机与风险回报比。",
+  "common_mistakes": [
+    "将PD Array中的单个结构（如FVG或OB）孤立对待，忽视整体数组的支撑阻力作用",
+    "将单个FVG或OB误认为PD Array，忽视多个结构重叠这一关键特征",
+    "未能区分价格是否真正进入PD Array的折价区或溢价区，导致交易方向判断错误",
+    "在没有低时间框架具体设置确认的情况下，仅因价格进入PD Array就盲目入场",
+    "未从高时间框架确认主要趋势方向就直接在低时间框架标记PD Array，导致目标设定错误",
+    "将所有价格水平都列入数组，而不是只关注被尊重过、具有结构意义的关键位",
+    "忽视低阻力流动性（未被扫除的摆动点），导致价格轻松穿过某些PD Array元素而没有反应",
+    "在PD Array外部寻找诱导设置，降低交易概率",
+    "在PD Array形成前过早入场，而非等待价格实际到达该区域时的反应",
+    "试图同时使用所有PD Array概念，导致图表过于拥挤、信号混乱",
+    "未明确定义自己采用的PD Array工具集合，导致无效化点设置模糊",
+    "混淆不同PD Array框架，用一种工具的无效化规则套用到另一种框架上",
+    "忽视PD Array内可能存在的多个入场机会，错过一次后就放弃该区域"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Premium",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Discount",
+      "card_id": "discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0R61Y6Pn74Q_case_001_cpi后黄金反转交易案例",
+      "video_id": "0R61Y6Pn74Q",
+      "title": "CPI后黄金日线订单块与5分钟FVG叠加做空案例"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_001_nq_1分钟多头入场案例_纽约开盘前",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟多头入场：伦敦高点流动性扫盘后的折价区入场"
+    },
+    {
+      "card_id": "E89d1HArbgM_case_002_原油期货月线至日线的多级别分析",
+      "video_id": "E89d1HArbgM",
+      "title": "原油期货月线至日线的多级别订单流分析"
+    },
+    {
+      "card_id": "MPeeE55rNOw_case_003_nq日内完整交易流程分析",
+      "video_id": "MPeeE55rNOw",
+      "title": "NQ日内完整交易流程：亚洲扫盘到纽约会话的FVG与OB应用"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_005_eurusd另一周期的多层级交易案例",
+      "video_id": "klaiq36QnEM",
+      "title": "EURUSD多周期流动性扫荡与FVG回测交易案例"
+    },
+    {
+      "card_id": "yq4Z7q4E6nU_case_002_ote区域交易与5分钟精确入场案例",
+      "video_id": "yq4Z7q4E6nU",
+      "title": "1小时OTE区域多时间框架精确入场与4R获利案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-GkOTMYoJT4",
+      "original_card_id": "-GkOTMYoJT4_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        345.06
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "27S9gjgcSlI",
+      "original_card_id": "27S9gjgcSlI_concept_premium_discount_array_pd_array",
+      "segment_ids": [
+        "seg_002",
+        "seg_005"
+      ],
+      "time_range": [
+        191.159,
+        741.48
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "75S4vwD4P1U",
+      "original_card_id": "75S4vwD4P1U_concept_premium_discount_array_pd_array",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        639.519,
+        807.92
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "7p9MBFk8EEM",
+      "original_card_id": "7p9MBFk8EEM_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        232.159,
+        301.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        43.52,
+        149.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Ovotm9l99QQ",
+      "original_card_id": "Ovotm9l99QQ_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.859,
+        187.5
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "original_card_id": "YmdC_LKT-Pk_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        7.28,
+        365.82
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "klaiq36QnEM",
+      "original_card_id": "klaiq36QnEM_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_001",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        652.74
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "r_UF8U-hsL8",
+      "original_card_id": "r_UF8U-hsL8_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.12,
+        124.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wy3OSPxu5U0",
+      "original_card_id": "wy3OSPxu5U0_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        236.799,
+        273.32
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "xvqsLTpmpsI",
+      "original_card_id": "xvqsLTpmpsI_concept_premium_discount_array",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        187.739,
+        368.039
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 11,
+    "source_videos": 11,
+    "high_confidence_sources": 6,
+    "medium_confidence_sources": 5,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:51:50.642051Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "11张原始卡均为ICT学派，无学派冲突。各卡对PD Array的侧重点有差异：部分强调多结构重叠集合，部分强调工具选择框架，部分强调斐波那契分割，已综合融入定义与规则。",
+  "error": null
+}

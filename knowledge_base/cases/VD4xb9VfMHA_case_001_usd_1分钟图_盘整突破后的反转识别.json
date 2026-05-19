@@ -1,0 +1,131 @@
+{
+  "card_id": "VD4xb9VfMHA_case_001_usd_1分钟图_盘整突破后的反转识别",
+  "type": "case",
+  "title": "USD 1分钟：盘整突破后的扩张-扩张反转确认",
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Phases of Price",
+      "card_id": "phases_of_price",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "expansion",
+    "reversal",
+    "consolidation",
+    "fair_value_gap_fvg",
+    "change_in_the_state_of_delivery_csd",
+    "protected_high_low",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "displacement",
+    "phases_of_price"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1M",
+  "market_context": "价格从23312.00高点下跌，形成23264-23290的盘整区间。随后突破盘整高点，但未能在相关高点形成有效反转，需要通过额外K线收盘和扩张-扩张模式识别真实反转信号。",
+  "key_observation": "初次突破盘整高点看似形成反转结构，但缺乏有效的反转确认。通过等待额外K线收盘，识别出扩张-扩张模式（第一次扩张看跌，第二次扩张看涨），最终确认向下反转的真实性。",
+  "analysis_steps": [
+    "Step 1: 观察价格突破盘整区间高点（23290附近），初步判断可能形成反转结构。",
+    "Step 2: 识别第一个扩张-扩张模式（下跌扩张后上升扩张），但这表明结构不够清晰，不应仓促交易。",
+    "Step 3: 等待额外K线收盘，获取新的价格数据以确认真实的市场意图。",
+    "Step 4: 识别第二个扩张-扩张模式（上升扩张后下降扩张），此时确认为看跌反转信号。",
+    "Step 5: 确认价格突破左侧相关高点（23300+），并观察是否形成受保护的摆动点。",
+    "Step 6: 监测价格是否出现交付状态改变（CSD），结合扩张-扩张模式确认向下反转。",
+    "Step 7: 观察价格在10:00附近扫除低点后的反应，识别是否继续下行或形成继续信号（扩张-回撤-扩张或扩张-盘整-操纵-继续）。",
+    "Step 8: 确认价格在高时间框架公允价值缺口（FVG）处反应，作为反转的额外确认。"
+  ],
+  "outcome": null,
+  "lessons": "不要基于单一的形态突破进行交易。必须等待额外K线收盘以获取新数据。扩张-扩张模式是识别真实反转的关键：第一次扩张可能是虚假信号，第二次扩张才能确认反转方向。在相关高点附近寻找反转，而非随机高点。结合多个确认信号（CSD、受保护摆动点、HTF FVG）提高交易概率。",
+  "primary_image": "cards/VD4xb9VfMHA/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/VD4xb9VfMHA/images/case_001_detail_1.jpg",
+    "cards/VD4xb9VfMHA/images/case_001_detail_2.jpg",
+    "cards/VD4xb9VfMHA/images/case_001_detail_3.jpg",
+    "cards/VD4xb9VfMHA/images/case_001_detail_4.jpg",
+    "cards/VD4xb9VfMHA/images/case_001_detail_5.jpg",
+    "cards/VD4xb9VfMHA/images/case_001_detail_6.jpg",
+    "cards/VD4xb9VfMHA/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表显示 USD 资产的 K 线图，价格范围从 23251.25 到 23312.00。图上有多根绿色和黑色 K 线，分布在整个可见区间。三条水平线分别位于 23280.50、23288.00 和 23262.00 价格水平，其中部分为虚线、部分为点线。图中间区域可见一条蓝色水平线段。时间轴显示从 08:00 到 11:15 的时间标记。右下角有交易控制按钮（Sell、Buy 等）。",
+    "case_001_detail_1.jpg": "图上显示标题为'PD Array'的K线序列。图表由多根绿色和黑色蜡烛组成，排列成两个主要的价格运动阶段。图上有两个用虚线边框标记的矩形区域。左下角显示'TTrades'品牌标识和数字'6'。图上未标注具体价格数值或时间框架信息。",
+    "case_001_detail_2.jpg": "USD 1分钟K线图。图上显示从01:00至14:30的价格走势，价格范围从23312.00至23232.00。左侧显示初始高点23312.00后的下跌，中间区域形成23264.00至23290.00的盘整。右侧最近两根K线为绿色，位于23264至23268区间。图上有一条水平虚线标记在23259.25，以及一个矩形框标注在23262至23268价格区域。下方显示成交量指标。交易界面右下角可见Se",
+    "case_001_detail_3.jpg": "USD 1 分钟 K 线图。图上显示价格范围从 23256.50 到 23308.00。中间区域有一个矩形框标注，框内价格约在 23262.00 至 23280.00 之间。图上有一条水平虚线位于 23256.50。右侧显示两根绿色 K 线，其后跟一根黑色 K 线。多条竖直灰线将图表分割成时间段。下方面板显示成交量指标。图右下角可见交易界面按钮，包括'Sell'、'Buy'等。",
+    "case_001_detail_4.jpg": "图表显示 USD 资产的 K 线图，价格范围从 23248.00 到 23308.00。图上有一条水平虚线位于 23291.50，一条向下倾斜的趋势线从左上向右下延伸，以及一个矩形框标注在中间偏下区域。左侧显示下跌趋势，中间区域呈现盘整，右侧出现上升走势，包含绿色和黑色 K 线。下方面板显示成交量指标。图上未见资产代码或时间框架标注。",
+    "case_001_detail_5.jpg": "图表显示 USD 资产的 K 线图，价格范围从 23248 到 23312。图上有一条水平线位于 23272 处。可见多根绿色和黑色 K 线交替排列，其中包含一根向上刺破至 23312 的长上影线，随后价格回落。图右侧显示交易界面按钮，包括'Sell'、'Buy'和'Flatten'选项。图上未标注时间框架信息。",
+    "case_001_detail_6.jpg": "图上为 USD 资产的 K 线图，价格范围从 23256.00 到 23308.00。图中包含多根绿色和黑色 K 线，分布在 08:06 至 11:21 的时间段内。图上有三条水平虚线分别位于 23272.00、23266.00 和 23288.00 处。K 线呈现振荡形态，在这些水平线附近反复波动。下方面板显示成交量指标。图右侧可见交易控制按钮（Sell、Buy、Flatten）。",
+    "case_001_detail_7.jpg": "USD 交易图表，显示烛线图。图上可见价格范围约从 23200 到 23308。两条水平线分别位于 23272.75 和 23251.25。图表中部有一根长下影线的黑色烛线，下影线从约 23300 向下刺破至 23240。烛线整体呈现绿黑相间的模式，中间区域可见向下跳空。时间轴显示从 08:21 至 11:30 的盘中时间戳。右下角可见交易界面按钮，包括'Sell'、'Buy'、'Flatten'"
+  },
+  "sources": [
+    {
+      "video_id": "VD4xb9VfMHA",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        204.72,
+        435.199
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从初始突破到最终反转确认的全过程，清晰标注了关键价位（23312、23290、23264等），详细解释了扩张-扩张模式的识别逻辑，并通过多个图表帧展示了K线演变过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:02.248950Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 1分钟：盘整突破后的扩张-扩张反转确认\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1M\",\"market_context\":\"价格从23312.00高点下跌，形成23264-23290的盘整区间。随后突破盘整高点，但未能在相关高点形成有效反转，需要通过额外K线收盘和扩张-扩张模式识别真实反转信号。\",\"key_observation\":\"初次突破盘整高点看似形成反转结构，但缺乏有效的反转确认。通过等待额外K线收盘，识别出扩张-扩张模式（第一次扩张看跌，第二次扩张看涨），最终确认向下反转的真实性。\",\"analysis_steps\":[\"Step 1: 观察价格突破盘整区间高点（23290附近），初步判断可能形成反转结构。\",\"Step 2: 识别第一个扩张-扩张模式（下跌扩张后上升扩张），但这表明结构不够清晰，不应仓促交易。\",\"Step 3: 等待额外K线收盘，获取新的价格数据以确认真实的市场意图。\",\"Step 4: 识别第二个扩张-扩张模式（上升扩张后下降扩张），此时确认为看跌反转信号。\",\"Step 5: 确认价格突破左侧相关高点（23300+），并观察是否形成受保护的摆动点。\",\"Step 6: 监测价格是否出现交付状态改变（CSD），结合扩张-扩张模式确认向下反转。\",\"Step 7: 观察价格在10:00附近扫除低点后的反应，识别是否继续下行或形成继续信号（扩张-回撤-扩张或扩张-盘整-操纵-继续）。\",\"Step 8: 确认价格在高时间框架公允价值缺口（FVG）处反应，作为反转的额外确认。\"],\"outcome\":null,\"lessons\":\"不要基于单一的形态突破进行交易。必须等待额外K线收盘以获取新数据。扩张-扩张模式是识别真实反转的关键：第一次扩张可能是虚假信号，第二次扩张才能确认反转方向。在相关高点附近寻找反转，而非随机高点。结合多个确认信号（CSD、受保护摆动点、HTF FVG）提高交易概率。\",\"primary_image_frame_id\":\"VD4xb9VfMHA_f012\",\"supporting_image_frame_ids\":[\"VD4xb9VfMHA_f007\",\"VD4xb9VfMHA_f008\",\"VD4xb9VfMHA_f009\",\"VD4xb9VfMHA_f010\",\"VD4xb9VfMHA_f011\",\"VD4xb9VfMHA_f013\",\"VD4xb9VfMHA_f014\"],\"related_concepts\":[\"Expansion\",\"Reversal\",\"Consolidation\",\"Fair Value Gap (FVG)\",\"Change in the state of delivery (CSD)\",\"Protected Swing\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Displacement\",\"Phases of Price\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从初始突破到最终反转确认的全过程，清晰标注了关键价位（23312、23290、23264等），详细解释了扩张-扩张模式的识别逻辑，并通过多个图表帧展示了K线演变过程。\"}",
+  "error": null
+}

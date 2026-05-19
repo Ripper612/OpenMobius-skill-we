@@ -1,0 +1,64 @@
+{
+  "card_id": "two_stage_smt",
+  "type": "merged_concept",
+  "canonical_term": "Two-Stage SMT",
+  "aliases": [
+    "Two-stage Smart Money Technique"
+  ],
+  "school": "SMC",
+  "definition": "两个连续的SMT信号，第一阶段SMT与关键价格水平形成，第二阶段通过摆动点确认，用于识别高概率反转。",
+  "identification_rules": [
+    "识别第一阶段SMT：相关资产在两根K线间出现分歧（一个创新高/低，另一个未创新），形成失败摆动",
+    "识别第二阶段SMT：紧接着第一阶段SMT，在后续两根K线间再次出现相同方向的SMT信号",
+    "两个SMT信号必须连续出现，通常涉及K线1-2和K线2-3的组合",
+    "第二阶段可通过摆动点（Swing Point）或精准摆动点（PSP）确认",
+    "确认后，预期下一根K线沿反转方向延续运动"
+  ],
+  "trading_implication": "Two-Stage SMT是高概率反转确认信号。第一阶段SMT表明潜在反转，第二阶段SMT的出现强化了这一信号。交易者在两阶段都确认后，可在下一根K线沿反转方向入场，目标通常指向相关资产的对立流动性区域（如范围的另一侧）。该信号常与关键水平（FVG、Order Block等）配合使用，提高交易的可靠性。",
+  "common_mistakes": [
+    "仅基于第一阶段SMT入场，未等待第二阶段确认，导致假信号被扫荡",
+    "混淆Two-Stage SMT与单一SMT，忽视连续性要求",
+    "在相关资产中只看一个市场的SMT，未验证另一资产的对应分歧",
+    "误将相等高点（equal highs）作为PSP反转信号，忽视叙述性背景（如两资产是否同向扩张）"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3eVxTV_7L2U_case_009_rbob汽油4小时到30分钟的两阶段smt交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RBOB汽油4H-30M两阶段SMT确认V形反转交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_two_stage_smt",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_015"
+      ],
+      "time_range": [
+        615.76,
+        1031.679
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136459Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

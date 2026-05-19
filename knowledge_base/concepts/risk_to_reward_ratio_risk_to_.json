@@ -1,0 +1,234 @@
+{
+  "card_id": "risk_to_reward_ratio_risk_to_",
+  "type": "merged_concept",
+  "canonical_term": "Risk to Reward Ratio",
+  "aliases": [
+    "2R",
+    "R:R",
+    "R:R Ratio",
+    "R:R比例",
+    "RRR",
+    "Risk-Reward Ratio",
+    "Risk/Reward",
+    "Risk/Reward Ratio",
+    "风险回报比"
+  ],
+  "school": "Risk Management",
+  "definition": "衡量单笔交易止损距离与潜在收益距离的比例关系。以1R表示单位风险（入场点至止损点的距离），目标收益用R的倍数表示：R = (目标价格 - 入场价格) / (入场价格 - 止损价格)。如2.6R表示获利目标是止损距离的2.6倍。",
+  "identification_rules": [
+    "确定入场点后，设置止损位（通常在关键支撑/阻力、订单块下方或摆动高低点），计算入场点至止损点的距离，定义为1R",
+    "确定目标价格（通常为流动性区域或关键阻力），计算入场点至目标点的距离",
+    "用目标距离除以止损距离，得出R倍数：R = (目标价格 - 入场价格) / (入场价格 - 止损价格)",
+    "以倍数形式表达结果，如2R、2.6R、3R、5R等",
+    "在入场前评估R值是否满足最低标准（通常要求≥2R），不满足则重新考虑入场位置或调整止损"
+  ],
+  "trading_implication": "R值是评估交易设置质量与风险管理的核心指标。通常要求最低2R，即目标收益至少为风险的2倍，以确保即使胜率不高也能长期盈利。止损过宽会导致R值不足，应调整至更优位置。当交易达到3R时，可将止损移至保本点，锁定风险同时保留上升空间。交易者通过比较不同止损位置的R值来选择最优入场策略。",
+  "common_mistakes": [
+    "接受低于2R的风险收益比进行交易，降低交易期望值",
+    "止损位置设置过宽，导致单笔风险过大且无法达到最低2R标准",
+    "未在入场前明确计算R值，凭感觉入场，事后才发现RR不足",
+    "达到3R后未及时将止损移至保本点，错失风险管理机会",
+    "止损位置过宽导致R值虚高，实际风险承受度超出预期",
+    "目标价格设定不合理，高R值的交易可能因目标难以达成而失败",
+    "过度追求高R值而忽视入场质量，导致频繁止损"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    },
+    {
+      "term": "Entry Point",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0OjlQ91TZiU_case_002_固定美元风险改善交易结果的案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "固定美元风险vs固定合约数：连续亏损后的翻盘案例"
+    },
+    {
+      "card_id": "0OjlQ91TZiU_case_003_eurusd外汇交易头寸计算案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "100K账户1%风险下EURUSD头寸计算"
+    },
+    {
+      "card_id": "0OjlQ91TZiU_case_005_期货评估账户风险管理案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "期货评估账户风险管理：基于回撤额度的仓位规模调整"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_004_e_mini_s_p_500期货_1分钟_box_setup案例",
+      "video_id": "HFfChGFHD44",
+      "title": "1分钟Box Setup做空案例：高点回落产生5R+收益"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_006_回测结果总结",
+      "video_id": "TNybDCtwBnc",
+      "title": "五笔回测总结：80%胜率，2.79R平均收益验证"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_015_回测第十三天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "第27天低点扫荡后Breaker Block入场被止损"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_risk_reward_ratio_r",
+      "segment_ids": [
+        "seg_024"
+      ],
+      "time_range": [
+        967.6,
+        1042.64
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "WwmS47Gb3M0",
+      "original_card_id": "WwmS47Gb3M0_concept_risk_reward_ratio",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.84,
+        551.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "o0v4KQxZbpU",
+      "original_card_id": "o0v4KQxZbpU_concept_risk_reward_ratio_r",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        215.439,
+        1633.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "rXMVPUZPw4A",
+      "original_card_id": "rXMVPUZPw4A_concept_risk_reward_ratio",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_008",
+        "seg_009",
+        "seg_011"
+      ],
+      "time_range": [
+        206.07999999999998,
+        460.4
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_risk_reward_ratio",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.74,
+        293.3
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 2,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:52:57.470052Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "5张原始卡school字段均为Risk Management，无冲突。最低R值标准各卡略有差异（2R、2.5R、1.5R），综合取最常见的2R作为基准表述。",
+  "error": null
+}

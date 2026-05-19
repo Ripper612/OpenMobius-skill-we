@@ -1,0 +1,104 @@
+{
+  "card_id": "WFqLwOp2pXw_case_005_usd_jpy_1小时18小时盘整的空头延续",
+  "type": "case",
+  "title": "USD/JPY 1H盘整18小时后空头延续至2R目标",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Expansion Day",
+      "card_id": "expansion_day",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "market_structure_shift",
+    "order_block",
+    "consolidation",
+    "displacement",
+    "equal_lows",
+    "expansion_day"
+  ],
+  "school": "ICT",
+  "asset": "USDJPY",
+  "timeframe": "1H",
+  "market_context": "USD/JPY在144800-144200区间盘整18小时，日线图显示价格扫高后回落并形成Change in State of Delivery，预示下跌延续。",
+  "key_observation": "价格在18小时盘整区间内保持在144800高点和144200低点之间，扫盘高点后未能收盘突破，反而形成公允价值缺口，确认空头延续信号。",
+  "analysis_steps": [
+    "Step 1: 观察日线图，识别价格扫出高点144800后回落并收盘在144200附近，确认Change in State of Delivery（交付状态改变）。",
+    "Step 2: 在1小时图上确认18小时盘整区间，价格在144800-144200之间反复震荡，未突破任一边界。",
+    "Step 3: 识别盘整后的反应，价格从高点144800反应下跌，未能收盘突破该高点。",
+    "Step 4: 确认Fair Value Gap形成，价格继续向下运行穿过FVG区域。",
+    "Step 5: 注意到Equal Lows存在于144200附近，作为支撑参考。",
+    "Step 6: 在FVG被穿过后，选择在开盘处入场做空，止损设置在高点144800。",
+    "Step 7: 追踪价格下跌至2R目标位，观察到多个连续下跌K线确认趋势延续（Expansion Day）。"
+  ],
+  "outcome": "价格从入场点向下运行，达到2R风险回报比目标，形成多个连续下跌K线，确认空头延续趋势。",
+  "lessons": "在盘整后等待价格操纵（高点扫盘）和确认信号（CSD、FVG穿过），而非在盘整区间内交易或提前预期突破。通过交付状态改变和公允价值缺口的组合确认，可以以较低风险参与趋势延续。",
+  "primary_image": "cards/WFqLwOp2pXw/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/WFqLwOp2pXw/images/case_005_detail_1.jpg",
+    "cards/WFqLwOp2pXw/images/case_005_detail_2.jpg",
+    "cards/WFqLwOp2pXw/images/case_005_detail_3.jpg",
+    "cards/WFqLwOp2pXw/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "JPY 1 小时 K 线图。图上显示价格范围从 142.200 到 145.200。左侧有一条水平线位于 144.800，中部有一条水平线位于 143.400。图上有两个矩形标注区域：一个浅蓝色矩形覆盖约 143.200 至 144.000 的价格范围，一个浅黄色矩形覆盖约 143.600 至 144.000 的价格范围。K 线序列显示从高点 145.200 向下运行，中间形成 143.400 至",
+    "case_005_detail_1.jpg": "JPY 1 小时 K 线图。图上显示从 142200 至 146000 的上升趋势，随后从 146000 回落至 144000。右侧显示一个矩形标注框，范围约在 144800 至 145200。图左下角显示价格标签 143.272。图上有一条水平虚线穿过 145000 附近。最新 K 线区域显示绿色和黑色 K 线交替出现，价格在 144800 至 144900 之间。图表右下角显示交易控制按钮（S",
+    "case_005_detail_2.jpg": "JPY 1小时K线图。图上显示价格范围从142200到145400。可见两条水平线分别位于144800和144200。图右侧显示一根大型绿色K线从约142800上升至144800，随后一根大型黑色K线收于144200附近。中间区域显示143600至144000之间的小型K线整理形态。左下角显示当前价格标记为143.440。图上有矩形标注框和水平线标注，未见其他指标。",
+    "case_005_detail_3.jpg": "JPY 图表显示烛线图。价格范围从 142.200 到 145.200。图上有三条水平线分别位于 144.800、144.200 和 143.400。中间区域有一个矩形框标注，范围约在 143.400 至 144.200 之间。左侧出现一根大幅上升的绿色烛线从 142.800 升至 144.800，随后跟随一根黑色烛线从 144.800 下降至 144.200。中间部分约 8 根烛线在 143.4",
+    "case_005_detail_4.jpg": "JPY 3 时间框架 K 线图。图上显示价格范围从 141.400 至 145.800。图表包含 5 条水平线标注，分别位于 144.800、144.200、143.400、143.000 和 142.011。另有两个矩形框标注：一个在 144.800 至 145.000 区间，另一个在 143.400 至 144.200 区间。K 线呈现从高点 145.800 向下的趋势，中间在 144.200"
+  },
+  "sources": [
+    {
+      "video_id": "WFqLwOp2pXw",
+      "segment_ids": [
+        "seg_022",
+        "seg_023",
+        "seg_024"
+      ],
+      "time_range": [
+        961.12,
+        1094.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了18小时盘整的识别、高点扫盘、FVG形成、入场点选择和2R目标达成的全过程，关键价位（144800、144200、143400）和时间框架（1H、18小时）均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:57.074003Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD/JPY 1H盘整18小时后空头延续至2R目标\",\"school\":\"ICT\",\"asset\":\"USDJPY\",\"timeframe\":\"1H\",\"market_context\":\"USD/JPY在144800-144200区间盘整18小时，日线图显示价格扫高后回落并形成Change in State of Delivery，预示下跌延续。\",\"key_observation\":\"价格在18小时盘整区间内保持在144800高点和144200低点之间，扫盘高点后未能收盘突破，反而形成公允价值缺口，确认空头延续信号。\",\"analysis_steps\":[\"Step 1: 观察日线图，识别价格扫出高点144800后回落并收盘在144200附近，确认Change in State of Delivery（交付状态改变）。\",\"Step 2: 在1小时图上确认18小时盘整区间，价格在144800-144200之间反复震荡，未突破任一边界。\",\"Step 3: 识别盘整后的反应，价格从高点144800反应下跌，未能收盘突破该高点。\",\"Step 4: 确认Fair Value Gap形成，价格继续向下运行穿过FVG区域。\",\"Step 5: 注意到Equal Lows存在于144200附近，作为支撑参考。\",\"Step 6: 在FVG被穿过后，选择在开盘处入场做空，止损设置在高点144800。\",\"Step 7: 追踪价格下跌至2R目标位，观察到多个连续下跌K线确认趋势延续（Expansion Day）。\"],\"outcome\":\"价格从入场点向下运行，达到2R风险回报比目标，形成多个连续下跌K线，确认空头延续趋势。\",\"lessons\":\"在盘整后等待价格操纵（高点扫盘）和确认信号（CSD、FVG穿过），而非在盘整区间内交易或提前预期突破。通过交付状态改变和公允价值缺口的组合确认，可以以较低风险参与趋势延续。\",\"primary_image_frame_id\":\"WFqLwOp2pXw_f036\",\"supporting_image_frame_ids\":[\"WFqLwOp2pXw_f033\",\"WFqLwOp2pXw_f034\",\"WFqLwOp2pXw_f035\",\"WFqLwOp2pXw_f037\"],\"related_concepts\":[\"Fair Value Gap\",\"Change in State of Delivery\",\"Order Block\",\"Market Structure Shift\",\"Consolidation\",\"Displacement\",\"Equal Lows\",\"Expansion Day\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了18小时盘整的识别、高点扫盘、FVG形成、入场点选择和2R目标达成的全过程，关键价位（144800、144200、143400）和时间框架（1H、18小时）均清晰可读。\"}",
+  "error": null
+}

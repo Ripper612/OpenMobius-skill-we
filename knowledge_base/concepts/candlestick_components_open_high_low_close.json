@@ -1,0 +1,56 @@
+{
+  "card_id": "candlestick_components_open_high_low_close",
+  "type": "merged_concept",
+  "canonical_term": "Candlestick Components (Open, High, Low, Close)",
+  "aliases": [
+    "K线四要素",
+    "OHLC",
+    "蜡烛线四价格"
+  ],
+  "school": "General",
+  "definition": "每根K线的四个基本价格点：开盘价（特定时期起始价格）、最高价（该时期最高成交价）、最低价（该时期最低成交价）、收盘价（该时期结束价格）。是交易分析的基础。",
+  "identification_rules": [
+    "开盘价（Open）：K线形成时期的起始价格点",
+    "最高价（High）：该时期内价格触及的最高点，通常形成上影线",
+    "最低价（Low）：该时期内价格触及的最低点，通常形成下影线",
+    "收盘价（Close）：K线形成时期的结束价格点；若收盘价低于开盘价则为看跌烛线，高于开盘价则为看涨烛线",
+    "这四个价格点在所有时间框架上都存在（日线、15分钟线、1秒线等）"
+  ],
+  "trading_implication": "OHLC是理解价格走势的基础。通过观察这四个价格点的相对位置，交易者可以识别方向性烛线（单向运动）、反转烛线等形态，进而判断市场结构和预期下一根烛线的方向。每个更高时间框架的烛线由多根低时间框架烛线组成，形成递归结构。",
+  "common_mistakes": [
+    "混淆开盘价和收盘价的位置关系，导致误判烛线方向（看涨vs看跌）",
+    "忽视高低点与开盘收盘点的相对位置关系，无法识别方向性烛线的特征（小上影线相对于实体）",
+    "在分析单根烛线时忽视其由低时间框架烛线组成的事实，导致对价格形成过程理解不完整"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "original_card_id": "sIcsLFSNoXM_concept_candlestick_components_open_high_low_clo",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.519,
+        190.959
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131571Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

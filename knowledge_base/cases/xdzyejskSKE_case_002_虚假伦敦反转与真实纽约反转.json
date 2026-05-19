@@ -1,0 +1,117 @@
+{
+  "card_id": "xdzyejskSKE_case_002_虚假伦敦反转与真实纽约反转",
+  "type": "case",
+  "title": "虚假伦敦反转与真实纽约反转的区分",
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "liquidity",
+    "market_structure_shift_mss",
+    "failure_swing",
+    "low_resistance_liquidity",
+    "inducement",
+    "optimal_trade_entry_ote"
+  ],
+  "school": "ICT",
+  "asset": "CLY1 (Light Crude Oil Futures)",
+  "timeframe": "15M",
+  "market_context": "原油期货在伦敦时段形成低点，初看似乎是伦敦反转信号，但未能确认更高时间框架的关键水平，随后在纽约开盘时段形成真实反转。",
+  "key_observation": "虚假伦敦反转未能触及高时间框架PD阵列，仅创造等量低点和流动性；真实反转发生在纽约开盘，伴随订单块形成和失败摆动确认。",
+  "analysis_steps": [
+    "Step 1: 观察伦敦时段形成的低点，初步判断为伦敦反转信号。",
+    "Step 2: 向左查看历史结构，确认价格未触及更高时间框架的关键水平。",
+    "Step 3: 识别仅创造等量低点（equal lows）和下方流动性，而非真实反转。",
+    "Step 4: 标记多个失败摆动（failure swings）在左侧，识别伦敦和亚洲高点。",
+    "Step 5: 在M15时间框架上确认虚假的交付状态改变（CSD）。",
+    "Step 6: 下探低时间框架（5分钟），观察是否有新的设置信号。",
+    "Step 7: 在纽约开盘时段（约8:30 UTC-4）观察价格扫除低点后的反应。",
+    "Step 8: 确认纽约开盘时形成的订单块（Order Block）和收盘确认。",
+    "Step 9: 以纽约低点作为止损，以失败摆动和伦敦/亚洲高点作为目标。",
+    "Step 10: 在午夜（00:00）附近获利了结部分头寸，确认真实反转已完成。"
+  ],
+  "outcome": "交易成功：价格在纽约开盘后反转向上，突破伦敦和亚洲高点，达成2R以上的风险回报比交易。",
+  "lessons": "区分真假反转的关键是确认高时间框架PD阵列的参与；虚假反转仅创造等量结构而不触及关键水平；真实反转通常在纽约开盘时段发生，伴随订单块形成和失败摆动确认。",
+  "primary_image": "cards/xdzyejskSKE/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/xdzyejskSKE/images/case_002_detail_1.jpg",
+    "cards/xdzyejskSKE/images/case_002_detail_2.jpg",
+    "cards/xdzyejskSKE/images/case_002_detail_3.jpg",
+    "cards/xdzyejskSKE/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "WTI 原油期货 15 分钟图。图上显示从 76.90 跌至 75.10 的下行走势，跨越约 20 根 K 线。绿色和黑色 K 线交替出现。图上有两条水平线标注：一条在 75.54 处无标签，另一条在 75.80 处标记为 OB。在 75.75 至 75.85 区间有一个矩形框标注为 OB。图中可见一根黄色高亮 K 线靠近 75.54 水平线。右侧显示时间标记 8:10 和日期 30/11/202",
+    "case_002_detail_1.jpg": "Light Crude Oil Futures 15分钟K线图。图上显示从左侧约76.95至右侧约79.35的价格范围。右侧有两个矩形标注区域：上方绿色区域跨越约76.20至79.20，下方灰色区域跨越约76.95至77.70。图中标注文字包括'Sellside Liquidity'。底部时间轴显示多个时间刻度标记。图上有黄色十字光标标记。除矩形区域和文字标注外，未见其他技术指标或形态标注。",
+    "case_002_detail_2.jpg": "Light Crude Oil Futures 15分钟图表。图上标注有一条水平线位于75.20处，标记为'Sellside Liquidity'。可见价格范围约从75.00至76.40。图表右侧有一根大型黑色K线，左侧和中间区域为绿色和黑色K线混合。图上标有'WD'文字标注和'0:00'时间标记。底部显示日期'30/11/2024'和时间框架'CLY1 | 15M'。",
+    "case_002_detail_3.jpg": "轻质原油期货 5 分钟 K 线图。图表显示从左至右的价格走势，整体价格范围约 74.30 至 76.30。图上有一条水平线位于 75.10。左侧显示上升趋势，绿色 K 线占主导，随后转为下降趋势，黑色 K 线占主导。右侧有一根大型黑色 K 线，带有长上影线，时间标记为 08:30 至 08:50，该 K 线从约 75.80 跌至 74.80。图上标注有时间戳 20/11/2024 和 LS11/5",
+    "case_002_detail_4.jpg": "轻质原油期货5分钟K线图。图上显示从左侧76.20下跌至右侧74.40的下降趋势，随后在74.85至75.30区间内出现反弹和整理。图上有两条水平线分别位于75.10和74.85，将价格分为三个区域。其中74.85至75.10之间用绿色矩形标注为BUY，75.10至75.30之间用灰色矩形标注为SELL。最新K线为绿色，收盘价约在75.20附近，带有上影线。图表底部显示时间戳20/11/2024及"
+  },
+  "sources": [
+    {
+      "video_id": "xdzyejskSKE",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        192.56,
+        369.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了虚假伦敦反转与真实纽约反转的对比分析，包括具体时间、价格水平、订单块位置和交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:17.181605Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"虚假伦敦反转与真实纽约反转的区分\",\"school\":\"ICT\",\"asset\":\"CLY1 (Light Crude Oil Futures)\",\"timeframe\":\"15M\",\"market_context\":\"原油期货在伦敦时段形成低点，初看似乎是伦敦反转信号，但未能确认更高时间框架的关键水平，随后在纽约开盘时段形成真实反转。\",\"key_observation\":\"虚假伦敦反转未能触及高时间框架PD阵列，仅创造等量低点和流动性；真实反转发生在纽约开盘，伴随订单块形成和失败摆动确认。\",\"analysis_steps\":[\"Step 1: 观察伦敦时段形成的低点，初步判断为伦敦反转信号。\",\"Step 2: 向左查看历史结构，确认价格未触及更高时间框架的关键水平。\",\"Step 3: 识别仅创造等量低点（equal lows）和下方流动性，而非真实反转。\",\"Step 4: 标记多个失败摆动（failure swings）在左侧，识别伦敦和亚洲高点。\",\"Step 5: 在M15时间框架上确认虚假的交付状态改变（CSD）。\",\"Step 6: 下探低时间框架（5分钟），观察是否有新的设置信号。\",\"Step 7: 在纽约开盘时段（约8:30 UTC-4）观察价格扫除低点后的反应。\",\"Step 8: 确认纽约开盘时形成的订单块（Order Block）和收盘确认。\",\"Step 9: 以纽约低点作为止损，以失败摆动和伦敦/亚洲高点作为目标。\",\"Step 10: 在午夜（00:00）附近获利了结部分头寸，确认真实反转已完成。\"],\"outcome\":\"交易成功：价格在纽约开盘后反转向上，突破伦敦和亚洲高点，达成2R以上的风险回报比交易。\",\"lessons\":\"区分真假反转的关键是确认高时间框架PD阵列的参与；虚假反转仅创造等量结构而不触及关键水平；真实反转通常在纽约开盘时段发生，伴随订单块形成和失败摆动确认。\",\"primary_image_frame_id\":\"xdzyejskSKE_f008\",\"supporting_image_frame_ids\":[\"xdzyejskSKE_f007\",\"xdzyejskSKE_f009\",\"xdzyejskSKE_f010\",\"xdzyejskSKE_f011\"],\"related_concepts\":[\"Change in the state of delivery (CSD)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Liquidity\",\"Market Structure Shift (MSS)\",\"Failure Swing\",\"Low Resistance Liquidity\",\"Inducement\",\"Optimal Trade Entry (OTE)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了虚假伦敦反转与真实纽约反转的对比分析，包括具体时间、价格水平、订单块位置和交易结果。\"}",
+  "error": null
+}

@@ -1,0 +1,111 @@
+{
+  "card_id": "HrjYoxAUb3s_case_002_美元看跌时的多货币对比分析",
+  "type": "case",
+  "title": "美元看跌时的多货币对比分析与最优配对选择",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Candle to Closure",
+      "card_id": "wick_closure",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Currency Pairing",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Bullish Candle Formation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "wick_closure",
+    "equal_lows",
+    "market_structure"
+  ],
+  "school": "SMC",
+  "asset": "DXY / EURUSD / GBPUSD / 6J1! / 6S1! / USDJPY / GB1!",
+  "timeframe": "1D",
+  "market_context": "美元指数(DXY)出现等低并预期下跌。博主对比欧元、英镑、日元、加元、瑞郎、纽元、澳元等多个货币对的日线形态，寻找与弱势美元配对的最强货币。",
+  "key_observation": "当美元趋势下行时，应寻找相对强势的货币与其配对。加元形态最优，日元和瑞郎相对强度不足，应避免USD/JPY交易，因为弱货币配弱货币难以产生有效波动。",
+  "analysis_steps": [
+    "Step 1: 观察DXY日线出现等低(Equal Lows)并预期下跌，确认美元弱势方向。",
+    "Step 2: 逐一检查EURUSD、GBPUSD等主要货币对的K线形态，寻找看涨蜡烛和收盘形态。",
+    "Step 3: 分析6J1!(日元期货)日线形态，发现其相对看跌，不适合与弱美元配对。",
+    "Step 4: 评估6S1!(瑞郎期货)形态，确认其相对强度不足，应避免。",
+    "Step 5: 对比CAD、NZD、AUD等货币的形态，确认CAD具有最优的看涨蜡烛和公允价值缺口(FVG)。",
+    "Step 6: 验证USDJPY配对中，弱美元配弱日元导致波动不足，确认应避免此配对。",
+    "Step 7: 总结多个可交易选择(EUR、GBP、CAD、NZD、AUD)，但强调应重点关注形态最优的CAD。"
+  ],
+  "outcome": "博主选择交易CAD期货，因其形态最优。同时指出EUR、GBP、NZD、AUD也可交易，但应避免JPY和CHF配对。",
+  "lessons": "美元趋势下行时，应配对相对强势货币而非弱势货币。多个选择中应聚焦形态最优者。关键是识别应避免的配对(如USD/JPY)，而非盲目追求完美单一选择。",
+  "primary_image": "cards/HrjYoxAUb3s/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/HrjYoxAUb3s/images/case_002_detail_1.jpg",
+    "cards/HrjYoxAUb3s/images/case_002_detail_2.jpg",
+    "cards/HrjYoxAUb3s/images/case_002_detail_3.jpg",
+    "cards/HrjYoxAUb3s/images/case_002_detail_4.jpg",
+    "cards/HrjYoxAUb3s/images/case_002_detail_5.jpg",
+    "cards/HrjYoxAUb3s/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示 DXY（美元指数）日线 K 线图，可见价格范围约从 96.5 至 107.0。图上有两个浅色矩形标注区域：一个位于图表中下方约 96.8 至 98.2 区间，另一个位于图表中部约 99.0 至 100.5 区间。图右侧出现一根覆盖范围约从 97.5 至 100.5 的大幅绿色 K 线，其后跟随数根黑色 K 线。图表左侧至中部呈现从约 107.0 向下延伸至约 96.5 的 K 线序列。图",
+    "case_002_detail_1.jpg": "EURUSD 日线蜡烛图，图上价格范围约从 1.03000 至 1.12000。时间轴覆盖 2024 年初至 2024 年末。图右侧区域有一个绿色矩形标注，覆盖约 3 至 4 根 K 线，矩形内含一根黑色实体 K 线。矩形右侧有一根较长的绿色 K 线。图表处于 Replay 模式，右上角显示 TTrades.com 水印。右侧面板列出多个资产代码，EURUSD 处于高亮选中状态。图上未见其他水平线",
+    "case_002_detail_2.jpg": "图表显示 6J1!（日元期货）日线 K 线图。图上价格范围约从 0.0062500 至 0.0068750。图右侧有一根大阴线主体，跨度约从 0.0066000 至 0.0063500。图中绘有两个矩形框：一个位于上方约 0.0066500 至 0.0068000 区间，另一个标注文字",
+    "case_002_detail_3.jpg": "6S1！日线蜡烛图，可见价格区间约从1.26000至1.30620。图左侧出现一根较长的绿色实体K线，随后图中部出现一段由多根黑色实体K线构成的下行序列，最低触及约1.26000附近。图右侧出现一段由绿色与黑色K线交替构成的回升序列，最高至约1.28500附近。图上有一条水平线位于约1.27000处，横跨图表中部区域。图上未见文字标签、形态框或其他指标。",
+    "case_002_detail_4.jpg": "USDJPY 日线 K 线图，可见价格范围约从 144.0 到 162.0。图上有一个浅绿色矩形框，覆盖约 150.0 至 155.5 的价格区间。图上另有两条水平线，分别位于约 151.0 和 148.5 附近。左侧区域可见一段由多根绿色 K 线组成的上升序列，随后出现数根黑色 K 线集中于 160.0 至 162.0 区间。图右侧出现一根实体较长的绿色 K 线，其后紧跟一根黑色 K 线，最右侧",
+    "case_002_detail_5.jpg": "图表显示 GB1! 日线蜡烛图，价格范围约从 2840 至 3790。图左侧呈现一段下行走势，K 线从约 3790 区域向下延伸至约 2840。图中部有两个浅灰色矩形标注区域，位于约 3340 至 3430 价格区间。图右侧可见数根大型 K 线，包括一根大黑色实体 K 线和一根大绿色实体 K 线，位于约 3370 至 3500 区间。图上有两条水平线分别位于约 3590 和 3370 处。右侧面板",
+    "case_002_detail_6.jpg": "DXY 日线 K 线图。图上可见价格范围约从 93.0 至 110.0。左侧中部有多个矩形框标注，覆盖约 96.5 至 99.0 区间，其中一个矩形带有文字标签'CX'。图右侧出现一根大幅绿色 K 线后紧接一根大幅黑色 K 线，随后图最右侧有数根长实体黑色 K 线向下延伸至约 93.0 至 94.0 区间。右侧价格轴当前价格标签显示约 97.291。图上另有两条浅色水平矩形区域分别位于约 98.0"
+  },
+  "sources": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "segment_ids": [
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "time_range": [
+        532.0,
+        696.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了DXY、EURUSD、6J1!、6S1!、USDJPY、GB1!等多个资产的日线图表，清晰阐述了分析步骤、形态对比、配对逻辑和交易决策。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:32.606677Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美元看跌时的多货币对比分析与最优配对选择\",\"school\":\"SMC\",\"asset\":\"DXY / EURUSD / GBPUSD / 6J1! / 6S1! / USDJPY / GB1!\",\"timeframe\":\"1D\",\"market_context\":\"美元指数(DXY)出现等低并预期下跌。博主对比欧元、英镑、日元、加元、瑞郎、纽元、澳元等多个货币对的日线形态，寻找与弱势美元配对的最强货币。\",\"key_observation\":\"当美元趋势下行时，应寻找相对强势的货币与其配对。加元形态最优，日元和瑞郎相对强度不足，应避免USD/JPY交易，因为弱货币配弱货币难以产生有效波动。\",\"analysis_steps\":[\"Step 1: 观察DXY日线出现等低(Equal Lows)并预期下跌，确认美元弱势方向。\",\"Step 2: 逐一检查EURUSD、GBPUSD等主要货币对的K线形态，寻找看涨蜡烛和收盘形态。\",\"Step 3: 分析6J1!(日元期货)日线形态，发现其相对看跌，不适合与弱美元配对。\",\"Step 4: 评估6S1!(瑞郎期货)形态，确认其相对强度不足，应避免。\",\"Step 5: 对比CAD、NZD、AUD等货币的形态，确认CAD具有最优的看涨蜡烛和公允价值缺口(FVG)。\",\"Step 6: 验证USDJPY配对中，弱美元配弱日元导致波动不足，确认应避免此配对。\",\"Step 7: 总结多个可交易选择(EUR、GBP、CAD、NZD、AUD)，但强调应重点关注形态最优的CAD。\"],\"outcome\":\"博主选择交易CAD期货，因其形态最优。同时指出EUR、GBP、NZD、AUD也可交易，但应避免JPY和CHF配对。\",\"lessons\":\"美元趋势下行时，应配对相对强势货币而非弱势货币。多个选择中应聚焦形态最优者。关键是识别应避免的配对(如USD/JPY)，而非盲目追求完美单一选择。\",\"primary_image_frame_id\":\"HrjYoxAUb3s_f019\",\"supporting_image_frame_ids\":[\"HrjYoxAUb3s_f018\",\"HrjYoxAUb3s_f020\",\"HrjYoxAUb3s_f021\",\"HrjYoxAUb3s_f022\",\"HrjYoxAUb3s_f023\",\"HrjYoxAUb3s_f024\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Candle to Closure\",\"Equal Lows\",\"Relative Strength\",\"Currency Pairing\",\"Market Structure\",\"Bullish Candle Formation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了DXY、EURUSD、6J1!、6S1!、USDJPY、GB1!等多个资产的日线图表，清晰阐述了分析步骤、形态对比、配对逻辑和交易决策。\"}",
+  "error": null
+}

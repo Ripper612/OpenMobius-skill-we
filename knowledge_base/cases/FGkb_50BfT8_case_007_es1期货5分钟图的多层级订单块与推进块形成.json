@@ -1,0 +1,109 @@
+{
+  "card_id": "FGkb_50BfT8_case_007_es1期货5分钟图的多层级订单块与推进块形成",
+  "type": "case",
+  "title": "ES1 5分钟图多层级订单块与推进块的形成与验证",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "propulsion_block",
+    "mean_threshold",
+    "market_structure_shift",
+    "failure_swings",
+    "high_resistance_liquidity",
+    "displacement",
+    "fair_value_gap"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "5M",
+  "market_context": "ES1期货在2/5/2024日内突破前一日低点后，形成一系列下行K线。随后价格在多个层级上形成订单块，通过均值阈值验证和推进块生成，最终实现连续上升至目标位。",
+  "key_observation": "博主识别了在下行过程中形成的多个订单块，通过均值阈值（mean threshold）的持续尊重来验证推进块的有效性，以及高阻力流动性（High Resistance Liquidity）在止损设置中的应用。",
+  "analysis_steps": [
+    "Step 1: 识别价格突破前一日低点，确认市场结构转变（MSS）",
+    "Step 2: 在约5088.00处识别摆动高点与失败摆动（failure swings），标记初始订单块",
+    "Step 3: 观察一系列下行K线闭合在订单块上方，验证第一个订单块的有效性",
+    "Step 4: 检查均值阈值是否被尊重，确认可以寻找第二个入场点",
+    "Step 5: 在约5038.00处识别扫荡低点后形成的新订单块",
+    "Step 6: 标记该订单块的均值阈值，确认推进块的形成",
+    "Step 7: 设置止损在高阻力流动性（摆动高点附近），设置止盈在历史高点",
+    "Step 8: 观察价格上升过程中均值阈值的持续尊重，验证推进块的连续性",
+    "Step 9: 确认价格未能闭合在推进块均值阈值上方时，不将该低点作为有效的失效点",
+    "Step 10: 在扫荡后形成新的订单块，继续追踪均值阈值的尊重情况"
+  ],
+  "outcome": "价格成功上升至目标位（约5130.00附近的历史高点），交易获利。",
+  "lessons": "多层级订单块的验证需要通过均值阈值的持续尊重来确认；推进块的形成表明趋势延续的强度；高阻力流动性是设置止损的关键参考；未被扫荡的摆动点不应作为有效的失效点。",
+  "primary_image": "cards/FGkb_50BfT8/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/FGkb_50BfT8/images/case_007_detail_1.jpg",
+    "cards/FGkb_50BfT8/images/case_007_detail_2.jpg",
+    "cards/FGkb_50BfT8/images/case_007_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "图表为 ES1 期货 5 分钟 K 线图，时间轴覆盖约 07:30 至 18:00，价格范围约 5030 至 5100。图上绘有多个矩形标注区域：左侧有浅粉色及浅绿色矩形分别位于约 5060-5075 及 5038-5055 区间；右侧有一个较大的绿色填充矩形覆盖约 5055-5100 区间，内含一条向上倾斜的虚线；绿色矩形下方有一个灰色矩形覆盖约 5038-5060 区间。图上另有多条水平线分布",
+    "case_007_detail_1.jpg": "图表为 ES1! 5 分钟 K 线图，时间轴显示 2/5/2024，可见价格范围约从 5036.00 至 5094.00。图左侧 K 线在 5076.00 至 5088.00 区间内呈小实体横向排列，随后出现连续多根大实体阴线，从约 5088.00 向下延伸至约 5038.00。图上有两条水平线，分别位于约 5088.00 和 5038.00 附近。5088.00 附近绘有一个矩形标注框。右侧价格",
+    "case_007_detail_2.jpg": "图为 K 线图，右上角标注 TTrader_edu，底部时间轴显示日期 2/5/2024，时间范围约从 08:00 至 18:00。价格刻度范围约 5028 至 5096。图上可见多个矩形框标注：一个位于约 5082 至 5092 区间，一个位于约 5060 至 5068 区间，一个位于约 5030 至 5040 区间，另一个较大矩形覆盖约 5048 至 5068 区间。图上另有数条水平线分别位于",
+    "case_007_detail_3.jpg": "图表为 ES1! 5 分钟 K 线图，日期标注为 2/5/2024，右上角显示 TTrader_edu 水印。可见价格范围约从 5028 到 5100。图上有两个矩形框标注：一个位于约 08:30 至 09:00 区间、价格约 5068 至 5090；另一个位于约 10:30 至 11:30 区间、价格约 5060 至 5075。图右侧有一个绿色填充矩形，覆盖约 12:00 至 14:30 时段、"
+  },
+  "sources": [
+    {
+      "video_id": "FGkb_50BfT8",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.48,
+        694.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从订单块识别、均值阈值验证、推进块形成到交易执行的全过程，图表清晰标注了关键价位和区域，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:16.858481Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES1 5分钟图多层级订单块与推进块的形成与验证\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"5M\",\"market_context\":\"ES1期货在2/5/2024日内突破前一日低点后，形成一系列下行K线。随后价格在多个层级上形成订单块，通过均值阈值验证和推进块生成，最终实现连续上升至目标位。\",\"key_observation\":\"博主识别了在下行过程中形成的多个订单块，通过均值阈值（mean threshold）的持续尊重来验证推进块的有效性，以及高阻力流动性（High Resistance Liquidity）在止损设置中的应用。\",\"analysis_steps\":[\"Step 1: 识别价格突破前一日低点，确认市场结构转变（MSS）\",\"Step 2: 在约5088.00处识别摆动高点与失败摆动（failure swings），标记初始订单块\",\"Step 3: 观察一系列下行K线闭合在订单块上方，验证第一个订单块的有效性\",\"Step 4: 检查均值阈值是否被尊重，确认可以寻找第二个入场点\",\"Step 5: 在约5038.00处识别扫荡低点后形成的新订单块\",\"Step 6: 标记该订单块的均值阈值，确认推进块的形成\",\"Step 7: 设置止损在高阻力流动性（摆动高点附近），设置止盈在历史高点\",\"Step 8: 观察价格上升过程中均值阈值的持续尊重，验证推进块的连续性\",\"Step 9: 确认价格未能闭合在推进块均值阈值上方时，不将该低点作为有效的失效点\",\"Step 10: 在扫荡后形成新的订单块，继续追踪均值阈值的尊重情况\"],\"outcome\":\"价格成功上升至目标位（约5130.00附近的历史高点），交易获利。\",\"lessons\":\"多层级订单块的验证需要通过均值阈值的持续尊重来确认；推进块的形成表明趋势延续的强度；高阻力流动性是设置止损的关键参考；未被扫荡的摆动点不应作为有效的失效点。\",\"primary_image_frame_id\":\"FGkb_50BfT8_f023\",\"supporting_image_frame_ids\":[\"FGkb_50BfT8_f020\",\"FGkb_50BfT8_f022\",\"FGkb_50BfT8_f024\"],\"related_concepts\":[\"Order Block\",\"Propulsion Block\",\"Mean Threshold\",\"Market Structure Shift\",\"Failure Swings\",\"High Resistance Liquidity\",\"Displacement\",\"Fair Value Gap\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从订单块识别、均值阈值验证、推进块形成到交易执行的全过程，图表清晰标注了关键价位和区域，交易结果明确。\"}",
+  "error": null
+}

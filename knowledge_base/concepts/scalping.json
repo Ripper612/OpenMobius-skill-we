@@ -1,0 +1,76 @@
+{
+  "card_id": "scalping",
+  "type": "merged_concept",
+  "canonical_term": "Scalping",
+  "aliases": [
+    "短线交易",
+    "超短期交易"
+  ],
+  "school": "Price Action",
+  "definition": "利用低时间框架（如15秒图表）捕捉小幅价格波动的交易方法。通过在高概率入场点建立头寸，设置部分平仓和止损，快速获利后退出。",
+  "identification_rules": [
+    "在高时间框架（如15分钟）确认FVG和折价区后，切换至低时间框架（15秒）观察价格行为",
+    "在低时间框架内识别Displacement穿过结构进入FVG/OTE区域的设置",
+    "在低时间框架内形成的FVG或OTE区域作为精确入场点",
+    "设置第一个部分平仓目标通常为摆动高点或近期高点",
+    "止损设置在入场点下方的流动性或关键支撑位"
+  ],
+  "trading_implication": "Scalping是一种多时间框架交易方法：先在高时间框架确认大方向和关键价格区域（FVG、折价区），再在低时间框架精确定位入场。通过部分平仓管理风险，首次获利后将止损移至盈亏平衡点。适合波动性较高的时段（如伦敦盘）。目标是快速捕捉小幅利润而非追求大行情。",
+  "common_mistakes": [
+    "未在高时间框架确认点位兴趣和折价区就直接在低时间框架交易，导致交易缺乏高概率基础",
+    "忽视低时间框架内摆动高点未被突破时的看空信号，继续持有多头头寸",
+    "未及时执行部分平仓或止损管理，让小利润转变为亏损"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "aDYzoae3viQ_case_001_伦敦盘e_mini期货交易案例",
+      "video_id": "aDYzoae3viQ",
+      "title": "伦敦盘E-mini期货位移突破15分钟FVG的完整交易案例"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_003_15秒图表反向头皮交易案例",
+      "video_id": "ivirRu3fc4o",
+      "title": "15秒图表反向头皮交易：折价区FVG做空案例"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_004_连续fvg和ote的多次头皮交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "NQ 15秒图多次FVG和OTE头皮交易序列"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_005_激进上升突破后的做多头皮交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "激进上升突破后在OTE区域做多头皮交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "aDYzoae3viQ",
+      "original_card_id": "aDYzoae3viQ_concept_scalping",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        58.32,
+        160.28
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135503Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

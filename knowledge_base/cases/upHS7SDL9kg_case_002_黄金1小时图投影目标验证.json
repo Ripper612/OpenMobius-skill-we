@@ -1,0 +1,91 @@
+{
+  "card_id": "upHS7SDL9kg_case_002_黄金1小时图投影目标验证",
+  "type": "case",
+  "title": "黄金1小时图斐波那契投影目标验证",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Projection",
+      "card_id": "fibonacci_projection",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift",
+    "fibonacci_projection",
+    "order_block",
+    "liquidity",
+    "manipulation_leg",
+    "swing_high_low"
+  ],
+  "school": "ICT",
+  "asset": "GOLD",
+  "timeframe": "1H",
+  "market_context": "黄金周四形成反转信号（Change in State of Delivery），价格从高点下跌后在周五出现反弹。博主使用斐波那契投影工具验证下行目标的有效性。",
+  "key_observation": "周四大幅下跌K线形成反转信号，-2至-2.5投影目标与前日高点3447.0重合，形成强流动性汇聚点。价格突破该目标后继续扩展至-4至-4.5区域。",
+  "analysis_steps": [
+    "Step 1: 识别周四K线形成的反转信号（Change in State of Delivery）和大幅下跌的操纵腿",
+    "Step 2: 使用斐波那契回撤工具，从反转K线的低点锚定到前期摆动高点",
+    "Step 3: 观察-2至-2.5投影目标与前日高点3447.0的重合，确认流动性汇聚",
+    "Step 4: 验证价格是否触及-2至-2.5目标区域（3382-3388）",
+    "Step 5: 观察价格突破-2至-2.5后继续下行至-4至-4.5目标区域（3372-3378）",
+    "Step 6: 确认投影目标作为缺乏流动性区域的有效交易工具"
+  ],
+  "outcome": "价格成功触及-2至-2.5投影目标（与前日高点重合），随后继续下行至-4至-4.5最大目标区域，验证了投影工具的有效性。",
+  "lessons": "当缺乏明确流动性目标时，斐波那契投影可作为有效的交易目标工具。关键是寻找投影目标与历史价格水平（如前日高点）的汇聚点，形成强支撑/阻力区域，提高交易概率。",
+  "primary_image": "cards/upHS7SDL9kg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/upHS7SDL9kg/images/case_002_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "APOZ 1 小时 K 线图。图上显示从 11 日至 25 日的价格走势，价格范围从 3370.0 至 3500.0。图右侧有一条水平虚线位于 3447.0 处。标注区域在 3447.0 至 3465.0 之间，右侧标记为'Tue'。图上可见多根 K 线，其中周五出现绿色 K 线，周四出现黑色 K 线。图右下角显示'GC11 (1H)'、'H1:20 Micro1'、'03:00:00'、'Bia",
+    "case_002_detail_1.jpg": "GOLD 1 小时 K 线图，时间范围从 11 日 06:00 至 22 日 06:00。图上显示价格范围从 3360.0 至 3452.0。左侧价格刻度标注有两条水平虚线分别位于 3382.7 和 3372.6。图上有两个矩形标注框分别围绕 3382-3388 和 3372-3378 价格区间。K 线形态显示从 11 日至 14 日的上升后，14 日至 16 日出现下跌至 3372 附近，随后 "
+  },
+  "sources": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "segment_ids": [
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        235.68,
+        330.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从反转信号识别、投影工具应用、目标验证到结果确认的全过程，图表清晰标注了关键价位和投影水平。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:02.151479Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金1小时图斐波那契投影目标验证\",\"school\":\"ICT\",\"asset\":\"GOLD\",\"timeframe\":\"1H\",\"market_context\":\"黄金周四形成反转信号（Change in State of Delivery），价格从高点下跌后在周五出现反弹。博主使用斐波那契投影工具验证下行目标的有效性。\",\"key_observation\":\"周四大幅下跌K线形成反转信号，-2至-2.5投影目标与前日高点3447.0重合，形成强流动性汇聚点。价格突破该目标后继续扩展至-4至-4.5区域。\",\"analysis_steps\":[\"Step 1: 识别周四K线形成的反转信号（Change in State of Delivery）和大幅下跌的操纵腿\",\"Step 2: 使用斐波那契回撤工具，从反转K线的低点锚定到前期摆动高点\",\"Step 3: 观察-2至-2.5投影目标与前日高点3447.0的重合，确认流动性汇聚\",\"Step 4: 验证价格是否触及-2至-2.5目标区域（3382-3388）\",\"Step 5: 观察价格突破-2至-2.5后继续下行至-4至-4.5目标区域（3372-3378）\",\"Step 6: 确认投影目标作为缺乏流动性区域的有效交易工具\"],\"outcome\":\"价格成功触及-2至-2.5投影目标（与前日高点重合），随后继续下行至-4至-4.5最大目标区域，验证了投影工具的有效性。\",\"lessons\":\"当缺乏明确流动性目标时，斐波那契投影可作为有效的交易目标工具。关键是寻找投影目标与历史价格水平（如前日高点）的汇聚点，形成强支撑/阻力区域，提高交易概率。\",\"primary_image_frame_id\":\"upHS7SDL9kg_f011\",\"supporting_image_frame_ids\":[\"upHS7SDL9kg_f010\"],\"related_concepts\":[\"Change in State of Delivery\",\"Fibonacci Projection\",\"Order Block\",\"Liquidity\",\"Manipulation Leg\",\"Swing High/Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从反转信号识别、投影工具应用、目标验证到结果确认的全过程，图表清晰标注了关键价位和投影水平。\"}",
+  "error": null
+}

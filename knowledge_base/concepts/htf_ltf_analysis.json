@@ -1,0 +1,167 @@
+{
+  "card_id": "htf_ltf_analysis",
+  "type": "merged_concept",
+  "canonical_term": "HTF-LTF Analysis",
+  "aliases": [
+    "High Time Frame-Low Time Frame Analysis",
+    "Multi-timeframe Analysis",
+    "Time Frame Pairing"
+  ],
+  "school": "ICT",
+  "definition": "先在高时间框架（日线、4小时）识别关键结构信号（MSS、reversal/continuation candle、关键水平），再切换至低时间框架（1小时、15分钟、5分钟）等待交付状态改变（CSD）确认，两个条件同时满足时交易设置才有效。高框架提供方向与关键位，低框架用于精确入场执行。",
+  "identification_rules": [
+    "在高时间框架识别关键K线结构（reversal candle或continuation candle）或市场结构转变（MSS），标记EQ、前一日高点/低点等参考位",
+    "确认高时间框架K线有效闭合（Candle 2或Candle 3收盘穿过前一根K线开盘价等关键水平），无效闭合则停止分析",
+    "按对应比例切换至低时间框架：日线配1小时或30分钟，4小时配15分钟或5分钟",
+    "在低时间框架寻找与高框架方向一致的CSD：找到形成该高/低点的K线序列，确认价格已收盘穿过该序列水平",
+    "在低时间框架等待扫荡（sweep）或操纵（manipulation）形成后，寻找Breaker Block或Order Block作为入场信号",
+    "低框架入场方向须与高框架趋势方向对齐；仅当高框架闭合与低框架CSD同时确认时才执行交易"
+  ],
+  "trading_implication": "HTF-LTF配对是双重确认的风险过滤机制，通过多时间框架相互验证降低假信号风险。高框架确认大方向和关键价格水平后，低框架用于精确定位入场、止损和目标（如目标设为2R）。满足双重确认后，可在T-spot、EQ等关键区域寻找延续机会。该方法是可在任意时间框架组合（月线配日线至日线配5分钟）递归应用的分形概念。",
+  "common_mistakes": [
+    "仅依赖高时间框架K线形态或闭合就入场，不等待低时间框架CSD确认，导致在假突破处入场",
+    "高时间框架闭合无效时仍下探低时间框架寻找CSD，浪费分析时间",
+    "在低时间框架看到价格接近高框架关键位就立即交易，而不确认CSD已形成",
+    "混淆CSD定义：CSD须找到形成该高/低点的K线序列并确认收盘穿过，而非简单的价格触及某水平",
+    "混淆wick大小含义：大wick需等待candle three或后续K线才能交易continuation，小wick才支持立即交易reversal",
+    "在低时间框架找到好的形态但忽视高时间框架趋势方向，导致逆势交易",
+    "高时间框架趋势不清晰时强行在低框架寻找设置，增加假信号风险",
+    "过度依赖低时间框架而忽视高框架支撑/阻力，导致止损被扫荡"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Candle Closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "T-spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "vn1RYjhJUnQ_case_001_usd_1小时图有效c2扫盘确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD 1H有效C2扫盘确认与5分钟CSD验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_time_frame_pairing",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_016",
+        "seg_018"
+      ],
+      "time_range": [
+        77.88,
+        795.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "original_card_id": "vn1RYjhJUnQ_concept_time_frame_pairing",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        233.44,
+        338.8
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xP-o11jRCyg",
+      "original_card_id": "xP-o11jRCyg_concept_time_frame_pairing_htf_ltf_analysis",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        192.04,
+        852.199
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:19.373111Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "3张原始卡均为ICT，school无冲突。第一张侧重CSD确认流程，第二张强调双重闭合条件，第三张补充Breaker Block入场与MSS识别，已综合去重。",
+  "error": null
+}

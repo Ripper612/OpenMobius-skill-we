@@ -1,0 +1,83 @@
+{
+  "card_id": "sIcsLFSNoXM_case_005_nq100大幅下跌后的犹豫不决k线",
+  "type": "case",
+  "title": "NQ100大幅下跌后的犹豫不决K线形态",
+  "related_concepts": [
+    {
+      "term": "Indecision Candle",
+      "card_id": "indecision_candle",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "indecision_candle",
+    "market_structure",
+    "equilibrium",
+    "displacement"
+  ],
+  "school": "Price Action",
+  "asset": "NQ1!",
+  "timeframe": "15M",
+  "market_context": "NQ100从18240下跌至17700附近，跌幅约500点。在大幅下跌后，价格在17700-17900区间形成盘整，随后出现犹豫不决K线，表现为开盘价与收盘价接近，上下影线较长。",
+  "key_observation": "在大幅下跌（约500点）后，市场缺乏新闻或波动性驱动，价格形成犹豫不决K线。该K线开盘和收盘价接近，上下影线较长，表明市场在该时期内没有明确方向，价格在开盘价附近收盘。",
+  "analysis_steps": [
+    "Step 1: 观察NQ100从高点18240大幅下跌至17700，形成约500点的大幅下跌。",
+    "Step 2: 识别下跌后价格在17700-17900区间形成盘整，市场缺乏新闻或波动性支撑。",
+    "Step 3: 识别右侧形成的犹豫不决K线，其特征为开盘价与收盘价接近，上下影线较长。",
+    "Step 4: 确认该K线表明市场在该时期内没有明确方向，价格无法继续运动，最终在开盘价附近收盘。",
+    "Step 5: 将此形态与教学示例对比，确认其为典型的犹豫不决K线（Indecision Candle）。"
+  ],
+  "outcome": null,
+  "lessons": "在大幅下跌后，如果缺乏新闻或波动性驱动，市场往往形成犹豫不决K线。该形态表明市场参与者对后续方向没有共识，价格在开盘价附近收盘。这种形态通常预示市场即将做出选择，但不应连续出现超过3根相同类型的K线。",
+  "primary_image": "cards/sIcsLFSNoXM/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/sIcsLFSNoXM/images/case_005_detail_1.jpg",
+    "cards/sIcsLFSNoXM/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图表显示从左侧18240下跌至17700的明显下行走势，随后在17700至17900区间形成盘整。图上有一条水平虚线标记在17920附近，该区域有一个黄色矩形标注。右侧显示一根绿色K线，其下方有黄色矩形框。图表底部标注日期为16/4/2024，右上角显示ROST|158。当前时间线（竖虚线）位于图表右侧约16:45处。可见价格范围",
+    "case_005_detail_1.jpg": "图上展示标题为'Indecision candle'的教学示例。左侧有标注'Open'的箭头指向一根K线，中上方有标注'High'的黄色标签，中下方有标注'Low'的黄色标签。右侧有标注'Close'的黄色标签指向最后一根绿色K线。图中绘制了一条水平虚线标记'Opening Price'。K线序列包含多根绿色和黑色蜡烛，均具有上下影线。右侧最后一根K线为绿色，具有较长的上影线。图下方标注'Bull",
+    "case_005_detail_2.jpg": "NQ1! 15分钟K线图。图表显示从左侧约19010的高点向下大幅下跌至17680附近的低点。左侧显示一段上升趋势，K线从约17900上升至19010。中间部分出现标注文字'NTO'、'8:30'、'0:00'。右侧下方显示一个绿色K线，位于17680至17900之间的整理区域。图右侧价格刻度范围从17680到19360。底部时间轴显示'15-4-2024'及多个时间标记。"
+  },
+  "sources": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.32,
+        726.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ100案例的分析完整清晰，资产代码、时间框架、下跌幅度（500点）、价格区间（17700-17900）均从图表和讲解中明确读出，犹豫不决K线的特征描述准确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:09.639576Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ100大幅下跌后的犹豫不决K线形态\",\"school\":\"Price Action\",\"asset\":\"NQ1!\",\"timeframe\":\"15M\",\"market_context\":\"NQ100从18240下跌至17700附近，跌幅约500点。在大幅下跌后，价格在17700-17900区间形成盘整，随后出现犹豫不决K线，表现为开盘价与收盘价接近，上下影线较长。\",\"key_observation\":\"在大幅下跌（约500点）后，市场缺乏新闻或波动性驱动，价格形成犹豫不决K线。该K线开盘和收盘价接近，上下影线较长，表明市场在该时期内没有明确方向，价格在开盘价附近收盘。\",\"analysis_steps\":[\"Step 1: 观察NQ100从高点18240大幅下跌至17700，形成约500点的大幅下跌。\",\"Step 2: 识别下跌后价格在17700-17900区间形成盘整，市场缺乏新闻或波动性支撑。\",\"Step 3: 识别右侧形成的犹豫不决K线，其特征为开盘价与收盘价接近，上下影线较长。\",\"Step 4: 确认该K线表明市场在该时期内没有明确方向，价格无法继续运动，最终在开盘价附近收盘。\",\"Step 5: 将此形态与教学示例对比，确认其为典型的犹豫不决K线（Indecision Candle）。\"],\"outcome\":null,\"lessons\":\"在大幅下跌后，如果缺乏新闻或波动性驱动，市场往往形成犹豫不决K线。该形态表明市场参与者对后续方向没有共识，价格在开盘价附近收盘。这种形态通常预示市场即将做出选择，但不应连续出现超过3根相同类型的K线。\",\"primary_image_frame_id\":\"sIcsLFSNoXM_f024\",\"supporting_image_frame_ids\":[\"sIcsLFSNoXM_f021\",\"sIcsLFSNoXM_f023\"],\"related_concepts\":[\"Indecision Candle\",\"Price Action\",\"Market Structure\",\"Equilibrium\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ100案例的分析完整清晰，资产代码、时间框架、下跌幅度（500点）、价格区间（17700-17900）均从图表和讲解中明确读出，犹豫不决K线的特征描述准确。\"}",
+  "error": null
+}

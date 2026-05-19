@@ -1,0 +1,111 @@
+{
+  "card_id": "AdmnWLjf8rY_case_004_es_5分钟空头案例_伦敦会话扫盘",
+  "type": "case",
+  "title": "ES 5分钟空头案例：伦敦会话扫盘后的drawn liquidity狙击",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Drawn Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Inversion Gap",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Stop Read",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "draw_on_liquidity",
+    "smart_money_technique",
+    "displacement",
+    "failure_swing",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "5M",
+  "market_context": "2023年9月19日伦敦会话期间，ES在日线FVG和旧低点形成的drawn liquidity上方运行。小时图高点被扫除后，价格回落至开盘价附近，为5分钟空头交易提供机会。",
+  "key_observation": "博主识别出日线FVG（约4432.50）和旧低点作为drawn liquidity目标；伦敦会话扫盘小时高点后，5分钟图在开盘价附近出现inversion gap，提供高概率空头入场点。",
+  "analysis_steps": [
+    "Step 1: 在日线图上标记FVG（约4432.50）和旧低点，确认drawn liquidity位置在下方。",
+    "Step 2: 切换到小时图，标记午夜开盘价（midnight open），确认小时高点位置。",
+    "Step 3: 观察伦敦会话期间价格扫除小时高点，确认止损读数（stop read）在drawn liquidity反方向。",
+    "Step 4: 切换到5分钟图，等待inversion gap形成并在开盘价附近出现。",
+    "Step 5: 在5分钟图上识别displacement down和order block，确认空头入场点。",
+    "Step 6: 设置止损在小时高点，目标指向drawn liquidity（日线FVG和旧低点）。",
+    "Step 7: 监控失败摆动（failure swing）作为获利了结点，避免回到盈亏平衡点或进一步回撤。"
+  ],
+  "outcome": "价格成功向下运行至drawn liquidity区域。博主演示了使用failure swing获利了结的方法，虽然会损失约0.5点，但避免了坐等价格回到盈亏平衡甚至进一步回撤的风险。",
+  "lessons": "多时间框架协同分析的关键：日线drawn liquidity定义目标，小时图确认止损读数和扫盘，5分钟图寻找精确入场。inversion gap和displacement是5分钟入场的触发信号。failure swing可作为风险管理工具，在drawn liquidity未被完全触及前提前获利。",
+  "primary_image": "cards/AdmnWLjf8rY/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/AdmnWLjf8rY/images/case_004_detail_1.jpg",
+    "cards/AdmnWLjf8rY/images/case_004_detail_2.jpg",
+    "cards/AdmnWLjf8rY/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为 ES1! 5 分钟 K 线图，日期标注为 2023 年 9 月 19 日，来源标注 TTrades_edu。可见价格范围约从 4483.00 至 4512.00。图上有一条虚线水平线位于约 4501.00 处横跨全图。图右侧约 08:00 时间点起，覆盖有一个大型浅绿色矩形区域，纵向范围约 4496.00 至 4510.00，延伸至图右边缘。该区域内叠加有一个较小的灰色矩形，纵向范围约 4",
+    "case_004_detail_1.jpg": "ES1! 日线 K 线图，时间范围覆盖 2023 年 8 月初至 10 月中旬。图右侧价格轴显示当前价 4501.50（绿色高亮标签）。图上有一条虚线水平线位于约 4432.50，左侧轴有对应标签。另有一条浅灰色矩形色带横跨图表，位于约 4470 至 4490 区间。图上最高价约 4590-4600，出现于 8 月初 K 线群。最低价约 4390-4400，出现于 8 月下旬。光标定位于 2023",
+    "case_004_detail_2.jpg": "ES1! 5 分钟 K 线图，日期标注为 2023 年 9 月 19 日，图上水印文字为 TTrades_edu。左侧价格轴可见范围约从 4478 至 4518。图上有三条水平线：一条位于约 4506 区域，一条位于约 4484 区域，一条位于约 4481.50 处（底部带圆形标记，标签显示 4481.50）。左侧当前价标签显示 4505.75。K 线从左侧高点约 4518 下行后经历一段横向整理",
+    "case_004_detail_3.jpg": "ES1! 5分钟K线图，日期标注为19/9/2023，图右下角显示平台标识TTrades_edu。图上可见价格范围约从4491至4514。图左侧K线从约4505向下运行至约4496，随后出现一根大幅上涨K线回升至约4505附近。图上有一条实线水平线位于约4505，一条虚线水平线位于约4501，两线均横跨全图。约05:00至06:00区间有一个矩形标注框，覆盖价格约4505至4509。图左侧当前价标"
+  },
+  "sources": [
+    {
+      "video_id": "AdmnWLjf8rY",
+      "segment_ids": [
+        "seg_003",
+        "seg_005"
+      ],
+      "time_range": [
+        299.759,
+        542.18
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从日线到5分钟的分析流程，清晰标注了关键价位（FVG、旧低点、小时高点、开盘价），展示了实际交易结果和风险管理方法。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:26.748795Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 5分钟空头案例：伦敦会话扫盘后的drawn liquidity狙击\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"5M\",\"market_context\":\"2023年9月19日伦敦会话期间，ES在日线FVG和旧低点形成的drawn liquidity上方运行。小时图高点被扫除后，价格回落至开盘价附近，为5分钟空头交易提供机会。\",\"key_observation\":\"博主识别出日线FVG（约4432.50）和旧低点作为drawn liquidity目标；伦敦会话扫盘小时高点后，5分钟图在开盘价附近出现inversion gap，提供高概率空头入场点。\",\"analysis_steps\":[\"Step 1: 在日线图上标记FVG（约4432.50）和旧低点，确认drawn liquidity位置在下方。\",\"Step 2: 切换到小时图，标记午夜开盘价（midnight open），确认小时高点位置。\",\"Step 3: 观察伦敦会话期间价格扫除小时高点，确认止损读数（stop read）在drawn liquidity反方向。\",\"Step 4: 切换到5分钟图，等待inversion gap形成并在开盘价附近出现。\",\"Step 5: 在5分钟图上识别displacement down和order block，确认空头入场点。\",\"Step 6: 设置止损在小时高点，目标指向drawn liquidity（日线FVG和旧低点）。\",\"Step 7: 监控失败摆动（failure swing）作为获利了结点，避免回到盈亏平衡点或进一步回撤。\"],\"outcome\":\"价格成功向下运行至drawn liquidity区域。博主演示了使用failure swing获利了结的方法，虽然会损失约0.5点，但避免了坐等价格回到盈亏平衡甚至进一步回撤的风险。\",\"lessons\":\"多时间框架协同分析的关键：日线drawn liquidity定义目标，小时图确认止损读数和扫盘，5分钟图寻找精确入场。inversion gap和displacement是5分钟入场的触发信号。failure swing可作为风险管理工具，在drawn liquidity未被完全触及前提前获利。\",\"primary_image_frame_id\":\"AdmnWLjf8rY_f018\",\"supporting_image_frame_ids\":[\"AdmnWLjf8rY_f015\",\"AdmnWLjf8rY_f016\",\"AdmnWLjf8rY_f017\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Drawn Liquidity\",\"Smart Money Technique\",\"Displacement\",\"Inversion Gap\",\"Stop Read\",\"Failure Swing\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从日线到5分钟的分析流程，清晰标注了关键价位（FVG、旧低点、小时高点、开盘价），展示了实际交易结果和风险管理方法。\"}",
+  "error": null
+}

@@ -1,0 +1,94 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_010_btc_日线图_高时间框架目标达成后的反转",
+  "type": "case",
+  "title": "HTF目标达成后的看跌交付状态改变",
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame (HTF) Target",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Phase",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FOMO",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery_csd",
+    "failure_swings",
+    "market_structure",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1D",
+  "market_context": "价格在日线图上突破前期高点并达到高时间框架目标位，随后在该目标区域形成看跌的交付状态改变信号，预示反转风险。",
+  "key_observation": "当价格达到高时间框架目标后，往往会形成新的价格阶段。此时如果同时突破前期高点并形成看跌CSD，说明追单风险极高，应避免在此处入场。",
+  "analysis_steps": [
+    "Step 1: 识别价格在整理区间内突破了高点和低点，形成了V形恢复的理想延续形态。",
+    "Step 2: 确认前期高点作为失败摆动（failure swings）存在。",
+    "Step 3: 观察价格运行至高时间框架目标位（HTF Target）。",
+    "Step 4: 注意到价格在达到HTF目标的同时突破了前期高点。",
+    "Step 5: 识别此处形成的看跌交付状态改变（bearish change in state of delivery），表明新的价格阶段即将开始。",
+    "Step 6: 得出结论：此处是高风险区域，许多交易者因FOMO追单会被止损。"
+  ],
+  "outcome": null,
+  "lessons": "高时间框架目标达成是价格形成新阶段的关键转折点。当HTF目标被触及且同时伴随看跌CSD信号时，应避免追单，因为此处往往是反转的起点，追单者容易被扫停。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_010_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_010_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_010_primary.jpg": "图上显示标题'Reason 3'。中央为一组12根K线，由绿色和黑色蜡烛组成，整体呈上升排列。图上有一条水平线标注为'HTF Target'，位于K线序列上方。下方文字标注'HTF target taken'。左下角显示'TTrades'品牌标识和数字'10'。图上未标注具体价格数值或时间框架。",
+    "case_010_detail_1.jpg": "图上为教学性质的 K 线图表，标题为'Reason 2 - Solution'。图中显示一系列绿色和黑色 K 线，共有三个虚线矩形框标注区域。第一个矩形框上方有蓝色勾号图标，第二和第三个矩形框上方各有红色叉号图标。每个矩形框下方均标注文字'Short term target taken'。图表左下角显示'TTrades'品牌标识。整体呈现交易教学或案例分析的格式，用符号标记不同交易结果。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        189.28,
+        236.239
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整阐述了HTF目标达成后的反转机制，图表清晰标注了HTF Target和CSD信号，分析逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:35:56.082271Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"HTF目标达成后的看跌交付状态改变\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1D\",\"market_context\":\"价格在日线图上突破前期高点并达到高时间框架目标位，随后在该目标区域形成看跌的交付状态改变信号，预示反转风险。\",\"key_observation\":\"当价格达到高时间框架目标后，往往会形成新的价格阶段。此时如果同时突破前期高点并形成看跌CSD，说明追单风险极高，应避免在此处入场。\",\"analysis_steps\":[\"Step 1: 识别价格在整理区间内突破了高点和低点，形成了V形恢复的理想延续形态。\",\"Step 2: 确认前期高点作为失败摆动（failure swings）存在。\",\"Step 3: 观察价格运行至高时间框架目标位（HTF Target）。\",\"Step 4: 注意到价格在达到HTF目标的同时突破了前期高点。\",\"Step 5: 识别此处形成的看跌交付状态改变（bearish change in state of delivery），表明新的价格阶段即将开始。\",\"Step 6: 得出结论：此处是高风险区域，许多交易者因FOMO追单会被止损。\"],\"outcome\":null,\"lessons\":\"高时间框架目标达成是价格形成新阶段的关键转折点。当HTF目标被触及且同时伴随看跌CSD信号时，应避免追单，因为此处往往是反转的起点，追单者容易被扫停。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f008\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f007\"],\"related_concepts\":[\"Change in the state of delivery (CSD)\",\"Higher Time Frame (HTF) Target\",\"Failure Swings\",\"Market Structure\",\"Price Phase\",\"FOMO\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整阐述了HTF目标达成后的反转机制，图表清晰标注了HTF Target和CSD信号，分析逻辑完整。\"}",
+  "error": null
+}

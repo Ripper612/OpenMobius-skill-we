@@ -1,0 +1,59 @@
+{
+  "card_id": "higher_time_frame_target",
+  "type": "merged_concept",
+  "canonical_term": "Higher Time Frame Target",
+  "aliases": [
+    "HTF Target"
+  ],
+  "school": "ICT",
+  "definition": "来自更高时间框架的目标价位。当价格达到此水平时，可能形成新的价格阶段或趋势反转，交易者应避免在此处追单入场。",
+  "identification_rules": [
+    "识别前一个时间框架（如日线）的关键价位，如前一日高点、失败摆动等",
+    "在当前较低时间框架（如1小时）上绘制水平线标记该目标价位",
+    "观察价格是否接近或触及该水平线；触及时标记为'HTF target taken'",
+    "当价格在HTF目标处形成延续形态时，需要警惕新的价格阶段或反转的形成"
+  ],
+  "trading_implication": "HTF目标被触及时，交易者容易因FOMO（害怕错过）而在该处追单，但此时往往是新价格阶段形成的关键点，容易导致止损被扫。正确做法是避免在HTF目标处盲目入场，而是等待额外确认信号（如新的延续形态）或转向其他交易机会。",
+  "common_mistakes": [
+    "看到价格接近HTF目标后因FOMO立即追单入场，忽视新价格阶段可能形成的风险",
+    "在HTF目标处形成延续形态时直接交易，而未观察该延续是否伴随其他结构变化（如摆动高点被突破）",
+    "未能识别HTF目标与其他结构（如订单块、公允价值缺口）的叠加关系，导致误判支撑阻力"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3eVxTV_7L2U_case_010_rbob汽油继续psp与目标追踪",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RBOB汽油小时图继续PSP确认目标开放"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "original_card_id": "PQiRV0JMhIQ_concept_higher_time_frame_target",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        189.28,
+        236.239
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133284Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

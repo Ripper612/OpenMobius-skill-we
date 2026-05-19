@@ -1,0 +1,102 @@
+{
+  "card_id": "-wr4xATE37g_case_004_apoz_usd的买方受保护摆动形成与延续",
+  "type": "case",
+  "title": "APOZ/USD买方受保护摆动形成与低风险买入延续",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Down Close Candle",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    },
+    {
+      "term": "Invalidation Level",
+      "card_id": "stop_loss_placement_invalidation",
+      "exists": true
+    },
+    {
+      "term": "Low-Risk Entry",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "fair_value_gap",
+    "order_block",
+    "risk_to_reward_ratio",
+    "stop_loss_placement_invalidation"
+  ],
+  "school": "ICT",
+  "asset": "APOZ/USD",
+  "timeframe": "1H",
+  "market_context": "APOZ/USD在1小时图上形成下跌后的低点扫除，随后通过FVG和下收盘K线确认新的受保护摆动，为买方提供低风险入场机会。",
+  "key_observation": "博主识别到价格扫除前期低点后，通过一根或多根下收盘K线穿过FVG区域，形成新的受保护摆动高点，该高点可作为止损位，同时预期价格继续上升至目标区域。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别前期高点C2（约33.700）和随后的下跌结构",
+    "Step 2: 标记出价格扫除的低点区域（约32.625附近），确认低点被突破",
+    "Step 3: 观察价格回升时是否形成FVG（公允价值缺口），确认在约33.250-33.375区间存在FVG",
+    "Step 4: 确认一根或多根下收盘K线穿过该FVG区域，形成新的受保护摆动",
+    "Step 5: 将新形成的受保护摆动高点（约33.250）作为止损位，计划以2R为目标进行交易",
+    "Step 6: 追踪价格上升，观察是否达到预期目标（前期高点或更高位置）"
+  ],
+  "outcome": "价格从受保护摆动点上升，达到2R目标并继续向上，验证了受保护摆动作为低风险买入点的有效性。",
+  "lessons": "受保护摆动是识别低风险交易入场点的关键工具。通过FVG和下收盘K线的确认，可以形成新的受保护摆动，使交易者能够以接近止损位的价格入场，获得良好的风险回报比。不必在反转点精确入场，可在确认后的延续阶段进入。",
+  "primary_image": "cards/-wr4xATE37g/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/-wr4xATE37g/images/case_004_detail_1.jpg",
+    "cards/-wr4xATE37g/images/case_004_detail_2.jpg",
+    "cards/-wr4xATE37g/images/case_004_detail_3.jpg",
+    "cards/-wr4xATE37g/images/case_004_detail_4.jpg",
+    "cards/-wr4xATE37g/images/case_004_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表资产代码为 apoz，计价单位 USD，时间框架为 1 小时。图右侧价格轴当前价标签显示 32.620。可见价格范围约从 32.125 至 33.750。图左上角有文字标注 C2，位于约 33.750 附近。图上有一条蓝色水平线位于约 33.250，从图左延伸至图中部。图中存在一个灰色矩形框，覆盖约 33.450 至 33.550 区间。图中部偏右有一个白色轮廓矩形框，围绕约 32.480 至",
+    "case_004_detail_1.jpg": "图表为 apoz/USD 5 分钟 K 线图，时间轴覆盖 4 月 25 日至 5 月 2 日区间。图右侧价格刻度范围约从 32625 至 34000。图上有两条水平虚线，分别位于约 33500 和 32875 附近。图上标注有文字标签 C2，位于约 33875 价位处。图中可见多个矩形框标注，分布在 33100 至 33500 价格区间内。图右侧区域有一条蓝色水平线位于约 33330 附近，并有一",
+    "case_004_detail_2.jpg": "图表为 apoz（USD 计价）5 分钟 K 线图，时间轴覆盖 4 月 27 日至 5 月 2 日。图上可见两条虚线水平线，分别位于约 33.500 和 32.875 处，两线之间有一个矩形框标注区域。图右侧另有一条蓝色水平线位于约 33.270。图上标注文字 C2 位于约 33.820 处的上影线顶端。右侧可见两根体量较大的黑色 K 线，中间夹有一根小绿色 K 线，另有一个小矩形框标注于约 33",
+    "case_004_detail_3.jpg": "图为 apoz/USD 1 小时 K 线图，可见价格范围约 32.625 至 33.875。图上有一条红色虚线水平线延伸至全图宽度，对应左侧价格轴标注 33.180（带粉红高亮）及 33.155。33.500 处有一条水平实线。图中部有灰色矩形框覆盖约 33.250 至 33.500 区间，其内叠加一个黄色矩形框覆盖约 33.250 至 33.375 区间，并有向下箭头标注。图右侧出现一根大实体黑",
+    "case_004_detail_4.jpg": "图为 apoz/USD 1 小时 K 线图，可见价格范围约从 32.125 至 33.750。图上有多条水平虚线，分别位于约 33.500、33.000、32.750、32.375 处，另有一条蓝色水平实线位于约 33.250。图左上方有文字标注 'c2'，位于约 33.625 附近。图上有两处矩形框标注，分别位于约 33.375–33.500 区间及 32.750–32.875 区间。图右侧近 ",
+    "case_004_detail_5.jpg": "图为 apoz/USD 1 小时 K 线图，价格范围约从 32.250 至 33.750。图上标注有文字标签 C2 位于约 33.700 附近。图左侧日期 6 至 7 区间内，K 线在 33.250 至 33.625 之间横向排列，图上有一条蓝色水平线位于 33.250。图中部日期 9 至 11 区间出现数根大实体黑色 K 线，价格从约 33.500 下行至 32.625。图右侧日期 12 附近有"
+  },
+  "sources": [
+    {
+      "video_id": "-wr4xATE37g",
+      "segment_ids": [
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        746.959,
+        984.399
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对APOZ/USD案例的分析完整清晰，包括资产代码、1小时时间框架、具体价位（33.700、33.250、32.625等）、分析步骤（FVG识别、下收盘K线确认、受保护摆动形成）和交易结果（达到2R目标）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:06:04.337016Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"APOZ/USD买方受保护摆动形成与低风险买入延续\",\"school\":\"ICT\",\"asset\":\"APOZ/USD\",\"timeframe\":\"1H\",\"market_context\":\"APOZ/USD在1小时图上形成下跌后的低点扫除，随后通过FVG和下收盘K线确认新的受保护摆动，为买方提供低风险入场机会。\",\"key_observation\":\"博主识别到价格扫除前期低点后，通过一根或多根下收盘K线穿过FVG区域，形成新的受保护摆动高点，该高点可作为止损位，同时预期价格继续上升至目标区域。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别前期高点C2（约33.700）和随后的下跌结构\",\"Step 2: 标记出价格扫除的低点区域（约32.625附近），确认低点被突破\",\"Step 3: 观察价格回升时是否形成FVG（公允价值缺口），确认在约33.250-33.375区间存在FVG\",\"Step 4: 确认一根或多根下收盘K线穿过该FVG区域，形成新的受保护摆动\",\"Step 5: 将新形成的受保护摆动高点（约33.250）作为止损位，计划以2R为目标进行交易\",\"Step 6: 追踪价格上升，观察是否达到预期目标（前期高点或更高位置）\"],\"outcome\":\"价格从受保护摆动点上升，达到2R目标并继续向上，验证了受保护摆动作为低风险买入点的有效性。\",\"lessons\":\"受保护摆动是识别低风险交易入场点的关键工具。通过FVG和下收盘K线的确认，可以形成新的受保护摆动，使交易者能够以接近止损位的价格入场，获得良好的风险回报比。不必在反转点精确入场，可在确认后的延续阶段进入。\",\"primary_image_frame_id\":\"-wr4xATE37g_f032\",\"supporting_image_frame_ids\":[\"-wr4xATE37g_f027\",\"-wr4xATE37g_f028\",\"-wr4xATE37g_f029\",\"-wr4xATE37g_f030\",\"-wr4xATE37g_f031\",\"-wr4xATE37g_f033\"],\"related_concepts\":[\"Protected Swing\",\"Fair Value Gap\",\"Order Block\",\"Down Close Candle\",\"Risk-to-Reward Ratio\",\"Invalidation Level\",\"Low-Risk Entry\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对APOZ/USD案例的分析完整清晰，包括资产代码、1小时时间框架、具体价位（33.700、33.250、32.625等）、分析步骤（FVG识别、下收盘K线确认、受保护摆动形成）和交易结果（达到2R目标）。\"}",
+  "error": null
+}

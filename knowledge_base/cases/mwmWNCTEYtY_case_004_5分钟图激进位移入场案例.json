@@ -1,0 +1,110 @@
+{
+  "card_id": "mwmWNCTEYtY_case_004_5分钟图激进位移入场案例",
+  "type": "case",
+  "title": "ETH 1小时图：830高点扫除后的激进位移入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Encroachment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Internal Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "displacement",
+    "market_structure_shift_mss",
+    "order_block_ob",
+    "liquidity",
+    "internal_range_liquidity",
+    "low_resistance_liquidity"
+  ],
+  "school": "ICT",
+  "asset": "ETH",
+  "timeframe": "1H",
+  "market_context": "ETH在1小时图上形成上升趋势后在18450附近创高，随后快速下跌扫除前期830高点，产生大幅FVG，为后续入场提供机会。",
+  "key_observation": "价格扫除830高点后产生大幅FVG（公允价值缺口），随后在FVG的encroachment处形成激进位移入场机会，止损设在高点，目标2R。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别内部流动性（internal liquidity）和前期日线低点作为低阻力流动性目标。",
+    "Step 2: 下降到1小时图寻找扫除和入场机会。",
+    "Step 3: 观察到价格扫除830高点后向下位移，产生大幅FVG。",
+    "Step 4: 识别市场结构转变（MSS），确认下行趋势。",
+    "Step 5: 在FVG的consequent encroachment处入场，止损设在扫除的高点。",
+    "Step 6: 设定目标为2R风险回报比。",
+    "Step 7: 验证价格是否触及日线低点（前期流动性目标）。"
+  ],
+  "outcome": "成功达成2R目标，随后价格继续下行扫除日线低点。如果持有Runners（部分头寸），可能获得更大收益。",
+  "lessons": "激进位移（Displacement）结合FVG和encroachment提供高概率入场点；止损设在明确的结构高点；多时间框架确认（HTF流动性目标+LTF入场）提高交易成功率。",
+  "primary_image": "cards/mwmWNCTEYtY/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/mwmWNCTEYtY/images/case_004_detail_1.jpg",
+    "cards/mwmWNCTEYtY/images/case_004_detail_2.jpg",
+    "cards/mwmWNCTEYtY/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "BTC 1小时K线图。图表显示从左侧约18000上升至右侧18450的上升趋势，跨越约20根K线。在18450附近出现一根长下影线K线，下影刺破至约18040后收回。图上标记两个矩形区域：上方粉红色矩形位于18350至18450之间，下方青绿色矩形位于18040至18275之间。图右侧显示时间标记15/4/2024及HO11:58。",
+    "case_004_detail_1.jpg": "ETH 1小时K线图。图上显示价格范围约从17700到18750。左侧有一根大幅上升的绿色K线，随后跟随多根黑色K线形成下降走势。图上标注有两条水平线，分别位于18134.75和18175.00处。右侧有一条蓝色水平线贯穿整个图表。图上有两个矩形框标注，分别框定不同的价格区间。中间偏右位置有一根带黄色高亮的小绿色K线。底部显示时间戳为15/4 2024。",
+    "case_004_detail_2.jpg": "ETH 1 小时 K 线图，时间戳显示 2024 年 4 月 15 日。图上可见价格范围约从 17650 到 18750。标注包括一条粉红色矩形框覆盖 18050 至 18400 价格区间，两条蓝色水平线分别位于 17750 和 18175，以及一条从右上向左下延伸的黑色趋势线。K 线显示约 15 根蜡烛在 18050 至 18300 之间的整理形态，最近几根 K 线呈上升走势。图下方显示成交量指",
+    "case_004_detail_3.jpg": "BTC/ETH 1小时K线图。图上显示从左侧约18010.00开始的上升趋势，跨越约20根K线至18450.00。右侧有一根明显的尖峰K线，上影线触及18450.00后快速回落，下影线延伸至约18070.00。图上用粉色矩形标注了18240.00至18450.00的区间。右侧价格刻度显示范围约18010.00至18450.00。图表底部显示时间标记为15/4/2024及11:42。"
+  },
+  "sources": [
+    {
+      "video_id": "mwmWNCTEYtY",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        550.36,
+        730.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从多时间框架分析到具体入场的全过程，包括资产(ETH)、时间框架(1H)、关键价位(830高点、18450)、入场方式(encroachment)、止损(高点)和目标(2R)，结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:02.580357Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH 1小时图：830高点扫除后的激进位移入场\",\"school\":\"ICT\",\"asset\":\"ETH\",\"timeframe\":\"1H\",\"market_context\":\"ETH在1小时图上形成上升趋势后在18450附近创高，随后快速下跌扫除前期830高点，产生大幅FVG，为后续入场提供机会。\",\"key_observation\":\"价格扫除830高点后产生大幅FVG（公允价值缺口），随后在FVG的encroachment处形成激进位移入场机会，止损设在高点，目标2R。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别内部流动性（internal liquidity）和前期日线低点作为低阻力流动性目标。\",\"Step 2: 下降到1小时图寻找扫除和入场机会。\",\"Step 3: 观察到价格扫除830高点后向下位移，产生大幅FVG。\",\"Step 4: 识别市场结构转变（MSS），确认下行趋势。\",\"Step 5: 在FVG的consequent encroachment处入场，止损设在扫除的高点。\",\"Step 6: 设定目标为2R风险回报比。\",\"Step 7: 验证价格是否触及日线低点（前期流动性目标）。\"],\"outcome\":\"成功达成2R目标，随后价格继续下行扫除日线低点。如果持有Runners（部分头寸），可能获得更大收益。\",\"lessons\":\"激进位移（Displacement）结合FVG和encroachment提供高概率入场点；止损设在明确的结构高点；多时间框架确认（HTF流动性目标+LTF入场）提高交易成功率。\",\"primary_image_frame_id\":\"mwmWNCTEYtY_f022\",\"supporting_image_frame_ids\":[\"mwmWNCTEYtY_f019\",\"mwmWNCTEYtY_f020\",\"mwmWNCTEYtY_f021\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Order Block (OB)\",\"Liquidity\",\"Encroachment\",\"Risk Management\",\"Internal Liquidity\",\"Low Resistance Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从多时间框架分析到具体入场的全过程，包括资产(ETH)、时间框架(1H)、关键价位(830高点、18450)、入场方式(encroachment)、止损(高点)和目标(2R)，结果明确。\"}",
+  "error": null
+}

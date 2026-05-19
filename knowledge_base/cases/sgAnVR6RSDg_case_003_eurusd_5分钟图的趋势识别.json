@@ -1,0 +1,100 @@
+{
+  "card_id": "sgAnVR6RSDg_case_003_eurusd_5分钟图的趋势识别",
+  "type": "case",
+  "title": "EURUSD 5分钟图的上升和下降趋势识别",
+  "related_concepts": [
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Higher High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Trend Continuation",
+      "card_id": "trend_continuation",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "swing_formation",
+    "market_structure_shift",
+    "trend_continuation"
+  ],
+  "school": "Price Action",
+  "asset": "EURUSD",
+  "timeframe": "5m",
+  "market_context": "博主在EURUSD 5分钟图上演示趋势识别的完整过程，从上升趋势（高点高、低点高）转变为下降趋势（低点低、高点低），展示市场结构如何指导交易决策。",
+  "key_observation": "趋势的本质是通过连续的摆动高低点形成的：上升趋势由更高的高点和更高的低点组成；下降趋势由更低的高点和更低的低点组成。价格在08:30达到高点后开始形成下降结构。",
+  "analysis_steps": [
+    "Step 1: 识别初始上升趋势，观察价格形成更高的高点（higher high）和更高的低点（higher low）的连续模式。",
+    "Step 2: 在上升过程中，每次回调后确认是否形成更高的低点，以验证趋势延续。",
+    "Step 3: 观察08:30时价格达到高点约1.08740，标记为关键摆动高点。",
+    "Step 4: 识别趋势转变信号，价格开始形成更低的高点（lower high）和更低的低点（lower low）。",
+    "Step 5: 在下降趋势中，连续确认低点在下移（lower low），高点也在下移（lower high），验证下降趋势的有效性。",
+    "Step 6: 标记关键支撑区域（HYD标记约1.06300），作为下降趋势中的重要摆动低点。"
+  ],
+  "outcome": null,
+  "lessons": "趋势识别的核心是追踪摆动高低点的相对位置关系。上升趋势中每个新低点应高于前一个低点；下降趋势中每个新高点应低于前一个高点。当这个模式被破坏时，趋势可能发生转变。市场结构的转变通常发生在关键时间点（如08:30），需要密切监控摆动点的形成。",
+  "primary_image": "cards/sgAnVR6RSDg/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/sgAnVR6RSDg/images/case_003_detail_1.jpg",
+    "cards/sgAnVR6RSDg/images/case_003_detail_2.jpg",
+    "cards/sgAnVR6RSDg/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "EURUSD 5分钟K线图，日期为2024年1月23日。图上显示从07:00至13:00的价格走势，价格范围约1.08440至1.08790。图上有两条带文字标签的水平线：8:30处标记为'8:30'、1.08620处标记为'HYO'。K线从左侧07:00开始上升至08:30附近达到高点约1.08740，随后转为下降趋势至10:00附近的低点约1.08480。下降过程中及之后的区域标注有3个粉红色",
+    "case_003_detail_1.jpg": "USD 5分钟K线图。图上显示从22:30至06:30时间段的价格走势，可见价格范围约从17588.00至17636.75。K线序列由绿色和黑色蜡烛组成，整体呈上升趋势。图上标注有多个粉红色圆圈标记摆动高点和低点。最高点附近的K线呈长上影线形态。中间区域显示绿色和黑色K线交替出现的整理形态。图右下角显示交易按钮（Sell、Buy、Flatten）和时间戳15:21:09。",
+    "case_003_detail_2.jpg": "EURUSD 5分钟K线图，时间范围从06:30至12:00。图上价格范围约1.06040至1.08790。图中标注有两处文字：8:30标记在上升段高点附近约1.07400处，HYD标记在下降段低点附近约1.06300处。图上有两个粉红色圆圈分别标记在约1.06300和1.06040的摆动低点。K线呈现先升后降的形态，从06:30开始上升至08:30达到高点，随后从08:30开始下降，09:00至",
+    "case_003_detail_3.jpg": "EURUSD 5分钟K线图。图上显示从08:00至13:00的价格走势，整体呈下行趋势，价格范围从1.06700跌至1.06417。图上有一条水平虚线位于约1.06558处。另有3个粉红色矩形框标注在不同价格区间，分别约在1.06200-1.06350、1.06450-1.06600和1.06480-1.06650区域。图右侧有黄色加号标记在约1.06550-1.06600区间。底部工具栏显示Se"
+  },
+  "sources": [
+    {
+      "video_id": "sgAnVR6RSDg",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        252.64,
+        432.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了上升和下降趋势的识别过程，关键价位（08:30高点、HYD低点）清晰可见，摆动点标记完整，分析步骤按时间顺序展开。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:03.168104Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 5分钟图的上升和下降趋势识别\",\"school\":\"Price Action\",\"asset\":\"EURUSD\",\"timeframe\":\"5m\",\"market_context\":\"博主在EURUSD 5分钟图上演示趋势识别的完整过程，从上升趋势（高点高、低点高）转变为下降趋势（低点低、高点低），展示市场结构如何指导交易决策。\",\"key_observation\":\"趋势的本质是通过连续的摆动高低点形成的：上升趋势由更高的高点和更高的低点组成；下降趋势由更低的高点和更低的低点组成。价格在08:30达到高点后开始形成下降结构。\",\"analysis_steps\":[\"Step 1: 识别初始上升趋势，观察价格形成更高的高点（higher high）和更高的低点（higher low）的连续模式。\",\"Step 2: 在上升过程中，每次回调后确认是否形成更高的低点，以验证趋势延续。\",\"Step 3: 观察08:30时价格达到高点约1.08740，标记为关键摆动高点。\",\"Step 4: 识别趋势转变信号，价格开始形成更低的高点（lower high）和更低的低点（lower low）。\",\"Step 5: 在下降趋势中，连续确认低点在下移（lower low），高点也在下移（lower high），验证下降趋势的有效性。\",\"Step 6: 标记关键支撑区域（HYD标记约1.06300），作为下降趋势中的重要摆动低点。\"],\"outcome\":null,\"lessons\":\"趋势识别的核心是追踪摆动高低点的相对位置关系。上升趋势中每个新低点应高于前一个低点；下降趋势中每个新高点应低于前一个高点。当这个模式被破坏时，趋势可能发生转变。市场结构的转变通常发生在关键时间点（如08:30），需要密切监控摆动点的形成。\",\"primary_image_frame_id\":\"sgAnVR6RSDg_f013\",\"supporting_image_frame_ids\":[\"sgAnVR6RSDg_f011\",\"sgAnVR6RSDg_f012\",\"sgAnVR6RSDg_f014\"],\"related_concepts\":[\"Swing High\",\"Swing Low\",\"Higher High\",\"Higher Low\",\"Lower High\",\"Lower Low\",\"Market Structure Shift\",\"Trend Continuation\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了上升和下降趋势的识别过程，关键价位（08:30高点、HYD低点）清晰可见，摆动点标记完整，分析步骤按时间顺序展开。\"}",
+  "error": null
+}

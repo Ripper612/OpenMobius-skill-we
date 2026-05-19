@@ -1,0 +1,114 @@
+{
+  "card_id": "DMUiDBnTYc8_case_006_nq_5分钟图_二级订单块入场",
+  "type": "case",
+  "title": "NQ 5分钟图：二级订单块入场获得2.5R",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "market_structure",
+    "mean_threshold"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5m",
+  "market_context": "NQ在2023年12月19日早盘形成下跌后反弹。价格扫除卖方流动性（Sell Stops）后，在订单块区域形成二级入场机会，最终突破买方流动性（Buyside Liquidity）。",
+  "key_observation": "博主展示了如何在错过初始买入后，通过识别由下跌K线扫除低点后形成的二级订单块作为替代入场点，使用平均阈值（mean threshold）获得更优的风险回报比。",
+  "analysis_steps": [
+    "Step 1: 识别趋势延续的流动性目标——买方流动性（Buyside Liquidity）位于约16970-16990区间。",
+    "Step 2: 观察价格向下运动，识别卖方流动性（Sell Stops）位于约16940-16950区间。",
+    "Step 3: 确认下跌K线序列扫除低点后形成的订单块（Order Block），该订单块由多根下跌K线组成。",
+    "Step 4: 标记第一次入场机会（初始买入），但博主未选择该点。",
+    "Step 5: 在价格回测订单块时，识别第二级入场点——价格在订单块上方形成新的看涨K线。",
+    "Step 6: 使用订单块的平均阈值（mean threshold）作为入场参考，该水平也与一个小型反转区域对齐。",
+    "Step 7: 设置止损于订单块低点，目标为突破买方流动性。",
+    "Step 8: 确认交易结果——价格上行并触及目标，获得2.5R风险回报。"
+  ],
+  "outcome": "价格从二级订单块入场点上行，突破买方流动性，达到目标位置，获得2.5R风险回报比。",
+  "lessons": "即使错过初始入场，通过识别后续形成的订单块（由下跌K线扫除低点后形成）可以获得二级入场机会。使用订单块的平均阈值而非简单的高低点可以优化入场位置，提高风险回报比。止损应设置在订单块低点而非摆动低点，以获得更优的风险回报。",
+  "primary_image": "cards/DMUiDBnTYc8/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/DMUiDBnTYc8/images/case_006_detail_1.jpg",
+    "cards/DMUiDBnTYc8/images/case_006_detail_2.jpg",
+    "cards/DMUiDBnTYc8/images/case_006_detail_3.jpg",
+    "cards/DMUiDBnTYc8/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图表为 NQ1! 5 分钟 K 线图，日期标注为 19/12/2023，账户标注为 TTrades_edu。图右上方有一个浅绿色矩形区域，标注文字为 Buyside Liquidity，覆盖价格约 16963 至 16990 区间并向右延伸。图右下方有一个浅灰色矩形区域，覆盖价格约 16942 至 16963 区间并向右延伸。图中部有一条黄色/米色水平矩形色带，横跨约 16942 至 16948，",
+    "case_006_detail_1.jpg": "NQ1! 5 分钟 K 线图，日期标注为 2023 年 12 月 19 日，图右下角标注来源为 TTrades_edu。图上可见价格范围约从 16920 至 16990。图上有两个矩形标注：上方矩形标注文字为 'Buyside Liquidity'，位于约 16970 至 16990 区间；下方矩形标注文字为 'Sell Stops'，位于约 16940 至 16950 区间。图右侧有文字标注 '",
+    "case_006_detail_2.jpg": "图表为5分钟K线图，日期标注为19/12/2023。图右侧价格轴可见范围约16928至16990。图上方有一个矩形框标注为'Buyside Liquidity'，位于约16980至16990区间。图中部有一个黄色填充矩形区域标注为'Sell Stops'，位于约16943至16950区间，并有一条水平线穿过该区域。图右侧有文字标注'8:30'对应约16966价位，以及'NYO'标注。最右侧一根K线",
+    "case_006_detail_3.jpg": "图为教学示意性 K 线图，顶部标题栏显示文字'Stop Losses'，右下角页码为 6。图上绘有约 10 根 K 线，颜色为绿色与黑色交替。左侧一组 K 线被虚线矩形框包围。图右侧并排显示两个竖向矩形区域，各自上半部分为绿色、下半部分为粉红色，顶部分别标注'OB'与'Swing Low'。一条水平线从最新 K 线区域延伸至右侧矩形区域。图上无价格刻度数字，资产代码与时间框架均不可见。",
+    "case_006_detail_4.jpg": "图表为 NQ1 1 分钟 K 线图，日期标注为 19/12/2023，右上角显示账户名 TTrades_edu。图上可见价格范围约从 16928 至 17000。图上标注一个带文字标签的矩形框，标签为 Buyside Liquidity，覆盖约 16966 至 17000 区间，填充浅绿色。图下方有一黄色水平矩形区域，跨越图表全宽，覆盖约 16944 至 16952，附近有两处 Sell Stop"
+  },
+  "sources": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        698.8389999999999,
+        877.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了NQ 5分钟图的二级订单块分析过程，包括资产代码、时间框架、关键价位、分析步骤和交易结果，所有信息均可从转录和图表中清晰读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:21.918365Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 5分钟图：二级订单块入场获得2.5R\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5m\",\"market_context\":\"NQ在2023年12月19日早盘形成下跌后反弹。价格扫除卖方流动性（Sell Stops）后，在订单块区域形成二级入场机会，最终突破买方流动性（Buyside Liquidity）。\",\"key_observation\":\"博主展示了如何在错过初始买入后，通过识别由下跌K线扫除低点后形成的二级订单块作为替代入场点，使用平均阈值（mean threshold）获得更优的风险回报比。\",\"analysis_steps\":[\"Step 1: 识别趋势延续的流动性目标——买方流动性（Buyside Liquidity）位于约16970-16990区间。\",\"Step 2: 观察价格向下运动，识别卖方流动性（Sell Stops）位于约16940-16950区间。\",\"Step 3: 确认下跌K线序列扫除低点后形成的订单块（Order Block），该订单块由多根下跌K线组成。\",\"Step 4: 标记第一次入场机会（初始买入），但博主未选择该点。\",\"Step 5: 在价格回测订单块时，识别第二级入场点——价格在订单块上方形成新的看涨K线。\",\"Step 6: 使用订单块的平均阈值（mean threshold）作为入场参考，该水平也与一个小型反转区域对齐。\",\"Step 7: 设置止损于订单块低点，目标为突破买方流动性。\",\"Step 8: 确认交易结果——价格上行并触及目标，获得2.5R风险回报。\"],\"outcome\":\"价格从二级订单块入场点上行，突破买方流动性，达到目标位置，获得2.5R风险回报比。\",\"lessons\":\"即使错过初始入场，通过识别后续形成的订单块（由下跌K线扫除低点后形成）可以获得二级入场机会。使用订单块的平均阈值而非简单的高低点可以优化入场位置，提高风险回报比。止损应设置在订单块低点而非摆动低点，以获得更优的风险回报。\",\"primary_image_frame_id\":\"DMUiDBnTYc8_f029\",\"supporting_image_frame_ids\":[\"DMUiDBnTYc8_f027\",\"DMUiDBnTYc8_f028\",\"DMUiDBnTYc8_f026\",\"DMUiDBnTYc8_f030\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Market Structure\",\"Risk Management\",\"Mean Threshold\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了NQ 5分钟图的二级订单块分析过程，包括资产代码、时间框架、关键价位、分析步骤和交易结果，所有信息均可从转录和图表中清晰读出。\"}",
+  "error": null
+}

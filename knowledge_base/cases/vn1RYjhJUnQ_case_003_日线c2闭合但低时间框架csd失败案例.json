@@ -1,0 +1,91 @@
+{
+  "card_id": "vn1RYjhJUnQ_case_003_日线c2闭合但低时间框架csd失败案例",
+  "type": "case",
+  "title": "日线C2闭合但低时间框架CSD失败导致设置无效",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Candle Closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Swing Point Confirmation",
+      "card_id": "swing_point_confirmation",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame / Lower Time Frame Confirmation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "candle_closure",
+    "swing_point_confirmation",
+    "aligned_timeframe",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1D / 15m",
+  "market_context": "价格在日线上形成看跌烛线闭合（C2），突破前高后回落收盘。但在低时间框架（15分钟）上，价格未能确认Change in State of Delivery，导致看跌设置失效。",
+  "key_observation": "虽然日线出现了有效的烛线闭合信号，但低时间框架未能穿过高点形成CSD确认，这表明该设置不完整且无效，价格随后继续上行。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别价格突破前高后回落的烛线闭合（C2），形成看跌信号。",
+    "Step 2: 为了确认该摆动点，在低时间框架（15分钟）上寻找Change in State of Delivery（CSD）。",
+    "Step 3: 在低时间框架上找到形成该高点的K线序列。",
+    "Step 4: 检查价格是否在低时间框架上收盘于该高点下方以确认摆动点。",
+    "Step 5: 发现价格未能收盘于该高点下方，CSD确认失败。",
+    "Step 6: 价格随后突破该高点继续上行，导致看跌设置无效，避免了潜在损失。"
+  ],
+  "outcome": "通过等待完整的分形模型确认（烛线闭合+低时间框架CSD），博主成功避免了进入无效的看跌设置，规避了后续价格上行造成的损失。",
+  "lessons": "有效的交易设置需要同时满足高时间框架和低时间框架的确认条件。仅有日线烛线闭合不足以确认摆动点，必须在低时间框架上看到CSD的完整形成（价格收盘于高点下方），否则设置无效。这是风险管理的关键——等待完整确认胜过仓促入场。",
+  "primary_image": "cards/vn1RYjhJUnQ/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/vn1RYjhJUnQ/images/case_003_detail_1.jpg",
+    "cards/vn1RYjhJUnQ/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 15分钟K线图。图上可见价格范围约从25770到25980。标注包括三条水平线分别位于25930、25880和25860处。图中央有一个矩形框标记为C2，覆盖25860至25930的价格区间。右侧显示时间戳为Thu 04 Dec '25 07:45，并标注15m-4H Model和Bias: Neutral。K线呈现多根小实体形态，影线穿过标注的水平线区域。图右下角显示播放控制按钮和时间倍",
+    "case_003_detail_1.jpg": "USD 日线图，价格范围从 23400.00 至 27000.00。图上有两条主要水平线分别位于 25600.00 和 24400.00，两条线之间形成矩形区域。另有一条矩形框标注在 25200.00 至 25800.00 区间。图中标注有趋势线标记为'V#11'，位于 24200.00 至 24400.00 区间。K 线显示从 10 月初开始上升至 11 月初的 26600.00，随后下跌至 2",
+    "case_003_detail_2.jpg": "USD 15分钟K线图。图上显示价格范围约从25770到25980。可见三条水平线分别位于25930、25900、25880价格水平。图右侧显示时间戳为"
+  },
+  "sources": [
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "segment_ids": [
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        338.8,
+        430.479
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析步骤、关键价位、时间框架和失败原因，图表清晰标注了C2区间和关键水平，结论明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:53.528942Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线C2闭合但低时间框架CSD失败导致设置无效\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1D / 15m\",\"market_context\":\"价格在日线上形成看跌烛线闭合（C2），突破前高后回落收盘。但在低时间框架（15分钟）上，价格未能确认Change in State of Delivery，导致看跌设置失效。\",\"key_observation\":\"虽然日线出现了有效的烛线闭合信号，但低时间框架未能穿过高点形成CSD确认，这表明该设置不完整且无效，价格随后继续上行。\",\"analysis_steps\":[\"Step 1: 在日线上识别价格突破前高后回落的烛线闭合（C2），形成看跌信号。\",\"Step 2: 为了确认该摆动点，在低时间框架（15分钟）上寻找Change in State of Delivery（CSD）。\",\"Step 3: 在低时间框架上找到形成该高点的K线序列。\",\"Step 4: 检查价格是否在低时间框架上收盘于该高点下方以确认摆动点。\",\"Step 5: 发现价格未能收盘于该高点下方，CSD确认失败。\",\"Step 6: 价格随后突破该高点继续上行，导致看跌设置无效，避免了潜在损失。\"],\"outcome\":\"通过等待完整的分形模型确认（烛线闭合+低时间框架CSD），博主成功避免了进入无效的看跌设置，规避了后续价格上行造成的损失。\",\"lessons\":\"有效的交易设置需要同时满足高时间框架和低时间框架的确认条件。仅有日线烛线闭合不足以确认摆动点，必须在低时间框架上看到CSD的完整形成（价格收盘于高点下方），否则设置无效。这是风险管理的关键——等待完整确认胜过仓促入场。\",\"primary_image_frame_id\":\"vn1RYjhJUnQ_f015\",\"supporting_image_frame_ids\":[\"vn1RYjhJUnQ_f012\",\"vn1RYjhJUnQ_f014\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Candle Closure\",\"Swing Point Confirmation\",\"Fractal Model\",\"Market Structure\",\"Higher Time Frame / Lower Time Frame Confirmation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析步骤、关键价位、时间框架和失败原因，图表清晰标注了C2区间和关键水平，结论明确。\"}",
+  "error": null
+}

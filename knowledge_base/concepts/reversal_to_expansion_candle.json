@@ -1,0 +1,129 @@
+{
+  "card_id": "reversal_to_expansion_candle",
+  "type": "merged_concept",
+  "canonical_term": "Reversal to Expansion Candle",
+  "aliases": [
+    "Reversal Expansion Candle"
+  ],
+  "school": "ICT",
+  "definition": "K线内形成浅层对抗运动（小wick）扫过前一根K线高低点，伴随交付状态改变（CSD）确立受保护摆动，随后价格在同一K线内或第三根K线内沿反转方向继续扩展。需满足：浅层对抗运动、CSD确认、充足时间支持后续扩张。",
+  "identification_rules": [
+    "第一根K线为积累（Accumulation）形态",
+    "反转K线形成浅层对抗运动（shallow opposing run），wick较小，扫过前一根K线的高点或低点后回升",
+    "对抗运动伴随交付状态改变（Change in the State of Delivery）确认，确立受保护摆动",
+    "反转K线收盘价接近开盘价，大部分时间和范围用于形成影线而非主体",
+    "影线形成较早，为后续价格扩张留出充足时间和范围",
+    "第三根K线（或同一K线剩余时间）沿反转方向继续扩展，形成方向性运动（Distribution）",
+    "允许在同根K线内交易扩展部分，无需等待下一根K线开盘"
+  ],
+  "trading_implication": "CSD确立受保护摆动后，可在反转K线wick形成完毕或第三根K线内交易其主体扩展部分，止损设于受保护摆动低点。对抗运动为浅层时支持完整扩张目标；对抗运动较大时应将目标调整至开盘价或附近流动性点位。需等待充足时间确认扩张方向，避免过早入场。",
+  "common_mistakes": [
+    "试图在wick形成过程中过早入场，导致频繁止损",
+    "混淆Reversal Expansion Candle与Continuation Expansion Candle（后者第二根K线有大wick，需等待第三根K线）",
+    "忽视CSD确认，在受保护摆动未形成时就开始交易",
+    "在第二根K线的wick过大时仍尝试交易，应改为等待第三根K线开盘",
+    "大型对抗运动时仍期望价格大幅扩张，应调整目标至开盘价附近",
+    "未确保K线内有充足时间支持扩张，导致形态失效",
+    "忽视对抗运动深度的差异，用同一套目标应对所有情况"
+  ],
+  "related_concepts": [
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "AMD",
+      "card_id": "power_of_3_accumulation_manipulation_distribution",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Continuation Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FAKWJ-1NlLE_case_001_nq期货_周三反转周四延续案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ期货周三反转周四延续交易案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_reversal_expansion_candle",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_009"
+      ],
+      "time_range": [
+        54.16,
+        504.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_reversal_to_expansion_candle",
+      "segment_ids": [
+        "seg_005",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        226.56,
+        370.479
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:59:04.130736Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "两张卡均为ICT，无school冲突。卡1描述三根K线结构，卡2侧重单根K线内部形态，两者描述同一概念的不同粒度，已综合合并。",
+  "error": null
+}

@@ -1,0 +1,110 @@
+{
+  "card_id": "FGkb_50BfT8_case_006_es1期货60分钟图的订单块与流动性链条",
+  "type": "case",
+  "title": "ES1 60分钟图：低阻力流动性扫荡与订单块反向运行",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "low_resistance_liquidity",
+    "high_resistance_liquidity",
+    "fair_value_gap",
+    "smart_money_technique",
+    "mean_threshold",
+    "failure_swings",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES1",
+  "timeframe": "60M",
+  "market_context": "ES1期货在前期创出摆动高点后形成一系列失败摇摆（failure swings），随后价格扫除前一交易日低点，创造高阻力流动性，预示反向运行。",
+  "key_observation": "价格在扫除低阻力流动性（前期摆动低点）后，触及订单块与均值阈值区域，产生反应并反向运行至摆动高点。",
+  "analysis_steps": [
+    "Step 1: 识别摆动高点处的一系列失败摇摆，标记为高阻力流动性目标区。",
+    "Step 2: 观察价格扫除前一交易日低点，确认该低点为重要支撑，预期价格将在此反向。",
+    "Step 3: 在NQ1与ES1之间发现SMT（Smart Money Technique），NQ1创出新高而ES1相对较弱，切换至ES1图表进行详细分析。",
+    "Step 4: 在ES1 60分钟图上定位低阻力流动性——一系列摆动低点堆积在公允价值缺口上方与订单块上方。",
+    "Step 5: 追踪价格运行至这些低阻力低点，观察其与订单块的相互作用。",
+    "Step 6: 识别均值阈值（mean threshold）在订单块区域产生的反应，确认反向信号。",
+    "Step 7: 观察价格反向后形成的一系列较低的摆动高点，预示后续目标为更高的摆动高点。"
+  ],
+  "outcome": null,
+  "lessons": "低阻力流动性与订单块的结合是高概率交易设置。当价格扫除低阻力低点后触及订单块与均值阈值，往往产生强烈反应。理解流动性链条（高阻力→低阻力→订单块）的相互作用，可以提前预判价格反向运行的时机和目标。",
+  "primary_image": "cards/FGkb_50BfT8/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/FGkb_50BfT8/images/case_006_detail_1.jpg",
+    "cards/FGkb_50BfT8/images/case_006_detail_2.jpg",
+    "cards/FGkb_50BfT8/images/case_006_detail_3.jpg",
+    "cards/FGkb_50BfT8/images/case_006_detail_4.jpg",
+    "cards/FGkb_50BfT8/images/case_006_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图表为 ES1! 60 分钟 K 线图，可见价格范围约 4975 至 5175。图上标注有多个矩形框，分别位于约 5115-5130、5100-5120、5060-5085、5025-5040 及 5010-5025 区间。右侧价格轴高亮显示 5130.00 与 5085.00 两个价位。图上在摆动高点附近约 5125-5130 处有一黄色圆圈标注。K 线序列从左侧低点上行至约 5130 后出现一",
+    "case_006_detail_1.jpg": "NQ1! 日线蜡烛图，图上可见价格范围约从 17500 至 19000。图上绘有两个矩形框标注：一个覆盖约 18120 至 18400 区间，另一个覆盖约 18400 至 18640 区间。另有一个粉色填充矩形位于约 17720 至 17800 区间。图右侧价格轴当前高亮标签约为 18006。K 线序列中可见多根交替出现的绿色与黑色蜡烛，最右侧可见一根较长的黑色蜡烛，实体从约 18400 延伸至约",
+    "case_006_detail_2.jpg": "NQ1! 60 分钟 K 线图，图上时间轴显示日期范围约为 1 月 25 日至 3 月 6 日，当前价格标签显示 17664.75 及 17331.50 两个水平虚线位置。图右侧价格刻度范围约从 17220 至 18020。图中央有一条竖向虚线标注于 2/5/2024 附近。K 线在图中部出现一根较长的阴线，随后在约 17420 至 17560 区间内有多根 K 线横向排列。图右侧出现一根较长阳线",
+    "case_006_detail_3.jpg": "图表显示 NQ1! 日线 K 线图，可见价格范围约从 17160 到 18360。图上绘制有一条水平虚线位于约 17928 处，并有两个矩形框标注：一个位于约 17920 至 17980 区间，另一个位于约 17460 至 17500 区间。图右侧两根 K 线为绿色实体，主体延伸至约 18100 至 18200 区域。图中央附近有一根大黑色实体 K 线，主体从约 17960 向下延伸至约 1742",
+    "case_006_detail_4.jpg": "NQ1! 60 分钟 K 线图，日期范围约为 4 月 18 日至 4 月 29 日。图右侧价格轴可见刻度从约 17150 至 18025。图上有两条水平线，分别位于约 17300 和约 17750 处。图下方有一个矩形标注，覆盖价格区间约 17150 至 17300。左侧价格轴显示当前价格标签 17607.00，另有一条虚线水平线对应 17192.00。K 线在图左侧高位后向下运行至约 17150",
+    "case_006_detail_5.jpg": "图表为 ES1 60 分钟 K 线图，可见价格范围约从 4965.00 到 5145.00。图上在约 5033.00 至 5042.00 区间绘制有两条水平线，横跨日期 22 至 25 附近。图上另有一条向下倾斜的趋势线，位于约 5120.00 至 5135.00 区间，覆盖日期 23 至 25 附近。日期 19 附近可见一根大阴线，从约 5080.00 延伸至 4965.00。日期 22 之后出"
+  },
+  "sources": [
+    {
+      "video_id": "FGkb_50BfT8",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        370.84,
+        549.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对ES1 60分钟图的分析步骤完整清晰，关键价位、流动性链条、订单块位置均有明确标注和讲解，分析逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:21.247634Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES1 60分钟图：低阻力流动性扫荡与订单块反向运行\",\"school\":\"ICT\",\"asset\":\"ES1\",\"timeframe\":\"60M\",\"market_context\":\"ES1期货在前期创出摆动高点后形成一系列失败摇摆（failure swings），随后价格扫除前一交易日低点，创造高阻力流动性，预示反向运行。\",\"key_observation\":\"价格在扫除低阻力流动性（前期摆动低点）后，触及订单块与均值阈值区域，产生反应并反向运行至摆动高点。\",\"analysis_steps\":[\"Step 1: 识别摆动高点处的一系列失败摇摆，标记为高阻力流动性目标区。\",\"Step 2: 观察价格扫除前一交易日低点，确认该低点为重要支撑，预期价格将在此反向。\",\"Step 3: 在NQ1与ES1之间发现SMT（Smart Money Technique），NQ1创出新高而ES1相对较弱，切换至ES1图表进行详细分析。\",\"Step 4: 在ES1 60分钟图上定位低阻力流动性——一系列摆动低点堆积在公允价值缺口上方与订单块上方。\",\"Step 5: 追踪价格运行至这些低阻力低点，观察其与订单块的相互作用。\",\"Step 6: 识别均值阈值（mean threshold）在订单块区域产生的反应，确认反向信号。\",\"Step 7: 观察价格反向后形成的一系列较低的摆动高点，预示后续目标为更高的摆动高点。\"],\"outcome\":null,\"lessons\":\"低阻力流动性与订单块的结合是高概率交易设置。当价格扫除低阻力低点后触及订单块与均值阈值，往往产生强烈反应。理解流动性链条（高阻力→低阻力→订单块）的相互作用，可以提前预判价格反向运行的时机和目标。\",\"primary_image_frame_id\":\"FGkb_50BfT8_f019\",\"supporting_image_frame_ids\":[\"FGkb_50BfT8_f013\",\"FGkb_50BfT8_f014\",\"FGkb_50BfT8_f016\",\"FGkb_50BfT8_f017\",\"FGkb_50BfT8_f018\"],\"related_concepts\":[\"Order Block\",\"Low Resistance Liquidity\",\"High Resistance Liquidity\",\"Fair Value Gap\",\"Smart Money Technique\",\"Mean Threshold\",\"Failure Swings\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对ES1 60分钟图的分析步骤完整清晰，关键价位、流动性链条、订单块位置均有明确标注和讲解，分析逻辑连贯。\"}",
+  "error": null
+}

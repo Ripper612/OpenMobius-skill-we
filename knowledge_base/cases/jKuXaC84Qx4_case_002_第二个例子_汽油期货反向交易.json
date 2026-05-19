@@ -1,0 +1,129 @@
+{
+  "card_id": "jKuXaC84Qx4_case_002_第二个例子_汽油期货反向交易",
+  "type": "case",
+  "title": "汽油期货日线V形反转配合小时线CSD的反向交易",
+  "related_concepts": [
+    {
+      "term": "V-shaped Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "CSD (Change in State of Delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "AMD (Accumulation, Manipulation, Distribution)",
+      "card_id": "amd_accumulation_manipulation_distribution",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Invalidation Trade",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "v_shaped_reversal",
+    "candle_two_closure",
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "amd_accumulation_manipulation_distribution",
+    "equilibrium_eq",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": "RB (Gasoline Futures)",
+  "timeframe": "1D / 1H",
+  "market_context": "汽油期货在日线上形成V形反转，伴随candle two收盘。初期预期价格向上延续，但小时线在前一日高点形成对立设置和CSD，导致预期失效。",
+  "key_observation": "日线V形反转配合candle two收盘提示看涨延续，但小时线在前一日高点形成SMT和CSD，表明看涨设置失效，价格反向下行至candle two低点形成流动性扫荡。",
+  "analysis_steps": [
+    "Step 1: 识别日线V形反转形态，配合candle two收盘作为看涨信号框架。",
+    "Step 2: 在日线低点识别SMT（与前一日低点的分歧），预期价格向上交易。",
+    "Step 3: 切换至小时线，观察价格在前一日高点的行为，发现形成长上影线的大黑K线。",
+    "Step 4: 识别小时线在前一日高点形成的SMT和CSD（Change in State of Delivery），表明看涨延续失效。",
+    "Step 5: 识别积累-操纵-派发（AMD）模式：价格在前一日高点附近积累后，操纵上行，最后派发下行。",
+    "Step 6: 确认反向交易设置：如果看涨摆动失败，则candle two低点成为流动性目标。",
+    "Step 7: 观察价格下行至candle two低点，同时收盘低于EQ（均衡点），确认反向延续。"
+  ],
+  "outcome": "价格未能在前一日高点形成看涨延续，反而下行至candle two低点，形成流动性扫荡，反向交易成功。",
+  "lessons": "反向交易的核心是识别预期设置的失效信号：(1)在关键水平（如前一日高点）形成对立设置或CSD；(2)价格未能创出新高/新低；(3)收盘低于EQ确认反向延续。多时间框架协调分析（日线框架+小时线确认）提高了交易的可靠性。",
+  "primary_image": "cards/jKuXaC84Qx4/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/jKuXaC84Qx4/images/case_002_detail_1.jpg",
+    "cards/jKuXaC84Qx4/images/case_002_detail_2.jpg",
+    "cards/jKuXaC84Qx4/images/case_002_detail_3.jpg",
+    "cards/jKuXaC84Qx4/images/case_002_detail_4.jpg",
+    "cards/jKuXaC84Qx4/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示烛线图，左侧为上升趋势，绿色烛线占主导。中间部分出现长期下跌，黑色烛线连续出现。下跌后形成整理区域，绿色和黑色烛线混合。右侧出现一根长黑色烛线，上影线明显延伸，随后跟随一根绿色烛线。图上标注有两个矩形区域，分别用黄色和浅绿色填充，位于图表下方中间位置。整体未显示资产代码、时间框架或价格刻度数值。",
+    "case_002_detail_1.jpg": "图表显示烛线图，包含绿色和黑色 K 线。图上有两个浅绿色矩形标注区域。左侧显示一段盘整形态，中间部分呈现下跌后回升的走势。K 线具有不同长度的影线。右侧区域显示较大幅度的单根 K 线波动。整体图表缺少资产代码、时间框架和价格刻度标注。",
+    "case_002_detail_2.jpg": "图表显示一系列蜡烛线，绿色和黑色主体交替出现。左侧区域有一根特别大的黑色蜡烛线，带有明显的下影线。右侧区域有一根大的绿色蜡烛线，同样带有下影线。图表中部有一条水平线贯穿多根蜡烛线。整体图表缺少资产代码、时间框架和价格刻度标注，无法确定具体交易品种和周期。",
+    "case_002_detail_3.jpg": "图表显示一根蜡烛图。左侧呈现上升趋势，绿色K线占主导。中间部分出现大幅下跌，黑色K线贯穿大部分区域。下方中段存在一个混合绿黑K线的盘整区。右侧显示一根长上影线的大黑K线，其后跟随一根小绿K线。图上覆盖两个彩色矩形区域标注，其中一个呈黄色，另一个呈浅绿色。整体未见价格刻度标签、资产代码或时间框架标识。",
+    "case_002_detail_4.jpg": "图表显示一根蜡烛图K线序列。左侧呈现上升趋势，绿色K线占主导。中间部分出现大幅下跌，黑色K线连续出现。图上用黄色矩形框标注了一个特定的价格区域，位于整体下跌后的盘整区间内。右侧显示一根体量较大的黑色K线，上影线明显延伸。整个图表缺少资产代码、时间框架和价格刻度标注，无法确定具体交易品种和周期。",
+    "case_002_detail_5.jpg": "图上显示一组K线序列，由绿色和黑色蜡烛交替组成。图表中标注有两个浅绿色矩形区域，位置分别在左侧和中间偏上区域。K线普遍呈现上下影线，显示价格在各周期内的波动范围。右侧工具栏可见多个绘图工具图标。图上未显示资产代码、时间框架或价格刻度标签。"
+  },
+  "sources": [
+    {
+      "video_id": "jKuXaC84Qx4",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "time_range": [
+        425.32,
+        590.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线到小时线的分析过程，清晰标注了关键价位、形态和交易结果，多帧图表支持分析步骤。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:57.069255Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"汽油期货日线V形反转配合小时线CSD的反向交易\",\"school\":\"ICT\",\"asset\":\"RB (Gasoline Futures)\",\"timeframe\":\"1D / 1H\",\"market_context\":\"汽油期货在日线上形成V形反转，伴随candle two收盘。初期预期价格向上延续，但小时线在前一日高点形成对立设置和CSD，导致预期失效。\",\"key_observation\":\"日线V形反转配合candle two收盘提示看涨延续，但小时线在前一日高点形成SMT和CSD，表明看涨设置失效，价格反向下行至candle two低点形成流动性扫荡。\",\"analysis_steps\":[\"Step 1: 识别日线V形反转形态，配合candle two收盘作为看涨信号框架。\",\"Step 2: 在日线低点识别SMT（与前一日低点的分歧），预期价格向上交易。\",\"Step 3: 切换至小时线，观察价格在前一日高点的行为，发现形成长上影线的大黑K线。\",\"Step 4: 识别小时线在前一日高点形成的SMT和CSD（Change in State of Delivery），表明看涨延续失效。\",\"Step 5: 识别积累-操纵-派发（AMD）模式：价格在前一日高点附近积累后，操纵上行，最后派发下行。\",\"Step 6: 确认反向交易设置：如果看涨摆动失败，则candle two低点成为流动性目标。\",\"Step 7: 观察价格下行至candle two低点，同时收盘低于EQ（均衡点），确认反向延续。\"],\"outcome\":\"价格未能在前一日高点形成看涨延续，反而下行至candle two低点，形成流动性扫荡，反向交易成功。\",\"lessons\":\"反向交易的核心是识别预期设置的失效信号：(1)在关键水平（如前一日高点）形成对立设置或CSD；(2)价格未能创出新高/新低；(3)收盘低于EQ确认反向延续。多时间框架协调分析（日线框架+小时线确认）提高了交易的可靠性。\",\"primary_image_frame_id\":\"jKuXaC84Qx4_f017\",\"supporting_image_frame_ids\":[\"jKuXaC84Qx4_f015\",\"jKuXaC84Qx4_f001\",\"jKuXaC84Qx4_f018\",\"jKuXaC84Qx4_f019\",\"jKuXaC84Qx4_f020\"],\"related_concepts\":[\"V-shaped Reversal\",\"Candle Two Closure\",\"SMT (Smart Money Technique)\",\"CSD (Change in State of Delivery)\",\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"AMD (Accumulation, Manipulation, Distribution)\",\"Equilibrium (EQ)\",\"Invalidation Trade\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线到小时线的分析过程，清晰标注了关键价位、形态和交易结果，多帧图表支持分析步骤。\"}",
+  "error": null
+}

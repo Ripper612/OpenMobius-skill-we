@@ -1,0 +1,86 @@
+{
+  "card_id": "4Gm8p6O7Ebs_case_005_纳指两天扩张与盘整形成",
+  "type": "case",
+  "title": "纳指两天扩张后形成盘整，继续突破高点",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "consolidation",
+    "market_structure",
+    "swing_high_low"
+  ],
+  "school": "Price Action",
+  "asset": "NQ1!",
+  "timeframe": "1H",
+  "market_context": "纳指经历两天扩张（expansion）后形成小幅盘整（consolidation/small range），未达三天扩张阈值。盘整期间价格在21450-21775区间震荡，随后突破盘整高点继续上行。",
+  "key_observation": "两天扩张不足以形成反转信号，因此盘整后价格继续突破高点而非反转。博主强调需要三天扩张才能预期反转，两天扩张后应预期继续突破。",
+  "analysis_steps": [
+    "Step 1: 识别价格走势中的扩张-回撤-扩张-回撤-扩张的循环模式",
+    "Step 2: 观察到两天扩张后形成小幅盘整（consolidation/small range）",
+    "Step 3: 判断扩张天数未达三天阈值，因此不预期反转",
+    "Step 4: 在盘整中等待关键价位被突破（高点或低点）",
+    "Step 5: 确认价格突破盘整高点，继续上行而非反转下行"
+  ],
+  "outcome": "价格突破盘整高点（约21775），继续上行至22050附近，验证了两天扩张后继续突破而非反转的预期。",
+  "lessons": "扩张天数是判断后续走势的关键指标。两天扩张后形成的盘整应预期突破而非反转；只有三天或更多天扩张才可能预期反转。在盘整中保持耐心，等待关键价位被突破以确认方向。",
+  "primary_image": "cards/4Gm8p6O7Ebs/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/4Gm8p6O7Ebs/images/case_005_detail_1.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_005_detail_2.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为 NQ1! 1 小时 K 线图，价格轴范围约 21500 至 22150。图左侧出现一根大幅下行 K 线，从约 22050 跌至 21650 附近。此后 K 线在 21550 至 21650 区间内形成多根密集排列。图中部约 21775 至 21825 处绘有一个矩形标注框。图右侧近 Jun 5-6 时段出现两根大幅上行绿色 K 线，价格区间约 21750 至 22050。图上有一条点状水平",
+    "case_005_detail_1.jpg": "图表为 NQ1! 1 小时 K 线图，价格刻度范围约从 21300 至 21950。图左侧 K 线从约 21625 下行至约 21300，随后在约 21450 至 21525 区间出现多根小实体 K 线聚集。此后一段连续绿色 K 线从约 21450 上行至约 21790，图上在约 21790 处绘有一条水平线段。图中约 21575 处有一条蓝色水平线及一条虚线水平线。右侧价格轴当前价标签显示 21",
+    "case_005_detail_2.jpg": "图表资产为 NQ1!，时间框架为 1 小时，货币单位为 USD。可见价格范围约从 21300 至 21950。图上绘有多条水平线：约 21775 处一条实线，约 21670 处一条蓝色实线，约 21575 处一条点状虚线延伸至图右侧，约 21450 处一条蓝色实线。K 线走势呈现左侧下行至约 21300 后向上回升至约 21875 的形态，中段有多根 K 线在 21450 至 21540 区间内密",
+    "case_005_detail_3.jpg": "图表显示资产代码为 USD，时间框架为 1 小时。可见价格范围约从 21640 至 22140。图左侧约 5 月 28 至 29 日区间出现一根大幅下行 K 线，从约 22060 跌至 21640。图中部约 6 月 1 至 2 日有一个矩形标注框，覆盖约 21760 至 21800 区间。图右侧约 6 月 6 日出现数根主体较长的绿色 K 线，价格区间约在 21800 至 22000。图左侧价格轴"
+  },
+  "sources": [
+    {
+      "video_id": "4Gm8p6O7Ebs",
+      "segment_ids": [
+        "seg_016",
+        "seg_017"
+      ],
+      "time_range": [
+        837.519,
+        910.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了两天扩张、盘整形成、高点突破的全过程，资产、时间框架、关键价位、分析步骤均清晰，图表与讲解相符。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:24:19.405843Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳指两天扩张后形成盘整，继续突破高点\",\"school\":\"Price Action\",\"asset\":\"NQ1!\",\"timeframe\":\"1H\",\"market_context\":\"纳指经历两天扩张（expansion）后形成小幅盘整（consolidation/small range），未达三天扩张阈值。盘整期间价格在21450-21775区间震荡，随后突破盘整高点继续上行。\",\"key_observation\":\"两天扩张不足以形成反转信号，因此盘整后价格继续突破高点而非反转。博主强调需要三天扩张才能预期反转，两天扩张后应预期继续突破。\",\"analysis_steps\":[\"Step 1: 识别价格走势中的扩张-回撤-扩张-回撤-扩张的循环模式\",\"Step 2: 观察到两天扩张后形成小幅盘整（consolidation/small range）\",\"Step 3: 判断扩张天数未达三天阈值，因此不预期反转\",\"Step 4: 在盘整中等待关键价位被突破（高点或低点）\",\"Step 5: 确认价格突破盘整高点，继续上行而非反转下行\"],\"outcome\":\"价格突破盘整高点（约21775），继续上行至22050附近，验证了两天扩张后继续突破而非反转的预期。\",\"lessons\":\"扩张天数是判断后续走势的关键指标。两天扩张后形成的盘整应预期突破而非反转；只有三天或更多天扩张才可能预期反转。在盘整中保持耐心，等待关键价位被突破以确认方向。\",\"primary_image_frame_id\":\"4Gm8p6O7Ebs_f030\",\"supporting_image_frame_ids\":[\"4Gm8p6O7Ebs_f028\",\"4Gm8p6O7Ebs_f029\",\"4Gm8p6O7Ebs_f031\"],\"related_concepts\":[\"Displacement\",\"Consolidation\",\"Market Structure\",\"Price Action\",\"Swing High/Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了两天扩张、盘整形成、高点突破的全过程，资产、时间框架、关键价位、分析步骤均清晰，图表与讲解相符。\"}",
+  "error": null
+}

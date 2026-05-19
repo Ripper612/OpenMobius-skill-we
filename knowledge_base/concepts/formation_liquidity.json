@@ -1,0 +1,56 @@
+{
+  "card_id": "formation_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Formation Liquidity",
+  "aliases": [],
+  "school": "ICT",
+  "definition": "标记前一根蜡烛或前一天的低点（或高点）的虚线，表示价格可能扫除的流动性区域，用于识别智能货币可能的目标价位。",
+  "identification_rules": [
+    "在指标设置中启用 Formation Liquidity 选项后，系统自动在图表上绘制虚线",
+    "虚线标记前一根蜡烛的低点或前一天的低点位置",
+    "虚线呈水平延伸，跨越多个时间周期",
+    "当前蜡烛收盘看跌时，关注前一蜡烛/前一天的低点是否已被扫除"
+  ],
+  "trading_implication": "Formation Liquidity 帮助交易者识别智能货币可能扫荡的流动性聚集区。当价格收盘看跌时，若前一蜡烛或前一天的低点尚未被触及，该区域标记为潜在的流动性目标，暗示价格可能继续下行以扫除该流动性。这是判断趋势延续或反转的重要参考。",
+  "common_mistakes": [
+    "未区分已扫除与未扫除的流动性——需要逐一检查每个标记的低点是否已被价格触及",
+    "忽视时间框架差异——Formation Liquidity 在不同时间框架上的标记可能不同，需要结合多时间框架分析"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "CqMIh-Vvhbg_case_005_es标普500指数日线至小时线的看跌延续",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "ES日线C2与CSD确认后的小时线看跌延续至投影目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_formation_liquidity",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        725.0,
+        903.24
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133060Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

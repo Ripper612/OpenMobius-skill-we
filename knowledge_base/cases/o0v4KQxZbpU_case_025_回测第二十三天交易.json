@@ -1,0 +1,101 @@
+{
+  "card_id": "o0v4KQxZbpU_case_025_回测第二十三天交易",
+  "type": "case",
+  "title": "第23天：低点扫荡后Breaker Block入场被止损",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "fair_value_gap",
+    "turtle_soup",
+    "displacement",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1M",
+  "market_context": "NAS100在多日上升趋势后出现调整，价格在14850-15100区间反复震荡，形成多个订单块和公允价值缺口。博主在第14-16天的回测中追踪价格结构变化。",
+  "key_observation": "价格在低点被扫荡后反弹，博主识别出Breaker Block作为做多入场点，但随后价格未能维持上升动能，最终被止损出局。",
+  "analysis_steps": [
+    "Step 1: 标记第14天的高点和低点，观察价格是否会回到之前的订单块区域。",
+    "Step 2: 识别价格扫低（sweep below low）的信号，确认低点被触及。",
+    "Step 3: 在扫低后的反弹中，寻找Breaker Block作为做多入场点（价格在先前的订单块处反弹）。",
+    "Step 4: 等待第三根K线收盘确认结构，确保价格确实要回到订单块区域。",
+    "Step 5: 在Breaker Block处入场做多，但价格随后快速上升后回落，触发止损。",
+    "Step 6: 分析失败原因：价格虽然扫低但缺乏足够的位移（displacement）来维持上升趋势，订单块的强度不足。"
+  ],
+  "outcome": "交易被止损出局。价格在Breaker Block处入场后未能形成有效的上升位移，反而快速回落，导致止损被触发。",
+  "lessons": "Breaker Block入场需要配合强势的位移信号和清晰的结构确认。仅依靠扫低反弹而缺乏足够的动能和结构支撑，容易导致虚假突破。需要更严格的入场条件筛选，如等待第三根K线确认或寻找更强的FVG支撑。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_025_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_025_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_025_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_025_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_025_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_025_primary.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示从约15100下跌至14850的下降趋势，包含多根黑色和绿色K线。右侧面板显示从14850上升至15085的上升趋势，包含大型绿色K线。图上可见一条水平线标记在约15085处，另一条在约14850处。右侧面板顶部有一根大黑色K线，其下方为绿色K线。价格轴右侧显示多个价格标签。图表标题显示'Backtesting'和'FXReplay'。",
+    "case_025_detail_1.jpg": "NAS100 1分钟K线图。图上显示从约15100上升至15320的上升趋势，跨越约20根K线。图表中部有两个矩形标注框，分别位于15160-15240和15240-15320价格区间。右侧价格刻度显示多条水平线标记。图上可见一根大型绿色K线位于15300-15350区间，以及两根黑色K线位于15150-15200区间。图右侧显示价格刻度标签，最高至15425.00000000，最低至15100.",
+    "case_025_detail_2.jpg": "NAS100 日线图。图表显示多根绿色和黑色 K 线，价格范围从约 14685 到 15095。右侧价格轴标注有多条水平线。图上有一个矩形框标注，位置约在 14900 至 15050 区间。最右侧最新 K 线为绿色，收盘价位于 15000 至 15100 之间。图表左下角显示时间轴标记，右下角显示账户余额和交易信息。",
+    "case_025_detail_3.jpg": "NAS100 1分钟K线图。图表显示从约19175下跌至15025的下行趋势。右侧价格轴标注多条水平线，包括15115、15025、15090等价格水平。图上有两个矩形框标注，分别围绕15025-15115区间和10082-10200区间。左侧K线显示在15025-15115区间内有多根蜡烛线，包含一根绿色K线。右侧面板显示一根黑色K线主体。图下方显示时间轴标记，当前时间显示为14:01。",
+    "case_025_detail_4.jpg": "NAS100 1分钟图表。图上分为左右两个面板。左侧面板显示从09:17至10:30的1分钟K线序列，包含多根绿色和黑色K线。右侧面板展示两个大型矩形块：一个黑色矩形从约14892至15000，一个绿色矩形从约14950至15072。图右侧价格刻度标注有15072.0000000、15000.0000000、14892.0000000、14850.0000000等数值。可见价格范围约从14892至"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_013"
+      ],
+      "time_range": [
+        1373.24,
+        1526.52
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "转录文本清晰描述了完整的分析过程、入场逻辑和止损结果，图表显示了价格扫低反弹的具体形态和Breaker Block的位置。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:47.041239Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"第23天：低点扫荡后Breaker Block入场被止损\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1M\",\"market_context\":\"NAS100在多日上升趋势后出现调整，价格在14850-15100区间反复震荡，形成多个订单块和公允价值缺口。博主在第14-16天的回测中追踪价格结构变化。\",\"key_observation\":\"价格在低点被扫荡后反弹，博主识别出Breaker Block作为做多入场点，但随后价格未能维持上升动能，最终被止损出局。\",\"analysis_steps\":[\"Step 1: 标记第14天的高点和低点，观察价格是否会回到之前的订单块区域。\",\"Step 2: 识别价格扫低（sweep below low）的信号，确认低点被触及。\",\"Step 3: 在扫低后的反弹中，寻找Breaker Block作为做多入场点（价格在先前的订单块处反弹）。\",\"Step 4: 等待第三根K线收盘确认结构，确保价格确实要回到订单块区域。\",\"Step 5: 在Breaker Block处入场做多，但价格随后快速上升后回落，触发止损。\",\"Step 6: 分析失败原因：价格虽然扫低但缺乏足够的位移（displacement）来维持上升趋势，订单块的强度不足。\"],\"outcome\":\"交易被止损出局。价格在Breaker Block处入场后未能形成有效的上升位移，反而快速回落，导致止损被触发。\",\"lessons\":\"Breaker Block入场需要配合强势的位移信号和清晰的结构确认。仅依靠扫低反弹而缺乏足够的动能和结构支撑，容易导致虚假突破。需要更严格的入场条件筛选，如等待第三根K线确认或寻找更强的FVG支撑。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f048\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f046\",\"o0v4KQxZbpU_f047\",\"o0v4KQxZbpU_f050\",\"o0v4KQxZbpU_f051\"],\"related_concepts\":[\"Breaker Block\",\"Order Block\",\"Fair Value Gap\",\"Sweep\",\"Displacement\",\"Market Structure\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"转录文本清晰描述了完整的分析过程、入场逻辑和止损结果，图表显示了价格扫低反弹的具体形态和Breaker Block的位置。\"}",
+  "error": null
+}

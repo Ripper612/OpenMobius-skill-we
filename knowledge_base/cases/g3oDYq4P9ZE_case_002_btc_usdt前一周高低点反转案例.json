@@ -1,0 +1,94 @@
+{
+  "card_id": "g3oDYq4P9ZE_case_002_btc_usdt前一周高低点反转案例",
+  "type": "case",
+  "title": "BTC/USDT前一周高低点反转案例",
+  "related_concepts": [
+    {
+      "term": "Previous Week High/Low",
+      "card_id": "previous_week_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "previous_week_high_low",
+    "liquidity",
+    "reversal",
+    "order_block",
+    "fair_value_gap",
+    "market_structure"
+  ],
+  "school": "SMC",
+  "asset": "BTC/USDT",
+  "timeframe": "1D",
+  "market_context": "BTC在6月下旬至7月初期间围绕前一周高低点（约14900-15300）进行波动。价格先后扫过前一周低点，形成看涨反转K线，随后向前一周高点移动，最终突破并继续上升。",
+  "key_observation": "博主通过标记前一周高低点，观察价格如何在这些关键水平处反应。当价格扫过前一周低点后形成看涨反转K线（周一收盘在范围内），预期价格向前一周高点移动，最终突破该高点并形成上升扩张。",
+  "analysis_steps": [
+    "Step 1: 在日线图上标记前一周的高点（约15300）和低点（约14900）",
+    "Step 2: 观察价格在周一到达前一周低点但未能收盘在范围外，判断为看涨信号",
+    "Step 3: 预期价格向前一周高点移动，并在周五确实触及该高点",
+    "Step 4: 进入下一周后，周一再次到达前一周高点并收盘在范围外，形成看涨突破",
+    "Step 5: 价格随后回测前一周低点，形成明确的看涨反转K线",
+    "Step 6: 确认突破后，价格向上扩张，超越前一周高点继续上升"
+  ],
+  "outcome": "价格成功突破前一周高点（15300），形成上升扩张，验证了基于前一周高低点的反转框架有效性。",
+  "lessons": "前一周高低点是识别价格反转和延续的关键流动性水平。当价格扫过低点后形成看涨反转K线（收盘在范围内），预期向高点移动；突破高点后收盘在范围外则确认看涨趋势延续。这种方法可用于框架化反转或作为流动性吸引点。",
+  "primary_image": "cards/g3oDYq4P9ZE/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/g3oDYq4P9ZE/images/case_002_detail_1.jpg",
+    "cards/g3oDYq4P9ZE/images/case_002_detail_2.jpg",
+    "cards/g3oDYq4P9ZE/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "BTC/USDT 日线图。图表显示从5月下旬至6月中旬的价格走势，整体价格范围约14100至16400。图上有两条水平虚线分别位于15300和14900处。一个矩形框标注覆盖14900至15300的价格区间。图右侧显示当前价格标签为14855.50。图上标注文字包括'Mon 26 Jun 23'和'TTrader_edu'。K线序列中绿色和黑色蜡烛交替出现，最近一根K线附近有灰色圆形标记。",
+    "case_002_detail_1.jpg": "图上展示两个独立的日线K线序列，均带有矩形框标注。上方序列标记为'Previous Weeks High'，下方序列标记为'Previous Weeks Low'。两个序列均包含灰色、绿色和黑色K线。图上文字说明指出这些流动性水平可用于流动性回测或形成反转或延续的框架。图左侧有一个灰色圆形元素。右下角标注'Daily Timeframe'。未显示具体价格数字或资产代码。",
+    "case_002_detail_2.jpg": "BTCUSD 日线图。图上显示从 6 月下旬至 8 月初的价格走势，可见价格范围约 14100 至 16400。图上有两条水平线分别位于 15500 和 14700 处，各自对应一个矩形标注区域。K 线序列中绿色蜡烛占多数，穿插少量黑色蜡烛。右侧价格标签显示当前价格为 14623.00。图上标注有日期'Wed 28 Jun 23'。除水平线和矩形外，未见其他指标或形态标注。",
+    "case_002_detail_3.jpg": "BTC/USDT 日线图。图上显示从6月6日至8月14日的K线序列。可见价格范围约从14300到16400。图中有两条水平线标注，分别位于14800和15400处，围成一个矩形区域。K线呈绿黑相间排列。右侧价格轴显示当前价格为15300.50，带有高亮背景。图上标注有'TTrader_edu'和'USD'文字。除上述水平线和矩形框外，未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        186.599,
+        541.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整，清晰展示了前一周高低点的标记、价格反应过程、反转K线形成及后续突破的全过程，图表和讲解相互印证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:43.947843Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC/USDT前一周高低点反转案例\",\"school\":\"SMC\",\"asset\":\"BTC/USDT\",\"timeframe\":\"1D\",\"market_context\":\"BTC在6月下旬至7月初期间围绕前一周高低点（约14900-15300）进行波动。价格先后扫过前一周低点，形成看涨反转K线，随后向前一周高点移动，最终突破并继续上升。\",\"key_observation\":\"博主通过标记前一周高低点，观察价格如何在这些关键水平处反应。当价格扫过前一周低点后形成看涨反转K线（周一收盘在范围内），预期价格向前一周高点移动，最终突破该高点并形成上升扩张。\",\"analysis_steps\":[\"Step 1: 在日线图上标记前一周的高点（约15300）和低点（约14900）\",\"Step 2: 观察价格在周一到达前一周低点但未能收盘在范围外，判断为看涨信号\",\"Step 3: 预期价格向前一周高点移动，并在周五确实触及该高点\",\"Step 4: 进入下一周后，周一再次到达前一周高点并收盘在范围外，形成看涨突破\",\"Step 5: 价格随后回测前一周低点，形成明确的看涨反转K线\",\"Step 6: 确认突破后，价格向上扩张，超越前一周高点继续上升\"],\"outcome\":\"价格成功突破前一周高点（15300），形成上升扩张，验证了基于前一周高低点的反转框架有效性。\",\"lessons\":\"前一周高低点是识别价格反转和延续的关键流动性水平。当价格扫过低点后形成看涨反转K线（收盘在范围内），预期向高点移动；突破高点后收盘在范围外则确认看涨趋势延续。这种方法可用于框架化反转或作为流动性吸引点。\",\"primary_image_frame_id\":\"g3oDYq4P9ZE_f013\",\"supporting_image_frame_ids\":[\"g3oDYq4P9ZE_f011\",\"g3oDYq4P9ZE_f012\",\"g3oDYq4P9ZE_f014\",\"g3oDYq4P9ZE_f015\"],\"related_concepts\":[\"Previous Week High/Low\",\"Liquidity\",\"Reversal\",\"Order Block\",\"Fair Value Gap\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整，清晰展示了前一周高低点的标记、价格反应过程、反转K线形成及后续突破的全过程，图表和讲解相互印证。\"}",
+  "error": null
+}

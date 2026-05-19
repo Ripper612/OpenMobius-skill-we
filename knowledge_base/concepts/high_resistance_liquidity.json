@@ -1,0 +1,239 @@
+{
+  "card_id": "high_resistance_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "High Resistance Liquidity",
+  "aliases": [
+    "HRL",
+    "高阻力流动性"
+  ],
+  "school": "ICT",
+  "definition": "摆动高/低点已被价格扫除后形成的高阻力区域。该水平的订单已被清空，缺乏失败摆动（Failure Swing）结构，价格难以再次轻易穿越。止损侧若无堆积的失败摆动，则该侧流动性为高阻力流动性，可用作止损位或风险管理参考。",
+  "identification_rules": [
+    "识别一个摆动高点或低点，确认价格已完全扫除（穿过）该水平的流动性",
+    "扫除后价格立即反向，不形成失败摆动（Failure Swing）；若无失败摆动结构，则该区域为高阻力流动性",
+    "检查止损侧是否存在多个堆积的失败摆动（stacked highs/lows）；若缺乏堆积，则该侧为高阻力流动性",
+    "在SMT场景中，当一个资产创出新高而另一个资产未能创出新高时，被扫除的高点形成高阻力流动性",
+    "通常在Market Structure Shift或Change in State of Delivery后形成",
+    "与低阻力流动性对比：低阻力流动性具有失败摆动，高阻力流动性则无"
+  ],
+  "trading_implication": "高阻力流动性难以被再次突破，不适合作为主要交易目标，而应用作止损位或风险管理工具。交易者应以低阻力流动性（失败摆动）作为利润目标，将高阻力流动性设为止损，形成不对称风险收益结构。在SMT场景中，可将其设为做空止损以避免虚假突破触发。若价格回到该区域，应优先在附近的失败摆动处止盈。",
+  "common_mistakes": [
+    "将高阻力流动性与低阻力流动性混淆：前者是已被扫除、缺乏失败摆动的流动性，后者是未被扫除的失败摆动",
+    "将高阻力流动性作为主要交易目标，期望价格轻松突破，实际上价格会在此处遇到强阻力",
+    "未确认流动性确实被扫除就假设形成了高阻力流动性",
+    "在高阻力流动性区域寻求入场，而非用作止损或风险管理工具",
+    "忽视高阻力流动性上方/下方的失败摆动，未能识别真正的低阻力目标区域",
+    "忽视失败摆动的堆积程度，将单个摆动点误判为高阻力流动性",
+    "未区分止损侧与获利侧的流动性特征，导致选择流动性清晰的一侧作为止损",
+    "在止损侧存在多个失败摆动时仍执行交易，增加止损被扫的风险",
+    "在非SMT场景中错误应用高阻力流动性作为止损，忽视其需配合流动性扫荡和资产分歧的前提条件"
+  ],
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Buyside/Sellside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "27S9gjgcSlI_case_004_cpi发布后nq与es的smt空头交易",
+      "video_id": "27S9gjgcSlI",
+      "title": "CPI发布后NQ与ES的SMT空头交易"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_005_nq_15分钟到1分钟的多时间框架入场",
+      "video_id": "27S9gjgcSlI",
+      "title": "NQ 15分钟到1分钟多时间框架入场与FVG调整"
+    },
+    {
+      "card_id": "2lIaRUtJqpU_case_002_英镑美元日线连续失败摇摆分析",
+      "video_id": "2lIaRUtJqpU",
+      "title": "英镑美元日线连续失败摇摆与低阻力流动性分析"
+    },
+    {
+      "card_id": "2lIaRUtJqpU_case_003_纳斯达克期货5分钟和1分钟多时间框架交易",
+      "video_id": "2lIaRUtJqpU",
+      "title": "纳斯达克期货5分钟和1分钟多时间框架交易"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_001_es1期货5分钟图的高低阻力流动性应用",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1期货5分钟图中的高低阻力流动性识别与应用"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_002_nq日线多日低点未扫除的流动性分析",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线多日低点未扫除的低阻力流动性分析"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_003_nq日线范围交易中的高低阻力识别",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线范围交易中的高低阻力识别"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_004_nq日线上升趋势中的流动性扫除与反应",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线上升趋势中的流动性扫除与失败摆动分析"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_005_nq与es的smt分歧及低阻力流动性追踪",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ高阻力流动性与ES低阻力低点序列的SMT分歧交易"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_006_es1期货60分钟图的订单块与流动性链条",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 60分钟图：低阻力流动性扫荡与订单块反向运行"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_007_es1期货5分钟图的多层级订单块与推进块形成",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 5分钟图多层级订单块与推进块的形成与验证"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_008_es1期货1分钟图的精细订单块入场与止损设置",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 1分钟图：订单块入场、均值阈值止损与高阻力流动性无效化"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_002_原油日线失败摆动与相关摆动点的构建",
+      "video_id": "HbOeD_JVens",
+      "title": "原油日线失败摆动与堆积低点的交易目标识别"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_003_xageur日线反转与目标位置确认",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGEUR日线反转确认与失败摆动堆积目标"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_001_pdf示例_从看涨到看跌的多时间框架转变",
+      "video_id": "iEaMbuFZb24",
+      "title": "低时间框架看涨订单块被高时间框架看跌结构破坏"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "original_card_id": "27S9gjgcSlI_concept_high_resistance_liquidity",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        559.44,
+        741.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "2lIaRUtJqpU",
+      "original_card_id": "2lIaRUtJqpU_concept_high_resistance_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        496.819
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FGkb_50BfT8",
+      "original_card_id": "FGkb_50BfT8_concept_high_resistance_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.719,
+        549.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_high_resistance_liquidity",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        476.879,
+        524.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:28.249841Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "4张原始卡均为ICT，school无冲突。各卡侧重点不同：27S9gjgcSlI侧重SMT止损用法，2lIaRUtJqpU侧重失败摆动对比，FGkb_50BfT8侧重结构形成，HbOeD_JVens侧重止损侧安全性，已综合整合。",
+  "error": null
+}

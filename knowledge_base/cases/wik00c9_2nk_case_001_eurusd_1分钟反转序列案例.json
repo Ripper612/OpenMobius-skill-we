@@ -1,0 +1,117 @@
+{
+  "card_id": "wik00c9_2nk_case_001_eurusd_1分钟反转序列案例",
+  "type": "case",
+  "title": "EURUSD 1分钟整理区间扫低后的完整反转序列",
+  "related_concepts": [
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Confirmation Levels",
+      "card_id": "confirmation_levels",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "turtle_soup_entry",
+    "inversion",
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "breaker_block",
+    "market_structure",
+    "displacement",
+    "confirmation_levels"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1M",
+  "market_context": "EURUSD在68.50-68.53区间形成整理，随后价格向下扫低至68.23-68.27区域，触及Turtle Soup后启动反转序列。",
+  "key_observation": "博主展示了从整理区间被扫低后，依次形成Turtle Soup、Inversion、CSD/OB、FVG和Breaker Block的完整反转过程，每一步都提供更多确认信号，最终向上突破至68.60以上。",
+  "analysis_steps": [
+    "Step 1: 识别整理区间高点68.50-68.53和低点68.23-68.27，预期价格会操纵低点后反向交易至高点。",
+    "Step 2: 价格扫低至68.23-68.27形成Turtle Soup（第一步反转信号），此时确认度较低。",
+    "Step 3: 价格收盘穿过下跌腿形成的FVG，形成Inversion（第二步反转信号），确认度增加。",
+    "Step 4: 价格收盘穿过形成低点的单根或多根下跌K线，形成CSD/OB（第三步反转信号），确认度进一步增加。",
+    "Step 5: 识别三根K线形成的FVG模式（第四步反转信号）。",
+    "Step 6: 识别Breaker Block结构（低-高-低-高），由从低点到高点前的一系列上升K线组成（第五步反转信号），确认度最高。",
+    "Step 7: 价格回测FVG后获得支撑，继续向上突破至68.60以上，完成反转序列。"
+  ],
+  "outcome": "价格成功完成反转序列，从68.23低点上升至68.60以上，突破整理区间高点，确认看涨反转成立。",
+  "lessons": "反转序列的五个阶段（Turtle Soup→Inversion→CSD/OB→FVG→Breaker Block）按顺序提供递增的确认度。交易者可根据风险承受度选择入场点：早期入场（Turtle Soup）风险高但获利空间大；后期入场（Breaker Block）确认度高但入场点离低点更远。简化分析专注单一PD Array能提高清晰度。",
+  "primary_image": "cards/wik00c9_2nk/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/wik00c9_2nk/images/case_001_detail_1.jpg",
+    "cards/wik00c9_2nk/images/case_001_detail_2.jpg",
+    "cards/wik00c9_2nk/images/case_001_detail_3.jpg",
+    "cards/wik00c9_2nk/images/case_001_detail_4.jpg",
+    "cards/wik00c9_2nk/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表标题为'Order of reversal'，展示一个包含多个标注区域的K线序列。图上有5个编号区域，分别标记为1至5，从左下向右上递进。区域1用粉红色矩形标记在最低点，区域2至5用灰色矩形标记。图左侧列出5个项目：turtle soup、inversion、cisd/ob、fvg、breaker。K线呈现绿色和黑色交替的蜡烛体，整体形成从下跌到上升的反转形态。一条蓝色水平线连接区域3和4。图",
+    "case_001_detail_1.jpg": "图表显示 1 分钟时间框架的 K 线图，价格范围从 68.00 到 68.70。图上有多条水平线标注，其中 68.51 和 68.53 处各有一条，68.26 和 68.23 处各有一条。图中央有一个矩形框标注，范围约在 68.26 至 68.53 之间。K 线显示从左侧 68.05 附近上升至 68.51，随后下降回到 68.26 附近。时间轴显示从 03:00 至 09:00，当前时间标记在 ",
+    "case_001_detail_2.jpg": "图表显示一个时间序列K线图，价格范围从68.00至68.70。图上有三条水平线分别位于68.53、68.42和68.25处。两个矩形框分别标注在68.50-68.53区间和68.25-68.30区间。K线呈现上升趋势后出现整理，随后下跌至68.25附近。图右侧显示当前价格为68.42，用蓝色高亮标记。图下方有粉红色阴影区域位于68.23-68.27价格水平。底部时间轴显示时间范围从01:00至09",
+    "case_001_detail_3.jpg": "1分钟K线图，价格范围68.00至68.70。图上有三条水平线分别位于68.42、68.53和68.25处。两个矩形框标注了价格区域：上方矩形框围绕68.50至68.53，下方粉色矩形框围绕68.25至68.30。K线从左侧68.10附近上升至68.50附近，随后在68.25至68.53区间内形成整理。图右下角显示交易界面按钮（Sell、Buy、Flatten）。时间标记显示Tue 03 Dec,",
+    "case_001_detail_4.jpg": "图表显示1分钟K线图，价格范围从68.00至68.70。图上有两条水平虚线分别位于68.53和68.38处。标注包含三个矩形框，分别位于68.50至68.53、68.30至68.38和68.42至68.47的价格区间。K线从左侧68.10附近开始上升至68.50附近，随后在68.38至68.53区间内形成整理。图右侧有一条竖直虚线。底部时间轴显示从03:30至09:30的时间范围，当前时间标记在0",
+    "case_001_detail_5.jpg": "EURUSD 1 分钟 K 线图。图上显示从 68.10 至 68.60 的上升趋势，跨越约 40 根 K 线。图中标注有 3 个矩形框，分别位于 68.30-68.50、68.40-68.60 和 68.40-68.45 价格区间。图右侧有 3 条水平虚线分别在 68.25、68.40 和 68.50 处。图上有一条竖虚线标记时间戳 06:51。底部时间轴显示从 03:30 至 09:30 的时"
+  },
+  "sources": [
+    {
+      "video_id": "wik00c9_2nk",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        371.44,
+        727.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了反转序列的五个阶段，标注清晰，价格水平和时间框架明确，分析步骤按顺序详细讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:20.425788Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 1分钟整理区间扫低后的完整反转序列\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1M\",\"market_context\":\"EURUSD在68.50-68.53区间形成整理，随后价格向下扫低至68.23-68.27区域，触及Turtle Soup后启动反转序列。\",\"key_observation\":\"博主展示了从整理区间被扫低后，依次形成Turtle Soup、Inversion、CSD/OB、FVG和Breaker Block的完整反转过程，每一步都提供更多确认信号，最终向上突破至68.60以上。\",\"analysis_steps\":[\"Step 1: 识别整理区间高点68.50-68.53和低点68.23-68.27，预期价格会操纵低点后反向交易至高点。\",\"Step 2: 价格扫低至68.23-68.27形成Turtle Soup（第一步反转信号），此时确认度较低。\",\"Step 3: 价格收盘穿过下跌腿形成的FVG，形成Inversion（第二步反转信号），确认度增加。\",\"Step 4: 价格收盘穿过形成低点的单根或多根下跌K线，形成CSD/OB（第三步反转信号），确认度进一步增加。\",\"Step 5: 识别三根K线形成的FVG模式（第四步反转信号）。\",\"Step 6: 识别Breaker Block结构（低-高-低-高），由从低点到高点前的一系列上升K线组成（第五步反转信号），确认度最高。\",\"Step 7: 价格回测FVG后获得支撑，继续向上突破至68.60以上，完成反转序列。\"],\"outcome\":\"价格成功完成反转序列，从68.23低点上升至68.60以上，突破整理区间高点，确认看涨反转成立。\",\"lessons\":\"反转序列的五个阶段（Turtle Soup→Inversion→CSD/OB→FVG→Breaker Block）按顺序提供递增的确认度。交易者可根据风险承受度选择入场点：早期入场（Turtle Soup）风险高但获利空间大；后期入场（Breaker Block）确认度高但入场点离低点更远。简化分析专注单一PD Array能提高清晰度。\",\"primary_image_frame_id\":\"wik00c9_2nk_f013\",\"supporting_image_frame_ids\":[\"wik00c9_2nk_f016\",\"wik00c9_2nk_f017\",\"wik00c9_2nk_f018\",\"wik00c9_2nk_f019\",\"wik00c9_2nk_f020\"],\"related_concepts\":[\"Turtle Soup\",\"Inversion\",\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Breaker Block\",\"Market Structure\",\"Displacement\",\"Confirmation Levels\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了反转序列的五个阶段，标注清晰，价格水平和时间框架明确，分析步骤按顺序详细讲解。\"}",
+  "error": null
+}

@@ -1,0 +1,123 @@
+{
+  "card_id": "JHVaSKtE1Ys_case_001_btc小时图到5分钟图的多头交易",
+  "type": "case",
+  "title": "BTC小时图V形反转到5分钟图多头延续交易",
+  "related_concepts": [
+    {
+      "term": "Protected Low",
+      "card_id": "protected_swing_protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    },
+    {
+      "term": "Continuation Entry",
+      "card_id": "retest_entry",
+      "exists": true
+    },
+    {
+      "term": "Reversal Entry",
+      "card_id": "reversal_entry",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_swing_protected_high_low",
+    "change_in_state_of_delivery_csd",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "aligned_timeframe",
+    "risk_to_reward_ratio",
+    "retest_entry",
+    "reversal_entry",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H / 5M",
+  "market_context": "BTC在小时图形成V形反转，价格从低点回升并收盘回到整理区间内。博主从小时图下钻到5分钟图，寻找对齐的分形模型以确认上升趋势的有效性。",
+  "key_observation": "博主识别出小时图的V形反转和整理突破后，在5分钟图上等待受保护低点（Protected Low）的形成，然后通过进入FVG并收盘穿过下跌K线来确认延续入场，获得更优的风险回报比。",
+  "analysis_steps": [
+    "Step 1: 在小时图上观察到价格收盘回到整理区间内，形成V形反转的初步信号。",
+    "Step 2: 下钻到5分钟图，检查是否已形成交付状态改变（CSD），即收盘穿过形成低点的下跌K线序列。",
+    "Step 3: 标记出关键水平位（约43620），等待收盘穿过该水平以形成受保护低点。",
+    "Step 4: 收盘穿过后，受保护低点成立，确认可以寻找多头入场机会，目标指向前一天高点（Friday high）。",
+    "Step 5: 评估反转入场的风险回报比，发现止损在受保护低点时无法达到2R，因此决定等待延续入场。",
+    "Step 6: 等待新的受保护摆动形成，观察价格是否进入重要水平（FVG）并收盘穿过下跌K线。",
+    "Step 7: 识别第一个FVG入场机会（约43680-43700区间），收盘穿过下跌K线，止损设在受保护低点，可获得更好的2R风险回报。",
+    "Step 8: 继续监控，发现价格触及另一个FVG但未能收盘穿过下跌K线，该入场无效。",
+    "Step 9: 价格扫除新低后，形成新的下跌K线序列，与分形模型中的第4根K线（C4）对齐，预示新的延续机会。",
+    "Step 10: 最终入场成立，价格突破并向目标位运行，验证了延续入场策略的有效性。"
+  ],
+  "outcome": "通过等待延续入场（进入FVG后收盘穿过下跌K线），博主获得了比反转入场更优的2R风险回报比，交易最终成功触及目标位。",
+  "lessons": "反转入场虽然更早进场，但风险回报比不佳；通过等待价格进入重要水平（FVG）并确认收盘穿过下跌K线的延续入场，可以获得更高质量的交易设置。受保护低点的形成是确认趋势反转的关键，分形模型对齐有助于预测后续的价格行为。",
+  "primary_image": "cards/JHVaSKtE1Ys/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/JHVaSKtE1Ys/images/case_001_detail_1.jpg",
+    "cards/JHVaSKtE1Ys/images/case_001_detail_2.jpg",
+    "cards/JHVaSKtE1Ys/images/case_001_detail_3.jpg",
+    "cards/JHVaSKtE1Ys/images/case_001_detail_4.jpg",
+    "cards/JHVaSKtE1Ys/images/case_001_detail_5.jpg",
+    "cards/JHVaSKtE1Ys/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为5分钟K线图，资产标注为USD，日期显示为2024年12月24日。图右侧价格刻度范围约从43620至44020。图上有一个绿色半透明矩形覆盖约43780至44000区间，另有一个黄色半透明矩形覆盖约43420至43460区间，以及一个浅绿色矩形覆盖约43620至43660区间。图中约10:00处出现一根大幅绿色K线，随后数根K线在43780至43870区间内聚集，该区域标注有文字'C4'。约",
+    "case_001_detail_1.jpg": "图表为1小时K线图，资产标注为USD，右上角显示The Market Lens及TTrades_edu。可见价格范围约从43080至44120。图上有一条贯穿全图的水平虚线位于43630处。时间轴覆盖12月20日至26日区间，底部时间轴标注Tue 24 Dec '24 08:00处有一条垂直虚线。图右侧约Dec 24 08:00附近有一个小矩形框标注，框内K线价格范围约在43580至43650之间",
+    "case_001_detail_2.jpg": "图为标注 USD 的 5 分钟 K 线图，时间轴覆盖 2024 年 12 月 24 日约 03:00 至 19:30，可见价格范围约 43560 至 43750。图上有多条水平线，分别位于约 43620、43650、43680 处。约 09:00 附近出现一根带长下影线的 K 线，下影线从约 43620 向下延伸至约 43580。图右侧约 10:30 至 11:00 区间内有三个绿色矩形框，位于约",
+    "case_001_detail_3.jpg": "图表为5分钟K线图，资产标注为USD，日期为2024年12月24日。图上可见价格范围约从43480至44020。图右侧标注当前价43703，另有水平虚线位于43620处。图上绘有两个矩形区域：上方绿色矩形从约43700延伸至44005，标注为目标位302点（0.69%），金额50909.64；下方灰色矩形位于43620以下，标注为止损83点（0.19%），金额49750。图中弹出框显示Open P",
+    "case_001_detail_4.jpg": "图表为5分钟K线图，资产标注为USD，日期显示为2024年12月24日。图右侧价格刻度范围约从43590至43850。图上有一条蓝色水平线位于约43680处，两条虚线水平线分别位于约43630和43620处，延伸贯穿图表右侧。约09:30至10:30区间内有一个浅色矩形框，价格范围约在43630至43680之间。约09:30处出现一根大幅上涨K线，从约43630延伸至43800附近，随后数根K线在",
+    "case_001_detail_5.jpg": "图表为5分钟K线图，资产代码显示为USD，右上角标注The Market Lens及TTrades_edu。可见价格范围约从43620至44020。图上有多个矩形标注区域，分别位于43620至43660、43780至43860、43940至44020附近，其中部分矩形填充为黄色或绿色半透明色。图上有两条蓝色水平线分别位于43660和43860附近。图右侧有一条虚线水平线标注文字C4，对应价格约43",
+    "case_001_detail_6.jpg": "图表为5分钟K线图，资产标注为USD，日期标注为2024年12月24日。图上可见价格范围约从43520至44060。图上有两条贯穿全图的水平线，分别位于44000和43620附近。另有两条较短的蓝色水平线段，分别位于43860和43680附近。图上标注有一个黄色矩形区域，位于43760至43820价格区间，时间约在09:30至10:00之间。K线从07:00至09:15在43620至43680区间"
+  },
+  "sources": [
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        149.76,
+        365.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从小时图到5分钟图的分析过程，清晰标注了关键价位（43620、43680等），详细解释了反转vs延续入场的对比，并通过图表演示了最终的交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:41.013739Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC小时图V形反转到5分钟图多头延续交易\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H / 5M\",\"market_context\":\"BTC在小时图形成V形反转，价格从低点回升并收盘回到整理区间内。博主从小时图下钻到5分钟图，寻找对齐的分形模型以确认上升趋势的有效性。\",\"key_observation\":\"博主识别出小时图的V形反转和整理突破后，在5分钟图上等待受保护低点（Protected Low）的形成，然后通过进入FVG并收盘穿过下跌K线来确认延续入场，获得更优的风险回报比。\",\"analysis_steps\":[\"Step 1: 在小时图上观察到价格收盘回到整理区间内，形成V形反转的初步信号。\",\"Step 2: 下钻到5分钟图，检查是否已形成交付状态改变（CSD），即收盘穿过形成低点的下跌K线序列。\",\"Step 3: 标记出关键水平位（约43620），等待收盘穿过该水平以形成受保护低点。\",\"Step 4: 收盘穿过后，受保护低点成立，确认可以寻找多头入场机会，目标指向前一天高点（Friday high）。\",\"Step 5: 评估反转入场的风险回报比，发现止损在受保护低点时无法达到2R，因此决定等待延续入场。\",\"Step 6: 等待新的受保护摆动形成，观察价格是否进入重要水平（FVG）并收盘穿过下跌K线。\",\"Step 7: 识别第一个FVG入场机会（约43680-43700区间），收盘穿过下跌K线，止损设在受保护低点，可获得更好的2R风险回报。\",\"Step 8: 继续监控，发现价格触及另一个FVG但未能收盘穿过下跌K线，该入场无效。\",\"Step 9: 价格扫除新低后，形成新的下跌K线序列，与分形模型中的第4根K线（C4）对齐，预示新的延续机会。\",\"Step 10: 最终入场成立，价格突破并向目标位运行，验证了延续入场策略的有效性。\"],\"outcome\":\"通过等待延续入场（进入FVG后收盘穿过下跌K线），博主获得了比反转入场更优的2R风险回报比，交易最终成功触及目标位。\",\"lessons\":\"反转入场虽然更早进场，但风险回报比不佳；通过等待价格进入重要水平（FVG）并确认收盘穿过下跌K线的延续入场，可以获得更高质量的交易设置。受保护低点的形成是确认趋势反转的关键，分形模型对齐有助于预测后续的价格行为。\",\"primary_image_frame_id\":\"JHVaSKtE1Ys_f010\",\"supporting_image_frame_ids\":[\"JHVaSKtE1Ys_f006\",\"JHVaSKtE1Ys_f007\",\"JHVaSKtE1Ys_f008\",\"JHVaSKtE1Ys_f009\",\"JHVaSKtE1Ys_f011\",\"JHVaSKtE1Ys_f012\"],\"related_concepts\":[\"Protected Low\",\"Change in State of Delivery (CSD)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Fractal Model\",\"Risk-to-Reward Ratio\",\"Continuation Entry\",\"Reversal Entry\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从小时图到5分钟图的分析过程，清晰标",
+  "error": null
+}

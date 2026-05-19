@@ -1,0 +1,105 @@
+{
+  "card_id": "9PKJ0U1gl4g_case_005_原油期货纽约时段操纵交易",
+  "type": "case",
+  "title": "原油期货纽约时段扫低后位移交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Opening Price Sensitivity",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "propulsion_block",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "60M",
+  "market_context": "原油期货在亚洲伦敦时段盘整，纽约开盘时段扫低止损后形成向下位移，产生公允价值缺口和订单块结构。",
+  "key_observation": "纽约时段扫低后产生向下位移，形成一系列下收K线进入低点前的订单块，随后价格反应并突破开盘价，形成推进块结构。",
+  "analysis_steps": [
+    "Step 1: 观察亚洲伦敦时段价格主要盘整，预期纽约时段会产生操纵性移动。",
+    "Step 2: 识别纽约开盘时扫低止损点，产生向下位移和公允价值缺口。",
+    "Step 3: 确认一系列下收K线进入低点前的区域，形成订单块。",
+    "Step 4: 等待价格反应离开订单块，观察是否有上收K线进入重要区域。",
+    "Step 5: 确认价格收盘低于开盘价，形成新的订单块。",
+    "Step 6: 监控开盘价的敏感性，确保价格不突破或收盘于主要阈值上方。",
+    "Step 7: 观察价格继续下行，确认尊重均值阈值。",
+    "Step 8: 在开盘价处入场，止损设置在低点或K线实体处，目标为2R。",
+    "Step 9: 确认价格不破坏均值阈值，收盘回到推进块外部。",
+    "Step 10: 价格继续上升，达成2R目标。"
+  ],
+  "outcome": "交易成功达成2R目标。入场价约75.00，止损约74.43，目标价约75.90，最终达成目标。",
+  "lessons": "在纽约时段识别扫低后的位移结构，通过订单块和推进块的组合确认高概率入场点。开盘价的敏感性和均值阈值的尊重是确认交易有效性的关键。风险回报比2:1提供了良好的交易机会。",
+  "primary_image": "cards/9PKJ0U1gl4g/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/9PKJ0U1gl4g/images/case_005_detail_1.jpg",
+    "cards/9PKJ0U1gl4g/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "CL1! 60分钟K线图，图上标注一个交易持仓框架，分为上下两个矩形区域。上方绿色矩形标注目标位约75.90，文字显示'Target: 0.90 (1.20%) 90, Amount: 203157.89'；下方灰色矩形标注止损位约74.43，文字显示'Stop: 0.57 (0.76%) 57, Amount: 198000'。中间水平线约75.00处标注'Open P&L: 0.71, Qty",
+    "case_005_detail_1.jpg": "图表显示 CL1!（原油期货）60 分钟 K 线图，时间范围覆盖 2024 年 1 月 23 日至 26 日。可见价格区间约从 73.00 至 76.40。图左侧价格轴标注当前价 75.05（带高亮背景），另有一条水平虚线位于 74.13 处。图中有一条垂直虚线标记于 2024 年 1 月 24 日 06:00。图右上角有文字标注",
+    "case_005_detail_2.jpg": "CL1! 60 分钟 K 线图，时间轴覆盖 2024 年 1 月 23 日至 26 日。图右侧价格刻度范围约从 73.40 到 76.40。图上在 75.06 处有一条带高亮标签的水平参考线，另有一条水平线位于约 74.80 处，两条线均延伸至图右侧。图中 1 月 24 日 09:00 附近出现一根实体较长的阴线，收盘区域约在 75.00 附近。图中还标注有文字标签"
+  },
+  "sources": [
+    {
+      "video_id": "9PKJ0U1gl4g",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        373.479,
+        542.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了CL1! 60分钟图表的分析过程，清晰标注了订单块、推进块、开盘价、止损和目标位，交易结果明确显示达成2R目标。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:08.789657Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油期货纽约时段扫低后位移交易\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"60M\",\"market_context\":\"原油期货在亚洲伦敦时段盘整，纽约开盘时段扫低止损后形成向下位移，产生公允价值缺口和订单块结构。\",\"key_observation\":\"纽约时段扫低后产生向下位移，形成一系列下收K线进入低点前的订单块，随后价格反应并突破开盘价，形成推进块结构。\",\"analysis_steps\":[\"Step 1: 观察亚洲伦敦时段价格主要盘整，预期纽约时段会产生操纵性移动。\",\"Step 2: 识别纽约开盘时扫低止损点，产生向下位移和公允价值缺口。\",\"Step 3: 确认一系列下收K线进入低点前的区域，形成订单块。\",\"Step 4: 等待价格反应离开订单块，观察是否有上收K线进入重要区域。\",\"Step 5: 确认价格收盘低于开盘价，形成新的订单块。\",\"Step 6: 监控开盘价的敏感性，确保价格不突破或收盘于主要阈值上方。\",\"Step 7: 观察价格继续下行，确认尊重均值阈值。\",\"Step 8: 在开盘价处入场，止损设置在低点或K线实体处，目标为2R。\",\"Step 9: 确认价格不破坏均值阈值，收盘回到推进块外部。\",\"Step 10: 价格继续上升，达成2R目标。\"],\"outcome\":\"交易成功达成2R目标。入场价约75.00，止损约74.43，目标价约75.90，最终达成目标。\",\"lessons\":\"在纽约时段识别扫低后的位移结构，通过订单块和推进块的组合确认高概率入场点。开盘价的敏感性和均值阈值的尊重是确认交易有效性的关键。风险回报比2:1提供了良好的交易机会。\",\"primary_image_frame_id\":\"9PKJ0U1gl4g_f018\",\"supporting_image_frame_ids\":[\"9PKJ0U1gl4g_f016\",\"9PKJ0U1gl4g_f017\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Propulsion Block\",\"Liquidity\",\"Market Structure\",\"Opening Price Sensitivity\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了CL1! 60分钟图表的分析过程，清晰标注了订单块、推进块、开盘价、止损和目标位，交易结果明确显示达成2R目标。\"}",
+  "error": null
+}

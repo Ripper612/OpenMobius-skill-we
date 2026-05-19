@@ -1,0 +1,56 @@
+{
+  "card_id": "session_based_trading_asia_london_new_york",
+  "type": "merged_concept",
+  "canonical_term": "Session-based Trading (Asia/London/New York)",
+  "aliases": [
+    "Cross-session AMD analysis",
+    "Multi-session AMD"
+  ],
+  "school": "SMC",
+  "definition": "基于交易时段划分的AMD模式：亚洲积累、伦敦操纵、纽约派发。通过分析不同交易时段的价格行为预测跨时段的价格走势。",
+  "identification_rules": [
+    "识别亚洲时段（Asia）：寻找盘整或巩固形态，标记出高点和低点范围作为积累区间",
+    "识别伦敦时段（London）：观察是否出现激进的位移（Displacement）突破亚洲范围，然后回测该范围，标记为操纵腿",
+    "识别纽约时段（New York）：预期价格继续沿伦敦操纵方向运动，寻找旧高点、失败摆动或标准差目标作为派发目标",
+    "使用标准差投影：从伦敦操纵腿的低点到高点进行投影，识别-2至-2.5标准差区域作为潜在目标"
+  ],
+  "trading_implication": "该概念用于多时段联动分析，通过识别各时段的AMD阶段来预测价格目标。交易者在伦敦时段识别操纵腿后，可在纽约时段寻找入场机会，目标通常为旧高点、失败摆动或标准差投影区域。需结合Order Block、Fair Value Gap等工具确认入场点和止损位。",
+  "common_mistakes": [
+    "未正确识别亚洲积累阶段的范围边界，导致后续操纵腿判断错误",
+    "将任何价格突破误认为操纵腿，应确认突破后有回测进入范围的激进位移",
+    "忽视伦敦操纵腿的投影计算，无法准确定位纽约派发的目标区域",
+    "在没有确认Order Block或下跌K线的情况下仓促入场"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "original_card_id": "Pcbyc9TdNsU_concept_session_based_trading_asia_london_new_yo",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        415.96,
+        660.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135688Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

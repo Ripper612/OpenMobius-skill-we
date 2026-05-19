@@ -1,0 +1,58 @@
+{
+  "card_id": "range_trading_setup",
+  "type": "merged_concept",
+  "canonical_term": "Range Trading Setup",
+  "aliases": [
+    "Consolidation Trading",
+    "Range Breakout Setup"
+  ],
+  "school": "Price Action",
+  "definition": "在盘整区间内等待一侧被突破后，交易至另一侧的设置。需确认失败摇摆存在、范围高低点明确，以及突破后的目标位有效。",
+  "identification_rules": [
+    "识别一个明确的盘整区间：前一根K线的范围涵盖其后所有K线",
+    "确认两侧都存在失败摇摆（failure swings），即高时间框架K线不重叠",
+    "标记范围的高点和低点作为关键水平",
+    "等待范围的一侧被突破（取出范围高或范围低）",
+    "突破后，以范围的另一侧作为交易目标"
+  ],
+  "trading_implication": "范围交易的核心是等待突破确认后才入场，避免在盘整中过早交易。突破一侧后，目标通常是范围的另一侧。需要评估突破时的时间、K线形态（如是否有大影线）和高时间框架支撑，以判断目标的可达性。若高时间框架K线不支持扩张（如大影线），则目标可能缩小至日开盘价或会话低点。",
+  "common_mistakes": [
+    "在范围内部交易而非等待突破确认",
+    "突破后盲目交易至范围另一侧，忽视高时间框架K线形态（如大影线）对目标的限制",
+    "未确认失败摇摆存在就认为范围有效",
+    "忽视交易时段和日内时间对目标可达性的影响（如午盘油气交易不太可能回到早盘高点）"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_range_trading_setup",
+      "segment_ids": [
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        473.199,
+        605.36
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135211Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

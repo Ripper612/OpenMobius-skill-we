@@ -1,0 +1,118 @@
+{
+  "card_id": "NgFIza9qsGQ_case_002_s_p_500_e_mini期货看跌mitigation_blo",
+  "type": "case",
+  "title": "ES期货5分钟FVG看跌Mitigation Block多次成功触及目标",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Cheat Code Entry",
+      "card_id": "cheat_code_entry",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "mitigation_block",
+    "cheat_code_entry",
+    "order_block_ob",
+    "inducement",
+    "displacement",
+    "market_structure_shift_mss",
+    "time_frame_confluence",
+    "risk_to_reward_management"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1M / 5M / 15S (多时间框架)",
+  "market_context": "ES在早盘形成看跌趋势，价格从高点3932.50下跌至3912.00区间。5分钟图表显示两个FVG（w5 FVG和w1 FVG），价格在3871.25-3923.75范围内震荡。博主通过多时间框架分析识别Mitigation Block和Cheat Code入场机会。",
+  "key_observation": "价格在5分钟FVG处形成看跌模型，未能突破前期高点，确认了下行趋势。通过15秒图表识别多个Mitigation Block和Cheat Code入场点，每次都成功触及下行目标3887.50附近。",
+  "analysis_steps": [
+    "Step 1: 在1分钟图表上识别Inducement设置，标记出趋势高点和失败的向上突破",
+    "Step 2: 切换到5分钟图表，标注w5 FVG和w1 FVG两个公允价值缺口区域",
+    "Step 3: 观察价格无法突破前期高点，确认看跌趋势延续的信号",
+    "Step 4: 切换到15秒图表，等待激进的价格行动进入FVG区域",
+    "Step 5: 识别第一个Mitigation Block：绿色K线收盘后，若突破该低点则形成Mitigation Block，止损设在该低点上方",
+    "Step 6: 第一个Mitigation Block入场成功触及目标3904.50",
+    "Step 7: 识别第二个Mitigation Block，使用相同逻辑，再次成功触及目标",
+    "Step 8: 应用Cheat Code入场法则：在绿色K线收盘后，在下一根K线开盘价做空，止损设在前高点上方1点",
+    "Step 9: 第一个Cheat Code入场成功触及目标",
+    "Step 10: 第二个Cheat Code入场同样成功触及目标，风险回报比极佳"
+  ],
+  "outcome": "多次成功：第一个Mitigation Block从约3895入场触及3887.50目标；第二个Mitigation Block成功；第一个Cheat Code入场成功；第二个Cheat Code入场成功。所有入场都以较小的4点止损实现了对下行目标的触及。",
+  "lessons": "在趋势中使用多时间框架分析可以大幅降低止损幅度。Mitigation Block和Cheat Code是低时间框架内高概率的入场方法，特别是当价格在高时间框架FVG处形成看跌模型时。关键是等待激进的价格行动确认趋势方向，而非直接在FVG处入场。",
+  "primary_image": "cards/NgFIza9qsGQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/NgFIza9qsGQ/images/case_002_detail_1.jpg",
+    "cards/NgFIza9qsGQ/images/case_002_detail_2.jpg",
+    "cards/NgFIza9qsGQ/images/case_002_detail_3.jpg",
+    "cards/NgFIza9qsGQ/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 15 秒图表。图上有三个矩形标注框，分别标记为绿色（上方）、灰色（中间）和红色（下方）。绿色框标注目标价位 3904.50 附近，标签显示目标收益信息。红色框标注止损价位 3887.50 附近。灰色框位于中间，标注开盘、收盘及最大利润数据。K 线呈绿黑相间排列，左侧部分 K 线具有较长下影线。可见价格范围从 3887.50 至 3904.50，跨度约 ",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 1分钟图。图上标注文字'Inducement'位于左侧。可见价格范围约从3878到3922。图上绘有多条趋势线连接摆动高低点，以及两个矩形区域分别标记在上下价格区间。K线呈现交替的绿色和黑色蜡烛，上方区域约在3910至3925之间，下方区域约在3880至3910之间。最右侧K线具有长下影线，向下刺破至约3878。图上有一条水平虚线位于约3914.50处",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图表显示从06:00至13:00的价格走势，价格范围在3871.25至3923.75之间。图上标注有三个矩形区域，其中两个带有文字标签'w5 FVG'和'w1 FVG'。K线序列包含绿色和黑色蜡烛，09:30附近出现一根较大的绿色K线，上影线延伸至3923.75。随后出现一系列黑色K线，整体形成在3882至3913区间的盘整形态。右侧价格",
+    "case_002_detail_3.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示从左至右的多根绿色和黑色K线。右侧价格刻度范围从2847.00至3915.00。图上标注有5条水平线，分别位于3906.25、3891.75、3878.75、3894.25和3891.00处。中部价格区域内有两个矩形框标注，其中一个覆盖3891.00至3906.25区间，另一个覆盖3878.75至3894.25区间。图上可见文字",
+    "case_002_detail_4.jpg": "S&P 500 E-mini Futures 1分钟K线图。图上可见价格范围约3880至3930。两条灰色矩形框分别标注为FVG和OB，FVG框位于上方约3900至3917.50区间，OB框位于下方约3880至3900区间。图上有一条竖虚线标记时间戳Fri 14 Dec 22 09:50。K线呈现绿黑相间的形态，在标注区域附近形成整理。右侧价格刻度显示当前价位在3917.50附近。"
+  },
+  "sources": [
+    {
+      "video_id": "NgFIza9qsGQ",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        187.799,
+        545.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从5分钟FVG识别到15秒Mitigation Block和Cheat Code入场的全过程，多次成功触及目标，关键价位和时间框架清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:41.084337Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货5分钟FVG看跌Mitigation Block多次成功触及目标\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1M / 5M / 15S (多时间框架)\",\"market_context\":\"ES在早盘形成看跌趋势，价格从高点3932.50下跌至3912.00区间。5分钟图表显示两个FVG（w5 FVG和w1 FVG），价格在3871.25-3923.75范围内震荡。博主通过多时间框架分析识别Mitigation Block和Cheat Code入场机会。\",\"key_observation\":\"价格在5分钟FVG处形成看跌模型，未能突破前期高点，确认了下行趋势。通过15秒图表识别多个Mitigation Block和Cheat Code入场点，每次都成功触及下行目标3887.50附近。\",\"analysis_steps\":[\"Step 1: 在1分钟图表上识别Inducement设置，标记出趋势高点和失败的向上突破\",\"Step 2: 切换到5分钟图表，标注w5 FVG和w1 FVG两个公允价值缺口区域\",\"Step 3: 观察价格无法突破前期高点，确认看跌趋势延续的信号\",\"Step 4: 切换到15秒图表，等待激进的价格行动进入FVG区域\",\"Step 5: 识别第一个Mitigation Block：绿色K线收盘后，若突破该低点则形成Mitigation Block，止损设在该低点上方\",\"Step 6: 第一个Mitigation Block入场成功触及目标3904.50\",\"Step 7: 识别第二个Mitigation Block，使用相同逻辑，再次成功触及目标\",\"Step 8: 应用Cheat Code入场法则：在绿色K线收盘后，在下一根K线开盘价做空，止损设在前高点上方1点\",\"Step 9: 第一个Cheat Code入场成功触及目标\",\"Step 10: 第二个Cheat Code入场同样成功触及目标，风险回报比极佳\"],\"outcome\":\"多次成功：第一个Mitigation Block从约3895入场触及3887.50目标；第二个Mitigation Block成功；第一个Cheat Code入场成功；第二个Cheat Code入场成功。所有入场都以较小的4点止损实现了对下行目标的触及。\",\"lessons\":\"在趋势中使用多时间框架分析可以大幅降低止损幅度。Mitigation Block和Cheat Code是低时间框架内高概率的入场方法，特别是当价格在高时间框架FVG处形成看跌模型时。关键是等待激进的价格行动确认趋势方向，而非直接在FVG处入场。\",\"primary_image_frame_id\":\"NgFIza9qsGQ_f012\",\"supporting_image_frame_ids\":[\"NgFIza9qsGQ_f002\",\"NgFIza9qsGQ_f010\",\"NgFIza9qsGQ_f011\",\"NgFIza9qsGQ_f014\",\"NgFIza9qsGQ_f017\",\"NgFIza9qsGQ_f018\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Mitigation Block\",\"Cheat Code Entry\",\"Order Block (OB)\",\"Inducement\",\"Displacement\",\"Market Stru",
+  "error": null
+}

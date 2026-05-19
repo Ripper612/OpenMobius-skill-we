@@ -1,0 +1,101 @@
+{
+  "card_id": "Y8DkNYhq0X0_case_002_纳斯达克100_1小时看跌订单块案例",
+  "type": "case",
+  "title": "纳斯达克100 1小时看跌订单块识别与回测",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Bearish Order Block",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "market_structure_shift",
+    "displacement",
+    "premium_discount_premium_",
+    "fair_value_gap"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H",
+  "market_context": "纳斯达克100在1小时图上经历上升走势，扫除买方流动性后向下破结构，形成看跌订单块。博主通过识别上升K线作为订单块，预期价格后续回测该区域时遭遇阻力。",
+  "key_observation": "价格在上升过程中扫除摆动高点的买方流动性，随后向下破结构。上升过程中的K线（特别是扫除流动性前的上升K线）形成看跌订单块，预期成为后续下跌中的阻力区域。",
+  "analysis_steps": [
+    "Step 1: 识别摆动高点并确认是否扫除买方流动性（Buyside Liquidity）",
+    "Step 2: 确认价格是否向下破结构（Market Structure Shift）",
+    "Step 3: 定位在破结构前扫除流动性的上升K线作为看跌订单块（Bearish Order Block）",
+    "Step 4: 预期价格后续回测该订单块区域时遭遇阻力",
+    "Step 5: 观察价格是否确实在订单块区域获得阻力并反弹"
+  ],
+  "outcome": "价格确实在识别的订单块区域获得阻力，验证了看跌订单块的有效性。",
+  "lessons": "在趋势中识别订单块时，应关注扫除流动性的K线而非单一K线。多根下跌K线序列或单根小实体K线也可作为订单块。价格在向高时间框架PD阵列运动时，倾向于尊重沿途的看涨或看跌订单块。",
+  "primary_image": "cards/Y8DkNYhq0X0/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/Y8DkNYhq0X0/images/case_002_detail_1.jpg",
+    "cards/Y8DkNYhq0X0/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NASDAQ 100 E-mini Futures 1小时K线图。图表显示价格范围从11685到12085。右侧显示当前价格标签11843.00。图上有两条水平线分别位于11843.00和11809.50。中间区域有一个矩形标注框。K线序列显示初期大幅上升的绿色K线，随后是11700至11850区间内的多根交替绿黑K线，之后出现一根到达12085的大绿K线，随即跟随黑色K线，最后几根K线呈下降趋势",
+    "case_002_detail_1.jpg": "NASDAQ 100 E-mini Futures 1 小时 K 线图。图上显示从左侧起始的大幅绿色 K 线，随后是 12:00 至 18:00 期间在 11700 至 11750 区间内的多根绿黑相间 K 线。图中央有一条水平线标注在 11763.00 处，上方绘有矩形框。00:00 时刻附近出现一根带长上影线的大绿 K 线，上影线延伸至 12380 附近，随后跟随一根大黑 K 线。右侧价格标签",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示从左侧约4025价位向下运行至约3975的下跌走势，随后出现上升走势回升至4020附近。图右侧有一条粉色矩形框标注，框体范围约在4002.50至4020.00之间。两条虚线水平线分别位于4020.00和4002.50处。可见K线包含多根绿色和黑色蜡烛，其中约11:00时刻有一根较大的绿色K线向上突破。图下方显示成交量指标。"
+  },
+  "sources": [
+    {
+      "video_id": "Y8DkNYhq0X0",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        216.36,
+        400.62
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ1小时图的分析完整清晰，资产、时间框架、关键步骤（扫除流动性→破结构→识别订单块→回测阻力）均明确，结果也得到验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:40.813771Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克100 1小时看跌订单块识别与回测\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H\",\"market_context\":\"纳斯达克100在1小时图上经历上升走势，扫除买方流动性后向下破结构，形成看跌订单块。博主通过识别上升K线作为订单块，预期价格后续回测该区域时遭遇阻力。\",\"key_observation\":\"价格在上升过程中扫除摆动高点的买方流动性，随后向下破结构。上升过程中的K线（特别是扫除流动性前的上升K线）形成看跌订单块，预期成为后续下跌中的阻力区域。\",\"analysis_steps\":[\"Step 1: 识别摆动高点并确认是否扫除买方流动性（Buyside Liquidity）\",\"Step 2: 确认价格是否向下破结构（Market Structure Shift）\",\"Step 3: 定位在破结构前扫除流动性的上升K线作为看跌订单块（Bearish Order Block）\",\"Step 4: 预期价格后续回测该订单块区域时遭遇阻力\",\"Step 5: 观察价格是否确实在订单块区域获得阻力并反弹\"],\"outcome\":\"价格确实在识别的订单块区域获得阻力，验证了看跌订单块的有效性。\",\"lessons\":\"在趋势中识别订单块时，应关注扫除流动性的K线而非单一K线。多根下跌K线序列或单根小实体K线也可作为订单块。价格在向高时间框架PD阵列运动时，倾向于尊重沿途的看涨或看跌订单块。\",\"primary_image_frame_id\":\"Y8DkNYhq0X0_f001\",\"supporting_image_frame_ids\":[\"Y8DkNYhq0X0_f009\",\"Y8DkNYhq0X0_f011\"],\"related_concepts\":[\"Order Block\",\"Bearish Order Block\",\"Liquidity\",\"Buyside Liquidity\",\"Market Structure Shift\",\"Displacement\",\"PD array\",\"Fair Value Gap\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ1小时图的分析完整清晰，资产、时间框架、关键步骤（扫除流动性→破结构→识别订单块→回测阻力）均明确，结果也得到验证。\"}",
+  "error": null
+}

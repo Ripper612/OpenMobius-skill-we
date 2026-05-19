@@ -1,0 +1,117 @@
+{
+  "card_id": "qdQYhePcvGE_case_006_15分钟图的多次protected_swing交易",
+  "type": "case",
+  "title": "15分钟图多次Protected Swing的连续交易机会",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Retest",
+      "card_id": "retest",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "market_structure_shift",
+    "consolidation",
+    "retest",
+    "swing_formation",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "15m",
+  "market_context": "价格在21300-21620区间内形成多个consolidation和protected swing结构。先后扫出低点，形成多个受保护的摆动点，为连续交易提供多个入场机会。",
+  "key_observation": "在15分钟图上，价格形成了一系列protected swing，每次都提供了新的交易机会。博主强调需要看到浅幅回撤、protected swing形成，然后交易延续，同时关注Fair Value Gap作为兴趣点。",
+  "analysis_steps": [
+    "Step 1: 识别consolidation区间（约21420-21480），观察价格是否突破该区间高点",
+    "Step 2: 确认价格扫出consolidation内的低点，形成第一个protected swing",
+    "Step 3: 观察价格是否能够收盘突破前期高点；未能突破则创出新低，追踪该新低",
+    "Step 4: 确认价格收盘突破新低上方，同时保持对之前protected swings的尊重，形成新的protected swing",
+    "Step 5: 在retest处寻找入场机会，止损设在低点，目标指向流动性高点或当日高点",
+    "Step 6: 等待retest确认后，交易延续突破，价格突破目标并继续上行",
+    "Step 7: 在30分钟图上验证protected swing形成后的回撤结构，识别swing lows作为额外入场点",
+    "Step 8: 在3分钟图上等待更高时间框架K线收盘确认反转，并观察是否出现Change in State of Delivery"
+  ],
+  "outcome": "价格成功retest后突破目标，交易延续向上运行，突破初始目标位置并继续上涨。",
+  "lessons": "Protected swing提供了多个交易机会，关键是等待浅幅回撤和protected swing的形成。可以在多个时间框架上寻找入场点：15分钟的retest、30分钟的swing low、3分钟的反转确认。止损应设在protected swing的低点，目标指向未扫除的流动性。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_006_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_006_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_006_detail_3.jpg",
+    "cards/qdQYhePcvGE/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "USD 15分钟K线图。图上显示价格范围从21370到21580。可见多根绿色和黑色K线交替出现，大部分K线具有上下影线。图上有两条水平虚线分别位于21560和21410价格水平。左侧显示当前价格标签21427.25。图中标注有三个矩形框，分别覆盖约21420至21450、21430至21460、21460至21490的价格区间。中间部分可见长下影线K线，下影线延伸至21375附近。右侧部分K线主",
+    "case_006_detail_1.jpg": "USD 15分钟K线图。图上可见价格范围从21300到21620。左侧有一个黄色矩形标注，覆盖约21440至21540的价格区间。图上绘有三条水平虚线分别位于21560、21480和21389.50处。右侧显示当前价格为21389.50，带圆形指示符。K线图显示多根绿色和黑色实体的蜡烛线，部分蜡烛线具有较长的上影线。图表底部显示时间轴标记从12:00至21:00，以及日期标记为'Mon 02 Ju",
+    "case_006_detail_2.jpg": "USD 15分钟K线图。图上显示时间范围从6月2日至6月3日，当前时间标记为07:30。可见价格范围约21370至21580。图上有两条水平线分别位于21475和21430处。此外标注了两个矩形区域，分别约在21420-21480和21430-21475价格范围内。K线呈现绿黑相间的形态，其中标记为C2的K线具有向下延伸的长下影线，触及约21370。右下角显示时间框架为15分钟，标注信息包括'Bi",
+    "case_006_detail_3.jpg": "图表显示 USD 资产 15 分钟时间框架的 K 线图。价格范围从 21400.00 到 21620.00。图上有多条水平线标注，分别位于 21564.25、21541.50、21510.00 和 21515.00。图上绘制了四个矩形区域，其中黄色矩形覆盖 21510 至 21541.50 区间，浅绿色矩形覆盖 21515 至 21600 区间，灰色矩形位于图表下方。K 线呈现绿色和黑色交替，其中",
+    "case_006_detail_4.jpg": "USD 30分钟K线图。图上显示价格范围从21320到21660。可见两条水平虚线分别位于21432和21460处。图上有一个矩形框标注，范围约在21380至21460之间。左侧显示一根大幅下跌的黑色K线，下影线刺破至21320附近。中间区域显示多根K线在21380至21520区间内震荡，包含绿色和黑色K线。右侧显示一根大幅上涨的绿色K线从21430上升至21590。图右下角显示时间标记'Mon "
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "time_range": [
+        787.68,
+        922.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了15分钟图的protected swing形成过程、多次交易机会、价格目标和实际结果，并跨越多个时间框架验证。关键价位、分析步骤和交易逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:53.135919Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"15分钟图多次Protected Swing的连续交易机会\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"15m\",\"market_context\":\"价格在21300-21620区间内形成多个consolidation和protected swing结构。先后扫出低点，形成多个受保护的摆动点，为连续交易提供多个入场机会。\",\"key_observation\":\"在15分钟图上，价格形成了一系列protected swing，每次都提供了新的交易机会。博主强调需要看到浅幅回撤、protected swing形成，然后交易延续，同时关注Fair Value Gap作为兴趣点。\",\"analysis_steps\":[\"Step 1: 识别consolidation区间（约21420-21480），观察价格是否突破该区间高点\",\"Step 2: 确认价格扫出consolidation内的低点，形成第一个protected swing\",\"Step 3: 观察价格是否能够收盘突破前期高点；未能突破则创出新低，追踪该新低\",\"Step 4: 确认价格收盘突破新低上方，同时保持对之前protected swings的尊重，形成新的protected swing\",\"Step 5: 在retest处寻找入场机会，止损设在低点，目标指向流动性高点或当日高点\",\"Step 6: 等待retest确认后，交易延续突破，价格突破目标并继续上行\",\"Step 7: 在30分钟图上验证protected swing形成后的回撤结构，识别swing lows作为额外入场点\",\"Step 8: 在3分钟图上等待更高时间框架K线收盘确认反转，并观察是否出现Change in State of Delivery\"],\"outcome\":\"价格成功retest后突破目标，交易延续向上运行，突破初始目标位置并继续上涨。\",\"lessons\":\"Protected swing提供了多个交易机会，关键是等待浅幅回撤和protected swing的形成。可以在多个时间框架上寻找入场点：15分钟的retest、30分钟的swing low、3分钟的反转确认。止损应设在protected swing的低点，目标指向未扫除的流动性。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f029\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f027\",\"qdQYhePcvGE_f028\",\"qdQYhePcvGE_f030\",\"qdQYhePcvGE_f031\"],\"related_concepts\":[\"Protected Swing\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Market Structure Shift\",\"Change in State of Delivery\",\"Consolidation\",\"Retest\",\"Swing Low\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了15分钟图的protected swing形成过程、多次交易机会、价格目标和实际结果，并跨越多个时间框架验证。关键价位、分析步骤和交易逻辑清晰。\"}",
+  "error": null
+}

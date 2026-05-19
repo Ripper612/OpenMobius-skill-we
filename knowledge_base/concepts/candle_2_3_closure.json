@@ -1,0 +1,54 @@
+{
+  "card_id": "candle_2_3_closure",
+  "type": "merged_concept",
+  "canonical_term": "Candle 2/3 Closure",
+  "aliases": [
+    "Candle 2 Closure",
+    "Candle 3 Closure"
+  ],
+  "school": "ICT",
+  "definition": "在相关摆动点形成反应时，观察第2或第3根K线的收盘位置，使用灯芯或EQ水平判断价格是否尊重该摆动点，以确认反转或突破的有效性。",
+  "identification_rules": [
+    "价格交易进入相关摆动高点或低点后，计数形成的K线序列",
+    "观察第2根或第3根K线的收盘价位置",
+    "使用该K线的灯芯（wick）或EQ（50%中点）与摆动点进行对比",
+    "若收盘或灯芯尊重摆动点水平，则确认反应有效；若突破则表示突破或操纵"
+  ],
+  "trading_implication": "Candle 2/3 Closure是判断价格在相关摆动点处反应有效性的关键工具。通过观察前2-3根K线的收盘和灯芯位置，交易者可以区分是否形成真实反转（Manipulation）或突破（Breakout）。这帮助确认是否应该在该摆动点交易离场，或继续持仓等待进一步确认。",
+  "common_mistakes": [
+    "未在相关摆动点处应用此规则，而是在不相关的摆动点处使用",
+    "仅看收盘价而忽视灯芯或EQ水平的重要性",
+    "未结合有效分离（Valid Separation）概念，在距离过近的摆动点处应用此规则"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_candle_2_3_closure",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        139.76,
+        230.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:53:26.945162Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

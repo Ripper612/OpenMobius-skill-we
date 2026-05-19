@@ -1,0 +1,97 @@
+{
+  "card_id": "IJcfC6wAPZU_case_004_纳指期货_nq_盘整突破后的多次延续机会",
+  "type": "case",
+  "title": "NQ盘整突破后的多次延续交易机会",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candles",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Continuation Entry",
+      "card_id": "retest_entry",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift",
+    "retest_entry",
+    "liquidity",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5m",
+  "market_context": "NQ从盘整范围（约20745-20800）向下突破，扫出低点后反向上升，在5分钟图中形成多个回测FVG和对立K线的延续入场点。",
+  "key_observation": "价格突破盘整范围后，多次回测Fair Value Gap并形成对立K线（opposing candles），提供C2、C4等多个高概率延续入场机会。",
+  "analysis_steps": [
+    "Step 1: 识别盘整范围突破——价格从约20800的盘整区向下突破至20740附近，扫出低点。",
+    "Step 2: 确认反向结构——价格反向上升，回测之前的FVG区域（约20750-20800）。",
+    "Step 3: 寻找第一个延续入场点（C2）——价格回测FVG后形成对立K线，收盘穿过前期上升K线的收盘价，满足延续条件。",
+    "Step 4: 评估后续延续机会——价格继续上升，但某些K线未能到达FVG或扫出高点，不符合延续条件，需要等待更清晰的结构。",
+    "Step 5: 识别第二个延续入场点（C4）——价格再次回测FVG，形成对立K线并收盘穿过前期K线，提供另一个延续入场机会。",
+    "Step 6: 确认目标——两个延续入场点都指向相同的下行目标（扫出的低点），风险回报比一致。"
+  ],
+  "outcome": null,
+  "lessons": "在盘整突破后，多次回测FVG并形成对立K线的K线提供高概率延续入场点。关键是严格要求K线必须到达FVG或扫出摆动高点，并在前期K线收盘价处形成对立，避免追逐不完整的结构。",
+  "primary_image": "cards/IJcfC6wAPZU/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/IJcfC6wAPZU/images/case_004_detail_1.jpg",
+    "cards/IJcfC6wAPZU/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "NQ1! 5 分钟 K 线图，时间范围覆盖 10 月 29 日约 05:30 至 14:30。图右下角标注'5m-IH Model'及'Bias: Neutral'。图上可见两条贴近的水平线位于约 20745 至 20750 区域，另有水平线位于约 20800 及 20860 附近。图上有两个浅绿色矩形框，分别标注'C2'（约 20750 至 20800）和'C4'（约 20835 至 20910",
+    "case_004_detail_1.jpg": "图为 NQ1! 5 分钟 K 线图，时间轴覆盖 06:30 至 13:00，日期标注为 Tue 29 Oct，右下角注明 5m-1H Model 及 Bias: Neutral。可见价格范围约 20660 至 20980。图上有两条水平线位于约 20750 附近延伸至图右侧。09:30 附近出现一根大阴线，主体从约 20800 向下延伸至约 20740。10:00 附近有一根大阳线主体至约 208",
+    "case_004_detail_2.jpg": "ES1! 5分钟K线图，时间范围覆盖06:00至15:00，可见价格区间约为5827.50至5905.00。图上标注有三个矩形色块：橙黄色矩形覆盖约5887.50至5895.00区域，灰色矩形覆盖约5855.00至5875.00区域，青色矩形覆盖约5840.00至5865.00区域。图上可见文字标签C2、C4及数值标注-1、-2、-2.5、-4、-4.5，并有多条水平虚线。右下角显示'5m-1H "
+  },
+  "sources": [
+    {
+      "video_id": "IJcfC6wAPZU",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        731.16,
+        910.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了NQ从盘整突破到多次延续入场的全过程，清晰标注了C2、C4两个入场点，价格水平和时间框架均从图表读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:59.527702Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ盘整突破后的多次延续交易机会\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5m\",\"market_context\":\"NQ从盘整范围（约20745-20800）向下突破，扫出低点后反向上升，在5分钟图中形成多个回测FVG和对立K线的延续入场点。\",\"key_observation\":\"价格突破盘整范围后，多次回测Fair Value Gap并形成对立K线（opposing candles），提供C2、C4等多个高概率延续入场机会。\",\"analysis_steps\":[\"Step 1: 识别盘整范围突破——价格从约20800的盘整区向下突破至20740附近，扫出低点。\",\"Step 2: 确认反向结构——价格反向上升，回测之前的FVG区域（约20750-20800）。\",\"Step 3: 寻找第一个延续入场点（C2）——价格回测FVG后形成对立K线，收盘穿过前期上升K线的收盘价，满足延续条件。\",\"Step 4: 评估后续延续机会——价格继续上升，但某些K线未能到达FVG或扫出高点，不符合延续条件，需要等待更清晰的结构。\",\"Step 5: 识别第二个延续入场点（C4）——价格再次回测FVG，形成对立K线并收盘穿过前期K线，提供另一个延续入场机会。\",\"Step 6: 确认目标——两个延续入场点都指向相同的下行目标（扫出的低点），风险回报比一致。\"],\"outcome\":null,\"lessons\":\"在盘整突破后，多次回测FVG并形成对立K线的K线提供高概率延续入场点。关键是严格要求K线必须到达FVG或扫出摆动高点，并在前期K线收盘价处形成对立，避免追逐不完整的结构。\",\"primary_image_frame_id\":\"IJcfC6wAPZU_f026\",\"supporting_image_frame_ids\":[\"IJcfC6wAPZU_f025\",\"IJcfC6wAPZU_f031\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Opposing Candles\",\"Market Structure Shift\",\"Continuation Entry\",\"Liquidity\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了NQ从盘整突破到多次延续入场的全过程，清晰标注了C2、C4两个入场点，价格水平和时间框架均从图表读取。\"}",
+  "error": null
+}

@@ -1,0 +1,63 @@
+{
+  "card_id": "breaker_structure",
+  "type": "merged_concept",
+  "canonical_term": "Breaker Structure",
+  "aliases": [
+    "破坏结构",
+    "突破结构"
+  ],
+  "school": "ICT",
+  "definition": "价格在扫盘流动性后，向相反方向突破前期摆动高/低点的结构形态。用于确认订单块的有效性和方向性。",
+  "identification_rules": [
+    "首先识别流动性扫盘：价格突破并穿过摆动高点（看跌）或摆动低点（看涨）",
+    "其次识别反向突破：价格随后向相反方向突破该摆动点，形成破坏结构",
+    "看跌破坏结构：先扫盘买方流动性（高点），再向下突破该高点",
+    "看涨破坏结构：先扫盘卖方流动性（低点），再向上突破该低点",
+    "破坏结构出现后，在扫盘前形成的K线（大实体、小影线）即为有效订单块"
+  ],
+  "trading_implication": "破坏结构确认了订单块的有效性。交易者在识别破坏结构后，定位扫盘前的K线作为订单块，用其开盘价、影线或均值作为支撑/阻力位。当价格回测该订单块区域时，预期获得支撑或阻力，形成高概率交易机会。破坏结构是从流动性扫盘到订单块确认的关键中间步骤。",
+  "common_mistakes": [
+    "混淆订单块与破坏结构：订单块是扫盘前的K线，破坏结构是扫盘后的反向突破，两者不同",
+    "选择错误的K线作为订单块：应选择扫盘时的大实体K线，而非扫盘后的小K线",
+    "未等待破坏结构确认就交易订单块：必须先看到反向突破（破坏结构），才能确认订单块有效"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "Y8DkNYhq0X0_case_001_标普500_5分钟看涨订单块案例",
+      "video_id": "Y8DkNYhq0X0",
+      "title": "标普500 5分钟看涨订单块识别与回测案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "Y8DkNYhq0X0",
+      "original_card_id": "Y8DkNYhq0X0_concept_breaker_structure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        400.62
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131309Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

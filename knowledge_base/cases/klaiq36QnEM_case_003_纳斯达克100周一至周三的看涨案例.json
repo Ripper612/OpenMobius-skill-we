@@ -1,0 +1,102 @@
+{
+  "card_id": "klaiq36QnEM_case_003_纳斯达克100周一至周三的看涨案例",
+  "type": "case",
+  "title": "纳斯达克100周一至周三看涨结构扩展案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Draw on Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "liquidity",
+    "market_structure_shift",
+    "draw_on_liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D / 1H",
+  "market_context": "周五形成等高点后，周一突破前日高点但回落至范围内；周二在纽约盘触及draw on liquidity；周三继续上升扩展，预期看涨周。",
+  "key_observation": "周五等高点作为未来目标；周一突破前日高点后的回落确认看涨结构；周二触及draw on liquidity后反弹；周三继续扩展上升。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别周五形成的等高点（equal highs），标记为未来目标区域。",
+    "Step 2: 观察周一开盘后的行为——突破前日高点（Friday's High）后出现aggressive displacement lower。",
+    "Step 3: 在日线图上标记draw on liquidity区域（位于周二触及的低点）。",
+    "Step 4: 切换至1小时图表，确认周一突破后的FVG（Fair Value Gap）形成。",
+    "Step 5: 在1小时图上标记Daily Open水平线，观察价格在此区域的支撑作用。",
+    "Step 6: 识别15分钟图表中的FVG，预期纽约盘开盘时价格会上升进入该FVG区域。",
+    "Step 7: 验证周二纽约盘触及draw on liquidity后的反弹，确认看涨结构延续。",
+    "Step 8: 预期周三继续上升扩展，目标指向周五的等高点区域。"
+  ],
+  "outcome": null,
+  "lessons": "在看涨周中，周一的突破+回落+周二触及流动性后反弹，构成了强有力的看涨设置。通过多时间框架（日线、1小时、15分钟）的FVG和draw on liquidity识别，可以预测价格在纽约盘的具体行为，为后续扩展提供高概率入场机会。",
+  "primary_image": "cards/klaiq36QnEM/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/klaiq36QnEM/images/case_003_detail_1.jpg",
+    "cards/klaiq36QnEM/images/case_003_detail_2.jpg",
+    "cards/klaiq36QnEM/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NASDAQ 100 E-mini Futures 日线图。图上显示从3月中旬至4月初的K线走势。可见价格范围约从12100到13200。图上有一条水平线位于13200处。右侧显示价格标签12784.50。K线呈现绿色和黑色交替排列，其中3月20日附近出现一根大幅绿色K线，随后跟随一根黑色K线，上影线延伸至约13040。3月27日至4月3日期间，K线在12600至12800区间内形成整理形态。",
+    "case_003_detail_1.jpg": "NASDAQ 100 E-mini Futures 1小时K线图。图上显示从12月23日至12月31日的价格走势，价格范围约12660至13000。图上有两条水平线标注：FZH标记在12920处，Daily Open标记在12820处。K线呈绿色和黑色混合，显示多根带上下影线的K线。右侧最新K线收于约12723.5。整体K线在两条水平线之间形成波动形态。",
+    "case_003_detail_2.jpg": "NASDAQ 100 E-mini Futures 日线图。图上显示价格范围从 12670 到 12890。一条水平线标记为 Daily Open 位于 12810 处。图中央有一个灰色矩形框标注，覆盖约 12780 至 12800 的价格区间。K 线序列显示绿色和黑色蜡烛混合排列，多根 K 线在 12780 至 12810 区间内形成盘整形态。右下角可见绿色标签文字 WILD。图右侧价格刻度清晰",
+    "case_003_detail_3.jpg": "NASDAQ 100 E-mini Futures 日线图。图上可见从 2 月下旬至 3 月下旬的 K 线序列，价格范围约 11750 至 13250。右侧显示当前价格标签 12782.00 和 12735.50。图上有一个矩形标注框，位置约在 12900 至 13050 区间，标记为 FVG。K 线呈绿色和黑色交替排列，部分 K 线带有上下影线。除矩形标注和价格标签外，图上未见其他指标或形态标注"
+  },
+  "sources": [
+    {
+      "video_id": "klaiq36QnEM",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        184.8,
+        396.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ案例的分析完整清晰：资产代码、时间框架、关键价位、周一至周三的具体行为步骤都有详细讲解，FVG和draw on liquidity的识别过程明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:38.621260Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克100周一至周三看涨结构扩展案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D / 1H\",\"market_context\":\"周五形成等高点后，周一突破前日高点但回落至范围内；周二在纽约盘触及draw on liquidity；周三继续上升扩展，预期看涨周。\",\"key_observation\":\"周五等高点作为未来目标；周一突破前日高点后的回落确认看涨结构；周二触及draw on liquidity后反弹；周三继续扩展上升。\",\"analysis_steps\":[\"Step 1: 在日线图上识别周五形成的等高点（equal highs），标记为未来目标区域。\",\"Step 2: 观察周一开盘后的行为——突破前日高点（Friday's High）后出现aggressive displacement lower。\",\"Step 3: 在日线图上标记draw on liquidity区域（位于周二触及的低点）。\",\"Step 4: 切换至1小时图表，确认周一突破后的FVG（Fair Value Gap）形成。\",\"Step 5: 在1小时图上标记Daily Open水平线，观察价格在此区域的支撑作用。\",\"Step 6: 识别15分钟图表中的FVG，预期纽约盘开盘时价格会上升进入该FVG区域。\",\"Step 7: 验证周二纽约盘触及draw on liquidity后的反弹，确认看涨结构延续。\",\"Step 8: 预期周三继续上升扩展，目标指向周五的等高点区域。\"],\"outcome\":null,\"lessons\":\"在看涨周中，周一的突破+回落+周二触及流动性后反弹，构成了强有力的看涨设置。通过多时间框架（日线、1小时、15分钟）的FVG和draw on liquidity识别，可以预测价格在纽约盘的具体行为，为后续扩展提供高概率入场机会。\",\"primary_image_frame_id\":\"klaiq36QnEM_f009\",\"supporting_image_frame_ids\":[\"klaiq36QnEM_f010\",\"klaiq36QnEM_f011\",\"klaiq36QnEM_f012\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Liquidity\",\"Market Structure Shift\",\"Equal Highs\",\"Draw on Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ案例的分析完整清晰：资产代码、时间框架、关键价位、周一至周三的具体行为步骤都有详细讲解，FVG和draw on liquidity的识别过程明确。\"}",
+  "error": null
+}

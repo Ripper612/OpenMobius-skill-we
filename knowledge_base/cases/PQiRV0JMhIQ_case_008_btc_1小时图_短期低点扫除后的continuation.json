@@ -1,0 +1,101 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_008_btc_1小时图_短期低点扫除后的continuation",
+  "type": "case",
+  "title": "BTC 1小时：短期低点扫除后的continuation确认等待",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "V-shaped Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Short-term Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "market_structure",
+    "v_shaped_reversal",
+    "continuation_pattern",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC在1小时图上经历了从约26375的高点下跌至约23500的低点，随后出现反弹。价格在短期低点附近形成V形反转，并向上测试T-spot区域。",
+  "key_observation": "价格扫除短期低点同时突破该低点，形成潜在的continuation信号，但博主强调需要等待进一步确认以判断是否形成真正的bullish setup或继续下行continuation。",
+  "analysis_steps": [
+    "Step 1: 识别短期低点区域（约23500附近）和T-spot目标区域（约25500附近）",
+    "Step 2: 观察价格向上反弹并接近T-spot区域的运动",
+    "Step 3: 注意到价格同时扫除短期低点并形成V形反转结构",
+    "Step 4: 评估是否会形成bullish setup（如果确认则可能反转）或继续形成新的continuation下行",
+    "Step 5: 决定等待更多K线确认，而不是急于入场"
+  ],
+  "outcome": null,
+  "lessons": "在短期低点被扫除且价格反弹时，不应急于交易。需要等待后续K线确认是否形成真正的反转setup或仅是continuation的诱导，这体现了谨慎的交易原则。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_008_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_008_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_008_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_008_primary.jpg": "BTC 1 小时 K 线图。图上显示从约 26000 下跌至 23500 的下降趋势，跨越多根 K 线。可见价格范围约 23500 至 26250。图上有两条水平线分别位于 25500 和 24500 处。中间区域有一个灰色矩形框标注，范围约在 24000 至 25000。K 线由黑色和绿色混合组成，在 24500 至 25500 区间内出现多次触及。右侧面板显示较大的黑色 K 线主体。多根 K ",
+    "case_008_detail_1.jpg": "BTC 1 小时 K 线图。图上显示从左下至右上的整体价格走势，初期呈上升趋势，绿色 K 线占主导，高点逐步上升至约 26375。中段出现黑色 K 线主导的下跌阶段，价格回落至约 24200 附近。右侧显示绿色 K 线恢复上升，价格回升至约 25500 水平。图上有一条水平线标注在约 25500 价格位置。可见价格范围从 24200 到 26375，共约 40 根 K 线。",
+    "case_008_detail_2.jpg": "BTC 1 小时 K 线图。图上显示价格范围约从 23200 到 24300。左侧区域有一个矩形标注框围绕 24050 至 24150 价格区间。图表中部显示从 24150 向下的下跌走势，跌至 23200 附近。右侧显示两根大型黑色 K 线，主体从约 24100 跌至 23400，伴随较长的下影线。下方有一条水平线在 23700 附近。图上未见其他文字标签或指标标注。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_018"
+      ],
+      "time_range": [
+        971.279,
+        1028.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了识别短期低点、观察反弹、评估continuation vs reversal的分析过程，资产、时间框架、关键价位清晰，分析逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:46.345656Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC 1小时：短期低点扫除后的continuation确认等待\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC在1小时图上经历了从约26375的高点下跌至约23500的低点，随后出现反弹。价格在短期低点附近形成V形反转，并向上测试T-spot区域。\",\"key_observation\":\"价格扫除短期低点同时突破该低点，形成潜在的continuation信号，但博主强调需要等待进一步确认以判断是否形成真正的bullish setup或继续下行continuation。\",\"analysis_steps\":[\"Step 1: 识别短期低点区域（约23500附近）和T-spot目标区域（约25500附近）\",\"Step 2: 观察价格向上反弹并接近T-spot区域的运动\",\"Step 3: 注意到价格同时扫除短期低点并形成V形反转结构\",\"Step 4: 评估是否会形成bullish setup（如果确认则可能反转）或继续形成新的continuation下行\",\"Step 5: 决定等待更多K线确认，而不是急于入场\"],\"outcome\":null,\"lessons\":\"在短期低点被扫除且价格反弹时，不应急于交易。需要等待后续K线确认是否形成真正的反转setup或仅是continuation的诱导，这体现了谨慎的交易原则。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f035\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f033\",\"PQiRV0JMhIQ_f034\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"Market Structure\",\"V-shaped Reversal\",\"Continuation\",\"Short-term Low\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了识别短期低点、观察反弹、评估continuation vs reversal的分析过程，资产、时间框架、关键价位清晰，分析逻辑完整。\"}",
+  "error": null
+}

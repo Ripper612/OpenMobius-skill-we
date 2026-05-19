@@ -1,0 +1,57 @@
+{
+  "card_id": "lower_time_frame_setups",
+  "type": "merged_concept",
+  "canonical_term": "Lower Time Frame Setups",
+  "aliases": [
+    "LTF Setups",
+    "低时间框架交易设置"
+  ],
+  "school": "ICT",
+  "definition": "在8:30和午夜开盘区域内，利用折价区/溢价区寻找的低时间框架交易机会。通过识别价格偏离这些关键开盘价的位置，结合PD数组（如FVG、OB）来确定高概率入场点。",
+  "identification_rules": [
+    "识别日内买卖日类型：买日为开-低-高-收，卖日为开-高-低-收",
+    "在买日中，寻找价格跌破午夜开盘或8:30开盘的低时间框架设置（折价区）",
+    "在卖日中，寻找价格升破午夜开盘或8:30开盘的低时间框架设置（溢价区）",
+    "观察价格是否同时跌破/升破两个开盘价（深折价/深溢价），这是更强的信号",
+    "在这些区域内识别PD数组（FVG、OB、Mitigation Block等）作为具体入场点",
+    "确认价格未能收盘突破这些开盘价时，预示反向运动即将发生"
+  ],
+  "trading_implication": "Lower Time Frame Setups提供了在关键时间窗口（8:30和午夜开盘）内的结构化交易框架。交易者可以利用这些开盘价作为折价/溢价区的分界线，在低时间框架上寻找具体的PD数组（如FVG、OB）进行入场。这些开盘价也可作为枢轴点或目标位。通过观察价格在这些水平的失败收盘信号，可以提前判断日内趋势方向。",
+  "common_mistakes": [
+    "未区分买日和卖日的日内结构，导致交易方向错误",
+    "只关注单一开盘价（8:30或午夜），忽视同时跌破/升破两个开盘价的深折价/深溢价信号强度差异",
+    "在低时间框架上寻找设置时，未结合PD数组（FVG、OB等）的具体位置，而是笼统地在开盘价附近交易",
+    "忽视价格在开盘价附近的失败收盘信号，未能提前识别反向运动"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "b6yvRKf8haE",
+      "original_card_id": "b6yvRKf8haE_concept_lower_time_frame_setups",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.799,
+        188.599
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133983Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

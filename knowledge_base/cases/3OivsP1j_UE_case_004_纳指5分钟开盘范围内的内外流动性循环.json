@@ -1,0 +1,99 @@
+{
+  "card_id": "3OivsP1j_UE_case_004_纳指5分钟开盘范围内的内外流动性循环",
+  "type": "case",
+  "title": "NQ1 5分钟开盘范围内的内外流动性循环",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "internal_range_liquidity",
+    "swing_high_swing_low",
+    "liquidity_sweep",
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M",
+  "market_context": "2023年11月27日NQ1期货5分钟图表，开盘后价格在特定范围内形成，展示市场在内部和外部流动性之间的多次循环往复。",
+  "key_observation": "博主演示了价格如何在开盘形成的范围内反复在内部流动性（Internal Range Liquidity）和外部流动性（External Range Liquidity）之间循环，每次循环伴随FVG的形成与回测。",
+  "analysis_steps": [
+    "Step 1: 识别开盘后形成的初始范围，约15968至16036区间（见f022）",
+    "Step 2: 观察价格首次向下突破范围下沿，扫除下方流动性",
+    "Step 3: 价格从外部流动性回撤至内部范围，形成FVG",
+    "Step 4: 价格再次向上突破范围上沿，扫除上方流动性（外部流动性）",
+    "Step 5: 价格回撤至内部范围，在此过程中形成新的FVG",
+    "Step 6: 确认价格创出新高，突破先前的外部流动性水平",
+    "Step 7: 价格再次回撤至内部范围，形成另一个FVG",
+    "Step 8: 演示该内外流动性循环模式可应用于任何时间框架"
+  ],
+  "outcome": "价格最终突破外部流动性，创出新高至约16058.00，完成了从内部到外部再到内部的多轮循环，每轮循环中FVG被依次形成和回测。",
+  "lessons": "内外流动性循环是短周期图表上的关键模式：价格在扫除一侧流动性后必然回撤至范围内部，形成FVG；若继续运行则扫除另一侧流动性。该模式在5分钟图表上表现清晰，可用于识别高概率入场点和目标位。",
+  "primary_image": "cards/3OivsP1j_UE/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/3OivsP1j_UE/images/case_004_detail_1.jpg",
+    "cards/3OivsP1j_UE/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "NQ1! 5 分钟 K 线图，日期标注为 27/11/2023，图右上角显示水印文字 TTrades_edu。右侧价格轴当前高亮标签显示 16028.25。图上可见三个矩形框标注：一个较大矩形覆盖约 15968 至 16012 区间，一个矩形覆盖约 16004 至 16048 区间，另一个较小矩形覆盖约 16016 至 16032 区间。K 线整体可见范围约从 15944 至 16068。10:0",
+    "case_004_detail_1.jpg": "NQ1! 5 分钟 K 线图，日期为 2023 年 11 月 27 日，数据来源标注为 TTrades_edu。图右侧价格刻度范围约从 15944 至 16068。图上有两条带高亮背景的水平虚线，分别位于 16039.00 和 16029.25。图中绘制有一个矩形框，横跨约 09:00 至 10:10 时间段，纵向覆盖约 15968 至 16036 价格区间。矩形框右侧出现一根较长的绿色 K 线，",
+    "case_004_detail_2.jpg": "NQ1! 5分钟K线图，日期标注为27/11/2023，时间轴覆盖09:00至16:00。图右侧价格轴当前高亮标签显示16058.00。图上可见三个矩形框标注：一个位于约15968至16008区间，一个位于约16036至16050区间，另一个位于约16048至16056区间。图上另有两条水平线，分别位于约16008和16050附近。K线从09:00起呈下行走势至约15980，随后在15980至16"
+  },
+  "sources": [
+    {
+      "video_id": "3OivsP1j_UE",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        535.16,
+        713.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ1 5分钟图表的分析完整清晰，资产代码、时间框架、价格范围、分析步骤均明确，内外流动性循环的演示过程详细，图表标注清楚。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:20:33.180421Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1 5分钟开盘范围内的内外流动性循环\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M\",\"market_context\":\"2023年11月27日NQ1期货5分钟图表，开盘后价格在特定范围内形成，展示市场在内部和外部流动性之间的多次循环往复。\",\"key_observation\":\"博主演示了价格如何在开盘形成的范围内反复在内部流动性（Internal Range Liquidity）和外部流动性（External Range Liquidity）之间循环，每次循环伴随FVG的形成与回测。\",\"analysis_steps\":[\"Step 1: 识别开盘后形成的初始范围，约15968至16036区间（见f022）\",\"Step 2: 观察价格首次向下突破范围下沿，扫除下方流动性\",\"Step 3: 价格从外部流动性回撤至内部范围，形成FVG\",\"Step 4: 价格再次向上突破范围上沿，扫除上方流动性（外部流动性）\",\"Step 5: 价格回撤至内部范围，在此过程中形成新的FVG\",\"Step 6: 确认价格创出新高，突破先前的外部流动性水平\",\"Step 7: 价格再次回撤至内部范围，形成另一个FVG\",\"Step 8: 演示该内外流动性循环模式可应用于任何时间框架\"],\"outcome\":\"价格最终突破外部流动性，创出新高至约16058.00，完成了从内部到外部再到内部的多轮循环，每轮循环中FVG被依次形成和回测。\",\"lessons\":\"内外流动性循环是短周期图表上的关键模式：价格在扫除一侧流动性后必然回撤至范围内部，形成FVG；若继续运行则扫除另一侧流动性。该模式在5分钟图表上表现清晰，可用于识别高概率入场点和目标位。\",\"primary_image_frame_id\":\"3OivsP1j_UE_f023\",\"supporting_image_frame_ids\":[\"3OivsP1j_UE_f022\",\"3OivsP1j_UE_f024\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Internal Range Liquidity\",\"External Range Liquidity\",\"Liquidity Sweep\",\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ1 5分钟图表的分析完整清晰，资产代码、时间框架、价格范围、分析步骤均明确，内外流动性循环的演示过程详细，图表标注清楚。\"}",
+  "error": null
+}

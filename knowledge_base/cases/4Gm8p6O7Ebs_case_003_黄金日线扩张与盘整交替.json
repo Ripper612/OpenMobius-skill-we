@@ -1,0 +1,101 @@
+{
+  "card_id": "4Gm8p6O7Ebs_case_003_黄金日线扩张与盘整交替",
+  "type": "case",
+  "title": "黄金日线扩张-盘整-扩张循环与分形结构",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fractal",
+      "card_id": "fractal",
+      "exists": true
+    },
+    {
+      "term": "Shallow Retracement",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "consolidation",
+    "protected_high_low",
+    "market_structure_shift",
+    "fractal",
+    "change_in_the_state_of_delivery"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "1D",
+  "market_context": "黄金在日线上展现扩张阶段后进入盘整，价格在特定区间（约35.125-35.250）内震荡。博主通过标记盘整高低点，预期价格扫低后突破，进入新的扩张阶段。",
+  "key_observation": "黄金日线呈现扩张-盘整-扩张的分形循环。在盘整阶段扫除低点后突破，预示新的扩张阶段启动。这种模式在小时图上也可观察到，体现市场结构的自相似性。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别初期扩张阶段，观察价格大幅上升的特征。",
+    "Step 2: 标记盘整区间的高点（约35.250）和低点（约35.125），确认价格进入盘整阶段。",
+    "Step 3: 预期价格在盘整中交替测试高低点，寻找突破机会。",
+    "Step 4: 观察价格扫低后的反应，确认是否形成反转信号（如伦敦反转）。",
+    "Step 5: 在小时图上验证分形结构，观察浅回撤伴随扩张的特征。",
+    "Step 6: 标记前一日高点作为后续扩张的目标，预期纽约时段延续上升。"
+  ],
+  "outcome": null,
+  "lessons": "市场结构呈现分形特性，扩张-盘整-扩张的循环在多个时间框架上重复出现。在盘整中标记高低点并等待突破，结合浅回撤特征识别扩张阶段，可提高交易概率。跨时间框架验证（日线+小时图）增强信号可靠性。",
+  "primary_image": "cards/4Gm8p6O7Ebs/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/4Gm8p6O7Ebs/images/case_003_detail_1.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_003_detail_2.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_003_detail_3.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 apoz 日线蜡烛图，货币单位为 USD，时间轴覆盖约 2025 年 2 月初至 4 月中旬。右侧价格轴可见范围约 32.375 至 35.625，当前价格标签显示 34.900。图上有一个较大矩形框，横跨约 2 月 18 日至 3 月 13 日，价格区间约 35.000 至 35.250。另有一个较小矩形框位于约 3 月 17 日至 21 日附近，价格区间约 34.750 至 35.25",
+    "case_003_detail_1.jpg": "图为 apoz/USD 日线蜡烛图，可见价格范围约从 32.250 至 35.500。图上绘有一个矩形框，横跨约 2 月 18 日至 3 月 19 日，价格区间约在 35.125 至 35.250 之间。图右侧价格轴显示三个标签：34.870（高亮）、34.750 及 34.615。图上另有两条短水平蓝线，分别位于约 33.125 和 33.800 处。K 线序列中，约 3 月 13 日附近出现一",
+    "case_003_detail_2.jpg": "图表资产代码显示为 apoz，计价货币为 USD，时间框架为 1h，来源标注为 The Market Lens / Ttrades_edu。图上可见价格范围约从 32375 至 33875。图上有两条蓝色水平线，分别位于约 33875 和 33125 处。右侧价格轴当前价标签显示 33.075。图中部有一条虚线水平线位于约 33240。K 线序列呈现从左侧高位向下运行后于图右侧回升的形态，右侧最新",
+    "case_003_detail_3.jpg": "图表为 NQ1! 1 小时 K 线图，货币单位为 USD，来源标注为 The Market Lens / TTrades_edu。可见价格范围约从 21160 至 22000。图左侧呈现一段连续下行 K 线序列，从约 21960 下行至约 21280。图中部有约 10 根 K 线在 21480 至 21640 区间内横向排列。随后出现一根大阴线跌至约 21280，之后数根绿色 K 线回升至约 21",
+    "case_003_detail_4.jpg": "图表为 NQ1! 1 小时 K 线图，货币单位为 USD，右上角标注 The Market Lens 及 TTrades_edu。可见价格范围约从 21120 至 22000。图左侧呈现一段连续下行的 K 线序列，从约 22000 下行至约 21300。此后 K 线在约 21400 至 21560 区间内形成多根密集排列的小实体 K 线。图中有一条蓝色水平线位于约 21560，一条灰色实线位于约 "
+  },
+  "sources": [
+    {
+      "video_id": "4Gm8p6O7Ebs",
+      "segment_ids": [
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        664.16,
+        797.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线盘整结构、标记高低点、预期扫低突破的全过程，并在小时图验证分形特性，分析逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:24:09.903797Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金日线扩张-盘整-扩张循环与分形结构\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"1D\",\"market_context\":\"黄金在日线上展现扩张阶段后进入盘整，价格在特定区间（约35.125-35.250）内震荡。博主通过标记盘整高低点，预期价格扫低后突破，进入新的扩张阶段。\",\"key_observation\":\"黄金日线呈现扩张-盘整-扩张的分形循环。在盘整阶段扫除低点后突破，预示新的扩张阶段启动。这种模式在小时图上也可观察到，体现市场结构的自相似性。\",\"analysis_steps\":[\"Step 1: 在日线上识别初期扩张阶段，观察价格大幅上升的特征。\",\"Step 2: 标记盘整区间的高点（约35.250）和低点（约35.125），确认价格进入盘整阶段。\",\"Step 3: 预期价格在盘整中交替测试高低点，寻找突破机会。\",\"Step 4: 观察价格扫低后的反应，确认是否形成反转信号（如伦敦反转）。\",\"Step 5: 在小时图上验证分形结构，观察浅回撤伴随扩张的特征。\",\"Step 6: 标记前一日高点作为后续扩张的目标，预期纽约时段延续上升。\"],\"outcome\":null,\"lessons\":\"市场结构呈现分形特性，扩张-盘整-扩张的循环在多个时间框架上重复出现。在盘整中标记高低点并等待突破，结合浅回撤特征识别扩张阶段，可提高交易概率。跨时间框架验证（日线+小时图）增强信号可靠性。\",\"primary_image_frame_id\":\"4Gm8p6O7Ebs_f024\",\"supporting_image_frame_ids\":[\"4Gm8p6O7Ebs_f023\",\"4Gm8p6O7Ebs_f025\",\"4Gm8p6O7Ebs_f026\",\"4Gm8p6O7Ebs_f027\"],\"related_concepts\":[\"Displacement\",\"Consolidation\",\"Protected Swing\",\"Market Structure Shift\",\"Fractal\",\"Shallow Retracement\",\"Change in the state of delivery\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线盘整结构、标记高低点、预期扫低突破的全过程，并在小时图验证分形特性，分析逻辑清晰。\"}",
+  "error": null
+}

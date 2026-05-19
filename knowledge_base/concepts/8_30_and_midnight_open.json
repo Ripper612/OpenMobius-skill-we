@@ -1,0 +1,72 @@
+{
+  "card_id": "8_30_and_midnight_open",
+  "type": "merged_concept",
+  "canonical_term": "8:30 and Midnight Open",
+  "aliases": [
+    "8:30 Open",
+    "Daily Open Levels",
+    "Midnight Open"
+  ],
+  "school": "ICT",
+  "definition": "两个关键的日内开盘价位：午夜开盘（0:00）和美东时间8:30开盘。用于划分折价区/溢价区，识别日内交易框架中的支撑、阻力和目标价位。",
+  "identification_rules": [
+    "午夜开盘（Midnight Open）：前一交易日收盘后至美东时间8:30前的开盘价位，通常在亚洲和伦敦时段形成。",
+    "8:30开盘（8:30 Open）：美东时间8:30的开盘价位，标志纽约上午交易时段的开始。",
+    "在图表上绘制两条水平线，分别对应这两个价位，作为参考框架。"
+  ],
+  "trading_implication": "这两个开盘价位用于构建日内交易框架。买日中，价格低于8:30或午夜开盘为折价区（做多机会），低于两者为深折价区。卖日中，价格高于这两个开盘价为溢价区（做空机会），高于两者为深溢价区。同时可作为枢轴点、止损参考和目标价位。价格在这些水平的失败突破或反弹往往预示后续方向。",
+  "common_mistakes": [
+    "未区分买日和卖日的折价/溢价定义，导致交易方向错误。",
+    "将8:30和午夜开盘视为绝对支撑/阻力，忽视价格在这些水平的失败突破信号。",
+    "未结合低时间框架设置和PD数组来寻找具体入场点，仅依赖这两个水平进行交易。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "b6yvRKf8haE_case_001_伦敦开盘后的买卖日案例分析",
+      "video_id": "b6yvRKf8haE",
+      "title": "伦敦开盘后亚洲低点被取，纽约时段激进位移跌破深折价区案例"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_004_操纵后的买入日低点回升",
+      "video_id": "b6yvRKf8haE",
+      "title": "买入日操纵后的低点回升至深溢价区"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_005_新闻事件驱动的亚洲伦敦操纵",
+      "video_id": "b6yvRKf8haE",
+      "title": "8:30新闻事件驱动的亚洲伦敦操纵与深溢价区反转"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "b6yvRKf8haE",
+      "original_card_id": "b6yvRKf8haE_concept_8_30_and_midnight_open",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.799,
+        465.639
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:57:06.261904Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

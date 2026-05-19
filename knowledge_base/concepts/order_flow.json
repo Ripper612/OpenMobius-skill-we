@@ -1,0 +1,61 @@
+{
+  "card_id": "order_flow",
+  "type": "merged_concept",
+  "canonical_term": "Order Flow",
+  "aliases": [
+    "市场方向趋势",
+    "订单流"
+  ],
+  "school": "ICT",
+  "definition": "市场整体的方向趋势，分为看涨和看跌两种状态。交易者通过识别订单流的方向来确定交易方向和价格目标。",
+  "identification_rules": [
+    "观察价格是否在高时间框架上形成连续的高点或低点突破，判断趋势方向",
+    "识别失败摆动（Failure Swing）和低阻力流动性的位置，确认订单流延续的可能性",
+    "在高时间框架上标记连续多日未被突破的高点，若无日高被突破则表示低阻力流动性充足，订单流倾向继续",
+    "通过价格是否扫除摆动高/低点来判断：未扫除=低阻力流动性（订单流延续），已扫除=高阻力流动性（订单流可能反转）"
+  ],
+  "trading_implication": "识别订单流方向后，交易者应寻找低阻力流动性作为目标，因为价格更可能穿过这些区域。在看涨订单流中，目标是扫除卖方流动性；在看跌订单流中，目标是扫除买方流动性。结合高时间框架的订单流方向，在低时间框架上寻找具体入场点和目标位。",
+  "common_mistakes": [
+    "混淆低阻力流动性和高阻力流动性，错误地将已被扫除的流动性作为目标",
+    "忽视高时间框架的订单流方向，在低时间框架上逆势交易",
+    "在高阻力流动性处设置目标，而不是等待失败摆动后再进场，导致难以突破"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FXJBFbZQbck_case_006_亚洲盘提前触及前日高点导致交易机会消失",
+      "video_id": "FXJBFbZQbck",
+      "title": "亚洲盘提前触及前日高点导致纽约盘交易机会消失"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "2lIaRUtJqpU",
+      "original_card_id": "2lIaRUtJqpU_concept_order_flow",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        364.62
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134609Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

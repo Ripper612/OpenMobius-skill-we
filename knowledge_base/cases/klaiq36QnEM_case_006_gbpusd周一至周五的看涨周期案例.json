@@ -1,0 +1,112 @@
+{
+  "card_id": "klaiq36QnEM_case_006_gbpusd周一至周五的看涨周期案例",
+  "type": "case",
+  "title": "GBPUSD周一至周五看涨周期：订单块、FVG与流动性扫荡",
+  "related_concepts": [
+    {
+      "term": "Smart Money Reversal",
+      "card_id": "smart_money_reversal",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Multiple Timeframe Analysis",
+      "card_id": "multiple_timeframe_analysis",
+      "exists": true
+    },
+    {
+      "term": "Midnight Open",
+      "card_id": "midnight_open",
+      "exists": true
+    },
+    {
+      "term": "New York Session",
+      "card_id": "new_york_session",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_reversal",
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "market_structure",
+    "liquidity",
+    "multiple_timeframe_analysis",
+    "midnight_open",
+    "new_york_session"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1D / 1H / 15M",
+  "market_context": "GBPUSD在周一形成智能货币反转和订单块后，周二下跌但尊重订单块中线，周三在纽约盘通过15分钟FVG和午夜开盘确认买入信号，最终周五触及周高点和旧高点。",
+  "key_observation": "博主识别出周一的智能货币反转和订单块作为关键支撑，预期周内会形成典型的周一开低、周二下跌尊重中线、周三扩张至周五高点的周期模式。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别周一形成的智能货币反转（Smart Money Reversal）和订单块（Order Block），标记出该区域作为关键支撑。",
+    "Step 2: 观察周二价格下跌，但确认价格尊重订单块的中线阈值（mean threshold），未破位。",
+    "Step 3: 在1小时图上识别午夜开盘处的订单块（down close candle at midnight）和随后的公允价值缺口（Fair Value Gap）。",
+    "Step 4: 在15分钟图上标记出15分钟FVG，与1小时FVG进行区分，预期价格会对这些缺口产生反应。",
+    "Step 5: 观察价格在纽约盘开盘时的激进反应，价格重新测试午夜开盘水平，确认没有K线收盘在午夜开盘下方。",
+    "Step 6: 确认价格激进上涨，形成新的FVG和位移（Displacement），预期扩张目标为周五高点和旧高点。",
+    "Step 7: 验证价格最终触及周五高点，停留在该范围内，完成周期扩张。"
+  ],
+  "outcome": "价格成功触及周五高点和旧高点，完成看涨周期的扩张目标。",
+  "lessons": "智能货币反转和订单块在周期开始时形成，通过尊重中线支撑和多时间框架FVG的确认，可以识别高概率的周内扩张机会。午夜开盘和纽约盘的时间框架协调对确认买入信号至关重要。",
+  "primary_image": "cards/klaiq36QnEM/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/klaiq36QnEM/images/case_006_detail_1.jpg",
+    "cards/klaiq36QnEM/images/case_006_detail_2.jpg",
+    "cards/klaiq36QnEM/images/case_006_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "GBPUSD 日线图显示从3月13日至5月1日的上升趋势。图表右侧价格刻度范围从1.21600至1.27700。图上有三条水平线分别位于1.27700、1.26600和1.24600处。K线序列中绿色和黑色蜡烛交替出现，多数K线具有上下影线。4月中旬至5月初形成盘整形态，期间价格在1.24600至1.25800区间内波动。最高点出现在5月1日附近，约1.25700处。图右下角显示交易按钮Sell和",
+    "case_006_detail_1.jpg": "GBPUSD 1 小时 K 线图。图上显示从 5 月 28 日至 5 月 8 日的价格走势，价格范围约 1.24100 至 1.25800。图上有两条水平线标注：上方一条约在 1.25800 处无标签，下方一条在 1.25114 处标记为'Daily Open'。K 线由绿色（上升）和黑色（下降）蜡烛组成，多根 K 线在 1.24300 至 1.24600 区间显示较长下影线。右侧价格标尺显示当前",
+    "case_006_detail_2.jpg": "GBPUSD 15分钟K线图。图上显示从03:00至09:00的价格走势，可见价格范围约1.24400至1.25750。图中有一条水平虚线标记为Daily Open，位于1.24900处。在该水平线上方有一个灰色矩形框，覆盖约1.24900至1.25300的价格区间。早期K线显示从21:00至01:00的整理形态，随后01:00至06:00期间出现一组绿色K线上升至1.25300附近，06:00处",
+    "case_006_detail_3.jpg": "GBP/USD 15分钟K线图。图上显示价格范围从约1.24200到1.25900。右侧价格标签显示当前价为1.25047。图中有一个矩形框标注为'Daily Open'，位置约在1.24900至1.25100区间。最右侧K线呈长上影线形态，上影线延伸至1.25900。图上可见多根绿色和黑色K线，整体呈上升趋势后在Daily Open区域形成整理。"
+  },
+  "sources": [
+    {
+      "video_id": "klaiq36QnEM",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        652.74,
+        812.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到1小时再到15分钟的多时间框架分析，清晰标记了关键价位和结构，交易结果明确，分析步骤按时间顺序完整呈现。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:50.689217Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD周一至周五看涨周期：订单块、FVG与流动性扫荡\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1D / 1H / 15M\",\"market_context\":\"GBPUSD在周一形成智能货币反转和订单块后，周二下跌但尊重订单块中线，周三在纽约盘通过15分钟FVG和午夜开盘确认买入信号，最终周五触及周高点和旧高点。\",\"key_observation\":\"博主识别出周一的智能货币反转和订单块作为关键支撑，预期周内会形成典型的周一开低、周二下跌尊重中线、周三扩张至周五高点的周期模式。\",\"analysis_steps\":[\"Step 1: 在日线图上识别周一形成的智能货币反转（Smart Money Reversal）和订单块（Order Block），标记出该区域作为关键支撑。\",\"Step 2: 观察周二价格下跌，但确认价格尊重订单块的中线阈值（mean threshold），未破位。\",\"Step 3: 在1小时图上识别午夜开盘处的订单块（down close candle at midnight）和随后的公允价值缺口（Fair Value Gap）。\",\"Step 4: 在15分钟图上标记出15分钟FVG，与1小时FVG进行区分，预期价格会对这些缺口产生反应。\",\"Step 5: 观察价格在纽约盘开盘时的激进反应，价格重新测试午夜开盘水平，确认没有K线收盘在午夜开盘下方。\",\"Step 6: 确认价格激进上涨，形成新的FVG和位移（Displacement），预期扩张目标为周五高点和旧高点。\",\"Step 7: 验证价格最终触及周五高点，停留在该范围内，完成周期扩张。\"],\"outcome\":\"价格成功触及周五高点和旧高点，完成看涨周期的扩张目标。\",\"lessons\":\"智能货币反转和订单块在周期开始时形成，通过尊重中线支撑和多时间框架FVG的确认，可以识别高概率的周内扩张机会。午夜开盘和纽约盘的时间框架协调对确认买入信号至关重要。\",\"primary_image_frame_id\":\"klaiq36QnEM_f024\",\"supporting_image_frame_ids\":[\"klaiq36QnEM_f025\",\"klaiq36QnEM_f026\",\"klaiq36QnEM_f027\"],\"related_concepts\":[\"Smart Money Reversal\",\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Market Structure\",\"Liquidity\",\"Multiple Timeframe Analysis\",\"Midnight Open\",\"New York Session\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到1小时再到15分钟的多时间框架分析，清晰标记了关键价位和结构，交易结果明确，分析步骤按时间顺序完整呈现。\"}",
+  "error": null
+}

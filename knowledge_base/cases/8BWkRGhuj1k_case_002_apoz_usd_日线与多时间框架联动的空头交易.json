@@ -1,0 +1,122 @@
+{
+  "card_id": "8BWkRGhuj1k_case_002_apoz_usd_日线与多时间框架联动的空头交易",
+  "type": "case",
+  "title": "APOZ/USD 日线反转信号与多时间框架空头交易",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Phases of Price",
+      "card_id": "phases_of_price",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "protected_high_low",
+    "phases_of_price",
+    "displacement",
+    "risk_to_reward_ratio",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "APOZ/USD",
+  "timeframe": "1D / 4H / 15m",
+  "market_context": "APOZ/USD在日线上形成扩张后的整固，价格在3440附近扫高后出现内包K线，预示反转信号。博主通过多时间框架联动识别空头机会。",
+  "key_observation": "日线扫高后形成内包K线（candle 2 closure），标志着市场结构转变（CSD）。小时图显示V形反转，4小时图确认扩张后的回撤，为下行交易提供多时间框架确认。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别扩张走势后的整固形态，标记整固的高点（~3440）和低点（~3380）",
+    "Step 2: 观察日线K线扫高后未能收于高点上方，形成candle 2 closure，确认反转信号",
+    "Step 3: 切换至1小时图，确认V形反转形态，标记高点处的市场结构转变（CSD）",
+    "Step 4: 在4小时图上验证扩张走势，观察到扩张后的回撤，确认下行预期",
+    "Step 5: 切换至15分钟图，使用交易模型识别反转和持续下行的设置",
+    "Step 6: 在15分钟图上确认扩张-回撤-扩张的价格阶段序列，标记入场点",
+    "Step 7: 设置止损于小时图高点（~3475），目标至少2R风险回报比，或使用投影目标"
+  ],
+  "outcome": "交易成功执行下行，价格从入场点向下运行，触及预期目标（RTP），并进一步扩张至前期低点附近。",
+  "lessons": "多时间框架联动是关键：日线提供偏向和反转信号，4小时图验证阶段结构，15分钟图精确入场。使用价格阶段（扩张-回撤-扩张）和市场结构转变识别高概率设置，结合风险回报比管理仓位。",
+  "primary_image": "cards/8BWkRGhuj1k/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/8BWkRGhuj1k/images/case_002_detail_1.jpg",
+    "cards/8BWkRGhuj1k/images/case_002_detail_2.jpg",
+    "cards/8BWkRGhuj1k/images/case_002_detail_3.jpg",
+    "cards/8BWkRGhuj1k/images/case_002_detail_4.jpg",
+    "cards/8BWkRGhuj1k/images/case_002_detail_5.jpg",
+    "cards/8BWkRGhuj1k/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图为 apoz 资产的 15 分钟 K 线图，标注来自 The Market Lens / Ttrades_edu。图右侧价格刻度范围约从 3416.0 至 3466.0，当前价格标签高亮显示为 3449.8。图上有一条蓝色水平线位于约 3446.0，一条黑色水平线位于约 3449.8，以及一条虚线位于约 3440.0。图中约 04:00 时间轴处出现一根主体较大的黑色 K 线，其后跟随数根绿色 ",
+    "case_002_detail_1.jpg": "图表为 apoz/USD 日线蜡烛图，可见价格范围约从 3140 至 3620。图上有一条贯穿全图的水平虚线位于 3342.6，对应左侧价格轴高亮标签。图右侧约 Jun 4-6 区域另有一段较短的水平虚线位于约 3440。图中有一条垂直虚线标注日期为 Tue 20 May '25。K 线序列从约 4 月 24 日延伸至 7 月初，其中 5 月初出现一根高度约覆盖 3260 至 3520 区间的绿色",
+    "case_002_detail_2.jpg": "图为 apoz/USD 日线蜡烛图，可见价格范围约从 3140.0 至 3620.0。图上时间轴跨越约 4 月下旬至 7 月初，当前光标定位于 2025 年 6 月 10 日（周二）。图右侧价格轴当前高亮标签显示 3333.6。图上有两处矩形标注，分别框住约 3380.0 至 3460.0 区间及约 3300.0 至 3440.0 区间的 K 线群。一条虚线水平线从约 3270.0 延伸至图右边缘",
+    "case_002_detail_3.jpg": "图表显示资产代码 apoz，计价货币为 USD，时间框架为 1 小时。图上可见价格范围约从 3370.0 至 3485.0。图上绘有两条贯穿全图的水平线，分别位于约 3475.0 和约 3413.0 处，均无文字标签。在约 3443.0 至 3447.0 区间存在一个蓝色边框的小矩形标注。图右侧可见一根大幅绿色 K 线，主体从约 3378.0 延伸至约 3460.0，下影线延伸至约 3375.0；",
+    "case_002_detail_4.jpg": "图表为 apoz/USD 4 小时 K 线图，价格轴范围约 3400.0 至 3488.0。图上有一个较大矩形标注框，覆盖价格区间约 3412.0 至 3472.0，横跨多根 K 线。图中央附近另有一个小型蓝色矩形标注，位于约 3340 至 3350 价格区域。右侧价格轴显示当前价格标签为 3452.3（蓝色高亮），另有 3449.7 和 3448.0 两个标签可见。图右侧 K 线包含数根实体较大",
+    "case_002_detail_5.jpg": "图表为 15 分钟 K 线图，资产标注为 apoz/USD，价格范围约从 3405 至 3472.5。图左侧 K 线整体呈下行排列，从约 3472.5 下行至约 3420 区域。图中部出现多根 K 线在 3430 至 3445 区间内横向排列。图右侧有数根绿色 K 线，价格范围约在 3390 至 3460 之间，其中夹有一根黑色小 K 线位于约 3390 处。图上有两处矩形标注：一处灰色矩形覆盖约",
+    "case_002_detail_6.jpg": "图为 apoz/USD 1 小时 K 线图，可见价格范围约 3397.5 至 3465.0。图上有一个青色矩形标注区域，覆盖约 3418 至 3462 价格区间，横跨 6 月 6 日至 7 日附近数根 K 线。另有一个灰色矩形标注区域位于约 3445 至 3462 区间。图右侧出现多根大实体黑色 K 线，实体从约 3440 向下延伸至约 3400 附近。图上有两条虚线水平线，分别位于约 3431."
+  },
+  "sources": [
+    {
+      "video_id": "8BWkRGhuj1k",
+      "segment_ids": [
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022",
+        "seg_023"
+      ],
+      "time_range": [
+        997.759,
+        1266.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线反转识别、多时间框架验证、入场设置和风险管理的全过程，包括具体价位、K线形态和交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:22.945147Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"APOZ/USD 日线反转信号与多时间框架空头交易\",\"school\":\"ICT\",\"asset\":\"APOZ/USD\",\"timeframe\":\"1D / 4H / 15m\",\"market_context\":\"APOZ/USD在日线上形成扩张后的整固，价格在3440附近扫高后出现内包K线，预示反转信号。博主通过多时间框架联动识别空头机会。\",\"key_observation\":\"日线扫高后形成内包K线（candle 2 closure），标志着市场结构转变（CSD）。小时图显示V形反转，4小时图确认扩张后的回撤，为下行交易提供多时间框架确认。\",\"analysis_steps\":[\"Step 1: 在日线上识别扩张走势后的整固形态，标记整固的高点（~3440）和低点（~3380）\",\"Step 2: 观察日线K线扫高后未能收于高点上方，形成candle 2 closure，确认反转信号\",\"Step 3: 切换至1小时图，确认V形反转形态，标记高点处的市场结构转变（CSD）\",\"Step 4: 在4小时图上验证扩张走势，观察到扩张后的回撤，确认下行预期\",\"Step 5: 切换至15分钟图，使用交易模型识别反转和持续下行的设置\",\"Step 6: 在15分钟图上确认扩张-回撤-扩张的价格阶段序列，标记入场点\",\"Step 7: 设置止损于小时图高点（~3475），目标至少2R风险回报比，或使用投影目标\"],\"outcome\":\"交易成功执行下行，价格从入场点向下运行，触及预期目标（RTP），并进一步扩张至前期低点附近。\",\"lessons\":\"多时间框架联动是关键：日线提供偏向和反转信号，4小时图验证阶段结构，15分钟图精确入场。使用价格阶段（扩张-回撤-扩张）和市场结构转变识别高概率设置，结合风险回报比管理仓位。\",\"primary_image_frame_id\":\"8BWkRGhuj1k_f039\",\"supporting_image_frame_ids\":[\"8BWkRGhuj1k_f035\",\"8BWkRGhuj1k_f036\",\"8BWkRGhuj1k_f037\",\"8BWkRGhuj1k_f038\",\"8BWkRGhuj1k_f040\",\"8BWkRGhuj1k_f041\",\"8BWkRGhuj1k_f042\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Change in the state of delivery (CSD)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Protected Swing\",\"Phases of Price\",\"Displacement\",\"Risk-to-Reward Ratio\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线反转识别、多时间框架验证、入场设置和风险管理的全过程，包括具体价位、K线形态和交易结果。\"}",
+  "error": null
+}

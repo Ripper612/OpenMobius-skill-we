@@ -1,0 +1,53 @@
+{
+  "card_id": "open_close_time_lines",
+  "type": "merged_concept",
+  "canonical_term": "Open Close Time Lines",
+  "aliases": [
+    "O/C Time",
+    "Open/Close Time Lines"
+  ],
+  "school": "ICT",
+  "definition": "在低时间框架图表上绘制的垂直线，标记高时间框架蜡烛的开盘和收盘时间，用于分离各个高时间框架周期的OHLC数据。",
+  "identification_rules": [
+    "在指标设置中启用 O/C Time 选项后，垂直线自动出现在低时间框架图表上",
+    "每条垂直线对应一个高时间框架蜡烛的开盘或收盘时刻",
+    "相邻的垂直线对之间的区域代表一个完整的高时间框架周期（如1小时蜡烛）",
+    "可通过 HTF CANDLES 设置中的 O/C Time 开关进行显示/隐藏"
+  ],
+  "trading_implication": "Open Close Time Lines 帮助交易者在低时间框架上清晰识别高时间框架的周期边界，便于精确定位订单块、公允价值缺口等关键结构相对于高时间框架的位置。这对于多时间框架分析和精确入场至关重要，特别是在识别C2、C3、C4等分形模型时。",
+  "common_mistakes": [
+    "未在低时间框架上启用 O/C Time 导致无法准确判断高时间框架周期的边界",
+    "与高时间框架蜡烛显示混淆，误认为垂直线本身代表价格结构而非时间分界"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_open_close_time_lines",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        546.399,
+        725.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134409Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

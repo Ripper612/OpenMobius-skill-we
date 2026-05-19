@@ -1,0 +1,78 @@
+{
+  "card_id": "backtesting",
+  "type": "merged_concept",
+  "canonical_term": "Backtesting",
+  "aliases": [
+    "历史数据验证",
+    "回测"
+  ],
+  "school": "General",
+  "definition": "使用历史价格数据在交易平台上重放市场走势，验证特定交易策略的有效性和性能表现，评估其盈利能力和风险特征。",
+  "identification_rules": [
+    "在FX Replay等回测工具中创建策略并指定测试时间段（如7月至8月中旬）",
+    "设定初始账户余额、交易品种和时间框架参数",
+    "逐根K线或按时间段播放历史行情，手动或自动执行交易信号",
+    "记录每笔交易的入场点、止损、目标价位及实际结果",
+    "统计总交易数、胜率、平均风险回报比、总收益率等关键指标"
+  ],
+  "trading_implication": "回测是验证交易策略可行性的必要步骤。通过在历史数据上测试Silver Bullet策略，可以评估其在不同市场条件下的表现（如本例中45天15笔交易、平均风险回报比约5倍、总收益44.4%）。回测结果帮助交易者识别策略的优势与缺陷，但需注意样本量有限时的局限性。",
+  "common_mistakes": [
+    "样本量过小导致结论不具代表性（材料中仅测试45天15笔交易）",
+    "过度优化策略参数以适应历史数据，导致过拟合",
+    "忽视回测中的主观判断因素（如分析师对价格行为的选择性解读）",
+    "未考虑滑点、佣金等实际交易成本对结果的影响"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "TNybDCtwBnc_case_006_回测结果总结",
+      "video_id": "TNybDCtwBnc",
+      "title": "五笔回测总结：80%胜率，2.79R平均收益验证"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_030_回测总体表现分析",
+      "video_id": "o0v4KQxZbpU",
+      "title": "45天15笔交易回测总体表现分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "original_card_id": "o0v4KQxZbpU_concept_backtesting",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "time_range": [
+        215.439,
+        1741.159
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131152Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

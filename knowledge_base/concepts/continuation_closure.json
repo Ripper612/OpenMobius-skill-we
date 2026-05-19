@@ -1,0 +1,113 @@
+{
+  "card_id": "continuation_closure",
+  "type": "merged_concept",
+  "canonical_term": "Continuation Closure",
+  "aliases": [
+    "continuation candle closure"
+  ],
+  "school": "ICT",
+  "definition": "价格扫过前一根K线的高点或低点后，收盘价继续维持在突破方向（不回到前一根K线范围内）的形态。表明趋势延续而非反转，预示下一根K线将沿同方向扩张运行。Candle 3 Closure变体中，第三根K线无需扫过高低点，但收盘须穿过第二根K线实体。",
+  "identification_rules": [
+    "价格扫过（sweep）前一根K线的高点或低点",
+    "当前K线收盘价继续维持在突破方向，不回到前一根K线范围内（看涨场景：收盘价低于K线1低点；看跌场景：收盘价高于K线1高点）",
+    "Candle 3 Closure变体：第三根K线不突破第二根K线的高/低点，但收盘价穿过第二根K线的实体部分，即可确认延续",
+    "该形态应在高时间框架关键水平（如FVG、摆动高低点）处出现，而非对每个扫过都计数",
+    "可与Equilibrium（0.5斐波那契位）配合使用，预期下一根K线在该区域形成扩张"
+  ],
+  "trading_implication": "Continuation Closure确认趋势延续而非反转，识别后预期第3根K线出现强势扩张收盘，第4根K线继续同方向运动。需结合高时间框架关键水平（如FVG、摆动高低点）使用以提高概率。看涨情景下以扩张K线上半部分为目标，看跌情景下以下半部分为目标，可配合Equilibrium辅助判断目标区域。",
+  "common_mistakes": [
+    "混淆Continuation Closure与Reversal Closure：后者是价格扫过前一根K线高/低点后反向收盘回到前一根K线范围内，预示反转而非延续",
+    "混淆Candle 2 Closure与Candle 3 Closure：前者要求价格扫过高/低点形成反转，后者允许价格不扫过但收盘穿过K线实体即可确认延续",
+    "在没有高时间框架关键水平支撑的情况下，对每个扫过+收盘形态都计数，导致信号泛滥"
+  ],
+  "related_concepts": [
+    {
+      "term": "Reversal Closure",
+      "card_id": "candle_2_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "original_card_id": "MsuEQQl7L6s_concept_continuation_closure",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.96,
+        50.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "tyoxl1l-6iI",
+      "original_card_id": "tyoxl1l-6iI_concept_continuation_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.04,
+        134.239
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:28.470249Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

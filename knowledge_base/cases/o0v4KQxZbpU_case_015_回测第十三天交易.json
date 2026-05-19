@@ -1,0 +1,99 @@
+{
+  "card_id": "o0v4KQxZbpU_case_015_回测第十三天交易",
+  "type": "case",
+  "title": "第27天低点扫荡后Breaker Block入场被止损",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk-Reward Ratio",
+      "card_id": "risk_to_reward_ratio_risk_to_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "fair_value_gap_fvg",
+    "displacement",
+    "order_block_ob",
+    "turtle_soup",
+    "market_structure",
+    "risk_to_reward_ratio_risk_to_"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1D / 1m",
+  "market_context": "NAS100在第26-27天出现低点扫荡，价格从高点下跌至低点后反弹。博主在日线和1分钟图上追踪价格结构，寻找Breaker Block入场机会。",
+  "key_observation": "价格扫低后反弹，形成Breaker Block结构。博主识别出FVG和Breaker Block的组合，但反弹力度不足，缺乏积极的位移（Displacement），最终导致入场后被止损出局。",
+  "analysis_steps": [
+    "Step 1: 标记第26天的11 a.m.区间高低点，观察是否提供入场机会。",
+    "Step 2: 识别价格对低点的扫荡（sweep），确认市场结构。",
+    "Step 3: 在第27天标记9 a.m.高低点，等待价格反应。",
+    "Step 4: 观察反弹是否伴随积极的位移或仅为回撤，判断入场质量。",
+    "Step 5: 识别Breaker Block和FVG的组合结构作为潜在入场点。",
+    "Step 6: 评估风险回报比（约2.5R），认为不理想而放弃该交易。"
+  ],
+  "outcome": "博主最终未进入该交易，因为反弹缺乏积极的位移，且风险回报比不佳（仅2.5R）。如果进入，将在等高点处设置止损，但交易质量不理想。",
+  "lessons": "Breaker Block入场需要伴随积极的位移和强势反弹，仅有结构而缺乏动能的反弹不值得交易。风险回报比和价格行为质量同样重要，低质量的设置应被放弃。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_015_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_015_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_015_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_015_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_015_primary.jpg": "NAS100 1分钟K线图。图表显示从09:00至10:40的价格走势。左侧主图显示K线序列，从09:00至09:30呈下跌趋势，多根黑色K线，随后从09:30至10:40呈上升趋势，多根绿色K线。图上绘有6条水平线，分别位于15000、15450、15750、19350、19750等价格水平。右侧面板显示3个矩形框，分别标注在19350-19750、15450-15750、15000-15450",
+    "case_015_detail_1.jpg": "NAS100 日线图表。左侧为蜡烛图，显示从约 14640 上升至 15960 的价格走势。右侧为多面板视图，包含成交量柱状图（绿色和黑色）。图上标注了三条水平价格线：15541.64、15354.41 和 14640。右侧面板绘制了两个矩形区域：一个在 15354.41 至 15541.64 之间，另一个在 14640 至 15000 之间。价格刻度显示在右侧纵轴上。",
+    "case_015_detail_2.jpg": "NAS100 日线图。图上显示多条水平线标注，均标记为'USDT-SwiftGo'，分别位于约15545、15832、15932、18541、19032等价格水平。图表右侧可见两个矩形框，分别围绕15500-16200和18200-19100价格区间。K线显示一根大型绿色K线和一根大型黑色K线在18500-19000区间内相邻排列，下方区间15500-16200处有多根绿黑相间的K线形成密集排列。",
+    "case_015_detail_3.jpg": "NAS100 日线图。左侧主图显示从约 15640 上升至 18065 的上升趋势，随后下跌回至 15640 附近。图上有三条水平线分别位于 15771.3193884、15687.2500000、15642.6333333。右侧面板显示最近的 K 线走势，包含绿色和黑色蜡烛体。图上标注有三个矩形框，分别对应不同价格区间。整体可见价格范围从 15640 至 18065。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_010"
+      ],
+      "time_range": [
+        906.759,
+        1006.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析过程、关键价位、结构识别和最终决策理由，图表清晰显示NAS100日线和1分钟图的具体走势。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:11.214688Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"第27天低点扫荡后Breaker Block入场被止损\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1D / 1m\",\"market_context\":\"NAS100在第26-27天出现低点扫荡，价格从高点下跌至低点后反弹。博主在日线和1分钟图上追踪价格结构，寻找Breaker Block入场机会。\",\"key_observation\":\"价格扫低后反弹，形成Breaker Block结构。博主识别出FVG和Breaker Block的组合，但反弹力度不足，缺乏积极的位移（Displacement），最终导致入场后被止损出局。\",\"analysis_steps\":[\"Step 1: 标记第26天的11 a.m.区间高低点，观察是否提供入场机会。\",\"Step 2: 识别价格对低点的扫荡（sweep），确认市场结构。\",\"Step 3: 在第27天标记9 a.m.高低点，等待价格反应。\",\"Step 4: 观察反弹是否伴随积极的位移或仅为回撤，判断入场质量。\",\"Step 5: 识别Breaker Block和FVG的组合结构作为潜在入场点。\",\"Step 6: 评估风险回报比（约2.5R），认为不理想而放弃该交易。\"],\"outcome\":\"博主最终未进入该交易，因为反弹缺乏积极的位移，且风险回报比不佳（仅2.5R）。如果进入，将在等高点处设置止损，但交易质量不理想。\",\"lessons\":\"Breaker Block入场需要伴随积极的位移和强势反弹，仅有结构而缺乏动能的反弹不值得交易。风险回报比和价格行为质量同样重要，低质量的设置应被放弃。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f034\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f031\",\"o0v4KQxZbpU_f032\",\"o0v4KQxZbpU_f033\"],\"related_concepts\":[\"Breaker Block\",\"Fair Value Gap (FVG)\",\"Displacement\",\"Order Block (OB)\",\"Sweep\",\"Market Structure\",\"Risk-Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析过程、关键价位、结构识别和最终决策理由，图表清晰显示NAS100日线和1分钟图的具体走势。\"}",
+  "error": null
+}

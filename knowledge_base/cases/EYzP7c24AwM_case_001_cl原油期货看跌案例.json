@@ -1,0 +1,116 @@
+{
+  "card_id": "EYzP7c24AwM_case_001_cl原油期货看跌案例",
+  "type": "case",
+  "title": "CL原油期货日线看跌确认与多时间框架派发",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Judas Swing",
+      "card_id": "judas_swing",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Consequent Encroachment",
+      "card_id": "consequent_encroachment",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "judas_swing",
+    "premium_discount",
+    "power_of_3_indicator",
+    "propulsion_block",
+    "market_structure_shift",
+    "killzone",
+    "consequent_encroachment"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "30M / 4H / 1D",
+  "market_context": "CL原油期货在日线形成摆动高点后收盘在前一日高点内部，显示看跌偏向。博主通过多时间框架联动分析，利用午夜开盘、8:30、9:30等关键时间点的订单块和对立运动确认趋势延续。",
+  "key_observation": "日线收盘在前一日高点内部（consequent encroachment of wick），预示次日走低。价格在午夜开盘和日线开盘上方处于溢价区，为看跌交易提供高概率设置。",
+  "analysis_steps": [
+    "Step 1: 观察日线形成的摆动高点和收盘形态，发现收盘在前一日高点内部，预示看跌偏向。",
+    "Step 2: 下探30分钟图，确认价格在午夜开盘和日线开盘上方处于溢价区，为看跌交易做准备。",
+    "Step 3: 标记午夜开盘（0:00）、日线开盘、8:30和9:30等关键时间点作为支撑/阻力水平。",
+    "Step 4: 在8:30观察到对立运动（Judas swing），价格向上触及订单块后反向，确认看跌意图。",
+    "Step 5: 9:30纽约开盘时出现派发（distribution），价格从订单块向下运行，创造新低。",
+    "Step 6: 在4小时图上验证Power of 3模式，10:00出现回测（retracement），14:00继续向下运行。",
+    "Step 7: 确认午夜开盘和8:30开盘被用作支撑/阻力水平，与推进块（Propulsion Block）配对形成完整的派发结构。"
+  ],
+  "outcome": "价格成功创造新低，完成派发。通过多时间框架的订单块配对和时间点的精确运用，实现了看跌交易的完整执行。",
+  "lessons": "多时间框架联动分析的关键：(1)日线形态确定方向偏向；(2)关键时间点（午夜、8:30、9:30、10:00、14:00）作为订单块和支撑/阻力的触发点；(3)对立运动（Judas swing）确认机构意图；(4)派发结构中价格与订单块的配对使用提高交易确定性。",
+  "primary_image": "cards/EYzP7c24AwM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/EYzP7c24AwM/images/case_001_detail_1.jpg",
+    "cards/EYzP7c24AwM/images/case_001_detail_2.jpg",
+    "cards/EYzP7c24AwM/images/case_001_detail_3.jpg",
+    "cards/EYzP7c24AwM/images/case_001_detail_4.jpg",
+    "cards/EYzP7c24AwM/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 CL1!（原油期货）30 分钟 K 线图，可见价格范围约 82.20 至 85.20。图上标注三条水平线：'Daily Open' 约 83.60、'NYO' 约 83.19、数字标注 '8.38' 约 83.38。图右侧有一个大型黑色矩形标注，纵向跨度约从 83.50 至 82.75，对应一根大阴线实体区域。图左侧价格轴显示当前价约 82.75/82.71。K 线整体自图左高点约 85.",
+    "case_001_detail_1.jpg": "图表标题为'Judas swing / OB formation'，为教学示意性 K 线图，无资产代码及时间框架标注。图上有三条带时间标签的虚线水平线，分别标注为 [0:00]、[8:30]、[9:30]。K 线序列从左下方向右上方排列，绿色与黑色 K 线交替出现。图右侧绘有一个大型绿色矩形，内部文字标注为 'Daily Candle'，纵向跨度覆盖图表中部至上部区域。图左下角有品牌标识 'TTr",
+    "case_001_detail_2.jpg": "CL1! 原油期货 30 分钟 K 线图，图上可见价格范围约从 82.40 至 84.50。图左侧至中部呈现一段下行 K 线序列，从约 84.50 区域向下延伸至约 83.00 附近。图中部有约 6 根小实体 K 线在 83.00 至 83.20 区间内横向排列。图右侧出现数根阳线，从约 83.00 向上延伸至约 83.40。图上标注有一个黑色矩形框，标签为 'Daily Open'，位于约 83",
+    "case_001_detail_3.jpg": "图表为 CL1! 30 分钟 K 线图，可见价格范围约 82.50 至 84.50。图上有一条标注为 Daily Open 的水平线位于约 83.10，另有一条虚线水平线位于约 83.55。图右侧有一个黑色填充矩形标注，覆盖约 83.20 至 83.60 区间的 K 线。图上另有文字标签 NYO 及 8:30，位于约 83.35 和 83.18 附近。一个黄色圆圈标记位于约 83.18 处对应 8",
+    "case_001_detail_4.jpg": "CL1! 原油期货 240 分钟 K 线图，图右上角标注 TTrader_edu。可见价格范围约从 82.00 到 85.20。图上右侧价格轴有两个高亮标签：83.43 与 82.65。图中央偏右位置有一个黑色填充矩形标注，价格区间约在 83.00 至 84.20 之间。图上约 Apr 29 附近有文字标注\"Daily Open\"。图中有一个黄色圆形标记位于约 82.50 价位。K 线序列中可见一",
+    "case_001_detail_5.jpg": "CL1! 240分钟K线图，图上可见价格范围约从81.70至84.80。图上标注一条水平线于约83.80处，标签为'Daily Open'，另有一条无标签水平线于约82.10处。图右侧有一个大型黑色矩形覆盖区域，横跨约日期30至5月2日，纵向范围约82.60至84.40。图中部另有一个较小矩形框于约83.00至83.90区间。K线序列显示约日期25附近出现一根较长绿色K线，随后数根黑色K线依次下行"
+  },
+  "sources": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        191.84,
+        548.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线观察到多时间框架执行的全过程，关键价位、时间点、订单块位置均清晰标注，派发结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:55.237472Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"CL原油期货日线看跌确认与多时间框架派发\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"30M / 4H / 1D\",\"market_context\":\"CL原油期货在日线形成摆动高点后收盘在前一日高点内部，显示看跌偏向。博主通过多时间框架联动分析，利用午夜开盘、8:30、9:30等关键时间点的订单块和对立运动确认趋势延续。\",\"key_observation\":\"日线收盘在前一日高点内部（consequent encroachment of wick），预示次日走低。价格在午夜开盘和日线开盘上方处于溢价区，为看跌交易提供高概率设置。\",\"analysis_steps\":[\"Step 1: 观察日线形成的摆动高点和收盘形态，发现收盘在前一日高点内部，预示看跌偏向。\",\"Step 2: 下探30分钟图，确认价格在午夜开盘和日线开盘上方处于溢价区，为看跌交易做准备。\",\"Step 3: 标记午夜开盘（0:00）、日线开盘、8:30和9:30等关键时间点作为支撑/阻力水平。\",\"Step 4: 在8:30观察到对立运动（Judas swing），价格向上触及订单块后反向，确认看跌意图。\",\"Step 5: 9:30纽约开盘时出现派发（distribution），价格从订单块向下运行，创造新低。\",\"Step 6: 在4小时图上验证Power of 3模式，10:00出现回测（retracement），14:00继续向下运行。\",\"Step 7: 确认午夜开盘和8:30开盘被用作支撑/阻力水平，与推进块（Propulsion Block）配对形成完整的派发结构。\"],\"outcome\":\"价格成功创造新低，完成派发。通过多时间框架的订单块配对和时间点的精确运用，实现了看跌交易的完整执行。\",\"lessons\":\"多时间框架联动分析的关键：(1)日线形态确定方向偏向；(2)关键时间点（午夜、8:30、9:30、10:00、14:00）作为订单块和支撑/阻力的触发点；(3)对立运动（Judas swing）确认机构意图；(4)派发结构中价格与订单块的配对使用提高交易确定性。\",\"primary_image_frame_id\":\"EYzP7c24AwM_f011\",\"supporting_image_frame_ids\":[\"EYzP7c24AwM_f007\",\"EYzP7c24AwM_f008\",\"EYzP7c24AwM_f010\",\"EYzP7c24AwM_f012\",\"EYzP7c24AwM_f013\"],\"related_concepts\":[\"Order Block\",\"Judas Swing\",\"Premium / Discount\",\"Distribution\",\"Power of 3\",\"Propulsion Block\",\"Market Structure Shift\",\"Killzone\",\"Consequent Encroachment\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线观察到多时间框架执行的全过程，关键价位、时间点、订单块位置均清晰标注，派发结果明确。\"}",
+  "error": null
+}

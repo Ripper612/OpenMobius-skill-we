@@ -1,0 +1,56 @@
+{
+  "card_id": "olhc_sequence",
+  "type": "merged_concept",
+  "canonical_term": "OLHC Sequence",
+  "aliases": [
+    "K线开盘顺序",
+    "Open, Low, High, Close Sequence"
+  ],
+  "school": "Price Action",
+  "definition": "K线形成过程中开盘、最低点、最高点、收盘的顺序。开盘后先低后高（Open-Low-High-Close）为看涨信号，开盘后先高后低（Open-High-Low-Close）为看跌信号，用于判断趋势延续或反转方向。",
+  "identification_rules": [
+    "观察K线形成顺序：若开盘后价格先触及低点再触及高点，记录为OLHC（看涨）",
+    "观察K线形成顺序：若开盘后价格先触及高点再触及低点，记录为OHLC（看跌）",
+    "OLHC序列通常伴随价格尊重前一日EQ（均衡点）后上升突破前一日高点",
+    "OHLC序列通常伴随价格触及前一日低点后形成浅wick的反转"
+  ],
+  "trading_implication": "OLHC序列是判断日内延续或反转的基础框架。看涨延续中，交易者期望看到OLHC序列（开盘低、尊重EQ、突破前日高）；看跌反转中，期望看到OHLC序列（开盘高、触及前日高、形成浅wick后反转）。结合低时间框架的CSD确认，可提高入场概率。",
+  "common_mistakes": [
+    "未区分OLHC与OHLC序列的含义，导致误判趋势方向",
+    "仅看K线序列而忽视wick大小，大wick时应等待第三根K线确认而非立即交易",
+    "未在低时间框架确认CSD就基于高时间框架OLHC序列入场，降低交易成功率"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_open_low_high_close_olhc_sequence",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_009"
+      ],
+      "time_range": [
+        43.2,
+        421.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134390Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

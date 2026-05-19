@@ -1,0 +1,112 @@
+{
+  "card_id": "Tjk9bXERZy0_case_001_nasdaq_100_15分钟图表的扩张形态识别",
+  "type": "case",
+  "title": "NQ 15分钟扩张形态的实时识别与流动性扫荡",
+  "related_concepts": [
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "broadening_formation",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "order_block",
+    "market_structure",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M",
+  "market_context": "NASDAQ 100 E-mini期货在10/4/2024形成初始巩固范围（约18000-19520），随后价格反复失败突破上下两侧，逐步扩张交易范围，期间扫荡买卖方流动性。",
+  "key_observation": "博主识别出价格在初始范围内反复失败突破，每次失败后回归对侧，形成不断扩张的范围结构（Broadening Formation），同时扫荡了上方买方流动性和下方卖方流动性。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图上识别初始巩固范围，上边界约19520，下边界约18000。",
+    "Step 2: 观察价格首次突破上方后失败，未能创出新高，随后回归范围内部。",
+    "Step 3: 价格再次尝试突破下方，扫荡卖方流动性（Sellside Liquidity），但同样失败。",
+    "Step 4: 确认价格形成等高点（Equal Highs）在上方，表明买方流动性已被扫荡。",
+    "Step 5: 绘制扩张形态的两条趋势线：上趋势线从初始高点向下倾斜，下趋势线从初始低点向上倾斜，两线逐步扩张。",
+    "Step 6: 继续追踪价格在扩张范围内的多次穿梭，每次失败突破都导致范围进一步扩大。",
+    "Step 7: 识别扩张形态内部存在更小的扩张形态（Broadening within Broadening），显示多时间框架的结构一致性。"
+  ],
+  "outcome": null,
+  "lessons": "扩张形态通过反复失败突破和流动性扫荡来识别；关键是观察价格无法突破一侧后必然回归对侧的规律；使用买卖方流动性连接趋势线比单纯的高低点连接更准确；多时间框架内可能同时存在扩张形态，需要分层观察。",
+  "primary_image": "cards/Tjk9bXERZy0/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/Tjk9bXERZy0/images/case_001_detail_1.jpg",
+    "cards/Tjk9bXERZy0/images/case_001_detail_2.jpg",
+    "cards/Tjk9bXERZy0/images/case_001_detail_3.jpg",
+    "cards/Tjk9bXERZy0/images/case_001_detail_4.jpg",
+    "cards/Tjk9bXERZy0/images/case_001_detail_5.jpg",
+    "cards/Tjk9bXERZy0/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NASDAQ 100 E-mini期货15分钟K线图。图上绘制一个矩形框，上边界约19520，下边界约18000。矩形内K线密集波动，显示多次上下穿梭。矩形右侧有一根K线用黄色高亮标记，位于区间上半部分。两条蓝色趋势线分别从矩形上边界向下倾斜至下边界，以及从下边界向上倾斜至上边界。图表右上角显示时间戳10/4/2024及NQ1!|15M标识。左上角显示资产名称及当前价格信息。",
+    "case_001_detail_1.jpg": "图上显示一个烛线图表，由两条收敛的趋势线围成一个三角形形态。左侧趋势线向上倾斜，右侧趋势线向下倾斜，两线在右侧逐渐靠近。三角形内部包含多根绿色和黑色烛线。右侧的烛线呈现黑色，显示向下运动。图表缺少资产代码、时间框架和具体价格刻度标注。",
+    "case_001_detail_2.jpg": "图上显示一组 K 线，包含绿色和红色蜡烛。图中绘制了两个矩形框：上方矩形框跨越 K 线集群的中间区域，下方矩形框位于主要 K 线集群下方。K 线显示混合方向的价格运动。无可见的资产代码、时间框架、价格刻度或其他文字标注。",
+    "case_001_detail_3.jpg": "图上显示一个烛线图表，包含绿色和黑色烛线混合排列。左侧有一根烛线被黄色高亮标记。图表整体呈现先上升后下降的形态，右侧为一系列黑色烛线，方向向下。图上未显示资产代码、时间框架或价格刻度标签。右下角显示数字8。",
+    "case_001_detail_4.jpg": "图上显示一个烛线图表，包含约15根绿色烛线。两条无标签的趋势线从左侧汇聚，上方趋势线向右上方倾斜，下方趋势线向右下方倾斜，形成三角形收敛结构。烛线序列位于两条趋势线之间。图上未显示资产代码、时间框架、价格刻度或其他标注。",
+    "case_001_detail_5.jpg": "图上显示一个烛线图表，包含绿色和黑色蜡烛。两条趋势线从左下向右上汇聚，形成三角形形态。K线在三角形内部波动，右侧出现向下突破，随后连续出现黑色蜡烛。图表缺少资产代码、时间框架和价格刻度标注。",
+    "case_001_detail_6.jpg": "NASDAQ 100 E-mini Futures 15分钟图表。图上绘制一个矩形结构，大约范围从18950至19350。矩形内部有两条趋势线形成楔形：上趋势线从约19350向下延伸至19000，下趋势线从约18950向上延伸至19520。K线在该矩形及楔形结构内震荡，跨越多根15分钟K线。图右侧有一条水平参考线位于19885.25。图上标注显示日期为10/4/2024，周期为NQ11 | 15M"
+  },
+  "sources": [
+    {
+      "video_id": "Tjk9bXERZy0",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.24,
+        322.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了扩张形态的识别过程，包括资产代码NQ1!、时间框架15M、具体价格范围18000-19520，以及详细的分析步骤和流动性扫荡逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:52.123259Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 15分钟扩张形态的实时识别与流动性扫荡\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M\",\"market_context\":\"NASDAQ 100 E-mini期货在10/4/2024形成初始巩固范围（约18000-19520），随后价格反复失败突破上下两侧，逐步扩张交易范围，期间扫荡买卖方流动性。\",\"key_observation\":\"博主识别出价格在初始范围内反复失败突破，每次失败后回归对侧，形成不断扩张的范围结构（Broadening Formation），同时扫荡了上方买方流动性和下方卖方流动性。\",\"analysis_steps\":[\"Step 1: 在15分钟图上识别初始巩固范围，上边界约19520，下边界约18000。\",\"Step 2: 观察价格首次突破上方后失败，未能创出新高，随后回归范围内部。\",\"Step 3: 价格再次尝试突破下方，扫荡卖方流动性（Sellside Liquidity），但同样失败。\",\"Step 4: 确认价格形成等高点（Equal Highs）在上方，表明买方流动性已被扫荡。\",\"Step 5: 绘制扩张形态的两条趋势线：上趋势线从初始高点向下倾斜，下趋势线从初始低点向上倾斜，两线逐步扩张。\",\"Step 6: 继续追踪价格在扩张范围内的多次穿梭，每次失败突破都导致范围进一步扩大。\",\"Step 7: 识别扩张形态内部存在更小的扩张形态（Broadening within Broadening），显示多时间框架的结构一致性。\"],\"outcome\":null,\"lessons\":\"扩张形态通过反复失败突破和流动性扫荡来识别；关键是观察价格无法突破一侧后必然回归对侧的规律；使用买卖方流动性连接趋势线比单纯的高低点连接更准确；多时间框架内可能同时存在扩张形态，需要分层观察。\",\"primary_image_frame_id\":\"Tjk9bXERZy0_f007\",\"supporting_image_frame_ids\":[\"Tjk9bXERZy0_f002\",\"Tjk9bXERZy0_f003\",\"Tjk9bXERZy0_f004\",\"Tjk9bXERZy0_f005\",\"Tjk9bXERZy0_f006\",\"Tjk9bXERZy0_f008\"],\"related_concepts\":[\"Broadening Formation\",\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Order Block\",\"Market Structure\",\"Equal Highs\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了扩张形态的识别过程，包括资产代码NQ1!、时间框架15M、具体价格范围18000-19520，以及详细的分析步骤和流动性扫荡逻辑。\"}",
+  "error": null
+}

@@ -1,0 +1,105 @@
+{
+  "card_id": "7p9MBFk8EEM_case_002_美油usoil多周期联动案例",
+  "type": "case",
+  "title": "美油USOIL日线多周期联动：周线FVG支撑与订单块突破",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "sellside_liquidity",
+    "premium_discount_premium_",
+    "market_structure",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "USOIL",
+  "timeframe": "1D",
+  "market_context": "美油在前月高点83.50附近形成摆动，随后下跌扫除卖方流动性。周线公允价值缺口位于77.00-78.50区间作为支撑，日线形成多个订单块结构。",
+  "key_observation": "博主观察到USOIL在日线上扫除卖方流动性后形成FVG，同时周线FVG提供下方支撑。价格突破日线订单块后产生位移，最终上升至前月高点83.50。",
+  "analysis_steps": [
+    "Step 1: 识别前月高点83.50作为关键阻力水平线。",
+    "Step 2: 在日线上标记摆动高点和摆动低点，观察K线形态。",
+    "Step 3: 识别一根完整收盘的K线，预期其在回测时成为订单块。",
+    "Step 4: 确认价格收盘在该K线上方，将其标记为订单块。",
+    "Step 5: 识别周线公允价值缺口位于77.00-78.50区间作为下方支撑。",
+    "Step 6: 观察价格扫除卖方流动性（摆动低点）并创建日线FVG。",
+    "Step 7: 确认价格向上回测周线FVG，日线FVG提供支撑。",
+    "Step 8: 标记日线FVG和订单块形成重叠的PD数组结构。",
+    "Step 9: 观察价格突破订单块后产生位移（Displacement）。",
+    "Step 10: 追踪价格上升至前月高点83.50，完成多周期联动。"
+  ],
+  "outcome": "价格成功突破日线订单块，产生强势位移，最终上升至前月高点83.50附近，完成多周期支撑到阻力的联动运动。",
+  "lessons": "多周期联动分析中，高时间框架（周线）的FVG可作为低时间框架（日线）的强支撑。日线订单块与周线FVG的重叠形成高概率的PD数组，价格突破后的位移通常指向前期关键水平。",
+  "primary_image": "cards/7p9MBFk8EEM/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/7p9MBFk8EEM/images/case_002_detail_1.jpg",
+    "cards/7p9MBFk8EEM/images/case_002_detail_2.jpg",
+    "cards/7p9MBFk8EEM/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USOIL 日线K线图，图上标注两条带文字标签的水平线：约83.50处标记为'Previous Months High'，约78.50处标记为'Weekly FVG'。图上另有两个矩形框，一个覆盖约80.00至84.50价格区间，另一个标注'Weekly FVG'覆盖约78.00至81.50区间。图右侧最新K线为大阳线，收于约86.00附近，左侧价格轴显示当前价85.98（绿色高亮）。图中约Aug",
+    "case_002_detail_1.jpg": "USOIL 日线 K 线图，图上标注来源为 TTrades_edu。可见价格范围约从 79.50 至 87.00，当前价格标签显示 84.18。图上有一条水平线位于 83.50，标注文字为 'Previous Months High'。K 线序列自 7 月 24 日附近起整体向上排列，绿色 K 线与黑色 K 线交替出现。图上在约 82.50 至 83.50 区间绘有一个矩形框，位于 9 月 7 日",
+    "case_002_detail_2.jpg": "USOIL 日线图，图上标注文字包括'Previous Months High'（位于约83.50水平线处）和'Weekly FVG'（位于图表底部约77.00区域）。图右侧当前价格标签显示79.61。图上有两个矩形框标注：一个较大矩形覆盖约79.50至83.00价格区间，一个较小矩形位于约81.00至82.00区间。K线序列显示左侧两根较大绿色K线位于84.00至85.00附近，随后出现多根黑色",
+    "case_002_detail_3.jpg": "USOIL 日线 K 线图，可见价格范围约 77.00 至 84.50。图上标注两条带文字标签的水平线：83.50 附近标记为 Previous Months High，77.50 附近标记为 Weekly FVG。图左侧价格轴显示当前价格标签为 78.93，另有一条水平线位于 79.94。K 线序列从左侧约 82.50 起，经历一根大绿柱后出现连续黑色 K 线下行至约 79.00，随后出现带长下"
+  },
+  "sources": [
+    {
+      "video_id": "7p9MBFk8EEM",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        161.2,
+        301.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了USOIL日线图表的多个阶段，清晰标注了前月高点、周线FVG、订单块等关键结构，分析步骤按时间顺序完整呈现，最终结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:27:56.229411Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美油USOIL日线多周期联动：周线FVG支撑与订单块突破\",\"school\":\"ICT\",\"asset\":\"USOIL\",\"timeframe\":\"1D\",\"market_context\":\"美油在前月高点83.50附近形成摆动，随后下跌扫除卖方流动性。周线公允价值缺口位于77.00-78.50区间作为支撑，日线形成多个订单块结构。\",\"key_observation\":\"博主观察到USOIL在日线上扫除卖方流动性后形成FVG，同时周线FVG提供下方支撑。价格突破日线订单块后产生位移，最终上升至前月高点83.50。\",\"analysis_steps\":[\"Step 1: 识别前月高点83.50作为关键阻力水平线。\",\"Step 2: 在日线上标记摆动高点和摆动低点，观察K线形态。\",\"Step 3: 识别一根完整收盘的K线，预期其在回测时成为订单块。\",\"Step 4: 确认价格收盘在该K线上方，将其标记为订单块。\",\"Step 5: 识别周线公允价值缺口位于77.00-78.50区间作为下方支撑。\",\"Step 6: 观察价格扫除卖方流动性（摆动低点）并创建日线FVG。\",\"Step 7: 确认价格向上回测周线FVG，日线FVG提供支撑。\",\"Step 8: 标记日线FVG和订单块形成重叠的PD数组结构。\",\"Step 9: 观察价格突破订单块后产生位移（Displacement）。\",\"Step 10: 追踪价格上升至前月高点83.50，完成多周期联动。\"],\"outcome\":\"价格成功突破日线订单块，产生强势位移，最终上升至前月高点83.50附近，完成多周期支撑到阻力的联动运动。\",\"lessons\":\"多周期联动分析中，高时间框架（周线）的FVG可作为低时间框架（日线）的强支撑。日线订单块与周线FVG的重叠形成高概率的PD数组，价格突破后的位移通常指向前期关键水平。\",\"primary_image_frame_id\":\"7p9MBFk8EEM_f010\",\"supporting_image_frame_ids\":[\"7p9MBFk8EEM_f007\",\"7p9MBFk8EEM_f008\",\"7p9MBFk8EEM_f009\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Sellside Liquidity\",\"PD array\",\"Market Structure\",\"Multi-timeframe analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了USOIL日线图表的多个阶段，清晰标注了前月高点、周线FVG、订单块等关键结构，分析步骤按时间顺序完整呈现，最终结果明确。\"}",
+  "error": null
+}

@@ -1,0 +1,109 @@
+{
+  "card_id": "eHQ4nE-TQ2w_case_002_es与nq的看涨背离交易案例",
+  "type": "case",
+  "title": "NQ看涨背离交易：高时间框架识别与低时间框架精确入场",
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Divergence (背离)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement (位移)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity (流动性)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "optimal_trade_entry_ote"
+  ],
+  "school": "SMC",
+  "asset": "ES / NQ",
+  "timeframe": "15M (HTF) / 1M (LTF)",
+  "market_context": "ES与NQ通常同向运动，但在该案例中出现分歧：ES创出更低低点，NQ创出更高低点，形成看涨背离信号，预示NQ相对强势。",
+  "key_observation": "NQ在创出更高低点而ES创出更低低点时，形成看涨背离。NQ展现更强势能，成为做多的首选标的。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表上观察ES与NQ的市场结构，识别两者的摆动点（HH、HL、LL、LH）。",
+    "Step 2: 发现ES形成下行结构（LH→LL），而NQ形成盘整结构（LH→HH→HL），两者结构不同步。",
+    "Step 3: 确认看涨背离：NQ创出更高低点（HL）而ES创出更低低点（LL），表明NQ强于ES。",
+    "Step 4: 选择较强的NQ作为交易标的，因其展现更多上升动能。",
+    "Step 5: 在NQ上等待市场结构转变（MSS），寻找突破信号。",
+    "Step 6: 观察到位移（Displacement）和2分钟公允价值缺口（FVG）形成。",
+    "Step 7: 在1分钟图表上，结合MSS和FVG回测，确定最优交易入场点（OTE）。"
+  ],
+  "outcome": null,
+  "lessons": "背离交易的核心是选择相对强势的标的。在高时间框架识别背离后，需在低时间框架等待MSS和FVG的组合确认，以获得更高概率的精确入场点。风险管理上，若背离被破坏（如NQ低点被跌破），则背离失效，应立即止损。",
+  "primary_image": "cards/eHQ4nE-TQ2w/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/eHQ4nE-TQ2w/images/case_002_detail_1.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_002_detail_2.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_002_detail_3.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_002_detail_4.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_002_detail_5.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图上显示两个并排的 15 分钟 K 线图表：左侧为 S&P 500 E-mini 期货（ES），右侧为纳斯达克 100 E-mini 期货（NQ）。两个图表均标注了 LH（较高的高点）、IH（中间高点）、LL（较低的低点）、HL（较高的低点）四个关键点位。左侧图表从 LH 到 IH 绘有向下趋势线，从 LL 到 HL 绘有向上趋势线。右侧图表结构相似，并在下方价格区域用黄色矩形框标记。图下方有两段",
+    "case_002_detail_1.jpg": "图上显示 S&P 500 E-mini 期货和 NASDAQ 100 E-mini 期货的 15 分钟 K 线图。画面左侧为 S&P 500，右侧为 NASDAQ 100。图上标注了多个摆动点标签：HH（更高高点）、HL（更高低点）、LL（更低低点）、LH（更低高点），分布在整个价格走势中。K 线由绿色（上升）和红色（下降）蜡烛组成。左上角文字说明\"You can see this by look",
+    "case_002_detail_2.jpg": "图上为两个并排的 15 分钟 K 线图：左侧为 S&P 500 E-mini Futures（ES），右侧为 NASDAQ 100 E-mini Futures（NQ）。两图均为蜡烛图，绿色代表上涨 K 线，红色代表下跌 K 线。ES 图上标注有多个摆动点标签（LH、HH、LL），NQ 图上同样标注有摆动点标签。图中央下方有文字标注说明：NQ 创出更高的高点而 ES 创出更低的高点，标注为'div",
+    "case_002_detail_3.jpg": "图上为两个并排的 15 分钟 K 线图表：左侧为 ES（标普 500 E-mini 期货），右侧为 NQ（纳斯达克 100 E-mini 期货）。两图均标注了摆动点标签：LH、IH、LL、HH、HL。ES 图上有一条从 LH 经 IH 至 LL 的下行趋势线。NQ 图上有一条从 LH 经 HH 至 HL 的上行趋势线。图下方有文字说明：\"理想情况下，你希望看到流动性的抓取或某个兴趣点来寻找背离\"。",
+    "case_002_detail_4.jpg": "图上显示两个 15 分钟时间框架的并排 K 线图表。左侧为 ES（标普 500 E-mini 期货），右侧为 NQ（纳斯达克 100 E-mini 期货）。左图标注有下行趋势结构，包含两条下行趋势线连接标记为 LH、LL 的摆动点。右图显示盘整结构，标注有 HH、HL、LH、LL 四个摆动点，并用矩形框围绕该区域。图下方有两段文字说明：左侧文字为\"You want to trade the one",
+    "case_002_detail_5.jpg": "NQ 图表显示一段时间内的价格走势。图上有一个黄色矩形框标注在左下方区域，框内包含多根 K 线。图上绘有一条向上倾斜的趋势线穿过该区域。另有两条水平线分别标记在 11455.50 和 11455.75 价格水平。图右侧显示价格刻度从 11400.00 至 11880.00。图上文字标注说明'由于 NQ 正在创造更高的低点，我们将初步看多它，因为它有更多的强度'。K 线呈绿红相间排列，显示价格在标注",
+    "case_002_detail_6.jpg": "NASDAQ-100 期货 1 分钟 K 线图。图上显示从约 09:20 至 12:40 的价格走势，价格范围从 11550 到 11782。图中有一条向上的趋势线从左下方向右上方延伸。中间区域有一个灰色矩形标注，标记为 FVG，位置约在 11615 至 11635 之间。图上有文字标注说明 FVG 入场策略，提及 2 分钟 FVG。右侧显示当前价格标签 11839.50（绿色高亮）和其他价格水平"
+  },
+  "sources": [
+    {
+      "video_id": "eHQ4nE-TQ2w",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.279,
+        270.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了背离识别、标的选择、高低时间框架分析的全流程，关键价位和分析步骤清晰可追踪。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:02.989715Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ看涨背离交易：高时间框架识别与低时间框架精确入场\",\"school\":\"SMC\",\"asset\":\"ES / NQ\",\"timeframe\":\"15M (HTF) / 1M (LTF)\",\"market_context\":\"ES与NQ通常同向运动，但在该案例中出现分歧：ES创出更低低点，NQ创出更高低点，形成看涨背离信号，预示NQ相对强势。\",\"key_observation\":\"NQ在创出更高低点而ES创出更低低点时，形成看涨背离。NQ展现更强势能，成为做多的首选标的。\",\"analysis_steps\":[\"Step 1: 在15分钟图表上观察ES与NQ的市场结构，识别两者的摆动点（HH、HL、LL、LH）。\",\"Step 2: 发现ES形成下行结构（LH→LL），而NQ形成盘整结构（LH→HH→HL），两者结构不同步。\",\"Step 3: 确认看涨背离：NQ创出更高低点（HL）而ES创出更低低点（LL），表明NQ强于ES。\",\"Step 4: 选择较强的NQ作为交易标的，因其展现更多上升动能。\",\"Step 5: 在NQ上等待市场结构转变（MSS），寻找突破信号。\",\"Step 6: 观察到位移（Displacement）和2分钟公允价值缺口（FVG）形成。\",\"Step 7: 在1分钟图表上，结合MSS和FVG回测，确定最优交易入场点（OTE）。\"],\"outcome\":null,\"lessons\":\"背离交易的核心是选择相对强势的标的。在高时间框架识别背离后，需在低时间框架等待MSS和FVG的组合确认，以获得更高概率的精确入场点。风险管理上，若背离被破坏（如NQ低点被跌破），则背离失效，应立即止损。\",\"primary_image_frame_id\":\"eHQ4nE-TQ2w_f007\",\"supporting_image_frame_ids\":[\"eHQ4nE-TQ2w_f003\",\"eHQ4nE-TQ2w_f004\",\"eHQ4nE-TQ2w_f005\",\"eHQ4nE-TQ2w_f002\",\"eHQ4nE-TQ2w_f008\",\"eHQ4nE-TQ2w_f010\"],\"related_concepts\":[\"SMT (Smart Money Technique)\",\"Divergence (背离)\",\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"Displacement (位移)\",\"Order Block (OB)\",\"Liquidity (流动性)\",\"Optimal Trade Entry (OTE)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了背离识别、标的选择、高低时间框架分析的全流程，关键价位和分析步骤清晰可追踪。\"}",
+  "error": null
+}

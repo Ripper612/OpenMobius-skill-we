@@ -1,0 +1,60 @@
+{
+  "card_id": "equal_low",
+  "type": "merged_concept",
+  "canonical_term": "Equal Low",
+  "aliases": [
+    "equal lows",
+    "相等低点"
+  ],
+  "school": "ICT",
+  "definition": "价格在不同时间周期内触及相同或接近的低点水平。通常作为交易目标或止损参考，表示价格可能在该水平遇到支撑或产生反应。",
+  "identification_rules": [
+    "在图表上标记出前期形成的摆动低点价格水平",
+    "观察价格是否在后续走势中再次触及或接近该相同水平",
+    "确认该低点与前期低点的价格距离相等或极为接近",
+    "结合失败摆动（failure swing）或低阻力流动性（Low Resistance Liquidity）来增强识别的有效性"
+  ],
+  "trading_implication": "Equal Low常用作下行交易的目标位或止损参考。当价格在低时间框架上形成失败摆动并触及Equal Low时，交易者可考虑在该水平附近平仓，而无需等待更深层的高阻力流动性。这样可以更快地锁定利润，避免不必要的持仓时间和风险。",
+  "common_mistakes": [
+    "将Equal Low与High Resistance Liquidity混淆，导致目标位设置不当",
+    "忽视Equal Low周围的失败摆动确认，仅基于价格相等性就入场或平仓",
+    "在没有确认低阻力流动性的情况下，过度依赖Equal Low作为唯一的交易信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "2lIaRUtJqpU_case_003_纳斯达克期货5分钟和1分钟多时间框架交易",
+      "video_id": "2lIaRUtJqpU",
+      "title": "纳斯达克期货5分钟和1分钟多时间框架交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "2lIaRUtJqpU",
+      "original_card_id": "2lIaRUtJqpU_concept_equal_low",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        364.62,
+        496.819
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:57:24.616749Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

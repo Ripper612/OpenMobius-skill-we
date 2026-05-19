@@ -1,0 +1,101 @@
+{
+  "card_id": "MmvC4rsmmcM_case_002_标普期货日内交易案例",
+  "type": "case",
+  "title": "标普期货多时间框架嵌套FVG与SMT日内交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Nested Structure",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "smart_money_technique_smt",
+    "liquidity",
+    "displacement",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "Multi-timeframe (Daily → 4H → 1H → 15min → 1min)",
+  "market_context": "日线存在公允价值缺口，向下延伸至4小时、1小时和15分钟图表形成嵌套FVG结构。8点时价格跌入15分钟FVG并与纳斯达克形成SMT分歧，为日内做多提供机会。",
+  "key_observation": "博主识别了从日线到1分钟的嵌套FVG结构，并在8点观察到与NASDAQ的SMT分歧，确认价格可能上行至3939.50流动性区域。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别向下的公允价值缺口（FVG）",
+    "Step 2: 下移至4小时图，发现4小时FVG嵌套在日线FVG内",
+    "Step 3: 继续下移至1小时图，确认1小时FVG也嵌套在上级FVG中",
+    "Step 4: 在15分钟图上观察价格跌入FVG并被积极位移，同时与NASDAQ形成SMT分歧",
+    "Step 5: 在1分钟图开盘前分析，发现初期价格行动混乱但确认SMT仍然成立",
+    "Step 6: 识别在1分钟图上形成的订单块（Order Block），作为做多入场点",
+    "Step 7: 在订单块处以低点作为止损，目标设定在3939.50（流动性区域）进行交易"
+  ],
+  "outcome": "博主在订单块处成功入场做多，止损设在低点，目标3939.50。虽然价格初期行动混乱，但由于确认了高时间框架的流动性目标，博主坚持持仓并获得上行机会。",
+  "lessons": "多时间框架嵌套FVG与SMT分歧的结合提供了高概率交易设置。在低时间框架混乱时，高时间框架的流动性确认可以帮助交易者避免被虚假波动吓出头寸，从而捕捉更大的趋势移动。",
+  "primary_image": "cards/MmvC4rsmmcM/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/MmvC4rsmmcM/images/case_002_detail_1.jpg",
+    "cards/MmvC4rsmmcM/images/case_002_detail_2.jpg",
+    "cards/MmvC4rsmmcM/images/case_002_detail_3.jpg",
+    "cards/MmvC4rsmmcM/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 1 分钟图。图上显示一条向上的尖锐价格突破，从约 3930 上升至 3959。图表右侧有三个彩色矩形标注：绿色标注'Target: 5,00 (0.382) Amount: 1.750'位于 3945-3959 区间；绿色标注'Entry CALL: 5.91, -0.75 Amount: 1.750'位于 3941-3945 区间；红色标注'Stop",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 10分钟K线图。图上显示价格范围约从3680到4250。图中绘制了3条水平线，分别位于3924.50、3850.00和3760.00价格水平。K线由绿色（上涨）和黑色（下跌）蜡烛组成，多数K线具有上下影线。图表右侧显示当前价格标签。底部可见成交量指标。图上未见其他标注或形态框。",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示从左侧约3877.00上升至右侧约3968.00的上升趋势，跨越约20根K线。中段存在一个约在3920.00至3940.00区间的盘整形态，持续约8根K线。图右侧有一条水平线位于3932.00处。大部分K线为绿色，影线较小。右下角可见交易按钮'Sell'和'Buy'。价格刻度显示在右侧纵轴，时间刻度显示在底部。",
+    "case_002_detail_3.jpg": "S&P 500 E-mini 期货 1 分钟图。图上显示从 06:45 至 12:00 UTC 的价格走势。可见三条水平线分别位于 3938.50、3924.50 和 3924.00 价格水平。一条向上倾斜的趋势线从左下方向右上方延伸。K 线整体在 3920 至 3950 区间内波动。右侧价格标签显示当前价格约 3924.50。图表底部显示成交量指标。右下角可见\"Sell\"、\"Buy\"和\"Flat",
+    "case_002_detail_4.jpg": "S&P 500 E-mini Futures 1分钟图表。图上显示价格范围从3910.00至3951.00。可见两条水平线分别位于3947.00和3925.50处。图中央有一个黄色矩形标注，覆盖约3943.00至3947.00的价格区间。最新K线在3947.00处，右侧价格轴显示绿色标签。K线形态显示向上尖刺至3951.00后回落，随后在3925.50至3947.00区间内形成多根K线的整理。"
+  },
+  "sources": [
+    {
+      "video_id": "MmvC4rsmmcM",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        361.919,
+        496.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到1分钟的分析过程，清晰标注了关键价位（3939.50）、入场点、止损和目标，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:24.144766Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普期货多时间框架嵌套FVG与SMT日内交易\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"Multi-timeframe (Daily → 4H → 1H → 15min → 1min)\",\"market_context\":\"日线存在公允价值缺口，向下延伸至4小时、1小时和15分钟图表形成嵌套FVG结构。8点时价格跌入15分钟FVG并与纳斯达克形成SMT分歧，为日内做多提供机会。\",\"key_observation\":\"博主识别了从日线到1分钟的嵌套FVG结构，并在8点观察到与NASDAQ的SMT分歧，确认价格可能上行至3939.50流动性区域。\",\"analysis_steps\":[\"Step 1: 在日线图上识别向下的公允价值缺口（FVG）\",\"Step 2: 下移至4小时图，发现4小时FVG嵌套在日线FVG内\",\"Step 3: 继续下移至1小时图，确认1小时FVG也嵌套在上级FVG中\",\"Step 4: 在15分钟图上观察价格跌入FVG并被积极位移，同时与NASDAQ形成SMT分歧\",\"Step 5: 在1分钟图开盘前分析，发现初期价格行动混乱但确认SMT仍然成立\",\"Step 6: 识别在1分钟图上形成的订单块（Order Block），作为做多入场点\",\"Step 7: 在订单块处以低点作为止损，目标设定在3939.50（流动性区域）进行交易\"],\"outcome\":\"博主在订单块处成功入场做多，止损设在低点，目标3939.50。虽然价格初期行动混乱，但由于确认了高时间框架的流动性目标，博主坚持持仓并获得上行机会。\",\"lessons\":\"多时间框架嵌套FVG与SMT分歧的结合提供了高概率交易设置。在低时间框架混乱时，高时间框架的流动性确认可以帮助交易者避免被虚假波动吓出头寸，从而捕捉更大的趋势移动。\",\"primary_image_frame_id\":\"MmvC4rsmmcM_f017\",\"supporting_image_frame_ids\":[\"MmvC4rsmmcM_f013\",\"MmvC4rsmmcM_f014\",\"MmvC4rsmmcM_f015\",\"MmvC4rsmmcM_f016\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Smart Money Technique (SMT)\",\"Liquidity\",\"Displacement\",\"Multi-timeframe Analysis\",\"Nested Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到1分钟的分析过程，清晰标注了关键价位（3939.50）、入场点、止损和目标，交易结果明确。\"}",
+  "error": null
+}

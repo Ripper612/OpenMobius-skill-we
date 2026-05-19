@@ -1,0 +1,95 @@
+{
+  "card_id": "_94CPMjWi9E_case_003_dxy日线结构转变与pd_array应用",
+  "type": "case",
+  "title": "DXY日线MSS与PD Array折价区反应分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Discount Zone",
+      "card_id": "premium_discount_area",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "HTF/LTF",
+      "card_id": "time_frame",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "premium_discount_premium_",
+    "premium_discount_area",
+    "liquidity",
+    "time_frame"
+  ],
+  "school": "ICT",
+  "asset": "DXY",
+  "timeframe": "1D",
+  "market_context": "DXY日线形成日级FVG，价格回测至折价区的Order Block，突破前期高点形成Market Structure Shift后，在PD Array内产生支撑反应并继续上升。",
+  "key_observation": "博主观察到DXY日线在突破结构高点形成MSS后，价格在折价区内的Order Block处获得支撑，随后继续向上运行，展示了PD Array在高时间框架上的有效性。",
+  "analysis_steps": [
+    "Step 1: 识别日线Fair Value Gap（FVG）的位置和价格范围",
+    "Step 2: 观察价格回测至FVG低点，确认价格进入折价区",
+    "Step 3: 标记折价区内的Order Block位置作为潜在支撑",
+    "Step 4: 确认价格突破前期摆动高点并收盘在其上方，形成Market Structure Shift",
+    "Step 5: 验证价格在PD Array（折价区Order Block）处产生反应并获得支撑",
+    "Step 6: 观察价格随后继续向上运行，确认设置有效性"
+  ],
+  "outcome": "价格在PD Array折价区的Order Block处获得支撑，随后继续上升，验证了在高时间框架结构转变后于低时间框架寻找设置的有效性。",
+  "lessons": "在日线形成MSS后，应在该时间框架内寻找PD Array设置；折价区的Order Block在价格回测时提供有效支撑；高时间框架结构转变为低时间框架交易提供了可靠的背景确认。",
+  "primary_image": "cards/_94CPMjWi9E/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/_94CPMjWi9E/images/case_003_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "EURUSD 日线图。图上显示从 6 月初至 6 月 24 日的价格走势，价格范围约 101.300 至 104.600。图上有一条水平线位于 101.900 附近。在 6 月中旬至下旬区间内标注有一个矩形框，标签为 FVG，位置约在 102.300 至 102.600 区间。图右侧显示当前价格标记为 102.767。K 线序列中包含多根黑色下跌蜡烛和绿色上涨蜡烛，其中 6 月 12 日附近有一根",
+    "case_003_detail_1.jpg": "EURUSD 日线图。图表显示从 6 月中旬至 7 月初的价格走势，价格范围从 104.300 跌至 101.600。K 线序列呈下行趋势，绿色和黑色 K 线交替出现。图上标注有两处文字：中部偏下方标记'HTT Level'，上方标记'mm'。右下角显示当前价格 101.972。图右侧价格刻度清晰可见，从 101.600 至 104.300。除文字标注外，未见其他形态框、趋势线或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "_94CPMjWi9E",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        363.72,
+        478.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对DXY案例的分析完整清晰，包括FVG识别、折价区Order Block标记、MSS确认、PD Array反应等全流程，图表显示明确的价格结构和标注。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:46.574592Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"DXY日线MSS与PD Array折价区反应分析\",\"school\":\"ICT\",\"asset\":\"DXY\",\"timeframe\":\"1D\",\"market_context\":\"DXY日线形成日级FVG，价格回测至折价区的Order Block，突破前期高点形成Market Structure Shift后，在PD Array内产生支撑反应并继续上升。\",\"key_observation\":\"博主观察到DXY日线在突破结构高点形成MSS后，价格在折价区内的Order Block处获得支撑，随后继续向上运行，展示了PD Array在高时间框架上的有效性。\",\"analysis_steps\":[\"Step 1: 识别日线Fair Value Gap（FVG）的位置和价格范围\",\"Step 2: 观察价格回测至FVG低点，确认价格进入折价区\",\"Step 3: 标记折价区内的Order Block位置作为潜在支撑\",\"Step 4: 确认价格突破前期摆动高点并收盘在其上方，形成Market Structure Shift\",\"Step 5: 验证价格在PD Array（折价区Order Block）处产生反应并获得支撑\",\"Step 6: 观察价格随后继续向上运行，确认设置有效性\"],\"outcome\":\"价格在PD Array折价区的Order Block处获得支撑，随后继续上升，验证了在高时间框架结构转变后于低时间框架寻找设置的有效性。\",\"lessons\":\"在日线形成MSS后，应在该时间框架内寻找PD Array设置；折价区的Order Block在价格回测时提供有效支撑；高时间框架结构转变为低时间框架交易提供了可靠的背景确认。\",\"primary_image_frame_id\":\"_94CPMjWi9E_f015\",\"supporting_image_frame_ids\":[\"_94CPMjWi9E_f016\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"PD Array\",\"Premium/Discount\",\"Discount Zone\",\"Liquidity\",\"HTF/LTF\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对DXY案例的分析完整清晰，包括FVG识别、折价区Order Block标记、MSS确认、PD Array反应等全流程，图表显示明确的价格结构和标注。\"}",
+  "error": null
+}

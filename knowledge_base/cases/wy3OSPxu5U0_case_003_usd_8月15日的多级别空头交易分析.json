@@ -1,0 +1,108 @@
+{
+  "card_id": "wy3OSPxu5U0_case_003_usd_8月15日的多级别空头交易分析",
+  "type": "case",
+  "title": "USD 8月15日多级别空头交易分析：从日线OB到5分钟FVG入场",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "smart_money_technique",
+    "time_frame_confluence",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "Multi-timeframe (1D → 1H → 5M)",
+  "market_context": "周一USD形成上升K线（潜在订单块），周二8月15日价格在9:30开盘后向下扩展。博主通过多级别分析追踪价格走势，寻找空头入场机会，目标为前一日低点。",
+  "key_observation": "周一上升K线作为潜在订单块；午夜开盘后价格向上进入该OB，随后产生位移向下并扫过低点形成FVG；5分钟图表上SMT确认（高点未被突破）为空头入场信号。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别周一的上升K线作为潜在订单块（Order Block），标记前一日低点作为目标参考。",
+    "Step 2: 下降到15分钟图表，观察价格从低点上升至日线开盘附近，确认日线OB的位置。",
+    "Step 3: 进一步下降到1小时图表，观察午夜开盘（Midnight Open）时价格向上进入OB区域。",
+    "Step 4: 确认价格在小时线上产生向下位移（Displacement），并扫过前一个低点，形成公允价值缺口（FVG）。",
+    "Step 5: 下降到5分钟图表，观察价格向上进入FVG区域并形成上升K线。",
+    "Step 6: 在5分钟图表上识别SMT（Smart Money Technique）：价格从高点向下但未能突破之前的高点，确认空头有效性。",
+    "Step 7: 确认第二次扫荡仍未突破该高点，SMT依然有效，设置止损于该高点，目标设在前一日低点以获得最小2R风险回报比。"
+  ],
+  "outcome": "价格向上进入FVG形成上升K线后开始向下位移，成功触及前一日低点附近，交易目标达成。",
+  "lessons": "多级别分析的关键是从高时间框架（日线）识别结构性订单块，然后逐级下降到低时间框架确认位移和FVG，最后在最低时间框架（5分钟）通过SMT确认获得高概率入场。风险管理上，止损设在未被突破的高点，目标设在已知支撑位，确保风险回报比优势。",
+  "primary_image": "cards/wy3OSPxu5U0/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/wy3OSPxu5U0/images/case_003_detail_1.jpg",
+    "cards/wy3OSPxu5U0/images/case_003_detail_2.jpg",
+    "cards/wy3OSPxu5U0/images/case_003_detail_3.jpg",
+    "cards/wy3OSPxu5U0/images/case_003_detail_4.jpg",
+    "cards/wy3OSPxu5U0/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 5分钟K线图，时间范围从04:00至16:00。图上显示价格在4462至4496区间内波动。图表左侧为历史K线数据，包含绿色和黑色蜡烛，显示双向价格运动。图上有三条水平线分别位于4487、4484和4464价格水平。右侧图表区域标注有两个矩形框：下方浅蓝色矩形框大约覆盖4464至4484区间，上方浅灰色矩形框大约覆盖4480至4490区间。底部显示时间刻度标签和交易控制按钮。",
+    "case_003_detail_1.jpg": "USD 15分钟K线图。图上显示价格从约14960上升至15390，随后出现急速下跌至14950附近，之后反弹。右侧价格轴标注有5条水平线，分别位于15392.75、15341.25、15310.25、15307.75和15300.00。图上标有'Daily Open'文字标签。可见K线整体价格范围约从14940到15400。左侧显示多根绿色K线（上升段），中间部分为黑色K线（下跌段），右侧为绿色",
+    "case_003_detail_2.jpg": "USD 1小时K线图。图表显示约24小时的价格走势，K线在4452.00至4536.00区间内波动。图上有一条矩形框标注，范围约在4464.00至4506.00之间。可见多根绿色和黑色K线交替出现，其中最高的绿色K线达到约4504.00，上影线延伸至4506.00。图右侧有两条水平参考线分别位于4506.00和4464.00。时间轴显示从11日06:00至16日18:00的时间跨度。",
+    "case_003_detail_3.jpg": "USD 1小时K线图。图上显示价格范围从4464到4536。可见一条水平虚线标注为Daily Open，位置约在4512。K线序列包含绿色和黑色蜡烛，呈现多次上下波动。中间区域约4480至4520间有多根K线形成整理形态。右侧出现一根较大的黑色K线从高点向下刺破至低点。图上未见其他指标或标注。",
+    "case_003_detail_4.jpg": "USD 5分钟K线图，时间范围从04:30至13:30 UTC。图上显示价格在4464.00至4498.00区间内波动。两条水平线分别位于4484.00和4466.00处。K线由绿色（上升）和黑色（下降）蜡烛组成，整体呈现从左侧约4490.00向下运动至右侧约4474.00的趋势。图上未见其他标注或指标。",
+    "case_003_detail_5.jpg": "USD 5分钟K线图。图上显示价格范围从4500.00至4464.00。图中有一条水平线标注为OB7，位于4484.50附近，并用矩形框标记。另有一条水平线位于4455.50处。K线序列显示初期下跌至4470.00附近，随后在4475.00至4485.00区间内出现整理，之后价格上升至4488.00附近，最后在4485.00水平附近保持横盘。图上可见多根绿色K线和黑色K线交替出现。"
+  },
+  "sources": [
+    {
+      "video_id": "wy3OSPxu5U0",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        305.6,
+        552.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到5分钟的三级别分析过程，清晰标注了OB、FVG、SMT等关键结构，交易逻辑完整，结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:51.343777Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 8月15日多级别空头交易分析：从日线OB到5分钟FVG入场\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"Multi-timeframe (1D → 1H → 5M)\",\"market_context\":\"周一USD形成上升K线（潜在订单块），周二8月15日价格在9:30开盘后向下扩展。博主通过多级别分析追踪价格走势，寻找空头入场机会，目标为前一日低点。\",\"key_observation\":\"周一上升K线作为潜在订单块；午夜开盘后价格向上进入该OB，随后产生位移向下并扫过低点形成FVG；5分钟图表上SMT确认（高点未被突破）为空头入场信号。\",\"analysis_steps\":[\"Step 1: 在日线图上识别周一的上升K线作为潜在订单块（Order Block），标记前一日低点作为目标参考。\",\"Step 2: 下降到15分钟图表，观察价格从低点上升至日线开盘附近，确认日线OB的位置。\",\"Step 3: 进一步下降到1小时图表，观察午夜开盘（Midnight Open）时价格向上进入OB区域。\",\"Step 4: 确认价格在小时线上产生向下位移（Displacement），并扫过前一个低点，形成公允价值缺口（FVG）。\",\"Step 5: 下降到5分钟图表，观察价格向上进入FVG区域并形成上升K线。\",\"Step 6: 在5分钟图表上识别SMT（Smart Money Technique）：价格从高点向下但未能突破之前的高点，确认空头有效性。\",\"Step 7: 确认第二次扫荡仍未突破该高点，SMT依然有效，设置止损于该高点，目标设在前一日低点以获得最小2R风险回报比。\"],\"outcome\":\"价格向上进入FVG形成上升K线后开始向下位移，成功触及前一日低点附近，交易目标达成。\",\"lessons\":\"多级别分析的关键是从高时间框架（日线）识别结构性订单块，然后逐级下降到低时间框架确认位移和FVG，最后在最低时间框架（5分钟）通过SMT确认获得高概率入场。风险管理上，止损设在未被突破的高点，目标设在已知支撑位，确保风险回报比优势。\",\"primary_image_frame_id\":\"wy3OSPxu5U0_f017\",\"supporting_image_frame_ids\":[\"wy3OSPxu5U0_f012\",\"wy3OSPxu5U0_f013\",\"wy3OSPxu5U0_f014\",\"wy3OSPxu5U0_f015\",\"wy3OSPxu5U0_f016\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Smart Money Technique\",\"Multi-timeframe Analysis\",\"Liquidity\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到5分钟的三级别分析过程，清晰标注了OB、FVG、SMT等关键结构，交易逻辑完整，结果明确。\"}",
+  "error": null
+}

@@ -1,0 +1,65 @@
+{
+  "card_id": "4_hour_candle_ohlc_trading_model",
+  "type": "merged_concept",
+  "canonical_term": "4-Hour Candle OHLC Trading Model",
+  "aliases": [
+    "4-Hour AMD Model",
+    "4H Fractal Model",
+    "4H Power of Three"
+  ],
+  "school": "ICT",
+  "definition": "基于4小时K线的开盘价、最高价、最低价、收盘价四个关键点，结合Power of Three（积累-操纵-派发）模型，在低时间框架（15分钟或更低）确认wick形成后交易扩张K线的方法。",
+  "identification_rules": [
+    "第一根K线为积累K线（Candle 1 Accumulation），通常为盘整或反向K线。",
+    "第二根K线（Candle 2）判断方向：若对向运动较小（shallow wick），支持扩张；若对向运动较大（large opposing run），则等待第三根K线。",
+    "第三根K线为派发/扩张K线（Candle 3 Distribution/Expansion），应在低时间框架形成受保护摆动点（Protected Swing）后才能交易其主体方向。",
+    "在低时间框架确认wick已形成（通过CSD或Protected Swing确认），方可进场交易扩张K线的主体方向。",
+    "扩张K线应具有较小的对向wick和较大的主体，支持价格沿主方向运行。"
+  ],
+  "trading_implication": "该模型用于识别4小时周期内的高概率扩张交易机会。交易者先在日线或周线确定整体偏向，再在4小时级别识别反转或延续的Power of Three形态，最后在15分钟或更低时间框架等待wick形成并确认Protected Swing后入场。目标是交易扩张K线的主体而非wick，通常以前期摆动高/低或失败摇摆作为目标位。",
+  "common_mistakes": [
+    "在wick未完全形成时过早入场，导致频繁止损。",
+    "忽视低时间框架的确认信号，仅基于4小时形态盲目交易。",
+    "在扩张K线已消耗其大部分范围后仍试图延续交易，应等待新的4小时K线开盘。",
+    "未能区分shallow opposing run（支持扩张）与large opposing run（需等待下一根K线），导致入场时机错误。",
+    "交易超过扩张K线的目标位后仍持仓，应在新K线开盘后重新评估。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_4_hour_candle_ohlc_trading_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_005",
+        "seg_006",
+        "seg_009",
+        "seg_013",
+        "seg_018",
+        "seg_020",
+        "seg_021"
+      ],
+      "time_range": [
+        10.96,
+        1111.039
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.130985Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

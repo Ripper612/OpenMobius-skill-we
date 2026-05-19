@@ -1,0 +1,133 @@
+{
+  "card_id": "3eVxTV_7L2U_case_011_rty小型罗素指数完整顶部到底部交易",
+  "type": "case",
+  "title": "RTY日线顶部失败操纵到4H CSD确认，30分钟FVG与YM SMT联动，1分钟V形反转入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing (PSP)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "change_in_state_of_delivery_csd",
+    "smart_money_technique_smt",
+    "equilibrium_eq",
+    "liquidity",
+    "failure_swing",
+    "displacement",
+    "aligned_timeframe"
+  ],
+  "school": "ICT",
+  "asset": "RTY1!",
+  "timeframe": "Multi-timeframe (1D → 4H → 30m → 15m → 1m)",
+  "market_context": "RTY在日线范围内从开盘价向上扩张，形成失败摆动。价格未能操纵内部高点，随后在4小时确认CSD，与YM形成SMT分歧，为下行交易提供高概率设置。",
+  "key_observation": "日线内部高点失败操纵是关键信号，表明价格不会向上操纵后再下行。4小时确认CSD后，30分钟FVG与YM相关资产形成SMT，15分钟继续PSP形态，1分钟V形反转提供精确入场点。",
+  "analysis_steps": [
+    "Step 1: 在日线观察价格从开盘向上扩张，形成失败摆动（failure swings）",
+    "Step 2: 识别价格未能操纵内部高点（internal high），这表明不会出现向上操纵后向下的模式",
+    "Step 3: 转向4小时确认CSD（Change in State of Delivery），价格突破前一摆动结构",
+    "Step 4: 观察30分钟4小时FVG与相关资产YM形成SMT（Smart Money Technique）分歧",
+    "Step 5: 在30分钟确认价格从反转点扩张，验证可以交易向下至对立范围",
+    "Step 6: 转向15分钟，识别RTY交易进入FVG而YM未进入任何FVG，确认PSP（Protected Swing）继续形态",
+    "Step 7: 标记10:00开盘点，确认其形成4小时蜡烛的低点，触及15分钟关键FVG水平",
+    "Step 8: 在15分钟形成小摆动后，标记该蜡烛范围的EQ（Equilibrium），观察价格尊重上半部分",
+    "Step 9: 转向1分钟，识别V形反转特征，扩张至低点创建SMT，扩张离开再次被SMT确认",
+    "Step 10: 在1分钟FVG处入场，该FVG与高时间框架目标相关联，交易持续约3小时"
+  ],
+  "outcome": "成功交易，从1分钟V形反转入场，目标为高时间框架流动性（2510.3区域），交易持续约3小时完成周交易。",
+  "lessons": "多时间框架协调是关键：日线结构失败提供方向确认，4小时CSD与相关资产SMT形成高概率设置，低时间框架FVG与摆动结构提供精确入场。等待蜡烛收盘确认，使用EQ和摆动点进行分形入场模型，结合高时间框架目标进行风险管理。",
+  "primary_image": "cards/3eVxTV_7L2U/images/case_011_primary.jpg",
+  "supporting_images": [
+    "cards/3eVxTV_7L2U/images/case_011_detail_1.jpg",
+    "cards/3eVxTV_7L2U/images/case_011_detail_2.jpg",
+    "cards/3eVxTV_7L2U/images/case_011_detail_3.jpg",
+    "cards/3eVxTV_7L2U/images/case_011_detail_4.jpg",
+    "cards/3eVxTV_7L2U/images/case_011_detail_5.jpg",
+    "cards/3eVxTV_7L2U/images/case_011_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_011_primary.jpg": "RTY1！（E-Mini Russell 2000 指数期货）1 分钟 K 线图，图表处于 Replay 模式。可见价格范围约从 2488.0 至 2516.0。图右侧价格轴上有两个高亮标签：蓝色标签显示 2512.1，另一标签显示 2498.7。图上约 10:07 时间位置有一条垂直虚线，并在该位置附近约 2498 价位处有一个小圆圈标注。K 线序列从约 09:30 至 10:07 呈下行排列，",
+    "case_011_detail_1.jpg": "RTY1！（E-Mini Russell 2000 指数期货）日线 K 线图，可见价格范围约 2380 至 2560。图上右侧价格轴标注两条高亮价格：2510.3 及 2432.4。图中绘有一个矩形框，覆盖约 2430 至 2520 价格区间，对应时间轴约 9 月下旬至 10 月初区域。矩形框右侧附有文字标签\"wo\"。图上可见一根较长的阴线 K 线主体，位于矩形框左侧附近。当前价格标签显示 248",
+    "case_011_detail_2.jpg": "RTY1！（E-Mini Russell 2000 指数期货）4 小时 K 线图，可见价格范围约 2380 至 2560。图上绘有两个矩形框标注：一个较小矩形框位于约 2430 至 2470 区间，另一个较大矩形框覆盖约 2395 至 2520 区间。图右侧价格轴显示当前价约 2492.5，另有一条水平线位于 2510.3。图上可见一根主体较长的阴线出现于 9 月 24-25 日附近，随后多根 K",
+    "case_011_detail_3.jpg": "RTY1！（E-Mini Russell 2000 Index Futures）30 分钟 K 线图，图右侧价格刻度范围约从 2466.0 至 2513.8。图中可见一个矩形标注框，覆盖约 2479.0 至 2486.0 的价格区间，对应约 10 根 K 线的横向整理区域。整理区右侧出现一根上影线极长的 K 线，上影线从约 2486.0 延伸至约 2513.0。图右侧当前价标签显示 2479.8。",
+    "case_011_detail_4.jpg": "图为 RTY1!（E-Mini Russell 2000 Index Futures）30 分钟 K 线图，时间轴覆盖约 10 月 2 日 21:00 至 10 月 6 日 18:00。图右侧价格刻度范围约 2466.0 至 2513.8，当前高亮价格标签显示 2503.2。图上有一个矩形框标注，覆盖约 2480.0 至 2486.0 区间，框内附有文字标签",
+    "case_011_detail_5.jpg": "RTY1！（E-Mini Russell 2000 指数期货）15 分钟 K 线图，处于 Replay 模式，当前回放时间为 2025 年 10 月 3 日 11:30。图上价格范围约从 2478 至 2518。图左侧至 09:00 前，K 线以小实体形态在 2480 至 2488 区间内横向排列。约 09:00 附近出现一根带长下影线的 K 线，随后数根大实体 K 线向上延伸至 2514 附近。",
+    "case_011_detail_6.jpg": "RTY1！（E-Mini Russell 2000 Index Futures）15 分钟 K 线图，处于 Replay 模式，当前回放时间为 2025 年 10 月 3 日 10:15。图上可见价格范围约从 2478 至 2516。图中央区域有一根大阳线，主体从约 2488 延伸至 2514，上影线延伸至约 2516。该大阳线左侧为一段在 2482 至 2492 区间内的多根小 K 线横盘区域。"
+  },
+  "sources": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "segment_ids": [
+        "seg_030",
+        "seg_031"
+      ],
+      "time_range": [
+        1732.799,
+        1961.039
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到1分钟的分析过程，清晰标注了关键价位（2510.3、2432.4、2498.7等），详细解释了每个时间框架的结构转变和入场逻辑，并给出了具体交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:22:56.787921Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"RTY日线顶部失败操纵到4H CSD确认，30分钟FVG与YM SMT联动，1分钟V形反转入场\",\"school\":\"ICT\",\"asset\":\"RTY1!\",\"timeframe\":\"Multi-timeframe (1D → 4H → 30m → 15m → 1m)\",\"market_context\":\"RTY在日线范围内从开盘价向上扩张，形成失败摆动。价格未能操纵内部高点，随后在4小时确认CSD，与YM形成SMT分歧，为下行交易提供高概率设置。\",\"key_observation\":\"日线内部高点失败操纵是关键信号，表明价格不会向上操纵后再下行。4小时确认CSD后，30分钟FVG与YM相关资产形成SMT，15分钟继续PSP形态，1分钟V形反转提供精确入场点。\",\"analysis_steps\":[\"Step 1: 在日线观察价格从开盘向上扩张，形成失败摆动（failure swings）\",\"Step 2: 识别价格未能操纵内部高点（internal high），这表明不会出现向上操纵后向下的模式\",\"Step 3: 转向4小时确认CSD（Change in State of Delivery），价格突破前一摆动结构\",\"Step 4: 观察30分钟4小时FVG与相关资产YM形成SMT（Smart Money Technique）分歧\",\"Step 5: 在30分钟确认价格从反转点扩张，验证可以交易向下至对立范围\",\"Step 6: 转向15分钟，识别RTY交易进入FVG而YM未进入任何FVG，确认PSP（Protected Swing）继续形态\",\"Step 7: 标记10:00开盘点，确认其形成4小时蜡烛的低点，触及15分钟关键FVG水平\",\"Step 8: 在15分钟形成小摆动后，标记该蜡烛范围的EQ（Equilibrium），观察价格尊重上半部分\",\"Step 9: 转向1分钟，识别V形反转特征，扩张至低点创建SMT，扩张离开再次被SMT确认\",\"Step 10: 在1分钟FVG处入场，该FVG与高时间框架目标相关联，交易持续约3小时\"],\"outcome\":\"成功交易，从1分钟V形反转入场，目标为高时间框架流动性（2510.3区域），交易持续约3小时完成周交易。\",\"lessons\":\"多时间框架协调是关键：日线结构失败提供方向确认，4小时CSD与相关资产SMT形成高概率设置，低时间框架FVG与摆动结构提供精确入场。等待蜡烛收盘确认，使用EQ和摆动点进行分形入场模型，结合高时间框架目标进行风险管理。\",\"primary_image_frame_id\":\"3eVxTV_7L2U_f064\",\"supporting_image_frame_ids\":[\"3eVxTV_7L2U_f058\",\"3eVxTV_7L2U_f059\",\"3eVxTV_7L2U_f060\",\"3eVxTV_7L2U_f061\",\"3eVxTV_7L2U_f062\",\"3eVxTV_7L2U_f063\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Change in State of Delivery (CSD)\",\"Smart Money Technique (SMT)\",\"Protected Swing (PSP)\",\"Equilibrium (EQ)\",\"Liquidity\",\"Failure ",
+  "error": null
+}

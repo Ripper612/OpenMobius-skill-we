@@ -1,0 +1,70 @@
+{
+  "card_id": "equal_highs_lows",
+  "type": "merged_concept",
+  "canonical_term": "Equal Highs/Lows",
+  "aliases": [
+    "相同高点/低点",
+    "等高/等低"
+  ],
+  "school": "SMC",
+  "definition": "在不同时间周期或不同交易日内，价格在相同或接近的价格水平形成的摆动高点或低点。用于识别关键阻力/支撑位和预测未来价格目标。",
+  "identification_rules": [
+    "在日线或更高时间框架上，标记出两个或多个在相同价格水平的摆动高点或摆动低点",
+    "确认这些高点/低点来自不同的交易日或周期，而非同一根K线的上下影线",
+    "使用水平线工具在图表上标记这些等高/等低位置，作为未来的目标或参考水平"
+  ],
+  "trading_implication": "Equal Highs/Lows 作为关键的价格目标和结构参考点。在上升趋势中，如果价格在相同高点停滞，表明该水平存在强阻力；在下降趋势中，相同低点表明支撑。交易者可利用这些水平预测价格的下一步行动方向，或作为止损和获利目标的参考。",
+  "common_mistakes": [
+    "将单根K线的上下影线误认为是Equal Highs/Lows，而忽视了它们应来自不同时间周期或交易日的要求",
+    "未能区分Equal Highs/Lows与其他结构（如Order Block、FVG）的不同用途，导致混淆交易信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "kTWXpAo1uE8_case_004_nq日线到小时线的多时间框架分析",
+      "video_id": "kTWXpAo1uE8",
+      "title": "NQ日线到小时线的多时间框架操纵腿投影分析"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_005_伦敦时段到纽约时段的完整交易设置",
+      "video_id": "kTWXpAo1uE8",
+      "title": "伦敦积累操纵到纽约分布的完整交易设置"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_005_rty_5分钟图双向投影与获利管理",
+      "video_id": "upHS7SDL9kg",
+      "title": "RTY 5分钟双向投影与获利管理实战"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "klaiq36QnEM",
+      "original_card_id": "klaiq36QnEM_concept_equal_highs_lows",
+      "segment_ids": [
+        "seg_002",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        184.8,
+        812.519
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132754Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

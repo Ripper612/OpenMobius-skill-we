@@ -1,0 +1,97 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_003_eurusd_1小时图_扫除短期高点的continuation失",
+  "type": "case",
+  "title": "EURUSD 1H：Continuation失败与高点扫除的识别",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "V-shaped reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "continuation_pattern",
+    "consolidation",
+    "v_shaped_reversal",
+    "liquidity_sweep",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1H",
+  "market_context": "EURUSD在1小时图上形成V形反转后出现上升，价格回测至Fair Value Gap区域。博主分析该区域是否能形成有效的continuation突破。",
+  "key_observation": "价格虽然闭合穿过FVG水平，但缺乏强劲的V形快速上升动作，反而扫除了短期高点后转向下跌，表明这是consolidation而非continuation，需要等待额外确认。",
+  "analysis_steps": [
+    "Step 1: 识别V形反转结构和随后的上升expansion。",
+    "Step 2: 定位回测至Fair Value Gap的关键价格水平。",
+    "Step 3: 观察价格是否能以强劲V形快速闭合穿过该FVG水平。",
+    "Step 4: 发现价格虽然闭合穿过FVG，但缺乏swift price action，表现为缓慢上升。",
+    "Step 5: 识别价格同时扫除consolidation range的高点。",
+    "Step 6: 确认这是consolidation而非continuation，价格随后转向下跌交易。",
+    "Step 7: 得出结论：通过识别consolidation而非continuation，避免了做多亏损。"
+  ],
+  "outcome": "通过正确识别consolidation特征（缺乏swift price action、扫除高点后下跌），交易者得以规避做多损失，选择观望而非入场。",
+  "lessons": "Continuation需要具备swift price action和强劲的V形闭合穿过FVG；缺乏这些特征时应识别为consolidation。扫除短期高点后的反向下跌是consolidation的关键信号，需要等待额外确认而非仓促入场。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_003_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "EURUSD 1小时K线图。图表显示从左至右的上升趋势结构，价格范围约1.07500至1.12000。K线序列中绿色和黑色蜡烛交替出现。图上有两个黄色矩形标注框，分别位于约1.10200-1.10600和1.10800-1.11200价格区间。右侧最新K线显示长上影线，收盘价约在1.11800附近。图上可见两条水平参考线，分别在1.11500和1.10000价格水平。除上述标注外，未见其他指标或形",
+    "case_003_detail_1.jpg": "多资产对比图表，显示多根K线蜡烛图。图上可见绿色和黑色K线交替出现，价格范围约从60000至85000。左侧显示一段整理区间，随后进入上升趋势至中部高点约85000，之后转为下降趋势至约65000。K线具有不同长度的上下影线。右侧工具栏显示多种绘图工具可用。图表底部显示时间刻度，但具体资产代码和时间框架标识不清晰。",
+    "case_003_detail_2.jpg": "多资产并行显示的K线图表。图上显示一段从左至右的价格走势，从约61000起点上升至约83000高点，随后下跌至约68000，最后在68000至76000区间内呈现横盘整理。图中有黄色/橙色矩形标注框位于右侧约71000至76000价格区间。K线以绿色（上升）和黑色（下跌）表示，整体价格范围约61000至83000。右侧可见绘图工具栏。图表底部显示时间轴标记。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        350.15999999999997,
+        435.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰：资产EURUSD、时间框架1H、关键结构（V形反转、FVG、consolidation vs continuation）、分析步骤（观察闭合、识别缺乏swift action、扫除高点、转向下跌）、交易结论（规避亏损）均有明确表述。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:37.891406Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 1H：Continuation失败与高点扫除的识别\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1H\",\"market_context\":\"EURUSD在1小时图上形成V形反转后出现上升，价格回测至Fair Value Gap区域。博主分析该区域是否能形成有效的continuation突破。\",\"key_observation\":\"价格虽然闭合穿过FVG水平，但缺乏强劲的V形快速上升动作，反而扫除了短期高点后转向下跌，表明这是consolidation而非continuation，需要等待额外确认。\",\"analysis_steps\":[\"Step 1: 识别V形反转结构和随后的上升expansion。\",\"Step 2: 定位回测至Fair Value Gap的关键价格水平。\",\"Step 3: 观察价格是否能以强劲V形快速闭合穿过该FVG水平。\",\"Step 4: 发现价格虽然闭合穿过FVG，但缺乏swift price action，表现为缓慢上升。\",\"Step 5: 识别价格同时扫除consolidation range的高点。\",\"Step 6: 确认这是consolidation而非continuation，价格随后转向下跌交易。\",\"Step 7: 得出结论：通过识别consolidation而非continuation，避免了做多亏损。\"],\"outcome\":\"通过正确识别consolidation特征（缺乏swift price action、扫除高点后下跌），交易者得以规避做多损失，选择观望而非入场。\",\"lessons\":\"Continuation需要具备swift price action和强劲的V形闭合穿过FVG；缺乏这些特征时应识别为consolidation。扫除短期高点后的反向下跌是consolidation的关键信号，需要等待额外确认而非仓促入场。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f012\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f013\",\"PQiRV0JMhIQ_f014\"],\"related_concepts\":[\"Fair Value Gap\",\"Continuation\",\"Consolidation\",\"V-shaped reversal\",\"Price Action\",\"Liquidity sweep\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰：资产EURUSD、时间框架1H、关键结构（V形反转、FVG、consolidation vs continuation）、分析步骤（观察闭合、识别缺乏swift action、扫除高点、转向下跌）、交易结论（规避亏损）均有明确表述。\"}",
+  "error": null
+}

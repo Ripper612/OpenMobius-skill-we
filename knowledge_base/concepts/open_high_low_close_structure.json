@@ -1,0 +1,58 @@
+{
+  "card_id": "open_high_low_close_structure",
+  "type": "merged_concept",
+  "canonical_term": "Open, High, Low, Close Structure",
+  "aliases": [
+    "Candle Structure",
+    "OHLC Structure"
+  ],
+  "school": "ICT",
+  "definition": "K线的四个关键价格点：开盘价、最高价、最低价、收盘价。用于分析K线形态、判断价格反转或延续，以及识别高时间框架与低时间框架之间的结构关系。",
+  "identification_rules": [
+    "观察单根K线的开盘价（Open）、最高价（High）、最低价（Low）、收盘价（Close）四个价格点",
+    "比较相邻K线的OHLC关系，判断是否形成包含关系（engulfing）或内部关系（inside bar）",
+    "在多时间框架分析中，低时间框架的摆动点应形成高时间框架K线的上下影线（wick）",
+    "识别K线3（candle 3）的开盘价和收盘价，判断是否支持价格扩张或反转",
+    "检查收盘价（Close）是否突破前一根K线的高点或低点，以判断延续或反转信号"
+  ],
+  "trading_implication": "OHLC结构是多时间框架交易的基础。通过观察高时间框架K线的OHLC，交易者可以在低时间框架中寻找摆动点和延续信号。例如，当高时间框架K线3形成看涨扩张时，低时间框架的摆动点应在该K线的下影线内形成，为交易者提供高概率入场点。收盘价突破前期高点或低点可确认延续方向。",
+  "common_mistakes": [
+    "仅关注单根K线的OHLC而忽视多时间框架的结构关系，导致误判反转与延续",
+    "将低时间框架的K线结构与高时间框架混淆，未能正确识别哪个时间框架的OHLC应被优先参考",
+    "过度依赖收盘价而忽视上下影线（wick）的信息，影响对价格真实意图的判断",
+    "在K线2收盘不理想时就放弃交易设置，而未等待K线3的确认和OHLC的完整形成"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_open_high_low_close_structure",
+      "segment_ids": [
+        "seg_004",
+        "seg_011",
+        "seg_013"
+      ],
+      "time_range": [
+        228.959,
+        781.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134499Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

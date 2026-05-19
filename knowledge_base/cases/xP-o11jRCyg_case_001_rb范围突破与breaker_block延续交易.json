@@ -1,0 +1,100 @@
+{
+  "card_id": "xP-o11jRCyg_case_001_rb范围突破与breaker_block延续交易",
+  "type": "case",
+  "title": "RB小时图范围突破与5分钟Breaker Block延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Range Trading",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "breaker_block",
+    "market_structure_shift",
+    "swing_formation",
+    "fair_value_gap",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "RB",
+  "timeframe": "1H / 5M",
+  "market_context": "RB在小时图上形成明确的价格范围（约2700-3050），价格从范围高点下跌后在范围内盘整，随后突破范围低点后反向上升，目标回到范围高点。",
+  "key_observation": "博主在小时图识别出价格范围后，通过扫盘范围低点形成摆动低点，然后在5分钟图上找到Breaker Block形成的入场机会，成功交易至范围高点。",
+  "analysis_steps": [
+    "Step 1: 在RB小时图上识别价格范围，上边界约3050，下边界约2700，观察价格从高点下跌至范围内盘整。",
+    "Step 2: 确认价格收盘突破下行K线的开盘价，形成Change in State of Delivery（交付状态改变），预示结构转变。",
+    "Step 3: 等待摆动低点形成，确认范围低点被扫出后出现反应高点，建立短期低点。",
+    "Step 4: 切换到5分钟图，找到形成范围低点的一系列下行收盘K线。",
+    "Step 5: 确认5分钟图上价格收盘穿过开盘价，再次确认CSD，预期该低点将被保护。",
+    "Step 6: 识别Breaker Block——在摆动低点被扫出后形成的反应高点对应的K线体，作为阻力转支撑。",
+    "Step 7: 在Breaker Block的起始位置寻找入场点，止损设置在低点或Breaker Block另一侧。",
+    "Step 8: 目标设定为小时图范围高点（约3050），等待价格延续上升至该水平。"
+  ],
+  "outcome": "价格成功突破Breaker Block后继续上升，最终达到并突破小时图范围高点，交易成功完成。",
+  "lessons": "Breaker Block延续交易的核心是：(1)在高时间框架识别明确的范围或结构；(2)确认低时间框架上的CSD和摆动点形成；(3)在Breaker Block形成后的反应中寻找入场，利用先前的支撑/阻力失败区域作为新的交易触发点；(4)目标指向高时间框架的关键水平。",
+  "primary_image": "cards/xP-o11jRCyg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/xP-o11jRCyg/images/case_001_detail_1.jpg",
+    "cards/xP-o11jRCyg/images/case_001_detail_2.jpg",
+    "cards/xP-o11jRCyg/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "K线图显示一段完整的价格周期运动。图表左侧呈现从约3100向下至2700的下跌走势，随后在2850至2950区间形成整理。中段显示从2700向上回升至3050的上升走势。右侧则在2850至3050区间内反复波动。图上绘有两条水平线分别位于3050和2850处。整个图表中绿色K线和黑色K线交替出现，多数K线具有上下影线，表明在各价格水平存在买卖双方的争夺。",
+    "case_001_detail_1.jpg": "图表为蜡烛图，价格范围约从 2600 到 3400。图上有一条水平线位于 3200 附近。矩形框标注覆盖约 2900 至 3200 的价格区间。K 线序列显示从高点 3400 向下运动至 2700 附近，随后在 2700 至 2900 区间内出现盘整，之后上升至 3100 附近。图右下方可见黄色十字光标标记在约 2800 价格位置。",
+    "case_001_detail_2.jpg": "ETH 5分钟K线图。图上显示价格范围约从2450到3250。K线以黑色和绿色交替出现，整体呈波动状态。图中有一条水平线位于2450附近。在2900至3100价格区间内有一个矩形标注框。图右侧显示文字标签'The market is live'。图上有一个黄色十字光标标记。除上述标注外，未见其他指标或形态标注。",
+    "case_001_detail_3.jpg": "ETH 1 小时 K 线图。图上显示从左侧约 3100 下跌至约 2400 的下降趋势，随后进入一个用绿色矩形标注的区域，该区域大约在 2800 至 3000 价格范围内。绿色矩形内包含多根 K 线，显示价格在该区间内的波动。绿色矩形下方有一个灰色矩形标注，位置约在 2700 至 2800 水平。图上左上角有一个黄色标记标注为'h'。右侧价格刻度显示范围从约 2400 到 3100。"
+  },
+  "sources": [
+    {
+      "video_id": "xP-o11jRCyg",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        192.04,
+        370.479
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从小时图范围识别到5分钟图Breaker Block入场的全过程，包括具体价位、K线形态、交易结果，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:54.656014Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"RB小时图范围突破与5分钟Breaker Block延续交易\",\"school\":\"ICT\",\"asset\":\"RB\",\"timeframe\":\"1H / 5M\",\"market_context\":\"RB在小时图上形成明确的价格范围（约2700-3050），价格从范围高点下跌后在范围内盘整，随后突破范围低点后反向上升，目标回到范围高点。\",\"key_observation\":\"博主在小时图识别出价格范围后，通过扫盘范围低点形成摆动低点，然后在5分钟图上找到Breaker Block形成的入场机会，成功交易至范围高点。\",\"analysis_steps\":[\"Step 1: 在RB小时图上识别价格范围，上边界约3050，下边界约2700，观察价格从高点下跌至范围内盘整。\",\"Step 2: 确认价格收盘突破下行K线的开盘价，形成Change in State of Delivery（交付状态改变），预示结构转变。\",\"Step 3: 等待摆动低点形成，确认范围低点被扫出后出现反应高点，建立短期低点。\",\"Step 4: 切换到5分钟图，找到形成范围低点的一系列下行收盘K线。\",\"Step 5: 确认5分钟图上价格收盘穿过开盘价，再次确认CSD，预期该低点将被保护。\",\"Step 6: 识别Breaker Block——在摆动低点被扫出后形成的反应高点对应的K线体，作为阻力转支撑。\",\"Step 7: 在Breaker Block的起始位置寻找入场点，止损设置在低点或Breaker Block另一侧。\",\"Step 8: 目标设定为小时图范围高点（约3050），等待价格延续上升至该水平。\"],\"outcome\":\"价格成功突破Breaker Block后继续上升，最终达到并突破小时图范围高点，交易成功完成。\",\"lessons\":\"Breaker Block延续交易的核心是：(1)在高时间框架识别明确的范围或结构；(2)确认低时间框架上的CSD和摆动点形成；(3)在Breaker Block形成后的反应中寻找入场，利用先前的支撑/阻力失败区域作为新的交易触发点；(4)目标指向高时间框架的关键水平。\",\"primary_image_frame_id\":\"xP-o11jRCyg_f010\",\"supporting_image_frame_ids\":[\"xP-o11jRCyg_f009\",\"xP-o11jRCyg_f012\",\"xP-o11jRCyg_f013\"],\"related_concepts\":[\"Order Block\",\"Breaker Block\",\"Change in State of Delivery\",\"Market Structure Shift\",\"Swing Low\",\"Fair Value Gap\",\"Range Trading\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从小时图范围识别到5分钟图Breaker Block入场的全过程，包括具体价位、K线形态、交易结果，分析步骤清晰有序。\"}",
+  "error": null
+}

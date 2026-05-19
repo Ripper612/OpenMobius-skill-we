@@ -1,0 +1,92 @@
+{
+  "card_id": "q40pRwjuPYQ_case_005_调整策略第二个例子_从内部到外部流动性的displacement",
+  "type": "case",
+  "title": "30秒图表Displacement突破与FVG入场",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Internal/External Range Liquidity",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Draw On Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "fair_value_gap",
+    "breaker_block",
+    "order_block",
+    "draw_on_liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "30s",
+  "market_context": "价格从内部范围流动性（internal range liquidity）向外部范围流动性（external range liquidity）转变，在5分钟图表确认扫荡后，下沉至30秒图表寻找激进入场模型。",
+  "key_observation": "博主等待价格以激进Displacement突破前期高点并收盘确认，形成Breaker Block与FVG结构，在该FVG处入场以获取向上流动性。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图表上识别扫荡（sweep）并确认价格不会立即回到内部范围",
+    "Step 2: 下沉至30秒图表寻找入场模型（entry model）",
+    "Step 3: 观察初始反应（initial reaction off FVG）不足以构成有效Displacement",
+    "Step 4: 等待价格突破前期高点并收盘确认，形成Breaker Block",
+    "Step 5: 在Breaker Block下方的FVG处设置入场，止损放在低点",
+    "Step 6: 目标设定为前期高点或Draw On Liquidity"
+  ],
+  "outcome": null,
+  "lessons": "Displacement入场需要激进的突破确认（close over high），而非仅仅反应；Breaker Block与FVG的组合形成高概率入场区域；止损应基于结构低点，目标为扫荡流动性。",
+  "primary_image": "cards/q40pRwjuPYQ/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/q40pRwjuPYQ/images/case_005_detail_1.jpg",
+    "cards/q40pRwjuPYQ/images/case_005_detail_2.jpg",
+    "cards/q40pRwjuPYQ/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 1分钟K线图。图上显示从11:42:30至12:37:30的价格走势，价格范围在14874.00至14926.00之间。图表中标注有三个矩形区域：下方灰色矩形约在14874至14886区间，中间灰色矩形约在14893至14910区间，上方浅绿色矩形约在14893至14922区间。K线呈现绿色和黑色交替的蜡烛体。图右下角显示时间戳'25/9/2023'和'NQ11 / 305'。",
+    "case_005_detail_1.jpg": "USD 4 时间框架 K 线图，显示时间范围从 11:10 至 12:10。图上可见多根绿色和黑色 K 线，价格范围约 14686.00 至 14936.00。右侧标注显示时间为 Mon 25 Sep 23 11:46:00，资产标识为 NQ11 | 305。图上有一条灰色水平带状区域覆盖约 14890.00 至 14920.00 价格范围。左侧价格刻度标记有 14912.50、14908.75、",
+    "case_005_detail_2.jpg": "USD 15分钟K线图，时间范围从07:00至18:00（2023年9月25日）。图上显示一系列绿色和黑色K线交替出现，从07:00至11:30期间密集排列。图中有一条灰色矩形区域标注，位置约在14885至14915价格范围。右侧价格刻度显示最高点14965.00，最低点14830.00。底部显示成交量指标。图右下角有\"Sell\"和\"Buy\"按钮。",
+    "case_005_detail_3.jpg": "USD 1 分钟 K 线图，时间范围从 11:50 至 12:25。图上显示约 35 根 K 线，绿色和黑色交替出现。价格范围从 14870.00 至 14912.00。图中有一条灰色水平带状区域，位置约在 14883 至 14890 之间。左下角显示日期标记'25/9/2023'和'NQ11 / 305'。右下角显示'14:06:13 UTC-4 ETH'。整体呈现从左上向右下的下行走势，伴随多"
+  },
+  "sources": [
+    {
+      "video_id": "q40pRwjuPYQ",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        621.72,
+        690.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从5分钟到30秒的时间框架转换、Displacement确认条件、Breaker Block形成、FVG入场位置、止损与目标设定的全流程分析。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:09.933102Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"30秒图表Displacement突破与FVG入场\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"30s\",\"market_context\":\"价格从内部范围流动性（internal range liquidity）向外部范围流动性（external range liquidity）转变，在5分钟图表确认扫荡后，下沉至30秒图表寻找激进入场模型。\",\"key_observation\":\"博主等待价格以激进Displacement突破前期高点并收盘确认，形成Breaker Block与FVG结构，在该FVG处入场以获取向上流动性。\",\"analysis_steps\":[\"Step 1: 在5分钟图表上识别扫荡（sweep）并确认价格不会立即回到内部范围\",\"Step 2: 下沉至30秒图表寻找入场模型（entry model）\",\"Step 3: 观察初始反应（initial reaction off FVG）不足以构成有效Displacement\",\"Step 4: 等待价格突破前期高点并收盘确认，形成Breaker Block\",\"Step 5: 在Breaker Block下方的FVG处设置入场，止损放在低点\",\"Step 6: 目标设定为前期高点或Draw On Liquidity\"],\"outcome\":null,\"lessons\":\"Displacement入场需要激进的突破确认（close over high），而非仅仅反应；Breaker Block与FVG的组合形成高概率入场区域；止损应基于结构低点，目标为扫荡流动性。\",\"primary_image_frame_id\":\"q40pRwjuPYQ_f024\",\"supporting_image_frame_ids\":[\"q40pRwjuPYQ_f021\",\"q40pRwjuPYQ_f022\",\"q40pRwjuPYQ_f023\"],\"related_concepts\":[\"Displacement\",\"Fair Value Gap\",\"Breaker Block\",\"Order Block\",\"Internal/External Range Liquidity\",\"Draw On Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从5分钟到30秒的时间框架转换、Displacement确认条件、Breaker Block形成、FVG入场位置、止损与目标设定的全流程分析。\"}",
+  "error": null
+}

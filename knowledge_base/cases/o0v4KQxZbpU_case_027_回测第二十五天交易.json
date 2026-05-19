@@ -1,0 +1,96 @@
+{
+  "card_id": "o0v4KQxZbpU_case_027_回测第二十五天交易",
+  "type": "case",
+  "title": "第25天回测：扫低后FVG入场做多，获3R收益后移至保本",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "3R Target",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "turtle_soup",
+    "displacement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "8月17日NAS100在下跌趋势中形成扫低，价格从高点约15825跌至低点约15470，随后出现反弹。博主标记日内高低点，观察价格结构变化。",
+  "key_observation": "价格在扫低后反弹，博主识别出Fair Value Gap作为做多入场点，最终获得3倍风险回报（3R）收益，随后将止损移至保本位置。",
+  "analysis_steps": [
+    "Step 1: 标记8月17日的日内高点和低点，观察价格是否能收盘在高点上方。",
+    "Step 2: 识别价格扫低（sweep）现象，评估反弹的质量和位移强度。",
+    "Step 3: 观察反弹过程中是否形成Fair Value Gap，寻找做多入场机会。",
+    "Step 4: 在FVG区域建立多头头寸，设置初始止损在摆动低点。",
+    "Step 5: 价格上涨达到3倍风险回报目标后，将止损移至保本位置以锁定利润。"
+  ],
+  "outcome": "成功获得3R收益，随后将止损移至保本，实现风险管理目标。",
+  "lessons": "在扫低后的反弹中，Fair Value Gap提供了高概率的做多入场点。通过3R目标获利后移至保本止损，可以在保护已有收益的同时保留上升空间。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_027_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_027_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_027_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_027_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_027_primary.jpg": "NAS100 1 分钟 K 线图。图上显示左侧为详细 K 线走势，右侧为简化的 K 线表示。可见价格范围约从 14450 到 14665。图上标注有三个矩形区域，分别对应不同的价格水平和成交量标签。左侧 K 线呈现绿色和黑色主体的混合形态，跨越整个可见价格范围。右侧面板显示黑色和绿色的简化 K 线块。图表底部显示时间刻度，当前时间标记为 Fri 14 Apr 23 10:22。",
+    "case_027_detail_1.jpg": "NAS100 1分钟图表。左侧面板显示一段下跌走势，K线从约15825跌至15470。右侧面板展示两个大型矩形块：绿色块对应价格范围约15470至15671，标注文字为'121 +44 Long | 14.28'；黑色块对应价格范围约15671至15825，标注文字为'125 +388 Long | 14.28'。图右侧价格刻度轴显示多条带颜色标签的水平线，标注有数值。图上未见其他指标或形态标注。",
+    "case_027_detail_2.jpg": "NAS100 日线图。图上显示从约 14852 至 14625 的下跌趋势，跨越多根 K 线。绿色和黑色 K 线交替出现，多根 K 线具有长下影线。图上标记有三个矩形区域，分别位于不同价格水平。右侧价格刻度显示范围约 14625 至 14852。图表底部显示时间标记为\"Thu 17 Aug 23 10:18\"。",
+    "case_027_detail_3.jpg": "NAS100 日线图。图上显示一段时间内的 K 线走势，价格范围约从 14454 到 14632。图表左侧为完整日线序列，右侧为放大视图。图上有两条水平线分别位于 14651 和 14454 处，均带有价格标签。此外标注了三个矩形区域，分别位于 14600-14650、14500-14550 和 14450-14500 的价格区间。K 线由绿色和黑色蜡烛组成，分布在整个可见价格范围内。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_014"
+      ],
+      "time_range": [
+        1530.64,
+        1633.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "转录文本清晰描述了扫低、反弹、FVG入场和3R收益的完整过程；图表显示了价格走势、标记的高低点和交易区域；资产、时间框架、关键价位均可从图表读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:48.531894Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"第25天回测：扫低后FVG入场做多，获3R收益后移至保本\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"8月17日NAS100在下跌趋势中形成扫低，价格从高点约15825跌至低点约15470，随后出现反弹。博主标记日内高低点，观察价格结构变化。\",\"key_observation\":\"价格在扫低后反弹，博主识别出Fair Value Gap作为做多入场点，最终获得3倍风险回报（3R）收益，随后将止损移至保本位置。\",\"analysis_steps\":[\"Step 1: 标记8月17日的日内高点和低点，观察价格是否能收盘在高点上方。\",\"Step 2: 识别价格扫低（sweep）现象，评估反弹的质量和位移强度。\",\"Step 3: 观察反弹过程中是否形成Fair Value Gap，寻找做多入场机会。\",\"Step 4: 在FVG区域建立多头头寸，设置初始止损在摆动低点。\",\"Step 5: 价格上涨达到3倍风险回报目标后，将止损移至保本位置以锁定利润。\"],\"outcome\":\"成功获得3R收益，随后将止损移至保本，实现风险管理目标。\",\"lessons\":\"在扫低后的反弹中，Fair Value Gap提供了高概率的做多入场点。通过3R目标获利后移至保本止损，可以在保护已有收益的同时保留上升空间。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f055\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f052\",\"o0v4KQxZbpU_f053\",\"o0v4KQxZbpU_f054\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Sweep\",\"Displacement\",\"Market Structure\",\"Risk Management\",\"3R Target\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"转录文本清晰描述了扫低、反弹、FVG入场和3R收益的完整过程；图表显示了价格走势、标记的高低点和交易区域；资产、时间框架、关键价位均可从图表读取。\"}",
+  "error": null
+}

@@ -1,0 +1,60 @@
+{
+  "card_id": "wick_respected",
+  "type": "merged_concept",
+  "canonical_term": "Wick Respected",
+  "aliases": [
+    "尊重影线",
+    "影线被尊重"
+  ],
+  "school": "Price Action",
+  "definition": "价格在低时间框架内形成影线后，随后的K线开盘、形成极值点，但不穿过该影线0.5位置，表明市场对该影线的支撑或阻力的认可。",
+  "identification_rules": [
+    "在低时间框架上识别：高时间框架K线形成明显影线（上影线或下影线）",
+    "标记影线的0.5位置（从K线实体到影线极值的中点）",
+    "观察后续K线是否穿过0.5位置：若不穿过，则影线被尊重",
+    "看涨情景：开盘→形成低点→向上扩展，不穿过下影线0.5位置",
+    "看跌情景：开盘→形成高点→向下扩展，不穿过上影线0.5位置",
+    "在高时间框架上表现为：开盘、形成极值、收盘，整个过程尊重0.5位置"
+  ],
+  "trading_implication": "Wick Respected是判断价格反转方向的关键信号。若影线被尊重，表明预期的反转方向可能成立；若不被尊重（穿过0.5位置），则反转失败，价格更可能朝相反方向扩展。交易者可据此确定入场点（在0.5位置附近）、止损位（穿过影线极值）和目标位（前期高/低点）。",
+  "common_mistakes": [
+    "混淆影线被尊重与完全不穿过影线：0.5位置是关键阈值，穿过0.5但未穿过极值不代表被尊重",
+    "忽视时间框架转换：必须在低时间框架确认影线是否被尊重，不能仅看高时间框架判断",
+    "过度依赖单一信号：影线尊重不是完美信号，需结合市场结构、流动性扫荡等其他因素确认",
+    "错误识别影线：需确保识别的是真实的反转影线（低时间框架内的激进反应），而非普通波动"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "original_card_id": "LKNQDAdId4s_concept_wick_respected",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        11.08,
+        709.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136725Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

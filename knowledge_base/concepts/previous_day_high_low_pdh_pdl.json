@@ -1,0 +1,61 @@
+{
+  "card_id": "previous_day_high_low_pdh_pdl",
+  "type": "merged_concept",
+  "canonical_term": "Previous Day High/Low (PDH/PDL)",
+  "aliases": [
+    "前一交易日高点/低点",
+    "昨日高/低"
+  ],
+  "school": "ICT",
+  "definition": "前一个交易日形成的最高价和最低价水平。价格突破或回测这些水平时，常形成反向设置、失效信号或流动性扫荡的触发点。",
+  "identification_rules": [
+    "在日线图上识别前一个完整交易日的最高点和最低点",
+    "当价格在新交易日开盘后立即触及或突破PDH/PDL时，标记为关键反应区域",
+    "若价格突破PDH/PDL后形成反向K线（如长影线或反向收盘），表示可能形成反向设置",
+    "观察价格是否在PDH/PDL处形成Change in State of Delivery（CSD），确认反向意图"
+  ],
+  "trading_implication": "PDH/PDL是关键的流动性聚集点和反转触发区。当价格突破PDH/PDL后未能继续扩展，反而形成反向K线或违反EQ时，表示初始偏差失效，可形成反向交易设置。常见用法：(1)作为反向设置的触发点；(2)作为止损位参考；(3)作为目标回撤区域（如价格下跌后回测PDH）。",
+  "common_mistakes": [
+    "假设价格突破PDH/PDL必然继续扩展，忽视反向信号的形成",
+    "未等待反向设置确认（如CSD或对立K线）就仓促交易反向方向",
+    "混淆PDH/PDL的突破与真正的趋势延续，未区分是否伴随SMT或其他确认信号",
+    "在PDH/PDL处设置止损而不考虑K线的wick大小和市场结构"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_previous_day_high_low_pdh_pdl",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_007",
+        "seg_010",
+        "seg_013",
+        "seg_015",
+        "seg_020"
+      ],
+      "time_range": [
+        67.36,
+        753.16
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134956Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

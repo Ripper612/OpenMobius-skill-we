@@ -1,0 +1,56 @@
+{
+  "card_id": "standard_deviation_projection_standard",
+  "type": "merged_concept",
+  "canonical_term": "Standard Deviation / Projection",
+  "aliases": [
+    "操纵腿投影",
+    "标准差投影"
+  ],
+  "school": "ICT",
+  "definition": "通过操纵腿的高低点差值进行倍数投影，预测派发阶段可能到达的目标区域。常见投影倍数为2-2.5倍和4-4.5倍标准差，用于识别分布目标和潜在反转点。",
+  "identification_rules": [
+    "识别明确的操纵腿：从积累范围内的低点到突破后的高点（或反向）",
+    "测量操纵腿的高低点差值，作为一个标准差单位",
+    "从操纵腿的起点向派发方向投影2-2.5倍和4-4.5倍标准差",
+    "在投影目标区域寻找PD array（如等低点、订单块、FVG）的重合确认",
+    "观察价格是否在各标准差水平处出现回测、反转或扫荡"
+  ],
+  "trading_implication": "标准差投影为派发阶段提供量化的目标区域。交易者可在2-2.5倍标准差处预期回测或反转机会，在4-4.5倍处预期更强的阻力或分布完成。结合PD array验证可提高入场精准度。该工具特别适用于AMD模型中的分布阶段分析，帮助交易者设定止盈目标和识别高概率反转区域。",
+  "common_mistakes": [
+    "仅依赖标准差投影而忽视PD array的验证，导致虚假目标",
+    "错误识别操纵腿的起点或终点，导致投影基数错误",
+    "在没有确认积累-操纵结构的情况下盲目投影，混淆市场阶段"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_standard_deviation_projection",
+      "segment_ids": [
+        "seg_006",
+        "seg_008"
+      ],
+      "time_range": [
+        550.12,
+        985.319
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136016Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,131 @@
+{
+  "card_id": "higher_time_frame_level",
+  "type": "merged_concept",
+  "canonical_term": "Higher Time Frame Level",
+  "aliases": [
+    "HTF Level",
+    "高时间框架水平"
+  ],
+  "school": "ICT",
+  "definition": "在更高时间周期（日线、周线等）上形成的摆动高点、摆动低点或公允价值缺口。具有更强的市场反应力度，是确认市场结构转变的必要前置条件——价格须先参与该水平，方可寻找可交易的结构设置。",
+  "identification_rules": [
+    "在日线、周线等高时间框架上识别前期摆动高点或摆动低点",
+    "识别高时间框架上形成的公允价值缺口（如 Daily FVG）",
+    "确认该摆动高/低点与前一个同级别摆动点之间具有充分的分离度（separation）",
+    "使用分形回溯周期：日线图回溯3个月，小时图回溯3天，以此类推",
+    "在低时间框架图表上观察价格是否触及或扫荡该高时间框架水平",
+    "确认价格在该水平处形成反应（如反弹、回调或扫荡）后，再考虑结构转变的有效性"
+  ],
+  "trading_implication": "高时间框架水平是寻找交易设置的前置条件，提供最强的反转和结构转变信号。价格必须先在低时间框架上参与（接触或扫荡）该水平，才能确认市场结构转变的有效性，进而形成可交易的设置（如 OB、FVG、Breaker Block 等）。应优先在 HTF 水平处寻找模型形成，而非随机高低点。",
+  "common_mistakes": [
+    "未确认价格是否真正参与了高时间框架水平，就直接寻找结构转变设置",
+    "只关注当前时间框架的摆动点，忽视其在更高时间框架上的地位",
+    "将低时间框架的局部高低点误认为高时间框架水平",
+    "交易与前一个同级别摆动点缺乏充分分离度的水平，导致反转信号不可信",
+    "回溯周期设置不当，未按分形原理调整（如在小时图上仍回溯3个月而非3天）"
+  ],
+  "related_concepts": [
+    {
+      "term": "Relevant Swing High/Low",
+      "card_id": "relevant_swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Separation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Low Time Frame",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "HbOeD_JVens_case_005_gch日线有效分离度判断与反转确认",
+      "video_id": "HbOeD_JVens",
+      "title": "GCH日线有效分离度判断与反转确认"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_higher_time_frame_level",
+      "segment_ids": [
+        "seg_009"
+      ],
+      "time_range": [
+        565.36,
+        681.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "_94CPMjWi9E",
+      "original_card_id": "_94CPMjWi9E_concept_higher_time_frame_level",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        478.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:34.181900Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": null,
+  "error": null
+}

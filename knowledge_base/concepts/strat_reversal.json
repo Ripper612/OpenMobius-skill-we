@@ -1,0 +1,62 @@
+{
+  "card_id": "strat_reversal",
+  "type": "merged_concept",
+  "canonical_term": "Strat Reversal",
+  "aliases": [
+    "2-1-2 reversal",
+    "2-2 reversal",
+    "inside bar reversal"
+  ],
+  "school": "The Strat",
+  "definition": "在FVG和结构突破后，通过识别特定K线形态（如2-2反转、2-1-2反转或内部柱）来精确定位入场点的价格行动模式。",
+  "identification_rules": [
+    "2-2反转：价格上升两根K线后，第二根K线的低点被突破时触发入场信号。",
+    "2-1-2反转：价格形成两个高点、一个低点、再两个高点的形态，在特定K线突破时入场。",
+    "内部柱（Inside Bar）：当前K线的高低点都在前一根K线范围内，突破该范围时作为入场触发。",
+    "应用于HTF（高时间框架）FVG或结构突破后的回调区域。"
+  ],
+  "trading_implication": "Strat Reversal用于在已确认的ICT设置（流动性扫荡、结构突破、FVG形成）后，通过低时间框架的K线形态确认精确入场点，降低虚假突破风险。止损通常设在触发K线的高点，目标指向初始支撑或更低的结构位。",
+  "common_mistakes": [
+    "在1分钟图表上使用Strat Reversal容易产生虚假信号，应优先使用5分钟或3分钟时间框架。",
+    "未等待完整的K线形态确认就提前入场，导致被扫荡。",
+    "忽视HTF背景（FVG、BOS等），仅基于低时间框架形态入场。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "9MUej4g9Jyg_case_001_es期货多时间框架交易设置分析",
+      "video_id": "9MUej4g9Jyg",
+      "title": "ES期货多时间框架Strat反转入场分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9MUej4g9Jyg",
+      "original_card_id": "9MUej4g9Jyg_concept_strat_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.44,
+        288.36
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136079Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,143 @@
+{
+  "card_id": "london_reversal",
+  "type": "merged_concept",
+  "canonical_term": "London Reversal",
+  "aliases": [
+    "Classic Expansion Candle",
+    "伦敦反转"
+  ],
+  "school": "ICT",
+  "definition": "伦敦时段（2-5点）价格触及高时间框架关键位/PD阵列后形成的反转形态。看涨形态：开盘→向下扩张→高于开盘收盘；看跌形态：开盘→向上扩张→低于开盘收盘。伴随CSD/MSS确认，为纽约时段延续奠定基础，区别于纽约反转的核心在于关键位触及发生在伦敦时段内。",
+  "identification_rules": [
+    "时间窗口：伦敦时段2-5点内形成反转",
+    "看涨形态：开盘价→向下创低（形成下影线）→收盘价高于开盘价",
+    "看跌形态：开盘价→向上创高（形成上影线）→收盘价低于开盘价",
+    "价格在伦敦时段内已触及高时间框架关键位或相关PD阵列",
+    "反转后出现CSD（交付状态改变）或MSS（市场结构转变），即一系列同向收盘K线",
+    "反转后的同向收盘K线序列构成订单块（看涨时为下跌收盘序列，看跌时为上升收盘序列）",
+    "与纽约反转的区分：伦敦反转在伦敦时段已达HTF关键位；纽约反转则伦敦未达关键位，延迟至纽约时段才触及"
+  ],
+  "trading_implication": "伦敦反转确认（CSD/MSS形成）后，交易者等待纽约时段8:30-12:00寻找延续交易机会，在反转形成的订单块处入场，以前期流动性或失败摆动为目标（2R或更高）。需注意纽约8:30新闻可能造成操纵，需区分真实延续与假突破。止损置于订单块外侧，目标为低阻力流动性方向。",
+  "common_mistakes": [
+    "未等待CSD/MSS确认便在伦敦时段过早入场，导致被假反转扫损",
+    "误将未触及HTF关键位的伦敦走势判定为伦敦反转，实际是纽约反转的前期阶段",
+    "混淆伦敦反转与纽约反转的时间差异，导致交易逻辑混乱",
+    "混淆伦敦反转的方向性，错误预期纽约延续方向",
+    "忽视纽约8:30新闻操纵，误判为真实延续信号",
+    "在伦敦时段交易反转而非专注纽约延续，降低交易概率"
+  ],
+  "related_concepts": [
+    {
+      "term": "New York Reversal",
+      "card_id": "new_york_reversal",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "y6SnEdASVLY_case_001_轻质原油期货看涨伦敦反转案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油期货伦敦反转看涨交易案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "xdzyejskSKE",
+      "original_card_id": "xdzyejskSKE_concept_london_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.599,
+        369.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "y6SnEdASVLY",
+      "original_card_id": "y6SnEdASVLY_concept_london_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        11.24,
+        675.519
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:47.307798Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "两张卡均为ICT，无school冲突。卡1侧重与纽约反转的对比及HTF关键位触及条件；卡2侧重K线形态结构描述及纽约延续交易执行，已综合互补。",
+  "error": null
+}

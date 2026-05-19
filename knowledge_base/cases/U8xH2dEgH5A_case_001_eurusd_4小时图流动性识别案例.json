@@ -1,0 +1,106 @@
+{
+  "card_id": "U8xH2dEgH5A_case_001_eurusd_4小时图流动性识别案例",
+  "type": "case",
+  "title": "EURUSD 4小时图流动性识别与摆动点追踪",
+  "related_concepts": [
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "swing_points",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "order_block",
+    "market_structure",
+    "equal_lows"
+  ],
+  "school": "SMC",
+  "asset": "EURUSD",
+  "timeframe": "4H",
+  "market_context": "EURUSD在4小时图上从约1.07900高点下跌至1.06450低点，形成多个摆动点。价格在1.06800-1.07100区间内反复震荡，期间产生多个买方和卖方流动性水平。",
+  "key_observation": "博主通过识别摆动高点和摆动低点来定位买方流动性（摆动高点上方）和卖方流动性（摆动低点下方），展示价格如何依次扫除这些流动性水平，并在扫除后形成新的摆动点。",
+  "analysis_steps": [
+    "Step 1: 定义摆动低点的结构——识别一个低点，其左右两侧都有更高的低点，确认卖方流动性位置。",
+    "Step 2: 定义摆动高点的结构——识别一个高点，其左右两侧都有更低的高点，确认买方流动性位置。",
+    "Step 3: 在4小时图上标记初始摆动点，确定卖方流动性约在1.06450，买方流动性约在1.07950。",
+    "Step 4: 追踪价格扫除卖方流动性后的运动，观察新摆动低点的形成。",
+    "Step 5: 识别价格扫除买方流动性后形成的新摆动高点，并标记新的流动性水平。",
+    "Step 6: 继续追踪后续摆动点的形成，观察相等高点（equal highs）和相等低点（equal lows）的出现。",
+    "Step 7: 标记多层流动性结构，展示买方流动性在上方、卖方流动性在下方的分布。"
+  ],
+  "outcome": null,
+  "lessons": "摆动点是识别流动性的基础。买方流动性聚集在摆动高点上方，卖方流动性聚集在摆动低点下方。价格扫除流动性后会形成新的摆动点，从而产生新的流动性水平。持续追踪这些结构变化是预测价格走势的关键。",
+  "primary_image": "cards/U8xH2dEgH5A/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/U8xH2dEgH5A/images/case_001_detail_1.jpg",
+    "cards/U8xH2dEgH5A/images/case_001_detail_2.jpg",
+    "cards/U8xH2dEgH5A/images/case_001_detail_3.jpg",
+    "cards/U8xH2dEgH5A/images/case_001_detail_4.jpg",
+    "cards/U8xH2dEgH5A/images/case_001_detail_5.jpg",
+    "cards/U8xH2dEgH5A/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "EURUSD 4小时K线图。图上标注有3个矩形区域，分别标记为'Buyside Liquidity'（两处）和'Sellside Liquidity'（一处）。可见价格范围约从1.06450至1.07930。图表显示多根K线，其中包含绿色（上涨）和黑色（下跌）K线。多根K线的上下影线穿过标注的流动性区域。右侧价格刻度显示最新报价约在1.07830附近。图上未见其他指标或形态标注。",
+    "case_001_detail_1.jpg": "EURUSD 1小时K线图。图上显示从14日至23日的K线序列，共7根K线。图上标注了5个文字标签：最高点1.06700标记为HIGH，两个较低的高点分别标记为LOWER HIGH，一个较高的低点标记为HIGHER LOW，最低点标记为LOW。K线呈现黑绿交替形态，其中绿色K线主要出现在中间区域，黑色K线出现在两端。多根K线具有明显的上下影线，特别是第21日的黑色K线下影线延伸至约1.05500。",
+    "case_001_detail_2.jpg": "EUR/USD 1小时K线图。图上标注两条水平虚线：上方标记为'Buyside Liquidity'位于1.06950附近，下方标记为'Sellside Liquidity'位于1.05650附近。可见价格范围约从1.04800至1.07600。图表显示5根K线，包含绿色和黑色蜡烛，各根K线均有上下影线。右下角显示当前价格标签。图上未见其他形态标注或技术指标。",
+    "case_001_detail_3.jpg": "EUR/USD 4小时K线图。图上显示从2023年6月2日至6月13日的价格走势。左侧为一系列绿色和黑色K线，初期绿色K线后跟一根大幅下跌的黑色K线，从约1.07900跌至1.06700。之后形成盘整形态，K线在1.06800至1.07100区间内波动。图上标注有一条水平线标记为'Sellside Liquidity'，位置约在1.06750。右侧价格刻度显示当前价格为1.07751。",
+    "case_001_detail_4.jpg": "EURUSD 4小时K线图。图上标注两条水平线：上方1.07950处标记为'Buyside Liquidity'，下方1.06450处标记为'Sellside Liquidity'。可见价格范围约从1.06450到1.07950。K线序列显示从左侧高点1.07950开始下行，中间形成多根绿黑相间的K线，在1.06800至1.07100区间内出现多根K线的横向整理，随后在1.07200至1.0750",
+    "case_001_detail_5.jpg": "EURUSD 4小时K线图。图上左侧标注两个矩形区域，分别标记为'Buyside Liquidity'和'Sellside Liquidity'。可见K线价格范围约从1.06450至1.07900。图表显示一系列绿色和黑色K线，其中一根黑色K线具有长下影线，下影线延伸至约1.06750。右侧价格标尺显示多个价格水平标记。图上未见其他指标或趋势线标注。",
+    "case_001_detail_6.jpg": "EURUSD 4小时K线图。图上可见约15根K线，价格范围从1.06500至1.07900。左侧标注有两个矩形区域：下方标记为'Buyside Liquidity'（约1.06500-1.06750），上方标记为'Sellside Liquidity'（约1.07450-1.07700）。中间还有一个未标记的矩形区域。K线由绿色和黑色蜡烛组成，影线长度不一。右上角显示当前价格1.07411。图上有"
+  },
+  "sources": [
+    {
+      "video_id": "U8xH2dEgH5A",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        246.799
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了摆动点识别过程、流动性定位方法、价格扫除流动性的过程，以及新摆动点的形成。所有关键价位、时间框架、资产代码均从图表中清晰读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:02.350731Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 4小时图流动性识别与摆动点追踪\",\"school\":\"SMC\",\"asset\":\"EURUSD\",\"timeframe\":\"4H\",\"market_context\":\"EURUSD在4小时图上从约1.07900高点下跌至1.06450低点，形成多个摆动点。价格在1.06800-1.07100区间内反复震荡，期间产生多个买方和卖方流动性水平。\",\"key_observation\":\"博主通过识别摆动高点和摆动低点来定位买方流动性（摆动高点上方）和卖方流动性（摆动低点下方），展示价格如何依次扫除这些流动性水平，并在扫除后形成新的摆动点。\",\"analysis_steps\":[\"Step 1: 定义摆动低点的结构——识别一个低点，其左右两侧都有更高的低点，确认卖方流动性位置。\",\"Step 2: 定义摆动高点的结构——识别一个高点，其左右两侧都有更低的高点，确认买方流动性位置。\",\"Step 3: 在4小时图上标记初始摆动点，确定卖方流动性约在1.06450，买方流动性约在1.07950。\",\"Step 4: 追踪价格扫除卖方流动性后的运动，观察新摆动低点的形成。\",\"Step 5: 识别价格扫除买方流动性后形成的新摆动高点，并标记新的流动性水平。\",\"Step 6: 继续追踪后续摆动点的形成，观察相等高点（equal highs）和相等低点（equal lows）的出现。\",\"Step 7: 标记多层流动性结构，展示买方流动性在上方、卖方流动性在下方的分布。\"],\"outcome\":null,\"lessons\":\"摆动点是识别流动性的基础。买方流动性聚集在摆动高点上方，卖方流动性聚集在摆动低点下方。价格扫除流动性后会形成新的摆动点，从而产生新的流动性水平。持续追踪这些结构变化是预测价格走势的关键。\",\"primary_image_frame_id\":\"U8xH2dEgH5A_f009\",\"supporting_image_frame_ids\":[\"U8xH2dEgH5A_f002\",\"U8xH2dEgH5A_f004\",\"U8xH2dEgH5A_f005\",\"U8xH2dEgH5A_f006\",\"U8xH2dEgH5A_f007\",\"U8xH2dEgH5A_f008\"],\"related_concepts\":[\"Swing Points\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Order Block\",\"Market Structure\",\"Equal Highs\",\"Equal Lows\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了摆动点识别过程、流动性定位方法、价格扫除流动性的过程，以及新摆动点的形成。所有关键价位、时间框架、资产代码均从图表中清晰读取。\"}",
+  "error": null
+}

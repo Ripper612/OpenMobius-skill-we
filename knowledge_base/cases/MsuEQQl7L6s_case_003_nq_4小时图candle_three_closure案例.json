@@ -1,0 +1,90 @@
+{
+  "card_id": "MsuEQQl7L6s_case_003_nq_4小时图candle_three_closure案例",
+  "type": "case",
+  "title": "NQ 4小时图Candle Three Closure确认上升延续",
+  "related_concepts": [
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_three_closure",
+    "reversal_candle",
+    "equilibrium",
+    "order_block",
+    "swing_formation",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ",
+  "timeframe": "4H",
+  "market_context": "NQ 4小时图在下跌后扫出摆动低点，但第二根K线未形成完整反转信号。博主通过等待第三根K线的收盘来确认反转意图。",
+  "key_observation": "第三根K线收盘于第二根K线主体上方，形成Candle Three Closure，结合Equilibrium确认价格将继续上升。",
+  "analysis_steps": [
+    "Step 1: 观察NQ 4小时图扫出摆动低点（约24400水平）",
+    "Step 2: 检查第二根K线是否形成反转蜡烛（Reversal Candle），发现价格未收回前一根K线内部，因此不构成反转",
+    "Step 3: 等待第三根K线打印完成，观察其收盘位置",
+    "Step 4: 确认第三根K线收盘于第二根K线主体上方，形成Candle Three Closure",
+    "Step 5: 标记第三根K线的完整范围，使用Equilibrium（中点）作为上升目标区域",
+    "Step 6: 验证价格尊重EQ水平并继续上升，收盘于前一根K线高点上方，预期进一步延续"
+  ],
+  "outcome": "价格在第三根K线收盘后继续上升，在随后的K线中突破前一根K线高点，确认上升延续趋势成立。",
+  "lessons": "Candle Three Closure是确认反转的关键信号，需要耐心等待第三根K线完成。使用Equilibrium划分价格范围的上半部分作为目标区域，可以提高交易的概率。价格尊重EQ并突破前高是进一步延续的确认。",
+  "primary_image": "cards/MsuEQQl7L6s/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/MsuEQQl7L6s/images/case_003_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 4小时K线图。图上显示一系列绿色和黑色K线，价格范围从24400到25320。图中绘制了一个矩形框，范围约在24400至24610之间。一条竖直虚线标记在Jun 19 Oct 28 23:00时间点。右侧价格刻度清晰可见，从24200到25320。图上未见其他指标或标注。",
+    "case_003_detail_1.jpg": "图表显示 4 小时时间框架的烛线图，价格范围从 24400.00 到 25450.00。图上显示从 9 月 13 日 10:00 至 9 月 23 日 14:00 的价格走势。左侧显示当前价格标记为 24381.00。图表包含多根绿色和黑色烛线，其中黑色烛线在 9 月 19 日至 22 日期间占主导地位。烛线呈现多个下影线，最低点触及约 24400 水平。图右下角显示时间框架选择器标记为 4h，以"
+  },
+  "sources": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        228.44,
+        291.4
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从摆动低点扫出、第二根K线未形成反转、第三根K线收盘确认、EQ应用到价格延续的全过程，关键价位和分析步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:45.128345Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 4小时图Candle Three Closure确认上升延续\",\"school\":\"ICT\",\"asset\":\"NQ\",\"timeframe\":\"4H\",\"market_context\":\"NQ 4小时图在下跌后扫出摆动低点，但第二根K线未形成完整反转信号。博主通过等待第三根K线的收盘来确认反转意图。\",\"key_observation\":\"第三根K线收盘于第二根K线主体上方，形成Candle Three Closure，结合Equilibrium确认价格将继续上升。\",\"analysis_steps\":[\"Step 1: 观察NQ 4小时图扫出摆动低点（约24400水平）\",\"Step 2: 检查第二根K线是否形成反转蜡烛（Reversal Candle），发现价格未收回前一根K线内部，因此不构成反转\",\"Step 3: 等待第三根K线打印完成，观察其收盘位置\",\"Step 4: 确认第三根K线收盘于第二根K线主体上方，形成Candle Three Closure\",\"Step 5: 标记第三根K线的完整范围，使用Equilibrium（中点）作为上升目标区域\",\"Step 6: 验证价格尊重EQ水平并继续上升，收盘于前一根K线高点上方，预期进一步延续\"],\"outcome\":\"价格在第三根K线收盘后继续上升，在随后的K线中突破前一根K线高点，确认上升延续趋势成立。\",\"lessons\":\"Candle Three Closure是确认反转的关键信号，需要耐心等待第三根K线完成。使用Equilibrium划分价格范围的上半部分作为目标区域，可以提高交易的概率。价格尊重EQ并突破前高是进一步延续的确认。\",\"primary_image_frame_id\":\"MsuEQQl7L6s_f010\",\"supporting_image_frame_ids\":[\"MsuEQQl7L6s_f009\"],\"related_concepts\":[\"Candle Three Closure\",\"Reversal Candle\",\"Equilibrium\",\"Order Block\",\"Swing Low\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从摆动低点扫出、第二根K线未形成反转、第三根K线收盘确认、EQ应用到价格延续的全过程，关键价位和分析步骤清晰。\"}",
+  "error": null
+}

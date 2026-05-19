@@ -1,0 +1,94 @@
+{
+  "card_id": "3eVxTV_7L2U_case_003_两阶段smt跨时间框架确认_gbpusd_eurusd",
+  "type": "case",
+  "title": "4H FVG与30M SMT二阶段确认交易至外部范围",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing Point (PSP)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Cross-timeframe confirmation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Range High / Range Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "fair_value_gap_fvg",
+    "market_structure",
+    "order_block_ob"
+  ],
+  "school": "SMC",
+  "asset": "GBPUSD / EURUSD",
+  "timeframe": "4H / 30M",
+  "market_context": "GBPUSD和EURUSD在4小时图表上形成FVG缺口，价格在范围内交易。博主通过跨时间框架分析验证反转信号，最终价格完美交易至4小时外部范围。",
+  "key_observation": "两个相关资产（GBPUSD和EURUSD）在4小时图表上都未创出新高，形成第一阶段SMT分歧。通过下钻至30分钟图表观察第二阶段SMT确认，预示反转并指向对立范围。",
+  "analysis_steps": [
+    "Step 1: 在4小时图表上观察GBPUSD和EURUSD，识别两个资产都交易至范围高点但未创新高的现象（第一阶段SMT）。",
+    "Step 2: 确认PSP（Protected Swing Point）形成，进一步确认反转信号。",
+    "Step 3: 下钻至30分钟图表，寻找第二阶段SMT确认该反转。",
+    "Step 4: 在30分钟图表上观察到SMT形成，确认4小时反转有效。",
+    "Step 5: 将交易目标设定为4小时图表的对立范围（外部范围）。",
+    "Step 6: 监控价格走势，观察其完美交易至目标范围，并寻找后续PSP形成以确认延续。"
+  ],
+  "outcome": "价格完美交易至4小时外部范围，确认了二阶段SMT跨时间框架分析的有效性。",
+  "lessons": "跨时间框架SMT确认（高时间框架第一阶段+低时间框架第二阶段）提供了强有力的反转信号。当两个相关资产在高时间框架上表现出分歧（一个创新高，另一个未创新高），结合低时间框架的SMT确认，可以高概率地预测价格向对立范围运动。",
+  "primary_image": "cards/3eVxTV_7L2U/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/3eVxTV_7L2U/images/case_003_detail_1.jpg",
+    "cards/3eVxTV_7L2U/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图为双面板布局，左侧为 GBPUSD 30 分钟 K 线图，右侧为 EURUSD 30 分钟 K 线图，均来自 OANDA 数据源，时间轴对齐于 2025 年 8 月 28 日 07:00。左侧图上绘有一条从左下向右上延伸的趋势线，以及一个位于 1.35150 至 1.35250 区间的矩形标注；当前价格标签显示为 1.35146。右侧图上绘有一条类似方向的上升趋势线，当前价格标签显示为 1.16",
+    "case_003_detail_1.jpg": "图上为双面板布局，左侧为 GBPUSD 4 小时 K 线图（OANDA），右侧为 EURUSD 4 小时 K 线图（OANDA），均处于 Replay 模式。左侧图价格刻度范围约 1.34000 至 1.35900，右侧价格刻度范围约 1.15800 至 1.17000。左侧图右轴当前价标签显示 1.34992，十字线价格标签显示 1.35246。左侧图中可见一个矩形标注，位于约 1.34900 ",
+    "case_003_detail_2.jpg": "图为双面板布局，左侧为 Gold Futures (Dec 2025) 1 小时 K 线图（COMEX），右侧为 Gold/British Pound 1 小时 K 线图（FOREX.com）。两个面板均标注有 'Range High' 与 'Range Low' 两条水平矩形区域。左侧面板价格轴范围约 3840 至 3980，当前价格标签显示 3863.8；右侧面板价格轴范围约 2840 至 2"
+  },
+  "sources": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "segment_ids": [
+        "seg_015"
+      ],
+      "time_range": [
+        961.6,
+        1031.679
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了两阶段SMT分析流程，资产代码、时间框架、关键价位、分析步骤和交易结果均清晰可辨。图表截图与转录内容高度匹配。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:22:08.162768Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"4H FVG与30M SMT二阶段确认交易至外部范围\",\"school\":\"SMC\",\"asset\":\"GBPUSD / EURUSD\",\"timeframe\":\"4H / 30M\",\"market_context\":\"GBPUSD和EURUSD在4小时图表上形成FVG缺口，价格在范围内交易。博主通过跨时间框架分析验证反转信号，最终价格完美交易至4小时外部范围。\",\"key_observation\":\"两个相关资产（GBPUSD和EURUSD）在4小时图表上都未创出新高，形成第一阶段SMT分歧。通过下钻至30分钟图表观察第二阶段SMT确认，预示反转并指向对立范围。\",\"analysis_steps\":[\"Step 1: 在4小时图表上观察GBPUSD和EURUSD，识别两个资产都交易至范围高点但未创新高的现象（第一阶段SMT）。\",\"Step 2: 确认PSP（Protected Swing Point）形成，进一步确认反转信号。\",\"Step 3: 下钻至30分钟图表，寻找第二阶段SMT确认该反转。\",\"Step 4: 在30分钟图表上观察到SMT形成，确认4小时反转有效。\",\"Step 5: 将交易目标设定为4小时图表的对立范围（外部范围）。\",\"Step 6: 监控价格走势，观察其完美交易至目标范围，并寻找后续PSP形成以确认延续。\"],\"outcome\":\"价格完美交易至4小时外部范围，确认了二阶段SMT跨时间框架分析的有效性。\",\"lessons\":\"跨时间框架SMT确认（高时间框架第一阶段+低时间框架第二阶段）提供了强有力的反转信号。当两个相关资产在高时间框架上表现出分歧（一个创新高，另一个未创新高），结合低时间框架的SMT确认，可以高概率地预测价格向对立范围运动。\",\"primary_image_frame_id\":\"3eVxTV_7L2U_f034\",\"supporting_image_frame_ids\":[\"3eVxTV_7L2U_f001\",\"3eVxTV_7L2U_f033\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Fair Value Gap (FVG)\",\"Protected Swing Point (PSP)\",\"Cross-timeframe confirmation\",\"Range High / Range Low\",\"Market Structure\",\"Order Block (OB)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了两阶段SMT分析流程，资产代码、时间框架、关键价位、分析步骤和交易结果均清晰可辨。图表截图与转录内容高度匹配。\"}",
+  "error": null
+}

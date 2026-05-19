@@ -1,0 +1,104 @@
+{
+  "card_id": "o0v4KQxZbpU_case_019_回测第十七天交易",
+  "type": "case",
+  "title": "回测第十七天：FVG扫低后反弹做多，3R获利移至保本",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    },
+    {
+      "term": "Breakeven",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "market_structure",
+    "stop_loss"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "NAS100在早盘09:00-09:30下跌形成扫低，随后09:30-10:40反弹上升。博主在多个交易时段观察价格结构、订单块和公允价值缺口，寻找高概率做多入场点。",
+  "key_observation": "价格在早盘扫低后反弹，博主识别出FVG（公允价值缺口）和Order Block作为做多入场区域。当价格达到3R收益后，将止损移至保本位置以锁定风险。",
+  "analysis_steps": [
+    "Step 1: 标记出早盘09:00-09:30的下跌低点和09:30-10:40的反弹高点，确定日内交易范围。",
+    "Step 2: 在反弹过程中识别FVG（公允价值缺口）和Order Block作为潜在做多入场区域。",
+    "Step 3: 在Order Block区域设置做多入场，同时在前期高点设置止损。",
+    "Step 4: 价格快速上升后被止损扫出，博主评估这是不幸的止损触发。",
+    "Step 5: 继续观察后续时段（周二、周三）的价格结构，寻找新的扫低和反弹机会。",
+    "Step 6: 在新的FVG和Order Block区域尝试做多入场，但因价格走势不理想（激进下跌、盘整）而取消或错过部分交易。",
+    "Step 7: 当成功入场后，设定目标为3R收益，达到后将止损移至保本位置。"
+  ],
+  "outcome": "部分交易被止损扫出（不幸触发），部分交易因价格结构不理想而被取消或错过。成功的交易达到3R收益后移至保本，实现风险锁定。",
+  "lessons": "在使用FVG和Order Block做多时，需要谨慎设置止损位置以避免被激进的价格波动扫出。当价格出现激进位移或盘整时，应取消交易而非强行入场。达到3R收益后及时移至保本是风险管理的关键。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_019_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_019_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_019_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_019_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_019_detail_4.jpg",
+    "cards/o0v4KQxZbpU/images/case_019_detail_5.jpg",
+    "cards/o0v4KQxZbpU/images/case_019_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_019_primary.jpg": "NAS100 1 分钟 K 线图。图上有三个矩形标注框：上方粉色框标记为'Gap: 15.15(0840) (0.08%) 115688, Amount: 750'，中间绿色框标记为'Open: FRI: 1.3400 Pip, Gap: 11'，下方绿色框标记为'Imbalance (0.27%) 24885, Amount: 1025.48'。K 线由绿色和黑色蜡烛组成，价格范围从约 1567",
+    "case_019_detail_1.jpg": "NAS100 1分钟K线图。图表显示从09:00至10:40的价格走势。左侧主图显示K线序列，从09:00至09:30呈下跌趋势，多根黑色K线，随后从09:30至10:40呈上升趋势，多根绿色K线。图上绘有6条水平线，分别位于15000、15450、15750、19350、19750等价格水平。右侧面板显示3个矩形框，分别标注在19350-19750、15450-15750、15000-15450",
+    "case_019_detail_2.jpg": "NAS100 1 分钟 K 线图。图上显示从约 15100 到 15725 的价格范围。右侧价格刻度标注了多条水平线，间隔为 50 点。图表中央有三个矩形区域标注，分别用浅粉红色和浅绿色填充。左侧 K 线序列呈现黑绿混合形态，右侧主要为绿色 K 线。图上未见其他指标或标注。",
+    "case_019_detail_3.jpg": "NAS100 1分钟K线图。图上显示从约10:15至11:30 UTC的K线序列。可见价格范围约从17670至18812。图表右侧价格轴标注有三条水平线，分别位于18772.5、17745和17670处。图上绘制有两个矩形框，分别对应不同的价格区间。K线呈绿色和黑色交替出现，整体在标注的价格水平之间波动。左侧工具栏显示FX Replay平台界面，顶部标题栏显示'Backtesting'模式。",
+    "case_019_detail_4.jpg": "NAS100 1分钟K线图。图表显示从约15620下跌至14300的下行趋势。左侧主图显示多根绿色和黑色K线混合排列，右侧副图展示更大时间周期的K线形态，其中包含大型黑色K线体。图上有三条水平线分别位于约15620、14600和14300价格位置。可见价格范围从14300到15620。图表底部显示时间轴标记，右下角显示账户余额和交易信息。",
+    "case_019_detail_5.jpg": "NAS100 日线图表。图上显示两个面板，左侧面板展示从约15085下跌至13245的下降趋势，包含多根K线。右侧面板显示近期走势，包含两根大型绿色K线和一根黑色K线。图右侧价格轴标注了5条水平线，分别位于15085.0000000、15045.7914689、14673.5314689、13245.7914689和13272.5314689。绿色K线具有较长的下影线。整体可见价格范围约从1324",
+    "case_019_detail_6.jpg": "NAS100 1分钟图表。图上标注了三个矩形区域：上方粉色矩形标记为'Buys 30 FVG(70) 2 BUY SETUPS Mitigated 750'，中间绿色矩形标记为'Buys 30 (Mitigated) 2 x 4 Mitigated 1708.08'，下方矩形标记为'Sells 30 FVG(70) 2 BUY SETUPS Mitigated 750'。图上有三条水平线分别标记为"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_011"
+      ],
+      "time_range": [
+        1010.72,
+        1195.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰讲解了交易过程、入场点、止损设置、3R目标和保本移动的完整流程，图表显示了FVG、Order Block和价格走势的具体位置。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:24.812297Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第十七天：FVG扫低后反弹做多，3R获利移至保本\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"NAS100在早盘09:00-09:30下跌形成扫低，随后09:30-10:40反弹上升。博主在多个交易时段观察价格结构、订单块和公允价值缺口，寻找高概率做多入场点。\",\"key_observation\":\"价格在早盘扫低后反弹，博主识别出FVG（公允价值缺口）和Order Block作为做多入场区域。当价格达到3R收益后，将止损移至保本位置以锁定风险。\",\"analysis_steps\":[\"Step 1: 标记出早盘09:00-09:30的下跌低点和09:30-10:40的反弹高点，确定日内交易范围。\",\"Step 2: 在反弹过程中识别FVG（公允价值缺口）和Order Block作为潜在做多入场区域。\",\"Step 3: 在Order Block区域设置做多入场，同时在前期高点设置止损。\",\"Step 4: 价格快速上升后被止损扫出，博主评估这是不幸的止损触发。\",\"Step 5: 继续观察后续时段（周二、周三）的价格结构，寻找新的扫低和反弹机会。\",\"Step 6: 在新的FVG和Order Block区域尝试做多入场，但因价格走势不理想（激进下跌、盘整）而取消或错过部分交易。\",\"Step 7: 当成功入场后，设定目标为3R收益，达到后将止损移至保本位置。\"],\"outcome\":\"部分交易被止损扫出（不幸触发），部分交易因价格结构不理想而被取消或错过。成功的交易达到3R收益后移至保本，实现风险锁定。\",\"lessons\":\"在使用FVG和Order Block做多时，需要谨慎设置止损位置以避免被激进的价格波动扫出。当价格出现激进位移或盘整时，应取消交易而非强行入场。达到3R收益后及时移至保本是风险管理的关键。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f037\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f034\",\"o0v4KQxZbpU_f035\",\"o0v4KQxZbpU_f036\",\"o0v4KQxZbpU_f038\",\"o0v4KQxZbpU_f039\",\"o0v4KQxZbpU_f040\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Market Structure\",\"Risk Management\",\"Stop Loss\",\"Breakeven\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰讲解了交易过程、入场点、止损设置、3R目标和保本移动的完整流程，图表显示了FVG、Order Block和价格走势的具体位置。\"}",
+  "error": null
+}

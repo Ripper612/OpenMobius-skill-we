@@ -1,0 +1,258 @@
+{
+  "card_id": "swing_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Swing High/Low",
+  "aliases": [
+    "Previous"
+  ],
+  "school": "Price Action",
+  "definition": "价格走势中的局部极值转折点。摆动高点是价格上升后两侧K线高点均低于它的局部最高点，摆动低点是价格下降后两侧K线低点均高于它的局部最低点。有效摆动点可进一步要求K线收盘确认（Candle Two或Candle Three Closure）及对应兴趣点（FVG、Order Block等）支撑。",
+  "identification_rules": [
+    "摆动高点：价格上升至某水平后开始下跌，该高点左右两侧K线的高点均低于它",
+    "摆动低点：价格下跌至某水平后开始上升，该低点左右两侧K线的低点均高于它",
+    "可在多个时间框架上识别（日线、小时线、分钟线等），高时间框架的摆动点通常更具参考价值",
+    "（ICT进阶验证）检验Candle Two Closure：第二根K线收盘是否回到第一根K线身体内部；若不满足，等待Candle Three Closure：第三根K线收盘是否穿过第二根K线身体",
+    "（ICT进阶验证）确认该摆动点是否对应兴趣点（FVG、等值高/低点、Order Block等），同时满足有效收盘与兴趣点条件才视为高质量摆动点",
+    "观察价格返回摆动点时是否发生位移突破（Displacement）或失败突破（Failure to Displace），以判断趋势延续或反转",
+    "失败的摆动点（价格未能突破前一摆动高/低后回落）表明可能的趋势反转信号"
+  ],
+  "trading_implication": "摆动高/低是市场结构分析的基础，用于确定支撑阻力、判断趋势延续或反转，以及设置止损参考位。摆动点上方为买方流动性，下方为卖方流动性，常作为流动性扫荡目标。价格突破摆动点并收盘于外侧表示位移发生，趋势可能延续；未能突破则为失败突破，可能预示反转。Protected Swing在趋势延续中预期不会被突破。",
+  "common_mistakes": [
+    "仅根据价格极值识别摆动点，忽视K线收盘确认的有效性",
+    "选择缺乏兴趣点（FVG、Order Block等）支撑的摆动点进行交易",
+    "接受既无Candle Two也无Candle Three Closure的摆动点",
+    "混淆摆动高/低与单根K线的最高价/最低价，摆动点需具备相对局部性质",
+    "在单一时间框架（尤其是低时间框架如1分钟图）上过度依赖摆动点，忽视更高时间框架的方向性偏差",
+    "未能区分失败摆动（未能突破前一摆动点）与成功突破，导致错误的趋势判断",
+    "在没有形成完整反转确认（如CSD、Breaker Block）的情况下，仅基于摆动点扫荡（Turtle Soup）就入场",
+    "试图同时标记和使用所有PD数组而非专注于摆动高/低，导致图表混乱且难以实时执行",
+    "在失败摆动附近交易，而不考虑价格已触及等值水平等因素"
+  ],
+  "related_concepts": [
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_003_eurusd日线到小时级联ote分析",
+      "video_id": "1YRs4Z1lMws",
+      "title": "EURUSD日线到小时级联OTE分析"
+    },
+    {
+      "card_id": "4Gm8p6O7Ebs_case_005_纳指两天扩张与盘整形成",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "纳指两天扩张后形成盘整，继续突破高点"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_005_日线图_多重订单块延续趋势",
+      "video_id": "DMUiDBnTYc8",
+      "title": "日线多重订单块延续趋势分析"
+    },
+    {
+      "card_id": "E89d1HArbgM_case_001_nq1分钟级别的csd与mss对比",
+      "video_id": "E89d1HArbgM",
+      "title": "NQ1分钟级别CSD与MSS的时间差异对比"
+    },
+    {
+      "card_id": "MlMsG7li9zY_case_001_纳斯达克100期货日线折价区做多案例",
+      "video_id": "MlMsG7li9zY",
+      "title": "纳斯达克100期货日线折价区做多案例"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_004_usd_4小时图多个candle_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4小时图多个Candle Three Closure案例分析"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_003_标普500_e_mini期货5分钟图交易流程",
+      "video_id": "U8xH2dEgH5A",
+      "title": "标普500 E-mini期货5分钟图多层流动性框架交易"
+    },
+    {
+      "card_id": "WFqLwOp2pXw_case_004_eurusd_日线反转至1小时盘整反弹",
+      "video_id": "WFqLwOp2pXw",
+      "title": "EURUSD日线反转至1小时盘整反弹"
+    },
+    {
+      "card_id": "YESqIoA7Wyg_case_002_黄金周线高低点价格行动分析",
+      "video_id": "YESqIoA7Wyg",
+      "title": "XAUUSD周线高低点回测与价格行动分析"
+    },
+    {
+      "card_id": "_94CPMjWi9E_case_001_es期货小时图结构转变案例",
+      "video_id": "_94CPMjWi9E",
+      "title": "ES期货小时图HTF水平突破与MSS确认案例"
+    },
+    {
+      "card_id": "caaS6_Q7O78_case_001_日线图上的反转与延续案例分析",
+      "video_id": "caaS6_Q7O78",
+      "title": "日线范围内回闭与反转延续的机械性分析"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_003_dxy日线多日偏差追踪案例",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "DXY日线多日偏差追踪与Next Day Model应用"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_006_第六个例子_月线分形模型确认",
+      "video_id": "jKuXaC84Qx4",
+      "title": "月线分形模型确认与日线EQ失效下行演示"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_010_回测第八天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第八天：低点扫荡后FVG做多获利2.85R"
+    },
+    {
+      "card_id": "tZMgGsTqqVM_case_002_15分钟和5分钟图表的交易设置",
+      "video_id": "tZMgGsTqqVM",
+      "title": "ES期货15分钟和5分钟多时间框架交易设置"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_002_黄金1小时图投影目标验证",
+      "video_id": "upHS7SDL9kg",
+      "title": "黄金1小时图斐波那契投影目标验证"
+    },
+    {
+      "card_id": "wy3OSPxu5U0_case_002_nasdaq_8月24日的日线到5分钟交易设置",
+      "video_id": "wy3OSPxu5U0",
+      "title": "纳斯达克8月24日日线到5分钟交易设置"
+    },
+    {
+      "card_id": "xvqsLTpmpsI_case_001_标普500期货e_mini的日内做空交易分析",
+      "video_id": "xvqsLTpmpsI",
+      "title": "标普500期货E-mini日内做空交易：从15分钟结构到1分钟入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "original_card_id": "MsuEQQl7L6s_concept_swing_high_low",
+      "segment_ids": [
+        "seg_008",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        324.28,
+        423.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "r_UF8U-hsL8",
+      "original_card_id": "r_UF8U-hsL8_concept_swing_high_low",
+      "segment_ids": [
+        "seg_005",
+        "seg_007"
+      ],
+      "time_range": [
+        229.2,
+        573.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wy3OSPxu5U0",
+      "original_card_id": "wy3OSPxu5U0_concept_swing_high_low",
+      "segment_ids": [
+        "seg_005",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        148.959,
+        381.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ynFA6E3qHj0",
+      "original_card_id": "ynFA6E3qHj0_concept_swing_high_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_009"
+      ],
+      "time_range": [
+        2.82,
+        918.019
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:12.844163Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "3张Price Action + 1张ICT，按多数选Price Action；ICT卡含Candle Two/Three Closure及兴趣点验证等进阶规则，已作为可选进阶条件保留于identification_rules中。",
+  "error": null
+}

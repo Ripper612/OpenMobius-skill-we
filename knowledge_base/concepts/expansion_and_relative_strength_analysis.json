@@ -1,0 +1,59 @@
+{
+  "card_id": "expansion_and_relative_strength_analysis",
+  "type": "merged_concept",
+  "canonical_term": "Expansion and Relative Strength Analysis",
+  "aliases": [
+    "相对强度配对",
+    "配对扩张分析"
+  ],
+  "school": "SMC",
+  "definition": "通过对比美元及多个外汇期货的K线形态和收盘情况，识别具有相对强度的货币配对，以选择能产生最大价格扩张的交易对象，避免弱势配对组合。",
+  "identification_rules": [
+    "首先确定美元的趋势方向（看涨、看跌或盘整）",
+    "逐一检查各外汇期货（欧元、英镑、日元、加元、瑞郎、纽元、澳元等）的K线收盘情况和形态强度",
+    "对于美元看跌时，寻找K线形态看涨的外汇期货；对于美元看涨时，寻找K线形态看跌的外汇期货",
+    "比较候选货币的相对强度，优先选择形态最强的货币（如最大的看涨/看跌K线、最清晰的收盘）",
+    "避免配对相对强度不足的组合（如弱美元配弱日元），因其无法产生有效波动"
+  ],
+  "trading_implication": "该分析用于在多个可交易配对中筛选最优目标。当美元趋势明确时，应配对方向相反且形态最强的外汇期货；当美元盘整或回撤时，应寻找同向回撤但相对强度更强的货币。通过相对强度对比，避免低效配对，提高扩张日的交易成功率。",
+  "common_mistakes": [
+    "忽视相对强度对比，盲目交易任何与美元方向相反的货币配对",
+    "未能识别弱势配对组合（如两个都缺乏强劲K线形态的货币对），导致无法获得有效波动",
+    "仅看单个货币的绝对形态，而不考虑其相对于其他候选货币的相对强度排名",
+    "在美元盘整或回撤时，仍然按照趋势时的配对逻辑操作，未能调整为同向回撤的货币对"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "original_card_id": "HrjYoxAUb3s_concept_expansion_and_relative_strength_analysis",
+      "segment_ids": [
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "time_range": [
+        477.76,
+        696.08
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132822Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

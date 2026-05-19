@@ -1,0 +1,69 @@
+{
+  "card_id": "reversal_entry",
+  "type": "merged_concept",
+  "canonical_term": "Reversal Entry",
+  "aliases": [
+    "反转入场"
+  ],
+  "school": "ICT",
+  "definition": "在价格形成受保护摆动时立即入场的交易方式。交易者在确认价格反转（通过收盘突破前期下跌K线序列）后，以受保护摆动低点作为止损，目标是快速获利。",
+  "identification_rules": [
+    "价格形成V形反转或在盘整中反转",
+    "收盘价突破形成该低点的下跌K线序列",
+    "该低点被确认为受保护摆动（Protected Swing）",
+    "可在反转确认的当根K线收盘时或收盘后立即入场"
+  ],
+  "trading_implication": "反转入场提供快速入场机会，但风险回报率通常较低。交易者可选择在受保护摆动低点设置止损以获得完整风险回报，或在K线实体处设置止损以改善风险回报比（如从1R改善至2R）。若风险回报不足，交易者应等待续延入场而非强行反转入场。",
+  "common_mistakes": [
+    "仅基于单根K线收盘就入场，未等待充分确认",
+    "忽视风险回报比过低的反转机会，导致交易效率差",
+    "未区分反转入场与续延入场，错过更优的风险回报设置",
+    "在没有重要价格水平（如FVG、OB）支撑的反转中盲目入场"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "JHVaSKtE1Ys_case_001_btc小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "BTC小时图V形反转到5分钟图多头延续交易"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_003_apoz_某资产_4小时图到15分钟图的空头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "APOZ 4H到15M空头交易：受保护高点与反转入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_reversal_entry",
+      "segment_ids": [
+        "seg_003",
+        "seg_006",
+        "seg_007",
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        149.76,
+        791.519
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135400Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

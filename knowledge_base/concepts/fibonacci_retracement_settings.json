@@ -1,0 +1,128 @@
+{
+  "card_id": "fibonacci_retracement_settings",
+  "type": "merged_concept",
+  "canonical_term": "Fibonacci Retracement Settings",
+  "aliases": [
+    "Fib Settings",
+    "Standard Deviation Projections Settings",
+    "斐波那契回撤参数"
+  ],
+  "school": "ICT",
+  "definition": "斐波那契回撤工具的参数配置，存在两种用途：一是配置0.5、0.62、0.705、0.79、1五个水平线，在摆动高低点间标记折价/溢价分界与OTE区域；二是配置1、0、-1、-2、-2.5、-4投影标准差水平，从操纵腿锚定以识别回撤、反转或扩展目标区域。",
+  "identification_rules": [
+    "在TradingView中打开斐波那契回撤工具，进入设置面板配置数值参数。",
+    "用途一（OTE配置）：输入五个参数值：0.5、0.62、0.705、0.79、1，从摆动高点向摆动低点拖拽工具，生成五条水平线。",
+    "确认0.5为折价/溢价分界线（EQ），0.62-0.79区间为最优交易入场区域（OTE），1为完全回撤位。",
+    "用途二（标准差投影配置）：设置参数值为1、0、-1、-2、-2.5、-4，代表不同标准差水平；配置显示选项：左侧显示数值标签、中间对齐、字体大小10、背景透明。",
+    "标准差投影配置时，从操纵腿（Manipulation Leg）的起点锚定工具，即价格在改变交付状态前扫荡流动性的摆动点。"
+  ],
+  "trading_implication": "OTE配置中，0.5区分折价区（做多）与溢价区（做空），0.62-0.79构成高概率入场区域。标准差投影配置中，-2至-2.5标准差为回撤或反转兴趣区，-4为最大扩展目标；价格触及这些水平时，需寻找与PD数组（公允价值缺口、订单块、卖方流动性）的汇聚确认；若价格穿过-2至-2.5，则关注-4水平。",
+  "common_mistakes": [
+    "未正确识别操纵腿，导致标准差投影锚定点错误，投影失效。",
+    "仅依赖单一标准差水平而忽视与PD数组的汇聚确认。",
+    "在价格未穿过-2至-2.5水平时过早预期-4最大扩展。"
+  ],
+  "related_concepts": [
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "original_card_id": "1YRs4Z1lMws_concept_fibonacci_retracement_settings",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.24,
+        123.079
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_fibonacci_retracement_settings",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.559,
+        125.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:33.626539Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "1张Price Action + 1张ICT，按多数选ICT。两张卡描述的是同一工具的不同参数配置方案，均予以保留并整合，非内容冲突。",
+  "error": null
+}

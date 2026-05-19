@@ -1,0 +1,98 @@
+{
+  "card_id": "9PKJ0U1gl4g_case_002_原油期货小时线低时间框架入场",
+  "type": "case",
+  "title": "原油期货日线Propulsion Block在小时线的低时间框架入场",
+  "related_concepts": [
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "HTF/LTF",
+      "card_id": "time_frame",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "propulsion_block",
+    "order_block",
+    "breaker_block",
+    "inducement",
+    "sellside_liquidity",
+    "time_frame",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "1H",
+  "market_context": "原油期货在日线上形成下跌趋势，博主利用日线Propulsion Block作为高时间框架参考，在小时线寻找低时间框架的精确入场点位。",
+  "key_observation": "博主观察到日线Propulsion Block与小时线前期高点重合，形成诱导区域；在小时线上等待一系列上升K线收盘后形成Order Block，作为做空入场的触发条件。",
+  "analysis_steps": [
+    "Step 1: 在日线识别Propulsion Block作为高时间框架参考结构。",
+    "Step 2: 切换到小时线图表，观察前期高点与日线Propulsion Block的重合位置（约84.00），识别为诱导区域。",
+    "Step 3: 等待小时线形成一系列上升收盘K线（up close candles）。",
+    "Step 4: 确认小时线收盘低于该区域，形成Order Block/Breaker Block。",
+    "Step 5: 在Order Block形成后的开盘价入场做空。",
+    "Step 6: 止损设置在Order Block高点或Breaker Block上方（约84.00）。",
+    "Step 7: 目标设定为卖方流动性（Sellside Liquidity），即前期低点（约82.50）。"
+  ],
+  "outcome": "价格成功交付至卖方流动性目标位，交易获利。",
+  "lessons": "利用高时间框架结构（日线Propulsion Block）在低时间框架（小时线）寻找精确入场点，通过Order Block形成的确认信号和开盘价入场，可以获得高概率的低时间框架交易机会。关键是等待完整的K线形态确认，而不是提前入场。",
+  "primary_image": "cards/9PKJ0U1gl4g/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/9PKJ0U1gl4g/images/case_002_detail_1.jpg",
+    "cards/9PKJ0U1gl4g/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "CL1! 60分钟K线图，时间范围覆盖2023年10月30日至3月11日前后。图右侧价格轴显示当前价格标签为82.72。图上有一条细水平线位于约84.00处，横跨图表中部。图右侧有一个蓝色矩形标注，覆盖约83.50至84.00区间。另有一条蓝色水平线位于约82.50处，出现在图表右侧区域。K线从左侧约86.00处下行，经历多段波动后，最右侧K线收于约82.72附近。图表底部标注资产代码CL1!及时",
+    "case_002_detail_1.jpg": "CL1（原油期货）日线K线图，图上可见价格范围约从77.00至95.00。图右侧叠加一个交易管理面板，显示三个水平区域：止损标注约在86.00（Stop: 1.61, 1.92%, Amount: 198000）、入场/持仓区约在82.21至85.52（Open P&L: 0.96, Qty: 1.242, Risk/Reward Ratio: 2.27）、目标区约在80.22（Target: 3",
+    "case_002_detail_2.jpg": "图表为 CL1!（原油期货）日线 K 线图，可见价格范围约从 75.91 至 95.00。图上有两条短水平线标注，分别位于约 89.00 和 86.00 附近。右侧价格轴当前标签显示 82.83，最低可见刻度标签为 75.91。K 线序列从左侧 9 月初延伸至右侧 2024 年初，其中 9 月下旬出现一根高点约 93.00 的 K 线后，整体呈下行排列。11 月 7 日附近出现一根实体较长的黑色 "
+  },
+  "sources": [
+    {
+      "video_id": "9PKJ0U1gl4g",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        196.28,
+        373.479
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线到小时线的分析过程，清晰标注了关键价位（84.00、82.50），明确说明了入场条件、止损和目标，并确认了交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:00.809563Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油期货日线Propulsion Block在小时线的低时间框架入场\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"1H\",\"market_context\":\"原油期货在日线上形成下跌趋势，博主利用日线Propulsion Block作为高时间框架参考，在小时线寻找低时间框架的精确入场点位。\",\"key_observation\":\"博主观察到日线Propulsion Block与小时线前期高点重合，形成诱导区域；在小时线上等待一系列上升K线收盘后形成Order Block，作为做空入场的触发条件。\",\"analysis_steps\":[\"Step 1: 在日线识别Propulsion Block作为高时间框架参考结构。\",\"Step 2: 切换到小时线图表，观察前期高点与日线Propulsion Block的重合位置（约84.00），识别为诱导区域。\",\"Step 3: 等待小时线形成一系列上升收盘K线（up close candles）。\",\"Step 4: 确认小时线收盘低于该区域，形成Order Block/Breaker Block。\",\"Step 5: 在Order Block形成后的开盘价入场做空。\",\"Step 6: 止损设置在Order Block高点或Breaker Block上方（约84.00）。\",\"Step 7: 目标设定为卖方流动性（Sellside Liquidity），即前期低点（约82.50）。\"],\"outcome\":\"价格成功交付至卖方流动性目标位，交易获利。\",\"lessons\":\"利用高时间框架结构（日线Propulsion Block）在低时间框架（小时线）寻找精确入场点，通过Order Block形成的确认信号和开盘价入场，可以获得高概率的低时间框架交易机会。关键是等待完整的K线形态确认，而不是提前入场。\",\"primary_image_frame_id\":\"9PKJ0U1gl4g_f009\",\"supporting_image_frame_ids\":[\"9PKJ0U1gl4g_f007\",\"9PKJ0U1gl4g_f008\"],\"related_concepts\":[\"Propulsion Block\",\"Order Block\",\"Breaker Block\",\"Inducement\",\"Sellside Liquidity\",\"HTF/LTF\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线到小时线的分析过程，清晰标注了关键价位（84.00、82.50），明确说明了入场条件、止损和目标，并确认了交易结果。\"}",
+  "error": null
+}

@@ -1,0 +1,62 @@
+{
+  "card_id": "candle_3",
+  "type": "merged_concept",
+  "canonical_term": "Candle 3",
+  "aliases": [
+    "扩张确认K线",
+    "第三根K线"
+  ],
+  "school": "ICT",
+  "definition": "反转K线后形成的K线，具有小影线和市场结构转变确认，支持价格继续扩张的高概率入场点。",
+  "identification_rules": [
+    "出现在反转K线（Candle 2，具有大影线）之后的下一根K线",
+    "具有相对较小的对立影线（small opposing run），相对于日内范围而言",
+    "形成市场结构转变（Change in the State of Delivery），突破前一K线的结构",
+    "影线在K线早期形成，而非K线末期，确保有足够时间进行扩张",
+    "与反转K线配合时，应验证是否存在SMT（Smart Money Technique）确认"
+  ],
+  "trading_implication": "Candle 3是反转扩张序列中的关键确认信号。当反转K线（大影线）后出现小影线+CSD的Candle 3时，表明价格已确认反转意图并准备扩张。交易者可在此K线形成时或收盘后入场，目标为扩张方向的流动性或公允价值缺口。相比直接交易反转K线，等待Candle 3的确认可显著降低风险。",
+  "common_mistakes": [
+    "在反转K线本身交易而不等待Candle 3确认，导致被大影线诱导出场",
+    "忽视影线形成的时间点，在K线末期才出现小影线的Candle 3不支持扩张",
+    "未验证市场结构转变（CSD），仅凭小影线判断而缺乏结构确认",
+    "在大对立影线的Candle 3中交易，此时不支持扩张，应等待下一根K线",
+    "未考虑时间框架的连续性，导致在时间不足的情况下期望扩张"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_candle_3",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_012",
+        "seg_013",
+        "seg_020",
+        "seg_024"
+      ],
+      "time_range": [
+        268.56,
+        1244.08
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131450Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

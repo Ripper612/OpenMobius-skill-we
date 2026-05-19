@@ -1,0 +1,52 @@
+{
+  "card_id": "history_setting",
+  "type": "merged_concept",
+  "canonical_term": "History Setting",
+  "aliases": [
+    "History",
+    "历史设置"
+  ],
+  "school": "General",
+  "definition": "指标参数，控制图表上显示的历史交易设置数量，范围从0到40。设置为0仅显示当前设置，设置为N则显示最近N个历史设置。",
+  "identification_rules": [
+    "在指标设置面板的 General Settings 中找到 History 参数",
+    "该参数为数值型，可调范围为 0-40",
+    "设置值为 0 时，图表仅显示当前形成的设置",
+    "设置值为 N 时，图表显示最近 N 个已完成的历史设置"
+  ],
+  "trading_implication": "通过调整 History 参数，交易者可以控制图表的信息密度。设置为 0 可获得最清晰的当前视图；设置为较高值（如 15-40）可回顾历史设置的有效性和模式，用于验证交易策略的一致性和识别重复出现的高概率区域。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_history_setting",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.2,
+        369.08
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133302Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,128 @@
+{
+  "card_id": "U8xH2dEgH5A_case_002_eurusd_日线与小时线多时间框架流动性分析",
+  "type": "case",
+  "title": "EURUSD多时间框架流动性分析与交易目标确定",
+  "related_concepts": [
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Session High/Low",
+      "card_id": "session_high_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Week High/Low",
+      "card_id": "previous_week_high_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "fair_value_gap",
+    "swing_formation",
+    "order_block",
+    "displacement",
+    "session_high_low",
+    "previous_week_high_low",
+    "previous_day_high_low",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "4H / 1D / 1H",
+  "market_context": "EURUSD在6月中旬至7月初期间经历下行走势，从1.08900跌至1.06300附近。博主通过4小时、日线和1小时多个时间框架，结合亚洲、伦敦、纽约三个交易时段的高低点，演示如何识别和利用分层流动性水平进行交易。",
+  "key_observation": "价格通过识别买方流动性（Buyside Liquidity）和卖方流动性（Sellside Liquidity）的多层次结构，在不同交易时段扫荡这些流动性水平后形成反转和延续机会。关键流动性包括前周高低点、前日高低点和各交易时段高低点。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上标注买方流动性（约1.07100-1.07900）和卖方流动性（约1.06450-1.06700）的矩形区域。",
+    "Step 2: 识别前周高低点（周二低点和周四高点）作为关键流动性水平，用于框架反转或作为吸引点。",
+    "Step 3: 标注前日高低点作为第二层流动性水平，可用于框架反转或吸引。",
+    "Step 4: 在日线图上确认价格从1.08900下行至1.06300的整体结构，标注两个矩形流动性区域。",
+    "Step 5: 标注亚洲交易时段高低点、伦敦交易时段高低点和纽约交易时段高低点作为第三层流动性。",
+    "Step 6: 观察亚洲时段低点被扫荡后，价格向伦敦时段高点和亚洲时段高点移动。",
+    "Step 7: 在纽约开盘时识别向上位移（Displacement），扫荡伦敦时段高点和亚洲时段低点。",
+    "Step 8: 识别5分钟公允价值缺口（FVG）并观察价格回测该缺口。",
+    "Step 9: 在第二天观察类似流程：亚洲时段高低点被创建和扫荡，伦敦时段低点被扫荡。",
+    "Step 10: 识别向上位移和5分钟FVG被标记，确认伦敦时段高点被扫荡。",
+    "Step 11: 在午夜附近基础整理后，扫荡该低点，价格继续向前日高点移动。",
+    "Step 12: 确认前日高点被扫荡后，价格继续向上扩展，完成多层次流动性的顺序扫荡。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架流动性分析的核心是识别和标注分层流动性水平：前周高低点、前日高低点和交易时段高低点。价格倾向于按顺序扫荡这些流动性，形成可预测的交易目标。通过观察价格在不同时段对这些水平的反应，可以框架反转、确定吸引点和设定交易目标。",
+  "primary_image": "cards/U8xH2dEgH5A/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/U8xH2dEgH5A/images/case_002_detail_1.jpg",
+    "cards/U8xH2dEgH5A/images/case_002_detail_2.jpg",
+    "cards/U8xH2dEgH5A/images/case_002_detail_3.jpg",
+    "cards/U8xH2dEgH5A/images/case_002_detail_4.jpg",
+    "cards/U8xH2dEgH5A/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "EURUSD 4小时K线图。图上标注有3个矩形区域，分别标记为'Buyside Liquidity'（两处）和'Sellside Liquidity'（一处）。可见价格范围约从1.06450至1.07930。图表显示多根K线，其中包含绿色（上涨）和黑色（下跌）K线。多根K线的上下影线穿过标注的流动性区域。右侧价格刻度显示最新报价约在1.07830附近。图上未见其他指标或形态标注。",
+    "case_002_detail_1.jpg": "EURUSD 4小时K线图。图上显示价格范围从1.06450至1.07900。有4条水平线标注关键价格位。图上标记两个矩形区域：上方区域标记为'Buyside Liquidity'位于1.07100至1.07900之间，下方区域标记为'Sellside Liquidity'位于1.06450至1.06700之间。K线序列由绿色和黑色蜡烛交替组成，多数K线具有上下影线。中央区域显示价格在1.0700",
+    "case_002_detail_2.jpg": "EURUSD 4小时K线图。图表显示从约1.06700到1.08100的价格范围。K线序列由绿色和黑色蜡烛交替组成。图上标注有两个矩形框：一个位于约1.07600至1.07900区间，另一个位于约1.06800至1.07000区间。在上方矩形附近的K线显示长上影线。右侧价格轴显示当前价格为1.07816。图上未见其他指标或文字标签。",
+    "case_002_detail_3.jpg": "EURUSD 4小时K线图。图上显示从约1.06700至1.08100的价格范围。可见多根绿色和黑色K线交替出现。图上标注有两个矩形区域，分别位于1.07600至1.07926和1.06700至1.07000之间。右侧价格轴显示当前价格为1.07926。底部时间标签显示'Thu 08 Jun 23 17:00'。图上有'Sell'、'Buy'、'Flatten'等按钮标签。最新K线呈绿色，顶部带上",
+    "case_002_detail_4.jpg": "EURUSD 日线图。图表显示从约 1.08900 至 1.06300 的下行走势，跨越约 15 根 K 线。K 线序列中黑色（下跌）和绿色（上涨）交替出现，大多数 K 线具有上下影线。图上标记有两个矩形区域，分别位于 1.06500 至 1.07900 价格范围内。右侧显示当前价格标签 1.07462。图表底部时间轴显示从 6 月中旬至 7 月初的日期范围。未见其他指标或标注。",
+    "case_002_detail_5.jpg": "EURUSD 1 小时 K 线图。图表显示价格范围从 1.06950 至 1.09450。图上绘有一条水平线位于 1.08650 价位。右侧区域显示一系列绿色 K 线，其中穿插黑色 K 线，整体向上延伸至 1.09450。左侧区域显示绿色和黑色 K 线混合排列，价格在 1.06950 至 1.08200 之间波动。1.08650 水平线附近可见 K 线间隙。图上未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "U8xH2dEgH5A",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        254.58,
+        586.82
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了EURUSD多时间框架分析，资产、时间框架、关键价位和分析步骤均清晰，图表标注明确，流动性水平具体可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:07.570011Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD多时间框架流动性分析与交易目标确定\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"4H / 1D / 1H\",\"market_context\":\"EURUSD在6月中旬至7月初期间经历下行走势，从1.08900跌至1.06300附近。博主通过4小时、日线和1小时多个时间框架，结合亚洲、伦敦、纽约三个交易时段的高低点，演示如何识别和利用分层流动性水平进行交易。\",\"key_observation\":\"价格通过识别买方流动性（Buyside Liquidity）和卖方流动性（Sellside Liquidity）的多层次结构，在不同交易时段扫荡这些流动性水平后形成反转和延续机会。关键流动性包括前周高低点、前日高低点和各交易时段高低点。\",\"analysis_steps\":[\"Step 1: 在4小时图上标注买方流动性（约1.07100-1.07900）和卖方流动性（约1.06450-1.06700）的矩形区域。\",\"Step 2: 识别前周高低点（周二低点和周四高点）作为关键流动性水平，用于框架反转或作为吸引点。\",\"Step 3: 标注前日高低点作为第二层流动性水平，可用于框架反转或吸引。\",\"Step 4: 在日线图上确认价格从1.08900下行至1.06300的整体结构，标注两个矩形流动性区域。\",\"Step 5: 标注亚洲交易时段高低点、伦敦交易时段高低点和纽约交易时段高低点作为第三层流动性。\",\"Step 6: 观察亚洲时段低点被扫荡后，价格向伦敦时段高点和亚洲时段高点移动。\",\"Step 7: 在纽约开盘时识别向上位移（Displacement），扫荡伦敦时段高点和亚洲时段低点。\",\"Step 8: 识别5分钟公允价值缺口（FVG）并观察价格回测该缺口。\",\"Step 9: 在第二天观察类似流程：亚洲时段高低点被创建和扫荡，伦敦时段低点被扫荡。\",\"Step 10: 识别向上位移和5分钟FVG被标记，确认伦敦时段高点被扫荡。\",\"Step 11: 在午夜附近基础整理后，扫荡该低点，价格继续向前日高点移动。\",\"Step 12: 确认前日高点被扫荡后，价格继续向上扩展，完成多层次流动性的顺序扫荡。\"],\"outcome\":null,\"lessons\":\"多时间框架流动性分析的核心是识别和标注分层流动性水平：前周高低点、前日高低点和交易时段高低点。价格倾向于按顺序扫荡这些流动性，形成可预测的交易目标。通过观察价格在不同时段对这些水平的反应，可以框架反转、确定吸引点和设定交易目标。\",\"primary_image_frame_id\":\"U8xH2dEgH5A_f009\",\"supporting_image_frame_ids\":[\"U8xH2dEgH5A_f010\",\"U8xH2dEgH5A_f001\",\"U8xH2dEgH5A_f011\",\"U8xH2dEgH5A_f012\",\"U8xH2dEgH5A_f013\"],\"related_concepts\":[\"Buyside Liquidity\",\"Sellside Liquidity\",\"Fair Value Gap\",\"Swing High\",\"Swing Low\",\"Order Block\",\"Displacement\",\"Session High/Low\",\"Previous Week High/Low\",\"Previous Day High/Low\",\"Market Structure\"],\"extracti",
+  "error": null
+}

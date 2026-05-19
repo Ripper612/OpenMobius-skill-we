@@ -1,0 +1,126 @@
+{
+  "card_id": "iEaMbuFZb24_case_002_日线到5分钟的三层级交易案例",
+  "type": "case",
+  "title": "日线偏向到小时线结构再到5分钟入场的三层级交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "High Timeframe Bias",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "liquidity",
+    "propulsion_block",
+    "protected_high_low",
+    "market_structure_shift",
+    "wick",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "价格在日线上形成摆动低点被扫出，随后在0.5 Wick位置回测；日线偏向看涨，周线开盘缺口上方为目标区域。",
+  "key_observation": "博主强调多时间框架对齐的重要性：日线提供偏向，小时线提供结构和兴趣点，5分钟用于精确入场；单独在低时间框架交易容易被止损扫出。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别摆动低点被扫出后的0.5 Wick回测区域，确立看涨偏向。",
+    "Step 2: 在小时线上等待交付状态改变（CSD），确认Wick已形成且价格应继续看涨。",
+    "Step 3: 在小时线上寻找结构和兴趣点，识别新形成的订单块（OB）或对立蜡烛。",
+    "Step 4: 下降到5分钟时间框架，等待交付状态改变确认低点应该持稳。",
+    "Step 5: 在5分钟上识别第一个可能入场点：在低点重测或市价入场，止损设在低点，目标2R。",
+    "Step 6: 寻找延续入场：等待形成新的订单块（推进块），在其上方市价入场，止损设在新的受保护低点。",
+    "Step 7: 验证价格达到短期高点以及日线目标区域，确认2R收益达成。"
+  ],
+  "outcome": "价格达到短期高点以及来自日线的目标区域，实现2R收益目标。",
+  "lessons": "多时间框架对齐是高概率交易的关键：日线偏向防止逆势交易，小时线结构确认趋势转变，5分钟精确入场。单独依赖低时间框架容易被机构流动性扫荡；必须从高时间框架向下确认每一层级。",
+  "primary_image": "cards/iEaMbuFZb24/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/iEaMbuFZb24/images/case_002_detail_1.jpg",
+    "cards/iEaMbuFZb24/images/case_002_detail_2.jpg",
+    "cards/iEaMbuFZb24/images/case_002_detail_3.jpg",
+    "cards/iEaMbuFZb24/images/case_002_detail_4.jpg",
+    "cards/iEaMbuFZb24/images/case_002_detail_5.jpg",
+    "cards/iEaMbuFZb24/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示多日期K线走势，时间范围从10月28日至11月1日。图上有4条水平线分别位于68.00、67.20、66.40、65.60价位。可见价格范围约68.40至64.60。图中包含绿色和黑色K线混合排列，右侧有一根较大的黑色K线，其后跟随绿色K线。图上标注有两个矩形区域分别在66.30-66.50和65.00-65.20价位。右下角显示文字标签包括'G1'、'1H-1D Model'、'Bias",
+    "case_002_detail_1.jpg": "图上显示一组 K 线序列，共约 12 根蜡烛，绿色和黑色混合排列。K 线具有不同长度的上下影线。图右侧有一条带文字标签'OB'的水平线。页面左上角标题为'Trading a pattern'，左下角显示'TTrades'品牌标识。未提供资产代码、时间框架或具体价格刻度信息。",
+    "case_002_detail_2.jpg": "图上显示一个标题为'Trading a pattern'的K线图示例。图中包含约20根K线，主要由绿色（上升）和黑色（下降）蜡烛体组成。中间区域有一个浅绿色矩形框标注，下方有一个灰色矩形框标注。右侧最新K线呈现长上影线形态。左下角显示'TTrades'品牌标识和数字'4'。图上未标注具体价格数字、资产代码或时间框架。",
+    "case_002_detail_3.jpg": "图上显示一个标题为'Trading a pattern'的K线图示。图中包含一系列绿色和黑色K线，展示价格波动序列。图上标注有两个矩形区域：上方一个灰色背景矩形，下方一个浅绿色背景矩形。右侧标注文字'OB'。左下角显示'TTrades'品牌标识。整体为教学或演示性质的图表，未显示具体资产代码、时间框架或价格刻度数值。",
+    "case_002_detail_4.jpg": "图上展示三根K线，无具体资产代码或时间框架标注。第一根为绿色K线带上影线，第二根为黑色K线带上影线，第三根为浅灰色K线，主体较长并带下影线。图上方标注文字'Trading in direction of the HTF'，下方标注'Higher Timeframe'，左下角显示'TTrades'品牌标识。图上未显示价格刻度、具体数值或其他技术指标。",
+    "case_002_detail_5.jpg": "图表为烛线图，显示从九月初至十一月中旬的价格走势。价格范围从61.00至77.00。图上有一条水平虚线标记在65.89处，左侧轴上带有圆形标记。图表中部偏下方有一个黄色矩形标注，位置约在64.50至65.50价格区间。整个周期内绿色和黑色烛线交替出现，十月末至十一月初区间显示价格在65.00至70.00范围内的整理形态。",
+    "case_002_detail_6.jpg": "图表显示多日K线走势，时间跨度从10月27日至31日。价格范围在68.40至64.40之间。图上有4条水平线分别位于68.00、67.20、65.71和65.00处。图中标注有两个矩形框，分别围绕65.00至65.60和65.20至65.80的价格区间。K线由绿色和黑色蜡烛组成，其中包含多根长黑色K线，如67.00至66.20和67.10至66.00的区间。图右侧显示时间戳23:08:08、文字标"
+  },
+  "sources": [
+    {
+      "video_id": "iEaMbuFZb24",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.0,
+        370.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三层级分析流程，包括日线偏向、小时线结构确认、5分钟入场和2R目标达成，关键价位和步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:41:38.730981Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线偏向到小时线结构再到5分钟入场的三层级交易\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"价格在日线上形成摆动低点被扫出，随后在0.5 Wick位置回测；日线偏向看涨，周线开盘缺口上方为目标区域。\",\"key_observation\":\"博主强调多时间框架对齐的重要性：日线提供偏向，小时线提供结构和兴趣点，5分钟用于精确入场；单独在低时间框架交易容易被止损扫出。\",\"analysis_steps\":[\"Step 1: 在日线上识别摆动低点被扫出后的0.5 Wick回测区域，确立看涨偏向。\",\"Step 2: 在小时线上等待交付状态改变（CSD），确认Wick已形成且价格应继续看涨。\",\"Step 3: 在小时线上寻找结构和兴趣点，识别新形成的订单块（OB）或对立蜡烛。\",\"Step 4: 下降到5分钟时间框架，等待交付状态改变确认低点应该持稳。\",\"Step 5: 在5分钟上识别第一个可能入场点：在低点重测或市价入场，止损设在低点，目标2R。\",\"Step 6: 寻找延续入场：等待形成新的订单块（推进块），在其上方市价入场，止损设在新的受保护低点。\",\"Step 7: 验证价格达到短期高点以及日线目标区域，确认2R收益达成。\"],\"outcome\":\"价格达到短期高点以及来自日线的目标区域，实现2R收益目标。\",\"lessons\":\"多时间框架对齐是高概率交易的关键：日线偏向防止逆势交易，小时线结构确认趋势转变，5分钟精确入场。单独依赖低时间框架容易被机构流动性扫荡；必须从高时间框架向下确认每一层级。\",\"primary_image_frame_id\":\"iEaMbuFZb24_f009\",\"supporting_image_frame_ids\":[\"iEaMbuFZb24_f002\",\"iEaMbuFZb24_f003\",\"iEaMbuFZb24_f004\",\"iEaMbuFZb24_f005\",\"iEaMbuFZb24_f007\",\"iEaMbuFZb24_f008\",\"iEaMbuFZb24_f010\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in the state of delivery\",\"Liquidity\",\"Propulsion Block\",\"Protected Swing\",\"Market Structure Shift\",\"High Timeframe Bias\",\"Wick\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三层级分析流程，包括日线偏向、小时线结构确认、5分钟入场和2R目标达成，关键价位和步骤清晰。\"}",
+  "error": null
+}

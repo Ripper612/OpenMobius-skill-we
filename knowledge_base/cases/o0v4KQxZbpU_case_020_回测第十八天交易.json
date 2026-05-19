@@ -1,0 +1,97 @@
+{
+  "card_id": "o0v4KQxZbpU_case_020_回测第十八天交易",
+  "type": "case",
+  "title": "扫低后Breaker Block做多，3R获利移至保本",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "fair_value_gap",
+    "displacement",
+    "order_block",
+    "turtle_soup"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "NAS100在回测第18天的交易中，价格从09:30高点开始下跌至10:20低点，形成明显的下行走势，随后在低点附近出现反弹机会。",
+  "key_observation": "价格在低点被扫后反弹，博主识别出Breaker Block结构作为做多入场点，目标为范围另一侧，风险回报比为3:1。",
+  "analysis_steps": [
+    "Step 1: 标记出第四个交易时段的高点和低点，观察价格走势。",
+    "Step 2: 识别价格向下扫低（sweep down）的动作。",
+    "Step 3: 在低点处设置止损，目标设定在范围另一侧，计算出3R的风险回报比。",
+    "Step 4: 进场做多，但随后被止损出场。",
+    "Step 5: 进入第七个交易时段，标记新的高低点。",
+    "Step 6: 观察10:00蜡烛是否扫低，评估后续高点的可能性。",
+    "Step 7: 进入第九个交易时段，标记高低点。",
+    "Step 8: 识别向下扫低，寻找向上位移（displacement）。",
+    "Step 9: 在新的扫低后，识别Breaker Block结构，计划做多入场。",
+    "Step 10: 设置止损在扫低的低点，目标为范围另一侧，投影斐波那契确认3R位置。",
+    "Step 11: 成功进场，价格达到3R目标后，将止损移至保本位置。"
+  ],
+  "outcome": "成功获得3R收益，随后将止损移至保本（break even）。",
+  "lessons": "Breaker Block是在价格扫低后的高概率做多入场点；通过3R目标确认后立即移至保本可以锁定利润并消除风险；需要耐心等待明确的结构和位移确认。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_020_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_020_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_020_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_020_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_020_primary.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示约20根混合颜色的K线，包含绿色和黑色蜡烛，伴随上下影线。右侧面板显示4根大型K线：黑色、绿色、黑色、黑色，从约15325跨越至15100。绿色K线夹在两根黑色K线之间。图上绘制多条水平线，间隔约25点，覆盖15100至15340的价格范围。右侧价格刻度标注清晰。图表顶部显示资产代码NAS100、时间框架1m及Backtesting标签",
+    "case_020_detail_1.jpg": "NAS100 1 分钟图表。左侧面板显示 K 线图，从约 09:20 开始上升至 09:30 附近达到高点，随后从 09:30 至 10:20 持续下跌。右侧面板显示同一时段的成交量柱状图，绿色和黑色柱子交替出现。图右侧价格刻度标注有四条水平线，分别位于 15610、15450、15350 和 15310 处。可见价格范围约从 15310 至 15610，跨度约 300 点。",
+    "case_020_detail_2.jpg": "NAS100 1分钟K线图。图上显示从约15320下跌至15100的下行走势，跨越约20根K线。图中标注有两个矩形区域，均标记为FVG文字标签。上方绿色矩形区域位于15240至15280价格范围，下方粉色矩形区域位于15100至15150价格范围。中间区域显示5根K线在15150至15200之间的整理形态。右侧价格刻度显示多条水平参考线。",
+    "case_020_detail_3.jpg": "NAS100 1分钟K线图。图上显示从约15100上升至15320的上升趋势，跨越约20根K线。图表中部有两个矩形标注框，分别位于15160-15240和15240-15320价格区间。右侧价格刻度显示多条水平线标记。图上可见一根大型绿色K线位于15300-15350区间，以及两根黑色K线位于15150-15200区间。图右侧显示价格刻度标签，最高至15425.00000000，最低至15100."
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        1195.0,
+        1373.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "转录文本清晰描述了完整的分析步骤、入场逻辑、止损设置和3R获利后移至保本的结果；图表显示了扫低、反弹和Breaker Block结构。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:26.597907Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"扫低后Breaker Block做多，3R获利移至保本\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"NAS100在回测第18天的交易中，价格从09:30高点开始下跌至10:20低点，形成明显的下行走势，随后在低点附近出现反弹机会。\",\"key_observation\":\"价格在低点被扫后反弹，博主识别出Breaker Block结构作为做多入场点，目标为范围另一侧，风险回报比为3:1。\",\"analysis_steps\":[\"Step 1: 标记出第四个交易时段的高点和低点，观察价格走势。\",\"Step 2: 识别价格向下扫低（sweep down）的动作。\",\"Step 3: 在低点处设置止损，目标设定在范围另一侧，计算出3R的风险回报比。\",\"Step 4: 进场做多，但随后被止损出场。\",\"Step 5: 进入第七个交易时段，标记新的高低点。\",\"Step 6: 观察10:00蜡烛是否扫低，评估后续高点的可能性。\",\"Step 7: 进入第九个交易时段，标记高低点。\",\"Step 8: 识别向下扫低，寻找向上位移（displacement）。\",\"Step 9: 在新的扫低后，识别Breaker Block结构，计划做多入场。\",\"Step 10: 设置止损在扫低的低点，目标为范围另一侧，投影斐波那契确认3R位置。\",\"Step 11: 成功进场，价格达到3R目标后，将止损移至保本位置。\"],\"outcome\":\"成功获得3R收益，随后将止损移至保本（break even）。\",\"lessons\":\"Breaker Block是在价格扫低后的高概率做多入场点；通过3R目标确认后立即移至保本可以锁定利润并消除风险；需要耐心等待明确的结构和位移确认。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f045\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f041\",\"o0v4KQxZbpU_f044\",\"o0v4KQxZbpU_f046\"],\"related_concepts\":[\"Breaker Block\",\"Fair Value Gap\",\"Displacement\",\"Order Block\",\"Sweep\",\"Risk Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"转录文本清晰描述了完整的分析步骤、入场逻辑、止损设置和3R获利后移至保本的结果；图表显示了扫低、反弹和Breaker Block结构。\"}",
+  "error": null
+}

@@ -1,0 +1,126 @@
+{
+  "card_id": "swing_high_and_swing_low",
+  "type": "merged_concept",
+  "canonical_term": "Swing High and Swing Low",
+  "aliases": [
+    "swing points",
+    "局部高低点",
+    "摆动高点和摆动低点"
+  ],
+  "school": "Price Action",
+  "definition": "价格走势中的局部转折点。摆动高点是价格上升后的高点，其左右相邻K线的高点均低于它；摆动低点是价格下降后的低点，其左右相邻K线的低点均高于它。用于识别市场结构、订单块形成位置，以及作为斐波那契回撤的锚点。",
+  "identification_rules": [
+    "摆动高点：该K线高点高于其左右相邻K线的高点，价格在此后开始下降",
+    "摆动低点：该K线低点低于其左右相邻K线的低点，价格在此后开始上升",
+    "可在多个时间框架上识别（日线、4小时、30分钟等），不同周期的摆动高低点具有不同的市场意义",
+    "摆动高点上方可能存在买方流动性（Buyside Liquidity），摆动低点下方可能存在卖方流动性（Sellside Liquidity）",
+    "识别后可将斐波那契工具从摆动高点拖至摆动低点（或反之），生成回撤水平以确定OTE区域"
+  ],
+  "trading_implication": "摆动高低点是识别市场结构和绘制斐波那契回撤的关键锚点。通过观察价格是否突破前一摆动高低点判断趋势延续或反转；其周围常形成订单块，成为支撑或阻力区域。将斐波那契工具锚定于摆动高低点，可生成0.62-0.79区间（含0.705）的OTE入场区域。高时间框架摆动高低点对低时间框架价格行为具有指导意义。",
+  "common_mistakes": [
+    "将任何局部高低点都视为有效的摆动高低点，忽视了摆动的相对性和时间框架的重要性",
+    "未能区分不同时间框架上的摆动高低点，导致在错误的水平设置止损或目标",
+    "忽视摆动高低点周围的流动性分布，未能识别价格可能扫荡的区域"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "original_card_id": "1YRs4Z1lMws_concept_swing_high_and_swing_low",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        78.24,
+        159.31900000000002
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_swing_high_and_swing_low",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        369.56,
+        726.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:11.364446Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

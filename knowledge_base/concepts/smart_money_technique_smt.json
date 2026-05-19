@@ -1,0 +1,665 @@
+{
+  "card_id": "smart_money_technique_smt",
+  "type": "merged_concept",
+  "canonical_term": "Smart Money Technique (SMT)",
+  "aliases": [
+    "SMT",
+    "SMT Divergence",
+    "Smart Money Divergence",
+    "Smart Money Tools",
+    "divergence between correlated assets",
+    "智能货币技术",
+    "相关资产分歧",
+    "相关资产分歧分析",
+    "相关资产分歧现象"
+  ],
+  "school": "SMC",
+  "definition": "对比两个相关资产（如ES与NQ、EUR/USD与GBP/USD、货币对与DXY）在同一时间段内的摆动高低点，识别一个资产创出新高/新低而另一个未能跟随的分歧现象。该分歧用于确认市场结构转变、判断相对强弱，并将未跟随资产的摆动点标记为受保护点，作为反转或延续交易的确认信号。",
+  "identification_rules": [
+    "确认两个资产具有相关性：正相关（如ES与NQ、YM与NQ、GBP与EUR）或反向相关（如EUR/USD与DXY）",
+    "在同一时间框架内标记两个资产对应的摆动高点和低点，观察是否出现结构分歧",
+    "正相关资产的SMT：一个资产创出更高高点（HH）而另一个创出更低高点（LH），或一个创出更低低点（LL）而另一个创出更高低点（HL）",
+    "反向相关资产的SMT：一个资产创新高时另一个应创新低，若未创则构成分歧",
+    "将未能跟随的资产的摆动高/低点标记为受保护摆动点（Protected Swing），可作为止损位或订单块参考",
+    "优先在关键价格水平附近寻找SMT：会话高低点、前一日高低点、Fair Value Gap、Order Block等结构水平",
+    "在15分钟或更高时间框架（建议4小时及以上）识别SMT，低时间框架可靠性下降",
+    "结合Change in the State of Delivery（CSD）或市场结构转变（MSS）确认分歧信号的有效性",
+    "可在高时间框架识别SMT后，在低时间框架（如1-5分钟、30分钟）寻找具体入场结构",
+    "分歧失效条件：若较弱资产的受保护摆动高/低点被突破，则SMT分歧不再成立",
+    "可利用ES/NQ比值图辅助判断：比值图反转时预示相关性改变和相对强弱转换"
+  ],
+  "trading_implication": "SMT作为汇聚确认工具而非独立入场信号，需与CSD、MSS、FVG、Order Block等结构配合使用。识别SMT后，选择较弱资产（未能跟随的一方）寻找空头设置，或在受保护摆动点处建立反向头寸，止损设于受保护点，目标指向EQ或前期关键水平。多时间框架应用：高时间框架识别SMT偏差，低时间框架寻找具体触发（如CSD、位移、FVG回测），逐级确认后入场。",
+  "common_mistakes": [
+    "仅依赖SMT分歧而不等待CSD、MSS或位移等结构确认就入场，导致假突破被扫损",
+    "将SMT作为主要交易理由而非汇聚确认工具，忽视其他结构信号",
+    "在低于4小时的时间框架上过度使用SMT，可靠性显著下降",
+    "仅观察单一资产的价格走势，未与相关资产进行对比分析",
+    "混淆正相关与反向相关资产的SMT识别逻辑，导致错误判断",
+    "在随机价格水平寻找SMT，而非关键结构水平（会话高低、前日高低、HTF水平）",
+    "未在低时间框架验证高时间框架SMT，缺乏多时间框架确认",
+    "忽视分歧失效条件，当受保护摆动点被突破后仍坚持原交易方向",
+    "交易较弱资产时未确认相对强弱，或反而在较强资产上交易而错失更优执行机会",
+    "将SMT配对产生的受保护摆动点误认为严格的破坏块结构，实际上其裁量性更强",
+    "未等待低时间框架与高时间框架完全对齐就仓促进场，被诱导（Inducement）"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in the State of Delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Continuation Order Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Correlation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_002_usdcad小时线延续交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD小时线看跌延续交易——从C2收盘到突破前日低点"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_003_ym反转交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "YM反转交易案例：前日低点SMT与CSD触发的反向上行"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_005_gbpusd小时线到5分钟线反转案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "GBPUSD小时线11点反转到5分钟线CSD下行交易"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_006_usdcad_4小时线到15分钟线交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD 4H-15M 多次试探高点后形成交付状态改变反转"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_007_nq1日线到小时线延续交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "NQ1日线看跌二号收盘后小时线延续交易"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_001_es与nq伦敦高点smt反转案例",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ伦敦高点SMT反转案例"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_003_eur_usd与gbp_usd做多交易案例",
+      "video_id": "27S9gjgcSlI",
+      "title": "EUR/USD与GBP/USD SMT确认后的Breaker Block做多交易"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_005_nq_15分钟到1分钟的多时间框架入场",
+      "video_id": "27S9gjgcSlI",
+      "title": "NQ 15分钟到1分钟多时间框架入场与FVG调整"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_006_dxy与eur_usd反向相关smt识别",
+      "video_id": "27S9gjgcSlI",
+      "title": "DXY与EUR/USD反向相关SMT识别与反转预测"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_001_油品三角套利_cl_rb_ho_的模型内模型交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "油品三角套利（CL/RB/HO）的模型内模型交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_002_黄金三角_gc_gbpusd_的psp反转确认",
+      "video_id": "3eVxTV_7L2U",
+      "title": "黄金三角SMT与PSP反转确认交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_003_两阶段smt跨时间框架确认_gbpusd_eurusd",
+      "video_id": "3eVxTV_7L2U",
+      "title": "4H FVG与30M SMT二阶段确认交易至外部范围"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_004_指数三角_nq_ym_的9点开盘驱动交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "NQ/YM指数三角9点开盘驱动交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_005_黄金三角_gc_gbpusd_的摆动确认交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "黄金/英镑三角形态的PSP与相关性确认交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_006_指数三角smt失败触发反转_nq_es_ym周线到日线",
+      "video_id": "3eVxTV_7L2U",
+      "title": "指数三角SMT失败触发反转（周线到日线）"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_007_指数三角完整顶部交易_nq_ym从日线到3分钟",
+      "video_id": "3eVxTV_7L2U",
+      "title": "NQ/YM日线三角顶部：从SMT到PSP再到3分钟CSD确认交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_008_rbob汽油周线到日线的多头交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RB1周线FVG回测反转至日线高点的多头交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_009_rbob汽油4小时到30分钟的两阶段smt交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RBOB汽油4H-30M两阶段SMT确认V形反转交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_011_rty小型罗素指数完整顶部到底部交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RTY日线顶部失败操纵到4H CSD确认，30分钟FVG与YM SMT联动，1分钟V形反转入场"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_001_btc日线第四天交易案例",
+      "video_id": "5fnFOh5YuM0",
+      "title": "BTC日线第四天交易案例：从摆动低点到多时间框架入场"
+    },
+    {
+      "card_id": "5rbFskdmEmU_case_001_标普500_e_mini期货11月4日日内走势分析",
+      "video_id": "5rbFskdmEmU",
+      "title": "标普500 E-mini期货11月4日位移与位移缺失分析"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_003_英镑美元60分钟propulsion_block案例",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "GBPUSD 60分钟Propulsion Block突破案例"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_001_nq_1分钟多头入场案例_纽约开盘前",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟多头入场：伦敦高点流动性扫盘后的折价区入场"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_002_nq_1分钟空头入场案例_小时fvg目标",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟空头入场案例（小时FVG目标）"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_003_es_5分钟多头案例_日线fvg目标",
+      "video_id": "AdmnWLjf8rY",
+      "title": "ES 5分钟多头案例：日线FVG目标的入场与止盈"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_006_nq1_3分钟实时交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1 3分钟实时交易：扩张-回撤循环与受保护摆动追踪"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_005_nq与es的smt分歧及低阻力流动性追踪",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ高阻力流动性与ES低阻力低点序列的SMT分歧交易"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_003_xageur日线反转与目标位置确认",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGEUR日线反转确认与失败摆动堆积目标"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_005_eth多日看跌扩张的均衡点确认",
+      "video_id": "IPZjNI1B5a0",
+      "title": "ETH多日看跌扩张中均衡点的连续尊重与FVG触及反转"
+    },
+    {
+      "card_id": "MmvC4rsmmcM_case_002_标普期货日内交易案例",
+      "video_id": "MmvC4rsmmcM",
+      "title": "标普期货多时间框架嵌套FVG与SMT日内交易"
+    },
+    {
+      "card_id": "Ovotm9l99QQ_case_001_es日线看空交易分析_2023年1月18日",
+      "video_id": "Ovotm9l99QQ",
+      "title": "ES日线看空交易分析：多时间框架SMT与PD array级联填补"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_002_nasdaq_100_1小时图表的多层级扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "NQ 1小时图多层级扩张形态与SMT、Power of 3应用"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_004_新闻事件前后的扩张形态演变",
+      "video_id": "Tjk9bXERZy0",
+      "title": "新闻事件前后的扩张形态演变与Power of 3应用"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_001_黄金_xauusd_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "黄金日线触及前日低点，1H看跌FVG+M15 SMT做多案例"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_002_纳斯达克_nq_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ日线-1小时-15分钟多头设置：前日低点扫除+FVG目标"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_003_欧元兑加元_eurcad_日线_1小时_15分钟做空案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "EURCAD日线-1小时-15分钟多时间框架做空案例"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_004_纳斯达克_nq_反转案例_使用反转和交付状态改变",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ反转案例：利用CSD和FVG的做多入场"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_005_纳斯达克_nq_做空案例_使用日开盘替代午夜开盘",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ做空案例：日开盘替代午夜开盘的订单块入场"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_001_纳斯达克与标普500强弱对比交易",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "纳斯达克与标普500强弱对比做多交易"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_002_ym与nq的smt确认案例",
+      "video_id": "bbWPoajy2MY",
+      "title": "YM与NQ的SMT确认：Mitigation Block高概率交易"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_002_周一7月10日es与nq摆动点分析",
+      "video_id": "c_mh19e3mhI",
+      "title": "7月10日ES与NQ摆动点SMT分析"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_003_周五8月4日es与nq_order_block表现",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES与NQ周五8月4日Order Block均值阈值表现对比"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_005_周五5分钟图表es与nq交易设置",
+      "video_id": "c_mh19e3mhI",
+      "title": "利用ES/NQ相对强弱在5分钟图表寻找多空设置"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_007_9_35至10_05_es与nq相关性变化预示",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES/NQ相关性变化：比值高点领先实际反转"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_002_s_p_500小时线上的smart_money反转和ote应用",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES小时线Smart Money反转后的OTE最优入场应用"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_003_s_p_500期货1分钟线上的多层ote嵌套",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES 1分钟线多层OTE嵌套的精确入场分析"
+    },
+    {
+      "card_id": "nWHint4Yano_case_002_美元继续上升时的gbpusd做空机会",
+      "video_id": "nWHint4Yano",
+      "title": "美元反转上升时通过相对强度确认GBPUSD做空"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_001_es与nq的看涨smt案例",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES与NQ的看涨SMT识别与反转验证"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_002_es与道琼斯的看跌smt案例",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES与道琼斯看跌SMT：高点分歧反转案例"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_003_fvg内的smt应用",
+      "video_id": "q1NmxUTm4n4",
+      "title": "S&P 500与纳斯达克100在FVG内的SMT应用"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_004_es_2分钟图的低时间框架交易",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES 2分钟图基于15分钟SMT信号的低时间框架做空交易"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_005_es_1分钟图的订单块入场",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES 1分钟图订单块二次入场与目标达成"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_004_日线反转与小时图延续的多层级交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "日线反转与小时图V形反转的多层级延续交易"
+    },
+    {
+      "card_id": "ubCe509_JLY_case_003_道琼斯30分钟到3分钟的纽约会话反转",
+      "video_id": "ubCe509_JLY",
+      "title": "道琼斯30分钟到3分钟纽约会话反转交易"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_006_usd_cad_15分钟v形反转与smt确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD/CAD 15分钟V形反转与SMT确认的高质量设置"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_002_日线偏差与小时线反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "日线偏差后小时线反转与亚洲高点突破"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_005_nq等值高点与smt配合的1分钟breaker交易",
+      "video_id": "xP-o11jRCyg",
+      "title": "ETH 1分钟等值高点SMT配合Breaker交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_008",
+        "seg_010",
+        "seg_017",
+        "seg_021"
+      ],
+      "time_range": [
+        343.56,
+        887.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "27S9gjgcSlI",
+      "original_card_id": "27S9gjgcSlI_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        10.28,
+        1020.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_028"
+      ],
+      "time_range": [
+        1443.76,
+        1483.52
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_006",
+        "seg_021"
+      ],
+      "time_range": [
+        274.08,
+        1111.039
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "MmvC4rsmmcM",
+      "original_card_id": "MmvC4rsmmcM_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        361.919,
+        496.28
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Tjk9bXERZy0",
+      "original_card_id": "Tjk9bXERZy0_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        325.479,
+        506.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YESqIoA7Wyg",
+      "original_card_id": "YESqIoA7Wyg_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        548.76,
+        727.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "bbWPoajy2MY",
+      "original_card_id": "bbWPoajy2MY_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.44,
+        368.8
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "c_mh19e3mhI",
+      "original_card_id": "c_mh19e3mhI_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        184.26,
+        719.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eHQ4nE-TQ2w",
+      "original_card_id": "eHQ4nE-TQ2w_concept_smart_money_divergence_smt",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.279,
+        270.8
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_007",
+        "seg_009",
+        "seg_010",
+        "seg_013"
+      ],
+      "time_range": [
+        279.44,
+        522.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_018",
+        "seg_019"
+      ],
+      "time_range": [
+        840.32,
+        945.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        551.76,
+        730.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "original_card_id": "vn1RYjhJUnQ_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        546.32,
+        594.48
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "xP-o11jRCyg",
+      "original_card_id": "xP-o11jRCyg_concept_smart_money_technique_smt",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        11.0,
+        548.48
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 15,
+    "source_videos": 15,
+    "high_confidence_sources": 11,
+    "medium_confidence_sources": 4,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:52:56.368439Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 4"
+  ],
+  "merge_notes": "15张原始卡school字段全部为SMC，无冲突。两张卡original_card_id含'smt_divergence'与其余含'smt'命名略有差异，但内容指向同一概念，已合并。",
+  "error": null
+}

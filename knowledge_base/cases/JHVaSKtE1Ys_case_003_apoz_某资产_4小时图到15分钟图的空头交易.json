@@ -1,0 +1,110 @@
+{
+  "card_id": "JHVaSKtE1Ys_case_003_apoz_某资产_4小时图到15分钟图的空头交易",
+  "type": "case",
+  "title": "APOZ 4H到15M空头交易：受保护高点与反转入场",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Continuation Entry",
+      "card_id": "retest_entry",
+      "exists": true
+    },
+    {
+      "term": "Reversal Entry",
+      "card_id": "reversal_entry",
+      "exists": true
+    },
+    {
+      "term": "Invalidation Level",
+      "card_id": "stop_loss_placement_invalidation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "fair_value_gap",
+    "order_block",
+    "market_structure",
+    "liquidity",
+    "retest_entry",
+    "reversal_entry",
+    "stop_loss_placement_invalidation"
+  ],
+  "school": "ICT",
+  "asset": "APOZ",
+  "timeframe": "4H / 15M",
+  "market_context": "APOZ在4小时图上形成整理区间（3060-3076），价格向上突破至3092附近后回落，重新测试前期范围高点并进入公允价值缺口区域。",
+  "key_observation": "在4小时图识别到整理结构和流动性扫盘后，下钻15分钟图寻找受保护高点作为空头入场的无效化水平。价格虽然形成了受保护高点，但未能产生符合模型的延续入场机会，最终仅通过反转入场获得交易机会。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别APOZ形成等低点结构，随后向上突破至3092附近，之后在3060-3076区间形成整理。",
+    "Step 2: 观察价格重新测试前期范围高点并进入公允价值缺口区域，预期价格将走低。",
+    "Step 3: 下钻至15分钟图，在3082-3083区域识别到一系列密集K线形成的高点。",
+    "Step 4: 确认受保护高点：观察构成该高点的K线序列是否在其下方收盘，以此作为空头交易的无效化水平。",
+    "Step 5: 价格创出新高（3084.6），未能在受保护高点下方收盘，导致该高点被扫除，受保护高点失效。",
+    "Step 6: 寻找延续入场机会：要求价格触及公允价值缺口或关键点位，形成对立K线后再走低，但价格未满足此条件。",
+    "Step 7: 价格最终未能在公允价值缺口上方充分回撤，仅通过反转入场（close-based entry）提供交易机会。"
+  ],
+  "outcome": "交易最终通过反转入场执行，但延续入场机会完全缺失。价格在未充分回撤至公允价值缺口的情况下开始下行，说明虽然方向正确但入场框架受限。",
+  "lessons": "即使正确识别了价格方向和关键结构，严格的入场模型也可能导致错过交易机会。受保护高点被扫除后，延续入场需要价格触及具体点位并形成对立K线，这种条件往往难以满足。交易者必须接受在严格框架下会错过某些设置的现实。",
+  "primary_image": "cards/JHVaSKtE1Ys/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/JHVaSKtE1Ys/images/case_003_detail_1.jpg",
+    "cards/JHVaSKtE1Ys/images/case_003_detail_2.jpg",
+    "cards/JHVaSKtE1Ys/images/case_003_detail_3.jpg",
+    "cards/JHVaSKtE1Ys/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图为 apoz/USD 15 分钟 K 线图，可见价格范围约 3066.0 至 3091.0。图上有一个黄色矩形标注区域，横跨图表左侧至约 21:15 时间位置，覆盖价格区间约 3081.0 至 3083.0。矩形内可见约 10 根 K 线密集排列于该区间内。图上另有一条蓝色水平线位于约 3080.0，横跨约 14:30 至 19:00。右侧价格轴当前价标签显示 3084.6。图右侧可见一根大幅下",
+    "case_003_detail_1.jpg": "图为 APOZ/USD 4 小时 K 线图，可见价格范围约 3012.0 至 3124.0。图右侧价格轴当前标签显示 3081.8，并有一条虚线水平线延伸至该价位。图上绘有一个矩形框，覆盖约 3060 至 3076 区间，横跨 3 月 18 日至 3 月 26 日多根 K 线。K 线序列从 3 月 13 日约 3016 处起，经多根阳线上行至 3 月 19 日约 3092 附近，此后在矩形区域内形",
+    "case_003_detail_2.jpg": "图表为 USD 15 分钟 K 线图，可见价格范围约 3064.0 至 3089.0。图上有一个黄色/橙色填充矩形区域，横跨图表大部分宽度，价格范围约在 3082.0 至 3083.5 之间，矩形内有一条水平线位于约 3082.0。图右侧当前价格标签显示 3076.4，对应一条虚线水平线贯穿图表。时间轴标注 Thu 20 Mar 25 20:00 处有一条垂直虚线。图右侧可见一根大型黑色实体 K ",
+    "case_003_detail_3.jpg": "图为 APOZ/USD 15 分钟 K 线图，可见价格范围约 3056 至 3090。图上有一个橙黄色水平矩形区域标注在约 3080 至 3086 区间，另有一个青色矩形区域覆盖约 3062 至 3082 的价格范围，时间跨度约从 20:30 至 22:00。图左侧有多条水平虚线分布在 3068 至 3078 区间。图上标注文字 'C2' 位于约 3086 处。右侧价格轴高亮标签显示 3081.5",
+    "case_003_detail_4.jpg": "图为 apoz/USD 15 分钟 K 线图，可见价格范围约 3052.0 至 3086.0。图上有一个黄色矩形框覆盖约 3080.0 至 3086.0 区间，另有一个大型青绿色矩形框覆盖约 3062.0 至 3082.0 区间。图右侧有一个灰色矩形框覆盖约 3068.0 至 3078.0 区间，另有一个黄色小矩形框位于约 3068.0 至 3072.0 区间。图上有两条虚线水平线分别位于约 30"
+  },
+  "sources": [
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        623.04,
+        791.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从4H到15M的分析过程，清晰标注了受保护高点、FVG、关键价位，详细解释了为何延续入场失效以及最终采用反转入场的原因。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:39.072752Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"APOZ 4H到15M空头交易：受保护高点与反转入场\",\"school\":\"ICT\",\"asset\":\"APOZ\",\"timeframe\":\"4H / 15M\",\"market_context\":\"APOZ在4小时图上形成整理区间（3060-3076），价格向上突破至3092附近后回落，重新测试前期范围高点并进入公允价值缺口区域。\",\"key_observation\":\"在4小时图识别到整理结构和流动性扫盘后，下钻15分钟图寻找受保护高点作为空头入场的无效化水平。价格虽然形成了受保护高点，但未能产生符合模型的延续入场机会，最终仅通过反转入场获得交易机会。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别APOZ形成等低点结构，随后向上突破至3092附近，之后在3060-3076区间形成整理。\",\"Step 2: 观察价格重新测试前期范围高点并进入公允价值缺口区域，预期价格将走低。\",\"Step 3: 下钻至15分钟图，在3082-3083区域识别到一系列密集K线形成的高点。\",\"Step 4: 确认受保护高点：观察构成该高点的K线序列是否在其下方收盘，以此作为空头交易的无效化水平。\",\"Step 5: 价格创出新高（3084.6），未能在受保护高点下方收盘，导致该高点被扫除，受保护高点失效。\",\"Step 6: 寻找延续入场机会：要求价格触及公允价值缺口或关键点位，形成对立K线后再走低，但价格未满足此条件。\",\"Step 7: 价格最终未能在公允价值缺口上方充分回撤，仅通过反转入场（close-based entry）提供交易机会。\"],\"outcome\":\"交易最终通过反转入场执行，但延续入场机会完全缺失。价格在未充分回撤至公允价值缺口的情况下开始下行，说明虽然方向正确但入场框架受限。\",\"lessons\":\"即使正确识别了价格方向和关键结构，严格的入场模型也可能导致错过交易机会。受保护高点被扫除后，延续入场需要价格触及具体点位并形成对立K线，这种条件往往难以满足。交易者必须接受在严格框架下会错过某些设置的现实。\",\"primary_image_frame_id\":\"JHVaSKtE1Ys_f024\",\"supporting_image_frame_ids\":[\"JHVaSKtE1Ys_f022\",\"JHVaSKtE1Ys_f023\",\"JHVaSKtE1Ys_f025\",\"JHVaSKtE1Ys_f026\"],\"related_concepts\":[\"Protected Swing\",\"Fair Value Gap\",\"Order Block\",\"Market Structure\",\"Liquidity\",\"Continuation Entry\",\"Reversal Entry\",\"Invalidation Level\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从4H到15M的分析过程，清晰标注了受保护高点、FVG、关键价位，详细解释了为何延续入场失效以及最终采用反转入场的原因。\"}",
+  "error": null
+}

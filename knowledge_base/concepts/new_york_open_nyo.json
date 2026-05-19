@@ -1,0 +1,57 @@
+{
+  "card_id": "new_york_open_nyo",
+  "type": "merged_concept",
+  "canonical_term": "New York Open (NYO)",
+  "aliases": [
+    "9:30 open",
+    "NYSE open"
+  ],
+  "school": "ICT",
+  "definition": "美国东部时间9:30纽约股票交易所开盘时刻。作为关键时间水平，常形成对立运动（opposing run）、订单块或反转点，标志市场波动性显著增加的时间节点。",
+  "identification_rules": [
+    "在图表上标记美国东部时间9:30对应的价格水平",
+    "观察该时间点前后价格是否形成相反方向的运动（opposing run）",
+    "识别9:30时刻是否产生订单块（Order Block）或作为支撑/阻力被回测",
+    "确认该时间点后市场波动性是否明显增加，通常伴随分布（distribution）或积累（accumulation）"
+  ],
+  "trading_implication": "NYO是日内交易的关键时间触发点。在趋势延续中，NYO常形成对立运动来扫除流动性或验证订单块；在反转中，NYO可作为支撑/阻力水平。交易者可利用NYO时刻的波动性增加来确认日线OHLC结构（开-高-低-收）的有效性，或在NYO后寻找分布/积累信号来入场。",
+  "common_mistakes": [
+    "将NYO仅视为简单的支撑/阻力，忽视其作为对立运动触发点的作用",
+    "未在低时间框架上观察NYO时刻的具体价格行为，导致错过订单块或反转信号",
+    "混淆NYO与8:30开盘的作用——NYO通常产生更强的波动性和对立运动，而8:30更多用作支撑/阻力或折价/溢价判断"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_new_york_open_nyo",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        191.84,
+        904.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134274Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,126 @@
+{
+  "card_id": "JHVaSKtE1Ys_case_002_es_标普500期货_小时图到5分钟图的多头交易",
+  "type": "case",
+  "title": "ES 1H到5M多头延续入场，通过FVG和受保护低点获得3.17R",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Continuation Entry",
+      "card_id": "retest_entry",
+      "exists": true
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "T-spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "protected_high_low",
+    "retest_entry",
+    "risk_to_reward_ratio",
+    "market_structure",
+    "t_spot",
+    "equilibrium_eq"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1H / 5M",
+  "market_context": "ES在1小时图形成整理突破后出现看涨反转信号。价格从整理区域向上扩张，随后回调整理，形成延续设置。博主在5分钟图上识别FVG和受保护低点作为入场触发。",
+  "key_observation": "博主识别到反转入场风险回报不足（仅2R），改为等待延续入场。通过价格进入FVG并收盘穿过下跌K线序列形成受保护低点，获得更优的3.17R风险回报比。",
+  "analysis_steps": [
+    "Step 1: 在1小时图观察到整理突破，价格从整理区域向上扩张，形成看涨反转信号。",
+    "Step 2: 识别反转入场点，但计算风险回报仅为2R，不符合交易标准，决定放弃反转入场。",
+    "Step 3: 等待延续入场机会，预期形成更高的低点（higher low）。",
+    "Step 4: 在5分钟图上标记0.5斐波那契位置作为T-spot（点位），这是延续入场的关键点位。",
+    "Step 5: 价格回调至T-spot区域，确认有效，形成延续入场信号。",
+    "Step 6: 价格进入FVG（公允价值缺口），并收盘穿过下跌K线序列。",
+    "Step 7: 确认受保护低点形成，止损设置在该低点，目标指向之前的摆动高点。",
+    "Step 8: 计算风险回报为3.17R，优于反转入场的2R，执行交易。",
+    "Step 9: 价格继续上行，突破摆动高点，形成新的受保护摆动，继续追踪趋势。"
+  ],
+  "outcome": "交易成功执行，获得3.17R的风险回报。价格突破目标高点后继续上行，形成新的受保护摆动，趋势延续。",
+  "lessons": "在识别反转与延续入场时，应优先选择风险回报比更优的设置。通过FVG和受保护低点的组合确认可以提高入场质量。等待更好的入场机会往往比急于入场能获得更好的交易结果。",
+  "primary_image": "cards/JHVaSKtE1Ys/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/JHVaSKtE1Ys/images/case_002_detail_1.jpg",
+    "cards/JHVaSKtE1Ys/images/case_002_detail_2.jpg",
+    "cards/JHVaSKtE1Ys/images/case_002_detail_3.jpg",
+    "cards/JHVaSKtE1Ys/images/case_002_detail_4.jpg",
+    "cards/JHVaSKtE1Ys/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为5分钟K线图，资产标注为USD，日期显示为2024年12月26日。图右侧价格刻度范围约从6114.00至6158.00。图上可见两个矩形标注区域：一个浅绿色矩形覆盖约6133至6155价格区间，另一个灰色矩形覆盖约6118至6134价格区间，两者均集中在09:45至10:25时段附近。09:30附近有一根大阴线，主体从约6118延伸至6158，下影线延伸至约6114。其后出现一根大阳线，主体",
+    "case_002_detail_1.jpg": "图表显示 USD 1 小时 K 线图，时间跨度涵盖 12 月 23 日至 12 月 29 日。图左侧价格刻度范围约从 6050 至 6190。图上有一条虚线水平线位于约 6113 附近，另有当前价格标签 6128.25 显示于左侧价格轴。图左下角有文字标注\"PR\"。图中可见多根大实体 K 线，包括 12 月 24 日 18:00 附近一根大绿色 K 线、12 月 25 日 21:00 附近一根大黑",
+    "case_002_detail_2.jpg": "图表为 USD 5 分钟 K 线图，价格范围约从 6112 至 6152。图上有一条水平虚线位于约 6118 处，从 06:00 延伸至约 12:00。左侧 K 线从约 6148 下行至约 6120，中段在 6124 至 6132 区间内出现多根 K 线横向排列。约 10:00 处出现一根大阴线，实体从约 6138 延伸至约 6118，下影线延伸至约 6112。此后图右侧出现数根绿色 K 线，价格",
+    "case_002_detail_3.jpg": "图表为 USD 5 分钟 K 线图，日期标注为 2024 年 12 月 26 日。右侧价格轴可见三条带高亮标签的水平线，分别位于 6157.50、6134.50 和 6115.25。图右侧有一个绿色矩形标注，覆盖价格区间约 6115.25 至 6157.50；其内部叠加一个灰色矩形，覆盖约 6115.25 至 6135。K 线整体从左侧约 6157.50 向右下方延伸至约 6115.25，其中约 ",
+    "case_002_detail_4.jpg": "图表为5分钟K线图，资产代码不可见，货币单位为USD，右上角标注'The Market Lens / TTraders_edu'。可见价格范围约从6114.00至6156.00。图上有三条水平线，分别位于约6134.00、6130.00及6126.00附近，其中6126.00处有一条贯穿全图的虚线水平线。约09:55至10:00时段出现一根大阴线，从约6134.00下探至约6114.00，随后紧接",
+    "case_002_detail_5.jpg": "图表为 5 分钟 K 线图，资产代码未完整显示，货币单位标注为 USD，右上角显示 The Market Lens 及 TTraders_edu 文字。可见价格范围约从 6114.00 至 6156.00。图上有一条细水平线位于 6156.00 附近横跨图表上方。09:45 附近出现一根大阴线，实体从约 6134.00 延伸至 6118.00，随后紧接一根大阳线收回至同一区间。图上标注有两个矩形框"
+  },
+  "sources": [
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        365.84,
+        623.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从1H到5M的分析过程，清晰说明了反转vs延续的决策逻辑，给出具体价位、风险回报数据（2R vs 3.17R），以及最终交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:39.462685Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 1H到5M多头延续入场，通过FVG和受保护低点获得3.17R\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1H / 5M\",\"market_context\":\"ES在1小时图形成整理突破后出现看涨反转信号。价格从整理区域向上扩张，随后回调整理，形成延续设置。博主在5分钟图上识别FVG和受保护低点作为入场触发。\",\"key_observation\":\"博主识别到反转入场风险回报不足（仅2R），改为等待延续入场。通过价格进入FVG并收盘穿过下跌K线序列形成受保护低点，获得更优的3.17R风险回报比。\",\"analysis_steps\":[\"Step 1: 在1小时图观察到整理突破，价格从整理区域向上扩张，形成看涨反转信号。\",\"Step 2: 识别反转入场点，但计算风险回报仅为2R，不符合交易标准，决定放弃反转入场。\",\"Step 3: 等待延续入场机会，预期形成更高的低点（higher low）。\",\"Step 4: 在5分钟图上标记0.5斐波那契位置作为T-spot（点位），这是延续入场的关键点位。\",\"Step 5: 价格回调至T-spot区域，确认有效，形成延续入场信号。\",\"Step 6: 价格进入FVG（公允价值缺口），并收盘穿过下跌K线序列。\",\"Step 7: 确认受保护低点形成，止损设置在该低点，目标指向之前的摆动高点。\",\"Step 8: 计算风险回报为3.17R，优于反转入场的2R，执行交易。\",\"Step 9: 价格继续上行，突破摆动高点，形成新的受保护摆动，继续追踪趋势。\"],\"outcome\":\"交易成功执行，获得3.17R的风险回报。价格突破目标高点后继续上行，形成新的受保护摆动，趋势延续。\",\"lessons\":\"在识别反转与延续入场时，应优先选择风险回报比更优的设置。通过FVG和受保护低点的组合确认可以提高入场质量。等待更好的入场机会往往比急于入场能获得更好的交易结果。\",\"primary_image_frame_id\":\"JHVaSKtE1Ys_f019\",\"supporting_image_frame_ids\":[\"JHVaSKtE1Ys_f015\",\"JHVaSKtE1Ys_f016\",\"JHVaSKtE1Ys_f017\",\"JHVaSKtE1Ys_f001\",\"JHVaSKtE1Ys_f018\",\"JHVaSKtE1Ys_f020\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Protected Swing\",\"Continuation Entry\",\"Risk-to-Reward Ratio\",\"Market Structure\",\"Higher Time Frame (HTF)\",\"Lower Time Frame (LTF)\",\"T-spot\",\"Equilibrium (EQ)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从1H到5M的分析过程，清晰说明了反转vs延续的决策逻辑，给出具体价位、风险回报数据（2R vs 3.17R），以及最终交易结果。\"}",
+  "error": null
+}

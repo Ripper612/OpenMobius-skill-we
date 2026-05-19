@@ -1,0 +1,113 @@
+{
+  "card_id": "LKNQDAdId4s_case_003_fvg回测中的wick尊重与扩展",
+  "type": "case",
+  "title": "FVG回测中的wick尊重与扩展多例分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Wick Structure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium (0.5 level)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery_csd",
+    "displacement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1H / 5M",
+  "market_context": "博主通过多个实例演示价格在回测FVG后形成的wick结构，以及在低时间框架上价格如何尊重wick的0.5位置并向相反方向扩展的现象。",
+  "key_observation": "当价格回测FVG并在前一根K线范围内收盘形成大wick时，下一个周期价格倾向于在wick的特定位置（0.5或上/下半部分）形成开盘低点，然后向相反方向扩展，显示出对wick结构的尊重。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别前一日低点被突破后回闭的K线，形成大wick结构",
+    "Step 2: 标记wick的0.5位置作为关键参考水平",
+    "Step 3: 预期下一个交易日价格在wick的上半部分形成开盘低点",
+    "Step 4: 观察价格从开盘低点向上扩展，不穿过wick 0.5位置",
+    "Step 5: 在1小时图上验证高时间框架K线的开盘、低点、高点和收盘结构",
+    "Step 6: 下钻至5分钟图确认低时间框架的扩展运动遵循相同的wick尊重模式",
+    "Step 7: 重复多个例子验证该模式的一致性（向上扩展和向下扩展的情况）"
+  ],
+  "outcome": null,
+  "lessons": "价格在回测FVG后形成的wick具有结构意义，wick的0.5位置和上下半部分是关键的参考水平。下一个周期的价格运动倾向于尊重这些wick水平，通过在特定半部分形成开盘极值后向相反方向扩展，这种模式在多个时间框架上保持一致性。",
+  "primary_image": "cards/LKNQDAdId4s/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/LKNQDAdId4s/images/case_003_detail_1.jpg",
+    "cards/LKNQDAdId4s/images/case_003_detail_2.jpg",
+    "cards/LKNQDAdId4s/images/case_003_detail_3.jpg",
+    "cards/LKNQDAdId4s/images/case_003_detail_4.jpg",
+    "cards/LKNQDAdId4s/images/case_003_detail_5.jpg",
+    "cards/LKNQDAdId4s/images/case_003_detail_6.jpg",
+    "cards/LKNQDAdId4s/images/case_003_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 K 线图，时间轴显示日期 15 至 20，底部标注 1H 时间框架。价格刻度范围约从 20080 至 20700。图上有一条水平线及一个矩形标注，均位于约 20240 至 20260 价格区域，横跨日期 15 至 17 区间。日期 15 附近出现一根大阴线，从约 20620 下行至 20380；日期 16 出现另一根大阴线，低点延伸至约 20180。日期 17 出现一根大阳线，随后紧跟一根",
+    "case_003_detail_1.jpg": "图表为日线K线图，时间轴覆盖10月初至10月30日附近，价格刻度范围约19840至20960。图右侧当前价格标签显示20321.25，并有一条水平虚线延伸至全图。图上有一个矩形标注，覆盖约10月7日至9日区间，价格范围约20240至20440。图中可见多根绿色阳线与黑色阴线交替出现，10月14日附近出现一根较大阳线，随后10月15至16日出现两根较大阴线，最新K线主体位于20320附近，下影线延伸",
+    "case_003_detail_2.jpg": "图表为日线K线图，右侧价格刻度范围约从5820至6120。图上可见约4至5根K线：左侧一根黑色K线主体位于5840至5890区间；随后出现一根大绿色K线，主体从约5840延伸至6000；之后两根绿色K线主体位于5980至6040附近，上影线延伸至约6080。右侧价格轴标注当前价6021.75，对应一条水平虚线贯穿全图。图上另有一条短水平实线标注于约6020至6030区间。垂直虚线标注当前日期为Tu",
+    "case_003_detail_3.jpg": "图表为 K 线图，价格刻度范围约从 5968.00 至 6068.00。图右侧当前价标签显示 6039.50，并有一条水平虚线贯穿全图。图上另有两条水平实线，分别位于约 6039 和 6026，向右延伸至图表边缘。Nov 11 15:00 处有一条垂直虚线标注。约 Nov 11 06:00 附近有一个小型蓝色矩形框，覆盖价格区间约 6036 至 6042。Nov 12 附近出现两根主体较长的绿色 ",
+    "case_003_detail_4.jpg": "图为 K 线图，右上角标注'The Market Lens'水印。图右侧价格刻度范围约从 5968.00 至 6068.00，当前价格标签显示 6034.50。图上有一条位于约 6040.00 的水平线及一条位于约 6008.00 的水平线。另有一条水平虚线位于约 6034 处。图左侧 Nov 10-11 区间可见多根 K 线在 6024 至 6044 范围内密集排列。Nov 12 约 12:00",
+    "case_003_detail_5.jpg": "图表右上角标注'The Market Lens'水印。图右侧价格刻度范围约从5780到5960，当前价格标签显示5931.00。图上有一个浅黄色矩形区域，纵向范围约5855至5880，横向跨越图表大部分可见区域。图上有两条水平线，分别位于约5880和5870附近。时间轴显示从前一日23:00至次日约02:45，跨越Wed 06 Nov。约01:30处有一根大阳线，实体从约5840延伸至5875，上",
+    "case_003_detail_6.jpg": "图表为 K 线图，右上角标注'The Market Lens'水印，右下角显示'CL1!'。价格刻度范围约从 66.90 到 69.70。图上有一条贯穿全图的水平虚线位于 68.86，左侧价格轴对应标签高亮显示该价位。图上另有一条垂直虚线位于 Wed 13 Nov 04:00 时间处。在该垂直线附近，图上出现一根大幅下跌 K 线（从约 68.20 跌至 66.90），随后紧跟一根大幅上涨 K 线收",
+    "case_003_detail_7.jpg": "图为烛台图，时间轴跨越11月13日至15日，价格刻度范围约66.90至69.70。图左侧价格轴标注当前价68.86（蓝色高亮）。图上有一条水平线从约Wed 13 Nov 04:00处延伸至Thu 14 Nov 09:00处，对应价格约68.86，两端各有一个圆形控制点。图底部有一条虚线水平线位于66.99处。Nov 13日04:00附近出现一根大阴线，主体从约68.30向下延伸至约66.90，紧随"
+  },
+  "sources": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        192.959,
+        372.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例进行了完整的多例分析，清晰展示了分析步骤、关键价位、时间框架转换和wick尊重的具体表现。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:33:44.899946Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"FVG回测中的wick尊重与扩展多例分析\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1H / 5M\",\"market_context\":\"博主通过多个实例演示价格在回测FVG后形成的wick结构，以及在低时间框架上价格如何尊重wick的0.5位置并向相反方向扩展的现象。\",\"key_observation\":\"当价格回测FVG并在前一根K线范围内收盘形成大wick时，下一个周期价格倾向于在wick的特定位置（0.5或上/下半部分）形成开盘低点，然后向相反方向扩展，显示出对wick结构的尊重。\",\"analysis_steps\":[\"Step 1: 在日线图上识别前一日低点被突破后回闭的K线，形成大wick结构\",\"Step 2: 标记wick的0.5位置作为关键参考水平\",\"Step 3: 预期下一个交易日价格在wick的上半部分形成开盘低点\",\"Step 4: 观察价格从开盘低点向上扩展，不穿过wick 0.5位置\",\"Step 5: 在1小时图上验证高时间框架K线的开盘、低点、高点和收盘结构\",\"Step 6: 下钻至5分钟图确认低时间框架的扩展运动遵循相同的wick尊重模式\",\"Step 7: 重复多个例子验证该模式的一致性（向上扩展和向下扩展的情况）\"],\"outcome\":null,\"lessons\":\"价格在回测FVG后形成的wick具有结构意义，wick的0.5位置和上下半部分是关键的参考水平。下一个周期的价格运动倾向于尊重这些wick水平，通过在特定半部分形成开盘极值后向相反方向扩展，这种模式在多个时间框架上保持一致性。\",\"primary_image_frame_id\":\"LKNQDAdId4s_f008\",\"supporting_image_frame_ids\":[\"LKNQDAdId4s_f007\",\"LKNQDAdId4s_f009\",\"LKNQDAdId4s_f010\",\"LKNQDAdId4s_f011\",\"LKNQDAdId4s_f012\",\"LKNQDAdId4s_f001\",\"LKNQDAdId4s_f013\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Wick Structure\",\"Order Block (OB)\",\"Change in the state of delivery (CSD)\",\"Displacement\",\"Market Structure\",\"Price Action\",\"Equilibrium (0.5 level)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例进行了完整的多例分析，清晰展示了分析步骤、关键价位、时间框架转换和wick尊重的具体表现。\"}",
+  "error": null
+}

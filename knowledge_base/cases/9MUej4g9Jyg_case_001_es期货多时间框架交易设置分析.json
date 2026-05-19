@@ -1,0 +1,133 @@
+{
+  "card_id": "9MUej4g9Jyg_case_001_es期货多时间框架交易设置分析",
+  "type": "case",
+  "title": "ES期货多时间框架Strat反转入场分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "The Strat",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "2-2 Reversal",
+      "card_id": "strat_reversal",
+      "exists": true
+    },
+    {
+      "term": "Inside Bar",
+      "card_id": "inside_bar",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "market_structure_shift_mss",
+    "order_block_ob",
+    "displacement",
+    "strat_reversal",
+    "inside_bar",
+    "optimal_trade_entry_ote",
+    "liquidity",
+    "risk_to_reward",
+    "high_low_time_frame"
+  ],
+  "school": "The Strat",
+  "asset": "ES1!",
+  "timeframe": "15M / 5M / 1M",
+  "market_context": "ES期货在15分钟图表上形成下行位移和FVG，价格从4264高点回落至4233-4238区间，结构突破后寻找多时间框架反转入场点。",
+  "key_observation": "博主展示了如何在识别到15分钟FVG和结构突破后，通过5分钟和1分钟图表寻找具体的Strat反转形态（2-2反转、2-1-2反转、内部K线）来精确入场，而非直接在高时间框架入场。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表识别下行位移和公允价值缺口（FVG），位于4240-4256区间，确认结构突破（BOS）。",
+    "Step 2: 在15分钟图表寻找Strat反转形态，识别2-2反转（两个上升K线后跟随下跌K线），作为初步短线入场信号。",
+    "Step 3: 在15分钟反转点设置止损于该K线高点（约4241.50-4244.00），目标指向初始低点或更低区域（约4214.50）。",
+    "Step 4: 切换至5分钟图表，观察HTF FVG（高时间框架FVG）和BOS水平线（约4233），等待5分钟级别的Strat反转形态。",
+    "Step 5: 在5分钟图表识别2-2反转形态，在反转K线收盘后入场做空，止损设置于该K线高点（约4241.50）。",
+    "Step 6: 切换至1分钟图表，观察mFVG（1分钟FVG，约4232-4244）和价格行为，等待更低时间框架的反转模型。",
+    "Step 7: 在1分钟图表寻找绿色K线在OTE（最优交易入场点）区域的反转信号，作为最终精确入场点。",
+    "Step 8: 设置风险回报比例（15分钟为3.38:1，5分钟为2.0:1），目标指向初始低点或FVG下方区域。"
+  ],
+  "outcome": "交易按计划执行，15分钟入场后价格下行至目标区域（约4214.50），5分钟和1分钟级别的反转入场也成功触及目标，风险回报比达到预期。",
+  "lessons": "多时间框架Strat反转入场的核心是：先在高时间框架（15M）确认大结构和FVG，再在中时间框架（5M）寻找反转形态，最后用低时间框架（1M）精确入场。避免直接在1分钟入场，因其噪音过多；5分钟是最优平衡点，提供清晰信号且假突破较少。",
+  "primary_image": "cards/9MUej4g9Jyg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/9MUej4g9Jyg/images/case_001_detail_1.jpg",
+    "cards/9MUej4g9Jyg/images/case_001_detail_2.jpg",
+    "cards/9MUej4g9Jyg/images/case_001_detail_3.jpg",
+    "cards/9MUej4g9Jyg/images/case_001_detail_4.jpg",
+    "cards/9MUej4g9Jyg/images/case_001_detail_5.jpg",
+    "cards/9MUej4g9Jyg/images/case_001_detail_6.jpg",
+    "cards/9MUej4g9Jyg/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES1! 标普500期货15分钟K线图。图上标注一个交易设置面板，包含三个区域：红色止损区（约4241.50至4244.00，标注Stop: 8.00点，金额750）、入场区（约4233.50，标注Open PBL: -1.75，Qty: 0.625，Risk/Reward Ratio: 3.38）、绿色目标区（约4214.50至4233.50，标注Target: 19.00点，金额1593.75",
+    "case_001_detail_1.jpg": "图为 S&P 500 E-Mini Futures（ES1!）15 分钟 K 线图，来自 TradingView，处于 Replay 模式。图左侧为实际 K 线，价格范围约 4195 至 4264。图右侧（垂直虚线之后）绘有手绘示意图，由折线构成两个摆动高点形态，两高点之间有一条水平红色趋势线相连，右侧高点低于左侧高点。两高点之间的低谷处标注文字\"Bos\"，附近有一个灰色矩形框，约位于 4200 ",
+    "case_001_detail_2.jpg": "图为 S&P 500 E-mini Futures（ES1!）15 分钟 K 线图。图右侧有两组带文字标注的 K 线示意图：上方标注为",
+    "case_001_detail_3.jpg": "图为 S&P 500 E-Mini Futures（ES1!）15 分钟 K 线图，平台为 TradingView，当前右侧价格轴高亮标签显示 4233.00。图上可见一个灰色矩形标注，标签为 'm15 FVG'，位于约 4240 至 4256 价格区间。图中央弹出了一个右键上下文菜单，菜单内列有多个标签选项，包括 BOS、EQH、EQL、IDM、LINE、SWEEP、BF、CH 等文字条目，其中",
+    "case_001_detail_4.jpg": "图为 S&P 500 E-Mini Futures（ES1!）15 分钟 K 线图，来自 TradingView，处于 Replay 模式。可见价格范围约 4168 至 4276。图中右侧区域有一个灰色矩形标注，标签为\"mts FVG\"，覆盖约 4240 至 4252 区间。矩形下方附近有文字标签\"BOS\"及一条水平虚线，位于约 4238 处。图右侧价格轴当前高亮价格显示为 4235.27。K 线",
+    "case_001_detail_5.jpg": "图为 S&P 500 E-Mini Futures（ES1!）15 分钟 K 线图，可见价格范围约 4168 至 4276。图右侧标注一个粉红色矩形区域，纵向跨度约 4213.50 至 4253.50，内含三条带文字标签的水平线：上方标注止损位 4253.50（Stop: 8.00, Amount: 750），中部标注 Closed PRL 4245.50（Risk/Reward Ratio: 2",
+    "case_001_detail_6.jpg": "ES1! 标普500迷你期货5分钟K线图，可见价格范围约4195至4267.50。图上标注一条带'Bos'文字的水平线位于约4233处，以及'HTF FVG'文字标注位于约4251附近。图右侧叠加交易面板，显示三个区域：红色止损区标注'Stop: 4.50 (0.11%) 18, Amount: 750'约4241.50，绿色入场区标注'Open P&L: -1.75, Qty: 1,111 Ri",
+    "case_001_detail_7.jpg": "图为 S&P 500 E-mini Futures（ES1!）1 分钟 K 线图，时间轴覆盖约 10:30 至 15:15。图上有一个灰色矩形标注区域，横跨约 11:00 至 13:30，价格范围约 4232 至 4244，右侧标注文字为 mFVG。图右侧价格轴显示当前价格标签 4237.25（绿色高亮）及另一标签 4233.00（蓝色高亮）。图左侧有一条蓝色水平线位于约 4233 处。K 线从图"
+  },
+  "sources": [
+    {
+      "video_id": "9MUej4g9Jyg",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.44,
+        288.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程、具体价位、入场形态、止损和目标设置，交易结果明确，步骤清晰可复现。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:33.298212Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货多时间框架Strat反转入场分析\",\"school\":\"The Strat\",\"asset\":\"ES1!\",\"timeframe\":\"15M / 5M / 1M\",\"market_context\":\"ES期货在15分钟图表上形成下行位移和FVG，价格从4264高点回落至4233-4238区间，结构突破后寻找多时间框架反转入场点。\",\"key_observation\":\"博主展示了如何在识别到15分钟FVG和结构突破后，通过5分钟和1分钟图表寻找具体的Strat反转形态（2-2反转、2-1-2反转、内部K线）来精确入场，而非直接在高时间框架入场。\",\"analysis_steps\":[\"Step 1: 在15分钟图表识别下行位移和公允价值缺口（FVG），位于4240-4256区间，确认结构突破（BOS）。\",\"Step 2: 在15分钟图表寻找Strat反转形态，识别2-2反转（两个上升K线后跟随下跌K线），作为初步短线入场信号。\",\"Step 3: 在15分钟反转点设置止损于该K线高点（约4241.50-4244.00），目标指向初始低点或更低区域（约4214.50）。\",\"Step 4: 切换至5分钟图表，观察HTF FVG（高时间框架FVG）和BOS水平线（约4233），等待5分钟级别的Strat反转形态。\",\"Step 5: 在5分钟图表识别2-2反转形态，在反转K线收盘后入场做空，止损设置于该K线高点（约4241.50）。\",\"Step 6: 切换至1分钟图表，观察mFVG（1分钟FVG，约4232-4244）和价格行为，等待更低时间框架的反转模型。\",\"Step 7: 在1分钟图表寻找绿色K线在OTE（最优交易入场点）区域的反转信号，作为最终精确入场点。\",\"Step 8: 设置风险回报比例（15分钟为3.38:1，5分钟为2.0:1），目标指向初始低点或FVG下方区域。\"],\"outcome\":\"交易按计划执行，15分钟入场后价格下行至目标区域（约4214.50），5分钟和1分钟级别的反转入场也成功触及目标，风险回报比达到预期。\",\"lessons\":\"多时间框架Strat反转入场的核心是：先在高时间框架（15M）确认大结构和FVG，再在中时间框架（5M）寻找反转形态，最后用低时间框架（1M）精确入场。避免直接在1分钟入场，因其噪音过多；5分钟是最优平衡点，提供清晰信号且假突破较少。\",\"primary_image_frame_id\":\"9MUej4g9Jyg_f001\",\"supporting_image_frame_ids\":[\"9MUej4g9Jyg_f002\",\"9MUej4g9Jyg_f003\",\"9MUej4g9Jyg_f004\",\"9MUej4g9Jyg_f005\",\"9MUej4g9Jyg_f006\",\"9MUej4g9Jyg_f007\",\"9MUej4g9Jyg_f008\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Market Structure Shift (MSS)\",\"Order Block (OB)\",\"Displacement\",\"The Strat\",\"2-2 Reversal\",\"2-1-2 Reversal\",\"Inside Bar\",\"Optimal Trade Entry (OTE)\",\"Liquidity\",\"Risk/Reward Ratio\",\"HTF / LTF\"],\"extraction_confidence\"",
+  "error": null
+}

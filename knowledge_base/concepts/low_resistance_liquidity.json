@@ -1,0 +1,475 @@
+{
+  "card_id": "low_resistance_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Low Resistance Liquidity",
+  "aliases": [
+    "LRLR",
+    "低阻力摆动点",
+    "低阻力流动性",
+    "失败摆动流动性",
+    "失败摇摆",
+    "失败摇摆 (Failure Swing)",
+    "失败摇摆流动性",
+    "失败摇摆高低点",
+    "未扫除流动性",
+    "未被扫除的失败摇摆",
+    "未被扫除的摆动点",
+    "未被扫除的摆动高低点",
+    "未被扫除的流动性",
+    "清晰摆动点",
+    "清晰的摆动点",
+    "清晰的摆动高低点",
+    "清晰的流动性目标"
+  ],
+  "school": "ICT",
+  "definition": "未被扫除的摆动高/低点（失败摇摆），因缺乏订单簇聚集，价格倾向于轻松穿过这些区域而不产生显著阻力或反转。通常由相邻交易日高点低于前日高点、或低点高于前日低点形成，多个连续失败摇摆可堆积为低阻力流动性区域。一旦被扫除，该流动性消失。",
+  "identification_rules": [
+    "识别失败摇摆：相邻交易日当日高点低于前一日高点，或当日低点高于前一日低点，形成未被突破的摆动点。",
+    "确认该摆动高/低点在当前交易周期内未被后续价格扫除或充分触及。",
+    "观察多个连续失败摇摆的堆积：多个相邻周期的高点或低点排列在相近价格水平，形成低阻力流动性区域。",
+    "对比已被扫除的摆动点（高阻力流动性）：若摆动点已被价格突破，则不再构成低阻力流动性。",
+    "观察价格穿过该区域时是否缺乏明显阻力、反弹或停顿，K线体不在该水平停留，表现为积极穿透。",
+    "确认穿过该点后价格继续按原方向运行，而非反转或形成新的市场结构。",
+    "可跨时间框架识别：在高时间框架（HTF）标记失败摇摆，在低时间框架（LTF）验证穿透特征。",
+    "该区域周围缺乏明显的订单块或密集K线聚集，与订单块等关键结构形成对比。"
+  ],
+  "trading_implication": "低阻力流动性是价格运动的主要目标区域，而非入场点或关键支撑阻力位。交易者在HTF识别未被扫除的失败摇摆后，在LTF寻找入场机会（如FVG、MSS），以低阻力流动性作为获利目标。确认市场结构转变（MSS）或交付状态改变（CSD）后，价格倾向于快速穿过这些区域形成延续走势。一旦流动性被扫除，该区域失去吸引力，应转向其他目标。多指数对比时，优先选择具有低阻力流动性的资产以获得更清晰走势。",
+  "common_mistakes": [
+    "将低阻力流动性与高阻力流动性混淆：低阻力流动性是未被扫除的失败摇摆，高阻力流动性是已被扫除的摆动点，两者突破难度不同。",
+    "忽视流动性是否已被扫除，仍将已清空的摆动点作为交易目标，导致风险回报比下降。",
+    "将低阻力流动性误认为强支撑或阻力，在此设置止损或期望反转，实际上价格会轻松穿过。",
+    "未能准确识别失败摇摆的形成条件：必须是相邻交易日的对比，且摆动点两侧各有更高/更低的点确认。",
+    "将低阻力流动性误认为交易入场点，而非趋势延续的目标或确认信号。",
+    "将低阻力流动性与订单块混淆：低阻力流动性缺乏订单聚集，订单块是明确的支撑/阻力区，两者用途不同。",
+    "仅在单一时间框架识别，忽视多时间框架确认：应在HTF识别摆动点，在LTF验证穿透特征。",
+    "在反转或市场结构转变未确认前，提前假设低阻力流动性会被穿过，导致过早入场。",
+    "将任何历史摆动点都视为低阻力流动性，忽视该流动性必须是未被扫除的这一前提条件。",
+    "未结合经济日历、会话时间（伦敦/纽约）及市场结构转变判断，盲目假设价格会穿过低阻力流动性。"
+  ],
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "New York Reversal",
+      "card_id": "new_york_reversal",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0R61Y6Pn74Q_case_001_cpi后黄金反转交易案例",
+      "video_id": "0R61Y6Pn74Q",
+      "title": "CPI后黄金日线订单块与5分钟FVG叠加做空案例"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_003_标普500_1分钟图表的高点突破交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "标普500 1分钟图表的高点突破与OTE回测交易"
+    },
+    {
+      "card_id": "2lIaRUtJqpU_case_001_纳斯达克期货15分钟看跌交易",
+      "video_id": "2lIaRUtJqpU",
+      "title": "纳斯达克期货15分钟看跌交易：低阻力流动性目标验证"
+    },
+    {
+      "card_id": "2lIaRUtJqpU_case_002_英镑美元日线连续失败摇摆分析",
+      "video_id": "2lIaRUtJqpU",
+      "title": "英镑美元日线连续失败摇摆与低阻力流动性分析"
+    },
+    {
+      "card_id": "2lIaRUtJqpU_case_003_纳斯达克期货5分钟和1分钟多时间框架交易",
+      "video_id": "2lIaRUtJqpU",
+      "title": "纳斯达克期货5分钟和1分钟多时间框架交易"
+    },
+    {
+      "card_id": "4Gm8p6O7Ebs_case_006_原油日线扩张与盘整周期",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "原油日线扩张-盘整-再扩张的循环分析"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_003_欧元美元日线看涨设置",
+      "video_id": "5fnFOh5YuM0",
+      "title": "欧元美元日线看涨设置：低阻力流动性与摆动结构确认"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_007_gbp_usd_1分钟图的订单块和fvg低风险入场",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD 1分钟图订单块与FVG重叠的低风险买入"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_002_nq_1分钟空头入场案例_小时fvg目标",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟空头入场案例（小时FVG目标）"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_001_es1期货5分钟图的高低阻力流动性应用",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1期货5分钟图中的高低阻力流动性识别与应用"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_002_nq日线多日低点未扫除的流动性分析",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线多日低点未扫除的低阻力流动性分析"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_003_nq日线范围交易中的高低阻力识别",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线范围交易中的高低阻力识别"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_004_nq日线上升趋势中的流动性扫除与反应",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线上升趋势中的流动性扫除与失败摆动分析"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_005_nq与es的smt分歧及低阻力流动性追踪",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ高阻力流动性与ES低阻力低点序列的SMT分歧交易"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_006_es1期货60分钟图的订单块与流动性链条",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 60分钟图：低阻力流动性扫荡与订单块反向运行"
+    },
+    {
+      "card_id": "Ovotm9l99QQ_case_001_es日线看空交易分析_2023年1月18日",
+      "video_id": "Ovotm9l99QQ",
+      "title": "ES日线看空交易分析：多时间框架SMT与PD array级联填补"
+    },
+    {
+      "card_id": "hKCMqh0ZsY0_case_003_audcad周线交易案例",
+      "video_id": "hKCMqh0ZsY0",
+      "title": "AUDCAD周线交易案例：CPI后的订单块与公允价值缺口确认"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_001_nq期货多时间框架入场精细化案例",
+      "video_id": "ivirRu3fc4o",
+      "title": "NQ期货多时间框架嵌套FVG精细化入场"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_003_usd日线盘整突破案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GLL日线盘整突破后流动性枯竭案例"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_004_gll货币对范围交易案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GLL范围交易：低点突破后的CSD与流动性缺失分析"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_003_nq日线低阻力流动性扫盘案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "NQ日线低阻力流动性扫盘与小时图MSS+FVG入场"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_004_5分钟图激进位移入场案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "ETH 1小时图：830高点扫除后的激进位移入场"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_004_es_2分钟图的低时间框架交易",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES 2分钟图基于15分钟SMT信号的低时间框架做空交易"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_006_usd_cad_15分钟v形反转与smt确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD/CAD 15分钟V形反转与SMT确认的高质量设置"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_002_虚假伦敦反转与真实纽约反转",
+      "video_id": "xdzyejskSKE",
+      "title": "虚假伦敦反转与真实纽约反转的区分"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_004_外部流动性扫除与范围反转",
+      "video_id": "xdzyejskSKE",
+      "title": "轻质原油外部流动性扫除与范围反转交易"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_003_轻质原油期货低阻力流动性案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油低阻力流动性伦敦反转纽约延续案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0R61Y6Pn74Q",
+      "original_card_id": "0R61Y6Pn74Q_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.519,
+        121.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "2lIaRUtJqpU",
+      "original_card_id": "2lIaRUtJqpU_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        496.819
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "4Gm8p6O7Ebs",
+      "original_card_id": "4Gm8p6O7Ebs_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_018"
+      ],
+      "time_range": [
+        910.56,
+        941.279
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "5fnFOh5YuM0",
+      "original_card_id": "5fnFOh5YuM0_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        548.56,
+        726.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        184.56,
+        295.58
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FGkb_50BfT8",
+      "original_card_id": "FGkb_50BfT8_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.719,
+        549.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Ovotm9l99QQ",
+      "original_card_id": "Ovotm9l99QQ_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.859,
+        187.5
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "original_card_id": "hKCMqh0ZsY0_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.079,
+        728.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_014"
+      ],
+      "time_range": [
+        673.839,
+        703.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "mwmWNCTEYtY",
+      "original_card_id": "mwmWNCTEYtY_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.479,
+        550.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "q1NmxUTm4n4",
+      "original_card_id": "q1NmxUTm4n4_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        396.86,
+        511.46
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "original_card_id": "vn1RYjhJUnQ_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        546.32,
+        594.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xdzyejskSKE",
+      "original_card_id": "xdzyejskSKE_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.599,
+        726.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "y6SnEdASVLY",
+      "original_card_id": "y6SnEdASVLY_concept_low_resistance_liquidity",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        346.24,
+        524.48
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 14,
+    "source_videos": 14,
+    "high_confidence_sources": 12,
+    "medium_confidence_sources": 2,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:26.944909Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "14张原始卡均标注school为ICT，无冲突。部分卡（q1NmxUTm4n4、y6SnEdASVLY）extraction_confidence为medium，其内容与高置信度卡一致，已纳入合并。",
+  "error": null
+}

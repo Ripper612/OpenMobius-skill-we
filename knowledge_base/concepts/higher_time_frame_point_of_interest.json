@@ -1,0 +1,61 @@
+{
+  "card_id": "higher_time_frame_point_of_interest",
+  "type": "merged_concept",
+  "canonical_term": "Higher Time Frame Point of Interest",
+  "aliases": [
+    "HTF POI",
+    "高时间框架兴趣点"
+  ],
+  "school": "ICT",
+  "definition": "在高时间框架上识别的潜在交易区域，包括摆动高低点、公允价值缺口、订单块等价格数组元素，用于指导低时间框架的入场决策。",
+  "identification_rules": [
+    "在高时间框架（如1小时、15分钟）上识别关键的摆动高点或低点",
+    "在高时间框架上识别未被填补的公允价值缺口（FVG）",
+    "在高时间框架上识别订单块（OB）或其他价格数组（PD array）元素",
+    "确认该区域在低时间框架上未被突破或未形成有效的位移（Displacement）",
+    "等待低时间框架出现激进的突破该区域后又回归到该区域的形态"
+  ],
+  "trading_implication": "高时间框架兴趣点作为交易的参考锚点，交易者在低时间框架上寻找激进的突破与回归形态（如锤子线或射击之星）来确认入场。当价格激进地穿过HTF POI后又回到该区域，通常会形成BPR或Box设置，或在折价/溢价区形成OTE入场机会。这允许交易者在市场结构转变前提前入场。",
+  "common_mistakes": [
+    "在高时间框架上未能正确识别真正的兴趣点，导致选择错误的参考区域",
+    "忽视低时间框架上的激进突破与回归形态，过早或过晚入场",
+    "未确认价格在高时间框架上是否真正失败突破（未形成位移），导致错误的交易方向判断"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "yq4Z7q4E6nU_case_001_标普500期货从3876下跌至3818的bpr交易案例",
+      "video_id": "yq4Z7q4E6nU",
+      "title": "ES期货3876-3818下跌中的BPR交易设置"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_higher_time_frame_point_of_interest",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        188.22
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133234Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

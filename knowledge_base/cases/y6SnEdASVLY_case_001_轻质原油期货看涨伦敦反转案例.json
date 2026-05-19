@@ -1,0 +1,102 @@
+{
+  "card_id": "y6SnEdASVLY_case_001_轻质原油期货看涨伦敦反转案例",
+  "type": "case",
+  "title": "轻质原油期货伦敦反转看涨交易案例",
+  "related_concepts": [
+    {
+      "term": "London Reversal",
+      "card_id": "london_reversal",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Accumulation Manipulation Distribution",
+      "card_id": "accumulation_manipulation_distribution_accumula",
+      "exists": true
+    },
+    {
+      "term": "Kill Zone",
+      "card_id": "killzone",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "london_reversal",
+    "order_block",
+    "propulsion_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "accumulation_manipulation_distribution_accumula",
+    "killzone"
+  ],
+  "school": "ICT",
+  "asset": "CL1! (Light Crude Oil Futures)",
+  "timeframe": "15M / 5M",
+  "market_context": "轻质原油在伦敦时段（2:00-5:00）形成看涨反转，伦敦下跌创造日线下影线，随后纽约时段继续上升，完成日线开低收高的形态。",
+  "key_observation": "伦敦时段价格下跌至约72.30创造日线下影线，随后在纽约时段形成一系列向下收盘的K线（Order Block），价格最终突破并达到2R目标。",
+  "analysis_steps": [
+    "Step 1: 识别伦敦时段（2:00-5:00）的反转信号——价格下跌创造日线下影线，形成看涨反转形态。",
+    "Step 2: 在15分钟图上标记伦敦反转的关键价位（约72.30）和日线公允价值缺口（FVG）。",
+    "Step 3: 下钻至5分钟图，观察纽约时段开盘（8:30）的整理区间和积累-操纵-派发（AMD）模式。",
+    "Step 4: 识别纽约时段的一系列向下收盘K线形成的订单块（Order Block），作为潜在入场区域。",
+    "Step 5: 在订单块被回测后，识别形成的推进块（Propulsion Block），用于确认市场结构转变（CSD）。",
+    "Step 6: 设置止损于伦敦反转低点，目标设定为2R，追踪价格突破并达到目标。"
+  ],
+  "outcome": "价格成功突破订单块，在纽约时段继续上升，最终达到2R目标，完成日线开低收高的完整形态。",
+  "lessons": "伦敦反转结合纽约时段的订单块和推进块形成高概率交易设置。关键是识别伦敦时段的市场结构转变，并在纽约时段寻找订单块的回测点进行入场，同时利用日线FVG作为目标参考。",
+  "primary_image": "cards/y6SnEdASVLY/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/y6SnEdASVLY/images/case_001_detail_1.jpg",
+    "cards/y6SnEdASVLY/images/case_001_detail_2.jpg",
+    "cards/y6SnEdASVLY/images/case_001_detail_3.jpg",
+    "cards/y6SnEdASVLY/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "Light Crude Oil Futures 15分钟K线图。图上显示从左下至右上的上升趋势，价格范围从71.20至74.60。图中有两条水平线分别位于72.30和72.60。中间区域有浅绿色矩形框标注，框内标记文字'BTC'、'8:32'和'0:00'。右侧出现一根大型绿色K线，高度跨越74.00至74.60。下方标注日期'8/2/2024'和'CLV1 15H'。整体K线序列包含绿色和黑色蜡",
+    "case_001_detail_1.jpg": "图上展示标题为'Bullish London Reversal'的教学示例。左侧为一系列混合绿色和黑色K线，标注有'London'和'New York'两个时段标签，中间区域标记'CISD'文字。图下方有一条水平线标注为'HTF Key Level'。右侧为一根大型绿色K线，具有较长的上影线，标注为'Bullish Example'。整体展示了伦敦反转形态的结构特征，但未提供具体资产代码、时间框架",
+    "case_001_detail_2.jpg": "轻质原油期货 15 分钟 K 线图，时间范围从 09:00 至 15:00。图上显示约 30 根 K 线，价格整体范围在 71.60 至 74.10 之间。图中有两条水平虚线分别位于 72.30 和 73.20 价格水平。K 线序列中绿色蜡烛占多数，特别是在图表右侧区域。图上放置有一个黄色十字光标标记，位置约在 72.50 至 72.60 价格区间。除上述水平线和光标外，未见其他标注或技术指标。",
+    "case_001_detail_3.jpg": "轻质原油期货 5 分钟 K 线图。图表显示从左侧 71.80 附近开始的上升趋势，跨越约 20 根 K 线至 72.65 附近。图上有两条水平线分别位于 72.48 和 72.80。最近的 K 线在 72.40 至 72.65 区间内形成整理。图中央有一个黄色十字标记位于约 72.50 处。K 线以绿色为主（上升），间有黑色 K 线（下跌）。右侧标注显示时间为 8:31 - 5m，日期为 8/2/",
+    "case_001_detail_4.jpg": "轻质原油期货 5 分钟 K 线图。图上显示从左侧约 71.00 上升至右侧约 74.30 的上升趋势，跨越约 20 根 K 线。中部区域存在 72.00 至 73.50 之间的盘整形态。图上绘制两个矩形区域标注：上方矩形覆盖 72.00 至 74.30 价格范围（浅绿色背景），下方矩形覆盖 71.50 至 72.80 价格范围（灰色背景）。72.80 处有一条水平虚线。右侧最新 K 线显示上影线延"
+  },
+  "sources": [
+    {
+      "video_id": "y6SnEdASVLY",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.24,
+        346.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了伦敦反转的定义、实际图表应用、多时间框架分析步骤、订单块识别和2R目标达成的全过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:37.296969Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"轻质原油期货伦敦反转看涨交易案例\",\"school\":\"ICT\",\"asset\":\"CL1! (Light Crude Oil Futures)\",\"timeframe\":\"15M / 5M\",\"market_context\":\"轻质原油在伦敦时段（2:00-5:00）形成看涨反转，伦敦下跌创造日线下影线，随后纽约时段继续上升，完成日线开低收高的形态。\",\"key_observation\":\"伦敦时段价格下跌至约72.30创造日线下影线，随后在纽约时段形成一系列向下收盘的K线（Order Block），价格最终突破并达到2R目标。\",\"analysis_steps\":[\"Step 1: 识别伦敦时段（2:00-5:00）的反转信号——价格下跌创造日线下影线，形成看涨反转形态。\",\"Step 2: 在15分钟图上标记伦敦反转的关键价位（约72.30）和日线公允价值缺口（FVG）。\",\"Step 3: 下钻至5分钟图，观察纽约时段开盘（8:30）的整理区间和积累-操纵-派发（AMD）模式。\",\"Step 4: 识别纽约时段的一系列向下收盘K线形成的订单块（Order Block），作为潜在入场区域。\",\"Step 5: 在订单块被回测后，识别形成的推进块（Propulsion Block），用于确认市场结构转变（CSD）。\",\"Step 6: 设置止损于伦敦反转低点，目标设定为2R，追踪价格突破并达到目标。\"],\"outcome\":\"价格成功突破订单块，在纽约时段继续上升，最终达到2R目标，完成日线开低收高的完整形态。\",\"lessons\":\"伦敦反转结合纽约时段的订单块和推进块形成高概率交易设置。关键是识别伦敦时段的市场结构转变，并在纽约时段寻找订单块的回测点进行入场，同时利用日线FVG作为目标参考。\",\"primary_image_frame_id\":\"y6SnEdASVLY_f010\",\"supporting_image_frame_ids\":[\"y6SnEdASVLY_f004\",\"y6SnEdASVLY_f006\",\"y6SnEdASVLY_f008\",\"y6SnEdASVLY_f009\"],\"related_concepts\":[\"London Reversal\",\"Order Block\",\"Propulsion Block\",\"Fair Value Gap\",\"Market Structure Shift\",\"Change in State of Delivery\",\"Accumulation Manipulation Distribution\",\"Kill Zone\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了伦敦反转的定义、实际图表应用、多时间框架分析步骤、订单块识别和2R目标达成的全过程。\"}",
+  "error": null
+}

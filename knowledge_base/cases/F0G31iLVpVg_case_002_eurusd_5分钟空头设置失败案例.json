@@ -1,0 +1,101 @@
+{
+  "card_id": "F0G31iLVpVg_case_002_eurusd_5分钟空头设置失败案例",
+  "type": "case",
+  "title": "EURUSD 5分钟空头设置失败案例",
+  "related_concepts": [
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "failure_swing",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "liquidity",
+    "displacement",
+    "protected_high_low",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "5m",
+  "market_context": "EURUSD 5分钟图显示价格在1.17100-1.17320区间内波动。博主通过小时线观察到多个失败摆动高点（failure swings），预期在5分钟图上形成空头设置。",
+  "key_observation": "博主识别出多个失败摆动高点，预期价格会扫除这些高点后形成空头设置。然而价格未能扫除这些高点，反而形成盘整，导致预期的空头设置未能成立。",
+  "analysis_steps": [
+    "Step 1: 观察小时线图表，识别出多个排列整齐的小时线低点，标记为失败摆动（failure swings）。",
+    "Step 2: 在EURUSD 5分钟图上，使用指标标记预期的wick high区域（灰色矩形框），作为潜在空头入场区域。",
+    "Step 3: 验证是否会扫除这些失败摆动高点——这是形成有效空头设置的必要条件。",
+    "Step 4: 观察价格走势，发现价格未能扫除失败摆动高点，反而形成盘整（consolidation）。",
+    "Step 5: 分析价格未能回测到公允价值缺口（FVG），而是直接扩张离开，表现出激进的扩张行为。",
+    "Step 6: 得出结论：由于缺少必要的扫除和回测条件，空头设置不成立，不应进场。"
+  ],
+  "outcome": "空头设置失败。价格未能扫除失败摆动高点，也未能形成浅层回测到FVG的条件，反而形成盘整并向上扩张。博主因此不进场做空。",
+  "lessons": "激进的价格扩张通常伴随浅层回测或完全没有回测。有效的交易设置需要满足特定条件（如扫除流动性、回测关键区域），条件不满足时应放弃设置，避免追逐不完整的形态。",
+  "primary_image": "cards/F0G31iLVpVg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/F0G31iLVpVg/images/case_002_detail_1.jpg",
+    "cards/F0G31iLVpVg/images/case_002_detail_2.jpg",
+    "cards/F0G31iLVpVg/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "EURUSD 5 分钟 K 线图，日期标注为 Fri 27 Jun '25，可见价格范围约 1.17060 至 1.17360。图上有两个矩形框标注区域，一个覆盖约 1.17110 至 1.17300 区间，另一个较小矩形位于约 1.17150 至 1.17260 区间。图右侧另有一个矩形框覆盖约 1.17150 至 1.17300 区间。图上有文字标注 'c2' 位于约 1.17320 处对应 ",
+    "case_002_detail_1.jpg": "EURUSD 5 分钟 K 线图，可见价格范围约从 1.16980 到 1.17480。图上有多条水平线分布于 1.17430、1.17240、1.17220、1.17200、1.17140 附近。图中约 11:00 至 12:00 区间存在一个浅色矩形标注框，覆盖 1.17180 至 1.17240 区域。图上有一条蓝色水平线位于约 1.17220。约 10:45 处有一根带长下影线的 K 线，",
+    "case_002_detail_2.jpg": "EUR/USD 5 分钟 K 线图，可见价格范围约从 1.17020 到 1.17320。图上标注有文字标签\"c2\"位于约 1.17320 附近顶部区域，以及水印文字\"The Market Lens / TTrades_edu\"。图上可见多条水平线及虚线，分别位于约 1.17060、1.17175、1.17220、1.17245、1.17300 处。约 12:00 至 13:00 时段附近有一个灰",
+    "case_002_detail_3.jpg": "EURUSD 5 分钟 K 线图，日期标注为 Fri 27 Jun '25，可见价格范围约 1.16980 至 1.17280。图上有一条带价格标签的水平虚线位于 1.17113，另有两条水平虚线分别位于约 1.17060 和 1.17320。图上标注有两个矩形框：一个灰色矩形位于约 1.17220 至 1.17250 区间，另一个黄色矩形位于约 1.17130 至 1.17150 区间。13:0"
+  },
+  "sources": [
+    {
+      "video_id": "F0G31iLVpVg",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        276.96,
+        396.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析过程：识别失败摆动→标记预期空头区域→验证扫除条件→观察价格未满足条件→得出不进场结论。资产、时间框架、关键价位均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:52.381972Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 5分钟空头设置失败案例\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"5m\",\"market_context\":\"EURUSD 5分钟图显示价格在1.17100-1.17320区间内波动。博主通过小时线观察到多个失败摆动高点（failure swings），预期在5分钟图上形成空头设置。\",\"key_observation\":\"博主识别出多个失败摆动高点，预期价格会扫除这些高点后形成空头设置。然而价格未能扫除这些高点，反而形成盘整，导致预期的空头设置未能成立。\",\"analysis_steps\":[\"Step 1: 观察小时线图表，识别出多个排列整齐的小时线低点，标记为失败摆动（failure swings）。\",\"Step 2: 在EURUSD 5分钟图上，使用指标标记预期的wick high区域（灰色矩形框），作为潜在空头入场区域。\",\"Step 3: 验证是否会扫除这些失败摆动高点——这是形成有效空头设置的必要条件。\",\"Step 4: 观察价格走势，发现价格未能扫除失败摆动高点，反而形成盘整（consolidation）。\",\"Step 5: 分析价格未能回测到公允价值缺口（FVG），而是直接扩张离开，表现出激进的扩张行为。\",\"Step 6: 得出结论：由于缺少必要的扫除和回测条件，空头设置不成立，不应进场。\"],\"outcome\":\"空头设置失败。价格未能扫除失败摆动高点，也未能形成浅层回测到FVG的条件，反而形成盘整并向上扩张。博主因此不进场做空。\",\"lessons\":\"激进的价格扩张通常伴随浅层回测或完全没有回测。有效的交易设置需要满足特定条件（如扫除流动性、回测关键区域），条件不满足时应放弃设置，避免追逐不完整的形态。\",\"primary_image_frame_id\":\"F0G31iLVpVg_f012\",\"supporting_image_frame_ids\":[\"F0G31iLVpVg_f011\",\"F0G31iLVpVg_f013\",\"F0G31iLVpVg_f014\"],\"related_concepts\":[\"Failure Swing\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Liquidity\",\"Displacement\",\"Protected Swing\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析过程：识别失败摆动→标记预期空头区域→验证扫除条件→观察价格未满足条件→得出不进场结论。资产、时间框架、关键价位均清晰可读。\"}",
+  "error": null
+}

@@ -1,0 +1,89 @@
+{
+  "card_id": "0OjlQ91TZiU_case_001_固定合约数导致风险不一致的案例",
+  "type": "case",
+  "title": "固定合约数导致风险不一致的案例",
+  "related_concepts": [
+    {
+      "term": "Position Sizing",
+      "card_id": "position_sizing",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fixed Contract Size",
+      "card_id": "fixed_contract_size",
+      "exists": true
+    },
+    {
+      "term": "Fixed Dollar Risk",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    },
+    {
+      "term": "Win Rate",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Consistency",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "position_sizing",
+    "fixed_contract_size",
+    "risk_to_reward_management"
+  ],
+  "school": "Risk Management",
+  "asset": "NQ",
+  "timeframe": null,
+  "market_context": "博主通过假设交易场景演示固定合约数策略的风险问题，使用2份NQ合约在三个不同止损点位（20点、40点、10点）进行交易。",
+  "key_observation": "使用固定合约数（2份NQ）会导致风险金额不一致（$800、$1600、$400），破坏了风险回报比与胜率的数学关系，最终导致虽然最后一笔4R获利交易应该盈利，但实际因风险不一致反而亏损。",
+  "analysis_steps": [
+    "Step 1: 建立基准——展示风险回报比与胜率的对应关系表，说明该表仅在每笔交易风险一致时有效。",
+    "Step 2: 演示一致风险下的正确情况——用1:2风险回报比、50%胜率、固定$1000风险的例子，证明亏损$1000后赢得$2000最终盈利$1000。",
+    "Step 3: 演示不一致风险的问题——用相同1:2系统但第一笔风险$2000、第二笔风险$1000的例子，说明虽然赢得2R但实际只能打平。",
+    "Step 4: 引入固定合约数策略——使用2份NQ合约，在20点止损、40点止损、10点止损三个场景下分别计算风险金额。",
+    "Step 5: 量化风险不一致——20点止损=$800、40点止损=$1600、10点止损=$400，展示风险分散不均。",
+    "Step 6: 演示最终亏损结果——前两笔各亏损$800和$1600（共-$2400），第三笔虽然是4R获利应得$1600，但因风险仅$400，实际只赚$1600，最终账户-$800。"
+  ],
+  "outcome": "虽然最后一笔交易是4R获利，但由于前期风险不一致，最终账户反而亏损$800，而不是应有的盈利。",
+  "lessons": "固定合约数策略会导致风险金额随止损点位变化而波动，破坏风险回报比与胜率的数学关系。应采用固定美元风险或固定百分比风险，确保每笔交易风险一致，才能让胜率与风险回报比的对应关系真正有效。",
+  "primary_image": null,
+  "supporting_images": [],
+  "image_descriptions": {},
+  "sources": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.44,
+        190.799
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了固定合约数的三个具体场景、精确的风险金额数字、交易结果计算，以及最终亏损的原因，分析逻辑清晰完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "no_primary_image",
+    "missing_timeframe"
+  ],
+  "extracted_at": "2026-05-13T15:06:55.128381Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"固定合约数导致风险不一致的案例\",\"school\":\"Risk Management\",\"asset\":\"NQ\",\"timeframe\":null,\"market_context\":\"博主通过假设交易场景演示固定合约数策略的风险问题，使用2份NQ合约在三个不同止损点位（20点、40点、10点）进行交易。\",\"key_observation\":\"使用固定合约数（2份NQ）会导致风险金额不一致（$800、$1600、$400），破坏了风险回报比与胜率的数学关系，最终导致虽然最后一笔4R获利交易应该盈利，但实际因风险不一致反而亏损。\",\"analysis_steps\":[\"Step 1: 建立基准——展示风险回报比与胜率的对应关系表，说明该表仅在每笔交易风险一致时有效。\",\"Step 2: 演示一致风险下的正确情况——用1:2风险回报比、50%胜率、固定$1000风险的例子，证明亏损$1000后赢得$2000最终盈利$1000。\",\"Step 3: 演示不一致风险的问题——用相同1:2系统但第一笔风险$2000、第二笔风险$1000的例子，说明虽然赢得2R但实际只能打平。\",\"Step 4: 引入固定合约数策略——使用2份NQ合约，在20点止损、40点止损、10点止损三个场景下分别计算风险金额。\",\"Step 5: 量化风险不一致——20点止损=$800、40点止损=$1600、10点止损=$400，展示风险分散不均。\",\"Step 6: 演示最终亏损结果——前两笔各亏损$800和$1600（共-$2400），第三笔虽然是4R获利应得$1600，但因风险仅$400，实际只赚$1600，最终账户-$800。\"],\"outcome\":\"虽然最后一笔交易是4R获利，但由于前期风险不一致，最终账户反而亏损$800，而不是应有的盈利。\",\"lessons\":\"固定合约数策略会导致风险金额随止损点位变化而波动，破坏风险回报比与胜率的数学关系。应采用固定美元风险或固定百分比风险，确保每笔交易风险一致，才能让胜率与风险回报比的对应关系真正有效。\",\"primary_image_frame_id\":null,\"supporting_image_frame_ids\":[],\"related_concepts\":[\"Position Sizing\",\"Risk Management\",\"Fixed Contract Size\",\"Fixed Dollar Risk\",\"Risk to Reward Ratio\",\"Win Rate\",\"Consistency\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了固定合约数的三个具体场景、精确的风险金额数字、交易结果计算，以及最终亏损的原因，分析逻辑清晰完整。\"}",
+  "error": null
+}

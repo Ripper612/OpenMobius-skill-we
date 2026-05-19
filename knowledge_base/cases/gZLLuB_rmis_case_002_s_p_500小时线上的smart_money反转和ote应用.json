@@ -1,0 +1,105 @@
+{
+  "card_id": "gZLLuB_rmis_case_002_s_p_500小时线上的smart_money反转和ote应用",
+  "type": "case",
+  "title": "ES小时线Smart Money反转后的OTE最优入场应用",
+  "related_concepts": [
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "optimal_trade_entry_ote",
+    "smart_money_technique_smt",
+    "displacement",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "fibonacci_retracement",
+    "market_structure_shift_mss",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1H",
+  "market_context": "S&P 500 E-mini期货在小时线上形成Smart Money反转，随后出现强势Displacement腿向上突破结构，价格从约3920-3960区域的Order Block上升至4125附近。",
+  "key_observation": "在Smart Money反转后的Displacement上升腿中，价格回撤至0.62斐波那契水平（约4092-4100区域），该区域与FVG和OTE重合，形成高概率的低时间框架入场点。",
+  "analysis_steps": [
+    "Step 1: 识别小时线上的Smart Money反转点，观察价格从低点3920-3960区域的Order Block开始反转。",
+    "Step 2: 确认Displacement腿的范围，从反转低点到Displacement高点（约4125），用于计算斐波那契回撤水平。",
+    "Step 3: 在Displacement范围内应用OTE工具，绘制0.5和0.62斐波那契水平，预测价格可能的回撤区域。",
+    "Step 4: 观察价格实际回撤至0.62斐波那契水平（约4092-4100），该区域同时包含FVG和Order Block。",
+    "Step 5: 在该OTE区域内寻找低时间框架（5分钟/1分钟）的入场信号，利用小时线的高概率点位进行精确入场。",
+    "Step 6: 确认OTE区域与多个支撑点的重合（FVG、OB、0.62 Fib），增强交易的置信度。"
+  ],
+  "outcome": null,
+  "lessons": "OTE通过结合Displacement范围和斐波那契回撤水平，在高时间框架上识别高概率的回撤区域。将OTE与FVG、Order Block等结构工具结合，可在低时间框架上找到精确的入场点。0.62斐波那契水平在Smart Money反转后的回撤中具有特殊意义，常成为关键支撑。",
+  "primary_image": "cards/gZLLuB_rmis/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/gZLLuB_rmis/images/case_002_detail_1.jpg",
+    "cards/gZLLuB_rmis/images/case_002_detail_2.jpg",
+    "cards/gZLLuB_rmis/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图表显示价格范围从 3890 到 4125。图上有一个灰色矩形框标注在 3920 至 3960 区间。在该矩形附近标记有两个斐波那契水平线标签：0.382 和 0.5。图表左侧显示早期价格在 3900 至 3950 区间的波动，中部出现标注矩形的盘整区域，右侧显示从约 4000 向上延伸至 4125 的上升走势，期间包含多根绿色 K",
+    "case_002_detail_1.jpg": "ES 5分钟K线图。图上显示从左至右的价格走势，整体范围约4075至4137.50。图中绘有一条水平线位于4104.75，以及一个灰色矩形框标注在4097.50至4104.75区间。图上有三条斐波那契回撤水平线，分别标记为0.5、0.62、0.78，对应价格约4102.50、4100.00、4097.50。K线呈现红绿交替形态，左侧以红色K线为主，中段出现绿色K线，右侧再次出现大幅红色K线。右侧价",
+    "case_002_detail_2.jpg": "ES 5分钟K线图。图上显示一段时间内的价格走势，包含多根绿色和红色K线。右侧价格轴显示当前价格为4108.25。图上有4条水平线标注，分别位于4108.25、4100.00（标记为0.5）、4092.00（标记为0.62）和4082.00（标记为0.71）。在4092至4108.25之间有一个灰色矩形区域。可见价格范围从约4682到4129。",
+    "case_002_detail_3.jpg": "S&P 500 E-mini Futures 1分钟K线图。图表显示从左至右的时间序列，时间轴标注从11:30至15:50。价格范围从4094.00至4148.00。图上K线呈现先涨后跌的整体形态：前半段K线多为绿色，价格从约4120上升至4142附近；中段出现大幅下跌，红色K线连续出现，价格下行至4102；后半段K线在4102至4120区间内震荡，绿红交替。最右侧最新K线为红色，收盘价接近409"
+  },
+  "sources": [
+    {
+      "video_id": "gZLLuB_rmis",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.04,
+        185.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了小时线上的Smart Money反转、Displacement腿、OTE应用和0.62斐波那契水平的具体位置，图表标注完整，分析步骤逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:39.163584Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES小时线Smart Money反转后的OTE最优入场应用\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1H\",\"market_context\":\"S&P 500 E-mini期货在小时线上形成Smart Money反转，随后出现强势Displacement腿向上突破结构，价格从约3920-3960区域的Order Block上升至4125附近。\",\"key_observation\":\"在Smart Money反转后的Displacement上升腿中，价格回撤至0.62斐波那契水平（约4092-4100区域），该区域与FVG和OTE重合，形成高概率的低时间框架入场点。\",\"analysis_steps\":[\"Step 1: 识别小时线上的Smart Money反转点，观察价格从低点3920-3960区域的Order Block开始反转。\",\"Step 2: 确认Displacement腿的范围，从反转低点到Displacement高点（约4125），用于计算斐波那契回撤水平。\",\"Step 3: 在Displacement范围内应用OTE工具，绘制0.5和0.62斐波那契水平，预测价格可能的回撤区域。\",\"Step 4: 观察价格实际回撤至0.62斐波那契水平（约4092-4100），该区域同时包含FVG和Order Block。\",\"Step 5: 在该OTE区域内寻找低时间框架（5分钟/1分钟）的入场信号，利用小时线的高概率点位进行精确入场。\",\"Step 6: 确认OTE区域与多个支撑点的重合（FVG、OB、0.62 Fib），增强交易的置信度。\"],\"outcome\":null,\"lessons\":\"OTE通过结合Displacement范围和斐波那契回撤水平，在高时间框架上识别高概率的回撤区域。将OTE与FVG、Order Block等结构工具结合，可在低时间框架上找到精确的入场点。0.62斐波那契水平在Smart Money反转后的回撤中具有特殊意义，常成为关键支撑。\",\"primary_image_frame_id\":\"gZLLuB_rmis_f006\",\"supporting_image_frame_ids\":[\"gZLLuB_rmis_f002\",\"gZLLuB_rmis_f005\",\"gZLLuB_rmis_f007\"],\"related_concepts\":[\"Optimal Trade Entry (OTE)\",\"Smart Money Technique (SMT)\",\"Displacement\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Fibonacci Retracement\",\"Market Structure Shift (MSS)\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了小时线上的Smart Money反转、Displacement腿、OTE应用和0.62斐波那契水平的具体位置，图表标注完整，分析步骤逻辑清晰。\"}",
+  "error": null
+}

@@ -1,0 +1,905 @@
+{
+  "card_id": "market_structure_shift_mss",
+  "type": "merged_concept",
+  "canonical_term": "Market Structure Shift (MSS)",
+  "aliases": [
+    "Change in Trend",
+    "Change in the state of delivery (CSD)",
+    "Market Structure Break",
+    "Trend Reversal",
+    "市场结构改变",
+    "市场结构突破",
+    "市场结构转变",
+    "结构突破",
+    "结构转变",
+    "趋势转变"
+  ],
+  "school": "ICT",
+  "definition": "价格突破前一个有效的摆动高点或低点，通常伴随强劲位移（Displacement）和公允价值缺口（FVG），并需K线收盘确认，预示短期趋势反转。可通过失败摇摆（failure swing）或AMD模型中操纵完成后的结构突破来识别。",
+  "identification_rules": [
+    "识别前一个明确的摆动高点（swing high）或摆动低点（swing low）作为参考水平",
+    "观察价格是否以强劲位移（Displacement）突破该摆动点，仅触及而未收盘突破不构成有效MSS",
+    "确认K线收盘价穿过该摆动点的开盘价水平，以收盘确认突破有效性",
+    "确认突破时伴随产生公允价值缺口（FVG/Imbalance）",
+    "在上升趋势中，价格创出更低的低点（lower low）且未能创出更高的高点，形成失败摇摆，预示转为下降趋势；在下降趋势中，价格创出更高的高点（higher high）且未能创出更高的低点，形成失败摇摆，预示转为上升趋势",
+    "在AMD模型中，MSS通常出现在操纵（Manipulation）完成后，需结合流动性扫荡动作判断，而非仅突破盘整边界",
+    "MSS后应观察价格是否形成新趋势特征：上升趋势需连续更高高点和更高低点；下降趋势需连续更低高点和更低低点",
+    "可在高时间框架（HTF）和低时间框架（LTF）上同时观察，确保结构转变的有效性"
+  ],
+  "trading_implication": "MSS是判断趋势反转和交易方向转变的关键信号。确认后可在回测区域（如Order Block、FVG、BPR）寻找高概率入场点，结合Displacement范围和斐波那契水平（0.5、0.62、0.79）定位OTE。高时间框架MSS确定偏向，低时间框架精确入场。低时间框架MSS可能仅是高时间框架内的回撤，需结合HTF趋势验证可靠性。",
+  "common_mistakes": [
+    "将任何价格突破误认为MSS，忽视必须突破有效摆动点、伴随位移和FVG的要求",
+    "未等待K线完全收盘即提前判断MSS已形成",
+    "在没有摆动点被扫出（sweep）的情况下错误认为形成了MSS",
+    "在未确认操纵（Manipulation）完成的情况下过早判断MSS已形成",
+    "忽视失败摇摆的确认过程，混淆MSS与单纯的价格反弹或范围突破",
+    "忽视弱势突破可能是Inducement（诱导）而非真实结构转变",
+    "MSS确认后立即入场，而不等待价格回测相关区域（OB、FVG）吸收流动性",
+    "在未扫除相关流动性的情况下判断MSS已成立，容易被后续扫荡打止损",
+    "未在高时间框架确认MSS就在低时间框架交易，导致偏向错误；或看到低时间框架MSS立即交易而不考虑这可能只是高时间框架FVG的回测",
+    "MSS出现后若摆动点被重新测试并突破，则原MSS失效，需重新评估"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-GkOTMYoJT4_case_001_标普500五分钟图诱导交易案例",
+      "video_id": "-GkOTMYoJT4",
+      "title": "标普500五分钟图诱导交易完整案例分析"
+    },
+    {
+      "card_id": "-GkOTMYoJT4_case_002_标普500十五分钟图停损扫盘案例",
+      "video_id": "-GkOTMYoJT4",
+      "title": "标普500十五分钟图停损扫盘后FVG填补上升案例"
+    },
+    {
+      "card_id": "-GkOTMYoJT4_case_003_纳斯达克100五分钟图回测案例",
+      "video_id": "-GkOTMYoJT4",
+      "title": "纳斯达克100五分钟图：强势上升后回测FVG内旧低点"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_003_ym反转交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "YM反转交易案例：前日低点SMT与CSD触发的反向上行"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_004_gbpusd日线到小时线交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "GBPUSD日线理想三号收盘到小时线多次扫盘后延续上行"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_006_usdcad_4小时线到15分钟线交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD 4H-15M 多次试探高点后形成交付状态改变反转"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_007_nq1日线到小时线延续交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "NQ1日线看跌二号收盘后小时线延续交易"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_001_nasdaq_15分钟图表的日线fvg填补交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 15分钟日线FVG填补的多头入场分析"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_004_黄金小时到分钟级多时间框架交易",
+      "video_id": "1YRs4Z1lMws",
+      "title": "黄金小时到分钟级多时间框架交易——OTE与FVG汇聚入场"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_003_eur_usd与gbp_usd做多交易案例",
+      "video_id": "27S9gjgcSlI",
+      "title": "EUR/USD与GBP/USD SMT确认后的Breaker Block做多交易"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_004_cpi发布后nq与es的smt空头交易",
+      "video_id": "27S9gjgcSlI",
+      "title": "CPI发布后NQ与ES的SMT空头交易"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_003_英镑日元周线到4小时的买卖模式转换",
+      "video_id": "3OivsP1j_UE",
+      "title": "GBPJPY 周线到4小时的卖买模式转换与流动性追踪"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_002_黄金三角_gc_gbpusd_的psp反转确认",
+      "video_id": "3eVxTV_7L2U",
+      "title": "黄金三角SMT与PSP反转确认交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_011_rty小型罗素指数完整顶部到底部交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RTY日线顶部失败操纵到4H CSD确认，30分钟FVG与YM SMT联动，1分钟V形反转入场"
+    },
+    {
+      "card_id": "4Gm8p6O7Ebs_case_002_白银日线扩张至反转案例",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "白银日线三天扩张至反转案例"
+    },
+    {
+      "card_id": "4Gm8p6O7Ebs_case_006_原油日线扩张与盘整周期",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "原油日线扩张-盘整-再扩张的循环分析"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_001_btc日线第四天交易案例",
+      "video_id": "5fnFOh5YuM0",
+      "title": "BTC日线第四天交易案例：从摆动低点到多时间框架入场"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_002_eth多时间框架延续交易",
+      "video_id": "5fnFOh5YuM0",
+      "title": "ETH多时间框架延续交易：日线摆动确认到1H和5M入场"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_005_gbp_usd_4小时图的摆动点和fvg应用",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD 4小时图的摆动点和FVG多次反转分析"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_008_gbp_usd从5分钟到30秒图的多层级分析",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD从1小时到30秒的多层级FVG与订单块分析"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_007_es期货多时间框架流动性扫除交易",
+      "video_id": "75S4vwD4P1U",
+      "title": "ES期货多时间框架流动性扫除与Breaker Block交易"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_002_apoz_usd_日线与多时间框架联动的空头交易",
+      "video_id": "8BWkRGhuj1k",
+      "title": "APOZ/USD 日线反转信号与多时间框架空头交易"
+    },
+    {
+      "card_id": "9MUej4g9Jyg_case_001_es期货多时间框架交易设置分析",
+      "video_id": "9MUej4g9Jyg",
+      "title": "ES期货多时间框架Strat反转入场分析"
+    },
+    {
+      "card_id": "A8UpRZlRzlg_case_001_标普500迷你期货模型一案例",
+      "video_id": "A8UpRZlRzlg",
+      "title": "NQ1!标普500迷你期货Model 1入场流程：流动性扫盘+结构突破+FVG回撤"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_002_nq_1分钟空头入场案例_小时fvg目标",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟空头入场案例（小时FVG目标）"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_001_nq期货8月11日纽约开盘扫盘案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ期货8月11日纽约开盘扫盘与CISD交易案例"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_002_nq日线到2分钟多时间框架联动案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ日线FVG到2分钟CISD多时间框架联动做空"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_003_es期货10月11日双向交易案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "ES期货10月11日双向交易案例：操纵-CISD-订单块完整设置"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_001_eur_aud日线至小时线的反转交易案例",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "EUR/AUD日线偏差确认至小时线CSD反转交易"
+    },
+    {
+      "card_id": "E89d1HArbgM_case_003_原油日线的虚假突破与真实结构转变",
+      "video_id": "E89d1HArbgM",
+      "title": "原油日线虚假突破与三层结构转变信号"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_004_eurusd_5分钟多头交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "EURUSD 5分钟多头交易：盘整扫低后FVG回撤进场"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_005_nq1日线月度结构分析",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1日线月度结构中的回撤入场与反转信号"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_006_nq1_3分钟实时交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1 3分钟实时交易：扩张-回撤循环与受保护摆动追踪"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_001_nq期货_周三反转周四延续案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ期货周三反转周四延续交易案例"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_002_usdjpy_周线反转到15分钟入场案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "USDJPY周线反转到15分钟入场，2.4R风险回报比"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_003_黄金期货_3分钟30分钟模型案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "黄金期货3分钟-30分钟模型：整固高点扫除与CSD确认下跌"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_004_nq_5分钟1小时模型看跌案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ 5分钟1小时模型看跌案例 - 浅wick确认与FVG止损"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_005_nq与es的smt分歧及低阻力流动性追踪",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ高阻力流动性与ES低阻力低点序列的SMT分歧交易"
+    },
+    {
+      "card_id": "FXJBFbZQbck_case_004_周一新周开盘缺口到前日高点的完整交易流程",
+      "video_id": "FXJBFbZQbck",
+      "title": "周一新周开盘缺口到前日高点的完整AMD交易流程"
+    },
+    {
+      "card_id": "FXNLGYxfbDc_case_001_es期货空头交易_从15分钟到1分钟的风险回报优化",
+      "video_id": "FXNLGYxfbDc",
+      "title": "ES期货空头交易：多时间框架风险回报优化"
+    },
+    {
+      "card_id": "FdRKBTz0Fps_case_001_s_p_500_e_mini期货从看跌到看涨的趋势转变",
+      "video_id": "FdRKBTz0Fps",
+      "title": "ES期货5分钟MSS确认看涨反转，15分钟验证趋势转变"
+    },
+    {
+      "card_id": "FdRKBTz0Fps_case_002_利用fvg和mss在折价区寻找做多入场",
+      "video_id": "FdRKBTz0Fps",
+      "title": "5分钟FVG内MSS反转确认1分钟Displacement精确做多入场"
+    },
+    {
+      "card_id": "FdRKBTz0Fps_case_003_15分钟图表中的结构清晰性对比",
+      "video_id": "FdRKBTz0Fps",
+      "title": "15分钟图表结构清晰性对比：噪音少、趋势易识别"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_002_黄金_gc_多日扫盘后的看空交易",
+      "video_id": "FgP2lc9nneM",
+      "title": "黄金(GC)7日无新摆动后的日线Candle 2看空交易"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_002_黄金期货_gc_4小时至15分钟浅回撤延续",
+      "video_id": "IJcfC6wAPZU",
+      "title": "黄金期货(GC)4小时至15分钟浅回撤延续交易"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_003_原油期货_cl_激进位移后的回测入场",
+      "video_id": "IJcfC6wAPZU",
+      "title": "原油期货CL激进位移后的回测入场策略"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_005_标普500_es_范围突破的延续交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "ES范围突破后的多次延续入场与2R目标达成"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_006_英镑美元_gbpusd_日线至月线范围交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "GBPUSD日线-月线范围交易：扫低后CSD确认突破"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_002_ym指数多日连续扩张的均衡点追踪",
+      "video_id": "IPZjNI1B5a0",
+      "title": "YM指数多日连续扩张的均衡点追踪"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_003_eth看跌扩张中的均衡点反转案例",
+      "video_id": "IPZjNI1B5a0",
+      "title": "ETH看跌扩张中的均衡点反转案例"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_005_eth多日看跌扩张的均衡点确认",
+      "video_id": "IPZjNI1B5a0",
+      "title": "ETH多日看跌扩张中均衡点的连续尊重与FVG触及反转"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_006_4小时图表上的均衡点分形应用",
+      "video_id": "IPZjNI1B5a0",
+      "title": "4小时图表上的均衡点分形应用与Propulsion Block确认"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_007_fvg回测后的多层级wick分析",
+      "video_id": "LKNQDAdId4s",
+      "title": "日线wick的0.5位置在多时间框架上的回测与扩展分析"
+    },
+    {
+      "card_id": "LZZAaILYNyI_case_001_es_5分钟图高时间框架流动性交易案例",
+      "video_id": "LZZAaILYNyI",
+      "title": "ES 5分钟高时间框架流动性入场与溢价区做空止损跟踪"
+    },
+    {
+      "card_id": "NgFIza9qsGQ_case_002_s_p_500_e_mini期货看跌mitigation_blo",
+      "video_id": "NgFIza9qsGQ",
+      "title": "ES期货5分钟FVG看跌Mitigation Block多次成功触及目标"
+    },
+    {
+      "card_id": "NgFIza9qsGQ_case_004_s_p_500_e_mini期货fvg内mitigation_b",
+      "video_id": "NgFIza9qsGQ",
+      "title": "ES期货：Mitigation Block内FVG做空设置"
+    },
+    {
+      "card_id": "Ovotm9l99QQ_case_001_es日线看空交易分析_2023年1月18日",
+      "video_id": "Ovotm9l99QQ",
+      "title": "ES日线看空交易分析：多时间框架SMT与PD array级联填补"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_001_第一个amd与标准差投影案例",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "AMD标准差投影与AMD模型的完整交易案例"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_003_多时段amd案例_亚洲_伦敦_纽约",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "NQ11多时段AMD模式：亚洲积累-伦敦操纵-纽约派发"
+    },
+    {
+      "card_id": "PePk1V0Q4QQ_case_001_s_p_500_e_mini期货24日交易案例",
+      "video_id": "PePk1V0Q4QQ",
+      "title": "S&P 500 E-mini期货24日MSS、位移与FVG多头入场分析"
+    },
+    {
+      "card_id": "PePk1V0Q4QQ_case_002_多个市场结构转变和缺口的连续识别",
+      "video_id": "PePk1V0Q4QQ",
+      "title": "5分钟图表上的多个市场结构转变与FVG连续识别"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_001_白银小时图反转扩张案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "白银小时图浅层对抗反转扩张至均衡点"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_006_识别操纵后的盘整_从操纵反推盘整范围",
+      "video_id": "TCFvsZeYvV8",
+      "title": "通过识别操纵反推盘整范围的方法论"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_001_nq第一个交易案例_扫盘后反转做空",
+      "video_id": "TNybDCtwBnc",
+      "title": "NQ扫盘后反转做空——入场点位不理想导致止损"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_002_日线扫盘后的5分钟入场案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "日线扫盘后通过小时图FVG和5分钟CSD的多层级入场"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_003_gbp_jpy小时图多次内外流动性振荡案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "GBP/JPY小时图内外流动性多次振荡与推进块交易"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_002_nasdaq_100_1小时图表的多层级扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "NQ 1小时图多层级扩张形态与SMT、Power of 3应用"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_001_usd_1分钟图_盘整突破后的反转识别",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1分钟：盘整突破后的扩张-扩张反转确认"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_006_gbpusd_1小时图_多阶段反转与日线对齐",
+      "video_id": "VD4xb9VfMHA",
+      "title": "GBPUSD 1H：范围突破反转与日线收盘对齐"
+    },
+    {
+      "card_id": "WFqLwOp2pXw_case_001_usd_15分钟盘整后的延续上升",
+      "video_id": "WFqLwOp2pXw",
+      "title": "USD 15分钟盘整后的受保护摆动延续上升"
+    },
+    {
+      "card_id": "WFqLwOp2pXw_case_002_apoz_1小时盘整中的均衡点反应",
+      "video_id": "WFqLwOp2pXw",
+      "title": "APOZ 1小时盘整中的均衡点反应与低点扫盘"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_001_黄金_xauusd_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "黄金日线触及前日低点，1H看跌FVG+M15 SMT做多案例"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_002_纳斯达克_nq_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ日线-1小时-15分钟多头设置：前日低点扫除+FVG目标"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_003_欧元兑加元_eurcad_日线_1小时_15分钟做空案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "EURCAD日线-1小时-15分钟多时间框架做空案例"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_005_纳斯达克_nq_做空案例_使用日开盘替代午夜开盘",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ做空案例：日开盘替代午夜开盘的订单块入场"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_001_纳斯达克与标普500强弱对比交易",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "纳斯达克与标普500强弱对比做多交易"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_005_标普500从低位上升至高点的完整交易过程",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "标普500从3790低位上升至3838高点的多时间框架交易过程"
+    },
+    {
+      "card_id": "_94CPMjWi9E_case_001_es期货小时图结构转变案例",
+      "video_id": "_94CPMjWi9E",
+      "title": "ES期货小时图HTF水平突破与MSS确认案例"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_002_ym与nq的smt确认案例",
+      "video_id": "bbWPoajy2MY",
+      "title": "YM与NQ的SMT确认：Mitigation Block高概率交易"
+    },
+    {
+      "card_id": "dSccSI7uqvE_case_002_es期货从流动性扫除到fvg交易的完整案例",
+      "video_id": "dSccSI7uqvE",
+      "title": "ES期货流动性扫除后FVG折价区做多交易"
+    },
+    {
+      "card_id": "dcIdzqD3kMU_case_002_e_mini_s_p_500期货牛市破坏块案例",
+      "video_id": "dcIdzqD3kMU",
+      "title": "E-MINI S&P 500期货牛市破坏块与均值阈值验证"
+    },
+    {
+      "card_id": "eHQ4nE-TQ2w_case_002_es与nq的看涨背离交易案例",
+      "video_id": "eHQ4nE-TQ2w",
+      "title": "NQ看涨背离交易：高时间框架识别与低时间框架精确入场"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_001_s_p_500期货5分钟线上的ote和breaker_block",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES 5分钟线OTE和Breaker Block的入场设置"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_002_s_p_500小时线上的smart_money反转和ote应用",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES小时线Smart Money反转后的OTE最优入场应用"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_003_s_p_500期货1分钟线上的多层ote嵌套",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES 1分钟线多层OTE嵌套的精确入场分析"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_004_美元日元日线到5分钟的多次入场机会",
+      "video_id": "iEaMbuFZb24",
+      "title": "USD/JPY日线到5分钟的多次入场机会分析"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_001_nq期货多时间框架入场精细化案例",
+      "video_id": "ivirRu3fc4o",
+      "title": "NQ期货多时间框架嵌套FVG精细化入场"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_002_错过高时间框架入场后的低时间框架确认交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "错过15分钟FVG后，等待等高点形成再用1分钟OB确认入场"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_003_15秒图表反向头皮交易案例",
+      "video_id": "ivirRu3fc4o",
+      "title": "15秒图表反向头皮交易：折价区FVG做空案例"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_003_第三个例子_eq失效导致下行",
+      "video_id": "jKuXaC84Qx4",
+      "title": "汽油期货：EQ失效导致看跌对立设置与下行"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_004_第四个例子_公允价值缺口与eq失效",
+      "video_id": "jKuXaC84Qx4",
+      "title": "日线V形反转后小时线FVG盘整与EQ失效导致下行"
+    },
+    {
+      "card_id": "k3hTgbHBz1U_case_002_小时线fvg诱导做多案例",
+      "video_id": "k3hTgbHBz1U",
+      "title": "小时线FVG诱导做多案例"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_001_eurusd周一至周三的日内交易案例",
+      "video_id": "klaiq36QnEM",
+      "title": "EURUSD周一至周三日内交易：日线FVG回测与小时级breaker确认卖出"
+    },
+    {
+      "card_id": "lpam8F-N3EM_case_003_新闻发布前的1分钟做多案例",
+      "video_id": "lpam8F-N3EM",
+      "title": "新闻禁运期间1分钟折价区FVG做多案例"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_001_黄金日线反转交易案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "SPX日线小影线反转交易——从CSD到流动性目标"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_004_gll货币对范围交易案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GLL范围交易：低点突破后的CSD与流动性缺失分析"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_001_nq日线扫盘至内部流动性案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "NQ日线扫盘至内部流动性案例"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_002_eth小时图多次fvg回测案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "ETH小时图多次FVG回测与5分钟入场设置达成2R"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_004_5分钟图激进位移入场案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "ETH 1小时图：830高点扫除后的激进位移入场"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_005_audcad月线至小时图多时间框架案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "AUDCAD月线至小时图多时间框架FVG与MSS入场"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_006_audjpy周线至15分钟图高时间框架案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "AUDJPY周线FVG至15分钟Breaker Block高概率入场"
+    },
+    {
+      "card_id": "nWHint4Yano_case_003_美元扫盘后eurusd的做空设置",
+      "video_id": "nWHint4Yano",
+      "title": "美元扫盘后EURUSD的做空设置"
+    },
+    {
+      "card_id": "pWAjzKndWXo_case_001_es_5分钟图空头交易目标分析",
+      "video_id": "pWAjzKndWXo",
+      "title": "ES 5分钟图空头交易多层次目标分析"
+    },
+    {
+      "card_id": "pWAjzKndWXo_case_002_es_多时间框架目标设置案例",
+      "video_id": "pWAjzKndWXo",
+      "title": "ES多时间框架目标设置：流动性与FVG组合应用"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_002_es与道琼斯的看跌smt案例",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES与道琼斯看跌SMT：高点分歧反转案例"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_003_fvg内的smt应用",
+      "video_id": "q1NmxUTm4n4",
+      "title": "S&P 500与纳斯达克100在FVG内的SMT应用"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_001_eurusd日线与1小时联动交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "EURUSD日线反转后1小时延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_015_usd日线与小时图的月度交易框架",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD日线月度框架与小时图延续交易"
+    },
+    {
+      "card_id": "r_UF8U-hsL8_case_001_apoz资产的反转与延续交易案例",
+      "video_id": "r_UF8U-hsL8",
+      "title": "APOZ反转序列与延续做空交易案例"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_004_原油_oil_5分钟图的结构分析",
+      "video_id": "sgAnVR6RSDg",
+      "title": "原油5分钟图上升趋势中的结构转变与下降趋势形成"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_005_低时间框架反转与高时间框架回撤的区别",
+      "video_id": "sgAnVR6RSDg",
+      "title": "5分钟结构转变实为小时图FVG回撤"
+    },
+    {
+      "card_id": "tZMgGsTqqVM_case_001_s_p_500_e_mini期货日线流动性分配案例",
+      "video_id": "tZMgGsTqqVM",
+      "title": "ES日线流动性分配：MSS后回落吸收下方流动性再上升"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_004_usd_4小时线上的k线2收盘与延续",
+      "video_id": "tyoxl1l-6iI",
+      "title": "USD 4小时线K线2收盘形态识别与下钻交易"
+    },
+    {
+      "card_id": "ubCe509_JLY_case_001_es1期货周线到15分钟的多时间框架对齐交易",
+      "video_id": "ubCe509_JLY",
+      "title": "ES1期货周线到15分钟多时间框架对齐做空交易"
+    },
+    {
+      "card_id": "umyCqr_0NsI_case_001_e_mini_nasdaq_100期货1分钟图结构分析",
+      "video_id": "umyCqr_0NsI",
+      "title": "NQ1! 1分钟图：从15分钟扫盘高点到结构转变的完整标记"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_003_spx_15分钟下跌反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "SPX 15分钟下跌反转：Turtle Soup到Breaker Block的完整形态"
+    },
+    {
+      "card_id": "wy3OSPxu5U0_case_001_gbpaud日线到5分钟的多级别交易分析",
+      "video_id": "wy3OSPxu5U0",
+      "title": "GBPAUD日线到5分钟多级别FVG填充与流动性狩猎"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_002_eth日线看跌结构的小时图breaker延续",
+      "video_id": "xP-o11jRCyg",
+      "title": "ETH日线看跌结构的小时图CSD确认与5分钟breaker延续交易"
+    },
+    {
+      "card_id": "xdm_OexQWJY_case_003_伦敦纽约时段高点创造与下行目标案例",
+      "video_id": "xdm_OexQWJY",
+      "title": "伦敦纽约时段高点创造与下行流动性目标"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_002_虚假伦敦反转与真实纽约反转",
+      "video_id": "xdzyejskSKE",
+      "title": "虚假伦敦反转与真实纽约反转的区分"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_006_标普500的高时间框架缺口与反转",
+      "video_id": "xdzyejskSKE",
+      "title": "ES高时间框架缺口与伦敦纽约时段反转交易"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_003_轻质原油期货低阻力流动性案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油低阻力流动性伦敦反转纽约延续案例"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_004_标普500期货伦敦反转延续案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "ES期货伦敦扫高反转与纽约时段延续案例"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_001_标普500期货bpr长仓交易案例",
+      "video_id": "yOPESX2aWkI",
+      "title": "标普500期货BPR长仓交易案例"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_002_突破前期低点后的长仓设置",
+      "video_id": "yOPESX2aWkI",
+      "title": "突破前期低点后的BPR长仓设置"
+    },
+    {
+      "card_id": "ynFA6E3qHj0_case_001_nq1期货1分钟图_从高点失败突破到下跌扫盘",
+      "video_id": "ynFA6E3qHj0",
+      "title": "NQ1期货1分钟图：高点失败突破到下跌扫盘的结构分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "E6bpY4dQvlE",
+      "original_card_id": "E6bpY4dQvlE_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        182.099,
+        359.639
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "original_card_id": "Pcbyc9TdNsU_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        10.36,
+        415.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        216.239,
+        286.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "bbWPoajy2MY",
+      "original_card_id": "bbWPoajy2MY_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        191.0,
+        546.8
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eHQ4nE-TQ2w",
+      "original_card_id": "eHQ4nE-TQ2w_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        187.36,
+        270.8
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "gZLLuB_rmis",
+      "original_card_id": "gZLLuB_rmis_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.04,
+        185.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "sgAnVR6RSDg",
+      "original_card_id": "sgAnVR6RSDg_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        10.48,
+        840.759
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "tZMgGsTqqVM",
+      "original_card_id": "tZMgGsTqqVM_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.96,
+        189.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xP-o11jRCyg",
+      "original_card_id": "xP-o11jRCyg_concept_market_structure_shift_mss",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.0,
+        192.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 9,
+    "source_videos": 9,
+    "high_confidence_sources": 9,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:51:58.565554Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "9张原始卡均标注ICT，school无冲突，直接选ICT。",
+  "error": null
+}

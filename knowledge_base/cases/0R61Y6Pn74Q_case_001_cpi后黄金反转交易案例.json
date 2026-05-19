@@ -1,0 +1,132 @@
+{
+  "card_id": "0R61Y6Pn74Q_case_001_cpi后黄金反转交易案例",
+  "type": "case",
+  "title": "CPI后黄金日线订单块与5分钟FVG叠加做空案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Intermediate Term High",
+      "card_id": "intermediate_term_high",
+      "exists": true
+    },
+    {
+      "term": "Short-term High",
+      "card_id": "short_term_high",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array",
+      "card_id": "premium_discount_array",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Alignment",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "mitigation_block",
+    "sellside_liquidity",
+    "low_resistance_liquidity",
+    "displacement",
+    "market_structure_shift",
+    "intermediate_term_high",
+    "short_term_high",
+    "premium_discount_array"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "2024年1月11日CPI数据发布后，黄金在日线形成两个摆动高点后出现看跌订单流。交易者利用多时间框架结构识别高概率做空机会。",
+  "key_observation": "日线形成两个摆动高点后出现看跌订单流；CPI时段价格操纵至前一日高点上方后向下收盘，形成日线订单块；5分钟图中FVG与Mitigation Block重叠形成最优入场区域。",
+  "analysis_steps": [
+    "Step 1: 观察日线图，识别两个连续摆动高点后的看跌订单流信号，标记Sellside Liquidity约2015水平。",
+    "Step 2: 在日线上标记订单块（Order Block），位于前一日高点下方的一系列上升K线区域。",
+    "Step 3: 查看经济日历，确认周四8:30为CPI发布时间，这是主要交易机会窗口。",
+    "Step 4: 下降到1小时图，观察CPI前后的价格行为，发现当日高点低于前一日高点，形成失败摆动（Low Resistance Liquidity）。",
+    "Step 5: 进一步下降到5分钟图，标记前一日低点作为目标，标记日线订单块对应的溢价区范围。",
+    "Step 6: 在5分钟图上识别FVG与Mitigation Block重叠的区域，作为做空入场点。",
+    "Step 7: 使用高级结构分析，寻找中期高点（Intermediate Term High）的形成条件：需要两个短期高点（STH）分别位于两侧，中间的高点更高。",
+    "Step 8: 等待价格扫除前一日高点和前两日高点后，在FVG/Mitigation Block区域形成短期高点，确认中期高点。",
+    "Step 9: 在中期高点确认后入场做空，止损设在该中期高点，目标设为前一日低点。",
+    "Step 10: 交易执行后，价格继续下行，确认中期高点有效性，最终到达前一日低点目标。"
+  ],
+  "outcome": "交易成功获利。价格在FVG/Mitigation Block区域入场做空后，下行至前一日低点（约2020水平）获利。博主获得2R收益（目标为前一日低点），虽然价格最终还扫除了更低的Sellside Liquidity（可获3R），但博主对2R的结果表示满意。",
+  "lessons": "多时间框架结构对齐是高概率交易的关键：日线订单块、小时线CPI操纵、5分钟FVG与Mitigation Block的重叠形成强有力的入场信号。中期高点的确认需要特定的摆动结构（两个STH夹一个更高的高点），这比简单的支撑阻力更可靠。止损应设在交易真正失效的位置（中期高点），而非心理舒适位置（破平），这样可避免被虚假反弹止损。",
+  "primary_image": "cards/0R61Y6Pn74Q/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/0R61Y6Pn74Q/images/case_001_detail_2.jpg",
+    "cards/0R61Y6Pn74Q/images/case_001_detail_3.jpg",
+    "cards/0R61Y6Pn74Q/images/case_001_detail_4.jpg",
+    "cards/0R61Y6Pn74Q/images/case_001_detail_5.jpg",
+    "cards/0R61Y6Pn74Q/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "XAUUSD 日线 K 线图，可见价格范围约从 1960.000 至 2100.000。图上有一条水平线标注为 Sellside Liquidity，位于约 2015.000 价位，从图中部延伸至右侧边缘。右侧价格轴显示两个标签：2040.663 及 2028.035。图上可见一根高点约达 2100.000 的绿色 K 线，随后出现多根黑色 K 线，最新 K 线主体向下延伸至接近 Sellside",
+    "case_001_detail_2.jpg": "XAUUSD 日线 K 线图，可见价格范围约 1960 至 2100。图上有一条带文字标签的水平线，位于约 2015 处，标注为 Sellside Liquidity，延伸至图右侧。另有一条无标签蓝色水平线位于约 2038 处。图上还有一个黄色矩形框，覆盖约 2048 至 2057 价格区间，位于 2024 年 1 月 8 日附近的 K 线区域。K 线序列从左侧约 1975 区域上行至约 2088",
+    "case_001_detail_3.jpg": "XAUUSD 60 分钟 K 线图，时间轴覆盖 1 月 4 日至 1 月 17 日。图上可见价格范围约从 2014.000 至 2066.000。图上有一个橙色/米色填充矩形，覆盖约 2052.000 至 2056.000 价格区间，横跨日期 4 至 9。另有一个虚线矩形框，覆盖约 2038.000 至 2042.000，位于日期 10 至 11 附近。一条蓝色水平线位于约 2042.000 处横",
+    "case_001_detail_4.jpg": "XAUUSD 5 分钟 K 线图，图上时间跨度从 18:00 至次日 19:30，日期标注为 11/1/2024，Thu 11 Jan '24。图右侧当前价标签显示 2027.378。图上有两条水平虚线分别位于 2042 和 2040 附近，一条蓝色实线水平线位于 2041 附近。左侧有文字标注",
+    "case_001_detail_5.jpg": "XAUUSD 5 分钟 K 线图，可见价格范围约 2018 至 2048。图上有一条蓝色水平线位于约 2041，一条红色水平线位于约 2020，以及一条带高亮标签的水平参考线位于 2032.922。图上标注有两个矩形区域：一个灰色矩形覆盖约 2030 至 2034 区间，一个粉色矩形位于大幅波动 K 线右侧约 2031 至 2038 区间。时间轴约 08:20 处出现一根大阳线后紧跟一根大阴线，两",
+    "case_001_detail_6.jpg": "XAUUSD 5 分钟 K 线图，日期标注为 11/1/2024，图右下角标注来源为 TTrades_edu。图上可见价格范围约从 2018.000 到 2048.000。图上有两条贯穿全图的水平线：蓝色线位于约 2041.000，红色线位于约 2020.000。约 08:00 时段出现一根较长阳线，从约 2032.000 上行至约 2045.000。此后 K 线连续下行，图上在约 2029.00"
+  },
+  "sources": [
+    {
+      "video_id": "0R61Y6Pn74Q",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.519,
+        485.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线、1小时、5分钟三个时间框架的分析过程，清晰标注了关键价位（2041、2020、2015等），详细解释了订单块、FVG、Mitigation Block的识别与应用，交易结果明确（获利至前一日低点），分析步骤逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:08:18.079310Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"CPI后黄金日线订单块与5分钟FVG叠加做空案例\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"2024年1月11日CPI数据发布后，黄金在日线形成两个摆动高点后出现看跌订单流。交易者利用多时间框架结构识别高概率做空机会。\",\"key_observation\":\"日线形成两个摆动高点后出现看跌订单流；CPI时段价格操纵至前一日高点上方后向下收盘，形成日线订单块；5分钟图中FVG与Mitigation Block重叠形成最优入场区域。\",\"analysis_steps\":[\"Step 1: 观察日线图，识别两个连续摆动高点后的看跌订单流信号，标记Sellside Liquidity约2015水平。\",\"Step 2: 在日线上标记订单块（Order Block），位于前一日高点下方的一系列上升K线区域。\",\"Step 3: 查看经济日历，确认周四8:30为CPI发布时间，这是主要交易机会窗口。\",\"Step 4: 下降到1小时图，观察CPI前后的价格行为，发现当日高点低于前一日高点，形成失败摆动（Low Resistance Liquidity）。\",\"Step 5: 进一步下降到5分钟图，标记前一日低点作为目标，标记日线订单块对应的溢价区范围。\",\"Step 6: 在5分钟图上识别FVG与Mitigation Block重叠的区域，作为做空入场点。\",\"Step 7: 使用高级结构分析，寻找中期高点（Intermediate Term High）的形成条件：需要两个短期高点（STH）分别位于两侧，中间的高点更高。\",\"Step 8: 等待价格扫除前一日高点和前两日高点后，在FVG/Mitigation Block区域形成短期高点，确认中期高点。\",\"Step 9: 在中期高点确认后入场做空，止损设在该中期高点，目标设为前一日低点。\",\"Step 10: 交易执行后，价格继续下行，确认中期高点有效性，最终到达前一日低点目标。\"],\"outcome\":\"交易成功获利。价格在FVG/Mitigation Block区域入场做空后，下行至前一日低点（约2020水平）获利。博主获得2R收益（目标为前一日低点），虽然价格最终还扫除了更低的Sellside Liquidity（可获3R），但博主对2R的结果表示满意。\",\"lessons\":\"多时间框架结构对齐是高概率交易的关键：日线订单块、小时线CPI操纵、5分钟FVG与Mitigation Block的重叠形成强有力的入场信号。中期高点的确认需要特定的摆动结构（两个STH夹一个更高的高点），这比简单的支撑阻力更可靠。止损应设在交易真正失效的位置（中期高点），而非心理舒适位置（破平），这样可避免被虚假反弹止损。\",\"primary_image_frame_id\":\"0R61Y6Pn74Q_f004\",\"supporting_image_frame_ids\":[\"0R61Y6Pn74Q_f001\",\"0R61Y6Pn74Q_f002\",\"0R61Y6Pn74Q_f005\",\"0R61Y6Pn74Q_f006\",\"0R61Y6Pn74Q_f009\",\"0R61Y6Pn74Q_f010\",\"0R61Y6Pn74Q_f011\",\"0R61Y6Pn74Q_f012\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Mitigation",
+  "error": null
+}

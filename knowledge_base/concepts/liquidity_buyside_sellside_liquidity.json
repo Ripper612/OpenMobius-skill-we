@@ -1,0 +1,195 @@
+{
+  "card_id": "liquidity_buyside_sellside_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Liquidity (Buyside/Sellside Liquidity)",
+  "aliases": [
+    "BSL/SSL",
+    "Buy-side Liquidity",
+    "Sell-side Liquidity"
+  ],
+  "school": "ICT",
+  "definition": "汇集在摆动高点之上（买方流动性/BSL）和摆动低点之下（卖方流动性/SSL）的未成交订单。市场以激进突破（Displacement）扫除这些流动性区域作为价格运动的主要驱动目标；失败突破（缺乏位移）则指示价格可能反向寻求另一侧流动性。",
+  "identification_rules": [
+    "买方流动性（BSL）：识别前期摆动高点，该高点上方未被突破时存在买方订单堆积，价格向上突破时被扫除",
+    "卖方流动性（SSL）：识别前期摆动低点，该低点下方未被突破时存在卖方订单堆积，价格向下突破时被扫除",
+    "通过激进突破（Displacement）识别流动性扫除：价格快速穿过某一区域并伴随FVG形成，表明流动性已被扫除",
+    "失败突破识别：价格触及流动性区域但缺乏位移（Lack of Displacement），表明价格可能反向运动寻求另一侧流动性",
+    "连接同一方向的多个摆动高点（或低点）用直线延伸，形成流动性边界；在扩张形态中需随价格突破及时更新延伸线",
+    "可通过识别亚洲盘高低点、伦敦盘高低点等交易时段范围来确定流动性位置",
+    "在Seek and Destroy模式中，价格突破流动性水平后通常会回到整理区间内",
+    "在Box Setup中，激进向下运动扫除SSL、激进向上运动扫除BSL，突破出范围后回测时预期反向运动"
+  ],
+  "trading_implication": "流动性是市场的主要驱动目标，用于判断趋势方向、入场点及交易目标。买方趋势中，失败向下突破低点（无位移）为做多信号；卖方趋势中，失败向上突破高点（无位移）为做空信号。流动性被扫除后，可以均衡点（EQ）、最优入场点（OTE）或对面流动性为目标。流动性线亦可作为反转点（配合SMT）及突破后的支撑/阻力使用。",
+  "common_mistakes": [
+    "混淆流动性扫除与失败突破：扫除流动性后价格通常反向，而非继续原方向",
+    "忽视无位移信号的重要性：失败突破（缺乏位移）往往比成功突破更能指示反向机会",
+    "未在正确的时间框架上识别摆动高低点，导致流动性区域定位错误",
+    "在卖方曲线上尝试做多入场，或在买方曲线上尝试做空入场，导致价格突破止损",
+    "混淆流动性位置与支撑阻力，未能识别价格会激进扫除流动性后才反向的特性",
+    "过早入场而非在流动性被扫除后的回测位置入场，增加被扫损的风险",
+    "混淆流动性位置：将买方流动性误认为在摆动低点上方，或将卖方流动性误认为在摆动高点下方",
+    "忽视流动性的分形特性：未能识别在不同时间框架内重复出现的流动性结构",
+    "过度依赖单一流动性水平，未考虑多个流动性层级（如Buy Steps、Sell Steps）的存在",
+    "仅连接相邻的高低点，忽视向左查看历史高低点的必要性，无法准确绘制完整的流动性结构",
+    "在扩张过程中未及时更新流动性线，导致目标区域判断不准确"
+  ],
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Seek and Destroy",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "5rbFskdmEmU",
+      "original_card_id": "5rbFskdmEmU_concept_buyside_sellside_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        476.3
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "E6bpY4dQvlE",
+      "original_card_id": "E6bpY4dQvlE_concept_liquidity_buyside_sellside_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        0.659,
+        359.639
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "PlZD45uLPjE",
+      "original_card_id": "PlZD45uLPjE_concept_liquidity_buyside_sellside_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        592.98
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Tjk9bXERZy0",
+      "original_card_id": "Tjk9bXERZy0_concept_liquidity_buyside_sellside_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.24,
+        506.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:47.736203Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "4张原始卡均为ICT学派，无学派冲突。各卡侧重不同应用场景（Displacement、Box Setup、Seek and Destroy、扩张形态），已综合合并。",
+  "error": null
+}

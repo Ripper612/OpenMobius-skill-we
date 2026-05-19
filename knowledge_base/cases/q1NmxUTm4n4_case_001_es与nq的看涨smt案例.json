@@ -1,0 +1,102 @@
+{
+  "card_id": "q1NmxUTm4n4_case_001_es与nq的看涨smt案例",
+  "type": "case",
+  "title": "ES与NQ的看涨SMT识别与反转验证",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing High (HH)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing Low (LL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher Low (HL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower High (LH)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Divergence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "market_structure",
+    "reversal"
+  ],
+  "school": "SMC",
+  "asset": "ES / NQ",
+  "timeframe": "15M",
+  "market_context": "ES和NQ在同一时间段内形成摆动结构。ES创出更低的低点，而NQ在相同区域创出更高的低点，形成看涨SMT信号，随后价格向上反转。",
+  "key_observation": "当相关资产在同一价格区域出现结构分歧时——一个资产创新低而另一个资产未能创新低——形成SMT信号，预示可能的反向运动。",
+  "analysis_steps": [
+    "Step 1: 博主解释SMT的基本概念——相关资产应该具有相同的结构（同时创高或创低），当出现分歧时形成SMT。",
+    "Step 2: 博主展示看涨SMT的理论形态——ES创出LL到LH，而NQ创出LL到HH，形成结构分歧。",
+    "Step 3: 博主展示看跌SMT的理论形态——ES创出HH到LH，而NQ创出HH到HH，形成结构分歧。",
+    "Step 4: 博主在实际图表上识别具体的SMT设置——观察ES和NQ在2AM低点附近的摆动结构。",
+    "Step 5: 博主指出NQ未能突破2AM低点，而ES突破该低点，确认看涨SMT信号。",
+    "Step 6: 博主验证SMT预测——价格随后向上反转，确认看涨SMT的有效性。"
+  ],
+  "outcome": "看涨SMT信号成功预测了价格向上反转，ES和NQ随后均向上运动，验证了SMT作为反转指标的预测性。",
+  "lessons": "SMT通过识别相关资产间的结构分歧来预测反转。当一个资产创新极值而另一个资产未能跟随时，表明市场结构可能改变，为交易者提供高概率的反向入场机会。",
+  "primary_image": "cards/q1NmxUTm4n4/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/q1NmxUTm4n4/images/case_001_detail_1.jpg",
+    "cards/q1NmxUTm4n4/images/case_001_detail_2.jpg",
+    "cards/q1NmxUTm4n4/images/case_001_detail_3.jpg",
+    "cards/q1NmxUTm4n4/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES 15分钟线图。图上展示两个独立的摆动结构面板，分别标注为'BULLISH SMT'和'BEARISH SMT'。上方面板显示一系列摆动高点（HH）、摆动低点（HL、LL、LH）的标记，价格范围约3840至3868。下方面板同样标注摆动结构，价格范围约3772至3820。两个面板之间有一条黑色水平线分隔。右侧价格刻度显示最高3868.00、最低3772.00。图上标有'ES'和'NQ/YM'文",
+    "case_001_detail_1.jpg": "图上显示 S&P 500 E-mini 期货 15 分钟线图，分为左右两个面板。左侧标记为 ES，右侧标记为 NQ/YM。两个面板均为线图形式，显示摆动高点（HH）和摆动低点（LL）的标注。左侧面板包含 4 个完整摆动周期，右侧面板包含 5 个完整摆动周期。每个摆动点均用文字标签标记。图上有一条水平虚线穿过两个面板，对应价格 3832.75。两个面板的最后一个摆动低点后各有一条向上的箭头。可见价格",
+    "case_001_detail_2.jpg": "图上为两个并排的 15 分钟 K 线图表。左侧为 S&P 500 E-mini 期货，右侧为 E-mini 道琼斯期货。两个图表均显示从早晨 05:00 至下午 13:00-14:00 的交易数据。图上标注有两条趋势线：一条从高点向下倾斜，一条从低点向上倾斜。标注文字包括'HH'（高点）、'LL'（低点）和'CL'（圆形标记）。K 线以绿色和黑色交替显示，价格范围左侧约 3904 至 3992，右",
+    "case_001_detail_3.jpg": "图上为两个并排的 15 分钟 K 线图面板。左侧为 S&P 500 E-mini Futures（ES），右侧为 E-mini Dow Jones Futures（YM）。左侧 ES 图表显示从 05:00 至 13:00 UTC 的 K 线，价格范围约 3920 至 3992，图上标有两条水平线分别位于 3982.50 和 3957.25。右侧 YM 图表显示从 07:00 至 14:00 UT",
+    "case_001_detail_4.jpg": "图上为两个并排的 15 分钟期货图表。左侧为标普 500 E-mini 期货（ES），右侧为纳斯达克 100 E-mini 期货（NQ）。ES 图表显示价格范围约 3996 至 4034，图上标注有 4012.75 和 4012.00 两个价格水平。NQ 图表显示价格范围约 12128 至 12228，标注有 12160.00 价格水平。两个图表均显示绿色和黑色 K 线混合排列，表示该时段内双向波"
+  },
+  "sources": [
+    {
+      "video_id": "q1NmxUTm4n4",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        171.31900000000002
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了SMT的定义、理论形态、实际识别过程和反转验证，关键资产代码、时间框架、价格水平均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:50.575588Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES与NQ的看涨SMT识别与反转验证\",\"school\":\"SMC\",\"asset\":\"ES / NQ\",\"timeframe\":\"15M\",\"market_context\":\"ES和NQ在同一时间段内形成摆动结构。ES创出更低的低点，而NQ在相同区域创出更高的低点，形成看涨SMT信号，随后价格向上反转。\",\"key_observation\":\"当相关资产在同一价格区域出现结构分歧时——一个资产创新低而另一个资产未能创新低——形成SMT信号，预示可能的反向运动。\",\"analysis_steps\":[\"Step 1: 博主解释SMT的基本概念——相关资产应该具有相同的结构（同时创高或创低），当出现分歧时形成SMT。\",\"Step 2: 博主展示看涨SMT的理论形态——ES创出LL到LH，而NQ创出LL到HH，形成结构分歧。\",\"Step 3: 博主展示看跌SMT的理论形态——ES创出HH到LH，而NQ创出HH到HH，形成结构分歧。\",\"Step 4: 博主在实际图表上识别具体的SMT设置——观察ES和NQ在2AM低点附近的摆动结构。\",\"Step 5: 博主指出NQ未能突破2AM低点，而ES突破该低点，确认看涨SMT信号。\",\"Step 6: 博主验证SMT预测——价格随后向上反转，确认看涨SMT的有效性。\"],\"outcome\":\"看涨SMT信号成功预测了价格向上反转，ES和NQ随后均向上运动，验证了SMT作为反转指标的预测性。\",\"lessons\":\"SMT通过识别相关资产间的结构分歧来预测反转。当一个资产创新极值而另一个资产未能跟随时，表明市场结构可能改变，为交易者提供高概率的反向入场机会。\",\"primary_image_frame_id\":\"q1NmxUTm4n4_f003\",\"supporting_image_frame_ids\":[\"q1NmxUTm4n4_f002\",\"q1NmxUTm4n4_f004\",\"q1NmxUTm4n4_f005\",\"q1NmxUTm4n4_f006\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Market Structure\",\"Swing High (HH)\",\"Swing Low (LL)\",\"Higher Low (HL)\",\"Lower High (LH)\",\"Divergence\",\"Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了SMT的定义、理论形态、实际识别过程和反转验证，关键资产代码、时间框架、价格水平均清晰可读。\"}",
+  "error": null
+}

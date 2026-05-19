@@ -1,0 +1,134 @@
+{
+  "card_id": "kTWXpAo1uE8_case_004_nq日线到小时线的多时间框架分析",
+  "type": "case",
+  "title": "NQ日线到小时线的多时间框架操纵腿投影分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Accumulation-Manipulation-Distribution (AMD)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equal Highs/Lows",
+      "card_id": "equal_highs_lows",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "standard_deviation_projection",
+    "premium_discount_premium_",
+    "manipulation_leg",
+    "market_structure",
+    "time_frame_confluence",
+    "equal_highs_lows",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D / 1H / 15M / 2M",
+  "market_context": "NQ在周二触及日线FVG后反转，周三扩大下跌。博主预期周四继续下行，目标为-2到-2.5标准差区域，结合多个时间框架的操纵腿投影寻找高概率入场点。",
+  "key_observation": "博主通过日线识别周二高点进入的日FVG，预期周四继续下跌。在小时线上，操纵腿投影与-2到-2.5标准差、伦敦低点等PD数组形成汇聚，提供多重目标确认。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别周二高点进入的日FVG（Daily Fair Value Gap）",
+    "Step 2: 基于日线结构预期周四价格继续下跌，目标为-2到-2.5标准差",
+    "Step 3: 下钻到小时线，标记出进入日FVG的操纵腿（从高点到低点）",
+    "Step 4: 投影操纵腿，确定-2到-2.5标准差的目标区域",
+    "Step 5: 识别左侧的FVG和-4标准差线，作为PD数组与投影汇聚",
+    "Step 6: 继续下钻到15分钟图，观察伦敦盘的整理与操纵（Asia consolidation → London aggressive move → accumulation/manipulation）",
+    "Step 7: 在15分钟图上标记等高点（equal highs），预期伦敦回测后纽约继续下行",
+    "Step 8: 下钻到2分钟图，标记订单块（Order Block）并观察其下方的位移（Displacement）",
+    "Step 9: 在2分钟图上标记新的操纵腿（从新高的低点），投影其目标",
+    "Step 10: 确认伦敦低点与-2标准差汇聚，作为理想目标（low hanging fruit）",
+    "Step 11: 识别订单块回测作为第一入场点，止损设在高点，目标指向伦敦低点"
+  ],
+  "outcome": "价格最终触及-2到-2.5标准差区域，并扫过-4标准差线。多个操纵腿投影的-4标准差与另一投影的-2到-2.5标准差形成汇聚，确认了目标区域的有效性。",
+  "lessons": "多时间框架操纵腿投影可通过标准差和PD数组（FVG、OB、摆动低点）形成汇聚，提高目标确认度。当多个投影的不同标准差水平重合时，该区域成为高概率目标。订单块回测提供低风险入场机会。",
+  "primary_image": "cards/kTWXpAo1uE8/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/kTWXpAo1uE8/images/case_004_detail_1.jpg",
+    "cards/kTWXpAo1uE8/images/case_004_detail_2.jpg",
+    "cards/kTWXpAo1uE8/images/case_004_detail_3.jpg",
+    "cards/kTWXpAo1uE8/images/case_004_detail_4.jpg",
+    "cards/kTWXpAo1uE8/images/case_004_detail_5.jpg",
+    "cards/kTWXpAo1uE8/images/case_004_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表显示 USD 日线（1D）K 线图，价格范围从 14050 到 15550。图上绘制了多根绿色和黑色 K 线，跨越整个可见区间，每根 K 线均带有上下影线。图右侧显示两条水平线，分别位于约 14800 和 14600 价格水平。左下角显示当前价格标记 14467.75 和 14300.25。图上标注有日期信息",
+    "case_004_detail_1.jpg": "NQ11 60分钟K线图，价格范围从14775到15475。图上有两条水平线分别位于15225.25和15050.00。右侧标注有数字标签2、2.5、4分别对应不同价格水平。图上绘制一个粉红色矩形框，覆盖15400至15450价格区间。K线显示从左侧约15050的低点上升至15425附近，随后出现长上影线K线，之后下跌至15225区域。",
+    "case_004_detail_2.jpg": "NQ211 60分钟K线图，时间范围显示12/10/2023。图上可见价格范围从14777到15545。左侧有一条水平线标记在15044处。图表中部有一个粉红色矩形框标注在15400至15500价格区间。下方有两个黄色矩形框分别标注在14950至15050价格区间。K线显示从高点15400附近向下跳空至15250附近，随后形成多根K线的整理形态，价格在15000至15100区间内波动。最新K线显示",
+    "case_004_detail_3.jpg": "USD 60分钟K线图，时间范围从10月15日10:00至20:00。图上可见价格范围约14975至15500。标注包括三个矩形框：粉色矩形位于约15425-15475区间，两个黄色矩形分别位于约15075-15125和14900-14925区间。K线显示从10:00至12:00期间在15000-15500区间内的整理，随后12:00至13:00出现下行，最低触及15100附近。13:00至16:",
+    "case_004_detail_4.jpg": "NQ11 60分钟K线图，时间范围跨越10月至11月。图上可见价格范围约从14500到15600。标注包括三条水平线分别位于15100、14950和14700处。图中有两个黄色矩形框分别标记在15050-15150区间和14900-15000区间。左下角显示数值标签包括1467.00、14650.50、14561.50。图上标有数字标签2.5和4。K线形态显示从中部约15450的高点向下运行，右侧",
+    "case_004_detail_5.jpg": "USD 60分钟K线图。图上显示从15600下跌至14100的下行走势。图中标注有5条水平线，分别位于15100、14900、14400、14300和14200价位。图上有3个黄色矩形框标注，分别位于15050-15150、14900-15000和14100-14300区间。左下角显示当前价格标签14217.75。时间轴显示5/11/2023和NQ11 60m标记。可见价格范围约13600至156",
+    "case_004_detail_6.jpg": "USD 60分钟K线图。图表显示从6月11日至11月13日的价格走势。左侧显示四个价格标注：15492.00、14912.75、14366.50、14291.50。图上可见价格整体范围约从14000到15600。K线形态显示上升至约15500附近形成高点，随后下跌至14200-14400区间，最后在图表右侧呈现反弹走势。图右下角有Sell、Buy、Flatten三个按钮。"
+  },
+  "sources": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        425.56,
+        785.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时线、15分钟、2分钟的逐级分析过程，清晰标注了操纵腿、标准差、FVG等关键结构，并给出了具体的价格目标和入场策略。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:17.887636Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线到小时线的多时间框架操纵腿投影分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D / 1H / 15M / 2M\",\"market_context\":\"NQ在周二触及日线FVG后反转，周三扩大下跌。博主预期周四继续下行，目标为-2到-2.5标准差区域，结合多个时间框架的操纵腿投影寻找高概率入场点。\",\"key_observation\":\"博主通过日线识别周二高点进入的日FVG，预期周四继续下跌。在小时线上，操纵腿投影与-2到-2.5标准差、伦敦低点等PD数组形成汇聚，提供多重目标确认。\",\"analysis_steps\":[\"Step 1: 在日线图上识别周二高点进入的日FVG（Daily Fair Value Gap）\",\"Step 2: 基于日线结构预期周四价格继续下跌，目标为-2到-2.5标准差\",\"Step 3: 下钻到小时线，标记出进入日FVG的操纵腿（从高点到低点）\",\"Step 4: 投影操纵腿，确定-2到-2.5标准差的目标区域\",\"Step 5: 识别左侧的FVG和-4标准差线，作为PD数组与投影汇聚\",\"Step 6: 继续下钻到15分钟图，观察伦敦盘的整理与操纵（Asia consolidation → London aggressive move → accumulation/manipulation）\",\"Step 7: 在15分钟图上标记等高点（equal highs），预期伦敦回测后纽约继续下行\",\"Step 8: 下钻到2分钟图，标记订单块（Order Block）并观察其下方的位移（Displacement）\",\"Step 9: 在2分钟图上标记新的操纵腿（从新高的低点），投影其目标\",\"Step 10: 确认伦敦低点与-2标准差汇聚，作为理想目标（low hanging fruit）\",\"Step 11: 识别订单块回测作为第一入场点，止损设在高点，目标指向伦敦低点\"],\"outcome\":\"价格最终触及-2到-2.5标准差区域，并扫过-4标准差线。多个操纵腿投影的-4标准差与另一投影的-2到-2.5标准差形成汇聚，确认了目标区域的有效性。\",\"lessons\":\"多时间框架操纵腿投影可通过标准差和PD数组（FVG、OB、摆动低点）形成汇聚，提高目标确认度。当多个投影的不同标准差水平重合时，该区域成为高概率目标。订单块回测提供低风险入场机会。\",\"primary_image_frame_id\":\"kTWXpAo1uE8_f021\",\"supporting_image_frame_ids\":[\"kTWXpAo1uE8_f001\",\"kTWXpAo1uE8_f016\",\"kTWXpAo1uE8_f017\",\"kTWXpAo1uE8_f018\",\"kTWXpAo1uE8_f019\",\"kTWXpAo1uE8_f020\",\"kTWXpAo1uE8_f022\",\"kTWXpAo1uE8_f023\",\"kTWXpAo1uE8_f024\",\"kTWXpAo1uE8_f025\",\"kTWXpAo1uE8_f026\",\"kTWXpAo1uE8_f027\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Standard Deviation Projection\",\"PD Array\",\"Manipulation Leg\",\"Market Stru",
+  "error": null
+}

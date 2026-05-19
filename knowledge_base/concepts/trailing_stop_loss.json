@@ -1,0 +1,55 @@
+{
+  "card_id": "trailing_stop_loss",
+  "type": "merged_concept",
+  "canonical_term": "Trailing Stop Loss",
+  "aliases": [
+    "Moving Stop Loss",
+    "Trail Stop"
+  ],
+  "school": "Risk Management",
+  "definition": "在交易中逐步调整止损位置的策略。通常在首次部分平仓后，每当价格结构被破坏时，将止损向有利方向移至新的保护位（如短期高点/低点或订单块），以锁定利润并跟踪价格运动。",
+  "identification_rules": [
+    "初始止损设置在进场时的关键K线高点/低点或短期结构位置",
+    "仅在价格结构被破坏（Market Structure Shift）后才移动止损",
+    "每次结构破坏时，将止损移至新形成的短期高点/低点或订单块位置",
+    "止损逐步向有利方向推进，形成阶梯式上升（做空）或下降（做多）的轨迹"
+  ],
+  "trading_implication": "Trailing Stop Loss 用于在趋势延续中保护利润并跟踪价格。交易者在首次部分平仓后启动跟踪，通过在每个结构破坏点重新设置止损，既能防止价格反向触发止损，又能在趋势反转时及时出场。这种方法适合在位移（Displacement）和多个结构破坏的行情中使用，可在不同时间框架（如从5分钟切换到1分钟）进行更紧密的跟踪。",
+  "common_mistakes": [
+    "在价格结构未被破坏前过早移动止损，导致被虚假突破触发",
+    "忽视时间框架的连续性，在低时间框架跟踪时未确认高时间框架的结构破坏",
+    "在没有部分平仓的情况下开始跟踪，增加被扫出的风险"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "LZZAaILYNyI",
+      "original_card_id": "LZZAaILYNyI_concept_trailing_stop_loss",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.759,
+        281.639
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136369Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

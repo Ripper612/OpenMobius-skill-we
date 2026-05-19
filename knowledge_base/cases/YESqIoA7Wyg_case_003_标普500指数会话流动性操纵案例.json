@@ -1,0 +1,108 @@
+{
+  "card_id": "YESqIoA7Wyg_case_003_标普500指数会话流动性操纵案例",
+  "type": "case",
+  "title": "ES 15分钟会话流动性操纵与缺乏位移预测",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Session High/Low",
+      "card_id": "session_high_low",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "displacement",
+    "session_high_low",
+    "killzone",
+    "order_block",
+    "fair_value_gap",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "ES11",
+  "timeframe": "15m",
+  "market_context": "标普500指数在2023年8月23-24日期间跨越亚洲、伦敦、纽约三个交易时段。价格从4480附近上升至4530，随后回落至4487.50附近。分析重点在于观察各会话高低点的扫盘过程及缺乏位移对后续方向的预示作用。",
+  "key_observation": "博主观察到亚洲时段缺乏向上位移（未能突破亚洲高点），但在伦敦时段成功向下位移突破亚洲低点，这种缺乏位移的模式为纽约时段的继续下跌提供了明确的方向指引。",
+  "analysis_steps": [
+    "Step 1: 标记亚洲会话高低点（Asia High/Low），观察价格是否能够突破这些水平。",
+    "Step 2: 识别亚洲时段缺乏向上位移的现象——价格未能有力突破亚洲高点，仅在该区域盘整。",
+    "Step 3: 观察伦敦会话开始后，价格扫除伦敦高点，随后向下位移突破亚洲低点。",
+    "Step 4: 从伦敦低点向前投影操纵区域（2:00-2:30和4:00-4:30时间段），预期纽约时段价格将继续下行。",
+    "Step 5: 进入纽约上午会话（8:30-11:00），确认前一日低点作为主要流动性目标（draw on liquidity）。",
+    "Step 6: 观察纽约时段扫除伦敦高点后的向下位移，确认继续做空的设置。",
+    "Step 7: 利用该范围的最优交易入场点（OTE）寻找做空机会，目标指向前一日低点。"
+  ],
+  "outcome": null,
+  "lessons": "缺乏位移（lack of displacement）是判断市场方向的关键信号。当价格在某个会话内未能有力突破关键水平时，反向方向的突破往往更具有说服力。通过跨会话观察流动性扫盘过程，可以提前预测后续时段的价格走向，从而在纽约时段建立高概率的交易设置。",
+  "primary_image": "cards/YESqIoA7Wyg/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/YESqIoA7Wyg/images/case_003_detail_1.jpg",
+    "cards/YESqIoA7Wyg/images/case_003_detail_2.jpg",
+    "cards/YESqIoA7Wyg/images/case_003_detail_3.jpg",
+    "cards/YESqIoA7Wyg/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 15分钟K线图。图上显示从左侧18:00至右侧06:00的价格走势，可见价格范围约4477.50至4540.50。图上有4条水平线分别位于4532.50、4525.00、4505.00、4487.50。另有3个灰色矩形区域标注，分别覆盖4530-4532.50、4515-4520、4485-4490价格区间。K线形态显示从左侧上升至4530附近后下跌，中间区域K线交替出现，右侧继续下跌至4",
+    "case_003_detail_1.jpg": "图表展示一系列 K 线，混合绿色和黑色蜡烛。图上标注有四条水平线，分别标记为'London Session High'、'London Session Low'、'Asian Session High'、'Asian Session Low'，用于划分不同交易时段的价格范围。页面顶部显示'Sessions'标签和'Eastern Standard Time (EST)'时区标注。K 线整体呈现上升",
+    "case_003_detail_2.jpg": "USD 15分钟K线图，日期标注为23/8/2023。图上显示一根大幅上升的绿色K线从约4480上升至4523，随后进入盘整区间。从19:00至21:00期间，黑色和绿色K线在4518至4521区间内反复震荡，每根K线均带有上下影线。右侧价格刻度显示4517.75处有标注。图表底部显示时间轴从06:00至15:00，当前时间点在22:30附近。整体可见价格范围约从4477.50至4524.50。",
+    "case_003_detail_3.jpg": "USD 15分钟K线图，日期标注为24/2/2023。图表显示价格范围约4477.50至4527.50。图上绘制两条水平线，分别位于4517.50和4526.25价格水平。一个矩形框标注连接这两条水平线之间的区域。K线形态显示图表左侧有一根大幅上升的绿色K线，随后在4517.50至4527.50区间内形成多根交替的绿色和黑色K线的整理形态，跨越约10小时的时间范围。",
+    "case_003_detail_4.jpg": "USD 15分钟K线图。图上显示价格范围从4477.50至4530.00。左侧K线呈上升趋势，主要为绿色蜡烛。中间区域有两条水平线标注，分别位于4530.00和4517.50附近，形成矩形框。右侧K线呈下降趋势，主要为黑色蜡烛。图上标注有时间信息'24/8/2023 ES11 | 15m'和'0:00'。横轴显示时间刻度从12:00至25（次日）。"
+  },
+  "sources": [
+    {
+      "video_id": "YESqIoA7Wyg",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        373.12,
+        727.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对ES 15分钟图的分析完整清晰，包括资产代码、时间框架、具体价位、三个会话的高低点标记、缺乏位移的观察、以及纽约时段的交易设置逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:53.464900Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 15分钟会话流动性操纵与缺乏位移预测\",\"school\":\"ICT\",\"asset\":\"ES11\",\"timeframe\":\"15m\",\"market_context\":\"标普500指数在2023年8月23-24日期间跨越亚洲、伦敦、纽约三个交易时段。价格从4480附近上升至4530，随后回落至4487.50附近。分析重点在于观察各会话高低点的扫盘过程及缺乏位移对后续方向的预示作用。\",\"key_observation\":\"博主观察到亚洲时段缺乏向上位移（未能突破亚洲高点），但在伦敦时段成功向下位移突破亚洲低点，这种缺乏位移的模式为纽约时段的继续下跌提供了明确的方向指引。\",\"analysis_steps\":[\"Step 1: 标记亚洲会话高低点（Asia High/Low），观察价格是否能够突破这些水平。\",\"Step 2: 识别亚洲时段缺乏向上位移的现象——价格未能有力突破亚洲高点，仅在该区域盘整。\",\"Step 3: 观察伦敦会话开始后，价格扫除伦敦高点，随后向下位移突破亚洲低点。\",\"Step 4: 从伦敦低点向前投影操纵区域（2:00-2:30和4:00-4:30时间段），预期纽约时段价格将继续下行。\",\"Step 5: 进入纽约上午会话（8:30-11:00），确认前一日低点作为主要流动性目标（draw on liquidity）。\",\"Step 6: 观察纽约时段扫除伦敦高点后的向下位移，确认继续做空的设置。\",\"Step 7: 利用该范围的最优交易入场点（OTE）寻找做空机会，目标指向前一日低点。\"],\"outcome\":null,\"lessons\":\"缺乏位移（lack of displacement）是判断市场方向的关键信号。当价格在某个会话内未能有力突破关键水平时，反向方向的突破往往更具有说服力。通过跨会话观察流动性扫盘过程，可以提前预测后续时段的价格走向，从而在纽约时段建立高概率的交易设置。\",\"primary_image_frame_id\":\"YESqIoA7Wyg_f019\",\"supporting_image_frame_ids\":[\"YESqIoA7Wyg_f015\",\"YESqIoA7Wyg_f016\",\"YESqIoA7Wyg_f017\",\"YESqIoA7Wyg_f018\"],\"related_concepts\":[\"Liquidity\",\"Displacement\",\"Session High/Low\",\"Killzone\",\"Order Block\",\"Fair Value Gap\",\"Inducement\",\"OTE\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对ES 15分钟图的分析完整清晰，包括资产代码、时间框架、具体价位、三个会话的高低点标记、缺乏位移的观察、以及纽约时段的交易设置逻辑。\"}",
+  "error": null
+}

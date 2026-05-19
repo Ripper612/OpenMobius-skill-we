@@ -1,0 +1,102 @@
+{
+  "card_id": "q40pRwjuPYQ_case_004_调整策略第一个例子_使用displacement和breaker",
+  "type": "case",
+  "title": "使用Displacement和Breaker Block在30秒图表上获得1.55R",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "breaker_block",
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "market_structure_shift",
+    "risk_to_reward_management"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "30S",
+  "market_context": "NQ1!在9月25日形成从14890到14932的上升趋势后回调。博主在5分钟图表上识别出向下的公允价值缺口（FVG），预期价格会回测该缺口区域。",
+  "key_observation": "博主不等待5分钟收盘，而是在30秒图表上寻找Displacement（位移）突破和Breaker Block与FVG的结合，以获得更高的风险收益比。",
+  "analysis_steps": [
+    "Step 1: 在4小时图表上识别前期高点（14936.25）和向下的公允价值缺口（FVG）在折价区（14918.25-14926.00）。",
+    "Step 2: 下钻到5分钟图表，确认价格扫荡了前期摆动高点，形成止损扫荡（stop raid）。",
+    "Step 3: 继续下钻到30秒图表，在向下收盘的K线后识别出FVG。",
+    "Step 4: 等待Displacement：观察价格是否突破该低点并形成有力的向下移动。",
+    "Step 5: 确认Breaker Block形成：前期的支撑（高点）在突破后转变为新的阻力。",
+    "Step 6: 在FVG与Breaker Block的结合处寻找入场点，止损设在该高点（10点）。",
+    "Step 7: 目标设定在初始低点或流动性扫荡区域，实现1.55R的风险收益比。"
+  ],
+  "outcome": "价格从入场点向下运行，触及初始低点和流动性扫荡区域，达到1.55R的目标收益。",
+  "lessons": "通过在低时间框架（30秒）上结合Displacement和Breaker Block寻找高概率入场，可以获得更优的风险收益比。不必等待5分钟收盘，而是在结构确认后立即行动，能够捕捉更精确的交易机会。",
+  "primary_image": "cards/q40pRwjuPYQ/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/q40pRwjuPYQ/images/case_004_detail_1.jpg",
+    "cards/q40pRwjuPYQ/images/case_004_detail_2.jpg",
+    "cards/q40pRwjuPYQ/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD 1A 时间框架 K 线图。图上显示价格范围从 14890.00 至 14944.00。可见多根绿色和黑色 K 线交替排列。右侧标注有两个矩形区域，分别用灰色和浅蓝色填充。图上有三条水平参考线分别位于 14936.25、14916.25 和 14892.00。底部显示时间标记为 25/9/2023，标注信息为 NQ(1 : 305。图表工具栏可见成交量指标。",
+    "case_004_detail_1.jpg": "USD 4小时K线图。图上显示价格从14890.00上升至14932.00，随后下跌至14914.50。图表右侧标注日期为25/9/2023及NQ(1:305。图上有三条水平线分别位于14936.25、14916.25和14914.50。两个矩形区域标注在14914.50至14926.00价格范围内，上方矩形为浅灰色，下方矩形为浅青色。K线整体价格范围约从14890.00至14944.00。",
+    "case_004_detail_2.jpg": "USD 4 小时 K 线图，时间戳显示 25/9/2023，标记 NQ(1) 305。图上可见价格范围约从 14890 到 14944。图表显示一段上升趋势后跟随下降趋势。两条水平线分别位于 14936.25 和 14918.25。图上有两个矩形标注框覆盖 14918.25 至 14936.25 的价格区间，其中一个为灰色，一个为浅蓝色。底部显示成交量柱状图。",
+    "case_004_detail_3.jpg": "USD 4 分钟 K 线图，时间范围从 09:30 至 14:15。图上显示一系列绿色和黑色 K 线，从 09:30 开始交替出现。11:00 处有一根较大的绿色 K 线，上影线延伸至约 14920。随后在 11:15 至 12:00 期间形成一个整理区间，价格在约 14860 至 14920 之间波动。图上绘有一条灰色矩形框覆盖该整理区域，以及一条从右上方向下的趋势线。右下角标注显示日期 25/"
+  },
+  "sources": [
+    {
+      "video_id": "q40pRwjuPYQ",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        418.599,
+        690.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从高时间框架到低时间框架的分析过程，清晰标注了入场点、止损和目标，并明确说明了1.55R的最终结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:03.560196Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"使用Displacement和Breaker Block在30秒图表上获得1.55R\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"30S\",\"market_context\":\"NQ1!在9月25日形成从14890到14932的上升趋势后回调。博主在5分钟图表上识别出向下的公允价值缺口（FVG），预期价格会回测该缺口区域。\",\"key_observation\":\"博主不等待5分钟收盘，而是在30秒图表上寻找Displacement（位移）突破和Breaker Block与FVG的结合，以获得更高的风险收益比。\",\"analysis_steps\":[\"Step 1: 在4小时图表上识别前期高点（14936.25）和向下的公允价值缺口（FVG）在折价区（14918.25-14926.00）。\",\"Step 2: 下钻到5分钟图表，确认价格扫荡了前期摆动高点，形成止损扫荡（stop raid）。\",\"Step 3: 继续下钻到30秒图表，在向下收盘的K线后识别出FVG。\",\"Step 4: 等待Displacement：观察价格是否突破该低点并形成有力的向下移动。\",\"Step 5: 确认Breaker Block形成：前期的支撑（高点）在突破后转变为新的阻力。\",\"Step 6: 在FVG与Breaker Block的结合处寻找入场点，止损设在该高点（10点）。\",\"Step 7: 目标设定在初始低点或流动性扫荡区域，实现1.55R的风险收益比。\"],\"outcome\":\"价格从入场点向下运行，触及初始低点和流动性扫荡区域，达到1.55R的目标收益。\",\"lessons\":\"通过在低时间框架（30秒）上结合Displacement和Breaker Block寻找高概率入场，可以获得更优的风险收益比。不必等待5分钟收盘，而是在结构确认后立即行动，能够捕捉更精确的交易机会。\",\"primary_image_frame_id\":\"q40pRwjuPYQ_f024\",\"supporting_image_frame_ids\":[\"q40pRwjuPYQ_f001\",\"q40pRwjuPYQ_f015\",\"q40pRwjuPYQ_f023\",\"q40pRwjuPYQ_f020\"],\"related_concepts\":[\"Displacement\",\"Breaker Block\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Market Structure Shift\",\"Risk to Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从高时间框架到低时间框架的分析过程，清晰标注了入场点、止损和目标，并明确说明了1.55R的最终结果。\"}",
+  "error": null
+}

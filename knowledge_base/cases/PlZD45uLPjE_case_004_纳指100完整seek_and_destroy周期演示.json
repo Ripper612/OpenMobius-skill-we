@@ -1,0 +1,112 @@
+{
+  "card_id": "PlZD45uLPjE_case_004_纳指100完整seek_and_destroy周期演示",
+  "type": "case",
+  "title": "纳指100完整Seek and Destroy周期演示",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Seek and Destroy",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "equilibrium",
+    "market_structure",
+    "displacement",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M",
+  "market_context": "纳指100期货在亚洲时段形成高低点结构后，价格从偏离点出发，依次触及多个关键价位，展现完整的智能货币扫荡流动性周期。",
+  "key_observation": "博主演示了从初始偏离点出发，价格依次回测均衡点、OTE、买方流动性，随后上升创新高，再次回撤至均衡点和OTE，最终扫除卖方流动性的完整Seek and Destroy周期。",
+  "analysis_steps": [
+    "Step 1: 识别亚洲时段高点（Asian Session High ~12910）和低点（Asian Session Low ~12810），以及Daily Open（12873.25）作为基准结构。",
+    "Step 2: 标记上方买方流动性（Buyside Liquidity ~12900-12950）和下方卖方流动性（Sellside Liquidity ~12730-12760）区域。",
+    "Step 3: 观察价格从高点偏离后首先回测均衡点（0.5斐波那契水平）。",
+    "Step 4: 价格继续下行触及OTE区域（0.62-0.79斐波那契水平之间）。",
+    "Step 5: 价格进一步下探触及买方流动性区域。",
+    "Step 6: 价格反转上升，创出新高。",
+    "Step 7: 价格再次回撤至均衡点（0.5水平）。",
+    "Step 8: 价格触及OTE区域进行二次测试。",
+    "Step 9: 价格最终突破并扫除卖方流动性，完成整个周期。"
+  ],
+  "outcome": null,
+  "lessons": "完整的Seek and Destroy周期展现了智能货币如何系统地扫荡流动性：先向下扫买方流动性，再向上扫卖方流动性。交易者应识别均衡点、OTE和流动性区域作为关键参考点，预测价格的多阶段运动。",
+  "primary_image": "cards/PlZD45uLPjE/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/PlZD45uLPjE/images/case_004_detail_1.jpg",
+    "cards/PlZD45uLPjE/images/case_004_detail_2.jpg",
+    "cards/PlZD45uLPjE/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "NASDAQ 100 E-mini Futures 15分钟图。图上标注有两个粉红色矩形框分别标记为'Buyside Liquidity'（约12900-12950）和'Sellside Liquidity'（约12730-12760）。另有四个矩形框标记'Asian Session High'、'Asian Session Low'、'Daily Open'及三个斐波那契水平标签0.79、0.5",
+    "case_004_detail_1.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上标注有两条水平线分别标记为Asian Session High（12910.00）和Asian Session Low（12810.00）。图上有多个矩形框标注，包括上方Buyside Liquidity区域、下方Sellside Liquidity区域，以及Daily Open标注。可见K线价格范围从12742.00至130",
+    "case_004_detail_2.jpg": "NASDAQ 100 E-mini Futures 15分钟图表。图上标注了多个价格水平和结构：上方粉色矩形标记为Buyside Liquidity，下方粉色矩形标记为Sellside Liquidity。图中有Asian Session High和Asian Session Low两条标注线，Daily Open水平线位于12873.25。中央区域显示一个矩形框，内部包含多根绿黑K线形成的整理形",
+    "case_004_detail_3.jpg": "NASDAQ 100 E-mini Futures 15分钟图表。图上标注有三条水平线，分别位于0.5、0.62和0.79位置。左侧标记有两个矩形区域，分别标注为'Buyside Liquidity'和'Sellside Liquidity'。图上还有四个文字标签：'Asian Session High'、'Daily Open'、'Asia Session Low'和'Buyside Liqui"
+  },
+  "sources": [
+    {
+      "video_id": "PlZD45uLPjE",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        506.34,
+        592.98
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了整个周期的每个阶段，关键价位、时间框架、资产代码均清晰可读，分析步骤按顺序展开。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:40.502657Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳指100完整Seek and Destroy周期演示\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M\",\"market_context\":\"纳指100期货在亚洲时段形成高低点结构后，价格从偏离点出发，依次触及多个关键价位，展现完整的智能货币扫荡流动性周期。\",\"key_observation\":\"博主演示了从初始偏离点出发，价格依次回测均衡点、OTE、买方流动性，随后上升创新高，再次回撤至均衡点和OTE，最终扫除卖方流动性的完整Seek and Destroy周期。\",\"analysis_steps\":[\"Step 1: 识别亚洲时段高点（Asian Session High ~12910）和低点（Asian Session Low ~12810），以及Daily Open（12873.25）作为基准结构。\",\"Step 2: 标记上方买方流动性（Buyside Liquidity ~12900-12950）和下方卖方流动性（Sellside Liquidity ~12730-12760）区域。\",\"Step 3: 观察价格从高点偏离后首先回测均衡点（0.5斐波那契水平）。\",\"Step 4: 价格继续下行触及OTE区域（0.62-0.79斐波那契水平之间）。\",\"Step 5: 价格进一步下探触及买方流动性区域。\",\"Step 6: 价格反转上升，创出新高。\",\"Step 7: 价格再次回撤至均衡点（0.5水平）。\",\"Step 8: 价格触及OTE区域进行二次测试。\",\"Step 9: 价格最终突破并扫除卖方流动性，完成整个周期。\"],\"outcome\":null,\"lessons\":\"完整的Seek and Destroy周期展现了智能货币如何系统地扫荡流动性：先向下扫买方流动性，再向上扫卖方流动性。交易者应识别均衡点、OTE和流动性区域作为关键参考点，预测价格的多阶段运动。\",\"primary_image_frame_id\":\"PlZD45uLPjE_f020\",\"supporting_image_frame_ids\":[\"PlZD45uLPjE_f018\",\"PlZD45uLPjE_f019\",\"PlZD45uLPjE_f021\"],\"related_concepts\":[\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Equilibrium\",\"OTE\",\"Seek and Destroy\",\"Market Structure\",\"Displacement\",\"Premium/Discount\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了整个周期的每个阶段，关键价位、时间框架、资产代码均清晰可读，分析步骤按顺序展开。\"}",
+  "error": null
+}

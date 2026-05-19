@@ -1,0 +1,59 @@
+{
+  "card_id": "twitter_model",
+  "type": "merged_concept",
+  "canonical_term": "Twitter Model",
+  "aliases": [
+    "MMXM Trader's Twitter Model"
+  ],
+  "school": "SMC",
+  "definition": "一种跨时间框架交易模型，从外部流动性转向内部流动性，结合前一日高/低点、小时级FVG、15分钟市场结构转变和SMT，在午夜开盘价附近寻找交易机会。",
+  "identification_rules": [
+    "识别前一日高点（做空）或前一日低点（做多）作为外部流动性扫荡点",
+    "在1小时时间框架上确认相应方向的FVG（看涨FVG用于做空，看跌FVG用于做多）",
+    "在15分钟时间框架上寻找市场结构转变或交付状态改变（CSD）",
+    "在15分钟上识别SMT信号（与其他资产的分歧，如一个创新高而另一个未创新高）",
+    "确认交易入场点位于午夜开盘价上方（做空）或下方（做多）",
+    "风险回报比最低要求为2:1"
+  ],
+  "trading_implication": "该模型通过三层时间框架联动（日线→1小时→15分钟）识别高概率交易机会。交易者先在日线确认趋势方向和外部流动性目标，再在小时级定位FVG作为目标，最后在15分钟级寻找精确入场点。午夜开盘价作为关键参考线，帮助确认交易时机。该模型可向上或向下平移时间框架应用（如周线-4小时-1小时），具有分形特性。",
+  "common_mistakes": [
+    "未确保风险回报比达到2:1最低要求就仓促入场",
+    "混淆做空和做多的逻辑：做空需要前一日高点+看涨FVG，做多需要前一日低点+看跌FVG",
+    "忽视SMT信号或市场结构转变的确认，仅依赖FVG入场",
+    "在午夜开盘价的错误一侧入场（应在午夜开盘价上方做空，下方做多）",
+    "未在更小时间框架（15分钟）上等待明确的市场结构转变或反转信号就入场"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "WwmS47Gb3M0",
+      "original_card_id": "WwmS47Gb3M0_concept_twitter_model_mmxm_trader",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.84,
+        551.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136434Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

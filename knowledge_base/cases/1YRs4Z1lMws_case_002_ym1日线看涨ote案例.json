@@ -1,0 +1,108 @@
+{
+  "card_id": "1YRs4Z1lMws_case_002_ym1日线看涨ote案例",
+  "type": "case",
+  "title": "YM1日线看涨OTE案例：FVG与订单块汇聚的多重确认",
+  "related_concepts": [
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "PD Array (Premium/Discount Array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity (BSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "ote_optimal_trade_entry",
+    "order_block_ob",
+    "fibonacci_retracement",
+    "mean_threshold",
+    "buyside_sellside_liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "YM1!",
+  "timeframe": "1D",
+  "market_context": "YM1在2023年8月底形成摆动低点约34300，随后反弹至约35900区域形成摆动高点。价格从高点回撤，在OTE区域（0.62-0.79斐波那契水平）与多个PD阵列形成汇聚。",
+  "key_observation": "博主识别出YM1日线中，从摆动高点至低点的OTE区域（0.62-0.79，含0.705中点）与FVG和订单块形成多重汇聚，为看涨入场提供高概率设置。",
+  "analysis_steps": [
+    "Step 1: 使用斐波那契工具从摆动高点向下拖至摆动低点，标记出完整的回撤区间。",
+    "Step 2: 识别OTE区域为0.62至0.79之间的价格带，包括0.705中点作为关键参考。",
+    "Step 3: 观察价格回撤至OTE区域时的行为，预期价格触及该区域后寻求向上突破。",
+    "Step 4: 扫描OTE左侧的历史结构，发现FVG（公允价值缺口）与OTE区域重叠。",
+    "Step 5: 进一步识别订单块（Order Block）在OTE区域内，通过大幅下跌K线扫除低点后的反弹K线验证其有效性。",
+    "Step 6: 使用订单块的中点（50%位置/Mean Threshold）作为补充入场参考，当开盘价不在OTE内时。",
+    "Step 7: 确认多重汇聚（FVG + OTE + Order Block）形成的高概率看涨设置，等待价格突破OTE向上扫除买方流动性。"
+  ],
+  "outcome": null,
+  "lessons": "OTE与其他PD阵列（FVG、Order Block）的多重汇聚大幅提高入场概率。订单块的中点（Mean Threshold）在开盘价不在OTE时提供替代参考。价格在这些汇聚区域的行为验证了市场结构的有效性。",
+  "primary_image": "cards/1YRs4Z1lMws/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/1YRs4Z1lMws/images/case_002_detail_1.jpg",
+    "cards/1YRs4Z1lMws/images/case_002_detail_2.jpg",
+    "cards/1YRs4Z1lMws/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图为 YM1!（道琼斯期货）日线蜡烛图，可见价格范围约 34300 至 36000。图右侧绘有斐波那契水平线，标注数值分别为 0.5、0.62、0.705、0.79，对应价格区间约 34600 至 34800。图上另有两条无标签水平线，分别位于约 35100 和 34400 附近。K 线序列显示从左侧约 35900 区域向下延伸至约 34400，期间出现数根绿色 K 线的反弹段，随后最新数根 K ",
+    "case_002_detail_1.jpg": "YM1! 日线蜡烛图，可见价格范围约 34000 至 36300。图上标注有斐波那契回撤工具，水平线分别标记为 0.5、0.62、0.68、0.79，分布于约 34600 至 34800 区间。图右侧有一矩形区域，上边界约 35300，下边界约 34300。约 8 月 28 日处有一圆形标记，对应低点约 34300。此后图上出现三根绿色 K 线，最新一根收于约 35300 附近。左侧价格轴显示当前",
+    "case_002_detail_2.jpg": "图表顶部标题栏显示文字'Optimal Trade Entry (OTE)'。图上绘制有斐波那契回撤工具，从摆动高点（标记为1）至摆动低点（标记为0），可见水平线分别标注为1、.79、.705、.62、.5、0。其中.705处水平线以橙色标出，位于.79与.62之间的区域对应OTE区间。K线整体走势从图左上方向右下方延伸，图上可见约20根K线。摆动高点与摆动低点处各有一个弧形标注。图中含水印文字'",
+    "case_002_detail_3.jpg": "YM1! 日线 K 线图，图底部标注日期为 2023 年 12 月 9 日。可见价格范围约从 34100 至 35700。图右侧标注有四条斐波那契水平线，数值分别为 0.5、0.62、0.705、0.79，对应价格区间约在 34450 至 35310 之间。图上有一条水平线延伸至约 34896 处，右侧价格轴显示当前价标签 34896 及另一标签 34460。图右侧可见两个矩形框，分别位于约 34"
+  },
+  "sources": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        124.399,
+        335.52
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了YM1日线OTE案例的分析全过程，包括摆动点标记、斐波那契工具应用、OTE区域定义、PD阵列汇聚识别和订单块验证，步骤清晰、价格水平明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:15:51.608454Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"YM1日线看涨OTE案例：FVG与订单块汇聚的多重确认\",\"school\":\"ICT\",\"asset\":\"YM1!\",\"timeframe\":\"1D\",\"market_context\":\"YM1在2023年8月底形成摆动低点约34300，随后反弹至约35900区域形成摆动高点。价格从高点回撤，在OTE区域（0.62-0.79斐波那契水平）与多个PD阵列形成汇聚。\",\"key_observation\":\"博主识别出YM1日线中，从摆动高点至低点的OTE区域（0.62-0.79，含0.705中点）与FVG和订单块形成多重汇聚，为看涨入场提供高概率设置。\",\"analysis_steps\":[\"Step 1: 使用斐波那契工具从摆动高点向下拖至摆动低点，标记出完整的回撤区间。\",\"Step 2: 识别OTE区域为0.62至0.79之间的价格带，包括0.705中点作为关键参考。\",\"Step 3: 观察价格回撤至OTE区域时的行为，预期价格触及该区域后寻求向上突破。\",\"Step 4: 扫描OTE左侧的历史结构，发现FVG（公允价值缺口）与OTE区域重叠。\",\"Step 5: 进一步识别订单块（Order Block）在OTE区域内，通过大幅下跌K线扫除低点后的反弹K线验证其有效性。\",\"Step 6: 使用订单块的中点（50%位置/Mean Threshold）作为补充入场参考，当开盘价不在OTE内时。\",\"Step 7: 确认多重汇聚（FVG + OTE + Order Block）形成的高概率看涨设置，等待价格突破OTE向上扫除买方流动性。\"],\"outcome\":null,\"lessons\":\"OTE与其他PD阵列（FVG、Order Block）的多重汇聚大幅提高入场概率。订单块的中点（Mean Threshold）在开盘价不在OTE时提供替代参考。价格在这些汇聚区域的行为验证了市场结构的有效性。\",\"primary_image_frame_id\":\"1YRs4Z1lMws_f009\",\"supporting_image_frame_ids\":[\"1YRs4Z1lMws_f006\",\"1YRs4Z1lMws_f007\",\"1YRs4Z1lMws_f012\"],\"related_concepts\":[\"OTE (Optimal Trade Entry)\",\"FVG (Fair Value Gap)\",\"Order Block (OB)\",\"Fibonacci Retracement\",\"PD Array (Premium/Discount Array)\",\"Mean Threshold\",\"Buyside Liquidity (BSL)\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了YM1日线OTE案例的分析全过程，包括摆动点标记、斐波那契工具应用、OTE区域定义、PD阵列汇聚识别和订单块验证，步骤清晰、价格水平明确。\"}",
+  "error": null
+}

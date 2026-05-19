@@ -1,0 +1,100 @@
+{
+  "card_id": "jKuXaC84Qx4_case_005_第五个例子_前一日低点反弹与eq突破",
+  "type": "case",
+  "title": "前一日低点V形反应与EQ突破分析",
+  "related_concepts": [
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "V-shape Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Correlated Assets",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "equilibrium_eq",
+    "v_shaped_reversal",
+    "candle_two_closure",
+    "swing_formation",
+    "market_structure",
+    "aligned_timeframe"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": null,
+  "market_context": "价格在前一日形成下跌后，于低点区域出现V形反应，随后收盘突破EQ水平。博主指出虽然预期上行至摆动高点，但受相关资产（USD/JPY）影响，目标未必总能达成。",
+  "key_observation": "价格在前一日低点形成V形反应，形成反转K线，收盘突破EQ后，预期向摆动高点运行，但相关资产走势可能影响目标达成。",
+  "analysis_steps": [
+    "Step 1: 观察前一日的candle two收盘和对前一日低点的延续走势",
+    "Step 2: 识别前一日低点处的V形反应，确认反转K线的形成",
+    "Step 3: 确定EQ（均衡点）水平作为关键参考位",
+    "Step 4: 观察价格是否收盘突破EQ，判断是否\"disrespecting\"该水平",
+    "Step 5: 基于EQ突破，预期价格向前期摆动高点运行",
+    "Step 6: 考虑相关资产（USD/JPY）的影响，评估目标达成的概率"
+  ],
+  "outcome": "价格收盘突破EQ，但由于相关资产USD/JPY的影响，未能达到预期的摆动高点目标。",
+  "lessons": "EQ突破虽然是看涨信号，但需要结合相关资产走势进行判断。不能机械地假设每次EQ突破都会达到目标，需要具备市场洞察力（discernment）。该概念具有分形特性，可应用于多个时间框架。",
+  "primary_image": "cards/jKuXaC84Qx4/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/jKuXaC84Qx4/images/case_005_detail_1.jpg",
+    "cards/jKuXaC84Qx4/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为蜡烛图形式，显示价格从左侧上升趋势进入下降趋势。左侧有绿色阴影区域覆盖多根K线。图上标注有3条水平线和多个矩形框。中间部分出现一根大型黑色K线，随后是混合的绿色和黑色K线形成的盘整。右侧显示一根大黑K线后跟一根绿K线。图上绘有向下倾斜的趋势线。具体价格数值、资产代码和时间框架均无法清晰识别。",
+    "case_005_detail_1.jpg": "K线图显示一段完整的价格走势。左侧呈上升趋势，绿色K线占主导，随后出现一根带长上影线的大黑K线。中间部分为下降趋势，黑色K线居多，伴随多根带长下影线的K线。右侧区域显示混合走势，包含绿黑相间的K线，其中有一根带极长下影线的黑色K线。整体图表未见价格刻度标注、资产代码或时间框架标识。",
+    "case_005_detail_2.jpg": "图上显示一张蜡烛图，从左下向右上呈现上升趋势。左侧区间显示绿色和黑色蜡烛混合排列，主体较小，伴有上下影线。中间区间绿色蜡烛逐渐增大，形成明显上升段。右侧上方区间蜡烛主体缩小，绿色和黑色蜡烛交替出现。整体图表未显示资产代码、时间框架、价格刻度或其他文字标注。"
+  },
+  "sources": [
+    {
+      "video_id": "jKuXaC84Qx4",
+      "segment_ids": [
+        "seg_020",
+        "seg_021"
+      ],
+      "time_range": [
+        721.96,
+        801.32
+      ]
+    }
+  ],
+  "extraction_confidence": "medium",
+  "confidence_reason": "博主分析步骤清晰，但图表无法读取具体资产代码和时间框架，价格水平也无法精确识别。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset",
+    "missing_timeframe"
+  ],
+  "extracted_at": "2026-05-13T15:42:04.371979Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"前一日低点V形反应与EQ突破分析\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":null,\"market_context\":\"价格在前一日形成下跌后，于低点区域出现V形反应，随后收盘突破EQ水平。博主指出虽然预期上行至摆动高点，但受相关资产（USD/JPY）影响，目标未必总能达成。\",\"key_observation\":\"价格在前一日低点形成V形反应，形成反转K线，收盘突破EQ后，预期向摆动高点运行，但相关资产走势可能影响目标达成。\",\"analysis_steps\":[\"Step 1: 观察前一日的candle two收盘和对前一日低点的延续走势\",\"Step 2: 识别前一日低点处的V形反应，确认反转K线的形成\",\"Step 3: 确定EQ（均衡点）水平作为关键参考位\",\"Step 4: 观察价格是否收盘突破EQ，判断是否\\\"disrespecting\\\"该水平\",\"Step 5: 基于EQ突破，预期价格向前期摆动高点运行\",\"Step 6: 考虑相关资产（USD/JPY）的影响，评估目标达成的概率\"],\"outcome\":\"价格收盘突破EQ，但由于相关资产USD/JPY的影响，未能达到预期的摆动高点目标。\",\"lessons\":\"EQ突破虽然是看涨信号，但需要结合相关资产走势进行判断。不能机械地假设每次EQ突破都会达到目标，需要具备市场洞察力（discernment）。该概念具有分形特性，可应用于多个时间框架。\",\"primary_image_frame_id\":\"jKuXaC84Qx4_f026\",\"supporting_image_frame_ids\":[\"jKuXaC84Qx4_f025\",\"jKuXaC84Qx4_f027\"],\"related_concepts\":[\"Equilibrium (EQ)\",\"V-shape Reversal\",\"Candle Two Closure\",\"Swing High\",\"Market Structure\",\"Correlated Assets\",\"Fractal Model\"],\"extraction_confidence\":\"medium\",\"confidence_reason\":\"博主分析步骤清晰，但图表无法读取具体资产代码和时间框架，价格水平也无法精确识别。\"}",
+  "error": null
+}

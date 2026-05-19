@@ -1,0 +1,104 @@
+{
+  "card_id": "q40pRwjuPYQ_case_002_nq第二个例子_从内部流动性到外部流动性",
+  "type": "case",
+  "title": "NQ从15分钟内部流动性到5分钟扫盘再到30秒FVG入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "liquidity",
+    "internal_range_liquidity",
+    "swing_high_swing_low",
+    "displacement",
+    "time_frame_confluence",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "Multi-timeframe (15min / 5min / 30sec)",
+  "market_context": "NQ在11:40-12:15时间段内形成15分钟内部范围流动性，随后在5分钟图表上出现向上扫盘，触及高点后形成上升收盘蜡烛，为向外部流动性转变做准备。",
+  "key_observation": "博主从15分钟内部范围流动性转向5分钟扫盘，等待5分钟上升收盘蜡烛确认后，下钻到30秒图表寻找FVG作为精确入场点，体现了多时间框架联动的交易逻辑。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表上识别内部范围流动性区域（约14848-14912之间的盘整）",
+    "Step 2: 下钻到5分钟图表，确认向上扫盘触及高点（约14920处）",
+    "Step 3: 等待5分钟蜡烛以上升收盘确认（在11:50附近获得上升收盘蜡烛）",
+    "Step 4: 下钻到30秒图表，寻找Fair Value Gap作为精确入场点",
+    "Step 5: 识别第二个FVG（第一个会被错过），设置12点止损，目标为外部流动性"
+  ],
+  "outcome": "成功在30秒FVG处获得入场，止损设置在14911.00，目标价格13.30（显示5倍杠杆，金额202050），风险回报比1:1，最终达到目标。",
+  "lessons": "多时间框架协同分析的核心：先用高时间框架（15分钟）确认大方向和流动性结构，用中时间框架（5分钟）确认具体扫盘和收盘确认，最后用低时间框架（30秒）精确入场。等待收盘确认而非急于入场可以避免虚假突破。",
+  "primary_image": "cards/q40pRwjuPYQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/q40pRwjuPYQ/images/case_002_detail_1.jpg",
+    "cards/q40pRwjuPYQ/images/case_002_detail_2.jpg",
+    "cards/q40pRwjuPYQ/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 4 时间框架 K 线图。图上显示价格范围从 14875.00 到 14926.00。图右侧有三个矩形标注框，分别标记为'Target: 13.30 (0.00%) 5x, Amount: 202050'、'Stop: 12.00 (0.00%) 4x, Amount: 118000'和'SL: 14,911.00 TP: 14,911.00 Ratio: 1:1'。图上有两条水平线分别位于",
+    "case_002_detail_1.jpg": "USD 1分钟K线图，时间范围11:40至12:15。图上可见约35根K线，呈绿黑交替排列。标注有两个矩形区域：上方区域约在14895至14907之间，下方区域约在14882至14890之间。K线价格在这两个区域之间波动。右下角显示时间戳'25/9/2023'及'NQ11 / 305'文字。图右侧价格刻度从14876.00至14924.00。",
+    "case_002_detail_2.jpg": "USD 1 分钟 K 线图，时间范围从 11:20 至 12:35。图上显示价格范围从 14676.00 至 14924.00。K 线由绿色和黑色蜡烛交替组成，多数 K 线具有较长的上下影线。图上标注有三条灰色矩形区域和一条青绿色矩形区域，分别位于不同的价格水平。右侧可见交易界面按钮，包括'Sell'、'Buy'和'Flatten'。图表底部显示时间刻度和日期标记'25/9/2023'及'NQ11",
+    "case_002_detail_3.jpg": "USD 5分钟K线图，时间戳显示25/9/2023。图上可见价格范围约从14840到14948。图中标注有一条灰色矩形框，覆盖约14848至14912的价格区间，跨越11:00至11:45的时间段。上方有一条水平线位于约14920处。K线序列显示绿色和黑色蜡烛交替出现，主要集中在矩形框标注的区域内。左下角显示当前价格标记为14864.25。右下角显示交易界面按钮（Sell、Buy、Flatten、"
+  },
+  "sources": [
+    {
+      "video_id": "q40pRwjuPYQ",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        228.799,
+        302.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程，清晰标注了价格水平、时间点、止损和目标，交易结果明确可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:00.729296Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ从15分钟内部流动性到5分钟扫盘再到30秒FVG入场\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"Multi-timeframe (15min / 5min / 30sec)\",\"market_context\":\"NQ在11:40-12:15时间段内形成15分钟内部范围流动性，随后在5分钟图表上出现向上扫盘，触及高点后形成上升收盘蜡烛，为向外部流动性转变做准备。\",\"key_observation\":\"博主从15分钟内部范围流动性转向5分钟扫盘，等待5分钟上升收盘蜡烛确认后，下钻到30秒图表寻找FVG作为精确入场点，体现了多时间框架联动的交易逻辑。\",\"analysis_steps\":[\"Step 1: 在15分钟图表上识别内部范围流动性区域（约14848-14912之间的盘整）\",\"Step 2: 下钻到5分钟图表，确认向上扫盘触及高点（约14920处）\",\"Step 3: 等待5分钟蜡烛以上升收盘确认（在11:50附近获得上升收盘蜡烛）\",\"Step 4: 下钻到30秒图表，寻找Fair Value Gap作为精确入场点\",\"Step 5: 识别第二个FVG（第一个会被错过），设置12点止损，目标为外部流动性\"],\"outcome\":\"成功在30秒FVG处获得入场，止损设置在14911.00，目标价格13.30（显示5倍杠杆，金额202050），风险回报比1:1，最终达到目标。\",\"lessons\":\"多时间框架协同分析的核心：先用高时间框架（15分钟）确认大方向和流动性结构，用中时间框架（5分钟）确认具体扫盘和收盘确认，最后用低时间框架（30秒）精确入场。等待收盘确认而非急于入场可以避免虚假突破。\",\"primary_image_frame_id\":\"q40pRwjuPYQ_f011\",\"supporting_image_frame_ids\":[\"q40pRwjuPYQ_f008\",\"q40pRwjuPYQ_f009\",\"q40pRwjuPYQ_f010\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Liquidity\",\"Internal Range Liquidity\",\"External Range Liquidity\",\"Displacement\",\"Multi-timeframe Analysis\",\"Order Block\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个时间框架的分析过程，清晰标注了价格水平、时间点、止损和目标，交易结果明确可见。\"}",
+  "error": null
+}

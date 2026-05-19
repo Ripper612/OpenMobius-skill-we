@@ -1,0 +1,123 @@
+{
+  "card_id": "0xygpCMwxbQ_case_005_标普500多时间框架从日线到5分钟的交易分析",
+  "type": "case",
+  "title": "标普500多时间框架分析：日线Stop Raid到5分钟精确入场",
+  "related_concepts": [
+    {
+      "term": "Stop Raid",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Sell Side Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity_sweep",
+    "displacement",
+    "equilibrium",
+    "fair_value_gap",
+    "order_block",
+    "buyside_sellside_liquidity",
+    "premium_discount",
+    "point_of_interest",
+    "premium_discount_premium_",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1D / 1H / 15M / 5M",
+  "market_context": "标普500 E-mini期货在日线上形成Stop Raid和向上Displacement，价格回测至小时线均衡点，随后向下扫荡卖方流动性，最终在5分钟图上形成精确的FVG与Order Block入场机会。",
+  "key_observation": "博主通过多时间框架协调分析，识别出日线的Stop Raid和Displacement标志着上升趋势，小时线的均衡点作为回测区域，15分钟卖方流动性被扫荡后，5分钟图上的FVG和Order Block提供了高概率的做多入场点。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别Stop Raid和向上Displacement，用斐波那契标记出Displacement的幅度。",
+    "Step 2: 下移至小时线，确认价格回测至均衡点（Equilibrium）区域。",
+    "Step 3: 进一步下移至15分钟图，识别卖方流动性（Sell Side Liquidity）位置，观察价格是否向下突破进入Point of Interest。",
+    "Step 4: 确认15分钟上的FVG不符合入场条件（因其位于溢价区Premium），排除该FVG。",
+    "Step 5: 下移至5分钟图，识别折价区内的FVG和Order Block，确定精确入场位置。",
+    "Step 6: 设置止损于Order Block低点，初始目标为早盘高点，允许部分头寸跟随趋势运行（Runners）。",
+    "Step 7: 交易执行后，价格尊重入场点并向上Displacement，验证分析有效性。"
+  ],
+  "outcome": "交易入场被尊重（Entry gets respected），价格随后向上Displacement，确认多头方向正确。",
+  "lessons": "多时间框架分析的核心是从高时间框架（日线）识别大趋势方向和Stop Raid/Displacement，通过中等时间框架（小时线、15分钟）确认均衡点和流动性位置，最后在低时间框架（5分钟）精确定位FVG与Order Block入场。必须排除溢价区内的FVG，只在折价区寻找入场机会，并通过Solid Risk Reward管理风险。",
+  "primary_image": "cards/0xygpCMwxbQ/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/0xygpCMwxbQ/images/case_005_detail_1.jpg",
+    "cards/0xygpCMwxbQ/images/case_005_detail_2.jpg",
+    "cards/0xygpCMwxbQ/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，日期标注为 Tue 28 Mar '23，可见价格范围约 3980 至 4014。图右侧有文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上有两个矩形区域：一个粉红色矩形覆盖约 3982 至 3990 价格区间，另一个绿色矩形覆盖约 3990 ",
+    "case_005_detail_1.jpg": "标的为 S&P 500 E-mini Futures（CME_MINI），日线 K 线图，可见价格范围约 3780 至 4200。图右上角有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图右侧价格轴当前价标签显示 4001.50。图中约 3975 至 3995 区间存在一个粉色矩形标注，位于最近数根 K ",
+    "case_005_detail_2.jpg": "图为 S&P 500 E-mini Futures（CME_MINI）15 分钟 K 线图，可见价格范围约从 3968 至 4028。图右上角有文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图中有一个覆盖全图宽度的粉色矩形区域，纵向范围约在 3984 至 3992 之间。图上另有一个较小的蓝色矩形标注，位于约",
+    "case_005_detail_3.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图。图右上角有五行文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上可见一条蓝色水平线位于约 3991.00，从 11:00 延伸至 14:00 附近。右侧价格轴标注三条斐波那契水平线，分别标记为 0.5（约 3988.00）、0.62（约 398"
+  },
+  "sources": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        548.1,
+        650.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到5分钟的分析流程，每个时间框架的关键价位、概念应用和入场逻辑都清晰可见，交易结果也得到验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:14:51.620950Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500多时间框架分析：日线Stop Raid到5分钟精确入场\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1D / 1H / 15M / 5M\",\"market_context\":\"标普500 E-mini期货在日线上形成Stop Raid和向上Displacement，价格回测至小时线均衡点，随后向下扫荡卖方流动性，最终在5分钟图上形成精确的FVG与Order Block入场机会。\",\"key_observation\":\"博主通过多时间框架协调分析，识别出日线的Stop Raid和Displacement标志着上升趋势，小时线的均衡点作为回测区域，15分钟卖方流动性被扫荡后，5分钟图上的FVG和Order Block提供了高概率的做多入场点。\",\"analysis_steps\":[\"Step 1: 在日线图上识别Stop Raid和向上Displacement，用斐波那契标记出Displacement的幅度。\",\"Step 2: 下移至小时线，确认价格回测至均衡点（Equilibrium）区域。\",\"Step 3: 进一步下移至15分钟图，识别卖方流动性（Sell Side Liquidity）位置，观察价格是否向下突破进入Point of Interest。\",\"Step 4: 确认15分钟上的FVG不符合入场条件（因其位于溢价区Premium），排除该FVG。\",\"Step 5: 下移至5分钟图，识别折价区内的FVG和Order Block，确定精确入场位置。\",\"Step 6: 设置止损于Order Block低点，初始目标为早盘高点，允许部分头寸跟随趋势运行（Runners）。\",\"Step 7: 交易执行后，价格尊重入场点并向上Displacement，验证分析有效性。\"],\"outcome\":\"交易入场被尊重（Entry gets respected），价格随后向上Displacement，确认多头方向正确。\",\"lessons\":\"多时间框架分析的核心是从高时间框架（日线）识别大趋势方向和Stop Raid/Displacement，通过中等时间框架（小时线、15分钟）确认均衡点和流动性位置，最后在低时间框架（5分钟）精确定位FVG与Order Block入场。必须排除溢价区内的FVG，只在折价区寻找入场机会，并通过Solid Risk Reward管理风险。\",\"primary_image_frame_id\":\"0xygpCMwxbQ_f021\",\"supporting_image_frame_ids\":[\"0xygpCMwxbQ_f018\",\"0xygpCMwxbQ_f019\",\"0xygpCMwxbQ_f020\"],\"related_concepts\":[\"Stop Raid\",\"Displacement\",\"Equilibrium\",\"Fair Value Gap\",\"Order Block\",\"Sell Side Liquidity\",\"Premium / Discount\",\"Point of Interest\",\"PD Array\",\"Risk Reward Ratio\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到5分钟的分析流程，每个时间框架的关键价位、概念应用和入场逻辑都清晰可见，交易结果也得到验证。\"}",
+  "error": null
+}

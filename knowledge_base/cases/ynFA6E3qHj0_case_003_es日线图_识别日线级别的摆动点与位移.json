@@ -1,0 +1,96 @@
+{
+  "card_id": "ynFA6E3qHj0_case_003_es日线图_识别日线级别的摆动点与位移",
+  "type": "case",
+  "title": "ES日线图：识别摆动点与位移判断日线偏向",
+  "related_concepts": [
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Directional Bias",
+      "card_id": "directional_bias",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "swing_formation",
+    "displacement",
+    "failure_to_displace",
+    "market_structure",
+    "directional_bias",
+    "order_block",
+    "fair_value_gap"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1D",
+  "market_context": "ES在5月至9月期间呈现上升趋势，从约4145上升至4604.54。博主通过日线图识别关键摆动高低点，观察价格是否突破或失败突破这些水平，以建立日线级别的交易方向偏向。",
+  "key_observation": "博主识别了日线上的多个摆动高低点，观察价格对这些关键水平的反应：某些高点价格未能突破并返回范围内，某些低点价格未能突破也返回范围内，而某些高点则出现突破并继续上升，这些反应决定了日线的看涨或看跌偏向。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别摆动高点（Swing High）和摆动低点（Swing Low）",
+    "Step 2: 观察价格是否对摆动高点进行突破（Displacement）或失败突破（Failure to Displace）",
+    "Step 3: 观察价格是否对摆动低点进行突破或失败突破",
+    "Step 4: 根据突破或失败突破的模式判断日线偏向：如果看跌则寻找向下位移和向上失败突破的设置；如果看涨则寻找向上位移和向下失败突破的设置",
+    "Step 5: 确认日线偏向后，在低时间框架（如1分钟图）上寻找符合该偏向的交易机会"
+  ],
+  "outcome": null,
+  "lessons": "建立日线级别的方向偏向对交易至关重要。通过识别摆动点并观察价格对这些水平的反应（突破或失败突破），可以确定是否应该寻找做多或做空机会。这种多时间框架的方法避免了在低时间框架上追逐与日线趋势相反的交易。",
+  "primary_image": "cards/ynFA6E3qHj0/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/ynFA6E3qHj0/images/case_003_detail_1.jpg",
+    "cards/ynFA6E3qHj0/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "ES 日线图。图表显示从 5 月下旬至 9 月初的价格走势，整体价格范围从约 4145 到 4604.54。图上有一个矩形标注框，位置约在 4420 至 4480 价格区间。右侧价格刻度显示 4604.54 和 4490.00 两个数值标签。K 线由绿色和黑色蜡烛组成，呈上升趋势排列。图表底部显示日期标记，包括 5 月、6 月、7 月、8 月、9 月等月份标签。",
+    "case_003_detail_1.jpg": "ES 日线图显示从五月至八月的上升趋势。图上绘制了一个矩形标注框，位置约在 4420 至 4460 价格区间。右下角显示价格标签 4321.25。K 线序列中多根蜡烛呈现长下影线形态。整体可见价格范围从约 4140 至 4700。图表底部显示日期标记'Wed 02 Aug 27'。",
+    "case_003_detail_2.jpg": "NQ1! 1分钟K线图。图上可见约70根K线，价格范围从15500到15710。图上标注有3个矩形框，其中两个标记为'OB'，一个标记为'FVG'。右侧价格轴显示15619.25和15598.50两个价格标签。K线呈绿黑相间排列，整体呈波动态势。图下方时间轴显示从09:10至12:40的交易时段。"
+  },
+  "sources": [
+    {
+      "video_id": "ynFA6E3qHj0",
+      "segment_ids": [
+        "seg_009"
+      ],
+      "time_range": [
+        792.42,
+        918.019
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主在日线图上清晰展示了摆动点的识别过程，明确说明了突破与失败突破的判断标准，以及如何用这些观察建立日线偏向的方法论。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:33.258372Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES日线图：识别摆动点与位移判断日线偏向\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1D\",\"market_context\":\"ES在5月至9月期间呈现上升趋势，从约4145上升至4604.54。博主通过日线图识别关键摆动高低点，观察价格是否突破或失败突破这些水平，以建立日线级别的交易方向偏向。\",\"key_observation\":\"博主识别了日线上的多个摆动高低点，观察价格对这些关键水平的反应：某些高点价格未能突破并返回范围内，某些低点价格未能突破也返回范围内，而某些高点则出现突破并继续上升，这些反应决定了日线的看涨或看跌偏向。\",\"analysis_steps\":[\"Step 1: 在日线图上识别摆动高点（Swing High）和摆动低点（Swing Low）\",\"Step 2: 观察价格是否对摆动高点进行突破（Displacement）或失败突破（Failure to Displace）\",\"Step 3: 观察价格是否对摆动低点进行突破或失败突破\",\"Step 4: 根据突破或失败突破的模式判断日线偏向：如果看跌则寻找向下位移和向上失败突破的设置；如果看涨则寻找向上位移和向下失败突破的设置\",\"Step 5: 确认日线偏向后，在低时间框架（如1分钟图）上寻找符合该偏向的交易机会\"],\"outcome\":null,\"lessons\":\"建立日线级别的方向偏向对交易至关重要。通过识别摆动点并观察价格对这些水平的反应（突破或失败突破），可以确定是否应该寻找做多或做空机会。这种多时间框架的方法避免了在低时间框架上追逐与日线趋势相反的交易。\",\"primary_image_frame_id\":\"ynFA6E3qHj0_f030\",\"supporting_image_frame_ids\":[\"ynFA6E3qHj0_f031\",\"ynFA6E3qHj0_f029\"],\"related_concepts\":[\"Swing High\",\"Swing Low\",\"Displacement\",\"Failure to Displace\",\"Market Structure\",\"Directional Bias\",\"Order Block\",\"Fair Value Gap\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主在日线图上清晰展示了摆动点的识别过程，明确说明了突破与失败突破的判断标准，以及如何用这些观察建立日线偏向的方法论。\"}",
+  "error": null
+}

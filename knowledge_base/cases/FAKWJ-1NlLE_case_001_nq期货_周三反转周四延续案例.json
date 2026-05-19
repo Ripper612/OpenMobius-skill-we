@@ -1,0 +1,130 @@
+{
+  "card_id": "FAKWJ-1NlLE_case_001_nq期货_周三反转周四延续案例",
+  "type": "case",
+  "title": "NQ期货周三反转周四延续交易案例",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Reversal Expansion Candle",
+      "card_id": "reversal_to_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Continuation Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Opposing Run",
+      "card_id": "judas_swing",
+      "exists": true
+    },
+    {
+      "term": "Accumulation-Manipulation-Distribution (AMD)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Wick Formation",
+      "card_id": "wick_size_and_expansion",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "protected_high_low",
+    "fair_value_gap_fvg",
+    "reversal_to_expansion_candle",
+    "continuation_expansion_candle",
+    "judas_swing",
+    "market_structure_shift_mss",
+    "wick_size_and_expansion",
+    "order_block_ob"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "4H / 15m",
+  "market_context": "周三NQ形成反转K线，周四延续上升。博主通过4小时和15分钟时间框架的联动分析，确认wick形成后的continuation expansion机会，最终交易至前一日高点。",
+  "key_observation": "周三形成Change in State of Delivery（CSD），确立Protected Swing，预期周四在新的4小时K线内形成distribution expansion。通过15分钟K线确认6:00-10:00时段的上升机会。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别周三形成的reversal K线，确认市场结构转变（CSD）",
+    "Step 2: 观察周三K线形成了shallow opposing run但未确认低点，随后形成larger opposing run的wick",
+    "Step 3: 确认周三K线强势收盘形成reversal candle，设置周四为distribution expansion的预期时段",
+    "Step 4: 切换到15分钟图表，在2:00时段识别accumulation阶段",
+    "Step 5: 标记accumulation、manipulation、distribution三个阶段，预期distribution在candle 3（新的4小时K线）发生",
+    "Step 6: 等待6:00 a.m.的wick形成，确认protected swing已建立",
+    "Step 7: 识别wick低点内部的Fair Value Gap（FVG），确认entry机会",
+    "Step 8: 在wick低点处设置止损，目标指向前一日高点（previous day high）"
+  ],
+  "outcome": "成功交易至前一日高点。价格从wick低点上升，突破FVG，延续至周四高点，验证了周三reversal后的continuation expansion预期。",
+  "lessons": "核心要点：(1)让wick完全形成后再交易body，避免频繁止损；(2)通过CSD确认Protected Swing的形成；(3)使用高时间框架（4H）确定bias，低时间框架（15m）精确entry；(4)Accumulation-Manipulation-Distribution模型指导交易时机；(5)FVG和wick低点结合提供高概率entry区域。",
+  "primary_image": "cards/FAKWJ-1NlLE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/FAKWJ-1NlLE/images/case_001_detail_1.jpg",
+    "cards/FAKWJ-1NlLE/images/case_001_detail_2.jpg",
+    "cards/FAKWJ-1NlLE/images/case_001_detail_3.jpg",
+    "cards/FAKWJ-1NlLE/images/case_001_detail_4.jpg",
+    "cards/FAKWJ-1NlLE/images/case_001_detail_5.jpg",
+    "cards/FAKWJ-1NlLE/images/case_001_detail_6.jpg",
+    "cards/FAKWJ-1NlLE/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NQ1! 15分钟K线图，图右下角标注'15m-4H Model'、'Bias: Neutral'及'SMT(Auto): ES1!, YM1!'。图上可见三个矩形标注区域：左侧粉色矩形标记为'C2'，覆盖约24650至24700价格区间；中左侧绿色矩形覆盖约24680至24760；右侧较大绿色矩形覆盖约24750至24816，内含一条向上的虚线趋势线，并标注'C4'文字。另有一个灰色矩形覆盖约2",
+    "case_001_detail_1.jpg": "图左上角标题文字为'Continuation expansion candle'，图右下角标注品牌'TTrades'及页码'7'。主图为一段 K 线序列，图中有两条竖向虚线将画面分为三个区段。图上标注了两处'CSD'文字标签，各附带水平线及粉色圆形标记。图右侧另有一组放大示意图，由一根大型黑色阴线与一根大型绿色阳线并排组成，绿色阳线主体高度约为黑色阴线主体的 1.5 倍，绿色阳线下方有一条标注'1",
+    "case_001_detail_2.jpg": "图左上角标题文字为'Reversal expansion candle'，图右下角标注品牌'TTrades'及页码'9'。左侧为一段K线序列，整体走势先下后上，序列底部有一粉色圆圈标记，底部附近有文字标签'CSD'及一条垂直线。右侧为两根放大展示的K线：左为黑色（阴线），右为绿色（阳线），绿色K线主体高于黑色K线主体，绿色K线上下均有影线，底部同样有粉色圆圈标记，右侧有一条标注'10:00'的水平",
+    "case_001_detail_3.jpg": "图表显示 NQ1! 1 小时 K 线图，可见价格范围约从 24040 至 25080。图左侧标注有文字标签 C2（约 24640 附近）及图下方另一处 C2（约 24222 附近），中部区域标注 C4（约 24600 附近）。图上有一条向下倾斜的趋势线，从左上方延伸至右下方。两个矩形框标注区域分别位于约 24580-24680 及 24400-24",
+    "case_001_detail_4.jpg": "NQ1! 15 分钟 K 线图，图右下角标注显示「15m-4H Model」、「Bias: Neutral」及「SMT(Auto): ES1!, YM1!」。可见价格范围约从 24,570 至 24,850。图上有多条水平线，其中一条位于约 24,810 处横跨图表大部分宽度，另有两条虚线水平线位于约 24,750 和 24,730 区间。图中约 03:00 时段附近有一个蓝色矩形框，覆盖约 24",
+    "case_001_detail_5.jpg": "NQ1! 15 分钟 K 线图，图右下角标注 15m-4H Model、Bias: Neutral 及 SMT(Auto): ES1!, YM1!。图上有三个矩形标注区域：一个绿色矩形约在 24680 至 24760 区间，一个蓝色矩形约在 24650 至 24810 区间，一个粉红色矩形约在 24650 至 24700 区间并附有向下箭头及文字标签 C2。图上有三条水平线，分别位于约 24750",
+    "case_001_detail_6.jpg": "图为 NQ1! 15 分钟 K 线图，日期标注为 Fri 19 Sep '25，右下角注明 15m-4H Model、Bias: Neutral 及 SMT(Auto): ES1!, YM1!。图上有一个绿色矩形框，价格范围约 24670 至 24740，覆盖约 22:00 至 01:00 时段的多根 K 线。绿色矩形下方有一个粉红色矩形框，标注文字为 C2，价格范围约 24655 至 24695",
+    "case_001_detail_7.jpg": "图为 NQ1! 15 分钟 K 线图，右下角标注显示 15m-4H Model、Bias: Neutral、SMT(Auto): ES1!, YM1!，时间戳 03:15:00。图上有一个绿色矩形框覆盖约 24680 至 24760 区间，其下方有一个粉色矩形框标注 C2，覆盖约 24650 至 24700 区间。两条虚线水平线分别位于约 24750 和 24740 处。图中约 05:00 至 0"
+  },
+  "sources": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        201.84,
+        504.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到4小时再到15分钟的top-down分析过程，清晰标注了CSD、Protected Swing、FVG等关键结构，交易结果明确（trade to previous day high），所有关键价位和时间点都可从图表读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:39.898089Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ期货周三反转周四延续交易案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"4H / 15m\",\"market_context\":\"周三NQ形成反转K线，周四延续上升。博主通过4小时和15分钟时间框架的联动分析，确认wick形成后的continuation expansion机会，最终交易至前一日高点。\",\"key_observation\":\"周三形成Change in State of Delivery（CSD），确立Protected Swing，预期周四在新的4小时K线内形成distribution expansion。通过15分钟K线确认6:00-10:00时段的上升机会。\",\"analysis_steps\":[\"Step 1: 在日线图上识别周三形成的reversal K线，确认市场结构转变（CSD）\",\"Step 2: 观察周三K线形成了shallow opposing run但未确认低点，随后形成larger opposing run的wick\",\"Step 3: 确认周三K线强势收盘形成reversal candle，设置周四为distribution expansion的预期时段\",\"Step 4: 切换到15分钟图表，在2:00时段识别accumulation阶段\",\"Step 5: 标记accumulation、manipulation、distribution三个阶段，预期distribution在candle 3（新的4小时K线）发生\",\"Step 6: 等待6:00 a.m.的wick形成，确认protected swing已建立\",\"Step 7: 识别wick低点内部的Fair Value Gap（FVG），确认entry机会\",\"Step 8: 在wick低点处设置止损，目标指向前一日高点（previous day high）\"],\"outcome\":\"成功交易至前一日高点。价格从wick低点上升，突破FVG，延续至周四高点，验证了周三reversal后的continuation expansion预期。\",\"lessons\":\"核心要点：(1)让wick完全形成后再交易body，避免频繁止损；(2)通过CSD确认Protected Swing的形成；(3)使用高时间框架（4H）确定bias，低时间框架（15m）精确entry；(4)Accumulation-Manipulation-Distribution模型指导交易时机；(5)FVG和wick低点结合提供高概率entry区域。\",\"primary_image_frame_id\":\"FAKWJ-1NlLE_f015\",\"supporting_image_frame_ids\":[\"FAKWJ-1NlLE_f007\",\"FAKWJ-1NlLE_f008\",\"FAKWJ-1NlLE_f010\",\"FAKWJ-1NlLE_f011\",\"FAKWJ-1NlLE_f012\",\"FAKWJ-1NlLE_f013\",\"FAKWJ-1NlLE_f014\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Protected Swing\",\"Fair Value Gap (FVG)\",\"Reversal Expansion Candle\",\"Continuation Expansion Candle\",\"Opposing Run\",\"Accumula",
+  "error": null
+}

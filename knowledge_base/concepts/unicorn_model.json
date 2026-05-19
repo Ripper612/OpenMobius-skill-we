@@ -1,0 +1,93 @@
+{
+  "card_id": "unicorn_model",
+  "type": "merged_concept",
+  "canonical_term": "Unicorn Model",
+  "aliases": [
+    "Unicorn Setup"
+  ],
+  "school": "ICT",
+  "definition": "Breaker Block与Fair Value Gap重叠形成的高概率交易设置。当价格通过Breaker Block产生Displacement并同时形成FVG时，两个结构的重合区域构成该模型。",
+  "identification_rules": [
+    "识别Breaker Block：确认低-高-低-高的四点结构，标记其间的单根或连续上涨/下跌收盘K线",
+    "识别Fair Value Gap：价格快速变动导致K线间出现的不平衡区域",
+    "确认重叠：Breaker Block的K线序列与FVG的价格区间存在明显重叠",
+    "确认Displacement：价格穿过Breaker Block时伴随强势、充满活力的势头"
+  ],
+  "trading_implication": "Unicorn Model提供两个可选入场点：(1)在FVG起点入场，止损置于Breaker Block下方或摆动低点；(2)在Breaker Block内入场，止损同样置于相关支撑。该模型结合两个结构的优势，提高入场的风险回报比。可配合投影法扩展目标位，从2R延伸至3-4R以上。",
+  "common_mistakes": [
+    "混淆Breaker Block与Order Block：前者标记整个K线序列含影线，后者仅标记开盘价",
+    "忽视Displacement的必要性：Breaker Block必须伴随价格的强势穿越才能形成有效的Unicorn Model",
+    "止损位置不当：将止损置于摆动低点而非Breaker Block下方，导致风险回报比恶化",
+    "过早或过晚入场：在FVG起点与Breaker Block内入场的时机选择需根据风险偏好权衡"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "75S4vwD4P1U_case_002_eurusd_5分钟看跌breaker_block交易",
+      "video_id": "75S4vwD4P1U",
+      "title": "EURUSD 5分钟看跌Breaker Block交易设置"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_003_eurusd_5分钟unicorn_model交易设置",
+      "video_id": "75S4vwD4P1U",
+      "title": "EURUSD 5分钟Unicorn Model交易设置与止损策略"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_005_gbpusd_60分钟到5分钟的自上而下交易",
+      "video_id": "75S4vwD4P1U",
+      "title": "GBPUSD 60分钟到5分钟自上而下交易：Breaker Block与Unicorn Model"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_006_eurusd_60分钟看跌unicorn_model",
+      "video_id": "75S4vwD4P1U",
+      "title": "EURUSD 60分钟看跌Unicorn Model交易设置"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_007_es期货多时间框架流动性扫除交易",
+      "video_id": "75S4vwD4P1U",
+      "title": "ES期货多时间框架流动性扫除与Breaker Block交易"
+    },
+    {
+      "card_id": "rXMVPUZPw4A_case_001_nasdaq_2分钟图_breaker_block与fvg的第一",
+      "video_id": "rXMVPUZPw4A",
+      "title": "NASDAQ 2分钟图：Breaker Block与FVG的Unicorn模型交易"
+    },
+    {
+      "card_id": "rXMVPUZPw4A_case_003_nasdaq_1分钟图_第三个unicorn模型交易案例",
+      "video_id": "rXMVPUZPw4A",
+      "title": "NASDAQ 1分钟图：Unicorn模型第三案例，FVG回测获利2.14R"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "original_card_id": "75S4vwD4P1U_concept_unicorn_model",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        193.319,
+        807.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136506Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

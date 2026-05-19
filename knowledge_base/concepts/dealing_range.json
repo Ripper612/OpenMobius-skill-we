@@ -1,0 +1,55 @@
+{
+  "card_id": "dealing_range",
+  "type": "merged_concept",
+  "canonical_term": "Dealing Range",
+  "aliases": [
+    "交易范围"
+  ],
+  "school": "ICT",
+  "definition": "通过识别特定时间框架内价格的最高点和最低点，用斐波那契工具标记形成的价格区间。该区间用0.5水平分割为折价区和溢价区，用于判断价格位置和寻找交易机会。",
+  "identification_rules": [
+    "在当前时间框架内找出明确的高点和低点",
+    "从高点向低点绘制斐波那契工具，得到完整的价格区间",
+    "区间的0.5位置为均衡点，上方为溢价区，下方为折价区",
+    "缩小时间框架后，外部流动性可能转变为内部流动性，需重新识别新的dealing range",
+    "多个dealing range可以同时存在，需根据当前价格位置选择相关的范围"
+  ],
+  "trading_implication": "Dealing range用于确定价格相对位置和寻找最优入场点。交易者在折价区寻找做多机会，在溢价区寻找做空机会。结合位移范围（Displacement Range）使用时，理想情况是在位移范围的折价区内寻找订单块（OB）作为OTE入场点。多个dealing range的折价区重叠时，该区域成为高概率做多区域。",
+  "common_mistakes": [
+    "混淆外部流动性和内部流动性——外部流动性在缩小时间框架后会变成内部流动性，不应固定使用同一个dealing range",
+    "使用已被价格突破的dealing range——当价格高于某个dealing range时，该范围不再有效，需要识别新的高点和低点",
+    "忽视dealing range与displacement range的配合——仅看dealing range的折价区不够，还需确认是否同时处于displacement range的折价区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CAuN4tvLInQ",
+      "original_card_id": "CAuN4tvLInQ_concept_dealing_range",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        0.659,
+        350.78
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132223Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

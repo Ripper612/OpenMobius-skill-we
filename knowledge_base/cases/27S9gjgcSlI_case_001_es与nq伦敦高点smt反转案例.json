@@ -1,0 +1,118 @@
+{
+  "card_id": "27S9gjgcSlI_case_001_es与nq伦敦高点smt反转案例",
+  "type": "case",
+  "title": "ES与NQ伦敦高点SMT反转案例",
+  "related_concepts": [
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Correlated Pairs",
+      "card_id": "correlated_pairs",
+      "exists": true
+    },
+    {
+      "term": "Divergence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Sell-side Liquidity",
+      "card_id": "liquidity_buyside_sellside",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Confluence",
+      "card_id": "confluence",
+      "exists": true
+    },
+    {
+      "term": "Higher High / Lower High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Session High",
+      "card_id": "session_lows_highs",
+      "exists": true
+    },
+    {
+      "term": "London Open",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "correlated_pairs",
+    "liquidity_buyside_sellside",
+    "market_structure",
+    "confluence",
+    "session_lows_highs",
+    "premium_discount_premium_"
+  ],
+  "school": "SMC",
+  "asset": "ES / NQ",
+  "timeframe": "1H",
+  "market_context": "伦敦开盘后，ES在午夜开盘后创新高，但NQ未能创出相应新高，形成看跌SMT。博主预期价格下行扫除卖方流动性，确认反转。",
+  "key_observation": "ES创新高但NQ未创新高，形成相关资产间的分歧（SMT）。这种分歧作为反转的汇聚信号，预示价格将下行扫除卖方流动性。",
+  "analysis_steps": [
+    "Step 1: 识别ES和NQ为相关资产对，应在相同时间框架内呈现相似结构。",
+    "Step 2: 标记伦敦开盘后的摆动高点，观察两个资产在该高点的表现。",
+    "Step 3: 确认ES在午夜开盘后创出新高（高于伦敦高点），而NQ未能创出相应新高。",
+    "Step 4: 识别此分歧为看跌SMT（一个资产创高高，另一个创低高）。",
+    "Step 5: 将SMT作为反转的汇聚信号，结合预期的卖方流动性扫荡位置。",
+    "Step 6: 观察价格是否下行触及卖方流动性，确认反转成立。",
+    "Step 7: 在5分钟图表上验证低时间框架SMT（ES创低低，NQ创高低），进一步确认反转。"
+  ],
+  "outcome": "价格确实下行并触及卖方流动性，SMT成功预示了反转。虽然SMT本身不是反转的主要原因，但作为汇聚信号有效确认了基于高时间框架水平的反转预期。",
+  "lessons": "SMT是相关资产间的分歧现象，单独不足以交易，但与高时间框架水平或预期反转结构结合时，可作为强有力的汇聚信号。在寻找SMT时应关注会话高低点、前一日高低点和高时间框架水平。",
+  "primary_image": "cards/27S9gjgcSlI/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/27S9gjgcSlI/images/case_001_detail_1.jpg",
+    "cards/27S9gjgcSlI/images/case_001_detail_2.jpg",
+    "cards/27S9gjgcSlI/images/case_001_detail_3.jpg",
+    "cards/27S9gjgcSlI/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图为 FXReplay 平台双面板 1 小时 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ）。两个面板均在 Fri 29 Dec '23 11:00 处有垂直虚线分隔。左侧 ES 面板中，图上有一条斜向上的趋势线标注文字\"SMT\"，以及一个矩形框位于约 4796 至 4806 区间，当前价格标签显示 479",
+    "case_001_detail_1.jpg": "图为教学示意图，顶部标题栏标注'Correlated Pairs – Bearish SMT'，页码为5。图中并排展示两组蜡烛图序列，均无价格刻度。左侧序列标注'High'与'Higher High'两个摆动高点，右侧序列标注'High'与'Lower High'两个摆动高点。左侧第二个高点高于第一个，右侧第二个高点低于第一个，两组序列形成高点位置的对比关系。图上文字标签包括SMT术语。",
+    "case_001_detail_2.jpg": "图为 FXReplay 平台回测界面，左右两个面板并排显示。左侧为 E-MINI S&P 500 FUTURES 1 小时 K 线图，价格范围约 4794 至 4864，右侧价格标签显示 4821.96 与 4816.50。右侧为 E-MINI NASDAQ-100 FUTURES 1 小时 K 线图，价格范围约 16900 至 17780，右侧价格标签显示 16994.50。两图均在 Fri 2",
+    "case_001_detail_3.jpg": "图为 FXReplay 回测平台上并排显示的两张 1 小时 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ）。两图均在 2024 年 1 月 2 日附近出现大幅下跌 K 线。左图标注有一条向上倾斜的趋势线，标签为 SMT；右图标注有一条向下倾斜的趋势线，同样标签为 SMT。两图下方各有一条蓝色水平线，左图约位",
+    "case_001_detail_4.jpg": "图为 FXReplay 回测平台上并排显示的两个 5 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES，右侧为 E-MINI NASDAQ-100 FUTURES。两图共享中央价格轴，范围约 16900 至 17075。左图可见一条蓝色下降趋势线从左上方延伸至约 12:20 时间标记处，另有一条蓝色水平线位于约 4822 附近；右轴标注 4814.25 与 4791.50 两个"
+  },
+  "sources": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.28,
+        371.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了ES与NQ在伦敦高点的SMT形成过程、分析步骤、价格走势验证，以及低时间框架确认，案例分析清晰完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:17:57.514591Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES与NQ伦敦高点SMT反转案例\",\"school\":\"SMC\",\"asset\":\"ES / NQ\",\"timeframe\":\"1H\",\"market_context\":\"伦敦开盘后，ES在午夜开盘后创新高，但NQ未能创出相应新高，形成看跌SMT。博主预期价格下行扫除卖方流动性，确认反转。\",\"key_observation\":\"ES创新高但NQ未创新高，形成相关资产间的分歧（SMT）。这种分歧作为反转的汇聚信号，预示价格将下行扫除卖方流动性。\",\"analysis_steps\":[\"Step 1: 识别ES和NQ为相关资产对，应在相同时间框架内呈现相似结构。\",\"Step 2: 标记伦敦开盘后的摆动高点，观察两个资产在该高点的表现。\",\"Step 3: 确认ES在午夜开盘后创出新高（高于伦敦高点），而NQ未能创出相应新高。\",\"Step 4: 识别此分歧为看跌SMT（一个资产创高高，另一个创低高）。\",\"Step 5: 将SMT作为反转的汇聚信号，结合预期的卖方流动性扫荡位置。\",\"Step 6: 观察价格是否下行触及卖方流动性，确认反转成立。\",\"Step 7: 在5分钟图表上验证低时间框架SMT（ES创低低，NQ创高低），进一步确认反转。\"],\"outcome\":\"价格确实下行并触及卖方流动性，SMT成功预示了反转。虽然SMT本身不是反转的主要原因，但作为汇聚信号有效确认了基于高时间框架水平的反转预期。\",\"lessons\":\"SMT是相关资产间的分歧现象，单独不足以交易，但与高时间框架水平或预期反转结构结合时，可作为强有力的汇聚信号。在寻找SMT时应关注会话高低点、前一日高低点和高时间框架水平。\",\"primary_image_frame_id\":\"27S9gjgcSlI_f009\",\"supporting_image_frame_ids\":[\"27S9gjgcSlI_f004\",\"27S9gjgcSlI_f007\",\"27S9gjgcSlI_f008\",\"27S9gjgcSlI_f010\"],\"related_concepts\":[\"SMT\",\"Correlated Pairs\",\"Divergence\",\"Sell-side Liquidity\",\"Market Structure\",\"Confluence\",\"Higher High / Lower High\",\"Session High\",\"London Open\",\"PD Array\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了ES与NQ在伦敦高点的SMT形成过程、分析步骤、价格走势验证，以及低时间框架确认，案例分析清晰完整。\"}",
+  "error": null
+}

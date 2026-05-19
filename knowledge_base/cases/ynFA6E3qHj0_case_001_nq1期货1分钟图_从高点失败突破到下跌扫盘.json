@@ -1,0 +1,115 @@
+{
+  "card_id": "ynFA6E3qHj0_case_001_nq1期货1分钟图_从高点失败突破到下跌扫盘",
+  "type": "case",
+  "title": "NQ1期货1分钟图：高点失败突破到下跌扫盘的结构分析",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "failure_to_displace",
+    "market_structure_shift_mss",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "liquidity",
+    "premium_discount_premium_",
+    "equilibrium_eq"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "NQ1期货在08:20-09:10期间形成上升趋势，价格从约15590上升至15720附近的旧高点。随后价格在该高点失败突破（流动性抢夺），转为急速下跌至15560，形成多个订单块和FVG。",
+  "key_observation": "价格在15720附近的旧高点无法形成有效位移（Displacement），多根K线无法收盘在该高点上方，反而形成失败突破（Failure to Displace），随后大幅下跌160点至15560，展示了市场结构从看涨转向看跌的转变。",
+  "analysis_steps": [
+    "Step 1: 识别旧高点15720处的价格结构，观察价格返回该区域时的行为。",
+    "Step 2: 确认价格无法收盘在15720上方，多根K线都收回到该高点下方，判断为失败突破（Failure to Displace）。",
+    "Step 3: 观察失败突破后的下跌位移，大型黑色K线从15720下跌至15560，创建FVG并形成市场结构转变（MSS）。",
+    "Step 4: 在下跌过程中标记订单块（Order Block）位置，特别是在15720-15560区间内形成的多个OB。",
+    "Step 5: 分析价格在15560旧低点的行为，观察是否能够突破该低点或形成反弹。",
+    "Step 6: 使用Premium/Discount概念判断价格在15560-15720区间内的位置，预测后续走势方向。",
+    "Step 7: 追踪价格对FVG和订单块的尊重情况，判断下跌趋势的延续性。"
+  ],
+  "outcome": null,
+  "lessons": "失败突破是识别趋势反转的关键信号。当价格在旧高点无法形成有效位移并收盘在结构上方时，应预期价格将回撤甚至反向运行。订单块和FVG在下跌过程中形成的PD Array可作为后续反弹的阻力位。使用Premium/Discount区域判断价格处于何种状态有助于预测下一步走势。",
+  "primary_image": "cards/ynFA6E3qHj0/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/ynFA6E3qHj0/images/case_001_detail_1.jpg",
+    "cards/ynFA6E3qHj0/images/case_001_detail_2.jpg",
+    "cards/ynFA6E3qHj0/images/case_001_detail_3.jpg",
+    "cards/ynFA6E3qHj0/images/case_001_detail_4.jpg",
+    "cards/ynFA6E3qHj0/images/case_001_detail_5.jpg",
+    "cards/ynFA6E3qHj0/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "TTrades_edu 1 分钟 K 线图。图上显示从 08:30 至 11:00 的价格走势。左侧区间（08:30-09:30）呈上升趋势，多根绿色 K 线，价格从约 15590 上升至 15720 附近。09:35 后出现急速下跌，连续黑色 K 线从 15720 下跌至 15560，跌幅约 160 点。图上有一个矩形框标注覆盖 15560 至 15720 价格区间，以及一条向下箭头指示下跌方向",
+    "case_001_detail_1.jpg": "图为教学示意图，展示市场结构转变（MSS）的概念。图上绘制了一系列绿色和黑色K线，从左下向右上再向右下排列。上方有一个带标题'Market Structure Shift'的虚线矩形框，框内包含一段K线序列。两个黄色三角形标记分别位于图的上方和下方。左侧文字说明了MSS的定义：当价格在摆动高点或低点上方或下方发生位移时，市场结构转变发生。图上标注'MSS PDF'链接。",
+    "case_001_detail_2.jpg": "图上展示教学示例，标题为'Example'。图中有两个矩形框分别圈出两组K线序列。上方矩形框上方标注'Failure To Displace'（红X标记）和'Displacement'（绿勾标记）。下方矩形框同样标注'Displacement'（绿勾标记）。K线序列由黑色和绿色蜡烛组成，呈现交替排列。图上共有3个红X标记和2个绿勾标记，以及1个灰色圆形标记。图像不含价格刻度、资产代码或时间框架信息",
+    "case_001_detail_3.jpg": "NQ1! 1分钟K线图。图上显示从08:20开始的上升趋势，由多根绿色K线组成，至09:10左右达到高点约15720。随后出现急速下跌，由大型黑色K线组成，最低点触及约15560。图右侧显示两个价格标签：15662.50和15493.75。图上有一个矩形框标注在15708至15720价格区间。时间标签显示'Fri 21 Jun 23 09:44'。自09:30起出现绿色恢复K线，之后进入盘整阶段至",
+    "case_001_detail_4.jpg": "NQ1! 1分钟K线图。图上显示从08:20至10:50的价格走势，价格范围约15560至15740。图上有一条水平线位于15720处。矩形框标注覆盖15720至15560的价格区间。K线序列显示上升趋势后出现一根大幅下跌的K线，该K线具有长下影线，下影线刺破至15560附近。右侧显示当前价格标记为15504.75。底部时间轴显示交易时段为Fri 21 Jul 23 09:52。",
+    "case_001_detail_5.jpg": "TTrader_edu 1 分钟 K 线图，时间范围从 08:40 至 11:00。图上绘制一个矩形框，上边界约在 15716.00，下边界约在 15561.75。K 线序列显示从 08:40 至 09:30 的上升阶段，由多根绿色 K 线组成；随后从 09:30 至 10:00 出现下降阶段，由多根黑色 K 线组成，其中多根 K 线具有较长的下影线。09:10 至 09:30 区间内可见盘整形态",
+    "case_001_detail_6.jpg": "BTC/USDT 1分钟K线图，时间戳显示Fri 21 Jul 23 09:47。图上价格范围约15540至15732。图中标注两条水平线分别位于15720和15560处。图上有两个矩形区域覆盖15560至15720价格范围，其中一个为粉红色填充，另一个为绿色填充。K线走势显示08:40至09:20期间多根绿色K线上升，09:20至09:40期间多根黑色K线下跌，09:40之后出现绿色K线恢复。图"
+  },
+  "sources": [
+    {
+      "video_id": "ynFA6E3qHj0",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        636.26
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰，包括资产代码NQ1、时间框架1分钟、关键价位15720和15560、失败突破和下跌位移的完整过程，以及订单块和FVG的标记。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:36.252992Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1期货1分钟图：高点失败突破到下跌扫盘的结构分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"NQ1期货在08:20-09:10期间形成上升趋势，价格从约15590上升至15720附近的旧高点。随后价格在该高点失败突破（流动性抢夺），转为急速下跌至15560，形成多个订单块和FVG。\",\"key_observation\":\"价格在15720附近的旧高点无法形成有效位移（Displacement），多根K线无法收盘在该高点上方，反而形成失败突破（Failure to Displace），随后大幅下跌160点至15560，展示了市场结构从看涨转向看跌的转变。\",\"analysis_steps\":[\"Step 1: 识别旧高点15720处的价格结构，观察价格返回该区域时的行为。\",\"Step 2: 确认价格无法收盘在15720上方，多根K线都收回到该高点下方，判断为失败突破（Failure to Displace）。\",\"Step 3: 观察失败突破后的下跌位移，大型黑色K线从15720下跌至15560，创建FVG并形成市场结构转变（MSS）。\",\"Step 4: 在下跌过程中标记订单块（Order Block）位置，特别是在15720-15560区间内形成的多个OB。\",\"Step 5: 分析价格在15560旧低点的行为，观察是否能够突破该低点或形成反弹。\",\"Step 6: 使用Premium/Discount概念判断价格在15560-15720区间内的位置，预测后续走势方向。\",\"Step 7: 追踪价格对FVG和订单块的尊重情况，判断下跌趋势的延续性。\"],\"outcome\":null,\"lessons\":\"失败突破是识别趋势反转的关键信号。当价格在旧高点无法形成有效位移并收盘在结构上方时，应预期价格将回撤甚至反向运行。订单块和FVG在下跌过程中形成的PD Array可作为后续反弹的阻力位。使用Premium/Discount区域判断价格处于何种状态有助于预测下一步走势。\",\"primary_image_frame_id\":\"ynFA6E3qHj0_f007\",\"supporting_image_frame_ids\":[\"ynFA6E3qHj0_f003\",\"ynFA6E3qHj0_f004\",\"ynFA6E3qHj0_f005\",\"ynFA6E3qHj0_f006\",\"ynFA6E3qHj0_f008\",\"ynFA6E3qHj0_f009\"],\"related_concepts\":[\"Displacement\",\"Failure to Displace\",\"Market Structure Shift (MSS)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Liquidity\",\"Premium/Discount\",\"Equilibrium (EQ)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰，包括资产代码NQ1、时间框架1分钟、关键价位15720和15560、失败突破和下跌位移的完整过程，以及订单块和FVG的标记。\"}",
+  "error": null
+}

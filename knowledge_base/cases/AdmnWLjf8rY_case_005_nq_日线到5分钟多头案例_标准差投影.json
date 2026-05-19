@@ -1,0 +1,112 @@
+{
+  "card_id": "AdmnWLjf8rY_case_005_nq_日线到5分钟多头案例_标准差投影",
+  "type": "case",
+  "title": "NQ日线到5分钟多头案例（标准差投影）",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Drawn Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "draw_on_liquidity",
+    "market_structure_shift",
+    "standard_deviation_projection",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "Daily → Hourly → 5-minute",
+  "market_context": "NQ在日线上形成上升后回落，出现大幅下跌。日线识别出旧低点作为drawn liquidity，为后续扫盘和入场提供目标。",
+  "key_observation": "博主在日线识别旧低点作为drawn liquidity，通过小时图确认扫盘后，在5分钟图上寻找FVG入场做多，使用标准差投影设定目标，成功到达第二和第四标准差。",
+  "analysis_steps": [
+    "Step 1: 在NQ日线上识别一根大幅下跌的K线，标记其Wick的consequent encroachment作为参考。",
+    "Step 2: 在小时图上识别旧低点（约15220附近）作为drawn liquidity，预期价格会向下扫盘至该区域。",
+    "Step 3: 观察价格从consequent encroachment向下位移（displacement），确认看跌动能。",
+    "Step 4: 在小时图上识别swing high被扫除（sweep of high），为反向做多提供信号。",
+    "Step 5: 下降到5分钟图，找到在旧小时高点附近形成的FVG作为入场点。",
+    "Step 6: 设置止损在FVG高点（约15404），使用标准差投影工具设定目标而非简单的R倍数。",
+    "Step 7: 价格向下运行，首先到达第二标准差（约15312），继续下行。",
+    "Step 8: 价格最终到达第四标准差，与日线drawn liquidity（旧低点约15200）对齐，确认目标达成。"
+  ],
+  "outcome": "交易成功。价格从5分钟FVG入场点向下运行，依次到达第二标准差和第四标准差，第四标准差与日线drawn liquidity重合，确认了多时间框架的协调性。",
+  "lessons": "多时间框架协调是高概率交易的关键：日线drawn liquidity与小时图扫盘、5分钟FVG入场、标准差投影目标形成完整闭环。使用标准差投影比简单R倍数更能捕捉市场结构中的关键价位。",
+  "primary_image": "cards/AdmnWLjf8rY/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/AdmnWLjf8rY/images/case_005_detail_1.jpg",
+    "cards/AdmnWLjf8rY/images/case_005_detail_2.jpg",
+    "cards/AdmnWLjf8rY/images/case_005_detail_3.jpg",
+    "cards/AdmnWLjf8rY/images/case_005_detail_4.jpg",
+    "cards/AdmnWLjf8rY/images/case_005_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为 NQ1! 5 分钟 K 线图，日期为 2023 年 8 月 15 日，数据来源标注为 TTrades_edu。图右侧可见价格区间约从 15260 至 15460。图上有一个浅绿色矩形标注区域，覆盖价格约 15312 至 15404 之间，内含交易信息框，显示 Open P&L 为 12.25、Qty 为 1、Risk/Reward Ratio 为 1.83。止损标签标注于约 15404 处",
+    "case_005_detail_1.jpg": "NQ1! 日线蜡烛图，图上标注来源为 TTrades_edu，时间轴覆盖约 2023 年 7 月初至 9 月中旬。右侧价格刻度从约 14600 延伸至 16250。图上有两条水平参考线：一条虚线位于约 15359.75，另一条位于约 15550.00。K 线序列从 7 月中旬高点约 16150 向下延伸，至 8 月上旬最低约 15250 附近。图右侧最新可见 K 线群集于约 15300 至 155",
+    "case_005_detail_2.jpg": "NQ1! 60 分钟 K 线图，图右侧价格轴当前标签显示 15497.75，可见价格范围约从 15180 到 15660。图上有一条水平线位于约 15520 处，无文字标签。图上另有一条弧形曲线标注，从约日期 14 处低点向右上方延伸至约日期 15 处。日期 14 附近出现一根较长绿色 K 线，低点约 15220，高点约 15560。日期 15 附近有多根绿色 K 线集中分布于 15300 至 1",
+    "case_005_detail_3.jpg": "NQ1! 5 分钟 K 线图，日期标注为 2023 年 8 月 15 日，图右上角显示账户名 TTrades_edu。图上可见价格范围约从 15340 至 15500。图中有一条贯穿大部分图表宽度的虚线水平线，位于约 15295 附近。左侧价格轴标注有 15450.00 与 15403.00 两个价格标签。09:30 时间戳附近出现一根高度较大的绿色 K 线，随后紧跟一根高度相近的黑色 K 线。0",
+    "case_005_detail_4.jpg": "NQ1! 60分钟K线图，时间范围覆盖2023年8月9日至22日，可见价格区间约为15080至15620。图左侧价格轴标注多个高亮价格，包括15404、15312.75、15268、15129。图上有两条虚线水平线，分别位于约15268和15200附近，横跨图表。Aug 15至16区域有一个浅蓝色矩形框，覆盖约15420至15480价格区间。矩形框附近标注有斐波那契相关数字标签'2'和'2.5'。",
+    "case_005_detail_5.jpg": "NQ1! 60分钟K线图，日期范围覆盖8月11日至21日，可见价格区间约从15000至15675。图左侧有一根较长的绿色K线，最高触及约15625。图中部约15日附近有一个浅蓝色矩形标注区域，覆盖价格约15300至15425。图上有一条从约13日延伸至16日的虚线水平线，位于约15200处，并附有一段弧形虚线趋势线。右侧价格轴标注有15454.00、15404.00、15312.75及15101."
+  },
+  "sources": [
+    {
+      "video_id": "AdmnWLjf8rY",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        545.519,
+        741.66
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到5分钟的分析过程，清晰标注了关键价位（15404、15312、15200等），交易结果明确，标准差投影目标达成。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:37.520003Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线到5分钟多头案例（标准差投影）\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"Daily → Hourly → 5-minute\",\"market_context\":\"NQ在日线上形成上升后回落，出现大幅下跌。日线识别出旧低点作为drawn liquidity，为后续扫盘和入场提供目标。\",\"key_observation\":\"博主在日线识别旧低点作为drawn liquidity，通过小时图确认扫盘后，在5分钟图上寻找FVG入场做多，使用标准差投影设定目标，成功到达第二和第四标准差。\",\"analysis_steps\":[\"Step 1: 在NQ日线上识别一根大幅下跌的K线，标记其Wick的consequent encroachment作为参考。\",\"Step 2: 在小时图上识别旧低点（约15220附近）作为drawn liquidity，预期价格会向下扫盘至该区域。\",\"Step 3: 观察价格从consequent encroachment向下位移（displacement），确认看跌动能。\",\"Step 4: 在小时图上识别swing high被扫除（sweep of high），为反向做多提供信号。\",\"Step 5: 下降到5分钟图，找到在旧小时高点附近形成的FVG作为入场点。\",\"Step 6: 设置止损在FVG高点（约15404），使用标准差投影工具设定目标而非简单的R倍数。\",\"Step 7: 价格向下运行，首先到达第二标准差（约15312），继续下行。\",\"Step 8: 价格最终到达第四标准差，与日线drawn liquidity（旧低点约15200）对齐，确认目标达成。\"],\"outcome\":\"交易成功。价格从5分钟FVG入场点向下运行，依次到达第二标准差和第四标准差，第四标准差与日线drawn liquidity重合，确认了多时间框架的协调性。\",\"lessons\":\"多时间框架协调是高概率交易的关键：日线drawn liquidity与小时图扫盘、5分钟FVG入场、标准差投影目标形成完整闭环。使用标准差投影比简单R倍数更能捕捉市场结构中的关键价位。\",\"primary_image_frame_id\":\"AdmnWLjf8rY_f023\",\"supporting_image_frame_ids\":[\"AdmnWLjf8rY_f020\",\"AdmnWLjf8rY_f021\",\"AdmnWLjf8rY_f022\",\"AdmnWLjf8rY_f024\",\"AdmnWLjf8rY_f025\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Drawn Liquidity\",\"Market Structure Shift\",\"Standard Deviation Projection\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到5分钟的分析过程，清晰标注了关键价位（15404、15312、15200等），交易结果明确，标准差投影目标达成。\"}",
+  "error": null
+}

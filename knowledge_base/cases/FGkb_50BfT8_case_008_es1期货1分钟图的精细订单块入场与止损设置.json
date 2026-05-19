@@ -1,0 +1,111 @@
+{
+  "card_id": "FGkb_50BfT8_case_008_es1期货1分钟图的精细订单块入场与止损设置",
+  "type": "case",
+  "title": "ES1 1分钟图：订单块入场、均值阈值止损与高阻力流动性无效化",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Invalidation Level",
+      "card_id": "stop_loss_placement_invalidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "mean_threshold",
+    "high_resistance_liquidity",
+    "failure_swings",
+    "market_structure_shift",
+    "propulsion_block",
+    "stop_loss_placement_invalidation",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "1M",
+  "market_context": "ES1期货在2/5/2024日内交易中，价格从约5088下跌至5028附近，随后在低位形成多个订单块结构，最终突破并上行至5100以上。",
+  "key_observation": "博主演示了如何在1分钟图上识别失败摆动形成的订单块、使用均值阈值作为止损参考、以及高阻力流动性作为无效化水平的完整交易执行过程。",
+  "analysis_steps": [
+    "Step 1: 识别前一日低点被扫出，确认市场结构转变（MSS）",
+    "Step 2: 在约5088-5075区间识别摆动高点与失败摆动（failure swings），标记为第一个订单块",
+    "Step 3: 观察价格回测该订单块，收盘于一系列下跌K线上方，验证订单块有效性",
+    "Step 4: 计算并标记该订单块的均值阈值（mean threshold）作为止损参考位",
+    "Step 5: 在约5040-5028区间识别第二个订单块（扫出低点后形成）",
+    "Step 6: 标记该订单块的均值阈值，观察价格是否尊重该水平",
+    "Step 7: 确认在约5060-5068区间形成推进块（propulsion block），均值阈值继续被尊重",
+    "Step 8: 设置入场点在推进块上方收盘处，止损设在高阻力流动性（失败摆动高点）",
+    "Step 9: 目标利润设在摆动高点（约5088-5100区间）",
+    "Step 10: 观察价格上行至目标区域，交易成功完成"
+  ],
+  "outcome": "价格从入场点上行至目标利润区域（约5100），交易成功获利。均值阈值在整个上升过程中被持续尊重，推进块结构得到验证。",
+  "lessons": "订单块的均值阈值是可靠的止损参考；高阻力流动性（失败摆动）作为无效化水平比简单的订单块高点更精确；推进块形成表明趋势延续强度，均值阈值的持续尊重增强了交易信心。",
+  "primary_image": "cards/FGkb_50BfT8/images/case_008_primary.jpg",
+  "supporting_images": [
+    "cards/FGkb_50BfT8/images/case_008_detail_1.jpg",
+    "cards/FGkb_50BfT8/images/case_008_detail_2.jpg",
+    "cards/FGkb_50BfT8/images/case_008_detail_3.jpg",
+    "cards/FGkb_50BfT8/images/case_008_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_008_primary.jpg": "ES1! 1 分钟 K 线图，日期标注为 2/5/2024，时间轴覆盖约 07:00 至 16:30。图上可见价格范围约从 5028 至 5096。图上标注有两个矩形框：上方矩形框覆盖约 5075 至 5088 区间，下方矩形框覆盖约 5028 至 5040 区间，两者均带有浅色填充。图中约 09:30 至 10:00 时段出现一根大幅下行 K 线，从约 5088 下行至约 5048。此后约 11",
+    "case_008_detail_1.jpg": "图表为 ES1! 5 分钟 K 线图，时间轴显示 2/5/2024，可见价格范围约从 5036.00 至 5094.00。图左侧 K 线在 5076.00 至 5088.00 区间内呈小实体横向排列，随后出现连续多根大实体阴线，从约 5088.00 向下延伸至约 5038.00。图上有两条水平线，分别位于约 5088.00 和 5038.00 附近。5088.00 附近绘有一个矩形标注框。右侧价格",
+    "case_008_detail_2.jpg": "图为 K 线图，右上角标注 TTrader_edu，底部时间轴显示日期 2/5/2024，时间范围约从 08:00 至 18:00。价格刻度范围约 5028 至 5096。图上可见多个矩形框标注：一个位于约 5082 至 5092 区间，一个位于约 5060 至 5068 区间，一个位于约 5030 至 5040 区间，另一个较大矩形覆盖约 5048 至 5068 区间。图上另有数条水平线分别位于",
+    "case_008_detail_3.jpg": "图表为 ES1 期货 5 分钟 K 线图，时间轴覆盖约 07:30 至 18:00，价格范围约 5030 至 5100。图上绘有多个矩形标注区域：左侧有浅粉色及浅绿色矩形分别位于约 5060-5075 及 5038-5055 区间；右侧有一个较大的绿色填充矩形覆盖约 5055-5100 区间，内含一条向上倾斜的虚线；绿色矩形下方有一个灰色矩形覆盖约 5038-5060 区间。图上另有多条水平线分布",
+    "case_008_detail_4.jpg": "图表为 ES1! 5 分钟 K 线图，日期标注为 2/5/2024，右上角显示 TTrader_edu 水印。可见价格范围约从 5028 到 5100。图上有两个矩形框标注：一个位于约 08:30 至 09:00 区间、价格约 5068 至 5090；另一个位于约 10:30 至 11:30 区间、价格约 5060 至 5075。图右侧有一个绿色填充矩形，覆盖约 12:00 至 14:30 时段、"
+  },
+  "sources": [
+    {
+      "video_id": "FGkb_50BfT8",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.48,
+        694.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从识别订单块、设置止损、确认推进块到最终获利的全过程，关键价位、时间框架、交易结果均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:18.805403Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES1 1分钟图：订单块入场、均值阈值止损与高阻力流动性无效化\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"1M\",\"market_context\":\"ES1期货在2/5/2024日内交易中，价格从约5088下跌至5028附近，随后在低位形成多个订单块结构，最终突破并上行至5100以上。\",\"key_observation\":\"博主演示了如何在1分钟图上识别失败摆动形成的订单块、使用均值阈值作为止损参考、以及高阻力流动性作为无效化水平的完整交易执行过程。\",\"analysis_steps\":[\"Step 1: 识别前一日低点被扫出，确认市场结构转变（MSS）\",\"Step 2: 在约5088-5075区间识别摆动高点与失败摆动（failure swings），标记为第一个订单块\",\"Step 3: 观察价格回测该订单块，收盘于一系列下跌K线上方，验证订单块有效性\",\"Step 4: 计算并标记该订单块的均值阈值（mean threshold）作为止损参考位\",\"Step 5: 在约5040-5028区间识别第二个订单块（扫出低点后形成）\",\"Step 6: 标记该订单块的均值阈值，观察价格是否尊重该水平\",\"Step 7: 确认在约5060-5068区间形成推进块（propulsion block），均值阈值继续被尊重\",\"Step 8: 设置入场点在推进块上方收盘处，止损设在高阻力流动性（失败摆动高点）\",\"Step 9: 目标利润设在摆动高点（约5088-5100区间）\",\"Step 10: 观察价格上行至目标区域，交易成功完成\"],\"outcome\":\"价格从入场点上行至目标利润区域（约5100），交易成功获利。均值阈值在整个上升过程中被持续尊重，推进块结构得到验证。\",\"lessons\":\"订单块的均值阈值是可靠的止损参考；高阻力流动性（失败摆动）作为无效化水平比简单的订单块高点更精确；推进块形成表明趋势延续强度，均值阈值的持续尊重增强了交易信心。\",\"primary_image_frame_id\":\"FGkb_50BfT8_f021\",\"supporting_image_frame_ids\":[\"FGkb_50BfT8_f020\",\"FGkb_50BfT8_f022\",\"FGkb_50BfT8_f023\",\"FGkb_50BfT8_f024\"],\"related_concepts\":[\"Order Block\",\"Mean Threshold\",\"High Resistance Liquidity\",\"Failure Swings\",\"Market Structure Shift\",\"Propulsion Block\",\"Invalidation Level\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从识别订单块、设置止损、确认推进块到最终获利的全过程，关键价位、时间框架、交易结果均清晰可见。\"}",
+  "error": null
+}

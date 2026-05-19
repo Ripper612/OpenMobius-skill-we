@@ -1,0 +1,124 @@
+{
+  "card_id": "IJcfC6wAPZU_case_006_英镑美元_gbpusd_日线至月线范围交易",
+  "type": "case",
+  "title": "GBPUSD日线-月线范围交易：扫低后CSD确认突破",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Reversal Sequence",
+      "card_id": "reversal_sequence",
+      "exists": true
+    },
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Volume & Balance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_state_of_delivery_csd",
+    "displacement",
+    "opposing_run",
+    "market_structure_shift_mss",
+    "reversal_sequence",
+    "turtle_soup_entry",
+    "inversion",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1D",
+  "market_context": "GBPUSD在日线-月线模型中形成交易范围，上沿约1.24500，下沿约1.18500。价格扫盘范围低点后出现反转信号，随后形成CSD并突破范围上沿。",
+  "key_observation": "价格在扫出范围低点后形成反转序列（purge/turtle soup→inversion→CSD），通过回测FVG和对立K线（opposing candle/order block）确认，最终突破范围上沿至1.24500以上。",
+  "analysis_steps": [
+    "Step 1: 识别日线-月线模型中的交易范围，上沿1.24500，下沿1.18500，确认等高点结构。",
+    "Step 2: 观察价格扫盘范围低点（约1.18617），形成purge/turtle soup反转序列。",
+    "Step 3: 确认inversion和CSD（Change in State of Delivery）的形成，预示反转。",
+    "Step 4: 等待displacement向上，价格回测进入FVG区域。",
+    "Step 5: 观察down closed candles序列，确认收盘突破重要水平时形成新的opposing candle/order block。",
+    "Step 6: 确认低点不被再次触及，价格继续上行。",
+    "Step 7: 价格回测opposing candle，结合volume和balance（gap）作为额外确认。",
+    "Step 8: 价格突破范围上沿，取得范围另一侧，完成交易设置。"
+  ],
+  "outcome": "价格成功突破范围上沿1.24500，取得范围另一侧，确认向上方向性偏差。博主指出无需捕捉第一次入场也能获得方向性优势。",
+  "lessons": "范围交易中，扫盘极值后的反转序列（purge→inversion→CSD）是关键确认信号。通过FVG回测、opposing candle形成、volume/balance确认等多重条件叠加，可提高突破的可靠性。不必追求完美入场，只需确认方向性偏差即可参与。",
+  "primary_image": "cards/IJcfC6wAPZU/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/IJcfC6wAPZU/images/case_006_detail_1.jpg",
+    "cards/IJcfC6wAPZU/images/case_006_detail_2.jpg",
+    "cards/IJcfC6wAPZU/images/case_006_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "GBPUSD 日线图，时间范围覆盖 2023 年 1 月至 5 月。图上有一条实线水平线位于约 1.24400，一条虚线水平线位于约 1.21500，另一条虚线水平线贯穿全图位于 1.18617（右侧价格轴有对应标签）。图右下角标注文字为 'GBPUSD (1D)'、'1D-1M Model' 及 'Bias: Neutral'。Mar 13 附近有一根大阴线下探至约 1.18617，该区域附近有",
+    "case_006_detail_1.jpg": "GBPUSD 日线图，可见价格范围约从 1.14500 至 1.27000，时间跨度涵盖 2022 年 12 月至 2023 年 5 月初。图右侧当前价标签显示 1.24109。图上有一条虚线垂直线位于 2023 年 1 月 6 日处。图中可见两条水平虚线，分别位于约 1.21500 和 1.20500 附近，延伸至 Mar 至 Apr 区间。Apr 区间内有两个小绿色矩形标注，分别位于约 1.2",
+    "case_006_detail_2.jpg": "GBPUSD 日线图，时间范围覆盖 2023 年 1 月 20 日至 5 月初。图右下角标注显示资产为 GBPUSD（1D），模型标注为 1D-1M Model，偏向标注为 Bias: Neutral。图上有一条位于约 1.24500 的水平实线，一条位于约 1.21500 的水平虚线，以及一条位于约 1.20400 的蓝色水平线延伸至图右侧。图上有一个较大矩形框，覆盖约 1.18500 至 1.",
+    "case_006_detail_3.jpg": "GBPUSD 日线图，图右下角标注'1D-1M Model'及'Bias: Neutral'。图上有一条位于约1.24500的水平实线横贯全图，另有一条位于约1.20500的水平实线。图中绘有一个大矩形框，覆盖约1月16日至3月初、价格区间1.18500至1.24500。3月初附近有一根大阴线，随后出现黄色高亮矩形框于约1.19500至1.20500区间。3月21日处有一条垂直虚线标注。约1.21"
+  },
+  "sources": [
+    {
+      "video_id": "IJcfC6wAPZU",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        910.04,
+        1029.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了GBPUSD日线范围交易的全过程，资产、时间框架、关键价位（1.24500/1.18617）、反转序列、FVG回测、opposing candle确认等分析步骤清晰，最终突破结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:13.131699Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD日线-月线范围交易：扫低后CSD确认突破\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1D\",\"market_context\":\"GBPUSD在日线-月线模型中形成交易范围，上沿约1.24500，下沿约1.18500。价格扫盘范围低点后出现反转信号，随后形成CSD并突破范围上沿。\",\"key_observation\":\"价格在扫出范围低点后形成反转序列（purge/turtle soup→inversion→CSD），通过回测FVG和对立K线（opposing candle/order block）确认，最终突破范围上沿至1.24500以上。\",\"analysis_steps\":[\"Step 1: 识别日线-月线模型中的交易范围，上沿1.24500，下沿1.18500，确认等高点结构。\",\"Step 2: 观察价格扫盘范围低点（约1.18617），形成purge/turtle soup反转序列。\",\"Step 3: 确认inversion和CSD（Change in State of Delivery）的形成，预示反转。\",\"Step 4: 等待displacement向上，价格回测进入FVG区域。\",\"Step 5: 观察down closed candles序列，确认收盘突破重要水平时形成新的opposing candle/order block。\",\"Step 6: 确认低点不被再次触及，价格继续上行。\",\"Step 7: 价格回测opposing candle，结合volume和balance（gap）作为额外确认。\",\"Step 8: 价格突破范围上沿，取得范围另一侧，完成交易设置。\"],\"outcome\":\"价格成功突破范围上沿1.24500，取得范围另一侧，确认向上方向性偏差。博主指出无需捕捉第一次入场也能获得方向性优势。\",\"lessons\":\"范围交易中，扫盘极值后的反转序列（purge→inversion→CSD）是关键确认信号。通过FVG回测、opposing candle形成、volume/balance确认等多重条件叠加，可提高突破的可靠性。不必追求完美入场，只需确认方向性偏差即可参与。\",\"primary_image_frame_id\":\"IJcfC6wAPZU_f035\",\"supporting_image_frame_ids\":[\"IJcfC6wAPZU_f032\",\"IJcfC6wAPZU_f033\",\"IJcfC6wAPZU_f034\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Change in State of Delivery (CSD)\",\"Displacement\",\"Opposing Candle\",\"Market Structure Shift (MSS)\",\"Reversal Sequence\",\"Turtle Soup\",\"Inversion\",\"Volume & Balance\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了GBPUSD日线范围交易的全过程，资产、时间框架、关键价位（1.24500/1.18617）、反转序列、FVG回测、opposing candle确认等分析步骤清晰，最终突破结果明确。\"}",
+  "error": null
+}

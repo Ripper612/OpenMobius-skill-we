@@ -1,0 +1,99 @@
+{
+  "card_id": "umyCqr_0NsI_case_003_伦敦时段订单块与纽约时段回测",
+  "type": "case",
+  "title": "伦敦上收盘订单块在纽约时段的长期高点回测与卖方流动性交付",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Short-term High",
+      "card_id": "short_term_high",
+      "exists": true
+    },
+    {
+      "term": "Long-term High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Intermediate-term High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "short_term_high",
+    "sellside_liquidity",
+    "market_structure",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "5M",
+  "market_context": "伦敦时段扫除亚洲高点后形成上收盘K线（订单块），价格进入纽约时段后回测该区域，通过多次短期高点形成长期高点结构，最终交付至卖方流动性。",
+  "key_observation": "博主通过市场结构分析识别伦敦时段的上收盘订单块，在纽约时段观察价格如何通过形成短期高点→长期高点→中期高点的递进结构，最终向卖方流动性交付。",
+  "analysis_steps": [
+    "Step 1: 在60分钟图上识别伦敦时段扫亚洲高点并形成上收盘K线（订单块标记）",
+    "Step 2: 切换至5分钟图观察纽约时段价格回测该订单块区域的具体行为",
+    "Step 3: 标记第一个短期高点(STH)，观察是否形成长期高点(LTH)的条件",
+    "Step 4: 确认第二个短期高点形成，使第一个高点成为长期高点",
+    "Step 5: 继续追踪后续短期高点，寻找中期高点(ITH)的形成条件",
+    "Step 6: 确认中期高点形成后，预期价格不会回到该水平，而是向下交付至卖方流动性",
+    "Step 7: 观察价格从中期高点下跌至卖方流动性区域的完整交付过程"
+  ],
+  "outcome": "价格成功从中期高点向下交付至卖方流动性，完成了从订单块回测到流动性扫荡的完整周期。",
+  "lessons": "在市场结构不够清晰的情况下，可通过识别短期高点→长期高点→中期高点的递进结构来确定高概率的交易设置。订单块的回测需要通过多个时间框架的高点确认，最终的交付目标是机构流动性聚集区域。",
+  "primary_image": "cards/umyCqr_0NsI/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/umyCqr_0NsI/images/case_003_detail_1.jpg",
+    "cards/umyCqr_0NsI/images/case_003_detail_2.jpg",
+    "cards/umyCqr_0NsI/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 5分钟K线图，时间范围从03:00至14:30。图上显示价格范围约17710.00至17480.00。图中有两条水平线分别位于17430.00和17470.00处。右侧标注有多个'STH'文字标签对应不同价格区域，以及'Long Term High'标签。K线呈现先下跌后上升再回落的形态，包含多根绿色和黑色K线，部分K线带有上下影线。左下角显示当前价格为17792.25。",
+    "case_003_detail_1.jpg": "USD 60分钟K线图。图表显示从1月28日至2月5日的价格走势。左侧面板显示上升趋势从17480.00至17620.00，随后在1月30日06:00处出现向下跳空至17520.00。之后形成盘整区间在17520.00至17600.00之间约6根K线。从1月31日开始出现下跌趋势，价格从17600.00下行至17360.00，期间约5根K线。图左下角显示价格标签17641.25和17591.25。",
+    "case_003_detail_2.jpg": "USD 5分钟K线图，时间戳显示31/1/2024 H2H。图上可见三条水平线分别位于17465.00、17435.25和17392.75。K线整体价格范围从17465.00至17730.00。图表显示从02:00开始的价格走势，初期在17460-17465区间内震荡，随后03:00至05:00出现下行，之后05:00至07:00间形成多根小K线在17740-17780区间内波动，07:00至08",
+    "case_003_detail_3.jpg": "USD 5分钟K线图，时间范围从03:00至14:30。图上可见价格从17460下跌至17380，随后反弹至17440附近。图上有两条水平线分别位于17465和17430处。标注中出现三处'STH'文字标签，分别对应不同价格区域。图右侧显示当前时间为Wed 31 Jan 24 08:05，价格标签显示17401.25。K线呈现先跌后涨的整体形态，近期K线在17430至17445区间内形成密集排列。"
+  },
+  "sources": [
+    {
+      "video_id": "umyCqr_0NsI",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        550.36,
+        840.759
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从伦敦时段订单块形成到纽约时段回测的全过程，清晰标注了所有关键结构点，并明确说明了最终交付结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:23.579279Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"伦敦上收盘订单块在纽约时段的长期高点回测与卖方流动性交付\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"5M\",\"market_context\":\"伦敦时段扫除亚洲高点后形成上收盘K线（订单块），价格进入纽约时段后回测该区域，通过多次短期高点形成长期高点结构，最终交付至卖方流动性。\",\"key_observation\":\"博主通过市场结构分析识别伦敦时段的上收盘订单块，在纽约时段观察价格如何通过形成短期高点→长期高点→中期高点的递进结构，最终向卖方流动性交付。\",\"analysis_steps\":[\"Step 1: 在60分钟图上识别伦敦时段扫亚洲高点并形成上收盘K线（订单块标记）\",\"Step 2: 切换至5分钟图观察纽约时段价格回测该订单块区域的具体行为\",\"Step 3: 标记第一个短期高点(STH)，观察是否形成长期高点(LTH)的条件\",\"Step 4: 确认第二个短期高点形成，使第一个高点成为长期高点\",\"Step 5: 继续追踪后续短期高点，寻找中期高点(ITH)的形成条件\",\"Step 6: 确认中期高点形成后，预期价格不会回到该水平，而是向下交付至卖方流动性\",\"Step 7: 观察价格从中期高点下跌至卖方流动性区域的完整交付过程\"],\"outcome\":\"价格成功从中期高点向下交付至卖方流动性，完成了从订单块回测到流动性扫荡的完整周期。\",\"lessons\":\"在市场结构不够清晰的情况下，可通过识别短期高点→长期高点→中期高点的递进结构来确定高概率的交易设置。订单块的回测需要通过多个时间框架的高点确认，最终的交付目标是机构流动性聚集区域。\",\"primary_image_frame_id\":\"umyCqr_0NsI_f026\",\"supporting_image_frame_ids\":[\"umyCqr_0NsI_f023\",\"umyCqr_0NsI_f024\",\"umyCqr_0NsI_f025\",\"umyCqr_0NsI_f027\"],\"related_concepts\":[\"Order Block\",\"Short-term High\",\"Long-term High\",\"Intermediate-term High\",\"Sellside Liquidity\",\"Market Structure\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从伦敦时段订单块形成到纽约时段回测的全过程，清晰标注了所有关键结构点，并明确说明了最终交付结果。\"}",
+  "error": null
+}

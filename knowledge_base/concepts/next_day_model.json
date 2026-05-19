@@ -1,0 +1,57 @@
+{
+  "card_id": "next_day_model",
+  "type": "merged_concept",
+  "canonical_term": "Next Day Model",
+  "aliases": [
+    "Day-After Trading Model",
+    "NMXM Model",
+    "Next Candle Model",
+    "Next Day Expectation"
+  ],
+  "school": "ICT",
+  "definition": "当K线未能突破摆动点或范围时，预期下一根K线会回到该范围内运行的价格预测模型。基于价格尊重市场结构的原理。",
+  "identification_rules": [
+    "观察当前K线是否未能突破（close outside）摆动高点或低点",
+    "确认当前K线收盘价回到了前一个范围内（close back in）",
+    "当价格尊重PD array（如FVG、OB等）时，预期下一根K线会朝向该结构运行",
+    "在失败突破后，下一根K线通常会向相反方向运行或回到前一个K线的高点/低点"
+  ],
+  "trading_implication": "该模型用于预测短期价格方向。当一根K线未能突破关键结构时，交易者可预期下一根K线会回到该范围或向前一个K线的高/低点运行。这提供了一个可操作的流动性目标和潜在的反转或延续信号。可在多个时间框架上应用，但在较低时间框架上会产生更多噪音。",
+  "common_mistakes": [
+    "假设Next Candle Model总是有效——材料明确指出该模型并非总是正确，存在失败情况",
+    "在低时间框架上过度依赖该模型——在1小时及以下时间框架上会变得更加混乱和不可靠",
+    "忽视与其他结构的冲突——当存在多个相互矛盾的目标（如FVG与前一K线高点）时，需要谨慎判断"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_next_candle_model",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        543.0,
+        902.399
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:56:30.542648Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

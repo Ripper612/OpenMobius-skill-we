@@ -1,0 +1,94 @@
+{
+  "card_id": "k_Qoou9vi5c_case_001_15秒快速入场交易示例",
+  "type": "case",
+  "title": "多入场点快速做空交易设置示例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Entry Strategy",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "liquidity",
+    "fair_value_gap",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": null,
+  "market_context": "价格经历明显下跌趋势后在低位反弹，形成多个潜在做空入场机会。博主识别出从高位到低位的完整价格运动，并在反弹阶段标注了多个分层入场点。",
+  "key_observation": "博主在价格反弹过程中识别出4个分层做空入场点（Entry 1-4），配合止损和目标价位，展示快速交易设置的完整框架。",
+  "analysis_steps": [
+    "Step 1: 观察价格从高位下跌至低位，识别明显的下行趋势和长下影线结构。",
+    "Step 2: 在低位反弹阶段标注初始买方流动性水平（Buy LAMT）作为参考。",
+    "Step 3: 识别多个做空入场点，包括Entry 4 @ 3957.50（高位反弹点）和Entry 1 @ 2924.00（低位支撑点）。",
+    "Step 4: 设置止损位（SL 548 STP @ 2924.00和SL 548 LMT @ 3548.00）和目标价位（Target 1 @ 2956.50）。",
+    "Step 5: 标注多条水平线（4s Day STP、4s Buy SMP）作为订单块和流动性参考，形成完整的交易设置。"
+  ],
+  "outcome": null,
+  "lessons": "快速交易设置需要多层次的入场点规划，结合止损和目标价位形成完整的风险管理框架。通过识别关键价格水平和订单块，可以在反弹阶段快速执行分层入场策略。",
+  "primary_image": "cards/k_Qoou9vi5c/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/k_Qoou9vi5c/images/case_001_detail_1.jpg",
+    "cards/k_Qoou9vi5c/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表显示一份带有交易标注的 K 线图。图上有两条水平线：上方绿色线标记为'SL 548 LMT'位于 3548.00，下方红色线标记为'SL 548 STP'位于 2924.00。图右侧有三个文字标注分别标记入场点和目标价位：'Entry 4 @ 3957.50'、'Target 1 @ 2956.50'、'Entry 1 @ 2924.00'。图中还有一个矩形框标注数值'7.60'。K 线整体价",
+    "case_001_detail_1.jpg": "K线图表显示一段完整的价格走势序列。图上绘制有绿色和红色蜡烛线，左侧显示初期波动，中段出现明显下跌趋势伴随较长下影线，右侧显示恢复阶段。图右下方有一条青色水平线，标注文字为'Buy LAMT'。整体可见K线密度均匀，但资产代码、时间框架及具体价格刻度均未清晰显示。",
+    "case_001_detail_2.jpg": "图表为 K 线图，显示绿色和红色蜡烛线从左至右排列。图上有三条带标签的水平线：标记为'4s Day STP'的红色水平线位于上方，两条标记为'4s Buy SMP'的绿色水平线位于中下方。右侧区域可见文字标注'Entry 4 @ 3957.50'和一个标记为'4'的矩形框。K 线形态显示先前下行后在右侧出现恢复。具体价格数值和时间框架无法从图上清晰读取。"
+  },
+  "sources": [
+    {
+      "video_id": "k_Qoou9vi5c",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        13.36,
+        137.76
+      ]
+    }
+  ],
+  "extraction_confidence": "medium",
+  "confidence_reason": "资产代码和时间框架无法从图表清晰读取，但交易设置的结构、入场点、止损和目标价位均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset",
+    "missing_timeframe"
+  ],
+  "extracted_at": "2026-05-13T15:41:45.544027Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"多入场点快速做空交易设置示例\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":null,\"market_context\":\"价格经历明显下跌趋势后在低位反弹，形成多个潜在做空入场机会。博主识别出从高位到低位的完整价格运动，并在反弹阶段标注了多个分层入场点。\",\"key_observation\":\"博主在价格反弹过程中识别出4个分层做空入场点（Entry 1-4），配合止损和目标价位，展示快速交易设置的完整框架。\",\"analysis_steps\":[\"Step 1: 观察价格从高位下跌至低位，识别明显的下行趋势和长下影线结构。\",\"Step 2: 在低位反弹阶段标注初始买方流动性水平（Buy LAMT）作为参考。\",\"Step 3: 识别多个做空入场点，包括Entry 4 @ 3957.50（高位反弹点）和Entry 1 @ 2924.00（低位支撑点）。\",\"Step 4: 设置止损位（SL 548 STP @ 2924.00和SL 548 LMT @ 3548.00）和目标价位（Target 1 @ 2956.50）。\",\"Step 5: 标注多条水平线（4s Day STP、4s Buy SMP）作为订单块和流动性参考，形成完整的交易设置。\"],\"outcome\":null,\"lessons\":\"快速交易设置需要多层次的入场点规划，结合止损和目标价位形成完整的风险管理框架。通过识别关键价格水平和订单块，可以在反弹阶段快速执行分层入场策略。\",\"primary_image_frame_id\":\"k_Qoou9vi5c_f005\",\"supporting_image_frame_ids\":[\"k_Qoou9vi5c_f003\",\"k_Qoou9vi5c_f002\"],\"related_concepts\":[\"Order Block\",\"Liquidity\",\"Fair Value Gap\",\"Market Structure\",\"Entry Strategy\",\"Risk Management\"],\"extraction_confidence\":\"medium\",\"confidence_reason\":\"资产代码和时间框架无法从图表清晰读取，但交易设置的结构、入场点、止损和目标价位均清晰可见。\"}",
+  "error": null
+}

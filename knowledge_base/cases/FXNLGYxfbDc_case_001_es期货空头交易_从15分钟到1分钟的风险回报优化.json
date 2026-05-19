@@ -1,0 +1,108 @@
+{
+  "card_id": "FXNLGYxfbDc_case_001_es期货空头交易_从15分钟到1分钟的风险回报优化",
+  "type": "case",
+  "title": "ES期货空头交易：多时间框架风险回报优化",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Structure Break",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "risk_to_reward_management",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "15m / 5m / 1m",
+  "market_context": "ES期货在高时间框架（15分钟）形成FVG（公允价值缺口），价格从约3966下跌至3906附近。博主通过逐级下钻低时间框架，寻找更优的空头入场点以改善风险回报比。",
+  "key_observation": "通过从15分钟→5分钟→1分钟的逐级下钻，在1分钟图表上识别结构破裂和FVG确认，可以显著改善风险回报比，从1.79降低至更优水平。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表上识别高时间框架的FVG（公允价值缺口），位于约3935处（标注为'BB'），这是初始的兴趣点。",
+    "Step 2: 在15分钟图表上设置空头入场，止损设在高点约3952，目标设在低点约3921.50，计算风险回报比为1.79。",
+    "Step 3: 下钻到5分钟图表，观察是否有更优的入场机会；发现订单块（Order Block）存在，但风险回报比与15分钟相同或相似。",
+    "Step 4: 继续下钻到1分钟图表，等待结构破裂（structure break）的确认信号。",
+    "Step 5: 在1分钟图表上识别FVG确认，在该价格水平入场做空，止损设在较低的高点（约3952.75），目标仍为低点（约3919.75）。",
+    "Step 6: 比较三个时间框架的风险回报比，1分钟图表的设置提供了最优的风险回报比（止损2.75点，目标约17.50点）。"
+  ],
+  "outcome": "交易成功执行。1分钟图表的优化入场将止损从15分钟的9.75点降低至2.75点，同时保持相似或更好的目标水平，显著改善了风险回报比。",
+  "lessons": "多时间框架分析的核心价值在于通过逐级下钻找到更精确的入场点。在高时间框架确认趋势方向后，利用低时间框架的结构破裂和FVG确认可以大幅降低风险敞口，同时维持利润目标，从而提高交易的风险回报效率。",
+  "primary_image": "cards/FXNLGYxfbDc/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/FXNLGYxfbDc/images/case_001_detail_1.jpg",
+    "cards/FXNLGYxfbDc/images/case_001_detail_2.jpg",
+    "cards/FXNLGYxfbDc/images/case_001_detail_3.jpg",
+    "cards/FXNLGYxfbDc/images/case_001_detail_4.jpg",
+    "cards/FXNLGYxfbDc/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 S&P 500 E-mini Futures（ES1!）1 分钟 K 线图，来自 CME_MINI，平台为 TradingView。图上可见价格范围约为 3914.00 至 3952.00。图中央有一个交易标注区域，时间跨度从 26 Jul '22 13:21 至 14:33，由上方粉红色矩形（止损区）和下方绿色矩形（目标区）组成。止损标注显示\"Stop: 2.75 (0.07%), Qt",
+    "case_001_detail_1.jpg": "图为 S&P 500 E-mini Futures（ES1!）15 分钟 K 线图，可见价格范围约从 3906 至 3966。图上有两条水平虚线：一条位于约 3935 处，标注文字为\"BB\"；另一条位于约 3923 处，无文字标注。K 线从图左上方约 3960 区域起，经过一段连续红色 K 线向下延伸至约 3905，随后出现一组绿色 K 线回升至约 3935 附近。图右侧价格轴当前价标签显示 39",
+    "case_001_detail_2.jpg": "ES1! 15分钟K线图，图上可见价格范围约从3966到3906。K线序列整体呈连续下行排列，从图左约3966区域向右延伸至图右约3906区域。图右侧有两个相邻矩形标注：上方矩形为粉红色，覆盖约3942至3952区间；下方矩形为浅绿色，覆盖约3926至3942区间。图中有一条虚线水平线位于约3935处，标注文字为'BB'。右侧价格轴上可见3935.00（红色高亮）、3921.50（绿色高亮）及39",
+    "case_001_detail_3.jpg": "图表为 S&P 500 E-mini Futures（ES1!）5 分钟 K 线图，可见价格范围约 3902 至 3964。图左侧 K 线自约 3964 向下延伸至约 3918，时间跨度约 07:00 至 11:00。图中央 12:00 至 14:30 区域绘有两个重叠矩形：粉红色矩形覆盖约 3940–3952，标注文字为'Stop: 9.75 (0.23%) 39, Amount: 750'；绿",
+    "case_001_detail_4.jpg": "ES1！5 分钟 K 线图，来自 CME_MINI，图上可见价格范围约 3902 至 3964。图左侧 K 线自 07:00 起呈连续下行排列，至约 11:10 附近出现一条垂直虚线分隔。图中央区域有三个矩形标注：上方红色矩形标注止损信息（Stop: 3.25, Amount: 750，对应约 3947–3953 区间）；中间绿色矩形标注已平仓信息（Closed PBL: 17.50, Qty: ",
+    "case_001_detail_5.jpg": "图为 S&P 500 E-mini Futures（ES1!）1 分钟 K 线图，来自 CME_MINI，时间轴覆盖约 11:00 至 15:15。图上有一条贯穿全图的水平虚线，位于约 3935.00 价位。右侧价格轴可见多个高亮标签，包括 3952.75、3935.00、3922.50、3919.75 等。图中 K 线从左侧约 3948 区域向下运行至约 3920 附近，随后回升至约 3940，"
+  },
+  "sources": [
+    {
+      "video_id": "FXNLGYxfbDc",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.319,
+        179.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程，清晰标注了价格水平、止损、目标和风险回报比数值，交易结果明确可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:28.295290Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货空头交易：多时间框架风险回报优化\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"15m / 5m / 1m\",\"market_context\":\"ES期货在高时间框架（15分钟）形成FVG（公允价值缺口），价格从约3966下跌至3906附近。博主通过逐级下钻低时间框架，寻找更优的空头入场点以改善风险回报比。\",\"key_observation\":\"通过从15分钟→5分钟→1分钟的逐级下钻，在1分钟图表上识别结构破裂和FVG确认，可以显著改善风险回报比，从1.79降低至更优水平。\",\"analysis_steps\":[\"Step 1: 在15分钟图表上识别高时间框架的FVG（公允价值缺口），位于约3935处（标注为'BB'），这是初始的兴趣点。\",\"Step 2: 在15分钟图表上设置空头入场，止损设在高点约3952，目标设在低点约3921.50，计算风险回报比为1.79。\",\"Step 3: 下钻到5分钟图表，观察是否有更优的入场机会；发现订单块（Order Block）存在，但风险回报比与15分钟相同或相似。\",\"Step 4: 继续下钻到1分钟图表，等待结构破裂（structure break）的确认信号。\",\"Step 5: 在1分钟图表上识别FVG确认，在该价格水平入场做空，止损设在较低的高点（约3952.75），目标仍为低点（约3919.75）。\",\"Step 6: 比较三个时间框架的风险回报比，1分钟图表的设置提供了最优的风险回报比（止损2.75点，目标约17.50点）。\"],\"outcome\":\"交易成功执行。1分钟图表的优化入场将止损从15分钟的9.75点降低至2.75点，同时保持相似或更好的目标水平，显著改善了风险回报比。\",\"lessons\":\"多时间框架分析的核心价值在于通过逐级下钻找到更精确的入场点。在高时间框架确认趋势方向后，利用低时间框架的结构破裂和FVG确认可以大幅降低风险敞口，同时维持利润目标，从而提高交易的风险回报效率。\",\"primary_image_frame_id\":\"FXNLGYxfbDc_f006\",\"supporting_image_frame_ids\":[\"FXNLGYxfbDc_f002\",\"FXNLGYxfbDc_f003\",\"FXNLGYxfbDc_f001\",\"FXNLGYxfbDc_f004\",\"FXNLGYxfbDc_f005\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Structure Break\",\"Risk to Reward Ratio\",\"Multi-Timeframe Analysis\",\"High Time Frame (HTF)\",\"Low Time Frame (LTF)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个时间框架的分析过程，清晰标注了价格水平、止损、目标和风险回报比数值，交易结果明确可见。\"}",
+  "error": null
+}

@@ -1,0 +1,106 @@
+{
+  "card_id": "qdQYhePcvGE_case_010_gll_5分钟图的candle_3与candle_4交易",
+  "type": "case",
+  "title": "GLL 5分钟图candle 3失败后的candle 4延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "protected_high_low",
+    "change_in_the_state_of_delivery",
+    "consolidation",
+    "reversal_candle",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "GLL",
+  "timeframe": "5m",
+  "market_context": "GLL在5分钟图上经历下跌后形成整理。Candle 3未能有效扩展，随后candle 4继续延续下行趋势，展示多周期交易机会。",
+  "key_observation": "当candle 3未能扩展价格时，通常会形成candle 4的延续。博主观察到candle 3形成反转蜡烛但收盘仍在范围外，需要等待candle 4确认是否真正延续。",
+  "analysis_steps": [
+    "Step 1: 观察candle 3未能扩展价格，识别可能形成反转蜡烛的信号",
+    "Step 2: 评估candle 3的收盘位置——虽然接近反转但仍收在范围外，视为整理而非反转",
+    "Step 3: 等待candle 4的形成，确认是否会继续延续下行趋势",
+    "Step 4: 确认candle 4突破短期低点后上升，触及目标位（R2R或2.6R）",
+    "Step 5: 在低时间框架上要求更多确认，因为高时间框架显示扩展后的整理模式",
+    "Step 6: 识别受保护的摆动点（Protected Swing），预期前一天低点可能成为反转点"
+  ],
+  "outcome": "交易成功。Candle 4突破低点后上升，几乎触及RTP（Return to Previous），随后突破并获得不错的收益。",
+  "lessons": "当低时间框架candle未能扩展时，下一个candle常形成延续机会。需要区分真正的反转蜡烛与整理形态。在低时间框架上要求更多确认能提高交易概率，特别是当高时间框架显示扩展-整理模式时。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_010_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_010_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_010_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_010_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_010_primary.jpg": "GLL 5分钟K线图。图上显示从23:00至10:30时间段的价格走势，价格范围在1.9700至1.9920之间。图上有三条水平虚线分别位于1.9894、1.9810和1.9751。标注了多个矩形区域，其中两个分别标记为'c4'和'c2'，其余矩形区域未标记。K线由绿色和黑色蜡烛组成，早期出现一根较大的黑色K线从1.9820跌至1.9730。右上角显示'The Market Lens'、'RESI",
+    "case_010_detail_1.jpg": "GBP/USD 5分钟K线图。图上显示从约00:35至10:00的交易时段。价格范围从1.9680至1.9920。图上有两条水平虚线分别位于1.9757和1.9750。可见两个矩形标注框分别围绕1.9760-1.9790和1.9730-1.9760区间。图上标记有文字'c2'位于1.9720-1.9730附近。K线呈现先涨后跌再整理的形态，早期上升至1.9890，随后下跌至1.9720，中间段出现",
+    "case_010_detail_2.jpg": "GLLUSD 5分钟K线图。图上显示从左侧约22:00时刻开始的价格走势，整体价格范围从1.9690至1.9930。图表左侧显示一段下跌走势，从1.9890下行至1.9720。中间区域有两个矩形标注框，分别用浅绿色和浅灰色填充，覆盖约1.9750至1.9860的价格范围。图上有三条水平线分别位于1.9894、1.9815和1.9751处。右侧显示一段上升走势，K线多为绿色。底部显示交易控制面板，包",
+    "case_010_detail_3.jpg": "GLL 5分钟K线图。图上显示价格范围从1.9690至1.9930。两条水平虚线分别位于1.9844和1.9744。图中标记有两个矩形区域：一个浅绿色区域和一个浅灰色区域，分别覆盖不同的价格范围。K线在这些区域内显示多根蜡烛，呈现混合方向的波动。右侧显示绿色K线。图上文字标签包括资产代码GLL、时间框架5m、以及交易界面按钮（Sell、Buy、Flatten等）。"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_022",
+        "seg_023"
+      ],
+      "time_range": [
+        1132.72,
+        1259.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了candle 3与candle 4的分析过程，清晰说明了观察点、决策逻辑和交易结果，资产、时间框架、关键价位均可从图表读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:03.441103Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GLL 5分钟图candle 3失败后的candle 4延续交易\",\"school\":\"ICT\",\"asset\":\"GLL\",\"timeframe\":\"5m\",\"market_context\":\"GLL在5分钟图上经历下跌后形成整理。Candle 3未能有效扩展，随后candle 4继续延续下行趋势，展示多周期交易机会。\",\"key_observation\":\"当candle 3未能扩展价格时，通常会形成candle 4的延续。博主观察到candle 3形成反转蜡烛但收盘仍在范围外，需要等待candle 4确认是否真正延续。\",\"analysis_steps\":[\"Step 1: 观察candle 3未能扩展价格，识别可能形成反转蜡烛的信号\",\"Step 2: 评估candle 3的收盘位置——虽然接近反转但仍收在范围外，视为整理而非反转\",\"Step 3: 等待candle 4的形成，确认是否会继续延续下行趋势\",\"Step 4: 确认candle 4突破短期低点后上升，触及目标位（R2R或2.6R）\",\"Step 5: 在低时间框架上要求更多确认，因为高时间框架显示扩展后的整理模式\",\"Step 6: 识别受保护的摆动点（Protected Swing），预期前一天低点可能成为反转点\"],\"outcome\":\"交易成功。Candle 4突破低点后上升，几乎触及RTP（Return to Previous），随后突破并获得不错的收益。\",\"lessons\":\"当低时间框架candle未能扩展时，下一个candle常形成延续机会。需要区分真正的反转蜡烛与整理形态。在低时间框架上要求更多确认能提高交易概率，特别是当高时间框架显示扩展-整理模式时。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f039\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f038\",\"qdQYhePcvGE_f040\",\"qdQYhePcvGE_f041\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Protected Swing\",\"Change in the state of delivery\",\"Consolidation\",\"Reversal Candle\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了candle 3与candle 4的分析过程，清晰说明了观察点、决策逻辑和交易结果，资产、时间框架、关键价位均可从图表读出。\"}",
+  "error": null
+}

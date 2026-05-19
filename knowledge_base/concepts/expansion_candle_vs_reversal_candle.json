@@ -1,0 +1,56 @@
+{
+  "card_id": "expansion_candle_vs_reversal_candle",
+  "type": "merged_concept",
+  "canonical_term": "Expansion Candle vs Reversal Candle",
+  "aliases": [
+    "Continuation Candle vs Reversal Candle",
+    "扩张蜡烛 vs 反转蜡烛"
+  ],
+  "school": "Price Action",
+  "definition": "扩张蜡烛：小影线+大实体，价格单向趋势。反转蜡烛：大对立影线后回到开盘价，预示趋势可能改变。小影线支持趋势延续，大影线则不支持。",
+  "identification_rules": [
+    "扩张蜡烛：两侧影线均较小，实体（开盘价至收盘价距离）占据大部分K线高度，表示该周期内价格单向运动。",
+    "反转蜡烛：形成一条大的对立影线（与趋势方向相反），随后价格回到或接近开盘价收盘，表示价格试图反向但未能维持。",
+    "小影线判断：影线长度相对于实体较短，允许价格继续在同方向扩展而不消耗过多范围。",
+    "大影线判断：影线长度显著，表示价格已消耗大量范围进行对立运动，剩余范围不足以支持趋势延续。"
+  ],
+  "trading_implication": "扩张蜡烛+小影线组合最理想，支持趋势延续，可设定更激进的目标（如前一蜡烛低点、标准差投影）。反转蜡烛+大影线则需调整目标至开盘价或当前蜡烛低点。在高时间框架确认CSD和受保护摆动点后，可在低时间框架寻找反转蜡烛+扩张蜡烛的组合进行交易。",
+  "common_mistakes": [
+    "误认为所有反转蜡烛都适合交易——大影线反转蜡烛不支持扩张，需调整目标或等待次日延续。",
+    "忽视影线大小对趋势延续的影响——大影线消耗范围，限制后续扩展空间。",
+    "在反转蜡烛+大影线组合上设定过激进的目标——应回归开盘价或当前低点，而非前一蜡烛极值。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_expansion_candle_vs_reversal_candle",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.12,
+        186.4
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132873Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

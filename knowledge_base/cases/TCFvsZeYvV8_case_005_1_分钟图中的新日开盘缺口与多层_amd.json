@@ -1,0 +1,124 @@
+{
+  "card_id": "TCFvsZeYvV8_case_005_1_分钟图中的新日开盘缺口与多层_amd",
+  "type": "case",
+  "title": "1分钟新日开盘缺口中的多层AMD与标准差投影",
+  "related_concepts": [
+    {
+      "term": "AMD (Accumulation, Manipulation, Distribution)",
+      "card_id": "amd_accumulation_manipulation_distribution",
+      "exists": true
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "New Day Opening Gap",
+      "card_id": "new_day_opening_gap",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "amd_accumulation_manipulation_distribution",
+    "displacement",
+    "standard_deviation_projection",
+    "order_block",
+    "premium_discount_premium_",
+    "new_day_opening_gap",
+    "box_setup",
+    "market_structure",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "纽约开盘时价格进入新日开盘缺口(FVG)区域。在亚洲时段和伦敦时段形成积累与操纵后，纽约开盘触发向下位移，随后在1分钟图中展现多个嵌套的AMD周期。",
+  "key_observation": "博主通过标准差投影(2-2.5倍、4-4.5倍)预测派发目标，展示如何在低时间框架中识别嵌套的AMD模式，以及如何通过关注激进价格行动而非单纯整理来找到操纵区间。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图上识别亚洲范围的积累、伦敦时段的操纵及纽约开盘的派发",
+    "Step 2: 下探1分钟图，标记新日开盘缺口(NYD gap)及其随后的价格侵蚀",
+    "Step 3: 观察纽约开盘前的整理，然后识别激进向下位移，确认派发意图",
+    "Step 4: 从30秒图中找出制造新高的低点，用其投影操纵腿长度",
+    "Step 5: 在1分钟图上标记2-2.5倍和4-4.5倍标准差目标区域",
+    "Step 6: 识别与标准差目标对齐的PD数组(等低点、伦敦操纵区)",
+    "Step 7: 追踪价格触及第一标准差后的回测，进入2-2.5倍标准差区域的扫荡",
+    "Step 8: 观察多层嵌套AMD：在伦敦低点后识别新的激进行动与回撤，形成新的积累-操纵-派发周期",
+    "Step 9: 使用Box Setup概念，在从范围/操纵回测偏差时寻找可能的入场点",
+    "Step 10: 验证日线蜡烛形成：操纵形成上影线，派发形成日线主体"
+  ],
+  "outcome": "价格按预期触及第一标准差获得回测，进入2-2.5倍标准差区域，最终到达4-4.5倍标准差(伦敦操纵区)。日线蜡烛形成预期形态：操纵创建上影线，派发创建蜡烛主体。",
+  "lessons": "在低时间框架中应用AMD时，关键是通过标准差投影量化派发目标，而非凭感觉。识别激进价格行动(displacement)比单纯关注整理更有效。嵌套的AMD周期遵循相同逻辑，可递归应用于更小的时间框架。",
+  "primary_image": "cards/TCFvsZeYvV8/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/TCFvsZeYvV8/images/case_005_detail_1.jpg",
+    "cards/TCFvsZeYvV8/images/case_005_detail_2.jpg",
+    "cards/TCFvsZeYvV8/images/case_005_detail_3.jpg",
+    "cards/TCFvsZeYvV8/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 1分钟K线图。图上显示从08:20至11:30的价格走势。可见三条水平虚线分别位于14460、14350和14260价位。图上有两个灰色矩形区域和一个蓝色矩形区域。蓝色矩形区域标注为FVG，覆盖约14350至14420价格范围。K线整体呈现先上升后下降的形态，上升段约12根K线从14340上升至14460，随后出现下行走势至14260附近。图右侧显示HTD标记。",
+    "case_005_detail_1.jpg": "USD 1分钟K线图，时间范围从08:30至11:10。图上显示上升趋势从14360上升至14450，随后在14450附近形成高点。图上有三条水平虚线分别位于14450、14420和14347.75。09:30处出现向下跳空缺口。09:40至10:00之间有一个蓝色矩形区域标注，覆盖价格范围14300至14450。图上标记有时间标签0:00、8:30和HY1。右下角显示Sell、Buy、Flatt",
+    "case_005_detail_2.jpg": "USD 1 分钟 K 线图，时间范围从 08:15 至 12:45，日期标注为 26/10/2023。图上可见价格范围约 14260 至 14530。图中有两条水平线分别位于 14460 和 14300 处。图上标注有两个矩形区域，其中一个蓝色矩形覆盖约 14300 至 14460 的价格区间。K 线形态显示初期上升趋势，随后出现快速下跌，之后在较低价位形成多根绿色 K 线。右侧标注有文字'HYO",
+    "case_005_detail_3.jpg": "USD 1分钟K线图，时间范围显示为26/10/2023。图上价格范围约从14160到14460。可见多条水平虚线标注，包括14450、14320、14240等价位。图表显示一段上升趋势（绿色K线为主），随后转为下降趋势（黑色K线为主），最后在14230至14280区间形成整理形态。图右侧标注有时间信息'NYD'、'8:30'、'0:00'等。底部时间轴显示具体交易时段。",
+    "case_005_detail_4.jpg": "USD 1分钟K线图，时间范围从11:00至12:50。图表显示从14450下跌至14280的下行趋势，跨越约15根K线。图上有三条水平线分别位于14299.75、14280.00和14245.00。三个矩形标注框分别覆盖14460-14500、14280-14320和14240-14290价格区间。绿色阴影区域出现在图表中部偏下方。K线由黑色和绿色蜡烛组成，在14280-14320区间内显示混合"
+  },
+  "sources": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        550.12,
+        985.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从15分钟到1分钟的分析过程，清晰标记了关键价位(14450、14300、14260等)、标准差倍数、AMD各阶段及最终结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:58.299326Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"1分钟新日开盘缺口中的多层AMD与标准差投影\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"纽约开盘时价格进入新日开盘缺口(FVG)区域。在亚洲时段和伦敦时段形成积累与操纵后，纽约开盘触发向下位移，随后在1分钟图中展现多个嵌套的AMD周期。\",\"key_observation\":\"博主通过标准差投影(2-2.5倍、4-4.5倍)预测派发目标，展示如何在低时间框架中识别嵌套的AMD模式，以及如何通过关注激进价格行动而非单纯整理来找到操纵区间。\",\"analysis_steps\":[\"Step 1: 在15分钟图上识别亚洲范围的积累、伦敦时段的操纵及纽约开盘的派发\",\"Step 2: 下探1分钟图，标记新日开盘缺口(NYD gap)及其随后的价格侵蚀\",\"Step 3: 观察纽约开盘前的整理，然后识别激进向下位移，确认派发意图\",\"Step 4: 从30秒图中找出制造新高的低点，用其投影操纵腿长度\",\"Step 5: 在1分钟图上标记2-2.5倍和4-4.5倍标准差目标区域\",\"Step 6: 识别与标准差目标对齐的PD数组(等低点、伦敦操纵区)\",\"Step 7: 追踪价格触及第一标准差后的回测，进入2-2.5倍标准差区域的扫荡\",\"Step 8: 观察多层嵌套AMD：在伦敦低点后识别新的激进行动与回撤，形成新的积累-操纵-派发周期\",\"Step 9: 使用Box Setup概念，在从范围/操纵回测偏差时寻找可能的入场点\",\"Step 10: 验证日线蜡烛形成：操纵形成上影线，派发形成日线主体\"],\"outcome\":\"价格按预期触及第一标准差获得回测，进入2-2.5倍标准差区域，最终到达4-4.5倍标准差(伦敦操纵区)。日线蜡烛形成预期形态：操纵创建上影线，派发创建蜡烛主体。\",\"lessons\":\"在低时间框架中应用AMD时，关键是通过标准差投影量化派发目标，而非凭感觉。识别激进价格行动(displacement)比单纯关注整理更有效。嵌套的AMD周期遵循相同逻辑，可递归应用于更小的时间框架。\",\"primary_image_frame_id\":\"TCFvsZeYvV8_f023\",\"supporting_image_frame_ids\":[\"TCFvsZeYvV8_f022\",\"TCFvsZeYvV8_f024\",\"TCFvsZeYvV8_f025\",\"TCFvsZeYvV8_f026\"],\"related_concepts\":[\"AMD (Accumulation, Manipulation, Distribution)\",\"FVG (Fair Value Gap)\",\"Displacement\",\"Standard Deviation Projection\",\"Order Block\",\"PD Array\",\"New Day Opening Gap\",\"Box Setup\",\"Market Structure\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从15分钟到1分钟的分析过程，清晰标记了关键价位(14450、14300、14260等)、标准差倍数、AMD各阶段及最终结果。\"}",
+  "error": null
+}

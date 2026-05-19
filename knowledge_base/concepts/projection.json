@@ -1,0 +1,73 @@
+{
+  "card_id": "projection",
+  "type": "merged_concept",
+  "canonical_term": "Projection",
+  "aliases": [
+    "Manipulation Leg Projection",
+    "Price Projection"
+  ],
+  "school": "ICT",
+  "definition": "通过将低-高-低结构中的下行操纵腿投影到摆动高点，生成多个目标价位的技术方法。可结合2R倍数或标准差倍数扩展获利目标。",
+  "identification_rules": [
+    "识别完整的低-高-低-高结构（breaker block形态的前置结构）",
+    "定位操纵腿：低点到低点之间的下行段",
+    "将操纵腿的幅度垂直投影至摆动高点上方",
+    "生成的投影点作为潜在目标价位（如2R、2.5R、3R等）",
+    "可在投影基础上加入标准差倍数（如-2标准差）进一步精化目标"
+  ],
+  "trading_implication": "Projection提供了基于市场结构的多层次获利目标设置方法。在breaker block与FVG重叠的unicorn model中，交易者可选择2R快速获利或持仓至投影目标获取更高收益（如3.62R、4R+）。该方法特别适用于高时间框架确认的设置，能显著提升风险回报比。",
+  "common_mistakes": [
+    "未正确识别操纵腿（应为低-高-低结构中的下行段，而非其他价格段）",
+    "投影时混淆方向（看涨结构投影向上，看跌结构投影向下）",
+    "忽视投影与breaker block/FVG的配合使用，导致目标设置缺乏结构支撑",
+    "过度依赖投影目标而忽视2R等基础风险回报比的快速获利机会"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "75S4vwD4P1U_case_004_nq1期货多时间框架breaker_block分析",
+      "video_id": "75S4vwD4P1U",
+      "title": "NQ1期货多时间框架Breaker Block与投影目标分析"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_004_nq11月1日box_setup与订单块结合案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ1! 11月1日Box Setup与订单块结合做多案例"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_007_伦敦时段的投影与派发预测",
+      "video_id": "TCFvsZeYvV8",
+      "title": "伦敦时段操纵腿投影与派发预测"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "original_card_id": "75S4vwD4P1U_concept_projection",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        372.12,
+        634.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135060Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

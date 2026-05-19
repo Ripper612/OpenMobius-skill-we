@@ -1,0 +1,59 @@
+{
+  "card_id": "midweek_reversal",
+  "type": "merged_concept",
+  "canonical_term": "Midweek Reversal",
+  "aliases": [
+    "周中反转"
+  ],
+  "school": "Price Action",
+  "definition": "周一至周三价格下跌形成低点，周四开始反转走高，周五继续上升的周内价格形态。通常伴随市场结构转变和订单块形成。",
+  "identification_rules": [
+    "周一至周三形成明确的下跌趋势或低点",
+    "周三或周四形成Change in the state of delivery（交付状态改变），标志反转开始",
+    "周四出现向上反转的K线，打破前期下跌结构",
+    "周五预期继续上升，形成连续性上升走势"
+  ],
+  "trading_implication": "Midweek Reversal是周内交易的典型形态，结合经济日历使用效果最佳。交易者应避免周一和高影响新闻前交易，在周三低点形成后等待周四反转信号，然后在周五追踪续涨。该形态常与周内积累-操纵-派发（AMD）周期相关联，提供明确的交易方向和目标。",
+  "common_mistakes": [
+    "未等待周四明确的反转确认就提前在周三低点附近建仓",
+    "忽视经济日历中的高影响新闻事件，导致周中被新闻打破形态",
+    "将周中反转与单纯的低点混淆，忽视Change in the state of delivery的确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "hKCMqh0ZsY0_case_001_nasdaq周线交易案例",
+      "video_id": "hKCMqh0ZsY0",
+      "title": "FOMC/NFP周期内的周线操纵-分布交易案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "original_card_id": "hKCMqh0ZsY0_concept_midweek_reversal",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.76,
+        368.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134183Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

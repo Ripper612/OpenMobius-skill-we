@@ -1,0 +1,96 @@
+{
+  "card_id": "o0v4KQxZbpU_case_007_回测第五天交易",
+  "type": "case",
+  "title": "NAS100日线扫高后做空，Order Block入场获3R收益",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "mitigation_block",
+    "breaker_block",
+    "fair_value_gap",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1D",
+  "market_context": "NAS100在日线上形成上升趋势后出现扫高，价格在9:00 a.m.标记的高点附近触及，随后形成向下close candle，为做空设置提供机会。",
+  "key_observation": "博主观察到价格扫高后形成close below的K线，随后利用该K线形成的Order Block作为Mitigation/Breaker区域进行做空入场，目标是对面K线的另一侧。",
+  "analysis_steps": [
+    "Step 1: 标记9:00 a.m.的日线高点和低点作为参考结构",
+    "Step 2: 观察价格是否触及该高点（确认为equal highs而非sweep）",
+    "Step 3: 识别close below结构的K线，确认向下趋势信号",
+    "Step 4: 将该close below K线识别为Order Block，用作Mitigation/Breaker入场区域",
+    "Step 5: 设置止损在该Order Block的高点",
+    "Step 6: 设置目标为对面K线的另一侧（下方目标）",
+    "Step 7: 交易执行后价格达到3R收益",
+    "Step 8: 将止损移至保本位置（break even）"
+  ],
+  "outcome": "交易成功，获得3R收益后止损移至保本。",
+  "lessons": "Order Block在价格反转后可作为有效的Mitigation/Breaker入场点；close below结构确认做空信号；及时将止损移至保本可锁定利润同时保护账户。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_007_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_007_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_007_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_007_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "NAS100 日线图。图上有多条水平线标注在 15370、15320、15200、15100、15040 等价格位置。两个矩形区域分别标记为'FVG - Imbalance'，其中一个位于 15280 至 15320 区间（粉色背景），另一个位于 15100 至 15200 区间（浅蓝色背景）。可见价格范围从 15040 至 15370。右侧显示一根大型绿色 K 线从约 15100 上升至 153",
+    "case_007_detail_1.jpg": "NAS100 日线图。图表显示从左至右的价格走势，可见价格范围约从 14850 到 15112。图上有多条水平线标注，其中两条矩形框分别标记在 15068-15075 区间和 14985-15000 区间。K 线序列显示初期多根绿色蜡烛，中段出现一系列黑色蜡烛表现下行，后期再次出现绿色蜡烛。各根 K 线的上下影线长度不一。右侧价格刻度清晰显示数值标记。",
+    "case_007_detail_2.jpg": "NAS100 日线图。图上显示从约 14900 至 15398 的上升趋势。可见一个灰色矩形标注区域位于 15210 至 15348 之间。图上有三条水平线分别标记在 15348、15210 和 15312 处。K 线序列中绿色蜡烛占多数，黑色蜡烛分散分布。图表下方显示成交量柱状图。右侧价格刻度清晰可读。",
+    "case_007_detail_3.jpg": "NAS100 1 分钟 K 线图。图上显示从约 15500 至 15677 的上升趋势，跨越多根 K 线。绿色 K 线占主体，黑色 K 线穿插其中。右侧价格轴标注三个水平价格位：15677.000000、15644.170000、15584.170000。图上绘有一条矩形框，纵向跨度约 60 点（15584 至 15644 之间），以及一条从左下向右上延伸的趋势线。左下角显示时间戳及账户余额信息。",
+    "case_007_detail_4.jpg": "NAS100 日线图。图上显示从约 13500 至 18870 的上升趋势。可见多条绿色 K 线，其中上方区域有一根较大的绿色主体 K 线。图上标注有两条带文字标签的水平线，均位于 14880 处，标签分别为'Swing_LL-S-SWING_TG_17'和'Target_14.880000 (0.382) 14880000, Amount: 280.2'。左下方区域显示早期的小幅波动后开始上升。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        561.92,
+        743.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从结构识别、入场设置、止损目标到交易结果的全过程，关键价位和交易逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:46.007635Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NAS100日线扫高后做空，Order Block入场获3R收益\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1D\",\"market_context\":\"NAS100在日线上形成上升趋势后出现扫高，价格在9:00 a.m.标记的高点附近触及，随后形成向下close candle，为做空设置提供机会。\",\"key_observation\":\"博主观察到价格扫高后形成close below的K线，随后利用该K线形成的Order Block作为Mitigation/Breaker区域进行做空入场，目标是对面K线的另一侧。\",\"analysis_steps\":[\"Step 1: 标记9:00 a.m.的日线高点和低点作为参考结构\",\"Step 2: 观察价格是否触及该高点（确认为equal highs而非sweep）\",\"Step 3: 识别close below结构的K线，确认向下趋势信号\",\"Step 4: 将该close below K线识别为Order Block，用作Mitigation/Breaker入场区域\",\"Step 5: 设置止损在该Order Block的高点\",\"Step 6: 设置目标为对面K线的另一侧（下方目标）\",\"Step 7: 交易执行后价格达到3R收益\",\"Step 8: 将止损移至保本位置（break even）\"],\"outcome\":\"交易成功，获得3R收益后止损移至保本。\",\"lessons\":\"Order Block在价格反转后可作为有效的Mitigation/Breaker入场点；close below结构确认做空信号；及时将止损移至保本可锁定利润同时保护账户。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f023\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f019\",\"o0v4KQxZbpU_f022\",\"o0v4KQxZbpU_f024\",\"o0v4KQxZbpU_f025\"],\"related_concepts\":[\"Order Block\",\"Mitigation Block\",\"Breaker Block\",\"Fair Value Gap\",\"Market Structure Shift\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从结构识别、入场设置、止损目标到交易结果的全过程，关键价位和交易逻辑清晰。\"}",
+  "error": null
+}

@@ -1,0 +1,56 @@
+{
+  "card_id": "pivot_and_target_usage",
+  "type": "merged_concept",
+  "canonical_term": "Pivot and Target Usage",
+  "aliases": [
+    "8:30 and Midnight Open as Pivots and Targets"
+  ],
+  "school": "ICT",
+  "definition": "利用8:30开盘和午夜开盘作为关键参考点，用于识别折价/溢价区域、设置止损位和利润目标，指导日内交易决策的方法。",
+  "identification_rules": [
+    "在买入日（Open-Low-High-Close）中，价格低于8:30或午夜开盘为折价区，低于两者为深折价区",
+    "在卖出日（Open-High-Low-Close）中，价格高于8:30或午夜开盘为溢价区，高于两者为深溢价区",
+    "观察价格是否在这两个开盘价位处反复测试、反弹或突破，作为支撑/阻力的表现",
+    "当价格无法收盘突破这些开盘价位时，表明反向运动可能继续",
+    "在激进的位移或突破后，这两个开盘价位可转换为利润目标"
+  ],
+  "trading_implication": "8:30和午夜开盘充当日内交易的多重角色：(1)折价/溢价区分界线，指导入场方向；(2)枢轴点，价格反复测试表明市场犹豫；(3)止损参考，失败收盘预示反向运动；(4)利润目标，在激进突破后作为回归目标。通过这些参考点建立交易框架，提高概率。",
+  "common_mistakes": [
+    "忽视价格是否能够收盘突破这些开盘价位——仅触及不足以确认方向",
+    "在非深折价/深溢价区域盲目入场，而不等待更强的设置",
+    "未能识别这些开盘价位从支撑/阻力转换为目标的时机",
+    "在操纵（Manipulation）阶段误判方向，未等待激进位移确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "b6yvRKf8haE",
+      "original_card_id": "b6yvRKf8haE_concept_pivot_and_target_usage",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        188.599,
+        465.639
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134726Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

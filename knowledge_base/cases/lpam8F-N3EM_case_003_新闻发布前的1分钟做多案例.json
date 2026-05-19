@@ -1,0 +1,117 @@
+{
+  "card_id": "lpam8F-N3EM_case_003_新闻发布前的1分钟做多案例",
+  "type": "case",
+  "title": "新闻禁运期间1分钟折价区FVG做多案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "liquidity",
+    "market_structure_shift_mss",
+    "premium_discount",
+    "equilibrium_eq",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1! (NASDAQ 100 E-mini Futures)",
+  "timeframe": "1M / 5M",
+  "market_context": "新闻发布前禁运期间，价格在5分钟图表上形成流动性扫荡和位移，随后在1分钟图表上出现市场结构转变，为低时间框架做多提供机会。",
+  "key_observation": "博主识别到在5分钟图表上的流动性扫荡和位移后，价格回归到1分钟折价区内的未平仓FVG，该FVG成为高概率做多入场点，风险回报比约6:1。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图表上识别流动性扫荡（Liquidity Grab），价格向上突破至约12273.50区域。",
+    "Step 2: 标记5分钟图表上的位移范围（Displacement Range），从低点至高点用斐波那契工具标注。",
+    "Step 3: 识别市场结构转变（MSS + Displacement），确认趋势方向转变。",
+    "Step 4: 在1分钟图表上观察价格回归，寻找折价区（Discount）内的未平仓FVG。",
+    "Step 5: 在1分钟折价区内定位FVG入场点，约在11820.00-11740.00区间。",
+    "Step 6: 设置止损在该FVG低点或相关K线低点，计算风险回报比。",
+    "Step 7: 规划分批获利：第一部分在小订单块处平仓，第二部分在上方FVG/OB处平仓，第三部分持有至溢价区。"
+  ],
+  "outcome": "交易成功执行，风险回报比达到约6:1，第一部分在11882.75附近的订单块处平仓，后续部分在更高价位获利。",
+  "lessons": "在新闻禁运期间利用多时间框架分析（5分钟识别大方向，1分钟精确入场）可以提高交易精准度；折价区内的未平仓FVG是高概率做多入场点；严格的风险管理和分批获利策略能有效锁定利润。",
+  "primary_image": "cards/lpam8F-N3EM/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/lpam8F-N3EM/images/case_003_detail_1.jpg",
+    "cards/lpam8F-N3EM/images/case_003_detail_2.jpg",
+    "cards/lpam8F-N3EM/images/case_003_detail_3.jpg",
+    "cards/lpam8F-N3EM/images/case_003_detail_4.jpg",
+    "cards/lpam8F-N3EM/images/case_003_detail_5.jpg",
+    "cards/lpam8F-N3EM/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NASDAQ 100 E-mini Futures 1分钟K线图。图上显示从约06:10至12:00的交易时段。可见价格范围从11700.00至11932.00。图上有两条水平线分别位于11820.00和11740.00，形成一个矩形标注区域。右侧价格刻度显示当前价格标签为11791.25（绿色背景）。K线整体呈现多根绿色和红色蜡烛体交替出现，各根K线均具有上下影线。除两条水平线外，图上未见其他标",
+    "case_003_detail_1.jpg": "NASDAQ 100 E-mini Futures 5分钟图表。图上有一个灰色矩形区域，纵跨约11917.00至12273.50价格范围。右侧标注栏显示多条文字标签，包括'Liquidity Grab'、'MSS + Displacement'、'50% Fib of Displacement Range'、'Return to the FVG/OB'、'Solid Risk : Reward'等",
+    "case_003_detail_2.jpg": "NQ 5分钟K线图。图上显示从01:00至20:00的交易时段。右侧标注栏列出三项文字标签：'of Displacement Range'、'Return to the FVG/OB'、'Solid Risk : Reward'。图中有一条灰色矩形框标注，覆盖约11940至12100的价格区间。K线整体价格范围从11940到12345。图右侧显示多个价格标签，包括12220.50、12195.25",
+    "case_003_detail_3.jpg": "NQ 5分钟K线图。图上显示从约12226下跌至11865的价格走势，随后出现恢复性上升。图表中有一个灰色矩形标注覆盖11865至12000价格区间。右侧标注栏显示文字标签包括'of Displacement Range'、'Return to the FVG/OB'、'Solid Risk : Reward'。图上绘有两条趋势线，一条向上、一条向下。可见K线整体价格范围约从11865到12345",
+    "case_003_detail_4.jpg": "NQ 5分钟K线图。图上标注了多个价格水平线和矩形区域。左侧为灰色矩形区域，中间偏右为绿色矩形区域标注'Closed FVG: 134.50, Qty: 0.342 Risk/Reward Ratio: 2.21'，下方为粉色矩形区域标注'Setup: 31.75 (S 4291.25) Takeout: 750'。图上还标注了'Target: 11,634.00 (Swing 12,231.50",
+    "case_003_detail_5.jpg": "NASDAQ 100 E-mini Futures 1分钟K线图。图表显示从00:00至10:30的交易时段，价格范围在11720.00至11910.00之间。右侧价格轴显示多个价格标签，包括11912.25、11872.25和11725.25。图上呈现多个高峰和低谷，高峰集中在11880至11910区间，低谷集中在11720至11750区间。整个时段内K线密集，显示高波动性特征。未见其他标注或指",
+    "case_003_detail_6.jpg": "NASDAQ 100 E-mini Futures 1分钟图。图上有三条水平线标注支撑位，其中11882.75处标记为S1。图中央和下方有三个矩形标注框，分别标记为支撑、已平仓FVG和阶段信息，包含数值和成交量数据。图上有一条向上倾斜的趋势线。K线从左侧约11932.00下跌至11730.00，随后形成上升趋势，期间在11800.00至11840.00区间内出现整理，最新K线收于11772.25附"
+  },
+  "sources": [
+    {
+      "video_id": "lpam8F-N3EM",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        128.319,
+        311.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从5分钟高时间框架到1分钟低时间框架的分析过程，清晰标注了关键价位、入场点、止损和获利目标，并给出了具体的风险回报比数据。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:29.131423Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"新闻禁运期间1分钟折价区FVG做多案例\",\"school\":\"ICT\",\"asset\":\"NQ1! (NASDAQ 100 E-mini Futures)\",\"timeframe\":\"1M / 5M\",\"market_context\":\"新闻发布前禁运期间，价格在5分钟图表上形成流动性扫荡和位移，随后在1分钟图表上出现市场结构转变，为低时间框架做多提供机会。\",\"key_observation\":\"博主识别到在5分钟图表上的流动性扫荡和位移后，价格回归到1分钟折价区内的未平仓FVG，该FVG成为高概率做多入场点，风险回报比约6:1。\",\"analysis_steps\":[\"Step 1: 在5分钟图表上识别流动性扫荡（Liquidity Grab），价格向上突破至约12273.50区域。\",\"Step 2: 标记5分钟图表上的位移范围（Displacement Range），从低点至高点用斐波那契工具标注。\",\"Step 3: 识别市场结构转变（MSS + Displacement），确认趋势方向转变。\",\"Step 4: 在1分钟图表上观察价格回归，寻找折价区（Discount）内的未平仓FVG。\",\"Step 5: 在1分钟折价区内定位FVG入场点，约在11820.00-11740.00区间。\",\"Step 6: 设置止损在该FVG低点或相关K线低点，计算风险回报比。\",\"Step 7: 规划分批获利：第一部分在小订单块处平仓，第二部分在上方FVG/OB处平仓，第三部分持有至溢价区。\"],\"outcome\":\"交易成功执行，风险回报比达到约6:1，第一部分在11882.75附近的订单块处平仓，后续部分在更高价位获利。\",\"lessons\":\"在新闻禁运期间利用多时间框架分析（5分钟识别大方向，1分钟精确入场）可以提高交易精准度；折价区内的未平仓FVG是高概率做多入场点；严格的风险管理和分批获利策略能有效锁定利润。\",\"primary_image_frame_id\":\"lpam8F-N3EM_f010\",\"supporting_image_frame_ids\":[\"lpam8F-N3EM_f006\",\"lpam8F-N3EM_f001\",\"lpam8F-N3EM_f007\",\"lpam8F-N3EM_f008\",\"lpam8F-N3EM_f009\",\"lpam8F-N3EM_f011\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Liquidity\",\"Market Structure Shift (MSS)\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Risk Management\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从5分钟高时间框架到1分钟低时间框架的分析过程，清晰标注了关键价位、入场点、止损和获利目标，并给出了具体的风险回报比数据。\"}",
+  "error": null
+}

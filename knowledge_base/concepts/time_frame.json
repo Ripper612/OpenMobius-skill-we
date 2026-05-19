@@ -1,0 +1,71 @@
+{
+  "card_id": "time_frame",
+  "type": "merged_concept",
+  "canonical_term": "Time Frame",
+  "aliases": [
+    "HTF/LTF",
+    "High Time Frame / Low Time Frame",
+    "周期",
+    "时间框架"
+  ],
+  "school": "General",
+  "definition": "交易分析中使用的不同周期图表。在该策略中，1小时图用于标记范围框架，1分钟图用于寻找具体入场点。",
+  "identification_rules": [
+    "高时间框架（HTF）用于确定宏观结构和参考点，如前一小时的高低点",
+    "低时间框架（LTF）用于识别具体的价格行为和入场信号",
+    "两个时间框架需配合使用：先在HTF标记范围，再在LTF观察价格反应"
+  ],
+  "trading_implication": "多时间框架分析提高交易精准度。在Silver Bullet策略中，1小时图提供交易框架（9:00 a.m.高低点），1分钟图用于在特定时间窗口（10-11 a.m.）内寻找具体入场机会。这种分层方法避免在错误的时间框架上做出交易决策。",
+  "common_mistakes": [
+    "仅在单一时间框架上分析，忽视更高周期的结构",
+    "在低时间框架上看到信号就立即交易，未确认高时间框架的框架条件"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "9PKJ0U1gl4g_case_002_原油期货小时线低时间框架入场",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "原油期货日线Propulsion Block在小时线的低时间框架入场"
+    },
+    {
+      "card_id": "_94CPMjWi9E_case_003_dxy日线结构转变与pd_array应用",
+      "video_id": "_94CPMjWi9E",
+      "title": "DXY日线MSS与PD Array折价区反应分析"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_006_usd日线大幅扩张后反转案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "USD日线大幅扩张后反转交易案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "original_card_id": "o0v4KQxZbpU_concept_time_frame",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        64.28,
+        367.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136241Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

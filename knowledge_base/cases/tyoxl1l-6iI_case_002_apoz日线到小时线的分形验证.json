@@ -1,0 +1,108 @@
+{
+  "card_id": "tyoxl1l-6iI_case_002_apoz日线到小时线的分形验证",
+  "type": "case",
+  "title": "APOZ日线K线2收盘下钻至小时线的分形验证",
+  "related_concepts": [
+    {
+      "term": "Candle to Closure",
+      "card_id": "wick_closure",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Fractal",
+      "card_id": "fractal",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Time Frame Alignment",
+      "card_id": "time_frame_alignment",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "wick_closure",
+    "change_in_the_state_of_delivery_csd",
+    "point_of_interest",
+    "fractal",
+    "equilibrium_eq",
+    "time_frame_alignment",
+    "protected_high_low",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "APOZ",
+  "timeframe": "1D → 1H",
+  "market_context": "APOZ在日线上形成扫荡前期高点后的K线2收盘，博主通过下钻至小时线验证该收盘的有效性，并在小时线上找到相同的分形结构进行交易分析。",
+  "key_observation": "日线上的K线2收盘（扫荡前期高点后的黑色K线）通过小时线上的交付状态改变（CSD）得到确认，小时线上同样形成K线2收盘模式，构成分形验证。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别扫荡前期高点的有效K线2收盘，该收盘提供向下交易的偏差。",
+    "Step 2: 从日线下钻至小时线，寻找交付状态改变（CSD）来验证日线K线2收盘的有效性。",
+    "Step 3: 在小时线上标记出形成该高点的K线序列，确认CSD的存在。",
+    "Step 4: 在小时线上发现相同的K线2收盘模式，即在点的兴趣处形成的收盘。",
+    "Step 5: 利用均衡点（EQ）确认价格在前一根K线范围内的尊重，预期价格继续向下。",
+    "Step 6: 观察价格触及点的兴趣后形成新的K线2收盘，确认分形结构和继续向下的延续。"
+  ],
+  "outcome": "价格在小时线上确实形成了K线2收盘并继续向下运动，验证了日线到小时线的分形结构，交易偏差得到确认。",
+  "lessons": "时间框架对齐是验证高时间框架信号的关键方法。通过在低时间框架上寻找交付状态改变（CSD），可以确认高时间框架K线收盘的有效性。分形概念表明相同的K线2收盘模式在不同时间框架上重复出现，提高了交易的可靠性。",
+  "primary_image": "cards/tyoxl1l-6iI/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/tyoxl1l-6iI/images/case_002_detail_1.jpg",
+    "cards/tyoxl1l-6iI/images/case_002_detail_2.jpg",
+    "cards/tyoxl1l-6iI/images/case_002_detail_3.jpg",
+    "cards/tyoxl1l-6iI/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "APOZ 1 小时 K 线图。图上显示从左下至中上方的上升趋势，起点约 48600，高点约 54250。之后出现回调至 52000 附近。图上有三条水平线：53760、52000 和 52980，其中 52000 至 53760 之间用矩形框标记。右侧显示最近 K 线，包含绿色和黑色蜡烛。图右下角标注显示'S311 (1H)'、'10:28 Neutral'、'22:00:00'、'Bias: N",
+    "case_002_detail_1.jpg": "APOZ 日线图，价格范围从 43.500 到 54.500。图上有两条水平虚线分别位于 53.000 和 45.920。图表显示从 10 月初开始的上升趋势，约 20 根 K 线从 44.000 上升至 54.000，主要为绿色 K 线。图上有两个黄色矩形框标注：一个位于 49.500 至 50.000 区间，另一个位于 46.200 至 48.500 区间。图上标记有多个粉红色圆点，分别在约 ",
+    "case_002_detail_2.jpg": "APOZ 图表显示从 9 月下旬至 10 月下旬的价格走势。图上可见多条水平虚线标注，分别位于 53000、51000 和 47849 处。价格范围在 43500 至 54500 之间波动。图上绘制了多个矩形框标注，分布在 48600-49000、49500-50000、45500-46500 等区间。三个粉红色圆点分别标记在约 53500、49500 和 45500 的价格位置。K 线呈现绿色和",
+    "case_002_detail_3.jpg": "APOZ 1 小时 K 线图，价格范围从 48000 到 54500。图上有三条水平线分别位于 53750、53500 和 52180。K 线序列显示从左侧 48250 开始的上升趋势，中间在 53500 至 54000 区间形成盘整，随后向下运动至 52750。右侧显示一根大幅绿色 K 线从 50250 上升至 53000，其后跟随一根大幅黑色 K 线从 53000 下降至 52000。整个图表",
+    "case_002_detail_4.jpg": "USD 1 小时 K 线图。图上显示价格范围从 51.000 到 53.875。可见三条水平线分别位于 53.320、53.125 和 52.125。图上标记有两个矩形区域，分别约在 53.000 至 53.250 和 52.000 至 52.250 价格范围。K 线由绿色和黑色蜡烛交替组成，均具有上下影线。时间轴显示从 00:00 到 21:00 的小时级别时间段。右下角标注显示'S11 (1H"
+  },
+  "sources": [
+    {
+      "video_id": "tyoxl1l-6iI",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        358.96,
+        560.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时线的分析过程，清晰标注了关键价位、K线结构和CSD确认，分形验证逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:59.494127Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"APOZ日线K线2收盘下钻至小时线的分形验证\",\"school\":\"ICT\",\"asset\":\"APOZ\",\"timeframe\":\"1D → 1H\",\"market_context\":\"APOZ在日线上形成扫荡前期高点后的K线2收盘，博主通过下钻至小时线验证该收盘的有效性，并在小时线上找到相同的分形结构进行交易分析。\",\"key_observation\":\"日线上的K线2收盘（扫荡前期高点后的黑色K线）通过小时线上的交付状态改变（CSD）得到确认，小时线上同样形成K线2收盘模式，构成分形验证。\",\"analysis_steps\":[\"Step 1: 在日线上识别扫荡前期高点的有效K线2收盘，该收盘提供向下交易的偏差。\",\"Step 2: 从日线下钻至小时线，寻找交付状态改变（CSD）来验证日线K线2收盘的有效性。\",\"Step 3: 在小时线上标记出形成该高点的K线序列，确认CSD的存在。\",\"Step 4: 在小时线上发现相同的K线2收盘模式，即在点的兴趣处形成的收盘。\",\"Step 5: 利用均衡点（EQ）确认价格在前一根K线范围内的尊重，预期价格继续向下。\",\"Step 6: 观察价格触及点的兴趣后形成新的K线2收盘，确认分形结构和继续向下的延续。\"],\"outcome\":\"价格在小时线上确实形成了K线2收盘并继续向下运动，验证了日线到小时线的分形结构，交易偏差得到确认。\",\"lessons\":\"时间框架对齐是验证高时间框架信号的关键方法。通过在低时间框架上寻找交付状态改变（CSD），可以确认高时间框架K线收盘的有效性。分形概念表明相同的K线2收盘模式在不同时间框架上重复出现，提高了交易的可靠性。\",\"primary_image_frame_id\":\"tyoxl1l-6iI_f017\",\"supporting_image_frame_ids\":[\"tyoxl1l-6iI_f013\",\"tyoxl1l-6iI_f014\",\"tyoxl1l-6iI_f016\",\"tyoxl1l-6iI_f018\"],\"related_concepts\":[\"Candle to Closure\",\"Change in the state of delivery (CSD)\",\"Point of Interest\",\"Fractal\",\"Equilibrium (EQ)\",\"Time Frame Alignment\",\"Protected Swing\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到小时线的分析过程，清晰标注了关键价位、K线结构和CSD确认，分形验证逻辑完整。\"}",
+  "error": null
+}

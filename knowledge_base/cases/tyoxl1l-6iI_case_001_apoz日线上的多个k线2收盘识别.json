@@ -1,0 +1,117 @@
+{
+  "card_id": "tyoxl1l-6iI_case_001_apoz日线上的多个k线2收盘识别",
+  "type": "case",
+  "title": "APOZ日线多个K线2收盘的识别与验证",
+  "related_concepts": [
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Continuation",
+      "card_id": "candle_3_continuation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "HTF Key Level",
+      "card_id": "htf_key_level",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Wick Formation",
+      "card_id": "wick_size_and_expansion",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_2_closure_c2",
+    "candle_3_continuation",
+    "order_block",
+    "fair_value_gap",
+    "equilibrium",
+    "htf_key_level",
+    "swing_low_swing_high",
+    "wick_size_and_expansion",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "APOZ",
+  "timeframe": "1D",
+  "market_context": "APOZ日线从10月初至12月初的走势中，价格在45.000至54.500区间波动。博主在该周期内标记多个摆动点，用于识别有效的K线2收盘形态。",
+  "key_observation": "K线2收盘需满足两个条件：(1)价格扫过前一根K线的极值后反向收盘；(2)该收盘必须发生在高时间框架关键位置（如摆动点、FVG或历史高低点）。",
+  "analysis_steps": [
+    "Step 1: 在APOZ日线图上标记所有摆动点（swing points），作为潜在的K线2收盘候选。",
+    "Step 2: 逐一检验每个摆动点是否满足K线2收盘的定义——看跌情景下扫高后收低，看涨情景下扫低后收高。",
+    "Step 3: 识别出满足K线2收盘定义的有效形态（如扫出前一根K线高点后收盘在其下方）。",
+    "Step 4: 排除不符合K线2收盘定义的摆动点（如未能扫出前一根K线极值的点）。",
+    "Step 5: 验证每个有效K线2收盘是否发生在高时间框架关键位置（摆动高/低、历史高点、FVG等）。",
+    "Step 6: 对于发生在关键位置的K线2收盘，结合均衡点（0.5 EQ）评估K线3的延续条件——K线2应形成明显反转wick而非扩张。",
+    "Step 7: 标记出最有效的K线2收盘设置，即同时满足形态定义和关键位置验证的案例。"
+  ],
+  "outcome": null,
+  "lessons": "K线2收盘识别的核心是双重验证：形态上必须扫极值后反向收盘；位置上必须在HTF关键位置形成。仅满足形态而缺乏位置支撑的K线2收盘可靠性较低。K线2的wick质量（反转vs扩张）直接影响K线3的延续概率。",
+  "primary_image": "cards/tyoxl1l-6iI/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/tyoxl1l-6iI/images/case_001_detail_1.jpg",
+    "cards/tyoxl1l-6iI/images/case_001_detail_2.jpg",
+    "cards/tyoxl1l-6iI/images/case_001_detail_3.jpg",
+    "cards/tyoxl1l-6iI/images/case_001_detail_4.jpg",
+    "cards/tyoxl1l-6iI/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "APOZ 日线图，显示从十月初至十二月的价格走势。图表包含多根 K 线，绿色代表上涨，黑色代表下跌。可见价格范围从 45.000 至 54.500。图上有两条水平虚线分别位于 47.500 和 51.000 处。多根 K 线具有上下影线，部分影线端点标记有粉红色圆点。左上角显示资产代码 APOZ，右上角显示 TTrades.com。时间戳显示 Wed 16 Oct '25 04:27 PM。",
+    "case_001_detail_1.jpg": "图上展示两组 K 线序列，各含 4 根标号为 1 至 4 的蜡烛。左侧序列：第 1 根为深色实体带上影线，第 2 根为小深色实体，第 3 根为绿色实体，第 4 根为大绿色实体带上影线。右侧序列：第 1 根为绿色实体，第 2 根为小绿色实体，第 3 根为大深色实体带上下影线，第 4 根为深色实体带下影线。图上有两条水平线均标记为'HTF Key Level'，分别穿过两个序列。页面标题为'Candl",
+    "case_001_detail_2.jpg": "图上展示两个独立的 K 线序列，均标注为'Equilibrium'主题。左侧序列包含 4 根 K 线，编号 1 至 4，其中第 1、2 根为深色，第 3、4 根为绿色。右侧序列同样包含 4 根 K 线，编号 1 至 4，其中第 1、2 根为绿色，第 3、4 根为深色。两个序列均标记有'HTF Key Level'水平线和'0.5'标记，表示均衡点位置。图上未显示具体价格数字或资产代码。",
+    "case_001_detail_3.jpg": "APOZ 日线图，时间跨度从 10 月初至 12 月初。图上显示蜡烛图序列，价格范围在 45.000 至 54.500 之间波动。绿色和黑色蜡烛交替出现。图左侧标注两个价格数值：47.075 和 51.140。图上散布多个粉红色圆形标记，位于不同价格水平。多根 K 线具有上下影线，影线长度不一。图右上角显示工具栏，左下角显示 TTrades.com 平台标识。",
+    "case_001_detail_4.jpg": "APOZ 资产的日线级别烛线图，显示从十月初至十二月初的价格走势。图表纵轴显示价格范围从 45000 至 54500，横轴标注月份为十月、十一月和十二月。图上绘制了约 60 根烛线，绿色烛线表示上升，黑色烛线表示下降。烛线普遍具有上下影线，部分烛线的上影线或下影线较长。左侧价格标签显示 51.600，图右上角标注 TTrades.com。图上未见其他技术指标或标注。",
+    "case_001_detail_5.jpg": "APOD 资产的蜡烛图。图上显示从约 43500 到 54500 的价格范围。左侧显示四个价格标签：53685、53000、51500、51230，其中 53000 和 51500 处有水平虚线。图表中有多个矩形标注框标记特定价格区域。K 线由绿色和黑色蜡烛交替组成，多根 K 线在 49000 至 50000 区间显示上影线，多根 K 线在 45500 至 46500 区间显示下影线。图右上角显示"
+  },
+  "sources": [
+    {
+      "video_id": "tyoxl1l-6iI",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        169.44,
+        358.96
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了K线2收盘的定义、识别步骤、验证标准，并在APOZ日线图上逐一演示多个案例的筛选过程，资产、时间框架、关键概念均清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:58.341655Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"APOZ日线多个K线2收盘的识别与验证\",\"school\":\"ICT\",\"asset\":\"APOZ\",\"timeframe\":\"1D\",\"market_context\":\"APOZ日线从10月初至12月初的走势中，价格在45.000至54.500区间波动。博主在该周期内标记多个摆动点，用于识别有效的K线2收盘形态。\",\"key_observation\":\"K线2收盘需满足两个条件：(1)价格扫过前一根K线的极值后反向收盘；(2)该收盘必须发生在高时间框架关键位置（如摆动点、FVG或历史高低点）。\",\"analysis_steps\":[\"Step 1: 在APOZ日线图上标记所有摆动点（swing points），作为潜在的K线2收盘候选。\",\"Step 2: 逐一检验每个摆动点是否满足K线2收盘的定义——看跌情景下扫高后收低，看涨情景下扫低后收高。\",\"Step 3: 识别出满足K线2收盘定义的有效形态（如扫出前一根K线高点后收盘在其下方）。\",\"Step 4: 排除不符合K线2收盘定义的摆动点（如未能扫出前一根K线极值的点）。\",\"Step 5: 验证每个有效K线2收盘是否发生在高时间框架关键位置（摆动高/低、历史高点、FVG等）。\",\"Step 6: 对于发生在关键位置的K线2收盘，结合均衡点（0.5 EQ）评估K线3的延续条件——K线2应形成明显反转wick而非扩张。\",\"Step 7: 标记出最有效的K线2收盘设置，即同时满足形态定义和关键位置验证的案例。\"],\"outcome\":null,\"lessons\":\"K线2收盘识别的核心是双重验证：形态上必须扫极值后反向收盘；位置上必须在HTF关键位置形成。仅满足形态而缺乏位置支撑的K线2收盘可靠性较低。K线2的wick质量（反转vs扩张）直接影响K线3的延续概率。\",\"primary_image_frame_id\":\"tyoxl1l-6iI_f011\",\"supporting_image_frame_ids\":[\"tyoxl1l-6iI_f006\",\"tyoxl1l-6iI_f008\",\"tyoxl1l-6iI_f009\",\"tyoxl1l-6iI_f010\",\"tyoxl1l-6iI_f012\"],\"related_concepts\":[\"Candle 2 Closure\",\"Candle 3 Continuation\",\"Order Block\",\"Fair Value Gap\",\"Equilibrium\",\"HTF Key Level\",\"Swing Point\",\"Wick Formation\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了K线2收盘的定义、识别步骤、验证标准，并在APOZ日线图上逐一演示多个案例的筛选过程，资产、时间框架、关键概念均清晰。\"}",
+  "error": null
+}

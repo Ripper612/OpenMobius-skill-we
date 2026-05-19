@@ -1,0 +1,27 @@
+# Virtual env
+.venv/
+venv/
+.env/
+
+# Secrets / local config
+.env.local
+.env.*.local
+*credentials*
+*secret*
+
+# Built vector index (rebuilt by install.sh)
+knowledge_base/_index/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

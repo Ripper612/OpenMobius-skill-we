@@ -1,0 +1,85 @@
+{
+  "card_id": "c_mh19e3mhI_case_006_es_nq比值图表9_30反转与后续走势",
+  "type": "case",
+  "title": "ES/NQ比值9:30反转与相关性变化分析",
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Correlation Analysis",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal Pattern",
+      "card_id": "reversal_pattern",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift",
+    "reversal_pattern"
+  ],
+  "school": "SMC",
+  "asset": "ES11 / NQ11",
+  "timeframe": "5M / 1H",
+  "market_context": "美股开盘时段（9:30），ES/NQ比值在扫高后回落至区间内，随后在开盘形成反转。NQ表现相对强势，ES相对弱势，两者相关性出现明显分化。",
+  "key_observation": "ES/NQ比值在9:30扫高后回落，预示ES与NQ可能形成反转。随后观察到NQ相对强势（收盘高于前高），而ES难以突破前高，表现出明显的相关性变化（SMT）。",
+  "analysis_steps": [
+    "Step 1: 观察ES/NQ比值图表，识别9:30时扫高后回落至区间内的形态。",
+    "Step 2: 预期如果形成反转，应在ES或NQ图表上看到对应的反转信号。",
+    "Step 3: 切换到ES和NQ的5分钟图表，确认在9:30开盘时确实形成了反转。",
+    "Step 4: 对比ES与NQ的表现，发现NQ收盘高于前高（强势），而ES难以突破前高（弱势）。",
+    "Step 5: 识别SMT现象——NQ继续上升至新高，而ES在前小时K线上方挣扎。",
+    "Step 6: 标记9:35的低点，观察后续走势中ES和NQ的高点形成时间差异。",
+    "Step 7: 发现10:00时ES和NQ同时形成高点，但NQ在10:05才形成低点，而ES更早形成低点，表明NQ提前给出反转信号。"
+  ],
+  "outcome": null,
+  "lessons": "通过ES/NQ比值的反转信号可以预测两个资产的反转时点。相关性变化（SMT）是识别强弱分化的关键——当一个资产创新高而另一个未能跟随时，预示可能的趋势变化。不同资产的高点/低点时间差异可提供反转前的早期指示。",
+  "primary_image": "cards/c_mh19e3mhI/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/c_mh19e3mhI/images/case_006_detail_1.jpg",
+    "cards/c_mh19e3mhI/images/case_006_detail_2.jpg",
+    "cards/c_mh19e3mhI/images/case_006_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图上显示 ES/NQ 两个资产的 5 分钟 K 线对比图。左侧为 ES 图表，右侧为 NQ 图表。左侧 ES 图表价格范围约 4460 至 4495，绘有一条向上趋势线和一条向下趋势线，多条水平线标注关键价格位。右侧 NQ 图表价格范围约 15040 至 15220，同样绘有向下趋势线和向上趋势线，多条水平线标注价格位。两个图表均包含绿色和黑色 K 线，时间轴显示交易时段从早晨至上午。图上标注有多",
+    "case_006_detail_1.jpg": "图上显示两个并排的 1 小时时间框架 K 线图表。左侧图表资产代码为 ES11/CABE_MINI:NQ11，右侧图表资产代码为 ES11。两图均显示绿色和黑色 K 线混合排列。价格范围从约 4450 到 4912。图上标注有时间戳'bar 15 Aug 23 01:00'和数值标签'0.25'与'0.55'。右侧图表右侧价格轴显示具体数值刻度。图表中央有一个灰色圆形遮挡部分内容。两图均未见明显的",
+    "case_006_detail_2.jpg": "图上显示两个独立的 5 分钟 K 线图表面板。左侧面板为 ES11/CABE_MINI:NQ11 资产，价格范围约 4520 至 4552；右侧面板同一资产，价格范围约 15360 至 15514。两个面板均显示绿色和黑色 K 线混合排列，表示上升和下降的蜡烛。时间轴标注从 08:30 开始，显示交易日内时段。左侧面板有一条竖直蓝线标记在约 09:00 时刻。右上角显示当前价格标签 4552.25",
+    "case_006_detail_3.jpg": "图上显示 ES11/CABE_MINI:NQ11 资产的 5 分钟 K 线图。可见价格范围约从 4500.00 到 4552.25。图表由多根绿色和黑色 K 线组成，显示双向价格波动。右侧价格刻度标注了多个价格水平。图上标记有时间戳'Fri 04 Aug 23 10:20'。左下角显示'0.75'和'0.25'的数值标签。图表中央有一个灰色圆形元素。未见其他技术指标或标注。"
+  },
+  "sources": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        719.16,
+        828.66
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了ES/NQ比值反转的识别过程、两资产的相对强弱对比、时间框架切换分析，以及后续高低点的时间差异观察，分析逻辑清晰且有具体图表支撑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:48.459727Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES/NQ比值9:30反转与相关性变化分析\",\"school\":\"SMC\",\"asset\":\"ES11 / NQ11\",\"timeframe\":\"5M / 1H\",\"market_context\":\"美股开盘时段（9:30），ES/NQ比值在扫高后回落至区间内，随后在开盘形成反转。NQ表现相对强势，ES相对弱势，两者相关性出现明显分化。\",\"key_observation\":\"ES/NQ比值在9:30扫高后回落，预示ES与NQ可能形成反转。随后观察到NQ相对强势（收盘高于前高），而ES难以突破前高，表现出明显的相关性变化（SMT）。\",\"analysis_steps\":[\"Step 1: 观察ES/NQ比值图表，识别9:30时扫高后回落至区间内的形态。\",\"Step 2: 预期如果形成反转，应在ES或NQ图表上看到对应的反转信号。\",\"Step 3: 切换到ES和NQ的5分钟图表，确认在9:30开盘时确实形成了反转。\",\"Step 4: 对比ES与NQ的表现，发现NQ收盘高于前高（强势），而ES难以突破前高（弱势）。\",\"Step 5: 识别SMT现象——NQ继续上升至新高，而ES在前小时K线上方挣扎。\",\"Step 6: 标记9:35的低点，观察后续走势中ES和NQ的高点形成时间差异。\",\"Step 7: 发现10:00时ES和NQ同时形成高点，但NQ在10:05才形成低点，而ES更早形成低点，表明NQ提前给出反转信号。\"],\"outcome\":null,\"lessons\":\"通过ES/NQ比值的反转信号可以预测两个资产的反转时点。相关性变化（SMT）是识别强弱分化的关键——当一个资产创新高而另一个未能跟随时，预示可能的趋势变化。不同资产的高点/低点时间差异可提供反转前的早期指示。\",\"primary_image_frame_id\":\"c_mh19e3mhI_f023\",\"supporting_image_frame_ids\":[\"c_mh19e3mhI_f025\",\"c_mh19e3mhI_f027\",\"c_mh19e3mhI_f028\"],\"related_concepts\":[\"SMT (Smart Money Technique)\",\"Market Structure Shift\",\"Correlation Analysis\",\"Price Action\",\"Reversal Pattern\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了ES/NQ比值反转的识别过程、两资产的相对强弱对比、时间框架切换分析，以及后续高低点的时间差异观察，分析逻辑清晰且有具体图表支撑。\"}",
+  "error": null
+}

@@ -1,0 +1,79 @@
+{
+  "card_id": "discount",
+  "type": "merged_concept",
+  "canonical_term": "Discount",
+  "aliases": [
+    "Discount Zone",
+    "折价区"
+  ],
+  "school": "ICT",
+  "definition": "价格区间下半部分（0.5斐波那契水平以下），通过将一个价格范围用0.5斐波那契分割线划分，下方区域为折价区，利于做多交易。",
+  "identification_rules": [
+    "确定一个明确的价格区间（如FVG或摆动范围）",
+    "在该区间内标注0.5斐波那契水平线（中点）",
+    "0.5水平线下方的所有价格区域即为折价区",
+    "折价区通常与OTE（最优交易入场点）结合使用，作为做多的高概率入场区域"
+  ],
+  "trading_implication": "折价区是做多的有利区域。交易者在确认高时间框架的结构和点位兴趣（如FVG）后，在低时间框架观察价格回撤进入折价区，结合OTE寻找精确入场点。折价区内的FVG或其他支撑结构可作为风险控制的止损参考。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "LZZAaILYNyI_case_002_es_1分钟图破坏块结构交易案例",
+      "video_id": "LZZAaILYNyI",
+      "title": "ES 1分钟破坏块结构回测FVG折价区入场与止损追踪"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_001_伦敦开盘后的买卖日案例分析",
+      "video_id": "b6yvRKf8haE",
+      "title": "伦敦开盘后亚洲低点被取，纽约时段激进位移跌破深折价区案例"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_004_操纵后的买入日低点回升",
+      "video_id": "b6yvRKf8haE",
+      "title": "买入日操纵后的低点回升至深溢价区"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_004_整理范围突破后的看涨交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "整理范围突破后的看涨交易案例"
+    },
+    {
+      "card_id": "umyCqr_0NsI_case_002_es11日线与60分钟图折价区回测",
+      "video_id": "umyCqr_0NsI",
+      "title": "ES11日线折价区在60分钟图中的多次中期低点回测"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "aDYzoae3viQ",
+      "original_card_id": "aDYzoae3viQ_concept_discount",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.96,
+        160.28
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132320Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

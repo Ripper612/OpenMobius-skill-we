@@ -1,0 +1,203 @@
+{
+  "card_id": "top_down_analysis",
+  "type": "merged_concept",
+  "canonical_term": "Top-down analysis",
+  "aliases": [
+    "HTF to LTF analysis",
+    "Top-down approach",
+    "从高时间框架到低时间框架分析",
+    "从高时间框架到低时间框架的分析方法",
+    "从高时间框架向下分析",
+    "多时间框架分析"
+  ],
+  "school": "ICT",
+  "definition": "从高时间框架（如日线、4小时）识别市场偏向、关键流动性目标（摆动高低点、FVG）和结构，逐级下降至中间时间框架验证一致性，最终在低时间框架（如5分钟、1分钟）利用FVG、Order Block、Breaker Block等信号精确定位入场点的多周期分析方法。",
+  "identification_rules": [
+    "在高时间框架（HTF，如日线/4小时）上识别市场偏向（看涨或看跌）、关键流动性目标（前期摆动高低点作为External Range Liquidity）以及Internal Range Liquidity（FVG）的关系",
+    "在高时间框架上标记关键结构：FVG、Order Block、Breaker Block的形成条件及摆动高低点",
+    "在中间时间框架（如小时/30分钟）上验证HTF偏向是否成立，寻找与HTF一致的结构转变（MSS/CSD）、FVG填充或破坏块",
+    "在低时间框架（LTF，如15分钟/5分钟/1分钟）上精确定位入场信号，包括FVG填充、Order Block、Breaker Block均值阈值及位移（Displacement）",
+    "验证低时间框架的入场点位于高时间框架关键区域内，且每级时间框架的分析方向相互印证",
+    "确认低时间框架入场后，目标指向高时间框架标记的流动性区域"
+  ],
+  "trading_implication": "高时间框架确定交易偏向和宏观流动性目标，中间时间框架确认趋势延续或结构转变，低时间框架精确入场并管理风险。止损设于订单块或Breaker Block下方，目标指向HTF流动性区域。该方法利用分形原理，适用于任何时间框架组合（如周线到5分钟、小时到30秒），通过多级确认降低假信号风险，提高入场精准度。",
+  "common_mistakes": [
+    "跳过高时间框架直接在低时间框架寻找入场，导致逆势交易或与整体市场偏向不符",
+    "在高时间框架识别偏向后，未在中间时间框架验证一致性就直接进场",
+    "过度依赖低时间框架形态而忽视中间时间框架的结构确认",
+    "未能正确标记高时间框架的流动性目标，导致低时间框架的目标设置不合理",
+    "在低时间框架过度交易，而不是等待高时间框架确认的关键水平被尊重",
+    "混淆各时间框架的关键结构，将低时间框架的FVG当作高时间框架级别的目标",
+    "混淆高时间框架上的单根K线与低时间框架上的多根K线序列，导致Breaker Block识别错误",
+    "未正确使用均值阈值（Mean Threshold），而是简单以K线开盘价或收盘价作为反应区域",
+    "在高时间框架Internal/External流动性关系不清晰时仓促进场"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "OB",
+      "card_id": "order_block_breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "CSD",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "HTF",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "LTF",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "75S4vwD4P1U_case_005_gbpusd_60分钟到5分钟的自上而下交易",
+      "video_id": "75S4vwD4P1U",
+      "title": "GBPUSD 60分钟到5分钟自上而下交易：Breaker Block与Unicorn Model"
+    },
+    {
+      "card_id": "wDXTIDbIMwU_case_001_s_p_500_e_mini期货日内交易分析",
+      "video_id": "wDXTIDbIMwU",
+      "title": "ES日内顶级分析：从日线到15秒的多级联动交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3OivsP1j_UE",
+      "original_card_id": "3OivsP1j_UE_concept_top_down_analysis",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        193.04,
+        713.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_top_down_analysis",
+      "segment_ids": [
+        "seg_006",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        902.399,
+        1500.24
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "dcIdzqD3kMU",
+      "original_card_id": "dcIdzqD3kMU_concept_top_down_analysis",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        275.22,
+        455.699
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wy3OSPxu5U0",
+      "original_card_id": "wy3OSPxu5U0_concept_top_down_analysis",
+      "segment_ids": [
+        "seg_001",
+        "seg_004",
+        "seg_005",
+        "seg_009"
+      ],
+      "time_range": [
+        10.4,
+        349.52
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:24.616535Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "4张原始卡均为ICT，school无冲突。related_concepts保留原始卡中的不同表述形式（如FVG与Fair Value Gap并存），供后续阶段规范化处理。",
+  "error": null
+}

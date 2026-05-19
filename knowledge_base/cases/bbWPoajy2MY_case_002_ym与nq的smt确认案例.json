@@ -1,0 +1,121 @@
+{
+  "card_id": "bbWPoajy2MY_case_002_ym与nq的smt确认案例",
+  "type": "case",
+  "title": "YM与NQ的SMT确认：Mitigation Block高概率交易",
+  "related_concepts": [
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "mitigation_block",
+    "smart_money_technique_smt",
+    "failure_swing",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "liquidity",
+    "premium_discount_premium_",
+    "breaker_block"
+  ],
+  "school": "SMC",
+  "asset": "YM1! / NQ1!",
+  "timeframe": "1H / 5M",
+  "market_context": "YM在1小时图表上形成Mitigation Block（低-高-更低的高点-更低的低点结构），但同时NQ创出更高的高点，形成Smart Money Technique分歧，增强了YM Mitigation Block作为反转点的可信度。",
+  "key_observation": "博主观察到YM形成Mitigation Block但未能创出新高，而NQ却创出更高的高点，这种相关资产间的分歧（SMT）表明YM的Mitigation Block具有更高的交易概率，因为NQ的强势确认了YM应该在该区域反应。",
+  "analysis_steps": [
+    "Step 1: 在YM 1小时图表上识别高点，然后观察价格创出更低的高点（failure swing）",
+    "Step 2: 标记出Mitigation Block的下跌蜡烛（close candle before failure swing）并向右延伸",
+    "Step 3: 同时查看NQ图表，确认NQ在相同时期创出更高的高点（相对于YM的高点）",
+    "Step 4: 确认SMT存在：YM形成Mitigation Block而NQ创出新高，这增强了YM该区域的支撑/反转信心",
+    "Step 5: 等待价格回测Mitigation Block区域，观察是否产生反应（第一次反应）",
+    "Step 6: 当价格再次回测该区域时，确认第二次反应，验证Mitigation Block的有效性",
+    "Step 7: 以Mitigation Block下方的流动性（liquidity）作为目标价位"
+  ],
+  "outcome": "价格在Mitigation Block区域产生反应，第一次回测时反应，随后继续下行；当价格再次回测该区域时再次产生反应，最终向下突破并达到预期的流动性目标区域。",
+  "lessons": "SMT（相关资产间的分歧）可以显著提高Mitigation Block的交易概率。当一个资产形成反转结构但另一个资产创出新高时，这种分歧确认了反转点的有效性。结合Mitigation Block内的FVG或其他PD array元素，可以识别高概率的交易设置。",
+  "primary_image": "cards/bbWPoajy2MY/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/bbWPoajy2MY/images/case_002_detail_1.jpg",
+    "cards/bbWPoajy2MY/images/case_002_detail_2.jpg",
+    "cards/bbWPoajy2MY/images/case_002_detail_3.jpg",
+    "cards/bbWPoajy2MY/images/case_002_detail_4.jpg",
+    "cards/bbWPoajy2MY/images/case_002_detail_5.jpg",
+    "cards/bbWPoajy2MY/images/case_002_detail_6.jpg",
+    "cards/bbWPoajy2MY/images/case_002_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "BTC 1 小时 K 线图。图上有一个米色矩形标注框，覆盖从约 17640 到 17760 的价格区间。可见 K 线整体价格范围约从 17540 到 17800。矩形框内包含多根绿色和黑色 K 线，显示价格在该区间内的波动。图右侧有一个黄色十字光标标记。图上标注文字包括'TTrader_edu'、'5/1/2024'和'YMI1 : 5M'。除矩形框和十字标记外，未见其他标注或指标。",
+    "case_002_detail_1.jpg": "图上展示一组 K 线序列，共约 15 根蜡烛，绿色和黑色主体交替出现，每根 K 线均有上下影线。图上标题为'Mitigation Blocks'。中部覆盖一个灰色矩形区域，下方左侧有一个黄色矩形区域，并有虚线向右延伸。未显示资产代码、时间框架或价格刻度数值。",
+    "case_002_detail_2.jpg": "GBPUSD 1 小时 K 线图，日期标记为 7/1/2024。图上可见价格范围约从 1.26000 到 1.27800。中间区域有一根大幅上升的绿色 K 线，上影线延伸至 1.27800 附近。其后跟随多根较小的 K 线在 1.27000 至 1.27300 区间内震荡，呈绿黑相间的形态。图上绘有两条水平线标注在 1.27150 和 1.27115 附近，以及一个矩形框标注在 1.27150 至",
+    "case_002_detail_3.jpg": "GBPUSD 1 小时 K 线图，时间范围显示 8/1/2024。图上可见价格范围约从 1.26050 到 1.27900。中部区域有一根大幅上升的绿色 K 线至 1.27500，上影线延伸至 1.27800，随后跟随多根黑色 K 线下行至 1.27000 附近。图上绘有一条水平线位于 1.27150，以及一个灰色矩形框标注在 1.27050 至 1.27300 的区间内。左侧显示此前的下行走势从",
+    "case_002_detail_4.jpg": "GBPUSD 1 小时 K 线图，日期标记为 8/1/2024。图上可见价格范围从 1.25040 到 1.27890。一条水平虚线位于 1.27944 处。图中标注有两个灰色矩形框，分别覆盖约 1.27000-1.27500 和 1.26500-1.27000 的价格区间。K 线序列显示从高点向下运行的趋势，中间存在多根 K 线在 1.26500 至 1.27500 区间内的整理形态，绿色和黑色",
+    "case_002_detail_5.jpg": "图表显示 TTrader_edu 1 小时周期。可见价格范围从 17640 到 17800。图上有两条水平线分别位于 17760 和 17780，以及两个矩形标注框分别覆盖 17750-17800 和 17760-17790 区间。一条向下倾斜的趋势线从 17800 处向下延伸至约 17700。K 线显示从左侧 17640 上升至 17800 的上升段，随后出现下降段至 17700 附近，中间在 ",
+    "case_002_detail_6.jpg": "图上显示一组 K 线序列，标题为'Mitigation Blocks'。可见约 15 根 K 线，颜色交替为绿色和黑色，整体呈下行趋势。图中有一条水平线标记为'HTF Level'。K 线均带有上下影线，部分绿色 K 线穿插在黑色 K 线之间。右下角显示页码'3'。未提供具体价格刻度或资产代码。",
+    "case_002_detail_7.jpg": "图表展示一段K线序列，顶部标题为'Mitigation Blocks'。图上有一条水平线标记为'HTF Level'。K线从左上向下运行，呈现下跌趋势，随后在下方区域出现反弹，K线颜色交替出现绿色和黑色。图中绘制有一个灰色矩形区域，位于图表中部偏右位置，跨越多根K线。多根K线具有较长的上下影线。整体未显示具体价格数值或资产代码。"
+  },
+  "sources": [
+    {
+      "video_id": "bbWPoajy2MY",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.44,
+        368.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了YM与NQ的对比分析，明确标注了Mitigation Block结构，详细说明了SMT确认的逻辑，并展示了价格的实际反应过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:23.901761Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"YM与NQ的SMT确认：Mitigation Block高概率交易\",\"school\":\"SMC\",\"asset\":\"YM1! / NQ1!\",\"timeframe\":\"1H / 5M\",\"market_context\":\"YM在1小时图表上形成Mitigation Block（低-高-更低的高点-更低的低点结构），但同时NQ创出更高的高点，形成Smart Money Technique分歧，增强了YM Mitigation Block作为反转点的可信度。\",\"key_observation\":\"博主观察到YM形成Mitigation Block但未能创出新高，而NQ却创出更高的高点，这种相关资产间的分歧（SMT）表明YM的Mitigation Block具有更高的交易概率，因为NQ的强势确认了YM应该在该区域反应。\",\"analysis_steps\":[\"Step 1: 在YM 1小时图表上识别高点，然后观察价格创出更低的高点（failure swing）\",\"Step 2: 标记出Mitigation Block的下跌蜡烛（close candle before failure swing）并向右延伸\",\"Step 3: 同时查看NQ图表，确认NQ在相同时期创出更高的高点（相对于YM的高点）\",\"Step 4: 确认SMT存在：YM形成Mitigation Block而NQ创出新高，这增强了YM该区域的支撑/反转信心\",\"Step 5: 等待价格回测Mitigation Block区域，观察是否产生反应（第一次反应）\",\"Step 6: 当价格再次回测该区域时，确认第二次反应，验证Mitigation Block的有效性\",\"Step 7: 以Mitigation Block下方的流动性（liquidity）作为目标价位\"],\"outcome\":\"价格在Mitigation Block区域产生反应，第一次回测时反应，随后继续下行；当价格再次回测该区域时再次产生反应，最终向下突破并达到预期的流动性目标区域。\",\"lessons\":\"SMT（相关资产间的分歧）可以显著提高Mitigation Block的交易概率。当一个资产形成反转结构但另一个资产创出新高时，这种分歧确认了反转点的有效性。结合Mitigation Block内的FVG或其他PD array元素，可以识别高概率的交易设置。\",\"primary_image_frame_id\":\"bbWPoajy2MY_f007\",\"supporting_image_frame_ids\":[\"bbWPoajy2MY_f002\",\"bbWPoajy2MY_f003\",\"bbWPoajy2MY_f004\",\"bbWPoajy2MY_f005\",\"bbWPoajy2MY_f008\",\"bbWPoajy2MY_f009\",\"bbWPoajy2MY_f010\"],\"related_concepts\":[\"Mitigation Block\",\"Smart Money Technique (SMT)\",\"Failure Swing\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Liquidity\",\"PD Array\",\"Breaker Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了YM与NQ的对比分析，明",
+  "error": null
+}

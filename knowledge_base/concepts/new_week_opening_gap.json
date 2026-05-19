@@ -1,0 +1,57 @@
+{
+  "card_id": "new_week_opening_gap",
+  "type": "merged_concept",
+  "canonical_term": "New Week Opening Gap",
+  "aliases": [
+    "周一开盘缺口"
+  ],
+  "school": "ICT",
+  "definition": "周一开盘价与前周五收盘价之间形成的价格缺口。其随后的填补区域（Consequent Encroachment）常作为价格回测的关键水平。",
+  "identification_rules": [
+    "在周一日线图上，识别前周五收盘价与周一开盘价之间是否存在价格间隙",
+    "标记该缺口的上下边界，形成一个明确的价格区间",
+    "观察价格是否在周一或随后交易日内回测并填补该缺口区域"
+  ],
+  "trading_implication": "New Week Opening Gap及其Consequent Encroachment可作为周一交易的参考水平。在顶部向下分析框架中，该缺口常与前一日高点、积累-操纵-派发模式结合使用，帮助交易者识别周初的流动性目标和潜在反转点。价格对该缺口的回测通常预示短期趋势的确认或反转。",
+  "common_mistakes": [
+    "材料未明确提及常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FXJBFbZQbck_case_004_周一新周开盘缺口到前日高点的完整交易流程",
+      "video_id": "FXJBFbZQbck",
+      "title": "周一新周开盘缺口到前日高点的完整AMD交易流程"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "original_card_id": "FXJBFbZQbck_concept_new_week_opening_gap",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        371.88,
+        548.24
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134249Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

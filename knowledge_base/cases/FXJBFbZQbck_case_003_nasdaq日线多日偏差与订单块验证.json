@@ -1,0 +1,117 @@
+{
+  "card_id": "FXJBFbZQbck_case_003_nasdaq日线多日偏差与订单块验证",
+  "type": "case",
+  "title": "NASDAQ日线多日偏差与订单块验证",
+  "related_concepts": [
+    {
+      "term": "Previous Day High & Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "3 Day Lookback",
+      "card_id": "three_day_lookback",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "three_day_lookback",
+    "market_structure",
+    "mitigation_block"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D",
+  "market_context": "NASDAQ日线在9月中旬至10月中旬经历从约15700的摆动高点下跌至约14600的低点，随后10月初至中旬出现连续上升，期间多次测试前日高低点，形成多个订单块结构。",
+  "key_observation": "博主通过观察连续多天对前日高点的失败突破与前日低点的重复测试，识别出订单块的形成与验证过程，并利用3日回溯方法标记流动性目标。",
+  "analysis_steps": [
+    "Step 1: 识别前日高低点作为流动性水平，判断价格是否能够突破（displacement）或失败突破（lack of displacement）。",
+    "Step 2: 观察第一天价格突破前日高点并收盘于其上方，预期下一天继续测试前日高点。",
+    "Step 3: 第二天价格再次触及并突破前日高点，同时突破日内FVG，预期继续上升。",
+    "Step 4: 第三天价格继续突破前日高点并收盘于其上方，维持上升偏差。",
+    "Step 5: 第四天价格突破前日高点后，观察到收盘为看跌K线，同时触及日内FVG，转变为下行偏差。",
+    "Step 6: 第五天价格未能突破前日低点，反而收盘于看涨K线内，预期价格回升至前日高点。",
+    "Step 7: 第六天价格向下突破前日低点，但未收盘于其下方，而是收盘于看涨K线内，该看涨K线被验证为订单块。",
+    "Step 8: 第七天价格重新测试该订单块（前日看涨K线），继续向下突破，预期测试更低的前日低点。",
+    "Step 9: 第八天价格继续下行，突破前日低点及更早的等低点，收盘回升至范围内，预期后续上升至前日高点或形成巩固。",
+    "Step 10: 利用3日回溯方法标记多个前日高低点水平，形成汇聚区域作为强支撑或阻力。"
+  ],
+  "outcome": null,
+  "lessons": "前日高低点的失败突破与重复测试是识别订单块的关键信号；看涨K线在被价格向下突破后可被验证为订单块；3日回溯方法可识别多个汇聚的流动性水平，增强支撑/阻力的有效性；每日虽有偏差判断，但不是每天都有高概率交易机会。",
+  "primary_image": "cards/FXJBFbZQbck/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/FXJBFbZQbck/images/case_003_detail_1.jpg",
+    "cards/FXJBFbZQbck/images/case_003_detail_2.jpg",
+    "cards/FXJBFbZQbck/images/case_003_detail_3.jpg",
+    "cards/FXJBFbZQbck/images/case_003_detail_4.jpg",
+    "cards/FXJBFbZQbck/images/case_003_detail_5.jpg",
+    "cards/FXJBFbZQbck/images/case_003_detail_6.jpg",
+    "cards/FXJBFbZQbck/images/case_003_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为日线K线图，资产代码显示为USD，时间轴覆盖2023年8月底至12月初。图左侧价格轴可见范围约14400至15900。图上绘有两个矩形框，覆盖价格区间约15200至15550，两框部分重叠。另有一条虚线水平线位于约15408.50处横跨全图。图左侧价格轴标注当前价15304.75（绿色高亮）及15408.50（带圆形标记）。K线序列中，9月18日至10月9日区间内出现多根连续阴线，价格从约1",
+    "case_003_detail_1.jpg": "图为教学幻灯片，标题为'Previous Day High & Low'，页码为2，底部注明'Daily Timeframe'。图上文字说明Previous Day High & Low为流动性水平，可用作draw on liquidity。图中包含两组示意K线图：左侧为3根绿色K线，右侧为3根黑色K线，每组均标有'Previous Day High'上边界水平线和'Previous Day Lo",
+    "case_003_detail_2.jpg": "图标题为'3 Day Lookback'，底部标注'Daily Timeframe'，页码为5。图上呈现两组K线簇，均无价格刻度。左侧K线簇约5根，包含绿色与黑色实体，上方有虚线矩形框标注，最后一根为高黑色实体带长下影线延伸至矩形框下方。右侧K线簇约4至5根，同样有虚线矩形框标注，最右一根为高绿色实体向上突出矩形框，矩形内有一根黄绿色高亮K线，另有长下影线延伸至矩形框下方。图上无资产代码、无价格数",
+    "case_003_detail_3.jpg": "图表显示资产代码为 USD，时间框架为 1D（日线）。图右侧价格刻度范围约从 14450 至 15900。图上可见当前价格标签为 15044.50，另有一高亮标签显示 15139.50。K 线序列从左侧约 15200 区域起，经历一段上行至约 15750 附近的摆动高点后，随后出现一段下行，最低至约 14600 附近。图右侧最新一根 K 线为绿色长实体，实体范围约从 14400 延伸至 15100",
+    "case_003_detail_4.jpg": "图表为日线蜡烛图，资产代码显示为 USD，时间轴覆盖约 8 月底至 12 月初。右侧价格刻度范围约从 14400 至 15900，当前价格标签显示约 15410.75。图上可见多根绿色与黑色 K 线交替出现，9 月初及 9 月下旬至 10 月初出现数根较大黑色 K 线，价格在 9 月 25 日附近触及约 14600 低点区域，随后 10 月初至 10 月中旬出现连续绿色 K 线。图上未见任何水平线",
+    "case_003_detail_5.jpg": "图表为日线蜡烛图，资产代码显示为 USD，时间轴覆盖 2023 年 8 月底至 12 月初。右侧价格轴可见两个高亮标签：15490.50 和 15304.75。图上有一条水平虚线位于约 15490 处，并有一个矩形标注框覆盖约 15490 至 15650 的价格区间。K 线从左侧约 15700 区域下行至约 14650，随后在 14750 至 15100 区间内出现多根 K 线横向排列，之后出现一",
+    "case_003_detail_6.jpg": "日线K线图，资产代码不可见，图左侧价格轴显示范围约从14400至15900。图上绘有两个无文字标签的矩形框，分别覆盖约15150至15500区间及约15050至15200区间。图上另有两条水平线分别位于约15500和15200附近。K线序列显示从10月9日至16日区间内出现连续绿色K线，价格从约14700上行至约15450。10月16日至20日区间内出现数根黑色K线，最新价格标签显示15041.5",
+    "case_003_detail_7.jpg": "图表为日线（1D）K线图，时间轴覆盖2023年9月至12月初。右侧价格刻度可见范围约从14450至15900。图上有两条水平线形成窄幅区间，位于约15450至15550之间。另有一个小矩形标注位于约15050至15150区域。图中Oct 9至16区间可见数根绿色K线，最高触及约15400。Oct 19处有一根长实体黑色K线，收盘位于约14831，左侧价格轴显示当前价14831.25。图上还可见一条"
+  },
+  "sources": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        190.92,
+        502.199
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NASDAQ日线的分析完整清晰，包括资产代码、时间框架、具体价位范围、多日偏差判断、订单块验证过程，以及3日回溯方法的应用，所有关键步骤均有图表支撑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:27.243080Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NASDAQ日线多日偏差与订单块验证\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D\",\"market_context\":\"NASDAQ日线在9月中旬至10月中旬经历从约15700的摆动高点下跌至约14600的低点，随后10月初至中旬出现连续上升，期间多次测试前日高低点，形成多个订单块结构。\",\"key_observation\":\"博主通过观察连续多天对前日高点的失败突破与前日低点的重复测试，识别出订单块的形成与验证过程，并利用3日回溯方法标记流动性目标。\",\"analysis_steps\":[\"Step 1: 识别前日高低点作为流动性水平，判断价格是否能够突破（displacement）或失败突破（lack of displacement）。\",\"Step 2: 观察第一天价格突破前日高点并收盘于其上方，预期下一天继续测试前日高点。\",\"Step 3: 第二天价格再次触及并突破前日高点，同时突破日内FVG，预期继续上升。\",\"Step 4: 第三天价格继续突破前日高点并收盘于其上方，维持上升偏差。\",\"Step 5: 第四天价格突破前日高点后，观察到收盘为看跌K线，同时触及日内FVG，转变为下行偏差。\",\"Step 6: 第五天价格未能突破前日低点，反而收盘于看涨K线内，预期价格回升至前日高点。\",\"Step 7: 第六天价格向下突破前日低点，但未收盘于其下方，而是收盘于看涨K线内，该看涨K线被验证为订单块。\",\"Step 8: 第七天价格重新测试该订单块（前日看涨K线），继续向下突破，预期测试更低的前日低点。\",\"Step 9: 第八天价格继续下行，突破前日低点及更早的等低点，收盘回升至范围内，预期后续上升至前日高点或形成巩固。\",\"Step 10: 利用3日回溯方法标记多个前日高低点水平，形成汇聚区域作为强支撑或阻力。\"],\"outcome\":null,\"lessons\":\"前日高低点的失败突破与重复测试是识别订单块的关键信号；看涨K线在被价格向下突破后可被验证为订单块；3日回溯方法可识别多个汇聚的流动性水平，增强支撑/阻力的有效性；每日虽有偏差判断，但不是每天都有高概率交易机会。\",\"primary_image_frame_id\":\"FXJBFbZQbck_f001\",\"supporting_image_frame_ids\":[\"FXJBFbZQbck_f007\",\"FXJBFbZQbck_f011\",\"FXJBFbZQbck_f012\",\"FXJBFbZQbck_f013\",\"FXJBFbZQbck_f014\",\"FXJBFbZQbck_f015\",\"FXJBFbZQbck_f016\",\"FXJBFbZQbck_f017\"],\"related_concepts\":[\"Previous Day High & Low\",\"Displacement\",\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"3 Day Lookback\",\"Market Structure\",\"Mitigation Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NASDAQ日线的分析完整清晰，包括资产代码、时间框架、具体价位范围、多日偏差判断、订单块验证过程，以及3日回溯方法的应用，所有关键步骤均有图表支撑。\"}",
+  "error": null
+}

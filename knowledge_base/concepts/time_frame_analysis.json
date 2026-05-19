@@ -1,0 +1,251 @@
+{
+  "card_id": "time_frame_analysis",
+  "type": "merged_concept",
+  "canonical_term": "Time Frame Analysis",
+  "aliases": [
+    "HTF/LTF Analysis",
+    "HTF/LTF分析",
+    "Multi-timeframe Analysis",
+    "多时间框架分析",
+    "时间框架下钻",
+    "时间框架对比分析",
+    "跨周期分析"
+  ],
+  "school": "ICT",
+  "definition": "从高时间框架（HTF）识别宏观结构、趋势方向和兴趣点（FVG、OB、PD Array等），逐级下钻至低时间框架（LTF）精确定位入场点、优化止损位置并验证信号一致性的分层分析方法。高时间框架提供交易偏差，低时间框架提供执行确认。",
+  "identification_rules": [
+    "在高时间框架（如日线、4小时、1小时、15分钟）识别主要趋势方向、市场结构及关键兴趣点（FVG、OB、摆动高低点、PD Array、折价/溢价区）",
+    "在高时间框架确认交易偏差（看涨或看跌）后，逐级切换至低时间框架（如5分钟、1分钟、15秒）寻找精确入场信号",
+    "在低时间框架上寻找市场结构转变（MSS）、位移（Displacement）、FVG填充或OTE回测等入场触发信号",
+    "确认低时间框架信号方向与高时间框架趋势方向一致，高时间框架结构未被突破时，低时间框架的反向信号仅视为回测机会而非趋势反转",
+    "在低时间框架上寻找激进的价格突破后回归区间的动作（aggressive move out and back in），并确认该动作未在高时间框架产生有效位移",
+    "验证低时间框架的回撤特征：高时间框架处于积极扩张阶段时，低时间框架应出现浅层快速回撤而非深度回撤",
+    "对比不同时间框架下的止损位置和目标位置，计算并选择风险回报比最优的时间框架作为最终入场依据",
+    "验证低时间框架蜡烛形态（小灯芯支持扩张，大灯芯表示反转）是否与高时间框架预期相符",
+    "高时间框架新K线开启时，检查低时间框架价格行为是否符合预期的扩张或回撤特征"
+  ],
+  "trading_implication": "高时间框架提供趋势方向、结构确认与风险过滤，低时间框架用于精确入场、优化止损并监控价格行为。通过分层确认可在保持相同目标的前提下找到更优入场价格和更紧凑止损，显著提高风险回报比并降低虚假信号风险。低时间框架持续监控高时间框架设置是否仍然有效，辅助及时调整止损或平仓决策。",
+  "common_mistakes": [
+    "仅在低时间框架分析而忽视高时间框架确认，导致逆势交易或入场点选择不当",
+    "将低时间框架的结构突破误认为趋势反转，未检查高时间框架是否仍保持原趋势",
+    "在低时间框架上寻找深度回撤，忽视高时间框架处于积极扩张阶段时应出现浅层回撤的特征",
+    "未等待低时间框架确认信号（如MSS、FVG填充、结构破坏）就仓促入场，增加虚假突破风险",
+    "高时间框架上没有明确的交易机会（如缺少FVG、OB或折价区）就盲目下钻低时间框架寻找入场",
+    "低时间框架信号与高时间框架宏观方向不一致时仍然执行交易",
+    "在高时间框架POI被触及后立即入场，而不等待低时间框架的激进回归动作确认",
+    "忽视高时间框架上是否产生有效位移（Displacement），导致在虚假突破处入场",
+    "混淆时间框架的用途，将低时间框架的POI当作高时间框架的偏差来使用",
+    "在高时间框架蜡烛未完全形成时就在低时间框架交易，缺乏确认",
+    "混淆高时间框架的反转日与延续日，导致对低时间框架信号的误解",
+    "未在低时间框架验证高时间框架目标区域是否真正被触及就过早平仓",
+    "将低时间框架的盘整误认为有效回撤，导致在无效设置上交易",
+    "在高时间框架未出现位移的结构突破处交易，容易被诱导（Inducement）"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Discount",
+      "card_id": "discount",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "CSD",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_time_frame_analysis",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_008"
+      ],
+      "time_range": [
+        276.96,
+        426.08
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FXNLGYxfbDc",
+      "original_card_id": "FXNLGYxfbDc_concept_time_frame_analysis",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        6.319,
+        179.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FdRKBTz0Fps",
+      "original_card_id": "FdRKBTz0Fps_concept_time_frame_analysis",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.64,
+        269.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "aDYzoae3viQ",
+      "original_card_id": "aDYzoae3viQ_concept_time_frame_analysis",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.96,
+        160.28
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_time_frame_analysis",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_007",
+        "seg_010",
+        "seg_012",
+        "seg_016",
+        "seg_020",
+        "seg_021",
+        "seg_031",
+        "seg_034",
+        "seg_035"
+      ],
+      "time_range": [
+        11.2,
+        1868.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_time_frame_analysis",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        6.74,
+        443.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 6,
+    "source_videos": 6,
+    "high_confidence_sources": 6,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:21.624718Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "5张ICT + 1张Price Action，按多数选ICT。Price Action卡（FXNLGYxfbDc）核心内容（风险回报比优化、逐级下钻）与ICT方法论高度兼容，已融入规则中。",
+  "error": null
+}

@@ -1,0 +1,111 @@
+{
+  "card_id": "pWAjzKndWXo_case_003_反向头皮交易中的多层目标运用",
+  "type": "case",
+  "title": "ES反向头皮交易中的多层FVG与流动性目标运用",
+  "related_concepts": [
+    {
+      "term": "FVG",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "MSS",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "market_structure_shift",
+    "equal_lows",
+    "protected_high_low",
+    "displacement",
+    "mitigation_block"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5m / 1m / 15m",
+  "market_context": "ES在5分钟图上经历结构转变后形成做空机会，博主展示如何在多个时间框架上识别和运用FVG、订单块、等低点等多层目标进行反向头皮交易的加仓和平仓策略。",
+  "key_observation": "在反向头皮交易中，交易者可以利用流动性（摆动低点）和不平衡（FVG）作为多层目标，通过逐层加仓和平仓来优化风险回报比，同时跨越多个时间框架验证目标的有效性。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别结构转变（MSS），确认做空入场点位。",
+    "Step 2: 识别第一层目标——摆动低点（Liquidity），作为初始平仓目标。",
+    "Step 3: 识别第二层目标——等低点（Equal Lows），作为加仓或继续持仓的目标。",
+    "Step 4: 识别第三层目标——5分钟FVG（不平衡），与流动性相对应。",
+    "Step 5: 跨越时间框架验证——在15分钟图上确认FVG与5分钟目标的对应关系。",
+    "Step 6: 在1分钟图上精确入场，利用MSS和订单块（Order Block）确定具体入场价位。",
+    "Step 7: 根据多层目标逐层加仓，每层目标达成后可选择部分平仓或继续持仓至下一目标。",
+    "Step 8: 使用受保护的摆动点（Protected Swing）作为止损参考，管理风险。"
+  ],
+  "outcome": null,
+  "lessons": "反向头皮交易的核心是多层目标的识别与运用：流动性（摆动高/低点）和FVG（不平衡）是两大主要目标来源；跨时间框架验证提高目标的可靠性；逐层加仓和平仓策略可优化风险回报比；等低点等特殊结构也应纳入目标体系。",
+  "primary_image": "cards/pWAjzKndWXo/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/pWAjzKndWXo/images/case_003_detail_1.jpg",
+    "cards/pWAjzKndWXo/images/case_003_detail_2.jpg",
+    "cards/pWAjzKndWXo/images/case_003_detail_3.jpg",
+    "cards/pWAjzKndWXo/images/case_003_detail_4.jpg",
+    "cards/pWAjzKndWXo/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图。图表显示约24小时的价格走势，从18:00至04:30。可见价格范围在3728.00至3843.00之间。图上有一个标记为'$$$'的矩形框，位于图表中上方约3795-3815价格区间。右侧价格轴上标注有三条水平参考线，分别位于3761.75、3785.25和3705.25。K线呈现绿红交替的双向波动形态，未见其他指标或标注。",
+    "case_003_detail_1.jpg": "ES 5分钟K线图。图上可见价格范围从3729.00至3843.75。图中标注有两个矩形区域：上方矩形约在3765.75至3800.00之间，下方矩形约在3723.50至3765.75之间。图上有文字标签'$$$'位于上方矩形附近。K线显示从左侧3729.00向上运行至右侧3843.75，中间存在约8根K线的整理形态。右侧K线多为绿色。图右侧价格刻度显示多个水平价格标记。",
+    "case_003_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从约3872至3949的上升趋势，跨越约40根K线。图中标注两个矩形区域：上方矩形约在3909至3949价格范围，下方矩形约在3895至3924价格范围。右侧价格刻度显示当前价格附近为3915。图上有两条水平虚线分别位于约3924和3909处。K线整体呈现多根蜡烛体，上下影线分布于整个可见范围。右侧价格标签栏显示多个价格数值从39",
+    "case_003_detail_3.jpg": "S&P 500 E-mini Futures 1 分钟 K 线图。图上绘制了多条矩形框和水平线标注。标注包括一个标记为'mss'的矩形框位于 3920 至 3925 价格区间，以及其他未标记的矩形框分别位于 3900 至 3910 和 3920 至 3930 区间。图右侧显示价格刻度从 3900.00 至 3934.00。可见 K 线由绿色和红色蜡烛体组成，在标注的水平线之间波动。时间轴显示从 0",
+    "case_003_detail_4.jpg": "ES 1分钟K线图。图上显示从约3892到3932的价格范围。图中有多条水平线和多个灰色矩形框标注，其中一个矩形标记为'mss'位于3920-3930区间。右侧价格刻度显示多个标注价格点，包括3920.25、3917.75、3912.25、3909.25、3906.00、3903.50、3900.00等。图上可见小蓝色方形标记出现在约3910-3915区域。K线呈现绿红相间的蜡烛图形态。",
+    "case_003_detail_5.jpg": "ES 15分钟K线图。图上显示S&P 500 E-mini期货合约，价格范围从3640.00至3785.00。图中标注有两个灰色矩形框：上方框位于3713.75至3680.00区间，下方框位于3680.00至3650.00区间。K线呈现绿色和红色交替，显示在标注区域内有整理形态。右侧价格刻度显示最新报价在3785.00附近。时间戳显示19 Jun 22 19:15。"
+  },
+  "sources": [
+    {
+      "video_id": "pWAjzKndWXo",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.72,
+        187.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟、1分钟、15分钟多时间框架的具体标注，清晰讲解了目标识别顺序和加仓平仓逻辑，资产代码、价格范围、关键结构均可从图表读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:44.190631Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES反向头皮交易中的多层FVG与流动性目标运用\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5m / 1m / 15m\",\"market_context\":\"ES在5分钟图上经历结构转变后形成做空机会，博主展示如何在多个时间框架上识别和运用FVG、订单块、等低点等多层目标进行反向头皮交易的加仓和平仓策略。\",\"key_observation\":\"在反向头皮交易中，交易者可以利用流动性（摆动低点）和不平衡（FVG）作为多层目标，通过逐层加仓和平仓来优化风险回报比，同时跨越多个时间框架验证目标的有效性。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别结构转变（MSS），确认做空入场点位。\",\"Step 2: 识别第一层目标——摆动低点（Liquidity），作为初始平仓目标。\",\"Step 3: 识别第二层目标——等低点（Equal Lows），作为加仓或继续持仓的目标。\",\"Step 4: 识别第三层目标——5分钟FVG（不平衡），与流动性相对应。\",\"Step 5: 跨越时间框架验证——在15分钟图上确认FVG与5分钟目标的对应关系。\",\"Step 6: 在1分钟图上精确入场，利用MSS和订单块（Order Block）确定具体入场价位。\",\"Step 7: 根据多层目标逐层加仓，每层目标达成后可选择部分平仓或继续持仓至下一目标。\",\"Step 8: 使用受保护的摆动点（Protected Swing）作为止损参考，管理风险。\"],\"outcome\":null,\"lessons\":\"反向头皮交易的核心是多层目标的识别与运用：流动性（摆动高/低点）和FVG（不平衡）是两大主要目标来源；跨时间框架验证提高目标的可靠性；逐层加仓和平仓策略可优化风险回报比；等低点等特殊结构也应纳入目标体系。\",\"primary_image_frame_id\":\"pWAjzKndWXo_f002\",\"supporting_image_frame_ids\":[\"pWAjzKndWXo_f003\",\"pWAjzKndWXo_f004\",\"pWAjzKndWXo_f005\",\"pWAjzKndWXo_f006\",\"pWAjzKndWXo_f007\"],\"related_concepts\":[\"FVG\",\"Order Block\",\"Liquidity\",\"MSS\",\"Equal Lows\",\"Protected Swing\",\"Displacement\",\"Mitigation Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟、1分钟、15分钟多时间框架的具体标注，清晰讲解了目标识别顺序和加仓平仓逻辑，资产代码、价格范围、关键结构均可从图表读出。\"}",
+  "error": null
+}

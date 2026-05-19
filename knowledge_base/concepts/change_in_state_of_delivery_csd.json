@@ -1,0 +1,221 @@
+{
+  "card_id": "change_in_state_of_delivery_csd",
+  "type": "merged_concept",
+  "canonical_term": "Change in State of Delivery (CSD)",
+  "aliases": [
+    "交付状态改变",
+    "状态转变"
+  ],
+  "school": "ICT",
+  "definition": "价格突破前一个有效摆动高点或低点，预示市场结构转变和短期趋势可能反转的价格行为。",
+  "identification_rules": [
+    "观察价格是否突破了前一个已形成的摆动高点（swing high）或摆动低点（swing low）",
+    "确认突破发生在关键时间水平（如日线开盘、8:30、9:30、10:00、14:00等）附近",
+    "验证突破后价格形成相反方向的K线结构（如从上升转为下降的OHLC序列）",
+    "检查突破是否伴随订单块（Order Block）或其他结构性支撑/阻力的失效"
+  ],
+  "trading_implication": "CSD是识别趋势反转或延续的关键信号。当价格突破前一摆动点时，交易者应预期短期方向改变。在日线图上，若收盘突破前一日高点/低点，结合午夜开盘（0:00）、8:30、9:30等时间水平的支撑阻力表现，可确认趋势转变。在低时间框架上，CSD常与时间开盘（如10:00、14:00的4小时开盘）配合使用，预测价格在这些时间点的反向运动。",
+  "common_mistakes": [
+    "将单纯的价格穿过某个水平误认为CSD，忽视了摆动结构的有效性验证",
+    "未在多时间框架上确认CSD，导致在虚假突破中入场",
+    "忽视CSD后价格对关键时间水平（如日线开盘、8:30）的回测，错过确认信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_003_ym反转交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "YM反转交易案例：前日低点SMT与CSD触发的反向上行"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_004_gbpusd日线到小时线交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "GBPUSD日线理想三号收盘到小时线多次扫盘后延续上行"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_005_nq_15分钟到1分钟的多时间框架入场",
+      "video_id": "27S9gjgcSlI",
+      "title": "NQ 15分钟到1分钟多时间框架入场与FVG调整"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_004_纳指5分钟开盘范围内的内外流动性循环",
+      "video_id": "3OivsP1j_UE",
+      "title": "NQ1 5分钟开盘范围内的内外流动性循环"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_011_rty小型罗素指数完整顶部到底部交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RTY日线顶部失败操纵到4H CSD确认，30分钟FVG与YM SMT联动，1分钟V形反转入场"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_005_usd_5分钟图的低时间框架延续交易",
+      "video_id": "8BWkRGhuj1k",
+      "title": "USD 5分钟图低时间框架延续交易——扩张-回撤-扩张信号"
+    },
+    {
+      "card_id": "E89d1HArbgM_case_003_原油日线的虚假突破与真实结构转变",
+      "video_id": "E89d1HArbgM",
+      "title": "原油日线虚假突破与三层结构转变信号"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_006_nq1_3分钟实时交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1 3分钟实时交易：扩张-回撤循环与受保护摆动追踪"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_001_nq期货_周三反转周四延续案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ期货周三反转周四延续交易案例"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_002_usdjpy_周线反转到15分钟入场案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "USDJPY周线反转到15分钟入场，2.4R风险回报比"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_003_原油期货_cl_激进位移后的回测入场",
+      "video_id": "IJcfC6wAPZU",
+      "title": "原油期货CL激进位移后的回测入场策略"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_006_英镑美元_gbpusd_日线至月线范围交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "GBPUSD日线-月线范围交易：扫低后CSD确认突破"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_002_原油期货_cl_看涨操纵案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "原油期货CL看涨操纵案例：伦敦失败摆动后纽约扫荡折价区入场"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_001_btc小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "BTC小时图V形反转到5分钟图多头延续交易"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_001_第一个amd与标准差投影案例",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "AMD标准差投影与AMD模型的完整交易案例"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_001_nq第一个交易案例_扫盘后反转做空",
+      "video_id": "TNybDCtwBnc",
+      "title": "NQ扫盘后反转做空——入场点位不理想导致止损"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_003_usd_1小时图_多日反转与保护摆动",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1H：突破前日高点后的反转与FVG目标"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_005_usd_1小时图_范围突破反转失败案例",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1H：范围突破反转失败案例"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_001_黄金_xauusd_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "黄金日线触及前日低点，1H看跌FVG+M15 SMT做多案例"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_004_gll货币对范围交易案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GLL范围交易：低点突破后的CSD与流动性缺失分析"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_003_fvg内的smt应用",
+      "video_id": "q1NmxUTm4n4",
+      "title": "S&P 500与纳斯达克100在FVG内的SMT应用"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_002_gll小时图与5分钟模型交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "GLL小时图反转与5分钟CSD延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_005_4小时与15分钟的candle_3延续",
+      "video_id": "qdQYhePcvGE",
+      "title": "4小时反转后的15分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_009_gbp_usd小时图与5分钟的candle_3交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "GBP/USD小时反转后5分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_012_usd_5分钟图的consolidation与突破交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD 5分钟盘整中等高点的SMT反转交易"
+    },
+    {
+      "card_id": "r_UF8U-hsL8_case_001_apoz资产的反转与延续交易案例",
+      "video_id": "r_UF8U-hsL8",
+      "title": "APOZ反转序列与延续做空交易案例"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_004_usd_4小时线上的k线2收盘与延续",
+      "video_id": "tyoxl1l-6iI",
+      "title": "USD 4小时线K线2收盘形态识别与下钻交易"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_001_usd_1小时图有效c2扫盘确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD 1H有效C2扫盘确认与5分钟CSD验证"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_003_日线c2闭合但低时间框架csd失败案例",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "日线C2闭合但低时间框架CSD失败导致设置无效"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_004_15分钟盘整范围突破交易",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "15分钟盘整范围突破交易——双边扫盘后的方向确认"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_001_eurusd_1分钟反转序列案例",
+      "video_id": "wik00c9_2nk",
+      "title": "EURUSD 1分钟整理区间扫低后的完整反转序列"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_001_轻质原油期货的纽约反转案例",
+      "video_id": "xdzyejskSKE",
+      "title": "轻质原油期货纽约反转：高时间框架位触及与流动性扫荡"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_004_标普500期货伦敦反转延续案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "ES期货伦敦扫高反转与纽约时段延续案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_change_in_state_of_delivery_csd",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.84,
+        369.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131617Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

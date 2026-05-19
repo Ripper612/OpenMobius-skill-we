@@ -1,0 +1,109 @@
+{
+  "card_id": "o0v4KQxZbpU_case_006_回测第四天交易",
+  "type": "case",
+  "title": "回测第四天：FVG入场失效，订单被取消",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Silver Bullet Session",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "breaker_block",
+    "displacement",
+    "killzone",
+    "market_structure",
+    "turtle_soup"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1M",
+  "market_context": "回测第四天，价格在9:00 a.m.后扫低，随后反弹。博主在Silver Bullet session内寻找FVG和Order Block的长仓机会，但最终FVG入场未能有效填补缺口，订单在11:00 a.m. Killzone结束前被取消。",
+  "key_observation": "价格扫低后出现FVG，博主期望使用该缺口作为做多入场点，但价格未能有效回补缺口，导致订单被取消。这反映了在特定时间窗口内，FVG作为入场信号的局限性。",
+  "analysis_steps": [
+    "Step 1: 标记9:00 a.m.蜡烛的高点和低点，确定Silver Bullet session的交易范围。",
+    "Step 2: 观察价格扫低（sweep below low），寻找潜在的反弹机会。",
+    "Step 3: 识别扫低前的上升收盘蜡烛（up close candle），将其作为潜在的Breaker。",
+    "Step 4: 在1分钟图上发现小幅FVG（small fair value gap），但认为信号不够强劲。",
+    "Step 5: 等待更激进的位移（aggressive displacement down），以获得更有说服力的FVG。",
+    "Step 6: 使用上升收盘蜡烛作为入场点，止损设在低点，目标设在蜡烛另一侧。",
+    "Step 7: 订单被挂起，但价格未能在11:00 a.m. Killzone结束前触及入场价格。",
+    "Step 8: 由于超出11:00 a.m.时间窗口，取消订单。"
+  ],
+  "outcome": "订单被取消。价格未能有效填补FVG缺口，也未能在Killzone时间窗口内触及预期的入场点。如果使用Breaker Block入场，则会被成交，但博主特别寻求FVG入场，因此错过了这次机会。",
+  "lessons": "时间窗口（Killzone）对交易执行至关重要；FVG作为独立入场信号需要配合强劲的位移确认；过于严格的入场条件可能导致错过交易机会；需要在严谨的交易规则与灵活性之间找到平衡。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_006_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_006_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_006_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "NAS100 1分钟K线图。图上可见价格范围约从14868到15044。图表中标记有两个矩形区域：下方区域约在14868至14912之间，上方区域约在15000至15044之间。右侧面板显示成交量柱状图，柱体呈绿色和黑色。顶部显示当前K线的开高低收数据及时间戳。图上未见其他标注或指标。",
+    "case_006_detail_1.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示从约15080上升至15277的K线序列，右侧面板显示从15277下跌至约15100后反弹至15232的K线序列。图上标注有多条水平参考线，以及两个矩形区域框：一个浅绿色矩形框和一个浅粉色矩形框。右侧价格刻度显示最高价15277.534000，最低价约15080.000000。底部时间轴显示分钟级别时间戳。",
+    "case_006_detail_2.jpg": "NAS100 1分钟K线图。图上可见多条水平线标注，分别位于15277.51、15150和15100价格水平。图表中有两个矩形区域标注：粉色矩形覆盖约15150至15250区间，浅绿色矩形覆盖约15100至15200区间。可见价格范围从15090至15277.51。K线序列显示上升趋势后跟随下降趋势，右侧可见一根大型绿色K线，中间部分可见一根大型黑色K线。图表标题显示为Backtesting模式。",
+    "case_006_detail_3.jpg": "NAS100 1 分钟 K 线图。图表显示从约 15050 到 14800 的价格范围。左侧显示一段下跌走势，包含多根绿色和黑色 K 线，部分 K 线具有较长下影线。中间区域显示在 14800 至 14900 之间的盘整形态。右侧显示一根大幅下跌的黑色 K 线，随后出现绿色恢复 K 线。图右侧价格刻度标注有具体数值。图上可见两条水平参考线标记价格范围边界。",
+    "case_006_detail_4.jpg": "NAS100 日线图。图表显示从左至右的价格走势，可见价格范围约从 14850 到 15112。图上有多条水平线标注，其中两条矩形框分别标记在 15068-15075 区间和 14985-15000 区间。K 线序列显示初期多根绿色蜡烛，中段出现一系列黑色蜡烛表现下行，后期再次出现绿色蜡烛。各根 K 线的上下影线长度不一。右侧价格刻度清晰显示数值标记。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        379.16,
+        743.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析过程完整清晰，包括时间框架、价格水平、入场逻辑、止损设置和最终结果（订单取消）都有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:47.399292Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第四天：FVG入场失效，订单被取消\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1M\",\"market_context\":\"回测第四天，价格在9:00 a.m.后扫低，随后反弹。博主在Silver Bullet session内寻找FVG和Order Block的长仓机会，但最终FVG入场未能有效填补缺口，订单在11:00 a.m. Killzone结束前被取消。\",\"key_observation\":\"价格扫低后出现FVG，博主期望使用该缺口作为做多入场点，但价格未能有效回补缺口，导致订单被取消。这反映了在特定时间窗口内，FVG作为入场信号的局限性。\",\"analysis_steps\":[\"Step 1: 标记9:00 a.m.蜡烛的高点和低点，确定Silver Bullet session的交易范围。\",\"Step 2: 观察价格扫低（sweep below low），寻找潜在的反弹机会。\",\"Step 3: 识别扫低前的上升收盘蜡烛（up close candle），将其作为潜在的Breaker。\",\"Step 4: 在1分钟图上发现小幅FVG（small fair value gap），但认为信号不够强劲。\",\"Step 5: 等待更激进的位移（aggressive displacement down），以获得更有说服力的FVG。\",\"Step 6: 使用上升收盘蜡烛作为入场点，止损设在低点，目标设在蜡烛另一侧。\",\"Step 7: 订单被挂起，但价格未能在11:00 a.m. Killzone结束前触及入场价格。\",\"Step 8: 由于超出11:00 a.m.时间窗口，取消订单。\"],\"outcome\":\"订单被取消。价格未能有效填补FVG缺口，也未能在Killzone时间窗口内触及预期的入场点。如果使用Breaker Block入场，则会被成交，但博主特别寻求FVG入场，因此错过了这次机会。\",\"lessons\":\"时间窗口（Killzone）对交易执行至关重要；FVG作为独立入场信号需要配合强劲的位移确认；过于严格的入场条件可能导致错过交易机会；需要在严谨的交易规则与灵活性之间找到平衡。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f017\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f013\",\"o0v4KQxZbpU_f014\",\"o0v4KQxZbpU_f016\",\"o0v4KQxZbpU_f019\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Breaker Block\",\"Displacement\",\"Killzone\",\"Market Structure\",\"Sweep\",\"Silver Bullet Session\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析过程完整清晰，包括时间框架、价格水平、入场逻辑、止损设置和最终结果（订单取消）都有明确说明。\"}",
+  "error": null
+}

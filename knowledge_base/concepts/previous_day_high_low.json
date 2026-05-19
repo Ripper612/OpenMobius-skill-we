@@ -1,0 +1,227 @@
+{
+  "card_id": "previous_day_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Previous Day High/Low",
+  "aliases": [
+    "PDH/PDL",
+    "前一交易日高低点",
+    "前一交易日高点/低点",
+    "前一日高低点"
+  ],
+  "school": "ICT",
+  "definition": "前一个完整交易日形成的最高价与最低价，作为日线级别流动性池。用于框架化日内偏差、预测价格目标或识别反转点。上升趋势中价格反复触及前日高点，下降趋势中反复触及前日低点；价格未能突破前日高点则偏空，未能突破前日低点则偏多。",
+  "identification_rules": [
+    "在日线图上标记前一个完整交易日K线的最高点和最低点",
+    "将这两个价格水平向当前交易日延伸，形成两条水平参考线",
+    "可向后回溯3个交易日，标记多个前日高低点以寻找汇聚区域",
+    "上升趋势中，价格连续多日触及或突破前日高点；下降趋势中，价格连续多日触及或突破前日低点",
+    "当价格未能突破前日高点时，表明向下偏差；未能突破前日低点时，表明向上偏差",
+    "观察价格是否在前日高低点范围内盘整，或突破并收盘在范围外（仅触及不足以确认方向）",
+    "这两条水平线在较低时间框架（如1小时、5分钟）上作为参考水平保持有效"
+  ],
+  "trading_implication": "Previous Day High/Low 是日线级别的主要流动性目标，用于确定日内偏差并在低时间框架寻找入场点。除非价格处于盘整，否则预期会触及前日高点或低点之一。价格突破并收盘在范围外预示趋势延续；结合位移（Displacement）、失败突破及会话流动性，可框架化反转或延续的交易偏差，并为止损或获利目标提供参考。",
+  "common_mistakes": [
+    "假设每天都能找到交易机会——即使有明确的前日高低点目标，也不一定能在每个交易日获得有效入场",
+    "忽视位移的重要性——仅看前日高低点而不考虑价格是否成功突破，导致偏差判断错误",
+    "未区分价格触及与收盘在范围外的区别——仅触及不足以确认方向，必须收盘在范围外",
+    "未处于盘整状态就假设必然触及前日高低点，忽视盘整状态的例外情形",
+    "混淆 Previous Day High/Low 与当前交易日的高低点或当日开盘价，导致参考水平错误",
+    "将前日高低点与会话高低点混淆，导致流动性目标识别错误",
+    "未在多时间框架中同步标记 Previous Day High/Low，导致在低时间框架上失去参考",
+    "过度依赖前日高低点而忽视其他结构——应结合 FVG、Order Block、Swing Points 等其他流动性水平进行确认"
+  ],
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Daily Bias",
+      "card_id": "daily_bias",
+      "exists": true
+    },
+    {
+      "term": "Previous Week High/Low",
+      "card_id": "previous_week_high_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Month High/Low",
+      "card_id": "previous_month_high_low",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Session High/Low",
+      "card_id": "session_high_low",
+      "exists": true
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FXJBFbZQbck_case_004_周一新周开盘缺口到前日高点的完整交易流程",
+      "video_id": "FXJBFbZQbck",
+      "title": "周一新周开盘缺口到前日高点的完整AMD交易流程"
+    },
+    {
+      "card_id": "FXJBFbZQbck_case_006_亚洲盘提前触及前日高点导致交易机会消失",
+      "video_id": "FXJBFbZQbck",
+      "title": "亚洲盘提前触及前日高点导致纽约盘交易机会消失"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_002_eurusd_日线与小时线多时间框架流动性分析",
+      "video_id": "U8xH2dEgH5A",
+      "title": "EURUSD多时间框架流动性分析与交易目标确定"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_003_标普500_e_mini期货5分钟图交易流程",
+      "video_id": "U8xH2dEgH5A",
+      "title": "标普500 E-mini期货5分钟图多层流动性框架交易"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_001_ftse日线前一日高低点交易案例",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "FTSE日线前一日高低点流动性追踪案例"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_004_eurusd日线到小时图伦敦时段交易",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "GBPUSD日线看跌偏差到小时图伦敦时段FVG交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "original_card_id": "FXJBFbZQbck_concept_previous_day_high_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        10.4,
+        780.839
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YESqIoA7Wyg",
+      "original_card_id": "YESqIoA7Wyg_concept_previous_day_high_low",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        193.2,
+        548.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_previous_day_high_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        995.3389999999999
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wy3OSPxu5U0",
+      "original_card_id": "wy3OSPxu5U0_concept_previous_day_high_low",
+      "segment_ids": [
+        "seg_005",
+        "seg_007",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        148.959,
+        381.96
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:54.374592Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "3张ICT + 1张Price Action，按多数选ICT。Price Action卡内容与ICT框架高度兼容，无实质冲突。",
+  "error": null
+}

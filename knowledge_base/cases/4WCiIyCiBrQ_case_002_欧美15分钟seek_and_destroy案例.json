@@ -1,0 +1,107 @@
+{
+  "card_id": "4WCiIyCiBrQ_case_002_欧美15分钟seek_and_destroy案例",
+  "type": "case",
+  "title": "欧美15分钟双向失败与区间盘整案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "premium_discount_premium_",
+    "equilibrium",
+    "market_structure",
+    "inducement",
+    "displacement"
+  ],
+  "school": "SMC",
+  "asset": "EURUSD",
+  "timeframe": "15M",
+  "market_context": "亚洲时段形成明确区间后，伦敦时段向上突破失败，价格回到区间；随后向下突破也失败，最终在区间内反复盘整，展现典型的Seek and Destroy行为。",
+  "key_observation": "价格在Asia区间的上下两侧都尝试突破但均失败，表现出双向诱导特征。博主通过标记折价区和溢价区来追踪价格回归到均衡点和初始区间的过程。",
+  "analysis_steps": [
+    "Step 1: 标记Asia时段形成的明确区间高低点（约1.11580-1.11690）",
+    "Step 2: 观察London开盘后价格向上突破区间高点，但随即被打回区间内部",
+    "Step 3: 标记向上失败后的折价区和溢价区，预期价格回到区间或均衡点",
+    "Step 4: 观察价格向下突破区间低点，但同样失败并回到区间",
+    "Step 5: 继续追踪向下腿的折价区和溢价区，标记新低点后的均衡位置",
+    "Step 6: 确认价格最终在初始区间和日开盘价附近反复盘整，形成indecision candle"
+  ],
+  "outcome": "价格在Asia区间内反复盘整，双向突破均失败，最终形成无明确方向的盘整日，收盘时回到初始区间附近。",
+  "lessons": "Seek and Destroy案例展示了机构如何在关键价格水平制造假突破来诱导零售交易者，然后反向运行。通过标记折价/溢价区和均衡点，可以预测价格回归的目标位。这类无方向盘整日应该避免交易，而是用来学习市场结构。",
+  "primary_image": "cards/4WCiIyCiBrQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/4WCiIyCiBrQ/images/case_002_detail_1.jpg",
+    "cards/4WCiIyCiBrQ/images/case_002_detail_2.jpg",
+    "cards/4WCiIyCiBrQ/images/case_002_detail_3.jpg",
+    "cards/4WCiIyCiBrQ/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "EUR/USD 15分钟K线图，图右下角标注时间轴显示日期为9月22日至23日。图上可见价格范围约从1.11300至1.11900。图上标注有三个色块矩形：粉红色矩形覆盖约1.11600至1.11700区间、蓝色矩形覆盖约1.11550至1.11820区间、紫色矩形覆盖约1.11350至1.11750区间。两条蓝色水平实线分别位于约1.11670和1.11570处。一条贯穿全图的虚线水平线位于当前",
+    "case_002_detail_1.jpg": "EURUSD 15 分钟 K 线图，可见价格范围约从 1.11320 到 1.11900。图上有一个粉色矩形框，覆盖约 1.11580 至 1.11690 的价格区间，时间跨度从约 19:00 延伸至次日 01:30。图右侧有一个绿色填充矩形，位于约 1.11310 至 1.11350 区间。一条虚线水平线位于约 1.11620，另有一条垂直虚线位于 09 月 20 日 06:00 处。约 04:",
+    "case_002_detail_2.jpg": "EURUSD 15 分钟 K 线图，时间轴显示 Fri 20 Sep，价格范围约从 1.11320 到 1.11900。图上有一个粉色矩形区域覆盖约 1.11390 至 1.11690 的价格区间，对应较早时段的横盘 K 线群。另有一个蓝色矩形区域覆盖约 1.11550 至 1.11860，对应一组先上涨后大幅下跌的 K 线，其中包含一根从约 1.11860 跌至 1.11540 的大阴线，下影线",
+    "case_002_detail_3.jpg": "EURUSD 15 分钟 K 线图，日期为 Fri 20 Sep，时间轴覆盖约 22:30 至 23:00 次日。图上可见三个矩形标注区域：一个粉红色矩形覆盖约 1.11580 至 1.11700 价格区间，位于图左侧早段；一个蓝色矩形覆盖约 1.11430 至 1.11820，位于图中段；一个紫粉色矩形覆盖约 1.11390 至 1.11760，位于 09:00 附近。图上另有两条蓝色水平线分别",
+    "case_002_detail_4.jpg": "EURUSD 15 分钟 K 线图，时间范围覆盖 2024 年 9 月 19 日周四 22:15 至 9 月 23 日。图上有两条水平线，分别位于约 1.11700 和 1.11580。图上标注三个矩形色块：左侧蓝色矩形覆盖约 1.11580 至 1.11820 区间，时间约为 04:30 至 09:00；左下角粉色小矩形覆盖约 1.11580 至 1.11700；中部粉紫色矩形覆盖约 1.113"
+  },
+  "sources": [
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.039,
+        523.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了Asia区间的标记、双向突破失败、折价溢价区追踪、均衡点回归等全过程，图表清晰显示价格走势与分析步骤的对应关系。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:25:15.774599Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"欧美15分钟双向失败与区间盘整案例\",\"school\":\"SMC\",\"asset\":\"EURUSD\",\"timeframe\":\"15M\",\"market_context\":\"亚洲时段形成明确区间后，伦敦时段向上突破失败，价格回到区间；随后向下突破也失败，最终在区间内反复盘整，展现典型的Seek and Destroy行为。\",\"key_observation\":\"价格在Asia区间的上下两侧都尝试突破但均失败，表现出双向诱导特征。博主通过标记折价区和溢价区来追踪价格回归到均衡点和初始区间的过程。\",\"analysis_steps\":[\"Step 1: 标记Asia时段形成的明确区间高低点（约1.11580-1.11690）\",\"Step 2: 观察London开盘后价格向上突破区间高点，但随即被打回区间内部\",\"Step 3: 标记向上失败后的折价区和溢价区，预期价格回到区间或均衡点\",\"Step 4: 观察价格向下突破区间低点，但同样失败并回到区间\",\"Step 5: 继续追踪向下腿的折价区和溢价区，标记新低点后的均衡位置\",\"Step 6: 确认价格最终在初始区间和日开盘价附近反复盘整，形成indecision candle\"],\"outcome\":\"价格在Asia区间内反复盘整，双向突破均失败，最终形成无明确方向的盘整日，收盘时回到初始区间附近。\",\"lessons\":\"Seek and Destroy案例展示了机构如何在关键价格水平制造假突破来诱导零售交易者，然后反向运行。通过标记折价/溢价区和均衡点，可以预测价格回归的目标位。这类无方向盘整日应该避免交易，而是用来学习市场结构。\",\"primary_image_frame_id\":\"4WCiIyCiBrQ_f018\",\"supporting_image_frame_ids\":[\"4WCiIyCiBrQ_f014\",\"4WCiIyCiBrQ_f015\",\"4WCiIyCiBrQ_f016\",\"4WCiIyCiBrQ_f017\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"Premium/Discount\",\"Equilibrium\",\"Market Structure\",\"Inducement\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了Asia区间的标记、双向突破失败、折价溢价区追踪、均衡点回归等全过程，图表清晰显示价格走势与分析步骤的对应关系。\"}",
+  "error": null
+}

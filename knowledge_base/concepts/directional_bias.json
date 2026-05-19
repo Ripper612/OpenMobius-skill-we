@@ -1,0 +1,60 @@
+{
+  "card_id": "directional_bias",
+  "type": "merged_concept",
+  "canonical_term": "Directional Bias",
+  "aliases": [
+    "交易偏向",
+    "方向性偏好"
+  ],
+  "school": "ICT",
+  "definition": "基于市场结构分析确立的看涨或看跌倾向。交易者根据该偏向只寻找符合方向的交易设置，避免逆向交易，提高交易一致性。",
+  "identification_rules": [
+    "观察摆动高点或摆动低点，判断价格是否突破该区间（Displacement）",
+    "若价格未能突破摆动点且回归区间内，则倾向于该方向的反向（如高点未被突破则偏向看跌）",
+    "若价格突破摆动点并继续延伸，则确认该方向的偏向（如突破高点继续上升则偏向看涨）",
+    "在确立偏向后，只寻找符合该方向的位移形态和失败突破形态作为交易设置"
+  ],
+  "trading_implication": "Directional Bias是交易决策的框架。建立明确偏向后，交易者在看涨时只寻找向上位移和向上失败突破，在看跌时只寻找向下位移和向下失败突破。这避免了在复杂市场结构中追逐相反方向的信号，提高了交易的一致性和成功率。可应用于分钟级别（快速确认）和日线级别（长期趋势判断）。",
+  "common_mistakes": [
+    "在市场结构不清晰时仓促建立偏向，导致偏向错误后仍坚持逆向交易",
+    "忽视位移（Displacement）的确认，仅基于单一摆动点判断偏向",
+    "建立偏向后不灵活调整，当价格突破摆动点时仍维持原偏向而不更新"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "ynFA6E3qHj0_case_003_es日线图_识别日线级别的摆动点与位移",
+      "video_id": "ynFA6E3qHj0",
+      "title": "ES日线图：识别摆动点与位移判断日线偏向"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "ynFA6E3qHj0",
+      "original_card_id": "ynFA6E3qHj0_concept_directional_bias",
+      "segment_ids": [
+        "seg_009"
+      ],
+      "time_range": [
+        792.42,
+        918.019
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132270Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

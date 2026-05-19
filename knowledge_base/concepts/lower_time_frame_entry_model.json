@@ -1,0 +1,149 @@
+{
+  "card_id": "lower_time_frame_entry_model",
+  "type": "merged_concept",
+  "canonical_term": "Lower Time Frame Entry Model",
+  "aliases": [
+    "LTF Entry Model",
+    "低时间框架入场模型",
+    "多时间框架入场模型"
+  ],
+  "school": "ICT",
+  "definition": "在高时间框架（HTF）确认OTE区域或SMT信号后，切换至低时间框架（LTF，如2分钟、1分钟）寻找具体入场执行点的多层级分析方法。在LTF内识别FVG、OB、Breaker Block等PD阵列及破结构信号，结合Killzone时间窗口精化入场位置与止损设置。",
+  "identification_rules": [
+    "在HTF上识别明确的OTE区域（62-79斐波那契回撤区间）或SMT信号作为汇聚条件",
+    "价格在HTF的OTE内形成Displacement后，标记出新的摆动高低点范围",
+    "切换至LTF图表，在该摆动高低点范围内重新应用斐波那契工具标记LTF的OTE",
+    "在LTF的OTE区域内寻找破结构（Break of Structure）产生的FVG作为第一入场点",
+    "识别LTF上的Order Block或Breaker Block作为备选入场区域",
+    "结合Balanced Price Range（BPR）确定具体入场位置",
+    "确认LTF入场点处于交易活跃时段（Killzone内）",
+    "观察LTF价格是否在OTE处产生Displacement作为额外确认信号",
+    "设置止损于LTF结构的高点或相关阻力位"
+  ],
+  "trading_implication": "该模型通过多时间框架递进细化，将HTF宏观趋势判断与LTF微观执行相结合。HTF的OTE或SMT提供交易方向与时间窗口确认，LTF提供具体执行价格和风险管理参考。交易者在LTF识别FVG、OB等多个潜在入场点，结合Killzone时间筛选提升信号质量，并以HTF价格目标作为LTF的目标价位。",
+  "common_mistakes": [
+    "在HTF的OTE或SMT信号未被充分确认就直接跳至LTF寻找入场，导致方向判断错误",
+    "在LTF上过早入场，未等待充分确认信号（如结构破裂、FVG形成、Displacement）",
+    "在LTF的OTE处入场但忽视Killzone时间限制，在市场流动性不足时期交易",
+    "混淆HTF和LTF的OTE范围，未能正确在LTF上重新标记新的摆动高低点",
+    "过度依赖LTF的单一PD阵列（如仅看FVG）而忽视其他汇聚信号（如OB、Breaker Block的叠加）",
+    "忽视LTF结构的清晰度差异，在形态不够明确的LTF上交易而非选择更清晰的时间框架"
+  ],
+  "related_concepts": [
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD Array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "original_card_id": "1YRs4Z1lMws_concept_lower_time_frame_entry_model",
+      "segment_ids": [
+        "seg_004",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        162.4,
+        517.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "q1NmxUTm4n4",
+      "original_card_id": "q1NmxUTm4n4_concept_lower_time_frame_entry_model",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        214.86,
+        511.46
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:52.644830Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,57 @@
+{
+  "card_id": "intraday_bias_refinement",
+  "type": "merged_concept",
+  "canonical_term": "Intraday Bias Refinement",
+  "aliases": [
+    "将高时间框架偏差转化为低时间框架入场",
+    "日内偏差精化"
+  ],
+  "school": "ICT",
+  "definition": "在高时间框架（如15分钟）标记关键点位（摆动高低点、FVG、OB等），当价格触及这些点位时，切换至低时间框架（如1分钟）寻找具体入场模型，以降低风险并提高入场精准度的方法。",
+  "identification_rules": [
+    "第一步：在高时间框架上标记所有点位兴趣（相对等低点、等高点、FVG、OB等关键结构）",
+    "第二步：观察价格是否向这些点位移动或触及",
+    "第三步：当价格到达或接近这些点位时，切换至低时间框架（通常降低4-15倍周期）",
+    "第四步：在低时间框架上寻找具体的入场模型（如位移、FVG、OB、OTE等）",
+    "第五步：仅在低时间框架确认模型后才执行交易，而非在高时间框架点位处自动入场"
+  ],
+  "trading_implication": "该方法通过两层筛选降低假突破风险。高时间框架提供宏观方向和关键价格区域，低时间框架提供精确入场时机。交易者不在高时间框架点位自动入场，而是等待低时间框架出现位移、FVG或OB等确认信号，从而减少风险敞口并提高胜率。允许多次入场机会（如错过第一次可在后续FVG或OB处再次入场）。",
+  "common_mistakes": [
+    "在高时间框架点位处自动入场，未等待低时间框架确认模型",
+    "未能识别低时间框架上的真实位移或FVG（如过小的FVG不足以作为入场信号）",
+    "在低时间框架上未能观察到结构破裂（structure break），导致入场于虚假突破",
+    "混淆点位兴趣与实际入场点，认为触及高时间框架点位即可交易"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "xvqsLTpmpsI",
+      "original_card_id": "xvqsLTpmpsI_concept_intraday_bias_refinement",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        7.099,
+        368.039
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133644Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

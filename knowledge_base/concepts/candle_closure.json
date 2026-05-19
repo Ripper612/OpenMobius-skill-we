@@ -1,0 +1,254 @@
+{
+  "card_id": "candle_closure",
+  "type": "merged_concept",
+  "canonical_term": "Candle Closure",
+  "aliases": [
+    "Daily Candle Closure",
+    "Daily Closure",
+    "K线收盘",
+    "candle close",
+    "candle to closure",
+    "蜡烛收盘价",
+    "蜡烛闭合"
+  ],
+  "school": "ICT",
+  "definition": "K线收盘价相对于前一根K线范围或关键结构（摆动高低点、前一日高低点）的最终位置。看涨信号：收盘价高于前一根下跌K线收盘价或突破前期高点；看跌信号：收盘价低于前一根上涨K线收盘价或跌破前期低点。收盘于前期K线内部则为盘整信号。是多时间框架分析中确认反转或延续的核心工具。",
+  "identification_rules": [
+    "看涨信号：当前K线收盘价高于前一根下跌K线的收盘价（形成包含关系），或收盘价突破前一日/前期摆动高点",
+    "看跌信号：当前K线收盘价低于前一根上涨K线的收盘价，或收盘价跌破前一日/前期摆动低点",
+    "内部收盘（盘整信号）：当前K线收盘价位于前一根K线高低点范围之内",
+    "有效的Candle Closure须完整穿过前一根K线的整个范围（高点或低点），而非仅触及",
+    "在多时间框架中识别：日线Candle Closure确认偏差后，在4小时/小时线寻找Candle 2收盘，再在15分钟线寻找延续或受保护摆动入场",
+    "检查收盘价与该K线开盘价的相对位置，判断收盘强度（强收盘vs弱收盘）",
+    "结合Change in State of Delivery（CSD）共同确认：收盘位置与K线方向两者同时满足时信号强度最高",
+    "可结合公允价值缺口（FVG）或订单块（OB）等兴趣区域进行额外确认"
+  ],
+  "trading_implication": "Candle Closure是确定交易偏向（Daily Bias）和多时间框架对齐的核心确认信号。日线看涨收盘后，在小时图寻找回测机会做多；日线看跌收盘后寻找做空机会。4小时图Candle 2收盘可预期Candle 3方向扩展。须结合价格阶段（位移/回撤/盘整）使用，以区分延续与反转，避免在虚假突破中入场。与CSD对齐时反转信号最强。",
+  "common_mistakes": [
+    "仅根据K线最高点或最低点判断，忽视收盘价的实际最终位置",
+    "在K线未正式收盘前提前入场，被假突破扫出",
+    "混淆Candle Closure与简单触及——必须是收盘价完整穿过前一根K线范围，而非仅触及",
+    "将Candle Closure单独用于判断反转或延续，未与Change in State of Delivery（CSD）配合确认",
+    "忽视时间框架对齐，仅在单一时间框架识别Candle Closure而未在更高时间框架确认偏差",
+    "日线未形成明确Candle Closure前就下降到小时线/分钟线寻找交易，违反多时间框架规则",
+    "未将Candle Closure与价格阶段（位移、回撤、盘整）结合，无法区分延续信号和反转信号",
+    "忽视收盘强度（收盘价在K线高低点间的相对位置），误判反转有效性",
+    "混淆收盘于单根K线内部与收盘于前期多根下跌K线上方的含义，两者信号强度不同"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Daily Bias",
+      "card_id": "daily_bias",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "8BWkRGhuj1k_case_003_usd_日线7月2日至7月29日的整理_反转_延续案例",
+      "video_id": "8BWkRGhuj1k",
+      "title": "USD日线7月2-29日整理-反转-延续案例分析"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_004_黄金期货gc1小时线与5分钟线的看涨设置",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "黄金期货GC1小时线C2与5分钟线的看涨Order Block设置"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_001_周三7月19日es与nq摆动点对比",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES与NQ摆动点对比：识别相对强弱与SMT"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_003_周五8月4日es与nq_order_block表现",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES与NQ周五8月4日Order Block均值阈值表现对比"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_002_ym指数小时线看跌扩张交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "YM指数小时线看跌扩张交易案例"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_003_日线c2闭合但低时间框架csd失败案例",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "日线C2闭合但低时间框架CSD失败导致设置无效"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_daily_closure_daily_bias",
+      "segment_ids": [
+        "seg_005",
+        "seg_010",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_016",
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022",
+        "seg_023",
+        "seg_024",
+        "seg_025",
+        "seg_029",
+        "seg_030"
+      ],
+      "time_range": [
+        315.759,
+        1604.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_candle_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_012",
+        "seg_014",
+        "seg_017"
+      ],
+      "time_range": [
+        11.12,
+        820.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_candle_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_006",
+        "seg_012"
+      ],
+      "time_range": [
+        11.12,
+        546.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TNybDCtwBnc",
+      "original_card_id": "TNybDCtwBnc_concept_candle_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_007",
+        "seg_010",
+        "seg_012",
+        "seg_020",
+        "seg_023"
+      ],
+      "time_range": [
+        11.04,
+        1064.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_daily_closure_candle_closure",
+      "segment_ids": [
+        "seg_002",
+        "seg_006",
+        "seg_012",
+        "seg_018",
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        107.03999999999999,
+        1072.28
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:45.268493Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "3张ICT + 2张Price Action，按多数选ICT。两张Price Action卡内容与ICT框架高度一致（CSD、Protected Swing等术语），实质差异较小。",
+  "error": null
+}

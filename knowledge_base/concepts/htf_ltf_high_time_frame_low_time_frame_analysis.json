@@ -1,0 +1,56 @@
+{
+  "card_id": "htf_ltf_high_time_frame_low_time_frame_analysis",
+  "type": "merged_concept",
+  "canonical_term": "HTF / LTF (High Time Frame / Low Time Frame Analysis)",
+  "aliases": [
+    "Higher Time Frame vs Lower Time Frame",
+    "多周期分析",
+    "时间框架分析"
+  ],
+  "school": "ICT",
+  "definition": "在日线等高时间框架确定整体交易偏向和主要流动性目标，在15分钟、5分钟等低时间框架寻找具体入场和出场机会的多周期分析体系。",
+  "identification_rules": [
+    "在日线（HTF）上识别主要流动性位置、市场结构转变、摆动高低点和公允价值缺口，确定总体方向偏向",
+    "在15分钟或5分钟（LTF）上标记相对等高点、相对等低点和局部不平衡，寻找具体的虚假突破和流动性扫荡机会",
+    "HTF偏向与LTF执行方向可以不同：HTF看涨但LTF可以先看跌以扫荡流动性后再继续上升",
+    "在LTF上等待HTF流动性被扫荡后再按HTF方向交易，避免逆势入场"
+  ],
+  "trading_implication": "HTF提供交易的大方向和主要流动性目标（如日线看涨至4300），LTF用于精确入场时机和虚假突破识别。即使HTF偏向错误，通过在LTF上识别虚假突破（买入后卖出）也能获利。该体系通过多周期协调避免在不适当的时机入场，提高交易的概率和风险管理效率。",
+  "common_mistakes": [
+    "只看LTF而忽视HTF方向，导致逆势交易或在关键流动性位置被扫荡",
+    "在HTF流动性未被扫荡前就按HTF方向在LTF上交易，忽视了价格需要先回调扫荡流动性的过程",
+    "混淆HTF和LTF的角色：HTF用于确定偏向和目标，LTF用于执行和入场，而非相反"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "tZMgGsTqqVM",
+      "original_card_id": "tZMgGsTqqVM_concept_higher_time_frame_vs_lower_time_frame_an",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.96,
+        259.359
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133330Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

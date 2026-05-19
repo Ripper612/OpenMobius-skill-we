@@ -1,0 +1,108 @@
+{
+  "card_id": "F0G31iLVpVg_case_005_nq1日线月度结构分析",
+  "type": "case",
+  "title": "NQ1日线月度结构中的回撤入场与反转信号",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "accumulation_manipulation_distribution_amd",
+    "market_structure_shift_mss",
+    "retracement",
+    "displacement",
+    "opposing_run"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D",
+  "market_context": "NQ1在月度高点形成后出现回撤。价格从月度高点C2（约22,600）下跌，在日线上形成多个结构性摆动。博主分析月度与日度结构的交互作用，识别反转机会。",
+  "key_observation": "月度高点由价格回撤进入先前的公允价值缺口（FVG）形成。随后价格以看跌收盘确立看跌偏差，展现出积累-操纵-派发的典型三阶段模式。",
+  "analysis_steps": [
+    "Step 1: 识别月度高点C2处的收盘形态，确认是否形成交付状态改变（CSD）信号。",
+    "Step 2: 观察价格是否在低点处被操纵（manipulation）或形成巩固（consolidation），判断后续方向。",
+    "Step 3: 确认价格回撤进入先前的公允价值缺口（FVG），作为月度高点形成的关键结构。",
+    "Step 4: 在看跌收盘后，等待浅层回撤（shallow retracement）进入该FVG区域。",
+    "Step 5: 识别对立蜡烛（opposing candle）的形成，确认看跌偏差建立。",
+    "Step 6: 观察积累-操纵-派发周期：巩固→向下扩张→再次巩固→最终向下扩张，确认交易机会。",
+    "Step 7: 预期月度wick在特定区域形成，作为向下交易的触发点。"
+  ],
+  "outcome": "价格按预期向下扩张，展现出扩张→回撤→扩张的循环模式。博主在Twitter上发布了该交易设置，随后价格确实向下运行，验证了分析的有效性。",
+  "lessons": "在高时间框架（月度）中识别FVG和CSD信号，结合日线的积累-操纵-派发模式，可以精确定位反转入场点。浅层回撤进入FVG后的对立蜡烛收盘是确认看跌偏差的关键，为向下交易提供高概率设置。",
+  "primary_image": "cards/F0G31iLVpVg/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/F0G31iLVpVg/images/case_005_detail_1.jpg",
+    "cards/F0G31iLVpVg/images/case_005_detail_2.jpg",
+    "cards/F0G31iLVpVg/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为 NQ1! 日线蜡烛图，可见价格范围约从 17600 至 23000。图左侧轴当前价标签显示 21,054.25。图上标注有文字标签 C2 和 C4，分别位于图表上方左侧及中右区域。图中约 21400 至 21800 区间存在一个灰色矩形框标注。图右侧可见多根绿色和黑色蜡烛，其中两根大型黑色蜡烛主体较长。图下方区域分布有多条短水平线段，分布在约 18200 至 20400 之间。图上另有两条",
+    "case_005_detail_1.jpg": "图表为 USD 日线（D）K 线图，可见价格范围约从 19600 至 22600。图上有一个大型黑色矩形框标注，覆盖约 2025 年 1 月 27 日至 2 月 14 日区间，价格范围约 21100 至 22500。图中部有一灰色填充矩形区域，价格范围约 21300 至 21800，其内部另有一黄色小矩形约在 21300 至 21450。图右侧有一灰色矩形区域约在 19600 至 20200。一条",
+    "case_005_detail_2.jpg": "图表为 USD 日线蜡烛图，可见价格范围约从 18400 至 22000。图上标注有两个矩形框：一个灰色矩形位于约 21200 至 21600 区间，另一个黄色矩形位于约 19400 至 20200 区间。图上有多条水平线，包括约 21800 处的虚线、约 21160 处的实线及约 19450 处的实线。图右侧当前价格标签显示 20081.00。图上可见文字标注\"C4\"位于约 20200 至 20",
+    "case_005_detail_3.jpg": "图表为日线（D）K线图，资产标注为USD，可见价格范围约从17600至22600。图上左侧价格轴当前标注价格为20089.50。图上有两处文字标注C2和C4，C2位于约22500附近，C4位于约19500至20200区间对应的矩形框上。图上有一个灰色矩形框覆盖约21400至21800区间，一个黄色矩形框覆盖约19500至20200区间标注C4，另有一个小黄色矩形框位于约21100至21400区间。"
+  },
+  "sources": [
+    {
+      "video_id": "F0G31iLVpVg",
+      "segment_ids": [
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "time_range": [
+        645.36,
+        757.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了月度与日度结构分析、FVG识别、CSD确认、AMD周期和交易结果，关键价位和分析步骤清晰可追踪。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:05.083673Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1日线月度结构中的回撤入场与反转信号\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D\",\"market_context\":\"NQ1在月度高点形成后出现回撤。价格从月度高点C2（约22,600）下跌，在日线上形成多个结构性摆动。博主分析月度与日度结构的交互作用，识别反转机会。\",\"key_observation\":\"月度高点由价格回撤进入先前的公允价值缺口（FVG）形成。随后价格以看跌收盘确立看跌偏差，展现出积累-操纵-派发的典型三阶段模式。\",\"analysis_steps\":[\"Step 1: 识别月度高点C2处的收盘形态，确认是否形成交付状态改变（CSD）信号。\",\"Step 2: 观察价格是否在低点处被操纵（manipulation）或形成巩固（consolidation），判断后续方向。\",\"Step 3: 确认价格回撤进入先前的公允价值缺口（FVG），作为月度高点形成的关键结构。\",\"Step 4: 在看跌收盘后，等待浅层回撤（shallow retracement）进入该FVG区域。\",\"Step 5: 识别对立蜡烛（opposing candle）的形成，确认看跌偏差建立。\",\"Step 6: 观察积累-操纵-派发周期：巩固→向下扩张→再次巩固→最终向下扩张，确认交易机会。\",\"Step 7: 预期月度wick在特定区域形成，作为向下交易的触发点。\"],\"outcome\":\"价格按预期向下扩张，展现出扩张→回撤→扩张的循环模式。博主在Twitter上发布了该交易设置，随后价格确实向下运行，验证了分析的有效性。\",\"lessons\":\"在高时间框架（月度）中识别FVG和CSD信号，结合日线的积累-操纵-派发模式，可以精确定位反转入场点。浅层回撤进入FVG后的对立蜡烛收盘是确认看跌偏差的关键，为向下交易提供高概率设置。\",\"primary_image_frame_id\":\"F0G31iLVpVg_f023\",\"supporting_image_frame_ids\":[\"F0G31iLVpVg_f024\",\"F0G31iLVpVg_f025\",\"F0G31iLVpVg_f026\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Change in the State of Delivery (CSD)\",\"Order Block (OB)\",\"Accumulation, Manipulation, Distribution (AMD)\",\"Market Structure Shift (MSS)\",\"Retracement\",\"Displacement\",\"Opposing Candle\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了月度与日度结构分析、FVG识别、CSD确认、AMD周期和交易结果，关键价位和分析步骤清晰可追踪。\"}",
+  "error": null
+}

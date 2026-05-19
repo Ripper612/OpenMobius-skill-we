@@ -1,0 +1,117 @@
+{
+  "card_id": "HbOeD_JVens_case_003_xageur日线反转与目标位置确认",
+  "type": "case",
+  "title": "XAGEUR日线反转确认与失败摆动堆积目标",
+  "related_concepts": [
+    {
+      "term": "Relevant High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Relevant Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Stacked Liquidity",
+      "card_id": "stacked_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "failure_swing",
+    "stacked_liquidity",
+    "order_block",
+    "fair_value_gap",
+    "high_resistance_liquidity",
+    "smart_money_technique_smt",
+    "reversal",
+    "retracement"
+  ],
+  "school": "ICT",
+  "asset": "XAGEUR",
+  "timeframe": "1D",
+  "market_context": "XAGEUR从相关高点下跌至相关低点，形成反转机会。博主分析价格在低点反转后向上运行，需要确认目标位置为失败摆动堆积区域，而非单一相关高点。",
+  "key_observation": "博主识别出相关低点形成反转，但强调不应在初次反弹时交易，需等待价格确认并向失败摆动堆积的高阻力流动性区域运行。",
+  "analysis_steps": [
+    "Step 1: 识别相关高点和相关低点，确认低点处存在反转机会的可能性。",
+    "Step 2: 分析失败摆动堆积（stacked failure swings），识别上方多个堆积的高点作为高阻力流动性区域。",
+    "Step 3: 确认不应在初次反弹时交易，因为价格尚未离开相关高点附近。",
+    "Step 4: 识别下方FVG（公允价值缺口）作为低时间框架的高点，确认不应在此处交易离场。",
+    "Step 5: 等待价格突破并确认相关低点后，预期反弹向失败摆动堆积区运行。",
+    "Step 6: 确认在没有SMT（智能货币技术分歧）的情况下，将反弹视为回测而非反转。",
+    "Step 7: 设定看涨预期需要价格守住相关低点，观察价格是否向上运行。"
+  ],
+  "outcome": null,
+  "lessons": "在识别反转时，不应仅依赖单一相关高点作为目标，而应寻找失败摆动堆积形成的高阻力流动性区域。反转确认需要价格突破并收盘确认关键低点，且需要观察是否存在SMT以区分真实反转与回测。",
+  "primary_image": "cards/HbOeD_JVens/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/HbOeD_JVens/images/case_003_detail_1.jpg",
+    "cards/HbOeD_JVens/images/case_003_detail_2.jpg",
+    "cards/HbOeD_JVens/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 XAGEUR 烛形图，价格轴范围约从 28.00 至 36.00。图上有两条水平线，分别位于约 34.00 和 30.00 附近。图上绘制有两个矩形框：上方矩形覆盖约 32.00 至 34.00 区间，下方矩形覆盖约 29.00 至 31.00 区间。K 线序列整体从左侧约 35.00 区域向右侧约 28.00 区域延伸，期间夹杂黑色与绿色 K 线。图右侧出现数根绿色 K 线，位于下方矩形",
+    "case_003_detail_1.jpg": "图表为 XAGUSD 蜡烛图，左上角标注文字'BLL'。图上可见两条水平线，分别位于约 33.00 和 30.00 附近。图上绘制有两个矩形框：一个位于图表左上区域约 32.50 至 33.00 价格范围，另一个位于图表下方区域约 29.50 至 31.50 价格范围。图左侧 K 线在约 32.00 至 35.00 区间内排列，中部出现数根较长的黑色 K 线向下延伸至约 30.00 附近，右侧 K",
+    "case_003_detail_2.jpg": "图表为日线蜡烛图，资产标识左上角显示 BLL，货币单位为 USD。图上可见两条水平线，分别位于约 91.00 和 87.00 附近。图上绘制有一个较大矩形框，覆盖价格区间约 85.50 至 91.00，以及一个嵌套于其内的较小矩形框，覆盖约 87.50 至 89.50。K 线整体从左侧约 92.00 高位经历下行，右侧 K 线延伸至约 83.00 附近。图左部分可见多根绿色与黑色交替 K 线，中部",
+    "case_003_detail_3.jpg": "图表为烛台图，资产标识左上角显示为 DLL，计价单位为 USD，时间框架未能从图上明确读取。图上可见价格范围约从 63.00 至 88.50。图中有一个较大的矩形标注，覆盖约 71.00 至 80.00 的价格区间，横跨图表中部较宽的水平范围。图右侧有一条水平虚线延伸至图表右边缘，对应价格约 71.00。图左侧另有两条水平线分别位于约 80.00 和 71.00 处。最右侧 K 线群呈向上移动形态"
+  },
+  "sources": [
+    {
+      "video_id": "HbOeD_JVens",
+      "segment_ids": [
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        476.879,
+        565.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对XAGEUR日线反转过程进行了完整分析，清晰标注了相关高低点、失败摆动堆积、FVG等关键结构，分析步骤逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:53.205175Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"XAGEUR日线反转确认与失败摆动堆积目标\",\"school\":\"ICT\",\"asset\":\"XAGEUR\",\"timeframe\":\"1D\",\"market_context\":\"XAGEUR从相关高点下跌至相关低点，形成反转机会。博主分析价格在低点反转后向上运行，需要确认目标位置为失败摆动堆积区域，而非单一相关高点。\",\"key_observation\":\"博主识别出相关低点形成反转，但强调不应在初次反弹时交易，需等待价格确认并向失败摆动堆积的高阻力流动性区域运行。\",\"analysis_steps\":[\"Step 1: 识别相关高点和相关低点，确认低点处存在反转机会的可能性。\",\"Step 2: 分析失败摆动堆积（stacked failure swings），识别上方多个堆积的高点作为高阻力流动性区域。\",\"Step 3: 确认不应在初次反弹时交易，因为价格尚未离开相关高点附近。\",\"Step 4: 识别下方FVG（公允价值缺口）作为低时间框架的高点，确认不应在此处交易离场。\",\"Step 5: 等待价格突破并确认相关低点后，预期反弹向失败摆动堆积区运行。\",\"Step 6: 确认在没有SMT（智能货币技术分歧）的情况下，将反弹视为回测而非反转。\",\"Step 7: 设定看涨预期需要价格守住相关低点，观察价格是否向上运行。\"],\"outcome\":null,\"lessons\":\"在识别反转时，不应仅依赖单一相关高点作为目标，而应寻找失败摆动堆积形成的高阻力流动性区域。反转确认需要价格突破并收盘确认关键低点，且需要观察是否存在SMT以区分真实反转与回测。\",\"primary_image_frame_id\":\"HbOeD_JVens_f018\",\"supporting_image_frame_ids\":[\"HbOeD_JVens_f016\",\"HbOeD_JVens_f017\",\"HbOeD_JVens_f019\"],\"related_concepts\":[\"Relevant High\",\"Relevant Low\",\"Failure Swing\",\"Stacked Liquidity\",\"Order Block\",\"Fair Value Gap\",\"High Resistance Liquidity\",\"SMT\",\"Reversal\",\"Retracement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对XAGEUR日线反转过程进行了完整分析，清晰标注了相关高低点、失败摆动堆积、FVG等关键结构，分析步骤逻辑清晰。\"}",
+  "error": null
+}

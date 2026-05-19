@@ -1,0 +1,155 @@
+{
+  "card_id": "midnight_open",
+  "type": "merged_concept",
+  "canonical_term": "Midnight Open",
+  "aliases": [
+    "Daily Open (纽约时间午夜)",
+    "午夜开盘价"
+  ],
+  "school": "ICT",
+  "definition": "纽约时间午夜（00:00 NY时间，对应21:00 UTC）的开盘价，在日内交易中作为关键水平参考线，标记一天价格走势起点。将价格分为两个区域：上方为潜在做空区，下方为潜在做多区，并用于识别New York AM Session的潜在交易设置。",
+  "identification_rules": [
+    "在1小时图或15分钟图上，标记纽约时间午夜对应的开盘价，通常绘制为水平虚线",
+    "可使用ICT Kill Zones and Pivots指标启用午夜开盘价显示功能自动标记",
+    "午夜开盘价将价格分为两个区域：价格位于其上方时仅考虑做空方向，位于其下方时仅考虑做多方向",
+    "观察价格是否突破该水平后回测，或在其附近形成FVG、Order Block等结构"
+  ],
+  "trading_implication": "Midnight Open是确定日内交易方向的关键过滤器与参考点。做空信号仅在价格位于其上方时有效，做多信号仅在价格位于其下方时有效。同时用于识别New York AM Session设置：价格突破后回测该水平并形成FVG或Order Block，可作为潜在入场或止损参考，并辅助判断日内价格结构是否符合预期周期模式。",
+  "common_mistakes": [
+    "忽视午夜开盘价的方向过滤作用，在错误的价格区域入场（如在午夜开盘价上方做多）",
+    "将Midnight Open与Daily Open（如伦敦时间开盘价）混淆，导致参考水平错误",
+    "仅依赖Midnight Open而忽视其附近的FVG、Order Block等结构，降低设置质量",
+    "在Midnight Open附近盲目交易，未等待New York AM Session的明确价格行动确认"
+  ],
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "New York AM Session",
+      "card_id": "new_york_session",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Daily Open",
+      "card_id": "daily_open",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "WwmS47Gb3M0_case_001_黄金_xauusd_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "黄金日线触及前日低点，1H看跌FVG+M15 SMT做多案例"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_002_纳斯达克_nq_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ日线-1小时-15分钟多头设置：前日低点扫除+FVG目标"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_003_欧元兑加元_eurcad_日线_1小时_15分钟做空案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "EURCAD日线-1小时-15分钟多时间框架做空案例"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_001_伦敦开盘后的买卖日案例分析",
+      "video_id": "b6yvRKf8haE",
+      "title": "伦敦开盘后亚洲低点被取，纽约时段激进位移跌破深折价区案例"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_004_操纵后的买入日低点回升",
+      "video_id": "b6yvRKf8haE",
+      "title": "买入日操纵后的低点回升至深溢价区"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_005_新闻事件驱动的亚洲伦敦操纵",
+      "video_id": "b6yvRKf8haE",
+      "title": "8:30新闻事件驱动的亚洲伦敦操纵与深溢价区反转"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_006_gbpusd周一至周五的看涨周期案例",
+      "video_id": "klaiq36QnEM",
+      "title": "GBPUSD周一至周五看涨周期：订单块、FVG与流动性扫荡"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "WwmS47Gb3M0",
+      "original_card_id": "WwmS47Gb3M0_concept_midnight_open",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.84,
+        551.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "klaiq36QnEM",
+      "original_card_id": "klaiq36QnEM_concept_midnight_open",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        273.12,
+        812.519
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:55.774275Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "两张原始卡对午夜时间的UTC表述不一致（00:00 UTC vs 21:00 UTC），结合上下文均指纽约时间午夜00:00，已统一表述。两张卡school均为ICT，无冲突。",
+  "error": null
+}

@@ -1,0 +1,107 @@
+{
+  "card_id": "wwMjc9RfpCg_case_003_标普500期货日线到五分钟完整交易案例",
+  "type": "case",
+  "title": "ES日线订单块到五分钟操纵腿完整交易案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Target",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "inducement",
+    "market_structure",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5M",
+  "market_context": "标普500期货在日线形成3948.75订单块，早盘快速下跌扫除低点流动性后反弹，五分钟图表显示操纵腿形成，预期午间回撤后下午突破至标准差目标。",
+  "key_observation": "博主识别日线订单块3948.75作为关键支撑，五分钟操纵腿（从低点到高点的扫荡）确认了机构意图，结合FVG和标准差目标预测完整的日内交易轨迹。",
+  "analysis_steps": [
+    "Step 1: 在日线图表识别订单块位置3948.75，这是价格反转前的关键结构。",
+    "Step 2: 切换到15分钟图表观察流动性扫荡，确认价格在低点附近的工程化操作。",
+    "Step 3: 放大到五分钟图表，识别操纵腿（从低点到高点的移动），测量其幅度。",
+    "Step 4: 从操纵腿低点到高点测量，计算第一标准差目标和第二标准差目标。",
+    "Step 5: 识别买方流动性（上方摆动高点）和卖方流动性（下方摆动低点）作为潜在目标。",
+    "Step 6: 设定交易计划：预期午间（lunch time）出现回撤进入FVG区域，随后下午（PM session）突破上行。",
+    "Step 7: 设定入场区域、止损位和目标位，准备在FVG区域寻求激进突破。",
+    "Step 8: 监控价格走势，确认下跌进入FVG区域后的位移（displacement）和收盘形态。",
+    "Step 9: 价格最终突破并触及第二标准差目标，完成交易设置验证。"
+  ],
+  "outcome": "价格按预期下跌进入FVG区域，形成位移（displacement）和强势收盘K线，随后上行突破并最终触及第二标准差目标，交易设置得到完整验证。",
+  "lessons": "多时间框架分析的重要性：从日线订单块出发，通过15分钟和5分钟逐级细化，识别操纵腿和FVG的结合点。标准差目标和流动性扫荡的结合提供了高概率的交易机会。午间回撤后的下午突破是典型的日内交易模式。",
+  "primary_image": "cards/wwMjc9RfpCg/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/wwMjc9RfpCg/images/case_003_detail_1.jpg",
+    "cards/wwMjc9RfpCg/images/case_003_detail_2.jpg",
+    "cards/wwMjc9RfpCg/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示两条水平红线，分别位于3982.00和3957.50。图上有两个矩形区域标注：粉色矩形覆盖3957.50至3982.00价格范围，绿色矩形覆盖3968.00至3978.00范围。K线在13:00至14:30期间在粉色区域内震荡，约14:30时突破粉色区域上边界，随后出现多根绿色K线在绿色矩形区域内。右侧价格标尺显示当前价格在398",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 日线图。图表显示从 11 月至 5 月的价格走势，可见价格范围约从 3948 到 4616。K 线由绿色（上涨）和黑色（下跌）蜡烛组成，各根 K 线具有不同长度的上下影线。右侧价格刻度标注当前价格为 3946.00。图上未见其他标注、形态框或技术指标。底部工具栏显示交易按钮（Sell、Buy、Flatten）和时间戳 18:51:04（UTC-5）。",
+    "case_003_detail_2.jpg": "ES 5分钟K线图。图上显示从06:30至15:10的价格走势，价格范围约3938.75至3994.00。图上有4条水平线分别位于3982.00、3975.00、3965.50和3948.75。另有2个矩形框标注，分别覆盖3975.00至3982.00区间和3948.75至3965.50区间。K线形态显示08:00至08:30间出现一根大幅下跌的黑色K线，随后08:30至10:00间出现多根绿黑交",
+    "case_003_detail_3.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从07:30至16:30的交易时段。可见价格范围约3938至3996。图上有两条水平线分别位于3982和3948.75。三个矩形标注框分别标记交易目标、当前持仓损益和止损位，其中目标框位于上方（绿色背景），止损框位于下方（红色背景），中间为持仓信息框（粉色背景）。K线显示左侧下跌走势，中间区域出现恢复，右侧当前价格在3963.50"
+  },
+  "sources": [
+    {
+      "video_id": "wwMjc9RfpCg",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        379.759,
+        538.3389999999999
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到五分钟的分析过程，清晰标注了关键价位（3948.75、3982.00等），明确描述了操纵腿、FVG、标准差目标的识别方法，并给出了完整的交易结果验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:07.667677Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES日线订单块到五分钟操纵腿完整交易案例\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5M\",\"market_context\":\"标普500期货在日线形成3948.75订单块，早盘快速下跌扫除低点流动性后反弹，五分钟图表显示操纵腿形成，预期午间回撤后下午突破至标准差目标。\",\"key_observation\":\"博主识别日线订单块3948.75作为关键支撑，五分钟操纵腿（从低点到高点的扫荡）确认了机构意图，结合FVG和标准差目标预测完整的日内交易轨迹。\",\"analysis_steps\":[\"Step 1: 在日线图表识别订单块位置3948.75，这是价格反转前的关键结构。\",\"Step 2: 切换到15分钟图表观察流动性扫荡，确认价格在低点附近的工程化操作。\",\"Step 3: 放大到五分钟图表，识别操纵腿（从低点到高点的移动），测量其幅度。\",\"Step 4: 从操纵腿低点到高点测量，计算第一标准差目标和第二标准差目标。\",\"Step 5: 识别买方流动性（上方摆动高点）和卖方流动性（下方摆动低点）作为潜在目标。\",\"Step 6: 设定交易计划：预期午间（lunch time）出现回撤进入FVG区域，随后下午（PM session）突破上行。\",\"Step 7: 设定入场区域、止损位和目标位，准备在FVG区域寻求激进突破。\",\"Step 8: 监控价格走势，确认下跌进入FVG区域后的位移（displacement）和收盘形态。\",\"Step 9: 价格最终突破并触及第二标准差目标，完成交易设置验证。\"],\"outcome\":\"价格按预期下跌进入FVG区域，形成位移（displacement）和强势收盘K线，随后上行突破并最终触及第二标准差目标，交易设置得到完整验证。\",\"lessons\":\"多时间框架分析的重要性：从日线订单块出发，通过15分钟和5分钟逐级细化，识别操纵腿和FVG的结合点。标准差目标和流动性扫荡的结合提供了高概率的交易机会。午间回撤后的下午突破是典型的日内交易模式。\",\"primary_image_frame_id\":\"wwMjc9RfpCg_f018\",\"supporting_image_frame_ids\":[\"wwMjc9RfpCg_f014\",\"wwMjc9RfpCg_f016\",\"wwMjc9RfpCg_f017\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Standard Deviation Target\",\"Manipulation\",\"Market Structure\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到五分钟的分析过程，清晰标注了关键价位（3948.75、3982.00等），明确描述了操纵腿、FVG、标准差目标的识别方法，并给出了完整的交易结果验证。\"}",
+  "error": null
+}

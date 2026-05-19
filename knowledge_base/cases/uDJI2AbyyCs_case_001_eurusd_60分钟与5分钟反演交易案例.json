@@ -1,0 +1,123 @@
+{
+  "card_id": "uDJI2AbyyCs_case_001_eurusd_60分钟与5分钟反演交易案例",
+  "type": "case",
+  "title": "EURUSD 60分钟与5分钟反演交易案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Consequent Encroachment",
+      "card_id": "consequent_encroachment",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "inversion",
+    "consequent_encroachment",
+    "order_block",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "propulsion_block",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "5M / 1H",
+  "market_context": "EURUSD在60分钟图上扫盘买方流动性后反转下行。博主在5分钟图上识别看跌FVG反演，利用后续反演和结果反演进行多次入场，最终扫盘卖方流动性。",
+  "key_observation": "在60分钟扫盘买方流动性后，价格在5分钟图上形成看跌FVG反演，通过识别Consequent Encroachment和后续反演，可以在折价区获得多次高概率入场机会。",
+  "analysis_steps": [
+    "Step 1: 在60分钟图上识别买方流动性扫盘，价格突破旧高后回落至范围内。",
+    "Step 2: 下钻至5分钟图，标记看跌FVG（Bearish FVG/CBI），等待价格收盘跌破该缺口形成反演。",
+    "Step 3: 价格收盘跌破看跌FVG后，标记该FVG的Consequent Encroachment（50%位置）作为调整入场点。",
+    "Step 4: 第一次入场：在Consequent Encroachment处做空，止损设在反演低点上方，目标指向卖方流动性。",
+    "Step 5: 价格回测反演区域并尊重Consequent Encroachment后继续下行，验证订单块有效性。",
+    "Step 6: 价格扫盘卖方流动性后形成新的看跌FVG，再次收盘跌破该缺口形成第二次反演。",
+    "Step 7: 第二次入场：在新反演的Consequent Encroachment处再次做空，目标指向范围另一侧的卖方流动性。",
+    "Step 8: 回到60分钟图验证，确认5分钟反演与60分钟结构一致，价格最终扫盘卖方流动性。"
+  ],
+  "outcome": "价格成功扫盘卖方流动性，两次反演入场均获利，验证了在折价区利用Consequent Encroachment进行多次入场的有效性。",
+  "lessons": "反演交易的核心是识别FVG被破坏后的Consequent Encroachment，作为调整入场点以改善风险回报比。多时间框架确认（60分钟结构+5分钟反演）提高交易概率。流动性扫盘后的反演往往预示强势趋势延续。",
+  "primary_image": "cards/uDJI2AbyyCs/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/uDJI2AbyyCs/images/case_001_detail_1.jpg",
+    "cards/uDJI2AbyyCs/images/case_001_detail_2.jpg",
+    "cards/uDJI2AbyyCs/images/case_001_detail_3.jpg",
+    "cards/uDJI2AbyyCs/images/case_001_detail_4.jpg",
+    "cards/uDJI2AbyyCs/images/case_001_detail_5.jpg",
+    "cards/uDJI2AbyyCs/images/case_001_detail_6.jpg",
+    "cards/uDJI2AbyyCs/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "EURUSD 5分钟K线图，日期标注为3/12/2023。图上可见价格范围从1.08730至1.09921。标注有三个矩形区域：左侧标记为'Buy Stops'的黄色矩形位于1.09000至1.09200区间，中间灰色矩形覆盖1.08800至1.09100，右侧标记为'Sellside Liquidity'的青绿色矩形位于1.08200至1.08700。K线序列显示从13:30至18:30期间绿黑",
+    "case_001_detail_1.jpg": "图表展示公允价值缺口（Fair Value Gaps）的教学示例。上半部分显示3根黑色K线，其间存在价格缺口，缺口处用水平线标注。下半部分显示4根绿色K线按上升排列，相邻K线之间同样存在缺口并用水平线标注。图上有一个黄色圆形标记。整体为概念演示图，未显示具体资产代码、时间框架或价格刻度数值。",
+    "case_001_detail_2.jpg": "图上显示一个标题为'Inversion'的烛线序列。共有12根烛线按对角线从左上向右下排列。烛线颜色交替出现，绿色和黑色相间。每根烛线均显示上下影线，影线长度相对于主体大小存在差异。整个序列呈现向下的方向性排列，但未提供价格刻度、资产代码或时间框架信息。",
+    "case_001_detail_3.jpg": "图上展示一个标题为'Consequent Encroachment'的K线序列。共有4根K线，从左至右依次为：黑色K线带下影线、绿色K线带下影线、绿色K线带上下影线、黑色K线带上影线。图上有两条水平实线和一条水平虚线，虚线跨越多根K线。未显示资产代码、时间框架或价格刻度数值。",
+    "case_001_detail_4.jpg": "EURUSD 60分钟K线图，时间戳显示3/12/2023。图上价格范围从1.08000至1.09550。左侧起始处有一根大幅下跌的黑色K线，随后约20根K线形成下降趋势，黑色K线占多数，绿色K线散布其中。下降趋势底部约在1.08300附近。图右侧显示恢复阶段，绿色K线主导，价格从1.08300回升至约1.08850，期间伴有黑色K线，表现为混合颜色的K线形态。图上未见其他标注、趋势线或指标。",
+    "case_001_detail_5.jpg": "EURUSD 5分钟K线图。图上可见时间范围从12:30至23:00，价格范围约1.08700至1.09940。图上有一个黄色矩形框标注，位置约在1.08950至1.09300价格区间。矩形左上方标有文字'Buyside Liquidity'。图表中部存在一根长黑色K线，约在15:00至15:30时段，向下延伸。其余K线呈绿色和黑色混合，在1.08700至1.08900区间内显示盘整形态。右侧显示",
+    "case_001_detail_6.jpg": "EURUSD 60分钟K线图。图上显示从约1.09150至1.08350的下行走势，跨越约20根K线。图表右侧有两个带文字标签的矩形框：'Buy Steps'标注在约1.08750至1.08900区间，'Sell Steps'标注在约1.08000至1.08150区间。另有一个黄色矩形框覆盖在图表中右部分。整个可见范围内K线呈绿黑交替排列，多数K线具有上下影线。图左下角显示当前价格标签1.0870",
+    "case_001_detail_7.jpg": "EURUSD 5分钟K线图。图上显示从左至右的完整价格走势，从1.06720上升至1.09030后下跌至1.06590。图中有两个黄色矩形标注：上方矩形标记为'Hourly SMA'，覆盖价格范围约1.08150至1.08850；下方矩形无标签，覆盖价格范围约1.06590至1.06900。图右侧有一条水平虚线位于1.06900。时间戳显示'3/12/2023 EURUSD | 5m'及'Sun "
+  },
+  "sources": [
+    {
+      "video_id": "uDJI2AbyyCs",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.4,
+        466.96
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了EURUSD 60分钟与5分钟的反演交易全过程，包括资产代码、时间框架、关键价位、流动性位置、反演识别、Consequent Encroachment应用和多次入场逻辑，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:53.704518Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 60分钟与5分钟反演交易案例\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"5M / 1H\",\"market_context\":\"EURUSD在60分钟图上扫盘买方流动性后反转下行。博主在5分钟图上识别看跌FVG反演，利用后续反演和结果反演进行多次入场，最终扫盘卖方流动性。\",\"key_observation\":\"在60分钟扫盘买方流动性后，价格在5分钟图上形成看跌FVG反演，通过识别Consequent Encroachment和后续反演，可以在折价区获得多次高概率入场机会。\",\"analysis_steps\":[\"Step 1: 在60分钟图上识别买方流动性扫盘，价格突破旧高后回落至范围内。\",\"Step 2: 下钻至5分钟图，标记看跌FVG（Bearish FVG/CBI），等待价格收盘跌破该缺口形成反演。\",\"Step 3: 价格收盘跌破看跌FVG后，标记该FVG的Consequent Encroachment（50%位置）作为调整入场点。\",\"Step 4: 第一次入场：在Consequent Encroachment处做空，止损设在反演低点上方，目标指向卖方流动性。\",\"Step 5: 价格回测反演区域并尊重Consequent Encroachment后继续下行，验证订单块有效性。\",\"Step 6: 价格扫盘卖方流动性后形成新的看跌FVG，再次收盘跌破该缺口形成第二次反演。\",\"Step 7: 第二次入场：在新反演的Consequent Encroachment处再次做空，目标指向范围另一侧的卖方流动性。\",\"Step 8: 回到60分钟图验证，确认5分钟反演与60分钟结构一致，价格最终扫盘卖方流动性。\"],\"outcome\":\"价格成功扫盘卖方流动性，两次反演入场均获利，验证了在折价区利用Consequent Encroachment进行多次入场的有效性。\",\"lessons\":\"反演交易的核心是识别FVG被破坏后的Consequent Encroachment，作为调整入场点以改善风险回报比。多时间框架确认（60分钟结构+5分钟反演）提高交易概率。流动性扫盘后的反演往往预示强势趋势延续。\",\"primary_image_frame_id\":\"uDJI2AbyyCs_f007\",\"supporting_image_frame_ids\":[\"uDJI2AbyyCs_f002\",\"uDJI2AbyyCs_f003\",\"uDJI2AbyyCs_f004\",\"uDJI2AbyyCs_f005\",\"uDJI2AbyyCs_f006\",\"uDJI2AbyyCs_f008\",\"uDJI2AbyyCs_f009\"],\"related_concepts\":[\"Fair Value Gap\",\"Inversion\",\"Consequent Encroachment\",\"Order Block\",\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Propulsion Block\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了EURUSD 60分钟与5分钟的反演交易全过程，包括资产代码、时间框架、关键价位、流动性位置、反演识别、Consequent Encroachment应用和多次入场逻辑，",
+  "error": null
+}

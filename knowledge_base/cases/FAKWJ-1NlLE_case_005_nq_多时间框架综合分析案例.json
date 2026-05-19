@@ -1,0 +1,134 @@
+{
+  "card_id": "FAKWJ-1NlLE_case_005_nq_多时间框架综合分析案例",
+  "type": "case",
+  "title": "NQ 多时间框架综合分析：6点反转到10点延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "protected_high_low",
+    "market_structure_shift",
+    "change_in_the_state_of_delivery",
+    "consolidation",
+    "displacement",
+    "smart_money_technique",
+    "liquidity",
+    "aligned_timeframe"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5m / 1H / 4H",
+  "market_context": "NQ在9月11日早盘形成看跌结构，6点出现V形反转，随后在10点形成延续突破，通过多个时间框架协调确认上升目标。",
+  "key_observation": "博主通过5分钟、1小时、4小时三个时间框架的协调分析，识别出6点反转信号和10点延续信号，两次入场机会都指向同一目标区域，最终成功达成目标。",
+  "analysis_steps": [
+    "Step 1: 观察5分钟图表，识别看跌结构（Candle 3 closure）和9:30开盘后的向下移动。",
+    "Step 2: 在低点识别V形反转形态，预期价格可能反弹至失败摆动高点。",
+    "Step 3: 检查4小时图表的浅wick支撑，确认向上扩展的可能性。",
+    "Step 4: 在6点反转蜡烛处识别第一个入场机会，止损设在body low。",
+    "Step 5: 观察10点蜡烛的open-low-high-close形态，识别第二个延续入场机会。",
+    "Step 6: 确认10点蜡烛同样具有浅wick（4小时和1小时都支持），支持向上扩展。",
+    "Step 7: 识别consolidation和sweep后形成的新受保护摆动点，作为第三个入场机会。",
+    "Step 8: 在新4小时蜡烛开盘时识别交付状态改变（CSD），确认反转蜡烛配合延续形态。",
+    "Step 9: 追踪价格运动，确认consolidation后的向下回测和随后的延续。",
+    "Step 10: 价格最终达成目标，验证多时间框架协调分析的有效性。"
+  ],
+  "outcome": "成功。价格从约19,950入场，达成目标205.75点（1.03%），风险回报比2.93:1，交易已平仓。",
+  "lessons": "多时间框架协调是关键：6点反转和10点延续虽然是不同的入场机会，但都指向同一目标，说明更高时间框架的结构支持整个运动。受保护摆动点和consolidation扫除是确认延续的重要信号。不应在扩展蜡烛内交易反向，应等待扩展蜡烛收盘后寻找反转形态。",
+  "primary_image": "cards/FAKWJ-1NlLE/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/FAKWJ-1NlLE/images/case_005_detail_1.jpg",
+    "cards/FAKWJ-1NlLE/images/case_005_detail_2.jpg",
+    "cards/FAKWJ-1NlLE/images/case_005_detail_3.jpg",
+    "cards/FAKWJ-1NlLE/images/case_005_detail_4.jpg",
+    "cards/FAKWJ-1NlLE/images/case_005_detail_5.jpg",
+    "cards/FAKWJ-1NlLE/images/case_005_detail_6.jpg",
+    "cards/FAKWJ-1NlLE/images/case_005_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为 NQ1! 5 分钟 K 线图，日期标注为 2024 年 8 月 6 日。图右侧标注显示 5m-1H Model、Bias: Neutral 及 SMT(Auto): ES1!, YM1!。图上有两条贯穿全图的水平线，分别位于 19625 和 19200 附近。图中 10:00 至 11:30 区间内有一个浅绿色矩形框和一个灰色矩形框叠加，绿色框覆盖价格约 19280 至 19540，灰色框",
+    "case_005_detail_1.jpg": "图为 NQ1! 5 分钟 K 线图，日期为 2024 年 9 月 11 日（周三）。图右上角标注资产为 NQ1!（5m），Bias 标注为 Bearish，模型标注为 5m-1H Model。图上存在一个浅色矩形标注区域，覆盖约 19912.00 至 20060.00 价格范围，对应时间约 10:00 至 11:35。图上有三条带文字标签的水平线：止损标签显示 Stop: 70.00 (0.35%",
+    "case_005_detail_2.jpg": "NQ1! 5 分钟 K 线图，日期标注为 2024 年 9 月 11 日。图上可见一个浅绿色矩形交易区域，上边界对应止损标注约 20080（Stop: 70.00, 0.35%, Amount: 49900），下边界对应目标标注约 19782.50（Target: 205.75, 1.03%, Amount: 50293.93）。矩形内有一条虚线斜线从入场位延伸至目标位。弹出框显示 Closed ",
+    "case_005_detail_3.jpg": "图表为 NQ1! 5 分钟 K 线图，时间轴显示 2024 年 8 月 6 日，时间范围约从 03:30 至 15:00。可见价格范围约从 18960 至 19680。图左侧 K 线自约 19480 向下运行至约 19200 区域，随后在约 19240 至 19320 区间出现多根 K 线横向排列。图上标注有文字标签 C3、-1、-2、-2.5、-4、-4.5",
+    "case_005_detail_4.jpg": "图表为 NQ1! 5 分钟 K 线图，时间轴覆盖 Tue 06 Aug 2024 约 04:30 至 14:00。图右下角标注 5m-1H Model、Bias: Neutral 及 SMT(Auto): ES1, YM1。图中央区域有一个交易仓位标注框，包含三个弹窗：Target 标注价格 57.50（0.30%）、数量 230、金额 50100；Stop 标注价格 57.50（0.30%）、数",
+    "case_005_detail_5.jpg": "图表为 NQ1! 5 分钟 K 线图，日期标注为 Tue 06 Aug '24，右下角注明 5m-1H Model、Bias: Neutral、SMT(Auto): ES1, YM1。图上显示一笔交易标注：目标价位标签显示 Target: 310.50 (1.60%) 1,242, Amount: 50239.77，止损标签显示 Stop: 129.50 (0.67%) 518, Amount: ",
+    "case_005_detail_6.jpg": "图表为 NQ1! 5 分钟 K 线图，日期标注为 Tue 06 Aug '24，可见价格范围约 19040 至 19760。图右侧价格轴标注四个高亮价格：19640、19615、19406.5、19318.75。图中央有一个青色矩形区域覆盖约 10:00 至 13:00 时段、价格约 19360 至 19640，其内部有一条向右上方延伸的虚线斜线。青色矩形下方叠加一个灰色矩形，覆盖约 19280 ",
+    "case_005_detail_7.jpg": "图表显示 NQ1! 5 分钟 K 线图，日期为 2024 年 8 月 6 日，价格范围约从 19200 到 19760。右侧价格轴当前高亮标签显示 19639.25。图上有两条水平线，分别位于约 19620 和 19330 附近，另有两条虚线水平线位于约 19500 至 19540 区间。图左下角约 10:00 时段附近有一个小型黄色矩形标注，位于 19260 至 19300 价格区间。图右侧底部"
+  },
+  "sources": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "segment_ids": [
+        "seg_020",
+        "seg_021",
+        "seg_022",
+        "seg_023",
+        "seg_024",
+        "seg_025"
+      ],
+      "time_range": [
+        975.839,
+        1268.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程、多个入场机会、具体价位和最终交易结果，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:53.963472Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 多时间框架综合分析：6点反转到10点延续交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5m / 1H / 4H\",\"market_context\":\"NQ在9月11日早盘形成看跌结构，6点出现V形反转，随后在10点形成延续突破，通过多个时间框架协调确认上升目标。\",\"key_observation\":\"博主通过5分钟、1小时、4小时三个时间框架的协调分析，识别出6点反转信号和10点延续信号，两次入场机会都指向同一目标区域，最终成功达成目标。\",\"analysis_steps\":[\"Step 1: 观察5分钟图表，识别看跌结构（Candle 3 closure）和9:30开盘后的向下移动。\",\"Step 2: 在低点识别V形反转形态，预期价格可能反弹至失败摆动高点。\",\"Step 3: 检查4小时图表的浅wick支撑，确认向上扩展的可能性。\",\"Step 4: 在6点反转蜡烛处识别第一个入场机会，止损设在body low。\",\"Step 5: 观察10点蜡烛的open-low-high-close形态，识别第二个延续入场机会。\",\"Step 6: 确认10点蜡烛同样具有浅wick（4小时和1小时都支持），支持向上扩展。\",\"Step 7: 识别consolidation和sweep后形成的新受保护摆动点，作为第三个入场机会。\",\"Step 8: 在新4小时蜡烛开盘时识别交付状态改变（CSD），确认反转蜡烛配合延续形态。\",\"Step 9: 追踪价格运动，确认consolidation后的向下回测和随后的延续。\",\"Step 10: 价格最终达成目标，验证多时间框架协调分析的有效性。\"],\"outcome\":\"成功。价格从约19,950入场，达成目标205.75点（1.03%），风险回报比2.93:1，交易已平仓。\",\"lessons\":\"多时间框架协调是关键：6点反转和10点延续虽然是不同的入场机会，但都指向同一目标，说明更高时间框架的结构支持整个运动。受保护摆动点和consolidation扫除是确认延续的重要信号。不应在扩展蜡烛内交易反向，应等待扩展蜡烛收盘后寻找反转形态。\",\"primary_image_frame_id\":\"FAKWJ-1NlLE_f038\",\"supporting_image_frame_ids\":[\"FAKWJ-1NlLE_f033\",\"FAKWJ-1NlLE_f034\",\"FAKWJ-1NlLE_f035\",\"FAKWJ-1NlLE_f036\",\"FAKWJ-1NlLE_f037\",\"FAKWJ-1NlLE_f039\",\"FAKWJ-1NlLE_f040\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Protected Swing\",\"Market Structure Shift\",\"Change in the state of delivery\",\"Consolidation\",\"Displacement\",\"Smart Money Technique\",\"Liquidity\",\"Fractal Model\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个时间框架的分析过程、多个入场机会、具体价位和最终交易结果，分析步骤清晰有序。\"}",
+  "error": null
+}

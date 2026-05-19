@@ -1,0 +1,95 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_013_uni_1小时图_高时间框架wick形成的continuatio",
+  "type": "case",
+  "title": "UNI 1H：高时间框架wick形成时的continuation交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Wick",
+      "card_id": "higher_time_frame_wick",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "higher_time_frame_wick",
+    "continuation_pattern",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "UNI",
+  "timeframe": "1H",
+  "market_context": "UNI在1小时图上经历下跌后形成反弹结构。博主分析了如何在高时间框架wick形成期间寻找continuation机会，强调时间框架协调对入场的重要性。",
+  "key_observation": "博主强调关键洞察：在高时间框架wick形成时寻找continuation是高级交易方法。最优入场点是当高时间框架wick正在形成时，而非等待完全形成后。",
+  "analysis_steps": [
+    "Step 1: 识别价格结构中的expansion（扩张）和retracement（回撤）阶段",
+    "Step 2: 观察价格回撤进入Fair Value Gap（公允价值缺口）区域",
+    "Step 3: 等待高时间框架wick在该FVG区域形成",
+    "Step 4: 在wick形成过程中寻找continuation信号，而非等待wick完全形成",
+    "Step 5: 在closure处入场，止损设置在低点，目标为2R风险回报比"
+  ],
+  "outcome": "价格几乎触发止损，但随后继续上升，最终实现continuation。博主指出这不是理想结构，但演示了该方法的有效性。",
+  "lessons": "高级交易者应在高时间框架wick形成时（而非形成后）寻找入场机会。时间框架协调和对wick形成过程的理解是提高入场质量的关键。理想的continuation结构包含：expansion、retracement进FVG、以及随后的买入并收盘突破。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_013_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_013_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_013_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_013_primary.jpg": "UNI 1 小时 K 线图。图上显示价格范围从 3.87 到 8.17。左侧区域以绿色 K 线为主，中间区域以黑色 K 线为主，右侧区域再次出现绿色 K 线。图右侧有两个浅绿色矩形区域，分别标注为'Open 4H candle to Mitigate 4H OB'和'Swing Low to Mitigate 4H OB'。对应两条水平线分别位于约 6.15 和 5.35 价格水平。图上未见其他指",
+    "case_013_detail_1.jpg": "USDT 1 小时 K 线图。图上显示价格范围从 3.9514 到 4.0762。图表左侧呈现下跌趋势，K 线从高点向下运行。中间区域有多条水平线标注，形成矩形区域，约在 4.0162 至 4.0524 之间。图表右侧显示最近的价格行为，包含一根大黑色 K 线主体，其后跟随一根绿色 K 线。整个图表中有多根绿色和黑色 K 线交替出现，显示价格在标注的水平线区域附近波动。",
+    "case_013_detail_2.jpg": "BTC 1 小时 K 线图。图上绘制了两个矩形框，分别覆盖约 63500 至 65500 和 64500 至 66500 的价格区间。图表右侧显示多根绿色 K 线，从约 65000 上升至 67000，其中最右侧一根绿色 K 线体积较大，下影线向下延伸至约 65500。中间区域可见黑色 K 线分布在 64000 至 65000 范围内。整体可见价格范围约从 61000 至 67000。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_031"
+      ],
+      "time_range": [
+        1649.679,
+        1703.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了UNI 1H图表分析过程，清晰阐述了高时间框架wick形成时的continuation交易方法，包括具体的入场、止损和目标设置。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:03.965673Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"UNI 1H：高时间框架wick形成时的continuation交易\",\"school\":\"ICT\",\"asset\":\"UNI\",\"timeframe\":\"1H\",\"market_context\":\"UNI在1小时图上经历下跌后形成反弹结构。博主分析了如何在高时间框架wick形成期间寻找continuation机会，强调时间框架协调对入场的重要性。\",\"key_observation\":\"博主强调关键洞察：在高时间框架wick形成时寻找continuation是高级交易方法。最优入场点是当高时间框架wick正在形成时，而非等待完全形成后。\",\"analysis_steps\":[\"Step 1: 识别价格结构中的expansion（扩张）和retracement（回撤）阶段\",\"Step 2: 观察价格回撤进入Fair Value Gap（公允价值缺口）区域\",\"Step 3: 等待高时间框架wick在该FVG区域形成\",\"Step 4: 在wick形成过程中寻找continuation信号，而非等待wick完全形成\",\"Step 5: 在closure处入场，止损设置在低点，目标为2R风险回报比\"],\"outcome\":\"价格几乎触发止损，但随后继续上升，最终实现continuation。博主指出这不是理想结构，但演示了该方法的有效性。\",\"lessons\":\"高级交易者应在高时间框架wick形成时（而非形成后）寻找入场机会。时间框架协调和对wick形成过程的理解是提高入场质量的关键。理想的continuation结构包含：expansion、retracement进FVG、以及随后的买入并收盘突破。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f056\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f055\",\"PQiRV0JMhIQ_f057\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Higher Time Frame Wick\",\"Continuation\",\"Market Structure\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了UNI 1H图表分析过程，清晰阐述了高时间框架wick形成时的continuation交易方法，包括具体的入场、止损和目标设置。\"}",
+  "error": null
+}

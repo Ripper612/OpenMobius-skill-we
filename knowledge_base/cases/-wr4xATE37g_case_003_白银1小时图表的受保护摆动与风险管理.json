@@ -1,0 +1,94 @@
+{
+  "card_id": "-wr4xATE37g_case_003_白银1小时图表的受保护摆动与风险管理",
+  "type": "case",
+  "title": "白银1小时图表的受保护摆动与风险管理",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    },
+    {
+      "term": "Invalidation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "fair_value_gap",
+    "order_block",
+    "risk_to_reward_ratio",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "APOZ/USD",
+  "timeframe": "1H",
+  "market_context": "白银日线图显示扫出高点并回封，呈现看跌结构。在1小时图表上，博主通过追踪受保护摆动的形成与确认，在FVG处寻找低风险入场点，以改善风险收益比。",
+  "key_observation": "博主强调不应在初始摆动高点设置止损，因为风险收益比不佳。应等待新的受保护摆动在FVG处形成并确认后再入场，以获得更优的风险回报比。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别扫出高点并回封的看跌结构，标记出上升收盘的K线序列。",
+    "Step 2: 在1小时图表上找到形成该高点的K线序列（此例为单根K线），确认这是初始的受保护摆动高点。",
+    "Step 3: 评估在该受保护摆动高点设置止损的风险收益比，发现不理想，决定等待新的摆动形成。",
+    "Step 4: 观察价格向下运动，确认价格到达公允价值缺口（FVG）这一关键点位。",
+    "Step 5: 识别进入FVG的上升收盘K线序列（此例为单根K线），确认新的受保护摆动已形成并闭合。",
+    "Step 6: 在新的受保护摆动高点设置止损，在该位置做空，目标为2R收益。",
+    "Step 7: 验证价格达到2R目标，随后继续运行至第一标准差投影位置。"
+  ],
+  "outcome": "价格达到2R目标收益，随后继续运行至第一标准差投影位置，交易成功。",
+  "lessons": "受保护摆动是识别低风险入场点的关键。不应在初始摆动点入场，而应等待新的受保护摆动在关键点位（如FVG）形成后再入场，以获得更优的风险收益比。受保护摆动的确认需要价格闭合穿过形成该摆动的K线序列。",
+  "primary_image": "cards/-wr4xATE37g/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/-wr4xATE37g/images/case_003_detail_1.jpg",
+    "cards/-wr4xATE37g/images/case_003_detail_2.jpg",
+    "cards/-wr4xATE37g/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图为 apoz/USD 1 小时 K 线图，可见价格范围约 32.625 至 33.875。图上有一条红色虚线水平线延伸至全图宽度，对应左侧价格轴标注 33.180（带粉红高亮）及 33.155。33.500 处有一条水平实线。图中部有灰色矩形框覆盖约 33.250 至 33.500 区间，其内叠加一个黄色矩形框覆盖约 33.250 至 33.375 区间，并有向下箭头标注。图右侧出现一根大实体黑",
+    "case_003_detail_1.jpg": "图为 apoz/USD 1 小时 K 线图，可见价格范围约从 32.125 至 33.750。图上有多条水平虚线，分别位于约 33.500、33.000、32.750、32.375 处，另有一条蓝色水平实线位于约 33.250。图左上方有文字标注 'c2'，位于约 33.625 附近。图上有两处矩形框标注，分别位于约 33.375–33.500 区间及 32.750–32.875 区间。图右侧近 ",
+    "case_003_detail_2.jpg": "图为 apoz/USD 1 小时 K 线图，价格范围约从 32.250 至 33.750。图上标注有文字标签 C2 位于约 33.700 附近。图左侧日期 6 至 7 区间内，K 线在 33.250 至 33.625 之间横向排列，图上有一条蓝色水平线位于 33.250。图中部日期 9 至 11 区间出现数根大实体黑色 K 线，价格从约 33.500 下行至 32.625。图右侧日期 12 附近有",
+    "case_003_detail_3.jpg": "图表资产代码为 apoz，计价单位 USD，时间框架为 1 小时。图右侧价格轴当前价标签显示 32.620。可见价格范围约从 32.125 至 33.750。图左上角有文字标注 C2，位于约 33.750 附近。图上有一条蓝色水平线位于约 33.250，从图左延伸至图中部。图中存在一个灰色矩形框，覆盖约 33.450 至 33.550 区间。图中部偏右有一个白色轮廓矩形框，围绕约 32.480 至"
+  },
+  "sources": [
+    {
+      "video_id": "-wr4xATE37g",
+      "segment_ids": [
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        746.959,
+        984.399
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对白银1小时图表的分析完整清晰，包括资产代码、时间框架、关键价位、分析步骤和交易结果，所有要素均可从转录和图表中准确读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:06:01.059261Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"白银1小时图表的受保护摆动与风险管理\",\"school\":\"ICT\",\"asset\":\"APOZ/USD\",\"timeframe\":\"1H\",\"market_context\":\"白银日线图显示扫出高点并回封，呈现看跌结构。在1小时图表上，博主通过追踪受保护摆动的形成与确认，在FVG处寻找低风险入场点，以改善风险收益比。\",\"key_observation\":\"博主强调不应在初始摆动高点设置止损，因为风险收益比不佳。应等待新的受保护摆动在FVG处形成并确认后再入场，以获得更优的风险回报比。\",\"analysis_steps\":[\"Step 1: 在日线图上识别扫出高点并回封的看跌结构，标记出上升收盘的K线序列。\",\"Step 2: 在1小时图表上找到形成该高点的K线序列（此例为单根K线），确认这是初始的受保护摆动高点。\",\"Step 3: 评估在该受保护摆动高点设置止损的风险收益比，发现不理想，决定等待新的摆动形成。\",\"Step 4: 观察价格向下运动，确认价格到达公允价值缺口（FVG）这一关键点位。\",\"Step 5: 识别进入FVG的上升收盘K线序列（此例为单根K线），确认新的受保护摆动已形成并闭合。\",\"Step 6: 在新的受保护摆动高点设置止损，在该位置做空，目标为2R收益。\",\"Step 7: 验证价格达到2R目标，随后继续运行至第一标准差投影位置。\"],\"outcome\":\"价格达到2R目标收益，随后继续运行至第一标准差投影位置，交易成功。\",\"lessons\":\"受保护摆动是识别低风险入场点的关键。不应在初始摆动点入场，而应等待新的受保护摆动在关键点位（如FVG）形成后再入场，以获得更优的风险收益比。受保护摆动的确认需要价格闭合穿过形成该摆动的K线序列。\",\"primary_image_frame_id\":\"-wr4xATE37g_f029\",\"supporting_image_frame_ids\":[\"-wr4xATE37g_f030\",\"-wr4xATE37g_f031\",\"-wr4xATE37g_f032\",\"-wr4xATE37g_f033\"],\"related_concepts\":[\"Protected Swing\",\"Fair Value Gap\",\"Order Block\",\"Risk-to-Reward Ratio\",\"Invalidation\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对白银1小时图表的分析完整清晰，包括资产代码、时间框架、关键价位、分析步骤和交易结果，所有要素均可从转录和图表中准确读取。\"}",
+  "error": null
+}

@@ -1,0 +1,106 @@
+{
+  "card_id": "A8UpRZlRzlg_case_001_标普500迷你期货模型一案例",
+  "type": "case",
+  "title": "NQ1!标普500迷你期货Model 1入场流程：流动性扫盘+结构突破+FVG回撤",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity (BSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "displacement",
+    "market_structure_shift_mss",
+    "optimal_trade_entry_ote",
+    "balanced_price_range_bpr"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "NASDAQ 100 E-mini期货在下跌后出现流动性扫盘，随后形成结构突破，价格回撤至公允价值缺口区域，为Model 1长仓提供高概率入场机会。",
+  "key_observation": "博主展示Model 1的核心特征：先扫盘下方流动性，再破结构向上，最后回撤至FVG形成入场点；Model 3则在此基础上添加OT以确保风险回报比。",
+  "analysis_steps": [
+    "Step 1: 识别流动性扫盘——价格向下扫除摆动低点下方的买方流动性（Buyside Liquidity）",
+    "Step 2: 确认结构突破——价格随后形成激进上升，突破前期摆动高点，打破下行结构",
+    "Step 3: 标记公允价值缺口（FVG）——在位移腿（Displacement leg）中识别由快速上升产生的不平衡区域",
+    "Step 4: 等待回撤入场——价格回落至FVG区域，形成Model 1的长仓入场点",
+    "Step 5: 添加OT优化——从位移腿低点到高点绘制斐波那契回撤，OT区域提供更优的风险回报比（Model 3）"
+  ],
+  "outcome": null,
+  "lessons": "Model 1通过流动性扫盘+结构突破+FVG回撤形成高概率入场；Model 3在此基础上用OT精确定位入场区域，确保风险回报比达到可交易标准。内部范围流动性的扫盘是触发结构突破的关键前置条件。",
+  "primary_image": "cards/A8UpRZlRzlg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/A8UpRZlRzlg/images/case_001_detail_1.jpg",
+    "cards/A8UpRZlRzlg/images/case_001_detail_2.jpg",
+    "cards/A8UpRZlRzlg/images/case_001_detail_3.jpg",
+    "cards/A8UpRZlRzlg/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，来源标注为 CME_MINI / TradingView。图右侧价格刻度范围约从 11316 至 11400。图中央偏左区域绘有一个矩形框，框体覆盖约 11341 至 11349 价格区间，矩形上下边各对应一条水平线。图右侧价格轴显示两个高亮标签：11349.25 与 11341.75。K 线序列从图左约 2",
+    "case_001_detail_1.jpg": "图表标题显示为 NASDAQ 100 E-mini Futures，来自 CME MINI，平台为 TradingView。图右侧价格刻度显示当前价约 11399.25，另一标签显示 11374.75。K 线从图左上方约 11476 区域向下运行至约 11374 低点后回升，右侧 K 线回升至约 11460 附近。图上约 11:00 时间区域有一个矩形标注框，附近有文字标签",
+    "case_001_detail_2.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，时间轴显示 2022 年 10 月 3 日 21:00 至次日 00:10 区间。图右侧价格刻度范围约 11310 至 11400。图中绘有斐波那契回撤工具，标注 0.5、0.62、0.79 三个水平位，分别对应约 11347、11342、11328 价位。图上另有两个矩形框标注，一个位于约 11344 至 ",
+    "case_001_detail_3.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，来自 TradingView CME_MINI 数据源。可见价格范围约从 11440 至 11576。图右侧价格轴标注两个高亮价格标签：11517.00 与 11503.75。图上约 09:30 附近有一根较长阴线，随后 K 线在 11460 至 11510 区间内形成多根密集排列。约 09:30 处一根 K",
+    "case_001_detail_4.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，来源为 TradingView，时间轴显示范围约为 07:50 至 11:00，日期标注为 Wed 05 Oct '22。可见价格范围约从 11432 至 11577。图上有一个灰色半透明矩形标注，覆盖约 09:10 至 09:30 时段、价格约 11500 至 11524 区间内的数根 K 线。右侧价格轴当"
+  },
+  "sources": [
+    {
+      "video_id": "A8UpRZlRzlg",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        187.0,
+        338.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了Model 1的四步流程（扫盘→突破→FVG→入场），资产代码NQ1!、时间框架1分钟、关键价位均从图表清晰可读，Model 3的OT优化也有明确讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:11.647438Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1!标普500迷你期货Model 1入场流程：流动性扫盘+结构突破+FVG回撤\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"NASDAQ 100 E-mini期货在下跌后出现流动性扫盘，随后形成结构突破，价格回撤至公允价值缺口区域，为Model 1长仓提供高概率入场机会。\",\"key_observation\":\"博主展示Model 1的核心特征：先扫盘下方流动性，再破结构向上，最后回撤至FVG形成入场点；Model 3则在此基础上添加OT以确保风险回报比。\",\"analysis_steps\":[\"Step 1: 识别流动性扫盘——价格向下扫除摆动低点下方的买方流动性（Buyside Liquidity）\",\"Step 2: 确认结构突破——价格随后形成激进上升，突破前期摆动高点，打破下行结构\",\"Step 3: 标记公允价值缺口（FVG）——在位移腿（Displacement leg）中识别由快速上升产生的不平衡区域\",\"Step 4: 等待回撤入场——价格回落至FVG区域，形成Model 1的长仓入场点\",\"Step 5: 添加OT优化——从位移腿低点到高点绘制斐波那契回撤，OT区域提供更优的风险回报比（Model 3）\"],\"outcome\":null,\"lessons\":\"Model 1通过流动性扫盘+结构突破+FVG回撤形成高概率入场；Model 3在此基础上用OT精确定位入场区域，确保风险回报比达到可交易标准。内部范围流动性的扫盘是触发结构突破的关键前置条件。\",\"primary_image_frame_id\":\"A8UpRZlRzlg_f011\",\"supporting_image_frame_ids\":[\"A8UpRZlRzlg_f010\",\"A8UpRZlRzlg_f009\",\"A8UpRZlRzlg_f012\",\"A8UpRZlRzlg_f013\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Liquidity\",\"Buyside Liquidity (BSL)\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Optimal Trade Entry (OTE)\",\"Balanced Price Range (BPR)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了Model 1的四步流程（扫盘→突破→FVG→入场），资产代码NQ1!、时间框架1分钟、关键价位均从图表清晰可读，Model 3的OT优化也有明确讲解。\"}",
+  "error": null
+}

@@ -1,0 +1,83 @@
+{
+  "card_id": "sIcsLFSNoXM_case_004_黄金15分钟图表的犹豫不决k线",
+  "type": "case",
+  "title": "黄金15分钟图表的犹豫不决K线识别",
+  "related_concepts": [
+    {
+      "term": "Indecision Candle",
+      "card_id": "indecision_candle",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "indecision_candle",
+    "market_structure",
+    "consolidation",
+    "equilibrium"
+  ],
+  "school": "Price Action",
+  "asset": "GC",
+  "timeframe": "15M",
+  "market_context": "黄金期货在经历大幅下跌后进入盘整阶段。价格在2290-2310区间反复震荡，形成宽幅整理形态，缺乏明确的方向性动力。",
+  "key_observation": "黄金日线形成犹豫不决K线，开盘价与收盘价接近，上下影线较长，显示市场在该时期内缺乏方向性，价格在开盘价附近收盘。",
+  "analysis_steps": [
+    "Step 1: 观察黄金15分钟图表的整体走势，识别出价格从高点2336.5下跌至低点2266.0的下行趋势。",
+    "Step 2: 在下跌后的盘整区域（2290-2310）中，识别出一根具有长上下影线的K线。",
+    "Step 3: 分析该K线的结构特征：开盘价与收盘价接近，K线实体较小，上下影线明显拉长。",
+    "Step 4: 确认这是犹豫不决K线的特征，表明价格在该时间周期内没有实质性的方向性移动。",
+    "Step 5: 解释犹豫不决K线的含义：市场在该时期内开盘和收盘价格相近，说明买卖双方力量均衡，市场缺乏明确方向。"
+  ],
+  "outcome": null,
+  "lessons": "犹豫不决K线表现为开盘价与收盘价接近、上下影线较长的形态。在大幅波动后出现犹豫不决K线通常预示市场缺乏后续动力，价格可能进入整理或反转阶段。识别这类K线有助于判断市场的方向性缺失。",
+  "primary_image": "cards/sIcsLFSNoXM/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/sIcsLFSNoXM/images/case_004_detail_1.jpg",
+    "cards/sIcsLFSNoXM/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "黄金期货 GC 图表显示从 2336.5 下跌至 2266.0 的整体下行走势。图上标注有一个矩形框标记为 OB，位置约在 2295 至 2310 价格区间。中间区域显示价格在 2290 至 2310 之间的盘整形态。右侧出现一根较大的黑色 K 线，具有明显的实体。图下方标注日期 3/5/2024 及合约代码 GC:11 1556。除上述标注外，图上还标有 HPD 文字标签。",
+    "case_004_detail_1.jpg": "图上展示标题为'Indecision candle'的教学示例。左侧有标注'Open'的箭头指向一根K线，中上方有标注'High'的黄色标签，中下方有标注'Low'的黄色标签。右侧有标注'Close'的黄色标签指向最后一根绿色K线。图中绘制了一条水平虚线标记'Opening Price'。K线序列包含多根绿色和黑色蜡烛，均具有上下影线。右侧最后一根K线为绿色，具有较长的上影线。图下方标注'Bull",
+    "case_004_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示一根大型黑色K线，下影线从约5055向下刺破至5045.25，影线长度约为K线主体的2.5倍。图右侧有一条水平虚线标注在5048.25价格水平。图上可见一个黄色加号标记位于下影线附近区域。可见价格范围约从5045.25至5118.00。时间标记显示23/4/2024，13:11。"
+  },
+  "sources": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.32,
+        726.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对犹豫不决K线的定义、特征和实际图表示例讲解完整清晰，黄金图表显示明确的盘整形态和K线结构。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:58.004213Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金15分钟图表的犹豫不决K线识别\",\"school\":\"Price Action\",\"asset\":\"GC\",\"timeframe\":\"15M\",\"market_context\":\"黄金期货在经历大幅下跌后进入盘整阶段。价格在2290-2310区间反复震荡，形成宽幅整理形态，缺乏明确的方向性动力。\",\"key_observation\":\"黄金日线形成犹豫不决K线，开盘价与收盘价接近，上下影线较长，显示市场在该时期内缺乏方向性，价格在开盘价附近收盘。\",\"analysis_steps\":[\"Step 1: 观察黄金15分钟图表的整体走势，识别出价格从高点2336.5下跌至低点2266.0的下行趋势。\",\"Step 2: 在下跌后的盘整区域（2290-2310）中，识别出一根具有长上下影线的K线。\",\"Step 3: 分析该K线的结构特征：开盘价与收盘价接近，K线实体较小，上下影线明显拉长。\",\"Step 4: 确认这是犹豫不决K线的特征，表明价格在该时间周期内没有实质性的方向性移动。\",\"Step 5: 解释犹豫不决K线的含义：市场在该时期内开盘和收盘价格相近，说明买卖双方力量均衡，市场缺乏明确方向。\"],\"outcome\":null,\"lessons\":\"犹豫不决K线表现为开盘价与收盘价接近、上下影线较长的形态。在大幅波动后出现犹豫不决K线通常预示市场缺乏后续动力，价格可能进入整理或反转阶段。识别这类K线有助于判断市场的方向性缺失。\",\"primary_image_frame_id\":\"sIcsLFSNoXM_f022\",\"supporting_image_frame_ids\":[\"sIcsLFSNoXM_f021\",\"sIcsLFSNoXM_f019\"],\"related_concepts\":[\"Indecision Candle\",\"Price Action\",\"Market Structure\",\"Consolidation\",\"Equilibrium\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对犹豫不决K线的定义、特征和实际图表示例讲解完整清晰，黄金图表显示明确的盘整形态和K线结构。\"}",
+  "error": null
+}

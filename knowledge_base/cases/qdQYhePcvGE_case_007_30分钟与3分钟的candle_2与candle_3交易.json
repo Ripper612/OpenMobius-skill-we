@@ -1,0 +1,99 @@
+{
+  "card_id": "qdQYhePcvGE_case_007_30分钟与3分钟的candle_2与candle_3交易",
+  "type": "case",
+  "title": "30分钟反转后在3分钟图上交易Candle 2与Candle 3",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (CSD)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "swing_formation",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "30分钟 / 3分钟",
+  "market_context": "价格在30分钟图上形成受保护摆动后反转，从21320低点上升至21590附近。博主演示如何在高时间框架反转确认后，利用低时间框架（3分钟）选择最优入场点。",
+  "key_observation": "30分钟图上形成明确的反转K线和受保护摆动结构后，可在3分钟图上通过Candle 2或Candle 3的收盘来选择交易时机，需等待市场结构转变（CSD）确认。",
+  "analysis_steps": [
+    "Step 1: 在30分钟图上识别受保护摆动（Protected Swing）结构，确认反转K线已形成。",
+    "Step 2: 确认30分钟反转K线已收盘，验证其为真实反转信号。",
+    "Step 3: 检查是否形成市场结构转变（CSD），初期未形成，需继续等待。",
+    "Step 4: 切换至3分钟图，识别两个可交易的摆动低点（Swing Low），对应Candle 2和Candle 3。",
+    "Step 5: 等待30分钟K线完全收盘并形成CSD，确认扩张（Expansion）已发生。",
+    "Step 6: 在3分钟图上观察价格回测至公允价值缺口（FVG）区域，准备在收盘突破时入场。",
+    "Step 7: 监控新的受保护摆动形成，确认继续上升的有效性。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架交易中，高时间框架（30分钟）提供方向确认和结构基础，低时间框架（3分钟）用于精确入场时机选择。需等待CSD完全形成和FVG回测，而非在反转初期仓促入场。根据偏差强度和K线收盘质量选择Candle 2或Candle 3入场。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_007_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_007_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "USD 30分钟K线图。图上显示价格范围从21320到21660。可见两条水平虚线分别位于21432和21460处。图上有一个矩形框标注，范围约在21380至21460之间。左侧显示一根大幅下跌的黑色K线，下影线刺破至21320附近。中间区域显示多根K线在21380至21520区间内震荡，包含绿色和黑色K线。右侧显示一根大幅上涨的绿色K线从21430上升至21590。图右下角显示时间标记'Mon ",
+    "case_007_detail_1.jpg": "USD 图表显示一段时间内的 K 线走势。图上可见价格范围从 21380 到 21510。标注包括三条水平线分别位于 21453.60、21438.00 和 21420.00。图中有两个矩形框标注，分别围绕 21420-21438 和 21438-21453.60 区间，下方标记为'C2'。K 线呈现先下跌后整理的形态，其中一根大幅下跌的 K 线从 21475 跌至 21378，随后在 21420",
+    "case_007_detail_2.jpg": "图表显示 USD 资产的分钟级 K 线图，价格范围从 21375.00 到 21510.00。图上有三条水平虚线分别位于 21477.50、21440.00 和 21423.25。左侧可见一根大幅下跌的 K 线，从约 21475 跌至 21375，带有长下影线。图中部区域有两个矩形标注框，分别覆盖约 21440 至 21460 和 21440 至 21465 的价格区间。右侧 K 线显示在 214"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_016",
+        "seg_017",
+        "seg_018"
+      ],
+      "time_range": [
+        868.56,
+        989.759
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了30分钟与3分钟的多时间框架分析流程，清晰标注了关键价位（21432、21460、21420、21438、21453.60），明确指出Candle 2和Candle 3的交易选择逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:54.438543Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"30分钟反转后在3分钟图上交易Candle 2与Candle 3\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"30分钟 / 3分钟\",\"market_context\":\"价格在30分钟图上形成受保护摆动后反转，从21320低点上升至21590附近。博主演示如何在高时间框架反转确认后，利用低时间框架（3分钟）选择最优入场点。\",\"key_observation\":\"30分钟图上形成明确的反转K线和受保护摆动结构后，可在3分钟图上通过Candle 2或Candle 3的收盘来选择交易时机，需等待市场结构转变（CSD）确认。\",\"analysis_steps\":[\"Step 1: 在30分钟图上识别受保护摆动（Protected Swing）结构，确认反转K线已形成。\",\"Step 2: 确认30分钟反转K线已收盘，验证其为真实反转信号。\",\"Step 3: 检查是否形成市场结构转变（CSD），初期未形成，需继续等待。\",\"Step 4: 切换至3分钟图，识别两个可交易的摆动低点（Swing Low），对应Candle 2和Candle 3。\",\"Step 5: 等待30分钟K线完全收盘并形成CSD，确认扩张（Expansion）已发生。\",\"Step 6: 在3分钟图上观察价格回测至公允价值缺口（FVG）区域，准备在收盘突破时入场。\",\"Step 7: 监控新的受保护摆动形成，确认继续上升的有效性。\"],\"outcome\":null,\"lessons\":\"多时间框架交易中，高时间框架（30分钟）提供方向确认和结构基础，低时间框架（3分钟）用于精确入场时机选择。需等待CSD完全形成和FVG回测，而非在反转初期仓促入场。根据偏差强度和K线收盘质量选择Candle 2或Candle 3入场。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f031\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f032\",\"qdQYhePcvGE_f033\"],\"related_concepts\":[\"Protected Swing\",\"Market Structure Shift (CSD)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Swing Low\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了30分钟与3分钟的多时间框架分析流程，清晰标注了关键价位（21432、21460、21420、21438、21453.60），明确指出Candle 2和Candle 3的交易选择逻辑。\"}",
+  "error": null
+}

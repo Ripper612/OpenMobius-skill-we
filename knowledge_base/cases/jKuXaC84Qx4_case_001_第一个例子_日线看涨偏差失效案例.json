@@ -1,0 +1,123 @@
+{
+  "card_id": "jKuXaC84Qx4_case_001_第一个例子_日线看涨偏差失效案例",
+  "type": "case",
+  "title": "日线看涨偏差失效案例：CSD与SMT反向确认",
+  "related_concepts": [
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Opposing Setup",
+      "card_id": "opposing_setup",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Order Block (PDH/PDL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "EQ (Equilibrium)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Invalidation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "opposing_setup",
+    "candle_two_closure",
+    "continuation_pattern",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1D / 1H / 30M",
+  "market_context": "日线形成强势看涨收盘（candle two closure），取得前期低点，但小时线在前一日高点形成反向变化（CSD），伴随SMT信号，预示看涨偏差失效。",
+  "key_observation": "日线看涨收盘与小时线CSD形成对立设置；价格开盘高位（open high first）是熊市信号；小时线continuation被disrespected，无法维持看涨趋势。",
+  "analysis_steps": [
+    "Step 1: 识别日线结构——取得前期低点（PDL）并形成强势看涨收盘（candle two closure）",
+    "Step 2: 切换到小时线——发现在前一日高点（PDH）形成CSD（交付状态改变）",
+    "Step 3: 观察小时线continuation被破坏——该continuation应该支撑看涨趋势，但被disrespected",
+    "Step 4: 确认对立设置形成——日线看涨与小时线反向CSD构成opposing setup",
+    "Step 5: 识别SMT信号——YM（另一资产）创新高而该资产未能跟随，形成Smart Money Technique",
+    "Step 6: 切换到30分钟确认——发现开盘高位（open high first）是熊市信号，30分钟CSD进一步确认反向",
+    "Step 7: 设置交易——在前一日高点设置止损，目标指向EQ或前一日低点（PDL）",
+    "Step 8: 追踪结果——价格触及EQ后继续下行至前一日低点"
+  ],
+  "outcome": "价格最终下行至前一日低点（PDL），看涨偏差完全失效，反向交易设置成功验证。",
+  "lessons": "对立设置（opposing setup）需要多时间框架确认：日线看涨与小时线CSD的分歧是关键信号；SMT配合使用增强确认度；开盘高位（open high first）在反向设置中是重要的熊市信号；continuation被disrespected表明趋势力度不足。",
+  "primary_image": "cards/jKuXaC84Qx4/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/jKuXaC84Qx4/images/case_001_detail_1.jpg",
+    "cards/jKuXaC84Qx4/images/case_001_detail_2.jpg",
+    "cards/jKuXaC84Qx4/images/case_001_detail_3.jpg",
+    "cards/jKuXaC84Qx4/images/case_001_detail_4.jpg",
+    "cards/jKuXaC84Qx4/images/case_001_detail_5.jpg",
+    "cards/jKuXaC84Qx4/images/case_001_detail_6.jpg",
+    "cards/jKuXaC84Qx4/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表展示一个标题为'Opposing setup formed off PDH/PDL'的K线图。左侧部分呈上升趋势，包含绿色和黑色K线，显示多个更高的高点和更高的低点。中间部分呈下降趋势，灰色K线从前期高点逐步下行。右侧部分展示两根K线：第一根为绿色K线，具有较长的下影线；第二根为灰色K线，位置高于第一根K线。两条竖直灰线分别分隔左中、中右三个部分。图表左下角显示'TTrades'标识。",
+    "case_001_detail_1.jpg": "图上显示一个烛线图表，包含约20根绿色和黑色交替排列的K线。图表右侧可见一条带有控制点的水平线。左上角显示数字标记。K线呈现混合形态，包含上下影线。中下方区域有一根明显较大的黑色K线。整体价格刻度、资产代码和时间框架均未清晰显示。",
+    "case_001_detail_2.jpg": "图上显示一张 K 线图，包含绿色和黑色蜡烛。图表中部偏右区域有一个浅绿色矩形框覆盖多根 K 线。K 线呈现混合走势，包含多根带有上下影线的蜡烛。图上未见价格刻度标注、资产代码或时间框架标签。",
+    "case_001_detail_3.jpg": "图上为 K 线图表，显示一段完整的价格走势。左侧呈下跌趋势，以黑色 K 线为主，伴随较小的绿色 K 线。中间部分为盘整区域，绿色和黑色 K 线交替出现。右侧呈上升趋势，绿色 K 线体积较大。图上有一个浅绿色矩形区域覆盖中间至右侧部分，矩形内有一条水平线。未见资产代码、时间框架或其他文字标注。",
+    "case_001_detail_4.jpg": "图上显示一张烛线图，资产代码和时间框架均不可见。K线从左下向右上升，初期以绿色烛线为主，中段出现黑色烛线并形成下降趋势，右侧区域烛线体积较小呈盘整状态。左侧最早的烛线具有明显的长下影线。图上未见价格刻度标注、指标或其他文字标签。",
+    "case_001_detail_5.jpg": "图表为蜡烛图，显示一系列绿色和黑色K线。图上绘有一条从左上向右下延伸的下降趋势线。中右区域有一个浅绿色矩形标注区域，跨越多根K线。整个序列中K线波动较大，多数K线具有较长的上下影线。中下部分可见一个由较小K线主体组成的盘整形态。图上未显示资产代码、时间框架或价格刻度标签。",
+    "case_001_detail_6.jpg": "图表显示一份 K 线图，左侧呈上升趋势，中间出现大幅下跌，由多根黑色 K 线组成，右侧显示恢复走势，包含绿色和黑色 K 线混合。图上标注有两个矩形框区域，其中一个位于中间偏右位置，另一个位于右侧。资产代码、时间框架及具体价格刻度在图上不可见。",
+    "case_001_detail_7.jpg": "图表显示烛线图，包含绿色和黑色 K 线。图上有两个浅绿色矩形标注区域。左侧显示一段盘整形态，中间部分呈现下跌后回升的走势。K 线具有不同长度的影线。右侧区域显示较大幅度的单根 K 线波动。整体图表缺少资产代码、时间框架和价格刻度标注。"
+  },
+  "sources": [
+    {
+      "video_id": "jKuXaC84Qx4",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        194.959,
+        425.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时线再到30分钟的多时间框架分析过程，清晰标注了CSD、SMT、continuation等关键结构，并追踪了完整的价格走势结果至PDL。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:41:59.469901Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线看涨偏差失效案例：CSD与SMT反向确认\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1D / 1H / 30M\",\"market_context\":\"日线形成强势看涨收盘（candle two closure），取得前期低点，但小时线在前一日高点形成反向变化（CSD），伴随SMT信号，预示看涨偏差失效。\",\"key_observation\":\"日线看涨收盘与小时线CSD形成对立设置；价格开盘高位（open high first）是熊市信号；小时线continuation被disrespected，无法维持看涨趋势。\",\"analysis_steps\":[\"Step 1: 识别日线结构——取得前期低点（PDL）并形成强势看涨收盘（candle two closure）\",\"Step 2: 切换到小时线——发现在前一日高点（PDH）形成CSD（交付状态改变）\",\"Step 3: 观察小时线continuation被破坏——该continuation应该支撑看涨趋势，但被disrespected\",\"Step 4: 确认对立设置形成——日线看涨与小时线反向CSD构成opposing setup\",\"Step 5: 识别SMT信号——YM（另一资产）创新高而该资产未能跟随，形成Smart Money Technique\",\"Step 6: 切换到30分钟确认——发现开盘高位（open high first）是熊市信号，30分钟CSD进一步确认反向\",\"Step 7: 设置交易——在前一日高点设置止损，目标指向EQ或前一日低点（PDL）\",\"Step 8: 追踪结果——价格触及EQ后继续下行至前一日低点\"],\"outcome\":\"价格最终下行至前一日低点（PDL），看涨偏差完全失效，反向交易设置成功验证。\",\"lessons\":\"对立设置（opposing setup）需要多时间框架确认：日线看涨与小时线CSD的分歧是关键信号；SMT配合使用增强确认度；开盘高位（open high first）在反向设置中是重要的熊市信号；continuation被disrespected表明趋势力度不足。\",\"primary_image_frame_id\":\"jKuXaC84Qx4_f007\",\"supporting_image_frame_ids\":[\"jKuXaC84Qx4_f009\",\"jKuXaC84Qx4_f010\",\"jKuXaC84Qx4_f011\",\"jKuXaC84Qx4_f012\",\"jKuXaC84Qx4_f013\",\"jKuXaC84Qx4_f014\",\"jKuXaC84Qx4_f015\"],\"related_concepts\":[\"CSD (Change in the state of delivery)\",\"SMT (Smart Money Technique)\",\"Opposing Setup\",\"Candle Two Closure\",\"Order Block (PDH/PDL)\",\"Continuation\",\"EQ (Equilibrium)\",\"Multi-timeframe Analysis\",\"Invalidation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到小时线再到30分钟的多时间框架分析过程，清晰标注了CSD、SMT、continuation等关键结构，并追踪了完整的价",
+  "error": null
+}

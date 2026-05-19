@@ -1,0 +1,114 @@
+{
+  "card_id": "YmdC_LKT-Pk_case_003_错误偏差下的做空尝试与转向做多",
+  "type": "case",
+  "title": "失败位移识别：从错误做空转向正确做多",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "BPR",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Bias Correction",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "failure_to_displace",
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "balanced_price_range"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1M / 15S",
+  "market_context": "ES期货在早间形成equal lows结构，博主初期看空，在1分钟和15秒级别寻找做空机会，但价格未能有效向下位移，反而显示结构破坏信号。",
+  "key_observation": "博主通过观察价格在关键结构位置的失败位移（failure to displace），识别出初期看空偏差错误，进而转向做多，展示了如何用低时间框架纠正高时间框架的错误偏差。",
+  "analysis_steps": [
+    "Step 1: 在高时间框架（15分钟）识别equal lows结构，预期价格先上升后下降再上升的模式，初期建立看空偏差。",
+    "Step 2: 下降到1分钟时间框架，在equal lows上方寻找做空的价格行为模型（price action model）。",
+    "Step 3: 观察价格需要在1分钟低点下方产生位移（displacement）才能确认做空，但价格未能有效突破该低点。",
+    "Step 4: 注意到价格仍处于该范围的OTE（最优交易入场点）区域内，且存在大的FVG（公允价值缺口），暗示价格可能继续上升。",
+    "Step 5: 在15秒时间框架上，观察到价格出现aggressive down后立即aggressive up的形态，类似BPR（平衡价格区间）特征。",
+    "Step 6: 基于失败位移和结构破坏信号，转向做多，在价格回调后的低点附近建立多头头寸。",
+    "Step 7: 确认价格继续上升，目标指向高时间框架的前期高点，验证做多方向正确。"
+  ],
+  "outcome": "博主在15秒级别做空后止损出场（break even），随后在同一区域转向做多，部分头寸止损出场（break even），但整体通过结构识别成功纠正偏差并获利，价格最终继续上升至目标位。",
+  "lessons": "即使初期偏差错误，通过严格遵循结构规则和观察失败位移信号，可以在低时间框架上识别转折点并调整交易方向。失败位移是判断趋势反转的关键信号，优于盲目追随初期偏差。",
+  "primary_image": "cards/YmdC_LKT-Pk/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/YmdC_LKT-Pk/images/case_003_detail_1.jpg",
+    "cards/YmdC_LKT-Pk/images/case_003_detail_2.jpg",
+    "cards/YmdC_LKT-Pk/images/case_003_detail_3.jpg",
+    "cards/YmdC_LKT-Pk/images/case_003_detail_4.jpg",
+    "cards/YmdC_LKT-Pk/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 15 秒 K 线图。图上显示从 09:00 至 10:25 的价格走势，整体价格范围从 3794.00 到 3860.00。图中有一条矩形框标注，框定了 3814.00 至 3825.00 的价格区间。图上还有两条水平线分别位于 3825.00 和 3814.00。K 线从左侧 3794.00 附近开始上升，中间在 3814-3825 区间内出现多根红",
+    "case_003_detail_1.jpg": "CME_MINI 1 分钟 K 线图，时间范围从 10:00 至 12:20。图上显示一系列绿色和红色 K 线。左侧呈下降趋势，约从 10:00 至 10:25；随后在 10:25 至 10:50 间出现盘整；10:50 至 11:10 间呈上升趋势；11:10 至 11:30 间再次出现回调和盘整。图上标注有多条水平线，标签分别为 0、0.62、0.5、0.62、0.79，呈斐波那契比例分布。图",
+    "case_003_detail_2.jpg": "CME_MINI 1 分钟 K 线图，时间范围从 10:20 至 12:39。图上绘制了多条水平线和矩形框，其中标注有斐波那契水平位 0.5、0.62、0.79（出现两次）。K 线呈绿红相间的蜡烛形态，多根 K 线具有较长的上下影线。图右侧显示当前时间为 12:39，图上可见多条无标签的水平线和矩形框标注。",
+    "case_003_detail_3.jpg": "CME_MINI 1 分钟 K 线图。图上绘制多条水平线，标注有斐波那契比例数值（0.5、0.62、0.79），分别出现在图表的不同价格区域。左下角可见一个灰色矩形框，标记为 OB。K 线以红绿混合形式呈现，时间轴显示从 10:40 至 13:10 的 1 分钟级别数据。图上未见其他指标或形态标注。",
+    "case_003_detail_4.jpg": "S&P 500 E-mini 期货 1 分钟 K 线图。图表显示从左侧约 06:45 时间点开始的上升趋势，价格从 3700 附近上升至 3822 高点。图右侧标注有多条水平线，价格水平分别为 3822.00、3817.25、3808.75、3807.25、3800.00、3794.25、3792.50。图上标记有时间戳'Sep 21 03:22 29.64'。上升阶段以绿色 K 线为主，在 38",
+    "case_003_detail_5.jpg": "ES 1分钟K线图。图上显示从约3700至3838的上升趋势，跨越约40根K线。在3814至3822区间有一个矩形标注框。图右侧显示多个价格标签，包括3822.00、3814.00、3810.50等水平线。时间戳显示为Jun 25 Oct 22 09:52。K线以绿色为主，间有红色K线。最高点在3838附近，之后出现回调。"
+  },
+  "sources": [
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        187.56,
+        545.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从看空到看多的转变过程，清晰标注了资产（ES）、时间框架（1M/15S）、关键价位（3814-3825）、失败位移信号和交易执行细节。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:46.160996Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"失败位移识别：从错误做空转向正确做多\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1M / 15S\",\"market_context\":\"ES期货在早间形成equal lows结构，博主初期看空，在1分钟和15秒级别寻找做空机会，但价格未能有效向下位移，反而显示结构破坏信号。\",\"key_observation\":\"博主通过观察价格在关键结构位置的失败位移（failure to displace），识别出初期看空偏差错误，进而转向做多，展示了如何用低时间框架纠正高时间框架的错误偏差。\",\"analysis_steps\":[\"Step 1: 在高时间框架（15分钟）识别equal lows结构，预期价格先上升后下降再上升的模式，初期建立看空偏差。\",\"Step 2: 下降到1分钟时间框架，在equal lows上方寻找做空的价格行为模型（price action model）。\",\"Step 3: 观察价格需要在1分钟低点下方产生位移（displacement）才能确认做空，但价格未能有效突破该低点。\",\"Step 4: 注意到价格仍处于该范围的OTE（最优交易入场点）区域内，且存在大的FVG（公允价值缺口），暗示价格可能继续上升。\",\"Step 5: 在15秒时间框架上，观察到价格出现aggressive down后立即aggressive up的形态，类似BPR（平衡价格区间）特征。\",\"Step 6: 基于失败位移和结构破坏信号，转向做多，在价格回调后的低点附近建立多头头寸。\",\"Step 7: 确认价格继续上升，目标指向高时间框架的前期高点，验证做多方向正确。\"],\"outcome\":\"博主在15秒级别做空后止损出场（break even），随后在同一区域转向做多，部分头寸止损出场（break even），但整体通过结构识别成功纠正偏差并获利，价格最终继续上升至目标位。\",\"lessons\":\"即使初期偏差错误，通过严格遵循结构规则和观察失败位移信号，可以在低时间框架上识别转折点并调整交易方向。失败位移是判断趋势反转的关键信号，优于盲目追随初期偏差。\",\"primary_image_frame_id\":\"YmdC_LKT-Pk_f014\",\"supporting_image_frame_ids\":[\"YmdC_LKT-Pk_f008\",\"YmdC_LKT-Pk_f009\",\"YmdC_LKT-Pk_f010\",\"YmdC_LKT-Pk_f012\",\"YmdC_LKT-Pk_f013\"],\"related_concepts\":[\"Displacement\",\"Failure to Displace\",\"Order Block\",\"Fair Value Gap\",\"OTE\",\"Market Structure Shift\",\"BPR\",\"Price Action\",\"Bias Correction\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从看空到看多的转变过程，清晰标注了资产（ES）、时间框架（1M/15S）、关键价位（3814-3825）、失败位移信号和交易执行细节。\"}",
+  "error": null
+}

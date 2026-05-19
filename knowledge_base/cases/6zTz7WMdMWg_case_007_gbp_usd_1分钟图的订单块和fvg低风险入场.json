@@ -1,0 +1,89 @@
+{
+  "card_id": "6zTz7WMdMWg_case_007_gbp_usd_1分钟图的订单块和fvg低风险入场",
+  "type": "case",
+  "title": "GBP/USD 1分钟图订单块与FVG重叠的低风险买入",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "low_resistance_liquidity",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "GBP/USD",
+  "timeframe": "1M",
+  "market_context": "GBP/USD在2023年8月7日早盘呈现下行趋势，价格从1.27300下跌至1.27100附近，形成多个K线结构。在下跌过程中出现位移（displacement）和公允价值缺口（FVG）。",
+  "key_observation": "博主识别到价格无法收盘于前一根K线上方，预期形成新低或回测前期低点。随后出现充满活力的位移向上，伴随订单块和FVG重叠，形成低风险买入机会。",
+  "analysis_steps": [
+    "Step 1: 观察价格无法收盘于前一根K线上方，判断可能形成新低或回测前期低点。",
+    "Step 2: 识别价格向上的充满活力的位移（displacement）持续出现。",
+    "Step 3: 在位移区域内定位订单块（Order Block）和公允价值缺口（Fair Value Gap）的重叠区域。",
+    "Step 4: 确定低风险买入点位于OB与FVG重叠处（约1.27140-1.27180区间）。",
+    "Step 5: 规划部分获利点位于该区域的高点。",
+    "Step 6: 设定目标为4小时流动性（前期4小时高点）。"
+  ],
+  "outcome": null,
+  "lessons": "在订单块与FVG重叠的区域寻找低风险买入点是ICT方法的核心应用。位移后的结构调整往往提供高概率入场机会，目标应指向更高时间框架的流动性聚集区。",
+  "primary_image": "cards/6zTz7WMdMWg/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/6zTz7WMdMWg/images/case_007_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 Mon 07 Aug '23 约 05:20 至 07:10。图右侧价格刻度范围约 1.27100 至 1.27290，当前价标签显示 1.27147。图上有两条水平虚线位于约 1.27190 至 1.27200 区域。图中约 06:00 至 06:10 附近有一个矩形框标注，标签文字为 OB，价格范围约 1.27140 至 1.27180。K 线序",
+    "case_007_detail_1.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 2023 年 8 月 7 日 05:20 至 07:05。图右侧价格刻度范围约从 1.27100 至 1.27300。图上有两条水平线：一条虚线位于约 1.27280，一条实线位于约 1.27120。图左侧 K 线呈连续下行排列，从约 1.27300 下行至约 1.27120。05:50 至 06:00 区间内出现多根交替绿黑 K 线，价格在约 1."
+  },
+  "sources": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        1080.299,
+        1135.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从结构观察、位移识别、OB/FVG定位到入场规划的全过程，关键价位清晰可见于图表标注。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:17.068516Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBP/USD 1分钟图订单块与FVG重叠的低风险买入\",\"school\":\"ICT\",\"asset\":\"GBP/USD\",\"timeframe\":\"1M\",\"market_context\":\"GBP/USD在2023年8月7日早盘呈现下行趋势，价格从1.27300下跌至1.27100附近，形成多个K线结构。在下跌过程中出现位移（displacement）和公允价值缺口（FVG）。\",\"key_observation\":\"博主识别到价格无法收盘于前一根K线上方，预期形成新低或回测前期低点。随后出现充满活力的位移向上，伴随订单块和FVG重叠，形成低风险买入机会。\",\"analysis_steps\":[\"Step 1: 观察价格无法收盘于前一根K线上方，判断可能形成新低或回测前期低点。\",\"Step 2: 识别价格向上的充满活力的位移（displacement）持续出现。\",\"Step 3: 在位移区域内定位订单块（Order Block）和公允价值缺口（Fair Value Gap）的重叠区域。\",\"Step 4: 确定低风险买入点位于OB与FVG重叠处（约1.27140-1.27180区间）。\",\"Step 5: 规划部分获利点位于该区域的高点。\",\"Step 6: 设定目标为4小时流动性（前期4小时高点）。\"],\"outcome\":null,\"lessons\":\"在订单块与FVG重叠的区域寻找低风险买入点是ICT方法的核心应用。位移后的结构调整往往提供高概率入场机会，目标应指向更高时间框架的流动性聚集区。\",\"primary_image_frame_id\":\"6zTz7WMdMWg_f038\",\"supporting_image_frame_ids\":[\"6zTz7WMdMWg_f037\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Low Resistance Liquidity\",\"Market Structure\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从结构观察、位移识别、OB/FVG定位到入场规划的全过程，关键价位清晰可见于图表标注。\"}",
+  "error": null
+}

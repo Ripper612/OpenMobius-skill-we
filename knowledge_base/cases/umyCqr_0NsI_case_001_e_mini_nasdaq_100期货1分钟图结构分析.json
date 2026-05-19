@@ -1,0 +1,133 @@
+{
+  "card_id": "umyCqr_0NsI_case_001_e_mini_nasdaq_100期货1分钟图结构分析",
+  "type": "case",
+  "title": "NQ1! 1分钟图：从15分钟扫盘高点到结构转变的完整标记",
+  "related_concepts": [
+    {
+      "term": "Short-Term High/Low (STH/STL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Intermediate-Term High/Low (ITH/ITL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Long-Term High/Low (LTH/LTL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "premium_discount",
+    "equilibrium_eq",
+    "order_block_ob",
+    "short_term_high_short_term_low"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "从15分钟图扫盘买方流动性高点后，在1分钟图上追踪价格运动，观察短期、中期、长期摆动点的逐步形成，以及市场结构从上升趋势向下降趋势的转变过程。",
+  "key_observation": "博主通过逐步标记STH/STL→ITH/ITL→LTH/LTL的层级结构，演示了价格如何在扫盘高点后形成长期高点，随后通过中期高点的扫盘触发市场结构转变，最终转向下降结构。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图上识别扫盘的买方流动性高点，作为参考水平。",
+    "Step 2: 切换到1分钟图，追踪价格交易进入该买方流动性区域后的行为。",
+    "Step 3: 标记初始短期高点（STH），并等待右侧形成另一个短期高点以验证中期高点。",
+    "Step 4: 当扫盘短期高点后形成新的短期高点时，将前一个标记为中期高点（ITH）。",
+    "Step 5: 继续追踪后续短期高点的形成，标记长期高点（LTH）为对高时间框架水平的反应。",
+    "Step 6: 观察价格突破中期高点后的行为，标记随后形成的短期低点（STL）。",
+    "Step 7: 通过扫盘短期低点并在右侧形成新的短期低点，验证中期低点（ITL）的形成。",
+    "Step 8: 分析折价区与溢价区的关系，解释价格为何回撤至折价区后继续上升。",
+    "Step 9: 标记最终的中期低点和短期低点序列，确认市场结构已从上升转为下降。"
+  ],
+  "outcome": null,
+  "lessons": "高级市场结构分析需要按层级逐步验证：短期摆动点必须通过扫盘+反向形成来升级为中期摆动点；中期摆动点的扫盘是市场结构转变的关键信号；长期摆动点由对高时间框架水平的反应形成，其有效性取决于右侧中期摆动点的验证。",
+  "primary_image": "cards/umyCqr_0NsI/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/umyCqr_0NsI/images/case_001_detail_1.jpg",
+    "cards/umyCqr_0NsI/images/case_001_detail_2.jpg",
+    "cards/umyCqr_0NsI/images/case_001_detail_3.jpg",
+    "cards/umyCqr_0NsI/images/case_001_detail_4.jpg",
+    "cards/umyCqr_0NsI/images/case_001_detail_5.jpg",
+    "cards/umyCqr_0NsI/images/case_001_detail_6.jpg",
+    "cards/umyCqr_0NsI/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "E-MINI NASDAQ-100 FUTURES 1分钟K线图。图上显示价格范围约从19618到19822。可见多条绿色K线从左下向右上排列，随后转为黑色K线向下排列。图上有多个标注为STH的文字标签分布在不同价格高点。在19822.75处有一条水平线标记为Long Term High。右侧中部有一个黄色矩形框标注，位置约在19700附近。整体呈现上升后下降的价格走势。",
+    "case_001_detail_1.jpg": "ITH/ITL 的 K 线图。图上显示一系列绿色和黑色 K 线，从左侧开始呈下跌趋势，中间出现盘整区间，右侧转为上升趋势。图上有两处标注文字'STL'，分别位于左下方和中下方区域。K 线整体呈现多根蜡烛体，每根均带有上下影线。右侧最新 K 线为绿色，显示上升动能。图上未显示价格刻度数字、时间框架标注或其他技术指标。",
+    "case_001_detail_2.jpg": "ITH/ITL 交易对的 K 线图。图上显示约 20 根 K 线，颜色交替为绿色和黑色。K 线从左至右呈上升排列趋势。图右侧有文字标签'ITL'。图上有一个矩形框标注，围绕上方 K 线区域。图下方有黄色圆形标记，内含字母'b'。价格刻度和时间框架信息在图上不可见。",
+    "case_001_detail_3.jpg": "图上显示一个烛线图表，标题为'Long Term H / L'。图表包含多根绿色和黑色烛线，从左至右展示价格变动序列。图上标注了多个文字标签：'HTF Level'、'LTL'、'STL'、'ITL'、'SQ'，分别指向图表中的不同位置。左侧中部区域显示下行走势，中部显示盘整形态，右侧显示上行走势。所有烛线均具有上下影线。未显示具体价格数值或时间框架信息。",
+    "case_001_detail_4.jpg": "E-MINI NASDAQ-100 期货 15 分钟图。图上显示一系列绿色和黑色 K 线，价格范围从约 19487.50 到 19687.50。中间部分有明显的上升段，由多根绿色 K 线组成，随后跟随黑色 K 线的下降段。图上绘制了一条水平线，位置约在 19587.50 处。右下方可见黄色十字光标标记。除水平线外，图上未见其他标注或指标。",
+    "case_001_detail_5.jpg": "E-MINI NASDAQ-100 FUTURES 1分钟K线图。图上显示价格范围从16661.25至16887.25。标注文字'STR'位于图表上方约16850-16887区间。K线序列显示绿色蜡烛主导上升段，黑色蜡烛分布在下方区域。图表左侧显示较多黑色K线，中间区域呈现盘整形态，右侧显示绿色K线上升至高点，多根K线在高点处出现上影线。图上有一条水平线穿过高点区域。",
+    "case_001_detail_6.jpg": "E-MINI NASDAQ-100 FUTURES 1分钟K线图。图上显示价格范围从约19484.50至19687.50。在高点19687.50处有一条水平线标注为'Swing High'，并在该区域上方标记有多个'STH'文字标签。图表中部有一条竖虚线标记特定时间点。K线序列呈现绿色和黑色蜡烛体混合排列，上方区间（19600-19687）内K线密集分布，各根K线显示不同的主体大小和影线长度。",
+    "case_001_detail_7.jpg": "E-MINI NASDAQ-100 期货 1 分钟图。图上标注有一条水平线位于 21540 附近。多个文字标签分布在图表上方和中间，包括'Long Term High'标记在最高点附近（约 21680），以及多个'STH'标签标记在下行过程中的不同价格水平。K 线显示从左侧约 21400 的盘整区域上升至中间约 21650 的高点，随后下行至右侧约 21360 的低点。下行段中多根 K 线呈现长下"
+  },
+  "sources": [
+    {
+      "video_id": "umyCqr_0NsI",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.599,
+        550.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰：资产代码NQ1!、时间框架1分钟、关键价位和摆动点标记详细、分析步骤按实际顺序展开，从概念讲解到图表实例应用一气呵成。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:25.483727Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1! 1分钟图：从15分钟扫盘高点到结构转变的完整标记\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"从15分钟图扫盘买方流动性高点后，在1分钟图上追踪价格运动，观察短期、中期、长期摆动点的逐步形成，以及市场结构从上升趋势向下降趋势的转变过程。\",\"key_observation\":\"博主通过逐步标记STH/STL→ITH/ITL→LTH/LTL的层级结构，演示了价格如何在扫盘高点后形成长期高点，随后通过中期高点的扫盘触发市场结构转变，最终转向下降结构。\",\"analysis_steps\":[\"Step 1: 在15分钟图上识别扫盘的买方流动性高点，作为参考水平。\",\"Step 2: 切换到1分钟图，追踪价格交易进入该买方流动性区域后的行为。\",\"Step 3: 标记初始短期高点（STH），并等待右侧形成另一个短期高点以验证中期高点。\",\"Step 4: 当扫盘短期高点后形成新的短期高点时，将前一个标记为中期高点（ITH）。\",\"Step 5: 继续追踪后续短期高点的形成，标记长期高点（LTH）为对高时间框架水平的反应。\",\"Step 6: 观察价格突破中期高点后的行为，标记随后形成的短期低点（STL）。\",\"Step 7: 通过扫盘短期低点并在右侧形成新的短期低点，验证中期低点（ITL）的形成。\",\"Step 8: 分析折价区与溢价区的关系，解释价格为何回撤至折价区后继续上升。\",\"Step 9: 标记最终的中期低点和短期低点序列，确认市场结构已从上升转为下降。\"],\"outcome\":null,\"lessons\":\"高级市场结构分析需要按层级逐步验证：短期摆动点必须通过扫盘+反向形成来升级为中期摆动点；中期摆动点的扫盘是市场结构转变的关键信号；长期摆动点由对高时间框架水平的反应形成，其有效性取决于右侧中期摆动点的验证。\",\"primary_image_frame_id\":\"umyCqr_0NsI_f009\",\"supporting_image_frame_ids\":[\"umyCqr_0NsI_f003\",\"umyCqr_0NsI_f004\",\"umyCqr_0NsI_f005\",\"umyCqr_0NsI_f006\",\"umyCqr_0NsI_f007\",\"umyCqr_0NsI_f008\",\"umyCqr_0NsI_f010\",\"umyCqr_0NsI_f011\",\"umyCqr_0NsI_f012\",\"umyCqr_0NsI_f013\",\"umyCqr_0NsI_f014\",\"umyCqr_0NsI_f001\"],\"related_concepts\":[\"Short-Term High/Low (STH/STL)\",\"Intermediate-Term High/Low (ITH/ITL)\",\"Long-Term High/Low (LTH/LTL)\",\"Liquidity\",\"Buyside Liquidity\",\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Order Block (OB)\",\"Swing High / Swing Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰：资产代码NQ1",
+  "error": null
+}

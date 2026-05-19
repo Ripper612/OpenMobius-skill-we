@@ -1,0 +1,112 @@
+{
+  "card_id": "hKCMqh0ZsY0_case_003_audcad周线交易案例",
+  "type": "case",
+  "title": "AUDCAD周线交易案例：CPI后的订单块与公允价值缺口确认",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe confluence",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "propulsion_block",
+    "fair_value_gap",
+    "low_resistance_liquidity",
+    "market_structure_shift",
+    "equilibrium",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "AUDCAD",
+  "timeframe": "1W / 4H / 1H",
+  "market_context": "周一避开交易，周二CPI数据发布后价格走高。周一扫低形成市场结构转变，周二CPI后继续上升，为多头设置提供机会。",
+  "key_observation": "周线上一系列下跌收盘K线扫低后收盘在订单块上方，形成市场结构转变（CSD）。结合日线公允价值缺口和小时线低阻力流动性（前期高点），确认高概率入场点。",
+  "analysis_steps": [
+    "Step 1: 识别周线上的一系列下跌收盘K线扫低，形成订单块和市场结构转变信号。",
+    "Step 2: 观察周线收盘在订单块上方，验证该订单块为推进块（Propulsion Block），预期价格不会跌破其中点。",
+    "Step 3: 在日线上识别公允价值缺口（FVG）区域，作为目标位参考。",
+    "Step 4: 在小时线上发现低阻力流动性（前期高点堆积），与日线FVG形成汇聚。",
+    "Step 5: 结合经济日历，避开周一交易，等待周二CPI后的价格反应。",
+    "Step 6: 在小时线上观察一系列下跌收盘K线进入重要水平，收盘在其上方，确认市场结构转变。",
+    "Step 7: 在小时线FVG区域寻找最优入场点，目标为日线FVG或区间均衡点（EQ），风险回报比约1.19R至2R+。"
+  ],
+  "outcome": "价格被标记的流动性触及，交易获利。价格上升至预期的日线流动性区域，验证了基于多时间框架汇聚的交易设置。",
+  "lessons": "多时间框架汇聚（周线CSD+日线FVG+小时线OB与低阻力流动性）提高入场概率。经济事件（CPI）可作为时间过滤器，避免不确定性。推进块的中点保护提供风险管理参考。",
+  "primary_image": "cards/hKCMqh0ZsY0/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/hKCMqh0ZsY0/images/case_003_detail_1.jpg",
+    "cards/hKCMqh0ZsY0/images/case_003_detail_2.jpg",
+    "cards/hKCMqh0ZsY0/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "AUDCAD 1 小时 K 线图。图上显示从 2024 年 1 月 23 日起的价格走势，可见价格范围约 0.87700 至 0.89500。图上有 4 条水平线分别位于 0.89000、0.88600、0.88000、0.87900 处。图中标注有 3 个矩形框，分别覆盖 0.88600-0.89000、0.88300-0.88600、0.88800-0.89200 区间。图右侧有一个贯穿整个区",
+    "case_003_detail_1.jpg": "AUDCAD 日线图表显示从 2 月中旬至 4 月下旬的价格走势。图上可见约 60 根 K 线，以绿色（上升）和黑色（下降）蜡烛交替出现。价格范围从 0.87100 至 0.90900。图中标注有两个日期文本：19/4/2024 和 Non 27 Apr 24。4 月中旬出现一根高点蜡烛，其上影线刺破 0.90900。图右下角显示当前时间戳 15:24:31 UTC-4。除日期标注外，图上未见其他",
+    "case_003_detail_2.jpg": "AUDCAD 4小时K线图。图上可见一条宽矩形区域用浅黄/米色填充，位于价格0.89850至0.89950之间，横跨整个图表宽度。图右侧有一条水平虚线标注在0.88000水平。中部K线显示在0.88000至0.89000区间内的盘整形态，跨越多根K线。第18至19根K线之间出现明显向下运动，伴随长下影线。图上还有一个黄色加号符号标记在约0.88200水平附近。图下方显示日期标注为22/4 2024",
+    "case_003_detail_3.jpg": "AUDCAD 4小时K线图，价格范围从0.87700至0.92600。图上有四条水平线分别位于0.89041、0.88840、0.88600、0.88110。图上标注有三个矩形框，分别覆盖0.88110-0.88600、0.88600-0.88840、0.88840-0.89041价格区间。上方还有黄色和绿色矩形区域覆盖更高的价格范围。K线从左侧下跌至0.87700附近后反弹，右侧K线在0.881"
+  },
+  "sources": [
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        549.079,
+        776.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了周线、日线、小时线的分析过程，清晰标注了关键价位、订单块、FVG和流动性区域，给出了具体的入场逻辑和目标位，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:08.158112Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"AUDCAD周线交易案例：CPI后的订单块与公允价值缺口确认\",\"school\":\"ICT\",\"asset\":\"AUDCAD\",\"timeframe\":\"1W / 4H / 1H\",\"market_context\":\"周一避开交易，周二CPI数据发布后价格走高。周一扫低形成市场结构转变，周二CPI后继续上升，为多头设置提供机会。\",\"key_observation\":\"周线上一系列下跌收盘K线扫低后收盘在订单块上方，形成市场结构转变（CSD）。结合日线公允价值缺口和小时线低阻力流动性（前期高点），确认高概率入场点。\",\"analysis_steps\":[\"Step 1: 识别周线上的一系列下跌收盘K线扫低，形成订单块和市场结构转变信号。\",\"Step 2: 观察周线收盘在订单块上方，验证该订单块为推进块（Propulsion Block），预期价格不会跌破其中点。\",\"Step 3: 在日线上识别公允价值缺口（FVG）区域，作为目标位参考。\",\"Step 4: 在小时线上发现低阻力流动性（前期高点堆积），与日线FVG形成汇聚。\",\"Step 5: 结合经济日历，避开周一交易，等待周二CPI后的价格反应。\",\"Step 6: 在小时线上观察一系列下跌收盘K线进入重要水平，收盘在其上方，确认市场结构转变。\",\"Step 7: 在小时线FVG区域寻找最优入场点，目标为日线FVG或区间均衡点（EQ），风险回报比约1.19R至2R+。\"],\"outcome\":\"价格被标记的流动性触及，交易获利。价格上升至预期的日线流动性区域，验证了基于多时间框架汇聚的交易设置。\",\"lessons\":\"多时间框架汇聚（周线CSD+日线FVG+小时线OB与低阻力流动性）提高入场概率。经济事件（CPI）可作为时间过滤器，避免不确定性。推进块的中点保护提供风险管理参考。\",\"primary_image_frame_id\":\"hKCMqh0ZsY0_f025\",\"supporting_image_frame_ids\":[\"hKCMqh0ZsY0_f023\",\"hKCMqh0ZsY0_f024\",\"hKCMqh0ZsY0_f026\"],\"related_concepts\":[\"Order Block\",\"Change in the state of delivery\",\"Propulsion Block\",\"Fair Value Gap\",\"Low Resistance Liquidity\",\"Market Structure Shift\",\"Equilibrium\",\"Premium/Discount\",\"Multi-timeframe confluence\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了周线、日线、小时线的分析过程，清晰标注了关键价位、订单块、FVG和流动性区域，给出了具体的入场逻辑和目标位，交易结果明确。\"}",
+  "error": null
+}

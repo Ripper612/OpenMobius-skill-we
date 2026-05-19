@@ -1,0 +1,89 @@
+{
+  "card_id": "position_sizing",
+  "type": "merged_concept",
+  "canonical_term": "Position Sizing",
+  "aliases": [
+    "仓位规模",
+    "合约数量计算"
+  ],
+  "school": "Risk Management",
+  "definition": "根据账户规模、单笔风险金额和止损点数，计算每笔交易的合约数量，确保每笔交易的风险金额一致，使胜率与风险回报比的数学关系成立。",
+  "identification_rules": [
+    "固定合约法：每笔交易使用相同数量的合约，但风险金额会因止损点数不同而波动，导致风险不一致。",
+    "固定美元风险法：根据公式（定义风险金额 ÷ 每点价值 ÷ 止损点数 = 合约数量）调整合约数，使每笔交易风险金额相同。",
+    "固定百分比风险法：按账户规模的固定百分比（如1%）计算单笔风险金额，再转换为合约数量。",
+    "对于期货微型合约：可通过将迷你合约数量乘以10转换为微型合约，获得更灵活的仓位调整空间。"
+  ],
+  "trading_implication": "正确的仓位规模是使胜率与风险回报比相关性成立的前提。固定风险法（美元或百分比）优于固定合约法，因为它确保每笔交易的风险一致，使累积收益与理论期望值相符。在评估账户中应基于最大回撤额而非总账户规模计算风险，通常风险7-10%的回撤额可承受6-15次连续亏损。",
+  "common_mistakes": [
+    "使用固定合约数量而不调整，导致不同止损点数下风险金额不一致，破坏胜率与风险回报比的数学关系。",
+    "在期货评估账户中按总账户规模（如$25k）计算风险，而非按实际回撤限额（如$1.5k），导致快速爆仓。",
+    "未能区分迷你合约和微型合约的灵活性差异，限制了精确仓位调整的能力。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0OjlQ91TZiU_case_001_固定合约数导致风险不一致的案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "固定合约数导致风险不一致的案例"
+    },
+    {
+      "card_id": "0OjlQ91TZiU_case_002_固定美元风险改善交易结果的案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "固定美元风险vs固定合约数：连续亏损后的翻盘案例"
+    },
+    {
+      "card_id": "0OjlQ91TZiU_case_003_eurusd外汇交易头寸计算案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "100K账户1%风险下EURUSD头寸计算"
+    },
+    {
+      "card_id": "0OjlQ91TZiU_case_004_nq期货迷你与微型合约对比案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "NQ期货迷你与微型合约头寸精度对比"
+    },
+    {
+      "card_id": "0OjlQ91TZiU_case_005_期货评估账户风险管理案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "期货评估账户风险管理：基于回撤额度的仓位规模调整"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_006_回测结果总结",
+      "video_id": "TNybDCtwBnc",
+      "title": "五笔回测总结：80%胜率，2.79R平均收益验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "original_card_id": "0OjlQ91TZiU_concept_position_sizing",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.44,
+        673.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134750Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

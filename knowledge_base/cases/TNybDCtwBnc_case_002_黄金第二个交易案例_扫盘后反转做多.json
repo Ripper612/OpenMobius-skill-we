@@ -1,0 +1,113 @@
+{
+  "card_id": "TNybDCtwBnc_case_002_黄金第二个交易案例_扫盘后反转做多",
+  "type": "case",
+  "title": "黄金日线扫盘后反转做多——多时间框架确认",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "protected_high_low",
+    "displacement",
+    "market_structure_shift",
+    "consolidation",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "GC",
+  "timeframe": "1D / 1H / 5m",
+  "market_context": "黄金日线在盘整区间内扫出高点和低点，形成扩张低点后收盘看涨，确立做多偏向。小时线确认CSD，5分钟线等待CSD确认后入场。",
+  "key_observation": "日线扫盘后形成扩张低点与扩张高点相遇，预示反转。价格在盘整中扫出低点后收盘看涨，为后续做多提供确认信号。",
+  "analysis_steps": [
+    "Step 1: 观察日线图表，识别价格在盘整区间内扫出高点，随后扫出低点，形成扩张低点与扩张高点相遇的反转形态。",
+    "Step 2: 确认日线收盘看涨——价格扫出低点后回升并在盘整区间内收盘，建立看涨日线偏向。",
+    "Step 3: 下移至小时线，寻找CSD（交付状态改变）确认——识别价格扫出前期低点，并观察是否有看涨K线收盘。",
+    "Step 4: 小时线确认CSD后，下移至5分钟线等待CSD确认——需要看到价格突破前期下跌K线序列。",
+    "Step 5: 5分钟线CSD确认后入场做多，止损设置在受保护的低点（公允价值缺口下方），目标设置为负一标准差或2R。",
+    "Step 6: 价格扩张上升，成功达到目标价位2936.6。"
+  ],
+  "outcome": "交易成功。价格从入场点上升至目标价位2936.6，达成2R目标。",
+  "lessons": "多时间框架确认的重要性：日线提供大方向偏向，小时线确认CSD，5分钟线提供精确入场点。扫盘后的反转形态（扩张低点与扩张高点相遇）是强有力的反转信号。严格遵循CSD确认的检查清单，避免提前入场。",
+  "primary_image": "cards/TNybDCtwBnc/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/TNybDCtwBnc/images/case_002_detail_1.jpg",
+    "cards/TNybDCtwBnc/images/case_002_detail_2.jpg",
+    "cards/TNybDCtwBnc/images/case_002_detail_3.jpg",
+    "cards/TNybDCtwBnc/images/case_002_detail_4.jpg",
+    "cards/TNybDCtwBnc/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "GC 5 分钟 K 线图，时间范围从 04:00 至 12:00（北京时间 2025 年 3 月 12 日）。图上显示价格范围从 2910.0 至 2942.5。图表左侧显示从 04:00 开始的上升趋势，约至 10:00 达到高点 2936.6 附近。随后出现下跌，K 线跌破 2922.0 水平线至约 2915.0。从 10:30 起价格回升，形成两个矩形标注区域：绿色矩形覆盖 2926.0 至",
+    "case_002_detail_1.jpg": "GC 1 日线图，时间范围从 2 月 27 日至 4 月中旬。图上显示从 2 月底至 3 月中旬的上升趋势，由多根绿色 K 线组成，价格从约 2,810 上升至 2,970。图上有一个矩形框标注在 2,900 至 2,970 价格区间。3 月 20 日前后出现向下跳空，随后形成下行走势。3 月下旬至 4 月初出现盘整，K 线在 2,850 至 2,930 之间波动。右侧价格刻度显示当前价格标记在 ",
+    "case_002_detail_2.jpg": "GC 1 日线图表，时间范围从 3 月 13 日至 3 月 25 日。图上显示价格范围约 2850 至 2970。右侧价格刻度标注有 2920.3 和 2899.6 两个价格水平。图表中央有一个矩形框标注，范围约在 2890 至 2940 之间。K 线序列显示绿色和黑色蜡烛交替出现，其中 3 月 26 日附近有一根长下影线的 K 线，随后出现一根大幅下跌的黑色 K 线，主体从约 2930 跌至 2",
+    "case_002_detail_3.jpg": "GC 1 小时 K 线图，时间范围从 3 月 6 日至 3 月 14 日。图上显示价格范围约 2884 至 2944。右侧价格刻度标注 2920.3 和 2908.5 两个水平位置。图上有两个矩形框标注，分别围绕 2888-2928 和 2884-2920 价格区间。前期 K 线在 2888 至 2928 区间内震荡，第 9 天出现向下跳空至 2884 附近，随后 K 线在低位反复，第 13 天出",
+    "case_002_detail_4.jpg": "GC 1 小时 K 线图，时间为 2025 年 3 月 12 日 10:00 至 14:00。图上可见价格范围约从 2888 到 2940。右侧价格刻度标注当前价 2920.9 和 2913.1。图上有两个矩形框标注，分别围绕 2920-2928 和 2900-2920 价格区间。最右侧显示两根 K 线：一根黑色 K 线（主体约 2900-2920）后接一根绿色 K 线（主体约 2892-2920",
+    "case_002_detail_5.jpg": "GC 5分钟K线图，时间为2025年3月12日10:35。图上显示价格范围从2912.0至2932.0。右侧价格轴标记当前价2923.7。图中可见一条水平线位于2918.0附近，其上方有矩形框标注，框体范围约在2918.0至2922.0之间。K线呈现混合颜色（绿色和黑色），显示双向波动。约08:00时刻有一根K线向下刺破至2914.0附近后收回。整体呈现在2918.0至2922.0区间内的盘整形态"
+  },
+  "sources": [
+    {
+      "video_id": "TNybDCtwBnc",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        414.08,
+        645.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线、小时线、5分钟线的分析过程，清晰说明了CSD确认、入场点、止损和目标设置，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:38.333363Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金日线扫盘后反转做多——多时间框架确认\",\"school\":\"ICT\",\"asset\":\"GC\",\"timeframe\":\"1D / 1H / 5m\",\"market_context\":\"黄金日线在盘整区间内扫出高点和低点，形成扩张低点后收盘看涨，确立做多偏向。小时线确认CSD，5分钟线等待CSD确认后入场。\",\"key_observation\":\"日线扫盘后形成扩张低点与扩张高点相遇，预示反转。价格在盘整中扫出低点后收盘看涨，为后续做多提供确认信号。\",\"analysis_steps\":[\"Step 1: 观察日线图表，识别价格在盘整区间内扫出高点，随后扫出低点，形成扩张低点与扩张高点相遇的反转形态。\",\"Step 2: 确认日线收盘看涨——价格扫出低点后回升并在盘整区间内收盘，建立看涨日线偏向。\",\"Step 3: 下移至小时线，寻找CSD（交付状态改变）确认——识别价格扫出前期低点，并观察是否有看涨K线收盘。\",\"Step 4: 小时线确认CSD后，下移至5分钟线等待CSD确认——需要看到价格突破前期下跌K线序列。\",\"Step 5: 5分钟线CSD确认后入场做多，止损设置在受保护的低点（公允价值缺口下方），目标设置为负一标准差或2R。\",\"Step 6: 价格扩张上升，成功达到目标价位2936.6。\"],\"outcome\":\"交易成功。价格从入场点上升至目标价位2936.6，达成2R目标。\",\"lessons\":\"多时间框架确认的重要性：日线提供大方向偏向，小时线确认CSD，5分钟线提供精确入场点。扫盘后的反转形态（扩张低点与扩张高点相遇）是强有力的反转信号。严格遵循CSD确认的检查清单，避免提前入场。\",\"primary_image_frame_id\":\"TNybDCtwBnc_f001\",\"supporting_image_frame_ids\":[\"TNybDCtwBnc_f016\",\"TNybDCtwBnc_f017\",\"TNybDCtwBnc_f018\",\"TNybDCtwBnc_f019\",\"TNybDCtwBnc_f020\",\"TNybDCtwBnc_f022\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Change in the state of delivery\",\"Protected Swing\",\"Displacement\",\"Market Structure Shift\",\"Consolidation\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线、小时线、5分钟线的分析过程，清晰说明了CSD确认、入场点、止损和目标设置，交易结果明确。\"}",
+  "error": null
+}

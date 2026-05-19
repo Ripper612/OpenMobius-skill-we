@@ -1,0 +1,425 @@
+{
+  "card_id": "swing_low_swing_high",
+  "type": "merged_concept",
+  "canonical_term": "Swing Low / Swing High",
+  "aliases": [
+    "swing point",
+    "摆动低点",
+    "摆动高点"
+  ],
+  "school": "ICT",
+  "definition": "价格在特定时间框架内形成的局部极值点。摆动低点：中心K线低点低于两侧相邻K线低点；摆动高点：中心K线高点高于两侧相邻K线高点。标记趋势反转的基础结构，也是流动性聚集、止损参考和多时间框架对齐的关键水平。",
+  "identification_rules": [
+    "摆动低点：识别一根K线，其低点低于左右两侧相邻K线的低点（低-高-低结构）；摆动高点：识别一根K线，其高点高于左右两侧相邻K线的高点（高-低-高结构）",
+    "价格扫出（sweep）前一根K线的高点或低点后，必须收回到前一根K线的范围内（通过收盘位置判断），方可确认摆动点形成",
+    "摆动点可标记为Candle 2，Candle 1为其前一根K线，Candle 3为其后一根K线；Candle 4应沿反转方向延续",
+    "有效摆动点需与更高时间框架的交付状态改变（CSD）配合确认，不可仅凭单一时间框架判断",
+    "摆动点须满足有效分离条件：与前一个同向极值点之间距离足够大，不能过于接近或重叠",
+    "使用回溯周期判断相关性：仅考虑当前高时间框架K线及其前两根K线范围内的摆动点为相关摆动点",
+    "在breaker block延续策略中，需等待摆动点被扫盘（sweep）后才能确认新的摆动点形成",
+    "摆动点可跨越多个时间框架识别（从周线到分钟线），在时间框架对齐分析中作为关键水平与FVG、OB并列",
+    "从摆动低点到摆动高点的连线构成操纵腿，可用于标准差投影的基准"
+  ],
+  "trading_implication": "摆动点是市场结构分析、多时间框架对齐和AMD模型的核心参考。摆动低点下方为卖方流动性，摆动高点上方为买方流动性，机构通过扫荡这些位置启动价格运动。交易者在高时间框架确认偏差方向后，于中间时间框架识别摆动点，再于低时间框架寻找CSD或K线收盘确认入场。受保护的摆动点（Protected Swing）常作为止损参考；摆动失败时，失败的摆动点转变为下一步流动性目标。",
+  "common_mistakes": [
+    "仅根据价格扫出高点/低点就判断形成了摆动点，忽视了必须收回到前一根K线范围内的收盘要求",
+    "未在更高时间框架确认交付状态改变（CSD），导致摆动点信号不可靠",
+    "将任意局部高低点都视为有效摆动点，忽视两侧K线对比要求或有效分离条件",
+    "不考虑回溯周期，使用过于久远的摆动点，导致其相关性下降",
+    "在高时间框架上识别摆动点用于低时间框架操作，或反之在低时间框架识别摆动点却用于高时间框架判断，导致时间框架错配",
+    "忽视日线偏差与摆动点的关联性，单独使用摆动点而失去方向性",
+    "未等待摆动点被完全扫盘就提前入场，导致被假突破打止损",
+    "在摆动点被突破后仍将其作为支撑/阻力使用，而不是追踪新形成的摆动点",
+    "将摆动失败（Failure Swing）误认为有效摆动点，在不应该反转的位置期待反转",
+    "混淆摆动点与订单块（Order Block）的概念——摆动点是极值点，订单块是K线结构",
+    "混淆摆动点与相对相等的高/低点（Equal Highs/Lows），后者是多个摆动点在相近价格水平的聚集",
+    "在受保护摆动点被扫除时继续持仓，未能及时识别市场结构转变",
+    "在摆动点形成前过早入场，而不是等待K线收盘确认"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Candle Closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candle Formation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Daily Bias",
+      "card_id": "daily_bias",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Time Frame Alignment",
+      "card_id": "time_frame_alignment",
+      "exists": true
+    },
+    {
+      "term": "Relevant Highs and Lows",
+      "card_id": "relevant_swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Valid Separation",
+      "card_id": "valid_separation",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Breakout",
+      "card_id": "breakout",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Closure",
+      "card_id": "candle_3_closure",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Timeframe Alignment",
+      "card_id": "timeframe_alignment",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "5fnFOh5YuM0_case_003_欧元美元日线看涨设置",
+      "video_id": "5fnFOh5YuM0",
+      "title": "欧元美元日线看涨设置：低阻力流动性与摆动结构确认"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_004_btc日线看跌扩张交易",
+      "video_id": "5fnFOh5YuM0",
+      "title": "日线扩张K线的多时间框架看跌交易"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_005_gbp_usd_4小时图的摆动点和fvg应用",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD 4小时图的摆动点和FVG多次反转分析"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_006_gbp_usd从4小时到1分钟的多时间框架交易执行",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD 4小时到1分钟多时间框架交易执行"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_002_gld月线至小时线的看涨交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "GLD月线至小时线的看涨交易——受保护摆动入场"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_001_eur_aud日线至小时线的反转交易案例",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "EUR/AUD日线偏差确认至小时线CSD反转交易"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_001_btc_1小时图_理想的v形反转continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时图：理想的V形反转continuation"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_006_btc_1小时图_扫除高点后的continuation等待",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时图：扫除高点后的continuation等待"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_005_usd_1小时图_范围突破反转失败案例",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1H：范围突破反转失败案例"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_002_周一7月10日es与nq摆动点分析",
+      "video_id": "c_mh19e3mhI",
+      "title": "7月10日ES与NQ摆动点SMT分析"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_001_黄金小时线看涨扩张交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "黄金小时线看涨扩张交易案例"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_003_btc多时间框架延续交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "BTC小时线摆动点内多时间框架延续交易"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_004_整理范围突破后的看涨交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "整理范围突破后的看涨交易案例"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_004_eurusd日线到小时图伦敦时段交易",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "GBPUSD日线看跌偏差到小时图伦敦时段FVG交易"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_005_gbp_usd日线到小时图纽约时段交易",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "GBP/USD纽约时段小时图FVG交易设置"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_001_apoz日线上的多个k线2收盘识别",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线多个K线2收盘的识别与验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_swing_point",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.92,
+        191.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_swing_point",
+      "segment_ids": [
+        "seg_002",
+        "seg_005"
+      ],
+      "time_range": [
+        54.96,
+        214.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_swing_point",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.88,
+        139.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "original_card_id": "Pcbyc9TdNsU_concept_swing_low_swing_high",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        234.0,
+        593.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TNybDCtwBnc",
+      "original_card_id": "TNybDCtwBnc_concept_swing_point",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.04,
+        124.079
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "U8xH2dEgH5A",
+      "original_card_id": "U8xH2dEgH5A_concept_swing_point",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        246.799
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_swing_point",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_006",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        10.88,
+        636.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_swing_point",
+      "segment_ids": [
+        "seg_013",
+        "seg_020"
+      ],
+      "time_range": [
+        481.16,
+        753.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_swing_point",
+      "segment_ids": [
+        "seg_003",
+        "seg_008",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_018",
+        "seg_032",
+        "seg_036"
+      ],
+      "time_range": [
+        263.04,
+        1917.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_swing_point",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.04,
+        551.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xP-o11jRCyg",
+      "original_card_id": "xP-o11jRCyg_concept_swing_low_swing_high",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        192.04,
+        852.199
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 11,
+    "source_videos": 11,
+    "high_confidence_sources": 11,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:58.662196Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "11张原始卡中ICT 7张、Price Action 4张，按多数选ICT。Price Action卡与ICT卡在核心识别逻辑上高度一致，主要差异在于ICT强调CSD确认和时间框架对齐，已综合纳入。",
+  "error": null
+}

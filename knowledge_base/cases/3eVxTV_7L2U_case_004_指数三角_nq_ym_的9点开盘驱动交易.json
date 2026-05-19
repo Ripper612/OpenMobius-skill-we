@@ -1,0 +1,92 @@
+{
+  "card_id": "3eVxTV_7L2U_case_004_指数三角_nq_ym_的9点开盘驱动交易",
+  "type": "case",
+  "title": "NQ/YM指数三角9点开盘驱动交易",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Precision Swing Point (PSP)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Range High / Range Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Indices Triad",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "order_block",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "SMC",
+  "asset": "NQ1! / YM1!",
+  "timeframe": "1H",
+  "market_context": "美股开盘前夜间交易中，YM在范围低点形成操纵，与NQ出现Smart Money Technique分歧，9:00 a.m.美股开盘作为关键驱动时间窗口。",
+  "key_observation": "YM在范围低点运行，与NQ形成SMT（一个创新高，一个未创新高），随后在9:00 a.m.精准摆动点（PSP）确认，该时间点恰好是美股开盘，提供了高概率的交易驱动。",
+  "analysis_steps": [
+    "Step 1: 识别YM在范围低点的操纵行为，标记Range Low水平线。",
+    "Step 2: 观察NQ与YM的分歧现象（SMT），NQ未能跟随YM创新高。",
+    "Step 3: 确认9:00 a.m.时刻形成的精准摆动点（PSP），与美股开盘时间重合。",
+    "Step 4: 等待第2根K线收盘确认，作为10:00 a.m.继续交易的信号。",
+    "Step 5: 在YM上执行交易，利用强势第3根K线收盘确认，目标指向Range High。"
+  ],
+  "outcome": "博主在YM上执行了该交易，利用强势第3根K线收盘后寻求10点继续，目标为范围高点。",
+  "lessons": "利用多资产分歧（SMT）结合特定时间驱动（美股开盘9点）可以识别高概率反转点；精准摆动点与市场开盘时间的重合增强了交易信号的可靠性；等待多根K线确认（candle 2、candle 3）可以提高入场质量。",
+  "primary_image": "cards/3eVxTV_7L2U/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/3eVxTV_7L2U/images/case_004_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图上为双面板布局，左侧为 NQ1!（纳斯达克100 E-mini 期货）1小时 K 线图，右侧为 YM1!（道琼斯 E-mini $5 期货）1小时 K 线图。左侧面板可见价格范围约 21500 至 22020，右侧轴当前价标签显示 21886.25。左侧图上有一条从低点区域向右上方延伸的趋势线，起点约在 21580 附近。右侧面板可见价格范围约 42475 至 43200，图上标注一条水平线并附",
+    "case_004_detail_1.jpg": "图为双面板布局，左侧为 NQ1!（纳斯达克100 E-mini 期货）1小时 K 线图，右侧为 YM（道琼斯 E-mini 期货）1小时 K 线图，均来自 TradingView Replay 模式。左侧面板可见价格范围约 21500 至 22020，图上有一条从低点向右上方延伸的趋势线，当前价格标签显示 21886.25。右侧面板可见价格范围约 42575 至 43200，图上标注一个矩形框位于"
+  },
+  "sources": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "segment_ids": [
+        "seg_017",
+        "seg_018"
+      ],
+      "time_range": [
+        1107.12,
+        1170.559
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整阐述了分析步骤、资产代码、时间框架、关键价位（Range Low/High）、时间驱动（9:00 a.m.开盘）和交易执行结果，信息清晰完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:22:08.866547Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ/YM指数三角9点开盘驱动交易\",\"school\":\"SMC\",\"asset\":\"NQ1! / YM1!\",\"timeframe\":\"1H\",\"market_context\":\"美股开盘前夜间交易中，YM在范围低点形成操纵，与NQ出现Smart Money Technique分歧，9:00 a.m.美股开盘作为关键驱动时间窗口。\",\"key_observation\":\"YM在范围低点运行，与NQ形成SMT（一个创新高，一个未创新高），随后在9:00 a.m.精准摆动点（PSP）确认，该时间点恰好是美股开盘，提供了高概率的交易驱动。\",\"analysis_steps\":[\"Step 1: 识别YM在范围低点的操纵行为，标记Range Low水平线。\",\"Step 2: 观察NQ与YM的分歧现象（SMT），NQ未能跟随YM创新高。\",\"Step 3: 确认9:00 a.m.时刻形成的精准摆动点（PSP），与美股开盘时间重合。\",\"Step 4: 等待第2根K线收盘确认，作为10:00 a.m.继续交易的信号。\",\"Step 5: 在YM上执行交易，利用强势第3根K线收盘确认，目标指向Range High。\"],\"outcome\":\"博主在YM上执行了该交易，利用强势第3根K线收盘后寻求10点继续，目标为范围高点。\",\"lessons\":\"利用多资产分歧（SMT）结合特定时间驱动（美股开盘9点）可以识别高概率反转点；精准摆动点与市场开盘时间的重合增强了交易信号的可靠性；等待多根K线确认（candle 2、candle 3）可以提高入场质量。\",\"primary_image_frame_id\":\"3eVxTV_7L2U_f037\",\"supporting_image_frame_ids\":[\"3eVxTV_7L2U_f038\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Precision Swing Point (PSP)\",\"Order Block\",\"Range High / Range Low\",\"Market Structure\",\"Liquidity\",\"Indices Triad\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整阐述了分析步骤、资产代码、时间框架、关键价位（Range Low/High）、时间驱动（9:00 a.m.开盘）和交易执行结果，信息清晰完整。\"}",
+  "error": null
+}

@@ -1,0 +1,372 @@
+{
+  "card_id": "candle_2_closure_c2",
+  "type": "merged_concept",
+  "canonical_term": "Candle 2 Closure (C2)",
+  "aliases": [
+    "C2",
+    "Candle 2 Closure"
+  ],
+  "school": "ICT",
+  "definition": "在反转结构中，第二根K线收盘时扫除前一根K线极值（高点或低点）后回闭至该K线范围内的形态。作为交付状态改变（CSD）的确认点，预示第三根K线将沿反转方向扩展，是多时间框架趋势反转的关键触发信号。",
+  "identification_rules": [
+    "在高时间框架上，第二根K线必须扫除前一根K线的高点或低点，随后收盘回到前一根K线范围内（看涨：扫低后收盘回到前K线低点上方；看跌：扫高后收盘回到前K线高点下方）",
+    "第二根K线收盘价须位于前一根K线的开盘价与收盘价之间（实体范围内），而非延续收盘（收盘在前一根K线范围外）",
+    "必须在低时间框架上确认存在Change in State of Delivery（CSD）：验证价格已穿过形成该极值的K线序列水平；仅当C2与CSD同时满足时，信号才有效",
+    "识别后立即标记前一根K线范围的均衡点（EQ，50%位置），用于衡量下影线大小：小下影线（未超过EQ）表明反转力度强；大下影线（超过EQ）表明反转蜡烛，应谨慎",
+    "观察第三根K线是否在前一根K线均衡点上方（看涨）或下方（看跌）形成，以判断反转延续强度",
+    "C2须在高时间框架关键位置形成，如前期摆动高/低点、公允价值缺口（FVG）或订单块（OB）附近",
+    "结合多时间框架对齐验证：高时间框架C2确认后，在低时间框架寻找对应的CSD和入场结构",
+    "指标标注中：灰色C2表示设置在第四根K线后仍有效；红色C2表示在第一根后续K线内失效；橙色C2表示在第二根后续K线内失效"
+  ],
+  "trading_implication": "C2 Closure确认反转有效性，是多时间框架交易的关键触发点。高时间框架C2形成后，交易者下沉至低时间框架（15分钟、1分钟）寻找CSD确认和精确入场点。C2+CSD组合表明机构订单流向改变，可预期第三根K线沿反转方向扩展。有效C2还可作为斐波那契投影起始锚点，生成目标价位。小下影线C2反转力度强；无CSD确认的C2通常导致盘整而非趋势延续。",
+  "common_mistakes": [
+    "在C2收盘前过早入场，未等待完整收盘确认",
+    "仅基于高时间框架C2闭合就入场，忽视低时间框架CSD验证，导致在虚假反转中亏损",
+    "忽视C2与Change in State of Delivery的配套关系，单独使用C2而不结合结构转变分析",
+    "未将C2与高时间框架偏向（FVG、OB、流动性）对齐，交易方向与整体结构不符",
+    "混淆小下影线（支持反转扩张）和大下影线（反转蜡烛，应避免），错误判断交易机会",
+    "未在C2 Closure后立即标记前一根K线的均衡点（EQ），导致无法准确衡量下影线大小",
+    "混淆Candle 2 Closure与Candle 3 Closure：C3是第三根K线收盘突破第二根K线范围的延续信号",
+    "将C2与盘整混淆：低时间框架未形成CSD时，价格回闭为盘整而非有效反转",
+    "在低时间框架有CSD但高时间框架无C2闭合时交易，CSD单独不构成有效信号",
+    "在没有高时间框架关键位置支撑的情况下，交易每一个扫除并回撤的形态，导致虚假信号",
+    "在CSD未确认前就提前标记斐波那契投影，导致参考点错误",
+    "混淆第二根K线的开盘价与收盘价作为投影锚点",
+    "忽视操纵腿大小对目标选择的影响（大操纵腿应降低预期至-1而非-2/-2.5）",
+    "未根据C2颜色状态（灰/红/橙）判断设置有效性"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Closure (C3)",
+      "card_id": "candle_3_closure_c3",
+      "exists": true
+    },
+    {
+      "term": "Candle 4 Closure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "T-Spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Time Frame Alignment",
+      "card_id": "time_frame_alignment",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Wick Size",
+      "card_id": "wick_size",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_002_usdcad小时线延续交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD小时线看跌延续交易——从C2收盘到突破前日低点"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_001_黄金期货_gc_周线至小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "黄金期货(GC)周线看跌至小时线2R获利交易"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_003_btc日线至小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "BTC日线至小时线的看跌交易：双次入场与止损管理"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_001_eth_4小时日线对齐交易案例",
+      "video_id": "FgP2lc9nneM",
+      "title": "ETH 4小时日线对齐交易案例：多时间框架联动反转"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_002_黄金_gc_多日扫盘后的看空交易",
+      "video_id": "FgP2lc9nneM",
+      "title": "黄金(GC)7日无新摆动后的日线Candle 2看空交易"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_003_原油_ol_周线到日线的高级对齐案例",
+      "video_id": "FgP2lc9nneM",
+      "title": "原油(OL)周线到日线的高级多时间框架对齐案例"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_001_黄金小时线看涨扩张交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "黄金小时线看涨扩张交易案例"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_001_apoz日线上的多个k线2收盘识别",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线多个K线2收盘的识别与验证"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_003_usd期货月线到日线到小时线的多级分形",
+      "video_id": "tyoxl1l-6iI",
+      "title": "USD期货月线到日线到小时线的多级分形交易"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_004_usd_4小时线上的k线2收盘与延续",
+      "video_id": "tyoxl1l-6iI",
+      "title": "USD 4小时线K线2收盘形态识别与下钻交易"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_003_ym_5分钟图大操纵腿处理",
+      "video_id": "upHS7SDL9kg",
+      "title": "YM 5分钟图大操纵腿使用-1标准差目标反转"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_004_bll_1小时图多阶段投影追踪",
+      "video_id": "upHS7SDL9kg",
+      "title": "BLL 1小时图多阶段投影追踪与目标命中"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_001_usd_1小时图有效c2扫盘确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD 1H有效C2扫盘确认与5分钟CSD验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_candle_2_closure",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        118.719,
+        301.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_candle_2_closure",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        49.12,
+        334.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_candle_2_closure",
+      "segment_ids": [
+        "seg_003",
+        "seg_006"
+      ],
+      "time_range": [
+        369.08,
+        1082.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_candle_2_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_006",
+        "seg_011",
+        "seg_012",
+        "seg_021"
+      ],
+      "time_range": [
+        11.12,
+        921.68
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_candle_2_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_006",
+        "seg_007",
+        "seg_011"
+      ],
+      "time_range": [
+        10.88,
+        636.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "nWHint4Yano",
+      "original_card_id": "nWHint4Yano_concept_candle_2_closure",
+      "segment_ids": [
+        "seg_006",
+        "seg_010"
+      ],
+      "time_range": [
+        322.32,
+        543.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "tyoxl1l-6iI",
+      "original_card_id": "tyoxl1l-6iI_concept_candle_2_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        11.04,
+        778.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "upHS7SDL9kg",
+      "original_card_id": "upHS7SDL9kg_concept_candle_2_closure",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_007",
+        "seg_012"
+      ],
+      "time_range": [
+        42.64,
+        485.52
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "original_card_id": "vn1RYjhJUnQ_concept_candle_2_closure_c2",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_007",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        48.239,
+        594.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 9,
+    "source_videos": 9,
+    "high_confidence_sources": 9,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:07.121876Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "9张原始卡均标注ICT，school无冲突。各卡对C2的描述侧重不同（反转收盘、FVG反弹、指标标注、投影锚点），已综合为统一定义，核心机制一致。",
+  "error": null
+}

@@ -1,0 +1,96 @@
+{
+  "card_id": "E6bpY4dQvlE_case_004_s_p_500_e_mini期货盘整区间突破回测交易",
+  "type": "case",
+  "title": "E-mini期货盘整区间突破回测交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "balanced_price_range",
+    "displacement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "CME_MINI",
+  "timeframe": null,
+  "market_context": "S&P 500 E-mini期货形成明显的盘整区间，价格在该区间内反复震荡，随后出现激进突破并回测该区间。",
+  "key_observation": "价格激进突破盘整区间后回测，产生FVG和BPR。关键是使用K线实体确认未跌破回测支撑，作为高概率入场信号。",
+  "analysis_steps": [
+    "Step 1: 识别大型盘整区间（consolidation range）的上下边界。",
+    "Step 2: 观察价格激进突破该区间，产生Fair Value Gap（FVG）。",
+    "Step 3: 价格回测进入盘整区间，形成Balanced Price Range（BPR）。",
+    "Step 4: 使用K线实体确认回测时未收盘跌破支撑位。",
+    "Step 5: 在确认的支撑位使用低时间框架止损，目标为区间另一侧（上方）。"
+  ],
+  "outcome": "建立交易设置：止损25.25点（0.67%），目标82.75点（2.18%），风险回报比约1:3.3。",
+  "lessons": "盘整区间突破后的回测是高概率交易机会。关键是用K线实体而非影线确认支撑，并使用低时间框架精确止损，目标为区间对侧。",
+  "primary_image": "cards/E6bpY4dQvlE/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/E6bpY4dQvlE/images/case_004_detail_1.jpg",
+    "cards/E6bpY4dQvlE/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图左上角显示资产代码 CME_MINI，来源平台为 TradingView，时间框架不可见。图中央偏左有一个无填充矩形框标注区域，覆盖约 10 根 K 线。图中部有一个交易标注工具，分为上方绿色矩形（目标区）和下方粉色矩形（止损区）。绿色矩形标签显示 Target: 82.75 (2.18%) 331, Amount: 1819.31；粉色矩形标签显示 Stop: 25.25 (0.67%) 10",
+    "case_004_detail_1.jpg": "图左上角显示平台标识 CME_MINI 及 TradingView 字样，时间框架与价格刻度均不可见。图中为 K 线图，整体呈现左侧高点、中部低点、右侧回升的走势形态。图中央偏左位置绘有一个无文字标签的水平矩形框，覆盖数根 K 线区域。一条垂直虚线贯穿图表中部。图右侧 K 线整体位于中部低点之上，但低于左侧高点区域。图上未见价格数字刻度、指标面板或其他文字标注。",
+    "case_004_detail_2.jpg": "图左上角显示平台标识 CME_MINI · TradingView，时间框架不可读。图上无价格刻度轴，价格数字不可读。K 线整体呈先下后上的 V 形走势，左侧为连续红色 K 线下行，右侧为绿色 K 线回升。图中央偏左区域有一个矩形标注框，框住约 3 至 4 根 K 线。矩形框底部附近有一条带两个蓝色端点手柄的水平线段。图中央偏右有一条垂直虚线，图底部有一条贯穿全图的水平虚线。图上无文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "E6bpY4dQvlE",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        359.639,
+        401.3
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了盘整区间识别、突破、回测、入场确认和风险管理的全流程，图表清晰标注了目标和止损位。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_timeframe"
+  ],
+  "extracted_at": "2026-05-13T15:29:51.790097Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"E-mini期货盘整区间突破回测交易\",\"school\":\"ICT\",\"asset\":\"CME_MINI\",\"timeframe\":null,\"market_context\":\"S&P 500 E-mini期货形成明显的盘整区间，价格在该区间内反复震荡，随后出现激进突破并回测该区间。\",\"key_observation\":\"价格激进突破盘整区间后回测，产生FVG和BPR。关键是使用K线实体确认未跌破回测支撑，作为高概率入场信号。\",\"analysis_steps\":[\"Step 1: 识别大型盘整区间（consolidation range）的上下边界。\",\"Step 2: 观察价格激进突破该区间，产生Fair Value Gap（FVG）。\",\"Step 3: 价格回测进入盘整区间，形成Balanced Price Range（BPR）。\",\"Step 4: 使用K线实体确认回测时未收盘跌破支撑位。\",\"Step 5: 在确认的支撑位使用低时间框架止损，目标为区间另一侧（上方）。\"],\"outcome\":\"建立交易设置：止损25.25点（0.67%），目标82.75点（2.18%），风险回报比约1:3.3。\",\"lessons\":\"盘整区间突破后的回测是高概率交易机会。关键是用K线实体而非影线确认支撑，并使用低时间框架精确止损，目标为区间对侧。\",\"primary_image_frame_id\":\"E6bpY4dQvlE_f014\",\"supporting_image_frame_ids\":[\"E6bpY4dQvlE_f012\",\"E6bpY4dQvlE_f013\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Balanced Price Range\",\"Displacement\",\"Market Structure\",\"Price Action\",\"Support and Resistance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了盘整区间识别、突破、回测、入场确认和风险管理的全流程，图表清晰标注了目标和止损位。\"}",
+  "error": null
+}

@@ -1,0 +1,113 @@
+{
+  "card_id": "caaS6_Q7O78_case_002_btc日线与小时线的联动交易",
+  "type": "case",
+  "title": "BTC日线反转信号与小时线精确入场执行",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "propulsion_block",
+    "fair_value_gap",
+    "displacement",
+    "market_structure_shift",
+    "aligned_timeframe"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1D / 1H",
+  "market_context": "BTC在日线上扫出前一根K线低点，形成看涨偏差，预示次日看涨方向。随后在小时线上通过Order Block回测和Propulsion Block形成，寻找精确入场点和风险管理设置。",
+  "key_observation": "博主通过日线的前一根K线低点扫出（sweep）确立看涨偏差，然后在小时线上等待Order Block回测和Propulsion Block形成，以此确定入场点和止损位置。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别前一根K线的低点被扫出，这给出次日看涨偏差的预期。",
+    "Step 2: 切换到小时线，观察价格是否在0.5斐波那契回撤位获得看涨价格行为（aggressive move higher）。",
+    "Step 3: 追踪日线收盘，如果收盘在前一根K线高点上方，预期价格继续上升。",
+    "Step 4: 识别日线的盘整（consolidation）后，预期可能出现向下操纵（manipulation lower）以获得看涨方向的同步。",
+    "Step 5: 在小时线上等待价格回测到Order Block或Change in State of Delivery（CSD）水平。",
+    "Step 6: 当小时线形成Propulsion Block（在Order Block被回测后形成的新订单块）时，确认入场点。",
+    "Step 7: 设置止损在该Propulsion Block的高点，目标为2R或扫出下方的低点。",
+    "Step 8: 验证日线收盘是否在区间内回测，以确认小时线的看跌方向预期。"
+  ],
+  "outcome": "价格从入场点下跌，达到2R目标，随后继续下跌扫出下方的低点，交易成功。",
+  "lessons": "在高时间框架（日线）确立方向偏差后，在低时间框架（小时线）通过Order Block回测和Propulsion Block形成来精确入场，结合止损和风险回报比管理，可以提高交易成功率。分形概念适用于所有时间框架。",
+  "primary_image": "cards/caaS6_Q7O78/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/caaS6_Q7O78/images/case_002_detail_1.jpg",
+    "cards/caaS6_Q7O78/images/case_002_detail_2.jpg",
+    "cards/caaS6_Q7O78/images/case_002_detail_3.jpg",
+    "cards/caaS6_Q7O78/images/case_002_detail_4.jpg",
+    "cards/caaS6_Q7O78/images/case_002_detail_5.jpg",
+    "cards/caaS6_Q7O78/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "BTC/USD 1小时K线图。图上显示从64500下跌至58250的价格走势。左侧标注多个价格水平点，包括63851.99、63750.00、63370.00、62489.33、61302.91、60878.55、60469.96。图中绘制有多个矩形区域标注，分别位于63000-62000、63500-62500、61300-60500、61000-58750价格范围。一条向下倾斜的趋势线从左上向",
+    "case_002_detail_1.jpg": "BTC/USD K线图显示价格从约61500上升至65750形成一系列绿色K线，随后出现两根大幅下跌的黑色K线，从65500下行至60750。图上有一条水平虚线标注在60000价格水平。最新K线为绿色，收于60500附近。图右上角显示'The Market Lens'文字标签。可见价格范围约从58500至66000。除水平线外未见其他标注或指标。",
+    "case_002_detail_2.jpg": "图表显示一份K线图，价格范围从59500到64500。图上有两条水平线分别位于60500和62000处，形成一个矩形区域。左侧K线在60500至62000区间内震荡，中间部分价格上升至63000附近。右侧出现一根大黑色K线，上影线延伸至约64100，随后跟随一根绿色K线收于61900附近。图右下角显示数值59319.12，左上角标注'The Market Lens'。",
+    "case_002_detail_3.jpg": "图表显示一份K线图，价格范围从59400到63600。左侧显示一段盘整区间，K线在61800至62400之间波动。中间部分出现向上跳空，随后价格回落。右侧显示一根大幅上升的绿色K线，从60600上升至62500，其中包含一根较小的红色K线。图上有两条虚线水平线分别位于62000和60800，一条虚线竖线标记特定时间点。左上角显示'The Market Lens'文字，左下角显示'80,904.11",
+    "case_002_detail_4.jpg": "图表显示一份 K 线图，资产代码和时间框架未清晰显示。价格范围从 60400 到 64600。图上有三条水平线分别位于 62883.32、62800 和 62100 处。右侧区域有两个矩形框标注，分别覆盖 62100 至 62800 和 62800 至 63000 的价格区间。中部区域有多根 K 线呈现绿黑相间的形态，伴随较长的上下影线，价格波动范围在 62600 至 63900 之间。图上还有两",
+    "case_002_detail_5.jpg": "BTC/USD 蜡烛图。图上可见价格范围从 59800 到 64000。左侧标注三个价格数值：63169.07、62293.39、60708.74。图上绘制多条矩形框，分别覆盖约 61000-61400、62200-63000、60600-62800 等价格区间。60600 处有一条水平虚线贯穿全图。图上还有多条竖向虚线将图表分割成若干时间段。右上角显示'The Market Lens'文字标签。",
+    "case_002_detail_6.jpg": "K线图显示价格范围从58400到62600。图上有一个浅绿色矩形标注区域，覆盖约61000至62200的价格范围。两条水平虚线分别标注在60468.96和60200.12处。右侧可见一根长下影线的黑色K线，下影线向下刺破至约58900。图右侧有一根绿色K线。中间区域显示多根小实体K线在60400至61200之间的整理形态。图上右上角显示'The Market Lens'文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "caaS6_Q7O78",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        548.399,
+        904.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线偏差识别到小时线入场执行的全过程，包括具体价位、K线形态、止损设置和2R目标，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:45.575488Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC日线反转信号与小时线精确入场执行\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1D / 1H\",\"market_context\":\"BTC在日线上扫出前一根K线低点，形成看涨偏差，预示次日看涨方向。随后在小时线上通过Order Block回测和Propulsion Block形成，寻找精确入场点和风险管理设置。\",\"key_observation\":\"博主通过日线的前一根K线低点扫出（sweep）确立看涨偏差，然后在小时线上等待Order Block回测和Propulsion Block形成，以此确定入场点和止损位置。\",\"analysis_steps\":[\"Step 1: 在日线上识别前一根K线的低点被扫出，这给出次日看涨偏差的预期。\",\"Step 2: 切换到小时线，观察价格是否在0.5斐波那契回撤位获得看涨价格行为（aggressive move higher）。\",\"Step 3: 追踪日线收盘，如果收盘在前一根K线高点上方，预期价格继续上升。\",\"Step 4: 识别日线的盘整（consolidation）后，预期可能出现向下操纵（manipulation lower）以获得看涨方向的同步。\",\"Step 5: 在小时线上等待价格回测到Order Block或Change in State of Delivery（CSD）水平。\",\"Step 6: 当小时线形成Propulsion Block（在Order Block被回测后形成的新订单块）时，确认入场点。\",\"Step 7: 设置止损在该Propulsion Block的高点，目标为2R或扫出下方的低点。\",\"Step 8: 验证日线收盘是否在区间内回测，以确认小时线的看跌方向预期。\"],\"outcome\":\"价格从入场点下跌，达到2R目标，随后继续下跌扫出下方的低点，交易成功。\",\"lessons\":\"在高时间框架（日线）确立方向偏差后，在低时间框架（小时线）通过Order Block回测和Propulsion Block形成来精确入场，结合止损和风险回报比管理，可以提高交易成功率。分形概念适用于所有时间框架。\",\"primary_image_frame_id\":\"caaS6_Q7O78_f026\",\"supporting_image_frame_ids\":[\"caaS6_Q7O78_f020\",\"caaS6_Q7O78_f021\",\"caaS6_Q7O78_f022\",\"caaS6_Q7O78_f023\",\"caaS6_Q7O78_f024\",\"caaS6_Q7O78_f025\"],\"related_concepts\":[\"Order Block\",\"Change in the state of delivery\",\"Propulsion Block\",\"Fair Value Gap\",\"Displacement\",\"Market Structure Shift\",\"Risk Management\",\"Fractal Model\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线偏差识别到小时线入场执行的全过程，包括具体价位、K线形态、止损设置和2R目标，分析步骤清晰有序。\"}",
+  "error": null
+}

@@ -1,0 +1,53 @@
+{
+  "card_id": "series_of_down_closed_candles",
+  "type": "merged_concept",
+  "canonical_term": "Series of Down Closed Candles",
+  "aliases": [
+    "连续下跌收盘K线序列"
+  ],
+  "school": "Price Action",
+  "definition": "一系列连续收盘价下行的K线。用于确认反转后的延续方向，穿过这些K线表示趋势确认，常与Change in State of Delivery结合使用。",
+  "identification_rules": [
+    "识别前期形成反转的摆动高点（swing high）",
+    "从该摆动高点开始，观察随后K线的收盘价是否连续下行",
+    "这些下跌收盘的K线序列应对应于反转后的初期下跌阶段",
+    "通常与扩张-回撤-扩张（expansion-retracement-expansion）的价格阶段相关联"
+  ],
+  "trading_implication": "Series of Down Closed Candles用于确认反转信号的有效性。当价格穿过这一系列下跌收盘K线时，表明反转趋势已确立，可作为继续下跌的延续信号。结合Change in State of Delivery使用时，可帮助交易者识别反转后的第一个扩张阶段，为后续的回撤和再次扩张做准备。",
+  "common_mistakes": [
+    "未能正确识别形成反转的摆动高点，导致选错Series of Down Closed Candles的起点",
+    "将任意的下跌K线序列误认为是有效的Series of Down Closed Candles，忽视其与反转结构的关联性"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_series_of_down_closed_candles",
+      "segment_ids": [
+        "seg_006",
+        "seg_018"
+      ],
+      "time_range": [
+        347.199,
+        882.48
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135563Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

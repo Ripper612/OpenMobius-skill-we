@@ -1,0 +1,105 @@
+{
+  "card_id": "75S4vwD4P1U_case_003_eurusd_5分钟unicorn_model交易设置",
+  "type": "case",
+  "title": "EURUSD 5分钟Unicorn Model交易设置与止损策略",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Unicorn Model",
+      "card_id": "unicorn_model",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    },
+    {
+      "term": "Stop Loss Placement",
+      "card_id": "stop_loss_placement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "fair_value_gap",
+    "unicorn_model",
+    "displacement",
+    "order_block",
+    "risk_to_reward_management",
+    "stop_loss_placement"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "5M",
+  "market_context": "EURUSD在2023年12月22日形成看涨结构，价格从约1.10120上升至1.10390，随后出现回调。期间形成Breaker Block与Fair Value Gap重叠的Unicorn Model设置。",
+  "key_observation": "博主识别出Breaker Block与Displacement产生的Fair Value Gap重叠形成Unicorn Model，并演示两种入场方式（Breaker处或FVG起点）对应的止损和2R目标设置的差异。",
+  "analysis_steps": [
+    "Step 1: 识别看涨结构——标记出低点、高点、更低的低点，确认未形成看跌Breaker。",
+    "Step 2: 标记看涨Breaker Block——识别一系列向上收盘的K线，作为Breaker Block的主体。",
+    "Step 3: 观察价格突破Breaker Block后的Displacement——价格快速穿过Breaker Block向上运行。",
+    "Step 4: 识别Displacement产生的Fair Value Gap——在Breaker Block上方形成FVG，与Breaker重叠。",
+    "Step 5: 定义Unicorn Model——Breaker Block与Fair Value Gap重叠的区域即为Unicorn Model。",
+    "Step 6: 演示第一种入场方式——在Breaker Block处入场，止损设置在Breaker低点下方，2R目标在下方。",
+    "Step 7: 演示第二种入场方式——在Fair Value Gap起点入场，止损设置在Breaker Block上方，获得更优的风险回报比。",
+    "Step 8: 对比两种止损位置的效果——第一种止损更紧凑，第二种止损虽然更宽但获得更高的2R倍数。",
+    "Step 9: 说明Breaker Block与Order Block的区别——Breaker Block标记整个K线序列含影线，Order Block仅标记开盘价。"
+  ],
+  "outcome": "第一种入场方式（Breaker处入场）快速达到2R目标；第二种入场方式（FVG起点入场）未能到达FVG区域但最终也达到2R目标。两种方式都成功，但取决于交易者对风险回报比的偏好。",
+  "lessons": "Unicorn Model（Breaker Block与Fair Value Gap重叠）提供高概率交易设置。止损位置选择影响风险回报比：Breaker下方止损更紧凑但2R较近；Breaker上方止损更宽但2R倍数更高。交易者需根据个人风险偏好选择合适的入场和止损策略。",
+  "primary_image": "cards/75S4vwD4P1U/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/75S4vwD4P1U/images/case_003_detail_1.jpg",
+    "cards/75S4vwD4P1U/images/case_003_detail_2.jpg",
+    "cards/75S4vwD4P1U/images/case_003_detail_3.jpg",
+    "cards/75S4vwD4P1U/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "EURUSD 5 分钟 K 线图，日期标注为 22/12/2023，图右上角显示 TTrader_edu 水印。图上绘有一个交易设置标注，包含三条水平线及对应文字框：止损位约 1.10330 标注为 Stop 0.00071 Amount 198000，入场位约 1.10259 标注为 Open PnL Qty 2816001，目标位约 1.10148 标注为 Target 0.00071 Amo",
+    "case_003_detail_1.jpg": "EURUSD 5 分钟 K 线图，日期标注为 22/12/2023，图右上角显示 TTrades_edu 水印。图右侧价格刻度范围约从 1.10090 至 1.10300，当前价格标签显示 1.10243。图中约 05:15 至 06:15 时段出现连续绿色 K 线，从约 1.10120 上行至约 1.10290。此后约 06:15 至 07:15 时段出现连续黑色 K 线，从约 1.10290 ",
+    "case_003_detail_2.jpg": "EURUSD 5 分钟 K 线图，日期标注为 22/12/2023，图右上角显示平台标识 TTrader_edu。可见价格范围约从 1.10080 至 1.10390。图上 K 线从左侧约 04:45 时段起，经历一段以绿色阳线为主的上行走势，至约 07:15 附近达到高点约 1.10390。此后出现数根黑色阴线，其中约 08:00 处出现一根主体较长的阴线，主体从约 1.10280 延伸至 1.",
+    "case_003_detail_3.jpg": "EURUSD 5 分钟 K 线图，时间范围覆盖 22/12/2023 约 04:45 至 10:45。图上可见价格区间约从 1.10080 至 1.10290。图中有一个灰色矩形框标注区域，价格范围约在 1.10260 至 1.10310 之间，矩形内带有文字标签'OB'。矩形下方有一条水平线延伸至右侧，位于约 1.10260 处。K 线序列显示从 05:00 起一段绿色 K 线上行，随后在 07",
+    "case_003_detail_4.jpg": "EURUSD 5 分钟 K 线图，日期标注为 22/12/2023，时间范围约从 06:00 至 12:15。图右侧价格轴显示范围约 1.10000 至 1.10400，当前价格标签显示约 1.10017。图上有两个矩形标注区域：一个灰色矩形覆盖约 07:45 至 09:00 时段、价格约 1.10160 至 1.10320；一个浅绿色矩形覆盖约 08:00 至 09:15 时段、价格约 1.10"
+  },
+  "sources": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        193.319,
+        550.079
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了EURUSD 5分钟Unicorn Model的识别、两种入场方式、止损设置及交易结果，关键价位和步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:05.225792Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 5分钟Unicorn Model交易设置与止损策略\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"5M\",\"market_context\":\"EURUSD在2023年12月22日形成看涨结构，价格从约1.10120上升至1.10390，随后出现回调。期间形成Breaker Block与Fair Value Gap重叠的Unicorn Model设置。\",\"key_observation\":\"博主识别出Breaker Block与Displacement产生的Fair Value Gap重叠形成Unicorn Model，并演示两种入场方式（Breaker处或FVG起点）对应的止损和2R目标设置的差异。\",\"analysis_steps\":[\"Step 1: 识别看涨结构——标记出低点、高点、更低的低点，确认未形成看跌Breaker。\",\"Step 2: 标记看涨Breaker Block——识别一系列向上收盘的K线，作为Breaker Block的主体。\",\"Step 3: 观察价格突破Breaker Block后的Displacement——价格快速穿过Breaker Block向上运行。\",\"Step 4: 识别Displacement产生的Fair Value Gap——在Breaker Block上方形成FVG，与Breaker重叠。\",\"Step 5: 定义Unicorn Model——Breaker Block与Fair Value Gap重叠的区域即为Unicorn Model。\",\"Step 6: 演示第一种入场方式——在Breaker Block处入场，止损设置在Breaker低点下方，2R目标在下方。\",\"Step 7: 演示第二种入场方式——在Fair Value Gap起点入场，止损设置在Breaker Block上方，获得更优的风险回报比。\",\"Step 8: 对比两种止损位置的效果——第一种止损更紧凑，第二种止损虽然更宽但获得更高的2R倍数。\",\"Step 9: 说明Breaker Block与Order Block的区别——Breaker Block标记整个K线序列含影线，Order Block仅标记开盘价。\"],\"outcome\":\"第一种入场方式（Breaker处入场）快速达到2R目标；第二种入场方式（FVG起点入场）未能到达FVG区域但最终也达到2R目标。两种方式都成功，但取决于交易者对风险回报比的偏好。\",\"lessons\":\"Unicorn Model（Breaker Block与Fair Value Gap重叠）提供高概率交易设置。止损位置选择影响风险回报比：Breaker下方止损更紧凑但2R较近；Breaker上方止损更宽但2R倍数更高。交易者需根据个人风险偏好选择合适的入场和止损策略。\",\"primary_image_frame_id\":\"75S4vwD4P1U_f011\",\"supporting_image_frame_ids\":[\"75S4vwD4P1U_f007\",\"75S4vwD4P1U_f008\",\"75S4vwD4P1U_f010\",\"75S4vwD4P1U_f012\"],\"related_concepts\":[\"Breaker Block\",\"Fair Value Gap\",\"Unicorn Model\",\"Displacement\",\"Order Block\",\"Risk to Reward Ratio\",",
+  "error": null
+}

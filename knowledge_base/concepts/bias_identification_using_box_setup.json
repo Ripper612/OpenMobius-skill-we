@@ -1,0 +1,57 @@
+{
+  "card_id": "bias_identification_using_box_setup",
+  "type": "merged_concept",
+  "canonical_term": "Bias Identification using Box Setup",
+  "aliases": [
+    "Box Setup Bias",
+    "Range Deviation Analysis"
+  ],
+  "school": "SMC",
+  "definition": "通过在高时间框架（4小时/日线）上标记价格区间的高低点（Box），识别价格偏离该区间的位置，以确定市场偏差方向，为低时间框架交易提供方向性指引。",
+  "identification_rules": [
+    "在4小时或日线上标记一个明确的价格区间（高点和低点），形成Box框体。",
+    "观察价格是否突破Box的上下边界，突破方向即为偏差方向。",
+    "在日线上优先使用Wick（影线）标记高低点，在4小时上可使用Body（实体）。",
+    "追踪Displacement（位移）——价格以强劲势头突破Box边界时的运动。",
+    "标记价格从Box边界回测的位置，作为低时间框架的交易偏差参考。",
+    "在确认偏差后，切换至15分钟等低时间框架寻找具体交易设置。"
+  ],
+  "trading_implication": "Box Setup用于在高时间框架上建立交易偏差（Bias），指导低时间框架的方向性交易。当价格突破Box边界时，表明市场结构发生变化；通过标记偏差位置和回测区域，交易者可在15分钟等低时间框架上寻找与偏差一致的具体入场点，提高交易的方向性准确度和风险回报比。",
+  "common_mistakes": [
+    "在低时间框架上直接使用Box Setup而不参考高时间框架的偏差方向，导致逆势交易。",
+    "混淆Body和Wick的使用场景，在日线上使用Body而应使用Wick标记关键高低点。",
+    "忽视Displacement的强度，将弱势的价格波动误认为有效的偏差信号。",
+    "未能正确标记价格从Box边界的回测位置，导致在低时间框架上无法精确定位交易设置。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HFfChGFHD44",
+      "original_card_id": "HFfChGFHD44_concept_bias_identification_using_box_setup",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        387.24,
+        508.139
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131209Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

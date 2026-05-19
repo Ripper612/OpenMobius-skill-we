@@ -1,0 +1,107 @@
+{
+  "card_id": "VD4xb9VfMHA_case_005_usd_1小时图_范围突破反转失败案例",
+  "type": "case",
+  "title": "USD 1H：范围突破反转失败案例",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Reversal Structure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Range Breakout",
+      "card_id": "deviation_from_range",
+      "exists": true
+    },
+    {
+      "term": "Expansion-Expansion Reversal",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "equilibrium_eq",
+    "swing_low_swing_high",
+    "deviation_from_range"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1H",
+  "market_context": "价格在1.36900-1.37700区间内形成约12根K线的盘整，随后向上突破至1.37700上方。突破后出现扩张走势，但缺乏日线摆动点支撑，最终被扩张-扩张反转打回。",
+  "key_observation": "价格突破范围高点后虽有向上扩张，但随即遭遇向下扩张反转。关键问题是缺乏日线摆动点作为反转结构的支撑，导致这个看似有效的突破最终失败。",
+  "analysis_steps": [
+    "Step 1: 识别价格范围结构——在1.36900-1.37700之间形成约12根K线的盘整区间。",
+    "Step 2: 确认范围扫荡——价格向上突破范围高点1.37700，并向上扩张。",
+    "Step 3: 观察扩张-扩张反转模式——向上扩张随即被向下扩张反转所对抗，表明反转结构不稳定。",
+    "Step 4: 检查反转结构的有效性——虽然存在Change in State of Delivery和K线收盘信号，但缺乏日线摆动点支撑。",
+    "Step 5: 评估风险——由于缺乏更高时间框架的摆动点对齐，预期这个反转结构可能失败，价格可能回落至范围内或下方。"
+  ],
+  "outcome": null,
+  "lessons": "单纯依靠1小时图的反转结构信号不足以确保交易成功。必须与更高时间框架（日线）的摆动点相对齐，才能形成高概率的反转设置。扩张-扩张反转被对抗时，应警惕反转失败的风险。",
+  "primary_image": "cards/VD4xb9VfMHA/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/VD4xb9VfMHA/images/case_005_detail_1.jpg",
+    "cards/VD4xb9VfMHA/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 1小时K线图。图上显示价格范围从1.36000至1.38300。图中绘制一条蓝色矩形框，上边界约1.37700，下边界约1.36900，标记出一个整合区间。图左侧显示多根K线在该区间内波动，右侧出现绿色K线突破矩形上边界。图上标注当前时间为27 Jun '25 14:00，价格标签显示1.37227。底部工具栏显示交易按钮Sell、Buy、Flatten等。",
+    "case_005_detail_1.jpg": "GBPUSD 1 小时图。图上显示从 25 日至 2 日的价格走势。可见三条蓝色水平线分别位于 1.37700、1.36900 和 1.37200 附近。25 至 29 日期间，K 线在 1.36900 至 1.37700 区间内形成盘整，约 12 根 K 线在此范围内波动。29 日出现向上突破至 1.37700 上方。30 日价格回落至 1.37200 附近进行回测。7 月 1 日出现一根大幅绿",
+    "case_005_detail_2.jpg": "GBPUSD 1 小时 K 线图。图上显示从 6 月 26 日至 7 月 3 日的价格走势，价格范围约 1.36000 至 1.38400。图中有三条水平线分别位于 1.37700、1.37500 和 1.36800。两个矩形框标注了价格区间：一个覆盖 1.36800 至 1.37700 区域，另一个在 1.37200 至 1.37300 区间。6 月 26 至 29 日期间 K 线在 1.368"
+  },
+  "sources": [
+    {
+      "video_id": "VD4xb9VfMHA",
+      "segment_ids": [
+        "seg_019",
+        "seg_020"
+      ],
+      "time_range": [
+        882.48,
+        972.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了范围识别、突破、扩张反转、缺陷分析的全过程，关键价位和时间框架清晰，分析逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:10.040196Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 1H：范围突破反转失败案例\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1H\",\"market_context\":\"价格在1.36900-1.37700区间内形成约12根K线的盘整，随后向上突破至1.37700上方。突破后出现扩张走势，但缺乏日线摆动点支撑，最终被扩张-扩张反转打回。\",\"key_observation\":\"价格突破范围高点后虽有向上扩张，但随即遭遇向下扩张反转。关键问题是缺乏日线摆动点作为反转结构的支撑，导致这个看似有效的突破最终失败。\",\"analysis_steps\":[\"Step 1: 识别价格范围结构——在1.36900-1.37700之间形成约12根K线的盘整区间。\",\"Step 2: 确认范围扫荡——价格向上突破范围高点1.37700，并向上扩张。\",\"Step 3: 观察扩张-扩张反转模式——向上扩张随即被向下扩张反转所对抗，表明反转结构不稳定。\",\"Step 4: 检查反转结构的有效性——虽然存在Change in State of Delivery和K线收盘信号，但缺乏日线摆动点支撑。\",\"Step 5: 评估风险——由于缺乏更高时间框架的摆动点对齐，预期这个反转结构可能失败，价格可能回落至范围内或下方。\"],\"outcome\":null,\"lessons\":\"单纯依靠1小时图的反转结构信号不足以确保交易成功。必须与更高时间框架（日线）的摆动点相对齐，才能形成高概率的反转设置。扩张-扩张反转被对抗时，应警惕反转失败的风险。\",\"primary_image_frame_id\":\"VD4xb9VfMHA_f030\",\"supporting_image_frame_ids\":[\"VD4xb9VfMHA_f031\",\"VD4xb9VfMHA_f032\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Equilibrium (EQ)\",\"Swing Point\",\"Reversal Structure\",\"Range Breakout\",\"Expansion-Expansion Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了范围识别、突破、扩张反转、缺陷分析的全过程，关键价位和时间框架清晰，分析逻辑完整。\"}",
+  "error": null
+}

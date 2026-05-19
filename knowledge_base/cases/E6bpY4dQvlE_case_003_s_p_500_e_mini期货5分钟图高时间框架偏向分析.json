@@ -1,0 +1,126 @@
+{
+  "card_id": "E6bpY4dQvlE_case_003_s_p_500_e_mini期货5分钟图高时间框架偏向分析",
+  "type": "case",
+  "title": "ES 5分钟图盘整突破回测识别与看涨偏向判断",
+  "related_concepts": [
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Aggressive Move Down",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Aggressive Move Up",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buy Side of Curve",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Retest",
+      "card_id": "retest",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame Bias",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "consolidation",
+    "displacement",
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "retest",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5m",
+  "market_context": "S&P 500 E-mini期货在5分钟图上呈现典型的盘整-突破-回测模式。价格在一个区间内反复震荡，随后出现激进向下运动，再伴随激进向上反弹，形成多个可交易的结构。",
+  "key_observation": "博主强调在盘整区间内识别激进向下与激进向上的配对运动，以及随后对前期低点的回测。关键是在回测时立即入场做多，而非等待完全回到高点，因为价格此时处于买方曲线上，更可能继续向上寻求流动性。",
+  "analysis_steps": [
+    "Step 1: 识别盘整区间——观察价格在一个明确的高低点范围内反复震荡，形成consolidation结构。",
+    "Step 2: 标记激进向下运动——在盘整后出现明显的向下突破，低于前期低点。",
+    "Step 3: 确认激进向上反弹——价格随即出现强势反弹，这对激进运动是关键信号。",
+    "Step 4: 定位前期低点作为回测目标——标记盘整前的低点，作为价格回测的预期区域。",
+    "Step 5: 在回测区域入场做多——当价格回到前期低点附近时立即做多，而非等待完全回升。",
+    "Step 6: 利用高时间框架判断偏向——在1小时或4小时图上观察位移(Displacement)和缺口(FVG)，确认看涨偏向。",
+    "Step 7: 设定目标为盘整区间的另一侧——将对面的高点或之前的高时间框架阻力作为利润目标。"
+  ],
+  "outcome": null,
+  "lessons": "在ICT框架下，激进向下配合激进向上的组合是强有力的结构信号。关键是理解价格在买方曲线(buy side of curve)上时倾向于寻求流动性，因此在回测时快速入场比等待完全反转更高效。高时间框架的位移确认可以增强低时间框架交易的可靠性。",
+  "primary_image": "cards/E6bpY4dQvlE/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/E6bpY4dQvlE/images/case_003_detail_1.jpg",
+    "cards/E6bpY4dQvlE/images/case_003_detail_2.jpg",
+    "cards/E6bpY4dQvlE/images/case_003_detail_3.jpg",
+    "cards/E6bpY4dQvlE/images/case_003_detail_4.jpg",
+    "cards/E6bpY4dQvlE/images/case_003_detail_5.jpg",
+    "cards/E6bpY4dQvlE/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图左上角标注显示资产为 CME_MINI，平台为 TradingView，时间框架为 15s。图上 K 线从左下方向右上方整体呈阶梯式排列，中部区域有一个矩形标注框，框内包含数根 K 线的低点区域。图右侧可见一组连续绿色 K 线向上延伸至图表右上角。图中有一条横向虚线贯穿中下部，一条纵向虚线位于右侧区域，十字光标位于纵向虚线附近。价格刻度轴不可见，具体价格数字无法读取。",
+    "case_003_detail_1.jpg": "图表来自 TradingView，资产为 CME_MINI，时间框架为 15 秒。图中央有一条垂直虚线标记入场位置，入场位置上方为绿色矩形区域，标注文字为\"Target: 3.75 (0.10%) 15, Amount: 1750\"；下方为红色矩形区域，标注文字为\"Stop: 1.25 (0.03%) 5, Amount: 750\"。图中还有一个文字标注\"Closed PnL: 3.75, Qty",
+    "case_003_detail_2.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，平台为 TradingView，数据来源 CME MINI。图右侧价格刻度范围约从 3576.00 至 3688.00，当前价格标签显示 3595.50。图左上角显示数值 3996.00、0.25、3996.25。时间轴显示跨越约 05:00 至次日 01:00，底部时间标签标注 Mon 10 Oct '22 13:40。图上未见任",
+    "case_003_detail_3.jpg": "图为 S&P 500 E-mini Futures（ES）5 分钟 K 线图，来自 TradingView CME_MINI 数据源。可见价格范围约从 3576 至 3668。图上绘有两条手绘弧形曲线：第一条从左侧低点向上弯曲至约 11:00 附近高点；第二条从约 15:00 附近高点向下弯曲至约 21:00 附近低点，两条弧线共同构成一个倒 U 形轮廓。图上另有一条水平线横跨全图，位于约 361",
+    "case_003_detail_4.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，来源标注为 CME_MINI TradingView。图上可见价格范围约从 3722 至 3774。图中有一条手绘水平线位于约 3752 处，连接两个摆动点；另有一条手绘曲线标注覆盖约 23:00 至 01:00 区间的数根 K 线，呈弧形走势。图右侧价格轴标注当前价 3734.25，并有一条贯穿全图的虚线水平线位于约 3734 处",
+    "case_003_detail_5.jpg": "图左上角显示平台标识 CME_MINI · TradingView，时间框架标签不可见。图上无价格刻度轴，无法读取任何价格数字。K 线图呈现从左侧高点向中部低点的下行走势，随后出现回升后再次回落至第二个低点，右侧 K 线整体位置高于中部低点。图中有一条垂直虚线位于图表约三分之二处，底部有一条水平虚线。图上无任何文字标注、矩形框或其他标记。",
+    "case_003_detail_6.jpg": "图左上角显示平台标识 CME_MINI 及 TradingView 字样，时间框架与价格刻度均不可见。图中为 K 线图，整体呈现左侧高点、中部低点、右侧回升的走势形态。图中央偏左位置绘有一个无文字标签的水平矩形框，覆盖数根 K 线区域。一条垂直虚线贯穿图表中部。图右侧 K 线整体位于中部低点之上，但低于左侧高点区域。图上未见价格数字刻度、指标面板或其他文字标注。"
+  },
+  "sources": [
+    {
+      "video_id": "E6bpY4dQvlE",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        182.099,
+        359.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对盘整-突破-回测的完整分析流程清晰，关键价格结构和入场逻辑明确，图表展示了多个具体例子，时间框架和资产代码可从图上读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:57.196211Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 5分钟图盘整突破回测识别与看涨偏向判断\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5m\",\"market_context\":\"S&P 500 E-mini期货在5分钟图上呈现典型的盘整-突破-回测模式。价格在一个区间内反复震荡，随后出现激进向下运动，再伴随激进向上反弹，形成多个可交易的结构。\",\"key_observation\":\"博主强调在盘整区间内识别激进向下与激进向上的配对运动，以及随后对前期低点的回测。关键是在回测时立即入场做多，而非等待完全回到高点，因为价格此时处于买方曲线上，更可能继续向上寻求流动性。\",\"analysis_steps\":[\"Step 1: 识别盘整区间——观察价格在一个明确的高低点范围内反复震荡，形成consolidation结构。\",\"Step 2: 标记激进向下运动——在盘整后出现明显的向下突破，低于前期低点。\",\"Step 3: 确认激进向上反弹——价格随即出现强势反弹，这对激进运动是关键信号。\",\"Step 4: 定位前期低点作为回测目标——标记盘整前的低点，作为价格回测的预期区域。\",\"Step 5: 在回测区域入场做多——当价格回到前期低点附近时立即做多，而非等待完全回升。\",\"Step 6: 利用高时间框架判断偏向——在1小时或4小时图上观察位移(Displacement)和缺口(FVG)，确认看涨偏向。\",\"Step 7: 设定目标为盘整区间的另一侧——将对面的高点或之前的高时间框架阻力作为利润目标。\"],\"outcome\":null,\"lessons\":\"在ICT框架下，激进向下配合激进向上的组合是强有力的结构信号。关键是理解价格在买方曲线(buy side of curve)上时倾向于寻求流动性，因此在回测时快速入场比等待完全反转更高效。高时间框架的位移确认可以增强低时间框架交易的可靠性。\",\"primary_image_frame_id\":\"E6bpY4dQvlE_f001\",\"supporting_image_frame_ids\":[\"E6bpY4dQvlE_f007\",\"E6bpY4dQvlE_f008\",\"E6bpY4dQvlE_f009\",\"E6bpY4dQvlE_f010\",\"E6bpY4dQvlE_f011\",\"E6bpY4dQvlE_f012\"],\"related_concepts\":[\"Consolidation\",\"Displacement\",\"Aggressive Move Down\",\"Aggressive Move Up\",\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"Buy Side of Curve\",\"Retest\",\"Market Structure\",\"High Time Frame Bias\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对盘整-突破-回测的完整分析流程清晰，关键价格结构和入场逻辑明确，图表展示了多个具体例子，时间框架和资产代码可从图上读取。\"}",
+  "error": null
+}

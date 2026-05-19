@@ -1,0 +1,55 @@
+{
+  "card_id": "daily_bias_alignment",
+  "type": "merged_concept",
+  "canonical_term": "Daily Bias Alignment",
+  "aliases": [
+    "Daily Bias",
+    "HTF Bias Confirmation"
+  ],
+  "school": "ICT",
+  "definition": "在交易低时间框架（如4小时）前，先确认日线的整体方向偏向，确保交易方向与高时间框架的结构一致，以提高交易概率。",
+  "identification_rules": [
+    "从日线图开始分析，识别日线是否形成反转蜡烛或延续蜡烛",
+    "观察日线的收盘位置是否突破前一日的范围（如周四收盘在周三范围外表示延续偏向）",
+    "确认日线的市场结构转变（MSS）或变交付状态（CSD），以判断趋势方向",
+    "将日线确认的方向作为高时间框架偏向，指导4小时或更低时间框架的交易方向"
+  ],
+  "trading_implication": "Daily Bias Alignment确保交易者不与高时间框架的结构相悖。例如，若日线显示看涨偏向（如周四延续高于周三范围），则在4小时图上应寻找看涨交易机会；反之亦然。这种对齐减少逆势交易的风险，提高交易的概率。具体应用中，交易者先在日线确认偏向，再在4小时或15分钟图上寻找具体的入场点（如反转蜡烛的保护摆动形成后）。",
+  "common_mistakes": [
+    "未在交易前检查日线偏向，导致在高时间框架的反向结构中交易",
+    "混淆日线偏向与4小时偏向，未能正确进行时间框架的层级分析"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_daily_bias_alignment",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_009"
+      ],
+      "time_range": [
+        201.84,
+        504.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:55:22.689956Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

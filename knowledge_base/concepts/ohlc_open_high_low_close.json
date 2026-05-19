@@ -1,0 +1,54 @@
+{
+  "card_id": "ohlc_open_high_low_close",
+  "type": "merged_concept",
+  "canonical_term": "OHLC / Open High Low Close",
+  "aliases": [
+    "K线四价",
+    "OLHC",
+    "Open Low High Close"
+  ],
+  "school": "General",
+  "definition": "K线的四个关键价格点：开盘价（Open）、最高价（High）、最低价（Low）、收盘价（Close）。构成K线的完整结构，其排列顺序反映价格运动方向和力度。",
+  "identification_rules": [
+    "看涨K线：价格先跌破开盘价形成低点，再上升至高点后收盘，顺序为Open→Low→High→Close",
+    "看跌K线：价格先升破开盘价形成高点，再下跌至低点后收盘，顺序为Open→High→Low→Close",
+    "K线实体由开盘价和收盘价构成，上影线延伸至最高价，下影线延伸至最低价"
+  ],
+  "trading_implication": "OHLC序列揭示K线内部的价格运动逻辑，用于识别交易机会。在看涨K线中，可在开盘价附近寻找买入机会，预期价格向高点扩张；在看跌K线中，可在开盘价上方寻找卖出机会，预期价格向低点扩张。结合流动性目标判断预期方向，指导入场和止损位置。",
+  "common_mistakes": [
+    "混淆OHLC顺序：未能正确识别看涨与看跌K线的价格运动序列",
+    "忽视开盘价的支撑作用：未能利用开盘价作为关键参考点寻找交易机会"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "YXoNowXQirM",
+      "original_card_id": "YXoNowXQirM_concept_ohlc_open_high_low_close",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.48,
+        329.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:58:42.002663Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

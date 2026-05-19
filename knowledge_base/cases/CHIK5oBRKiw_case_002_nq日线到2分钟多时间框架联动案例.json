@@ -1,0 +1,126 @@
+{
+  "card_id": "CHIK5oBRKiw_case_002_nq日线到2分钟多时间框架联动案例",
+  "type": "case",
+  "title": "NQ日线FVG到2分钟CISD多时间框架联动做空",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CISD)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity / Buyside Liquidity (BSL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "premium_discount",
+    "standard_deviation_projection",
+    "equal_lows",
+    "market_structure_shift_mss",
+    "premium_discount_premium_",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D / 60M / 2M",
+  "market_context": "NQ在日线形成FVG后上涨至该缺口，次日价格扫除买方流动性（旧高点）并建立等量低点。博主通过多时间框架确认做空机会。",
+  "key_observation": "日线FVG作为高时间框架PD array，小时线确认CISD后，次日扫除买方流动性成为做空区域。2分钟图再次确认CISD提供精确入场点。",
+  "analysis_steps": [
+    "Step 1: 在日线图识别FVG（公允价值缺口），价格上涨进入该缺口后回落，预期次日继续下行。",
+    "Step 2: 切换到60分钟图确认高时间框架PD array（日线FVG），观察价格是否产生CISD（交付状态改变）。",
+    "Step 3: 确认60分钟图中价格位移下行并收盘低于一系列上升K线，验证CISD成立。",
+    "Step 4: 使用斐波那契延伸从操纵腿（高到低）投影目标，标记-2至-2.5标准差区域作为目标。",
+    "Step 5: 次日观察价格行为，发现价格建立等量低点，旧高点扫除成为做空区域。",
+    "Step 6: 切换到2分钟图，等待930开盘后的操纵（价格上冲后回落至范围内）。",
+    "Step 7: 在2分钟图上确认CISD（价格收盘低于一系列上升K线），作为做空入场信号。",
+    "Step 8: 设置止损于操纵高点，目标设定为等量低点和小时线投影的-2至-2.5区域。"
+  ],
+  "outcome": "价格成功下行，触及-2至-2.5标准差目标，同时达到小时线投影目标和等量低点。交易按计划执行，目标达成。",
+  "lessons": "多时间框架联动的关键是从高时间框架PD array出发，在中时间框架确认CISD，再在低时间框架精确入场。操纵+CISD+订单块/FVG的组合提供高概率交易设置。等量低点和标准差投影结合提供可靠的目标区域。",
+  "primary_image": "cards/CHIK5oBRKiw/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/CHIK5oBRKiw/images/case_002_detail_1.jpg",
+    "cards/CHIK5oBRKiw/images/case_002_detail_2.jpg",
+    "cards/CHIK5oBRKiw/images/case_002_detail_3.jpg",
+    "cards/CHIK5oBRKiw/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NQ1! 2分钟K线图，时间范围为2023年10月13日06:30至13:00。图上可见价格刻度从约15225到15400。图上有一条贯穿全图的水平线位于约15345处。图上叠加了一个交易面板，包含两个矩形区域：上方矩形（止损区）标注\"Stop: 31.75 (0.21%) 127, Amount: 198000\"，价格范围约15366.75至15398；下方矩形（目标区）标注\"Target: 3",
+    "case_002_detail_1.jpg": "图表显示 NQ1! 日线 K 线图，时间范围覆盖约 2023 年 8 月初至 12 月初。右侧价格轴刻度从约 14400 至 16000，当前价格标签显示 15410.75。图上有一条贯穿全图的水平虚线，位于约 14992 处。图中可见一段从约 14500 低点向上延伸的连续绿色 K 线序列，出现在 10 月初至 10 月 18 日附近，价格区间约为 14800 至 15400。图右上角有文字标注",
+    "case_002_detail_2.jpg": "NQ1! 60 分钟 K 线图，日期范围约为 10 月 10 日至 18 日。图上可见多条水平线，分别位于约 15550、15460、15240、15140、15080 处。图中有一个矩形标注，覆盖约 15200 至 15460 价格区间，位于 10 月 12 日 12:00 附近。矩形右侧有文字标签\"CSD\"。图上另有斐波那契延伸标注，标记为 -1（约 15460）、0（约 15240）、-2（",
+    "case_002_detail_3.jpg": "图表为 NQ1! 期货 2 分钟 K 线图，日期标注为 13/10/2023，时间轴跨越 10 月 12 日至 13 日。右侧价格刻度范围约从 15070 至 15390。图上有三条带数字标签的水平线：标签'1'位于约 15250，标签'2'位于约 15150，标签'2.5'位于约 15090。图右上方有一条无标签水平线延伸至约 15310。图中部有一个矩形框标注，覆盖约 15200 至 1531",
+    "case_002_detail_4.jpg": "NQ1! 2 分钟 K 线图，日期标注为 13/10/2023，图右上角显示账户名 TTrades_edu。可见价格范围约从 15216.50 到 15375.00。图上有一条贯穿全图的水平线位于约 15345.00 处。图右侧有一个大面积浅绿色矩形区域，横跨约 09:40 至 11:20 时段，纵向覆盖约 15195 至 15345 价格区间，矩形内标注文字 Path。图左侧约 09:30 附近"
+  },
+  "sources": [
+    {
+      "video_id": "CHIK5oBRKiw",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        234.56,
+        593.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到2分钟的分析过程，清晰标注了关键价位、时间框架、CISD确认点和交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:55.770546Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线FVG到2分钟CISD多时间框架联动做空\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D / 60M / 2M\",\"market_context\":\"NQ在日线形成FVG后上涨至该缺口，次日价格扫除买方流动性（旧高点）并建立等量低点。博主通过多时间框架确认做空机会。\",\"key_observation\":\"日线FVG作为高时间框架PD array，小时线确认CISD后，次日扫除买方流动性成为做空区域。2分钟图再次确认CISD提供精确入场点。\",\"analysis_steps\":[\"Step 1: 在日线图识别FVG（公允价值缺口），价格上涨进入该缺口后回落，预期次日继续下行。\",\"Step 2: 切换到60分钟图确认高时间框架PD array（日线FVG），观察价格是否产生CISD（交付状态改变）。\",\"Step 3: 确认60分钟图中价格位移下行并收盘低于一系列上升K线，验证CISD成立。\",\"Step 4: 使用斐波那契延伸从操纵腿（高到低）投影目标，标记-2至-2.5标准差区域作为目标。\",\"Step 5: 次日观察价格行为，发现价格建立等量低点，旧高点扫除成为做空区域。\",\"Step 6: 切换到2分钟图，等待930开盘后的操纵（价格上冲后回落至范围内）。\",\"Step 7: 在2分钟图上确认CISD（价格收盘低于一系列上升K线），作为做空入场信号。\",\"Step 8: 设置止损于操纵高点，目标设定为等量低点和小时线投影的-2至-2.5区域。\"],\"outcome\":\"价格成功下行，触及-2至-2.5标准差目标，同时达到小时线投影目标和等量低点。交易按计划执行，目标达成。\",\"lessons\":\"多时间框架联动的关键是从高时间框架PD array出发，在中时间框架确认CISD，再在低时间框架精确入场。操纵+CISD+订单块/FVG的组合提供高概率交易设置。等量低点和标准差投影结合提供可靠的目标区域。\",\"primary_image_frame_id\":\"CHIK5oBRKiw_f014\",\"supporting_image_frame_ids\":[\"CHIK5oBRKiw_f010\",\"CHIK5oBRKiw_f012\",\"CHIK5oBRKiw_f013\",\"CHIK5oBRKiw_f015\",\"CHIK5oBRKiw_f001\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Change in State of Delivery (CISD)\",\"Order Block (OB)\",\"Liquidity / Buyside Liquidity (BSL)\",\"Displacement\",\"Premium / Discount\",\"Standard Deviation Projection\",\"Equal Lows\",\"Market Structure Shift (MSS)\",\"PD Array\",\"Manipulation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到2分钟的分析过程，清晰标注了关键价位、时间框架、CISD确认点和交易结果。\"}",
+  "error": null
+}

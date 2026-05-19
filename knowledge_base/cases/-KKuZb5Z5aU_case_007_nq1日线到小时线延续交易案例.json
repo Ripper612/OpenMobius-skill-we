@@ -1,0 +1,105 @@
+{
+  "card_id": "-KKuZb5Z5aU_case_007_nq1日线到小时线延续交易案例",
+  "type": "case",
+  "title": "NQ1日线看跌二号收盘后小时线延续交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Risk-Reward Ratio (2R)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "change_in_the_state_of_delivery_csd",
+    "smart_money_technique_smt",
+    "order_block_ob",
+    "displacement",
+    "market_structure_shift_mss",
+    "equilibrium_eq"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H",
+  "market_context": "前一日NQ1形成看跌二号收盘（V形反转+CSD+位移下行），当日亚洲盘早段价格开盘上行触及FVG后形成CSD，确认下行延续。",
+  "key_observation": "博主在日线看跌二号收盘后，于小时线上寻找延续交易机会。价格开盘上行进入前一日高点附近的FVG区域，随后形成交付状态改变（CSD），确认下行趋势延续。",
+  "analysis_steps": [
+    "Step 1: 观察前一日日线形成V形反转，伴随CSD和SMT，以及看跌位移和看跌收盘（二号收盘）",
+    "Step 2: 预期第三根K线从T点或EQ位置寻求延续，期望价格先开盘上行后下行",
+    "Step 3: 在小时线上确认价格开盘上行进入前一日高点附近的FVG区域",
+    "Step 4: 观察价格未能突破该高点，而是形成CSD（交付状态改变），确认反转信号",
+    "Step 5: 在CSD形成处建立空头头寸，止损设在该高点（约25360），目标设为2R（约1.83R调整为2R）",
+    "Step 6: 价格下行达成2R目标"
+  ],
+  "outcome": "交易成功达成2R目标。价格从CSD形成点下行至约24640附近，完成预期的延续交易。",
+  "lessons": "在高时间框架（日线）形成明确反转信号后，可在低时间框架（小时线）寻求延续交易。关键是等待价格触及前一日高点的FVG后形成CSD，这确认了反转的有效性。亚洲盘早段适合在高时间框架执行交易，避免过度依赖低时间框架。",
+  "primary_image": "cards/-KKuZb5Z5aU/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/-KKuZb5Z5aU/images/case_007_detail_1.jpg",
+    "cards/-KKuZb5Z5aU/images/case_007_detail_2.jpg",
+    "cards/-KKuZb5Z5aU/images/case_007_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "图表为 NQ1! 1 小时 K 线图，右下角标注 Bias: Bearish。可见价格范围约从 24400 至 25480。图上有两个带标签的矩形框：C4 覆盖约 25040 至 25360 区间，C2 覆盖约 25160 至 25360 区间，两者部分重叠。图中还有一条标注为 PM1 的上升趋势线。图右侧有一个绿色矩形框覆盖约 24620 至 24800，一个灰色矩形框覆盖约 24800 至 2",
+    "case_007_detail_1.jpg": "图表为 USD 资产 1 小时 K 线图，来自 TTrades.com 平台。可见价格范围约从 24400 至 25480。图上标注有两个文字标签 C4 与 C2，分别位于约 25360 水平线附近。图上有一条标注为 YM11 的上升趋势线，从左侧延伸至约 date 16 区域。图中有一个大型灰色矩形框覆盖约 25120 至 25360 价格区间，横跨多根 K 线。图右侧有两根大型实体黑色 K 线",
+    "case_007_detail_2.jpg": "图表为 NQ1! 1 小时 K 线图，来自 TTrades.com，右下角标注 Bias: Bearish。图上可见两个带标签的矩形区域：左侧标注 C4，覆盖约 25120 至 25360 价格区间；右侧标注 C2，覆盖约 25160 至 25360 区间。图上另有一条斜向上的趋势线标注 YM11。图右侧出现一根大型黑色 K 线，从约 25280 延伸至 24760。当前价格标签显示 24739.",
+    "case_007_detail_3.jpg": "图表为 NQ1! 1 小时 K 线图，右下角标注显示 '1H-D Model' 及 'Bias: Bearish'。图上可见两条带文字标签的水平虚线：上方约 25360 处标记为 'C4' 与 'C2'，下方约 24640 处为无标签虚线。图上另有一条向上倾斜的趋势线标注 'YM11'，从约 25120 延伸至 25360。图中存在多个矩形标注区域，包括一个灰色大矩形覆盖约 25080 至 253"
+  },
+  "sources": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "segment_ids": [
+        "seg_023",
+        "seg_024"
+      ],
+      "time_range": [
+        919.04,
+        1042.64
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时线的分析过程，清晰标注了关键价位（FVG、CSD、止损、目标），交易结果明确（达成2R）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:04:40.463022Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1日线看跌二号收盘后小时线延续交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H\",\"market_context\":\"前一日NQ1形成看跌二号收盘（V形反转+CSD+位移下行），当日亚洲盘早段价格开盘上行触及FVG后形成CSD，确认下行延续。\",\"key_observation\":\"博主在日线看跌二号收盘后，于小时线上寻找延续交易机会。价格开盘上行进入前一日高点附近的FVG区域，随后形成交付状态改变（CSD），确认下行趋势延续。\",\"analysis_steps\":[\"Step 1: 观察前一日日线形成V形反转，伴随CSD和SMT，以及看跌位移和看跌收盘（二号收盘）\",\"Step 2: 预期第三根K线从T点或EQ位置寻求延续，期望价格先开盘上行后下行\",\"Step 3: 在小时线上确认价格开盘上行进入前一日高点附近的FVG区域\",\"Step 4: 观察价格未能突破该高点，而是形成CSD（交付状态改变），确认反转信号\",\"Step 5: 在CSD形成处建立空头头寸，止损设在该高点（约25360），目标设为2R（约1.83R调整为2R）\",\"Step 6: 价格下行达成2R目标\"],\"outcome\":\"交易成功达成2R目标。价格从CSD形成点下行至约24640附近，完成预期的延续交易。\",\"lessons\":\"在高时间框架（日线）形成明确反转信号后，可在低时间框架（小时线）寻求延续交易。关键是等待价格触及前一日高点的FVG后形成CSD，这确认了反转的有效性。亚洲盘早段适合在高时间框架执行交易，避免过度依赖低时间框架。\",\"primary_image_frame_id\":\"-KKuZb5Z5aU_f035\",\"supporting_image_frame_ids\":[\"-KKuZb5Z5aU_f032\",\"-KKuZb5Z5aU_f033\",\"-KKuZb5Z5aU_f034\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Change in the state of delivery (CSD)\",\"Smart Money Technique (SMT)\",\"Order Block (OB)\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Equilibrium (EQ)\",\"Risk-Reward Ratio (2R)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到小时线的分析过程，清晰标注了关键价位（FVG、CSD、止损、目标），交易结果明确（达成2R）。\"}",
+  "error": null
+}

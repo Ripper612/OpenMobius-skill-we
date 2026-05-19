@@ -1,0 +1,62 @@
+{
+  "card_id": "phases_of_price_blending",
+  "type": "merged_concept",
+  "canonical_term": "Phases of Price Blending",
+  "aliases": [
+    "Blending All Phases of Price",
+    "Price Phase Blending"
+  ],
+  "school": "Price Action",
+  "definition": "将四个价格阶段（扩张、回撤、整理、反转）按照特定逻辑序列组合分析的方法论，通过识别阶段间的转换关系来预测价格后续运动方向和交易机会。",
+  "identification_rules": [
+    "始终从Expansion开始，作为分析的起点和重启点。",
+    "Expansion→Retracement→Expansion 构成延续信号，预期价格沿原方向继续。",
+    "Expansion→Consolidation 可能导致延续或反转，取决于是否突破整理区间或操纵边界。",
+    "Expansion met with Expansion（相反方向）构成反转信号，预期价格改变方向。",
+    "Consolidation后若出现相反方向Expansion则为操纵（Manipulation），若同方向则为突破（Breakout）。",
+    "识别不确定时，等待更多K线收盘确认阶段性质（Retracement vs Reversal）。",
+    "将日线偏向（Daily Bias）与小时线阶段组合，确定预期的具体交易方向。"
+  ],
+  "trading_implication": "通过流程化识别价格阶段转换，交易者可预判后续运动并确定入场点。在Expansion→Retracement后寻找Protected Swing作为延续入场；在Consolidation后根据日线偏向判断是否等待操纵或突破；在Reversal（Expansion met Expansion）后预期新方向的Expansion。该方法将离散的阶段概念整合为连贯的市场运动蓝图，提高交易决策的系统性。",
+  "common_mistakes": [
+    "未能区分Consolidation后的操纵（反向Expansion）与突破（同向Expansion），导致交易方向错误。",
+    "在Retracement和Reversal之间判断不清，未等待足够K线确认就仓促入场。",
+    "忽视Daily Bias的作用，在小时线阶段分析中做出与日线偏向相悖的交易决策。",
+    "将单个阶段孤立分析，未能理解阶段间的因果关系和流程逻辑。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_phases_of_price_blending",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        11.12,
+        374.16
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134681Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

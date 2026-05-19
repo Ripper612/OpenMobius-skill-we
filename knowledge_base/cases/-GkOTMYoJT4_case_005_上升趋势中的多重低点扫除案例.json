@@ -1,0 +1,90 @@
+{
+  "card_id": "-GkOTMYoJT4_case_005_上升趋势中的多重低点扫除案例",
+  "type": "case",
+  "title": "上升趋势中的多重低点扫除与诱导入场",
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "inducement",
+    "buyside_sellside_liquidity",
+    "order_block",
+    "market_structure",
+    "displacement",
+    "protected_high_low"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "4H / 1M",
+  "market_context": "NQ1! 在上升趋势中，价格经历多次回撤后继续上行。博主在 4 小时图上识别出三个连续的低点被扫除，随后价格向上扫荡买方流动性。",
+  "key_observation": "在上升趋势中，价格多次回测旧低点但收盘尊重这些低点，形成诱导设置。关键是观察收盘如何处理这些旧低点——强势收盘表明诱导有效，为后续上行提供确认。",
+  "analysis_steps": [
+    "Step 1: 在 4 小时图上识别上升趋势中的三个连续低点位置（约 12160-12220、12340-12480、12580-12720 区间）。",
+    "Step 2: 观察价格在每个低点处的收盘行为，确认收盘是否尊重（不破）旧低点。",
+    "Step 3: 注意到价格虽然接近这些低点但收盘强势，表明存在诱导（Inducement）现象。",
+    "Step 4: 确认价格随后向上扫荡买方流动性（Buyside Liquidity），达到约 12876.25 附近。",
+    "Step 5: 在 1 分钟图上验证细节，观察具体的入场时机和价格行为确认。"
+  ],
+  "outcome": null,
+  "lessons": "在上升趋势中，多个低点被扫除但收盘尊重旧低点是关键确认信号。这种诱导设置提供多个高概率入场机会。交易者应关注收盘如何处理关键水平，而非仅看价格是否触及。",
+  "primary_image": "cards/-GkOTMYoJT4/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/-GkOTMYoJT4/images/case_005_detail_1.jpg",
+    "cards/-GkOTMYoJT4/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）4 小时 K 线图，可见价格范围约从 11840 至 12960。图上绘制有两个矩形标注区域：一个位于约 12340 至 12480 区间，另一个位于约 12580 至 12720 区间，两者均以浅色填充显示。图右侧价格轴标注三个高亮价格标签：12876.25、12649.75 及 12186.75。K 线序列中，约 13 Ma",
+    "case_005_detail_1.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）4 小时 K 线图，来自 CME_MINI，当前价格标签显示 12649.75。图上可见价格范围约从 11760 至 12820。图上有两个矩形标注区域：一个位于约 12160 至 12220 价格区间（约 3 月 15 日附近），另一个位于约 12620 至 12680 价格区间（图右上方）。图上另有两条水平线，分别位于约 1",
+    "case_005_detail_2.jpg": "图表为 NASDAQ 100 E-mini Futures 1 分钟 K 线图，时间轴覆盖 14:10 至 16:00 附近，日期标注为 Fri 12 May '23。右侧价格轴可见范围约 13321.75 至 13382.00，当前价格标签显示 13369.75，底部另有 13321.75 标签。图上约 15:00 附近有一个小矩形标注，价格区间约在 13336 至 13342。15:10 之后"
+  },
+  "sources": [
+    {
+      "video_id": "-GkOTMYoJT4",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        430.62,
+        496.919
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个低点的识别、收盘确认、诱导现象和后续上行的全过程，资产、时间框架、价格区间均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:02:29.802498Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"上升趋势中的多重低点扫除与诱导入场\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"4H / 1M\",\"market_context\":\"NQ1! 在上升趋势中，价格经历多次回撤后继续上行。博主在 4 小时图上识别出三个连续的低点被扫除，随后价格向上扫荡买方流动性。\",\"key_observation\":\"在上升趋势中，价格多次回测旧低点但收盘尊重这些低点，形成诱导设置。关键是观察收盘如何处理这些旧低点——强势收盘表明诱导有效，为后续上行提供确认。\",\"analysis_steps\":[\"Step 1: 在 4 小时图上识别上升趋势中的三个连续低点位置（约 12160-12220、12340-12480、12580-12720 区间）。\",\"Step 2: 观察价格在每个低点处的收盘行为，确认收盘是否尊重（不破）旧低点。\",\"Step 3: 注意到价格虽然接近这些低点但收盘强势，表明存在诱导（Inducement）现象。\",\"Step 4: 确认价格随后向上扫荡买方流动性（Buyside Liquidity），达到约 12876.25 附近。\",\"Step 5: 在 1 分钟图上验证细节，观察具体的入场时机和价格行为确认。\"],\"outcome\":null,\"lessons\":\"在上升趋势中，多个低点被扫除但收盘尊重旧低点是关键确认信号。这种诱导设置提供多个高概率入场机会。交易者应关注收盘如何处理关键水平，而非仅看价格是否触及。\",\"primary_image_frame_id\":\"-GkOTMYoJT4_f016\",\"supporting_image_frame_ids\":[\"-GkOTMYoJT4_f015\",\"-GkOTMYoJT4_f017\"],\"related_concepts\":[\"Inducement\",\"Buyside Liquidity\",\"Order Block\",\"Market Structure\",\"Displacement\",\"Protected Swing\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个低点的识别、收盘确认、诱导现象和后续上行的全过程，资产、时间框架、价格区间均清晰可读。\"}",
+  "error": null
+}

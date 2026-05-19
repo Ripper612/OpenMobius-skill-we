@@ -1,0 +1,323 @@
+{
+  "card_id": "inversion",
+  "type": "merged_concept",
+  "canonical_term": "Inversion",
+  "aliases": [
+    "Change in the state of delivery",
+    "FVG Inversion",
+    "FVG closure",
+    "Fair Value Gap Inversion",
+    "反转形态"
+  ],
+  "school": "ICT",
+  "definition": "当FVG被收盘价完全穿破后，该缺口区域角色反转（支撑变阻力或阻力变支撑）的现象；也指价格扫除摆动高低点后，通过一系列逐根收盘价升高（或降低）的K线形成的反转确认信号。是反转序列中的中等强度确认步骤，介于Turtle Soup与MSS之间。",
+  "identification_rules": [
+    "识别一个有效的FVG（三根K线形态：第一根与第三根K线之间存在不重叠的价格缺口）",
+    "观察价格是否以收盘价完全穿过该FVG区域（不仅是触及，而是收盘价完整穿过，包括穿过Consequent Encroachment）",
+    "收盘价完全穿破后，原看涨FVG（BIBI）转变为阻力，原看跌FVG（SIBI）转变为支撑",
+    "价格扫除前期摆动低点（或高点）后，随后形成一系列收盘价逐根高于（或低于）前一根K线的K线序列，确认Inversion成立",
+    "Inversion通常出现在Turtle Soup（流动性扫除）之后，作为反转序列的第二步确认",
+    "在Power of Three框架中，Inversion出现在操纵（Manipulation）阶段完成、价格激进回归盘整区间之后",
+    "FVG反转不必立即发生，可在一段时间盘整后才出现；需持续观察价格回归该区域时的反应"
+  ],
+  "trading_implication": "Inversion是订单流改变的中等强度确认信号，比Turtle Soup确认度更高，但早于MSS和CSD出现，提供更早的入场机会。FVG被反转后，可在价格回归该区域时寻找入场点，止损设于操纵扫除的极值点，目标指向流动性区域或失败摆动高低点。结合Consequent Encroachment可优化入场：价格尊重则顺向入场，跌破则反向。建议与CSD、MSS配合使用以降低虚假信号风险。",
+  "common_mistakes": [
+    "将价格仅触及FVG误认为Inversion，必须等待收盘价完全穿过整个FVG区域（包括Consequent Encroachment）",
+    "仅依赖Inversion单独入场而忽视后续CSD或MSS确认，容易陷入虚假突破",
+    "误认为FVG反转必须立即发生，实际上可能在一段时间盘整后才出现",
+    "混淆FVG反转与FVG失效：失效是价格穿过后不尊重该区域；反转是穿过后角色改变为相反的支撑或阻力",
+    "在Inversion形成后立即入场，而不等待价格对Consequent Encroachment的反应或回测确认",
+    "试图同时标记所有PD array（Inversion、FVG、Breaker Block等），导致图表混乱且实时执行困难",
+    "未能区分Inversion在反转序列中的确认等级，与Turtle Soup或MSS混淆使用",
+    "在未形成完整K线序列或完整FVG穿破的情况下过早判断Inversion已成立"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Consequent Encroachment",
+      "card_id": "consequent_encroachment",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "SIBI",
+      "card_id": "bearish_fair_value_gap_sibi",
+      "exists": true
+    },
+    {
+      "term": "BIBI",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium / Discount Array",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Order of reversal",
+      "card_id": "confirmation_levels",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "E89d1HArbgM_case_002_原油期货月线至日线的多级别分析",
+      "video_id": "E89d1HArbgM",
+      "title": "原油期货月线至日线的多级别订单流分析"
+    },
+    {
+      "card_id": "E89d1HArbgM_case_003_原油日线的虚假突破与真实结构转变",
+      "video_id": "E89d1HArbgM",
+      "title": "原油日线虚假突破与三层结构转变信号"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_006_英镑美元_gbpusd_日线至月线范围交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "GBPUSD日线-月线范围交易：扫低后CSD确认突破"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_001_纽约开盘后的_6_分钟图_amd_案例",
+      "video_id": "TCFvsZeYvV8",
+      "title": "纽约开盘后 NQ 6分钟图：AMD模式中的反转与Box Setup做多"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_002_5_分钟图中的失败摆动与派发",
+      "video_id": "TCFvsZeYvV8",
+      "title": "5分钟图中的失败摆动与派发交易设置"
+    },
+    {
+      "card_id": "ZVUDpCyvxfQ_case_002_公允价值缺口的consequent_encroachment测试",
+      "video_id": "ZVUDpCyvxfQ",
+      "title": "公允价值缺口的Consequent Encroachment测试与缺口尊重判断"
+    },
+    {
+      "card_id": "ZVUDpCyvxfQ_case_004_成交量不平衡与真实缺口的对比",
+      "video_id": "ZVUDpCyvxfQ",
+      "title": "成交量不平衡与真实缺口的对比分析"
+    },
+    {
+      "card_id": "r_UF8U-hsL8_case_001_apoz资产的反转与延续交易案例",
+      "video_id": "r_UF8U-hsL8",
+      "title": "APOZ反转序列与延续做空交易案例"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_001_eurusd_60分钟与5分钟反演交易案例",
+      "video_id": "uDJI2AbyyCs",
+      "title": "EURUSD 60分钟与5分钟反演交易案例"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_002_usd_jpy_1分钟趋势中的反演应用",
+      "video_id": "uDJI2AbyyCs",
+      "title": "USD/JPY 1分钟上升趋势中的反演与推进块应用"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_003_黄金日线智能货币反转与旧fvg支撑案例",
+      "video_id": "uDJI2AbyyCs",
+      "title": "黄金日线智能货币反转与旧FVG支撑案例"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_001_eurusd_1分钟反转序列案例",
+      "video_id": "wik00c9_2nk",
+      "title": "EURUSD 1分钟整理区间扫低后的完整反转序列"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_002_日线偏差与小时线反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "日线偏差后小时线反转与亚洲高点突破"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_003_spx_15分钟下跌反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "SPX 15分钟下跌反转：Turtle Soup到Breaker Block的完整形态"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_004_btc_1小时盘整与反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "BTC 1小时盘整与反转案例：Turtle Soup到Propulsion Block"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "E89d1HArbgM",
+      "original_card_id": "E89d1HArbgM_concept_inversion",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        192.159,
+        546.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_inversion",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        216.239,
+        375.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "WwmS47Gb3M0",
+      "original_card_id": "WwmS47Gb3M0_concept_inversion",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        194.28,
+        551.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "original_card_id": "ZVUDpCyvxfQ_concept_fair_value_gap_inversion",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        363.6,
+        543.3
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "r_UF8U-hsL8",
+      "original_card_id": "r_UF8U-hsL8_concept_inversion",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_007"
+      ],
+      "time_range": [
+        11.12,
+        573.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "uDJI2AbyyCs",
+      "original_card_id": "uDJI2AbyyCs_concept_inversion",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.4,
+        466.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_inversion",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        11.04,
+        1016.639
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 7,
+    "source_videos": 7,
+    "high_confidence_sources": 7,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:51:13.704250Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 4"
+  ],
+  "merge_notes": "7张原始卡均标注ICT，school无冲突。各卡侧重点不同：部分聚焦FVG角色反转，部分聚焦K线序列反转确认，部分聚焦Power of Three框架中的操纵后回归，已综合为统一定义。",
+  "error": null
+}

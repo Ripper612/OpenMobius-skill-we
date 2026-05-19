@@ -1,0 +1,116 @@
+{
+  "card_id": "FGkb_50BfT8_case_005_nq与es的smt分歧及低阻力流动性追踪",
+  "type": "case",
+  "title": "NQ高阻力流动性与ES低阻力低点序列的SMT分歧交易",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "low_resistance_liquidity",
+    "high_resistance_liquidity",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "failure_swing",
+    "market_structure_shift_mss",
+    "displacement",
+    "protected_high_low"
+  ],
+  "school": "SMC",
+  "asset": "NQ1! / ES1!",
+  "timeframe": "60M / 1D",
+  "market_context": "NQ在日线创出新高形成高阻力流动性，而ES形成SMT分歧（未跟随创高），ES在低时间框架呈现明显的低阻力低点序列与订单块组合，提供低风险交易机会。",
+  "key_observation": "NQ与ES在高点处形成Smart Money Technique分歧：NQ创高阻力流动性而ES未能跟随，ES反而在低时间框架形成一系列失败摆动低点（低阻力流动性）叠加订单块，预示价格将扫除这些低点后反向运行。",
+  "analysis_steps": [
+    "Step 1: 在NQ日线上识别一系列失败摆动高点（failure swings），标记为低阻力流动性目标。",
+    "Step 2: 观察NQ价格扫除前一日低点后创出新高，形成高阻力流动性。",
+    "Step 3: 在日线级别识别前三日高点排列，以及当日收盘位置相对于Wick的50%位置，预测次日向高点与FVG运行。",
+    "Step 4: 对比NQ与ES在高点处的表现，发现ES未能跟随NQ创高，形成SMT分歧，判断ES相对较弱。",
+    "Step 5: 切换至ES 60分钟图表，识别明显的低阻力低点序列（一系列失败摆动低点）。",
+    "Step 6: 在ES低点序列中发现订单块（Order Block）：价格回测至重要水平后收盘在其上方形成。",
+    "Step 7: 确认低阻力流动性位于订单块上方，形成高概率交易设置。",
+    "Step 8: 追踪价格扫除所有低阻力低点进入订单块区域，观察均值阈值（mean threshold）产生反应。",
+    "Step 9: 识别ES高点处形成的一系列较低高点（lower highs），预示价格将向下寻求流动性。"
+  ],
+  "outcome": null,
+  "lessons": "SMT分歧是识别相关资产强弱的关键工具。低阻力流动性与订单块的组合形成高概率交易设置。通过多时间框架分析（日线确认趋势方向，60分钟精确入场点），可以在低风险区域建立头寸。失败摆动序列的识别对于追踪机构流动性扫荡至关重要。",
+  "primary_image": "cards/FGkb_50BfT8/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/FGkb_50BfT8/images/case_005_detail_1.jpg",
+    "cards/FGkb_50BfT8/images/case_005_detail_2.jpg",
+    "cards/FGkb_50BfT8/images/case_005_detail_3.jpg",
+    "cards/FGkb_50BfT8/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为 ES1! 60 分钟 K 线图，可见价格范围约 4975 至 5175。图上标注有多个矩形框，分别位于约 5115-5130、5100-5120、5060-5085、5025-5040 及 5010-5025 区间。右侧价格轴高亮显示 5130.00 与 5085.00 两个价位。图上在摆动高点附近约 5125-5130 处有一黄色圆圈标注。K 线序列从左侧低点上行至约 5130 后出现一",
+    "case_005_detail_1.jpg": "NQ1! 日线蜡烛图，图上可见价格范围约从 17500 至 19000。图上绘有两个矩形框标注：一个覆盖约 18120 至 18400 区间，另一个覆盖约 18400 至 18640 区间。另有一个粉色填充矩形位于约 17720 至 17800 区间。图右侧价格轴当前高亮标签约为 18006。K 线序列中可见多根交替出现的绿色与黑色蜡烛，最右侧可见一根较长的黑色蜡烛，实体从约 18400 延伸至约",
+    "case_005_detail_2.jpg": "NQ1! 60 分钟 K 线图，图上时间轴显示日期范围约为 1 月 25 日至 3 月 6 日，当前价格标签显示 17664.75 及 17331.50 两个水平虚线位置。图右侧价格刻度范围约从 17220 至 18020。图中央有一条竖向虚线标注于 2/5/2024 附近。K 线在图中部出现一根较长的阴线，随后在约 17420 至 17560 区间内有多根 K 线横向排列。图右侧出现一根较长阳线",
+    "case_005_detail_3.jpg": "图表显示 NQ1! 日线 K 线图，可见价格范围约从 17160 到 18360。图上绘制有一条水平虚线位于约 17928 处，并有两个矩形框标注：一个位于约 17920 至 17980 区间，另一个位于约 17460 至 17500 区间。图右侧两根 K 线为绿色实体，主体延伸至约 18100 至 18200 区域。图中央附近有一根大黑色实体 K 线，主体从约 17960 向下延伸至约 1742",
+    "case_005_detail_4.jpg": "图表为 ES1 60 分钟 K 线图，可见价格范围约从 4965.00 到 5145.00。图上在约 5033.00 至 5042.00 区间绘制有两条水平线，横跨日期 22 至 25 附近。图上另有一条向下倾斜的趋势线，位于约 5120.00 至 5135.00 区间，覆盖日期 23 至 25 附近。日期 19 附近可见一根大阴线，从约 5080.00 延伸至 4965.00。日期 22 之后出"
+  },
+  "sources": [
+    {
+      "video_id": "FGkb_50BfT8",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        370.84,
+        549.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了NQ与ES的对比分析、低阻力低点序列识别、订单块确认及交易逻辑，关键价位与分析步骤清晰可追踪。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:18.856752Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ高阻力流动性与ES低阻力低点序列的SMT分歧交易\",\"school\":\"SMC\",\"asset\":\"NQ1! / ES1!\",\"timeframe\":\"60M / 1D\",\"market_context\":\"NQ在日线创出新高形成高阻力流动性，而ES形成SMT分歧（未跟随创高），ES在低时间框架呈现明显的低阻力低点序列与订单块组合，提供低风险交易机会。\",\"key_observation\":\"NQ与ES在高点处形成Smart Money Technique分歧：NQ创高阻力流动性而ES未能跟随，ES反而在低时间框架形成一系列失败摆动低点（低阻力流动性）叠加订单块，预示价格将扫除这些低点后反向运行。\",\"analysis_steps\":[\"Step 1: 在NQ日线上识别一系列失败摆动高点（failure swings），标记为低阻力流动性目标。\",\"Step 2: 观察NQ价格扫除前一日低点后创出新高，形成高阻力流动性。\",\"Step 3: 在日线级别识别前三日高点排列，以及当日收盘位置相对于Wick的50%位置，预测次日向高点与FVG运行。\",\"Step 4: 对比NQ与ES在高点处的表现，发现ES未能跟随NQ创高，形成SMT分歧，判断ES相对较弱。\",\"Step 5: 切换至ES 60分钟图表，识别明显的低阻力低点序列（一系列失败摆动低点）。\",\"Step 6: 在ES低点序列中发现订单块（Order Block）：价格回测至重要水平后收盘在其上方形成。\",\"Step 7: 确认低阻力流动性位于订单块上方，形成高概率交易设置。\",\"Step 8: 追踪价格扫除所有低阻力低点进入订单块区域，观察均值阈值（mean threshold）产生反应。\",\"Step 9: 识别ES高点处形成的一系列较低高点（lower highs），预示价格将向下寻求流动性。\"],\"outcome\":null,\"lessons\":\"SMT分歧是识别相关资产强弱的关键工具。低阻力流动性与订单块的组合形成高概率交易设置。通过多时间框架分析（日线确认趋势方向，60分钟精确入场点），可以在低风险区域建立头寸。失败摆动序列的识别对于追踪机构流动性扫荡至关重要。\",\"primary_image_frame_id\":\"FGkb_50BfT8_f019\",\"supporting_image_frame_ids\":[\"FGkb_50BfT8_f013\",\"FGkb_50BfT8_f014\",\"FGkb_50BfT8_f016\",\"FGkb_50BfT8_f018\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Low Resistance Liquidity\",\"High Resistance Liquidity\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Failure Swing\",\"Market Structure Shift (MSS)\",\"Displacement\",\"Protected Swing\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了NQ与ES的对比分析、低阻力低点序列识别、订单块确认及交易逻辑，关键价位与分析步骤清晰可追踪。\"}",
+  "error": null
+}

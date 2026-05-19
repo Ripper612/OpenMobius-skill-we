@@ -1,0 +1,114 @@
+{
+  "card_id": "CHIK5oBRKiw_case_001_nq期货8月11日纽约开盘扫盘案例",
+  "type": "case",
+  "title": "NQ期货8月11日纽约开盘扫盘与CISD交易案例",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CISD)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Accumulation Manipulation Distribution (AMD)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block_ob",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "displacement",
+    "fair_value_gap_fvg",
+    "standard_deviation_projection",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M",
+  "market_context": "8月11日纽约开盘前，NQ期货价格在约15410附近的旧高点上方积聚买方流动性。开盘后价格快速上扫该高点，随后发生状态改变并下行寻求伦敦低点。",
+  "key_observation": "价格在纽约开盘时向上位移扫除旧高点流动性（约15410），随后形成一系列上涨K线的收盘下穿，触发CISD（交付状态改变），预示从看涨转向看跌的结构转变。",
+  "analysis_steps": [
+    "Step 1: 在高时间框架识别重要水平线（旧高点）附近的买方流动性积聚点，约15410处。",
+    "Step 2: 在5分钟图上观察纽约开盘（NYO）时的价格行为，确认价格向上位移扫除该高点。",
+    "Step 3: 标记形成新高的一系列上涨K线（两根绿色K线），使用第一根K线的开盘价作为CISD参考点。",
+    "Step 4: 等待价格收盘下穿这些上涨K线的开盘价，确认CISD触发，状态从看涨转向看跌。",
+    "Step 5: 识别下方的订单块（Order Block）和伦敦低点（约15356.75和15339.00）作为下行目标。",
+    "Step 6: 使用标准差投影方法，将操纵腿向下投影，寻找-2至-2.5标准差区域作为最终目标，以改善风险回报比（从1.66R提升至2R+）。"
+  ],
+  "outcome": "价格在CISD确认后下行，触及订单块并尊重其中的公允价值缺口，最终向下测试标准差投影目标区域。",
+  "lessons": "CISD与标准差投影结合可识别高概率空头入场点。关键是准确标记形成新高的K线序列，等待收盘确认状态改变，然后利用下方订单块和流动性目标制定交易计划。风险回报比优化对交易可行性至关重要。",
+  "primary_image": "cards/CHIK5oBRKiw/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/CHIK5oBRKiw/images/case_001_detail_1.jpg",
+    "cards/CHIK5oBRKiw/images/case_001_detail_2.jpg",
+    "cards/CHIK5oBRKiw/images/case_001_detail_3.jpg",
+    "cards/CHIK5oBRKiw/images/case_001_detail_4.jpg",
+    "cards/CHIK5oBRKiw/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NQ11（纳斯达克期货）5 分钟 K 线图，日期标注为 8/11/2023，图右上角显示 TTrades_edu 水印。可见价格范围约从 15313 至 15450。图上有两条带高亮标签的水平线分别位于 15356.75 和 15339.00，另有一条贯穿全图的水平线位于约 15410。图右侧标注有文字标签 NYO 和 CSD，位于约 15385 附近，另有时间标注 8:30 和 0:00。图右侧",
+    "case_001_detail_1.jpg": "图为教学示意图，顶部标题栏显示'CISD'文字。图中包含上下两个独立的K线示意图，均无资产代码和时间框架标注，价格刻度不可见。上方图中有一条带虚线的水平线标注'Important Level'位于K线序列高点附近，另有一条实线水平线标注'CISD'位于其下方，K线序列整体自高点向下延伸并穿越CISD线。下方图中有一条带虚线的水平线标注'Important Level'位于K线序列低点附近，另有一条",
+    "case_001_detail_2.jpg": "图为教学示意图，顶部标题栏显示'CISD'字样。图上包含两个独立的 K 线图面板，均无价格刻度数字。上方面板有两条水平线，分别标注'Important Level'（位于价格区间上方）和'CISD'（位于中下方），K 线序列在触及 CISD 线后出现一根大阴线向下穿越。下方面板同样有两条水平线，分别标注'CISD'（位于中部）和'Important Level'（位于区间下方），K 线序列在触及 ",
+    "case_001_detail_3.jpg": "NQ1! 5分钟K线图，日期为2023年8月11日，时间轴覆盖04:30至16:00。图右侧价格刻度范围约15354至15416。图上有三条带文字标注的水平线或参考线：15412附近一条无标签水平线、15358附近标注'0:00'的水平线、以及当前价格标签15387.25。图上另有两处文字标注：'NYO'位于约15387至15390价格区域，'8:30'位于约15375至15380价格区域。09:",
+    "case_001_detail_4.jpg": "NQ1! 5分钟K线图，日期标注为2023年8月11日，图右上角显示水印'TTrades_edu'。图右侧价格刻度范围约从15358至15420。图上有一条位于15412附近的水平线贯穿全图，另有当前价标签15383.25显示于右侧价格轴。图中约09:00至09:30区域出现一根大幅上涨绿色K线，随后紧跟一根大幅下跌黑色K线，两根K线价格范围约在15383至15414之间。图上标注文字'NYO'位",
+    "case_001_detail_5.jpg": "NQ1! 5 分钟 K 线图，图上时间轴显示 8/11/2023，可见价格范围约 15290 至 15420。图右侧标注多个价格标签：15417.50、15387.00、15355.25、15311.75。图上有一条红色水平线位于约 15410 处，另有一条水平线位于约 15335 处。图右侧有两个矩形区域：上方灰色矩形覆盖约 15390 至 15420 区间，下方青绿色矩形覆盖约 15200 至"
+  },
+  "sources": [
+    {
+      "video_id": "CHIK5oBRKiw",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.48,
+        224.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了CISD概念、实际图表标注、价格水平（15410、15356.75、15339.00）、时间框架（5M）、资产代码（NQ1!）和日期（8/11/2023），分析步骤清晰有序，包含具体的交易逻辑和风险回报优化方法。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:52.964706Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ期货8月11日纽约开盘扫盘与CISD交易案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M\",\"market_context\":\"8月11日纽约开盘前，NQ期货价格在约15410附近的旧高点上方积聚买方流动性。开盘后价格快速上扫该高点，随后发生状态改变并下行寻求伦敦低点。\",\"key_observation\":\"价格在纽约开盘时向上位移扫除旧高点流动性（约15410），随后形成一系列上涨K线的收盘下穿，触发CISD（交付状态改变），预示从看涨转向看跌的结构转变。\",\"analysis_steps\":[\"Step 1: 在高时间框架识别重要水平线（旧高点）附近的买方流动性积聚点，约15410处。\",\"Step 2: 在5分钟图上观察纽约开盘（NYO）时的价格行为，确认价格向上位移扫除该高点。\",\"Step 3: 标记形成新高的一系列上涨K线（两根绿色K线），使用第一根K线的开盘价作为CISD参考点。\",\"Step 4: 等待价格收盘下穿这些上涨K线的开盘价，确认CISD触发，状态从看涨转向看跌。\",\"Step 5: 识别下方的订单块（Order Block）和伦敦低点（约15356.75和15339.00）作为下行目标。\",\"Step 6: 使用标准差投影方法，将操纵腿向下投影，寻找-2至-2.5标准差区域作为最终目标，以改善风险回报比（从1.66R提升至2R+）。\"],\"outcome\":\"价格在CISD确认后下行，触及订单块并尊重其中的公允价值缺口，最终向下测试标准差投影目标区域。\",\"lessons\":\"CISD与标准差投影结合可识别高概率空头入场点。关键是准确标记形成新高的K线序列，等待收盘确认状态改变，然后利用下方订单块和流动性目标制定交易计划。风险回报比优化对交易可行性至关重要。\",\"primary_image_frame_id\":\"CHIK5oBRKiw_f007\",\"supporting_image_frame_ids\":[\"CHIK5oBRKiw_f002\",\"CHIK5oBRKiw_f004\",\"CHIK5oBRKiw_f005\",\"CHIK5oBRKiw_f006\",\"CHIK5oBRKiw_f008\"],\"related_concepts\":[\"Change in State of Delivery (CISD)\",\"Order Block (OB)\",\"Liquidity\",\"Buyside Liquidity\",\"Displacement\",\"Fair Value Gap (FVG)\",\"Standard Deviation Projection\",\"Accumulation Manipulation Distribution (AMD)\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了CISD概念、实际图表标注、价格水平（15410、15356.75、15339.00）、时间框架（5M）、资产代码（NQ1!）和日期（8/11/2023），分析步骤清晰有序，包含具体的交易逻辑和风险回报优化方法。\"}",
+  "error": null
+}

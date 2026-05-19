@@ -1,0 +1,121 @@
+{
+  "card_id": "MPeeE55rNOw_case_003_nq日内完整交易流程分析",
+  "type": "case",
+  "title": "NQ日内完整交易流程：亚洲扫盘到纽约会话的FVG与OB应用",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "London Manipulation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium/Discount Array",
+      "card_id": "premium_discount_array",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "standard_deviation",
+    "market_structure",
+    "premium_discount_array",
+    "liquidity",
+    "breaker_block"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "15m",
+  "market_context": "2023年3月10日NQ日内交易，从亚洲低点扫盘开始，经历伦敦操纵阶段，进入纽约上午位移下行，最后纽约下午会话收盘。价格范围14660-15040。",
+  "key_observation": "博主展示了完整的日内交易周期：亚洲扫低后回到范围内形成FVG，伦敦高点设定后向下位移，纽约上午进入2-2.5标准差区域，下午继续下行至4标准差。",
+  "analysis_steps": [
+    "Step 1: 识别亚洲低点扫盘后价格回到范围内形成的Fair Value Gap，预期作为支撑。",
+    "Step 2: 标记伦敦高点和低点，投影标准差水平（2-2.5σ预期回撤或反转）。",
+    "Step 3: 计算伦敦高点到当前低点的OTE（最优交易入场点），寻找与FVG的重叠汇聚。",
+    "Step 4: 在旧FVG区域识别Order Block，上收阳线进入FVG后形成中期高点。",
+    "Step 5: 设置止损在该高点或上方阳线处，目标设定在低点或4标准差下方。",
+    "Step 6: 进入纽约上午会话，价格触及伦敦操纵投影后继续下行。",
+    "Step 7: 标记上收阳线序列，观察价格是否收破这些阳线（PM会话确认）。",
+    "Step 8: 追踪PM会话和日终收盘，验证下行趋势延续。"
+  ],
+  "outcome": "交易在旧FVG区域做空入场，止损在中期高点（约14950），目标达到4标准差下方（约14660附近），显示完整的日内下行位移被执行。",
+  "lessons": "日内交易需要多时间框架协调：用HTF（6H）标记伦敦操纵和标准差投影，用LTF（15m）精确入场。FVG、OB、标准差的汇聚点提供高概率入场。上收阳线进入FVG后形成的中期高点是有效止损位。",
+  "primary_image": "cards/MPeeE55rNOw/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/MPeeE55rNOw/images/case_003_detail_1.jpg",
+    "cards/MPeeE55rNOw/images/case_003_detail_2.jpg",
+    "cards/MPeeE55rNOw/images/case_003_detail_3.jpg",
+    "cards/MPeeE55rNOw/images/case_003_detail_4.jpg",
+    "cards/MPeeE55rNOw/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表显示 USD 15 分钟周期，价格范围约 14752 至 15040。图上标记有多条水平线和矩形区域，其中标注'True Day Open'的矩形出现两次。右侧显示绿色和黑色 K 线，包含一根长主体的 K 线从约 14750 延伸至 14950。图上有三条信息标签分别显示止损、已平仓盈亏及目标价格的具体数值和风险收益比。左下角显示时间戳'3/10/2023'和周期'NQ11 | 15m'。",
+    "case_003_detail_1.jpg": "图表显示 USD 资产 6 时间框架的 K 线图。价格范围从 14800.00 到 15070.00。图上有三个矩形标注区域：绿色矩形约在 14990-15010 区间，标记为'True Day Open'；米色矩形约在 14820-14900 区间；蓝色矩形约在 14900-15000 区间，同样标记为'True Day Open'。左侧显示价格刻度，底部显示时间轴标记为 03:00 至 21:",
+    "case_003_detail_2.jpg": "USD 6 时间框架 K 线图。图上显示价格范围约从 14800 到 15070。图表包含三个矩形标注区域：左侧米色矩形约覆盖 14820 至 14990 区间，中部蓝色矩形约覆盖 14970 至 15020 区间，右侧绿色矩形约覆盖 14950 至 15010 区间。图上有两条水平线均标记为'True Day Open'，分别位于 14990 和 14970 价格水平。右侧可见一个黑色矩形标注。",
+    "case_003_detail_3.jpg": "NQ11 15分钟K线图。图上显示从14820到15070的价格范围。图表中标注了多个矩形区域，其中两个标记为'True Day Open'。左侧有米色矩形区域，中部有蓝色矩形，绿色矩形，右侧有黑色矩形。K线由绿色和黑色蜡烛组成，分布在整个可见范围内。时间轴显示从09:00开始，跨越至次日09:00，标注日期为3/10/2023。右下角显示交易按钮'Sell'、'Buy'和'Flatten'。左下",
+    "case_003_detail_4.jpg": "USD 15分钟K线图。图上显示价格范围从14820到15070。标注包括两条水平虚线：14989.50处和14900.00处（标记为'True Day Open'）。图上有多个矩形区域标注，包括黄色、蓝色、绿色和黑色矩形，分别覆盖不同的价格区间。K线整体呈下行走势，从中部的15020附近下跌至右侧的14820附近。图表底部显示时间标记为3/10/2023，周期为NQ11 | 15m。",
+    "case_003_detail_5.jpg": "USD 15分钟K线图。图上可见多个矩形标注区域，分别用浅蓝、浅绿、浅黄色填充，覆盖不同价格区间。图右侧有一个大型黑色矩形块跨越多个时间周期。图上标注有三条水平虚线，分别位于约14960、14860、14740价格位置。K线整体价格范围从约14980下行至14660。图上标记有'True Day Open'、'08:30'、'3/10/2023'、'NQ11 | 15m'等文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "MPeeE55rNOw",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        550.6,
+        729.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了日内交易全流程，资产、时间框架、关键价位、分析步骤、入场逻辑、止损目标均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:00.860572Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日内完整交易流程：亚洲扫盘到纽约会话的FVG与OB应用\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"15m\",\"market_context\":\"2023年3月10日NQ日内交易，从亚洲低点扫盘开始，经历伦敦操纵阶段，进入纽约上午位移下行，最后纽约下午会话收盘。价格范围14660-15040。\",\"key_observation\":\"博主展示了完整的日内交易周期：亚洲扫低后回到范围内形成FVG，伦敦高点设定后向下位移，纽约上午进入2-2.5标准差区域，下午继续下行至4标准差。\",\"analysis_steps\":[\"Step 1: 识别亚洲低点扫盘后价格回到范围内形成的Fair Value Gap，预期作为支撑。\",\"Step 2: 标记伦敦高点和低点，投影标准差水平（2-2.5σ预期回撤或反转）。\",\"Step 3: 计算伦敦高点到当前低点的OTE（最优交易入场点），寻找与FVG的重叠汇聚。\",\"Step 4: 在旧FVG区域识别Order Block，上收阳线进入FVG后形成中期高点。\",\"Step 5: 设置止损在该高点或上方阳线处，目标设定在低点或4标准差下方。\",\"Step 6: 进入纽约上午会话，价格触及伦敦操纵投影后继续下行。\",\"Step 7: 标记上收阳线序列，观察价格是否收破这些阳线（PM会话确认）。\",\"Step 8: 追踪PM会话和日终收盘，验证下行趋势延续。\"],\"outcome\":\"交易在旧FVG区域做空入场，止损在中期高点（约14950），目标达到4标准差下方（约14660附近），显示完整的日内下行位移被执行。\",\"lessons\":\"日内交易需要多时间框架协调：用HTF（6H）标记伦敦操纵和标准差投影，用LTF（15m）精确入场。FVG、OB、标准差的汇聚点提供高概率入场。上收阳线进入FVG后形成的中期高点是有效止损位。\",\"primary_image_frame_id\":\"MPeeE55rNOw_f024\",\"supporting_image_frame_ids\":[\"MPeeE55rNOw_f019\",\"MPeeE55rNOw_f020\",\"MPeeE55rNOw_f021\",\"MPeeE55rNOw_f023\",\"MPeeE55rNOw_f025\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Standard Deviation\",\"Optimal Trade Entry\",\"Market Structure\",\"London Manipulation\",\"Premium/Discount Array\",\"Liquidity\",\"Breaker Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了日内交易全流程，资产、时间框架、关键价位、分析步骤、入场逻辑、止损目标均清晰可读。\"}",
+  "error": null
+}

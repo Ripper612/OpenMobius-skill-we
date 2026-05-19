@@ -1,0 +1,97 @@
+{
+  "card_id": "o0v4KQxZbpU_case_023_回测第二十一天交易",
+  "type": "case",
+  "title": "NAS100扫低后FVG入场做多，3R获利后移至保本",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "market_structure_shift",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "NAS100在早盘形成下行走势，从09:30附近的高点持续下跌至10:20左右的低点，跨度约300点。随后价格在低位形成扫荡结构，为反弹做多提供机会。",
+  "key_observation": "价格在低位完成扫荡后，在Fair Value Gap区域形成反弹信号。博主识别出两个FVG区域（上方绿色FVG约15240-15280，下方粉色FVG约15100-15150），并在反弹时利用FVG作为入场点进行做多交易。",
+  "analysis_steps": [
+    "Step 1: 标记出早盘从09:30至10:20的下行走势的高点和低点，确定市场结构。",
+    "Step 2: 识别价格扫荡至低点后形成的两个Fair Value Gap区域。",
+    "Step 3: 在价格反弹时，于下方FVG（约15100-15150）区域寻找做多入场点。",
+    "Step 4: 设置止损位于扫荡低点下方，目标位设在FVG上方对应的范围。",
+    "Step 5: 使用斐波那契回撤工具投影3R目标位，确认风险回报比。",
+    "Step 6: 价格反弹突破FVG后达到3R目标，随即将止损移至保本位置（入场价）。"
+  ],
+  "outcome": "交易成功达到3R收益目标，随后止损移至保本位置，锁定利润。",
+  "lessons": "在扫荡结构后的Fair Value Gap区域进行反向交易具有高概率。使用3R目标达成后立即移至保本止损，可以在保护已获利润的同时保留继续上涨的机会。识别清晰的FVG和市场结构转变是成功入场的关键。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_023_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_023_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_023_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_023_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_023_primary.jpg": "NAS100 1分钟K线图。图上显示从约15100上升至15320的上升趋势，跨越约20根K线。图表中部有两个矩形标注框，分别位于15160-15240和15240-15320价格区间。右侧价格刻度显示多条水平线标记。图上可见一根大型绿色K线位于15300-15350区间，以及两根黑色K线位于15150-15200区间。图右侧显示价格刻度标签，最高至15425.00000000，最低至15100.",
+    "case_023_detail_1.jpg": "NAS100 1 分钟图表。左侧面板显示 K 线图，从约 09:20 开始上升至 09:30 附近达到高点，随后从 09:30 至 10:20 持续下跌。右侧面板显示同一时段的成交量柱状图，绿色和黑色柱子交替出现。图右侧价格刻度标注有四条水平线，分别位于 15610、15450、15350 和 15310 处。可见价格范围约从 15310 至 15610，跨度约 300 点。",
+    "case_023_detail_2.jpg": "NAS100 1分钟K线图。图上显示从约15320下跌至15100的下行走势，跨越约20根K线。图中标注有两个矩形区域，均标记为FVG文字标签。上方绿色矩形区域位于15240至15280价格范围，下方粉色矩形区域位于15100至15150价格范围。中间区域显示5根K线在15150至15200之间的整理形态。右侧价格刻度显示多条水平参考线。",
+    "case_023_detail_3.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示约20根混合颜色的K线，包含绿色和黑色蜡烛，伴随上下影线。右侧面板显示4根大型K线：黑色、绿色、黑色、黑色，从约15325跨越至15100。绿色K线夹在两根黑色K线之间。图上绘制多条水平线，间隔约25点，覆盖15100至15340的价格范围。右侧价格刻度标注清晰。图表顶部显示资产代码NAS100、时间框架1m及Backtesting标签"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        1195.0,
+        1373.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从识别扫荡结构、标记FVG、设置止损目标、达成3R、移至保本的全过程，关键价位和时间框架清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:37.437100Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NAS100扫低后FVG入场做多，3R获利后移至保本\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"NAS100在早盘形成下行走势，从09:30附近的高点持续下跌至10:20左右的低点，跨度约300点。随后价格在低位形成扫荡结构，为反弹做多提供机会。\",\"key_observation\":\"价格在低位完成扫荡后，在Fair Value Gap区域形成反弹信号。博主识别出两个FVG区域（上方绿色FVG约15240-15280，下方粉色FVG约15100-15150），并在反弹时利用FVG作为入场点进行做多交易。\",\"analysis_steps\":[\"Step 1: 标记出早盘从09:30至10:20的下行走势的高点和低点，确定市场结构。\",\"Step 2: 识别价格扫荡至低点后形成的两个Fair Value Gap区域。\",\"Step 3: 在价格反弹时，于下方FVG（约15100-15150）区域寻找做多入场点。\",\"Step 4: 设置止损位于扫荡低点下方，目标位设在FVG上方对应的范围。\",\"Step 5: 使用斐波那契回撤工具投影3R目标位，确认风险回报比。\",\"Step 6: 价格反弹突破FVG后达到3R目标，随即将止损移至保本位置（入场价）。\"],\"outcome\":\"交易成功达到3R收益目标，随后止损移至保本位置，锁定利润。\",\"lessons\":\"在扫荡结构后的Fair Value Gap区域进行反向交易具有高概率。使用3R目标达成后立即移至保本止损，可以在保护已获利润的同时保留继续上涨的机会。识别清晰的FVG和市场结构转变是成功入场的关键。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f046\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f041\",\"o0v4KQxZbpU_f044\",\"o0v4KQxZbpU_f045\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Market Structure Shift\",\"Liquidity\",\"Risk Management\",\"Optimal Trade Entry\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从识别扫荡结构、标记FVG、设置止损目标、达成3R、移至保本的全过程，关键价位和时间框架清晰可见。\"}",
+  "error": null
+}

@@ -1,0 +1,90 @@
+{
+  "card_id": "o0v4KQxZbpU_case_005_回测第三天交易",
+  "type": "case",
+  "title": "回测第三天交易——10-11AM窗口无扫盘，交易跳过",
+  "related_concepts": [
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Silver Bullet Session",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Trade Entry Conditions",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "killzone",
+    "turtle_soup",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1M",
+  "market_context": "回测第三天，博主在Silver Bullet session（9:00 AM开始）标记出小时高低点后，观察10-11 AM Killzone窗口内的价格行为，寻找是否出现扫盘（sweep）以确认交易条件。",
+  "key_observation": "价格在10-11 AM窗口内未能扫除该小时范围的任一侧（高点或低点），不符合博主的交易触发条件，因此该交易被跳过。",
+  "analysis_steps": [
+    "Step 1: 标记9:00 AM Silver Bullet session的小时高低点作为参考区域。",
+    "Step 2: 在1分钟图上观察10-11 AM Killzone窗口内的价格行为。",
+    "Step 3: 检查价格是否在该窗口内扫除小时高点或低点（sweep either side）。",
+    "Step 4: 确认价格未能扫除任一侧，不满足交易入场条件。",
+    "Step 5: 决定跳过该交易，继续观察下一个Silver Bullet session。"
+  ],
+  "outcome": "交易被跳过，未执行。价格未在10-11 AM窗口内提供有效的扫盘信号。",
+  "lessons": "严格的交易条件筛选是风险管理的关键。即使市场有波动，如果不符合预定的触发条件（如扫盘确认），应坚决跳过交易，避免低概率入场。这体现了Smart Money交易的纪律性。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_005_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_005_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "NAS100 1分钟K线图。图上可见价格范围约从14868到15044。图表中标记有两个矩形区域：下方区域约在14868至14912之间，上方区域约在15000至15044之间。右侧面板显示成交量柱状图，柱体呈绿色和黑色。顶部显示当前K线的开高低收数据及时间戳。图上未见其他标注或指标。",
+    "case_005_detail_1.jpg": "NAS100 1小时K线图。图上标注两个矩形区域：上方区域从15222.27至15372.43，填充粉红色；下方区域从15050.00至15222.27，填充绿色。左侧主图显示较长时间周期内K线在两个区域间的波动，右侧副图展示最近1小时内的K线活动，主要集中在绿色区域范围内，包含绿色和黑色K线体。图上未见其他标注或指标。",
+    "case_005_detail_2.jpg": "NAS100 日线图。图上可见价格范围约从 14900 到 15160。图表中部标记有两个矩形区域，分别位于 15022-15124 和 15082-15160 价格区间。一条水平线位于 15124 处。K 线序列显示绿色和黑色蜡烛体混合分布，右侧可见一根向上跳空的绿色 K 线。图上标注了三个价格数值：15124.0000000、15022.1170000、15082.3170000。除矩形框和水",
+    "case_005_detail_3.jpg": "NAS100 日线图。图表显示从左至右的价格走势，可见价格范围约从 14850 到 15112。图上有多条水平线标注，其中两条矩形框分别标记在 15068-15075 区间和 14985-15000 区间。K 线序列显示初期多根绿色蜡烛，中段出现一系列黑色蜡烛表现下行，后期再次出现绿色蜡烛。各根 K 线的上下影线长度不一。右侧价格刻度清晰显示数值标记。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        379.16,
+        561.399
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主明确说明了交易条件（扫盘）、时间窗口（10-11 AM）、资产（NAS100）、时间框架（1M），以及最终结论（未扫盘，跳过交易）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:41.731329Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第三天交易——10-11AM窗口无扫盘，交易跳过\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1M\",\"market_context\":\"回测第三天，博主在Silver Bullet session（9:00 AM开始）标记出小时高低点后，观察10-11 AM Killzone窗口内的价格行为，寻找是否出现扫盘（sweep）以确认交易条件。\",\"key_observation\":\"价格在10-11 AM窗口内未能扫除该小时范围的任一侧（高点或低点），不符合博主的交易触发条件，因此该交易被跳过。\",\"analysis_steps\":[\"Step 1: 标记9:00 AM Silver Bullet session的小时高低点作为参考区域。\",\"Step 2: 在1分钟图上观察10-11 AM Killzone窗口内的价格行为。\",\"Step 3: 检查价格是否在该窗口内扫除小时高点或低点（sweep either side）。\",\"Step 4: 确认价格未能扫除任一侧，不满足交易入场条件。\",\"Step 5: 决定跳过该交易，继续观察下一个Silver Bullet session。\"],\"outcome\":\"交易被跳过，未执行。价格未在10-11 AM窗口内提供有效的扫盘信号。\",\"lessons\":\"严格的交易条件筛选是风险管理的关键。即使市场有波动，如果不符合预定的触发条件（如扫盘确认），应坚决跳过交易，避免低概率入场。这体现了Smart Money交易的纪律性。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f017\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f015\",\"o0v4KQxZbpU_f018\",\"o0v4KQxZbpU_f019\"],\"related_concepts\":[\"Killzone\",\"Sweep\",\"Order Block\",\"Market Structure\",\"Silver Bullet Session\",\"Trade Entry Conditions\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主明确说明了交易条件（扫盘）、时间窗口（10-11 AM）、资产（NAS100）、时间框架（1M），以及最终结论（未扫盘，跳过交易）。\"}",
+  "error": null
+}

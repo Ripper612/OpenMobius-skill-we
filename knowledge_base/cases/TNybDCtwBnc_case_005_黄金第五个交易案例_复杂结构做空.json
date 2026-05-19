@@ -1,0 +1,110 @@
+{
+  "card_id": "TNybDCtwBnc_case_005_黄金第五个交易案例_复杂结构做空",
+  "type": "case",
+  "title": "黄金日线扫高点后小时线CSD确认，5分钟线等待CSD后做空",
+  "related_concepts": [
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "displacement",
+    "market_structure_shift",
+    "failure_swing",
+    "time_frame_confluence",
+    "risk_to_reward"
+  ],
+  "school": "ICT",
+  "asset": "GC",
+  "timeframe": "1H / 5m (multi-timeframe analysis)",
+  "market_context": "黄金在日线上扫出前期高点并形成失败摆动（failure swings）在低点，建立看跌偏向。小时线确认市场结构转变（CSD），价格回测公允价值缺口后收盘看跌。",
+  "key_observation": "博主在日线观察到价格扫出前期高点和失败摆动，确认看跌偏向。小时线显示CSD已形成，价格回测FVG后收盘看跌。5分钟线等待CSD确认作为入场触发条件。",
+  "analysis_steps": [
+    "Step 1: 日线观察——识别价格扫出前期高点（sweep of previous high）和低点失败摆动（failure swings on lows），建立看跌偏向。",
+    "Step 2: 小时线确认——检查是否存在市场结构转变（CSD from this high），确认看跌结构有效。",
+    "Step 3: 小时线识别关键点——标记价格回测的公允价值缺口（FVG）和订单块（Order Block），确认看跌K线收盘。",
+    "Step 4: 5分钟线等待——在5分钟时间框架上重复分析流程，等待CSD确认后才寻求入场机会。",
+    "Step 5: 5分钟线CSD确认——价格扫出前期高点后形成位移（displacement）向下，确认CSD已形成。",
+    "Step 6: 入场执行——在5分钟线CSD确认后，以市价做空，止损设在前期高点或给予小幅空间。",
+    "Step 7: 目标设定——第一目标为前一日低点（previous day's low），第二目标为2R风险回报比位置。"
+  ],
+  "outcome": "交易成功执行。价格继续向下，达到目标位。根据回测结果，该交易系列（5笔交易）获得80%胜率和2.79R的风险回报比。",
+  "lessons": "多时间框架确认至关重要：日线建立偏向，小时线确认结构转变，5分钟线等待CSD触发入场。复杂结构需要耐心等待所有条件对齐，不可仓促入场。风险管理通过止损位置和目标设定实现高风险回报比。",
+  "primary_image": "cards/TNybDCtwBnc/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/TNybDCtwBnc/images/case_005_detail_1.jpg",
+    "cards/TNybDCtwBnc/images/case_005_detail_2.jpg",
+    "cards/TNybDCtwBnc/images/case_005_detail_3.jpg",
+    "cards/TNybDCtwBnc/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "GC 5分钟K线图，时间范围为2025年6月24-25日20:30至03:00 UTC。图上显示价格范围从3355.0至3372.0。图表中有三个矩形标注区域，分别标记交易参数：上方红色区域标注止损信息（Stop: 4.3），中间浅色区域显示开仓P&L和风险收益比（0.77），下方绿色区域标注目标价位（Target: 3.3）。K线由绿色和黑色蜡烛组成，整体呈现波动走势。右侧价格刻度显示当前价位3",
+    "case_005_detail_1.jpg": "GC 1 小时 K 线图，时间范围从 6 月 20 日至 6 月 25 日。图右侧显示当前价 3404.9，另有标注 3362.1。可见价格范围约从 3350 到 3430。图上绿色和黑色 K 线交替出现，其中 6 月 23 日存在长上影线形态，6 月 24 日存在长下影线形态。图上有一个矩形框标注在约 3380 至 3410 价格区间。最近两根 K 线显示在 3360 至 3410 区间内的整理",
+    "case_005_detail_2.jpg": "GC 1 小时 K 线图，时间戳显示 Mon Jun 23, 2025 22:00:00。图上可见价格范围从 3,344.9 到 3,392.0。右侧价格刻度标注当前价 3,362.1。图上有三条水平线分别位于 3,376.0、3,362.1 和 3,344.9。一条向下倾斜的趋势线从约 3,376.0 延伸至 3,344.9。矩形标注框围绕 3,362.0 至 3,392.0 的价格区间。K 线",
+    "case_005_detail_3.jpg": "GC 5分钟K线图，时间为2025年6月24日00:00。图上显示价格范围从3350.0至3382.0。右侧价格轴标注当前价为3364.1。图上有一条水平线位于3366.8处。K线序列从20:00开始至02:30，包含多根黑色和绿色K线，主要集中在3366至3370区间。顶部显示资产信息'GC : 5'及开高低收数据'03,366.8 H3,366.8 L3,366.8 C3,366.8'，变化为",
+    "case_005_detail_4.jpg": "GC 5分钟K线图，时间为2025年6月24日03:45。图上显示价格范围约3344至3374。标注有两个矩形区域：粉色区域标记为'SL: P&L: -$1,020'，位于约3363.5至3368.6；绿色区域标记为'PT: P&L: $3,320'，位于约3346.9至3355.9。右侧显示'Place order'面板，当前市场价格显示为USD3362.8。图表左侧显示多根K线，部分带有长影线"
+  },
+  "sources": [
+    {
+      "video_id": "TNybDCtwBnc",
+      "segment_ids": [
+        "seg_021",
+        "seg_022",
+        "seg_023",
+        "seg_024",
+        "seg_025"
+      ],
+      "time_range": [
+        954.079,
+        1149.919
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线、小时线、5分钟线的分析过程，清晰标注了关键价位、入场点、止损和目标，并给出了回测结果数据。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:50.890408Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金日线扫高点后小时线CSD确认，5分钟线等待CSD后做空\",\"school\":\"ICT\",\"asset\":\"GC\",\"timeframe\":\"1H / 5m (multi-timeframe analysis)\",\"market_context\":\"黄金在日线上扫出前期高点并形成失败摆动（failure swings）在低点，建立看跌偏向。小时线确认市场结构转变（CSD），价格回测公允价值缺口后收盘看跌。\",\"key_observation\":\"博主在日线观察到价格扫出前期高点和失败摆动，确认看跌偏向。小时线显示CSD已形成，价格回测FVG后收盘看跌。5分钟线等待CSD确认作为入场触发条件。\",\"analysis_steps\":[\"Step 1: 日线观察——识别价格扫出前期高点（sweep of previous high）和低点失败摆动（failure swings on lows），建立看跌偏向。\",\"Step 2: 小时线确认——检查是否存在市场结构转变（CSD from this high），确认看跌结构有效。\",\"Step 3: 小时线识别关键点——标记价格回测的公允价值缺口（FVG）和订单块（Order Block），确认看跌K线收盘。\",\"Step 4: 5分钟线等待——在5分钟时间框架上重复分析流程，等待CSD确认后才寻求入场机会。\",\"Step 5: 5分钟线CSD确认——价格扫出前期高点后形成位移（displacement）向下，确认CSD已形成。\",\"Step 6: 入场执行——在5分钟线CSD确认后，以市价做空，止损设在前期高点或给予小幅空间。\",\"Step 7: 目标设定——第一目标为前一日低点（previous day's low），第二目标为2R风险回报比位置。\"],\"outcome\":\"交易成功执行。价格继续向下，达到目标位。根据回测结果，该交易系列（5笔交易）获得80%胜率和2.79R的风险回报比。\",\"lessons\":\"多时间框架确认至关重要：日线建立偏向，小时线确认结构转变，5分钟线等待CSD触发入场。复杂结构需要耐心等待所有条件对齐，不可仓促入场。风险管理通过止损位置和目标设定实现高风险回报比。\",\"primary_image_frame_id\":\"TNybDCtwBnc_f037\",\"supporting_image_frame_ids\":[\"TNybDCtwBnc_f034\",\"TNybDCtwBnc_f035\",\"TNybDCtwBnc_f036\",\"TNybDCtwBnc_f038\"],\"related_concepts\":[\"CSD (Change in the state of delivery)\",\"FVG (Fair Value Gap)\",\"Order Block\",\"Displacement\",\"Market Structure Shift\",\"Failure Swing\",\"Multi-timeframe Analysis\",\"Risk/Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线、小时线、5分钟线的分析过程，清晰标注了关键价位、入场点、止损和目标，并给出了回测结果数据。\"}",
+  "error": null
+}

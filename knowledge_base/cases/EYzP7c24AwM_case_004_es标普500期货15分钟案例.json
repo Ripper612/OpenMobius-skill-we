@@ -1,0 +1,107 @@
+{
+  "card_id": "EYzP7c24AwM_case_004_es标普500期货15分钟案例",
+  "type": "case",
+  "title": "ES标普500期货15分钟：时间水平与订单块验证流程",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Opposing Run",
+      "card_id": "judas_swing",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Time Horizontal Levels",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "judas_swing",
+    "liquidity",
+    "market_structure_shift",
+    "power_of_3_indicator"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "15M",
+  "market_context": "2024年4月25日美股开盘，从午夜开盘价作为支撑，8:30形成看跌对立运动并验证订单块，9:30继续下行扫除低点，10:00四小时蜡烛开始上升，14:00完成高点。",
+  "key_observation": "博主展示了关键时间水平（午夜开盘、8:30、9:30、10:00、14:00）如何驱动价格运动，以及订单块在这些时间点的验证与失效机制。",
+  "analysis_steps": [
+    "Step 1: 识别午夜开盘价（0:00）作为初始支撑水平，观察价格如何围绕该水平运行。",
+    "Step 2: 在8:30时间点观察到看跌对立运动（opposing run down），价格下行并收盘于该运动上方，验证该区域为订单块。",
+    "Step 3: 确认如果纽约反转要发生，该订单块的低点不应被突破，作为交易预期的关键参考。",
+    "Step 4: 在9:30观察到价格回测订单块区域，继续下行扫除更多低点，随后形成向上延续。",
+    "Step 5: 在10:00观察到新的四小时蜡烛形成'开-低-高-收'的积累-操纵-派发模式。",
+    "Step 6: 追踪午夜开盘价从支撑转变为阻力的过程，以及新York开盘价的作用。",
+    "Step 7: 在14:00观察到四小时蜡烛完成高点，扫除流动性并确认上升趋势延续。"
+  ],
+  "outcome": "价格成功从订单块区域反弹，完成从积累到派发的完整周期，在14:00达到日内高点，验证了时间水平与订单块结合的有效性。",
+  "lessons": "关键时间水平（8:30、9:30、10:00、14:00）与订单块的结合能够预测价格反转与趋势延续；对立运动的验证是确认订单块有效性的关键；四小时蜡烛的开-低-高-收结构体现了完整的市场周期。",
+  "primary_image": "cards/EYzP7c24AwM/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/EYzP7c24AwM/images/case_004_detail_1.jpg",
+    "cards/EYzP7c24AwM/images/case_004_detail_2.jpg",
+    "cards/EYzP7c24AwM/images/case_004_detail_3.jpg",
+    "cards/EYzP7c24AwM/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表显示 ES11（标普500期货）15 分钟 K 线图，日期标注为 25/4/2024，来源标注为 TTrader_edu。图右侧价格刻度范围约从 5017.50 至 5122.50。图上有一条水平线标注为 Daily Open，位于约 5070 价位。另有两处时间标注：0:00 与 8:30，以及文字标签 NYO 出现在约 5040-5050 区域。图左侧 K 线从高点约 5122.50 向下",
+    "case_004_detail_1.jpg": "图表为 ES1! 15 分钟 K 线图，日期标注显示 25/4/2024。右侧价格轴可见范围约 5017.50 至 5112.50。图上标注有三条水平参考线，分别标记为 '0:00'、'8:30' 及 'Daily Open'，对应价格约在 5070 至 5075 区间。图右侧有一个填充黑色矩形标注，覆盖约 5030 至 5075 价格区间，矩形内部有一条虚线水平线。矩形左侧附近有文字标签 'NY",
+    "case_004_detail_2.jpg": "图为 NQ1! 3 分钟 K 线图，日期标注为 5/4/2024，右上角显示账户标识 TTrades_edu。图右侧价格轴可见四个带高亮背景的价格标签：18121.50、18111.50、18099.75、18078.25。图上有一条虚线垂直线与一条实线垂直线，实线处标注时间 8:30，虚线处标注 0:00。图中约 08:00 至 08:30 区间出现一根大阴线，从约 18150 下行至约 180",
+    "case_004_detail_3.jpg": "图表为 NQ1! 5 分钟 K 线图，日期标注为 5/4/2024，右上角显示 TTrades_edu 水印。图右侧价格轴可见四个带标签的水平虚线，分别位于 18137.25、18122.25、18111.50、18078.25 附近。图上标注有 '8:30' 与 'NYO' 文字标签，以及 '0:00' 标签。图右侧有一根覆盖较大价格区间的绿色矩形 K 线，约从 18060 延伸至 18470。",
+    "case_004_detail_4.jpg": "图表显示 NQ1! 5 分钟 K 线图，日期标注为 2024 年 5 月 4 日，右上角显示账户标识 TTrades_edu。可见价格范围约从 18111 至 18360。图上有一条水平线位于约 18155 附近，另有文字标注 '8:30' 和 'NYO' 标记于图中对应时间位置。11:00 时间附近有一根体量较大的绿色 K 线，主体从约 18200 延伸至 18415。07:00 至 10:30"
+  },
+  "sources": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        548.24,
+        904.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对ES15分钟案例的分析完整清晰，关键时间点、价格水平、订单块验证步骤均有明确展示，图表与讲解高度对应。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:53.249692Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES标普500期货15分钟：时间水平与订单块验证流程\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"15M\",\"market_context\":\"2024年4月25日美股开盘，从午夜开盘价作为支撑，8:30形成看跌对立运动并验证订单块，9:30继续下行扫除低点，10:00四小时蜡烛开始上升，14:00完成高点。\",\"key_observation\":\"博主展示了关键时间水平（午夜开盘、8:30、9:30、10:00、14:00）如何驱动价格运动，以及订单块在这些时间点的验证与失效机制。\",\"analysis_steps\":[\"Step 1: 识别午夜开盘价（0:00）作为初始支撑水平，观察价格如何围绕该水平运行。\",\"Step 2: 在8:30时间点观察到看跌对立运动（opposing run down），价格下行并收盘于该运动上方，验证该区域为订单块。\",\"Step 3: 确认如果纽约反转要发生，该订单块的低点不应被突破，作为交易预期的关键参考。\",\"Step 4: 在9:30观察到价格回测订单块区域，继续下行扫除更多低点，随后形成向上延续。\",\"Step 5: 在10:00观察到新的四小时蜡烛形成'开-低-高-收'的积累-操纵-派发模式。\",\"Step 6: 追踪午夜开盘价从支撑转变为阻力的过程，以及新York开盘价的作用。\",\"Step 7: 在14:00观察到四小时蜡烛完成高点，扫除流动性并确认上升趋势延续。\"],\"outcome\":\"价格成功从订单块区域反弹，完成从积累到派发的完整周期，在14:00达到日内高点，验证了时间水平与订单块结合的有效性。\",\"lessons\":\"关键时间水平（8:30、9:30、10:00、14:00）与订单块的结合能够预测价格反转与趋势延续；对立运动的验证是确认订单块有效性的关键；四小时蜡烛的开-低-高-收结构体现了完整的市场周期。\",\"primary_image_frame_id\":\"EYzP7c24AwM_f022\",\"supporting_image_frame_ids\":[\"EYzP7c24AwM_f021\",\"EYzP7c24AwM_f023\",\"EYzP7c24AwM_f024\",\"EYzP7c24AwM_f025\",\"EYzP7c24AwM_f030\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Opposing Run\",\"Liquidity\",\"Market Structure Shift\",\"Power of 3\",\"Time Horizontal Levels\",\"Accumulation, Manipulation, Distribution\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对ES15分钟案例的分析完整清晰，关键时间点、价格水平、订单块验证步骤均有明确展示，图表与讲解高度对应。\"}",
+  "error": null
+}

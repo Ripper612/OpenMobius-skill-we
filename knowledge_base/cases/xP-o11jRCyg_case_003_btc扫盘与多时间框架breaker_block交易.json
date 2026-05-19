@@ -1,0 +1,109 @@
+{
+  "card_id": "xP-o11jRCyg_case_003_btc扫盘与多时间框架breaker_block交易",
+  "type": "case",
+  "title": "BTC多时间框架Breaker Block空头交易",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk-Reward Ratio (2R)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "short_term_high_short_term_low",
+    "displacement",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H / 5M",
+  "market_context": "BTC在日线形成摆动高点后出现回调。小时图显示价格从高点下跌，扫除整理低点并形成FVG，随后反弹。通过多时间框架确认，在小时图和5分钟图均识别出Breaker Block结构，为空头交易提供机会。",
+  "key_observation": "博主通过自上而下分析发现：日线形成摆动高点后预期下跌；小时图确认CSD（交付状态改变）和Breaker Block；5分钟图进一步确认相同结构，两个时间框架对齐提高交易概率。",
+  "analysis_steps": [
+    "Step 1: 在日线识别摆动高点后的看跌信号，预期价格继续下行。",
+    "Step 2: 下钻到小时图，观察价格扫除整理低点并进入FVG区域。",
+    "Step 3: 确认小时图的CSD（价格突破前期结构），标记下跌K线为Breaker Block。",
+    "Step 4: 继续下钻到5分钟图，识别相同的Breaker Block结构（高-低-更高-更低的摆动序列）。",
+    "Step 5: 在5分钟图Breaker Block的回测处设置空头入场，止损设在Breaker Block上方。",
+    "Step 6: 目标设定为2R（两倍风险回报），追踪价格是否达到目标或触发止损。"
+  ],
+  "outcome": "交易成功执行，价格在5分钟图Breaker Block处被标记入场，最终达到2R目标。小时图单独交易也会成功，但通过5分钟图的多时间框架确认提高了入场精准度。",
+  "lessons": "多时间框架对齐是提高交易概率的关键：先从高时间框架（日线）确定方向，再在中等时间框架（小时图）找到Breaker Block结构，最后在低时间框架（5分钟图）精确入场。避免在混乱的价格行动中盲目交易，等待扫盘和操纵完成后再进入延续阶段。",
+  "primary_image": "cards/xP-o11jRCyg/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/xP-o11jRCyg/images/case_003_detail_1.jpg",
+    "cards/xP-o11jRCyg/images/case_003_detail_2.jpg",
+    "cards/xP-o11jRCyg/images/case_003_detail_3.jpg",
+    "cards/xP-o11jRCyg/images/case_003_detail_4.jpg",
+    "cards/xP-o11jRCyg/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表显示一个烛线图，价格范围从约19000到28000。图上有三个灰色矩形标注区域，分别标记为'Target: 0.50178 (0 FVG) LL Anomaly: 19050'（上方）、'Open: 23L, Closing: 24y, LL(1H)'（中间）和'Stop: 0.50178 (0 FVG) Anomaly: 9750'（下方）。图表左侧显示多根绿色烛线在19000-21000区",
+    "case_003_detail_1.jpg": "BTC 1 小时 K 线图。图上显示价格范围从 82.00 至 102.00。可见多根绿色和黑色 K 线，其中在 102.00 附近有一根带长上影线的 K 线。图上标注有三条水平线分别位于 95.00、88.00 和 85.00 价格位置。此外还有两个矩形框分别标记在 88.00-95.00 区间和 85.00-88.00 区间。在 87.00-88.00 区域附近放置了一个黄色音符符号。",
+    "case_003_detail_2.jpg": "图表为蜡烛图，显示价格范围约从 60000 到 95000。图上有多条水平线和三个矩形标注区域，分别用灰色和浅蓝色填充。K 线序列显示初期上升至约 95000 的高点，随后出现一系列黑色 K 线向下运动。中间区域显示 70000 至 80000 之间的整理形态，跨越多根 K 线。下方区域的多根 K 线具有较长的下影线。图表右下角可见工具栏和时间标签，但资产代码和时间框架信息不清晰。",
+    "case_003_detail_3.jpg": "K线图显示约30根蜡烛线，价格范围从7000至13700。图上有两条水平线分别位于10500和12000处，形成一个矩形标注区域。右侧可见一根黄色高亮的K线，标记有字母Q。K线序列中绿色和黑色蜡烛交替出现，多数K线具有明显的上下影线。底部工具栏显示'Select Bar'和时间戳'16:34:16'。",
+    "case_003_detail_4.jpg": "BTC 1 小时 K 线图。图上显示价格范围约从 23950 到 27950。可见一条水平线位于 25200 处。图表中部有一个矩形标注框，范围约在 24500 至 25500 之间。右侧有一个黄色高亮区域，位置约在 25800 至 26200，标记有加号符号。K 线序列包含多根绿色和黑色蜡烛，其中一根绿色蜡烛在约 26200 处呈现长上影线，另有绿色蜡烛在约 23950 处呈现长下影线。底部显示",
+    "case_003_detail_5.jpg": "BTC 1 小时 K 线图。图上显示价格范围从 20700 到 23400。左侧约 8 根 K 线在 20700 至 21000 区间内形成盘整，其中一条水平线标注在 21000 处。随后出现一系列绿色 K 线向上运动至 23400 附近。上方区域约 22800 至 23400 间，K 线呈绿黑交替排列。图上可见一个黄色十字标记位于约 23200 价格水平。除水平线和标记外，未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "xP-o11jRCyg",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        370.479,
+        726.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时图再到5分钟图的分析过程，清晰标记了Breaker Block结构，给出了具体入场点、止损和目标，交易结果明确（达到2R）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:51.747803Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC多时间框架Breaker Block空头交易\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H / 5M\",\"market_context\":\"BTC在日线形成摆动高点后出现回调。小时图显示价格从高点下跌，扫除整理低点并形成FVG，随后反弹。通过多时间框架确认，在小时图和5分钟图均识别出Breaker Block结构，为空头交易提供机会。\",\"key_observation\":\"博主通过自上而下分析发现：日线形成摆动高点后预期下跌；小时图确认CSD（交付状态改变）和Breaker Block；5分钟图进一步确认相同结构，两个时间框架对齐提高交易概率。\",\"analysis_steps\":[\"Step 1: 在日线识别摆动高点后的看跌信号，预期价格继续下行。\",\"Step 2: 下钻到小时图，观察价格扫除整理低点并进入FVG区域。\",\"Step 3: 确认小时图的CSD（价格突破前期结构），标记下跌K线为Breaker Block。\",\"Step 4: 继续下钻到5分钟图，识别相同的Breaker Block结构（高-低-更高-更低的摆动序列）。\",\"Step 5: 在5分钟图Breaker Block的回测处设置空头入场，止损设在Breaker Block上方。\",\"Step 6: 目标设定为2R（两倍风险回报），追踪价格是否达到目标或触发止损。\"],\"outcome\":\"交易成功执行，价格在5分钟图Breaker Block处被标记入场，最终达到2R目标。小时图单独交易也会成功，但通过5分钟图的多时间框架确认提高了入场精准度。\",\"lessons\":\"多时间框架对齐是提高交易概率的关键：先从高时间框架（日线）确定方向，再在中等时间框架（小时图）找到Breaker Block结构，最后在低时间框架（5分钟图）精确入场。避免在混乱的价格行动中盲目交易，等待扫盘和操纵完成后再进入延续阶段。\",\"primary_image_frame_id\":\"xP-o11jRCyg_f021\",\"supporting_image_frame_ids\":[\"xP-o11jRCyg_f015\",\"xP-o11jRCyg_f016\",\"xP-o11jRCyg_f017\",\"xP-o11jRCyg_f018\",\"xP-o11jRCyg_f019\"],\"related_concepts\":[\"Breaker Block\",\"Order Block\",\"Fair Value Gap\",\"Change in the state of delivery\",\"Swing High / Swing Low\",\"Displacement\",\"Multi-timeframe analysis\",\"Risk-Reward Ratio (2R)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到小时图再到5分钟图的分析过程，清晰标记了Breaker Block结构，给出了具体入场点、止损和目标，交易结果明确（达到2R）。\"}",
+  "error": null
+}

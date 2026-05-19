@@ -1,0 +1,102 @@
+{
+  "card_id": "jKuXaC84Qx4_case_004_第四个例子_公允价值缺口与eq失效",
+  "type": "case",
+  "title": "日线V形反转后小时线FVG盘整与EQ失效导致下行",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Continuation Pattern",
+      "card_id": "continuation_signature",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "equilibrium_eq",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "displacement",
+    "continuation_signature"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1H / 1D",
+  "market_context": "日线形成强势V形反转和看涨收盘，但小时线在公允价值缺口处形成盘整，随后激进收盘跌破EQ均衡点，预示看涨延续失效。",
+  "key_observation": "尽管日线显示强势看涨信号，但小时线在FVG处的盘整和随后跌破EQ的激进收盘表明看涨延续机制失效，转为看跌框架。",
+  "analysis_steps": [
+    "Step 1: 观察日线形成V形反转和强势看涨收盘，预期价格应在小时线开盘后走低至FVG点位。",
+    "Step 2: 确认小时线在FVG点位形成盘整，这不利于看涨延续的形成。",
+    "Step 3: 观察价格激进收盘跌破EQ均衡点，表明机制失效——一旦价格超越EQ，就不再是小wick而是机制性破坏。",
+    "Step 4: 评估价格扩张并未被买盘回补，预示看跌延续。",
+    "Step 5: 预测价格将继续下行至candle two低点，形成看跌设置。"
+  ],
+  "outcome": "价格未能在FVG处形成看涨延续，反而激进收盘跌破EQ，最终下行至candle two低点，确认看跌框架成立。",
+  "lessons": "EQ均衡点是判断价格机制有效性的关键水平；激进收盘跌破EQ表明看涨延续失效，转为看跌延续；盘整后的激进方向性收盘往往预示强势趋势延续。",
+  "primary_image": "cards/jKuXaC84Qx4/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/jKuXaC84Qx4/images/case_004_detail_1.jpg",
+    "cards/jKuXaC84Qx4/images/case_004_detail_2.jpg",
+    "cards/jKuXaC84Qx4/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表显示烛线图，包含绿色和黑色烛线。左侧区域显示上升趋势的小烛线，中左部分出现一根带长下影线的大黑烛线。中央区域显示多根绿黑交替的烛线，形成盘整形态。右侧显示一根大绿烛线后跟一根黑烛线。图上绘有一条从左上向右下延伸的下降趋势线。整体价格刻度和资产代码不可见。",
+    "case_004_detail_1.jpg": "图表为 K 线图，显示一系列绿色和黑色蜡烛。左侧区域有一个浅绿色矩形标注，中间区域有另一个浅绿色矩形标注。K 线序列呈现多个上下影线，中段显示连续黑色 K 线的下跌走势，右侧显示绿色 K 线的上升走势。图上未显示资产代码、时间框架或价格刻度数值。",
+    "case_004_detail_2.jpg": "K线图表显示一系列绿色和黑色蜡烛。左上方有一根带长下影线的黑色K线。中心区域显示混合的绿黑K线形成盘整形态。中下方有一根带长下影线的黑色K线，其后跟随一根带长上影线的绿色K线。图上绘有一条从左上向右下的趋势线。中心区域被一个矩形框标注。右侧独立显示两根K线，上方为黑色，下方为绿色。图上未标注资产代码、时间框架或价格刻度数值。",
+    "case_004_detail_3.jpg": "K线图显示一段完整的价格走势。左侧呈上升趋势，绿色K线占主导，随后出现一根带长上影线的大黑K线。中间部分为下降趋势，黑色K线居多，伴随多根带长下影线的K线。右侧区域显示混合走势，包含绿黑相间的K线，其中有一根带极长下影线的黑色K线。整体图表未见价格刻度标注、资产代码或时间框架标识。"
+  },
+  "sources": [
+    {
+      "video_id": "jKuXaC84Qx4",
+      "segment_ids": [
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020"
+      ],
+      "time_range": [
+        624.84,
+        753.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线V形反转到小时线FVG盘整再到EQ失效的全过程，清晰说明了机制失效的原因和下行目标。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:41:55.931012Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线V形反转后小时线FVG盘整与EQ失效导致下行\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1H / 1D\",\"market_context\":\"日线形成强势V形反转和看涨收盘，但小时线在公允价值缺口处形成盘整，随后激进收盘跌破EQ均衡点，预示看涨延续失效。\",\"key_observation\":\"尽管日线显示强势看涨信号，但小时线在FVG处的盘整和随后跌破EQ的激进收盘表明看涨延续机制失效，转为看跌框架。\",\"analysis_steps\":[\"Step 1: 观察日线形成V形反转和强势看涨收盘，预期价格应在小时线开盘后走低至FVG点位。\",\"Step 2: 确认小时线在FVG点位形成盘整，这不利于看涨延续的形成。\",\"Step 3: 观察价格激进收盘跌破EQ均衡点，表明机制失效——一旦价格超越EQ，就不再是小wick而是机制性破坏。\",\"Step 4: 评估价格扩张并未被买盘回补，预示看跌延续。\",\"Step 5: 预测价格将继续下行至candle two低点，形成看跌设置。\"],\"outcome\":\"价格未能在FVG处形成看涨延续，反而激进收盘跌破EQ，最终下行至candle two低点，确认看跌框架成立。\",\"lessons\":\"EQ均衡点是判断价格机制有效性的关键水平；激进收盘跌破EQ表明看涨延续失效，转为看跌延续；盘整后的激进方向性收盘往往预示强势趋势延续。\",\"primary_image_frame_id\":\"jKuXaC84Qx4_f024\",\"supporting_image_frame_ids\":[\"jKuXaC84Qx4_f021\",\"jKuXaC84Qx4_f023\",\"jKuXaC84Qx4_f025\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Equilibrium (EQ)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Displacement\",\"Price Action\",\"Continuation Pattern\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线V形反转到小时线FVG盘整再到EQ失效的全过程，清晰说明了机制失效的原因和下行目标。\"}",
+  "error": null
+}

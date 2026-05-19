@@ -1,0 +1,102 @@
+{
+  "card_id": "ZVUDpCyvxfQ_case_003_缺口反转后作为支撑阻力的应用",
+  "type": "case",
+  "title": "缺口反转后作为支撑阻力的应用",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Sell-side Imbalance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Buy-side Imbalance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M",
+  "market_context": "NASDAQ 100 E-mini期货在15分钟周期上出现多个公允价值缺口（FVG），价格在12740-13215区间内反复测试这些缺口区域，展示缺口填充后如何转变为支撑或阻力的实际应用。",
+  "key_observation": "已填充的公允价值缺口在后续价格运动中可转变为支撑或阻力，且这种转变不需要立即发生，可在经历整固期后的任何时间点发生。",
+  "analysis_steps": [
+    "Step 1: 识别初始的公允价值缺口（FVG FILL）位于12920-12960价格区域，标记为SIBI（Sell-side Imbalance）和BIBI（Buy-side Imbalance）。",
+    "Step 2: 观察价格首次填充该缺口，收盘穿过缺口区域，确认缺口已被填充。",
+    "Step 3: 追踪价格后续返回到该已填充缺口区域时的反应，验证其是否作为支撑或阻力发挥作用。",
+    "Step 4: 在第一个例子中，价格返回到旧的BIBI（买方失衡）区域，该区域随后作为阻力，价格向下运动。",
+    "Step 5: 在第二个例子中，价格填充SIBI后继续尊重该缺口，多次返回时都作为支撑，最终突破后产生位移。",
+    "Step 6: 演示缺口反转不需要连续发生的特点，价格可在经历整固期后的任何时间返回到旧缺口区域。",
+    "Step 7: 对比公允价值缺口、成交量失衡和普通缺口的定义差异，强调FVG的特定特征。"
+  ],
+  "outcome": null,
+  "lessons": "已填充的公允价值缺口具有持久的支撑/阻力特性，不受时间限制。交易者应在价格返回这些区域时预期反应，无论返回发生在何时。这提供了一个可靠的结构化交易框架，用于识别高概率的入场和止损位置。",
+  "primary_image": "cards/ZVUDpCyvxfQ/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/ZVUDpCyvxfQ/images/case_003_detail_1.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_003_detail_2.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_003_detail_3.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_003_detail_4.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_003_detail_5.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上标题为'Fair Value Gap Inversion'。可见价格范围约从12740到13120。图上有多条灰色矩形标注区域，均位于12920至12960价格范围内，标记为'FVG FILL'、'SIBI'和'BIBI'。K线序列包含黑色和绿色蜡烛，黑色蜡烛主要出现在左侧和右侧区域，绿色蜡烛集中在中间和右侧区域。部分K线具有",
+    "case_003_detail_1.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示一系列黑色和绿色K线，价格范围从12740到13120。两条水平虚线分别位于12920和12960处，形成一个带状区域，左侧标注为SIBI，右侧标注为BISI。图上有两条箭头标注：一条向上指向约13020，一条向下指向约12820。K线序列中包含多根长上影线和长下影线的K线，绿色K线主体集中在12920至12980区间。",
+    "case_003_detail_2.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从18:00至11:00的价格走势，价格范围从13070到13215。K线序列呈上升趋势，绿色和黑色K线交替出现。图中标注有文字'BISI'位于13140至13150价格区域。右下角显示当前价格为13117.00。图上未见其他标注或指标。",
+    "case_003_detail_3.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从21:00至14:00的价格走势，价格范围在13100至13215之间。图中有一个灰色矩形框标注，内部标记文字'BISI'，位置约在13140附近。K线序列显示初期上升趋势，中期出现下降趋势，后期呈现在较低价格区间的震荡形态。图右侧显示当前价格为13103.50。",
+    "case_003_detail_4.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从09:00至23:00的交易时段，价格范围约13019至13136。图右侧有一条带标签'SIBI'的水平虚线位于13088附近，对应一个灰色矩形区域，该区域跨越约13080至13100的价格范围，时间跨度从14:00至18:00。K线序列显示左侧以绿色K线为主（09:00-10:00），随后黑色K线形成下降趋势（10:0",
+    "case_003_detail_5.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从13:00至02:00 UTC的交易时段。价格范围在13024.00至13132.00之间波动。图上有一条灰色矩形区域标注为SIBI，位于约13080.00价格水平。K线序列包含多根绿色（上涨）和黑色（下跌）蜡烛，多数K线具有下影线。右侧价格刻度清晰显示从13024.00到13132.00的价格范围。",
+    "case_003_detail_6.jpg": "NASDAQ 100 E-mini Futures 15分钟图表。图上展示三个并排的K线序列，分别标注为'Fair Value Gap'、'Volume Imbalance'和'Gap'。每个序列包含3根黑色K线，显示从高点向下的价格运动。图上有6条虚线水平线标记特定价格水平，分别位于约12868、12840、12820、12780、12860和12840处。价格范围从12660到13040。时间"
+  },
+  "sources": [
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        363.6,
+        543.3
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了缺口反转的多个实际案例，清晰标注了资产、时间框架、价格水平，分析步骤按顺序展开，结论明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:34.046323Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"缺口反转后作为支撑阻力的应用\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M\",\"market_context\":\"NASDAQ 100 E-mini期货在15分钟周期上出现多个公允价值缺口（FVG），价格在12740-13215区间内反复测试这些缺口区域，展示缺口填充后如何转变为支撑或阻力的实际应用。\",\"key_observation\":\"已填充的公允价值缺口在后续价格运动中可转变为支撑或阻力，且这种转变不需要立即发生，可在经历整固期后的任何时间点发生。\",\"analysis_steps\":[\"Step 1: 识别初始的公允价值缺口（FVG FILL）位于12920-12960价格区域，标记为SIBI（Sell-side Imbalance）和BIBI（Buy-side Imbalance）。\",\"Step 2: 观察价格首次填充该缺口，收盘穿过缺口区域，确认缺口已被填充。\",\"Step 3: 追踪价格后续返回到该已填充缺口区域时的反应，验证其是否作为支撑或阻力发挥作用。\",\"Step 4: 在第一个例子中，价格返回到旧的BIBI（买方失衡）区域，该区域随后作为阻力，价格向下运动。\",\"Step 5: 在第二个例子中，价格填充SIBI后继续尊重该缺口，多次返回时都作为支撑，最终突破后产生位移。\",\"Step 6: 演示缺口反转不需要连续发生的特点，价格可在经历整固期后的任何时间返回到旧缺口区域。\",\"Step 7: 对比公允价值缺口、成交量失衡和普通缺口的定义差异，强调FVG的特定特征。\"],\"outcome\":null,\"lessons\":\"已填充的公允价值缺口具有持久的支撑/阻力特性，不受时间限制。交易者应在价格返回这些区域时预期反应，无论返回发生在何时。这提供了一个可靠的结构化交易框架，用于识别高概率的入场和止损位置。\",\"primary_image_frame_id\":\"ZVUDpCyvxfQ_f013\",\"supporting_image_frame_ids\":[\"ZVUDpCyvxfQ_f014\",\"ZVUDpCyvxfQ_f015\",\"ZVUDpCyvxfQ_f016\",\"ZVUDpCyvxfQ_f017\",\"ZVUDpCyvxfQ_f018\",\"ZVUDpCyvxfQ_f019\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Sell-side Imbalance\",\"Buy-side Imbalance\",\"Support and Resistance\",\"Market Structure\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了缺口反转的多个实际案例，清晰标注了资产、时间框架、价格水平，分析步骤按顺序展开，结论明确。\"}",
+  "error": null
+}

@@ -1,0 +1,105 @@
+{
+  "card_id": "Gu7FjYYcKhI_case_001_标普500期货周五日内行情分析",
+  "type": "case",
+  "title": "ES1!日内折价溢价区域识别与交易偏向确定",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "displacement",
+    "premium_discount",
+    "equilibrium",
+    "fibonacci_retracement"
+  ],
+  "school": "SMC",
+  "asset": "ES1!",
+  "timeframe": "5m / 1m / 15m",
+  "market_context": "标普500 E-mini期货周五日内行情，从开盘低点上升至11:00附近高点（~3922），随后回调至中午低点（~3872），下午反弹至收盘。",
+  "key_observation": "通过位移范围的折价/溢价划分，以及整体日内范围的0.5斐波那契水平，确定做多应在折价区、做空应在溢价区的交易偏向。",
+  "analysis_steps": [
+    "Step 1: 识别市场结构转变（MSS）——在11:00附近的摆动高点（3922）处突破结构，确立位移范围的起点。",
+    "Step 2: 从位移范围低点到高点绘制0.5斐波那契水平，将范围分为折价区（下方）和溢价区（上方）。",
+    "Step 3: 在5分钟图表上标记多个FVG（公允价值缺口），观察其位置相对于折价/溢价区的关系。",
+    "Step 4: 确认折价区内的FVG适合做多入场（如3872-3897区域），溢价区内的FVG不适合做多。",
+    "Step 5: 识别整体日内范围（从开盘低点~3865至11:00高点~3922），计算0.5水平线（~3893.50）。",
+    "Step 6: 在15分钟图表上验证日内范围的折价/溢价划分，确认做多偏向在下方、做空偏向在上方。",
+    "Step 7: 对比1分钟图表的细节结构，确认在折价区的Order Block和FVG是最优做多入场点。"
+  ],
+  "outcome": null,
+  "lessons": "交易偏向应基于两层折价/溢价分析：位移范围层面用于精细化入场，整体日内范围层面用于确定大方向偏向。在折价区做多、溢价区做空的风险回报比更优；避免在溢价区追多或折价区追空。",
+  "primary_image": "cards/Gu7FjYYcKhI/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/Gu7FjYYcKhI/images/case_001_detail_1.jpg",
+    "cards/Gu7FjYYcKhI/images/case_001_detail_2.jpg",
+    "cards/Gu7FjYYcKhI/images/case_001_detail_3.jpg",
+    "cards/Gu7FjYYcKhI/images/case_001_detail_4.jpg",
+    "cards/Gu7FjYYcKhI/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES1! 5 分钟 K 线图，图上可见价格范围约从 3864 至 3928。图上标注三条带标签的水平虚线，分别位于 3922.00（标注 0(3922.00)）、3895.00（标注 0.5(3895.00)）、3868.25（标注 1(3868.25)），标签格式与斐波那契水平一致。图上另有两条斜向虚线，从左下方向右上方延伸，形成收敛形态。右侧价格轴显示当前价格标签 3891.25（红色高亮）及",
+    "case_001_detail_1.jpg": "图表为 S&P 500 E-mini Futures（ES1!）5 分钟 K 线图，数据来源标注为 CME_MINI，平台为 TradingView。右侧价格刻度范围约从 3865.00 至 3932.50。图上左上角显示价格标签 3892.00 与 3892.50。图中可见两处摆动高点，分别位于约 3930.00（11:00 附近）与约 3920.00（14:30 附近），一处摆动低点位于约 3",
+    "case_001_detail_2.jpg": "图为 ES1!（S&P 500 E-mini Futures）5 分钟 K 线图，来源标注为 CME_MINI / TradingView。图右侧价格刻度范围约 3865 至 3922.50。图上绘有三条斐波那契水平线，分别标注为 0(3922.00)、0.5(3897.00)、1(3872.00)，其中 0.5 水平线以红色实线延伸至图中部。图上另有一个矩形框，覆盖约 09:00 至 10:30",
+    "case_001_detail_3.jpg": "ES1! 标普500期货5分钟K线图，可见价格范围约3865至3925。图上绘制有斐波那契回撤工具，三条水平线分别标注为1(3922.00)、0.5(3914.00)、0(3905.75)，锚点位于约11:00附近的摆动高点区域。图中约11:00至13:00时段可见一段连续下行的红色K线序列，从3922附近向下延伸至3880区域。图右侧价格轴当前高亮标签显示3892.50（绿色）及3905.00/",
+    "case_001_detail_4.jpg": "图表为 S&P 500 E-mini Futures（ES1!）1 分钟 K 线图，来自 CME_MINI，时间轴覆盖约 09:00 至 14:00。图上绘制有斐波那契相关水平线三条，分别标注为 1(3921.75)、0.5(3913.75)、0(3905.75)。3921.75 与 3905.75 之间有矩形框标注，另有一条从 3921.75 高点向右下方延伸的虚线趋势线。3905.75 附近有",
+    "case_001_detail_5.jpg": "ES1! 15分钟K线图，来自TradingView平台，标注为CME_MINI合约。图右侧价格刻度范围约从3836.00至3928.00。图上有一条贯穿全图的水平虚线位于约3888.50处，对应右侧当前价标签（红色高亮显示3888.50）。图中央偏右位置有一条垂直虚线，对应时间标签"
+  },
+  "sources": [
+    {
+      "video_id": "Gu7FjYYcKhI",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.48,
+        260.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了两层折价溢价分析框架、多个具体价位（3922、3897、3872等）、多个时间框架的图表，以及明确的交易偏向逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:04.786927Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES1!日内折价溢价区域识别与交易偏向确定\",\"school\":\"SMC\",\"asset\":\"ES1!\",\"timeframe\":\"5m / 1m / 15m\",\"market_context\":\"标普500 E-mini期货周五日内行情，从开盘低点上升至11:00附近高点（~3922），随后回调至中午低点（~3872），下午反弹至收盘。\",\"key_observation\":\"通过位移范围的折价/溢价划分，以及整体日内范围的0.5斐波那契水平，确定做多应在折价区、做空应在溢价区的交易偏向。\",\"analysis_steps\":[\"Step 1: 识别市场结构转变（MSS）——在11:00附近的摆动高点（3922）处突破结构，确立位移范围的起点。\",\"Step 2: 从位移范围低点到高点绘制0.5斐波那契水平，将范围分为折价区（下方）和溢价区（上方）。\",\"Step 3: 在5分钟图表上标记多个FVG（公允价值缺口），观察其位置相对于折价/溢价区的关系。\",\"Step 4: 确认折价区内的FVG适合做多入场（如3872-3897区域），溢价区内的FVG不适合做多。\",\"Step 5: 识别整体日内范围（从开盘低点~3865至11:00高点~3922），计算0.5水平线（~3893.50）。\",\"Step 6: 在15分钟图表上验证日内范围的折价/溢价划分，确认做多偏向在下方、做空偏向在上方。\",\"Step 7: 对比1分钟图表的细节结构，确认在折价区的Order Block和FVG是最优做多入场点。\"],\"outcome\":null,\"lessons\":\"交易偏向应基于两层折价/溢价分析：位移范围层面用于精细化入场，整体日内范围层面用于确定大方向偏向。在折价区做多、溢价区做空的风险回报比更优；避免在溢价区追多或折价区追空。\",\"primary_image_frame_id\":\"Gu7FjYYcKhI_f008\",\"supporting_image_frame_ids\":[\"Gu7FjYYcKhI_f002\",\"Gu7FjYYcKhI_f003\",\"Gu7FjYYcKhI_f004\",\"Gu7FjYYcKhI_f001\",\"Gu7FjYYcKhI_f007\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"Displacement\",\"Premium / Discount\",\"Equilibrium\",\"Fibonacci Retracement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了两层折价溢价分析框架、多个具体价位（3922、3897、3872等）、多个时间框架的图表，以及明确的交易偏向逻辑。\"}",
+  "error": null
+}

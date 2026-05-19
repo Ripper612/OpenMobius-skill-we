@@ -1,0 +1,112 @@
+{
+  "card_id": "TCFvsZeYvV8_case_001_纽约开盘后的_6_分钟图_amd_案例",
+  "type": "case",
+  "title": "纽约开盘后 NQ 6分钟图：AMD模式中的反转与Box Setup做多",
+  "related_concepts": [
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Consolidation / Range",
+      "card_id": "consolidation_range",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Discount Zone",
+      "card_id": "premium_discount_area",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "power_of_3_amd",
+    "consolidation_range",
+    "liquidity",
+    "inducement",
+    "displacement",
+    "inversion",
+    "box_setup",
+    "premium_discount_area",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "NQ21",
+  "timeframe": "6M",
+  "market_context": "纽约开盘（8:30）后，NQ从14365附近上升至14450，随后大幅下跌至14140附近扫低，形成完整的积累-操纵-派发（AMD）模式，为反转做多提供机会。",
+  "key_observation": "博主识别出纽约开盘后的完整AMD周期：初期上升建立高点，随后操纵性下跌扫低流动性，最后反向派发上升。通过反转和Box Setup在折价区寻找高概率做多入场。",
+  "analysis_steps": [
+    "Step 1: 标记纽约开盘（8:30）位置在14365，观察价格从开盘后上升至14450附近的初期上升阶段。",
+    "Step 2: 识别价格随后大幅下跌至14140附近，扫除低点流动性，这是操纵阶段的特征。",
+    "Step 3: 用绿色矩形框标记出盘整/巩固区域，确认流动性在高点和低点上方/下方积累。",
+    "Step 4: 观察价格从低点14140附近反向上升回到盘整区域，确认偏离范围（Deviation）和操纵完成。",
+    "Step 5: 寻找反转入场机会，考虑两种方法：(1) 反转（Inversion）；(2) Box Setup（取前一根K线的低点作为参考）。",
+    "Step 6: 确认价格收盘在止损低点上方后，设定目标为2倍风险回报比的做多头寸。"
+  ],
+  "outcome": null,
+  "lessons": "AMD模式在低时间框架（6分钟）上同样适用，关键是识别操纵性下跌扫低后的反向派发。反转和Box Setup是在折价区寻找高概率入场的有效工具，需要等待价格确认收盘在止损位上方后再入场。",
+  "primary_image": "cards/TCFvsZeYvV8/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/TCFvsZeYvV8/images/case_001_detail_1.jpg",
+    "cards/TCFvsZeYvV8/images/case_001_detail_2.jpg",
+    "cards/TCFvsZeYvV8/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表显示 USD 资产 6 分钟时间框架的 K 线图。价格范围从 14130.00 至 14450.00。图上有一条水平线标注为 HYD 8:30，位于 14365.00 价格水平。K 线序列从 09:30 开始，初期呈绿色上升至 09:55 左右达到 14450 附近，随后转为黑色下跌至 10:20 左右触及 14140 附近，之后再次转绿上升至 11:20 收盘。整个时段内 K 线普遍具有上下",
+    "case_001_detail_1.jpg": "图上展示两个并排的 K 线图表示例，均标注为'Power of Three'。上方图表：绿色矩形框围绕一根大型上升 K 线，其后跟随混合颜色的小型 K 线整理区，再后跟蓝色矩形框围绕的上升 K 线组。红色小矩形框标记整理区内的一根下跌 K 线。下方图表：黑色矩形框围绕一根大型下跌 K 线，其后跟随混合颜色的小型 K 线整理区，再后跟蓝色矩形框围绕的下跌 K 线组。红色小矩形框标记整理区内的一根上升",
+    "case_001_detail_2.jpg": "USD 1分钟K线图。图上显示从09:45至11:15的价格走势，整体价格范围从14445.00至14300.00。图中有一条水平线标记为HVD 8:30，位于14360.00。图右侧标注显示时间为30/10/2023，周期为HQ21 | 1M。图上用浅绿色矩形框标记了一个约在14330至14450之间的区域。左侧显示当前价格为14434.75。K线序列呈现先下跌后在标记区域内震荡的形态，包含多根",
+    "case_001_detail_3.jpg": "USD 1 分钟 K 线图，时间戳显示 30/10/2023，NQ21 合约。图上可见价格范围从 14435.00 至 14300.00。右侧标注有两条水平线，分别位于 14334.25 和 14330.75，上方还有一条标记为'RYO 8:30'的水平线位于 14365.00。图上绘制两个矩形区域：上方绿色矩形覆盖约 14340 至 14475 价格范围，下方粉红色矩形覆盖约 14300 至 1"
+  },
+  "sources": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        192.4,
+        286.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了AMD模式的三个阶段、盘整区域标记、操纵下跌、反向派发，以及两种具体入场方法（反转和Box Setup），关键价位和时间框架清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:43.035394Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纽约开盘后 NQ 6分钟图：AMD模式中的反转与Box Setup做多\",\"school\":\"ICT\",\"asset\":\"NQ21\",\"timeframe\":\"6M\",\"market_context\":\"纽约开盘（8:30）后，NQ从14365附近上升至14450，随后大幅下跌至14140附近扫低，形成完整的积累-操纵-派发（AMD）模式，为反转做多提供机会。\",\"key_observation\":\"博主识别出纽约开盘后的完整AMD周期：初期上升建立高点，随后操纵性下跌扫低流动性，最后反向派发上升。通过反转和Box Setup在折价区寻找高概率做多入场。\",\"analysis_steps\":[\"Step 1: 标记纽约开盘（8:30）位置在14365，观察价格从开盘后上升至14450附近的初期上升阶段。\",\"Step 2: 识别价格随后大幅下跌至14140附近，扫除低点流动性，这是操纵阶段的特征。\",\"Step 3: 用绿色矩形框标记出盘整/巩固区域，确认流动性在高点和低点上方/下方积累。\",\"Step 4: 观察价格从低点14140附近反向上升回到盘整区域，确认偏离范围（Deviation）和操纵完成。\",\"Step 5: 寻找反转入场机会，考虑两种方法：(1) 反转（Inversion）；(2) Box Setup（取前一根K线的低点作为参考）。\",\"Step 6: 确认价格收盘在止损低点上方后，设定目标为2倍风险回报比的做多头寸。\"],\"outcome\":null,\"lessons\":\"AMD模式在低时间框架（6分钟）上同样适用，关键是识别操纵性下跌扫低后的反向派发。反转和Box Setup是在折价区寻找高概率入场的有效工具，需要等待价格确认收盘在止损位上方后再入场。\",\"primary_image_frame_id\":\"TCFvsZeYvV8_f008\",\"supporting_image_frame_ids\":[\"TCFvsZeYvV8_f005\",\"TCFvsZeYvV8_f009\",\"TCFvsZeYvV8_f010\"],\"related_concepts\":[\"Power of 3 / AMD\",\"Consolidation / Range\",\"Liquidity\",\"Manipulation\",\"Displacement\",\"Inversion\",\"Box Setup\",\"Discount Zone\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了AMD模式的三个阶段、盘整区域标记、操纵下跌、反向派发，以及两种具体入场方法（反转和Box Setup），关键价位和时间框架清晰。\"}",
+  "error": null
+}

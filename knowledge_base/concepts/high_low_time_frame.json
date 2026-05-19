@@ -1,0 +1,185 @@
+{
+  "card_id": "high_low_time_frame",
+  "type": "merged_concept",
+  "canonical_term": "High/Low Time Frame",
+  "aliases": [
+    "HTF / LTF",
+    "High Time Frame",
+    "High Time Frame / Low Time Frame",
+    "Low Time Frame",
+    "周期",
+    "多时间框架分析",
+    "时间框架",
+    "时间框架分层",
+    "时间框架级联",
+    "高时间框架 / 低时间框架"
+  ],
+  "school": "General",
+  "definition": "交易分析中使用的不同周期图表体系。HTF（日线、周线、4小时、1小时）用于确定市场偏向、主要趋势方向及关键结构（如FVG、流动性目标）；LTF（15分钟、5分钟、3分钟、1分钟、15秒）用于在HTF方向内精确定位入场点、止损和目标位。",
+  "identification_rules": [
+    "HTF通常指日线、周线、4小时、1小时等较长周期，用于识别价格主要运动方向、关键结构（如FVG、BOS、Displacement、流动性目标）及整体交易偏向",
+    "LTF通常指15分钟、5分钟、3分钟、1分钟、15秒等较短周期，用于在HTF确定的方向内寻找精确入场形态（如2-2反转、inside bar、明显高低点）",
+    "HTF分析优先于LTF分析，须先在HTF确认方向与结构，再下钻至LTF寻找具体入场设置",
+    "HTF中识别的结构（如FVG、consolidation、displacement）在LTF图表上作为参考标注，LTF波动应包含于HTF结构之内",
+    "若错过LTF主要入场机会，可在同一LTF上寻找次级入场机会，而非跳过HTF确认直接交易"
+  ],
+  "trading_implication": "多时间框架分析是系统化交易的核心方法：先在HTF（日线、4小时）识别FVG、流动性、BOS等关键结构并确定预期方向；再在LTF（15分钟、5分钟）标记参考位并寻找与HTF方向一致的入场点。5分钟相比1分钟提供更清晰、更少虚假信号的入场。这种多周期协同分析降低逆势风险并提高入场精准度。",
+  "common_mistakes": [
+    "仅在LTF交易而忽视HTF偏向确认，导致逆势操作",
+    "在LTF看到反转信号就立即入场，未确认HTF结构支持",
+    "忽视HTF关键结构（如FVG、流动性目标），仅依赖LTF形态入场",
+    "直接在1分钟图表寻找入场，容易被虚假信号迷惑，应优先使用5分钟或3分钟作为LTF"
+  ],
+  "related_concepts": [
+    {
+      "term": "FVG",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "BOS",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "The Strat",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "6zTz7WMdMWg_case_008_gbp_usd从5分钟到30秒图的多层级分析",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD从1小时到30秒的多层级FVG与订单块分析"
+    },
+    {
+      "card_id": "9MUej4g9Jyg_case_001_es期货多时间框架交易设置分析",
+      "video_id": "9MUej4g9Jyg",
+      "title": "ES期货多时间框架Strat反转入场分析"
+    },
+    {
+      "card_id": "Njs-eRpeP9Q_case_001_es期货5分钟图流动性识别案例",
+      "video_id": "Njs-eRpeP9Q",
+      "title": "ES期货5分钟图流动性识别与扫荡分析"
+    },
+    {
+      "card_id": "Zm2oKad3Tb8_case_001_标普500期货早盘交易准备分析",
+      "video_id": "Zm2oKad3Tb8",
+      "title": "标普500期货早盘交易准备：从日线到1分钟的多时间框架分析流程"
+    },
+    {
+      "card_id": "dSccSI7uqvE_case_002_es期货从流动性扫除到fvg交易的完整案例",
+      "video_id": "dSccSI7uqvE",
+      "title": "ES期货流动性扫除后FVG折价区做多交易"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_003_btc多时间框架延续交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "BTC小时线摆动点内多时间框架延续交易"
+    },
+    {
+      "card_id": "hh_kKK4Fhrw_case_001_s_p_500_e_mini期货从高点4300下跌至低点3640",
+      "video_id": "hh_kKK4Fhrw",
+      "title": "ES 4H从4300跌至3640的多技术点位识别与LTF入场模型应用"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_015_usd日线与小时图的月度交易框架",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD日线月度框架与小时图延续交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9MUej4g9Jyg",
+      "original_card_id": "9MUej4g9Jyg_concept_high_low_time_frame",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.44,
+        288.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "E6bpY4dQvlE",
+      "original_card_id": "E6bpY4dQvlE_concept_high_time_frame_low_time_frame_htf_ltf",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        182.099,
+        359.639
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Zm2oKad3Tb8",
+      "original_card_id": "Zm2oKad3Tb8_concept_htf_ltf",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.96,
+        237.159
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:48.801834Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['General', 'The Strat']",
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "2张General + 1张The Strat，按多数选General。The Strat卡侧重15分钟/5分钟/1分钟体系，其余两张涵盖更宽周期范围，定义已综合三者。",
+  "error": null
+}

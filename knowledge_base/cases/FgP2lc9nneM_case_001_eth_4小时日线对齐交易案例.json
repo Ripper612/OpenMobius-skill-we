@@ -1,0 +1,121 @@
+{
+  "card_id": "FgP2lc9nneM_case_001_eth_4小时日线对齐交易案例",
+  "type": "case",
+  "title": "ETH 4小时日线对齐交易案例：多时间框架联动反转",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "V-shaped recovery",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Risk To Profit",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "candle_2_closure_c2",
+    "change_in_the_state_of_delivery",
+    "protected_high_low",
+    "retracement",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ETHUSDT",
+  "timeframe": "4H / 1D / 15m",
+  "market_context": "ETH日线形成FVG反转信号，4小时出现candle 2收盘确认，15分钟形成V形反转结构，多时间框架对齐指向上行扩展。",
+  "key_observation": "博主通过日线candle 2收盘确认反转偏好，4小时candle 2收盘对齐日线wick，15分钟CSD确认低点形成，三个时间框架同向对齐产生高概率交易机会。",
+  "analysis_steps": [
+    "Step 1: 观察日线价格进入FVG区域，K线体仍在尊重该区域，识别日线candle 2收盘显示反转信号。",
+    "Step 2: 预期价格在candle 3中向上扩展至日线FVG上方区域。",
+    "Step 3: 切换至4小时图表，寻找candle 2收盘或日线wick形成的位置。",
+    "Step 4: 确认4小时开盘后立即形成candle 2收盘，该K线吞没前一根下跌收盘K线。",
+    "Step 5: 将4小时candle 2收盘与日线wick对齐，确认所有时间框架方向一致。",
+    "Step 6: 切换至15分钟图表，观察4小时candle 2收盘后的CSD（交付状态改变）。",
+    "Step 7: 在15分钟上识别低点形成，这也是日线candle的低点。",
+    "Step 8: 等待continuation而非立即交易反转，观察价格是否形成V形恢复。",
+    "Step 9: 确认价格扫荡FVG低点后形成新的下跌收盘K线序列。",
+    "Step 10: 在V形恢复确认后，以新开盘价作为entry，protected low作为stop loss。",
+    "Step 11: 设定目标为2R或更高时间框架的failure swings（约4R）。",
+    "Step 12: 验证价格命中RTP并在candle 4继续延续，突破所有目标位。"
+  ],
+  "outcome": "价格成功命中RTP（Risk To Profit），并在candle 4形成额外延续，突破所有设定的目标位，演示了多时间框架对齐交易的有效性。",
+  "lessons": "多时间框架对齐（日线candle 2收盘+4小时candle 2收盘+15分钟CSD）产生高概率交易机会；等待continuation而非立即反转交易可避免虚假突破；candle 3是最容易产生扩展的周期，特别是在多个时间框架同时出现时。",
+  "primary_image": "cards/FgP2lc9nneM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/FgP2lc9nneM/images/case_001_detail_1.jpg",
+    "cards/FgP2lc9nneM/images/case_001_detail_2.jpg",
+    "cards/FgP2lc9nneM/images/case_001_detail_3.jpg",
+    "cards/FgP2lc9nneM/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图为教学幻灯片，标题为'4h > 15m Fractal Model'，左下角标注品牌TTrades及页码7。画面分为三个并排的K线面板，分别标注15m、4H、1D三个时间框架。15m面板显示多根K线，整体呈先下后上走势。4H面板显示约4根K线，含2根深色K线与2根绿色K线，时间标注06:00，最后一根K线带长下影线。1D面板显示2根绿色K线。图上有两条水平虚线，一条位于15m面板顶部区域，另一条",
+    "case_001_detail_1.jpg": "图表为 ETH 4 小时 K 线图，价格范围约从 3900 至 4300。图上有一个浅黄色矩形标注区域，覆盖价格约 3980 至 4150 之间的水平区间，横跨多根 K 线。矩形区域内可见多根交替出现的阴阳 K 线。矩形区域左侧有一根大阴线，主体从约 4200 向下延伸至 3980 附近。图右侧出现一根大阴线，主体跨度约从 4250 至 3980，其后跟随两根绿色 K 线。图上有一条水平线延伸至约",
+    "case_001_detail_2.jpg": "图表显示 NQ1! 的 10 分钟 K 线图，可见价格范围约从 3960 至 4380。图上有一个浅黄色矩形区域，横跨约 4080 至 4200 的价格区间，延伸覆盖多根 K 线。图中央偏左位置有一根大阴线，实体从约 4380 延伸至 4060。矩形区域内可见多根小实体 K 线密集排列。图右侧有两根大阴线，实体从约 4280 延伸至 4060，其后跟随数根绿色 K 线。图上有一条水平线位于约 41",
+    "case_001_detail_3.jpg": "图表显示 NQ1! 15 分钟 K 线图，可见价格范围约从 3960 到 4190。图上标注有一条向下倾斜的趋势线，从约 4190 延伸至 4100 附近。图左侧有两个浅绿色矩形框，分别覆盖约 3960 至 4060 及 4060 至 4110 区间。图右侧有一个浅灰色矩形框覆盖约 4270 至 4310 区间。图上可见文字标签 'DISCOUNT'，位于趋势线起点附近约 4190 至 4210 ",
+    "case_001_detail_4.jpg": "图表显示 XAGUSD 15 分钟 K 线图。图左侧至中部呈现一段向下走势，价格区间从约 4.98 下行至约 4.24。图右侧出现 V 形回升走势，K 线从低点区域回升至约 4.84 附近。图右侧标注有多个绿色矩形框，分布于约 4.44 至 4.92 价格区间，其中一个矩形框带有文字标签\"Displacement\"。图中部偏左位置有一个粉色圆点标注，附近有一条水平虚线延伸。图右侧还可见若干小型矩形"
+  },
+  "sources": [
+    {
+      "video_id": "FgP2lc9nneM",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        214.959,
+        443.039
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程、具体价位、交易逻辑和最终结果，分析步骤清晰有序，图表标注明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:28.386387Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH 4小时日线对齐交易案例：多时间框架联动反转\",\"school\":\"ICT\",\"asset\":\"ETHUSDT\",\"timeframe\":\"4H / 1D / 15m\",\"market_context\":\"ETH日线形成FVG反转信号，4小时出现candle 2收盘确认，15分钟形成V形反转结构，多时间框架对齐指向上行扩展。\",\"key_observation\":\"博主通过日线candle 2收盘确认反转偏好，4小时candle 2收盘对齐日线wick，15分钟CSD确认低点形成，三个时间框架同向对齐产生高概率交易机会。\",\"analysis_steps\":[\"Step 1: 观察日线价格进入FVG区域，K线体仍在尊重该区域，识别日线candle 2收盘显示反转信号。\",\"Step 2: 预期价格在candle 3中向上扩展至日线FVG上方区域。\",\"Step 3: 切换至4小时图表，寻找candle 2收盘或日线wick形成的位置。\",\"Step 4: 确认4小时开盘后立即形成candle 2收盘，该K线吞没前一根下跌收盘K线。\",\"Step 5: 将4小时candle 2收盘与日线wick对齐，确认所有时间框架方向一致。\",\"Step 6: 切换至15分钟图表，观察4小时candle 2收盘后的CSD（交付状态改变）。\",\"Step 7: 在15分钟上识别低点形成，这也是日线candle的低点。\",\"Step 8: 等待continuation而非立即交易反转，观察价格是否形成V形恢复。\",\"Step 9: 确认价格扫荡FVG低点后形成新的下跌收盘K线序列。\",\"Step 10: 在V形恢复确认后，以新开盘价作为entry，protected low作为stop loss。\",\"Step 11: 设定目标为2R或更高时间框架的failure swings（约4R）。\",\"Step 12: 验证价格命中RTP并在candle 4继续延续，突破所有目标位。\"],\"outcome\":\"价格成功命中RTP（Risk To Profit），并在candle 4形成额外延续，突破所有设定的目标位，演示了多时间框架对齐交易的有效性。\",\"lessons\":\"多时间框架对齐（日线candle 2收盘+4小时candle 2收盘+15分钟CSD）产生高概率交易机会；等待continuation而非立即反转交易可避免虚假突破；candle 3是最容易产生扩展的周期，特别是在多个时间框架同时出现时。\",\"primary_image_frame_id\":\"FgP2lc9nneM_f007\",\"supporting_image_frame_ids\":[\"FgP2lc9nneM_f009\",\"FgP2lc9nneM_f010\",\"FgP2lc9nneM_f012\",\"FgP2lc9nneM_f013\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Candle 2 Closure\",\"Change in the state of delivery\",\"Protected Swing\",\"Multi-timeframe alignment\",\"V-shaped recovery\",\"Displacement\",\"Risk To Profit\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个时间框架的分析过程、具",
+  "error": null
+}

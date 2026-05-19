@@ -1,0 +1,75 @@
+{
+  "card_id": "wick_closure",
+  "type": "merged_concept",
+  "canonical_term": "Wick Closure",
+  "aliases": [
+    "candle to closure",
+    "closing on wick"
+  ],
+  "school": "ICT",
+  "definition": "K线在其影线上收盘的形态。价格触及影线区域后在该区域内收盘，通常预示价格反转或整理，影线的上下半部分具有支撑阻力意义。",
+  "identification_rules": [
+    "识别一根K线的影线（wick）范围，确认收盘价位于影线区域内而非实体内",
+    "观察该K线是否为反转形态的一部分，或在关键价格水平处形成",
+    "确认影线的上下半部分（0.5位置）作为后续价格的支撑或阻力参考"
+  ],
+  "trading_implication": "Wick Closure表明价格在关键水平遭遇阻力或支撑。交易者可预期价格尊重影线的上半部分或下半部分。若价格要继续原方向运行，应尊重影线的相应半部；若未能尊重，则可能形成反转。常用于多时间框架联动分析中，确认日线或周线的Wick Closure后，在低时间框架寻找具体入场点。",
+  "common_mistakes": [
+    "将Wick Closure与普通反转蜡烛混淆，忽视影线上下半部分的区分",
+    "未在多时间框架确认Wick Closure的有效性，仅在单一时间框架交易",
+    "过度依赖Wick Closure本身而忽视市场结构（如BPR、FVG）的配合"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "HrjYoxAUb3s_case_002_美元看跌时的多货币对比分析",
+      "video_id": "HrjYoxAUb3s",
+      "title": "美元看跌时的多货币对比分析与最优配对选择"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_005_1分钟图反转扩张细节案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "1分钟图反转扩张细节案例"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_002_apoz日线到小时线的分形验证",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线K线2收盘下钻至小时线的分形验证"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_002_月线到日线的多时间框架验证",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "月线C2闭合与日线CSD的多时间框架验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_wick_closure",
+      "segment_ids": [
+        "seg_012",
+        "seg_016"
+      ],
+      "time_range": [
+        574.64,
+        794.399
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136681Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

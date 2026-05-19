@@ -1,0 +1,115 @@
+{
+  "card_id": "FGkb_50BfT8_case_001_es1期货5分钟图的高低阻力流动性应用",
+  "type": "case",
+  "title": "ES1期货5分钟图中的高低阻力流动性识别与应用",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "low_resistance_liquidity",
+    "high_resistance_liquidity",
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "5M",
+  "market_context": "ES1期货在2024年4月22日的5分钟图表中，价格在5006-5056区间内波动，形成多个摆动高低点，展现出失败摆动和流动性分布的典型特征。",
+  "key_observation": "博主通过识别失败摆动（未被扫除的摆动高低点）来区分低阻力流动性和高阻力流动性，并展示如何利用这两种流动性类型进行交易决策和止损设置。",
+  "analysis_steps": [
+    "Step 1: 定义失败摆动的概念——摆动高点后出现更低的高点（未扫除原高点），或摆动低点后出现更高的低点（未扫除原低点）。",
+    "Step 2: 识别低阻力流动性（LRLR）——失败摆动本身就是低阻力流动性，因为原始流动性未被扫除，价格易于穿过。",
+    "Step 3: 识别高阻力流动性（HRLR）——当价格首次扫除摆动高低点后反转，原流动性被消耗，新的流动性聚集在扫除后的高低点之外。",
+    "Step 4: 应用买方和卖方曲线概念——在市场结构转变（MSS）后，使用低阻力流动性作为交易目标，高阻力流动性作为止损或对立面。",
+    "Step 5: 在ES1实际图表中应用——识别价格未能创出新高的失败摆动区域（约5006-5036），以及扫除后形成的高阻力流动性区域（约5036-5056）。",
+    "Step 6: 观察市场结构转变后的价格行为——当价格从低点反转并突破失败摆动时，寻找在公允价值缺口或订单块处的最优入场点。"
+  ],
+  "outcome": null,
+  "lessons": "低阻力流动性（失败摆动）提供低风险的交易目标，因为价格倾向轻松穿过未被扫除的摆动点；高阻力流动性则作为止损或反向交易的参考。理解这两种流动性的分布对于构建高概率交易设置至关重要。",
+  "primary_image": "cards/FGkb_50BfT8/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/FGkb_50BfT8/images/case_001_detail_1.jpg",
+    "cards/FGkb_50BfT8/images/case_001_detail_2.jpg",
+    "cards/FGkb_50BfT8/images/case_001_detail_3.jpg",
+    "cards/FGkb_50BfT8/images/case_001_detail_4.jpg",
+    "cards/FGkb_50BfT8/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 ES1! 5 分钟 K 线图，日期标注为 22/4/2024，来源标注为 TTrader_edu。右侧价格轴可见范围约从 4982 至 5056。图上有两个矩形标注：一个较大矩形横跨图表左侧至约 10:30 时间区域，价格范围约在 5006 至 5036 之间；另一个较小矩形位于图右上方，价格范围约在 5036 至 5056 之间。当前价格标签显示约 5012.25。图右侧约 10:30 ",
+    "case_001_detail_1.jpg": "图为教学幻灯片，标题为'Failure swings'，包含两个示意性 K 线图。左侧标注'Bearish Example'：图上有一个虚线矩形框标记摆动高点区域，随后出现一个未能超越该高点的次级高点，一条带黄色圆点的弧形箭头从次级高点向下延伸，箭头旁附有黄色标签'Failure swings'。右侧标注'Bullish Example'：图上有一个虚线矩形框标记摆动低点区域，随后出现一个未能跌破",
+    "case_001_detail_2.jpg": "图为教学示意幻灯片，左上角标注文字'LRLR'，底部品牌标识为'TTrades'。图中并排展示两组示意 K 线序列：左侧标注'Bearish Example'，K 线整体向下排列，顶部有一条带'$'符号的虚线水平线，序列中有一个黄色圆圈标注于其中一根 K 线；右侧标注'Bullish Example'，K 线整体向上排列，底部有一条带'$'符号的虚线水平线。两组 K 线均无具体价格数字刻度，图上无",
+    "case_001_detail_3.jpg": "图为教学幻灯片，标题为 HRLR，左下角标注品牌 TTrades 及页码 7。图上并排展示两组示意性 K 线序列，左侧标注 Bearish Example，右侧标注 Bullish Example。两组图各含一个粉色矩形框标注区域及一条带红色 X 标记的水平虚线。左侧矩形框位于 K 线序列高点附近，右侧矩形框位于 K 线序列低点附近。两图均无价格刻度数字，无资产代码，无时间框架标注。",
+    "case_001_detail_4.jpg": "图为教学幻灯片，左上角标题文字为'Buyside & Sellside of the curve'，右下角显示品牌标识'TTrades'及页码'9'。图中央绘制一组约18根K线，整体走势从左上向右下排列。图上有两条虚线水平边界：上方虚线位于K线序列顶部高点处，下方虚线位于K线序列底部低点处。底部最后两根K线以粉红色高亮显示，其余K线为绿色或黑色。图上无价格刻度、无资产代码、无时间框架标注。",
+    "case_001_detail_5.jpg": "幻灯片页面，标题为'Buyside & Sellside of the curve'，左下角显示'TTrades'品牌标识及页码14。图中为无价格刻度的示意性K线图，K线序列整体呈V形走势。图上有一条横跨上方的水平虚线、一条带'MSS'标签的水平虚线标注，以及两个粉色矩形标注区域分别位于V形底部左侧和右侧。上行段右侧有多根绿色大实体K线。资产代码与时间框架均不可见。"
+  },
+  "sources": [
+    {
+      "video_id": "FGkb_50BfT8",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.719,
+        193.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了失败摆动、低阻力和高阻力流动性的定义与应用，并在ES1实际图表中展示了具体案例，资产、时间框架、价格范围均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:05.085111Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES1期货5分钟图中的高低阻力流动性识别与应用\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"5M\",\"market_context\":\"ES1期货在2024年4月22日的5分钟图表中，价格在5006-5056区间内波动，形成多个摆动高低点，展现出失败摆动和流动性分布的典型特征。\",\"key_observation\":\"博主通过识别失败摆动（未被扫除的摆动高低点）来区分低阻力流动性和高阻力流动性，并展示如何利用这两种流动性类型进行交易决策和止损设置。\",\"analysis_steps\":[\"Step 1: 定义失败摆动的概念——摆动高点后出现更低的高点（未扫除原高点），或摆动低点后出现更高的低点（未扫除原低点）。\",\"Step 2: 识别低阻力流动性（LRLR）——失败摆动本身就是低阻力流动性，因为原始流动性未被扫除，价格易于穿过。\",\"Step 3: 识别高阻力流动性（HRLR）——当价格首次扫除摆动高低点后反转，原流动性被消耗，新的流动性聚集在扫除后的高低点之外。\",\"Step 4: 应用买方和卖方曲线概念——在市场结构转变（MSS）后，使用低阻力流动性作为交易目标，高阻力流动性作为止损或对立面。\",\"Step 5: 在ES1实际图表中应用——识别价格未能创出新高的失败摆动区域（约5006-5036），以及扫除后形成的高阻力流动性区域（约5036-5056）。\",\"Step 6: 观察市场结构转变后的价格行为——当价格从低点反转并突破失败摆动时，寻找在公允价值缺口或订单块处的最优入场点。\"],\"outcome\":null,\"lessons\":\"低阻力流动性（失败摆动）提供低风险的交易目标，因为价格倾向轻松穿过未被扫除的摆动点；高阻力流动性则作为止损或反向交易的参考。理解这两种流动性的分布对于构建高概率交易设置至关重要。\",\"primary_image_frame_id\":\"FGkb_50BfT8_f007\",\"supporting_image_frame_ids\":[\"FGkb_50BfT8_f002\",\"FGkb_50BfT8_f003\",\"FGkb_50BfT8_f004\",\"FGkb_50BfT8_f005\",\"FGkb_50BfT8_f006\"],\"related_concepts\":[\"Protected Swing\",\"Low Resistance Liquidity\",\"High Resistance Liquidity\",\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了失败摆动、低阻力和高阻力流动性的定义与应用，并在ES1实际图表中展示了具体案例，资产、时间框架、价格范围均清晰可读。\"}",
+  "error": null
+}

@@ -1,0 +1,94 @@
+{
+  "card_id": "vn1RYjhJUnQ_case_001_usd_1小时图有效c2扫盘确认",
+  "type": "case",
+  "title": "USD 1H有效C2扫盘确认与5分钟CSD验证",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure (C2)",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Time Frame Pairing",
+      "card_id": "htf_ltf_analysis",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "candle_2_closure_c2",
+    "aligned_timeframe",
+    "turtle_soup",
+    "htf_ltf_analysis",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1H",
+  "market_context": "USD 1小时图显示价格在前一日低点附近形成扫盘结构。第13日开盘跳空下行，价格向下刺破至约25300，随后收回至25960附近，形成长下影线K线。随后价格在25840-26040区间内波动整理。",
+  "key_observation": "价格扫除前一日低点后回闭至高位，在1小时图上形成有效C2闭合。同时在5分钟时间框架上确认了Change in State of Delivery（CSD），两个时间框架的共振确认了向上延续的有效性。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别C2闭合结构——价格取出前一日低点后回闭至更高位置",
+    "Step 2: 确认C2的第一个要求已满足——价格突破并回闭至开盘价上方",
+    "Step 3: 下探5分钟时间框架寻找CSD确认——在较低时间框架上验证市场结构转变",
+    "Step 4: 在5分钟图上找到低点及其形成的K线序列",
+    "Step 5: 确认5分钟上已闭合在该低点上方，满足有效CSD的第二个要求",
+    "Step 6: 两个时间框架共振确认——1小时C2配合5分钟CSD形成有效的向上延续设置"
+  ],
+  "outcome": null,
+  "lessons": "有效的交易设置需要多时间框架的共振确认。仅在高时间框架上看到C2闭合还不够，必须下探低时间框架验证CSD，确保价格确实在关键水平上方闭合。这种配对验证大幅提高了交易的可靠性。",
+  "primary_image": "cards/vn1RYjhJUnQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/vn1RYjhJUnQ/images/case_001_detail_1.jpg",
+    "cards/vn1RYjhJUnQ/images/case_001_detail_2.jpg",
+    "cards/vn1RYjhJUnQ/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "USD 1 小时 K 线图。图上显示约 30 根 K 线，价格范围从 24800 到 26250。图中有两条水平虚线分别位于 25421.75 和 25200.00。中部区域有一个浅绿色矩形标注，下方标记文字'C2'。K 线呈现绿色和黑色交替，多数 K 线具有上下影线。右下角显示'NB11 (1H)'、'Hi: 12 Neutral'、'06:08:08'、'Bias: Neutral'等文字标签",
+    "case_001_detail_1.jpg": "USD 1 小时 K 线图，时间范围跨越第 10 至 16 日。图上可见两条水平虚线分别位于 25880 和 25840 处。矩形框标注覆盖约 26040 至 25840 的价格区间。第 13 日开盘处出现向下跳空缺口，随后形成长下影线的 K 线，下影线向下刺破至约 25300，之后该根 K 线收回至 25960 附近。第 12 日显示多根 K 线在 25840 至 26040 区间内波动。整体可",
+    "case_001_detail_2.jpg": "NQ11 5分钟K线图，时间范围从09:00至15:00。图上价格范围约从25640到25880。图中有一条水平线位于25765处。图上有一个灰色矩形框，大约覆盖25765至25840的价格区间，时间跨度从10:00至12:20。K线序列显示：09:00至10:00间多根绿黑K线，10:00处出现大黑K线，随后10:00至11:45间呈下行趋势，K线最低触及25710附近。13:00处出现大绿K线",
+    "case_001_detail_3.jpg": "图表展示一个标记为'Valid C3 Swing'的K线序列。左侧显示上升趋势，由绿色和黑色K线组成。中间部分呈下降趋势，主要为黑色和灰色K线。右侧显示三个并排的K线结构：绿色K线、黑色K线和灰色K线。图上标注有'C3D'和'Fractal Model Requirements'文字标签。左下角显示'TTrades'品牌标识。整体结构呈现从上升到下降再到混合形态的演变过程。"
+  },
+  "sources": [
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        166.56,
+        288.199
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了1小时和5分钟两个时间框架的实际图表，清晰标注了C2区域和CSD确认点，具体价位可从图上读取，分析步骤按顺序完整呈现。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:53.597232Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 1H有效C2扫盘确认与5分钟CSD验证\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1H\",\"market_context\":\"USD 1小时图显示价格在前一日低点附近形成扫盘结构。第13日开盘跳空下行，价格向下刺破至约25300，随后收回至25960附近，形成长下影线K线。随后价格在25840-26040区间内波动整理。\",\"key_observation\":\"价格扫除前一日低点后回闭至高位，在1小时图上形成有效C2闭合。同时在5分钟时间框架上确认了Change in State of Delivery（CSD），两个时间框架的共振确认了向上延续的有效性。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别C2闭合结构——价格取出前一日低点后回闭至更高位置\",\"Step 2: 确认C2的第一个要求已满足——价格突破并回闭至开盘价上方\",\"Step 3: 下探5分钟时间框架寻找CSD确认——在较低时间框架上验证市场结构转变\",\"Step 4: 在5分钟图上找到低点及其形成的K线序列\",\"Step 5: 确认5分钟上已闭合在该低点上方，满足有效CSD的第二个要求\",\"Step 6: 两个时间框架共振确认——1小时C2配合5分钟CSD形成有效的向上延续设置\"],\"outcome\":null,\"lessons\":\"有效的交易设置需要多时间框架的共振确认。仅在高时间框架上看到C2闭合还不够，必须下探低时间框架验证CSD，确保价格确实在关键水平上方闭合。这种配对验证大幅提高了交易的可靠性。\",\"primary_image_frame_id\":\"vn1RYjhJUnQ_f009\",\"supporting_image_frame_ids\":[\"vn1RYjhJUnQ_f008\",\"vn1RYjhJUnQ_f010\",\"vn1RYjhJUnQ_f006\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Candle 2 Closure (C2)\",\"Fractal Model\",\"Sweep\",\"Time Frame Pairing\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了1小时和5分钟两个时间框架的实际图表，清晰标注了C2区域和CSD确认点，具体价位可从图上读取，分析步骤按顺序完整呈现。\"}",
+  "error": null
+}

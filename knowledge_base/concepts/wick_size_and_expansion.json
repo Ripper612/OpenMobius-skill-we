@@ -1,0 +1,222 @@
+{
+  "card_id": "wick_size_and_expansion",
+  "type": "merged_concept",
+  "canonical_term": "Wick Size and Expansion",
+  "aliases": [
+    "Wick Formation",
+    "影线大小与扩张"
+  ],
+  "school": "ICT",
+  "definition": "K线影线大小决定价格扩张潜力的分析方法。小影线表示价格从开盘单向运动，支持当前K线方向扩张；大影线表示价格开盘后大幅反向运动后回归，预示反转且消耗大量价格区间，不支持当前时间框架内继续扩张。影线完全形成后，结合CSD确认，决定后续交易方向与入场时机。",
+  "identification_rules": [
+    "小影线（Small Wick）：K线从开盘价单向运动至收盘价，影线长度短，价格趋势一致性强，支持扩张（Expansion）",
+    "大影线（Large Wick）：K线开盘后出现大幅反向运动后收盘接近开盘价，影线长度明显，表示反转（Reversal）",
+    "观察K线是否在一个方向上一致运动，还是开盘后有明显的对向冲击，以此区分扩张蜡烛与反转蜡烛",
+    "确认Change in the State of Delivery（CSD）：价格穿过一系列同向收盘K线，表明wick已完全形成",
+    "在看涨偏差下，观察K线开盘后是否先向下运动，确认价格扫出左侧低点或进入FVG，识别V形反转和CSD信号",
+    "等待影线完全形成后再考虑交易K线主体方向的扩展，可通过Candle 2或Candle 3的收盘来预期影线已形成",
+    "在低时间框架中，通过观察价格是否回测或尊重该wick水平来验证wick的有效性",
+    "影线形成后观察K线实体走势，实体方向确认是否支持后续扩张或反转延续",
+    "较长的上影线表示价格在高位遭拒，较长的下影线表示价格在低位获得支撑，结合多时间框架判断反转或延续"
+  ],
+  "trading_implication": "小影线的Candle 2可直接交易其扩张方向，使用整个K线范围作为参考；大影线的Candle 2需等待Candle 3开盘后寻找延续机会，因大影线已消耗大量价格区间。在高时间框架识别wick形成后，于低时间框架寻找具体入场点，实现多时间框架对齐，获得高概率交易机会与更优风险回报比。影线大小决定是否使用整个K线范围或0.5斐波那契水平作为入场参考。",
+  "common_mistakes": [
+    "在影线尚未完全形成时过早入场，导致被反向扫损",
+    "在大影线蜡烛形成时立即交易Candle 2，忽视反转信号及大影线已消耗大量价格区间的事实",
+    "混淆扩张蜡烛与反转蜡烛，在错误的时间框架内入场",
+    "忽视Change in the State of Delivery的确认，仅凭视觉判断wick是否形成",
+    "未在低时间框架验证wick的有效性，直接基于高时间框架wick交易",
+    "混淆wick形成与价格反向的时机，在wick形成后仍期望价格继续原方向运行",
+    "混淆影线大小与价格方向——大影线不一定意味着反转方向确定，需结合后续K线实体确认",
+    "使用0.5影线水平交易小影线形态——小影线应使用整个K线范围",
+    "忽视影线形成后的K线实体走势——影线本身只是信号，实体走势才决定是否真正支持扩张",
+    "仅根据单根K线的影线判断，忽视多时间框架的影线形成过程",
+    "未认识到大影线消耗的价格区间，高估Candle 3的扩张潜力"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Candle 2",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Candle 3",
+      "card_id": "candle_3",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FAKWJ-1NlLE_case_001_nq期货_周三反转周四延续案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ期货周三反转周四延续交易案例"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_008_日线收盘形成与派发完成",
+      "video_id": "TCFvsZeYvV8",
+      "title": "日线AMD模式：午夜操纵形成下影线，派发完成实体"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_001_apoz日线上的多个k线2收盘识别",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线多个K线2收盘的识别与验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_wick_formation",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_016"
+      ],
+      "time_range": [
+        54.96,
+        705.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_wick_formation",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_009",
+        "seg_011"
+      ],
+      "time_range": [
+        183.36,
+        636.48
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "iEaMbuFZb24",
+      "original_card_id": "iEaMbuFZb24_concept_wick_formation",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        370.599,
+        1085.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_wick_size_and_expansion",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.2,
+        122.479
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_wick_formation",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_030",
+        "seg_031",
+        "seg_035"
+      ],
+      "time_range": [
+        11.2,
+        1868.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:28.208045Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "4张ICT + 1张Price Action，按多数选ICT。Price Action卡（eywpZT3z6GQ）与ICT卡在影线识别逻辑上高度兼容，核心技术细节已整合。",
+  "error": null
+}

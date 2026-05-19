@@ -1,0 +1,89 @@
+{
+  "card_id": "k3hTgbHBz1U_case_003_1分钟图表等量低点诱导案例",
+  "type": "case",
+  "title": "1分钟图表等量低点诱导案例",
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Stop Loss Sweep",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "inducement",
+    "fair_value_gap",
+    "equal_lows",
+    "liquidity",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1m",
+  "market_context": "价格在1分钟图表中形成等量低点结构，进入FVG区域诱导交易者做空。交易者设置止损后被运行，随后才发生真正的下跌行情。",
+  "key_observation": "价格在等量低点处进入FVG诱导做空，交易者止损被扫荡后才发生真正下跌。这是典型的诱导模型，机构先运行零售交易者的止损，再执行真实方向。",
+  "analysis_steps": [
+    "Step 1: 识别1分钟图表中形成的两个相对等量的低点结构",
+    "Step 2: 观察价格进入FVG（公允价值缺口）区域，这个区域诱导交易者建立做空头寸",
+    "Step 3: 注意到交易者在低点上方设置止损位",
+    "Step 4: 观察价格运行这些止损位，扫荡零售流动性",
+    "Step 5: 确认在止损被运行后，真正的下跌行情才开始发生"
+  ],
+  "outcome": "价格先向上运行止损，扫荡做空者的头寸，随后才执行真正的下跌行情。这验证了诱导模型的机制：机构先清理零售止损，再按预期方向运行。",
+  "lessons": "诱导模型展示了机构如何在关键价格水平（如等量低点和FVG）引诱零售交易者，通过运行其止损来获取流动性，然后才执行真实的市场方向。交易者应警惕在诱导区域设置止损被扫荡的风险。",
+  "primary_image": "cards/k3hTgbHBz1U/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/k3hTgbHBz1U/images/case_003_detail_1.jpg",
+    "cards/k3hTgbHBz1U/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "ES 1分钟K线图。图上可见价格范围约从4130到4168。图表中部有两条水平线标注，其中一条带有文字标签'REL'。上方有一个灰色矩形框覆盖4158至4168价格区间。图上显示多根红绿K线交替出现，中间区域呈现4145至4158之间的盘整形态。右侧价格刻度显示当前价格标记。底部时间轴显示'Aug 22 - 11:24'的时间标记。",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 15分钟线图。图上绘制有一条线形走势，显示多个摆动高点和低点。在图表中部偏右位置有一个灰色矩形标注，标记为FVG，其内部标有文字Imbalance Liquidity。该矩形大约位于4615至4625价格区间。图右侧价格刻度显示范围从3960到4640。图表右侧部分显示价格呈下行走势。除上述矩形标注外，图上未见其他指标或形态框。",
+    "case_003_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上有两条带标签的水平线：4624处标记为BOB、4010处标记为OB。图表显示两个矩形区域，分别覆盖3960至4010和4010至4624的价格范围。K线整体价格范围约从3960到4668。图表中部显示一个盘整区间，多根K线在4010至4624之间波动。右侧上方区域显示一系列绿色K线，部分带有长上影线。左下方显示早期价格从约3960上"
+  },
+  "sources": [
+    {
+      "video_id": "k3hTgbHBz1U",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.24,
+        187.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主明确展示了1分钟图表中等量低点进入FVG的诱导案例，详细说明了止损被运行的过程和随后的真实下跌，分析步骤完整清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:31.850041Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"1分钟图表等量低点诱导案例\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1m\",\"market_context\":\"价格在1分钟图表中形成等量低点结构，进入FVG区域诱导交易者做空。交易者设置止损后被运行，随后才发生真正的下跌行情。\",\"key_observation\":\"价格在等量低点处进入FVG诱导做空，交易者止损被扫荡后才发生真正下跌。这是典型的诱导模型，机构先运行零售交易者的止损，再执行真实方向。\",\"analysis_steps\":[\"Step 1: 识别1分钟图表中形成的两个相对等量的低点结构\",\"Step 2: 观察价格进入FVG（公允价值缺口）区域，这个区域诱导交易者建立做空头寸\",\"Step 3: 注意到交易者在低点上方设置止损位\",\"Step 4: 观察价格运行这些止损位，扫荡零售流动性\",\"Step 5: 确认在止损被运行后，真正的下跌行情才开始发生\"],\"outcome\":\"价格先向上运行止损，扫荡做空者的头寸，随后才执行真正的下跌行情。这验证了诱导模型的机制：机构先清理零售止损，再按预期方向运行。\",\"lessons\":\"诱导模型展示了机构如何在关键价格水平（如等量低点和FVG）引诱零售交易者，通过运行其止损来获取流动性，然后才执行真实的市场方向。交易者应警惕在诱导区域设置止损被扫荡的风险。\",\"primary_image_frame_id\":\"k3hTgbHBz1U_f007\",\"supporting_image_frame_ids\":[\"k3hTgbHBz1U_f003\",\"k3hTgbHBz1U_f006\"],\"related_concepts\":[\"Inducement\",\"Fair Value Gap\",\"Equal Lows\",\"Liquidity\",\"Order Block\",\"Stop Loss Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主明确展示了1分钟图表中等量低点进入FVG的诱导案例，详细说明了止损被运行的过程和随后的真实下跌，分析步骤完整清晰。\"}",
+  "error": null
+}

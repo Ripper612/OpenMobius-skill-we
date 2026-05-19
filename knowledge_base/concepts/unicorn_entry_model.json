@@ -1,0 +1,63 @@
+{
+  "card_id": "unicorn_entry_model",
+  "type": "merged_concept",
+  "canonical_term": "Unicorn Entry Model",
+  "aliases": [
+    "Unicorn",
+    "Unicorn Setup"
+  ],
+  "school": "ICT",
+  "definition": "将Breaker Block与重叠的Fair Value Gap结合的交易模型。价格形成结构后回测至FVG区域作为入场点，止损通常设在结构低点或Breaker Block下方。",
+  "identification_rules": [
+    "识别Breaker Block结构：低-高-更低-更高的四点形态，标记最后一根上涨收盘K线或下跌收盘K线",
+    "确认位移（Displacement）：价格突破Breaker Block的收盘K线，创造新的高点或低点",
+    "检查重叠的FVG：位移后的K线与前一根K线之间形成三根K线的FVG模式（第一根K线的极值不与第三根K线的极值重叠）",
+    "FVG必须与Breaker Block重叠或相邻，形成统一的入场区域",
+    "等待价格回测至FVG区域，作为高概率入场点"
+  ],
+  "trading_implication": "Unicorn Entry Model提供高概率的入场机会。交易者在价格回测至重叠的FVG时入场，目标通常是流动性区域（摆动高点或等高点）。止损可设在结构低点（较小风险回报比）或Breaker Block下方（较大风险回报比）。该模型结合了结构确认和价格不平衡，增强了入场的可靠性。",
+  "common_mistakes": [
+    "未确认完整的Breaker Block结构就仓促入场",
+    "FVG与Breaker Block不重叠时仍然交易",
+    "忽视K线收盘价是否突破Breaker Block的重要性",
+    "在价格未回测至FVG区域时提前入场",
+    "未考虑K线体是否穿过上涨/下跌K线序列的中点阈值"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "rXMVPUZPw4A",
+      "original_card_id": "rXMVPUZPw4A_concept_unicorn_entry_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_005",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_011"
+      ],
+      "time_range": [
+        10.48,
+        460.4
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136484Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,114 @@
+{
+  "card_id": "WwmS47Gb3M0_case_003_欧元兑加元_eurcad_日线_1小时_15分钟做空案例",
+  "type": "case",
+  "title": "EURCAD日线-1小时-15分钟多时间框架做空案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Previous Day Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Midnight Open",
+      "card_id": "midnight_open",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "smart_money_technique_smt",
+    "change_in_the_state_of_delivery_csd",
+    "market_structure_shift_mss",
+    "midnight_open",
+    "equilibrium_eq",
+    "premium_discount"
+  ],
+  "school": "ICT",
+  "asset": "EURCAD",
+  "timeframe": "1D / 1H / 15M",
+  "market_context": "EURCAD在日线上形成下跌趋势，前日低点被扫除。1小时图表中存在看涨FVG（公允价值缺口），15分钟图表显示SMT（智能货币技术分歧）和市场结构转变，为做空提供多时间框架确认。",
+  "key_observation": "博主通过多时间框架分析发现：日线扫除前日低点后，1小时形成看涨FVG作为目标区域；15分钟出现SMT和CSD（交付状态改变），在午夜开盘上方建立做空头寸，风险回报比达到最小2R。",
+  "analysis_steps": [
+    "Step 1: 在日线图上标记前日低点（Previous Day Low）作为扫荡目标",
+    "Step 2: 下钻至1小时图表，识别并标记看涨FVG（Bullish Fair Value Gap），计算该FVG的均衡点（EQ）位置",
+    "Step 3: 继续下钻至15分钟图表，确认前日低点被再次扫除，形成SMT现象",
+    "Step 4: 在15分钟图表上识别市场结构转变（MSS/CSD），价格突破并收盘于前期高点上方",
+    "Step 5: 确定午夜开盘（Midnight Open）位置作为做空入场参考点",
+    "Step 6: 设置止损于当日低点，计算风险回报比确保最小2R",
+    "Step 7: 执行做空交易，目标指向1小时FVG的均衡区域"
+  ],
+  "outcome": "价格在午夜开盘处被触及后继续上行至1小时FVG的均衡点，随后下跌至订单块（Order Block）区域，最终触及1小时FVG目标区域。",
+  "lessons": "多时间框架确认提高交易概率：日线提供大方向，1小时确定目标区域，15分钟提供精确入场信号。SMT和CSD的组合出现预示强势反转。午夜开盘作为关键参考点，结合风险回报比管理可优化交易设置。",
+  "primary_image": "cards/WwmS47Gb3M0/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/WwmS47Gb3M0/images/case_003_detail_1.jpg",
+    "cards/WwmS47Gb3M0/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "EURCAD 15 分钟 K 线图。图上显示从左至右的价格走势，从 1.4870 下跌至约 1.4100，随后在 1.4100 至 1.4400 区间内出现整理，最后上升至 1.4622。图上标注有三条水平线分别位于 1.4870、1.4622 和 1.4400。三个彩色矩形区域覆盖价格走势：黄色区域在顶部（1.4870 至 1.4622），青绿色区域在中部（1.4622 至 1.4400），灰色",
+    "case_003_detail_1.jpg": "EURCAD 日线图。图上可见两个矩形标注：上方为米色矩形，跨越约 1.47200 至 1.48640 区间；下方为黄色矩形，位于约 1.41800 至 1.42400 区间，标注文字为 0.50。K 线序列从左侧约 1.48600 处下行至中部约 1.40000，随后反弹至右侧约 1.42400。整体可见价格范围约从 1.40000 到 1.48640。图表日期标注为 29/4/2024。",
+    "case_003_detail_2.jpg": "图表显示 CAD 资产的线性走势图。右侧价格刻度范围从 1.26750 至 1.47600。图上有两条水平虚线，分别位于约 1.42910 和 1.26750 处。底部显示日期标记'25/4/2024'和'EURCAD - 1 h'的文字标签。图中央偏下方有一个黄色十字光标标记。底部工具栏可见'Select bar'、'Sell'、'Buy'等按钮。左下角显示时间戳'12:20:15 UTC-4'"
+  },
+  "sources": [
+    {
+      "video_id": "WwmS47Gb3M0",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        194.28,
+        372.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程，清晰标注了关键价位、入场点、止损点和目标区域，交易结果也得到验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:49.656017Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURCAD日线-1小时-15分钟多时间框架做空案例\",\"school\":\"ICT\",\"asset\":\"EURCAD\",\"timeframe\":\"1D / 1H / 15M\",\"market_context\":\"EURCAD在日线上形成下跌趋势，前日低点被扫除。1小时图表中存在看涨FVG（公允价值缺口），15分钟图表显示SMT（智能货币技术分歧）和市场结构转变，为做空提供多时间框架确认。\",\"key_observation\":\"博主通过多时间框架分析发现：日线扫除前日低点后，1小时形成看涨FVG作为目标区域；15分钟出现SMT和CSD（交付状态改变），在午夜开盘上方建立做空头寸，风险回报比达到最小2R。\",\"analysis_steps\":[\"Step 1: 在日线图上标记前日低点（Previous Day Low）作为扫荡目标\",\"Step 2: 下钻至1小时图表，识别并标记看涨FVG（Bullish Fair Value Gap），计算该FVG的均衡点（EQ）位置\",\"Step 3: 继续下钻至15分钟图表，确认前日低点被再次扫除，形成SMT现象\",\"Step 4: 在15分钟图表上识别市场结构转变（MSS/CSD），价格突破并收盘于前期高点上方\",\"Step 5: 确定午夜开盘（Midnight Open）位置作为做空入场参考点\",\"Step 6: 设置止损于当日低点，计算风险回报比确保最小2R\",\"Step 7: 执行做空交易，目标指向1小时FVG的均衡区域\"],\"outcome\":\"价格在午夜开盘处被触及后继续上行至1小时FVG的均衡点，随后下跌至订单块（Order Block）区域，最终触及1小时FVG目标区域。\",\"lessons\":\"多时间框架确认提高交易概率：日线提供大方向，1小时确定目标区域，15分钟提供精确入场信号。SMT和CSD的组合出现预示强势反转。午夜开盘作为关键参考点，结合风险回报比管理可优化交易设置。\",\"primary_image_frame_id\":\"WwmS47Gb3M0_f013\",\"supporting_image_frame_ids\":[\"WwmS47Gb3M0_f012\",\"WwmS47Gb3M0_f011\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Smart Money Technique (SMT)\",\"Change in the state of delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Previous Day Low\",\"Midnight Open\",\"Equilibrium (EQ)\",\"Premium / Discount\",\"Risk Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个时间框架的分析过程，清晰标注了关键价位、入场点、止损点和目标区域，交易结果也得到验证。\"}",
+  "error": null
+}

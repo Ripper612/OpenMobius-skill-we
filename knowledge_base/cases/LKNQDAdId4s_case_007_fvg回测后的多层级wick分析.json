@@ -1,0 +1,111 @@
+{
+  "card_id": "LKNQDAdId4s_case_007_fvg回测后的多层级wick分析",
+  "type": "case",
+  "title": "日线wick的0.5位置在多时间框架上的回测与扩展分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (0.5 level)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "wick",
+    "change_in_the_state_of_delivery_csd",
+    "failure_swing",
+    "time_frame_confluence",
+    "order_block_ob",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "1H / 5M (multi-timeframe analysis)",
+  "market_context": "价格在日线级别形成FVG后回撤，收盘在前一根K线范围内形成wick。博主跨越日线、小时线、5分钟线三个时间框架，追踪wick的0.5位置如何成为关键支撑/阻力。",
+  "key_observation": "日线wick的0.5位置（约68.34）在小时图上标记后，小时图形成CSD和失败摇摆。5分钟图价格穿过该0.5位置但仍继续下行扩展至目标，展示了多层级结构的协调性。",
+  "analysis_steps": [
+    "Step 1: 识别日线级别价格到达FVG后收回形成的wick，确定其上下边界。",
+    "Step 2: 计算日线wick的0.5位置（中点），作为关键参考水平。",
+    "Step 3: 在小时图上标记该0.5位置，观察小时图是否形成CSD（交付状态改变）和失败摇摆。",
+    "Step 4: 确认小时图在该区域形成反转信号，预期价格向下运行。",
+    "Step 5: 下钻至5分钟图，标记同一0.5位置水平，观察价格是否尊重该水平。",
+    "Step 6: 注意到5分钟图价格穿过0.5位置但收盘仍在其上方，表明反转信号不够强。",
+    "Step 7: 等待5分钟图收盘确认低于0.5位置，获得额外确认后考虑入场。",
+    "Step 8: 价格最终收盘低于0.5位置，确认反转，可在该收盘处入场，止损设在高点，目标为1R。",
+    "Step 9: 追踪价格运行，确认达到1R目标。"
+  ],
+  "outcome": "价格成功达到1R目标。博主强调这不是完美交易，存在价格穿过0.5位置但仍扩展下行的情况，需要根据低时间框架的额外确认来调整策略。",
+  "lessons": "多时间框架协调分析提高交易概率：日线wick的0.5位置在小时图和5分钟图上形成关键参考。等待低时间框架的收盘确认比急于入场更重要。市场不总是完美，需要灵活应对价格穿过关键水平但仍继续运行的情况。",
+  "primary_image": "cards/LKNQDAdId4s/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/LKNQDAdId4s/images/case_007_detail_1.jpg",
+    "cards/LKNQDAdId4s/images/case_007_detail_2.jpg",
+    "cards/LKNQDAdId4s/images/case_007_detail_3.jpg",
+    "cards/LKNQDAdId4s/images/case_007_detail_4.jpg",
+    "cards/LKNQDAdId4s/images/case_007_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "15分钟K线图，价格范围从67.65至68.95。图上有4条水平线分别位于68.34、68.49、68.60和68.00处。两个矩形区域分别覆盖68.00至68.60和67.95至68.40的价格范围。K线序列显示从05:00开始的上升趋势至07:30，随后下降至08:15，之后在08:15至09:00间形成盘整，再次上升至10:00，最后下降至12:00。多根K线显示上下影线超过主体长度的特征。",
+    "case_007_detail_1.jpg": "图为日线蜡烛图，右侧价格刻度范围约从65.40至71.20。图上可见约10根K线，时间轴跨越11月4日至25日区间，当前十字线定位于Mon 18 Nov。右侧价格轴高亮标签显示67.00，对应一条贯穿全图的水平虚线。图左侧有一根绿色大实体K线，随后出现两根黑色大实体K线，最低下影线延伸至约67.00附近。图右上角有水印文字'The Market Lens'及'Trades_edu'。图上未见矩形标",
+    "case_007_detail_2.jpg": "图为烛台图，时间轴覆盖11月13日至11月19日，右侧价格刻度范围约66.60至70.00。图右侧当前价标签显示68.65，并有一条水平虚线贯穿全图对应该价位。图上另有一条水平线段位于约69.10，横跨Nov 14 20:00至Nov 17区域。Nov 14 20:00处有一条垂直虚线。Nov 13约06:00处可见一根大幅下行K线，低点约66.90。Nov 14约06:00附近K线上行至约69.",
+    "case_007_detail_3.jpg": "图表为 K 线图，时间轴覆盖 04:30 至 11:00，日期标注为 Friday 15 Nov，当前价格标签显示 68.51。图右侧价格刻度范围约从 67.70 至 69.00。图上有一条水平线位于约 68.60，从 07:00 延伸至 10:00 附近，另有一条虚线水平线对应当前价 68.51。08:30 附近出现一根大绿色 K 线，主体从约 67.95 延伸至 68.55，下影线延伸至约 6",
+    "case_007_detail_4.jpg": "图表为 CL1! 品种的 K 线图，时间轴显示从 05:00 至 12:00。右侧价格刻度范围约为 67.70 至 69.00。图上有两条水平线，分别位于约 68.58 和 68.47 处，延伸区间约为 08:00 至 09:30。09:00 附近出现一根大幅绿色 K 线，主体从约 67.75 延伸至 68.50，下影线延伸至约 67.70。图右上角标注有水印文字\"The Market Lens\"",
+    "case_007_detail_5.jpg": "图表为5分钟K线图，日期标注为Wed 13 Nov，右上角水印显示'The Market Lens'。价格轴范围约从2588.0至2626.0。图上有三条水平线，分别位于约2610.0、2602.5和2596.0处，均无文字标签。K线序列中，约10:00处出现一根大阴线，随后在2604至2612区间内有数根K线横向排列。约11:30处再次出现大阴线，之后在2594至2596附近有数根小阳线。约12"
+  },
+  "sources": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        552.16,
+        709.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程，清晰标记了关键价位（日线wick 0.5位置约68.34），交易结果明确（达到1R），分析步骤按顺序呈现。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:55.346529Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线wick的0.5位置在多时间框架上的回测与扩展分析\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"1H / 5M (multi-timeframe analysis)\",\"market_context\":\"价格在日线级别形成FVG后回撤，收盘在前一根K线范围内形成wick。博主跨越日线、小时线、5分钟线三个时间框架，追踪wick的0.5位置如何成为关键支撑/阻力。\",\"key_observation\":\"日线wick的0.5位置（约68.34）在小时图上标记后，小时图形成CSD和失败摇摆。5分钟图价格穿过该0.5位置但仍继续下行扩展至目标，展示了多层级结构的协调性。\",\"analysis_steps\":[\"Step 1: 识别日线级别价格到达FVG后收回形成的wick，确定其上下边界。\",\"Step 2: 计算日线wick的0.5位置（中点），作为关键参考水平。\",\"Step 3: 在小时图上标记该0.5位置，观察小时图是否形成CSD（交付状态改变）和失败摇摆。\",\"Step 4: 确认小时图在该区域形成反转信号，预期价格向下运行。\",\"Step 5: 下钻至5分钟图，标记同一0.5位置水平，观察价格是否尊重该水平。\",\"Step 6: 注意到5分钟图价格穿过0.5位置但收盘仍在其上方，表明反转信号不够强。\",\"Step 7: 等待5分钟图收盘确认低于0.5位置，获得额外确认后考虑入场。\",\"Step 8: 价格最终收盘低于0.5位置，确认反转，可在该收盘处入场，止损设在高点，目标为1R。\",\"Step 9: 追踪价格运行，确认达到1R目标。\"],\"outcome\":\"价格成功达到1R目标。博主强调这不是完美交易，存在价格穿过0.5位置但仍扩展下行的情况，需要根据低时间框架的额外确认来调整策略。\",\"lessons\":\"多时间框架协调分析提高交易概率：日线wick的0.5位置在小时图和5分钟图上形成关键参考。等待低时间框架的收盘确认比急于入场更重要。市场不总是完美，需要灵活应对价格穿过关键水平但仍继续运行的情况。\",\"primary_image_frame_id\":\"LKNQDAdId4s_f024\",\"supporting_image_frame_ids\":[\"LKNQDAdId4s_f020\",\"LKNQDAdId4s_f021\",\"LKNQDAdId4s_f022\",\"LKNQDAdId4s_f023\",\"LKNQDAdId4s_f019\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Wick\",\"Equilibrium (0.5 level)\",\"Change in the state of delivery (CSD)\",\"Failure Swing\",\"Multi-timeframe analysis\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个时间框架的分析过程，清晰标记了关键价位（日线wick 0.5位置约68.34），交易结果明确（达到1R），分析步骤按顺序呈现。\"}",
+  "error": null
+}

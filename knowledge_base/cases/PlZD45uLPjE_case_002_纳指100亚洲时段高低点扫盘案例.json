@@ -1,0 +1,92 @@
+{
+  "card_id": "PlZD45uLPjE_case_002_纳指100亚洲时段高低点扫盘案例",
+  "type": "case",
+  "title": "纳指100亚洲时段高低点扫盘与流动性建立",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "displacement",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1! (E-MINI NASDAQ-100 Futures)",
+  "timeframe": "15M",
+  "market_context": "伦敦时段价格扫除亚洲高低点，在纽约开盘前创建两个偏离点，为市场建立买卖方流动性池，为后续纽约时段交易奠定基础。",
+  "key_observation": "价格在伦敦时段突破亚洲范围高点后回落，随后扫除亚洲低点，形成两个偏离（deviation），在范围两侧建立买卖方流动性，为纽约开盘做准备。",
+  "analysis_steps": [
+    "Step 1: 标记亚洲时段高点（Asian Session High）和低点（Asian Session Low）作为参考水平。",
+    "Step 2: 观察伦敦时段价格突破亚洲高点，创建第一个偏离点（deviation above range）。",
+    "Step 3: 确认价格回落进入亚洲范围内，验证第一个偏离的有效性。",
+    "Step 4: 观察价格继续下行扫除亚洲低点，创建第二个偏离点（deviation below range）。",
+    "Step 5: 识别两个偏离点产生的结果：在范围上方形成买方流动性（Buyside Liquidity），在范围下方形成卖方流动性（Sellside Liquidity）。",
+    "Step 6: 预期纽约开盘时段可能出现盘整或对这些流动性区域的回测。"
+  ],
+  "outcome": null,
+  "lessons": "亚洲时段高低点扫盘是机构建立流动性的典型手法。通过在范围两侧创建偏离点，机构在纽约开盘前为后续交易建立明确的目标区域。交易者应关注这些流动性池的位置，作为潜在的反转或延续点。",
+  "primary_image": "cards/PlZD45uLPjE/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/PlZD45uLPjE/images/case_002_detail_1.jpg",
+    "cards/PlZD45uLPjE/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "E-MINI NASDAQ-100 期货 6 月合约 15 分钟图。图上标注三条水平线分别标记为'Asian Session High'、'Asian Session Low'和'Daily Open'，均位于 13010 附近。两个粉红色矩形框分别标记为'Buyside Liquidity'（上方，约 13000-13010）和'Sellside Liquidity'（下方，约 12950-13",
+    "case_002_detail_1.jpg": "E-MINI NASDAQ-100 期货 6 月合约 15 分钟图。图上标注有三条水平线：13020.00 处标记为'Asian Session High'、13018.00 处标记为'Daily Open'、12900.75 处标记为'Asian Session Low'。可见 K 线价格范围约从 12884.00 到 13108.00。图表显示从 07:30 UTC 开始的绿色 K 线序列，在",
+    "case_002_detail_2.jpg": "E-MINI NASDAQ-100 期货 6 月合约 15 分钟图。图上标注三条水平线：13028.00 标记为'Asian Sandwich High'、13018.00 标记为'Daily Open'、13008.50 处另有一条线。图上有两个矩形框：上方粉色矩形框围绕 13070 至 13090 区间，下方矩形框标记为'Asian Sandwich Low'围绕 13008 至 13028 "
+  },
+  "sources": [
+    {
+      "video_id": "PlZD45uLPjE",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        183.66,
+        282.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了亚洲高低点标记、伦敦时段扫盘过程、两个偏离点的形成，以及最终的流动性建立，分析步骤清晰，关键价位明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:39.201368Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳指100亚洲时段高低点扫盘与流动性建立\",\"school\":\"ICT\",\"asset\":\"NQ1! (E-MINI NASDAQ-100 Futures)\",\"timeframe\":\"15M\",\"market_context\":\"伦敦时段价格扫除亚洲高低点，在纽约开盘前创建两个偏离点，为市场建立买卖方流动性池，为后续纽约时段交易奠定基础。\",\"key_observation\":\"价格在伦敦时段突破亚洲范围高点后回落，随后扫除亚洲低点，形成两个偏离（deviation），在范围两侧建立买卖方流动性，为纽约开盘做准备。\",\"analysis_steps\":[\"Step 1: 标记亚洲时段高点（Asian Session High）和低点（Asian Session Low）作为参考水平。\",\"Step 2: 观察伦敦时段价格突破亚洲高点，创建第一个偏离点（deviation above range）。\",\"Step 3: 确认价格回落进入亚洲范围内，验证第一个偏离的有效性。\",\"Step 4: 观察价格继续下行扫除亚洲低点，创建第二个偏离点（deviation below range）。\",\"Step 5: 识别两个偏离点产生的结果：在范围上方形成买方流动性（Buyside Liquidity），在范围下方形成卖方流动性（Sellside Liquidity）。\",\"Step 6: 预期纽约开盘时段可能出现盘整或对这些流动性区域的回测。\"],\"outcome\":null,\"lessons\":\"亚洲时段高低点扫盘是机构建立流动性的典型手法。通过在范围两侧创建偏离点，机构在纽约开盘前为后续交易建立明确的目标区域。交易者应关注这些流动性池的位置，作为潜在的反转或延续点。\",\"primary_image_frame_id\":\"PlZD45uLPjE_f011\",\"supporting_image_frame_ids\":[\"PlZD45uLPjE_f009\",\"PlZD45uLPjE_f010\"],\"related_concepts\":[\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Displacement\",\"Order Block\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了亚洲高低点标记、伦敦时段扫盘过程、两个偏离点的形成，以及最终的流动性建立，分析步骤清晰，关键价位明确。\"}",
+  "error": null
+}

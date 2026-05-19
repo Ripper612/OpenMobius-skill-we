@@ -1,0 +1,110 @@
+{
+  "card_id": "qdQYhePcvGE_case_012_usd_5分钟图的consolidation与突破交易",
+  "type": "case",
+  "title": "USD 5分钟盘整中等高点的SMT反转交易",
+  "related_concepts": [
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity (SSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "V-shaped Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "consolidation",
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "buyside_sellside_liquidity",
+    "market_structure",
+    "v_shaped_reversal"
+  ],
+  "school": "ICT",
+  "asset": "USDXXX",
+  "timeframe": "5m",
+  "market_context": "USD在5分钟图上形成明显的盘整区间，价格在41.500-41.640之间反复震荡，高点约41.680。博主观察到多次试图突破盘整高点但未能有效突破的情况。",
+  "key_observation": "价格形成equal highs（等高点），配合SMT（Smart Money Technique）与Change in State of Delivery的确认，提供了一个高概率的反转做空机会。博主强调需要等待足够的确认信号，而不是仓促交易初次的盘整突破。",
+  "analysis_steps": [
+    "Step 1: 标记出盘整的高点和低点，观察价格是否能突破盘整高点。",
+    "Step 2: 首次突破盘整高点后，检查是否形成Change in State of Delivery，但发现这只是在盘整内震荡，不构成有效信号。",
+    "Step 3: 继续观察，等待更强的确认信号，特别是SMT与Change in State of Delivery的组合。",
+    "Step 4: 识别出equal highs形态，价格在相同高点附近反复测试。",
+    "Step 5: 当SMT出现且伴随Change in State of Delivery的收盘确认时，形成反转入场信号。",
+    "Step 6: 设定止损位于这一系列高点之上，目标指向日线低点及其下方的卖方流动性（Sellside Liquidity）。",
+    "Step 7: 验证风险回报比，确认能否获得2R的收益空间到达目标低点。"
+  ],
+  "outcome": null,
+  "lessons": "在盘整中交易需要耐心等待多重确认，单一的突破信号不足以构成交易理由。SMT与Change in State of Delivery的组合、equal highs形态的出现，以及对高时间框架背景的理解，共同提高了交易的概率。止损应设在结构高点而非简单的盘整高点，以适应市场的真实结构。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_012_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_012_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_012_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_012_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_012_primary.jpg": "USD 5分钟K线图。图上显示从03:00至13:00的价格走势，价格范围在41.380至41.760之间。图上有两条水平线分别位于41.500和41.625处。另有两个矩形标注框，分别覆盖41.400至41.625和41.500至41.625的价格区间。右下角显示文字标签包括'S1U (5m)'、'Se-UI Model'、'08:30:00'、'R1 Bul Lsh'和'SMT(Auto) -",
+    "case_012_detail_1.jpg": "USD 5分钟K线图，时间范围从01:30至11:30。图上价格范围约41.260至41.740。可见多条水平线标注在41.640、41.620和41.500价位。图上绘制了三个矩形区域，分别位于不同价格范围。K线序列显示从左侧01:30开始的上升趋势至06:00达到高点约41.680，随后出现下降趋势至08:00，之后在41.500至41.640区间内形成整理形态至09:30。右侧显示交易界面信",
+    "case_012_detail_2.jpg": "APOZ 5分钟K线图。图上显示从02:00至12:00的价格走势，价格范围约41300至41760。图上绘制了多条水平线和矩形框，其中矩形框分别位于41620-41640区间和41410-41500区间。标注文字C2出现在约41670价格位置。右下角显示指标信息包括S1U(5m)、5m-UI Model、RSI状态为Bear(4h)、SMT(Auto)显示AAEUR和AAGBP。K线呈现绿黑相间",
+    "case_012_detail_3.jpg": "SPY 1 分钟 K 线图。图上显示价格范围从 41.140 到 41.620。图表右侧有两个矩形标注框，分别覆盖约 41.400-41.500 和 41.500-41.560 的价格区间。图上可见两条水平虚线。右上角显示'XAGUSD'和'The Market Lens'文字标签。右下方显示'S11 (%)e'、'Sep-01 Model'、'08:15:08'、'Pivot Bearish'及"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_027",
+        "seg_028"
+      ],
+      "time_range": [
+        1390.4,
+        1488.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析过程：盘整标记→初次突破判断→等待确认→SMT识别→equal highs确认→入场逻辑→止损设置→目标定义，所有关键要素清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:06.832282Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 5分钟盘整中等高点的SMT反转交易\",\"school\":\"ICT\",\"asset\":\"USDXXX\",\"timeframe\":\"5m\",\"market_context\":\"USD在5分钟图上形成明显的盘整区间，价格在41.500-41.640之间反复震荡，高点约41.680。博主观察到多次试图突破盘整高点但未能有效突破的情况。\",\"key_observation\":\"价格形成equal highs（等高点），配合SMT（Smart Money Technique）与Change in State of Delivery的确认，提供了一个高概率的反转做空机会。博主强调需要等待足够的确认信号，而不是仓促交易初次的盘整突破。\",\"analysis_steps\":[\"Step 1: 标记出盘整的高点和低点，观察价格是否能突破盘整高点。\",\"Step 2: 首次突破盘整高点后，检查是否形成Change in State of Delivery，但发现这只是在盘整内震荡，不构成有效信号。\",\"Step 3: 继续观察，等待更强的确认信号，特别是SMT与Change in State of Delivery的组合。\",\"Step 4: 识别出equal highs形态，价格在相同高点附近反复测试。\",\"Step 5: 当SMT出现且伴随Change in State of Delivery的收盘确认时，形成反转入场信号。\",\"Step 6: 设定止损位于这一系列高点之上，目标指向日线低点及其下方的卖方流动性（Sellside Liquidity）。\",\"Step 7: 验证风险回报比，确认能否获得2R的收益空间到达目标低点。\"],\"outcome\":null,\"lessons\":\"在盘整中交易需要耐心等待多重确认，单一的突破信号不足以构成交易理由。SMT与Change in State of Delivery的组合、equal highs形态的出现，以及对高时间框架背景的理解，共同提高了交易的概率。止损应设在结构高点而非简单的盘整高点，以适应市场的真实结构。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f049\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f047\",\"qdQYhePcvGE_f048\",\"qdQYhePcvGE_f050\"],\"related_concepts\":[\"Consolidation\",\"Equal Highs\",\"SMT (Smart Money Technique)\",\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Sellside Liquidity (SSL)\",\"Market Structure\",\"Risk Management\",\"V-shaped Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析过程：盘整标记→初次突破判断→等待确认→SMT识别→equal highs确认→入场逻辑→止损设置→目标定义，所有关键要素清晰。\"}",
+  "error": null
+}

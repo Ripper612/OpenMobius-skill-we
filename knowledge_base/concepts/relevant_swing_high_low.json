@@ -1,0 +1,78 @@
+{
+  "card_id": "relevant_swing_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Relevant Swing High/Low",
+  "aliases": [
+    "Relevant Highs and Lows",
+    "Relevant Swings"
+  ],
+  "school": "Price Action",
+  "definition": "具有足够分离度的摆动极值点，与相邻摆动点之间存在显著价格距离，是价格形成反转或反应的关键位置，与失败摆动相对。",
+  "identification_rules": [
+    "摆动点必须与相邻同向摆动点之间存在有效分离（Valid Separation），即足够的价格距离，而非紧密相邻。",
+    "失败摆动（堆积的高点或低点）不构成相关摆动，应忽略，寻找极值点。",
+    "使用三个高时间框架K线的回溯周期（包括当前K线）来确定相关摆动的时间范围，超出此范围的摆动不再相关。",
+    "当价格进入相关摆动点时，观察是否形成反转、回撤或突破，以判断该点的有效性。",
+    "相关摆动点应能产生明确的价格反应，而非被轻易穿过。"
+  ],
+  "trading_implication": "相关摆动高/低是交易者寻找反转或反应的主要目标位。当价格交易进入这些水平时，交易者应观察价格行为（是否形成反转、回撤或突破），并结合分形模型（如K线2或K线3收盘）确定入场点。相关摆动点也用于确定止损位置的参考，应避免在失败摆动处建立头寸。",
+  "common_mistakes": [
+    "将失败摆动（紧密相邻的高点或低点）误认为相关摆动，导致在不可信的水平建立头寸。",
+    "忽视有效分离的重要性，在相邻摆动点之间距离不足时仍尝试交易反转。",
+    "超出三个高时间框架K线的回溯周期后仍将旧摆动视为相关，导致目标选择不当。",
+    "在相关摆动点形成反应前就过早入场，未等待确认的价格行为（如K线收盘确认）。",
+    "混淆相关摆动与失败摆动的概念，未能正确识别市场中真正值得交易的水平。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "HbOeD_JVens_case_004_dll日线多月度摆动点分析",
+      "video_id": "HbOeD_JVens",
+      "title": "DLL日线3月度摆动点识别与交易反应分析"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_006_xagusd小时线与gch小时线的分形应用",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGUSD与GCH小时线的分形摆动点验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_relevant_swing_high_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        10.88,
+        781.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135360Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

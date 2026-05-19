@@ -1,0 +1,99 @@
+{
+  "card_id": "wik00c9_2nk_case_004_btc_1小时盘整与反转案例",
+  "type": "case",
+  "title": "BTC 1小时盘整与反转案例：Turtle Soup到Propulsion Block",
+  "related_concepts": [
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "turtle_soup_entry",
+    "inversion",
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "breaker_block",
+    "propulsion_block"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC在15:00出现大幅下跌（从43670跌至43450），随后从18:00至03:00形成约8小时的盘整区间（43500-43545），最终向下突破至43410附近。",
+  "key_observation": "博主展示了从Turtle Soup（高点扫荡）开始，经过Inversion（反转确认）、CSD/Order Block形成、Breaker Block与FVG生成，最后形成Propulsion Block的完整反转链条。",
+  "analysis_steps": [
+    "Step 1: 识别Turtle Soup——价格在盘整后向上突破高点43545，随后立即反转向下，扫荡了多头止损。",
+    "Step 2: 确认Inversion——价格收盘穿过之前高点形成的FVG，标志反转第二步确认。",
+    "Step 3: 识别Change in State of Delivery（CSD）与Order Block——价格下跌过程中形成新的Order Block，表明市场结构转变。",
+    "Step 4: 标记Breaker Block与Fair Value Gap——先前的支撑/阻力失效后转变为新的阻力区，与FVG重叠形成关键区域。",
+    "Step 5: 确认Propulsion Block——在反转确认后，价格继续下行时在盘整区内形成新的、更小的推进块，预示继续下跌。",
+    "Step 6: 验证延续——价格最终突破盘整低点，向下延续至43410附近，完成整个反转过程。"
+  ],
+  "outcome": "价格从盘整区43545向下突破至43410，完成反转并形成Propulsion Block，确认下跌延续。",
+  "lessons": "Turtle Soup结合Inversion、CSD/OB、Breaker Block和Propulsion Block形成高概率反转链条。多个结构确认叠加时，反转信号更强。Propulsion Block在反转确认后形成，是继续交易方向的关键入场工具。",
+  "primary_image": "cards/wik00c9_2nk/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/wik00c9_2nk/images/case_004_detail_1.jpg",
+    "cards/wik00c9_2nk/images/case_004_detail_2.jpg",
+    "cards/wik00c9_2nk/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表显示一个时间序列K线图，价格范围从43370至43640。图上有两条水平虚线分别位于43510和43545处。图表左侧显示一个大幅向下跳空缺口，随后在43520至43545区间形成一个盘整区域，约8根K线在此区间内波动。图表右侧显示价格从43545下跌至43410附近，期间多根K线带有下影线。底部时间轴显示从13:30至18:00的时间标记，中间标注'Wed 23 Oct 05:00'。右下角",
+    "case_004_detail_1.jpg": "15分钟K线图。图上显示价格范围从43410至43680。左侧出现一根大幅下跌的黑色K线，从43670跌至43450。随后从18:00开始进入盘整区间，约10根K线在43500至43545之间波动，绿黑相间。图上有一条水平线标注在43545处，以及一个矩形框标注覆盖盘整区域。右下角可见交易界面按钮（Sell、Buy等）。",
+    "case_004_detail_2.jpg": "图表显示1小时K线图，价格范围从43420到43680。图上有两条水平线分别位于43502和43545处。15时出现一根大幅下跌的黑色K线，从43670跌至43450。随后18时至02时间段内，K线在43500至43545区间内震荡整理，约8根K线。03时处有一条竖虚线标记，此后价格向下突破至43490。图上绿色K线主要集中在早期交易时段，黑色K线占据15时至18时及03时之后的时段。",
+    "case_004_detail_3.jpg": "15分钟K线图显示价格范围从43420至43640。图上有一根大幅下跌的黑色K线出现在13:30，从43640跌至43460。随后从约19:30至04:30形成一个盘整区间，K线在43500至43540之间波动，包含多根绿色和黑色K线。盘整区域上方覆盖有灰色矩形标注，右侧有米色矩形标注。图上有两条水平线：粉色线约在43545，蓝色线约在43535。04:30之后价格向下运动至43480附近。底部显"
+  },
+  "sources": [
+    {
+      "video_id": "wik00c9_2nk",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        904.32,
+        1016.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了6个分析步骤，资产、时间框架、价格区间清晰，图表标注详细，反转过程逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:18.741026Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC 1小时盘整与反转案例：Turtle Soup到Propulsion Block\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC在15:00出现大幅下跌（从43670跌至43450），随后从18:00至03:00形成约8小时的盘整区间（43500-43545），最终向下突破至43410附近。\",\"key_observation\":\"博主展示了从Turtle Soup（高点扫荡）开始，经过Inversion（反转确认）、CSD/Order Block形成、Breaker Block与FVG生成，最后形成Propulsion Block的完整反转链条。\",\"analysis_steps\":[\"Step 1: 识别Turtle Soup——价格在盘整后向上突破高点43545，随后立即反转向下，扫荡了多头止损。\",\"Step 2: 确认Inversion——价格收盘穿过之前高点形成的FVG，标志反转第二步确认。\",\"Step 3: 识别Change in State of Delivery（CSD）与Order Block——价格下跌过程中形成新的Order Block，表明市场结构转变。\",\"Step 4: 标记Breaker Block与Fair Value Gap——先前的支撑/阻力失效后转变为新的阻力区，与FVG重叠形成关键区域。\",\"Step 5: 确认Propulsion Block——在反转确认后，价格继续下行时在盘整区内形成新的、更小的推进块，预示继续下跌。\",\"Step 6: 验证延续——价格最终突破盘整低点，向下延续至43410附近，完成整个反转过程。\"],\"outcome\":\"价格从盘整区43545向下突破至43410，完成反转并形成Propulsion Block，确认下跌延续。\",\"lessons\":\"Turtle Soup结合Inversion、CSD/OB、Breaker Block和Propulsion Block形成高概率反转链条。多个结构确认叠加时，反转信号更强。Propulsion Block在反转确认后形成，是继续交易方向的关键入场工具。\",\"primary_image_frame_id\":\"wik00c9_2nk_f034\",\"supporting_image_frame_ids\":[\"wik00c9_2nk_f031\",\"wik00c9_2nk_f032\",\"wik00c9_2nk_f033\"],\"related_concepts\":[\"Turtle Soup\",\"Inversion\",\"Fair Value Gap\",\"Order Block\",\"Change in State of Delivery\",\"Breaker Block\",\"Propulsion Block\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了6个分析步骤，资产、时间框架、价格区间清晰，图表标注详细，反转过程逻辑完整。\"}",
+  "error": null
+}

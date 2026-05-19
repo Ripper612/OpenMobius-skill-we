@@ -1,0 +1,55 @@
+{
+  "card_id": "tradingview_risk_reward_tool",
+  "type": "merged_concept",
+  "canonical_term": "TradingView Risk-Reward Tool",
+  "aliases": [
+    "Risk Reward Tool",
+    "TradingView风险收益工具"
+  ],
+  "school": "Risk Management",
+  "definition": "TradingView内置工具，通过输入账户规模、风险百分比、入场价和止损价，自动计算所需头寸数量和预期收益，支持外汇和期货交易。",
+  "identification_rules": [
+    "在TradingView图表上创建风险收益工具，需填写Account size、Risk percentage、Entry price、Stop price等字段",
+    "工具会自动输出Quantity（所需合约数或手数）和Profit Level（目标价格和收益金额）",
+    "可通过调整Lot size参数适配不同交易品种（外汇用手数，期货用合约数或微型合约）",
+    "工具支持创建限价单，显示实际风险金额和止损、止盈的具体数值"
+  ],
+  "trading_implication": "该工具自动化了头寸规模计算过程，避免手工计算错误。交易者输入账户规模和风险百分比后，工具根据止损点数自动推算所需合约数，确保每笔交易的风险一致。支持外汇和期货，但需根据品种调整参数（外汇调整手数，期货调整为1并用微型合约）。可直接从工具创建限价单，实时显示风险收益数据。",
+  "common_mistakes": [
+    "外汇和期货使用相同设置导致头寸计算错误，需根据品种调整Lot size参数",
+    "未保存模板导致每次交易都需重新输入账户信息，降低效率",
+    "在期货迷你合约上无法执行小数合约数（如2.5），需转换为微型合约或向下取整"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "original_card_id": "0OjlQ91TZiU_concept_tradingview_risk_reward_tool",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        369.639,
+        559.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136345Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

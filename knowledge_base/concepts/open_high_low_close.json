@@ -1,0 +1,71 @@
+{
+  "card_id": "open_high_low_close",
+  "type": "merged_concept",
+  "canonical_term": "Open High Low Close",
+  "aliases": [
+    "OHLC candle formation",
+    "OHLC setup"
+  ],
+  "school": "ICT",
+  "definition": "在确认高时间框架偏差后的下一根K线中寻找的特定蜡烛形态，其特征为：开盘价在前一根K线范围内，随后触及新高，最后以低于开盘价的位置收盘，形成对立蜡烛形态。",
+  "identification_rules": [
+    "前置条件：高时间框架已形成交付状态改变（CSD），确认反转偏差",
+    "目标K线开盘价应在前一根K线的范围内",
+    "目标K线向上扫出左侧的摆动高点或高时间框架的Wick",
+    "目标K线最终以低于开盘价的位置收盘，形成对立蜡烛（opposing candle formation）",
+    "该形态通常在高时间框架看跌偏差后的下一根K线中出现"
+  ],
+  "trading_implication": "Open High Low Close是确认反转偏差后的高概率入场信号。交易者在识别到该形态后，可在其形成时或下一根K线入场做空，止损设在该K线的高点，目标为左侧摆动低点或标准差投影。该形态的核心价值在于它结合了高时间框架的结构确认与低时间框架的精确入场点，提高了交易的胜率。",
+  "common_mistakes": [
+    "未确认高时间框架的交付状态改变就直接交易OHLC形态，导致虚假信号",
+    "将任何对立蜡烛都视为OHLC形态，忽视了前置的偏差确认条件",
+    "在OHLC形态形成前过早入场，而不是等待完整形态的确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "sIcsLFSNoXM_case_001_nq100日线看跌方向性k线形成过程",
+      "video_id": "sIcsLFSNoXM",
+      "title": "NQ100日线看跌方向性K线形成过程分析"
+    },
+    {
+      "card_id": "sIcsLFSNoXM_case_003_原油月线看跌反转k线与后续扩张",
+      "video_id": "sIcsLFSNoXM",
+      "title": "原油月线看跌反转K线与后续向下扩张"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_005_纳斯达克100的纽约反转与操纵",
+      "video_id": "xdzyejskSKE",
+      "title": "NQ纽约开盘8:30操纵反转与时间窗口交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_open_high_low_close",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.92,
+        191.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134431Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

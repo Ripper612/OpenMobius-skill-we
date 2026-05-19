@@ -1,0 +1,88 @@
+{
+  "card_id": "sIcsLFSNoXM_case_003_原油月线看跌反转k线与后续扩张",
+  "type": "case",
+  "title": "原油月线看跌反转K线与后续向下扩张",
+  "related_concepts": [
+    {
+      "term": "Reversal candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Open High Low Close",
+      "card_id": "open_high_low_close",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "reversal_candle",
+    "open_high_low_close",
+    "displacement",
+    "market_structure_shift"
+  ],
+  "school": "Price Action",
+  "asset": "CL",
+  "timeframe": "1M",
+  "market_context": "原油在上升趋势中形成月线看跌反转K线（开高低收），随后下个月开始出现向下扩张运动，预示趋势反转。",
+  "key_observation": "月线形成开高低收的看跌反转K线，其上影线大于K线实体，表明价格在月内高位被压制并反转下行，为后续向下扩张奠定基础。",
+  "analysis_steps": [
+    "Step 1: 识别月线K线的结构特征——开高低收（Open High Low Close），形成看跌反转K线。",
+    "Step 2: 观察反转K线的上影线相对于实体的比例——上影线明显大于实体，说明价格在高位遭遇卖压并反转。",
+    "Step 3: 对比方向性K线与反转K线的差异——方向性K线的上影线小于实体，而反转K线相反。",
+    "Step 4: 在低时间框架（15分钟）验证月线反转的形成过程——价格先上升后反转下行，最终收于开盘价下方。",
+    "Step 5: 预期下个月的走势——基于月线反转信号，预计下月出现向下扩张运动。",
+    "Step 6: 观察实际后续走势——确认下个月确实出现了向下扩张，验证反转信号的有效性。"
+  ],
+  "outcome": "月线看跌反转K线形成后，下个月开始出现向下扩张运动，价格从高位向下突破，形成新的下跌趋势。",
+  "lessons": "看跌反转K线（开高低收）中，上影线大于实体是关键特征，表明高位卖压强劲。这类K线常预示趋势反转，下个周期可能出现扩张运动。在低时间框架观察反转形成过程有助于确认信号有效性。",
+  "primary_image": "cards/sIcsLFSNoXM/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/sIcsLFSNoXM/images/case_003_detail_1.jpg",
+    "cards/sIcsLFSNoXM/images/case_003_detail_2.jpg",
+    "cards/sIcsLFSNoXM/images/case_003_detail_3.jpg",
+    "cards/sIcsLFSNoXM/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "轻质原油期货日线图。图上显示从左侧约 68.00 上升至中部约 87.00 的上升趋势，随后下降至约 80.00。图右侧显示 83.50 至 84.50 区间的整理形态。两条水平虚线分别位于 84.11 和 83.64 处。图下方标注日期 26/4/2024 及合约代码 CLT1 D。右下角可见'Sell'和'Buy'按钮。K 线由绿色（上升）和黑色（下降）蜡烛组成，多数 K 线具有上下影线。",
+    "case_003_detail_1.jpg": "图为教学示意图，标题为'Reversal candle'，展示一个看跌例子。图上有多根K线，从左至右显示先上升后下降的价格走势。四个黄色标签分别指向High、Open、Close、Low四个价格点。图中有一条虚线水平线标记为'Opening Price'。最右侧为一根实心黑色K线，无下影线。图下方标注'Bearish Example'。左下角显示'TTrades'品牌标识。",
+    "case_003_detail_2.jpg": "图上展示了一个标题为'Reversal candle'的教学示例。左侧显示一系列混合颜色的K线（绿色和黑色），从左下向上运动后向下运动。图上用黄色标签和箭头标注了High、Open、Close、Low四个价格点。中间有一条带'Opening Price'标签的水平虚线。右侧是一根实心黑色矩形K线。下方标注'Bearish Example'。图表由TTrades提供。",
+    "case_003_detail_3.jpg": "Light Crude Oil Futures 日线图。图上显示从约 74.00 至 87.50 的上升趋势，跨越多根 K 线。K 线以绿色和黑色混合呈现。图中有一条水平虚线位于 85.25 价格水平。图上标注有日期 5/4/2024 和标签 L1:1.0。可见价格范围约从 74.00 到 90.00。图右侧显示一根较大的绿色 K 线，其价格范围约在 82.50 至 87.50 之间。",
+    "case_003_detail_4.jpg": "轻质原油期货15分钟K线图。图上显示从左侧81.10上升至中部84.50的上升趋势，跨越约20根K线。中部出现一根长上影线K线，随后右侧显示一根绿色K线体位于81.75至81.95区间。图上有一条水平虚线位于81.75处，该位置标有黄色加号符号。图表底部标注日期为26/4/2024及合约代码CL1!TSR。可见价格范围约81.10至84.50。"
+  },
+  "sources": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        371.68,
+        549.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了月线反转K线的形成、特征识别、低时间框架验证及后续扩张走势，分析步骤完整，关键价位和时间框架明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:58.728080Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油月线看跌反转K线与后续向下扩张\",\"school\":\"Price Action\",\"asset\":\"CL\",\"timeframe\":\"1M\",\"market_context\":\"原油在上升趋势中形成月线看跌反转K线（开高低收），随后下个月开始出现向下扩张运动，预示趋势反转。\",\"key_observation\":\"月线形成开高低收的看跌反转K线，其上影线大于K线实体，表明价格在月内高位被压制并反转下行，为后续向下扩张奠定基础。\",\"analysis_steps\":[\"Step 1: 识别月线K线的结构特征——开高低收（Open High Low Close），形成看跌反转K线。\",\"Step 2: 观察反转K线的上影线相对于实体的比例——上影线明显大于实体，说明价格在高位遭遇卖压并反转。\",\"Step 3: 对比方向性K线与反转K线的差异——方向性K线的上影线小于实体，而反转K线相反。\",\"Step 4: 在低时间框架（15分钟）验证月线反转的形成过程——价格先上升后反转下行，最终收于开盘价下方。\",\"Step 5: 预期下个月的走势——基于月线反转信号，预计下月出现向下扩张运动。\",\"Step 6: 观察实际后续走势——确认下个月确实出现了向下扩张，验证反转信号的有效性。\"],\"outcome\":\"月线看跌反转K线形成后，下个月开始出现向下扩张运动，价格从高位向下突破，形成新的下跌趋势。\",\"lessons\":\"看跌反转K线（开高低收）中，上影线大于实体是关键特征，表明高位卖压强劲。这类K线常预示趋势反转，下个周期可能出现扩张运动。在低时间框架观察反转形成过程有助于确认信号有效性。\",\"primary_image_frame_id\":\"sIcsLFSNoXM_f017\",\"supporting_image_frame_ids\":[\"sIcsLFSNoXM_f015\",\"sIcsLFSNoXM_f001\",\"sIcsLFSNoXM_f016\",\"sIcsLFSNoXM_f018\"],\"related_concepts\":[\"Reversal candle\",\"Open High Low Close\",\"Displacement\",\"Market Structure Shift\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了月线反转K线的形成、特征识别、低时间框架验证及后续扩张走势，分析步骤完整，关键价位和时间框架明确。\"}",
+  "error": null
+}

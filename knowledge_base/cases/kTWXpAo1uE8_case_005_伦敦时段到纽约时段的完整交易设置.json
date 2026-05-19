@@ -1,0 +1,128 @@
+{
+  "card_id": "kTWXpAo1uE8_case_005_伦敦时段到纽约时段的完整交易设置",
+  "type": "case",
+  "title": "伦敦积累操纵到纽约分布的完整交易设置",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs/Lows",
+      "card_id": "equal_highs_lows",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "liquidity",
+    "standard_deviation",
+    "market_structure",
+    "time_frame_confluence",
+    "premium_discount_premium_",
+    "equal_highs_lows"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "Multi-timeframe (1D → 60M → 15M → 2M → 1M)",
+  "market_context": "周四至周五跨越伦敦和纽约交易时段。价格在日线Fair Value Gap内形成操纵，预期向下位移至-2到-2.5标准差区域，目标伦敦低点约14160。",
+  "key_observation": "博主识别出日线FVG内的操纵腿（从高点到低点），通过标准差投影确定下行目标区域，然后在15分钟图表追踪伦敦时段的积累-操纵-分布周期，最后在1-2分钟图表找到Order Block回测入场点。",
+  "analysis_steps": [
+    "Step 1: 在日线图表识别Fair Value Gap（约14800-14950区间）和操纵腿结构（从高点到低点）",
+    "Step 2: 使用标准差投影（-2到-2.5 SD）确定预期下行目标区域，标记Thursday到Friday的时间范围",
+    "Step 3: 下钻到60分钟图表观察整体下行走势和粉红色操纵区域",
+    "Step 4: 在15分钟图表追踪伦敦时段行动：亚洲盘整→伦敦大幅下跌→回升至等高点（14720-14800）→预期纽约分布",
+    "Step 5: 标记伦敦低点（约14160）作为最终目标，识别等高点结构",
+    "Step 6: 下钻到2分钟图表，标记Order Block并观察纽约开盘时的大幅上下影线",
+    "Step 7: 进一步下钻到1分钟图表，识别操纵腿（从新高到低点的腿），投影出操纵范围",
+    "Step 8: 检查PD arrays是否与投影对齐，确认伦敦低点（-2 SD附近）作为低垂果实目标",
+    "Step 9: 确定第一入场点为Order Block的回测，止损设在高点，目标指向伦敦低点"
+  ],
+  "outcome": "价格成功触及伦敦低点目标区域（14160附近），完成从积累到分布的完整周期。Order Block回测提供了高概率入场，价格随后向下位移至目标区域。",
+  "lessons": "多时间框架分析的威力：从日线识别宏观结构和目标，通过15分钟追踪会话周期的积累-操纵-分布，最后在1-2分钟图表精确入场。标准差投影与伦敦低点等关键流动性水平的对齐提高了交易概率。Order Block回测是低时间框架的高质量入场信号。",
+  "primary_image": "cards/kTWXpAo1uE8/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/kTWXpAo1uE8/images/case_005_detail_1.jpg",
+    "cards/kTWXpAo1uE8/images/case_005_detail_2.jpg",
+    "cards/kTWXpAo1uE8/images/case_005_detail_3.jpg",
+    "cards/kTWXpAo1uE8/images/case_005_detail_4.jpg",
+    "cards/kTWXpAo1uE8/images/case_005_detail_5.jpg",
+    "cards/kTWXpAo1uE8/images/case_005_detail_6.jpg",
+    "cards/kTWXpAo1uE8/images/case_005_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 1分钟K线图，时间范围从05:00至13:30。图上有三条水平线分别位于14380、14320和14410价位。两个矩形区域标注了价格区间：一个覆盖14320至14410，另一个覆盖14280至14450。图表显示09:00处出现向上跳空至14450，随后在09:30达到14490高点。之后价格从14450急速下跌至14270，跌幅约180点。10:00至11:00期间K线在14320至1",
+    "case_005_detail_1.jpg": "图表显示 USD 日线（1D）K 线图，价格范围从 14050 到 15550。图上绘制了多根绿色和黑色 K 线，跨越整个可见区间，每根 K 线均带有上下影线。图右侧显示两条水平线，分别位于约 14800 和 14600 价格水平。左下角显示当前价格标记 14467.75 和 14300.25。图上标注有日期信息",
+    "case_005_detail_2.jpg": "USD 60分钟K线图。图上显示从约15950下跌至14400的下行走势。图中有两条水平线分别位于14850和14600价位。中间区域有一个粉红色矩形框标注，覆盖约14850至14950的价格范围。图右下角显示当前价格14467.72。底部时间轴显示日期为25/10/2023，图上标注文字包括'NQ211'和'60M'。界面底部有'Sell'、'Buy'、'Flatten'等交易按钮。",
+    "case_005_detail_3.jpg": "NQ211 15分钟K线图。图上显示从26/10/2023开始的行情。左上角有粉色矩形标注约14720至14800区间。图表中部有一条标记为'Daily Open'的虚线。下方有一个黄色矩形覆盖14120至14420区间，内部有一条虚线标注在14160处。K线整体呈下行走势，从14800附近下跌至14300附近，随后在14300至14400区间内出现盘整形态。右侧价格轴显示当前价格标记为14314",
+    "case_005_detail_4.jpg": "USD 15分钟K线图。图上显示从左侧14640下跌至约14260的下降趋势，随后在14260至14360区间内出现多根K线的盘整。图中有一条黄色矩形框标注，覆盖14100至14220价格区间。图上有两条水平线：一条在14319.25处，另一条在14160.00处（虚线）。右侧标注显示'Daily Open'文字。图表底部显示时间为26/10/2023，周期为NQ211 15M。",
+    "case_005_detail_5.jpg": "USD 2分钟K线图，时间范围从05:00至15:00，日期标注为26/10/2023。图上可见价格范围约14220至14560。左侧标注显示当前价位14440.90和14467.50。图上有4条水平线分别位于14440.90、14467.50、14380.00和14220.00处。K线形态显示早期在14220至14360区间内的盘整，随后08:00至09:30间出现上升走势至14460附近，09",
+    "case_005_detail_6.jpg": "USD 1分钟K线图，时间范围从06:00至13:00，日期标注为26/10/2023。图上显示从14130.00上升至14460.00的上升趋势，约20根K线。图中有两条水平线分别位于14371.00和14310.00。最新K线在14460.00处形成长上影线，收盘价约14380.00。图下方有黄色矩形区域覆盖14210.00至14420.00价格范围。右侧标注显示HQ11/2M。图上标有数字标",
+    "case_005_detail_7.jpg": "USD 1分钟K线图，时间范围从07:16至12:16。图上显示从14310上升至14450的上升趋势，跨越约20根K线。在09:30附近出现一根长上影线K线，上影线刺破14500后回落至14370。图上有三条水平线分别位于14461、14380和14310。两个矩形标注框分别覆盖14310-14420和14380-14450价格区间。右侧有浅蓝色矩形覆盖10:00至11:30时间段。图表底部显示"
+  },
+  "sources": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "segment_ids": [
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        607.56,
+        863.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到1分钟的分析过程，清晰标注了关键价位（14160伦敦低点、14800-14950 FVG、标准差水平），明确描述了积累-操纵-分布周期，并给出了具体入场和目标。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:34.484002Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"伦敦积累操纵到纽约分布的完整交易设置\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"Multi-timeframe (1D → 60M → 15M → 2M → 1M)\",\"market_context\":\"周四至周五跨越伦敦和纽约交易时段。价格在日线Fair Value Gap内形成操纵，预期向下位移至-2到-2.5标准差区域，目标伦敦低点约14160。\",\"key_observation\":\"博主识别出日线FVG内的操纵腿（从高点到低点），通过标准差投影确定下行目标区域，然后在15分钟图表追踪伦敦时段的积累-操纵-分布周期，最后在1-2分钟图表找到Order Block回测入场点。\",\"analysis_steps\":[\"Step 1: 在日线图表识别Fair Value Gap（约14800-14950区间）和操纵腿结构（从高点到低点）\",\"Step 2: 使用标准差投影（-2到-2.5 SD）确定预期下行目标区域，标记Thursday到Friday的时间范围\",\"Step 3: 下钻到60分钟图表观察整体下行走势和粉红色操纵区域\",\"Step 4: 在15分钟图表追踪伦敦时段行动：亚洲盘整→伦敦大幅下跌→回升至等高点（14720-14800）→预期纽约分布\",\"Step 5: 标记伦敦低点（约14160）作为最终目标，识别等高点结构\",\"Step 6: 下钻到2分钟图表，标记Order Block并观察纽约开盘时的大幅上下影线\",\"Step 7: 进一步下钻到1分钟图表，识别操纵腿（从新高到低点的腿），投影出操纵范围\",\"Step 8: 检查PD arrays是否与投影对齐，确认伦敦低点（-2 SD附近）作为低垂果实目标\",\"Step 9: 确定第一入场点为Order Block的回测，止损设在高点，目标指向伦敦低点\"],\"outcome\":\"价格成功触及伦敦低点目标区域（14160附近），完成从积累到分布的完整周期。Order Block回测提供了高概率入场，价格随后向下位移至目标区域。\",\"lessons\":\"多时间框架分析的威力：从日线识别宏观结构和目标，通过15分钟追踪会话周期的积累-操纵-分布，最后在1-2分钟图表精确入场。标准差投影与伦敦低点等关键流动性水平的对齐提高了交易概率。Order Block回测是低时间框架的高质量入场信号。\",\"primary_image_frame_id\":\"kTWXpAo1uE8_f028\",\"supporting_image_frame_ids\":[\"kTWXpAo1uE8_f021\",\"kTWXpAo1uE8_f022\",\"kTWXpAo1uE8_f023\",\"kTWXpAo1uE8_f024\",\"kTWXpAo1uE8_f025\",\"kTWXpAo1uE8_f026\",\"kTWXpAo1uE8_f027\",\"kTWXpAo1uE8_f029\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Liquidity\",\"Standard Deviation\",\"Accumulation, Manipulation, Distribution\",\"Market Structure\",\"Multi-timeframe Analysis\",\"PD Array\",\"Equal Highs/Lows\"],\"extraction_confidence\":\"hi",
+  "error": null
+}

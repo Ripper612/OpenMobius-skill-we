@@ -1,0 +1,120 @@
+{
+  "card_id": "eywpZT3z6GQ_case_004_整理范围突破后的看涨交易案例",
+  "type": "case",
+  "title": "整理范围突破后的看涨交易案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Discount",
+      "card_id": "discount",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "equilibrium",
+    "swing_low_swing_high",
+    "market_structure_shift",
+    "displacement",
+    "protected_high_low",
+    "discount",
+    "continuation_pattern"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1H",
+  "market_context": "价格在整理范围内震荡后向上突破高点，形成看涨偏差。博主利用高时间框架目标和多时间框架结构的组合来确认交易机会。",
+  "key_observation": "价格突破整理范围高点后，在小时线第3根K线开盘处形成看涨偏差。通过15分钟摆动点和公允价值缺口的组合，在折价区获得高概率入场机会。",
+  "analysis_steps": [
+    "Step 1: 识别整理范围的高点和低点，确认价格已突破整理范围的低点，随后向上突破高点。",
+    "Step 2: 在高时间框架（1小时）上确认第3根K线的开盘位置作为关键参考点。",
+    "Step 3: 下探到15分钟时间框架，寻找摆动点以确认入场位置。",
+    "Step 4: 识别小时线内部的公允价值缺口（FVG），确认这是潜在的入场区域。",
+    "Step 5: 验证均衡点（EQ）是否被尊重，确保价格在折价区内。",
+    "Step 6: 在第3根K线开盘处或继续形成的位置入场，目标设定为2R（两倍风险回报）。",
+    "Step 7: 观察价格是否形成延续信号，确认交易有效性。"
+  ],
+  "outcome": "价格到达公允价值缺口并填补，随后形成延续信号。两个目标位均被触及，交易成功。",
+  "lessons": "在整理范围突破后，结合多时间框架分析（小时线摆动点+15分钟摆动点）和公允价值缺口可以获得高概率入场。关键是验证均衡点和受保护的摆动点，确保价格在折价区内交易。",
+  "primary_image": "cards/eywpZT3z6GQ/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/eywpZT3z6GQ/images/case_004_detail_1.jpg",
+    "cards/eywpZT3z6GQ/images/case_004_detail_2.jpg",
+    "cards/eywpZT3z6GQ/images/case_004_detail_3.jpg",
+    "cards/eywpZT3z6GQ/images/case_004_detail_4.jpg",
+    "cards/eywpZT3z6GQ/images/case_004_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表显示 USDT 资产的 K 线图，价格范围约从 6300 到 6900。图上有两条水平线分别位于 6850 和 6550 处。中间区域覆盖一个黄色矩形标注，范围约在 6550 至 6700 之间。左侧显示绿色 K 线序列从低位向上运动，中间部分出现黑色和绿色 K 线交替，右侧最新 K 线为绿色。多数 K 线具有上下影线。",
+    "case_004_detail_1.jpg": "图表显示 USDT 资产的 K 线图，价格范围约 45500 至 48700。图上有两个矩形标注区域：上方黄色区域约在 48100 至 48500 之间，下方浅蓝色区域约在 46200 至 46800 之间。中央区域显示多根 K 线在两个标注区域之间的整理形态。图表右侧有数根黑色实体 K 线位于 46800 下方。图上可见三条水平参考线但无文字标签。",
+    "case_004_detail_2.jpg": "图表显示 USDT 1 小时周期的 K 线图。价格范围从 5700.00 至 6900.00。图上绘有一条水平线位于 6800.00 处，以及一个矩形框标注在约 6000.00 至 6800.00 的价格区间。K 线序列呈上升趋势，由绿色和黑色蜡烛交替组成，跨越约 40 根 K 线。多数 K 线具有上下影线。最高点约在 6900.00，最低点约在 5700.00。",
+    "case_004_detail_3.jpg": "K线图显示从左下角约3800价位向上运行至约8200价位的上升趋势。图上绘制有一个黄色矩形区域，大致覆盖4800至6200价格范围。中间区域出现多根绿色和深灰色K线交替排列，形成5000至7000之间的整理形态。右侧单独出现一根绿色K线在8000价位附近。整个图表中K线普遍具有较长的上下影线。图上未见资产代码、时间框架或其他标注文字。",
+    "case_004_detail_4.jpg": "BTC 1 小时 K 线图。图上显示从左侧约 6871.00 的高点向下运行至中部约 5800.00 的低点，随后在右侧出现上升走势。图上有多个矩形标注区域，其中右上方两个绿色矩形分别标记为'Support 6,835 to 6,865 (1.5%)'和'Resistance 6,835 to 6,865 (1.5%)'。中部和下部还有灰色及浅绿色矩形框标注，约覆盖 6200-6400 和 590",
+    "case_004_detail_5.jpg": "BTC 1 小时 K 线图。图表显示从左侧约 8971 下跌至 8600 的下降趋势，随后在中部区域形成盘整。图上标注有三个矩形区域：分别位于 8650-8750、8800-8900 和 8850-8950 价格范围，均以浅色填充。右侧 K 线呈现绿色和黑色交替出现的形态，K 线主体相对较小，多数 K 线具有向上或向下的影线。整体可见价格范围从 8600 至 8971。"
+  },
+  "sources": [
+    {
+      "video_id": "eywpZT3z6GQ",
+      "segment_ids": [
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        480.8,
+        673.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了多时间框架分析过程、关键价位、入场逻辑和交易结果，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:40:43.118941Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"整理范围突破后的看涨交易案例\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1H\",\"market_context\":\"价格在整理范围内震荡后向上突破高点，形成看涨偏差。博主利用高时间框架目标和多时间框架结构的组合来确认交易机会。\",\"key_observation\":\"价格突破整理范围高点后，在小时线第3根K线开盘处形成看涨偏差。通过15分钟摆动点和公允价值缺口的组合，在折价区获得高概率入场机会。\",\"analysis_steps\":[\"Step 1: 识别整理范围的高点和低点，确认价格已突破整理范围的低点，随后向上突破高点。\",\"Step 2: 在高时间框架（1小时）上确认第3根K线的开盘位置作为关键参考点。\",\"Step 3: 下探到15分钟时间框架，寻找摆动点以确认入场位置。\",\"Step 4: 识别小时线内部的公允价值缺口（FVG），确认这是潜在的入场区域。\",\"Step 5: 验证均衡点（EQ）是否被尊重，确保价格在折价区内。\",\"Step 6: 在第3根K线开盘处或继续形成的位置入场，目标设定为2R（两倍风险回报）。\",\"Step 7: 观察价格是否形成延续信号，确认交易有效性。\"],\"outcome\":\"价格到达公允价值缺口并填补，随后形成延续信号。两个目标位均被触及，交易成功。\",\"lessons\":\"在整理范围突破后，结合多时间框架分析（小时线摆动点+15分钟摆动点）和公允价值缺口可以获得高概率入场。关键是验证均衡点和受保护的摆动点，确保价格在折价区内交易。\",\"primary_image_frame_id\":\"eywpZT3z6GQ_f020\",\"supporting_image_frame_ids\":[\"eywpZT3z6GQ_f018\",\"eywpZT3z6GQ_f019\",\"eywpZT3z6GQ_f021\",\"eywpZT3z6GQ_f022\",\"eywpZT3z6GQ_f023\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Equilibrium\",\"Swing Point\",\"Market Structure Shift\",\"Displacement\",\"Protected Swing\",\"Discount\",\"Continuation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了多时间框架分析过程、关键价位、入场逻辑和交易结果，分析步骤清晰有序。\"}",
+  "error": null
+}

@@ -1,0 +1,118 @@
+{
+  "card_id": "0xygpCMwxbQ_case_002_nasdaq_5分钟图表的breaker_block与fvg嵌套",
+  "type": "case",
+  "title": "NASDAQ 5分钟Breaker Block内嵌FVG的精准入场",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "fair_value_gap",
+    "order_block",
+    "premium_discount_premium_",
+    "market_structure_shift",
+    "liquidity",
+    "risk_to_reward_management",
+    "premium_discount",
+    "mitigation_block"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M",
+  "market_context": "NASDAQ 100 E-mini期货在2023年2月9日形成高低高的结构，价格在突破前期高点后产生Breaker Block，该区域内部包含FVG结构，为精准入场提供了多层次的PD Array。",
+  "key_observation": "博主识别出Breaker Block内嵌套的FVG结构，通过缩小入场范围从整个Breaker Block精确到内部FVG区域，显著提高风险回报比，同时保持高概率的成交填充。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图表上识别价格结构，确认高低高的摆动形态和Breaker Block的形成位置（约12830-12865区间）。",
+    "Step 2: 在Breaker Block内部发现嵌套的Fair Value Gap（FVG），该FVG成为更精确的PD Array。",
+    "Step 3: 评估三个不同的入场选项：（a）在整个Breaker Block处入场；（b）缩小到FVG区域入场；（c）进一步深入到FVG下方寻找更优风险回报。",
+    "Step 4: 通过风险回报比分析，选择在FVG区域入场（约12820处），设置止损在该低点，目标指向上方买方流动性（约12845）。",
+    "Step 5: 确认交易设置包含Stop Raid、Structure Shift、Discount/Premium区分、PD Array堆积和Solid RR等五个关键要素。",
+    "Step 6: 让价格回测Breaker Block并进入FVG区域，执行第一部分获利，然后根据是否移动止损到盈亏平衡来决定是否追逐上方流动性。"
+  ],
+  "outcome": "价格成功回测Breaker Block，进入FVG区域，触及下方等低点（Equal Lows），完成了预期的流动性扫荡，交易按计划执行了多个部分获利。",
+  "lessons": "通过在Breaker Block内识别嵌套的FVG，可以将入场范围从较宽的订单块精确到更小的不平衡区域，显著改善风险回报比。关键是在多个PD Array层级中找到平衡点，既要获得高概率的成交，又要避免过度深入导致的不成交风险。",
+  "primary_image": "cards/0xygpCMwxbQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/0xygpCMwxbQ/images/case_002_detail_1.jpg",
+    "cards/0xygpCMwxbQ/images/case_002_detail_2.jpg",
+    "cards/0xygpCMwxbQ/images/case_002_detail_3.jpg",
+    "cards/0xygpCMwxbQ/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NASDAQ 100 E-mini Futures 5 分钟 K 线图，日期为 2023 年 2 月 9 日。图右侧标注文字共五行：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上有一条水平线约位于 12845，从 05:00 延伸至 09:00 附近。图上有两个矩形标注区域：一个粉红色矩形覆盖约 12820 至 1",
+    "case_002_detail_1.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）5 分钟 K 线图，时间轴显示 Thu 09 Feb '23，时间范围约 01:00 至 14:00。图右上角有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上绘有两个矩形标注区域，一个较大的水平矩形横跨约 12830 至 12865",
+    "case_002_detail_2.jpg": "NASDAQ 100 E-mini Futures 15 分钟 K 线图，时间轴显示 Thu 04 May 23，范围约 04:00 至 19:00。图右上角有五行文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图中约 09:00 处有一个矩形框标注，覆盖价格区间约 13040 至 13065。图上有三条水平线",
+    "case_002_detail_3.jpg": "图为纳斯达克100 E-mini期货15分钟K线图。图右侧有三条带标签的水平线：上方绿色标注目标位约13107，中间标注当前持仓开盘盈亏及风险回报比2.67，下方红色标注止损位约13001。图右侧有两个矩形标注区域：上方绿色矩形覆盖约13065至13107区间，下方粉色矩形覆盖约13001至13065区间并标有'Daily FVG Fill'文字。图右上角文字标注包含'Stop Raid'、'St",
+    "case_002_detail_4.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）15 分钟 K 线图，时间轴显示 2023 年 5 月 4 日。图右上角有五行文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上绘有两个矩形区域：绿色矩形约覆盖 13038 至 13072 区间，标注为目标区（Target，Amount 1"
+  },
+  "sources": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        183.3,
+        367.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰，包括资产代码（NQ1!）、时间框架（5分钟）、具体价格区间（12820-12865）、分析步骤（从Breaker Block识别到FVG嵌套再到入场选择）、交易结果（成功扫荡流动性）均有明确记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:14:27.081764Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NASDAQ 5分钟Breaker Block内嵌FVG的精准入场\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M\",\"market_context\":\"NASDAQ 100 E-mini期货在2023年2月9日形成高低高的结构，价格在突破前期高点后产生Breaker Block，该区域内部包含FVG结构，为精准入场提供了多层次的PD Array。\",\"key_observation\":\"博主识别出Breaker Block内嵌套的FVG结构，通过缩小入场范围从整个Breaker Block精确到内部FVG区域，显著提高风险回报比，同时保持高概率的成交填充。\",\"analysis_steps\":[\"Step 1: 在5分钟图表上识别价格结构，确认高低高的摆动形态和Breaker Block的形成位置（约12830-12865区间）。\",\"Step 2: 在Breaker Block内部发现嵌套的Fair Value Gap（FVG），该FVG成为更精确的PD Array。\",\"Step 3: 评估三个不同的入场选项：（a）在整个Breaker Block处入场；（b）缩小到FVG区域入场；（c）进一步深入到FVG下方寻找更优风险回报。\",\"Step 4: 通过风险回报比分析，选择在FVG区域入场（约12820处），设置止损在该低点，目标指向上方买方流动性（约12845）。\",\"Step 5: 确认交易设置包含Stop Raid、Structure Shift、Discount/Premium区分、PD Array堆积和Solid RR等五个关键要素。\",\"Step 6: 让价格回测Breaker Block并进入FVG区域，执行第一部分获利，然后根据是否移动止损到盈亏平衡来决定是否追逐上方流动性。\"],\"outcome\":\"价格成功回测Breaker Block，进入FVG区域，触及下方等低点（Equal Lows），完成了预期的流动性扫荡，交易按计划执行了多个部分获利。\",\"lessons\":\"通过在Breaker Block内识别嵌套的FVG，可以将入场范围从较宽的订单块精确到更小的不平衡区域，显著改善风险回报比。关键是在多个PD Array层级中找到平衡点，既要获得高概率的成交，又要避免过度深入导致的不成交风险。\",\"primary_image_frame_id\":\"0xygpCMwxbQ_f001\",\"supporting_image_frame_ids\":[\"0xygpCMwxbQ_f011\",\"0xygpCMwxbQ_f007\",\"0xygpCMwxbQ_f008\",\"0xygpCMwxbQ_f009\"],\"related_concepts\":[\"Breaker Block\",\"Fair Value Gap\",\"Order Block\",\"PD Array\",\"Market Structure Shift\",\"Liquidity\",\"Optimal Trade Entry\",\"Risk to Reward Ratio\",\"Premium / Discount\",\"Mitigation Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰，包括资产代码（NQ1!）、时间框架（5分钟）、具体价格区间（12820-12865）、分析步骤（从Breaker Block识别到FVG嵌套再",
+  "error": null
+}

@@ -1,0 +1,124 @@
+{
+  "card_id": "27S9gjgcSlI_case_002_es与nq_11_00低点的多时间框架smt",
+  "type": "case",
+  "title": "ES与NQ 11:00低点的多时间框架SMT确认反转",
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Divergence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sell-side Liquidity",
+      "card_id": "liquidity_buyside_sellside",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Session High/Low",
+      "card_id": "session_high_low",
+      "exists": true
+    },
+    {
+      "term": "Confluence",
+      "card_id": "confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "liquidity",
+    "liquidity_buyside_sellside",
+    "market_structure",
+    "time_frame_confluence",
+    "premium_discount_premium_",
+    "session_high_low",
+    "confluence"
+  ],
+  "school": "SMC",
+  "asset": "ES / NQ",
+  "timeframe": "1H / 5M",
+  "market_context": "伦敦开盘后ES和NQ在11:00形成低点，博主在1小时图上识别到SMT信号，随后下钻5分钟图验证低时间框架的分歧现象，确认向下反转的高概率设置。",
+  "key_observation": "在1小时图上ES和NQ在11:00低点处出现SMT（分歧）：ES创新低而NQ未创新低，这种分歧在5分钟图上得到进一步确认，形成低时间框架SMT，为向下反转提供汇聚信号。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上观察ES和NQ在11:00处的低点，标记出该时间点的价格水平。",
+    "Step 2: 识别ES在11:00低点处创出新低，而NQ在同一时间未创新低，形成高时间框架SMT（分歧）。",
+    "Step 3: 基于SMT信号预期价格继续向下运行至卖方流动性，并相信该SMT将确认反转，该高点不会被触及。",
+    "Step 4: 下钻到5分钟图表，在11:00时间点处用垂直线对齐两个资产。",
+    "Step 5: 在5分钟图上确认低时间框架SMT：ES在该时间点创出更低的低点，而NQ创出更高的低点，形成明确的分歧。",
+    "Step 6: 将低时间框架SMT作为高时间框架反转信号的汇聚确认，增强交易设置的可信度。",
+    "Step 7: 标记伦敦高点在ES和NQ上的位置，观察价格是否会在两个资产上都触及该高点。",
+    "Step 8: 当NQ未能触及伦敦高点而ES已触及时，确认SMT仍然有效，预期继续向下。",
+    "Step 9: 观察价格形成看涨PD阵列，但该阵列未被尊重，价格继续向下运行，验证SMT反转信号的有效性。"
+  ],
+  "outcome": "价格成功向下运行至卖方流动性，SMT反转信号得到确认，看涨PD阵列未被尊重，价格继续下跌。",
+  "lessons": "SMT（分歧）是确认反转的重要汇聚信号，但需要与高时间框架结构对齐才能有效使用。通过多时间框架验证（从1小时下钻到5分钟）可以增强信号的可信度。SMT最有效的出现位置是在会话高低点、前一天高低点和高时间框架水平位置。不是所有SMT都重要，只有与高时间框架水平或结构对齐的SMT才应作为交易确认信号。",
+  "primary_image": "cards/27S9gjgcSlI/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/27S9gjgcSlI/images/case_002_detail_1.jpg",
+    "cards/27S9gjgcSlI/images/case_002_detail_2.jpg",
+    "cards/27S9gjgcSlI/images/case_002_detail_3.jpg",
+    "cards/27S9gjgcSlI/images/case_002_detail_4.jpg",
+    "cards/27S9gjgcSlI/images/case_002_detail_5.jpg",
+    "cards/27S9gjgcSlI/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图为 FXReplay 平台双面板 1 小时 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ）。两个面板均在 Fri 29 Dec '23 11:00 处有垂直虚线分隔。左侧 ES 面板中，图上有一条斜向上的趋势线标注文字\"SMT\"，以及一个矩形框位于约 4796 至 4806 区间，当前价格标签显示 479",
+    "case_002_detail_1.jpg": "图为 FXReplay 平台回测界面，左右两个面板并排显示。左侧为 E-MINI S&P 500 FUTURES 1 小时 K 线图，价格范围约 4794 至 4864，右侧价格标签显示 4821.96 与 4816.50。右侧为 E-MINI NASDAQ-100 FUTURES 1 小时 K 线图，价格范围约 16900 至 17780，右侧价格标签显示 16994.50。两图均在 Fri 2",
+    "case_002_detail_2.jpg": "图为 FXReplay 回测平台上并排显示的两张 1 小时 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ）。两图均在 2024 年 1 月 2 日附近出现大幅下跌 K 线。左图标注有一条向上倾斜的趋势线，标签为 SMT；右图标注有一条向下倾斜的趋势线，同样标签为 SMT。两图下方各有一条蓝色水平线，左图约位",
+    "case_002_detail_3.jpg": "图为 FXReplay 回测平台上并排显示的两个 5 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES，右侧为 E-MINI NASDAQ-100 FUTURES。两图共享中央价格轴，范围约 16900 至 17075。左图可见一条蓝色下降趋势线从左上方延伸至约 12:20 时间标记处，另有一条蓝色水平线位于约 4822 附近；右轴标注 4814.25 与 4791.50 两个",
+    "case_002_detail_4.jpg": "图为 FXReplay 平台上并排显示的双面板 15 分钟 K 线图。左侧面板为 E-MINI S&P 500 FUTURES（ES），右侧面板为 E-MINI NASDAQ-100 FUTURES（NQ）。两个面板均以 Thu 04 Jan '24 01:15 为时间基准，各有一条垂直虚线标记该时间点。左侧面板价格轴范围约 4728 至 4770，当前价标签显示 4748，图中有一个矩形标注区域",
+    "case_002_detail_5.jpg": "图为双面板15分钟K线图，左侧为E-MINI S&P 500期货（ES），右侧为E-MINI NASDAQ-100期货（NQ），均来自FXReplay回测平台，时间节点标注为Thu 04 Jan 24 10:45。左侧面板价格轴范围约4728至4770，图上有一个矩形框标注于约4790至4800区间，并有一条向下倾斜的趋势线。右侧面板价格轴范围约16400至16640，图上有一条向下倾斜的趋势线从",
+    "case_002_detail_6.jpg": "图为双面板 15 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES，右侧为 E-MINI NASDAQ-100 FUTURES，平台显示为 FXReplay 回测模式。左侧面板可见一条从左下向右上延伸的趋势线，当前价格标签显示 4746.75。右侧面板在 16575.00 至 16590.00 区间绘有一个水平矩形框，当前价格标签显示 16505.00，右侧可见价格范围约从 1"
+  },
+  "sources": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.159,
+        371.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从1小时到5分钟的多时间框架分析过程，清晰标记了11:00低点的SMT分歧，并验证了反转结果。所有关键价位、时间框架和分析步骤都从图表和讲解中明确读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:17:57.893758Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES与NQ 11:00低点的多时间框架SMT确认反转\",\"school\":\"SMC\",\"asset\":\"ES / NQ\",\"timeframe\":\"1H / 5M\",\"market_context\":\"伦敦开盘后ES和NQ在11:00形成低点，博主在1小时图上识别到SMT信号，随后下钻5分钟图验证低时间框架的分歧现象，确认向下反转的高概率设置。\",\"key_observation\":\"在1小时图上ES和NQ在11:00低点处出现SMT（分歧）：ES创新低而NQ未创新低，这种分歧在5分钟图上得到进一步确认，形成低时间框架SMT，为向下反转提供汇聚信号。\",\"analysis_steps\":[\"Step 1: 在1小时图上观察ES和NQ在11:00处的低点，标记出该时间点的价格水平。\",\"Step 2: 识别ES在11:00低点处创出新低，而NQ在同一时间未创新低，形成高时间框架SMT（分歧）。\",\"Step 3: 基于SMT信号预期价格继续向下运行至卖方流动性，并相信该SMT将确认反转，该高点不会被触及。\",\"Step 4: 下钻到5分钟图表，在11:00时间点处用垂直线对齐两个资产。\",\"Step 5: 在5分钟图上确认低时间框架SMT：ES在该时间点创出更低的低点，而NQ创出更高的低点，形成明确的分歧。\",\"Step 6: 将低时间框架SMT作为高时间框架反转信号的汇聚确认，增强交易设置的可信度。\",\"Step 7: 标记伦敦高点在ES和NQ上的位置，观察价格是否会在两个资产上都触及该高点。\",\"Step 8: 当NQ未能触及伦敦高点而ES已触及时，确认SMT仍然有效，预期继续向下。\",\"Step 9: 观察价格形成看涨PD阵列，但该阵列未被尊重，价格继续向下运行，验证SMT反转信号的有效性。\"],\"outcome\":\"价格成功向下运行至卖方流动性，SMT反转信号得到确认，看涨PD阵列未被尊重，价格继续下跌。\",\"lessons\":\"SMT（分歧）是确认反转的重要汇聚信号，但需要与高时间框架结构对齐才能有效使用。通过多时间框架验证（从1小时下钻到5分钟）可以增强信号的可信度。SMT最有效的出现位置是在会话高低点、前一天高低点和高时间框架水平位置。不是所有SMT都重要，只有与高时间框架水平或结构对齐的SMT才应作为交易确认信号。\",\"primary_image_frame_id\":\"27S9gjgcSlI_f009\",\"supporting_image_frame_ids\":[\"27S9gjgcSlI_f007\",\"27S9gjgcSlI_f008\",\"27S9gjgcSlI_f010\",\"27S9gjgcSlI_f011\",\"27S9gjgcSlI_f012\",\"27S9gjgcSlI_f013\"],\"related_concepts\":[\"SMT (Smart Money Technique)\",\"Divergence\",\"Order Block\",\"Liquidity\",\"Sell-side Liquidity\",\"Market Structure\",\"Multi-timeframe Analysis\",\"PD Array\",\"Session High/Low\",\"Confluence\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从1小时到5分钟的多时间框架分析过程，清晰标记了11:00低点的SMT分歧，并验证了反转结果。所有关键价位、时间框架",
+  "error": null
+}

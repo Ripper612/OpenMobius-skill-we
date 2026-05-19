@@ -1,0 +1,111 @@
+{
+  "card_id": "m4k_1pF5zFI_case_006_usd日线大幅扩张后反转案例",
+  "type": "case",
+  "title": "USD日线大幅扩张后反转交易案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame / Low Time Frame",
+      "card_id": "time_frame",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "displacement",
+    "market_structure_shift",
+    "swing_formation",
+    "liquidity",
+    "time_frame"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1H / 5M / 4H / 15M",
+  "market_context": "USD日线已完成大部分日内范围。虽有小影线支持向上扩张，但扩张已充分。博主通过9-10点蜡烛高点标记，在5分钟线上确认CSD后交易回到日线开盘价和会话低点。",
+  "key_observation": "日线蜡烛虽有小上影线支持扩张，但已完成大部分日内范围。博主判断此时应做空回到日线范围内，而非继续追高。",
+  "analysis_steps": [
+    "Step 1: 标记日线开盘价、高点、低点和收盘价，观察日线蜡烛结构。",
+    "Step 2: 识别日线虽有小影线支持向上扩张，但已扩张充分的特征。",
+    "Step 3: 通过9-10点蜡烛高点标记，确定潜在的摆动点（swing high）。",
+    "Step 4: 下降到5分钟图表，等待该摆动高点的扫荡（sweep）。",
+    "Step 5: 在5分钟线上确认交付状态改变（CSD），预示反转。",
+    "Step 6: 设置做空入场，目标回到日线开盘价和会话低点（约23400）。",
+    "Step 7: 使用4小时和15分钟模型验证，等待收盘确认下行趋势。"
+  ],
+  "outcome": "价格从23659高点扫荡后反转，通过5分钟CSD确认，最终回到日线开盘价和会话低点23404.75附近，完成预期的范围回归。",
+  "lessons": "当日线已完成大部分日内范围且仅有小影线支持扩张时，应倾向做空回到范围内而非追高。通过多时间框架确认（HTF摆动点+LTF CSD）可提高交易概率。不应期望价格继续大幅扩张，而应调整预期至关键支撑位。",
+  "primary_image": "cards/m4k_1pF5zFI/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/m4k_1pF5zFI/images/case_006_detail_1.jpg",
+    "cards/m4k_1pF5zFI/images/case_006_detail_2.jpg",
+    "cards/m4k_1pF5zFI/images/case_006_detail_3.jpg",
+    "cards/m4k_1pF5zFI/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "USD 15 分钟 K 线图。图上显示从 Wed 06 Aug '25 14:00 开始的时间序列，价格范围从 23280.00 到 23640.00。图表右侧有两根大型 K 线：一根绿色 K 线从约 23480 到 23640，随后一根黑色 K 线从约 23640 下跌至 23410。图上有两条水平线分别位于 23404.75 和 23410.00。左下角显示当前价格标签 23404.75。图表",
+    "case_006_detail_1.jpg": "USD 价格图表显示从 23150 到 23650 的上升趋势。图上有两条水平线：左侧标记 23493.60，中间区域标记 23400.00。一个矩形框标注了 23400 至 23650 之间的区域。K 线序列中绿色蜡烛占多数，黑色蜡烛间隔出现。近 23650 处有一根长上影线的 K 线。图表底部显示时间刻度和交易控制按钮（Sell、Buy、Flatten）。",
+    "case_006_detail_2.jpg": "USD 1 分钟 K 线图。图上显示从 06:00 至 14:30 的价格走势，价格范围在 23564.00 至 23664.00 之间。图右侧有一条水平线位于 23659.00。图中央下方有一个矩形标注框，范围约在 23592.00 至 23659.00 之间。K 线呈现绿色（上升）和黑色（下降）交替出现，其中 10:00 和 12:00 处各有一根较大的绿色 K 线，11:30 处有一根较大的",
+    "case_006_detail_3.jpg": "USD 1 分钟 K 线图，时间范围从 03:30 至 18:30。图上可见价格范围约从 23400 到 23780。中部区域有一个矩形框标注，框内价格约在 23580 至 23660 之间。图上绘有两条水平线，分别位于 23660 和 23620 处。右侧最后几根 K 线显示：绿色 K 线收于 23660 上方，随后黑色 K 线收于 23620 下方，再后一根 K 线下影线延伸至约 23580。",
+    "case_006_detail_4.jpg": "USD 1分钟K线图，时间范围从00:00至23:00。图上显示价格从23460上升至23660的上升趋势，跨越多根K线。10:00至14:00期间形成盘整形态，价格在23570至23660区间内波动。14:00处出现一根大绿色K线从23480延伸至23660，随后14:15出现一根大黑色K线收于23570。15:00处出现向下跳空缺口。图上有一条水平虚线标注在23528.35价格位置。右下角显示"
+  },
+  "sources": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "segment_ids": [
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        869.76,
+        1065.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析过程：日线结构识别→摆动点标记→多时间框架确认→交易执行→目标达成，所有关键价位和时间框架均从图表清晰读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:13.440983Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD日线大幅扩张后反转交易案例\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1H / 5M / 4H / 15M\",\"market_context\":\"USD日线已完成大部分日内范围。虽有小影线支持向上扩张，但扩张已充分。博主通过9-10点蜡烛高点标记，在5分钟线上确认CSD后交易回到日线开盘价和会话低点。\",\"key_observation\":\"日线蜡烛虽有小上影线支持扩张，但已完成大部分日内范围。博主判断此时应做空回到日线范围内，而非继续追高。\",\"analysis_steps\":[\"Step 1: 标记日线开盘价、高点、低点和收盘价，观察日线蜡烛结构。\",\"Step 2: 识别日线虽有小影线支持向上扩张，但已扩张充分的特征。\",\"Step 3: 通过9-10点蜡烛高点标记，确定潜在的摆动点（swing high）。\",\"Step 4: 下降到5分钟图表，等待该摆动高点的扫荡（sweep）。\",\"Step 5: 在5分钟线上确认交付状态改变（CSD），预示反转。\",\"Step 6: 设置做空入场，目标回到日线开盘价和会话低点（约23400）。\",\"Step 7: 使用4小时和15分钟模型验证，等待收盘确认下行趋势。\"],\"outcome\":\"价格从23659高点扫荡后反转，通过5分钟CSD确认，最终回到日线开盘价和会话低点23404.75附近，完成预期的范围回归。\",\"lessons\":\"当日线已完成大部分日内范围且仅有小影线支持扩张时，应倾向做空回到范围内而非追高。通过多时间框架确认（HTF摆动点+LTF CSD）可提高交易概率。不应期望价格继续大幅扩张，而应调整预期至关键支撑位。\",\"primary_image_frame_id\":\"m4k_1pF5zFI_f036\",\"supporting_image_frame_ids\":[\"m4k_1pF5zFI_f032\",\"m4k_1pF5zFI_f033\",\"m4k_1pF5zFI_f034\",\"m4k_1pF5zFI_f035\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Change in the state of delivery\",\"Displacement\",\"Market Structure Shift\",\"Swing High\",\"Liquidity\",\"High Time Frame / Low Time Frame\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析过程：日线结构识别→摆动点标记→多时间框架确认→交易执行→目标达成，所有关键价位和时间框架均从图表清晰读出。\"}",
+  "error": null
+}

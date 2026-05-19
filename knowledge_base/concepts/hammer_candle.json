@@ -1,0 +1,60 @@
+{
+  "card_id": "hammer_candle",
+  "type": "merged_concept",
+  "canonical_term": "Hammer Candle",
+  "aliases": [
+    "hammer wick",
+    "锤子形K线"
+  ],
+  "school": "Price Action",
+  "definition": "由激进下跌突破范围后再激进回升形成的K线形态，表现为长下影线。整个时间框架上，下影线代表被拒绝的低点，收盘价回到范围内。",
+  "identification_rules": [
+    "价格激进地向下突破一个既定范围或支撑位",
+    "随后在同一根K线或相邻K线内激进地回升回到该范围",
+    "形成明显的长下影线，下影线触及的低点被拒绝",
+    "收盘价位于范围内部，不在下影线的最低点"
+  ],
+  "trading_implication": "锤子形K线表明买方在低点处介入，拒绝了卖方推低的尝试。这是潜在反转或范围内交易机会的信号。可用于识别OTE（最优交易入场点）区域，或作为BPR/Box Setup的组成部分。在多时间框架分析中，锤子形K线确认了价格未能有效突破支撑，增强了在该区域做多的信心。",
+  "common_mistakes": [
+    "将任何长下影线都误认为锤子形K线，忽视了\"激进\"运动的必要性",
+    "未在多时间框架上确认锤子形K线的有效性，仅在单一时间框架判断",
+    "混淆锤子形K线与射击之星（Shooter Candle），后者是向上激进后向下激进"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "yq4Z7q4E6nU_case_002_ote区域交易与5分钟精确入场案例",
+      "video_id": "yq4Z7q4E6nU",
+      "title": "1小时OTE区域多时间框架精确入场与4R获利案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_hammer_candle",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        188.22,
+        293.3
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133211Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

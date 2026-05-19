@@ -1,0 +1,69 @@
+{
+  "card_id": "candle_3_continuation",
+  "type": "merged_concept",
+  "canonical_term": "Candle 3 Continuation",
+  "aliases": [
+    "C3 Continuation",
+    "Candle 3 Extension"
+  ],
+  "school": "ICT",
+  "definition": "K线2收盘后形成反转后，K线3沿反转方向扩展的现象。若K线3强势收盘超过K线2的相反端点，则预期K线4也会延续该方向。",
+  "identification_rules": [
+    "K线2必须形成反转收盘（扫出前一K线的极值后收回到前一K线范围内）",
+    "K线3应沿反转方向扩展（看涨时向上，看跌时向下）",
+    "K线3收盘强势超过K线2的相反端点时，K线4预期继续延续该方向",
+    "该形态应在高时间框架关键水平（如FVG、摆动高低点）处形成，以增加有效性"
+  ],
+  "trading_implication": "K线3 Continuation是K线2反转闭合后的自然延续信号。当K线3强势收盘超过K线2的相反端点时，交易者可预期K线4也会沿同方向扩展，形成完整的四K线周期。该形态常与均衡点（EQ）、交付状态改变（CSD）等工具结合使用，以确认趋势延续的有效性。",
+  "common_mistakes": [
+    "未在高时间框架关键水平处确认K线2闭合，导致虚假信号",
+    "混淆K线3闭合与K线3延续——K线3必须强势收盘超过K线2的相反端点才能预期K线4延续",
+    "忽视均衡点（0.5）的尊重——若K线3未能尊重K线2的0.5位置，形态可能失效",
+    "在K线5及以后继续追随该形态，可能陷入新的价格阶段而被套"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "qdQYhePcvGE_case_005_4小时与15分钟的candle_3延续",
+      "video_id": "qdQYhePcvGE",
+      "title": "4小时反转后的15分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_001_apoz日线上的多个k线2收盘识别",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线多个K线2收盘的识别与验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "tyoxl1l-6iI",
+      "original_card_id": "tyoxl1l-6iI_concept_candle_3_continuation",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_007",
+        "seg_009"
+      ],
+      "time_range": [
+        84.96000000000001,
+        705.76
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131499Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

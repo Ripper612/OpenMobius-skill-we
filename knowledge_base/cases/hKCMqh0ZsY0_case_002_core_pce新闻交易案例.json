@@ -1,0 +1,113 @@
+{
+  "card_id": "hKCMqh0ZsY0_case_002_core_pce新闻交易案例",
+  "type": "case",
+  "title": "Core PCE新闻交易：周四扫低反转，周五标准差投影目标",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Consolidation Reversal Profile",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "propulsion_block",
+    "standard_deviation_projection",
+    "market_structure_shift",
+    "power_of_3_amd"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1H / 1D",
+  "market_context": "周一至周三形成整理，周四Core PCE新闻发布前扫低形成反转信号，周五继续上升。博主利用经济日历规划交易时间窗口，避开FOMC和NFP前夜，专注新闻发布后的价格行动。",
+  "key_observation": "周四形成consolidation reversal profile，扫出周低后收盘走高；周五延续上升，价格触及第4标准差投影位，验证了使用标准差和推进块确定目标位的有效性。",
+  "analysis_steps": [
+    "Step 1: 查阅经济日历，识别周内高影响新闻（Core PCE周四发布），规划交易焦点为新闻发布后或次日。",
+    "Step 2: 在日线图观察周一至周三的整理形态，识别周中反转低点（Wednesday midweek reversal）。",
+    "Step 3: 在日线图标记Fair Value Gap，观察价格未能形成Change in State of Delivery的失败。",
+    "Step 4: 周四价格交易进入FVG但失败，形成down close candles into order block的结构。",
+    "Step 5: 在1小时图识别order block和propulsion block，确认周四扫低后的反转信号。",
+    "Step 6: 使用标准差投影（2-2.5倍和4-4.5倍）计算周五的目标位，预期价格触及第4标准差。",
+    "Step 7: 验证propulsion block的上半部分（upper half）是否被尊重，确认continuation的有效性。",
+    "Step 8: 周五价格回测propulsion block后突破高点，最终触及周线最大扩张（max expansion）的标准差投影位。"
+  ],
+  "outcome": "价格成功触及第4标准差投影位，验证了使用推进块和标准差投影确定目标位的方法有效。周五延续上升，达到预期目标。",
+  "lessons": "结合经济日历规划交易时间窗口，避开高风险新闻前夜；使用标准差投影与推进块结合确定高概率目标位；周四的consolidation reversal profile为周五continuation提供了清晰的交易设置。",
+  "primary_image": "cards/hKCMqh0ZsY0/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/hKCMqh0ZsY0/images/case_002_detail_1.jpg",
+    "cards/hKCMqh0ZsY0/images/case_002_detail_2.jpg",
+    "cards/hKCMqh0ZsY0/images/case_002_detail_3.jpg",
+    "cards/hKCMqh0ZsY0/images/case_002_detail_4.jpg",
+    "cards/hKCMqh0ZsY0/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "BTC 1 小时 K 线图。图上显示价格范围约从 17700 到 18342.75。左侧显示一段上升趋势，随后进入盘整区间。图上有三条水平线分别位于 18342.75、18191 和 18100 处。中间区域有一个矩形框标注，范围约在 18100 至 18342.75 之间。图下方标注有日期'29/2/2024'和文字'HOT | 6088'。黄色十字光标位于图上方约 18342 附近。K 线呈现",
+    "case_002_detail_1.jpg": "TTvixdx_okt 图表显示一个黄色矩形标注区域，价格范围约在 17700 至 17850 之间。图上有三条水平线分别位于 17843.50、17750.00 和 17700.00 处。K 线图显示多根蜡烛线在标注区域内外活动，其中包含一根长下影线的 K 线向下刺破至约 17650 水平。图表底部显示日期标记 5/2/2024 及数值 HOT1 和 6005。右侧可见绿色加号标记。除上述标注外",
+    "case_002_detail_2.jpg": "BTC 1 小时 K 线图。图上可见一个黄色矩形标注框，位置约在 17850 至 17950 价格区间。图右侧显示两条水平线分别对应 17950 和 17850 价格位。K 线在矩形区域内外形成多根带长上下影线的蜡烛体。图表左下角标注日期为 5/2/2024，右下角显示 HOT1 4084。整体可见价格范围从 18050 至 17650。",
+    "case_002_detail_3.jpg": "BTC 图表显示一段价格区间，可见范围约从 17650 到 18050。图上有一个黄色矩形框标注，覆盖约 17700 至 17950 的价格区间，跨越多根 K 线。矩形内外有三条水平线分别位于 17850、17950 和 17750 处。图右侧有一个黄色圆形标记点。底部显示日期标注'5/2/2024'和文字'HOLD | 6088'。K 线在标注区域内呈现振荡形态。",
+    "case_002_detail_4.jpg": "BTC 日线图表。图上显示约 20 根 K 线，绿色和黑色交替出现。可见价格范围约从 17650 到 18750。图上有两条水平虚线分别位于 18475 和 18181 处，两条线之间用矩形框标注。其中一根 K 线用黄色高亮显示，位于 18475 附近。图右下角标注日期为 28/2/2024 及 HZI | D。多根 K 线具有上下影线，影线长度不一。图中央有一条竖虚线将图表分为左右两部分。",
+    "case_002_detail_5.jpg": "TTvusd_okt 图表显示一系列交替的绿色和黑色 K 线，共约 20 根。价格范围从 17700.00 至 18750.00。图上有一条水平虚线位于 18160.00 处。右侧可见黄色十字标记位于约 18200.00 价格水平。底部标注显示日期为 29/12/2024 及 HK11 D。K 线普遍呈现上下影线，绿色 K 线与黑色 K 线交替出现。"
+  },
+  "sources": [
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        368.88,
+        728.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从经济日历规划、日线结构识别、小时图order block确认到标准差投影目标的全流程分析，结果验证清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:41:06.314337Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"Core PCE新闻交易：周四扫低反转，周五标准差投影目标\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1H / 1D\",\"market_context\":\"周一至周三形成整理，周四Core PCE新闻发布前扫低形成反转信号，周五继续上升。博主利用经济日历规划交易时间窗口，避开FOMC和NFP前夜，专注新闻发布后的价格行动。\",\"key_observation\":\"周四形成consolidation reversal profile，扫出周低后收盘走高；周五延续上升，价格触及第4标准差投影位，验证了使用标准差和推进块确定目标位的有效性。\",\"analysis_steps\":[\"Step 1: 查阅经济日历，识别周内高影响新闻（Core PCE周四发布），规划交易焦点为新闻发布后或次日。\",\"Step 2: 在日线图观察周一至周三的整理形态，识别周中反转低点（Wednesday midweek reversal）。\",\"Step 3: 在日线图标记Fair Value Gap，观察价格未能形成Change in State of Delivery的失败。\",\"Step 4: 周四价格交易进入FVG但失败，形成down close candles into order block的结构。\",\"Step 5: 在1小时图识别order block和propulsion block，确认周四扫低后的反转信号。\",\"Step 6: 使用标准差投影（2-2.5倍和4-4.5倍）计算周五的目标位，预期价格触及第4标准差。\",\"Step 7: 验证propulsion block的上半部分（upper half）是否被尊重，确认continuation的有效性。\",\"Step 8: 周五价格回测propulsion block后突破高点，最终触及周线最大扩张（max expansion）的标准差投影位。\"],\"outcome\":\"价格成功触及第4标准差投影位，验证了使用推进块和标准差投影确定目标位的方法有效。周五延续上升，达到预期目标。\",\"lessons\":\"结合经济日历规划交易时间窗口，避开高风险新闻前夜；使用标准差投影与推进块结合确定高概率目标位；周四的consolidation reversal profile为周五continuation提供了清晰的交易设置。\",\"primary_image_frame_id\":\"hKCMqh0ZsY0_f020\",\"supporting_image_frame_ids\":[\"hKCMqh0ZsY0_f013\",\"hKCMqh0ZsY0_f014\",\"hKCMqh0ZsY0_f001\",\"hKCMqh0ZsY0_f018\",\"hKCMqh0ZsY0_f019\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in the state of delivery\",\"Propulsion Block\",\"Standard Deviation Projection\",\"Consolidation Reversal Profile\",\"Market Structure Shift\",\"Power of 3 / AMD\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从经济日历规划、日线结构识别、小时图order block确认",
+  "error": null
+}

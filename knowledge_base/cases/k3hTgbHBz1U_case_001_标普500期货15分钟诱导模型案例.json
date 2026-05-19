@@ -1,0 +1,110 @@
+{
+  "card_id": "k3hTgbHBz1U_case_001_标普500期货15分钟诱导模型案例",
+  "type": "case",
+  "title": "标普500期货15分钟诱导模型：流动性扫荡与止损运行",
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Break of Structure",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "inducement",
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "market_structure_shift",
+    "internal_range_liquidity",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "15m",
+  "market_context": "标普500期货在15分钟图表上展现典型的诱导模型运作过程。价格先运行上方流动性，突破结构后形成内部范围流动性，随后进入FVG区域诱导做空头寸，最终在运行止损后才发生真正的下跌走势。",
+  "key_observation": "诱导模型的核心特征：价格在关键流动性水平附近制造假突破，引诱交易者入场后反向运行，扫荡止损单，然后才执行真正的趋势移动。",
+  "analysis_steps": [
+    "Step 1: 识别上方流动性（Buyside Liquidity）位于约4620-4625区域，价格向上运行该流动性。",
+    "Step 2: 观察价格突破结构（Break of Structure），形成更高的摆动高点。",
+    "Step 3: 识别内部范围流动性（Internal Range Liquidity）在中间区域形成，价格在此区间波动。",
+    "Step 4: 发现FVG（Fair Value Gap）在约4615-4625价格区间，标记为Imbalance Liquidity。",
+    "Step 5: 分析价格进入FVG区域，诱导交易者建立做空头寸，交易者将止损设置在上方。",
+    "Step 6: 观察价格反向运行，扫荡这些止损单（Stop Loss Run）。",
+    "Step 7: 确认在止损被运行后，价格才执行真正的下跌走势，完成诱导模型周期。"
+  ],
+  "outcome": "价格在运行止损后发生真正的下跌，验证了诱导模型的完整周期：流动性扫荡→止损运行→趋势执行。",
+  "lessons": "诱导模型展示了机构如何利用关键流动性水平和FVG来诱导零售交易者入场，然后反向运行其止损。交易者应在止损被扫荡前识别这一模式，避免被诱导入场。真正的趋势移动往往发生在流动性被清理之后。",
+  "primary_image": "cards/k3hTgbHBz1U/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/k3hTgbHBz1U/images/case_001_detail_1.jpg",
+    "cards/k3hTgbHBz1U/images/case_001_detail_2.jpg",
+    "cards/k3hTgbHBz1U/images/case_001_detail_3.jpg",
+    "cards/k3hTgbHBz1U/images/case_001_detail_4.jpg",
+    "cards/k3hTgbHBz1U/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 15分钟线图。图上绘制有一条线形走势，显示多个摆动高点和低点。在图表中部偏右位置有一个灰色矩形标注，标记为FVG，其内部标有文字Imbalance Liquidity。该矩形大约位于4615至4625价格区间。图右侧价格刻度显示范围从3960到4640。图表右侧部分显示价格呈下行走势。除上述矩形标注外，图上未见其他指标或形态框。",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上绘有一条向上倾斜的趋势线，从左下方向右上方延伸。图中标注有一个向下箭头，指向价格区域4402至4408之间。可见K线整体价格范围约从4402到4438。图上有一条水平虚线穿过中间区域。K线由绿色和红色蜡烛组成，分布在整个可见范围内。右侧价格刻度显示最新报价在4428.00附近。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 15分钟图表。上方为K线图，显示绿色和红色蜡烛，价格范围约4054至4416。下方为线图叠加层，绘制了多条趋势线连接摆动高低点。图上标注有一条水平线位于4080处，标记为BOS。灰色矩形框出现在下方面板约4070至4090区间。图右侧价格刻度显示4416.75为最高点，4054.00为最低点。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 15分钟图表。图上方为标准K线图，显示绿色和红色蜡烛，价格范围约4320至4820。下方为独立面板，绘制有黑色折线形成锯齿状图案，包含多个峰值和谷值。图上标注有文字'BOS'位于约4805水平线处。下方面板内有一个灰色矩形框，范围约在4684至4720之间。右侧价格轴显示详细刻度，右边距处有多个带蓝色和黑色背景的价格水平标签。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上有两条带标签的水平线：4624处标记为BOB、4010处标记为OB。图表显示两个矩形区域，分别覆盖3960至4010和4010至4624的价格范围。K线整体价格范围约从3960到4668。图表中部显示一个盘整区间，多根K线在4010至4624之间波动。右侧上方区域显示一系列绿色K线，部分带有长上影线。左下方显示早期价格从约3960上",
+    "case_001_detail_5.jpg": "ES 1分钟K线图。图上可见价格范围约从4130到4168。图表中部有两条水平线标注，其中一条带有文字标签'REL'。上方有一个灰色矩形框覆盖4158至4168价格区间。图上显示多根红绿K线交替出现，中间区域呈现4145至4158之间的盘整形态。右侧价格刻度显示当前价格标记。底部时间轴显示'Aug 22 - 11:24'的时间标记。"
+  },
+  "sources": [
+    {
+      "video_id": "k3hTgbHBz1U",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.24,
+        187.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了诱导模型的全部阶段，包括流动性识别、FVG标注、止损运行和最终趋势执行，图表清晰标注了关键价位和区域。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:33.471715Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500期货15分钟诱导模型：流动性扫荡与止损运行\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"15m\",\"market_context\":\"标普500期货在15分钟图表上展现典型的诱导模型运作过程。价格先运行上方流动性，突破结构后形成内部范围流动性，随后进入FVG区域诱导做空头寸，最终在运行止损后才发生真正的下跌走势。\",\"key_observation\":\"诱导模型的核心特征：价格在关键流动性水平附近制造假突破，引诱交易者入场后反向运行，扫荡止损单，然后才执行真正的趋势移动。\",\"analysis_steps\":[\"Step 1: 识别上方流动性（Buyside Liquidity）位于约4620-4625区域，价格向上运行该流动性。\",\"Step 2: 观察价格突破结构（Break of Structure），形成更高的摆动高点。\",\"Step 3: 识别内部范围流动性（Internal Range Liquidity）在中间区域形成，价格在此区间波动。\",\"Step 4: 发现FVG（Fair Value Gap）在约4615-4625价格区间，标记为Imbalance Liquidity。\",\"Step 5: 分析价格进入FVG区域，诱导交易者建立做空头寸，交易者将止损设置在上方。\",\"Step 6: 观察价格反向运行，扫荡这些止损单（Stop Loss Run）。\",\"Step 7: 确认在止损被运行后，价格才执行真正的下跌走势，完成诱导模型周期。\"],\"outcome\":\"价格在运行止损后发生真正的下跌，验证了诱导模型的完整周期：流动性扫荡→止损运行→趋势执行。\",\"lessons\":\"诱导模型展示了机构如何利用关键流动性水平和FVG来诱导零售交易者入场，然后反向运行其止损。交易者应在止损被扫荡前识别这一模式，避免被诱导入场。真正的趋势移动往往发生在流动性被清理之后。\",\"primary_image_frame_id\":\"k3hTgbHBz1U_f003\",\"supporting_image_frame_ids\":[\"k3hTgbHBz1U_f004\",\"k3hTgbHBz1U_f002\",\"k3hTgbHBz1U_f005\",\"k3hTgbHBz1U_f006\",\"k3hTgbHBz1U_f007\"],\"related_concepts\":[\"Inducement\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Buyside Liquidity\",\"Break of Structure\",\"Internal Range Liquidity\",\"Displacement\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了诱导模型的全部阶段，包括流动性识别、FVG标注、止损运行和最终趋势执行，图表清晰标注了关键价位和区域。\"}",
+  "error": null
+}

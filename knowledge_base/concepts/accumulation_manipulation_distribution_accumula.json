@@ -1,0 +1,148 @@
+{
+  "card_id": "accumulation_manipulation_distribution_accumula",
+  "type": "merged_concept",
+  "canonical_term": "Accumulation Manipulation Distribution",
+  "aliases": [
+    "AMD",
+    "Power of 3"
+  ],
+  "school": "ICT",
+  "definition": "价格在一个周期内的三阶段运动模式：积累阶段（开盘价附近盘整/横盘整理）、操纵阶段（突破积累区间扫荡流动性的单向摆动腿，可触发CSD或MSS）、派发阶段（操纵后价格反向运行或趋势延续至收盘）。可应用于单根K线或更大周期。",
+  "identification_rules": [
+    "识别积累阶段：价格在开盘价附近或某一区间内横盘盘整，成交量相对较低",
+    "识别操纵阶段：价格突破积累区间形成新高或新低，扫荡流动性，构成从低点到高点或从高点到低点的单一方向摆动腿",
+    "确认操纵腿：操纵腿应在反转前伴随流动性扫荡，并可能触发市场结构转变（MSS）或交付状态改变（CSD）",
+    "识别派发阶段：操纵后价格反向运行，回到积累区间或继续趋势，形成分布",
+    "在单根K线层面，完整形态应包含OLHC四个价格点的明确顺序（开盘→积累→操纵高/低点→收盘）",
+    "将操纵腿投影至斐波那契标准差工具，识别派发阶段目标区域（-2至-2.5及-4标准差）",
+    "结合PD数组（FVG、OB、流动性）确认派发目标是否与投影重合"
+  ],
+  "trading_implication": "在积累阶段（开盘价附近）寻找入场机会，预期操纵阶段的方向性扩展；通过将操纵腿投影至斐波那契标准差工具预测派发目标（-2至-2.5及-4标准差），结合PD数组（FVG、OB、流动性）确认目标区域，建立高概率交易设置。适用于日线、4小时、15分钟等多时间框架，特别适合寻找反转或回撤区域。",
+  "common_mistakes": [
+    "混淆操纵腿的方向：需准确识别哪个摆动是扫荡流动性的操纵腿，而非其他摆动",
+    "忽视PD数组的确认：仅依赖标准差投影而不检查是否有FVG、OB或流动性与投影重合，降低交易概率",
+    "在错误的时间框架上应用：未能在多个时间框架上验证操纵腿和派发目标的一致性"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Draw on Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "IeXtmeKqjnQ_case_001_纳斯达克期货_nq_看涨操纵案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "NQ看涨操纵：伦敦整理后纽约开盘下行操纵突破前高"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_003_日线与15分钟图的跨时间框架扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "日线扩张形态在15分钟跨时段追踪"
+    },
+    {
+      "card_id": "YXoNowXQirM_case_002_nasdaq_15分钟至4小时多周期联动分析",
+      "video_id": "YXoNowXQirM",
+      "title": "4小时看跌K线后的5分钟OLHC结构与流动性扫荡分析"
+    },
+    {
+      "card_id": "ubCe509_JLY_case_004_欧元兑美元日线到5分钟的整固交易",
+      "video_id": "ubCe509_JLY",
+      "title": "欧元兑美元日线整固到5分钟多时间框架做空"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_001_轻质原油期货看涨伦敦反转案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油期货伦敦反转看涨交易案例"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_002_轻质原油期货看跌伦敦反转案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油伦敦反转后纽约延续看跌交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "YXoNowXQirM",
+      "original_card_id": "YXoNowXQirM_concept_accumulation_manipulation_distribution",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        172.519,
+        329.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_accumulation_manipulation_distribution",
+      "segment_ids": [
+        "seg_002",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        129.52,
+        863.72
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:18.255422Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

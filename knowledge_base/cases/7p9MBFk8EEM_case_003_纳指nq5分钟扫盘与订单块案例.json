@@ -1,0 +1,110 @@
+{
+  "card_id": "7p9MBFk8EEM_case_003_纳指nq5分钟扫盘与订单块案例",
+  "type": "case",
+  "title": "NQ5分钟日线摆动低点扫盘与订单块支撑案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "turtle_soup",
+    "premium_discount_premium_",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M",
+  "market_context": "2023年11月8日，NQ在5分钟图上触及日线摆动低点（约15060），形成下收K线订单块。价格随后反弹突破该订单块并产生位移，订单块开盘价与公允价值缺口形成重叠支撑。",
+  "key_observation": "博主观察到NQ价格在日线摆动低点形成的下收K线订单块，以及该订单块开盘价与FVG重叠形成的PD array结构，成为后续上升的支撑区域。",
+  "analysis_steps": [
+    "Step 1: 识别日线重要水平——日线摆动低点（sellside liquidity）位于约15060水平。",
+    "Step 2: 在5分钟图上确认价格触及该日线摆动低点，形成下收K线订单块。",
+    "Step 3: 观察价格初次反弹力度不足，未能有效突破订单块高点，形成低位移。",
+    "Step 4: 确认形成完整的下收K线（full-bodied down-close candle），为有效的订单块。",
+    "Step 5: 价格再次下探并扫过摆动低点，形成扫盘（sweep）。",
+    "Step 6: 价格突破订单块高点并产生位移（displacement），收盘在订单块上方。",
+    "Step 7: 标记订单块开盘价（order block opening price）作为支撑水平。",
+    "Step 8: 观察到订单块开盘价与下方FVG形成重叠的PD array结构。",
+    "Step 9: 价格回测至订单块开盘价，wick触及FVG但body仍尊重订单块支撑。",
+    "Step 10: 价格继续上升，确认订单块开盘价有效支撑价格向上运动。"
+  ],
+  "outcome": "价格成功突破订单块并产生位移，随后回测至订单块开盘价获得支撑，继续上升。订单块与FVG的重叠形成强支撑区域，有效支撑价格上行。",
+  "lessons": "下收K线订单块在扫盘后形成有效支撑；订单块开盘价与FVG重叠的PD array结构提供高概率支撑区域；价格需要产生充分位移并收盘在订单块上方才能确认反转；回测时wick可触及下方FVG但body应尊重订单块支撑。",
+  "primary_image": "cards/7p9MBFk8EEM/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/7p9MBFk8EEM/images/case_003_detail_1.jpg",
+    "cards/7p9MBFk8EEM/images/case_003_detail_2.jpg",
+    "cards/7p9MBFk8EEM/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NQ1! 5 分钟 K 线图，日期标注为 11/8/2023，图右上角显示水印文字 TTrades_edu。可见价格范围约从 15035.00 至 15170.00。图左侧第一根 K 线为大阴线，主体从约 15170.00 延伸至 15120.00。此后 K 线在 15080.00 至 15130.00 区间内交替出现绿色与黑色 K 线。09:10 至 09:50 区间内 K 线主体逐步下移至约 ",
+    "case_003_detail_1.jpg": "NQ1! 5 分钟 K 线图，日期为 2023 年 11 月 8 日，时间范围覆盖约 07:00 至 12:45。图右侧价格刻度显示可见范围约从 15040 至 15200。图上有一条水平线位于约 15060 附近，横跨图表下方区域。右侧价格轴标注当前价格标签 15084.00 与 15080.50。K 线在 08:30 附近出现一根较长的阴线，从约 15180 下行至约 15120。此后 K 线",
+    "case_003_detail_2.jpg": "NQ1! 5分钟K线图，日期为2023年11月8日，图右下角标注资产与时间框架。可见价格范围约从15040到15175。图上右侧价格轴显示当前价格标签为15106.00。图上绘有一个虚线矩形框，覆盖约09:30至10:00时段、价格区间约15065至15100。矩形框右侧延伸出一条水平线至约10:15附近。图左下方约15065处另有一条延伸至约09:15的水平线。08:15附近出现一根大阴线，随后",
+    "case_003_detail_3.jpg": "图表为 NQ1! 5 分钟 K 线图，日期标注为 11/8/2023，价格范围约 15050 至 15185。图上有一条蓝色水平线位于约 15100，一条粉红色水平线位于约 15065。图中绘有一个浅灰色矩形区域，覆盖约 15060 至 15100 价格区间，横跨 09:45 至 10:30 时段。K 线序列显示：08:45 附近出现一根大阴线，随后价格在 15080 至 15115 区间内形成多"
+  },
+  "sources": [
+    {
+      "video_id": "7p9MBFk8EEM",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        232.159,
+        398.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ5分钟案例的分析完整清晰，包括日线水平识别、订单块形成、扫盘、位移、支撑确认等全过程，关键价位和分析步骤都有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:27:57.328506Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ5分钟日线摆动低点扫盘与订单块支撑案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M\",\"market_context\":\"2023年11月8日，NQ在5分钟图上触及日线摆动低点（约15060），形成下收K线订单块。价格随后反弹突破该订单块并产生位移，订单块开盘价与公允价值缺口形成重叠支撑。\",\"key_observation\":\"博主观察到NQ价格在日线摆动低点形成的下收K线订单块，以及该订单块开盘价与FVG重叠形成的PD array结构，成为后续上升的支撑区域。\",\"analysis_steps\":[\"Step 1: 识别日线重要水平——日线摆动低点（sellside liquidity）位于约15060水平。\",\"Step 2: 在5分钟图上确认价格触及该日线摆动低点，形成下收K线订单块。\",\"Step 3: 观察价格初次反弹力度不足，未能有效突破订单块高点，形成低位移。\",\"Step 4: 确认形成完整的下收K线（full-bodied down-close candle），为有效的订单块。\",\"Step 5: 价格再次下探并扫过摆动低点，形成扫盘（sweep）。\",\"Step 6: 价格突破订单块高点并产生位移（displacement），收盘在订单块上方。\",\"Step 7: 标记订单块开盘价（order block opening price）作为支撑水平。\",\"Step 8: 观察到订单块开盘价与下方FVG形成重叠的PD array结构。\",\"Step 9: 价格回测至订单块开盘价，wick触及FVG但body仍尊重订单块支撑。\",\"Step 10: 价格继续上升，确认订单块开盘价有效支撑价格向上运动。\"],\"outcome\":\"价格成功突破订单块并产生位移，随后回测至订单块开盘价获得支撑，继续上升。订单块与FVG的重叠形成强支撑区域，有效支撑价格上行。\",\"lessons\":\"下收K线订单块在扫盘后形成有效支撑；订单块开盘价与FVG重叠的PD array结构提供高概率支撑区域；价格需要产生充分位移并收盘在订单块上方才能确认反转；回测时wick可触及下方FVG但body应尊重订单块支撑。\",\"primary_image_frame_id\":\"7p9MBFk8EEM_f012\",\"supporting_image_frame_ids\":[\"7p9MBFk8EEM_f011\",\"7p9MBFk8EEM_f001\",\"7p9MBFk8EEM_f013\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Sweep\",\"PD array\",\"Liquidity\",\"Market Structure\",\"Support and Resistance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ5分钟案例的分析完整清晰，包括日线水平识别、订单块形成、扫盘、位移、支撑确认等全过程，关键价位和分析步骤都有明确说明。\"}",
+  "error": null
+}

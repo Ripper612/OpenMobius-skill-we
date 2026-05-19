@@ -1,0 +1,117 @@
+{
+  "card_id": "xdzyejskSKE_case_005_纳斯达克100的纽约反转与操纵",
+  "type": "case",
+  "title": "NQ纽约开盘8:30操纵反转与时间窗口交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Open High Low Close",
+      "card_id": "open_high_low_close",
+      "exists": true
+    },
+    {
+      "term": "Lower Timeframe Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "inducement",
+    "liquidity",
+    "market_structure_shift",
+    "killzone",
+    "open_high_low_close",
+    "smart_money_technique"
+  ],
+  "school": "ICT",
+  "asset": "NQ",
+  "timeframe": "15M",
+  "market_context": "纳斯达克100期货在2023年11月30日伦敦盘扫除前日高点后，进入纽约盘。博主预期形成Open High Low Close（OHLC）反转形态，看空后续走势。",
+  "key_observation": "8:30纽约开盘出现操纵上行（Manipulation），随后立即位移下跌（Displacement）并收低，形成典型的诱导反转信号。9:30继续延续下跌，扫除前期低点，完成OHLC形态。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别前一日收盘为看跌反转蜡烛，收在前日高点内部，预示看空偏见。",
+    "Step 2: 切换到15分钟图确认伦敦盘走势，发现伦敦扫除了前日高点（Liquidity sweep），未形成显著交易结构。",
+    "Step 3: 标记纽约开盘时间窗口（8:30、9:30、10:00），预期在这些时间点出现关键价格行动。",
+    "Step 4: 观察8:30出现的操纵上行蜡烛，识别其为诱导（Inducement），随后立即位移下跌并收低。",
+    "Step 5: 在15分钟图上标记8:30操纵点作为低时间框架订单块（Lower Timeframe Order Block），用于后续回测入场。",
+    "Step 6: 追踪9:30的延续下跌，确认扫除前期低点，验证OHLC形态完成。",
+    "Step 7: 观察价格回归到范围内部，确认交易设置的有效性和时间框架目标的达成。"
+  ],
+  "outcome": "价格按预期在8:30操纵后下跌，9:30继续延续，扫除前期低点，形成完整的OHLC反转形态，交易设置成功验证。",
+  "lessons": "时间窗口（Killzone）与操纵识别是关键：8:30纽约开盘的操纵上行是诱导交易者做多的陷阱，随后的位移下跌提供了高概率空头入场机会。低时间框架订单块可用于精确入场，而OHLC形态的完成确认了趋势反转的有效性。",
+  "primary_image": "cards/xdzyejskSKE/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/xdzyejskSKE/images/case_005_detail_1.jpg",
+    "cards/xdzyejskSKE/images/case_005_detail_2.jpg",
+    "cards/xdzyejskSKE/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从19:00至次日09:00的价格走势。可见价格范围约从10425至10050。图右侧标注有三个文字标签：0.50、0.00、NYD，对应价格约在10360至10330区间。最显著的特征是08:00至09:00期间出现一根大型黑色K线，下影线从约10050向下刺至10425，影线长度约为K线主体的3.75倍。此前19:00",
+    "case_005_detail_1.jpg": "NASDAQ-100 E-mini Futures 日线图。图上显示从第9根至第28根K线的交替绿黑蜡烛序列，绿色K线代表上升，黑色K线代表下降。图右侧有一条水平虚线和一个黄色圆形标记，位置约在16360.00价格水平。图上标注有矩形框围绕16045.00至16360.00的价格区间。右下角显示日期29/11/2023和时间16:11。图右上角标注用户名TTrades_Oku。可见价格范围从150",
+    "case_005_detail_2.jpg": "NQ（纳斯达克100 E-mini期货）15分钟K线图。图上显示从左侧高点约16480.00向下跳空至约16050.00的开盘缺口。随后K线形成多根小实体蜡烛，主要在16050.00至16350.00区间内波动。图中央有一根黄色高亮K线位于约16320.00水平。图上绘有两条水平虚线分别对应约16480.00和16050.00的价格水平。右侧标注显示时间为30/11 2023，合约为NQ11 15",
+    "case_005_detail_3.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图表显示从左侧约10475上升至右侧约18531的整体上升趋势。图上有两条水平虚线，分别位于18531.50和10451.50。右侧标注有两个文字标签'0.50'和'0.00'，位置约在18300至18100区间。时间戳显示30/11/2023，04:11 | 15S。K线序列中包含多根绿色和黑色蜡烛，右侧部分以绿色蜡烛为主，中间"
+  },
+  "sources": [
+    {
+      "video_id": "xdzyejskSKE",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.399,
+        726.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到15分钟的分析过程，清晰标注了8:30操纵点、时间窗口、价格水平，并追踪了完整的OHLC形态形成过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:29.324449Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ纽约开盘8:30操纵反转与时间窗口交易\",\"school\":\"ICT\",\"asset\":\"NQ\",\"timeframe\":\"15M\",\"market_context\":\"纳斯达克100期货在2023年11月30日伦敦盘扫除前日高点后，进入纽约盘。博主预期形成Open High Low Close（OHLC）反转形态，看空后续走势。\",\"key_observation\":\"8:30纽约开盘出现操纵上行（Manipulation），随后立即位移下跌（Displacement）并收低，形成典型的诱导反转信号。9:30继续延续下跌，扫除前期低点，完成OHLC形态。\",\"analysis_steps\":[\"Step 1: 在日线图上识别前一日收盘为看跌反转蜡烛，收在前日高点内部，预示看空偏见。\",\"Step 2: 切换到15分钟图确认伦敦盘走势，发现伦敦扫除了前日高点（Liquidity sweep），未形成显著交易结构。\",\"Step 3: 标记纽约开盘时间窗口（8:30、9:30、10:00），预期在这些时间点出现关键价格行动。\",\"Step 4: 观察8:30出现的操纵上行蜡烛，识别其为诱导（Inducement），随后立即位移下跌并收低。\",\"Step 5: 在15分钟图上标记8:30操纵点作为低时间框架订单块（Lower Timeframe Order Block），用于后续回测入场。\",\"Step 6: 追踪9:30的延续下跌，确认扫除前期低点，验证OHLC形态完成。\",\"Step 7: 观察价格回归到范围内部，确认交易设置的有效性和时间框架目标的达成。\"],\"outcome\":\"价格按预期在8:30操纵后下跌，9:30继续延续，扫除前期低点，形成完整的OHLC反转形态，交易设置成功验证。\",\"lessons\":\"时间窗口（Killzone）与操纵识别是关键：8:30纽约开盘的操纵上行是诱导交易者做多的陷阱，随后的位移下跌提供了高概率空头入场机会。低时间框架订单块可用于精确入场，而OHLC形态的完成确认了趋势反转的有效性。\",\"primary_image_frame_id\":\"xdzyejskSKE_f022\",\"supporting_image_frame_ids\":[\"xdzyejskSKE_f019\",\"xdzyejskSKE_f020\",\"xdzyejskSKE_f021\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Inducement\",\"Liquidity\",\"Market Structure Shift\",\"Killzone\",\"Open High Low Close\",\"Lower Timeframe Entry\",\"Smart Money Technique\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到15分钟的分析过程，清晰标注了8:30操纵点、时间窗口、价格水平，并追踪了完整的OHLC形态形成过程。\"}",
+  "error": null
+}

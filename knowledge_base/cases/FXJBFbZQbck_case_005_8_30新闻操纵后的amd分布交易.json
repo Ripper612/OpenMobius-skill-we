@@ -1,0 +1,109 @@
+{
+  "card_id": "FXJBFbZQbck_case_005_8_30新闻操纵后的amd分布交易",
+  "type": "case",
+  "title": "8:30新闻操纵后的ETH分布交易",
+  "related_concepts": [
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "power_of_3_amd",
+    "inducement",
+    "liquidity",
+    "order_block",
+    "box_setup"
+  ],
+  "school": "ICT",
+  "asset": "ETH/USD",
+  "timeframe": "5M",
+  "market_context": "伦敦盘末8:30美国经济数据新闻引发价格快速下跌操纵，随后纽约盘出现积累-操纵-派发(AMD)完整周期，最终触及前日高点约15380。",
+  "key_observation": "博主识别出8:30新闻造成的价格操纵(Manipulation)为积累-操纵-派发模式的中间阶段，预期后续应出现向前日高点的派发(Distribution)运动。",
+  "analysis_steps": [
+    "Step 1: 标记前日高点(Previous Day High)约15380作为目标流动性和派发目标。",
+    "Step 2: 观察伦敦盘在8:30新闻时出现向下操纵，价格从约15330跌至约15290。",
+    "Step 3: 识别操纵后的一系列下跌蜡烛(series of down close candles)，确认积累-操纵-派发模式的形成。",
+    "Step 4: 寻找入场机会，期望看到收盘低于8:30开盘价(Opening Price)的确认信号。",
+    "Step 5: 使用Box Setup方法计算风险回报比，设置止损在操纵区域下方约14950，目标在前日高点15380。",
+    "Step 6: 等待价格回测操纵区域(Retest of Manipulation)后向上扩展至派发目标。",
+    "Step 7: 确认价格最终触及并突破前日高点，完成AMD周期。"
+  ],
+  "outcome": "价格成功触及前日高点约15380，完成积累-操纵-派发周期，交易目标达成。",
+  "lessons": "AMD模式在新闻事件后的应用：识别操纵阶段的下跌蜡烛序列，结合前日高点作为派发目标，使用风险回报比优化入场和止损位置，可以捕捉从操纵到派发的完整运动。",
+  "primary_image": "cards/FXJBFbZQbck/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/FXJBFbZQbck/images/case_005_detail_1.jpg",
+    "cards/FXJBFbZQbck/images/case_005_detail_2.jpg",
+    "cards/FXJBFbZQbck/images/case_005_detail_3.jpg",
+    "cards/FXJBFbZQbck/images/case_005_detail_4.jpg",
+    "cards/FXJBFbZQbck/images/case_005_detail_5.jpg",
+    "cards/FXJBFbZQbck/images/case_005_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图为 USD 资产 5 分钟 K 线图，时间轴覆盖 01:30 至 15:00。图上可见三个矩形标注区域：绿色矩形覆盖约 07:00 至 08:00 时段、价格区间约 15320 至 15400；粉红色矩形覆盖约 08:00 至 08:30 时段、价格区间约 15290 至 15370；蓝色矩形覆盖约 08:30 至 09:30 时段、价格区间约 15320 至 15385。图上有一条贯穿全图的水",
+    "case_005_detail_1.jpg": "图表为 5M 蜡烛图，资产代码未明确显示，货币单位为 USD。图右侧有一个绿色矩形区域覆盖约 15018.00 至 15185.00 价格范围，标注目标价信息：Target 130.75（0.87%），Amount 200190.84。图右侧另有一个粉红色矩形区域覆盖约 14949.75 至 15018.00，标注止损信息：Stop 68.25（0.45%），Amount 199900。图中央弹出",
+    "case_005_detail_2.jpg": "图为 ETH/USD 1 分钟 K 线图，时间轴覆盖 10 月 9 日约 2:30 至次日 1:30。图上可见价格刻度范围约从 14880 至 15220。图中绘制有一个粉红色矩形区域，覆盖约 14960 至 15010 价格区间，横跨 07:30 至 12:00 时段；一个绿色（青色）矩形区域，覆盖约 15000 至 15390，横跨 09:00 至 13:30 时段；一个灰色矩形区域，覆盖约 ",
+    "case_005_detail_3.jpg": "图为标注资产代码 USD、时间框架 15M 的 K 线图，图右下角显示 ETH 和 B·ADJ 标签。可见价格范围约从 14800 到 15420。图上有一个浅色矩形区域覆盖约 15080 至 15100 区间，另有一条虚线水平线延伸至约 15220 处，连接右侧一个高亮黄色标记点。图中约 Oct 9 12:00 附近出现一段垂直上行的 K 线序列，随后多根 K 线在 15180 至 15240 ",
+    "case_005_detail_4.jpg": "ETH/USD 15 分钟 K 线图，时间范围覆盖 2023 年 10 月 10 日至 12 日。图右侧价格刻度显示可见范围约从 15120 到 15460。图上有两条水平线：一条位于约 15460 处延伸至图右侧，另一条位于约 15380 处并附有矩形标注框。当前价格标签显示 15280.50。K 线在 10 月 10 日 12:00 附近出现单根大幅上行，随后多根 K 线在约 15260 至 ",
+    "case_005_detail_5.jpg": "图表为 ETH/USD 15 分钟 K 线图，可见价格范围约从 15160 至 15520。图上有三条水平线：约 15460 处一条延伸至图右侧，约 15380 处一条带矩形框标注，约 15200 处一条位于图表下方区域。图右侧当前价格标签显示 15319.50。在时间轴 10 日 12:00 附近出现一根大阳线，从约 15200 上行至约 15380。此后 K 线在约 15280 至 15340",
+    "case_005_detail_6.jpg": "图表为 USD 日线蜡烛图，可见价格范围约从 14880 至 15720。图右侧价格轴当前高亮标签显示 15410.75。图上绘有四条水平线，分布在约 15410 至 15520 区间内。图上另有两个浅色矩形框标注：一个位于约 15400 至 15520 区间，另一个位于约 15040 至 15120 区间。时间轴覆盖 2023 年 8 月中旬至 12 月，K 线由绿色和黑色蜡烛组成。约 10 月"
+  },
+  "sources": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        554.92,
+        738.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了AMD周期的三个阶段，清晰标注了关键价位(8:30开盘价、前日高点)、操纵区域、入场逻辑和目标，图表帧清晰显示价格运动全过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:37.002630Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"8:30新闻操纵后的ETH分布交易\",\"school\":\"ICT\",\"asset\":\"ETH/USD\",\"timeframe\":\"5M\",\"market_context\":\"伦敦盘末8:30美国经济数据新闻引发价格快速下跌操纵，随后纽约盘出现积累-操纵-派发(AMD)完整周期，最终触及前日高点约15380。\",\"key_observation\":\"博主识别出8:30新闻造成的价格操纵(Manipulation)为积累-操纵-派发模式的中间阶段，预期后续应出现向前日高点的派发(Distribution)运动。\",\"analysis_steps\":[\"Step 1: 标记前日高点(Previous Day High)约15380作为目标流动性和派发目标。\",\"Step 2: 观察伦敦盘在8:30新闻时出现向下操纵，价格从约15330跌至约15290。\",\"Step 3: 识别操纵后的一系列下跌蜡烛(series of down close candles)，确认积累-操纵-派发模式的形成。\",\"Step 4: 寻找入场机会，期望看到收盘低于8:30开盘价(Opening Price)的确认信号。\",\"Step 5: 使用Box Setup方法计算风险回报比，设置止损在操纵区域下方约14950，目标在前日高点15380。\",\"Step 6: 等待价格回测操纵区域(Retest of Manipulation)后向上扩展至派发目标。\",\"Step 7: 确认价格最终触及并突破前日高点，完成AMD周期。\"],\"outcome\":\"价格成功触及前日高点约15380，完成积累-操纵-派发周期，交易目标达成。\",\"lessons\":\"AMD模式在新闻事件后的应用：识别操纵阶段的下跌蜡烛序列，结合前日高点作为派发目标，使用风险回报比优化入场和止损位置，可以捕捉从操纵到派发的完整运动。\",\"primary_image_frame_id\":\"FXJBFbZQbck_f024\",\"supporting_image_frame_ids\":[\"FXJBFbZQbck_f019\",\"FXJBFbZQbck_f020\",\"FXJBFbZQbck_f021\",\"FXJBFbZQbck_f022\",\"FXJBFbZQbck_f023\",\"FXJBFbZQbck_f025\"],\"related_concepts\":[\"Power of 3 / AMD\",\"Manipulation\",\"Distribution\",\"Liquidity\",\"Previous Day High\",\"Order Block\",\"Risk Management\",\"Box Setup\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了AMD周期的三个阶段，清晰标注了关键价位(8:30开盘价、前日高点)、操纵区域、入场逻辑和目标，图表帧清晰显示价格运动全过程。\"}",
+  "error": null
+}

@@ -1,0 +1,553 @@
+{
+  "card_id": "failure_swing",
+  "type": "merged_concept",
+  "canonical_term": "Failure Swing",
+  "aliases": [
+    "Failed High/Low",
+    "Failed Swing",
+    "堆积摆动",
+    "失败摆动",
+    "失败摇摆"
+  ],
+  "school": "ICT",
+  "definition": "价格未能创出新高或新低的摆动点。前一摆动高/低点未被突破或扫除，该区域形成低阻力流动性，价格倾向轻松穿过。在回撤阶段多见，可作为后续价格运动的目标区域，也可预示趋势动能减弱或结构转变。",
+  "identification_rules": [
+    "在上升趋势中，价格形成摆动高点但未能突破前一个摆动高点；在下降趋势中，价格形成摆动低点但未能突破前一个摆动低点",
+    "关键特征：该摆动点保持未被扫除（未被触及或穿过），与已被扫除的高阻力流动性区域相区别",
+    "失败摆动通常在缓慢浅层的回撤运动中形成，而非快速扩张阶段",
+    "多个失败摆动可排列成线或堆积（stacked highs/lows），标记出一个关键价格水平或低阻力流动性区域",
+    "相邻失败摆动点之间缺乏有效分离度（Valid Separation），距离过近，不足以作为可信的独立反转点",
+    "可在多个时间框架上识别，遵循分形原理；高时间框架K线不重叠可辅助确认",
+    "失败摆动常伴随市场结构转变（MSS）或交付状态改变（CSD）信号出现",
+    "在Power of 3（积累-操纵-派发）模式中，失败摆动常作为派发阶段的目标区域",
+    "看跌情形：识别摆动高点后，价格形成未能超越该高点的次级高点，然后反向下行；看涨情形：识别摆动低点后，价格形成未能跌破该低点的次级低点，然后反向上行"
+  ],
+  "trading_implication": "失败摆动形成低阻力流动性目标，价格倾向轻松穿过而不停留，可作为利润目标或目标价位链。交易者应在高时间框架识别失败摆动，在低时间框架寻找入场点，等待价格扫除失败摆动流动性后再寻找反向入场机会。失败摆动不应单独作为反转入场点，需结合FVG、OB、MSS等结构确认。失败摆动被扫除后，低阻力流动性消失，交易机会随之减少。",
+  "common_mistakes": [
+    "将失败摆动误认为强支撑或阻力，实际上价格倾向轻松穿过",
+    "混淆失败摆动（低阻力流动性，未被扫除）与高阻力流动性（已被扫除的摆动点），导致目标选择错误",
+    "未能区分失败摆动与受保护摆动（Protected Swing）的不同用途",
+    "将所有摆动高低点都视为失败摆动，忽视其必须在回撤中形成的上下文",
+    "在没有扫除失败摆动流动性的情况下就入场，导致被诱导（Inducement）",
+    "在失败摆动处期望形成反转并过早入场，未等待突破确认",
+    "在失败摆动堆积区域设置止损，容易被市场操纵触发",
+    "未在多时间框架中验证失败摆动的有效性，导致虚假目标",
+    "在失败摆动已被扫除后仍将其作为交易目标，导致风险回报比不佳",
+    "将失败摆动与市场结构转变（MSS）混淆；失败摆动不需要突破前一个有效摆动点",
+    "将失败摆动与Breaker Block混淆——Breaker需要扫除高点后才形成，而失败摆动是未能创出新高",
+    "忽视失败摆动与其他结构信号（如CSD、OB、FVG）的配合，单独使用容易产生虚假信号",
+    "在高时间框架存在失败摆动时，在低时间框架交易反向方向"
+  ],
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Relevant Swing",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Valid Separation",
+      "card_id": "valid_separation",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Precision Swing Point",
+      "card_id": "precision_swing_point",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Ranges",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Candle 3",
+      "card_id": "candle_3",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "2lIaRUtJqpU_case_001_纳斯达克期货15分钟看跌交易",
+      "video_id": "2lIaRUtJqpU",
+      "title": "纳斯达克期货15分钟看跌交易：低阻力流动性目标验证"
+    },
+    {
+      "card_id": "2lIaRUtJqpU_case_002_英镑美元日线连续失败摇摆分析",
+      "video_id": "2lIaRUtJqpU",
+      "title": "英镑美元日线连续失败摇摆与低阻力流动性分析"
+    },
+    {
+      "card_id": "2lIaRUtJqpU_case_003_纳斯达克期货5分钟和1分钟多时间框架交易",
+      "video_id": "2lIaRUtJqpU",
+      "title": "纳斯达克期货5分钟和1分钟多时间框架交易"
+    },
+    {
+      "card_id": "3eVxTV_7L2U_case_011_rty小型罗素指数完整顶部到底部交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RTY日线顶部失败操纵到4H CSD确认，30分钟FVG与YM SMT联动，1分钟V形反转入场"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_001_黄金期货_gc_周线至小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "黄金期货(GC)周线看跌至小时线2R获利交易"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_004_btc日线至4小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "日线看跌后上移4小时线寻找清晰V形反转交易"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_003_es_5分钟多头案例_日线fvg目标",
+      "video_id": "AdmnWLjf8rY",
+      "title": "ES 5分钟多头案例：日线FVG目标的入场与止盈"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_004_es_5分钟空头案例_伦敦会话扫盘",
+      "video_id": "AdmnWLjf8rY",
+      "title": "ES 5分钟空头案例：伦敦会话扫盘后的drawn liquidity狙击"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_002_eurusd_5分钟空头设置失败案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "EURUSD 5分钟空头设置失败案例"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_004_eurusd_5分钟多头交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "EURUSD 5分钟多头交易：盘整扫低后FVG回撤进场"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_002_nq日线多日低点未扫除的流动性分析",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线多日低点未扫除的低阻力流动性分析"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_003_nq日线范围交易中的高低阻力识别",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线范围交易中的高低阻力识别"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_004_nq日线上升趋势中的流动性扫除与反应",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线上升趋势中的流动性扫除与失败摆动分析"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_005_nq与es的smt分歧及低阻力流动性追踪",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ高阻力流动性与ES低阻力低点序列的SMT分歧交易"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_001_xagusd日线相关摆动点识别与反应",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGUSD日线堆积低点中的相关摆动点识别与价格反应"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_002_原油日线失败摆动与相关摆动点的构建",
+      "video_id": "HbOeD_JVens",
+      "title": "原油日线失败摆动与堆积低点的交易目标识别"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_003_xageur日线反转与目标位置确认",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGEUR日线反转确认与失败摆动堆积目标"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_005_gch日线有效分离度判断与反转确认",
+      "video_id": "HbOeD_JVens",
+      "title": "GCH日线有效分离度判断与反转确认"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_002_原油期货_cl_看涨操纵案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "原油期货CL看涨操纵案例：伦敦失败摆动后纽约扫荡折价区入场"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_003_原油期货_cl_范围突破案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "原油期货CL日内范围突破与CSD交易案例"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_007_fvg回测后的多层级wick分析",
+      "video_id": "LKNQDAdId4s",
+      "title": "日线wick的0.5位置在多时间框架上的回测与扩展分析"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_008_原油_cl_多时间框架wick分析",
+      "video_id": "LKNQDAdId4s",
+      "title": "原油(CL)多时间框架wick 0.5位置尊重分析"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_003_多时段amd案例_亚洲_伦敦_纽约",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "NQ11多时段AMD模式：亚洲积累-伦敦操纵-纽约派发"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_003_原油日线范围交易案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "原油日线范围交易：失败摇摆反转与目标设定"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_004_黄金15分钟多重反转扩张案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "黄金15分钟多重反转扩张案例"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_002_5_分钟图中的失败摆动与派发",
+      "video_id": "TCFvsZeYvV8",
+      "title": "5分钟图中的失败摆动与派发交易设置"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_005_黄金第五个交易案例_复杂结构做空",
+      "video_id": "TNybDCtwBnc",
+      "title": "黄金日线扫高点后小时线CSD确认，5分钟线等待CSD后做空"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_001_gbpusd_1小时图的mitigation_block交易",
+      "video_id": "bbWPoajy2MY",
+      "title": "GBPUSD 1小时图的两个Mitigation Block案例分析"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_002_ym与nq的smt确认案例",
+      "video_id": "bbWPoajy2MY",
+      "title": "YM与NQ的SMT确认：Mitigation Block高概率交易"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_003_usd日线盘整突破案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GLL日线盘整突破后流动性枯竭案例"
+    },
+    {
+      "card_id": "ubCe509_JLY_case_003_道琼斯30分钟到3分钟的纽约会话反转",
+      "video_id": "ubCe509_JLY",
+      "title": "道琼斯30分钟到3分钟纽约会话反转交易"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_005_rty_5分钟图双向投影与获利管理",
+      "video_id": "upHS7SDL9kg",
+      "title": "RTY 5分钟双向投影与获利管理实战"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_001_轻质原油期货的纽约反转案例",
+      "video_id": "xdzyejskSKE",
+      "title": "轻质原油期货纽约反转：高时间框架位触及与流动性扫荡"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_002_虚假伦敦反转与真实纽约反转",
+      "video_id": "xdzyejskSKE",
+      "title": "虚假伦敦反转与真实纽约反转的区分"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "original_card_id": "1YRs4Z1lMws_concept_failure_swing",
+      "segment_ids": [
+        "seg_015",
+        "seg_016",
+        "seg_017"
+      ],
+      "time_range": [
+        577.04,
+        673.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "2lIaRUtJqpU",
+      "original_card_id": "2lIaRUtJqpU_concept_failure_swing",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        496.819
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_failure_swing",
+      "segment_ids": [
+        "seg_008",
+        "seg_009",
+        "seg_013"
+      ],
+      "time_range": [
+        514.56,
+        934.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_failure_swing",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        11.12,
+        357.84000000000003
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FGkb_50BfT8",
+      "original_card_id": "FGkb_50BfT8_concept_failure_swing",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.719,
+        193.599
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_failure_swing",
+      "segment_ids": [
+        "seg_006",
+        "seg_010"
+      ],
+      "time_range": [
+        214.959,
+        443.039
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_failure_swing",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_006",
+        "seg_007",
+        "seg_009"
+      ],
+      "time_range": [
+        10.88,
+        681.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_failure_swing",
+      "segment_ids": [
+        "seg_013",
+        "seg_014",
+        "seg_017",
+        "seg_018",
+        "seg_020",
+        "seg_026"
+      ],
+      "time_range": [
+        561.92,
+        1319.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_failure_swing",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        291.84000000000003,
+        375.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TNybDCtwBnc",
+      "original_card_id": "TNybDCtwBnc_concept_failure_swing",
+      "segment_ids": [
+        "seg_021"
+      ],
+      "time_range": [
+        954.079,
+        983.199
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "bbWPoajy2MY",
+      "original_card_id": "bbWPoajy2MY_concept_failure_swing",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.44,
+        368.8
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_failure_swing",
+      "segment_ids": [
+        "seg_010",
+        "seg_011",
+        "seg_014"
+      ],
+      "time_range": [
+        473.199,
+        703.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "nWHint4Yano",
+      "original_card_id": "nWHint4Yano_concept_failure_swing",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        243.04,
+        283.6
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 13,
+    "source_videos": 13,
+    "high_confidence_sources": 12,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:33.945091Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action', 'SMC']",
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "13张卡school分布：ICT 7张、SMC 4张、Price Action 1张。按多数选ICT。注意：3eVxTV_7L2U中的Failure Swing含义偏向SMT跨资产背离，与其他卡的单资产未创新高/低定义存在语义差异，已纳入identification_rules但标注为特殊情形。",
+  "error": null
+}

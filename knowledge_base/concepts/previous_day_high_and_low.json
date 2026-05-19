@@ -1,0 +1,52 @@
+{
+  "card_id": "previous_day_high_and_low",
+  "type": "merged_concept",
+  "canonical_term": "Previous Day High and Low",
+  "aliases": [
+    "前一交易日高低点",
+    "昨日高低"
+  ],
+  "school": "ICT",
+  "definition": "前一个交易日形成的最高价和最低价水平。用于标记关键流动性位置，可作为价格反转框架、流动性吸引目标或交易目标位。",
+  "identification_rules": [
+    "在日线图上识别前一个完整交易日的最高点和最低点",
+    "在较低时间框架（如4小时、1小时）上绘制水平线标记这两个价格水平",
+    "观察价格是否接近、触及或突破这些水平"
+  ],
+  "trading_implication": "Previous Day High and Low是重要的流动性标记，用于多个目的：(1)框架反转——当价格在日内波动后接近这些水平时，可能形成反转；(2)流动性吸引——价格可能被吸引至这些水平以扫荡订单；(3)交易目标——在建立头寸后，可将Previous Day High/Low作为获利目标或下一个关键阻力/支撑位。",
+  "common_mistakes": [
+    "材料未明确提及常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "U8xH2dEgH5A",
+      "original_card_id": "U8xH2dEgH5A_concept_previous_day_high_and_low",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        254.58,
+        586.82
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134934Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

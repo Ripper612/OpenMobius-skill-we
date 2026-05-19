@@ -1,0 +1,303 @@
+{
+  "card_id": "ote_optimal_trade_entry",
+  "type": "merged_concept",
+  "canonical_term": "OTE (Optimal Trade Entry)",
+  "aliases": [
+    "OTE of a range",
+    "Optimal Trade Entry",
+    "最优交易入场",
+    "最优交易入场点",
+    "最优入场点",
+    "高概率入场区域"
+  ],
+  "school": "ICT",
+  "definition": "在位移腿或冲动腿的高低点上应用斐波那契回撤（关键水平：0.5、0.618、0.625、0.705、0.786），在折价区（做多）或溢价区（做空）内与FVG、订单块等PD数组重叠处识别的高概率入场区域，需结合高时间框架结构确认，并在低时间框架寻找具体触发信号。",
+  "identification_rules": [
+    "识别一个完整的位移腿或冲动腿，确定其起点（低点或高点）和终点（高点或低点）",
+    "从该腿的起点到终点应用斐波那契回撤工具，重点关注0.5、0.618、0.625、0.705、0.786等关键水平",
+    "确定当前交易范围（Dealing Range）的高低点，以0.5均衡位为界划分折价区（下方）和溢价区（上方）；做多在折价区寻找OTE，做空在溢价区寻找OTE",
+    "OTE区域须与FVG、订单块（OB）或其他PD数组元素重叠，形成多重汇聚确认",
+    "在高时间框架（如4小时、1小时）标记OTE区域后，切换至低时间框架（如15分钟、5分钟、1分钟）在该区域内寻找具体入场信号（如位移、FVG、K线反转形态或市场结构转变）",
+    "确认价格尚未在兴趣点内收盘（即该区域未被有效扫除），且OTE同时处于多个结构层级的折价/溢价区内",
+    "验证OTE区域到止损位的风险与到第一目标的收益之间具有合理的风险回报比"
+  ],
+  "trading_implication": "OTE是从高时间框架宏观偏差精化到低时间框架微观执行的桥接入场工具。先在高时间框架确认位移范围、主要目标区域及折价/溢价方向，再在低时间框架等待价格回测至OTE区域并出现FVG、OB或位移等触发信号后入场。错过第一个OTE可在后续回撤中寻找第二、第三个机会。OTE亦可作为反向交易的目标或止盈区域。",
+  "common_mistakes": [
+    "未从完整的位移腿或冲动腿计算斐波那契回撤，导致OTE区域定位不准确",
+    "未在高时间框架确认位移范围、折价/溢价区及主要目标，直接在低时间框架寻找入场",
+    "在溢价区做多或在折价区做空，方向与OTE原理相反",
+    "忽视OTE与FVG、订单块等PD数组的汇聚验证，单独依赖斐波那契水平入场",
+    "在价格已收盘于兴趣点内（区域被有效扫除）时仍入场",
+    "未等待低时间框架出现明确的入场信号（如位移、FVG或结构破坏）便在OTE区域仓促入场",
+    "在未确认市场结构转变（MSS）前就在OTE处入场，导致虚假信号",
+    "错过初级入场后放弃交易，未能识别次级OTE机会",
+    "将OTE与FVG混淆：OTE是基于斐波那契水平划定的区域，FVG是具体的价格缺口结构",
+    "将过大的价格区域视为单一OTE，导致入场点不够精确"
+  ],
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Dealing Range",
+      "card_id": "dealing_range",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF (High/Low Time Frame)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Impulse Leg",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower High Formation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_001_nq1日线看跌ote案例",
+      "video_id": "1YRs4Z1lMws",
+      "title": "NQ1日线看跌OTE案例：从摆动高低点绘制斐波那契寻找空头入场"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_002_ym1日线看涨ote案例",
+      "video_id": "1YRs4Z1lMws",
+      "title": "YM1日线看涨OTE案例：FVG与订单块汇聚的多重确认"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_003_eurusd日线到小时级联ote分析",
+      "video_id": "1YRs4Z1lMws",
+      "title": "EURUSD日线到小时级联OTE分析"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_005_es日线周度目标到5分钟ote执行",
+      "video_id": "1YRs4Z1lMws",
+      "title": "ES日线周度目标到5分钟OTE最优入场执行"
+    },
+    {
+      "card_id": "A8UpRZlRzlg_case_004_纳指100迷你期货看涨bpr案例",
+      "video_id": "A8UpRZlRzlg",
+      "title": "纳指100迷你期货看涨BPR形成与做多入场"
+    },
+    {
+      "card_id": "PlZD45uLPjE_case_001_标普500_1小时线seek_and_destroy模式分析",
+      "video_id": "PlZD45uLPjE",
+      "title": "标普500 1小时线Seek and Destroy模式识别与交易入场"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_004_15秒级别bpr内的激进做空与反向做多",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "15秒BPR内激进做空转向做多的快速调整"
+    },
+    {
+      "card_id": "yq4Z7q4E6nU_case_002_ote区域交易与5分钟精确入场案例",
+      "video_id": "yq4Z7q4E6nU",
+      "title": "1小时OTE区域多时间框架精确入场与4R获利案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "A8UpRZlRzlg",
+      "original_card_id": "A8UpRZlRzlg_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.72,
+        338.68
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "CAuN4tvLInQ",
+      "original_card_id": "CAuN4tvLInQ_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        182.66,
+        350.78
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Zm2oKad3Tb8",
+      "original_card_id": "Zm2oKad3Tb8_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.96,
+        237.159
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "_94CPMjWi9E",
+      "original_card_id": "_94CPMjWi9E_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        184.319,
+        363.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "hh_kKK4Fhrw",
+      "original_card_id": "hh_kKK4Fhrw_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.799,
+        368.58
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ivirRu3fc4o",
+      "original_card_id": "ivirRu3fc4o_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.12,
+        355.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wDXTIDbIMwU",
+      "original_card_id": "wDXTIDbIMwU_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        189.18,
+        367.08
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        192.959,
+        371.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xvqsLTpmpsI",
+      "original_card_id": "xvqsLTpmpsI_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        7.099,
+        368.039
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 9,
+    "source_videos": 9,
+    "high_confidence_sources": 9,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:03.734139Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "9张原始卡均标注ICT，school无冲突。斐波那契关键水平各卡略有差异（0.5/0.618/0.625/0.705/0.786），已全部保留于识别规则中。",
+  "error": null
+}

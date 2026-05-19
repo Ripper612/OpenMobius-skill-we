@@ -1,0 +1,94 @@
+{
+  "card_id": "3eVxTV_7L2U_case_010_rbob汽油继续psp与目标追踪",
+  "type": "case",
+  "title": "RBOB汽油小时图继续PSP确认目标开放",
+  "related_concepts": [
+    {
+      "term": "PSP (Pullback, Structure, Pattern)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Continuation vs Reversal",
+      "card_id": "continuation_vs_reversal",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Target",
+      "card_id": "higher_time_frame_target",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "market_structure",
+    "continuation_vs_reversal",
+    "higher_time_frame_target"
+  ],
+  "school": "ICT",
+  "asset": "RB1!",
+  "timeframe": "1H",
+  "market_context": "RBOB汽油期货在形成日内低点后，小时图表现出继续PSP结构，表明上行目标仍然开放，市场处于延续阶段而非反转阶段。",
+  "key_observation": "小时图形成的PSP是继续型而非反转型，因为上方目标流动性仍未被触及。这意味着任何对立流动性的PSP都应用于继续交易，而非反转交易。",
+  "analysis_steps": [
+    "Step 1: 在30分钟图表上观察到公允价值缺口（FVG）和价格结构",
+    "Step 2: 切换至1小时图表，识别形成的PSP结构",
+    "Step 3: 确认上方目标流动性仍然开放，判断PSP为继续型而非反转型",
+    "Step 4: 理解继续PSP的含义——对立流动性的PSP不应作为反转信号使用",
+    "Step 5: 下钻至低时间框架（30分钟）寻找实际反转入场点",
+    "Step 6: 记录理想入场位置在反转点，但因未在图表前错过该机会"
+  ],
+  "outcome": null,
+  "lessons": "继续PSP与反转PSP的区别至关重要：当目标流动性仍开放时，PSP应用于确认继续交易至高时间框架目标，而非作为反转信号。这避免了在延续阶段被虚假反转信号止损出局。",
+  "primary_image": "cards/3eVxTV_7L2U/images/case_010_primary.jpg",
+  "supporting_images": [
+    "cards/3eVxTV_7L2U/images/case_010_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_010_primary.jpg": "图表为 RB1!（RBOB Gasoline Futures）1 小时 K 线图，来自 NYMEX，可见价格范围约从 1.9100 至 2.0050。图上有一条水平线位于约 1.9850 处，横跨图表中部至右侧。图中央区域有一个矩形标注框，覆盖约 1.9450 至 1.9650 的价格区间，包含多根 K 线。图右侧有一根长实体上涨 K 线，顶部延伸至约 1.9950 至 2.0000 区域。图右侧",
+    "case_010_detail_1.jpg": "图表为 RB1!（RBOB Gasoline Futures）30 分钟 K 线图，来自 NYMEX，使用 Replay 模式。可见价格范围约从 1.9280 至 1.9840。图上有两条水平线，分别位于约 1.9500 和 1.9600 附近。图左中部有一个矩形标注，覆盖约 1.9390 至 1.9600 区间。图右侧出现一根较长的 K 线，高点约达 1.9840，随后数根 K 线下行至约 1."
+  },
+  "sources": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "segment_ids": [
+        "seg_028"
+      ],
+      "time_range": [
+        1656.64,
+        1700.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了PSP的识别、继续型判断标准、目标确认逻辑，并展示了两个时间框架的图表对比。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:22:42.866265Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"RBOB汽油小时图继续PSP确认目标开放\",\"school\":\"ICT\",\"asset\":\"RB1!\",\"timeframe\":\"1H\",\"market_context\":\"RBOB汽油期货在形成日内低点后，小时图表现出继续PSP结构，表明上行目标仍然开放，市场处于延续阶段而非反转阶段。\",\"key_observation\":\"小时图形成的PSP是继续型而非反转型，因为上方目标流动性仍未被触及。这意味着任何对立流动性的PSP都应用于继续交易，而非反转交易。\",\"analysis_steps\":[\"Step 1: 在30分钟图表上观察到公允价值缺口（FVG）和价格结构\",\"Step 2: 切换至1小时图表，识别形成的PSP结构\",\"Step 3: 确认上方目标流动性仍然开放，判断PSP为继续型而非反转型\",\"Step 4: 理解继续PSP的含义——对立流动性的PSP不应作为反转信号使用\",\"Step 5: 下钻至低时间框架（30分钟）寻找实际反转入场点\",\"Step 6: 记录理想入场位置在反转点，但因未在图表前错过该机会\"],\"outcome\":null,\"lessons\":\"继续PSP与反转PSP的区别至关重要：当目标流动性仍开放时，PSP应用于确认继续交易至高时间框架目标，而非作为反转信号。这避免了在延续阶段被虚假反转信号止损出局。\",\"primary_image_frame_id\":\"3eVxTV_7L2U_f056\",\"supporting_image_frame_ids\":[\"3eVxTV_7L2U_f055\"],\"related_concepts\":[\"PSP (Pullback, Structure, Pattern)\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Market Structure\",\"Continuation vs Reversal\",\"Higher Time Frame Target\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了PSP的识别、继续型判断标准、目标确认逻辑，并展示了两个时间框架的图表对比。\"}",
+  "error": null
+}

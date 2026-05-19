@@ -1,0 +1,87 @@
+{
+  "card_id": "sgAnVR6RSDg_case_005_低时间框架反转与高时间框架回撤的区别",
+  "type": "case",
+  "title": "5分钟结构转变实为小时图FVG回撤",
+  "related_concepts": [
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF (High/Low Time Frame)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "PD array (Premium/Discount Array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "order_block_ob",
+    "retracement"
+  ],
+  "school": "ICT",
+  "asset": "HCL11",
+  "timeframe": "5M (with 1H context)",
+  "market_context": "2024年1月25日，HCL11在5分钟图上形成低点后上升，在约76.67处形成较高点。价格随后回撤，在5分钟图上出现结构转变信号，但这实际上是对更高时间框架（小时图）公允价值缺口的回撤。",
+  "key_observation": "5分钟图上看似的结构转变（lower high形成后下跌）实际上只是小时图FVG内的回撤，而非真正的反转。跟随高时间框架趋势比低时间框架结构转变更可靠。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上观察到价格形成lower high（约76.67），预期如果继续下跌应该跌破之前的低点。",
+    "Step 2: 价格继续上升并突破了第一个高点，这与预期的下跌方向相反。",
+    "Step 3: 切换到小时图查看更高时间框架的结构，发现存在一个小时级别的FVG（公允价值缺口）。",
+    "Step 4: 回到5分钟图对比分析，发现5分钟的结构转变实际上发生在小时图FVG区域内。",
+    "Step 5: 得出结论：5分钟的回撤失败是因为它违背了高时间框架的上升趋势，价格最终继续向上填补小时图FVG并突破高点。"
+  ],
+  "outcome": "价格突破了第一个高点（约76.67），继续上升，验证了跟随高时间框架趋势的正确性。",
+  "lessons": "低时间框架的结构转变信号需要用高时间框架验证。当LTF信号与HTF趋势相悖时，HTF趋势优先级更高。在高时间框架PD array（如FVG）内的LTF回撤往往会失败，应该预期价格继续沿HTF方向运行。",
+  "primary_image": "cards/sgAnVR6RSDg/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/sgAnVR6RSDg/images/case_005_detail_1.jpg",
+    "cards/sgAnVR6RSDg/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 5分钟K线图，时间范围为2024年1月25日07:00至20:00。图上显示价格范围从75.60至76.95。图表包含多根绿色和黑色K线交替出现。图上有两条水平线分别位于约76.00和76.50价格水平。三个矩形框标注了特定的价格区域。文字标签'HYO'标记在76.70附近，'8:30'和'5:30'分别标记在图表的不同时间位置。右侧显示当前价格为75.87。",
+    "case_005_detail_1.jpg": "USD 5分钟K线图，时间范围从04:00至16:00。图上显示价格范围约75.65至76.95。K线由绿色和黑色蜡烛组成，均带有上下影线。图上有两处文字标注：NYO标注在约76.67价格水平，8:30标注在约75.30价格水平。另有两个粉红色圆形标记分别位于约76.65和75.50处。左下角显示日期和合约信息'25/1/2024 HCL11 | 5M'。整体K线形态显示早期盘整，随后出现上升、下",
+    "case_005_detail_2.jpg": "USD 5分钟K线图，时间范围从04:00至18:00。图上可见价格范围约75.50至77.09。三条水平线分别位于76.21、76.45和76.60处。图中标注有'HYD'、'8:30'、'25/1/2024'、'HCL11'等文字标签。K线主体呈绿色和黑色交替排列，最右侧K线（16:00）为绿色主体。图上有一个黄色十字标记位于约09:00时刻的76.25价格附近。"
+  },
+  "sources": [
+    {
+      "video_id": "sgAnVR6RSDg",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        762.639,
+        840.759
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟和小时图对比分析，清晰说明了LTF结构转变与HTF回撤的区别，资产、时间框架、价格水平、分析步骤均明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:13.068270Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"5分钟结构转变实为小时图FVG回撤\",\"school\":\"ICT\",\"asset\":\"HCL11\",\"timeframe\":\"5M (with 1H context)\",\"market_context\":\"2024年1月25日，HCL11在5分钟图上形成低点后上升，在约76.67处形成较高点。价格随后回撤，在5分钟图上出现结构转变信号，但这实际上是对更高时间框架（小时图）公允价值缺口的回撤。\",\"key_observation\":\"5分钟图上看似的结构转变（lower high形成后下跌）实际上只是小时图FVG内的回撤，而非真正的反转。跟随高时间框架趋势比低时间框架结构转变更可靠。\",\"analysis_steps\":[\"Step 1: 在5分钟图上观察到价格形成lower high（约76.67），预期如果继续下跌应该跌破之前的低点。\",\"Step 2: 价格继续上升并突破了第一个高点，这与预期的下跌方向相反。\",\"Step 3: 切换到小时图查看更高时间框架的结构，发现存在一个小时级别的FVG（公允价值缺口）。\",\"Step 4: 回到5分钟图对比分析，发现5分钟的结构转变实际上发生在小时图FVG区域内。\",\"Step 5: 得出结论：5分钟的回撤失败是因为它违背了高时间框架的上升趋势，价格最终继续向上填补小时图FVG并突破高点。\"],\"outcome\":\"价格突破了第一个高点（约76.67），继续上升，验证了跟随高时间框架趋势的正确性。\",\"lessons\":\"低时间框架的结构转变信号需要用高时间框架验证。当LTF信号与HTF趋势相悖时，HTF趋势优先级更高。在高时间框架PD array（如FVG）内的LTF回撤往往会失败，应该预期价格继续沿HTF方向运行。\",\"primary_image_frame_id\":\"sgAnVR6RSDg_f027\",\"supporting_image_frame_ids\":[\"sgAnVR6RSDg_f026\",\"sgAnVR6RSDg_f028\"],\"related_concepts\":[\"FVG (Fair Value Gap)\",\"Market Structure Shift (MSS)\",\"HTF / LTF (High/Low Time Frame)\",\"PD array (Premium/Discount Array)\",\"Order Block (OB)\",\"Retracement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟和小时图对比分析，清晰说明了LTF结构转变与HTF回撤的区别，资产、时间框架、价格水平、分析步骤均明确。\"}",
+  "error": null
+}

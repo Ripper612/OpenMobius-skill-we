@@ -1,0 +1,114 @@
+{
+  "card_id": "5fnFOh5YuM0_case_002_eth多时间框架延续交易",
+  "type": "case",
+  "title": "ETH多时间框架延续交易：日线摆动确认到1H和5M入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount Array (PD array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Opposing Candles",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "short_term_high_short_term_low",
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "displacement",
+    "change_in_the_state_of_delivery",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ETHUSDT",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "ETH日线形成摆动低点后，博主通过多时间框架联动分析，在1小时和5分钟时间框架上识别公允价值缺口和订单块，进行两次入场尝试，最终达成2R目标。",
+  "key_observation": "日线确认摆动低点（两侧各有更高的低点）后，博主在1小时图上寻找上半部分K线形成的延续信号，通过5分钟时间框架精确定位FVG和订单块作为入场点。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别整理区间，价格突破整理高点后快速跌破整理低点，形成高时间框架反转信号（expansion into lows, expansion back out）。",
+    "Step 2: 等待日线确认摆动低点，要求低点两侧各有更高的低点，并观察日线收盘是否穿过前期下跌K线。",
+    "Step 3: 日线确认后，在1小时图上寻找上半部分K线形成的延续，预期该区域应该是支撑位。",
+    "Step 4: 在1小时图上观察伦敦时段（London）的回测，确认低点是否被持有，寻找一系列对立K线（opposing candles）作为支撑确认。",
+    "Step 5: 下探到5分钟时间框架，寻找PD array（公允价值缺口或订单块）作为第一次入场点，设置止损在K线实体低点。",
+    "Step 6: 如果第一次入场被错过，在价格进入PD array时寻找第二次延续入场机会，同样设置止损在实体低点。",
+    "Step 7: 目标设定为2R，观察价格是否达成目标并形成扩张走势。"
+  ],
+  "outcome": "价格成功达成2R目标。第一次入场机会在5分钟图上的FVG区域，价格回测该区域后向上扩张；第二次延续入场在价格穿过对立K线后形成，最终两次入场都达成了2倍风险回报的目标。",
+  "lessons": "多时间框架联动的关键是：(1)在高时间框架（日线）确认摆动点和市场结构；(2)在中时间框架（1小时）验证延续信号和支撑位；(3)在低时间框架（5分钟）精确定位FVG/OB作为入场点。错过第一次入场不必沮丧，延续入场同样有效，关键是严格遵守止损和目标设置。",
+  "primary_image": "cards/5fnFOh5YuM0/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/5fnFOh5YuM0/images/case_002_detail_1.jpg",
+    "cards/5fnFOh5YuM0/images/case_002_detail_2.jpg",
+    "cards/5fnFOh5YuM0/images/case_002_detail_3.jpg",
+    "cards/5fnFOh5YuM0/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为 ETH 1 小时 K 线图。图上可见多条水平线，分别位于约 2959、2880、2840、2780 及 2460 价格区域。图中部有一个矩形框标注区域，覆盖约 2840 至 2880 之间的价格范围，对应约 8 至 10 根 K 线的横向整理区间。图右侧出现一根体积较大的黑色 K 线，价格范围约从 2640 下探至 2510，其后跟随数根绿色 K 线向上延伸至约 2880 附近。图中央有一",
+    "case_002_detail_1.jpg": "图表为日线（D）蜡烛图，左侧价格刻度范围约从 2242 至 3008。图上绘有一个矩形框，覆盖约 8 至 10 根 K 线，价格区间约在 2856 至 2984 之间。矩形右侧紧接一根大阴线，实体跨度约为 2856 至 2984。图右半部分可见多根带有较长上下影线的 K 线，分布于约 2700 至 2900 区间。图上有一条黄色十字光标位于约 2984 处，并伴有一条虚线水平延伸至左侧价格轴，左侧",
+    "case_002_detail_2.jpg": "日线K线图，右侧价格轴刻度范围约从2.0至3.0。图上有一条贯穿全图的水平虚线，位于约2.389处，右侧价格轴对应高亮标签。图上可见两个矩形框标注：左侧矩形框覆盖价格区间约2.389至2.7；右侧矩形框覆盖价格区间约2.9至3.1。图中央附近有一根大实体黑色K线，实体从约2.9延伸至约2.45。图左侧可见多根绿色与黑色K线交替排列。当前K线附近有黄色圆形标记及垂直虚线，时间轴标注显示Mon 10 ",
+    "case_002_detail_3.jpg": "图为 ETH 1 小时 K 线图，左侧价格刻度范围约从 3500 至 3982。图中可见两条水平虚线，分别位于约 3844 和约 3800 附近。图中部偏右区域出现一根大阳线与一根大阴线并排，主体均较长。大阳线与大阴线之间价格区间约为 3500 至 3840。右侧最新数根 K 线主体位于 3780 至 3840 区间内，其中一根小阳线位于约 3840 附近。图左下角标注有\"TV PRO\"文字。图上",
+    "case_002_detail_4.jpg": "ETH 5 分钟 K 线图，可见价格范围约从 2934 至 2966。图上绘有多条水平线，分别位于约 2955.5、2944 及 2938 附近。图右侧区域有一个矩形标注，覆盖约 2944 至 2955.5 的价格区间。图右侧可见一根较长的绿色 K 线，其后紧跟一根黑色 K 线及一根较小的绿色 K 线。图中部可见多根 K 线在约 2944 至 2960 区间内横向排列。黄色十字光标位于约 2948"
+  },
+  "sources": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        369.319,
+        726.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线摆动确认、1小时支撑验证、5分钟FVG入场的全过程，两次入场尝试和2R目标都清晰可见，关键价位和时间框架均从图表和讲解中明确读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:26:44.558978Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH多时间框架延续交易：日线摆动确认到1H和5M入场\",\"school\":\"ICT\",\"asset\":\"ETHUSDT\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"ETH日线形成摆动低点后，博主通过多时间框架联动分析，在1小时和5分钟时间框架上识别公允价值缺口和订单块，进行两次入场尝试，最终达成2R目标。\",\"key_observation\":\"日线确认摆动低点（两侧各有更高的低点）后，博主在1小时图上寻找上半部分K线形成的延续信号，通过5分钟时间框架精确定位FVG和订单块作为入场点。\",\"analysis_steps\":[\"Step 1: 在日线上识别整理区间，价格突破整理高点后快速跌破整理低点，形成高时间框架反转信号（expansion into lows, expansion back out）。\",\"Step 2: 等待日线确认摆动低点，要求低点两侧各有更高的低点，并观察日线收盘是否穿过前期下跌K线。\",\"Step 3: 日线确认后，在1小时图上寻找上半部分K线形成的延续，预期该区域应该是支撑位。\",\"Step 4: 在1小时图上观察伦敦时段（London）的回测，确认低点是否被持有，寻找一系列对立K线（opposing candles）作为支撑确认。\",\"Step 5: 下探到5分钟时间框架，寻找PD array（公允价值缺口或订单块）作为第一次入场点，设置止损在K线实体低点。\",\"Step 6: 如果第一次入场被错过，在价格进入PD array时寻找第二次延续入场机会，同样设置止损在实体低点。\",\"Step 7: 目标设定为2R，观察价格是否达成目标并形成扩张走势。\"],\"outcome\":\"价格成功达成2R目标。第一次入场机会在5分钟图上的FVG区域，价格回测该区域后向上扩张；第二次延续入场在价格穿过对立K线后形成，最终两次入场都达成了2倍风险回报的目标。\",\"lessons\":\"多时间框架联动的关键是：(1)在高时间框架（日线）确认摆动点和市场结构；(2)在中时间框架（1小时）验证延续信号和支撑位；(3)在低时间框架（5分钟）精确定位FVG/OB作为入场点。错过第一次入场不必沮丧，延续入场同样有效，关键是严格遵守止损和目标设置。\",\"primary_image_frame_id\":\"5fnFOh5YuM0_f001\",\"supporting_image_frame_ids\":[\"5fnFOh5YuM0_f014\",\"5fnFOh5YuM0_f015\",\"5fnFOh5YuM0_f017\",\"5fnFOh5YuM0_f019\",\"5fnFOh5YuM0_f020\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Swing High / Swing Low\",\"Market Structure Shift (MSS)\",\"Change in the state of delivery (CSD)\",\"Displacement\",\"Premium / Discount Array (PD array)\",\"Opposing Candles\",\"Multi-timeframe analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线摆动确认、1小时支撑验证、5分钟FVG入场的全过程，两次入场尝试和2R目",
+  "error": null
+}

@@ -1,0 +1,102 @@
+{
+  "card_id": "wy3OSPxu5U0_case_004_enq_8月17日的日线到5分钟看空交易",
+  "type": "case",
+  "title": "ENQ 8月17日日线到5分钟看空交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "breaker_block",
+    "market_structure_shift",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "ENQ在8月15日（周二）创出周高点后，博主预期周三至周四会出现向下扩展。周二形成上收K线，对价格形成阻力。",
+  "key_observation": "日线上收K线阻力确认后，小时线显示向下位移并形成FVG，随后5分钟线在订单块处形成破坏块，提供高概率空头入场机会。",
+  "analysis_steps": [
+    "Step 1: 在日线上观察到周二创高后的上收K线，预期周三至周四向下扩展至前一日低点和摆动低点。",
+    "Step 2: 切换到小时线，确认价格向上进入订单块后出现向下位移，形成FVG。",
+    "Step 3: 在小时线订单块处标记止损位置，目标设定在前一日低点以获得最少2R收益。",
+    "Step 4: 切换到5分钟线，观察价格在8:30新闻后上冲至订单块。",
+    "Step 5: 5分钟线形成高-低-更高高-更低低的结构，产生下收K线。",
+    "Step 6: 识别该下收K线与位移配对形成破坏块，作为空头入场信号。",
+    "Step 7: 在破坏块处入场做空，止损设在该高点，目标首先指向2R（前一日低点附近14945.00），然后扩展至摆动低点。"
+  ],
+  "outcome": "交易成功。价格快速达到2R目标，随后继续下行至摆动低点（约14920.00附近）。",
+  "lessons": "多时间框架协同分析的有效性：日线确定方向预期，小时线确认结构和订单块，5分钟线提供精确入场点。破坏块与位移的配对是高概率空头信号。从高时间框架的宏观预期逐级向下确认，可显著提高交易成功率。",
+  "primary_image": "cards/wy3OSPxu5U0/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/wy3OSPxu5U0/images/case_004_detail_1.jpg",
+    "cards/wy3OSPxu5U0/images/case_004_detail_2.jpg",
+    "cards/wy3OSPxu5U0/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD 5分钟K线图。图上显示从约14967.50至15012.50的价格范围。一条水平线位于15014.00处。K线序列包含绿色和黑色蜡烛，跨越约20根K线，整体呈上升趋势。最近的K线集中在14990.00至15005.00区间。图右侧显示交易界面按钮（Sell、Buy、Flatten）。时间戳显示为'Thu 17 Aug '23 06:35'。图表底部显示时间轴标记从05:30至13:30。",
+    "case_004_detail_1.jpg": "USD 日线图表。图上显示从 7 月下旬至 9 月中旬的 K 线序列，价格范围在 14600 至 16100 之间波动。左侧显示当前价格标记 15516.96 和 14942.23。图上有三个矩形标注框分别位于约 15900-16100、15200-15400 和 14600-14800 的价格区间。K 线以绿色和黑色交替出现，多数 K 线具有上下影线。图表底部显示时间标记'Tue 15 Aug ",
+    "case_004_detail_2.jpg": "USD 1 小时 K 线图。图上显示从 15240 下跌至 14680 的下行走势，跨越约 20 根 K 线。可见三条水平线：15100、14920（标记为'Daily Open'）和 14860。图表左侧显示当前价格 15011.00。下方时间轴显示从 12:00 至 22:00 的时间范围，标记有'Wed 16 Aug'和'Thu 17 Aug'日期。K 线呈绿色和黑色交替排列，多根 K 线的",
+    "case_004_detail_3.jpg": "USD 5分钟K线图。图上显示从02:00至21:00的价格走势，价格范围约14920.00至15010.00。图中有两条水平线：一条虚线位于14945.00，一条实线位于14920.00。右侧上方有一个浅蓝色矩形框，覆盖约14980.00至15010.00的价格区间。K线整体呈上升趋势，多数为绿色K线，间有黑色K线。图右下角显示交易按钮'Sell'、'Buy'、'Flatten'。"
+  },
+  "sources": [
+    {
+      "video_id": "wy3OSPxu5U0",
+      "segment_ids": [
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "time_range": [
+        452.56,
+        644.8389999999999
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线→小时线→5分钟线的分析流程，清晰标注了关键价位（14945.00、14920.00）、入场结构（破坏块）、止损和目标，并给出了交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:51.290501Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ENQ 8月17日日线到5分钟看空交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"ENQ在8月15日（周二）创出周高点后，博主预期周三至周四会出现向下扩展。周二形成上收K线，对价格形成阻力。\",\"key_observation\":\"日线上收K线阻力确认后，小时线显示向下位移并形成FVG，随后5分钟线在订单块处形成破坏块，提供高概率空头入场机会。\",\"analysis_steps\":[\"Step 1: 在日线上观察到周二创高后的上收K线，预期周三至周四向下扩展至前一日低点和摆动低点。\",\"Step 2: 切换到小时线，确认价格向上进入订单块后出现向下位移，形成FVG。\",\"Step 3: 在小时线订单块处标记止损位置，目标设定在前一日低点以获得最少2R收益。\",\"Step 4: 切换到5分钟线，观察价格在8:30新闻后上冲至订单块。\",\"Step 5: 5分钟线形成高-低-更高高-更低低的结构，产生下收K线。\",\"Step 6: 识别该下收K线与位移配对形成破坏块，作为空头入场信号。\",\"Step 7: 在破坏块处入场做空，止损设在该高点，目标首先指向2R（前一日低点附近14945.00），然后扩展至摆动低点。\"],\"outcome\":\"交易成功。价格快速达到2R目标，随后继续下行至摆动低点（约14920.00附近）。\",\"lessons\":\"多时间框架协同分析的有效性：日线确定方向预期，小时线确认结构和订单块，5分钟线提供精确入场点。破坏块与位移的配对是高概率空头信号。从高时间框架的宏观预期逐级向下确认，可显著提高交易成功率。\",\"primary_image_frame_id\":\"wy3OSPxu5U0_f020\",\"supporting_image_frame_ids\":[\"wy3OSPxu5U0_f018\",\"wy3OSPxu5U0_f019\",\"wy3OSPxu5U0_f021\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Breaker Block\",\"Market Structure Shift\",\"Risk Management\",\"Multi-timeframe analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线→小时线→5分钟线的分析流程，清晰标注了关键价位（14945.00、14920.00）、入场结构（破坏块）、止损和目标，并给出了交易结果。\"}",
+  "error": null
+}

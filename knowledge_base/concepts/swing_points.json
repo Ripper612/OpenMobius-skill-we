@@ -1,0 +1,182 @@
+{
+  "card_id": "swing_points",
+  "type": "merged_concept",
+  "canonical_term": "Swing Points",
+  "aliases": [
+    "Swing High",
+    "Swing Low",
+    "turning points",
+    "摆动点"
+  ],
+  "school": "ICT",
+  "definition": "市场中由相邻K线形成的局部高点（Swing High）和低点（Swing Low），标记价格方向转折位置。摆动高点的高点高于左右相邻K线，摆动低点的低点低于左右相邻K线。用作流动性池、框架反转参考及相关资产相对强弱比较的基准位。",
+  "identification_rules": [
+    "摆动高点：一根K线的高点高于其左右相邻K线的高点；摆动低点：一根K线的低点低于其左右相邻K线的低点",
+    "摆动点形成后需至少一根后续K线确认其有效性，不可在形成前过早标记",
+    "判断突破有效性须以K线收盘价为准（close outside），仅触及摆动点而未收在结构外不视为有效突破",
+    "可在任意时间框架（日线、4H、1H、15min等）上识别，高时间框架的摆动点更清晰可靠",
+    "在对比相关资产（如ES与NQ）时，需在两张图表上标记同一日期或同一价格水平的摆动点，观察各自K线的突破程度与收盘位置"
+  ],
+  "trading_implication": "摆动点是预测价格下一步走向的核心参考：价格失败突破摆动点（未能close outside）时，预期反向运行回区间内（框架反转）；成功突破时，预期继续朝突破方向运行。结合Next Candle/Next Day Model，失败突破后下一根K线通常反向运行。对比相关资产在同一摆动点的表现可判断相对强弱，强势资产适合做多，弱势资产适合做空。可与FVG、OB等组合构成PD array增强信号可靠性。",
+  "common_mistakes": [
+    "在低时间框架过度依赖摆动点，导致信号噪音增加；应优先参考高时间框架摆动点",
+    "混淆触及摆动点与有效突破的区别，未以K线收盘价（close outside）判断是否真正突破",
+    "忽视摆动点失败突破后的反向运行规律，错过Next Candle Model的交易机会",
+    "未在多时间框架上验证摆动点信号，将虚假突破误认为有效突破",
+    "在摆动点形成前过早交易，未等待确认K线",
+    "将摆动点与简单支撑阻力混淆，忽视其作为流动性池的机构意义",
+    "仅看单个资产的摆动点，忽视与相关资产的对比分析（相对强弱判断）",
+    "混淆摆动点与订单块（Order Block）的用途，摆动点用于流动性与相对强弱判断，而非直接等同于支撑阻力"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Next Candle Model",
+      "card_id": "next_day_model",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Correlation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "6zTz7WMdMWg_case_004_eth_1小时图的范围整理和突破",
+      "video_id": "6zTz7WMdMWg",
+      "title": "ETH 1小时图范围整理中的前一根K线高低点交易法"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_001_eurusd_4小时图流动性识别案例",
+      "video_id": "U8xH2dEgH5A",
+      "title": "EURUSD 4小时图流动性识别与摆动点追踪"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_001_周三7月19日es与nq摆动点对比",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES与NQ摆动点对比：识别相对强弱与SMT"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_003_周五8月4日es与nq_order_block表现",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES与NQ周五8月4日Order Block均值阈值表现对比"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_002_spy大影线反转案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "大影线反转：调整目标至日开盘价和会话低点"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_swing_points",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        543.0,
+        1080.299
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "c_mh19e3mhI",
+      "original_card_id": "c_mh19e3mhI_concept_swing_points",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        363.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_swing_points",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        365.72,
+        995.3389999999999
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:07.200187Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'SMC']",
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "2张ICT + 1张SMC，按多数选ICT。SMC卡侧重相对强弱比较用途，已将该内容融入定义与规则，未丢弃。",
+  "error": null
+}

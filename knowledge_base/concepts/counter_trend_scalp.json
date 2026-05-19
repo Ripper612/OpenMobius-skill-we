@@ -1,0 +1,57 @@
+{
+  "card_id": "counter_trend_scalp",
+  "type": "merged_concept",
+  "canonical_term": "Counter Trend Scalp",
+  "aliases": [
+    "反向头皮交易",
+    "逆势头皮"
+  ],
+  "school": "ICT",
+  "definition": "在高时间框架趋势中，利用低时间框架进入折价区或OTE区域，进行反向短期交易，快速获利后平仓的头皮交易技术。",
+  "identification_rules": [
+    "识别高时间框架的主要趋势方向和结构突破（Displacement）",
+    "在折价区或OTE区域标记出低时间框架的FVG和订单块",
+    "等待价格向反向方向的激进移动，伴随结构突破",
+    "确认低时间框架内存在FVG或订单块作为入场点",
+    "设置止损位于该反向移动的高点或低点"
+  ],
+  "trading_implication": "Counter Trend Scalp用于在高时间框架趋势中捕捉短期反向波动。交易者在折价区或OTE等高概率区域进入反向头寸，利用低时间框架（如15秒、1分钟）的FVG和订单块精确入场，目标是快速到达0.62斐波那契水平或OTE区域后平仓获利。该方法风险小、反应快，适合频繁交易。",
+  "common_mistakes": [
+    "未在高时间框架确认主趋势和结构，盲目进行反向交易",
+    "在没有低时间框架FVG或订单块确认的情况下入场",
+    "止损设置过宽，导致风险过大",
+    "贪心持仓过久，未在OTE或0.62斐波那契水平及时平仓"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "ivirRu3fc4o",
+      "original_card_id": "ivirRu3fc4o_concept_counter_trend_scalp",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.12,
+        355.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132000Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

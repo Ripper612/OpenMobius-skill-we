@@ -1,0 +1,113 @@
+{
+  "card_id": "bbWPoajy2MY_case_003_黄金4小时图的多重mitigation_block应用",
+  "type": "case",
+  "title": "黄金4小时图多重Mitigation Block的识别与应用",
+  "related_concepts": [
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Reaccumulation",
+      "card_id": "reaccumulation",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "mitigation_block",
+    "order_block",
+    "market_structure_shift",
+    "fair_value_gap",
+    "displacement",
+    "premium_discount_premium_",
+    "reaccumulation",
+    "breaker_block"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "4H",
+  "market_context": "黄金在4小时图上从高位1994.000向下运行至1930.000，形成明显的下跌结构。价格在1948.000-1952.000区域形成MSS后，博主识别左侧多个Order Block并将其拖移到右侧作为Mitigation Block，用于预测价格反应点。",
+  "key_observation": "博主通过识别左侧（下跌前）的多个Order Block，在价格突破MSS后将这些块拖移到右侧作为Mitigation Block，观察价格在这些区域的多次反应，最终突破原始整理区域。",
+  "analysis_steps": [
+    "Step 1: 在XAUUSD 4小时图上识别周线级别的Fair Value Gap作为高时间框架兴趣点。",
+    "Step 2: 观察价格形成Market Structure Shift（MSS），确认趋势反转信号。",
+    "Step 3: 标记下跌过程中形成的Fair Value Gap。",
+    "Step 4: 识别左侧（下跌前）的两个up close candles形成的Order Block，这是关键的卖方订单块。",
+    "Step 5: 将左侧的Order Block拖移到右侧作为Mitigation Block，预期价格在此区域反应。",
+    "Step 6: 观察价格第一次回测Mitigation Block时出现反应并继续下行。",
+    "Step 7: 识别第二个Mitigation Block（另一个左侧Order Block），观察价格在此区域的反应。",
+    "Step 8: 标记PD array内的Fair Value Gap和Balance区域，寻找折价区的重新积累。",
+    "Step 9: 观察价格继续上升，突破原始整理区域（1964.00-1922.00），完成买方设置。"
+  ],
+  "outcome": "价格成功在多个Mitigation Block区域反应，最终突破原始整理区域向上运行，形成完整的买方交易设置。",
+  "lessons": "Mitigation Block是将左侧（趋势形成前）的Order Block拖移到右侧（趋势反转后）使用的技术。在Market Maker模型中，卖方曲线的Order Block可转化为买方曲线的Mitigation Block。价格在这些区域的多次反应验证了其作为支撑的有效性，最终突破确认了上升趋势的建立。",
+  "primary_image": "cards/bbWPoajy2MY/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/bbWPoajy2MY/images/case_003_detail_1.jpg",
+    "cards/bbWPoajy2MY/images/case_003_detail_2.jpg",
+    "cards/bbWPoajy2MY/images/case_003_detail_3.jpg",
+    "cards/bbWPoajy2MY/images/case_003_detail_4.jpg",
+    "cards/bbWPoajy2MY/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "XAUUSD 240 分钟 K 线图。图上显示从 2008.00 向下至约 1932.00 的下跌趋势。图中标注有两条水平线分别位于 1922.00 和 1964.00，以及两个矩形框：一个覆盖 1922.00 至 1964.00 区间，另一个位于 1936.00 至 1948.00 区间。K 线结构中绿色蜡烛与黑色蜡烛交替出现。图表底部标注日期为 14/11/2023，资产为 XAUUSD 24",
+    "case_003_detail_1.jpg": "XAUUSD 240分钟K线图。图上可见一条黄色矩形标注，覆盖约1932000至1952000的价格区间。K线整体价格范围从1994000跌至1930000。图表显示多根绿色和黑色K线，具有不同长度的影线。右下角标注显示日期12/11/2023及资产代码XAUUSD 240H。图上未见其他指标或额外标注。",
+    "case_003_detail_2.jpg": "XAUUSD 240 分钟 K 线图，时间范围显示 14/11/2023。图上可见从左侧 1994.000 向下运行至右侧 1930.000 的下行走势，跨越约 15 根 K 线。图中央有一个黄色矩形区域，覆盖 1932.000 至 1952.000 价格范围。该区域内包含多根绿色 K 线，主要集中在图表右侧 10-15 根 K 线位置。下行过程中多根 K 线呈现长下影线形态。图上标注有两条水平线",
+    "case_003_detail_3.jpg": "XAUUSD 24 小时 K 线图。图上可见一个黄色矩形标注，覆盖约 1948000 至 1960000 的价格区间。图表左侧显示从 1990000 至 1994000 的绿色和黑色 K 线，随后出现一段从约 1980000 向下运行至 1945000 的下跌走势。下跌后的 K 线在 1945000 至 1960000 区间内呈现绿色主体伴长下影线的形态。图右侧有一条竖虚线和一个绿色十字标记。左下",
+    "case_003_detail_4.jpg": "图上显示一组 K 线序列，标题为'Mitigation Blocks'。可见约 15 根 K 线，颜色交替为绿色和黑色，整体呈下行趋势。图中有一条水平线标记为'HTF Level'。K 线均带有上下影线，部分绿色 K 线穿插在黑色 K 线之间。右下角显示页码'3'。未提供具体价格刻度或资产代码。",
+    "case_003_detail_5.jpg": "图表展示一段K线序列，顶部标题为'Mitigation Blocks'。图上有一条水平线标记为'HTF Level'。K线从左上向下运行，呈现下跌趋势，随后在下方区域出现反弹，K线颜色交替出现绿色和黑色。图中绘制有一个灰色矩形区域，位于图表中部偏右位置，跨越多根K线。多根K线具有较长的上下影线。整体未显示具体价格数值或资产代码。"
+  },
+  "sources": [
+    {
+      "video_id": "bbWPoajy2MY",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        191.0,
+        546.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对XAUUSD 4H图表的分析完整清晰，资产、时间框架、关键价位、多个Mitigation Block的识别和价格反应都有明确展示，分析步骤按实际讲解顺序记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:24.872338Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金4小时图多重Mitigation Block的识别与应用\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"4H\",\"market_context\":\"黄金在4小时图上从高位1994.000向下运行至1930.000，形成明显的下跌结构。价格在1948.000-1952.000区域形成MSS后，博主识别左侧多个Order Block并将其拖移到右侧作为Mitigation Block，用于预测价格反应点。\",\"key_observation\":\"博主通过识别左侧（下跌前）的多个Order Block，在价格突破MSS后将这些块拖移到右侧作为Mitigation Block，观察价格在这些区域的多次反应，最终突破原始整理区域。\",\"analysis_steps\":[\"Step 1: 在XAUUSD 4小时图上识别周线级别的Fair Value Gap作为高时间框架兴趣点。\",\"Step 2: 观察价格形成Market Structure Shift（MSS），确认趋势反转信号。\",\"Step 3: 标记下跌过程中形成的Fair Value Gap。\",\"Step 4: 识别左侧（下跌前）的两个up close candles形成的Order Block，这是关键的卖方订单块。\",\"Step 5: 将左侧的Order Block拖移到右侧作为Mitigation Block，预期价格在此区域反应。\",\"Step 6: 观察价格第一次回测Mitigation Block时出现反应并继续下行。\",\"Step 7: 识别第二个Mitigation Block（另一个左侧Order Block），观察价格在此区域的反应。\",\"Step 8: 标记PD array内的Fair Value Gap和Balance区域，寻找折价区的重新积累。\",\"Step 9: 观察价格继续上升，突破原始整理区域（1964.00-1922.00），完成买方设置。\"],\"outcome\":\"价格成功在多个Mitigation Block区域反应，最终突破原始整理区域向上运行，形成完整的买方交易设置。\",\"lessons\":\"Mitigation Block是将左侧（趋势形成前）的Order Block拖移到右侧（趋势反转后）使用的技术。在Market Maker模型中，卖方曲线的Order Block可转化为买方曲线的Mitigation Block。价格在这些区域的多次反应验证了其作为支撑的有效性，最终突破确认了上升趋势的建立。\",\"primary_image_frame_id\":\"bbWPoajy2MY_f013\",\"supporting_image_frame_ids\":[\"bbWPoajy2MY_f001\",\"bbWPoajy2MY_f012\",\"bbWPoajy2MY_f011\",\"bbWPoajy2MY_f009\",\"bbWPoajy2MY_f010\"],\"related_concepts\":[\"Mitigation Block\",\"Order Block\",\"Market Structure Shift\",\"Fair Value Gap\",\"Displacement\",\"PD array\",\"Reaccumulation\",\"Breaker Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对XAUUSD 4H图表的分析完整清晰，",
+  "error": null
+}

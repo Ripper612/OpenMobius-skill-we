@@ -1,0 +1,319 @@
+{
+  "card_id": "time_frame_alignment",
+  "type": "merged_concept",
+  "canonical_term": "Time Frame Alignment",
+  "aliases": [
+    "Aligned Time Frames",
+    "HTF/LTF alignment",
+    "Time Frame Pairing",
+    "交易周期匹配",
+    "多时间框架协调",
+    "多时间框架对齐",
+    "时间框架一致性",
+    "时间框架协调",
+    "时间框架同向",
+    "时间框架对齐",
+    "时间框架选择"
+  ],
+  "school": "ICT",
+  "definition": "从高时间框架确认偏差方向（通过流动性、FVG、K线收盘等），逐级下沉至中、低时间框架寻找摆动点形成与精确入场信号，确保各周期方向一致。低时间框架通过CSD、Candle 2收盘等验证高时间框架信号有效性，形成递归分形确认体系。",
+  "identification_rules": [
+    "第一步：在高时间框架（如周线、日线、小时线）通过流动性、FVG、K线收盘位置确认明确的偏差方向（bias）",
+    "第二步：在中间时间框架（如日线、4小时、15分钟）寻找摆动点形成，确认出现有效的Candle 2收盘（Candle 2 Closure）或CSD（Change in State of Delivery）",
+    "第三步：在低时间框架（如小时线、15分钟、1分钟）寻找与高/中时间框架方向一致的入场信号，包括Protected Swing、continuation、FVG回测或Order Block",
+    "第四步：确保所有时间框架方向一致（高时间框架偏差方向 → 中时间框架摆动点方向 → 低时间框架入场方向）；若低时间框架信号与高时间框架偏向相反，放弃该交易",
+    "在低时间框架上确认高时间框架K线的对抗运动（opposing run）幅度：浅层对抗运动预示反转后可期待扩张，大幅对抗运动则仅调整目标至开盘价附近",
+    "在低时间框架上验证高时间框架Candle 2收盘：下移至对应低时间框架（日线配小时线、小时线配5分钟线），确认是否出现CSD及Candle 2收盘，并观察价格是否在均衡点（EQ）处获得尊重",
+    "若低时间框架信号混乱，可上移一个时间框架（如从1小时改用4小时）以获得更清晰的结构，无需改变整体框架",
+    "根据交易者性格与Killzone时间窗口选择合适的时间框架组合，确保所选周期与日线走势对齐"
+  ],
+  "trading_implication": "多时间框架对齐是提高交易胜率的核心方法。高时间框架确立偏向后，中时间框架等待Candle 2收盘确认，低时间框架执行精确入场，形成分层确认链。支持多种组合：周线+日线+小时线，或月线+周线+4小时线。该方法降低虚假信号风险，使趋势延续更易达成2R或更高目标，同时保持机械性和可重复性，便于积累一致交易数据用于模型优化。",
+  "common_mistakes": [
+    "仅在单一时间框架寻找入场信号，忽视高时间框架偏差方向验证",
+    "在低时间框架看到信号就立即入场，未等待高时间框架Candle 2收盘或CSD形成",
+    "高低时间框架信号不一致时仍强行交易，导致被虚假突破扫损",
+    "中时间框架未形成有效Candle 2收盘或CSD就在低时间框架寻找入场，导致交易方向与高时间框架偏差不符",
+    "在低时间框架信号混乱时仍强行入场，而不是上移时间框架寻求更清晰的结构",
+    "未在低时间框架上确认CSD就假设高时间框架wick有效，导致交易失败",
+    "忽视对抗运动的大小差异，对所有反转使用相同的扩张目标而非调整预期",
+    "在交易日晚期才形成反转信号，没有足够时间进行扩张，仍期待大幅扩展",
+    "过度依赖固定的时间框架组合，而不根据市场清晰度灵活调整",
+    "混淆Candle 2收盘与Candle 3收盘，使用错误的时间框架配对进行验证",
+    "忽视低时间框架上的均衡点（EQ）尊重，导致在价格未能确认趋势时过早入场",
+    "忽视高时间框架目标位，过早平仓或在低时间框架反向信号出现时立即止损，未能让利润充分运行",
+    "将不同时间框架的摆动点混淆，例如用15分钟摆动点代替小时线摆动点作为关键参考",
+    "在LTF上过度标注所有PD array而非专注于一个关键信号，造成图表混乱和决策困难",
+    "盲目跟风他人的时间框架而不考虑自身性格特征",
+    "在不同时间框架间频繁切换，导致交易逻辑不一致",
+    "选择的时间框架与Killzone时间窗口不匹配，错过最优交易机会"
+  ],
+  "related_concepts": [
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Expansion",
+      "card_id": "candle_3_expansion",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fractal",
+      "card_id": "fractal",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "PD array / Premium Discount Array",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Opposing Run",
+      "card_id": "judas_swing",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3eVxTV_7L2U_case_007_指数三角完整顶部交易_nq_ym从日线到3分钟",
+      "video_id": "3eVxTV_7L2U",
+      "title": "NQ/YM日线三角顶部：从SMT到PSP再到3分钟CSD确认交易"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_004_btc日线至4小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "日线看跌后上移4小时线寻找清晰V形反转交易"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_001_黄金小时线看涨扩张交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "黄金小时线看涨扩张交易案例"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_005_黄金日线看涨结构的回测和扩张",
+      "video_id": "iEaMbuFZb24",
+      "title": "黄金日线看涨结构回测判断与小时线扩张"
+    },
+    {
+      "card_id": "r_UF8U-hsL8_case_001_apoz资产的反转与延续交易案例",
+      "video_id": "r_UF8U-hsL8",
+      "title": "APOZ反转序列与延续做空交易案例"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_002_apoz日线到小时线的分形验证",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线K线2收盘下钻至小时线的分形验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_time_frame_alignment",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_014",
+        "seg_019"
+      ],
+      "time_range": [
+        9.679,
+        933.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_time_frame_alignment",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_010",
+        "seg_015",
+        "seg_022"
+      ],
+      "time_range": [
+        146.48,
+        993.68
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IJcfC6wAPZU",
+      "original_card_id": "IJcfC6wAPZU_concept_time_frame_alignment",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        372.599,
+        910.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_time_frame_alignment",
+      "segment_ids": [
+        "seg_004",
+        "seg_009"
+      ],
+      "time_range": [
+        149.68,
+        435.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_time_frame_alignment",
+      "segment_ids": [
+        "seg_001",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        10.88,
+        636.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "r_UF8U-hsL8",
+      "original_card_id": "r_UF8U-hsL8_concept_time_frame_alignment",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        393.84000000000003,
+        573.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "tyoxl1l-6iI",
+      "original_card_id": "tyoxl1l-6iI_concept_time_frame_alignment",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_011"
+      ],
+      "time_range": [
+        358.96,
+        778.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_time_frame_alignment",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.04,
+        192.959
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 8,
+    "source_videos": 8,
+    "high_confidence_sources": 7,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:56.275417Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['General', 'ICT']",
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "7张ICT + 1张General（wik00c9_2nk），按多数选ICT。General卡内容侧重性格与时间框架选择，已将其可操作规则并入identification_rules。",
+  "error": null
+}

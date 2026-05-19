@@ -1,0 +1,238 @@
+{
+  "card_id": "consequent_encroachment",
+  "type": "merged_concept",
+  "canonical_term": "Consequent Encroachment",
+  "aliases": [
+    "50% FVG level",
+    "50% of FVG",
+    "CE",
+    "Wick Encroachment",
+    "标准差的连续边界区域"
+  ],
+  "school": "ICT",
+  "definition": "在ICT体系中，Consequent Encroachment（CE）最核心的含义是公允价值缺口（FVG）的50%中点位置，用于判断价格是否真正尊重该缺口；同时也指订单块均值阈值上方区域、具有大影线K线的影线范围中点，以及标准差投影的连续边界区域，均作为关键价格目标或失效判断参考点。",
+  "identification_rules": [
+    "在已识别的Fair Value Gap上，定位缺口的起点（第一根K线的高/低点）与终点（第三根K线的低/高点），计算其50%中点，即CE所在位置",
+    "观察价格回测FVG时是否收盘穿过CE：收盘穿过CE表示缺口失效；收盘未穿过CE表示缺口仍被尊重",
+    "在Order Block上标记开盘价与均值阈值，均值阈值上方的区域即为该OB的CE，观察价格是否能突破并收盘于此区域上方",
+    "识别具有显著上影线或下影线的K线，将影线范围（实体到影线顶/底端）标记为价格区间，该区间中点作为CE参考",
+    "在标准差投影基础上，识别相邻的下一个标准差边界线，标记为CE目标区域，可与FVG、OB等PD array重合形成汇聚目标",
+    "比较相关资产（如ES与NQ）时，观察各资产价格是否能到达或突破各自的CE，以判断相对强弱"
+  ],
+  "trading_implication": "CE最常用于判断FVG有效性：价格回测FVG时若收盘未穿过CE，可预期价格继续反向运行；若收盘穿过CE，则FVG失效，可能触发FVG Inversion。CE也作为OB强度判断标准及多时间框架价格目标参考点，帮助交易者在高时间框架标记目标后于低时间框架寻找入场确认，并通过相关资产CE对比衡量相对强弱，优化风险回报比。",
+  "common_mistakes": [
+    "混淆CE与FVG完全填补——CE是FVG的50%中点位置，不等于缺口被完全填补",
+    "忽视收盘价的重要性——应关注K线是否收盘穿过CE，而非仅触及",
+    "将CE与FVG本身混淆，误认为两者是同一区域",
+    "CE被突破后仍坚持原方向交易，忽视反向信号",
+    "未等待价格在CE处的明确反应就仓促入场",
+    "混淆CE与Order Block本身——CE特指均值阈值上方的特定区域",
+    "在单一资产上使用CE而忽视相关资产对比，错失相对强弱判断价值",
+    "未正确标记Order Block的开盘价和均值阈值，导致CE位置识别错误",
+    "将CE与单一标准差混淆，忽视其作为连续边界的特性",
+    "未能结合PD array验证，导致目标区域缺乏汇聚支撑",
+    "忽视更高时间框架的结构，仅在低时间框架上依赖CE做决策"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "SIBI",
+      "card_id": "bearish_fair_value_gap_sibi",
+      "exists": true
+    },
+    {
+      "term": "BISI",
+      "card_id": "bullish_fair_value_gap_bfvg",
+      "exists": true
+    },
+    {
+      "term": "FVG Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "EYzP7c24AwM_case_001_cl原油期货看跌案例",
+      "video_id": "EYzP7c24AwM",
+      "title": "CL原油期货日线看跌确认与多时间框架派发"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_004_周一至周五每日相对强弱预测与验证",
+      "video_id": "c_mh19e3mhI",
+      "title": "周一至周五ES相对强、NQ相对弱的逐日验证"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_005_周五5分钟图表es与nq交易设置",
+      "video_id": "c_mh19e3mhI",
+      "title": "利用ES/NQ相对强弱在5分钟图表寻找多空设置"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_001_eurusd_60分钟与5分钟反演交易案例",
+      "video_id": "uDJI2AbyyCs",
+      "title": "EURUSD 60分钟与5分钟反演交易案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_consequent_encroachment",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        545.519,
+        696.92
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "original_card_id": "ZVUDpCyvxfQ_concept_consequent_encroachment",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        185.04,
+        543.3
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "c_mh19e3mhI",
+      "original_card_id": "c_mh19e3mhI_concept_consequent_encroachment",
+      "segment_ids": [
+        "seg_001",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        719.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_consequent_encroachment",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        425.56,
+        785.6
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "uDJI2AbyyCs",
+      "original_card_id": "uDJI2AbyyCs_concept_consequent_encroachment",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.4,
+        370.199
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 2,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:46.236263Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "5张原始卡均为ICT，school无冲突。各卡对CE的定义存在显著差异：2张指向FVG的50%中点（主流含义），1张指影线范围，1张指OB均值阈值上方区域，1张指标准差连续边界，已在definition和rules中并列呈现。",
+  "error": null
+}

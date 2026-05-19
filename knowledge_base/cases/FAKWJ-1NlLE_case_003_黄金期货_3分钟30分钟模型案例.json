@@ -1,0 +1,122 @@
+{
+  "card_id": "FAKWJ-1NlLE_case_003_黄金期货_3分钟30分钟模型案例",
+  "type": "case",
+  "title": "黄金期货3分钟-30分钟模型：整固高点扫除与CSD确认下跌",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing / Protected Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery_csd",
+    "equilibrium_eq",
+    "consolidation",
+    "market_structure_shift_mss",
+    "aligned_timeframe",
+    "power_of_3_indicator",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "GC1!",
+  "timeframe": "3m / 30m",
+  "market_context": "2025年5月13日伦敦时段，黄金期货在4小时看跌偏向下，利用3分钟K线确认30分钟wick形成，通过整固高点扫除和市场结构转变(CSD)确认反转点，成功交易向下扩展。",
+  "key_observation": "博主在30分钟时间框架上识别出一个wick形成，随后在3分钟低时间框架上等待整固高点被扫除，并通过CSD(市场结构转变)确认反转，从而在高概率点位入场做空。",
+  "analysis_steps": [
+    "Step 1: 在30分钟图表上识别出伦敦2:00反转点，预期6:00时出现延续",
+    "Step 2: 确认30分钟wick形成，要求价格开盘创高同时尊重前一根K线的EQ(均衡点)",
+    "Step 3: 切换到3分钟低时间框架，等待整固(consolidation)形成",
+    "Step 4: 观察整固高点被扫除(run out the high)，确认低时间框架fractal模型形成",
+    "Step 5: 等待CSD(市场结构转变)确认——通过一系列向下收盘的K线扫除重要支撑位",
+    "Step 6: 确认该支撑位现已成为受保护的摆动低点(protected low)，预期wick将被持守",
+    "Step 7: 在30分钟新K线开盘时考虑入场，止损设在受保护摆动点或CSD的50%位置",
+    "Step 8: 观察价格向下延续，目标2R收益，同时监控是否形成新的受保护摆动点以寻求继续持仓"
+  ],
+  "outcome": "价格成功向下扩展，接近2R目标但未完全达到，随后触及一个公允价值缺口(FVG)。博主指出如果要形成另一个延续，需要形成新的受保护摆动点，但价格回到入场点后未能收盘低于该水平，因此需要进一步确认。",
+  "lessons": "低时间框架fractal模型可有效确认高时间框架wick的形成；整固高点扫除+CSD组合提供高概率反转确认；受保护摆动点和EQ是关键的止损和目标参考；多时间框架协调(3m-30m配对)提高交易精准度。",
+  "primary_image": "cards/FAKWJ-1NlLE/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/FAKWJ-1NlLE/images/case_003_detail_1.jpg",
+    "cards/FAKWJ-1NlLE/images/case_003_detail_2.jpg",
+    "cards/FAKWJ-1NlLE/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表显示 AG FX 资产的 3 分钟 K 线图，时间范围覆盖 2025 年 5 月 13 日约 02:00 至 12:00。图右侧标注面板显示 GC1! 3m、3m-30m Model、Bias: Bearish 及 SMT(Auto): XAUEUR, XAUGBP 等文字。图上有一个交易设置标注区域，包含两条水平线：止损线位于约 3346.0，标注为 Stop: 5.3 (0.16%) 53",
+    "case_003_detail_1.jpg": "图表为 GC1! 黄金期货 3 分钟 K 线图，时间轴覆盖 00:30 至 10:00，日期标注为 2025 年 5 月 13 日。右侧价格刻度范围约 3322.0 至 3358.0。图右下角文字标注显示 '3m-30m Model'、'Bias: Bearish' 及 'SMT(Auto): XAUEUR, XAUGBP'。图上约 07:00 至 07:30 区域有一个矩形框标注，价格范围约 3",
+    "case_003_detail_2.jpg": "图表为 GC1（黄金期货）3 分钟 K 线图，时间轴显示 2025 年 5 月 13 日凌晨 01:30 至 11:30 区间。右侧价格轴范围约 3322.0 至 3358.0。图右侧标注面板显示 3m-30m Model、Bias: Bearish 及 SMT(Auto): XAUEUR, XAUGBP 文字。图上有一条虚线水平线位于约 3351.9，右侧价格轴以蓝色高亮标注 3342.4。图中",
+    "case_003_detail_3.jpg": "图表为 GC1（黄金期货）3 分钟 K 线图，日期为 2025 年 5 月 13 日。右下角面板显示 '3m-30m Model'、'Bias: Bearish'、'SMT(Auto): XAUEUR, XAUGBP'。可见价格范围约从 3326.0 到 3354.0。图上有一条贯穿全图的虚线水平线位于 3344.7，另有一个虚线矩形框标注约 04:00 至 06:30 时段、价格区间 3344 "
+  },
+  "sources": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "segment_ids": [
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_017"
+      ],
+      "time_range": [
+        634.8,
+        912.079
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了3分钟-30分钟模型的全流程分析，包括时间框架、关键价位、入场逻辑、止损设置和交易结果，图表清晰标注了整固区域、CSD确认点和交易设置细节。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:43.453705Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金期货3分钟-30分钟模型：整固高点扫除与CSD确认下跌\",\"school\":\"ICT\",\"asset\":\"GC1!\",\"timeframe\":\"3m / 30m\",\"market_context\":\"2025年5月13日伦敦时段，黄金期货在4小时看跌偏向下，利用3分钟K线确认30分钟wick形成，通过整固高点扫除和市场结构转变(CSD)确认反转点，成功交易向下扩展。\",\"key_observation\":\"博主在30分钟时间框架上识别出一个wick形成，随后在3分钟低时间框架上等待整固高点被扫除，并通过CSD(市场结构转变)确认反转，从而在高概率点位入场做空。\",\"analysis_steps\":[\"Step 1: 在30分钟图表上识别出伦敦2:00反转点，预期6:00时出现延续\",\"Step 2: 确认30分钟wick形成，要求价格开盘创高同时尊重前一根K线的EQ(均衡点)\",\"Step 3: 切换到3分钟低时间框架，等待整固(consolidation)形成\",\"Step 4: 观察整固高点被扫除(run out the high)，确认低时间框架fractal模型形成\",\"Step 5: 等待CSD(市场结构转变)确认——通过一系列向下收盘的K线扫除重要支撑位\",\"Step 6: 确认该支撑位现已成为受保护的摆动低点(protected low)，预期wick将被持守\",\"Step 7: 在30分钟新K线开盘时考虑入场，止损设在受保护摆动点或CSD的50%位置\",\"Step 8: 观察价格向下延续，目标2R收益，同时监控是否形成新的受保护摆动点以寻求继续持仓\"],\"outcome\":\"价格成功向下扩展，接近2R目标但未完全达到，随后触及一个公允价值缺口(FVG)。博主指出如果要形成另一个延续，需要形成新的受保护摆动点，但价格回到入场点后未能收盘低于该水平，因此需要进一步确认。\",\"lessons\":\"低时间框架fractal模型可有效确认高时间框架wick的形成；整固高点扫除+CSD组合提供高概率反转确认；受保护摆动点和EQ是关键的止损和目标参考；多时间框架协调(3m-30m配对)提高交易精准度。\",\"primary_image_frame_id\":\"FAKWJ-1NlLE_f027\",\"supporting_image_frame_ids\":[\"FAKWJ-1NlLE_f025\",\"FAKWJ-1NlLE_f026\",\"FAKWJ-1NlLE_f028\",\"FAKWJ-1NlLE_f029\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Change in the state of delivery (CSD)\",\"Protected Swing / Protected Low\",\"Equilibrium (EQ)\",\"Consolidation\",\"Market Structure Shift (MSS)\",\"Fractal Model\",\"Power of 3\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了3分钟-30分钟模型的全流程分析，包括时间框架、关键价位、入场逻辑、止损设置和交易结果，图表清晰标注了整固区域、CSD确认点和交易设置细节。\"}",
+  "error": null
+}

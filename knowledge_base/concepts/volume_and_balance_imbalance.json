@@ -1,0 +1,149 @@
+{
+  "card_id": "volume_and_balance_imbalance",
+  "type": "merged_concept",
+  "canonical_term": "Volume and Balance (Imbalance)",
+  "aliases": [
+    "Gap in price",
+    "Volume imbalance"
+  ],
+  "school": "ICT",
+  "definition": "价格快速变动留下的成交量不平衡区域，表现为相邻K线收盘价与开盘价之间的缺口，但高低点在缺口区域内有重叠（区别于完全无交易的Gap）。可作为PD数组组成部分，也可在破坏块内部标记，用于识别价格可能遭遇支撑或阻力的精确位置。",
+  "identification_rules": [
+    "观察相邻两根K线的收盘价与开盘价之间是否存在缺口",
+    "检查这两根K线的高低点是否在缺口区域内有重叠，确认缺口区域内存在价格交易痕迹，而非完全空白",
+    "在已确认的破坏块区域内，观察K线体之间是否存在价格缺口或不连续区域；多根K线组成破坏块时，从第一根K线的体到最后一根K线的体进行整体标记",
+    "当使用均值阈值（K线体的50%位置）时，该水平线可作为Volume Imbalance的参考边界",
+    "优先在高时间框架（日线、4小时、1小时）上识别，用于确定低时间框架的流动性目标",
+    "结合位移（Displacement）分析：价格快速突破后通常留下Volume Imbalance，后续可能被回测填补"
+  ],
+  "trading_implication": "Volume Imbalance作为PD数组的一部分，是价格寻求流动性的目标区域，可用作支撑或阻力位。价格回归至该区域时通常产生反应，理想情况是价格触及均值阈值但收盘于其外。交易者可利用它确定\"draw on liquidity\"目标，并在价格返回该区域时寻找反转或延续机会，同时结合破坏块结构精确定位潜在反转点。",
+  "common_mistakes": [
+    "将Volume Imbalance与完全的Gap混淆——Gap是两根K线间完全没有交易，而Volume Imbalance在缺口区域内有高低点重叠",
+    "将Volume Imbalance与Fair Value Gap混淆——FVG由快速位移产生且为三根K线结构，而Volume Imbalance泛指成交量不平衡的缺口区域，两者识别条件不同",
+    "忽视时间框架的嵌套关系——应在高时间框架识别Volume Imbalance，再用低时间框架寻找入场点，而非反向操作",
+    "仅标记单根K线而忽视多根K线组成的破坏块整体结构，导致不平衡区域定位不准确",
+    "混淆K线的体与影线，在有大影线的K线上应使用收盘价到极值的范围而非整个K线",
+    "过度依赖单一Volume Imbalance，应结合Order Block、Fair Value Gap等其他PD数组元素综合判断流动性目标"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Gap",
+      "card_id": "gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Draw on liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold（均值阈值）",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "MmvC4rsmmcM_case_001_nq_4小时图的价格走势分析",
+      "video_id": "MmvC4rsmmcM",
+      "title": "NQ 4小时图缺口上升到下跌的完整走势分析"
+    },
+    {
+      "card_id": "ZVUDpCyvxfQ_case_004_成交量不平衡与真实缺口的对比",
+      "video_id": "ZVUDpCyvxfQ",
+      "title": "成交量不平衡与真实缺口的对比分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MmvC4rsmmcM",
+      "original_card_id": "MmvC4rsmmcM_concept_volume_and_balance_imbalance",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        0.659,
+        361.919
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "original_card_id": "ZVUDpCyvxfQ_concept_volume_imbalance",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        363.6,
+        593.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "dcIdzqD3kMU",
+      "original_card_id": "dcIdzqD3kMU_concept_volume_imbalance",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        187.98,
+        270.86
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:16.853853Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "3张原始卡均为ICT，school无冲突。三卡分别侧重流动性目标、K线缺口结构特征、破坏块内部标记，定义已综合三者技术细节。",
+  "error": null
+}

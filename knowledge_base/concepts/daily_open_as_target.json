@@ -1,0 +1,57 @@
+{
+  "card_id": "daily_open_as_target",
+  "type": "merged_concept",
+  "canonical_term": "Daily Open as Target",
+  "aliases": [
+    "Daily Open Level",
+    "日线开盘价作为目标位"
+  ],
+  "school": "ICT",
+  "definition": "当日线出现大影线且不支持扩张时，将日线开盘价作为调整后的主要目标位，而非追求更大幅度的价格波动。",
+  "identification_rules": [
+    "识别日线K线是否存在较大的影线（wick），特别是与日线实体方向相反的影线",
+    "判断该大影线是否支持价格扩张——若影线过大，说明扩张动能不足",
+    "当日线不支持扩张时，将日线开盘价标记为交易目标，而非寻求更深层次的回撤或更大的波动幅度",
+    "结合会话低点（session lows）一起作为目标区域参考"
+  ],
+  "trading_implication": "当交易者识别到日线大影线不支持扩张的情况时，应调整交易预期，避免贪心追求大幅波动。此时日线开盘价成为更现实的目标位。交易者可在日线开盘价附近寻找反转或回撤机会，同时结合会话低点和当前K线低点作为辅助目标。这种调整有助于改善风险回报比，避免过度延伸的交易目标。",
+  "common_mistakes": [
+    "当日线出现大影线时，仍然贪心地追求更大幅度的价格波动或更深层次的目标位，忽视了影线所反映的扩张动能不足",
+    "未能根据日线K线的特征（大影线 vs 小影线）灵活调整交易目标，导致目标设置过于激进",
+    "在日线不支持扩张的情况下，仍然期待价格能够达到前期高点或其他远距离目标，而不是回归到日线开盘价"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_daily_open_as_target",
+      "segment_ids": [
+        "seg_009",
+        "seg_012",
+        "seg_015",
+        "seg_020"
+      ],
+      "time_range": [
+        440.24,
+        991.079
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132112Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

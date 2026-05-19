@@ -1,0 +1,102 @@
+{
+  "card_id": "caaS6_Q7O78_case_004_5分钟线上的csd入场与快速获利",
+  "type": "case",
+  "title": "5分钟线CSD识别V形反转，2倍风险回报快速获利",
+  "related_concepts": [
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "V-shape reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Price expansion",
+      "card_id": "expansion_and_retracement",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Fractal concept",
+      "card_id": "fractal_model",
+      "exists": true
+    },
+    {
+      "term": "Risk-Reward ratio (2R)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "v_shaped_reversal",
+    "order_block",
+    "expansion_and_retracement",
+    "retracement",
+    "fractal_model"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "5M",
+  "market_context": "价格在高位形成扩张后出现回撤，随后在5分钟线上形成明显的V形反转结构，触及前期低点后快速反弹。",
+  "key_observation": "博主识别到5分钟线上的交付状态改变（CSD），表现为价格扩张后的回撤，以及随后收盘突破前一根K线高点，确认看跌偏差，为做空提供高概率入场信号。",
+  "analysis_steps": [
+    "Step 1: 在更高时间框架观察到价格扩张（aggressive move lower）随后出现轻微回升（retracement）",
+    "Step 2: 识别回撤中价格扫出前一根K线高点后重新回到区间内，预期后续看跌价格行动",
+    "Step 3: 下钻到5分钟线，将相同的扩张-回撤模式应用于低时间框架",
+    "Step 4: 确认5分钟线上形成V形反转结构，该结构代表交付状态改变（CSD）",
+    "Step 5: 等待价格收盘突破该V形反转的低点，作为确认信号",
+    "Step 6: 价格收盘突破确认后，以V形反转的高点作为止损位入场做空",
+    "Step 7: 设定目标为2倍风险回报（2R），快速获利"
+  ],
+  "outcome": "交易成功执行，快速达成2倍风险回报目标（\"a very quick two R\"）",
+  "lessons": "CSD是跨时间框架通用的分形概念，可应用于日线、小时线、5分钟线等任何周期。关键是识别扩张-回撤-突破的三阶段模式，以及价格对前期结构的突破确认，从而获得高概率、快速的交易机会。",
+  "primary_image": "cards/caaS6_Q7O78/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/caaS6_Q7O78/images/case_004_detail_1.jpg",
+    "cards/caaS6_Q7O78/images/case_004_detail_2.jpg",
+    "cards/caaS6_Q7O78/images/case_004_detail_3.jpg",
+    "cards/caaS6_Q7O78/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表显示一段下跌走势，从72.40跌至70.90，约15根K线。图上有3条水平线分别位于71.55、71.15和70.90处。中部区域在71.15至71.55之间形成整理，包含多根绿色和黑色K线。右侧出现一根大幅绿色K线紧跟一根黑色K线，伴随明显的成交量柱状图。图右上角标注'The Market Lens'，中部可见'OHLC'标签。价格范围整体在70.00至72.40之间。",
+    "case_004_detail_1.jpg": "图表显示一段K线序列，价格范围从70.00至72.50。图上绘有4条水平线分别位于71.57、71.36、71.00和70.90处。两个矩形框分别标注在71.00至71.36区间和70.90至71.00区间。K线由绿色和黑色蜡烛组成，其中包含一根绿色K线上影线延伸至72.30，一根黑色K线上影线延伸至72.20。图右上角显示'The Market Lens'文字标签。多条竖虚线将图表分割成若干区域",
+    "case_004_detail_2.jpg": "图表为烛线图，价格范围从 70.00 到 72.50。图上标注有三条水平线，分别位于 71.42、71.60 和 70.90 处。左侧显示从 71.70 下跌至 70.20 的下降趋势，中间部分显示从 70.20 上升至 72.30 的上升趋势，其中一根黑色烛线在 72.20 处，上影线延伸至 72.30。右侧显示绿色和黑色烛线在 71.00 至 71.30 区间内的交替形态。图右上角标注'The",
+    "case_004_detail_3.jpg": "图表显示一份K线图，价格范围从69.40至73.00。图上有三条水平线分别位于71.41、71.00和70.30处。左侧显示价格标签71.41和71.00。图表左下角显示70.30标记。可见K线序列呈现上升趋势至72.30，随后出现一根大幅下跌的K线至70.00，下影线明显。之后K线在70.00至71.30区间内震荡，最后下跌至69.40附近。图右上角显示'The Market Lens'文字。",
+    "case_004_detail_4.jpg": "图表显示一组烛线图，价格范围从69.20到72.60。图上有三条水平虚线分别位于71.00、72.15和70.26处。两个矩形区域被标注：上方区域约在71.10至72.15之间，下方区域约在69.80至70.40之间。左侧显示价格标签70.26，旁有圆形指示符。一条竖虚线将图表分为左右两部分。中间部分有一条蓝色水平线约在71.50水平。烛线由绿色和黑色K线组成，分布在整个可见价格范围内。"
+  },
+  "sources": [
+    {
+      "video_id": "caaS6_Q7O78",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        904.44,
+        1033.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟线CSD识别、入场逻辑、止损设置和交易结果，关键价位、时间框架、交易结构清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:39:44.312484Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"5分钟线CSD识别V形反转，2倍风险回报快速获利\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"5M\",\"market_context\":\"价格在高位形成扩张后出现回撤，随后在5分钟线上形成明显的V形反转结构，触及前期低点后快速反弹。\",\"key_observation\":\"博主识别到5分钟线上的交付状态改变（CSD），表现为价格扩张后的回撤，以及随后收盘突破前一根K线高点，确认看跌偏差，为做空提供高概率入场信号。\",\"analysis_steps\":[\"Step 1: 在更高时间框架观察到价格扩张（aggressive move lower）随后出现轻微回升（retracement）\",\"Step 2: 识别回撤中价格扫出前一根K线高点后重新回到区间内，预期后续看跌价格行动\",\"Step 3: 下钻到5分钟线，将相同的扩张-回撤模式应用于低时间框架\",\"Step 4: 确认5分钟线上形成V形反转结构，该结构代表交付状态改变（CSD）\",\"Step 5: 等待价格收盘突破该V形反转的低点，作为确认信号\",\"Step 6: 价格收盘突破确认后，以V形反转的高点作为止损位入场做空\",\"Step 7: 设定目标为2倍风险回报（2R），快速获利\"],\"outcome\":\"交易成功执行，快速达成2倍风险回报目标（\\\"a very quick two R\\\"）\",\"lessons\":\"CSD是跨时间框架通用的分形概念，可应用于日线、小时线、5分钟线等任何周期。关键是识别扩张-回撤-突破的三阶段模式，以及价格对前期结构的突破确认，从而获得高概率、快速的交易机会。\",\"primary_image_frame_id\":\"caaS6_Q7O78_f033\",\"supporting_image_frame_ids\":[\"caaS6_Q7O78_f031\",\"caaS6_Q7O78_f032\",\"caaS6_Q7O78_f034\",\"caaS6_Q7O78_f035\"],\"related_concepts\":[\"CSD (Change in the state of delivery)\",\"V-shape reversal\",\"Order Block\",\"Price expansion\",\"Retracement\",\"Fractal concept\",\"Risk-Reward ratio (2R)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟线CSD识别、入场逻辑、止损设置和交易结果，关键价位、时间框架、交易结构清晰可见。\"}",
+  "error": null
+}

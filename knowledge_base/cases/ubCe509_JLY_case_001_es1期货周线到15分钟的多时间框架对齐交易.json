@@ -1,0 +1,106 @@
+{
+  "card_id": "ubCe509_JLY_case_001_es1期货周线到15分钟的多时间框架对齐交易",
+  "type": "case",
+  "title": "ES1期货周线到15分钟多时间框架对齐做空交易",
+  "related_concepts": [
+    {
+      "term": "Timeframe Alignment",
+      "card_id": "timeframe_alignment",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "timeframe_alignment",
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "displacement",
+    "risk_to_reward",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "Weekly → 4H → 15M",
+  "market_context": "ES1期货在周线形成摆动高点后，博主通过多时间框架对齐寻找做空机会。从周线的老高点出发，确认4小时结构转变，最终在15分钟时间框架执行入场。",
+  "key_observation": "博主强调多时间框架对齐的核心：当周线、4小时、15分钟三个时间框架都处于同一方向（熊市结构）时，才能捕捉到最具侵略性的扩张行情。",
+  "analysis_steps": [
+    "Step 1: 在周线图上识别价格回撤至老高点（5530.00附近），预期可能形成反转或进入新的价格交付阶段。",
+    "Step 2: 下降至4小时时间框架，等待交付状态改变（CSD）——观察一系列向上收盘的K线进入关键水平，确认结构从看涨转为看跌。",
+    "Step 3: 确认4小时扫出左侧高点后形成新高，随后出现一系列向上收盘K线，最终收盘跌破关键水平，确认熊市结构转变。",
+    "Step 4: 下降至15分钟时间框架，等待价格回测4小时订单块水平（5526.00附近）。",
+    "Step 5: 在15分钟上观察交付状态改变——等待收盘跌破关键水平，确认15分钟与4小时结构对齐。",
+    "Step 6: 确认三个时间框架都处于熊市结构后，在15分钟上执行做空入场，目标设定为2R。"
+  ],
+  "outcome": "成功达到2R目标。15分钟图上显示：入场价格约5526.00，止损4.50点（0.08%），平仓P&L为4.50，数量0.444，风险收益比1:1，最终目标价位4.50（0.08%）被触及。",
+  "lessons": "多时间框架对齐是捕捉强势扩张行情的关键。不仅要在高时间框架（周线）找到偏差点，还要在中时间框架（4小时）确认结构转变，最后在低时间框架（15分钟）精确入场。三个时间框架同向时，风险回报比最优。",
+  "primary_image": "cards/ubCe509_JLY/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/ubCe509_JLY/images/case_001_detail_1.jpg",
+    "cards/ubCe509_JLY/images/case_001_detail_2.jpg",
+    "cards/ubCe509_JLY/images/case_001_detail_3.jpg",
+    "cards/ubCe509_JLY/images/case_001_detail_4.jpg",
+    "cards/ubCe509_JLY/images/case_001_detail_5.jpg",
+    "cards/ubCe509_JLY/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES1! 15分钟K线图。图上显示从5月28日13:00至18:00的交易区间。可见价格范围从5504.00至5540.00。图上有一条水平线位于5526.00。右侧标注显示已平仓头寸，P&L为4.50，数量0.444，风险收益比为1。标注框覆盖5516.00至5526.00价格区间。图上标记有止损和目标价位信息。K线序列显示早期出现大幅上升和下降的蜡烛，中间区间呈现盘整，后期出现恢复性上升。",
+    "case_001_detail_1.jpg": "图上标题为'Timeframe Alignment'。展示一个烛线图表，包含绿色和黑色交替排列的K线。图中有两处文字标注：左侧中部标记'OSD'，右侧标记'OB'。右侧区域用浅蓝色矩形框标出。左右两个图表区域之间有虚线连接。左下角显示'TTrades'品牌标识和数字'2'。图上未显示具体资产代码、时间框架或价格刻度数值。",
+    "case_001_detail_2.jpg": "ES1! 日线图，时间跨度从 2023 年 12 月至 2024 年 9 月。图上显示一条水平虚线位于 5261.50 价格水平。K 线整体价格范围从 5050.00 至 5700.00。图表左侧标注'W'和'ES1!'，右上角显示'The Market Lens'。时间轴标记包括月份（Dec、Feb、Mar、Apr、May、Jun、Jul、Aug、Sep）和具体日期标签'Mon 17 Jun'。",
+    "case_001_detail_3.jpg": "ES1! 4小时K线图。图上显示从左侧5370.00起始的上升趋势，延伸至右侧5540.00附近。一条向上倾斜的趋势线贯穿下方支撑。图上有一条水平线位于5530.00处。右侧最近的K线集中在5510.00至5540.00区间内，呈现绿色和黑色K线交替的盘整形态，主体较小。最高点约5545.00处出现长上影线。图右上角标注时间为Fri 17 May 02:00，时间框架为4H。",
+    "case_001_detail_4.jpg": "ES1! 4小时K线图。图上显示从5月8日至6月4日的价格走势，价格范围从5380.00至5640.00。图中有三条水平线分别位于5530.00、5485.23和5470.00。一个矩形框标注在5530.00至5545.00区间。5月15日处出现向上跳空，随后K线在5530.00至5545.00区间内形成多根K线的整理形态。5月23日出现长下影线K线，下影线延伸至约5485.00。5月24日出现一",
+    "case_001_detail_5.jpg": "ES1! 4小时K线图，时间范围从5月13日至6月7日。图上显示价格范围从5370.00至5640.00。一条水平虚线标注在5529.75处，贯穿整个图表。一条竖直虚线标记为'Tue 28 May 14:00'，位于图表右侧中部。K线序列包含绿色和黑色蜡烛，其中5月23日附近的K线呈现长下影线，向下刺破至约5470.00。5月24日至5月30日期间，K线在5480.00至5540.00区间内形成盘",
+    "case_001_detail_6.jpg": "ES1! 15分钟K线图。图上显示从19:00至22:30的时间段内K线在5525至5528区间内震荡。04:00时出现向上跳空，随后在04:30附近达到5538.00的高点。之后出现一根大幅下跌的黑色K线，下影线刺破至5514.00，收盘接近5518.00。图上有两条蓝色水平线分别位于5525.00和5518.00处。从07:30开始至15:00，K线在5518至5530区间内形成震荡整理，包含"
+  },
+  "sources": [
+    {
+      "video_id": "ubCe509_JLY",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        193.239,
+        551.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从周线到15分钟的分析过程，清晰标注了关键价位、时间戳和交易结果（P&L 4.50，风险收益比1:1），所有数据均可从图表中验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:15.267934Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES1期货周线到15分钟多时间框架对齐做空交易\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"Weekly → 4H → 15M\",\"market_context\":\"ES1期货在周线形成摆动高点后，博主通过多时间框架对齐寻找做空机会。从周线的老高点出发，确认4小时结构转变，最终在15分钟时间框架执行入场。\",\"key_observation\":\"博主强调多时间框架对齐的核心：当周线、4小时、15分钟三个时间框架都处于同一方向（熊市结构）时，才能捕捉到最具侵略性的扩张行情。\",\"analysis_steps\":[\"Step 1: 在周线图上识别价格回撤至老高点（5530.00附近），预期可能形成反转或进入新的价格交付阶段。\",\"Step 2: 下降至4小时时间框架，等待交付状态改变（CSD）——观察一系列向上收盘的K线进入关键水平，确认结构从看涨转为看跌。\",\"Step 3: 确认4小时扫出左侧高点后形成新高，随后出现一系列向上收盘K线，最终收盘跌破关键水平，确认熊市结构转变。\",\"Step 4: 下降至15分钟时间框架，等待价格回测4小时订单块水平（5526.00附近）。\",\"Step 5: 在15分钟上观察交付状态改变——等待收盘跌破关键水平，确认15分钟与4小时结构对齐。\",\"Step 6: 确认三个时间框架都处于熊市结构后，在15分钟上执行做空入场，目标设定为2R。\"],\"outcome\":\"成功达到2R目标。15分钟图上显示：入场价格约5526.00，止损4.50点（0.08%），平仓P&L为4.50，数量0.444，风险收益比1:1，最终目标价位4.50（0.08%）被触及。\",\"lessons\":\"多时间框架对齐是捕捉强势扩张行情的关键。不仅要在高时间框架（周线）找到偏差点，还要在中时间框架（4小时）确认结构转变，最后在低时间框架（15分钟）精确入场。三个时间框架同向时，风险回报比最优。\",\"primary_image_frame_id\":\"ubCe509_JLY_f013\",\"supporting_image_frame_ids\":[\"ubCe509_JLY_f004\",\"ubCe509_JLY_f008\",\"ubCe509_JLY_f009\",\"ubCe509_JLY_f010\",\"ubCe509_JLY_f011\",\"ubCe509_JLY_f012\"],\"related_concepts\":[\"Timeframe Alignment\",\"Change in the State of Delivery (CSD)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Displacement\",\"Risk/Reward Ratio\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从周线到15分钟的分析过程，清晰标注了关键价位、时间戳和交易结果（P&L 4.50，风险收益比1:1），所有数据均可从图表中验证。\"}",
+  "error": null
+}

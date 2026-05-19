@@ -1,0 +1,87 @@
+{
+  "card_id": "MsuEQQl7L6s_case_001_eurusd日线candle_two_closure案例",
+  "type": "case",
+  "title": "EURUSD日线FVG处Candle Two Closure反转案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "candle_two_closure",
+    "liquidity",
+    "equilibrium",
+    "reversal"
+  ],
+  "school": "SMC",
+  "asset": "EURUSD",
+  "timeframe": "1D",
+  "market_context": "EURUSD日线从1.17200下跌至1.14000附近，随后在公允价值缺口区域形成反转信号，价格扫出前一根K线低点后反向收盘。",
+  "key_observation": "价格在FVG区域（约1.14400-1.15600）形成Candle Two Closure，即第二根K线扫出第一根K线的低点后反向收盘，随后形成上升扩张走势。",
+  "analysis_steps": [
+    "Step 1: 识别EURUSD日线上从1.17200开始的下跌走势，跌至约1.14000的低点。",
+    "Step 2: 观察价格在下跌过程中形成的公允价值缺口（FVG），位于约1.14400-1.15600区间。",
+    "Step 3: 分析价格进入FVG区域后的K线行为，发现第一根K线向下扫出前一根K线的低点。",
+    "Step 4: 确认第二根K线（Candle Two）扫出第一根K线的低点后反向收盘，形成Candle Two Closure反转信号。",
+    "Step 5: 观察反转后价格形成的上升扩张走势，验证反转信号的有效性。"
+  ],
+  "outcome": "价格在Candle Two Closure后形成上升扩张，确认反转有效。",
+  "lessons": "Candle Two Closure是在FVG等关键区域的有效反转信号，当价格扫出前一根K线极值后反向收盘时，预示趋势可能反转。此模式结合FVG使用时具有较高的可靠性。",
+  "primary_image": "cards/MsuEQQl7L6s/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/MsuEQQl7L6s/images/case_001_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "EURUSD 日线图。图上显示从左侧约 1.17200 开始的下跌走势，跌至约 1.14000，随后出现反弹至约 1.16600。K 线序列中绿色和黑色蜡烛交替出现。图上有一条水平虚线位于 1.15614，以及一个浅黄色矩形框标注在约 1.14400 至 1.15600 的价格区间。右下角显示时间标记'Mon 04 Aug 25'。可见价格范围从 1.13200 至 1.18800。",
+    "case_001_detail_1.jpg": "图上展示两组各含 4 根编号 K 线的序列。左侧序列：第 1 根深灰色、第 2 根深灰色、第 3 根绿色、第 4 根绿色。右侧序列：第 1 根绿色、第 2 根绿色、第 3 根深灰色、第 4 根深灰色。图上有两条水平线均标记为'HTF Key Level'，分别位于图表上下方。右侧有两处标注'0.5'。页面标题为'Equilibrium'，左下角显示'TTrades'品牌标识。未显示具体资产代码、时"
+  },
+  "sources": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        164.96,
+        194.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对案例分析完整，资产、时间框架、关键价位、分析步骤均清晰，图表直观展示了FVG和Candle Two Closure的形成过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:45.552044Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD日线FVG处Candle Two Closure反转案例\",\"school\":\"SMC\",\"asset\":\"EURUSD\",\"timeframe\":\"1D\",\"market_context\":\"EURUSD日线从1.17200下跌至1.14000附近，随后在公允价值缺口区域形成反转信号，价格扫出前一根K线低点后反向收盘。\",\"key_observation\":\"价格在FVG区域（约1.14400-1.15600）形成Candle Two Closure，即第二根K线扫出第一根K线的低点后反向收盘，随后形成上升扩张走势。\",\"analysis_steps\":[\"Step 1: 识别EURUSD日线上从1.17200开始的下跌走势，跌至约1.14000的低点。\",\"Step 2: 观察价格在下跌过程中形成的公允价值缺口（FVG），位于约1.14400-1.15600区间。\",\"Step 3: 分析价格进入FVG区域后的K线行为，发现第一根K线向下扫出前一根K线的低点。\",\"Step 4: 确认第二根K线（Candle Two）扫出第一根K线的低点后反向收盘，形成Candle Two Closure反转信号。\",\"Step 5: 观察反转后价格形成的上升扩张走势，验证反转信号的有效性。\"],\"outcome\":\"价格在Candle Two Closure后形成上升扩张，确认反转有效。\",\"lessons\":\"Candle Two Closure是在FVG等关键区域的有效反转信号，当价格扫出前一根K线极值后反向收盘时，预示趋势可能反转。此模式结合FVG使用时具有较高的可靠性。\",\"primary_image_frame_id\":\"MsuEQQl7L6s_f007\",\"supporting_image_frame_ids\":[\"MsuEQQl7L6s_f006\"],\"related_concepts\":[\"Fair Value Gap\",\"Candle Two Closure\",\"Liquidity\",\"Equilibrium\",\"Price Action\",\"Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对案例分析完整，资产、时间框架、关键价位、分析步骤均清晰，图表直观展示了FVG和Candle Two Closure的形成过程。\"}",
+  "error": null
+}

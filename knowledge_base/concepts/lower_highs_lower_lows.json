@@ -1,0 +1,52 @@
+{
+  "card_id": "lower_highs_lower_lows",
+  "type": "merged_concept",
+  "canonical_term": "Lower Highs / Lower Lows",
+  "aliases": [
+    "LH/LL",
+    "下降高点/下降低点"
+  ],
+  "school": "Price Action",
+  "definition": "在下降趋势中，连续形成的摆动高点逐次下降、摆动低点也逐次下降的价格模式，用于确认下跌趋势的延续和强度。",
+  "identification_rules": [
+    "识别前一个摆动高点，然后观察后续摆动高点是否低于它（Lower High）",
+    "识别前一个摆动低点，然后观察后续摆动低点是否低于它（Lower Low）",
+    "连续出现多个Lower Highs和Lower Lows表明趋势向下延续",
+    "当出现Higher High或Higher Low时，表明Lower Highs/Lows模式被破坏，可能预示趋势反转"
+  ],
+  "trading_implication": "Lower Highs/Lows是确认下降趋势的关键结构。交易者通过识别这一模式来判断日线偏向（Daily Bias），在趋势延续期间寻找做空机会。一旦出现Higher High或Higher Low，表明市场结构转变（MSS），趋势可能反转，交易者应调整策略从看空转向看多。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "tZMgGsTqqVM",
+      "original_card_id": "tZMgGsTqqVM_concept_lower_highs_lower_lows",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.96,
+        189.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133908Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

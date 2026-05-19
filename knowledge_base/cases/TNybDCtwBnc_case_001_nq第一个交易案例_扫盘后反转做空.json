@@ -1,0 +1,108 @@
+{
+  "card_id": "TNybDCtwBnc_case_001_nq第一个交易案例_扫盘后反转做空",
+  "type": "case",
+  "title": "NQ扫盘后反转做空——入场点位不理想导致止损",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "liquidity",
+    "point_of_interest",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H / 5M",
+  "market_context": "NQ在日线扫出前一日高点（约21,450）后收回至日内，形成看跌偏向。随后在小时线和5分钟线上确认反转信号，寻求做空机会。",
+  "key_observation": "日线形成扫盘后的看跌收盘（sweep previous day's high then close back inside），为后续小时线和5分钟线的空头偏向奠定基础。",
+  "analysis_steps": [
+    "Step 1: 观察日线结构——价格扫出前一日高点后收回，形成看跌偏向（bearish bias）。",
+    "Step 2: 下移至1小时线，确认Candle 2出现CSD（Change in State of Delivery），满足反转条件。",
+    "Step 3: 识别小时线上的FVG（公允价值缺口），预期价格继续下行并尊重该缺口。",
+    "Step 4: 下移至5分钟线，再次确认CSD，为做空入场做准备。",
+    "Step 5: 在5分钟线上等待看跌收盘信号（bearish candle closure），作为入场触发。",
+    "Step 6: 在看跌收盘处以市价做空2手，止损设在该根K线的高点，目标2R。",
+    "Step 7: 交易执行后立即被止损——价格未能尊重入场点位，反而扫出短期低点后反弹。"
+  ],
+  "outcome": "止损出场。交易在入场后不久被触发止损。原因：(1) 入场点位不理想——5分钟线先向下扫低点，然后才回到交易范围内；(2) 预期的点位（Point of Interest）未被尊重；(3) 短期流动性被扫除，导致反向运行。",
+  "lessons": "入场点位的质量至关重要。理想的设置应该是K线先向上创高、再回到范围内交易下行，而非先扫低点。当预期的支撑/阻力未被尊重时，应立即认识到偏差并执行止损，而非坚持原有偏向。",
+  "primary_image": "cards/TNybDCtwBnc/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/TNybDCtwBnc/images/case_001_detail_1.jpg",
+    "cards/TNybDCtwBnc/images/case_001_detail_2.jpg",
+    "cards/TNybDCtwBnc/images/case_001_detail_3.jpg",
+    "cards/TNybDCtwBnc/images/case_001_detail_4.jpg",
+    "cards/TNybDCtwBnc/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NQ 5分钟K线图，时间为2025年1月17日08:05。图表显示价格范围从21260到21390。图上有两个矩形标注区域：上方粉红色矩形约在21320至21360之间，下方浅绿色矩形约在21280至21330之间。右侧价格刻度显示多个水平线标记，包括21370、21323.25、21289等价位。K线序列由绿色和黑色蜡烛组成，交替出现。右侧面板显示交易订单界面，当前余额$49,140，最新成交价",
+    "case_001_detail_1.jpg": "图上标题为'5 Minute Entry'，显示 5 分钟时间框架的 K 线图。图表分为三个标注区域：candle 1、candle 2、candle 3。左侧显示多根小型 K 线混合走势，中间部分显示连续下跌的黑色 K 线，右侧显示三根编号的 K 线，其中第 3 根为大型黑色实体 K 线，带有向下延伸的长下影线。图左下角显示 TTrades 品牌标识。图上未标注具体价格数字或指标。",
+    "case_001_detail_2.jpg": "NQ 1 小时 K 线图，时间范围从 1 月 12 日至 1 月 20 日。图上有一条黄色水平线位于 21450.00 价格水平，跨越约 2 小时的时间范围。可见价格范围从 20750.00 到 21650.00。图右侧显示当前价格标签 21,288.75（绿色背景）和 21,040.25（黑色背景）。K 线序列显示从 1 月 16 日起的上升运动至 21550.00，随后 1 月 17 日下降至",
+    "case_001_detail_3.jpg": "NQ 1 小时 K 线图，时间范围从 1 月 15 日至 1 月 19 日。图上可见价格范围约从 20960 到 21560。图表中有一条黄色矩形框标注在约 21440 至 21480 价格区间。图上绘有多条水平线，分别位于 21288.75、21440、21360 和 21121 价格水平。K 线序列显示 1 月 19 日出现一根大型绿色 K 线，从约 21000 向上延伸至 21400 附近。",
+    "case_001_detail_4.jpg": "NQ 1 小时 K 线图，时间为 2025 年 1 月 17 日 07:00:00。图上可见价格范围约从 20960 到 21560。一条黄色水平矩形框标注在 21440 至 21480 价格区间。图右侧显示当前价 21,328.50（绿色背景）和价格水平 21,227.75（黑色背景）。K 线序列显示 1 月 15 日 15:00 处有一根大幅上升的绿色 K 线，随后从 1 月 16 至 1 月",
+    "case_001_detail_5.jpg": "NQ 5分钟K线图，时间范围从03:00至10:00 UTC。图上显示价格范围在21,280至21,370之间波动。图表左侧为绿色K线集中区域，中间出现黑色K线，右侧再次出现绿色K线。右侧价格刻度标注了多条水平参考线，包括21,370、21,360、21,350、21,340、21,330、21,320、21,310、21,300、21,290、21,280等价位。当前价格标注为21,346.50"
+  },
+  "sources": [
+    {
+      "video_id": "TNybDCtwBnc",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        256.16,
+        475.919
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了从日线到5分钟线的分析过程、入场逻辑、止损原因，图表清晰显示价格走势和关键水平。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:36.771030Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ扫盘后反转做空——入场点位不理想导致止损\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H / 5M\",\"market_context\":\"NQ在日线扫出前一日高点（约21,450）后收回至日内，形成看跌偏向。随后在小时线和5分钟线上确认反转信号，寻求做空机会。\",\"key_observation\":\"日线形成扫盘后的看跌收盘（sweep previous day's high then close back inside），为后续小时线和5分钟线的空头偏向奠定基础。\",\"analysis_steps\":[\"Step 1: 观察日线结构——价格扫出前一日高点后收回，形成看跌偏向（bearish bias）。\",\"Step 2: 下移至1小时线，确认Candle 2出现CSD（Change in State of Delivery），满足反转条件。\",\"Step 3: 识别小时线上的FVG（公允价值缺口），预期价格继续下行并尊重该缺口。\",\"Step 4: 下移至5分钟线，再次确认CSD，为做空入场做准备。\",\"Step 5: 在5分钟线上等待看跌收盘信号（bearish candle closure），作为入场触发。\",\"Step 6: 在看跌收盘处以市价做空2手，止损设在该根K线的高点，目标2R。\",\"Step 7: 交易执行后立即被止损——价格未能尊重入场点位，反而扫出短期低点后反弹。\"],\"outcome\":\"止损出场。交易在入场后不久被触发止损。原因：(1) 入场点位不理想——5分钟线先向下扫低点，然后才回到交易范围内；(2) 预期的点位（Point of Interest）未被尊重；(3) 短期流动性被扫除，导致反向运行。\",\"lessons\":\"入场点位的质量至关重要。理想的设置应该是K线先向上创高、再回到范围内交易下行，而非先扫低点。当预期的支撑/阻力未被尊重时，应立即认识到偏差并执行止损，而非坚持原有偏向。\",\"primary_image_frame_id\":\"TNybDCtwBnc_f015\",\"supporting_image_frame_ids\":[\"TNybDCtwBnc_f007\",\"TNybDCtwBnc_f011\",\"TNybDCtwBnc_f012\",\"TNybDCtwBnc_f013\",\"TNybDCtwBnc_f014\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Liquidity\",\"Point of Interest\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了从日线到5分钟线的分析过程、入场逻辑、止损原因，图表清晰显示价格走势和关键水平。\"}",
+  "error": null
+}

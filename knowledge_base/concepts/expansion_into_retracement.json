@@ -1,0 +1,54 @@
+{
+  "card_id": "expansion_into_retracement",
+  "type": "merged_concept",
+  "canonical_term": "Expansion into Retracement",
+  "aliases": [
+    "扩张进入回撤"
+  ],
+  "school": "ICT",
+  "definition": "价格先经历强势扩张运动（突破前期结构），随后出现小幅回撤但未能突破前一K线高点，最后继续原方向扩张的多周期形态。",
+  "identification_rules": [
+    "识别初始扩张：价格以强劲势头突破前期摆动高/低点或收盘价，形成新的极值。",
+    "识别回撤阶段：扩张后出现反向小幅移动，但未能突破前一根K线的高点或低点。",
+    "识别失败闭合：回撤K线未能收盘在扩张范围外，而是收回到范围内部。",
+    "确认后续扩张：观察下一根K线是否继续原方向突破，验证回撤为中继而非反转。"
+  ],
+  "trading_implication": "该形态预示价格回撤后将继续原趋势扩张，是中继信号而非反转信号。交易者可在回撤K线收盘确认后，以前一K线的极值作为止损，目标为2R或更远的流动性区域。该概念是分形的，可应用于所有时间框架（日线、小时线、5分钟线等）。",
+  "common_mistakes": [
+    "将回撤误判为反转，过早止损而错过后续扩张机会。",
+    "未等待回撤K线完全闭合就提前入场，导致被扫出。",
+    "忽视回撤K线是否真正收回到范围内部，混淆失败闭合与成功突破。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_expansion_into_retracement",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        724.88,
+        1033.959
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132914Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,304 @@
+{
+  "card_id": "mitigation_block",
+  "type": "merged_concept",
+  "canonical_term": "Mitigation Block",
+  "aliases": [
+    "减伤块"
+  ],
+  "school": "ICT",
+  "definition": "价格未能创出新高/新低后，先前失败的订单块区域转变为新的支撑或阻力。结构特征为低-高-更低低-更低高，标志旧的失效订单块成为新的防守位。常与FVG重叠，可在多时间框架对齐时构成高概率入场区域。",
+  "identification_rules": [
+    "识别先前形成的订单块（Order Block），确认其位于价格反转前的特定K线区域",
+    "观察价格是否扫过摆动高点或低点后随即反向运行，表明该订单块未被有效激活（失败位移）",
+    "确认结构形态：低点→高点→更低的低点→更低的高点（低-高-更低低-更低高）",
+    "与Breaker Block区分：Mitigation Block不需要扫除之前的高点，Breaker Block需要扫除高点后才能形成",
+    "确认该失效订单块区域是否与公允价值缺口（FVG）重叠，以增加概率",
+    "观察是否伴随市场结构转变（MSS）或交付状态改变（CSD），以确认趋势反转背景",
+    "在多时间框架分析中，低时间框架的Mitigation Block常与高时间框架的关键水平（FVG或Order Block）重合",
+    "等待价格回测该区域的开盘价或高点/低点后再寻找入场，止损设在该K线的相反端点（做空止损在高点，做多止损在低点）"
+  ],
+  "trading_implication": "Mitigation Block是失效订单块转变后的高概率交易区域。与FVG重叠时构成高概率入场点，可结合SMT（另一资产创出新高/新低）增加信心。交易者可下沉至低时间框架（如15秒、1分钟图）结合FVG、OTE寻找低风险入场，以达成高时间框架目标。价格回测时若无法突破则预示趋势延续；若突破则可能预示新趋势确立。",
+  "common_mistakes": [
+    "将Mitigation Block与原始Order Block混淆，忽视其核心前提是价格未能创出新高/新低（失败突破）",
+    "混淆Mitigation Block与Breaker Block，忽视两者在形成条件上的关键差异",
+    "未等待高点/低点被真正突破就提前假设形成Mitigation Block，或未确认价格真正失败位移就提前入场",
+    "在Mitigation Block形成后立即入场，而不等待短期摆动高点/低点在该区域确认，导致入场过早",
+    "未在多时间框架对齐的情况下使用Mitigation Block，降低交易概率",
+    "在高时间框架上直接交易Mitigation Block，而不是下沉到低时间框架寻找具体设置",
+    "未检查Mitigation Block是否与其他汇聚因素（如FVG、PD array）重叠，降低交易信心",
+    "在没有SMT确认的情况下交易Mitigation Block，导致多个失败摆动在高点处形成",
+    "止损设置不当，应严格设在该K线的相反端点，而非其他位置",
+    "在价格突破中期摆动高点后仍持有头寸，而不是在该高点处止损，违反风险管理原则"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reaccumulation",
+      "card_id": "reaccumulation",
+      "exists": true
+    },
+    {
+      "term": "Intermediate Term High",
+      "card_id": "intermediate_term_high",
+      "exists": true
+    },
+    {
+      "term": "Short-term High",
+      "card_id": "short_term_high",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Low Time Frame",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0R61Y6Pn74Q_case_001_cpi后黄金反转交易案例",
+      "video_id": "0R61Y6Pn74Q",
+      "title": "CPI后黄金日线订单块与5分钟FVG叠加做空案例"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_002_nasdaq_5分钟图表的breaker_block与fvg嵌套",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 5分钟Breaker Block内嵌FVG的精准入场"
+    },
+    {
+      "card_id": "FXJBFbZQbck_case_003_nasdaq日线多日偏差与订单块验证",
+      "video_id": "FXJBFbZQbck",
+      "title": "NASDAQ日线多日偏差与订单块验证"
+    },
+    {
+      "card_id": "NgFIza9qsGQ_case_002_s_p_500_e_mini期货看跌mitigation_blo",
+      "video_id": "NgFIza9qsGQ",
+      "title": "ES期货5分钟FVG看跌Mitigation Block多次成功触及目标"
+    },
+    {
+      "card_id": "NgFIza9qsGQ_case_003_s_p_500_e_mini期货多重mitigation_blo",
+      "video_id": "NgFIza9qsGQ",
+      "title": "ES期货下行趋势中多重Mitigation Block低风险入场"
+    },
+    {
+      "card_id": "NgFIza9qsGQ_case_004_s_p_500_e_mini期货fvg内mitigation_b",
+      "video_id": "NgFIza9qsGQ",
+      "title": "ES期货：Mitigation Block内FVG做空设置"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_002_经典卖出日的范围捕捉",
+      "video_id": "b6yvRKf8haE",
+      "title": "经典卖出日的范围捕捉与伦敦偏离后的纽约交易机会"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_003_震荡盘整日的枢轴反弹",
+      "video_id": "b6yvRKf8haE",
+      "title": "震荡盘整日的枢轴反弹——午夜开盘与8:30开盘的失败信号分析"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_001_gbpusd_1小时图的mitigation_block交易",
+      "video_id": "bbWPoajy2MY",
+      "title": "GBPUSD 1小时图的两个Mitigation Block案例分析"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_002_ym与nq的smt确认案例",
+      "video_id": "bbWPoajy2MY",
+      "title": "YM与NQ的SMT确认：Mitigation Block高概率交易"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_003_黄金4小时图的多重mitigation_block应用",
+      "video_id": "bbWPoajy2MY",
+      "title": "黄金4小时图多重Mitigation Block的识别与应用"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_004_原油日线图的order_block与mitigation_blo",
+      "video_id": "bbWPoajy2MY",
+      "title": "原油日线Order Block与Mitigation Block的多层级回测"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_005_美日日线图的流动性与mitigation_block确认",
+      "video_id": "bbWPoajy2MY",
+      "title": "美日日线买方流动性与Mitigation Block的交易汇聚"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_007_回测第五天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "NAS100日线扫高后做空，Order Block入场获3R收益"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_008_回测第六天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第六天交易：11AM无有效扫盘，订单取消"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_009_回测第七天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第七天：FVG入场做空未成交"
+    },
+    {
+      "card_id": "pWAjzKndWXo_case_003_反向头皮交易中的多层目标运用",
+      "video_id": "pWAjzKndWXo",
+      "title": "ES反向头皮交易中的多层FVG与流动性目标运用"
+    },
+    {
+      "card_id": "wDXTIDbIMwU_case_001_s_p_500_e_mini期货日内交易分析",
+      "video_id": "wDXTIDbIMwU",
+      "title": "ES日内顶级分析：从日线到15秒的多级联动交易"
+    },
+    {
+      "card_id": "wy3OSPxu5U0_case_001_gbpaud日线到5分钟的多级别交易分析",
+      "video_id": "wy3OSPxu5U0",
+      "title": "GBPAUD日线到5分钟多级别FVG填充与流动性狩猎"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0R61Y6Pn74Q",
+      "original_card_id": "0R61Y6Pn74Q_concept_mitigation_block",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        124.92,
+        485.319
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "NgFIza9qsGQ",
+      "original_card_id": "NgFIza9qsGQ_concept_mitigation_block",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        7.359,
+        545.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "b6yvRKf8haE",
+      "original_card_id": "b6yvRKf8haE_concept_order_block_mitigation_block",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        188.599,
+        369.319
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "bbWPoajy2MY",
+      "original_card_id": "bbWPoajy2MY_concept_mitigation_block",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.44,
+        623.8
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wDXTIDbIMwU",
+      "original_card_id": "wDXTIDbIMwU_concept_mitigation_block",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        367.08,
+        472.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wy3OSPxu5U0",
+      "original_card_id": "wy3OSPxu5U0_concept_mitigation_block",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        110.24000000000001,
+        148.959
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 6,
+    "source_videos": 6,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 2,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:22.582913Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "6张原始卡均标注ICT，school无冲突。各卡对定义侧重略有差异（趋势延续 vs 反转防守位），已综合保留两种使用场景。",
+  "error": null
+}

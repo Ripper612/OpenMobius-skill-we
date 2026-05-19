@@ -1,0 +1,72 @@
+{
+  "card_id": "new_york_session",
+  "type": "merged_concept",
+  "canonical_term": "New York Session",
+  "aliases": [
+    "NY Session",
+    "New York AM Session"
+  ],
+  "school": "ICT",
+  "definition": "外汇交易中纽约时段的交易窗口，通常指美国东部时间上午开盘至中午前的时间段。在该时段使用15分钟图表寻找高概率交易设置，是执行Next Day Model的核心执行窗口。",
+  "identification_rules": [
+    "在日线图表中识别前一日的关键结构（如Daily FVG、Order Block、流动性水平）后，在次日的New York Session时段切换至15分钟图表",
+    "New York Session开始时，观察午夜开盘(Midnight Open)后的价格走势，寻找15分钟FVG、Order Block等微观结构",
+    "该时段内价格通常会向前一日识别的高时间框架目标（如Draw on Liquidity、Sell Side Liquidity）运动",
+    "New York Session是在跳过周一、等待价格触及高时间框架水平后的次日执行交易的时间窗口"
+  ],
+  "trading_implication": "New York Session是Next Day Model中的主要执行时段。交易者在日线图表识别关键结构后，于次日New York Session在15分钟图表上寻找具体入场点。该时段内的价格走势通常会完成前一日规划的目标运动，如向流动性水平运动或完成位移。通过在该时段执行，交易者可以利用高时间框架结构与低时间框架精确入场的结合。",
+  "common_mistakes": [
+    "在周一执行交易，而应跳过周一等待周二或之后的New York Session",
+    "未在日线图表提前识别高时间框架目标就进入New York Session，导致缺乏明确的交易计划",
+    "在New York Session之外的时段执行该模型的交易设置，降低成功概率",
+    "混淆New York Session与其他交易时段（如伦敦开盘），导致时间窗口错误"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "TCFvsZeYvV8_case_004_日线第二个_amd_案例_伦敦盘整与操纵",
+      "video_id": "TCFvsZeYvV8",
+      "title": "NQ日线AMD：伦敦盘整、操纵扫低、纽约派发"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_006_gbpusd周一至周五的看涨周期案例",
+      "video_id": "klaiq36QnEM",
+      "title": "GBPUSD周一至周五看涨周期：订单块、FVG与流动性扫荡"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "klaiq36QnEM",
+      "original_card_id": "klaiq36QnEM_concept_new_york_session",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        2.82,
+        812.519
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134322Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

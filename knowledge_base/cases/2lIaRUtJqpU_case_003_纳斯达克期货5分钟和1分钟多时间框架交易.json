@@ -1,0 +1,106 @@
+{
+  "card_id": "2lIaRUtJqpU_case_003_纳斯达克期货5分钟和1分钟多时间框架交易",
+  "type": "case",
+  "title": "纳斯达克期货5分钟和1分钟多时间框架交易",
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Equal Low",
+      "card_id": "equal_low",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "low_resistance_liquidity",
+    "high_resistance_liquidity",
+    "failure_swing",
+    "equal_low",
+    "inducement",
+    "displacement",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M / 1M",
+  "market_context": "2023年4月14日纳斯达克期货，价格在13100-13250区间内形成整固，随后出现向下位移。博主在5分钟和1分钟双时间框架上识别交易机会。",
+  "key_observation": "5分钟图显示高阻力流动性和操纵迹象；下钻至1分钟图发现多个连续失败摇摆形成低阻力流动性，预示价格将轻松扩展穿过这些区域。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别初始整固区域（约13100-13150），观察价格向上突破后回落的操纵行为。",
+    "Step 2: 标记5分钟图上的高阻力流动性（High Resistance Liquidity）位置，注意失败摇摆后的等低点（Equal Low）。",
+    "Step 3: 下钻至1分钟图，观察该区域内的多个连续失败摇摆（Failure Swings），确认这些形成低阻力流动性。",
+    "Step 4: 基于低阻力流动性预期，设定目标为价格向下扩展穿过这些失败摇摆区域。",
+    "Step 5: 监控价格实际走势，确认向下扩展并触及等低点和目标区域。",
+    "Step 6: 在失败摇摆和等低点处平仓，而非等待触及高阻力流动性的低点。"
+  ],
+  "outcome": "价格按预期向下扩展，穿过1分钟图上的多个失败摇摆形成的低阻力流动性区域，触及等低点（Equal Low）附近，随后短暂整固后继续下行触及旧低点。博主在失败摇摆和等低点处平仓，避免了继续持仓至高阻力流动性的低点。",
+  "lessons": "多时间框架分析中，高时间框架（5分钟）提供宏观结构和操纵信号，低时间框架（1分钟）揭示具体的低阻力流动性区域。失败摇摆的积累形成低阻力流动性，价格倾向轻松穿过；相比之下，高阻力流动性的低点更难突破。在低阻力流动性处平仓比等待高阻力流动性更高效。",
+  "primary_image": "cards/2lIaRUtJqpU/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/2lIaRUtJqpU/images/case_003_detail_1.jpg",
+    "cards/2lIaRUtJqpU/images/case_003_detail_2.jpg",
+    "cards/2lIaRUtJqpU/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 E-MINI NASDAQ-100 FUTURES（JUN 2023）1 分钟 K 线图，日期标注为 Fri 14 Apr 23，可见价格范围约 13070 至 13240。图上有一条水平线延伸至约 13115 水平。图上绘制有三个矩形框：一个绿色矩形覆盖约 10:15 至 11:00 时段、价格区间约 13120 至 13155；一个粉红色矩形覆盖约 11:00 至 11:30 时段、价",
+    "case_003_detail_1.jpg": "图表标题显示为 E-MINI NASDAQ-100 FUTURES（JUN 2023），时间框架为 5 分钟，交易所标注为 CME_MINI。图右侧价格轴可见范围约为 13090 至 13260。时间轴显示日期为 Fri 14 Apr '23，时间跨度从 07:15 至约 13:00。图上可见一个圆形光标标注位于 08:50 附近、价格约 13100 处。右侧价格轴有两个高亮标签：13149.75",
+    "case_003_detail_2.jpg": "图表为 E-MINI NASDAQ-100 期货（2023年6月）5分钟 K 线图，可见价格范围约 13090 至 13260。图上有一条水平线位于约 13114.75，延伸贯穿图表。图上有一个绿色矩形框标注约 10:30 至 11:00 之间、价格约 13430 至 13530 的区域。另有一个粉色矩形框覆盖约 11:00 至 11:35 之间、价格约 13114 至 13545 的区域。粉色矩",
+    "case_003_detail_3.jpg": "图为 E-MINI NASDAQ-100 FUTURES（JUN 2023）1 分钟 K 线图，时间轴显示 2023 年 4 月 14 日 09:00 至 13:15 区间。图上可见三个彩色矩形框：一个绿色矩形覆盖约 09:45 至 11:00 时段；一个粉红色矩形覆盖约 11:00 至 11:15 时段；一个蓝色矩形覆盖约 11:15 至 11:40 时段。图上另有一条从约 10:00 延伸至 "
+  },
+  "sources": [
+    {
+      "video_id": "2lIaRUtJqpU",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        364.62,
+        545.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟和1分钟双时间框架分析过程，清晰标注了关键价位、流动性区域和交易结果，分析步骤逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:19:34.247832Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克期货5分钟和1分钟多时间框架交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M / 1M\",\"market_context\":\"2023年4月14日纳斯达克期货，价格在13100-13250区间内形成整固，随后出现向下位移。博主在5分钟和1分钟双时间框架上识别交易机会。\",\"key_observation\":\"5分钟图显示高阻力流动性和操纵迹象；下钻至1分钟图发现多个连续失败摇摆形成低阻力流动性，预示价格将轻松扩展穿过这些区域。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别初始整固区域（约13100-13150），观察价格向上突破后回落的操纵行为。\",\"Step 2: 标记5分钟图上的高阻力流动性（High Resistance Liquidity）位置，注意失败摇摆后的等低点（Equal Low）。\",\"Step 3: 下钻至1分钟图，观察该区域内的多个连续失败摇摆（Failure Swings），确认这些形成低阻力流动性。\",\"Step 4: 基于低阻力流动性预期，设定目标为价格向下扩展穿过这些失败摇摆区域。\",\"Step 5: 监控价格实际走势，确认向下扩展并触及等低点和目标区域。\",\"Step 6: 在失败摇摆和等低点处平仓，而非等待触及高阻力流动性的低点。\"],\"outcome\":\"价格按预期向下扩展，穿过1分钟图上的多个失败摇摆形成的低阻力流动性区域，触及等低点（Equal Low）附近，随后短暂整固后继续下行触及旧低点。博主在失败摇摆和等低点处平仓，避免了继续持仓至高阻力流动性的低点。\",\"lessons\":\"多时间框架分析中，高时间框架（5分钟）提供宏观结构和操纵信号，低时间框架（1分钟）揭示具体的低阻力流动性区域。失败摇摆的积累形成低阻力流动性，价格倾向轻松穿过；相比之下，高阻力流动性的低点更难突破。在低阻力流动性处平仓比等待高阻力流动性更高效。\",\"primary_image_frame_id\":\"2lIaRUtJqpU_f018\",\"supporting_image_frame_ids\":[\"2lIaRUtJqpU_f016\",\"2lIaRUtJqpU_f017\",\"2lIaRUtJqpU_f019\"],\"related_concepts\":[\"Low Resistance Liquidity\",\"High Resistance Liquidity\",\"Failure Swing\",\"Equal Low\",\"Manipulation\",\"Displacement\",\"Order Block\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟和1分钟双时间框架分析过程，清晰标注了关键价位、流动性区域和交易结果，分析步骤逻辑清晰。\"}",
+  "error": null
+}

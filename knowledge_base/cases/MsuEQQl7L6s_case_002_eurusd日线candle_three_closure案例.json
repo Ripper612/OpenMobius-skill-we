@@ -1,0 +1,88 @@
+{
+  "card_id": "MsuEQQl7L6s_case_002_eurusd日线candle_three_closure案例",
+  "type": "case",
+  "title": "EURUSD日线Candle Three Closure确认上升趋势",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Bullish Trend Continuation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "candle_two_closure",
+    "candle_three_closure",
+    "reversal_candle"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1D",
+  "market_context": "EURUSD在经历下跌后反弹，价格在Fair Value Gap处未形成Candle Two Closure，博主观察第三根K线是否能确认趋势延续。",
+  "key_observation": "第三根K线收盘于第二根K线主体上方，形成Candle Three Closure，预示价格将继续上升。",
+  "analysis_steps": [
+    "Step 1: 识别Fair Value Gap位置（约1.14400-1.15600区间）",
+    "Step 2: 观察价格进入FVG后是否形成Candle Two Closure（检查第二根K线是否有反转收盘）",
+    "Step 3: 确认第二根K线未形成反转收盘，需要等待更多信息",
+    "Step 4: 设定两个预期：要么价格扫出前期低点后形成Candle Two Closure，要么形成Candle Three Closure",
+    "Step 5: 观察第三根K线收盘位置，确认其收盘于第二根K线主体上方",
+    "Step 6: 确认Candle Three Closure成立，预期下一根K线继续上升"
+  ],
+  "outcome": "价格在第三根K线形成Candle Three Closure后，随后的K线确实出现上升走势，验证了分析预期。",
+  "lessons": "Candle Three Closure是在Candle Two Closure未形成时的替代确认信号。当价格第三根K线收盘于第二根K线主体上方时，可以预期趋势延续。这种多根K线的确认方法比单根K线更可靠，避免了过早入场的风险。",
+  "primary_image": "cards/MsuEQQl7L6s/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/MsuEQQl7L6s/images/case_002_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "EURUSD 日线图。图上显示从 7 月下旬至 9 月初的价格走势，价格范围从 1.13200 至 1.18800。图中有一条水平虚线位于 1.14900 处。两个黄色矩形区域分别标注在 1.15200-1.16200 和 1.15800-1.16800 价格区间。K 线序列包含绿色和黑色蜡烛，其中 7 月下旬有一根长黑色 K 线从 1.17600 下跌至 1.14000，随后 8 月初出现绿黑交",
+    "case_002_detail_1.jpg": "EURUSD 日线图。图上显示从左侧约 1.17200 开始的下跌走势，跌至约 1.14000，随后出现反弹至约 1.16600。K 线序列中绿色和黑色蜡烛交替出现。图上有一条水平虚线位于 1.15614，以及一个浅黄色矩形框标注在约 1.14400 至 1.15600 的价格区间。右下角显示时间标记'Mon 04 Aug 25'。可见价格范围从 1.13200 至 1.18800。"
+  },
+  "sources": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        194.16,
+        261.239
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析过程，清晰标注了FVG区域、K线序列，明确说明了Candle Two Closure未形成和Candle Three Closure的确认，以及后续价格走势验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:45.764950Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD日线Candle Three Closure确认上升趋势\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1D\",\"market_context\":\"EURUSD在经历下跌后反弹，价格在Fair Value Gap处未形成Candle Two Closure，博主观察第三根K线是否能确认趋势延续。\",\"key_observation\":\"第三根K线收盘于第二根K线主体上方，形成Candle Three Closure，预示价格将继续上升。\",\"analysis_steps\":[\"Step 1: 识别Fair Value Gap位置（约1.14400-1.15600区间）\",\"Step 2: 观察价格进入FVG后是否形成Candle Two Closure（检查第二根K线是否有反转收盘）\",\"Step 3: 确认第二根K线未形成反转收盘，需要等待更多信息\",\"Step 4: 设定两个预期：要么价格扫出前期低点后形成Candle Two Closure，要么形成Candle Three Closure\",\"Step 5: 观察第三根K线收盘位置，确认其收盘于第二根K线主体上方\",\"Step 6: 确认Candle Three Closure成立，预期下一根K线继续上升\"],\"outcome\":\"价格在第三根K线形成Candle Three Closure后，随后的K线确实出现上升走势，验证了分析预期。\",\"lessons\":\"Candle Three Closure是在Candle Two Closure未形成时的替代确认信号。当价格第三根K线收盘于第二根K线主体上方时，可以预期趋势延续。这种多根K线的确认方法比单根K线更可靠，避免了过早入场的风险。\",\"primary_image_frame_id\":\"MsuEQQl7L6s_f008\",\"supporting_image_frame_ids\":[\"MsuEQQl7L6s_f007\"],\"related_concepts\":[\"Fair Value Gap\",\"Candle Two Closure\",\"Candle Three Closure\",\"Price Action\",\"Reversal Candle\",\"Bullish Trend Continuation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析过程，清晰标注了FVG区域、K线序列，明确说明了Candle Two Closure未形成和Candle Three Closure的确认，以及后续价格走势验证。\"}",
+  "error": null
+}

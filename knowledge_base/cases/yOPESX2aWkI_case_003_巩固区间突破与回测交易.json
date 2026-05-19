@@ -1,0 +1,99 @@
+{
+  "card_id": "yOPESX2aWkI_case_003_巩固区间突破与回测交易",
+  "type": "case",
+  "title": "ES巩固区间突破与低点回测长仓设置",
+  "related_concepts": [
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Breakout",
+      "card_id": "breakout",
+      "exists": true
+    },
+    {
+      "term": "Retest",
+      "card_id": "retest",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "BPR",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "consolidation",
+    "breakout",
+    "retest",
+    "order_block",
+    "balanced_price_range",
+    "market_structure",
+    "swing_formation"
+  ],
+  "school": "SMC",
+  "asset": "ES",
+  "timeframe": "15M",
+  "market_context": "ES从高点3660向下运行至低点2960附近，在2992-3012区域形成巩固，随后突破该区间向下测试更低点，最终回测低点后形成上升趋势。",
+  "key_observation": "价格突破巩固区间后回测该区域，重新测试低点，然后形成长仓设置，展示了典型的突破-回测-反向交易流程。",
+  "analysis_steps": [
+    "Step 1: 识别价格在2992-3012区域形成的巩固区间（灰色矩形标注）",
+    "Step 2: 观察价格突破巩固区间向下运行",
+    "Step 3: 确认价格返回巩固区间进行回测",
+    "Step 4: 观察价格重新测试下方低点（约2960附近）",
+    "Step 5: 确认价格从低点反弹，形成长仓交易设置"
+  ],
+  "outcome": "价格成功从低点反弹，形成上升趋势，最新K线显示在3624.75附近带有较长上影线，确认长仓设置有效。",
+  "lessons": "巩固区间突破后的回测是高概率交易机会；价格返回突破点并重新测试极值低点后，通常形成反向交易的最优入场点；该流程展示了BPR（平衡价格区间）概念在实际交易中的应用。",
+  "primary_image": "cards/yOPESX2aWkI/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/yOPESX2aWkI/images/case_003_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "ES 15分钟K线图。图上显示从约2954.50至3624.75的价格范围。中部有一条灰色矩形框标注，位置约在3047.75至3087.75区间。图左侧显示早期K线密集且波动较大，中部出现下行趋势，随后在矩形框附近形成多根K线，最右侧K线显示上升趋势，最新K线在3624.75附近带有较长上影线。整体K线由红色和绿色蜡烛组成，未见其他指标或标注。",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示从左侧约3660.00的高点向下运行至约2960.00的低点。图上有一条灰色矩形框标注，位置约在2992.00至3012.00之间，该区域内有多根K线显示红绿交替的形态。矩形框上下方均有K线的上下影线穿过。右侧价格刻度显示当前价格范围。图表底部显示时间轴跨越多个小时，右下角显示时间戳19:51:01（UTC-4）。"
+  },
+  "sources": [
+    {
+      "video_id": "yOPESX2aWkI",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        182.34,
+        201.07999999999998
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了突破-回测-低点重测-反向交易的全流程，两张图表清晰标注了巩固区间，价格行为明确，资产、时间框架、关键价位均可从图表读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:32.956135Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES巩固区间突破与低点回测长仓设置\",\"school\":\"SMC\",\"asset\":\"ES\",\"timeframe\":\"15M\",\"market_context\":\"ES从高点3660向下运行至低点2960附近，在2992-3012区域形成巩固，随后突破该区间向下测试更低点，最终回测低点后形成上升趋势。\",\"key_observation\":\"价格突破巩固区间后回测该区域，重新测试低点，然后形成长仓设置，展示了典型的突破-回测-反向交易流程。\",\"analysis_steps\":[\"Step 1: 识别价格在2992-3012区域形成的巩固区间（灰色矩形标注）\",\"Step 2: 观察价格突破巩固区间向下运行\",\"Step 3: 确认价格返回巩固区间进行回测\",\"Step 4: 观察价格重新测试下方低点（约2960附近）\",\"Step 5: 确认价格从低点反弹，形成长仓交易设置\"],\"outcome\":\"价格成功从低点反弹，形成上升趋势，最新K线显示在3624.75附近带有较长上影线，确认长仓设置有效。\",\"lessons\":\"巩固区间突破后的回测是高概率交易机会；价格返回突破点并重新测试极值低点后，通常形成反向交易的最优入场点；该流程展示了BPR（平衡价格区间）概念在实际交易中的应用。\",\"primary_image_frame_id\":\"yOPESX2aWkI_f008\",\"supporting_image_frame_ids\":[\"yOPESX2aWkI_f007\"],\"related_concepts\":[\"Consolidation\",\"Breakout\",\"Retest\",\"Order Block\",\"BPR\",\"Market Structure\",\"Swing Low\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了突破-回测-低点重测-反向交易的全流程，两张图表清晰标注了巩固区间，价格行为明确，资产、时间框架、关键价位均可从图表读取。\"}",
+  "error": null
+}

@@ -1,0 +1,101 @@
+{
+  "card_id": "klaiq36QnEM_case_004_eurusd周一至周三的看跌延续案例",
+  "type": "case",
+  "title": "EURUSD周一至周三看跌延续：FVG与订单块确认卖出",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity (Buyside/Sellside)",
+      "card_id": "liquidity_buyside_sellside",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF (High/Low Time Frame)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "liquidity_buyside_sellside",
+    "market_structure",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1H / 15M",
+  "market_context": "周一触及买方流动性后回落至范围内；周二无纽约盘设置；周三通过小时和15分钟级别的FVG与订单块确认卖出信号，最终触及卖方流动性并扫除旧低点。",
+  "key_observation": "博主识别出周一的买方流动性扫荡后价格回归范围，预期周三会出现看跌延续。通过多时间框架（1H和15M）的FVG和订单块结构确认卖出机会，最终价格成功触及卖方流动性并创出新低。",
+  "analysis_steps": [
+    "Step 1: 在日线图上标记周一触及的买方流动性（equal lows）和前周高点作为参考",
+    "Step 2: 观察周一收盘回落至范围内，预期下一步会向低点扩展",
+    "Step 3: 在1小时图上标记午夜开盘（midnight open）和日开盘（Daily Open）位置",
+    "Step 4: 在1小时图上识别大幅下跌的位移蜡烛（displacement candle）及其产生的FVG",
+    "Step 5: 下钻至15分钟图，识别多个FVG结构和订单块（Order Block）",
+    "Step 6: 确认价格在15分钟FVG处获得支撑后继续下行，目标指向卖方流动性",
+    "Step 7: 回到1小时图确认价格触及目标低点（equal lows）并扫除旧低点"
+  ],
+  "outcome": "价格成功触及卖方流动性，扫除旧低点，看跌延续确认。",
+  "lessons": "多时间框架确认（HTF与LTF）是提高交易概率的关键；FVG和订单块在不同时间框架上的重叠可作为高概率入场点；位移蜡烛产生的FVG往往预示强势趋势延续；流动性扫荡后的价格回归往往是下一步扩展的前兆。",
+  "primary_image": "cards/klaiq36QnEM/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/klaiq36QnEM/images/case_004_detail_1.jpg",
+    "cards/klaiq36QnEM/images/case_004_detail_2.jpg",
+    "cards/klaiq36QnEM/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "EURUSD 1 小时 K 线图。图上显示从 6 月 26 日至 7 月 1 日的价格走势。可见价格范围约从 1.04000 到 1.06200。图上有两条水平线：一条在 1.06100 处，另一条为虚线在 1.05300 处标记为'Daily Open'。图中央有一个矩形框标注，范围约在 1.04900 至 1.05300 之间。6 月 28 日出现一根大幅下跌的黑色 K 线，从约 1.0760",
+    "case_004_detail_1.jpg": "EURUSD 日线图，时间范围从 5 月 18 日至 7 月 25 日。图上显示约 40 根 K 线，价格在 1.02500 至 1.06500 区间内波动。K 线由绿色（上升）和黑色（下降）蜡烛组成。图中有一个矩形标注，标签为 PWH，位置约在 1.05900 至 1.06100 价格水平。右侧价格轴显示当前价格为 1.06291。底部时间轴标记有 Fri 24 Jun '22。",
+    "case_004_detail_2.jpg": "EURUSD 1小时K线图。图表显示从6月22日17:00至6月29日12:00的价格走势。可见价格范围约在1.04800至1.06600之间。图上有一条水平线标注为'Daily Open'，位置在1.06064。右侧价格轴显示当前价格1.66064。K线由绿色和黑色蜡烛组成，呈现多次上下波动。图右下角显示时间戳'Wed 29 Jun 22 - 07:00'。",
+    "case_004_detail_3.jpg": "EURUSD 15分钟K线图。图上可见一条灰色矩形框标注，标签为'Body/Open'，覆盖约1.05800至1.06350的价格区间。同一水平线1.06350处有一条虚线向右延伸。图表显示多根K线在该区间内波动，包含绿色和黑色K线，影线长度不一。右侧价格刻度显示当前价格范围从1.05250到1.06400。图上未见其他指标或标注。"
+  },
+  "sources": [
+    {
+      "video_id": "klaiq36QnEM",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        307.199,
+        652.74
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了周一至周三的分析过程，清晰标注了关键价位、时间框架和结构，最终结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:40.788777Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD周一至周三看跌延续：FVG与订单块确认卖出\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1H / 15M\",\"market_context\":\"周一触及买方流动性后回落至范围内；周二无纽约盘设置；周三通过小时和15分钟级别的FVG与订单块确认卖出信号，最终触及卖方流动性并扫除旧低点。\",\"key_observation\":\"博主识别出周一的买方流动性扫荡后价格回归范围，预期周三会出现看跌延续。通过多时间框架（1H和15M）的FVG和订单块结构确认卖出机会，最终价格成功触及卖方流动性并创出新低。\",\"analysis_steps\":[\"Step 1: 在日线图上标记周一触及的买方流动性（equal lows）和前周高点作为参考\",\"Step 2: 观察周一收盘回落至范围内，预期下一步会向低点扩展\",\"Step 3: 在1小时图上标记午夜开盘（midnight open）和日开盘（Daily Open）位置\",\"Step 4: 在1小时图上识别大幅下跌的位移蜡烛（displacement candle）及其产生的FVG\",\"Step 5: 下钻至15分钟图，识别多个FVG结构和订单块（Order Block）\",\"Step 6: 确认价格在15分钟FVG处获得支撑后继续下行，目标指向卖方流动性\",\"Step 7: 回到1小时图确认价格触及目标低点（equal lows）并扫除旧低点\"],\"outcome\":\"价格成功触及卖方流动性，扫除旧低点，看跌延续确认。\",\"lessons\":\"多时间框架确认（HTF与LTF）是提高交易概率的关键；FVG和订单块在不同时间框架上的重叠可作为高概率入场点；位移蜡烛产生的FVG往往预示强势趋势延续；流动性扫荡后的价格回归往往是下一步扩展的前兆。\",\"primary_image_frame_id\":\"klaiq36QnEM_f017\",\"supporting_image_frame_ids\":[\"klaiq36QnEM_f013\",\"klaiq36QnEM_f001\",\"klaiq36QnEM_f015\",\"klaiq36QnEM_f018\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Liquidity (Buyside/Sellside)\",\"Market Structure\",\"HTF / LTF (High/Low Time Frame)\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了周一至周三的分析过程，清晰标注了关键价位、时间框架和结构，最终结果明确。\"}",
+  "error": null
+}

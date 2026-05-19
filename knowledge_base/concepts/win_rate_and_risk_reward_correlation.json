@@ -1,0 +1,53 @@
+{
+  "card_id": "win_rate_and_risk_reward_correlation",
+  "type": "merged_concept",
+  "canonical_term": "Win Rate and Risk-Reward Correlation",
+  "aliases": [
+    "Win Rate & R:R Relationship",
+    "胜率与风险回报比的关系"
+  ],
+  "school": "Risk Management",
+  "definition": "胜率与风险回报比（如1:2）的组合能否产生盈利的数学关系。该关系仅在保持一致头寸规模（固定美元风险或固定百分比风险）的前提下成立。",
+  "identification_rules": [
+    "查看胜率与风险回报比的配对组合：例如20%胜率配1:1风险回报不盈利，40%胜率配1:2风险回报则盈利",
+    "验证每笔交易的风险金额是否一致：若风险金额波动，则该表格关系失效",
+    "计算累积收益：用胜率×平均赢利 - 负率×平均亏损，结果为正则盈利"
+  ],
+  "trading_implication": "交易者需理解胜率与风险回报比的数学关系来评估交易系统的盈利性。但该关系的前提是严格执行一致的头寸规模（固定美元风险或固定百分比风险），而非固定合约数。若头寸规模不一致，即使胜率和风险回报比理论上可盈利，实际结果也会偏离预期。",
+  "common_mistakes": [
+    "忽视头寸规模的一致性：仅关注胜率与风险回报比的配对，而不保持每笔交易的固定风险金额",
+    "使用固定合约数而非固定风险：固定合约数会导致不同止损点位下的风险金额波动，破坏胜率与风险回报比的数学关系",
+    "未考虑头寸规模调整的必要性：在不同止损大小的交易中，需要调整合约数以维持固定风险"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "original_card_id": "0OjlQ91TZiU_concept_win_rate_and_risk_reward_correlation",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.44,
+        190.799
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136788Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

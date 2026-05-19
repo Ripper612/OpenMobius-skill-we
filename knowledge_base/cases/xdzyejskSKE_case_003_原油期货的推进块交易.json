@@ -1,0 +1,108 @@
+{
+  "card_id": "xdzyejskSKE_case_003_原油期货的推进块交易",
+  "type": "case",
+  "title": "原油期货推进块交易：多时间框架汇聚点的连续交易",
+  "related_concepts": [
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Multiple Timeframe Confluence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "propulsion_block",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "fair_value_gap",
+    "liquidity",
+    "market_structure_shift",
+    "protected_high_low"
+  ],
+  "school": "ICT",
+  "asset": "CLi1",
+  "timeframe": "30M / 15M",
+  "market_context": "原油期货在亚洲和伦敦时段形成失败摆动，午夜和8:30时段提供支撑与阻力汇聚点，为多次交易提供机会。",
+  "key_observation": "博主识别出在初始订单块被回测后形成的推进块（Propulsion Block），该推进块与午夜和8:30时段的多重时间框架汇聚点重合，形成高概率交易设置。",
+  "analysis_steps": [
+    "Step 1: 在30分钟图表上识别一系列向上收盘的K线，标记为交付状态改变（CSD）或订单块。",
+    "Step 2: 观察亚洲和伦敦时段的失败摆动，作为潜在的交易入场点。",
+    "Step 3: 设置第一笔交易，止损位于订单块高点之上，目标为2.65R的低点。",
+    "Step 4: 确认午夜支撑和8:30开盘时段的时间汇聚点，预期形成新的订单块。",
+    "Step 5: 在8:30时段观察到对立运行，形成新的订单块（推进块），该块与午夜和8:30时段重合。",
+    "Step 6: 验证伦敦未形成反转（伦敦继续走高），确认这不是伦敦反转而是延续。",
+    "Step 7: 利用日线图表确认重要水平位的wick形成，以及与前期范围的关系。",
+    "Step 8: 基于推进块和多重时间框架汇聚点设置第二笔交易。"
+  ],
+  "outcome": "第一笔交易在被触及后达到目标价位（2.65R）；同时形成新的推进块。第二笔交易基于推进块和时间汇聚点进行，展示了多次交易机会的实现。",
+  "lessons": "推进块是在订单块基础上形成的更小、更精确的交易设置；多个时间框架的汇聚点（如午夜、8:30）显著提高交易概率；验证市场结构延续（如伦敦继续走高）有助于确认交易方向；日线图表的wick和范围关系可用于框架化低时间框架的交易。",
+  "primary_image": "cards/xdzyejskSKE/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/xdzyejskSKE/images/case_003_detail_1.jpg",
+    "cards/xdzyejskSKE/images/case_003_detail_2.jpg",
+    "cards/xdzyejskSKE/images/case_003_detail_3.jpg",
+    "cards/xdzyejskSKE/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "Light Crude Oil Futures 30 分钟 K 线图。图上可见价格范围从 84.30 至 81.50。右侧有一个浅蓝色矩形标注，跨越 82.41 至 83.77 价格区间。矩形内包含一根大型黑色 K 线。图上有两条带数值标签的水平线：上方标注为'Range: 83.77 (83.28) 83. Amount: 119900'，下方标注为'Range: 82.41 (82.77) 8",
+    "case_003_detail_1.jpg": "轻质原油期货 15 分钟 K 线图。图表显示从左侧 84.60 下跌至 81.00 的下降趋势，随后在中间区域出现整理和反弹，价格回升至 83.40 附近。图上有两条水平虚线分别位于 82.54 和 83.44。右侧区域有一根大黑色 K 线位于 83.40 至 83.50 之间，该区域附近标有黄色圆形标记和文字标签'0.00'。整个图表中绿色 K 线出现在反弹阶段，黑色 K 线主要出现在下跌阶段。",
+    "case_003_detail_2.jpg": "Light Crude Oil Futures 30分钟K线图。图表显示从左侧84.30下跌至81.50的下降趋势。右侧中部有一个灰色矩形框标注，框内价格范围约82.50至82.97，其中包含一根大黑色K线。图上有两条水平线分别位于82.97和82.50处。图下方显示时间标记'23/4/2024'和'CLi1 | 30M'。图中央下方有一个黄色十字光标标记。左侧K线呈现绿色和黑色混合形态。",
+    "case_003_detail_3.jpg": "轻质原油期货图表显示价格从左侧约84.10下跌至81.00附近，随后出现反弹。图上标注两个矩形区域：下方浅绿色矩形位于81.50至82.50之间，上方浅灰色矩形位于82.50至83.50之间。右侧显示一根大型黑色K线，收盘价接近83.00，上影线延伸至83.50。图表底部标注日期为23/4/2024及比例信息1:1|32R。",
+    "case_003_detail_4.jpg": "轻质原油期货 30 分钟 K 线图。图表左侧显示从 86.50 下跌至 81.00 的下降趋势。中间区域标注有两条水平线，分别位于 84.40 和 82.80，之间用矩形框标记并标注为'WD'。图上另有一个较大的矩形框覆盖约 82.00 至 84.80 的价格区间。右侧显示一根大型黑色 K 线，主体约 2.80 点，上影线穿过 84.80，下影线穿过 82.00。图表底部显示时间戳'23/4/20"
+  },
+  "sources": [
+    {
+      "video_id": "xdzyejskSKE",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.88,
+        549.399
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了推进块的形成过程、多时间框架汇聚点的识别、交易设置和结果验证，所有关键数字和步骤均从图表和讲解中清晰读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:17.000302Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油期货推进块交易：多时间框架汇聚点的连续交易\",\"school\":\"ICT\",\"asset\":\"CLi1\",\"timeframe\":\"30M / 15M\",\"market_context\":\"原油期货在亚洲和伦敦时段形成失败摆动，午夜和8:30时段提供支撑与阻力汇聚点，为多次交易提供机会。\",\"key_observation\":\"博主识别出在初始订单块被回测后形成的推进块（Propulsion Block），该推进块与午夜和8:30时段的多重时间框架汇聚点重合，形成高概率交易设置。\",\"analysis_steps\":[\"Step 1: 在30分钟图表上识别一系列向上收盘的K线，标记为交付状态改变（CSD）或订单块。\",\"Step 2: 观察亚洲和伦敦时段的失败摆动，作为潜在的交易入场点。\",\"Step 3: 设置第一笔交易，止损位于订单块高点之上，目标为2.65R的低点。\",\"Step 4: 确认午夜支撑和8:30开盘时段的时间汇聚点，预期形成新的订单块。\",\"Step 5: 在8:30时段观察到对立运行，形成新的订单块（推进块），该块与午夜和8:30时段重合。\",\"Step 6: 验证伦敦未形成反转（伦敦继续走高），确认这不是伦敦反转而是延续。\",\"Step 7: 利用日线图表确认重要水平位的wick形成，以及与前期范围的关系。\",\"Step 8: 基于推进块和多重时间框架汇聚点设置第二笔交易。\"],\"outcome\":\"第一笔交易在被触及后达到目标价位（2.65R）；同时形成新的推进块。第二笔交易基于推进块和时间汇聚点进行，展示了多次交易机会的实现。\",\"lessons\":\"推进块是在订单块基础上形成的更小、更精确的交易设置；多个时间框架的汇聚点（如午夜、8:30）显著提高交易概率；验证市场结构延续（如伦敦继续走高）有助于确认交易方向；日线图表的wick和范围关系可用于框架化低时间框架的交易。\",\"primary_image_frame_id\":\"xdzyejskSKE_f001\",\"supporting_image_frame_ids\":[\"xdzyejskSKE_f013\",\"xdzyejskSKE_f014\",\"xdzyejskSKE_f015\",\"xdzyejskSKE_f016\"],\"related_concepts\":[\"Propulsion Block\",\"Order Block\",\"Change in the state of delivery\",\"Fair Value Gap\",\"Liquidity\",\"Market Structure Shift\",\"Multiple Timeframe Confluence\",\"Protected Swing\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了推进块的形成过程、多时间框架汇聚点的识别、交易设置和结果验证，所有关键数字和步骤均从图表和讲解中清晰读出。\"}",
+  "error": null
+}

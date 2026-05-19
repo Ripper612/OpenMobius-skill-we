@@ -1,0 +1,258 @@
+{
+  "card_id": "power_of_3_amd",
+  "type": "merged_concept",
+  "canonical_term": "Power of 3 / AMD",
+  "aliases": [
+    "AMD模型",
+    "Accumulation, Manipulation, Distribution",
+    "积累-操纵-派发模型"
+  ],
+  "school": "ICT",
+  "definition": "价格在一个交易周期内（日线、小时线或分钟线）的三阶段运动模式：积累阶段（价格在区间内盘整震荡，机构悄然建仓）、操纵阶段（价格假突破区间一侧扫除流动性、诱导散户入场）、派发阶段（价格反向延续趋势性移动，完成机构方向性头寸）。具有分形特性，可跨周期识别。",
+  "identification_rules": [
+    "识别积累阶段：价格在明确区间内盘整，形成高点和低点，K线波幅收窄，上方积累买单、下方积累卖单，机构悄然建仓",
+    "识别操纵阶段：价格从盘整区间激进突破一侧（通常与主趋势相反），触及前期高点或低点扫除止损后快速反向回到区间内，需确认流动性扫荡真正发生",
+    "识别派发阶段：操纵完成后价格朝相反方向展开趋势性移动，收盘突破盘整区间另一侧，出现交付状态改变（CSD，即一系列同向收盘K线序列），随后延续至目标位",
+    "验证完整周期：确认三个阶段依次出现，操纵必须伴随流动性扫荡（高点或低点被触及），派发须有CSD信号确认",
+    "时间窗口参考：积累常见于伦敦时段整理，操纵常见于纽约时段（8:30或9:30）反向扫荡，派发在操纵后延续",
+    "跨时间框架验证：该形态具有分形特性，可在日线、小时线、分钟线等任何周期识别，低时间框架设置须有高时间框架订单流支撑",
+    "SMT辅助确认：若相关资产已突破盘整区间，即使当前资产未突破，也可将该区间视为受保护的支撑/阻力，辅助判断操纵方向"
+  ],
+  "trading_implication": "Power of 3是日内交易的核心框架，用于区分假突破与真实趋势，识别机构操纵关键节点。交易者应避免在盘整内部交易，耐心等待操纵阶段（价格扫除一侧流动性）完成后，在CSD信号确认派发开始时，于折价区或订单块处入场。看涨设置在前期低点下方诱导后做多，看跌设置在前期高点上方诱导后做空。最优入场出现在诱导进入PD array时，目标通常为前一日高低点或区间另一侧。",
+  "common_mistakes": [
+    "在积累阶段或操纵阶段过早入场，应等待操纵完成后的CSD反向信号才入场",
+    "在盘整内部交易，试图猜测价格将向哪一侧突破，导致被困或止损",
+    "未确认操纵阶段是否真正触及高点或低点完成流动性扫荡，导致误判操纵",
+    "将操纵方向误认为最终派发方向，在扫荡流动性的反向运动中追单",
+    "将诱导点误认为趋势反转的开始，而非反转前的最后一次陷阱",
+    "忽视诱导必须发生在PD array内才具有高概率的条件",
+    "未在多时间框架上确认Power of 3结构，在低时间框架看似完美但高时间框架不支持的设置中交易",
+    "混淆积累与派发，误将派发初期的小幅回调视为新的积累，导致过早平仓",
+    "混淆积累与操纵，误认为所有同向K线序列都能形成有效订单块，忽视其后的虚假突破特征",
+    "忽视时间框架转换，未能在不同时段（伦敦→纽约）之间识别市场结构转变，导致错过派发阶段",
+    "错误投影派发目标，使用错误的操纵低点或高点进行投影，导致目标位设置不准确",
+    "不使用SMT，当相关资产已突破盘整时仍要求当前资产也必须突破，错失交易机会"
+  ],
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside/Sellside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "CSD / Change in the state of delivery",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "MSS / Market Structure Shift",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "OHLC / OLHC",
+      "card_id": "ohlc_olhc",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "London Reversal",
+      "card_id": "london_reversal",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FXJBFbZQbck_case_005_8_30新闻操纵后的amd分布交易",
+      "video_id": "FXJBFbZQbck",
+      "title": "8:30新闻操纵后的ETH分布交易"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_001_纽约开盘后的_6_分钟图_amd_案例",
+      "video_id": "TCFvsZeYvV8",
+      "title": "纽约开盘后 NQ 6分钟图：AMD模式中的反转与Box Setup做多"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_003_日线_olhc_案例_伦敦操纵与纽约派发",
+      "video_id": "TCFvsZeYvV8",
+      "title": "日线OLHC案例：伦敦操纵与纽约派发的AMD模型"
+    },
+    {
+      "card_id": "hKCMqh0ZsY0_case_002_core_pce新闻交易案例",
+      "video_id": "hKCMqh0ZsY0",
+      "title": "Core PCE新闻交易：周四扫低反转，周五标准差投影目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-GkOTMYoJT4",
+      "original_card_id": "-GkOTMYoJT4_concept_power_of_3",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        159.86
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IeXtmeKqjnQ",
+      "original_card_id": "IeXtmeKqjnQ_concept_power_of_3",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        10.08,
+        538.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_power_of_3_amd_accumulation_manipulation",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        10.36,
+        985.319
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "WFqLwOp2pXw",
+      "original_card_id": "WFqLwOp2pXw_concept_power_of_3_amd",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        83.28,
+        206.07999999999998
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "y6SnEdASVLY",
+      "original_card_id": "y6SnEdASVLY_concept_power_of_3",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        164.2,
+        346.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:06.774631Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": null,
+  "error": null
+}

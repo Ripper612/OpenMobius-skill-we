@@ -1,0 +1,60 @@
+{
+  "card_id": "disrespect",
+  "type": "merged_concept",
+  "canonical_term": "Disrespect",
+  "aliases": [
+    "不尊重",
+    "失效",
+    "无效反应"
+  ],
+  "school": "ICT",
+  "definition": "价格在关键水平（如EQ或前一日高点）未能形成预期反应或延续，表明原有交易设置失效，反向趋势可能形成。",
+  "identification_rules": [
+    "价格穿过EQ（均衡点）但未能在该水平形成反应或延续",
+    "价格突破关键水平后立即反向，未能维持方向性动作",
+    "在预期的continuation candle处形成consolidation而非expansion",
+    "收盘价穿过EQ，表明原有方向的设置失效"
+  ],
+  "trading_implication": "Disrespect是invalidation的关键信号，表明原有的bullish或bearish设置已失效。当价格disrespect EQ或前一日高点时，交易者应预期反向运动。例如，若bullish设置中价格disrespect EQ并收盘于其下方，则应转向寻找bearish continuation机会，目标通常为candle two low或前一日低点。这是形成opposing setup的前置条件。",
+  "common_mistakes": [
+    "认为disrespect EQ意味着价格必然反转，忽视了价格可能被买回的可能性",
+    "在没有valid fractal model的情况下仅基于disrespect进行交易",
+    "未考虑相关资产（如USD/JPY）的影响，导致目标未能达成",
+    "将consolidation误认为是bullish continuation，而实际上是disrespect的信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_disrespect",
+      "segment_ids": [
+        "seg_006",
+        "seg_016",
+        "seg_018",
+        "seg_019",
+        "seg_022"
+      ],
+      "time_range": [
+        248.72,
+        840.28
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132350Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,59 @@
+{
+  "card_id": "htf_ltf_high_time_frame_low_time_frame",
+  "type": "merged_concept",
+  "canonical_term": "HTF / LTF (High Time Frame / Low Time Frame)",
+  "aliases": [
+    "多时间框架分析",
+    "高/低时间框架"
+  ],
+  "school": "General",
+  "definition": "交易分析中使用的不同周期图表体系。高时间框架（如日线）用于确定整体趋势偏差和主要目标，低时间框架（如15分钟、5分钟）用于精确定位入场点和执行交易。",
+  "identification_rules": [
+    "高时间框架通常为日线或4小时线，用于识别市场结构、趋势方向和主要流动性目标（External Range Liquidity）",
+    "低时间框架通常为15分钟、5分钟或1分钟线，用于在高时间框架确定的偏差内寻找Change in State of Delivery和具体入场信号",
+    "高时间框架的Internal Range Liquidity（FVG）和External Range Liquidity（摆动高/低）构成低时间框架的交易目标",
+    "低时间框架的入场必须在高时间框架偏差确认后执行，且交易应在Kill Zone内完成"
+  ],
+  "trading_implication": "多时间框架分析是机构交易的核心方法论。先在高时间框架确定趋势偏差（通过市场结构、流动性扫荡等），再下沉到低时间框架寻找Change in State of Delivery作为入场触发，最后以高时间框架的流动性目标作为止盈目标。这种分层方法提高了交易的机械性和成功率，通常目标为2R收益。",
+  "common_mistakes": [
+    "在低时间框架上交易而未先确认高时间框架的偏差，导致交易方向与主趋势相反",
+    "混淆高时间框架的Internal和External Range Liquidity，错误地将摆动低点当作FVG来交易",
+    "在低时间框架找到Change in State of Delivery后立即入场，而不考虑风险回报比是否达到2R最低要求",
+    "忽视Kill Zone的时间限制，在非最优交易时段执行低时间框架信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_high_time_frame_low_time_frame",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        11.0,
+        877.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133360Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

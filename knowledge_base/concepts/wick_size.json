@@ -1,0 +1,136 @@
+{
+  "card_id": "wick_size",
+  "type": "merged_concept",
+  "canonical_term": "Wick Size",
+  "aliases": [
+    "opposing run size",
+    "wick length",
+    "影线大小",
+    "影线长度",
+    "灯芯大小"
+  ],
+  "school": "ICT",
+  "definition": "K线上下影线的相对长度，反映价格在关键水平对抗主方向的运动幅度。小影线（Shallow Wick）表示浅层对抗，支持价格沿原方向继续扩展；大影线（Large Wick）表示深层对抗或市场犹豫，预示可能反转或扩展受限，需结合后续K线确认。",
+  "identification_rules": [
+    "小影线（Shallow Wick）：影线相对较短，相对于K线实体占比小；价格从开盘价快速形成高点或低点，使用较少时间和范围，留出充足时间供价格扩张",
+    "大影线（Large Wick）：影线相对较长，相对于K线实体占比大；价格用大部分时间和范围向对抗方向运动，占用K线周期的大部分",
+    "对比K线主体大小：小影线配大主体为扩张型；大影线配小主体为反转型",
+    "在关键价格水平（如前日高点、EQ等）观察形成的上下影线长度，判断该水平的反向压力强度",
+    "需等待K线收盘后确认影线大小，避免在K线形成过程中过早判断"
+  ],
+  "trading_implication": "影线大小直接决定后续走势预期与目标设定。小影线支持价格继续扩张，可设定扩张目标或流动性目标；大影线不支持扩张，应将目标调整回开盘价、EQ或附近流动性点。大影线形成时需等待后续K线（如第三根K线）出现Change in the State of Delivery确认后再交易延续，否则扩展范围有限。可在高时间框架确认影线大小后，于低时间框架寻找入场机会。",
+  "common_mistakes": [
+    "忽视影线大小差异，对所有反转或延续形态预期相同的扩展幅度",
+    "在大影线形成时立即交易延续方向，不等待后续K线确认",
+    "在大影线K线上直接交易反转，忽视缺乏扩张支撑的风险，导致价格继续趋势运行而止损被扫",
+    "未根据影线大小调整目标，对大影线K线仍期望大幅扩张，导致目标设定过于激进",
+    "未等待K线收盘确认影线大小，在K线形成过程中过早入场",
+    "未区分影线大小与价格反向的关系，导致目标位置选择错误"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_wick_size",
+      "segment_ids": [
+        "seg_003",
+        "seg_005"
+      ],
+      "time_range": [
+        77.88,
+        283.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_wick_size",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        11.12,
+        370.479
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_wick_size",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        67.36,
+        194.959
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:15.052756Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "2张ICT + 1张Price Action，按多数选ICT。Price Action卡与ICT卡在核心逻辑上高度一致，差异仅为表述角度不同，已综合合并。",
+  "error": null
+}

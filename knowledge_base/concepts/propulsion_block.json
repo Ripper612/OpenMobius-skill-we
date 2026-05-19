@@ -1,0 +1,595 @@
+{
+  "card_id": "propulsion_block",
+  "type": "merged_concept",
+  "canonical_term": "Propulsion Block",
+  "aliases": [
+    "PB",
+    "continuation order block",
+    "推进块"
+  ],
+  "school": "ICT",
+  "definition": "在已验证的订单块被价格回测后，在其基础上形成的新的、更小的订单块。价格突破原订单块开盘价时产生，其均值阈值（K线实体中点）应被持续尊重，价格不应收盘突破该阈值，否则结构失效。具有分形特性，可应用于任何时间框架。",
+  "identification_rules": [
+    "先识别一个已验证的订单块（Order Block），确认价格已对其产生位移并回测该区域",
+    "价格回测该订单块后，观察是否形成新的、更小的同向K线序列（一根或多根）",
+    "新形成的订单块体积应小于原始订单块，位于其内部或相邻区域",
+    "确认价格随后以K线收盘突破该新订单块的开盘价（向原趋势方向），完成推进块的形成",
+    "推进块的均值阈值（K线实体中点/50%位置）是关键参考位，价格理想情况下不应收盘突破该阈值",
+    "推进块应与趋势方向一致，通常伴随浅层回撤进入公允价值缺口（FVG）",
+    "可在低时间框架（如5分钟、15分钟）上识别推进块，作为高时间框架延续的精确入场点",
+    "推进块常在关键时间节点（如午夜开盘、8:30、9:30纽约开盘等会话转换点）附近形成"
+  ],
+  "trading_implication": "推进块是趋势延续的高概率入场结构，相比原始订单块提供更精确的入场点和更小的止损范围，从而改善风险回报比。交易者可在推进块开盘价或均值处入场，止损设于推进块下方摆动低点（看涨）或上方摆动高点（看空），目标指向买方或卖方流动性。若价格收盘突破均值阈值则该设置失效。常与多时间框架对齐、FVG及关键时间水平配合使用以提高可靠性。",
+  "common_mistakes": [
+    "未确认基础订单块已被有效验证和回测，就提前识别推进块",
+    "将推进块与普通订单块混淆，忽视其「更小」且「必须基于已回测订单块」的核心特征",
+    "忽视均值阈值的敏感性，在价格收盘突破中线阈值后仍持有或入场",
+    "推进块完全形成前过早入场，导致被扫出",
+    "未确认价格收盘突破推进块开盘价就入场",
+    "忽视多时间框架对齐，在高时间框架趋势不支持时单独交易推进块",
+    "未结合经济日历、流动性目标及高时间框架结构，孤立使用推进块",
+    "在缺乏明确趋势偏向的情况下使用推进块，导致虚假突破被扫出",
+    "忽视推进块形成时的时间框架背景（会话时间、流动性扫荡等），在操纵阶段过早入场"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Judas swing",
+      "card_id": "judas_swing",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Higher High / Higher Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Trend Continuation",
+      "card_id": "trend_continuation",
+      "exists": true
+    },
+    {
+      "term": "Timeframe Alignment",
+      "card_id": "timeframe_alignment",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "9PKJ0U1gl4g_case_001_原油期货日线propulsion_block交易案例",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "原油期货日线Propulsion Block交易案例"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_002_原油期货小时线低时间框架入场",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "原油期货日线Propulsion Block在小时线的低时间框架入场"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_003_英镑美元60分钟propulsion_block案例",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "GBPUSD 60分钟Propulsion Block突破案例"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_004_英镑美元继续下行的order_block形成",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "英镑美元扫损后下行位移形成Order Block"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_005_原油期货纽约时段操纵交易",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "原油期货纽约时段扫低后位移交易"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_001_cl原油期货看跌案例",
+      "video_id": "EYzP7c24AwM",
+      "title": "CL原油期货日线看跌确认与多时间框架派发"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_007_es1期货5分钟图的多层级订单块与推进块形成",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 5分钟图多层级订单块与推进块的形成与验证"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_008_es1期货1分钟图的精细订单块入场与止损设置",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 1分钟图：订单块入场、均值阈值止损与高阻力流动性无效化"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_006_4小时图表上的均衡点分形应用",
+      "video_id": "IPZjNI1B5a0",
+      "title": "4小时图表上的均衡点分形应用与Propulsion Block确认"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_001_黄金周线至15分钟多时间框架交易案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "黄金周线至15分钟多时间框架交易案例"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_002_日线扫盘后的5分钟入场案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "日线扫盘后通过小时图FVG和5分钟CSD的多层级入场"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_003_gbp_jpy小时图多次内外流动性振荡案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "GBP/JPY小时图内外流动性多次振荡与推进块交易"
+    },
+    {
+      "card_id": "WFqLwOp2pXw_case_004_eurusd_日线反转至1小时盘整反弹",
+      "video_id": "WFqLwOp2pXw",
+      "title": "EURUSD日线反转至1小时盘整反弹"
+    },
+    {
+      "card_id": "caaS6_Q7O78_case_002_btc日线与小时线的联动交易",
+      "video_id": "caaS6_Q7O78",
+      "title": "BTC日线反转信号与小时线精确入场执行"
+    },
+    {
+      "card_id": "hKCMqh0ZsY0_case_002_core_pce新闻交易案例",
+      "video_id": "hKCMqh0ZsY0",
+      "title": "Core PCE新闻交易：周四扫低反转，周五标准差投影目标"
+    },
+    {
+      "card_id": "hKCMqh0ZsY0_case_003_audcad周线交易案例",
+      "video_id": "hKCMqh0ZsY0",
+      "title": "AUDCAD周线交易案例：CPI后的订单块与公允价值缺口确认"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_002_日线到5分钟的三层级交易案例",
+      "video_id": "iEaMbuFZb24",
+      "title": "日线偏向到小时线结构再到5分钟入场的三层级交易"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_005_黄金日线看涨结构的回测和扩张",
+      "video_id": "iEaMbuFZb24",
+      "title": "黄金日线看涨结构回测判断与小时线扩张"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_004_日线反转与小时图延续的多层级交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "日线反转与小时图V形反转的多层级延续交易"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_001_eurusd_60分钟与5分钟反演交易案例",
+      "video_id": "uDJI2AbyyCs",
+      "title": "EURUSD 60分钟与5分钟反演交易案例"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_002_usd_jpy_1分钟趋势中的反演应用",
+      "video_id": "uDJI2AbyyCs",
+      "title": "USD/JPY 1分钟上升趋势中的反演与推进块应用"
+    },
+    {
+      "card_id": "ubCe509_JLY_case_002_黄金日线到5分钟的反转交易",
+      "video_id": "ubCe509_JLY",
+      "title": "黄金日线3天扩张反转至5分钟做空"
+    },
+    {
+      "card_id": "ubCe509_JLY_case_004_欧元兑美元日线到5分钟的整固交易",
+      "video_id": "ubCe509_JLY",
+      "title": "欧元兑美元日线整固到5分钟多时间框架做空"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_006_usd_cad_15分钟v形反转与smt确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD/CAD 15分钟V形反转与SMT确认的高质量设置"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_003_spx_15分钟下跌反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "SPX 15分钟下跌反转：Turtle Soup到Breaker Block的完整形态"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_004_btc_1小时盘整与反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "BTC 1小时盘整与反转案例：Turtle Soup到Propulsion Block"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_005_nq等值高点与smt配合的1分钟breaker交易",
+      "video_id": "xP-o11jRCyg",
+      "title": "ETH 1分钟等值高点SMT配合Breaker交易"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_003_原油期货的推进块交易",
+      "video_id": "xdzyejskSKE",
+      "title": "原油期货推进块交易：多时间框架汇聚点的连续交易"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_001_轻质原油期货看涨伦敦反转案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油期货伦敦反转看涨交易案例"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_002_轻质原油期货看跌伦敦反转案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油伦敦反转后纽约延续看跌交易"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_003_轻质原油期货低阻力流动性案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油低阻力流动性伦敦反转纽约延续案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9PKJ0U1gl4g",
+      "original_card_id": "9PKJ0U1gl4g_concept_propulsion_block",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        12.44,
+        542.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_propulsion_block",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.84,
+        369.56
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "FGkb_50BfT8",
+      "original_card_id": "FGkb_50BfT8_concept_propulsion_block",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.48,
+        694.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IPZjNI1B5a0",
+      "original_card_id": "IPZjNI1B5a0_concept_propulsion_block",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        1086.88,
+        1156.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TNybDCtwBnc",
+      "original_card_id": "TNybDCtwBnc_concept_continuation_order_block",
+      "segment_ids": [
+        "seg_022"
+      ],
+      "time_range": [
+        983.199,
+        1026.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_propulsion_block",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        192.4,
+        728.32
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "WFqLwOp2pXw",
+      "original_card_id": "WFqLwOp2pXw_concept_propulsion_block",
+      "segment_ids": [
+        "seg_020"
+      ],
+      "time_range": [
+        838.399,
+        919.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_propulsion_block",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        371.0,
+        724.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "original_card_id": "hKCMqh0ZsY0_concept_propulsion_block",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.079,
+        728.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "iEaMbuFZb24",
+      "original_card_id": "iEaMbuFZb24_concept_propulsion_block",
+      "segment_ids": [
+        "seg_002",
+        "seg_006"
+      ],
+      "time_range": [
+        192.36,
+        1085.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_propulsion_block",
+      "segment_ids": [
+        "seg_011"
+      ],
+      "time_range": [
+        628.48,
+        701.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "uDJI2AbyyCs",
+      "original_card_id": "uDJI2AbyyCs_concept_propulsion_block",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        370.199,
+        466.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_propulsion_block",
+      "segment_ids": [
+        "seg_003",
+        "seg_006"
+      ],
+      "time_range": [
+        372.56,
+        968.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "original_card_id": "vn1RYjhJUnQ_concept_continuation_order_block",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        546.32,
+        594.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_propulsion_block",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        904.32,
+        1016.639
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xP-o11jRCyg",
+      "original_card_id": "xP-o11jRCyg_concept_propulsion_block",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        726.6,
+        852.199
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xdzyejskSKE",
+      "original_card_id": "xdzyejskSKE_concept_propulsion_block",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.88,
+        549.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "y6SnEdASVLY",
+      "original_card_id": "y6SnEdASVLY_concept_propulsion_block",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        164.2,
+        524.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 18,
+    "source_videos": 18,
+    "high_confidence_sources": 17,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:52:37.673646Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "18张原始卡school字段全部为ICT，无冲突。其中2张原始卡使用「Continuation Order Block」作为card_id，但定义内容与Propulsion Block高度一致，已合并处理。",
+  "error": null
+}

@@ -1,0 +1,91 @@
+{
+  "card_id": "sIcsLFSNoXM_case_006_原油日线三日扩张后的整理与反转",
+  "type": "case",
+  "title": "原油日线三日扩张后的整理与看涨反转",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Bullish Reversal Candle",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "market_structure",
+    "displacement",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "CL (Light Crude Oil Futures)",
+  "timeframe": "1D",
+  "market_context": "原油在1月下旬至2月中旬期间经历了从约66.00至77.50的上升趋势，随后形成三日连续上升K线，之后进入整理阶段。",
+  "key_observation": "三日方向性扩张K线后形成犹豫不决K线，随后扫除前日低点并进入FVG区域，最终形成看涨反转K线并继续上升。",
+  "analysis_steps": [
+    "Step 1: 识别三日连续上升扩张K线（Open High Low Close模式重复三次）",
+    "Step 2: 观察第四日形成犹豫不决K线（开盘价与收盘价相近，显示市场犹豫）",
+    "Step 3: 确认第五日扫除前日低点并进入Fair Value Gap区域",
+    "Step 4: 识别扫除后形成的看涨反转K线（Open Low High Close模式）",
+    "Step 5: 验证后续K线继续上升，确认反转有效性"
+  ],
+  "outcome": "价格在扫除前日低点后形成看涨反转K线，随后继续上升，反转成功。",
+  "lessons": "通过Open High Low Close模式识别市场结构变化；三日扩张后的整理与扫除是反转的关键信号；FVG与看涨反转K线的结合提高了交易概率。",
+  "primary_image": "cards/sIcsLFSNoXM/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/sIcsLFSNoXM/images/case_006_detail_1.jpg",
+    "cards/sIcsLFSNoXM/images/case_006_detail_2.jpg",
+    "cards/sIcsLFSNoXM/images/case_006_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "轻质原油期货日线图，价格范围从 66.00 至 82.00。图上绘制一条水平线位于 76.29 价位。K 线序列显示从左侧约 66.00 开始上升至 77.50 附近，期间交替出现绿色和黑色 K 线。右侧区域 K 线在 76.00 至 77.00 范围内波动。图右上方有黄色标记和字母'h'标注。底部显示日期标记 9/2/2024。",
+    "case_006_detail_1.jpg": "轻质原油期货日线图。图表显示从左侧约66.00至右侧约77.50的价格范围。K线序列由绿色和黑色蜡烛交替组成，跨越多个交易日。图上可见多根K线具有上下影线。最高的K线主体约在77.00附近，最低的K线低点约在66.00。右侧最近的K线显示在74.00至76.00区间内的整理形态。图上标注显示日期为21/1/2024，合约代码为CLF1。除价格刻度外，未见其他技术指标或标注。",
+    "case_006_detail_2.jpg": "轻质原油期货日线图。图表显示从1月初至3月初的价格走势，价格范围约68.00至82.00。图上有一条水平参考线位于72.00附近。K线序列呈现绿色（上升）和黑色（下降）交替排列，从68.50附近上升至2月末的77.50高点，随后下跌回至68.50附近。图右侧显示黄色十字标记，标注日期为5/2/2024 CLT1 D。底部工具栏显示Sell和Buy按钮。",
+    "case_006_detail_3.jpg": "轻质原油期货日线图，资产代码 NYMEX。图表显示从 2024 年 1 月下旬至 2 月中旬的价格走势。可见价格范围约 67.00 至 82.00。图上有一条水平虚线位于 75.50 处。K 线序列由绿色（上升）和黑色（下降）蜡烛组成，影线长度不一。右侧标注框显示'Sel 31 Jan 24'。最近的 K 线集中在 75.00 至 76.00 区间内。"
+  },
+  "sources": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        726.04,
+        842.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三日扩张、整理、扫除与反转的全过程，关键价位、K线形态、时间框架均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:06.575091Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油日线三日扩张后的整理与看涨反转\",\"school\":\"ICT\",\"asset\":\"CL (Light Crude Oil Futures)\",\"timeframe\":\"1D\",\"market_context\":\"原油在1月下旬至2月中旬期间经历了从约66.00至77.50的上升趋势，随后形成三日连续上升K线，之后进入整理阶段。\",\"key_observation\":\"三日方向性扩张K线后形成犹豫不决K线，随后扫除前日低点并进入FVG区域，最终形成看涨反转K线并继续上升。\",\"analysis_steps\":[\"Step 1: 识别三日连续上升扩张K线（Open High Low Close模式重复三次）\",\"Step 2: 观察第四日形成犹豫不决K线（开盘价与收盘价相近，显示市场犹豫）\",\"Step 3: 确认第五日扫除前日低点并进入Fair Value Gap区域\",\"Step 4: 识别扫除后形成的看涨反转K线（Open Low High Close模式）\",\"Step 5: 验证后续K线继续上升，确认反转有效性\"],\"outcome\":\"价格在扫除前日低点后形成看涨反转K线，随后继续上升，反转成功。\",\"lessons\":\"通过Open High Low Close模式识别市场结构变化；三日扩张后的整理与扫除是反转的关键信号；FVG与看涨反转K线的结合提高了交易概率。\",\"primary_image_frame_id\":\"sIcsLFSNoXM_f027\",\"supporting_image_frame_ids\":[\"sIcsLFSNoXM_f025\",\"sIcsLFSNoXM_f026\",\"sIcsLFSNoXM_f028\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Bullish Reversal Candle\",\"Market Structure\",\"Displacement\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三日扩张、整理、扫除与反转的全过程，关键价位、K线形态、时间框架均清晰可见。\"}",
+  "error": null
+}

@@ -1,0 +1,59 @@
+{
+  "card_id": "outside_bar",
+  "type": "merged_concept",
+  "canonical_term": "Outside Bar",
+  "aliases": [
+    "OB on higher timeframe"
+  ],
+  "school": "The Strat",
+  "definition": "在高时间框架上同时突破前期范围高点和低点的K线。代表扩张形态（Broadening Formation）在更高时间框架上的表现，表明价格波动范围扩大。",
+  "identification_rules": [
+    "该K线的最高点突破前期范围的高点",
+    "该K线的最低点突破前期范围的低点",
+    "通常在低时间框架上观察到多根K线形成的盘整范围后，在高时间框架上表现为单根Outside Bar",
+    "可通过对比前一交易日的高低点（如日线上的前一日高低点）来识别"
+  ],
+  "trading_implication": "Outside Bar表明价格扩张并失去平衡。交易者可将其用作目标位或反转兴趣点。当价格突破范围一侧失败时，通常会回测范围另一侧，形成扩张形态。结合Power of 3模型（积累-操纵-派发），Outside Bar常出现在操纵阶段。可与折价/溢价区、均衡点结合使用寻找高概率入场点。",
+  "common_mistakes": [
+    "将Outside Bar与简单的范围突破混淆，忽视其必须同时突破高低点的要求",
+    "在高时间框架识别Outside Bar时，未正确对应低时间框架的具体范围边界",
+    "假设Outside Bar必然导致持续突破，而忽视其可能失败并回测范围另一侧的情况"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "Tjk9bXERZy0_case_003_日线与15分钟图的跨时间框架扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "日线扩张形态在15分钟跨时段追踪"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "Tjk9bXERZy0",
+      "original_card_id": "Tjk9bXERZy0_concept_outside_bar",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        506.84,
+        687.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134632Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

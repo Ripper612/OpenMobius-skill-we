@@ -1,0 +1,204 @@
+{
+  "card_id": "continuation_expansion_candle",
+  "type": "merged_concept",
+  "canonical_term": "Continuation Expansion Candle",
+  "aliases": [
+    "Directional Candle",
+    "Distribution Candle",
+    "Expansion Candle"
+  ],
+  "school": "ICT",
+  "definition": "在前一根反转K线（CSD确立Protected Swing）之后出现的K线，开盘后形成浅层对立运动（wick），随后向原方向强势扩展，形成小影线大实体。wick不穿过前一根K线wick的50%位置，收盘接近高点或低点，标志价格以强劲势头延续方向性推进。",
+  "identification_rules": [
+    "第一根K线为积累（Accumulation）K线",
+    "第二根K线为反转K线，形成Change in the State of Delivery（CSD），确立Protected Swing，具有浅层对立运动（shallow opposing run）",
+    "第三根K线（Continuation Expansion Candle）开盘后形成浅层对立运动（shallow wick），随后向原方向扩展",
+    "第三根K线的wick必须浅层，不穿过前一根K线wick的50%位置；穿过50%则视为wick被disrespected",
+    "第三根K线收盘接近K线高点（看涨）或低点（看跌），形成较大实体",
+    "对立运动（opposing run）仅占用K线时间周期的较小比例",
+    "需具备明确的高时间框架偏向（如小时线看涨或看跌偏向）作为前置条件",
+    "通常伴随FVG、Order Block或流动性等市场结构特征"
+  ],
+  "trading_implication": "该形态是Power of Three模型中的主要交易目标。核心原则为\"let the wick form, then trade the body\"：等待wick完全形成并确认Protected Swing后，才进入body部分的扩展行情。在高时间框架识别形态后，可在低时间框架（如15分钟、1分钟）寻找摆动点和分形模型精确入场，目标为下一个关键价格水平（前期高低点、FVG等）。Expansion Candle消耗其范围后，应等待新的高时间框架K线开盘获得新范围。",
+  "common_mistakes": [
+    "试图在wick形成过程中过早入场，导致频繁被止损",
+    "忽视第二根K线对立运动幅度，将大幅对立运动误认为浅层wick",
+    "未等待CSD确认Protected Swing就仓促交易",
+    "在Expansion Candle已消耗其范围后继续持仓，应等待新的高时间框架K线开盘获得新范围",
+    "误认为任何穿过wick 50%位置的K线都是Expansion Candle，实际上穿过50%即表示wick被disrespected",
+    "在wick未被充分尊重的情况下预期Expansion Candle形成，导致交易失败",
+    "忽视低时间框架的确认，仅基于高时间框架的wick判断就入场",
+    "将Expansion Candle与任何大实体K线混淆，未考虑wick 50%位置这一关键参考点",
+    "在没有确立高时间框架偏向的情况下交易Expansion Candle",
+    "将大影线K线误认为Expansion Candle；大影线表示对立运动占用大量时间和范围，不支持扩张"
+  ],
+  "related_concepts": [
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "AMD",
+      "card_id": "power_of_3_accumulation_manipulation_distribution",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "5fnFOh5YuM0_case_004_btc日线看跌扩张交易",
+      "video_id": "5fnFOh5YuM0",
+      "title": "日线扩张K线的多时间框架看跌交易"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_001_nq期货_周三反转周四延续案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ期货周三反转周四延续交易案例"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_006_黄金盘整中的wick被不尊重案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "黄金盘整中wick被不尊重导致扫低案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_continuation_expansion_candle",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_009",
+        "seg_012"
+      ],
+      "time_range": [
+        54.16,
+        634.8
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "LKNQDAdId4s",
+      "original_card_id": "LKNQDAdId4s_concept_expansion_candle",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        192.959,
+        709.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_expansion_candle",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.12,
+        149.68
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_expansion_candle",
+      "segment_ids": [
+        "seg_001",
+        "seg_006",
+        "seg_010",
+        "seg_013"
+      ],
+      "time_range": [
+        10.88,
+        781.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:40.868258Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "3张ICT + 1张Price Action，按多数选ICT。SlWxhzhLo3A标注为Price Action，但内容与ICT框架高度兼容，核心规则已整合。",
+  "error": null
+}

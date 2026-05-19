@@ -1,0 +1,110 @@
+{
+  "card_id": "eywpZT3z6GQ_case_005_高级反转k线看跌交易案例",
+  "type": "case",
+  "title": "高级反转K线看跌交易：930时间窗口入场达成2R目标",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "protected_high_low",
+    "displacement",
+    "reversal_candle",
+    "killzone"
+  ],
+  "school": "ICT",
+  "asset": "BTC",
+  "timeframe": "1H",
+  "market_context": "BTC在向下扩张后形成盘整区间，价格在该区间内部保持多时间段。突破区间高点后，预期价格回归区间低点，为看跌交易提供机会。",
+  "key_observation": "博主识别出小时线反转K线与受保护摆动点的对齐，在930时间窗口形成高级入场信号。该信号由多个时间框架的结构支持（小时线扩张、15分钟CSD、受保护摆动点）。",
+  "analysis_steps": [
+    "Step 1: 识别小时线上的向下扩张和随后的盘整区间，价格在该区间内部保持多根K线。",
+    "Step 2: 标记盘整区间的高点和低点作为关键参考水平。",
+    "Step 3: 观察价格突破区间高点后的行为，预期回归至区间低点。",
+    "Step 4: 在930时间窗口切换至15分钟时间框架，观察开盘价的表现。",
+    "Step 5: 识别15分钟图表上的CSD（交付状态改变），确认向下扩张的支持。",
+    "Step 6: 标记FVG（公允价值缺口）和续延K线，确认结构完整性。",
+    "Step 7: 识别受保护摆动点作为止损位置。",
+    "Step 8: 在反转K线收盘时确认入场信号，该K线由小时线和15分钟线共同支持。",
+    "Step 9: 设定目标为2R或盘整区间的另一侧（更低的价格水平）。",
+    "Step 10: 验证交易执行，确认价格触及2R目标。"
+  ],
+  "outcome": "交易成功，价格触及2R目标。博主验证了在反转K线收盘前回测RTP（回测点）时，小时线支持向下扩张，15分钟线也支持向下扩张，所有结构对齐，最终交易达成预期目标。",
+  "lessons": "高级反转K线交易需要深入理解开盘价、最高价、最低价、收盘价和影线大小的关系。多时间框架对齐（小时线扩张+15分钟CSD+受保护摆动点）提高了交易的可靠性。930时间窗口的选择体现了对市场节奏的把握。该方法复杂度高，适合有经验的交易者。",
+  "primary_image": "cards/eywpZT3z6GQ/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/eywpZT3z6GQ/images/case_005_detail_1.jpg",
+    "cards/eywpZT3z6GQ/images/case_005_detail_2.jpg",
+    "cards/eywpZT3z6GQ/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "多资产对比图表显示K线走势。图上可见价格范围约从23500到29500。左侧显示上升趋势至约28500，随后出现急速下跌至24500附近。中间区域显示绿色和黑色K线混合，表现为震荡恢复形态。右侧显示两根较大的黑色K线，从约27500下跌至25500。图上有两条水平线分别位于26500和25000处。整体K线密度较高，显示多个交易周期内的价格波动。",
+    "case_005_detail_1.jpg": "BTC 1 小时 K 线图。图上显示从左侧约 23700 至右侧约 26900 的价格范围。左侧有一根大黑 K 线，下影线延伸至图表最低点。中间区域主要由绿色 K 线组成，间隔出现黑色 K 线。右侧有一根大绿 K 线。图上绘制两条水平线：上方线位于 25875，下方线位于 23875，两线之间形成一个矩形区域。除上述两条水平线和矩形标注外，图上未见其他文字标签或指标。",
+    "case_005_detail_2.jpg": "BTC 1 小时 K 线图，价格范围从 24100 到 26700。图上有两条水平参考线分别位于 25200 和 25800 处。右侧区域标注了三个矩形框：浅黄色框覆盖约 24800 至 25600 区间，浅灰色框覆盖约 25200 至 26200 区间，浅青色框覆盖约 25600 至 26400 区间。K 线整体呈上升趋势，从左侧约 24500 上升至右侧约 26300，中间在 25200 至 ",
+    "case_005_detail_3.jpg": "BTC 1 小时 K 线图。图上标注有两个矩形区域：下方绿色区域标记为'BUY ZONE 01 (ENTRY 01) - DISCOUNT ZONE'，价格范围约 24000 至 24600；上方灰色区域标记为'SELL ZONE 01 (ENTRY 01) - PREMIUM ZONE'，价格范围约 25200 至 25800。图上可见两条水平线分别位于 25200 和 24600 处。K 线形"
+  },
+  "sources": [
+    {
+      "video_id": "eywpZT3z6GQ",
+      "segment_ids": [
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "time_range": [
+        675.6,
+        852.079
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析步骤、入场逻辑、止损位置、目标设定和交易结果。图表清晰标注了关键结构（FVG、OB、受保护摆动点），时间框架和资产代码明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:52.830871Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"高级反转K线看跌交易：930时间窗口入场达成2R目标\",\"school\":\"ICT\",\"asset\":\"BTC\",\"timeframe\":\"1H\",\"market_context\":\"BTC在向下扩张后形成盘整区间，价格在该区间内部保持多时间段。突破区间高点后，预期价格回归区间低点，为看跌交易提供机会。\",\"key_observation\":\"博主识别出小时线反转K线与受保护摆动点的对齐，在930时间窗口形成高级入场信号。该信号由多个时间框架的结构支持（小时线扩张、15分钟CSD、受保护摆动点）。\",\"analysis_steps\":[\"Step 1: 识别小时线上的向下扩张和随后的盘整区间，价格在该区间内部保持多根K线。\",\"Step 2: 标记盘整区间的高点和低点作为关键参考水平。\",\"Step 3: 观察价格突破区间高点后的行为，预期回归至区间低点。\",\"Step 4: 在930时间窗口切换至15分钟时间框架，观察开盘价的表现。\",\"Step 5: 识别15分钟图表上的CSD（交付状态改变），确认向下扩张的支持。\",\"Step 6: 标记FVG（公允价值缺口）和续延K线，确认结构完整性。\",\"Step 7: 识别受保护摆动点作为止损位置。\",\"Step 8: 在反转K线收盘时确认入场信号，该K线由小时线和15分钟线共同支持。\",\"Step 9: 设定目标为2R或盘整区间的另一侧（更低的价格水平）。\",\"Step 10: 验证交易执行，确认价格触及2R目标。\"],\"outcome\":\"交易成功，价格触及2R目标。博主验证了在反转K线收盘前回测RTP（回测点）时，小时线支持向下扩张，15分钟线也支持向下扩张，所有结构对齐，最终交易达成预期目标。\",\"lessons\":\"高级反转K线交易需要深入理解开盘价、最高价、最低价、收盘价和影线大小的关系。多时间框架对齐（小时线扩张+15分钟CSD+受保护摆动点）提高了交易的可靠性。930时间窗口的选择体现了对市场节奏的把握。该方法复杂度高，适合有经验的交易者。\",\"primary_image_frame_id\":\"eywpZT3z6GQ_f027\",\"supporting_image_frame_ids\":[\"eywpZT3z6GQ_f026\",\"eywpZT3z6GQ_f028\",\"eywpZT3z6GQ_f029\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in the state of delivery\",\"Protected Swing\",\"Displacement\",\"Reversal Candle\",\"Multi-timeframe Alignment\",\"Killzone\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析步骤、入场逻辑、止损位置、目标设定和交易结果。图表清晰标注了关键结构（FVG、OB、受保护摆动点），时间框架和资产代码明确。\"}",
+  "error": null
+}

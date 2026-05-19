@@ -1,0 +1,117 @@
+{
+  "card_id": "EYzP7c24AwM_case_002_cl原油期货看涨案例",
+  "type": "case",
+  "title": "CL原油期货午夜开盘支撑看涨结构验证",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "market_structure_shift",
+    "inducement",
+    "killzone"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "30M / 4H",
+  "market_context": "原油期货在扫除所有低点后形成看涨结构。价格在午夜开盘（0:00）处建立支撑，随后通过8:30和9:30的对立运动验证订单块有效性，为后续上升奠定基础。",
+  "key_observation": "价格扫除所有低点后，午夜开盘作为关键支撑被多次尊重；8:30和9:30的对立运动（opposing run）验证了订单块的有效性，确认看涨结构成立。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别价格扫除所有低点，形成看涨结构的初始信号。",
+    "Step 2: 标记午夜开盘（0:00）水平线作为关键支撑位，预期价格将在此处获得支撑。",
+    "Step 3: 在30分钟图上观察8:30时段的对立运动（向下运行），确认这是对支撑的测试。",
+    "Step 4: 验证8:30后价格收复并突破该水平，确认订单块被激活。",
+    "Step 5: 观察9:30时段的对立运动（向下运行），再次验证订单块的有效性。",
+    "Step 6: 在4小时图上确认10:00和14:00蜡烛完成开低高收形态，验证看涨延续。",
+    "Step 7: 使用时间水平（10:00、14:00）预测价格的关键转折点和分布时段。"
+  ],
+  "outcome": null,
+  "lessons": "通过多时间框架的对立运动验证订单块有效性是高概率交易设置的关键。午夜开盘、8:30、9:30、10:00、14:00等时间水平与价格结构的结合，能够精确预测市场的操纵和分布阶段，从而识别最优入场点。",
+  "primary_image": "cards/EYzP7c24AwM/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/EYzP7c24AwM/images/case_002_detail_1.jpg",
+    "cards/EYzP7c24AwM/images/case_002_detail_2.jpg",
+    "cards/EYzP7c24AwM/images/case_002_detail_3.jpg",
+    "cards/EYzP7c24AwM/images/case_002_detail_4.jpg",
+    "cards/EYzP7c24AwM/images/case_002_detail_5.jpg",
+    "cards/EYzP7c24AwM/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "CL1! 原油期货 30 分钟 K 线图，图上标注来源为 TTrader_edu。可见价格范围约从 80.70 至 84.60。图上有两条标注为 Daily Open 的水平线，分别位于约 83.70 和 82.70 处。另有标注 0.00 的水平线位于约 83.20，标注 8.20 的水平线位于约 83.50，标注 NYO 的水平线位于约 82.00。图右侧有一根大型黑色实体 K 线，主体从约 ",
+    "case_002_detail_1.jpg": "CL1! 240分钟K线图，图上可见价格范围约从81.70至84.80。图上标注一条水平线于约83.80处，标签为'Daily Open'，另有一条无标签水平线于约82.10处。图右侧有一个大型黑色矩形覆盖区域，横跨约日期30至5月2日，纵向范围约82.60至84.40。图中部另有一个较小矩形框于约83.00至83.90区间。K线序列显示约日期25附近出现一根较长绿色K线，随后数根黑色K线依次下行",
+    "case_002_detail_2.jpg": "图表为 CL1! 日线蜡烛图，可见价格范围约从 79.00 至 87.50。图上有一条虚线水平线位于约 81.88 处，另有一条水平线位于约 80.00 处，标注文字为 Sellside Liquidity。图上绘有一个矩形框，覆盖约 81.50 至 83.50 的价格区间。图中央有一个弹出对话框，标题为 Change Interval，输入框内显示数字 3，下方标注 3 minutes。图右下角",
+    "case_002_detail_3.jpg": "CL1! 原油期货 30 分钟 K 线图，图上标注来源为 TTrader_edu。可见价格范围约从 81.90 至 84.20。图上有多条带文字标签的水平线：83.70 处标记为 Daily Open，83.10 处标记为 NYO，83.30 处标记为 8:30，82.50 处标记为 0:00，82.80 处另有一条 Daily Open 水平线并附有绿色矩形框标注。图中部可见一根较长的阴线从约 ",
+    "case_002_detail_4.jpg": "CL1! 原油期货 30 分钟 K 线图，日期显示为 2024 年 4 月 30 日。图上可见价格范围约从 80.70 至 84.60。图上标注两条带文字标签的水平线，分别标记为 'Daily Open'，位置约在 83.70 和 82.80 附近。图中还有文字标注 'NYO' 位于约 82.40 区域，以及时间标注 '6:30' 和 '0:00'。图右侧有两根主体较大的黑色 K 线，主体范围约从",
+    "case_002_detail_5.jpg": "图表为 CL1!（原油期货）240 分钟 K 线图，来源标注为 TTrader_edu，日期轴显示 30/4/2024 附近区域。图右侧价格轴可见范围约 80.70 至 84.40。图上有两条带文字标签的水平线，分别标注为 'Daily Open'，位置约在 83.60 与 82.80 处。图右侧区域有两根主体较大的黑色 K 线，主体范围约 81.90 至 83.00。图左侧有一根主体延伸至约 8",
+    "case_002_detail_6.jpg": "图表为 CL1!（原油期货）4 小时 K 线图，图右下角时间轴标注 30/4/2024 及 Wed 01 May '24 14:00。右侧价格刻度范围约从 80.30 至 84.20，当前价格标签显示 81.55。图上有两处文字标注 'Daily Open'，分别对应水平线位于约 82.80 和 81.10。图右侧有一个覆盖约两根 K 线的黑色矩形框，价格范围约 81.40 至 83.50。图中部"
+  },
+  "sources": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        369.56,
+        726.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对CL原油案例的分析完整清晰，包括资产代码、时间框架、关键价位（午夜开盘、8:30、9:30、10:00、14:00）、分析步骤和市场结构验证过程都有详细展开。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:52.252244Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"CL原油期货午夜开盘支撑看涨结构验证\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"30M / 4H\",\"market_context\":\"原油期货在扫除所有低点后形成看涨结构。价格在午夜开盘（0:00）处建立支撑，随后通过8:30和9:30的对立运动验证订单块有效性，为后续上升奠定基础。\",\"key_observation\":\"价格扫除所有低点后，午夜开盘作为关键支撑被多次尊重；8:30和9:30的对立运动（opposing run）验证了订单块的有效性，确认看涨结构成立。\",\"analysis_steps\":[\"Step 1: 在日线图上识别价格扫除所有低点，形成看涨结构的初始信号。\",\"Step 2: 标记午夜开盘（0:00）水平线作为关键支撑位，预期价格将在此处获得支撑。\",\"Step 3: 在30分钟图上观察8:30时段的对立运动（向下运行），确认这是对支撑的测试。\",\"Step 4: 验证8:30后价格收复并突破该水平，确认订单块被激活。\",\"Step 5: 观察9:30时段的对立运动（向下运行），再次验证订单块的有效性。\",\"Step 6: 在4小时图上确认10:00和14:00蜡烛完成开低高收形态，验证看涨延续。\",\"Step 7: 使用时间水平（10:00、14:00）预测价格的关键转折点和分布时段。\"],\"outcome\":null,\"lessons\":\"通过多时间框架的对立运动验证订单块有效性是高概率交易设置的关键。午夜开盘、8:30、9:30、10:00、14:00等时间水平与价格结构的结合，能够精确预测市场的操纵和分布阶段，从而识别最优入场点。\",\"primary_image_frame_id\":\"EYzP7c24AwM_f001\",\"supporting_image_frame_ids\":[\"EYzP7c24AwM_f013\",\"EYzP7c24AwM_f014\",\"EYzP7c24AwM_f015\",\"EYzP7c24AwM_f016\",\"EYzP7c24AwM_f017\",\"EYzP7c24AwM_f018\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Market Structure Shift\",\"Inducement\",\"Accumulation, Manipulation, Distribution\",\"Optimal Trade Entry\",\"Killzone\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对CL原油案例的分析完整清晰，包括资产代码、时间框架、关键价位（午夜开盘、8:30、9:30、10:00、14:00）、分析步骤和市场结构验证过程都有详细展开。\"}",
+  "error": null
+}

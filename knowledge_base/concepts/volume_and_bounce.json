@@ -1,0 +1,58 @@
+{
+  "card_id": "volume_and_bounce",
+  "type": "merged_concept",
+  "canonical_term": "Volume and Bounce",
+  "aliases": [
+    "成交量反弹区域"
+  ],
+  "school": "Price Action",
+  "definition": "通过识别前一交易日的成交量集中区域和价格反弹点，作为当前交易方向的确认依据。该区域通常被K线实体所尊重，用于验证交易偏向。",
+  "identification_rules": [
+    "在日线图上回溯至前一交易日，标记出明显的成交量集中区域",
+    "观察该区域内K线实体是否被多次尊重（价格未穿透实体）",
+    "确认该区域与当前交易方向一致（如看空时，该区域应作为上方阻力）",
+    "在多个时间框架上验证该区域的有效性（日线、4小时、1小时等）"
+  ],
+  "trading_implication": "Volume and Bounce作为多时间框架分析的确认工具。分析师在识别到其他看空信号（如SMT、FVG）后，通过检查前一日的成交量和反弹区域来增强交易信心。当价格K线实体持续尊重该区域时，表明该区域具有强支撑或阻力属性，可用于确认趋势方向和设置交易目标。",
+  "common_mistakes": [
+    "未在多个时间框架上验证Volume and Bounce的有效性，仅依赖单一周期判断",
+    "忽视K线实体对该区域的尊重程度，混淆虚假突破与真实突破"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "Ovotm9l99QQ_case_001_es日线看空交易分析_2023年1月18日",
+      "video_id": "Ovotm9l99QQ",
+      "title": "ES日线看空交易分析：多时间框架SMT与PD array级联填补"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "Ovotm9l99QQ",
+      "original_card_id": "Ovotm9l99QQ_concept_volume_and_bounce",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.859,
+        187.5
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136593Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

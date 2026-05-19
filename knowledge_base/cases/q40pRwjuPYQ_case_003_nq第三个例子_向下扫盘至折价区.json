@@ -1,0 +1,117 @@
+{
+  "card_id": "q40pRwjuPYQ_case_003_nq第三个例子_向下扫盘至折价区",
+  "type": "case",
+  "title": "NQ向下扫盘至折价区FVG的短线交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buy-side Liquidity (BSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "premium_discount",
+    "equilibrium_eq",
+    "market_structure",
+    "time_frame_confluence",
+    "risk_to_reward_ratio"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M / 5M / 30S",
+  "market_context": "NQ在15分钟图表上形成摆动高点，下方存在未填补的FVG处于折价区。价格预期向下扫除买方流动性并回归折价区域。",
+  "key_observation": "博主识别出15分钟图表上的摆动高点，以及其下方处于折价区的未填补FVG，这是做空的关键目标区域。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表上确认摆动高点，观察下方未填补的FVG位置。",
+    "Step 2: 判断该FVG处于价格区间的折价区（下半部分），预期价格向下移动。",
+    "Step 3: 下降至5分钟图表，确认买方流动性被扫除且出现下跌收盘的K线。",
+    "Step 4: 进一步下降至30秒图表，寻找FVG入场点。",
+    "Step 5: 在30秒图表上标记FVG入场区域，设置10点止损（相比12点更紧凑）。",
+    "Step 6: 设置1:1固定风险回报比的止盈目标。",
+    "Step 7: 执行交易，价格触及目标止盈。"
+  ],
+  "outcome": "交易成功，价格触及1:1的止盈目标。博主提及如果持有至初始整理区域的流动性或先前的低点，可获得4.22R的收益。",
+  "lessons": "在多时间框架分析中，从高时间框架（15M）识别结构和未填补的FVG，结合中时间框架（5M）的扫盘确认，再在低时间框架（30S）精确入场，可以提高交易的精准度。折价区是做多的理想区域，溢价区是做空的理想区域。",
+  "primary_image": "cards/q40pRwjuPYQ/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/q40pRwjuPYQ/images/case_003_detail_1.jpg",
+    "cards/q40pRwjuPYQ/images/case_003_detail_2.jpg",
+    "cards/q40pRwjuPYQ/images/case_003_detail_3.jpg",
+    "cards/q40pRwjuPYQ/images/case_003_detail_4.jpg",
+    "cards/q40pRwjuPYQ/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 1A 时间框架 K 线图。图上显示价格范围从 14890.00 至 14944.00。可见多根绿色和黑色 K 线交替排列。右侧标注有两个矩形区域，分别用灰色和浅蓝色填充。图上有三条水平参考线分别位于 14936.25、14916.25 和 14892.00。底部显示时间标记为 25/9/2023，标注信息为 NQ(1 : 305。图表工具栏可见成交量指标。",
+    "case_003_detail_1.jpg": "图表显示 USD 资产 15 分钟时间框架的 K 线图，时间范围从 07:30 至 16:30，日期为 2023 年 9 月 25 日。价格范围在 14790.00 至 14970.00 之间。图上显示一系列绿色和黑色 K 线，交替出现，大多数 K 线具有上下影线。左上角显示标签 14901.75。图表底部有时间刻度标记，右下角显示 Sell、Buy 和 Flatten 按钮。",
+    "case_003_detail_2.jpg": "USD 1 分钟 K 线图，时间范围从 10:00 至 14:30，日期标注为 25/9/2023。图上显示约 30 根 K 线，由绿色（上升）和黑色（下降）蜡烛组成。价格范围从 14652.00 至 14956.00。左侧价格刻度显示两个标注值：14922.25 和 14914.50。图表底部显示时间刻度和交易量指标。最大的绿色 K 线主体约在 11:00 附近，最大的黑色 K 线主体约在 11",
+    "case_003_detail_3.jpg": "USD 4小时K线图。图上显示价格从14890.00上升至14932.00，随后下跌至14914.50。图表右侧标注日期为25/9/2023及NQ(1:305。图上有三条水平线分别位于14936.25、14916.25和14914.50。两个矩形区域标注在14914.50至14926.00价格范围内，上方矩形为浅灰色，下方矩形为浅青色。K线整体价格范围约从14890.00至14944.00。",
+    "case_003_detail_4.jpg": "USD 4 时间框架 K 线图。图上显示从 12:00 至 13:16 的交易数据，价格范围在 14880 至 14945 之间。图上有三个矩形标注框，分别标记止损、已平仓 PNL 和目标价位信息。K 线呈现先涨后跌的形态：12:00 至 12:25 期间以绿色 K 线为主，价格从约 14890 上升至 14932；12:25 至 12:50 期间以黑色 K 线为主，价格下跌至 14885；12:",
+    "case_003_detail_5.jpg": "USD 图表显示一段时间内的 K 线走势。图上标注有三个带文字的矩形框：上方标记'Stop: 10.00 (0.07%) 40; Amount: 198000'、中间标记'Entry: 15.50, Stop: 3.01'、下方标记'Target: 42.25 (0.28%) 1M; Amount: 20400'。可见价格范围从 14860 到 14944。图上有两条水平线分别位于 14932.2"
+  },
+  "sources": [
+    {
+      "video_id": "q40pRwjuPYQ",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        308.039,
+        601.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了15M、5M、30S三个时间框架的分析过程，清晰标注了FVG、止损、止盈位置，交易结果明确（触及TP），所有关键数字和步骤都可从图表和讲解中读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:04.229668Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ向下扫盘至折价区FVG的短线交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M / 5M / 30S\",\"market_context\":\"NQ在15分钟图表上形成摆动高点，下方存在未填补的FVG处于折价区。价格预期向下扫除买方流动性并回归折价区域。\",\"key_observation\":\"博主识别出15分钟图表上的摆动高点，以及其下方处于折价区的未填补FVG，这是做空的关键目标区域。\",\"analysis_steps\":[\"Step 1: 在15分钟图表上确认摆动高点，观察下方未填补的FVG位置。\",\"Step 2: 判断该FVG处于价格区间的折价区（下半部分），预期价格向下移动。\",\"Step 3: 下降至5分钟图表，确认买方流动性被扫除且出现下跌收盘的K线。\",\"Step 4: 进一步下降至30秒图表，寻找FVG入场点。\",\"Step 5: 在30秒图表上标记FVG入场区域，设置10点止损（相比12点更紧凑）。\",\"Step 6: 设置1:1固定风险回报比的止盈目标。\",\"Step 7: 执行交易，价格触及目标止盈。\"],\"outcome\":\"交易成功，价格触及1:1的止盈目标。博主提及如果持有至初始整理区域的流动性或先前的低点，可获得4.22R的收益。\",\"lessons\":\"在多时间框架分析中，从高时间框架（15M）识别结构和未填补的FVG，结合中时间框架（5M）的扫盘确认，再在低时间框架（30S）精确入场，可以提高交易的精准度。折价区是做多的理想区域，溢价区是做空的理想区域。\",\"primary_image_frame_id\":\"q40pRwjuPYQ_f014\",\"supporting_image_frame_ids\":[\"q40pRwjuPYQ_f012\",\"q40pRwjuPYQ_f013\",\"q40pRwjuPYQ_f001\",\"q40pRwjuPYQ_f016\",\"q40pRwjuPYQ_f017\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Liquidity\",\"Buy-side Liquidity (BSL)\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Market Structure\",\"Multi-timeframe Analysis\",\"Risk-to-Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了15M、5M、30S三个时间框架的分析过程，清晰标注了FVG、止损、止盈位置，交易结果明确（触及TP），所有关键数字和步骤都可从图表和讲解中读出。\"}",
+  "error": null
+}

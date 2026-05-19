@@ -1,0 +1,100 @@
+{
+  "card_id": "LKNQDAdId4s_case_006_黄金盘整中的wick被不尊重案例",
+  "type": "case",
+  "title": "黄金盘整中wick被不尊重导致扫低案例",
+  "related_concepts": [
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "0.5 Fibonacci Level",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Consolidation Range",
+      "card_id": "range_consolidation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "wick",
+    "fair_value_gap",
+    "fibonacci_retracement",
+    "liquidity",
+    "market_structure",
+    "continuation_expansion_candle",
+    "range_consolidation"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "5M",
+  "market_context": "黄金在小时图盘整范围内（未突破高点，未突破低点），形成带有明显下影线的K线。博主在5分钟图上观察价格是否尊重该wick的0.5位置。",
+  "key_observation": "价格在5分钟图上立即穿过wick的0.5位置，未能形成扩展K线，反而继续下行扫出盘整低点，表明wick被不尊重，看跌信号确立。",
+  "analysis_steps": [
+    "Step 1: 在小时图识别盘整范围内的带wick的K线，预期如果价格下行应在wick的下半部分（0.5位置）获得支撑。",
+    "Step 2: 切换到5分钟图观察价格开盘后的行为，检查是否尊重wick的0.5位置。",
+    "Step 3: 观察到价格开盘后立即穿过0.5位置，收盘在该位置上方，反转信号失效。",
+    "Step 4: 由于价格已突破前一根K线的低点，且未能形成扩展K线，判断更可能上行至高点而非下行。",
+    "Step 5: 继续观察，价格最终扫出盘整低点，确认wick被不尊重，下行扩展形成。"
+  ],
+  "outcome": "价格穿过wick的0.5位置后继续下行，扫出盘整低点，形成下行扩展K线。",
+  "lessons": "当wick的0.5位置被立即穿过且未形成扩展K线时，表明该wick被市场不尊重，原预期的反转失效。此时应转向观察是否会扫出相反方向的流动性（如扫低点），而非坚持原反转预期。",
+  "primary_image": "cards/LKNQDAdId4s/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/LKNQDAdId4s/images/case_006_detail_1.jpg",
+    "cards/LKNQDAdId4s/images/case_006_detail_2.jpg",
+    "cards/LKNQDAdId4s/images/case_006_detail_3.jpg",
+    "cards/LKNQDAdId4s/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图表为5分钟K线图，日期标注为Wed 13 Nov，右上角水印显示'The Market Lens'。价格轴范围约从2588.0至2626.0。图上有三条水平线，分别位于约2610.0、2602.5和2596.0处，均无文字标签。K线序列中，约10:00处出现一根大阴线，随后在2604至2612区间内有数根K线横向排列。约11:30处再次出现大阴线，之后在2594至2596附近有数根小阳线。约12",
+    "case_006_detail_1.jpg": "图为烛台图，时间轴跨越11月13日至15日，价格刻度范围约66.90至69.70。图左侧价格轴标注当前价68.86（蓝色高亮）。图上有一条水平线从约Wed 13 Nov 04:00处延伸至Thu 14 Nov 09:00处，对应价格约68.86，两端各有一个圆形控制点。图底部有一条虚线水平线位于66.99处。Nov 13日04:00附近出现一根大阴线，主体从约68.30向下延伸至约66.90，紧随",
+    "case_006_detail_2.jpg": "图为 K 线图，时间轴从约 04:00 延伸至 10:00，右侧价格刻度范围约 67.95 至 69.10。图上有两条无标签水平线，分别位于约 68.80 和 68.65 处。K 线在 06:00 至 06:30 区间内集中于 68.55 至 68.95 之间，随后出现一根较大阴线，收盘约在 68.55 附近。07:30 附近有一根带长下影线的 K 线，下影线延伸至约 68.00。08:00 附近",
+    "case_006_detail_3.jpg": "图为烛台图，时间轴从约 04:30 延伸至 10:30，日期标注为 Thu 14 Nov，纵轴价格范围约 68.20 至 69.35。图上有两条水平实线，分别位于约 68.75 和 68.80，横跨图表中部区域。左侧价格轴显示当前价标签为 68.29，对应一条贯穿全图的水平虚线。09:00 处有一条垂直虚线。K 线在 06:30 至 07:30 区间内集中于 68.60 至 68.85 之间，主体",
+    "case_006_detail_4.jpg": "图表为1小时K线图，右上角标注'The Market Lens / Trades_edb'水印。图上可见一个矩形框，上边界约在2624.0，下边界约在2596.0，横跨图中大部分K线区域。右侧价格轴当前高亮标签显示2599.3，并有一条虚线水平延伸至图左。图中K线在2600.0至2624.0区间内交替排列，多根K线上影线触及矩形上边界2624.0附近。时间轴显示日期跨越11月13日至14日，当前垂"
+  },
+  "sources": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.72,
+        552.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从小时图到5分钟图的分析过程，清晰说明了wick被不尊重的判断标准（穿过0.5位置、未形成扩展K线）及最终结果（扫低点）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:53.548773Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金盘整中wick被不尊重导致扫低案例\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"5M\",\"market_context\":\"黄金在小时图盘整范围内（未突破高点，未突破低点），形成带有明显下影线的K线。博主在5分钟图上观察价格是否尊重该wick的0.5位置。\",\"key_observation\":\"价格在5分钟图上立即穿过wick的0.5位置，未能形成扩展K线，反而继续下行扫出盘整低点，表明wick被不尊重，看跌信号确立。\",\"analysis_steps\":[\"Step 1: 在小时图识别盘整范围内的带wick的K线，预期如果价格下行应在wick的下半部分（0.5位置）获得支撑。\",\"Step 2: 切换到5分钟图观察价格开盘后的行为，检查是否尊重wick的0.5位置。\",\"Step 3: 观察到价格开盘后立即穿过0.5位置，收盘在该位置上方，反转信号失效。\",\"Step 4: 由于价格已突破前一根K线的低点，且未能形成扩展K线，判断更可能上行至高点而非下行。\",\"Step 5: 继续观察，价格最终扫出盘整低点，确认wick被不尊重，下行扩展形成。\"],\"outcome\":\"价格穿过wick的0.5位置后继续下行，扫出盘整低点，形成下行扩展K线。\",\"lessons\":\"当wick的0.5位置被立即穿过且未形成扩展K线时，表明该wick被市场不尊重，原预期的反转失效。此时应转向观察是否会扫出相反方向的流动性（如扫低点），而非坚持原反转预期。\",\"primary_image_frame_id\":\"LKNQDAdId4s_f019\",\"supporting_image_frame_ids\":[\"LKNQDAdId4s_f013\",\"LKNQDAdId4s_f014\",\"LKNQDAdId4s_f015\",\"LKNQDAdId4s_f018\"],\"related_concepts\":[\"Wick\",\"Fair Value Gap\",\"0.5 Fibonacci Level\",\"Liquidity\",\"Market Structure\",\"Expansion Candle\",\"Consolidation Range\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从小时图到5分钟图的分析过程，清晰说明了wick被不尊重的判断标准（穿过0.5位置、未形成扩展K线）及最终结果（扫低点）。\"}",
+  "error": null
+}

@@ -1,0 +1,111 @@
+{
+  "card_id": "FdRKBTz0Fps_case_001_s_p_500_e_mini期货从看跌到看涨的趋势转变",
+  "type": "case",
+  "title": "ES期货5分钟MSS确认看涨反转，15分钟验证趋势转变",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Short-term Lows",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Pullback vs Reversal",
+      "card_id": "pullback_vs_reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "displacement",
+    "order_block_ob",
+    "time_frame_confluence",
+    "pullback_vs_reversal"
+  ],
+  "school": "ICT",
+  "asset": "CME_MINI (S&P 500 E-mini Futures)",
+  "timeframe": "5M / 15M",
+  "market_context": "ES期货从下行趋势中形成MSS向上突破，创造FVG。5分钟图显示从看跌转为看涨，15分钟图确认结构未被破坏，整体趋势保持看涨方向。",
+  "key_observation": "通过对比5分钟和15分钟图表，博主展示了如何区分回调与真正的趋势反转：关键在于MSS是否被突破以及更高时间框架的结构是否保持完整。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别初始下行趋势中的短期低点（short-term lows）",
+    "Step 2: 标记MSS（市场结构转变）点，观察价格是否突破该结构",
+    "Step 3: 当短期低点被突破时，确认从看涨到看跌的趋势转变",
+    "Step 4: 检查15分钟图表确认更高时间框架的结构是否仍保持看涨（未被破坏）",
+    "Step 5: 在5分钟下行趋势中寻找MSS回升或1分钟图内FVG的MSS入场点",
+    "Step 6: 识别FVG（公允价值缺口）作为价格回归目标",
+    "Step 7: 在1分钟图上确认MSS和位移（Displacement）形成的能量性上升，作为最优入场点",
+    "Step 8: 进入看涨趋势后，标记新的短期低点并观察是否被突破",
+    "Step 9: 在15分钟图上验证短期高点未被触及，确认结构完整性",
+    "Step 10: 确认位移突破创造新FVG，标志着看涨趋势的延续"
+  ],
+  "outcome": null,
+  "lessons": "区分回调与反转的核心是观察MSS是否被突破。更高时间框架（15分钟）提供更清晰的趋势信号，减少噪音。在反转确认后，使用多时间框架（5分钟+1分钟）寻找最优入场点，并关注FVG作为目标区域。",
+  "primary_image": "cards/FdRKBTz0Fps/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/FdRKBTz0Fps/images/case_001_detail_1.jpg",
+    "cards/FdRKBTz0Fps/images/case_001_detail_2.jpg",
+    "cards/FdRKBTz0Fps/images/case_001_detail_3.jpg",
+    "cards/FdRKBTz0Fps/images/case_001_detail_4.jpg",
+    "cards/FdRKBTz0Fps/images/case_001_detail_5.jpg",
+    "cards/FdRKBTz0Fps/images/case_001_detail_6.jpg",
+    "cards/FdRKBTz0Fps/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图，图上可见价格范围约4064至4164。图上标注有三处MSS矩形框，分别位于约11:30、12:00及14:00时间区域，对应价格约4122至4148区间。图左侧有文字注释，内容提及MSS与FVG。图上另有三条水平矩形框分别位于约4092、4112及4132价格处。右侧价格轴当前价标签显示4154.50，背景为绿色高亮。K线从图左侧低点约4",
+    "case_001_detail_1.jpg": "图为 S&P 500 E-mini Futures（CME_MINI）5 分钟 K 线图，时间轴覆盖约 04:00 至 22:00。图右侧价格刻度范围约 4064 至 4164，当前价标签显示 4154.50（绿色高亮）。图中约 11:00 处出现一段幅度约 40 点的快速上行 K 线序列，此后 K 线在约 4148 至 4164 区间内横向排列延续至图右端。图右下方有三行英文文字标注，内容分别为",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，图右侧价格刻度范围约 4064 至 4164。图左侧有两段文字标注，分别描述上升趋势与下降趋势中 MSS 的识别方式。图中约 09:00 区域有一个矩形框，标签为 MSS，价格区间约在 4088 至 4096。图右侧中部有文字标注\"If price does not break structure, it is a pullback",
+    "case_001_detail_3.jpg": "图表为 S&P 500 E-mini Futures 5 分钟 K 线图，来自 TradingView CME_MINI 数据源。可见价格范围约为 4064.00 至 4164.00。图左上方有一段英文文字注释，内容为对短期低点被突破后趋势变化的描述。图中约 10:45 处标注有文字标签\"MSS\"。图中约 10:00 至 11:00 区间绘制有一个水平矩形框，位于约 4092.00 至 4096.",
+    "case_001_detail_4.jpg": "图表为 S&P 500 E-mini Futures（CME_MINI）5 分钟 K 线图，可见价格范围约 4064.00 至 4164.00。图左上角有一段文字注释，内容提及 5 分钟图上的下行走势，并提到在 FVG 内寻找 MSS 回转的操作思路。图上约 10:00 附近有一根大幅上涨的绿色 K 线，随后在约 10:30 至 11:00 区域标注有\"MSS\"文字标签。图中约 4092.00 至",
+    "case_001_detail_5.jpg": "图为 S&P 500 E-mini Futures（CME_MINI）5 分钟 K 线图，可见价格范围约 4064 至 4164。图左上角有多行英文文字标注，内容提及 5min 下行趋势、MSS 及 FVG。图中约 11:00 至 12:00 区域有两处 MSS 文字标签及一个黄色矩形框，约 09:00 至 11:00 之间有一条水平括号线。图右侧约 20:30 至 22:00 区域有一个大黄色矩",
+    "case_001_detail_6.jpg": "S&P 500 E-mini Futures 15 分钟 K 线图，来源标注为 CME_MINI TradingView。图右侧价格轴当前价标签显示 4144.50，以红色高亮背景呈现。图上可见两条水平线分别位于约 4196 和 4164 附近，另有四个矩形框标注分布于图中不同价格区域。图左下角有文字注释：\"On the 15min chart the trend is more clear Th",
+    "case_001_detail_7.jpg": "S&P 500 E-mini Futures 15 分钟 K 线图，可见价格范围约 4076 至 4160。图上标注一个文字标签 MSS，位于约 4092 处并附带水平线向右延伸。图右侧有三个矩形框标注，分别位于约 4108-4114、4132-4138、4146-4150 区域。图中央偏左有一段英文注释文字，内容提及 displacement 术语。图上可见一根较大绿色 K 线出现在约 09:0"
+  },
+  "sources": [
+    {
+      "video_id": "FdRKBTz0Fps",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.64,
+        269.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从下行到上行的趋势转变过程，清晰标注了MSS、FVG、入场点，并通过5分钟和15分钟对比验证，所有关键价位和分析步骤均可从图表和讲解中读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:51.544725Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货5分钟MSS确认看涨反转，15分钟验证趋势转变\",\"school\":\"ICT\",\"asset\":\"CME_MINI (S&P 500 E-mini Futures)\",\"timeframe\":\"5M / 15M\",\"market_context\":\"ES期货从下行趋势中形成MSS向上突破，创造FVG。5分钟图显示从看跌转为看涨，15分钟图确认结构未被破坏，整体趋势保持看涨方向。\",\"key_observation\":\"通过对比5分钟和15分钟图表，博主展示了如何区分回调与真正的趋势反转：关键在于MSS是否被突破以及更高时间框架的结构是否保持完整。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别初始下行趋势中的短期低点（short-term lows）\",\"Step 2: 标记MSS（市场结构转变）点，观察价格是否突破该结构\",\"Step 3: 当短期低点被突破时，确认从看涨到看跌的趋势转变\",\"Step 4: 检查15分钟图表确认更高时间框架的结构是否仍保持看涨（未被破坏）\",\"Step 5: 在5分钟下行趋势中寻找MSS回升或1分钟图内FVG的MSS入场点\",\"Step 6: 识别FVG（公允价值缺口）作为价格回归目标\",\"Step 7: 在1分钟图上确认MSS和位移（Displacement）形成的能量性上升，作为最优入场点\",\"Step 8: 进入看涨趋势后，标记新的短期低点并观察是否被突破\",\"Step 9: 在15分钟图上验证短期高点未被触及，确认结构完整性\",\"Step 10: 确认位移突破创造新FVG，标志着看涨趋势的延续\"],\"outcome\":null,\"lessons\":\"区分回调与反转的核心是观察MSS是否被突破。更高时间框架（15分钟）提供更清晰的趋势信号，减少噪音。在反转确认后，使用多时间框架（5分钟+1分钟）寻找最优入场点，并关注FVG作为目标区域。\",\"primary_image_frame_id\":\"FdRKBTz0Fps_f008\",\"supporting_image_frame_ids\":[\"FdRKBTz0Fps_f003\",\"FdRKBTz0Fps_f004\",\"FdRKBTz0Fps_f005\",\"FdRKBTz0Fps_f002\",\"FdRKBTz0Fps_f007\",\"FdRKBTz0Fps_f009\",\"FdRKBTz0Fps_f010\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"Displacement\",\"Short-term Lows\",\"Order Block (OB)\",\"Multi-timeframe Analysis\",\"Trend Reversal\",\"Pullback vs Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从下行到上行的趋势转变过程，清晰标注了MSS、FVG、入场点，并通过5分钟和15分钟对比验证，所有关键价位和分析步骤均可从图表和讲解中读出。\"}",
+  "error": null
+}

@@ -1,0 +1,87 @@
+{
+  "card_id": "27S9gjgcSlI_case_007_es与nq在fvg内的smt分析",
+  "type": "case",
+  "title": "ES与NQ在15分钟FVG内的SMT分析与1分钟下钻验证",
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "internal_range_liquidity",
+    "displacement",
+    "time_frame_confluence",
+    "order_block"
+  ],
+  "school": "SMC",
+  "asset": "ES / NQ",
+  "timeframe": "15M / 1M",
+  "market_context": "2024年1月15日，ES和NQ在同一时间段内形成相同的15分钟FVG结构，但价格回测表现出现分歧，为SMT within FVG的典型案例。",
+  "key_observation": "ES价格回测到15分钟FVG的内部高点（FVG上边界），而NQ未能到达该高点，形成两资产间的SMT分歧。通过理解FVG的内部流动性结构（由低点和高点组成），可以识别这种不对称性。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图上标记ES和NQ的相同FVG区域，观察两者的形成时间和位置一致性。",
+    "Step 2: 观察价格回测行为，发现ES回测进入FVG内部并触及高点，而NQ的回测未能到达该高点。",
+    "Step 3: 确认这是SMT现象：一个资产创出新高（进入FVG），另一个资产未能创出相同高度。",
+    "Step 4: 下钻至1分钟图表，定位创建15分钟FVG高点的具体1分钟K线。",
+    "Step 5: 在1分钟图上对比ES和NQ，验证ES突破该高点进入FVG，而NQ未能突破，确认内部结构的分歧。",
+    "Step 6: 解释原理：FVG由低点和高点组成，SMT within FVG就是一个资产价格到达高点而另一个未到达，体现了内部范围流动性的不对称性。"
+  ],
+  "outcome": null,
+  "lessons": "SMT within FVG是识别两资产间分歧的高级技术。关键是理解FVG的内部结构（高点和低点），然后通过下钻低时间框架验证哪个资产突破了高点、哪个未能突破。这种分歧往往预示后续的反应性下跌，是寻找交易机会的重要信号。",
+  "primary_image": "cards/27S9gjgcSlI/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/27S9gjgcSlI/images/case_007_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "图为 FXReplay 回测平台上并排显示的两张 1 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ），时间均定位于 2024 年 1 月 15 日 04:17。左图可见一个灰色矩形框覆盖约 4817.00 至 4820.00 区间，并有一条红色上升趋势线从该矩形区域延伸；当前高亮 K 线位于约 481",
+    "case_007_detail_1.jpg": "图为 FXReplay 回测平台上并排显示的两个 15 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ）。两图均在时间轴底部标注 Mon 15 Jan '24 03:15 的垂直虚线。左图价格范围约 4801 至 4825，右图约 16640 至 17030。两图各有一个灰色矩形框标注于大型黑色 K 线"
+  },
+  "sources": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        920.56,
+        1020.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了15分钟和1分钟图表，清晰标注了FVG区域，明确说明了ES与NQ的分歧点，并解释了SMT within FVG的原理和验证方法。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:18:35.727558Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES与NQ在15分钟FVG内的SMT分析与1分钟下钻验证\",\"school\":\"SMC\",\"asset\":\"ES / NQ\",\"timeframe\":\"15M / 1M\",\"market_context\":\"2024年1月15日，ES和NQ在同一时间段内形成相同的15分钟FVG结构，但价格回测表现出现分歧，为SMT within FVG的典型案例。\",\"key_observation\":\"ES价格回测到15分钟FVG的内部高点（FVG上边界），而NQ未能到达该高点，形成两资产间的SMT分歧。通过理解FVG的内部流动性结构（由低点和高点组成），可以识别这种不对称性。\",\"analysis_steps\":[\"Step 1: 在15分钟图上标记ES和NQ的相同FVG区域，观察两者的形成时间和位置一致性。\",\"Step 2: 观察价格回测行为，发现ES回测进入FVG内部并触及高点，而NQ的回测未能到达该高点。\",\"Step 3: 确认这是SMT现象：一个资产创出新高（进入FVG），另一个资产未能创出相同高度。\",\"Step 4: 下钻至1分钟图表，定位创建15分钟FVG高点的具体1分钟K线。\",\"Step 5: 在1分钟图上对比ES和NQ，验证ES突破该高点进入FVG，而NQ未能突破，确认内部结构的分歧。\",\"Step 6: 解释原理：FVG由低点和高点组成，SMT within FVG就是一个资产价格到达高点而另一个未到达，体现了内部范围流动性的不对称性。\"],\"outcome\":null,\"lessons\":\"SMT within FVG是识别两资产间分歧的高级技术。关键是理解FVG的内部结构（高点和低点），然后通过下钻低时间框架验证哪个资产突破了高点、哪个未能突破。这种分歧往往预示后续的反应性下跌，是寻找交易机会的重要信号。\",\"primary_image_frame_id\":\"27S9gjgcSlI_f034\",\"supporting_image_frame_ids\":[\"27S9gjgcSlI_f033\"],\"related_concepts\":[\"SMT (Smart Money Technique)\",\"FVG (Fair Value Gap)\",\"Internal Range Liquidity\",\"Displacement\",\"Multi-timeframe Analysis\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了15分钟和1分钟图表，清晰标注了FVG区域，明确说明了ES与NQ的分歧点，并解释了SMT within FVG的原理和验证方法。\"}",
+  "error": null
+}

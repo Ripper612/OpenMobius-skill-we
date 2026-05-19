@@ -1,0 +1,66 @@
+{
+  "card_id": "breakout",
+  "type": "merged_concept",
+  "canonical_term": "Breakout",
+  "aliases": [
+    "突破"
+  ],
+  "school": "ICT",
+  "definition": "价格穿过盘整区间的高点或低点。需配合continuation确认才能可靠交易，否则易陷入虚假突破。",
+  "identification_rules": [
+    "价格收盘穿过consolidation的上边界或下边界",
+    "突破后需观察是否形成continuation move（延续性K线形态）",
+    "理想的continuation表现为快速、有力的方向性运动，而非立即反转",
+    "若突破后取出短期高点或低点，需等待进一步的continuation才能确认有效突破"
+  ],
+  "trading_implication": "Breakout是从盘整中寻求交易机会的关键。单纯的价格穿过边界不足以交易，必须等待continuation确认。若突破后立即反转或形成新的盘整，说明突破失效。通过等待continuation而非急于入场，可避免被虚假突破套住。这是耐心交易的核心体现。",
+  "common_mistakes": [
+    "在价格仅穿过consolidation边界时立即入场，未等待continuation确认",
+    "将突破后取出短期高/低点的行为误认为有效continuation，导致在反转前入场",
+    "忽视突破后是否形成新的盘整，盲目追随初始突破方向"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "m4k_1pF5zFI_case_003_usd日线盘整突破案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GLL日线盘整突破后流动性枯竭案例"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_003_巩固区间突破与回测交易",
+      "video_id": "yOPESX2aWkI",
+      "title": "ES巩固区间突破与低点回测长仓设置"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "original_card_id": "PQiRV0JMhIQ_concept_breakout",
+      "segment_ids": [
+        "seg_023",
+        "seg_024",
+        "seg_025"
+      ],
+      "time_range": [
+        1269.52,
+        1418.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131332Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

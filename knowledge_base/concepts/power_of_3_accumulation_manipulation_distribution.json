@@ -1,0 +1,122 @@
+{
+  "card_id": "power_of_3_accumulation_manipulation_distribution",
+  "type": "merged_concept",
+  "canonical_term": "Power of 3 / Accumulation, Manipulation, Distribution",
+  "aliases": [
+    "AMD",
+    "Power of Three"
+  ],
+  "school": "ICT",
+  "definition": "描述价格在一个周期（日内或更大时间框架）内的典型三阶段运动：积累（价格在明确高低范围内横向整理形成区间）、操纵（价格从区间边界发起激进突破，在高时间框架形成灯芯）、派发（价格激进回归区间并向对侧移动，扫除对侧流动性）。可通过日线开高低收四个关键价位的相对关系加以识别。",
+  "identification_rules": [
+    "识别积累阶段：价格在一个明确的高低范围内横向整理，形成区间（Range）",
+    "识别操纵阶段：价格从区间边界（高点或低点）发起激进的突破移动（Displacement），离开原区间",
+    "识别派发阶段：价格随后激进地回到区间内，然后向区间的另一侧移动，扫除对侧的流动性",
+    "确认激进性：操纵阶段的突破与回归都须是激进移动，在高时间框架上形成明显灯芯（wick）",
+    "观察日线K线的开盘价、最高价、最低价、收盘价四个关键价位的相对位置，判断当日所处阶段",
+    "结合Killzone时间窗口（特别是Silver Bullet窗口10:00-11:00 EST）观察价格行为，辅助阶段判断"
+  ],
+  "trading_implication": "在派发阶段（价格激进回到区间并向另一侧移动时）寻找入场机会，止损设于操纵阶段的极值高点或低点，目标指向区间对侧流动性。结合Killzone时间窗口及市场结构（FVG、Order Block）可提升信号可靠性，预判特定时段的价格运动方向与强度。",
+  "common_mistakes": [
+    "操纵阶段的突破或回归区间的移动不够激进，导致高时间框架上未形成有效灯芯",
+    "未能正确识别区间边界，导致误判积累阶段的范围",
+    "在派发阶段未完成前过早入场，或未等待价格激进回到区间",
+    "未在正确的时间窗口（Killzone/Silver Bullet）内应用分析，导致交易信号失效",
+    "仅关注开高低收数据而忽视市场结构（如FVG、Order Block）的配合确认"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Range",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Silver Bullet",
+      "card_id": "silver_bullet",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "CHIK5oBRKiw_case_004_nq11月1日box_setup与订单块结合案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ1! 11月1日Box Setup与订单块结合做多案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "HFfChGFHD44",
+      "original_card_id": "HFfChGFHD44_concept_power_of_3_accumulation_manipulation_dis",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        181.28
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "MPeeE55rNOw",
+      "original_card_id": "MPeeE55rNOw_concept_power_of_three",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        729.6,
+        828.76
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:57.225969Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "两张卡均为ICT，无学派冲突。卡1侧重通用三阶段结构与激进性判断，卡2侧重日线OHLC与Killzone时间窗口应用，已综合互补。",
+  "error": null
+}

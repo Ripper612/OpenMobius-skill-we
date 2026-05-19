@@ -1,0 +1,113 @@
+{
+  "card_id": "yq4Z7q4E6nU_case_003_多时间框架联动的小时线到5分钟交易案例",
+  "type": "case",
+  "title": "1小时低点扫除后激进回升，5分钟OTE精确入场",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "premium_discount_premium_",
+    "equilibrium",
+    "market_structure_shift",
+    "balanced_price_range"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1H / 5M",
+  "market_context": "价格从3932下跌至3810附近，在1小时图上形成低点被扫除后出现激进回升，为多时间框架联动交易提供机会。",
+  "key_observation": "1小时图识别低点被扫除（run low）后的激进回升信号，结合5分钟图在RTH开盘后精确定位OTE入场点，利用0.62斐波那契水平确定折价区最优入场。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别从3932下跌至约3810的下降趋势，观察低点被扫除后是否出现激进回升。",
+    "Step 2: 确认1小时图上低点被扫除后确实出现激进回升，形成看涨信号。",
+    "Step 3: 标记1小时图上的BPR（平衡价格区间）和前期低点作为参考，可直接在1小时图入场但风险较大。",
+    "Step 4: 为降低风险，切换至5分钟图，等待RTH开盘（9点后）寻找更精确的入场点。",
+    "Step 5: 在5分钟图上观察激进下跌后的激进回升，标记出该范围的0.62斐波那契水平作为OTE。",
+    "Step 6: 在5分钟OTE处入场，止损设置在该范围的低点，目标与1小时图目标保持一致（上方阻力区）。",
+    "Step 7: 从5分钟图交易后，可切换至15分钟图观察交易进展，验证目标是否被触及。"
+  ],
+  "outcome": "价格在5分钟OTE入场后上升，最终触及1小时图目标区域（上方阻力），交易成功达成目标。",
+  "lessons": "多时间框架联动的核心是用高时间框架（1H）确定方向偏差和大级别结构，用低时间框架（5M）精确入场点和风险管理。0.62斐波那契水平在折价区提供高概率OTE，RTH开盘时间窗口增强信号可靠性。",
+  "primary_image": "cards/yq4Z7q4E6nU/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/yq4Z7q4E6nU/images/case_003_detail_1.jpg",
+    "cards/yq4Z7q4E6nU/images/case_003_detail_2.jpg",
+    "cards/yq4Z7q4E6nU/images/case_003_detail_3.jpg",
+    "cards/yq4Z7q4E6nU/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 1 小时图。图表显示从左侧约 3925 下跌至右侧约 3810 的下降趋势，跨越约 15 根 K 线。图上标记两个矩形区域：下方粉色矩形约在 3815 至 3835 之间，上方浅绿色矩形约在 3835 至 3900 之间。图中有一条竖虚线标记在 20:00 时间点。右侧价格轴显示当前价格 3842.75。可见价格范围从 3800.00 至 3955.0",
+    "case_003_detail_1.jpg": "S&P 500 E-mini 期货 1 小时 K 线图。图表显示从左侧 3932.00 开始的下跌走势，延伸至右侧约 3775.00 附近。K 线序列中黑色蜡烛与绿色蜡烛交替出现。下方区域的多根黑色 K 线具有较长的下影线。图右侧显示价格在 3817.50 至 3843.75 区间内的整理形态，跨越约 5 根 K 线。右侧价格刻度标注范围从 3775.00 至 3932.00。图上未见其他标注、文",
+    "case_003_detail_2.jpg": "S&P 500 E-mini 期货 5 分钟图。图上显示从左侧约 3775 的低点上升至 3900 附近的上升趋势。中部有一个黄色矩形标注区域，范围约在 3825 至 3900 之间，内部标有 0.62、0.79、1 等文字标签。图右侧显示一个粉红色矩形区域，范围约在 3800 至 3825 之间。K 线在 10:00 时刻出现向下跳空缺口，随后以绿色 K 线收复至 3860 上方。右侧价格标签显",
+    "case_003_detail_3.jpg": "S期货5分钟K线图。图上有三条水平线分别位于3843、3815和3810.75处。标注显示0.5和0.62两个比例标记，对应于上下价格区间之间的分割。最新K线呈现长下影线形态，下影线从3843附近向下刺破至3810.75后于同一根K线内收回至3815上方。可见价格范围约从3810到3854。右侧价格刻度清晰可见，图上未见其他指标或形态标注。",
+    "case_003_detail_4.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上可见价格范围从3788到3924。图中标注了多个矩形区域，分别位于3838-3858、3820-3838、3858-3878及3820-3858价格区间。矩形内标有文字标签'0.5'和'0.79'。K线显示在3820至3858区间内存在多根K线的整理形态，随后向上运动至3920附近。右侧价格标尺显示当前价格在3920水平。图下方显示"
+  },
+  "sources": [
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        298.62,
+        443.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了1H和5M多时间框架分析过程，清晰标注了关键价位、OTE计算方法、入场逻辑和目标，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:27.805389Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"1小时低点扫除后激进回升，5分钟OTE精确入场\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1H / 5M\",\"market_context\":\"价格从3932下跌至3810附近，在1小时图上形成低点被扫除后出现激进回升，为多时间框架联动交易提供机会。\",\"key_observation\":\"1小时图识别低点被扫除（run low）后的激进回升信号，结合5分钟图在RTH开盘后精确定位OTE入场点，利用0.62斐波那契水平确定折价区最优入场。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别从3932下跌至约3810的下降趋势，观察低点被扫除后是否出现激进回升。\",\"Step 2: 确认1小时图上低点被扫除后确实出现激进回升，形成看涨信号。\",\"Step 3: 标记1小时图上的BPR（平衡价格区间）和前期低点作为参考，可直接在1小时图入场但风险较大。\",\"Step 4: 为降低风险，切换至5分钟图，等待RTH开盘（9点后）寻找更精确的入场点。\",\"Step 5: 在5分钟图上观察激进下跌后的激进回升，标记出该范围的0.62斐波那契水平作为OTE。\",\"Step 6: 在5分钟OTE处入场，止损设置在该范围的低点，目标与1小时图目标保持一致（上方阻力区）。\",\"Step 7: 从5分钟图交易后，可切换至15分钟图观察交易进展，验证目标是否被触及。\"],\"outcome\":\"价格在5分钟OTE入场后上升，最终触及1小时图目标区域（上方阻力），交易成功达成目标。\",\"lessons\":\"多时间框架联动的核心是用高时间框架（1H）确定方向偏差和大级别结构，用低时间框架（5M）精确入场点和风险管理。0.62斐波那契水平在折价区提供高概率OTE，RTH开盘时间窗口增强信号可靠性。\",\"primary_image_frame_id\":\"yq4Z7q4E6nU_f013\",\"supporting_image_frame_ids\":[\"yq4Z7q4E6nU_f012\",\"yq4Z7q4E6nU_f014\",\"yq4Z7q4E6nU_f010\",\"yq4Z7q4E6nU_f015\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Optimal Trade Entry\",\"Premium/Discount\",\"Equilibrium\",\"Market Structure Shift\",\"Balanced Price Range\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了1H和5M多时间框架分析过程，清晰标注了关键价位、OTE计算方法、入场逻辑和目标，交易结果明确。\"}",
+  "error": null
+}

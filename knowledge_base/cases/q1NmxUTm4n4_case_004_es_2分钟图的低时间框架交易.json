@@ -1,0 +1,114 @@
+{
+  "card_id": "q1NmxUTm4n4_case_004_es_2分钟图的低时间框架交易",
+  "type": "case",
+  "title": "ES 2分钟图基于15分钟SMT信号的低时间框架做空交易",
+  "related_concepts": [
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "CSD",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "FVG",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Deviation from Range",
+      "card_id": "deviation_from_range",
+      "exists": true
+    },
+    {
+      "term": "VPR",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "change_in_the_state_of_delivery",
+    "fair_value_gap",
+    "order_block",
+    "deviation_from_range",
+    "low_resistance_liquidity",
+    "market_structure_shift"
+  ],
+  "school": "SMC",
+  "asset": "ES",
+  "timeframe": "2M",
+  "market_context": "基于15分钟ES与NQ的SMT（Smart Money Technique）信号，识别两个指数在高点的分歧。NQ在8:35创出新低，ES随后跟进。博主在2分钟图上寻找低时间框架入场模型。",
+  "key_observation": "15分钟图显示ES与NQ在高点出现SMT分歧（ES创新高，NQ未创新高），预示可能反转。NQ在8:35创出的低点成为ES的目标价位。2分钟图上识别到偏离范围的回测、CSD和Order Block结构。",
+  "analysis_steps": [
+    "Step 1: 在15分钟双指数图上识别SMT信号——ES与NQ在高点形成分歧，ES创新高而NQ未创新高。",
+    "Step 2: 标记NQ在8:35创出的低点（约11976.50）作为ES的潜在目标价位。",
+    "Step 3: 切换到ES 2分钟图，识别价格偏离范围（Deviation from Range）的回测。",
+    "Step 4: 在2分钟图上标记CSD（Change in State of Delivery）和VPR（Vertical Price Range）区域，位于3980-3984之间。",
+    "Step 5: 识别Order Block（OB）结构作为备选入场点。",
+    "Step 6: 设置止损于高点（3988附近），目标指向NQ的低点对应的ES价位。",
+    "Step 7: 等待价格回测CSD/VPR区域的起点，确认入场信号。"
+  ],
+  "outcome": "博主展示了价格从3985向下运动至3975附近，在3975-3985区间内形成整理。根据讲解，理想的入场点在CSD/VPR的起点（约3980.25），止损设在3988，目标指向下方低点。具体成交结果未在转录中明确给出。",
+  "lessons": "使用高时间框架（15分钟）的SMT信号作为汇聚点，在低时间框架（2分钟）上寻找具体的结构性入场模型（CSD、OB、FVG）。跨指数对比（ES vs NQ）可以识别分歧并确认反转信号。止损设在明确的结构高点，目标可参考相关指数的关键价位。",
+  "primary_image": "cards/q1NmxUTm4n4/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/q1NmxUTm4n4/images/case_004_detail_1.jpg",
+    "cards/q1NmxUTm4n4/images/case_004_detail_2.jpg",
+    "cards/q1NmxUTm4n4/images/case_004_detail_3.jpg",
+    "cards/q1NmxUTm4n4/images/case_004_detail_4.jpg",
+    "cards/q1NmxUTm4n4/images/case_004_detail_5.jpg",
+    "cards/q1NmxUTm4n4/images/case_004_detail_6.jpg",
+    "cards/q1NmxUTm4n4/images/case_004_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 E-mini Futures 2分钟图表。图上显示价格范围从3960到3988。两条水平线分别位于3988和3980处。图上标注有两个矩形区域：上方矩形约在3980至3990之间（粉红色背景），下方矩形约在3975至3985之间（浅绿色背景）。K线显示从左侧约3985的位置向下运动至3975附近，随后在3975至3985区间内形成整理。右侧底部可见交易按钮'Sell'、'Buy'和",
+    "case_004_detail_1.jpg": "双面板 15 分钟 K 线图。左侧为 ES（标普 500 E-mini 期货），右侧为 NQ（纳斯达克 100 E-mini 期货）。左侧图表显示价格范围约 3960 至 3996，图上有两条水平矩形框标注，分别位于 3980-3990 区间。右侧图表显示价格范围约 12050 至 12150，同样有一条水平矩形框标注。两个图表均显示混合的绿色和黑色 K 线，表示上升和下降的蜡烛。图上标注有多个价",
+    "case_004_detail_2.jpg": "图上为双面板布局，左侧为 ES（标普 500 E-mini 期货）15 分钟图，右侧为 NQ（纳斯达克 100 E-mini 期货）15 分钟图。两个面板均显示从 21:00 至次日 13:30 的交易数据。ES 面板价格范围约 3960 至 3996，NQ 面板价格范围约 11940 至 12156。两个面板内各有 3 个用蓝色矩形框标记的区域，区域内部及周围标注有多条水平线，对应具体价格数值。",
+    "case_004_detail_3.jpg": "双面板 15 分钟 K 线图。左侧为标普 500 E-mini 期货，价格范围 3955 至 3994；右侧为纳斯达克 100 E-mini 期货，价格范围 11950 至 12105。两个面板均显示绿色和黑色 K 线混合排列。左侧图上有一条向上趋势线标记为 m17 Fg，从约 3962 延伸至 3984，其上方有灰色矩形区域。右侧图上同样有一条向上趋势线标记为 m17 Fg，从约 12000 延",
+    "case_004_detail_4.jpg": "图上为两个并排的 15 分钟 K 线图面板。左侧为 ES（标普 500 E-mini 期货），右侧为 NQ（纳斯达克 100 E-mini 期货）。两个面板均显示从 19:30 至 06:00 时间段的交易数据。ES 面板价格范围约 3960 至 3994，NQ 面板价格范围约 11950 至 12105。两个面板内均有多条蓝色水平线标注关键价格位，ES 面板标注了 3984、3981、3977.",
+    "case_004_detail_5.jpg": "双面板 15 分钟 K 线图。左侧为标普 500 E-mini 期货，右侧为纳斯达克 100 E-mini 期货。两个面板均显示时间范围从 18:00 至次日 15:00 左右。左侧图表价格范围约 3962 至 3992，右侧图表价格范围约 11976.50 至 12050。两个面板各有一个标记为'VAT'的矩形框，分别框定特定价格区间。图上显示多根绿色和黑色 K 线交替出现，表现为区间震荡形态。",
+    "case_004_detail_6.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示价格范围从3958.00至3992.00。右侧价格刻度标注清晰。图中绘有一个矩形框和一条向上倾斜的趋势线，框体和趋势线均位于3982至3991价格区间。图上有两条水平线分别位于3984.50和3982.25。左侧K线显示较大波幅，右侧自09:00起K线多为绿色。多根K线呈现长下影线形态。底部时间轴显示从21:00至12:00的时",
+    "case_004_detail_7.jpg": "S&P 500 E-mini Futures 2分钟图。图上显示从03:00至10:30的价格走势，价格范围约3967至3988。图中有三条水平线分别位于3984、3980.25和3979处。图上标注有一个矩形框，标记为'no FVG'，位于3980至3984价格区间。时间戳标注'Thu 03 Mar '23 06:48'出现在图表中部。K线整体呈现左侧绿色蜡烛为主，中部混合绿黑蜡烛，右侧呈下行走"
+  },
+  "sources": [
+    {
+      "video_id": "q1NmxUTm4n4",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        214.86,
+        511.46
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从15分钟SMT识别到2分钟图具体入场的全过程，资产、时间框架、关键价位、止损和目标都清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:53.911531Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 2分钟图基于15分钟SMT信号的低时间框架做空交易\",\"school\":\"SMC\",\"asset\":\"ES\",\"timeframe\":\"2M\",\"market_context\":\"基于15分钟ES与NQ的SMT（Smart Money Technique）信号，识别两个指数在高点的分歧。NQ在8:35创出新低，ES随后跟进。博主在2分钟图上寻找低时间框架入场模型。\",\"key_observation\":\"15分钟图显示ES与NQ在高点出现SMT分歧（ES创新高，NQ未创新高），预示可能反转。NQ在8:35创出的低点成为ES的目标价位。2分钟图上识别到偏离范围的回测、CSD和Order Block结构。\",\"analysis_steps\":[\"Step 1: 在15分钟双指数图上识别SMT信号——ES与NQ在高点形成分歧，ES创新高而NQ未创新高。\",\"Step 2: 标记NQ在8:35创出的低点（约11976.50）作为ES的潜在目标价位。\",\"Step 3: 切换到ES 2分钟图，识别价格偏离范围（Deviation from Range）的回测。\",\"Step 4: 在2分钟图上标记CSD（Change in State of Delivery）和VPR（Vertical Price Range）区域，位于3980-3984之间。\",\"Step 5: 识别Order Block（OB）结构作为备选入场点。\",\"Step 6: 设置止损于高点（3988附近），目标指向NQ的低点对应的ES价位。\",\"Step 7: 等待价格回测CSD/VPR区域的起点，确认入场信号。\"],\"outcome\":\"博主展示了价格从3985向下运动至3975附近，在3975-3985区间内形成整理。根据讲解，理想的入场点在CSD/VPR的起点（约3980.25），止损设在3988，目标指向下方低点。具体成交结果未在转录中明确给出。\",\"lessons\":\"使用高时间框架（15分钟）的SMT信号作为汇聚点，在低时间框架（2分钟）上寻找具体的结构性入场模型（CSD、OB、FVG）。跨指数对比（ES vs NQ）可以识别分歧并确认反转信号。止损设在明确的结构高点，目标可参考相关指数的关键价位。\",\"primary_image_frame_id\":\"q1NmxUTm4n4_f014\",\"supporting_image_frame_ids\":[\"q1NmxUTm4n4_f008\",\"q1NmxUTm4n4_f009\",\"q1NmxUTm4n4_f001\",\"q1NmxUTm4n4_f010\",\"q1NmxUTm4n4_f011\",\"q1NmxUTm4n4_f012\",\"q1NmxUTm4n4_f013\"],\"related_concepts\":[\"SMT\",\"CSD\",\"FVG\",\"Order Block\",\"Deviation from Range\",\"VPR\",\"Low Resistance Liquidity\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从15分钟SMT识别到2分钟图具体入场的全过程，资产、时间框架、关键价位、止损和目标都清晰可见。\"}",
+  "error": null
+}

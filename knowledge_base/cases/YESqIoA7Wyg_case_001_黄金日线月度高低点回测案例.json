@@ -1,0 +1,99 @@
+{
+  "card_id": "YESqIoA7Wyg_case_001_黄金日线月度高低点回测案例",
+  "type": "case",
+  "title": "黄金日线月度高低点回测与流动性识别",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Previous Month High/Low",
+      "card_id": "previous_month_high_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Week High/Low",
+      "card_id": "previous_week_high_low",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "order_block",
+    "market_structure",
+    "previous_month_high_low",
+    "previous_week_high_low",
+    "consolidation",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "1D",
+  "market_context": "黄金在2023年中期呈现下行趋势，价格从2040附近下跌至1820附近。分析展示价格多次回测前月高低点作为关键流动性吸引区域，用于框架反转和识别交易机会。",
+  "key_observation": "价格在日线上反复回测前月高低点（Previous Month High/Low），这些水平线充当流动性吸引区域，引导价格形成反转或继续运动的框架。",
+  "analysis_steps": [
+    "Step 1: 识别三种K线形态——盘整、单边突破、双边突破，理解价格可能的运动方向。",
+    "Step 2: 标记前月高低点（Previous Month High/Low）作为关键参考水平，延伸至当月图表。",
+    "Step 3: 在日线图上观察价格多次触及前月低点（约1820），每次都形成反转或支撑。",
+    "Step 4: 观察价格回测前月高点（约2040），作为阻力或反转框架。",
+    "Step 5: 在周线图上验证相同概念，前周高低点同样充当流动性吸引区域。",
+    "Step 6: 确认这些多时间框架的高低点可用于预测价格目标和反转点。"
+  ],
+  "outcome": null,
+  "lessons": "前月高低点是重要的流动性水平，价格倾向于向这些区域回测以吸收流动性或形成反转。理解多时间框架（月、周、日）的高低点关系，有助于识别高概率的交易框架和目标价位。",
+  "primary_image": "cards/YESqIoA7Wyg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/YESqIoA7Wyg/images/case_001_detail_1.jpg",
+    "cards/YESqIoA7Wyg/images/case_001_detail_2.jpg",
+    "cards/YESqIoA7Wyg/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "XAUUSD 日线图。图上显示从 2023 年 3 月至 2024 年 1 月的价格走势，价格范围从 2100 跌至 1800。图上标注有 6 条水平线及对应的矩形框，分别位于 2040、1980、1960、1920、1880、1820 价格水平。左侧显示标签 1923.610 和 2123.500，图中标注日期为 16/10/2023。K 线呈现下行趋势，绿色和黑色蜡烛交替出现，整体形成一系列低",
+    "case_001_detail_1.jpg": "XAUUSD 月线图，时间跨度从 2020 年至 2025 年。图上显示绿色和黑色蜡烛线交替排列，价格范围约从 1520000 到 2140000。左侧价格轴标注有两个数值：1934430 和 1736353。图表底部显示时间标签包括年份和月份标记。右下方可见一个黄色十字光标。图上标注有日期'31/10/2023'和'Mon 01 Jun 24'。未见其他指标或形态标注。",
+    "case_001_detail_2.jpg": "图上显示两个月度K线图表面板。每个面板均标注有'Previous Month High'和'Previous Month Low'两条水平线，以及'Weekly Timeframe'文字标签。两个面板展示相似的K线序列，包含灰色、黑色和绿色K线，均具有上下影线。第一个面板最低处有黄色高亮区域。图上未显示具体价格数字或资产代码。",
+    "case_001_detail_3.jpg": "XAUUSD 周线图，时间范围从二月至十一月。图上显示一系列绿色和黑色 K 线，价格范围约从 1850.000 到 2100.000。左侧标注显示两个价格水平：1957.555 和 1905.403。三月和五月各出现一根大幅上升的绿色 K 线，分别达到约 1980.000 和 2060.000。六月至七月期间 K 线在 1940.000 至 1970.000 区间内波动。图上有黄色十字光标标记，以"
+  },
+  "sources": [
+    {
+      "video_id": "YESqIoA7Wyg",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.44,
+        193.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了XAUUSD日线图的月度高低点标注、具体价格水平（1820-2040）、多次回测事件，并在周线验证，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:49.991059Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金日线月度高低点回测与流动性识别\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"1D\",\"market_context\":\"黄金在2023年中期呈现下行趋势，价格从2040附近下跌至1820附近。分析展示价格多次回测前月高低点作为关键流动性吸引区域，用于框架反转和识别交易机会。\",\"key_observation\":\"价格在日线上反复回测前月高低点（Previous Month High/Low），这些水平线充当流动性吸引区域，引导价格形成反转或继续运动的框架。\",\"analysis_steps\":[\"Step 1: 识别三种K线形态——盘整、单边突破、双边突破，理解价格可能的运动方向。\",\"Step 2: 标记前月高低点（Previous Month High/Low）作为关键参考水平，延伸至当月图表。\",\"Step 3: 在日线图上观察价格多次触及前月低点（约1820），每次都形成反转或支撑。\",\"Step 4: 观察价格回测前月高点（约2040），作为阻力或反转框架。\",\"Step 5: 在周线图上验证相同概念，前周高低点同样充当流动性吸引区域。\",\"Step 6: 确认这些多时间框架的高低点可用于预测价格目标和反转点。\"],\"outcome\":null,\"lessons\":\"前月高低点是重要的流动性水平，价格倾向于向这些区域回测以吸收流动性或形成反转。理解多时间框架（月、周、日）的高低点关系，有助于识别高概率的交易框架和目标价位。\",\"primary_image_frame_id\":\"YESqIoA7Wyg_f006\",\"supporting_image_frame_ids\":[\"YESqIoA7Wyg_f002\",\"YESqIoA7Wyg_f005\",\"YESqIoA7Wyg_f007\"],\"related_concepts\":[\"Liquidity\",\"Order Block\",\"Market Structure\",\"Previous Month High/Low\",\"Previous Week High/Low\",\"Consolidation\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了XAUUSD日线图的月度高低点标注、具体价格水平（1820-2040）、多次回测事件，并在周线验证，分析步骤清晰有序。\"}",
+  "error": null
+}

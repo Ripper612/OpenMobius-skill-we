@@ -1,0 +1,96 @@
+{
+  "card_id": "q1NmxUTm4n4_case_002_es与道琼斯的看跌smt案例",
+  "type": "case",
+  "title": "ES与道琼斯看跌SMT：高点分歧反转案例",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Higher High (HH)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower High (LH)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Divergence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Related Assets",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal Signal",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "market_structure_shift_mss"
+  ],
+  "school": "SMC",
+  "asset": "ES / YM",
+  "timeframe": "15M",
+  "market_context": "ES与YM在上升趋势中，ES创出新高但YM未能突破对应高点，形成看跌SMT信号。随后价格下行，验证了SMT作为反转指标的有效性。",
+  "key_observation": "ES在高点处创出HH（更高高点），而YM在同一时期仅创出LH（更低高点），两资产结构出现分歧，形成看跌SMT，预示可能的下行反转。",
+  "analysis_steps": [
+    "Step 1: 观察ES和YM的摆动结构，确认两者在上升趋势中均形成HH-HL的模式。",
+    "Step 2: 识别关键高点：ES创出新高（HH），YM未能突破对应高点，形成LH。",
+    "Step 3: 确认结构分歧：ES的LH低于前一个HL，而YM的LH高于前一个HL，两资产结构不同步。",
+    "Step 4: 标记看跌SMT信号：在高点区域（约3982.50-3992.00）识别出SMT，预示反转可能。",
+    "Step 5: 观察价格后续走势，验证SMT信号的有效性——价格随后下行，确认反转。"
+  ],
+  "outcome": "看跌SMT信号有效。价格在识别SMT后随后下行，从高点3992.00附近下跌至3964.00附近，验证了SMT作为反转指标的预测能力。",
+  "lessons": "当相关资产（如ES与YM）在高点或低点处出现结构分歧时，形成的SMT可作为强有力的反转信号。一个资产突破关键水平而另一个未能突破，表明市场结构失衡，预示价格可能反向运行。",
+  "primary_image": "cards/q1NmxUTm4n4/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/q1NmxUTm4n4/images/case_002_detail_1.jpg",
+    "cards/q1NmxUTm4n4/images/case_002_detail_2.jpg",
+    "cards/q1NmxUTm4n4/images/case_002_detail_3.jpg",
+    "cards/q1NmxUTm4n4/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图上为两个并排的 15 分钟 K 线图表。左侧为 S&P 500 E-mini 期货，右侧为 E-mini 道琼斯期货。两个图表均显示从早晨 05:00 至下午 13:00-14:00 的交易数据。图上标注有两条趋势线：一条从高点向下倾斜，一条从低点向上倾斜。标注文字包括'HH'（高点）、'LL'（低点）和'CL'（圆形标记）。K 线以绿色和黑色交替显示，价格范围左侧约 3904 至 3992，右",
+    "case_002_detail_1.jpg": "图上显示 S&P 500 E-mini 期货 15 分钟线图，分为左右两个面板。左侧标记为 ES，右侧标记为 NQ/YM。两个面板均为线图形式，显示摆动高点（HH）和摆动低点（LL）的标注。左侧面板包含 4 个完整摆动周期，右侧面板包含 5 个完整摆动周期。每个摆动点均用文字标签标记。图上有一条水平虚线穿过两个面板，对应价格 3832.75。两个面板的最后一个摆动低点后各有一条向上的箭头。可见价格",
+    "case_002_detail_2.jpg": "ES 15分钟线图。图上展示两个独立的摆动结构面板，分别标注为'BULLISH SMT'和'BEARISH SMT'。上方面板显示一系列摆动高点（HH）、摆动低点（HL、LL、LH）的标记，价格范围约3840至3868。下方面板同样标注摆动结构，价格范围约3772至3820。两个面板之间有一条黑色水平线分隔。右侧价格刻度显示最高3868.00、最低3772.00。图上标有'ES'和'NQ/YM'文",
+    "case_002_detail_3.jpg": "图上为两个并排的 15 分钟 K 线图面板。左侧为 S&P 500 E-mini Futures（ES），右侧为 E-mini Dow Jones Futures（YM）。左侧 ES 图表显示从 05:00 至 13:00 UTC 的 K 线，价格范围约 3920 至 3992，图上标有两条水平线分别位于 3982.50 和 3957.25。右侧 YM 图表显示从 07:00 至 14:00 UT",
+    "case_002_detail_4.jpg": "双面板 15 分钟 K 线图。左侧为 ES（标普 500 E-mini 期货），右侧为 NQ（纳斯达克 100 E-mini 期货）。左侧图表显示价格范围约 3960 至 3996，图上有两条水平矩形框标注，分别位于 3980-3990 区间。右侧图表显示价格范围约 12050 至 12150，同样有一条水平矩形框标注。两个图表均显示混合的绿色和黑色 K 线，表示上升和下降的蜡烛。图上标注有多个价"
+  },
+  "sources": [
+    {
+      "video_id": "q1NmxUTm4n4",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        0.659,
+        211.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了ES与YM的对比分析，清晰标注了HH/LH结构，明确指出看跌SMT信号，并通过后续价格走势验证了信号有效性。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:51.817139Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES与道琼斯看跌SMT：高点分歧反转案例\",\"school\":\"SMC\",\"asset\":\"ES / YM\",\"timeframe\":\"15M\",\"market_context\":\"ES与YM在上升趋势中，ES创出新高但YM未能突破对应高点，形成看跌SMT信号。随后价格下行，验证了SMT作为反转指标的有效性。\",\"key_observation\":\"ES在高点处创出HH（更高高点），而YM在同一时期仅创出LH（更低高点），两资产结构出现分歧，形成看跌SMT，预示可能的下行反转。\",\"analysis_steps\":[\"Step 1: 观察ES和YM的摆动结构，确认两者在上升趋势中均形成HH-HL的模式。\",\"Step 2: 识别关键高点：ES创出新高（HH），YM未能突破对应高点，形成LH。\",\"Step 3: 确认结构分歧：ES的LH低于前一个HL，而YM的LH高于前一个HL，两资产结构不同步。\",\"Step 4: 标记看跌SMT信号：在高点区域（约3982.50-3992.00）识别出SMT，预示反转可能。\",\"Step 5: 观察价格后续走势，验证SMT信号的有效性——价格随后下行，确认反转。\"],\"outcome\":\"看跌SMT信号有效。价格在识别SMT后随后下行，从高点3992.00附近下跌至3964.00附近，验证了SMT作为反转指标的预测能力。\",\"lessons\":\"当相关资产（如ES与YM）在高点或低点处出现结构分歧时，形成的SMT可作为强有力的反转信号。一个资产突破关键水平而另一个未能突破，表明市场结构失衡，预示价格可能反向运行。\",\"primary_image_frame_id\":\"q1NmxUTm4n4_f004\",\"supporting_image_frame_ids\":[\"q1NmxUTm4n4_f002\",\"q1NmxUTm4n4_f003\",\"q1NmxUTm4n4_f005\",\"q1NmxUTm4n4_f008\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Market Structure Shift (MSS)\",\"Higher High (HH)\",\"Lower High (LH)\",\"Divergence\",\"Related Assets\",\"Reversal Signal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了ES与YM的对比分析，清晰标注了HH/LH结构，明确指出看跌SMT信号，并通过后续价格走势验证了信号有效性。\"}",
+  "error": null
+}

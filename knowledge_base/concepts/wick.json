@@ -1,0 +1,99 @@
+{
+  "card_id": "wick",
+  "type": "merged_concept",
+  "canonical_term": "Wick",
+  "aliases": [
+    "下影线/上影线",
+    "影线"
+  ],
+  "school": "Price Action",
+  "definition": "低时间框架内价格在特定周期内的快速反应形态。价格在一个时间周期内向一个方向快速移动后回调，形成带有长影线的K线。",
+  "identification_rules": [
+    "在低时间框架（如5分钟、1小时）上识别：价格开盘后快速向一个方向移动（形成影线），随后回调至相反方向收盘",
+    "标记Wick的0.5位置（中点）：从K线实体到最低点或最高点的50%水平",
+    "Wick被尊重（Respected）：后续K线开盘、形成极值后，在不穿过0.5位置的情况下向相反方向扩展",
+    "Wick被不尊重（Disrespected）：后续K线穿过Wick的0.5位置，继续向原影线方向运行，最终穿过影线的极值"
+  ],
+  "trading_implication": "Wick是判断低时间框架反转强度的关键工具。若价格尊重Wick的0.5位置，表明反转有效，可预期价格向相反方向扩展；若穿过0.5位置，则反转失效，价格更可能继续原方向运行至影线极值。结合高时间框架结构（如CSD、FVG）使用，可提高交易入场的概率。",
+  "common_mistakes": [
+    "过度依赖Wick的0.5位置作为绝对支撑/阻力，忽视市场结构和高时间框架背景",
+    "在Wick被穿过后仍坚持反转交易，而不是认可反转失效并调整预期方向",
+    "未在低时间框架确认Wick的尊重情况就在高时间框架上进行交易决策",
+    "混淆Wick与其他形态（如FVG、OB），导致错误的支撑/阻力判断"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "LKNQDAdId4s_case_001_btc日线wick被尊重后的小时级扩展",
+      "video_id": "LKNQDAdId4s",
+      "title": "BTC日线wick被尊重后的小时级扩展"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_002_前一日高点被扫后的wick尊重案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "前一日高点被扫后的wick尊重案例"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_004_高点被扫后wick被不尊重的案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "高点被扫后wick被不尊重导致反转失败"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_005_es小时图wick被不尊重后的高点扫除",
+      "video_id": "LKNQDAdId4s",
+      "title": "ES小时图wick被不尊重后的高点扫除"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_006_黄金盘整中的wick被不尊重案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "黄金盘整中wick被不尊重导致扫低案例"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_007_fvg回测后的多层级wick分析",
+      "video_id": "LKNQDAdId4s",
+      "title": "日线wick的0.5位置在多时间框架上的回测与扩展分析"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_008_原油_cl_多时间框架wick分析",
+      "video_id": "LKNQDAdId4s",
+      "title": "原油(CL)多时间框架wick 0.5位置尊重分析"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_002_日线到5分钟的三层级交易案例",
+      "video_id": "iEaMbuFZb24",
+      "title": "日线偏向到小时线结构再到5分钟入场的三层级交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "original_card_id": "LKNQDAdId4s_concept_wick",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        11.08,
+        709.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136661Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

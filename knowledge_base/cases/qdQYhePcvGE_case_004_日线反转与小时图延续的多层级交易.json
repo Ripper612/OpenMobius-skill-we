@@ -1,0 +1,121 @@
+{
+  "card_id": "qdQYhePcvGE_case_004_日线反转与小时图延续的多层级交易",
+  "type": "case",
+  "title": "日线反转与小时图V形反转的多层级延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "V-shaped Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Confirmation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "protected_high_low",
+    "liquidity",
+    "smart_money_technique_smt",
+    "propulsion_block",
+    "v_shaped_reversal",
+    "risk_to_reward_ratio"
+  ],
+  "school": "ICT",
+  "asset": "MES (Micro E-mini S&P 500)",
+  "timeframe": "1H / 1D",
+  "market_context": "日线形成反转K线后，小时图确认V形反转结构。价格在日线前期范围内回测，随后在小时图上形成受保护摆动，为延续交易提供多层级确认。",
+  "key_observation": "日线反转K线与小时图V形反转的叠加确认，以及在延续日内进行低时间框架反转交易的机会。博主展示了如何在高时间框架延续中交易低时间框架反转，以及反向操作的灵活性。",
+  "analysis_steps": [
+    "Step 1: 观察日线形成两根连续反转K线，表明下行延续失败，预期反向上行。",
+    "Step 2: 在小时图上确认V形反转结构，验证日线反转的有效性。",
+    "Step 3: 识别小时图中的受保护摆动低点（Protected Swing Low），作为止损参考。",
+    "Step 4: 等待价格回测并穿过形成低点的一系列下跌K线，确认延续入场信号。",
+    "Step 5: 在小时图延续中识别低时间框架反转机会（反向操作），形成Propulsion Block或Continuation Order Block。",
+    "Step 6: 设置止损在受保护摆动低点，目标为2R风险回报比，同时观察YM1!上的SMT形成。",
+    "Step 7: 展示在高时间框架延续中交易低时间框架反转的灵活策略，根据偏差强度调整激进程度。"
+  ],
+  "outcome": "交易达到2R目标。在小时图延续中的低时间框架反转交易也成功触及RTP（Return To Previous）水平。",
+  "lessons": "多层级时间框架的协调确认提高交易概率。在高时间框架强势偏差下，可在低时间框架更激进地交易反转；偏差较弱时应等待低时间框架延续确认。受保护摆动和流动性完整性是关键入场条件。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_004_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_004_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_004_detail_3.jpg",
+    "cards/qdQYhePcvGE/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD 1小时K线图。图上显示价格范围从22160.00至21240.00。左侧区域有一根绿色K线从21680.00上升至21800.00，随后跟随多根黑色K线形成下降趋势。图上标注有多条水平线，包括22040.00处标记为C2、21760.00、21520.00、21384.00和21280.00处标记为C2。一条向下倾斜的趋势线从高点向下延伸，标注为FIB 0.1。图上有黄色矩形框覆盖2144",
+    "case_004_detail_1.jpg": "日线图表显示从4月下旬至7月初的价格走势。图上有两条水平线分别位于20000和21600处。5月中旬至下旬形成盘整区间，K线在20200至21700之间波动。5月28至29日间有黄色矩形标注区域。6月18日出现向下跳空缺口，从约21600跌至19800，形成一根大黑K线。右侧标注显示当前价格23:00:00为21600.00，并标记有",
+    "case_004_detail_2.jpg": "USD 1小时K线图。图上显示约40根K线，价格范围从21240到21960。图中有4条水平线分别位于21760、21520、21440和21414.25。三个矩形区域分别标注在21440-21520、21560-21680和21440-21560价格区间。一条向下倾斜的趋势线标记为YM1!，从左上方约21520向右下方延伸至约21280。K线呈绿黑相间，多根K线在21280-21440区间显示长",
+    "case_004_detail_3.jpg": "USD图表显示K线从左侧约21560下行至21280附近。图上有两条黄色虚线水平线分别位于21520和21497.25。左侧绘有黄色矩形框覆盖21480至21520区间，右侧绘有绿色矩形框覆盖21420至21660区间，其中绿色框内包含灰色矩形。右侧K线在21380至21520之间呈现绿色和黑色K线交替。图右下角显示时间戳和技术指标标签。",
+    "case_004_detail_4.jpg": "图表显示 USD 资产的 K 线图。左侧价格刻度范围从 21280.00 到 21760.00。图上有两条水平线：21520.00 和 21405.50。图表中标注有多个矩形区域，包括两个米色矩形分别位于 21520-21540 和 21440-21480 价格区间，以及右侧的青绿色矩形和灰色矩形区域。K 线呈现多根蜡烛线形态，具有较长的上下影线。右上角显示'The Market Lens'和'P"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        522.08,
+        701.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线反转、小时图V形反转、入场逻辑、止损设置、目标达成的全过程，关键价位和时间框架清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:42.557093Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线反转与小时图V形反转的多层级延续交易\",\"school\":\"ICT\",\"asset\":\"MES (Micro E-mini S&P 500)\",\"timeframe\":\"1H / 1D\",\"market_context\":\"日线形成反转K线后，小时图确认V形反转结构。价格在日线前期范围内回测，随后在小时图上形成受保护摆动，为延续交易提供多层级确认。\",\"key_observation\":\"日线反转K线与小时图V形反转的叠加确认，以及在延续日内进行低时间框架反转交易的机会。博主展示了如何在高时间框架延续中交易低时间框架反转，以及反向操作的灵活性。\",\"analysis_steps\":[\"Step 1: 观察日线形成两根连续反转K线，表明下行延续失败，预期反向上行。\",\"Step 2: 在小时图上确认V形反转结构，验证日线反转的有效性。\",\"Step 3: 识别小时图中的受保护摆动低点（Protected Swing Low），作为止损参考。\",\"Step 4: 等待价格回测并穿过形成低点的一系列下跌K线，确认延续入场信号。\",\"Step 5: 在小时图延续中识别低时间框架反转机会（反向操作），形成Propulsion Block或Continuation Order Block。\",\"Step 6: 设置止损在受保护摆动低点，目标为2R风险回报比，同时观察YM1!上的SMT形成。\",\"Step 7: 展示在高时间框架延续中交易低时间框架反转的灵活策略，根据偏差强度调整激进程度。\"],\"outcome\":\"交易达到2R目标。在小时图延续中的低时间框架反转交易也成功触及RTP（Return To Previous）水平。\",\"lessons\":\"多层级时间框架的协调确认提高交易概率。在高时间框架强势偏差下，可在低时间框架更激进地交易反转；偏差较弱时应等待低时间框架延续确认。受保护摆动和流动性完整性是关键入场条件。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f021\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f020\",\"qdQYhePcvGE_f022\",\"qdQYhePcvGE_f023\",\"qdQYhePcvGE_f024\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Market Structure Shift\",\"Protected Swing\",\"Liquidity\",\"SMT\",\"Propulsion Block\",\"V-shaped Reversal\",\"Risk-to-Reward Ratio\",\"Multi-timeframe Confirmation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线反转、小时图V形反转、入场逻辑、止损设置、目标达成的全过程，关键价位和时间框架清晰可读。\"}",
+  "error": null
+}

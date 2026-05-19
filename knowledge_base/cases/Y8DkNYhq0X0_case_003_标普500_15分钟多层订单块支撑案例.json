@@ -1,0 +1,99 @@
+{
+  "card_id": "Y8DkNYhq0X0_case_003_标普500_15分钟多层订单块支撑案例",
+  "type": "case",
+  "title": "标普500 15分钟多层订单块支撑案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "premium_discount_premium_",
+    "market_structure_shift",
+    "liquidity",
+    "displacement",
+    "fair_value_gap",
+    "breaker_block"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "15M",
+  "market_context": "标普500在上升趋势中经历结构破坏后反弹，价格沿着PD数组向高时框目标运行，多次在不同的订单块区域获得支撑。",
+  "key_observation": "博主展示了价格在上升趋势中如何依次回测多个订单块（由下跌K线形成），每次都获得支撑并继续上升，体现了PD数组中多层支撑的有效性。",
+  "analysis_steps": [
+    "Step 1: 识别高时框流动性扫荡——价格扫除买方流动性（摆动低点）后破坏结构向下。",
+    "Step 2: 标记结构破坏点——找到价格突破前一个摆动高点的K线开口位置作为第一个订单块。",
+    "Step 3: 识别下跌中的订单块——在下跌过程中标记多根下跌收盘的K线，这些将成为未来支撑。",
+    "Step 4: 观察价格反弹回测——价格反弹后依次回测这些订单块，每次都在该区域获得支撑。",
+    "Step 5: 验证小身体K线订单块——标记小身体K线形成的订单块，价格同样在此获得支撑。",
+    "Step 6: 追踪PD数组向上运行——价格沿着一系列订单块向高时框目标上升，每个订单块充当支撑。"
+  ],
+  "outcome": null,
+  "lessons": "在上升趋势中，下跌过程中形成的多根下跌K线会成为价格反弹后的支撑区域。通过识别这些订单块并按顺序追踪，可以预期价格沿PD数组逐层获得支撑，继续向高时框目标运行。小身体K线同样有效。",
+  "primary_image": "cards/Y8DkNYhq0X0/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/Y8DkNYhq0X0/images/case_003_detail_1.jpg",
+    "cards/Y8DkNYhq0X0/images/case_003_detail_2.jpg",
+    "cards/Y8DkNYhq0X0/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示从左侧约4025价位向下运行至约3975的下跌走势，随后出现上升走势回升至4020附近。图右侧有一条粉色矩形框标注，框体范围约在4002.50至4020.00之间。两条虚线水平线分别位于4020.00和4002.50处。可见K线包含多根绿色和黑色蜡烛，其中约11:00时刻有一根较大的绿色K线向上突破。图下方显示成交量指标。",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示从左侧约4025.00开始的下跌走势，由一系列黑色K线组成，低点逐步下移至约2962.50。随后从10:00时段开始出现上升走势，由绿色K线组成，高点逐步上升。图右侧显示当前价格为4013.25，以绿色高亮标记。图上有一条水平虚线位于约4045.25处。可见价格范围从2962.50至4617.50。",
+    "case_003_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从05:00至12:30的价格走势，价格范围约3997.00至4024.50。图中绘有三条水平线分别位于4012.00、4007.50和4004.50处。在这些水平线之间形成两个矩形标注区域。K线序列显示从05:00至07:00的上升趋势，随后在07:00附近形成高点，之后出现下降走势至08:00，最低触及约3997.00，随后恢",
+    "case_003_detail_3.jpg": "S&P 500 E-mini 期货 5 分钟 K 线图。图上显示从 05:10 至 13:00 的价格走势，价格范围约 4000.00 至 4024.50。图中有两条水平线分别位于 4012.00 和 4008.00，两线之间用矩形框标注。K 线序列显示上升趋势至 07:30 形成高点，随后出现长上影线的黑色 K 线，之后价格下跌至 08:15 附近的 4000.00 低点，随后反弹。右侧价格标尺"
+  },
+  "sources": [
+    {
+      "video_id": "Y8DkNYhq0X0",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        216.36,
+        400.62
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了15分钟图表上多层订单块的识别、回测和支撑过程，关键价位清晰，分析步骤按顺序展开。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:40.538535Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500 15分钟多层订单块支撑案例\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"15M\",\"market_context\":\"标普500在上升趋势中经历结构破坏后反弹，价格沿着PD数组向高时框目标运行，多次在不同的订单块区域获得支撑。\",\"key_observation\":\"博主展示了价格在上升趋势中如何依次回测多个订单块（由下跌K线形成），每次都获得支撑并继续上升，体现了PD数组中多层支撑的有效性。\",\"analysis_steps\":[\"Step 1: 识别高时框流动性扫荡——价格扫除买方流动性（摆动低点）后破坏结构向下。\",\"Step 2: 标记结构破坏点——找到价格突破前一个摆动高点的K线开口位置作为第一个订单块。\",\"Step 3: 识别下跌中的订单块——在下跌过程中标记多根下跌收盘的K线，这些将成为未来支撑。\",\"Step 4: 观察价格反弹回测——价格反弹后依次回测这些订单块，每次都在该区域获得支撑。\",\"Step 5: 验证小身体K线订单块——标记小身体K线形成的订单块，价格同样在此获得支撑。\",\"Step 6: 追踪PD数组向上运行——价格沿着一系列订单块向高时框目标上升，每个订单块充当支撑。\"],\"outcome\":null,\"lessons\":\"在上升趋势中，下跌过程中形成的多根下跌K线会成为价格反弹后的支撑区域。通过识别这些订单块并按顺序追踪，可以预期价格沿PD数组逐层获得支撑，继续向高时框目标运行。小身体K线同样有效。\",\"primary_image_frame_id\":\"Y8DkNYhq0X0_f011\",\"supporting_image_frame_ids\":[\"Y8DkNYhq0X0_f010\",\"Y8DkNYhq0X0_f013\",\"Y8DkNYhq0X0_f014\"],\"related_concepts\":[\"Order Block\",\"PD array\",\"Market Structure Shift\",\"Liquidity\",\"Displacement\",\"Fair Value Gap\",\"Breaker Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了15分钟图表上多层订单块的识别、回测和支撑过程，关键价位清晰，分析步骤按顺序展开。\"}",
+  "error": null
+}

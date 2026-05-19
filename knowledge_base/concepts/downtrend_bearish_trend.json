@@ -1,0 +1,58 @@
+{
+  "card_id": "downtrend_bearish_trend",
+  "type": "merged_concept",
+  "canonical_term": "Downtrend / Bearish Trend",
+  "aliases": [
+    "Lower highs and lower lows",
+    "下降趋势"
+  ],
+  "school": "Price Action",
+  "definition": "价格连续形成更低的高点和更低的低点的趋势方向。通过摆动高点和摆动低点相对下降来定义，是做空交易的基础结构。",
+  "identification_rules": [
+    "识别一个摆动低点（Swing Low），然后确认相对该低点形成的高点是更低的高点（Lower High）",
+    "在更低的高点之后，价格跌破前一个摆动低点，形成更低的低点（Lower Low）",
+    "继续观察：在更低的低点之后，新形成的高点仍低于前一个高点，确认下降趋势延续",
+    "关键：必须有位移（Displacement）或收盘突破来确认结构转变，而非仅凭单根K线"
+  ],
+  "trading_implication": "下降趋势是做空的基础结构。交易者应寻找在下降趋势中形成的更低高点作为做空入场点，并以前一个摆动低点作为止损参考。需注意高时间框架趋势：低时间框架的下降趋势可能仅是高时间框架上升趋势中的回撤，贸然做空可能被扫损。应优先确认高时间框架趋势方向后再在低时间框架寻找交易机会。",
+  "common_mistakes": [
+    "在低时间框架识别到下降趋势后立即做空，但忽视高时间框架仍处于上升趋势，导致被扫损",
+    "仅凭一个更低的高点和更低的低点就认为趋势已转变为下降，未等待充分确认（如位移或收盘突破）",
+    "混淆市场结构转变（MSS）与趋势延续：需要明确区分是真正的趋势反转还是仅在高时间框架上升趋势中的短期回撤"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "sgAnVR6RSDg",
+      "original_card_id": "sgAnVR6RSDg_concept_downtrend_bearish_trend",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        10.48,
+        758.36
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132379Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

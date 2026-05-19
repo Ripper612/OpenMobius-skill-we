@@ -1,0 +1,73 @@
+{
+  "card_id": "fibonacci_projection",
+  "type": "merged_concept",
+  "canonical_term": "Fibonacci Projection",
+  "aliases": [
+    "Fib Projection",
+    "斐波那契投影"
+  ],
+  "school": "ICT",
+  "definition": "基于操纵腿（从低点到高点或高点到低点）的机械价格目标投影方法。使用斐波那契工具标记1、0、1、-2、-2.5、-4、-4.5等级别，从操纵腿的起点锚定到终点，生成后续价格运动的目标位。",
+  "identification_rules": [
+    "识别Change in State of Delivery（CSD）或反转点，确定candle 2的位置",
+    "在看涨场景中，找到创造该低点的高点；在看跌场景中，找到创造该高点的低点",
+    "使用Fibonacci工具，将起点锚定在操纵腿的低点（或高点），终点设在高点（或低点）",
+    "配置Fibonacci级别为1、0、1、-2、-2.5、-4、-4.5（可根据需要添加其他级别）",
+    "读取生成的水平线作为价格目标"
+  ],
+  "trading_implication": "Fibonacci Projection提供机械化的价格目标，用于预测价格在反转后的运动范围。对于正常大小的操纵腿，通常关注-2到-2.5级别；对于大型操纵腿，则使用-1级别。这些投影与现有流动性目标（如摆动高/低点）结合使用，形成交易汇聚点，提高入场和目标设置的精确性。特别适用于小时图分析日内范围。",
+  "common_mistakes": [
+    "未正确识别操纵腿的起点和终点，导致投影偏离实际价格运动",
+    "对所有操纵腿大小使用相同的目标级别（-2/-2.5），忽视大型操纵腿应使用-1级别的调整",
+    "将投影作为独立目标使用，而非与流动性目标进行汇聚确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "upHS7SDL9kg_case_001_btc_4小时图周线级别投影案例",
+      "video_id": "upHS7SDL9kg",
+      "title": "BTC 4小时图周线级别投影案例"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_002_黄金1小时图投影目标验证",
+      "video_id": "upHS7SDL9kg",
+      "title": "黄金1小时图斐波那契投影目标验证"
+    },
+    {
+      "card_id": "wwMjc9RfpCg_case_002_标普500期货四小时fvg到两分钟图案例",
+      "video_id": "wwMjc9RfpCg",
+      "title": "标普500期货四小时FVG到两分钟图操纵腿与标准差目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "original_card_id": "upHS7SDL9kg_concept_fibonacci_projection",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.36,
+        133.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132991Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,97 @@
+{
+  "card_id": "MsuEQQl7L6s_case_008_usd_15分钟图无效candle_closure案例",
+  "type": "case",
+  "title": "USD 15分钟盘整扫低后无效Candle Closure案例",
+  "related_concepts": [
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Points of Interest",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_two_closure",
+    "candle_three_closure",
+    "consolidation",
+    "order_block",
+    "protected_high_low",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "15m",
+  "market_context": "价格在盘整区间内运行，向下扫出低点后出现反弹，但未能形成有效的Candle Two或Three Closure信号，说明交易信号无效。",
+  "key_observation": "博主强调在盘整中扫低后虽然可以预期价格走高，但模型未对齐，因为缺少Candle Two或Three Closure的确认，不应随意交易无效信号。",
+  "analysis_steps": [
+    "Step 1: 识别盘整区间（consolidation）的形成，价格在特定范围内反复波动。",
+    "Step 2: 观察价格向下扫出盘整低点，确认扫低行为完成。",
+    "Step 3: 检查是否形成Candle Two Closure——结果为否，不满足条件。",
+    "Step 4: 进一步检查是否形成Candle Three Closure——结果为否，同样不满足条件。",
+    "Step 5: 由于缺少有效的Candle Two/Three Closure，确认不应进场交易。",
+    "Step 6: 识别替代方案：等待新的保护摆动（protective swing）形成，以及利用Points of Interest作为参考。",
+    "Step 7: 说明正确的交易方法是结合Candle Two/Three Closure、Points of Interest和市场背景，而非随意选择摆动点或模式交易。"
+  ],
+  "outcome": null,
+  "lessons": "Candle Two和Three Closure是确认交易信号有效性的关键工具。即使价格走势符合预期方向，如果缺少这些确认信号，也不应进场。应等待完整的模型对齐，结合多个条件（Closure、Points of Interest、市场结构）才能提高交易概率。",
+  "primary_image": "cards/MsuEQQl7L6s/images/case_008_primary.jpg",
+  "supporting_images": [
+    "cards/MsuEQQl7L6s/images/case_008_detail_1.jpg",
+    "cards/MsuEQQl7L6s/images/case_008_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_008_primary.jpg": "USD 15分钟K线图。图上显示价格范围从22420到22680。图中标注有多条水平虚线，分别位于22577.45、22560、22530和22420处。图上有4个矩形标注框，分别标记为C2（约22560-22600区间）、C3（约22460-22520区间）、XC4（约22480-22520区间）和一个未标记的矩形框（约22490-22530区间）。K线呈现绿色和黑色交替的蜡烛体，多数K线具有向",
+    "case_008_detail_1.jpg": "图表显示 USD 资产的 K 线图，价格范围从 22460.00 到 22760.00。左侧显示绘图工具菜单，包含 c3、dotted、line、mss、ob、red、SMT (high)、SMT (low) 等选项。图上有两个矩形区域标注，分别位于约 22500-22550 和 22650-22700 价格区间，其中一个为浅绿色、一个为浅黄色。两条水平虚线分别位于 22650 和 22500 处",
+    "case_008_detail_2.jpg": "NQ1 15分钟K线图。图上显示从01:00至01:00的价格走势，价格范围从22460.00至22760.00。图上有4条水平虚线标注，以及2个矩形区域：下方矩形约在22510-22560区间，上方矩形约在22620-22680区间。右下角显示文字标签'NQ1(15m)'、'15m-4H Mismatch'、'B3:00:00'、'Bias:Neutral'。图上可见多根绿色和黑色K线，绿色K线"
+  },
+  "sources": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "segment_ids": [
+        "seg_014"
+      ],
+      "time_range": [
+        566.0,
+        626.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整清晰，资产、时间框架、关键价位、分析步骤和结论都明确表述，图表标注详细。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:55.681230Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 15分钟盘整扫低后无效Candle Closure案例\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"15m\",\"market_context\":\"价格在盘整区间内运行，向下扫出低点后出现反弹，但未能形成有效的Candle Two或Three Closure信号，说明交易信号无效。\",\"key_observation\":\"博主强调在盘整中扫低后虽然可以预期价格走高，但模型未对齐，因为缺少Candle Two或Three Closure的确认，不应随意交易无效信号。\",\"analysis_steps\":[\"Step 1: 识别盘整区间（consolidation）的形成，价格在特定范围内反复波动。\",\"Step 2: 观察价格向下扫出盘整低点，确认扫低行为完成。\",\"Step 3: 检查是否形成Candle Two Closure——结果为否，不满足条件。\",\"Step 4: 进一步检查是否形成Candle Three Closure——结果为否，同样不满足条件。\",\"Step 5: 由于缺少有效的Candle Two/Three Closure，确认不应进场交易。\",\"Step 6: 识别替代方案：等待新的保护摆动（protective swing）形成，以及利用Points of Interest作为参考。\",\"Step 7: 说明正确的交易方法是结合Candle Two/Three Closure、Points of Interest和市场背景，而非随意选择摆动点或模式交易。\"],\"outcome\":null,\"lessons\":\"Candle Two和Three Closure是确认交易信号有效性的关键工具。即使价格走势符合预期方向，如果缺少这些确认信号，也不应进场。应等待完整的模型对齐，结合多个条件（Closure、Points of Interest、市场结构）才能提高交易概率。\",\"primary_image_frame_id\":\"MsuEQQl7L6s_f018\",\"supporting_image_frame_ids\":[\"MsuEQQl7L6s_f019\",\"MsuEQQl7L6s_f020\"],\"related_concepts\":[\"Candle Two Closure\",\"Candle Three Closure\",\"Consolidation\",\"Order Block\",\"Protected Swing\",\"Points of Interest\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整清晰，资产、时间框架、关键价位、分析步骤和结论都明确表述，图表标注详细。\"}",
+  "error": null
+}

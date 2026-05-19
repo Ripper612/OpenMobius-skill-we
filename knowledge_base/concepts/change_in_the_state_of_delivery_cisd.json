@@ -1,0 +1,54 @@
+{
+  "card_id": "change_in_the_state_of_delivery_cisd",
+  "type": "merged_concept",
+  "canonical_term": "Change in the State of Delivery (CISD)",
+  "aliases": [
+    "Bullish CISD",
+    "CISD"
+  ],
+  "school": "ICT",
+  "definition": "价格在高时间框架内突破特定K线结构（如扫过前一根K线的高点或低点后回到内部），预示短期趋势可能反转的结构性转变。",
+  "identification_rules": [
+    "观察高时间框架K线（如1小时）的收盘价相对于前一根K线的位置变化",
+    "识别价格是否扫过前一根K线的极值（高点或低点）后回到该K线内部",
+    "确认该结构转变发生在特定的K线序列中（与C2、C3、C4等分形模型配合使用）",
+    "看涨CISD表现为价格突破下方结构后反向上行；看跌CISD表现为价格突破上方结构后反向下行"
+  ],
+  "trading_implication": "CISD是市场结构转变的信号，预示短期趋势反转。交易者可在CISD形成后寻找低时间框架的入场机会，结合订单块、公允价值缺口等工具确认交易设置。看涨和看跌CISD可用不同颜色区分，便于快速识别趋势方向。",
+  "common_mistakes": [
+    "未区分看涨CISD和看跌CISD的方向性含义，导致交易方向错误",
+    "在低时间框架上寻找CISD而非高时间框架，降低信号有效性",
+    "忽视时间框架过滤器设置，导致在不适用的时间窗口内识别虚假信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_bullish_change_in_state_of_delivery",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        546.399,
+        725.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131661Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

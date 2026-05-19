@@ -1,0 +1,112 @@
+{
+  "card_id": "uDJI2AbyyCs_case_003_黄金日线智能货币反转与旧fvg支撑案例",
+  "type": "case",
+  "title": "黄金日线智能货币反转与旧FVG支撑案例",
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "CSD (Change in State of Delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "MSS (Market Structure Shift)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Reaccumulation",
+      "card_id": "reaccumulation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "inversion",
+    "reaccumulation"
+  ],
+  "school": "SMC",
+  "asset": "XAUUSD",
+  "timeframe": "1D",
+  "market_context": "黄金在日线上形成等高点结构，随后出现智能货币反转信号（CSD、MSS、反演），价格从卖方曲线转移至买方曲线，寻求旧看跌FVG作为支撑以继续上升。",
+  "key_observation": "博主识别出黄金日线上的等高点、看跌FVG反演、短期低点确认，以及旧看跌FVG从卖方曲线转移到买方曲线作为支撑的完整智能货币反转设置。",
+  "analysis_steps": [
+    "Step 1: 在黄金日线上标记等高点（Equal Highs）作为关键结构参考点。",
+    "Step 2: 确认收盘价突破等高点并收盘在这些下跌蜡烛上方，满足智能货币反转的第一个条件。",
+    "Step 3: 识别短期低点（Short-term Low）的形成，进一步确认反转信号。",
+    "Step 4: 在卖方曲线上定位旧看跌FVG（Old Bearish FVG）。",
+    "Step 5: 观察价格收盘突破该旧FVG后，将其转换为买方曲线上的支撑位。",
+    "Step 6: 确认价格回测该旧FVG支撑并继续上升，验证反转设置的有效性。"
+  ],
+  "outcome": "价格成功突破旧看跌FVG支撑区域，并继续向上运行，扫除买方流动性（Buyside Liquidity），验证了智能货币反转设置的有效性。",
+  "lessons": "旧的公允价值缺口可以通过市场结构转变从卖方曲线转移到买方曲线，成为新的支撑区域。在智能货币反转中，结合等高点、CSD、短期低点确认与旧FVG支撑的多重信号，能够提高交易设置的可靠性。",
+  "primary_image": "cards/uDJI2AbyyCs/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/uDJI2AbyyCs/images/case_003_detail_1.jpg",
+    "cards/uDJI2AbyyCs/images/case_003_detail_2.jpg",
+    "cards/uDJI2AbyyCs/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "XAUUSD 日线图。图上显示从 6 月下旬至 7 月中旬的 K 线走势，价格范围约 1888 至 2000。图上有两条水平线分别位于 1969.332 和 1944.000。标注有两个黄色矩形区域：上方区域约在 1944 至 1948 之间，标记为'Buyside Liquidity'；下方区域约在 1920 至 1944 之间。K 线由绿色和黑色蜡烛组成，显示多个上下波动。右下角显示当前价格标",
+    "case_003_detail_1.jpg": "XAUUSD 日线图。图上显示从 2000.000 至 1876.000 的价格范围，约 20 根 K 线形成下行走势。图中有两条水平线：1916.000 处标记为'Buyside Liquidity'，1906.043 处无标签。图右侧中部有一个黄色矩形框，覆盖约 1914 至 1920 的价格区间。K 线由黑色和绿色混合组成。图上标注'29/6/2023'和'XAUUSD | D'。",
+    "case_003_detail_2.jpg": "XAUUSD 日线图。图上标注有一条水平线位于 1932.365。两个黄色矩形框分别标记在图表上：上方矩形框标注为'Buyside Liquidity'，位置约在 1940 至 1944 区间；下方矩形框无标签，位置约在 1916 至 1920 区间。K 线图显示从 5 月末至 9 月初的价格走势，整体价格范围从 1876.000 至 2000.000，由绿色和黑色 K 线组成。图右下角显示日期标",
+    "case_003_detail_3.jpg": "图上显示一组未标注具体价格刻度的 K 线序列，标题为'Old SIBI / BISI'。K 线采用绿色（上升）和黑色（下降）配色。左侧起始处为绿色 K 线后跟黑色 K 线，均带上影线。中段包含一系列黑色 K 线，主体逐渐缩小。下方区域混合黑绿 K 线。右侧呈上升趋势，主要为绿色 K 线，其中穿插一根黑色 K 线，最右端为绿色 K 线带上影线。图上未显示价格轴、时间轴或其他指标。"
+  },
+  "sources": [
+    {
+      "video_id": "uDJI2AbyyCs",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        471.24,
+        616.64
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主在XAUUSD日线上完整展示了智能货币反转的全过程，包括具体价位、结构标记、FVG转移机制，分析步骤清晰有序，图表标注明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:54.507141Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金日线智能货币反转与旧FVG支撑案例\",\"school\":\"SMC\",\"asset\":\"XAUUSD\",\"timeframe\":\"1D\",\"market_context\":\"黄金在日线上形成等高点结构，随后出现智能货币反转信号（CSD、MSS、反演），价格从卖方曲线转移至买方曲线，寻求旧看跌FVG作为支撑以继续上升。\",\"key_observation\":\"博主识别出黄金日线上的等高点、看跌FVG反演、短期低点确认，以及旧看跌FVG从卖方曲线转移到买方曲线作为支撑的完整智能货币反转设置。\",\"analysis_steps\":[\"Step 1: 在黄金日线上标记等高点（Equal Highs）作为关键结构参考点。\",\"Step 2: 确认收盘价突破等高点并收盘在这些下跌蜡烛上方，满足智能货币反转的第一个条件。\",\"Step 3: 识别短期低点（Short-term Low）的形成，进一步确认反转信号。\",\"Step 4: 在卖方曲线上定位旧看跌FVG（Old Bearish FVG）。\",\"Step 5: 观察价格收盘突破该旧FVG后，将其转换为买方曲线上的支撑位。\",\"Step 6: 确认价格回测该旧FVG支撑并继续上升，验证反转设置的有效性。\"],\"outcome\":\"价格成功突破旧看跌FVG支撑区域，并继续向上运行，扫除买方流动性（Buyside Liquidity），验证了智能货币反转设置的有效性。\",\"lessons\":\"旧的公允价值缺口可以通过市场结构转变从卖方曲线转移到买方曲线，成为新的支撑区域。在智能货币反转中，结合等高点、CSD、短期低点确认与旧FVG支撑的多重信号，能够提高交易设置的可靠性。\",\"primary_image_frame_id\":\"uDJI2AbyyCs_f021\",\"supporting_image_frame_ids\":[\"uDJI2AbyyCs_f019\",\"uDJI2AbyyCs_f020\",\"uDJI2AbyyCs_f018\"],\"related_concepts\":[\"SMT (Smart Money Technique)\",\"FVG (Fair Value Gap)\",\"CSD (Change in State of Delivery)\",\"MSS (Market Structure Shift)\",\"Order Block\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Equal Highs\",\"Inversion\",\"Reaccumulation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主在XAUUSD日线上完整展示了智能货币反转的全过程，包括具体价位、结构标记、FVG转移机制，分析步骤清晰有序，图表标注明确。\"}",
+  "error": null
+}

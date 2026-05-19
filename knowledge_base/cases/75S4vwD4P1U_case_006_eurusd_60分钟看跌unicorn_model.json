@@ -1,0 +1,101 @@
+{
+  "card_id": "75S4vwD4P1U_case_006_eurusd_60分钟看跌unicorn_model",
+  "type": "case",
+  "title": "EURUSD 60分钟看跌Unicorn Model交易设置",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Previous Day Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Unicorn Model",
+      "card_id": "unicorn_model",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "breaker_block",
+    "market_structure_shift",
+    "liquidity",
+    "unicorn_model",
+    "swing_formation"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1H",
+  "market_context": "EURUSD 60分钟图显示前一日低点已形成，价格在该区域创造等值低点。随后出现摆动高点被扫除，形成看跌结构。",
+  "key_observation": "博主识别出前一日低点（Previous Day Low）未被突破，价格回撤至该区域时形成交易机会。同时观察到摆动高点被扫除后的下跌蜡烛形成Breaker Block，与FVG重叠，构成完整的看跌Unicorn Model。",
+  "analysis_steps": [
+    "Step 1: 在60分钟图上识别前一日低点（PDL）位置，确认价格未能突破该关键水平。",
+    "Step 2: 观察摆动结构，确认出现高低高低的序列（High-Low-Higher High-Lower Low）。",
+    "Step 3: 标记摆动高点被扫除后形成的下跌蜡烛序列，识别为Breaker Block。",
+    "Step 4: 发现Breaker Block与FVG（Fair Value Gap）重叠，形成高概率入场区域。",
+    "Step 5: 设置空头入场点在Breaker Block高点，止损设在该高点上方。",
+    "Step 6: 设定目标为等值低点（Equal Lows），即前一日低点水平。",
+    "Step 7: 执行交易，价格按预期下行并触及止盈目标。"
+  ],
+  "outcome": "交易成功执行，价格从入场点下行至等值低点（前一日低点），止盈被触及。",
+  "lessons": "Unicorn Model结合Breaker Block与FVG的重叠形成高概率看跌设置。前一日低点作为关键参考水平，未被突破时回撤入场具有较高成功率。无需下探更低时间框架即可在60分钟直接交易。",
+  "primary_image": "cards/75S4vwD4P1U/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/75S4vwD4P1U/images/case_006_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "EURUSD 60 分钟 K 线图，可见价格范围约从 1.07750 到 1.08950。图上有两条水平虚线，分别位于约 1.08398 和 1.08072。图右侧当前价标签显示 1.08072。图中部偏右有一组 K 线集群，上方覆盖浅黄色矩形框，右侧延伸出浅灰色矩形区域，价格范围约在 1.08250 至 1.08350 之间。图下方约 1.08020 处有文字标注\"Sellside Liquid",
+    "case_006_detail_1.jpg": "EURUSD 60 分钟 K 线图，图上水印文字为 TTrades_edu，日期标注为 5/12/2023。价格刻度范围约从 1.07750 至 1.08900。图左侧 K 线自约 1.08900 向下延伸至约 1.08000，中右部分出现一段 K 线在约 1.08100 至 1.08500 区间内横向排列，随后图右侧出现一根较长的阴线，从约 1.08450 向下延伸至约 1.08000 附近。图"
+  },
+  "sources": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        639.519,
+        807.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对EURUSD 60分钟案例的分析步骤完整清晰，关键价位、结构识别、入场逻辑和交易结果均有明确说明。图表标注清楚显示Breaker Block、FVG和前一日低点位置。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:16.415919Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 60分钟看跌Unicorn Model交易设置\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1H\",\"market_context\":\"EURUSD 60分钟图显示前一日低点已形成，价格在该区域创造等值低点。随后出现摆动高点被扫除，形成看跌结构。\",\"key_observation\":\"博主识别出前一日低点（Previous Day Low）未被突破，价格回撤至该区域时形成交易机会。同时观察到摆动高点被扫除后的下跌蜡烛形成Breaker Block，与FVG重叠，构成完整的看跌Unicorn Model。\",\"analysis_steps\":[\"Step 1: 在60分钟图上识别前一日低点（PDL）位置，确认价格未能突破该关键水平。\",\"Step 2: 观察摆动结构，确认出现高低高低的序列（High-Low-Higher High-Lower Low）。\",\"Step 3: 标记摆动高点被扫除后形成的下跌蜡烛序列，识别为Breaker Block。\",\"Step 4: 发现Breaker Block与FVG（Fair Value Gap）重叠，形成高概率入场区域。\",\"Step 5: 设置空头入场点在Breaker Block高点，止损设在该高点上方。\",\"Step 6: 设定目标为等值低点（Equal Lows），即前一日低点水平。\",\"Step 7: 执行交易，价格按预期下行并触及止盈目标。\"],\"outcome\":\"交易成功执行，价格从入场点下行至等值低点（前一日低点），止盈被触及。\",\"lessons\":\"Unicorn Model结合Breaker Block与FVG的重叠形成高概率看跌设置。前一日低点作为关键参考水平，未被突破时回撤入场具有较高成功率。无需下探更低时间框架即可在60分钟直接交易。\",\"primary_image_frame_id\":\"75S4vwD4P1U_f024\",\"supporting_image_frame_ids\":[\"75S4vwD4P1U_f023\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Breaker Block\",\"Market Structure Shift\",\"Liquidity\",\"Previous Day Low\",\"Unicorn Model\",\"Swing High\",\"Swing Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对EURUSD 60分钟案例的分析步骤完整清晰，关键价位、结构识别、入场逻辑和交易结果均有明确说明。图表标注清楚显示Breaker Block、FVG和前一日低点位置。\"}",
+  "error": null
+}

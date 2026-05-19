@@ -1,0 +1,108 @@
+{
+  "card_id": "b6yvRKf8haE_case_003_震荡盘整日的枢轴反弹",
+  "type": "case",
+  "title": "震荡盘整日的枢轴反弹——午夜开盘与8:30开盘的失败信号分析",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Failed Close",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Pivot Point",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "mitigation_block",
+    "inducement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5M",
+  "market_context": "一个不够干净的交易日，价格在午夜开盘（Midnight Open）附近反复震荡，形成大幅跳空下跌后的盘整，期间多次在午夜开盘和8:30开盘位置反复测试。",
+  "key_observation": "博主指出，虽然这一天的走势不够干净，但通过观察价格在午夜开盘和8:30开盘位置的失败收盘信号（Failed Close），可以判断后续方向。关键是识别价格无法突破这些枢轴点时的含义。",
+  "analysis_steps": [
+    "Step 1: 识别午夜开盘（Midnight Open）和8:30开盘（8:30 Open）作为主要枢轴点，观察价格围绕这两个水平的反复震荡。",
+    "Step 2: 观察价格向上突破8:30开盘后的激进下跌位移（Aggressive Displacement Down），跌破午夜开盘。",
+    "Step 3: 识别价格无法收盘在8:30开盘上方的失败信号，预示更多下跌。",
+    "Step 4: 标记午夜开盘下方的公允价值缺口（Fair Value Gap），以及随后形成的订单块/减伤块（Mitigation Block）。",
+    "Step 5: 观察多次反复测试午夜开盘的过程，每次失败收盘都预示进一步下跌。",
+    "Step 6: 在激进卖压后，使用8:30开盘和午夜开盘作为目标位，追踪价格反弹时的阻力。",
+    "Step 7: 识别经典买盘日（Classic Buy Day）的特征：在午夜开盘和8:30开盘下方的操纵（Manipulation），随后反弹至高点。"
+  ],
+  "outcome": null,
+  "lessons": "在不够干净的交易日中，午夜开盘和8:30开盘可作为关键枢轴点。失败收盘信号（无法突破或收盘失败）是判断后续方向的重要提示。激进位移后的反弹可使用这些枢轴点作为目标。多次反复测试同一水平的失败预示趋势延续。",
+  "primary_image": "cards/b6yvRKf8haE/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/b6yvRKf8haE/images/case_003_detail_1.jpg",
+    "cards/b6yvRKf8haE/images/case_003_detail_2.jpg",
+    "cards/b6yvRKf8haE/images/case_003_detail_3.jpg",
+    "cards/b6yvRKf8haE/images/case_003_detail_4.jpg",
+    "cards/b6yvRKf8haE/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从左至右的完整价格走势，高点约4032.75，低点约3878.00。图中有两条水平线分别位于4008.50和4012.30处。两个矩形标注分别标记为'2:00'和'8:30'，对应图上的特定时间区域。K线呈现先跌后涨的整体形态，中间部分有明显的下跌段，右侧显示价格回升。右侧价格标尺显示当前价格约3982附近。图上未见其他指标或复杂",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从左侧高点4632.00向下运行至右侧低点约3968.00的下跌走势。中间区域标注两条水平线，分别位于4088.00（标记8:28）和4065.00（标记8:34），两线之间形成矩形框。右侧K线显示从低点反弹至3990.00附近。图表底部时间戳显示Mon 20 Jan '25 12:25。右侧价格刻度显示当前价格在3990.00附",
+    "case_003_detail_2.jpg": "S 期货 5 分钟 K 线图。图上显示从左至右的价格走势，从约 4027 下跌至约 3869，随后反弹至 3923。图上有三条水平线分别位于 4019.75、4004.00 和 3999.75。右侧价格刻度显示当前价格为 3923.75。图中标注有两个时间标签'8:48'和'8:35'。K 线由绿色（上升）和红色（下降）蜡烛组成，整体可见价格范围约从 3869.75 至 4027.75。",
+    "case_003_detail_3.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上可见价格范围从约3860到4025.75。图表左侧显示上升后下跌的走势，中间部分有多个用圆圈标记的区域，右侧显示从低点反弹的走势。图上有三条水平线分别位于约4012.75、4025.25和3945.25处。底部时间轴显示时间戳包括8:22、8:34和Nov 28 Nov 29 - 22:24:25。右侧价格刻度显示当前价格标记在402",
+    "case_003_detail_4.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从左侧约4000下跌至3940附近，随后在中右部分出现回升。可见价格范围约从3940到4024.50。图上有两条水平线位于3973.00至3973.25区间，分别标注时间标签6:00和8:30。K线由绿色和红色蜡烛组成，显示近期内混合方向的价格波动。右侧价格刻度显示多个价格水平标记。",
+    "case_003_detail_5.jpg": "ES 5分钟K线图。图上显示价格范围从3943.00至3998.00。图中有两条水平线分别位于3974.00和3968.00，两条线之间用矩形框标注。时间标签显示6:04和8:34。约09:00时区域出现一根大幅下跌的红色K线，带有较长下影线。之后K线在3968至3974区间内形成多根整理K线。右侧价格轴显示当前价格约3972.00。图上未见其他指标或标注。"
+  },
+  "sources": [
+    {
+      "video_id": "b6yvRKf8haE",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        188.599,
+        369.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整，清晰展示了午夜开盘和8:30开盘的枢轴作用、失败信号的识别、FVG和订单块的标记，以及多次反复测试的含义。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:22.320294Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"震荡盘整日的枢轴反弹——午夜开盘与8:30开盘的失败信号分析\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5M\",\"market_context\":\"一个不够干净的交易日，价格在午夜开盘（Midnight Open）附近反复震荡，形成大幅跳空下跌后的盘整，期间多次在午夜开盘和8:30开盘位置反复测试。\",\"key_observation\":\"博主指出，虽然这一天的走势不够干净，但通过观察价格在午夜开盘和8:30开盘位置的失败收盘信号（Failed Close），可以判断后续方向。关键是识别价格无法突破这些枢轴点时的含义。\",\"analysis_steps\":[\"Step 1: 识别午夜开盘（Midnight Open）和8:30开盘（8:30 Open）作为主要枢轴点，观察价格围绕这两个水平的反复震荡。\",\"Step 2: 观察价格向上突破8:30开盘后的激进下跌位移（Aggressive Displacement Down），跌破午夜开盘。\",\"Step 3: 识别价格无法收盘在8:30开盘上方的失败信号，预示更多下跌。\",\"Step 4: 标记午夜开盘下方的公允价值缺口（Fair Value Gap），以及随后形成的订单块/减伤块（Mitigation Block）。\",\"Step 5: 观察多次反复测试午夜开盘的过程，每次失败收盘都预示进一步下跌。\",\"Step 6: 在激进卖压后，使用8:30开盘和午夜开盘作为目标位，追踪价格反弹时的阻力。\",\"Step 7: 识别经典买盘日（Classic Buy Day）的特征：在午夜开盘和8:30开盘下方的操纵（Manipulation），随后反弹至高点。\"],\"outcome\":null,\"lessons\":\"在不够干净的交易日中，午夜开盘和8:30开盘可作为关键枢轴点。失败收盘信号（无法突破或收盘失败）是判断后续方向的重要提示。激进位移后的反弹可使用这些枢轴点作为目标。多次反复测试同一水平的失败预示趋势延续。\",\"primary_image_frame_id\":\"b6yvRKf8haE_f008\",\"supporting_image_frame_ids\":[\"b6yvRKf8haE_f001\",\"b6yvRKf8haE_f009\",\"b6yvRKf8haE_f010\",\"b6yvRKf8haE_f011\",\"b6yvRKf8haE_f012\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Mitigation Block\",\"Failed Close\",\"Pivot Point\",\"Manipulation\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整，清晰展示了午夜开盘和8:30开盘的枢轴作用、失败信号的识别、FVG和订单块的标记，以及多次反复测试的含义。\"}",
+  "error": null
+}

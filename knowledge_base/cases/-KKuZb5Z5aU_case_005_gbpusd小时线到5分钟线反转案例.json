@@ -1,0 +1,97 @@
+{
+  "card_id": "-KKuZb5Z5aU_case_005_gbpusd小时线到5分钟线反转案例",
+  "type": "case",
+  "title": "GBPUSD小时线11点反转到5分钟线CSD下行交易",
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Fractal concept",
+      "card_id": "fractal_model",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Previous candle high",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal pattern",
+      "card_id": "reversal_pattern",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery_csd",
+    "order_block",
+    "smart_money_technique_smt",
+    "fractal_model",
+    "market_structure_shift",
+    "reversal_pattern"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1H / 5m",
+  "market_context": "GBPUSD在11:00时形成小时线反转形态，博主展示如何将反转概念从日线级别应用到小时线和5分钟线，通过前一根K线高点作为参考点进行交易。",
+  "key_observation": "小时线11点高点形成反转后，5分钟线以前一根K线高点作为参考，形成交付状态改变（CSD）后下行，展示分形概念在多时间框架中的应用。",
+  "analysis_steps": [
+    "Step 1: 在小时线上识别11:00时形成的反转形态，使用该时间点的高点作为参考水平线。",
+    "Step 2: 下钻到5分钟时间框架，标记出前一根K线的高点作为反转参考。",
+    "Step 3: 等待5分钟线上该高点形成小wick（小上影线），确认反转意图。",
+    "Step 4: 等待交付状态改变（CSD）的确认——即收盘价跌破前一根K线高点，而不仅仅依赖单根K线的形态。",
+    "Step 5: CSD确认后，价格向下运行，同时观察到EUR/USD和其他货币对在该高点的SMT分歧（EUR创新高但GBP未创新高）。",
+    "Step 6: 价格继续下行至目标低点，完成反转交易的执行。"
+  ],
+  "outcome": "价格在CSD确认后向下运行至目标低点，交易成功执行。博主指出虽然过程中存在一些杂乱波动（counter trend），但整体方向符合预期。",
+  "lessons": "分形概念可应用于多个时间框架（小时线到5分钟线），但不建议低于4小时线框架。关键是等待CSD确认而非仅依赖K线形态；SMT分歧可作为额外确认信号。",
+  "primary_image": "cards/-KKuZb5Z5aU/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/-KKuZb5Z5aU/images/case_005_detail_1.jpg",
+    "cards/-KKuZb5Z5aU/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "GBPUSD 5 分钟 K 线图，可见价格范围约从 1.33920 至 1.34440。图上有三条虚线水平线，分别位于约 1.34260、1.34100 和 1.34060。图上约 11:00 时间区域附近绘有一个矩形框，覆盖约 1.34340 至 1.34380 区间，并标注文字",
+    "case_005_detail_1.jpg": "图为 GBPUSD 1 小时 K 线图，来自 TTrades.com 平台。可见价格范围约从 1.33050 至 1.34500。图上有一条实线水平线位于约 1.33800，以及一条虚线水平线位于约 1.33420，两条线均横跨图表大部分区域。图中央偏左有一个黄色矩形框，覆盖约 1.33450 至 1.33650 的价格区间，横跨数根 K 线。图右侧可见两根大型黑色阴线，随后出现一根大型绿色阳线。",
+    "case_005_detail_2.jpg": "GBPUSD 5 分钟 K 线图，可见价格范围约 1.33920 至 1.34420。图上约 11:00 附近有一个带标签的矩形框，标注文字为"
+  },
+  "sources": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "segment_ids": [
+        "seg_016",
+        "seg_017"
+      ],
+      "time_range": [
+        671.44,
+        758.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从小时线到5分钟线的分析过程，清晰标注了关键价位（11:00高点约1.3434-1.3438），明确说明了CSD确认的重要性，并给出了交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:04:29.033433Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD小时线11点反转到5分钟线CSD下行交易\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1H / 5m\",\"market_context\":\"GBPUSD在11:00时形成小时线反转形态，博主展示如何将反转概念从日线级别应用到小时线和5分钟线，通过前一根K线高点作为参考点进行交易。\",\"key_observation\":\"小时线11点高点形成反转后，5分钟线以前一根K线高点作为参考，形成交付状态改变（CSD）后下行，展示分形概念在多时间框架中的应用。\",\"analysis_steps\":[\"Step 1: 在小时线上识别11:00时形成的反转形态，使用该时间点的高点作为参考水平线。\",\"Step 2: 下钻到5分钟时间框架，标记出前一根K线的高点作为反转参考。\",\"Step 3: 等待5分钟线上该高点形成小wick（小上影线），确认反转意图。\",\"Step 4: 等待交付状态改变（CSD）的确认——即收盘价跌破前一根K线高点，而不仅仅依赖单根K线的形态。\",\"Step 5: CSD确认后，价格向下运行，同时观察到EUR/USD和其他货币对在该高点的SMT分歧（EUR创新高但GBP未创新高）。\",\"Step 6: 价格继续下行至目标低点，完成反转交易的执行。\"],\"outcome\":\"价格在CSD确认后向下运行至目标低点，交易成功执行。博主指出虽然过程中存在一些杂乱波动（counter trend），但整体方向符合预期。\",\"lessons\":\"分形概念可应用于多个时间框架（小时线到5分钟线），但不建议低于4小时线框架。关键是等待CSD确认而非仅依赖K线形态；SMT分歧可作为额外确认信号。\",\"primary_image_frame_id\":\"-KKuZb5Z5aU_f025\",\"supporting_image_frame_ids\":[\"-KKuZb5Z5aU_f024\",\"-KKuZb5Z5aU_f026\"],\"related_concepts\":[\"Change in the state of delivery (CSD)\",\"Order Block\",\"Smart Money Technique (SMT)\",\"Fractal concept\",\"Market Structure Shift\",\"Previous candle high\",\"Reversal pattern\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从小时线到5分钟线的分析过程，清晰标注了关键价位（11:00高点约1.3434-1.3438），明确说明了CSD确认的重要性，并给出了交易结果。\"}",
+  "error": null
+}

@@ -1,0 +1,98 @@
+{
+  "card_id": "confluence",
+  "type": "merged_concept",
+  "canonical_term": "Confluence",
+  "aliases": [
+    "confluences",
+    "matching levels",
+    "overlapping projections"
+  ],
+  "school": "ICT",
+  "definition": "多个技术分析工具或投影在同一价格区域重合的现象，如一个投影的-4标准差与另一投影的-2到-2.5重叠，增强交易信号的可靠性。",
+  "identification_rules": [
+    "识别两个或多个独立的标准差投影（来自不同的操纵腿）",
+    "观察这些投影的特定水平（如-2、-2.5、-4）是否在同一价格区域相交",
+    "检查PD数组元素（如FVG、订单块、等高点、流动性）是否与标准差投影重合",
+    "当多个层级的投影或PD数组在同一区域堆叠时，该区域即为Confluence"
+  ],
+  "trading_implication": "Confluence区域代表高概率的目标价位或反转/回撤区域。当标准差投影与PD数组（如卖方流动性、订单块、等高点）重合时，该区域成为\"低垂果实\"（low hanging fruit），提高了交易的可靠性。交易者可利用多个投影的重合来确认目标，并在Confluence区域寻找入场或止损机会。",
+  "common_mistakes": [
+    "仅依赖单一投影而忽视其他PD数组的确认，导致信号不够强有力",
+    "混淆不同时间框架的投影，未能正确识别跨时间框架的Confluence",
+    "过度解读轻微的价格接近，需要明确的重合而非近似对齐"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "27S9gjgcSlI_case_001_es与nq伦敦高点smt反转案例",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ伦敦高点SMT反转案例"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_002_es与nq_11_00低点的多时间框架smt",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ 11:00低点的多时间框架SMT确认反转"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_003_第三个案例_多重投影的汇聚与目标确认",
+      "video_id": "kTWXpAo1uE8",
+      "title": "多重投影汇聚：-4与-2.5标准差重合确认目标"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_003_fvg内的smt应用",
+      "video_id": "q1NmxUTm4n4",
+      "title": "S&P 500与纳斯达克100在FVG内的SMT应用"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_001_btc_4小时图周线级别投影案例",
+      "video_id": "upHS7SDL9kg",
+      "title": "BTC 4小时图周线级别投影案例"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_003_spx_15分钟下跌反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "SPX 15分钟下跌反转：Turtle Soup到Breaker Block的完整形态"
+    },
+    {
+      "card_id": "wwMjc9RfpCg_case_001_标普500期货小时图操纵腿案例",
+      "video_id": "wwMjc9RfpCg",
+      "title": "标普500期货1小时图操纵腿与标准差目标确认"
+    },
+    {
+      "card_id": "wwMjc9RfpCg_case_002_标普500期货四小时fvg到两分钟图案例",
+      "video_id": "wwMjc9RfpCg",
+      "title": "标普500期货四小时FVG到两分钟图操纵腿与标准差目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_confluence",
+      "segment_ids": [
+        "seg_001",
+        "seg_004",
+        "seg_006"
+      ],
+      "time_range": [
+        10.559,
+        607.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131740Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

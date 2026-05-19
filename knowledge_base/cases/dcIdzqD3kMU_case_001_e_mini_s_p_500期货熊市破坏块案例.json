@@ -1,0 +1,113 @@
+{
+  "card_id": "dcIdzqD3kMU_case_001_e_mini_s_p_500期货熊市破坏块案例",
+  "type": "case",
+  "title": "E-MINI S&P 500期货熊市破坏块识别与均值阈值反应",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Support/Resistance Conversion",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher High / Lower Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Candle Body Analysis",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "market_structure_shift",
+    "fair_value_gap",
+    "mean_threshold"
+  ],
+  "school": "ICT",
+  "asset": "ES (E-MINI S&P 500 FUTURES)",
+  "timeframe": "15M",
+  "market_context": "E-MINI S&P 500期货3月合约在15分钟图表中形成高-低-更高高-更低低的结构，价格范围4171.00-4196.00，随后出现明显的下跌走势。",
+  "key_observation": "博主识别出熊市破坏块由下跌收盘烛体组成，这些烛体位于初始高点和低点之间，在价格突破该结构后，先前的支撑转变为阻力，价格在均值阈值（0.5位置）处受到尊重的反应。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表中标记初始的HIGH和LOW摆动点（约4189.00和4184.00）。",
+    "Step 2: 确认价格形成更高高点（HH，约4193.00）和更低低点（LL，约4181.00），满足熊市破坏块的结构要求。",
+    "Step 3: 识别HIGH和LOW之间的下跌收盘烛体（黑色K线）为破坏块，用青色矩形框标记该区域。",
+    "Step 4: 分析破坏块的烛体特征，确定使用完整烛体主体和收盘价作为关键水平。",
+    "Step 5: 计算破坏块的均值阈值（0.5位置），标记为黄色加号，预期价格在此处受到阻力。",
+    "Step 6: 在5分钟图表中放大观察，验证价格在均值阈值处的反应和尊重程度。",
+    "Step 7: 标记小的FVG（不平衡）区域，作为破坏块分析的补充参考。",
+    "Step 8: 在30分钟图表中验证HH和LL的有效性，确认破坏块在更高时间框架上的一致性。"
+  ],
+  "outcome": null,
+  "lessons": "熊市破坏块由先前支撑区域的下跌烛体组成，当价格突破该结构后，这些烛体转变为阻力。关键是关注破坏块的均值阈值（0.5位置），价格通常在此处受到尊重并产生反应。使用完整烛体主体而非单个烛体能更准确地识别破坏块，因为它代表更高时间框架的单根烛体。",
+  "primary_image": "cards/dcIdzqD3kMU/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/dcIdzqD3kMU/images/case_001_detail_1.jpg",
+    "cards/dcIdzqD3kMU/images/case_001_detail_2.jpg",
+    "cards/dcIdzqD3kMU/images/case_001_detail_3.jpg",
+    "cards/dcIdzqD3kMU/images/case_001_detail_4.jpg",
+    "cards/dcIdzqD3kMU/images/case_001_detail_5.jpg",
+    "cards/dcIdzqD3kMU/images/case_001_detail_6.jpg",
+    "cards/dcIdzqD3kMU/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "E-MINI S&P 500 期货 3 月合约 15 分钟线图。图上绘制有标注的摆动点：HIGH 标记在约 4189.00、LOW 标记在约 4184.00、HH 标记在约 4193.00、LL 标记在约 4181.00。一条青色矩形框覆盖 LOW 至 HIGH 之间的价格区域。一条虚线从 HH 向上延伸。图上还有一个黄色加号标记在 LL 附近。价格范围从 4171.00 至 4196.00。",
+    "case_001_detail_1.jpg": "E-MINI S&P 500 期货 3 月合约 15 分钟线图。图上绘制一条连续线条，标注四个摆动点：HIGH、LOW（黄色高亮）、HH 和 LL。可见价格范围从 4171.00 至 4196.00。右侧显示当前价 4187.00。图上未见 K 线、蜡烛图或指标。",
+    "case_001_detail_2.jpg": "E-MINI S&P 500 期货 3 月合约 15 分钟线图。图上绘制一条线图，显示价格范围从 4170.00 至 4189.00。标注包括：水平线 HIGH 在 4181.50、水平线 LOW 在 4178.00；文字标签 HH 标记摆动高点约 4185.50、LL 标记摆动低点约 4174.00。青色矩形框覆盖 4178.00 至 4181.50 区间，内部有黄色高亮标记及加号符号。图上绘有",
+    "case_001_detail_3.jpg": "E-MINI S&P 500 FUTURES 5分钟K线图。图上显示4根K线，时间跨度从约12:00至18:15。第一根K线呈浅蓝色填充，带长上影线；第二根K线为黑色实体，上下均有影线；第三、四根K线为绿色实体，均带上下影线。右侧价格刻度显示范围约4183.50至4191.50。图上有一个矩形框标注，覆盖约4186.50至4188.75的价格区间。",
+    "case_001_detail_4.jpg": "E-MINI S&P 500 FUTURES 5分钟K线图，时间范围从11:30至18:30。图上显示4根K线，价格范围从4183.25至4191.50。前两根K线为黑色实体配浅蓝色填充，后两根K线为绿色实体。图上有两条水平线：一条位于4188.75，另一条位于4186.25。右侧价格刻度显示详细的价格水平标注。图表底部显示时间戳'Thu 16 Feb 23 15:00'及'19:01:09 (U",
+    "case_001_detail_5.jpg": "E-MINI S&P 500 期货 3 月合约 15 分钟图。图上显示从 02:00 至 05:15 的 K 线序列。左侧为一系列绿色 K 线，主体逐渐扩大，随后在 04:00 附近出现黑色 K 线伴随上影线。图中央有一个黄色圆形标记，内含加号符号，位置约在 4160-4165 价格区间。右侧显示当前价格标签 4158.75。可见价格范围从 4145.00 至 4184.00。图下方显示时间戳'T",
+    "case_001_detail_6.jpg": "E-MINI S&P 500 期货 3 月合约 15 分钟图。图上标注三个文字标签：HH 位于约 4170.50、HIGH 位于约 4162.00、LOW 位于约 4159.50。可见价格范围从 4145.00 到 4184.00。K 线序列显示从 01:00 至 04:00 的绿色蜡烛上升，随后 04:00 出现黑色蜡烛，之后 04:00 至 07:00 间形成多根带上下影线的蜡烛，在 4159",
+    "case_001_detail_7.jpg": "E-MINI S&P 500 期货 3 月合约 30 分钟图。图上标注有两个文字标签：HH 和 LL，分别对应 4168.50 和 4162.75 价位。可见价格范围约从 4154.00 到 4179.00。图表中央显示一个对话框，标题为"
+  },
+  "sources": [
+    {
+      "video_id": "dcIdzqD3kMU",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        7.56,
+        270.86
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了熊市破坏块的结构定义、识别方法、烛体选择标准和均值阈值应用，多个时间框架验证，关键价位清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:11.584417Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"E-MINI S&P 500期货熊市破坏块识别与均值阈值反应\",\"school\":\"ICT\",\"asset\":\"ES (E-MINI S&P 500 FUTURES)\",\"timeframe\":\"15M\",\"market_context\":\"E-MINI S&P 500期货3月合约在15分钟图表中形成高-低-更高高-更低低的结构，价格范围4171.00-4196.00，随后出现明显的下跌走势。\",\"key_observation\":\"博主识别出熊市破坏块由下跌收盘烛体组成，这些烛体位于初始高点和低点之间，在价格突破该结构后，先前的支撑转变为阻力，价格在均值阈值（0.5位置）处受到尊重的反应。\",\"analysis_steps\":[\"Step 1: 在15分钟图表中标记初始的HIGH和LOW摆动点（约4189.00和4184.00）。\",\"Step 2: 确认价格形成更高高点（HH，约4193.00）和更低低点（LL，约4181.00），满足熊市破坏块的结构要求。\",\"Step 3: 识别HIGH和LOW之间的下跌收盘烛体（黑色K线）为破坏块，用青色矩形框标记该区域。\",\"Step 4: 分析破坏块的烛体特征，确定使用完整烛体主体和收盘价作为关键水平。\",\"Step 5: 计算破坏块的均值阈值（0.5位置），标记为黄色加号，预期价格在此处受到阻力。\",\"Step 6: 在5分钟图表中放大观察，验证价格在均值阈值处的反应和尊重程度。\",\"Step 7: 标记小的FVG（不平衡）区域，作为破坏块分析的补充参考。\",\"Step 8: 在30分钟图表中验证HH和LL的有效性，确认破坏块在更高时间框架上的一致性。\"],\"outcome\":null,\"lessons\":\"熊市破坏块由先前支撑区域的下跌烛体组成，当价格突破该结构后，这些烛体转变为阻力。关键是关注破坏块的均值阈值（0.5位置），价格通常在此处受到尊重并产生反应。使用完整烛体主体而非单个烛体能更准确地识别破坏块，因为它代表更高时间框架的单根烛体。\",\"primary_image_frame_id\":\"dcIdzqD3kMU_f003\",\"supporting_image_frame_ids\":[\"dcIdzqD3kMU_f002\",\"dcIdzqD3kMU_f004\",\"dcIdzqD3kMU_f005\",\"dcIdzqD3kMU_f006\",\"dcIdzqD3kMU_f007\",\"dcIdzqD3kMU_f008\",\"dcIdzqD3kMU_f009\"],\"related_concepts\":[\"Breaker Block\",\"Order Block\",\"Market Structure Shift\",\"Fair Value Gap\",\"Mean Threshold\",\"Support/Resistance Conversion\",\"Higher High / Lower Low\",\"Candle Body Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了熊市破坏块的结构定义、识别方法、烛体选择标准和均值阈值应用，多个时间框架验证，关键价位清晰可读。\"}",
+  "error": null
+}

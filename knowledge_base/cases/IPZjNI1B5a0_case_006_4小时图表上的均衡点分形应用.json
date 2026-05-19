@@ -1,0 +1,109 @@
+{
+  "card_id": "IPZjNI1B5a0_case_006_4小时图表上的均衡点分形应用",
+  "type": "case",
+  "title": "4小时图表上的均衡点分形应用与Propulsion Block确认",
+  "related_concepts": [
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fractal concept",
+      "card_id": "fractal_model",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "equilibrium_eq",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "propulsion_block",
+    "displacement",
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "fractal_model"
+  ],
+  "school": "ICT",
+  "asset": "ETH",
+  "timeframe": "4H",
+  "market_context": "ETH在4小时图表上经历看跌扩张（3根扩张蜡烛向下），随后在均衡点（0.5位置）处触发看涨反转，通过Propulsion Block确认延续上升趋势。",
+  "key_observation": "博主展示了均衡点（EQ）概念在4小时图表上的分形应用：价格在看跌扩张后，在0.5位置获得支撑，随后形成Propulsion Block，确认新的看涨阶段启动。",
+  "analysis_steps": [
+    "Step 1: 识别4小时图表上的看跌扩张，观察连续3根向下的扩张蜡烛",
+    "Step 2: 在扩张低点后的反弹蜡烛上应用均衡点概念，标记0.5位置作为关键支撑水平",
+    "Step 3: 确认价格在0.5位置获得支撑，收盘高于该水平，表明反转信号",
+    "Step 4: 识别先前的订单块（Order Block）和公允价值缺口（FVG）作为潜在阻力",
+    "Step 5: 观察价格突破先前高点，确认Propulsion Block形成（在原订单块基础上的新小订单块）",
+    "Step 6: 验证3根扩张蜡烛的出现，预示新的价格交付阶段（看涨延续）",
+    "Step 7: 在Propulsion Block的0.5位置寻找最优入场点（T-spot），确认趋势延续"
+  ],
+  "outcome": null,
+  "lessons": "均衡点（EQ）是分形概念，可应用于任何时间框架。在看跌扩张后，0.5位置的支撑确认反转；Propulsion Block的形成和0.5的再次尊重，预示强势延续。3根扩张蜡烛后应警惕新的交付阶段（整固、回撤或反转）。",
+  "primary_image": "cards/IPZjNI1B5a0/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/IPZjNI1B5a0/images/case_006_detail_1.jpg",
+    "cards/IPZjNI1B5a0/images/case_006_detail_2.jpg",
+    "cards/IPZjNI1B5a0/images/case_006_detail_3.jpg",
+    "cards/IPZjNI1B5a0/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图表为 ETH 4 小时 K 线图，可见价格范围约从 21500 至 23300。图上绘制有两个矩形框标注：一个较小的矩形框位于约 21900 至 22200 区间，另一个较大的矩形框覆盖约 21850 至 22760 区间。图右侧有一条虚线垂直线，最新 K 线附近有黄色光标标记位于约 22760 处。图上还有两条水平线分别位于约 22760 和 21900 附近。左侧可见一根大阴线从约 2280",
+    "case_006_detail_1.jpg": "图表为4小时K线图，右侧价格刻度范围约从21400至22240。图左侧可见一根大阴线，主体跨度约500点；其后出现一根大阳线，主体从约21400延伸至21700。图中部有一根带长下影线的K线，下影线延伸至约21420。图右侧可见连续数根阳线，价格从约21500逐步上行至约22100区域，最右侧K线带有上影线。图中有一条贯穿画面的水平虚线，对应约21700价位。底部工具栏显示时间框架为4h，时间轴标",
+    "case_006_detail_2.jpg": "图表为4小时K线图，资产代码不可读。可见价格范围约从21300至23200。图上有一条贯穿全图的虚线水平线，位于约21567处，右侧带有价格标签。图中约第8根K线处出现一根大阴线，主体从约22100延伸至21500，随后紧接一根大阳线，主体从约21400延伸至21900，下影线延伸至约21300。图上绘有一个矩形框，覆盖约21600至21900区间，横跨约两根K线。矩形右侧有一条短水平线段位于约2",
+    "case_006_detail_3.jpg": "图表为4小时K线图，右侧价格轴可见范围约从21440至22320。图左侧出现一根大阴线，主体跨度约从22100至21500，随后出现一根大阳线。此后约5至6根K线在21780至21980区间内形成横盘，图上有一个矩形框标注该区间。矩形右侧有一条短水平线延伸至约21880处。图右侧价格标签显示当前价约为21862。图上未见文字标签或其他术语标注，亦无指标面板。",
+    "case_006_detail_4.jpg": "图表为4小时K线图，资产代码不可读。图右侧价格刻度范围约从21500至22320。图左侧当前价格标签显示约21889.75，对应一条贯穿全图的水平虚线。图中绘有两个矩形框，纵向范围约覆盖21680至21960区间，横向跨越图中多根K线。图左侧可见一根大实体黑色K线，主体从约22100延伸至21500。图中段分布多根交替出现的绿色与黑色K线，集中于21700至22000区间。图右侧近期K线主体集中于"
+  },
+  "sources": [
+    {
+      "video_id": "IPZjNI1B5a0",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        907.12,
+        1156.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了4小时图表上的均衡点应用全过程，包括扩张识别、0.5支撑确认、Propulsion Block形成和入场点确认，资产、时间框架、关键价位和分析步骤均清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:37.840069Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"4小时图表上的均衡点分形应用与Propulsion Block确认\",\"school\":\"ICT\",\"asset\":\"ETH\",\"timeframe\":\"4H\",\"market_context\":\"ETH在4小时图表上经历看跌扩张（3根扩张蜡烛向下），随后在均衡点（0.5位置）处触发看涨反转，通过Propulsion Block确认延续上升趋势。\",\"key_observation\":\"博主展示了均衡点（EQ）概念在4小时图表上的分形应用：价格在看跌扩张后，在0.5位置获得支撑，随后形成Propulsion Block，确认新的看涨阶段启动。\",\"analysis_steps\":[\"Step 1: 识别4小时图表上的看跌扩张，观察连续3根向下的扩张蜡烛\",\"Step 2: 在扩张低点后的反弹蜡烛上应用均衡点概念，标记0.5位置作为关键支撑水平\",\"Step 3: 确认价格在0.5位置获得支撑，收盘高于该水平，表明反转信号\",\"Step 4: 识别先前的订单块（Order Block）和公允价值缺口（FVG）作为潜在阻力\",\"Step 5: 观察价格突破先前高点，确认Propulsion Block形成（在原订单块基础上的新小订单块）\",\"Step 6: 验证3根扩张蜡烛的出现，预示新的价格交付阶段（看涨延续）\",\"Step 7: 在Propulsion Block的0.5位置寻找最优入场点（T-spot），确认趋势延续\"],\"outcome\":null,\"lessons\":\"均衡点（EQ）是分形概念，可应用于任何时间框架。在看跌扩张后，0.5位置的支撑确认反转；Propulsion Block的形成和0.5的再次尊重，预示强势延续。3根扩张蜡烛后应警惕新的交付阶段（整固、回撤或反转）。\",\"primary_image_frame_id\":\"IPZjNI1B5a0_f037\",\"supporting_image_frame_ids\":[\"IPZjNI1B5a0_f034\",\"IPZjNI1B5a0_f035\",\"IPZjNI1B5a0_f036\",\"IPZjNI1B5a0_f038\",\"IPZjNI1B5a0_f039\"],\"related_concepts\":[\"Equilibrium (EQ)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Propulsion Block\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Change in the state of delivery (CSD)\",\"Fractal concept\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了4小时图表上的均衡点应用全过程，包括扩张识别、0.5支撑确认、Propulsion Block形成和入场点确认，资产、时间框架、关键价位和分析步骤均清晰。\"}",
+  "error": null
+}

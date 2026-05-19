@@ -1,0 +1,212 @@
+{
+  "card_id": "htf_ltf_higher_time_frame_lower_time_frame",
+  "type": "merged_concept",
+  "canonical_term": "HTF / LTF (Higher Time Frame / Lower Time Frame)",
+  "aliases": [
+    "High Time Frame",
+    "High Time Frame / Low Time Frame",
+    "Low Time Frame",
+    "周期",
+    "多时间框架分析",
+    "时间框架",
+    "时间框架分层",
+    "时间框架级联",
+    "高时间框架 / 低时间框架"
+  ],
+  "school": "General",
+  "definition": "交易分析中使用的不同周期图表体系。高时间框架（日线、4小时、1小时）用于确定主要趋势方向、市场结构和关键价格区域（FVG、OB、摆动高低点）；低时间框架（15分钟、5分钟、1分钟）在高时间框架偏向基础上寻找精确入场点。低时间框架的结构转变常是高时间框架的回撤而非真正反转。",
+  "identification_rules": [
+    "高时间框架通常指较长周期（日线、4小时、1小时），用于确认主要市场结构、趋势方向和每日收盘偏向（daily bias）",
+    "低时间框架通常指较短周期（15分钟、5分钟、1分钟），用于在高时间框架偏向内寻找具体交易设置和精确入场点",
+    "先在高时间框架识别关键结构（FVG、OB、摆动高低点）和交易偏向，再切换至低时间框架（通常下降1-2个周期）寻找入场信号",
+    "低时间框架的入场信号（Displacement、OTE、MSS、K线形态）必须与高时间框架的方向或目标保持一致",
+    "高时间框架的FVG或OB常成为低时间框架反转或回测的目标区域",
+    "低时间框架出现结构转变（MSS）时，需对照高时间框架确认是否为真正反转或仅为回撤",
+    "可使用分形概念（fractal concept）：将高时间框架替换为小时线，低时间框架替换为5分钟线，原理相同"
+  ],
+  "trading_implication": "采用自上而下（top-down）多时间框架分析：先在高时间框架确定偏向和目标区域（关键水平、反转预期），再在低时间框架等待价格行为确认（扩张-回撤-扩张阶段、Displacement、OTE等）后入场。高时间框架提供战略方向，低时间框架提供战术入场点，两者结合可优化风险回报比，避免逆势交易，并在高时间框架偏向出错时通过低时间框架结构信号快速调整。",
+  "common_mistakes": [
+    "在没有高时间框架确认的情况下，仅基于低时间框架信号盲目交易，导致交易与主要趋势相悖",
+    "忽视高时间框架的关键水平，在低时间框架中过度交易，增加虚假信号风险",
+    "混淆时间框架的角色：将低时间框架用于趋势确认而非入场精化，或将高时间框架用于精确入场而非偏向确认",
+    "高时间框架显示反转信号但低时间框架未确认，盲目入场而被扫损",
+    "未等待高时间框架收盘对齐就在低时间框架提前入场，容易被诱导（inducement）",
+    "忽视低时间框架的结构信号（如破坏结构、Displacement失败），仅因高时间框架看好就强行入场",
+    "在低时间框架上过度交易，频繁追单而不等待高时间框架目标区域的回归",
+    "混淆时间框架级别，在不匹配的周期上寻找入场信号",
+    "低时间框架出现结构转变时，未确认高时间框架是否支持该转变就贸然入场",
+    "试图在低时间框架的每个顶部或底部抄底/逃顶，而不考虑高时间框架的大方向"
+  ],
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "PD array (Premium/Discount Array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Phases (Expansion, Consolidation, Retracement)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Daily Closure / Daily Bias",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fractal Concept",
+      "card_id": "fractal_model",
+      "exists": true
+    },
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "original_card_id": "27S9gjgcSlI_concept_higher_time_frame_htf_lower_time_frame_l",
+      "segment_ids": [
+        "seg_002",
+        "seg_005"
+      ],
+      "time_range": [
+        191.159,
+        741.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_higher_time_frame_htf_lower_time_frame_l",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_016",
+        "seg_021",
+        "seg_022",
+        "seg_023",
+        "seg_030"
+      ],
+      "time_range": [
+        178.16,
+        1604.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "original_card_id": "YmdC_LKT-Pk_concept_higher_time_frame_lower_time_frame",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        7.28,
+        545.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "sgAnVR6RSDg",
+      "original_card_id": "sgAnVR6RSDg_concept_higher_time_frame_htf_lower_time_frame_l",
+      "segment_ids": [
+        "seg_001",
+        "seg_007"
+      ],
+      "time_range": [
+        10.48,
+        840.759
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:35.969415Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['General', 'ICT', 'Price Action']",
+    "unresolved_refs: 4"
+  ],
+  "merge_notes": "school 投票：2张 General + 1张 Price Action + 1张 ICT，按多数选 General。ICT 与 Price Action 内容高度兼容，核心框架逻辑一致，无实质冲突。",
+  "error": null
+}

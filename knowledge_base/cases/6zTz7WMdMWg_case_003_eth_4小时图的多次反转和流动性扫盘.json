@@ -1,0 +1,114 @@
+{
+  "card_id": "6zTz7WMdMWg_case_003_eth_4小时图的多次反转和流动性扫盘",
+  "type": "case",
+  "title": "ETH 4小时图多次反转与流动性扫盘分析",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Frame Reversal",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Inside Bar",
+      "card_id": "inside_bar",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Buyside/Sellside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "liquidity",
+    "displacement",
+    "inside_bar",
+    "fair_value_gap",
+    "market_structure_shift",
+    "buyside_sellside_liquidity"
+  ],
+  "school": "ICT",
+  "asset": "ETHUSDT",
+  "timeframe": "4H",
+  "market_context": "ETH在2023年7月18-28日期间的4小时图上经历多次价格反转。从约34400上升至35600附近后，出现多根交替的绿黑K线，反复测试前一根K线的高低点，展现出典型的流动性扫盘和框架反转特征。",
+  "key_observation": "博主通过逐根K线分析，演示如何利用前一根K线的高低点来预期下一根K线的方向。当价格无法收盘突破前一根K线的高点时，预期下一步会测试前一根K线的低点；反之亦然。这种方法帮助识别流动性扫盘和潜在的反转点。",
+  "analysis_steps": [
+    "Step 1: 观察初始上升段，从约34400的绿色K线连续上行至35350附近，识别强势位移（Displacement）。",
+    "Step 2: 在高点附近出现两根黑色K线，无法收盘突破前一根K线高点，预期下一步寻找前一根K线的低点。",
+    "Step 3: 价格回测前一根K线低点后反向，框架反转（Frame Reversal）成立，预期向另一侧延伸。",
+    "Step 4: 继续逐根分析后续K线，当出现内部K线（Inside Bar）时，预期趋势延续，寻找前一根K线高点。",
+    "Step 5: 识别多个区间内的流动性扫盘，价格在35225-35475、35350-35500、35380-35430等多个矩形框标注的区间反复测试。",
+    "Step 6: 观察大幅位移K线出现后，预期价格回测前一根K线高点，若无法收盘突破则寻找低点。",
+    "Step 7: 在7月25日附近出现较大绿色K线，上影线延伸至约35675，随后多根黑色K线下行，扫除上方流动性。",
+    "Step 8: 博主强调不期望每次预测都正确，而是寻找可靠的流动性吸引点，并在低时间框架（1小时、30分钟、15分钟）上确认。",
+    "Step 9: 下钻至1小时图表，使用相同的前一根K线高低点方法进行更精细的分析，虽然噪音增加但逻辑一致。"
+  ],
+  "outcome": null,
+  "lessons": "通过前一根K线的高低点框架反转方法，可以系统地识别价格反转和流动性扫盘。关键是理解当价格无法收盘突破一侧时，下一步通常会测试另一侧。不追求100%准确率，而是寻找高概率的流动性吸引点，并在多个时间框架上确认信号。",
+  "primary_image": "cards/6zTz7WMdMWg/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/6zTz7WMdMWg/images/case_003_detail_1.jpg",
+    "cards/6zTz7WMdMWg/images/case_003_detail_2.jpg",
+    "cards/6zTz7WMdMWg/images/case_003_detail_3.jpg",
+    "cards/6zTz7WMdMWg/images/case_003_detail_4.jpg",
+    "cards/6zTz7WMdMWg/images/case_003_detail_5.jpg",
+    "cards/6zTz7WMdMWg/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "ETH 4小时K线图，图右侧价格刻度范围约从35050至35675，当前价格标签显示约35368。图上可见两个矩形框标注，分别覆盖约35225至35475及35350至35500的价格区间。K线序列从图左侧日期18附近以连续绿色K线向上延伸至日期21附近高点约35600，随后出现数根交替绿黑K线的横盘区间，之后两根黑色K线依次下行，最新一根黑色K线主体位于约35300至35375区间，带有向下影线",
+    "case_003_detail_1.jpg": "ETH 4小时K线图，时间轴显示2023年7月12日至28日区间。图右侧价格刻度范围约从34400至35640。图上可见一组连续绿色K线从约34400上行至35350附近，集中在7月18日至19日之间。顶部出现两根黑色实体K线，随后跟随一根小绿K线。最高处K线带有向上影线延伸至35400以上。右侧价格轴当前高亮标签显示34862，另一绿色高亮标签显示35250。图上未见矩形框、趋势线或其他标注工具",
+    "case_003_detail_2.jpg": "图为 ETH 4 小时 K 线图，时间轴显示日期范围约为 13 日至 28 日，图右侧价格刻度范围约 34800 至 35560。图中可见一段连续绿色 K 线自约 34820 向上延伸至约 35200，随后出现数根绿色与黑色混合 K 线的横盘区域，最新一根为高度较大的绿色 K 线，收盘位置约在 35460。图右侧价格轴高亮标签显示 35457 与 35441 两个数值。图上有一个圆形光标标记叠加在",
+    "case_003_detail_3.jpg": "图表显示资产代码为 ETH，右上角标注 USD 计价，账户标识为 TTrades_edu。右侧价格刻度范围约从 35050 至 35625。图上可见一系列 K 线自日期 18 起向右延伸至日期 24 附近，整体呈阶梯状排列，绿色 K 线与黑色 K 线交替出现。日期 20 附近出现一根主体较长的绿色 K 线，随后跟随黑色 K 线及较小绿色 K 线。日期 21 附近可见一根带上影线的小主体 K 线。右",
+    "case_003_detail_4.jpg": "图表显示 ETH 的 K 线图，时间轴从 7 月 18 日延伸至 7 月 26 日，底部时间标注显示当前时间为 Thu 20 Jul 23 14:00。图右侧价格刻度范围约从 35000 至 35625。左侧可见一段连续上行的绿色 K 线序列，从约 35050 逐步上行至 35500 附近。7 月 20 日附近出现一根较长绿色 K 线，随后在 35250 至 35500 区间内出现多根绿色与黑色 ",
+    "case_003_detail_5.jpg": "图表左上角显示资产代码 TM11，右上角标注 ETH 及 B-ADJ 字样，时间框架标注为 4H。图右侧价格刻度范围约从 35225 至 35650，当前价格标签显示约 35567 至 35587。图上可见三个矩形框标注，分别位于约 35380–35430、35460–35520 及 35540–35590 价格区间。K 线序列横跨 7 月 20 日至 28 日，绿色与黑色 K 线交替出现。时间轴",
+    "case_003_detail_6.jpg": "图表显示 ETH 的 K 线图，时间轴横跨日期 20 至 30，每日含多个时间刻度。右侧价格轴可见范围约从 35225 至 35850，当前价格标签显示 35574。图上 K 线由绿色和黑色交替组成，左侧出现一根较长的绿色 K 线，随后价格区间整体向上移动。日期 24 至 25 附近出现多根 K 线密集排列于 35400 至 35550 区间。日期 25 至 26 附近出现两根较高的 K 线，上端"
+  },
+  "sources": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        184.62,
+        543.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整清晰，资产（ETHUSDT）、时间框架（4H）、时间段（7月18-28日）、关键价位（34400-35675）、分析步骤（逐根K线的高低点框架反转）都有详细讲解，并展示了多个图表帧进行演示。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:12.184369Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH 4小时图多次反转与流动性扫盘分析\",\"school\":\"ICT\",\"asset\":\"ETHUSDT\",\"timeframe\":\"4H\",\"market_context\":\"ETH在2023年7月18-28日期间的4小时图上经历多次价格反转。从约34400上升至35600附近后，出现多根交替的绿黑K线，反复测试前一根K线的高低点，展现出典型的流动性扫盘和框架反转特征。\",\"key_observation\":\"博主通过逐根K线分析，演示如何利用前一根K线的高低点来预期下一根K线的方向。当价格无法收盘突破前一根K线的高点时，预期下一步会测试前一根K线的低点；反之亦然。这种方法帮助识别流动性扫盘和潜在的反转点。\",\"analysis_steps\":[\"Step 1: 观察初始上升段，从约34400的绿色K线连续上行至35350附近，识别强势位移（Displacement）。\",\"Step 2: 在高点附近出现两根黑色K线，无法收盘突破前一根K线高点，预期下一步寻找前一根K线的低点。\",\"Step 3: 价格回测前一根K线低点后反向，框架反转（Frame Reversal）成立，预期向另一侧延伸。\",\"Step 4: 继续逐根分析后续K线，当出现内部K线（Inside Bar）时，预期趋势延续，寻找前一根K线高点。\",\"Step 5: 识别多个区间内的流动性扫盘，价格在35225-35475、35350-35500、35380-35430等多个矩形框标注的区间反复测试。\",\"Step 6: 观察大幅位移K线出现后，预期价格回测前一根K线高点，若无法收盘突破则寻找低点。\",\"Step 7: 在7月25日附近出现较大绿色K线，上影线延伸至约35675，随后多根黑色K线下行，扫除上方流动性。\",\"Step 8: 博主强调不期望每次预测都正确，而是寻找可靠的流动性吸引点，并在低时间框架（1小时、30分钟、15分钟）上确认。\",\"Step 9: 下钻至1小时图表，使用相同的前一根K线高低点方法进行更精细的分析，虽然噪音增加但逻辑一致。\"],\"outcome\":null,\"lessons\":\"通过前一根K线的高低点框架反转方法，可以系统地识别价格反转和流动性扫盘。关键是理解当价格无法收盘突破一侧时，下一步通常会测试另一侧。不追求100%准确率，而是寻找高概率的流动性吸引点，并在多个时间框架上确认信号。\",\"primary_image_frame_id\":\"6zTz7WMdMWg_f011\",\"supporting_image_frame_ids\":[\"6zTz7WMdMWg_f007\",\"6zTz7WMdMWg_f008\",\"6zTz7WMdMWg_f009\",\"6zTz7WMdMWg_f010\",\"6zTz7WMdMWg_f013\",\"6zTz7WMdMWg_f014\",\"6zTz7WMdMWg_f015\",\"6zTz7WMdMWg_f016\",\"6zTz7WMdMWg_f018\",\"6zTz7WMdMWg_f019\"],\"related_concepts\":[\"Order Block\",\"Liquidity\",\"Displacement\",\"Frame Reversal\",\"Inside Bar\",\"Fair Value Gap\",\"Market Structure Shift\",\"Buyside/Sellside Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason",
+  "error": null
+}

@@ -1,0 +1,196 @@
+{
+  "card_id": "equal_lows",
+  "type": "merged_concept",
+  "canonical_term": "Equal Lows",
+  "aliases": [
+    "相等低点",
+    "等低"
+  ],
+  "school": "SMC",
+  "definition": "价格在不同时间段形成的两个或多个相同或极为接近的摆动低点。该区域汇集流动性，既作为价格下行的交易目标，也可能产生反弹反应。突破后，下一个PD array成为新目标。",
+  "identification_rules": [
+    "在图表上找到两个或多个摆动低点，其价格水平相同或极其接近",
+    "确认这些低点是有效的摆动低点，即价格在其前后形成了明确的高-低-高结构（非连续形成）",
+    "可在同一时间框架的不同周期内识别，也可跨越多个时间框架（如1小时、4小时、日线）验证",
+    "相等低点通常出现在趋势反转或结构转变后的下行目标区域"
+  ],
+  "trading_implication": "Equal Lows是明确的交易目标，作为价格下行的第一目标或中间目标。该区域流动性汇集，交易者可将其作为分阶段平仓或调整头寸的参考，也可用于反向交易的反弹目标。若价格突破等低点，下一个PD array（如BPR或FVG）成为新目标。多时间框架验证可提升目标位的可靠性。",
+  "common_mistakes": [
+    "未在多个时间框架上验证等低点的有效性，仅在单一时间框架识别可能导致虚假信号",
+    "将任何接近的低点都视为等低点，而忽视其是否真正构成有效的摆动结构",
+    "未能识别相等低点，仅关注流动性高点而忽视低点目标",
+    "将相等低点与单一支撑位混淆，忽视其作为主要交易目标的重要性"
+  ],
+  "related_concepts": [
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_004_黄金小时到分钟级多时间框架交易",
+      "video_id": "1YRs4Z1lMws",
+      "title": "黄金小时到分钟级多时间框架交易——OTE与FVG汇聚入场"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_005_nq_15分钟到1分钟的多时间框架入场",
+      "video_id": "27S9gjgcSlI",
+      "title": "NQ 15分钟到1分钟多时间框架入场与FVG调整"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_002_nq日线到2分钟多时间框架联动案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ日线FVG到2分钟CISD多时间框架联动做空"
+    },
+    {
+      "card_id": "HrjYoxAUb3s_case_002_美元看跌时的多货币对比分析",
+      "video_id": "HrjYoxAUb3s",
+      "title": "美元看跌时的多货币对比分析与最优配对选择"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_005_usd_4小时图摆动点筛选案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4小时图摆动点筛选：Candle Two/Three Closure与Point of Interest验证"
+    },
+    {
+      "card_id": "Njs-eRpeP9Q_case_002_es期货15分钟图范围交易案例",
+      "video_id": "Njs-eRpeP9Q",
+      "title": "ES期货15分钟图范围交易中的流动性识别"
+    },
+    {
+      "card_id": "Ovotm9l99QQ_case_001_es日线看空交易分析_2023年1月18日",
+      "video_id": "Ovotm9l99QQ",
+      "title": "ES日线看空交易分析：多时间框架SMT与PD array级联填补"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_001_eurusd_4小时图流动性识别案例",
+      "video_id": "U8xH2dEgH5A",
+      "title": "EURUSD 4小时图流动性识别与摆动点追踪"
+    },
+    {
+      "card_id": "WFqLwOp2pXw_case_005_usd_jpy_1小时18小时盘整的空头延续",
+      "video_id": "WFqLwOp2pXw",
+      "title": "USD/JPY 1H盘整18小时后空头延续至2R目标"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_002_ym指数小时线看跌扩张交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "YM指数小时线看跌扩张交易案例"
+    },
+    {
+      "card_id": "k3hTgbHBz1U_case_003_1分钟图表等量低点诱导案例",
+      "video_id": "k3hTgbHBz1U",
+      "title": "1分钟图表等量低点诱导案例"
+    },
+    {
+      "card_id": "lpam8F-N3EM_case_001_纳斯达克100期货15分钟到1分钟的做空案例",
+      "video_id": "lpam8F-N3EM",
+      "title": "NQ1! 15分钟等高点流动性扫除到1分钟位移做空案例"
+    },
+    {
+      "card_id": "pWAjzKndWXo_case_001_es_5分钟图空头交易目标分析",
+      "video_id": "pWAjzKndWXo",
+      "title": "ES 5分钟图空头交易多层次目标分析"
+    },
+    {
+      "card_id": "pWAjzKndWXo_case_003_反向头皮交易中的多层目标运用",
+      "video_id": "pWAjzKndWXo",
+      "title": "ES反向头皮交易中的多层FVG与流动性目标运用"
+    },
+    {
+      "card_id": "xdm_OexQWJY_case_001_es期货向下位移与ote做空案例",
+      "video_id": "xdm_OexQWJY",
+      "title": "ES期货向下位移后OTE做空至等低点"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "Ovotm9l99QQ",
+      "original_card_id": "Ovotm9l99QQ_concept_equal_lows",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.859,
+        187.5
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "pWAjzKndWXo",
+      "original_card_id": "pWAjzKndWXo_concept_equal_lows",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.72,
+        187.599
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:25.544870Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'SMC']"
+  ],
+  "merge_notes": "1张SMC + 1张ICT，票数相同；SMC与ICT在本概念上高度重叠，按字母顺序选SMC，冲突已记录。",
+  "error": null
+}

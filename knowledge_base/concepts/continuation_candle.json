@@ -1,0 +1,77 @@
+{
+  "card_id": "continuation_candle",
+  "type": "merged_concept",
+  "canonical_term": "Continuation Candle",
+  "aliases": [
+    "Candle 3",
+    "continuation K-line"
+  ],
+  "school": "ICT",
+  "definition": "在反转K线（Candle 2）之后形成的延续性K线，具有小影线和单向扩张特征，预示价格沿既定方向继续运动。",
+  "identification_rules": [
+    "前置条件：先有明确的反转K线（Candle 2），具有大影线且开盘价与收盘价接近",
+    "小影线特征：K线的影线（wick）较小，支持单向扩张而非反向运动",
+    "单向扩张：K线在一个方向上有明显的、充满活力的移动，不出现大的对立运动",
+    "可选：伴随Order Block形成或Fair Value Gap回测，增强延续信号",
+    "可选：在低时间框架上形成Change in the State of Delivery确认"
+  ],
+  "trading_implication": "Continuation Candle是交易Candle 3的核心机制。交易者在确认反转K线后，等待Continuation Candle形成以进入头寸，目标是捕捉价格沿反转方向的延续运动。通常配合Order Block、Protected Swing和流动性目标使用。若Candle 3未能形成明确的延续（如出现反向扩张或盘整），则应等待Candle 4或重新评估交易设置。",
+  "common_mistakes": [
+    "在Candle 2仍在形成时过早入场，而非等待其完全收盘和反转确认",
+    "混淆Continuation Candle与Expansion Candle，导致在错误的时间点交易",
+    "忽视影线大小的重要性，在大影线K线后仍试图交易延续，增加被扫损的风险",
+    "在Candle 2已经大幅扩张的情况下交易Candle 3，因为可用的价格范围已被消耗",
+    "未在低时间框架上寻求Change in the State of Delivery确认，导致交易概率下降",
+    "在Continuation Candle形成盘整或反向扩张时继续持仓，而非等待新的延续信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "qdQYhePcvGE_case_002_gll小时图与5分钟模型交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "GLL小时图反转与5分钟CSD延续交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_continuation_candle",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_006",
+        "seg_008",
+        "seg_009",
+        "seg_011",
+        "seg_013",
+        "seg_015",
+        "seg_018",
+        "seg_019",
+        "seg_021",
+        "seg_022",
+        "seg_023",
+        "seg_038"
+      ],
+      "time_range": [
+        11.2,
+        2033.039
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:58:15.052921Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

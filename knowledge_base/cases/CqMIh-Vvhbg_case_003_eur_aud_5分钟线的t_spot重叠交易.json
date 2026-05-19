@@ -1,0 +1,100 @@
+{
+  "card_id": "CqMIh-Vvhbg_case_003_eur_aud_5分钟线的t_spot重叠交易",
+  "type": "case",
+  "title": "GC1! 5分钟线T-Spot与1小时线重叠的高概率做多设置",
+  "related_concepts": [
+    {
+      "term": "T-Spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe confluence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "t_spot",
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "risk_to_reward"
+  ],
+  "school": "ICT",
+  "asset": "GC1!",
+  "timeframe": "5m / 1H",
+  "market_context": "黄金期货在5分钟图表上形成T-Spot设置，同时1小时线也出现T-Spot，两个时间框架的设置重叠，形成高概率的做多机会。价格在2650-2658区间内反复测试。",
+  "key_observation": "博主识别到5分钟线T-Spot与1小时线T-Spot的重叠，这种多时间框架的汇聚大幅提高了交易的概率。初期看空设置失败后，反而确认了看涨结构的有效性。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图表上识别初期的看空T-Spot设置，可选择直接入场或等待确认",
+    "Step 2: 观察看空设置失败，价格收盘突破关键水平，这是早期警告信号表明看空延续不可能",
+    "Step 3: 切换到1小时图表，发现Candle 2收盘在日线上形成1小时T-Spot设置",
+    "Step 4: 在1小时图表上识别Fair Value Gap，缩小关键兴趣点范围",
+    "Step 5: 回到5分钟和1小时图表，确认看涨T-Spot在两个时间框架上重叠",
+    "Step 6: 在重叠的T-Spot区域（约2652-2656）寻找看涨设置，识别Order Block作为入场点",
+    "Step 7: 设置止损在该低点，目标设定为2R（风险回报比2:1）",
+    "Step 8: 观察价格突破看跌K线后的延续，确认Candle 4中的看涨延续，预期该低点应该持稳"
+  ],
+  "outcome": "交易成功达到目标。根据图表显示，Target: 8.9 (0.33%) 89，Closed P&L: 8.9，Risk/Reward Ratio: 2.02，Stop: 4.4 (0.17%) 44。价格从入场点上升至目标位，获利了结。",
+  "lessons": "多时间框架的T-Spot重叠大幅提高交易概率。初期设置失败不一定意味着交易失败，反而可能是确认相反方向的信号。通过Fair Value Gap缩小关键区域，结合Order Block精确入场，能有效提升风险回报比。",
+  "primary_image": "cards/CqMIh-Vvhbg/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/CqMIh-Vvhbg/images/case_003_detail_1.jpg",
+    "cards/CqMIh-Vvhbg/images/case_003_detail_2.jpg",
+    "cards/CqMIh-Vvhbg/images/case_003_detail_3.jpg",
+    "cards/CqMIh-Vvhbg/images/case_003_detail_4.jpg",
+    "cards/CqMIh-Vvhbg/images/case_003_detail_5.jpg",
+    "cards/CqMIh-Vvhbg/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "GC1！5 分钟 K 线图，可见价格范围约 2640.0 至 2670.0。图上有一个黄色矩形标注区域，标签为 C2，覆盖约 13:00 至 20:00 时段、价格区间 2651.0 至 2656.0。另有一个绿色矩形区域，覆盖约 20:00 至图中日期分界线，价格区间 2653.0 至 2667.0。图上三条水平虚线分别对应 Target（2666.9）、Closed P&L 入场线（2657.",
+    "case_003_detail_1.jpg": "GC1! 黄金期货 5 分钟 K 线图，时间轴显示 Tue 26 Nov，当前时间标注为 12:40。图右下角标注 '5m-1H Model' 及 'Bias: Neutral'。图上可见两条水平线，分别位于约 2660 和 2650 附近。左侧价格轴当前高亮标签显示 2654.8。图左侧有一灰色矩形区域覆盖约 2652 至 2656 价格范围。10:00 附近出现一根实体较长的黑色 K 线，主体",
+    "case_003_detail_2.jpg": "图表为 GC1!（黄金期货）5 分钟 K 线图，右下角标注显示 5m-1H Model，Bias: Neutral，倒计时 00:10:00。可见价格范围约从 2622.0 至 2678.0。图上在约 07:00 处有文字标签 C2，对应 K 线高点约 2666；约 08:00 处有文字标签 XC2，对应价格约 2362（图中相对位置）。图上有一个矩形框标注区域位于约 2654 至 2660 之间",
+    "case_003_detail_3.jpg": "GC1！（黄金期货）5 分钟 K 线图，日期标注为 Tue 26 Nov 10:30，图右下角显示 1m-1H Model 及 Bias: Neutral。可见价格范围约从 2622 至 2678。图上标注有文字标签 C2（约 2666 附近）、XC2 及 XC1（约 2648-2652 附近），并有数值标签 -1、-2、-2.5 分布于图中偏下区域。图上有两处矩形框标注，分别位于约 2655-2",
+    "case_003_detail_4.jpg": "GC1！黄金期货 1 小时 K 线图，可见价格范围约 2585 至 2730。图左侧出现一根大阴线，从约 2730 下行至约 2650。其后 K 线在约 2640 至 2695 区间内形成多根密集排列的 K 线。图上有一个灰色矩形标注区域，覆盖约 2650 至 2695 价格范围，上边界为虚线。矩形左侧附有文字标签",
+    "case_003_detail_5.jpg": "图表为 GC1!（黄金期货）5 分钟 K 线图，时间轴显示 Tue 26 Nov，当前时间标注为 21:10，右下角显示 Bias: Neutral。图右侧价格轴当前价格标签显示 2658.5 与 2656.5。图上有两条带文字标签的虚线水平线：上方约 2658.5 处标注 C2，下方约 2652.0 处标注 C2。图中有一个黄色/米色矩形区域覆盖约 2650.0 至 2653.5 价格范围，横跨",
+    "case_003_detail_6.jpg": "图为 GC1!（黄金期货）5 分钟 K 线图，可见价格范围约 2638.0 至 2668.0。图上有两个矩形标注区域：一个黄色矩形覆盖约 2650.0 至 2653.5 区间，横跨 15:00 至 20:30 时段；一个绿色矩形覆盖约 2652.0 至 2665.0 区间，位于 20:30 至 22:30 时段。图上有两条带标签的水平虚线，分别标注为 C2，位于约 2658.0 和 2652.0。"
+  },
+  "sources": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        903.24,
+        1082.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟和1小时图表的分析过程，清晰标注了关键价位、T-Spot位置、入场点、止损和目标，并给出了具体的交易结果数据。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:30.862907Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GC1! 5分钟线T-Spot与1小时线重叠的高概率做多设置\",\"school\":\"ICT\",\"asset\":\"GC1!\",\"timeframe\":\"5m / 1H\",\"market_context\":\"黄金期货在5分钟图表上形成T-Spot设置，同时1小时线也出现T-Spot，两个时间框架的设置重叠，形成高概率的做多机会。价格在2650-2658区间内反复测试。\",\"key_observation\":\"博主识别到5分钟线T-Spot与1小时线T-Spot的重叠，这种多时间框架的汇聚大幅提高了交易的概率。初期看空设置失败后，反而确认了看涨结构的有效性。\",\"analysis_steps\":[\"Step 1: 在5分钟图表上识别初期的看空T-Spot设置，可选择直接入场或等待确认\",\"Step 2: 观察看空设置失败，价格收盘突破关键水平，这是早期警告信号表明看空延续不可能\",\"Step 3: 切换到1小时图表，发现Candle 2收盘在日线上形成1小时T-Spot设置\",\"Step 4: 在1小时图表上识别Fair Value Gap，缩小关键兴趣点范围\",\"Step 5: 回到5分钟和1小时图表，确认看涨T-Spot在两个时间框架上重叠\",\"Step 6: 在重叠的T-Spot区域（约2652-2656）寻找看涨设置，识别Order Block作为入场点\",\"Step 7: 设置止损在该低点，目标设定为2R（风险回报比2:1）\",\"Step 8: 观察价格突破看跌K线后的延续，确认Candle 4中的看涨延续，预期该低点应该持稳\"],\"outcome\":\"交易成功达到目标。根据图表显示，Target: 8.9 (0.33%) 89，Closed P&L: 8.9，Risk/Reward Ratio: 2.02，Stop: 4.4 (0.17%) 44。价格从入场点上升至目标位，获利了结。\",\"lessons\":\"多时间框架的T-Spot重叠大幅提高交易概率。初期设置失败不一定意味着交易失败，反而可能是确认相反方向的信号。通过Fair Value Gap缩小关键区域，结合Order Block精确入场，能有效提升风险回报比。\",\"primary_image_frame_id\":\"CqMIh-Vvhbg_f037\",\"supporting_image_frame_ids\":[\"CqMIh-Vvhbg_f031\",\"CqMIh-Vvhbg_f032\",\"CqMIh-Vvhbg_f033\",\"CqMIh-Vvhbg_f034\",\"CqMIh-Vvhbg_f035\",\"CqMIh-Vvhbg_f036\"],\"related_concepts\":[\"T-Spot\",\"Order Block\",\"Fair Value Gap\",\"Multi-timeframe confluence\",\"Market Structure Shift\",\"Risk/Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟和1小时图表的分析过程，清晰标注了关键价位、T-Spot位置、入场点、止损和目标，并给出了具体的交易结果数据。\"}",
+  "error": null
+}

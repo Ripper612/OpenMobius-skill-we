@@ -1,0 +1,88 @@
+{
+  "card_id": "t_spot",
+  "type": "merged_concept",
+  "canonical_term": "T-Spot",
+  "aliases": [
+    "Higher time frame wick formation zone",
+    "T-Spot area"
+  ],
+  "school": "ICT",
+  "definition": "高时间框架K线内预期形成高点或低点的特定价格区域。交易者在此区域寻找高时间框架的上下影线形成，作为确认反转和寻找低时间框架入场点的参考。",
+  "identification_rules": [
+    "基于高时间框架的C2/C3/C4蜡烛闭合确认后，在该蜡烛体内标记出一个矩形区域",
+    "该区域位于高时间框架蜡烛的特定价格范围内，用于预期价格将在此形成反向的上下影线",
+    "在看空设置中，T-Spot标记价格预期上冲形成高点的区域；在看多设置中，标记价格预期下探形成低点的区域",
+    "T-Spot可在指标中通过颜色（默认灰色和绿色）进行自定义调整"
+  ],
+  "trading_implication": "T-Spot是多时间框架交易的关键汇聚点。交易者在高时间框架T-Spot与低时间框架设置重叠时寻求高概率入场。若价格在T-Spot内形成预期的上下影线后反向运行，则增强了交易信号的有效性。T-Spot也可用于确认设置失效——若价格突破T-Spot而未形成预期影线，则该设置可能失败。",
+  "common_mistakes": [
+    "在未确认高时间框架C2/C3/C4闭合前就在T-Spot区域入场，导致设置未真正成立",
+    "忽视时间框架过滤器设置，导致T-Spot在不适用的交易时段显示，降低信号质量",
+    "将T-Spot与低时间框架设置重叠时，未正确隐藏高时间框架蜡烛，造成图表混乱而误判价格行为",
+    "未等待价格在T-Spot内形成完整的上下影线就提前入场，违反了该工具的核心用途"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "CqMIh-Vvhbg_case_003_eur_aud_5分钟线的t_spot重叠交易",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "GC1! 5分钟线T-Spot与1小时线重叠的高概率做多设置"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_005_es标普500指数日线至小时线的看跌延续",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "ES日线C2与CSD确认后的小时线看跌延续至投影目标"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_004_nq_5分钟1小时模型看跌案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ 5分钟1小时模型看跌案例 - 浅wick确认与FVG止损"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_002_es_标普500期货_小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "ES 1H到5M多头延续入场，通过FVG和受保护低点获得3.17R"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_003_usd期货月线到日线到小时线的多级分形",
+      "video_id": "tyoxl1l-6iI",
+      "title": "USD期货月线到日线到小时线的多级分形交易"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_002_月线到日线的多时间框架验证",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "月线C2闭合与日线CSD的多时间框架验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_t_spot",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_006"
+      ],
+      "time_range": [
+        191.2,
+        1082.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136183Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

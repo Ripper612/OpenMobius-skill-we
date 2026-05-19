@@ -1,0 +1,101 @@
+{
+  "card_id": "MsuEQQl7L6s_case_007_usd_15分钟图交易设置案例",
+  "type": "case",
+  "title": "USD 15分钟图基于4H FVG的Candle Three Closure交易设置",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "candle_two_closure",
+    "candle_three_closure",
+    "market_structure_shift",
+    "protected_high_low",
+    "order_block",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "15m",
+  "market_context": "基于4小时图Fair Value Gap形成的看涨背景，价格在4小时Candle Two Closure处反转，随后在15分钟图上形成Candle Three Closure，触发Change in State of Delivery信号。",
+  "key_observation": "博主识别出4小时图的FVG和Candle Two Closure作为上下文，然后在15分钟图上寻找Candle Three Closure（收盘价高于Candle Two的实体），以此确认反转并设置交易。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别Fair Value Gap和Candle Two Closure的看涨反转点。",
+    "Step 2: 切换到15分钟图，观察新开盘后是否形成Candle Three Closure（收盘价高于Candle Two实体）。",
+    "Step 3: 确认Candle Three Closure形成，标志着Change in State of Delivery，为入场信号。",
+    "Step 4: 标记整个Candle Two的范围，确保上半部分被尊重以支持向上交易。",
+    "Step 5: 在下一根K线中寻找Protected Swing作为止损位置。",
+    "Step 6: 在开盘价或前一根4小时K线的上半部分寻找入场点。",
+    "Step 7: 执行交易，止损设在Protected Swing，目标获得2R收益。"
+  ],
+  "outcome": "交易成功获得2R收益。",
+  "lessons": "Candle Two和Candle Three Closure是多时间框架交易中的关键过滤工具，结合Protected Swing止损可以有效控制风险。从高时间框架（4H）的FVG和反转点获取上下文，然后在低时间框架（15m）上精确入场，是ICT方法论的核心应用。",
+  "primary_image": "cards/MsuEQQl7L6s/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/MsuEQQl7L6s/images/case_007_detail_1.jpg",
+    "cards/MsuEQQl7L6s/images/case_007_detail_2.jpg",
+    "cards/MsuEQQl7L6s/images/case_007_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "USD 15分钟K线图。图上显示价格范围从22420到22680。图中标注有多条水平虚线，分别位于22577.45、22560、22530和22420处。图上有4个矩形标注框，分别标记为C2（约22560-22600区间）、C3（约22460-22520区间）、XC4（约22480-22520区间）和一个未标记的矩形框（约22490-22530区间）。K线呈现绿色和黑色交替的蜡烛体，多数K线具有向",
+    "case_007_detail_1.jpg": "USD 4小时K线图。图上显示约12根K线，时间跨度从6:00至18:00。K线以绿色和黑色交替出现。图右侧有两条水平虚线分别位于22586.00和22325.00，形成一个矩形标注区域。14:00位置有一根较大的绿色K线，上影线延伸至约22700。图上还有一条粉红色竖线从约22400向下延伸。整体价格范围在22050至22750之间波动。右下角显示时间戳'Wed 13 Feb 25 22:00'",
+    "case_007_detail_2.jpg": "USD 4小时K线图。图表显示从左至右约18根K线，价格范围在22050至22750之间。图上有三条水平虚线分别位于22556.25、22525.00和22300.00价格水平。K线序列中绿色和黑色蜡烛交替出现。最左侧K线具有长下影线，向下刺至22050。右侧区域有一根大型绿色K线达到约22650。图上标注有黄色矩形框位于22500至22575区间，以及两个粉色圆形标记。时间轴显示从7日10:00",
+    "case_007_detail_3.jpg": "图表显示 USD 1 小时周期 K 线图，价格范围从 22400.00 到 22620.00。图上有两条水平虚线分别位于 22580.00 和 22510.00，形成一个矩形区域。左侧标注有'C2'文字。K 线由绿色和黑色蜡烛交替组成，右侧部分多根 K 线呈现长上影线形态。图表底部显示时间轴从 4:00 到 23:00，当前时间标记在 10:15。右下角显示'NQ1 (1ba)'、'15m-4H "
+  },
+  "sources": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "segment_ids": [
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        468.6,
+        566.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从4H到15m的分析流程，清晰标注了C2、C3、入场点和止损位，交易结果明确为2R。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:55.903573Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 15分钟图基于4H FVG的Candle Three Closure交易设置\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"15m\",\"market_context\":\"基于4小时图Fair Value Gap形成的看涨背景，价格在4小时Candle Two Closure处反转，随后在15分钟图上形成Candle Three Closure，触发Change in State of Delivery信号。\",\"key_observation\":\"博主识别出4小时图的FVG和Candle Two Closure作为上下文，然后在15分钟图上寻找Candle Three Closure（收盘价高于Candle Two的实体），以此确认反转并设置交易。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别Fair Value Gap和Candle Two Closure的看涨反转点。\",\"Step 2: 切换到15分钟图，观察新开盘后是否形成Candle Three Closure（收盘价高于Candle Two实体）。\",\"Step 3: 确认Candle Three Closure形成，标志着Change in State of Delivery，为入场信号。\",\"Step 4: 标记整个Candle Two的范围，确保上半部分被尊重以支持向上交易。\",\"Step 5: 在下一根K线中寻找Protected Swing作为止损位置。\",\"Step 6: 在开盘价或前一根4小时K线的上半部分寻找入场点。\",\"Step 7: 执行交易，止损设在Protected Swing，目标获得2R收益。\"],\"outcome\":\"交易成功获得2R收益。\",\"lessons\":\"Candle Two和Candle Three Closure是多时间框架交易中的关键过滤工具，结合Protected Swing止损可以有效控制风险。从高时间框架（4H）的FVG和反转点获取上下文，然后在低时间框架（15m）上精确入场，是ICT方法论的核心应用。\",\"primary_image_frame_id\":\"MsuEQQl7L6s_f018\",\"supporting_image_frame_ids\":[\"MsuEQQl7L6s_f015\",\"MsuEQQl7L6s_f016\",\"MsuEQQl7L6s_f017\"],\"related_concepts\":[\"Fair Value Gap\",\"Candle Two Closure\",\"Candle Three Closure\",\"Change in State of Delivery\",\"Protected Swing\",\"Order Block\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从4H到15m的分析流程，清晰标注了C2、C3、入场点和止损位，交易结果明确为2R。\"}",
+  "error": null
+}

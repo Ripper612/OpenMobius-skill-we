@@ -1,0 +1,55 @@
+{
+  "card_id": "risk_management_in_box_setup",
+  "type": "merged_concept",
+  "canonical_term": "Risk Management in Box Setup",
+  "aliases": [
+    "Box Setup风险管理",
+    "止损与目标设置"
+  ],
+  "school": "Risk Management",
+  "definition": "在Box Setup中，将止损设置在当前高点（或低点），目标设定为区间另一侧的流动性或特定风险回报倍数（如2R），以量化风险敞口和预期收益。",
+  "identification_rules": [
+    "识别Box Setup的范围高点和低点（通常用K线实体标记）",
+    "止损位置设在当前偏离范围的高点（做空时）或低点（做多时）",
+    "目标位置为区间另一侧的流动性汇集区，或按风险回报比（如2R）计算的价格水平",
+    "在回测偏离范围（Deviation）时入场，止损在极端点，目标在对侧流动性或固定倍数"
+  ],
+  "trading_implication": "通过明确的止损和目标设置，量化每笔交易的风险敞口。止损设在高点确保失败时损失有限；目标可选择流动性区域（通常获利更多）或固定倍数（如2R）以平衡风险回报。这种方法使交易者能够在Box Setup中精确管理头寸规模和预期收益。",
+  "common_mistakes": [
+    "止损设置过宽或过窄，未能准确反映Box Setup的实际结构",
+    "混淆使用K线实体和灯芯作为止损参考，导致止损位置不一致",
+    "目标设置不清晰，既不瞄准对侧流动性也不按固定倍数计算，造成交易执行混乱"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HFfChGFHD44",
+      "original_card_id": "HFfChGFHD44_concept_risk_management_in_box_setup",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        380.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135442Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

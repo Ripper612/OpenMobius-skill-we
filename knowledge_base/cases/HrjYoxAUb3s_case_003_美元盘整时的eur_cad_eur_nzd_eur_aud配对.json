@@ -1,0 +1,100 @@
+{
+  "card_id": "HrjYoxAUb3s_case_003_美元盘整时的eur_cad_eur_nzd_eur_aud配对",
+  "type": "case",
+  "title": "美元盘整时的EUR/CAD、EUR/NZD、EUR/AUD配对分析",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift",
+    "displacement",
+    "consolidation",
+    "order_block",
+    "smart_money_technique"
+  ],
+  "school": "SMC",
+  "asset": "DXY / EUR/CAD / EUR/NZD / EUR/AUD / EURUSD",
+  "timeframe": "1D",
+  "market_context": "美元(DXY)在触及重要高位后出现大幅扩张，随后进入盘整回撤阶段。欧元和英镑表现疲弱。博主寻找与弱势欧元相对的强势货币配对，以捕捉向下扩张机会。",
+  "key_observation": "当美元陷入盘整或回撤时，欧元和英镑会反向运动。通过配对弱势欧元与强势货币(如加元)，可以找到高概率的看跌欧元配对，而EUR/USD则陷入盘整无法交易。",
+  "analysis_steps": [
+    "Step 1: 观察DXY在重要水平后出现大幅扩张，随后进入盘整或回撤阶段",
+    "Step 2: 预判美元盘整意味着欧元和英镑会反向运动，因此欧元和英镑应该走弱",
+    "Step 3: 比较欧元和英镑的K线收盘情况，发现欧元表现更弱，决定专注于欧元",
+    "Step 4: 扫描其他货币寻找强势货币与弱势欧元配对，发现加元(CAD)处于强势",
+    "Step 5: 检查EUR/CAD图表，确认出现从高位的扩张、反转，随后向低位交易",
+    "Step 6: 验证EUR/NZD和EUR/AUD也显示向下扩张的类似模式",
+    "Step 7: 对比EUR/USD显示盘整，确认配对策略优于直接交易美元对"
+  ],
+  "outcome": null,
+  "lessons": "当主要货币(如美元)在关键水平后陷入盘整时，不应直接交易该货币对。应转向配对分析：找到弱势货币(欧元)与强势货币(加元)的组合，利用反向运动捕捉向下扩张机会。这种方法比等待美元突破更高效。",
+  "primary_image": "cards/HrjYoxAUb3s/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/HrjYoxAUb3s/images/case_003_detail_1.jpg",
+    "cards/HrjYoxAUb3s/images/case_003_detail_2.jpg",
+    "cards/HrjYoxAUb3s/images/case_003_detail_3.jpg",
+    "cards/HrjYoxAUb3s/images/case_003_detail_4.jpg",
+    "cards/HrjYoxAUb3s/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "DXY 日线蜡烛图，可见价格范围约从 96.000 至 107.500。图上绘制有多个浅色矩形区域，分布于不同价格区间，包括约 98.800–100.200、97.200–98.200、96.800–97.800 及 96.200–97.400 等位置。图右侧可见两根大阳线后紧跟两根大阴线，K 线主体较长。图中部至右侧出现多根大阴线，K 线主体延伸幅度较大。左侧价格轴当前标签显示约 98.230。",
+    "case_003_detail_1.jpg": "DXY 日线 K 线图。图上可见价格范围约从 93.0 至 110.0。左侧中部有多个矩形框标注，覆盖约 96.5 至 99.0 区间，其中一个矩形带有文字标签'CX'。图右侧出现一根大幅绿色 K 线后紧接一根大幅黑色 K 线，随后图最右侧有数根长实体黑色 K 线向下延伸至约 93.0 至 94.0 区间。右侧价格轴当前价格标签显示约 97.291。图上另有两条浅色水平矩形区域分别位于约 98.0",
+    "case_003_detail_2.jpg": "图表显示 DXY 日线 K 线图，价格轴范围约从 95.000 至 101.000。图上有两个矩形标注区域：左侧较大的绿色矩形覆盖约 97.400 至 98.800 区间，跨越多根 K 线；中右侧有一个灰色矩形覆盖约 96.800 至 98.200 区间。图右侧可见数根长实体黑色 K 线连续向下延伸，最低延伸至约 95.000 附近。图右侧还可见一根较长绿色 K 线与紧随其后的长黑色 K 线组合。",
+    "case_003_detail_3.jpg": "图表显示资产代码 6B1！的 K 线图，时间框架未能从图上明确读取。可见价格范围约从 1.16000 至 1.34750。图上绘有两个矩形标注区域：一个灰色矩形位于左侧中部约 1.18500 至 1.21500 区间，另一个浅色矩形位于中部偏下约 1.17000 至 1.19500 区间。图上还有一条从左下向右上延伸的斜线穿过下方矩形区域。图右侧可见数根高度较大的绿色与黑色 K 线交替出现，其中一",
+    "case_003_detail_4.jpg": "图表显示 GE1! 日线蜡烛图，可见价格范围约从 1.16000 至 1.22500。图上有两个矩形标注区域：一个灰色矩形位于约 1.18000 至 1.19500 区间，另一个浅蓝色矩形位于约 1.16800 至 1.17800 区间。图中央绘有一条从左下向右上延伸的斜线。图右侧可见数根大幅度 K 线，包括一根大阴线与相邻大阳线组合，以及一根黑色大阴线后接多根绿色 K 线。图左侧价格轴显示多个价",
+    "case_003_detail_5.jpg": "EURUSD 日线蜡烛图，图上可见价格范围约从 1.14000 至 1.21000。右侧 K 线出现数根主体较长的阳线，最高触及约 1.21000 附近。图中部区域 K 线在约 1.16000 至 1.18000 之间呈现多次上下波动。左侧区域亦可见多次摆动高低点交替出现。图上未见任何标注线、矩形框、文字标签或技术指标叠加层，仅有右侧价格刻度轴数字可读。底部时间轴显示跨越数月的日期标记。"
+  },
+  "sources": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "segment_ids": [
+        "seg_016",
+        "seg_017",
+        "seg_018",
+        "seg_019"
+      ],
+      "time_range": [
+        696.08,
+        878.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从DXY分析到多个EUR配对的完整逻辑链条，每个步骤都有图表支撑，资产代码、时间框架、价格形态均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:32.628676Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美元盘整时的EUR/CAD、EUR/NZD、EUR/AUD配对分析\",\"school\":\"SMC\",\"asset\":\"DXY / EUR/CAD / EUR/NZD / EUR/AUD / EURUSD\",\"timeframe\":\"1D\",\"market_context\":\"美元(DXY)在触及重要高位后出现大幅扩张，随后进入盘整回撤阶段。欧元和英镑表现疲弱。博主寻找与弱势欧元相对的强势货币配对，以捕捉向下扩张机会。\",\"key_observation\":\"当美元陷入盘整或回撤时，欧元和英镑会反向运动。通过配对弱势欧元与强势货币(如加元)，可以找到高概率的看跌欧元配对，而EUR/USD则陷入盘整无法交易。\",\"analysis_steps\":[\"Step 1: 观察DXY在重要水平后出现大幅扩张，随后进入盘整或回撤阶段\",\"Step 2: 预判美元盘整意味着欧元和英镑会反向运动，因此欧元和英镑应该走弱\",\"Step 3: 比较欧元和英镑的K线收盘情况，发现欧元表现更弱，决定专注于欧元\",\"Step 4: 扫描其他货币寻找强势货币与弱势欧元配对，发现加元(CAD)处于强势\",\"Step 5: 检查EUR/CAD图表，确认出现从高位的扩张、反转，随后向低位交易\",\"Step 6: 验证EUR/NZD和EUR/AUD也显示向下扩张的类似模式\",\"Step 7: 对比EUR/USD显示盘整，确认配对策略优于直接交易美元对\"],\"outcome\":null,\"lessons\":\"当主要货币(如美元)在关键水平后陷入盘整时，不应直接交易该货币对。应转向配对分析：找到弱势货币(欧元)与强势货币(加元)的组合，利用反向运动捕捉向下扩张机会。这种方法比等待美元突破更高效。\",\"primary_image_frame_id\":\"HrjYoxAUb3s_f026\",\"supporting_image_frame_ids\":[\"HrjYoxAUb3s_f024\",\"HrjYoxAUb3s_f025\",\"HrjYoxAUb3s_f027\",\"HrjYoxAUb3s_f028\",\"HrjYoxAUb3s_f029\"],\"related_concepts\":[\"Market Structure Shift\",\"Displacement\",\"Consolidation\",\"Order Block\",\"Smart Money Technique\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从DXY分析到多个EUR配对的完整逻辑链条，每个步骤都有图表支撑，资产代码、时间框架、价格形态均清晰可读。\"}",
+  "error": null
+}

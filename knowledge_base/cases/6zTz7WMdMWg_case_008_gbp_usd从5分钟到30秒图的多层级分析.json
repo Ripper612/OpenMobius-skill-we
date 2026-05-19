@@ -1,0 +1,117 @@
+{
+  "card_id": "6zTz7WMdMWg_case_008_gbp_usd从5分钟到30秒图的多层级分析",
+  "type": "case",
+  "title": "GBP/USD从1小时到30秒的多层级FVG与订单块分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Open Low High Close (OLHC)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "liquidity",
+    "premium_discount",
+    "equilibrium_eq",
+    "market_structure_shift_mss",
+    "high_low_time_frame"
+  ],
+  "school": "ICT",
+  "asset": "GBP/USD",
+  "timeframe": "1H / 5M / 30S",
+  "market_context": "GBP/USD在8月7日经历从高位向下的位移，形成多个公允价值缺口。博主从1小时图逐层下钻至5分钟和30秒图，追踪价格如何在不同时间框架上尊重订单块和FVG结构。",
+  "key_observation": "价格从1小时开盘价（约1.27280）向下位移至订单块区域（约1.27180-1.27200），随后在5分钟图上形成FVG并回测。博主观察到价格在多个时间框架上的一致性结构，为交易设置提供确认。",
+  "analysis_steps": [
+    "Step 1: 在1分钟图上识别价格从高位向下的强势位移，观察到熊市公允价值缺口被突破（价格收盘在缺口上方）。",
+    "Step 2: 标记1小时开盘价（H4 Open）约1.27280作为关键参考水平，以及下方的订单块区域约1.27180-1.27200。",
+    "Step 3: 切换到5分钟图，确认价格形成的FVG结构与1小时图的订单块对齐，显示多时间框架的一致性。",
+    "Step 4: 观察价格在5分钟图上的回测行为，确认订单块是否被尊重以及是否出现巩固。",
+    "Step 5: 下钻至30秒图，在新1小时开盘时观察价格对FVG的反应，寻找最优交易入场点。",
+    "Step 6: 应用折价区概念，确认在1小时开盘价下方的价格区域为折价区，适合做多设置。",
+    "Step 7: 预期价格从FVG向上运行至前一个1小时高点，作为目标流动性区域。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架分析的关键是寻找结构的一致性：1小时订单块与5分钟FVG的重叠增强了交易设置的有效性。在折价区买入（1小时开盘价下方）并以前期高点作为目标，体现了智能货币技术中的流动性扫荡逻辑。30秒图用于精确入场时机，但决策基础仍源于高时间框架结构。",
+  "primary_image": "cards/6zTz7WMdMWg/images/case_008_primary.jpg",
+  "supporting_images": [
+    "cards/6zTz7WMdMWg/images/case_008_detail_1.jpg",
+    "cards/6zTz7WMdMWg/images/case_008_detail_2.jpg",
+    "cards/6zTz7WMdMWg/images/case_008_detail_3.jpg",
+    "cards/6zTz7WMdMWg/images/case_008_detail_4.jpg",
+    "cards/6zTz7WMdMWg/images/case_008_detail_5.jpg",
+    "cards/6zTz7WMdMWg/images/case_008_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_008_primary.jpg": "GBP/USD 5 分钟 K 线图，日期为 2023 年 8 月 7 日。图上有一条蓝色水平线及虚线标注，标签为'H4 Open'，位于约 1.27291 处，横贯全图。图中约 05:30 至 07:00 时段有两个重叠的青色矩形框，覆盖价格区间约 1.27150 至 1.27500。矩形框右下方有一个灰色小矩形，右侧边缘标注'OB'，位于约 1.27180 至 1.27200 区间。约 11:0",
+    "case_008_detail_1.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 05:10 至 07:30，日期标注为 Mon 07 Aug '23。图右侧价格刻度范围约 1.27140 至 1.27490。图上有三条水平线：一条虚线位于约 1.27290，一条实线位于约 1.27230，一条细线位于约 1.27180。K 线从左侧约 1.27490 处向下运行至约 06:00 附近的低点约 1.27150，随后出现向上的 K ",
+    "case_008_detail_2.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 03:00 至 07:45，日期为 Mon 07 Aug 23。图右侧价格刻度范围约 1.27100 至 1.27450。图上有一条贯穿全图的水平虚线，标注为 D4 Open，对应价格约 1.27270，另有一条蓝色实线与之接近。图右下方 07:00 至 07:30 区域绘有两个矩形框：上方为浅蓝色矩形，价格范围约 1.27230 至 1.27390",
+    "case_008_detail_3.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 04:30 至 08:20。图右侧价格刻度范围约 1.27100 至 1.27570，当前价格标签显示 1.27240。图上有一条虚线水平线标注为 H4 Open，位于约 1.27280。图上存在一个青绿色半透明垂直矩形区域，覆盖约 06:00 至 07:00 时间段。另有一个灰色矩形框覆盖约 04:55 至 06:30 的较低价格区间，以及一个蓝色",
+    "case_008_detail_4.jpg": "GBP/USD 5 分钟 K 线图，时间轴显示为 2023 年 8 月 7 日。图上可见价格范围约从 1.27100 至 1.27640。图中有一个青色矩形区域，横跨约 06:00 至 07:30 时段，纵向覆盖约 1.27150 至 1.27560。矩形内部有一条虚线水平线标注为",
+    "case_008_detail_5.jpg": "GBP/USD 5 分钟 K 线图，时间轴显示 2023 年 8 月 7 日（周一）00:00 至 04:30 区间。图右侧价格刻度范围约从 1.27100 至 1.27490，当前价格标签显示 1.27217。图上有一个灰色矩形框标注，位于约 01:30 至 02:15 时间段、价格约 1.27240 至 1.27320 区间。K 线整体呈现从左上方向右下方排列，中段出现两根较大实体绿色 K 线",
+    "case_008_detail_6.jpg": "GBP/USD 1 分钟 K 线图，时间轴显示 2023 年 8 月 7 日 02:35 至 03:22 区间。图右侧价格刻度范围约为 1.27160 至 1.27310。图上有一条虚线水平线位于 1.27229，标注文字为'H1 Open'。图中有一个灰色矩形区域横跨图表，纵向范围约在 1.27200 至 1.27250 之间。右侧当前价格标签显示 1.27222。K 线由绿色和黑色交替排列，图"
+  },
+  "sources": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "segment_ids": [
+        "seg_008"
+      ],
+      "time_range": [
+        1141.86,
+        1323.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从1小时到30秒的逐层分析过程，清晰标注了关键价位（H4 Open、OB、FVG），并解释了每个时间框架上的结构对齐逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:28.839179Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBP/USD从1小时到30秒的多层级FVG与订单块分析\",\"school\":\"ICT\",\"asset\":\"GBP/USD\",\"timeframe\":\"1H / 5M / 30S\",\"market_context\":\"GBP/USD在8月7日经历从高位向下的位移，形成多个公允价值缺口。博主从1小时图逐层下钻至5分钟和30秒图，追踪价格如何在不同时间框架上尊重订单块和FVG结构。\",\"key_observation\":\"价格从1小时开盘价（约1.27280）向下位移至订单块区域（约1.27180-1.27200），随后在5分钟图上形成FVG并回测。博主观察到价格在多个时间框架上的一致性结构，为交易设置提供确认。\",\"analysis_steps\":[\"Step 1: 在1分钟图上识别价格从高位向下的强势位移，观察到熊市公允价值缺口被突破（价格收盘在缺口上方）。\",\"Step 2: 标记1小时开盘价（H4 Open）约1.27280作为关键参考水平，以及下方的订单块区域约1.27180-1.27200。\",\"Step 3: 切换到5分钟图，确认价格形成的FVG结构与1小时图的订单块对齐，显示多时间框架的一致性。\",\"Step 4: 观察价格在5分钟图上的回测行为，确认订单块是否被尊重以及是否出现巩固。\",\"Step 5: 下钻至30秒图，在新1小时开盘时观察价格对FVG的反应，寻找最优交易入场点。\",\"Step 6: 应用折价区概念，确认在1小时开盘价下方的价格区域为折价区，适合做多设置。\",\"Step 7: 预期价格从FVG向上运行至前一个1小时高点，作为目标流动性区域。\"],\"outcome\":null,\"lessons\":\"多时间框架分析的关键是寻找结构的一致性：1小时订单块与5分钟FVG的重叠增强了交易设置的有效性。在折价区买入（1小时开盘价下方）并以前期高点作为目标，体现了智能货币技术中的流动性扫荡逻辑。30秒图用于精确入场时机，但决策基础仍源于高时间框架结构。\",\"primary_image_frame_id\":\"6zTz7WMdMWg_f043\",\"supporting_image_frame_ids\":[\"6zTz7WMdMWg_f039\",\"6zTz7WMdMWg_f040\",\"6zTz7WMdMWg_f041\",\"6zTz7WMdMWg_f042\",\"6zTz7WMdMWg_f044\",\"6zTz7WMdMWg_f045\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Liquidity\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Market Structure Shift (MSS)\",\"HTF / LTF\",\"Open Low High Close (OLHC)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从1小时到30秒的逐层分析过程，清晰标注了关键价位（H4 Open、OB、FVG），并解释了每个时间框架上的结构对齐逻辑。\"}",
+  "error": null
+}

@@ -1,0 +1,112 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_007_多资产图表_consolidation范围的操纵与突破",
+  "type": "case",
+  "title": "BTC 1H：Consolidation范围内的低点操纵与突破确认",
+  "related_concepts": [
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "V-shaped Recovery",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Short-term High/Low",
+      "card_id": "short_term_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "consolidation",
+    "order_block",
+    "fair_value_gap",
+    "inducement",
+    "continuation_pattern",
+    "retracement",
+    "market_structure_shift",
+    "liquidity",
+    "short_term_high_low"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC在24500-25500区间形成consolidation，价格先向下操纵低点至23500附近，随后反向上升。博主分析价格突破consolidation高点时是否能形成continuation确认，还是仅为操纵后的反向交易。",
+  "key_observation": "当价格运行至consolidation高点时，需要区分是真正的突破还是操纵。博主强调等待continuation形成（如V-shaped recovery）来确认方向，而非盲目追高。",
+  "analysis_steps": [
+    "Step 1: 识别consolidation范围（约24500-25500），观察价格是否会突破高点或回落至范围内。",
+    "Step 2: 价格向下运动至23500附近，形成低点操纵，伴随长下影线显示拒绝。",
+    "Step 3: 价格反向上升，重新接近consolidation高点，观察是否形成continuation。",
+    "Step 4: 分析closure是否同时突破short-term high，以及是否伴随V-shaped recovery等continuation信号。",
+    "Step 5: 等待下一根K线确认方向，而非在突破时立即入场，以避免被操纵后的反向扫损。",
+    "Step 6: 如果形成bullish setup（如V-shaped recovery），则可考虑做多；否则继续观察是否形成新的continuation向下。"
+  ],
+  "outcome": null,
+  "lessons": "在consolidation突破时，不应仅依赖单根K线的突破信号。需要等待continuation形成（如V-shaped recovery或多根K线确认），以区分真正的趋势延续与操纵。同时注意closure是否同时突破short-term high，这是scenario two的关键特征。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_007_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_007_detail_2.jpg",
+    "cards/PQiRV0JMhIQ/images/case_007_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "BTC 1 小时 K 线图。图上显示从约 26000 下跌至 23500 的下降趋势，跨越多根 K 线。可见价格范围约 23500 至 26250。图上有两条水平线分别位于 25500 和 24500 处。中间区域有一个灰色矩形框标注，范围约在 24000 至 25000。K 线由黑色和绿色混合组成，在 24500 至 25500 区间内出现多次触及。右侧面板显示较大的黑色 K 线主体。多根 K ",
+    "case_007_detail_1.jpg": "多资产并行显示的烛线图表。图上展示了从左至右的完整价格走势，价格范围约在23100至26375之间。初期呈上升趋势，绿色烛线主导，随后出现大幅绿色烛线与黑色烛线的交替。中段形成一系列绿黑交替的烛线，范围收窄在24500至25500区间。后续出现明显下跌，黑色烛线主导，价格下探至23500附近。最后阶段呈恢复态势，绿色烛线逐步上升，伴随多根带有上下影线的烛线，表现出在各价格水平的拒绝特征。整体呈现上",
+    "case_007_detail_2.jpg": "BTC 1 小时 K 线图。图上显示从左下至右上的整体价格走势，初期呈上升趋势，绿色 K 线占主导，高点逐步上升至约 26375。中段出现黑色 K 线主导的下跌阶段，价格回落至约 24200 附近。右侧显示绿色 K 线恢复上升，价格回升至约 25500 水平。图上有一条水平线标注在约 25500 价格位置。可见价格范围从 24200 到 26375，共约 40 根 K 线。",
+    "case_007_detail_3.jpg": "BTC 1 小时 K 线图。图上显示价格范围约从 23200 到 24300。左侧区域有一个矩形标注框围绕 24050 至 24150 价格区间。图表中部显示从 24150 向下的下跌走势，跌至 23200 附近。右侧显示两根大型黑色 K 线，主体从约 24100 跌至 23400，伴随较长的下影线。下方有一条水平线在 23700 附近。图上未见其他文字标签或指标标注。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_017",
+        "seg_018"
+      ],
+      "time_range": [
+        893.68,
+        1028.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "资产代码、时间框架、价格范围从图表清晰可见；博主分析步骤完整，从consolidation识别、低点操纵、反向上升到continuation确认的全过程都有详细讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:47.772731Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC 1H：Consolidation范围内的低点操纵与突破确认\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC在24500-25500区间形成consolidation，价格先向下操纵低点至23500附近，随后反向上升。博主分析价格突破consolidation高点时是否能形成continuation确认，还是仅为操纵后的反向交易。\",\"key_observation\":\"当价格运行至consolidation高点时，需要区分是真正的突破还是操纵。博主强调等待continuation形成（如V-shaped recovery）来确认方向，而非盲目追高。\",\"analysis_steps\":[\"Step 1: 识别consolidation范围（约24500-25500），观察价格是否会突破高点或回落至范围内。\",\"Step 2: 价格向下运动至23500附近，形成低点操纵，伴随长下影线显示拒绝。\",\"Step 3: 价格反向上升，重新接近consolidation高点，观察是否形成continuation。\",\"Step 4: 分析closure是否同时突破short-term high，以及是否伴随V-shaped recovery等continuation信号。\",\"Step 5: 等待下一根K线确认方向，而非在突破时立即入场，以避免被操纵后的反向扫损。\",\"Step 6: 如果形成bullish setup（如V-shaped recovery），则可考虑做多；否则继续观察是否形成新的continuation向下。\"],\"outcome\":null,\"lessons\":\"在consolidation突破时，不应仅依赖单根K线的突破信号。需要等待continuation形成（如V-shaped recovery或多根K线确认），以区分真正的趋势延续与操纵。同时注意closure是否同时突破short-term high，这是scenario two的关键特征。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f035\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f032\",\"PQiRV0JMhIQ_f033\",\"PQiRV0JMhIQ_f034\"],\"related_concepts\":[\"Consolidation\",\"Order Block\",\"Fair Value Gap\",\"Inducement\",\"Continuation\",\"V-shaped Recovery\",\"Market Structure Shift\",\"Liquidity\",\"Short-term High/Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"资产代码、时间框架、价格范围从图表清晰可见；博主分析步骤完整，从consolidation识别、低点操纵、反向上升到continuation确认的全过程都有详细讲解。\"}",
+  "error": null
+}

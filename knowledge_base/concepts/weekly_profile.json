@@ -1,0 +1,60 @@
+{
+  "card_id": "weekly_profile",
+  "type": "merged_concept",
+  "canonical_term": "Weekly Profile",
+  "aliases": [
+    "周度价格框架",
+    "周线框架"
+  ],
+  "school": "ICT",
+  "definition": "通过分析一周内的价格行动（积累-操纵-派发）定义交易框架。使用标准差投影、订单块、公允价值缺口等工具识别周内反转点和目标位，指导多时间框架交易决策。",
+  "identification_rules": [
+    "识别周一为积累阶段，通常避免交易",
+    "识别周中反转（通常周三形成低点或高点），标志为Change in State of Delivery",
+    "识别周四为操纵阶段，价格突破周中反转点",
+    "识别周五为派发阶段，价格延续周四方向并可能触及标准差投影目标",
+    "使用失败摆动（Failure Swing）而非简单高低点来投影标准差线（±2、±2.5、±4、±4.5）",
+    "在周线框架内识别订单块、推进块（Propulsion Block）和公允价值缺口作为支撑/阻力"
+  ],
+  "trading_implication": "周线框架提供了一周交易的宏观结构，帮助交易者在经济日历基础上规划交易日期和目标位。通过识别周中反转和标准差投影，交易者可在周四-周五的派发阶段寻找高概率入场点。结合经济数据发布时间，避免在高影响新闻前交易，在新闻后利用周线框架确认方向并设定利润目标。",
+  "common_mistakes": [
+    "在周一或高影响新闻前交易，忽视积累阶段的不确定性",
+    "使用简单的周高/周低投影标准差，而非失败摆动，导致目标位不准确",
+    "未能识别周中反转（Change in State of Delivery），错过操纵-派发的关键转折",
+    "忽视推进块（Propulsion Block）的均值阈值（K线实体中点），导致过早止损",
+    "未结合经济日历过滤，在新闻波动中被诱导（Inducement）"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "original_card_id": "hKCMqh0ZsY0_concept_weekly_profile",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        191.76,
+        728.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136636Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

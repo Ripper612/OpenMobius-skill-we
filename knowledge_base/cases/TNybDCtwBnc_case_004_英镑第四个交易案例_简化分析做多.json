@@ -1,0 +1,92 @@
+{
+  "card_id": "TNybDCtwBnc_case_004_英镑第四个交易案例_简化分析做多",
+  "type": "case",
+  "title": "GBPUSD日线四根K线判断看涨，小时线CSD确认后5分钟做多",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1H / 5m",
+  "market_context": "GBPUSD在日线上扫出前高后回落，形成四根K线结构。博主通过简化分析判断看涨偏向，随后在小时线确认CSD后，在5分钟线等待收盘确认入场做多。",
+  "key_observation": "仅用四根日线K线即可判断市场方向：扫高回落、低点吞没形态、FVG形成，预示价格将继续上行。小时线CSD确认趋势转变。",
+  "analysis_steps": [
+    "Step 1: 观察日线四根K线结构——扫出前高后回落，形成看涨信号",
+    "Step 2: 识别日线低点和FVG位置作为潜在支撑区域",
+    "Step 3: 切换到小时线，确认CSD（交付状态改变）出现",
+    "Step 4: 下钻到5分钟线，观察一系列下跌K线形成的低点",
+    "Step 5: 等待价格收盘突破该低点，确认入场信号",
+    "Step 6: 在收盘确认后以市价单入场做多，止损设在低点，目标2R"
+  ],
+  "outcome": "成功达到目标。价格回撤后触及止盈位，交易获利。根据订单面板显示，止盈为$2,066.64，止损为-$1,067.2。",
+  "lessons": "简化分析不需要复杂指标，仅用K线结构和关键价位即可识别高概率交易机会。多时间框架确认（日线→小时线→5分钟线）提高入场精准度。等待收盘确认而非提前入场是风险管理的关键。",
+  "primary_image": "cards/TNybDCtwBnc/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/TNybDCtwBnc/images/case_004_detail_1.jpg",
+    "cards/TNybDCtwBnc/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "GBPUSD 1 小时 K 线图，时间戳为 2025 年 6 月 23 日 18:00 UTC-4。图上显示从约 1.34000 至 1.35226 的价格范围。K 线序列呈上升趋势，由绿色（上升）和黑色（下降）K 线混合组成。图右侧显示两个价格标签：1.35182 和 1.34920。最新 K 线（1 小时）开盘价 1.34920、最高 1.35226、最低 1.34895、收盘 1.35207",
+    "case_004_detail_1.jpg": "GBPUSD 5分钟K线图，时间戳为2025年6月23日18:05:00。图上可见一个黄色矩形标注，覆盖约1.35100至1.35200价格区间，跨越多根K线。一条蓝色水平线带有圆形端点，位于约1.35250水平。K线序列由绿色和黑色蜡烛组成，具有不同的主体大小和影线。图右侧显示当前价格标签1.35273、1.35263、1.35253。图表显示从约13:00至22:00的时间范围，可见价格在15",
+    "case_004_detail_2.jpg": "GBPUSD 5分钟K线图，时间范围从15:00至20:50。图上有三个矩形标注区域：黄色区域约在1.35000至1.35300之间，绿色区域约在1.35273至1.35600之间标记为'PT_PAL: $2,066.64127'，粉色区域约在1.35050至1.35200之间标记为'SL_PAL: -$1,067.2'。右侧价格刻度显示当前价格为1.35028。图上有多条水平虚线标注关键价格位。"
+  },
+  "sources": [
+    {
+      "video_id": "TNybDCtwBnc",
+      "segment_ids": [
+        "seg_019",
+        "seg_020",
+        "seg_021"
+      ],
+      "time_range": [
+        856.56,
+        983.199
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线分析、小时线确认、5分钟线入场的全过程，交易结果明确（达到TP），关键价位和时间框架清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:35.154491Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD日线四根K线判断看涨，小时线CSD确认后5分钟做多\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1H / 5m\",\"market_context\":\"GBPUSD在日线上扫出前高后回落，形成四根K线结构。博主通过简化分析判断看涨偏向，随后在小时线确认CSD后，在5分钟线等待收盘确认入场做多。\",\"key_observation\":\"仅用四根日线K线即可判断市场方向：扫高回落、低点吞没形态、FVG形成，预示价格将继续上行。小时线CSD确认趋势转变。\",\"analysis_steps\":[\"Step 1: 观察日线四根K线结构——扫出前高后回落，形成看涨信号\",\"Step 2: 识别日线低点和FVG位置作为潜在支撑区域\",\"Step 3: 切换到小时线，确认CSD（交付状态改变）出现\",\"Step 4: 下钻到5分钟线，观察一系列下跌K线形成的低点\",\"Step 5: 等待价格收盘突破该低点，确认入场信号\",\"Step 6: 在收盘确认后以市价单入场做多，止损设在低点，目标2R\"],\"outcome\":\"成功达到目标。价格回撤后触及止盈位，交易获利。根据订单面板显示，止盈为$2,066.64，止损为-$1,067.2。\",\"lessons\":\"简化分析不需要复杂指标，仅用K线结构和关键价位即可识别高概率交易机会。多时间框架确认（日线→小时线→5分钟线）提高入场精准度。等待收盘确认而非提前入场是风险管理的关键。\",\"primary_image_frame_id\":\"TNybDCtwBnc_f031\",\"supporting_image_frame_ids\":[\"TNybDCtwBnc_f032\",\"TNybDCtwBnc_f033\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Change in the state of delivery\",\"Market Structure Shift\",\"Price Action\",\"Multi-timeframe analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线分析、小时线确认、5分钟线入场的全过程，交易结果明确（达到TP），关键价位和时间框架清晰可见。\"}",
+  "error": null
+}

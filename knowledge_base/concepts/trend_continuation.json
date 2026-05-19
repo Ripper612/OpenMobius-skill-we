@@ -1,0 +1,72 @@
+{
+  "card_id": "trend_continuation",
+  "type": "merged_concept",
+  "canonical_term": "Trend Continuation",
+  "aliases": [
+    "趋势延续",
+    "趋势持续"
+  ],
+  "school": "ICT",
+  "definition": "在既定趋势中，价格形成一系列更高的低点和更高的高点（上升趋势）或更低的高点和更低的低点（下降趋势），预示趋势将继续运行。",
+  "identification_rules": [
+    "在上升趋势中，确认价格形成高于前一个摆动低点的新低点，以及高于前一个摆动高点的新高点。",
+    "在下降趋势中，确认价格形成低于前一个摆动高点的新高点，以及低于前一个摆动低点的新低点。",
+    "趋势延续时，价格在内部范围流动性和外部范围流动性之间交替运动。",
+    "观察是否形成了新的订单块（Order Block）或推进块（Propulsion Block），作为趋势延续的确认信号。"
+  ],
+  "trading_implication": "趋势延续是确认现有趋势仍在进行的关键信号。交易者可在形成高低点后，预期价格从内部范围流动性回测至外部范围流动性。在上升趋势中，可在更高的低点处寻找做多机会，目标指向外部范围流动性或更高的高点；在下降趋势中反向操作。需要强有力的叙述支撑才能在扫除流动性后继续持有头寸。",
+  "common_mistakes": [
+    "未确认是否形成了真正的更高低点或更高高点，误将等高点或等低点视为趋势延续信号。",
+    "在缺乏强有力的交易叙述情况下，盲目追随趋势，特别是在外部流动性被扫除后继续持仓。",
+    "忽视内部范围流动性的回测机会，导致入场位置风险回报比不佳。",
+    "未在受保护的摆动点（Protected Swing）处设置止损，导致止损位置过大或无法有效控制风险。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "DMUiDBnTYc8_case_005_日线图_多重订单块延续趋势",
+      "video_id": "DMUiDBnTYc8",
+      "title": "日线多重订单块延续趋势分析"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_001_usd_5分钟图上升趋势的结构分析",
+      "video_id": "sgAnVR6RSDg",
+      "title": "USD 5分钟图上升趋势的结构分析"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_003_eurusd_5分钟图的趋势识别",
+      "video_id": "sgAnVR6RSDg",
+      "title": "EURUSD 5分钟图的上升和下降趋势识别"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_trend_continuation",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        550.56,
+        877.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136389Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

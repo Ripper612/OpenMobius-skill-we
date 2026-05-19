@@ -1,0 +1,56 @@
+{
+  "card_id": "daily_profile_open_high_low_close",
+  "type": "merged_concept",
+  "canonical_term": "Daily Profile (Open, High, Low, Close)",
+  "aliases": [
+    "Daily OHLC",
+    "OHLC",
+    "每日开高低收"
+  ],
+  "school": "ICT",
+  "definition": "日线的四个关键价格点：开盘价、最高价、最低价、收盘价。通过识别买日（Open-Low-High-Close）或卖日（Open-High-Low-Close）的OHLC形态，捕捉日内价格波幅和方向性交易机会。",
+  "identification_rules": [
+    "卖日形态：开盘→最高→最低→收盘，价格先上升后下跌，收盘低于开盘",
+    "买日形态：开盘→最低→最高→收盘，价格先下跌后上升，收盘高于开盘",
+    "识别日内摆幅（Juda swing）：卖日中从高点到低点的下跌幅度；买日中从低点到高点的上升幅度",
+    "观察价格相对于午夜开盘（0:00）和8:30开盘的位置，判断折价区或溢价区"
+  ],
+  "trading_implication": "用于建立日内交易框架。卖日中，在午夜或8:30开盘上方（溢价区）寻找空头入场；买日中，在这两个开盘下方（折价区）寻找多头入场。8:30和午夜开盘可作为枢轴点、目标位或支撑阻力。通过观察价格能否突破或收盘于这些关键位，判断后续方向。",
+  "common_mistakes": [
+    "未区分买日和卖日的OHLC形态，导致交易方向错误",
+    "忽视价格相对于8:30和午夜开盘的位置关系，无法正确识别折价区和溢价区",
+    "在不够清晰的日子里机械应用规则，而不考虑市场波动性和价格行为信号（如失败收盘、位移等）",
+    "未能利用价格在关键开盘位附近的反复测试（retest）和失败信号来预判后续走势"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "b6yvRKf8haE",
+      "original_card_id": "b6yvRKf8haE_concept_daily_profile_open_high_low_close",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.799,
+        188.599
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132134Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

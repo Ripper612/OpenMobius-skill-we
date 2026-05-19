@@ -1,0 +1,87 @@
+{
+  "card_id": "y6SnEdASVLY_case_004_标普500期货伦敦反转延续案例",
+  "type": "case",
+  "title": "ES期货伦敦扫高反转与纽约时段延续案例",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Sweep / Liquidity",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Killzone (important time levels)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "inducement",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "15M",
+  "market_context": "ES期货在伦敦交易时段扫除范围高点形成看跌反转信号，8:30美国新闻数据短暂操纵价格上升进入伦敦订单块，随后继续下跌，在9:30和10:00重要时间点确认下行趋势。",
+  "key_observation": "伦敦时段扫除范围高点后形成Change in State of Delivery（CSD），标志从上升转为下降的结构转变。8:30新闻操纵后价格未能突破，反而在关键时间点（9:30、10:00）继续下跌，确认看跌反转延续。",
+  "analysis_steps": [
+    "Step 1: 识别伦敦交易时段的范围高点扫除（sweep），确认为CSD信号",
+    "Step 2: 观察一系列上升收盘K线被扫除后形成的订单块（Order Block）位置",
+    "Step 3: 标记8:30新闻事件对价格的短期操纵上升，进入伦敦订单块区域",
+    "Step 4: 确认价格未能在订单块上方站稳，反而继续下跌",
+    "Step 5: 在9:30和10:00重要时间点观察价格走势，确认下行延续",
+    "Step 6: 识别下跌过程中的低点作为潜在支撑，为后续反弹做准备"
+  ],
+  "outcome": null,
+  "lessons": "伦敦时段的范围扫除和CSD是强有力的反转信号。新闻操纵虽然短期推高价格，但若未能突破关键订单块，反而应视为诱导（Inducement），预示后续强势下跌。重要时间点（9:30、10:00）的价格行为可用于确认趋势延续。",
+  "primary_image": "cards/y6SnEdASVLY/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/y6SnEdASVLY/images/case_004_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 Emini Futures 15分钟图表，时间范围为2024年1月23日。图上显示从约17:00至21:00 UTC的K线序列。左侧区间包含绿色K线，中右侧主要为黑色K线。图上有一条水平虚线位于约5079.50处。一个黄色圆形标记位于该水平线附近的K线上。右侧显示一根大型黑色K线，主体从约5079.50延伸至5044.00。可见价格范围从5044.00至5100.00，跨度约56点",
+    "case_004_detail_1.jpg": "SPX 1 小时 K 线图，显示从 12:00 至 16:00 的上升阶段，随后从 16:00 至 20:00 出现下跌趋势，K 线在 5044 至 5098 区间内波动。图上有一条水平虚线位于约 5074 处。最新 K 线为绿色，收盘价接近 5072。图下方标注日期'23/4/2024'及'E311 | 158'。右下角显示'Wed 24 Apr 24 21:00'的时间标记。"
+  },
+  "sources": [
+    {
+      "video_id": "y6SnEdASVLY",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        524.48,
+        675.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对ES期货案例的分析完整清晰，包括伦敦扫除、CSD识别、新闻操纵、时间点确认等关键步骤，图表显示明确的价格走势和时间标记。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:33.562868Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货伦敦扫高反转与纽约时段延续案例\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"15M\",\"market_context\":\"ES期货在伦敦交易时段扫除范围高点形成看跌反转信号，8:30美国新闻数据短暂操纵价格上升进入伦敦订单块，随后继续下跌，在9:30和10:00重要时间点确认下行趋势。\",\"key_observation\":\"伦敦时段扫除范围高点后形成Change in State of Delivery（CSD），标志从上升转为下降的结构转变。8:30新闻操纵后价格未能突破，反而在关键时间点（9:30、10:00）继续下跌，确认看跌反转延续。\",\"analysis_steps\":[\"Step 1: 识别伦敦交易时段的范围高点扫除（sweep），确认为CSD信号\",\"Step 2: 观察一系列上升收盘K线被扫除后形成的订单块（Order Block）位置\",\"Step 3: 标记8:30新闻事件对价格的短期操纵上升，进入伦敦订单块区域\",\"Step 4: 确认价格未能在订单块上方站稳，反而继续下跌\",\"Step 5: 在9:30和10:00重要时间点观察价格走势，确认下行延续\",\"Step 6: 识别下跌过程中的低点作为潜在支撑，为后续反弹做准备\"],\"outcome\":null,\"lessons\":\"伦敦时段的范围扫除和CSD是强有力的反转信号。新闻操纵虽然短期推高价格，但若未能突破关键订单块，反而应视为诱导（Inducement），预示后续强势下跌。重要时间点（9:30、10:00）的价格行为可用于确认趋势延续。\",\"primary_image_frame_id\":\"y6SnEdASVLY_f020\",\"supporting_image_frame_ids\":[\"y6SnEdASVLY_f019\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Sweep / Liquidity\",\"Inducement\",\"Market Structure Shift (MSS)\",\"Killzone (important time levels)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对ES期货案例的分析完整清晰，包括伦敦扫除、CSD识别、新闻操纵、时间点确认等关键步骤，图表显示明确的价格走势和时间标记。\"}",
+  "error": null
+}

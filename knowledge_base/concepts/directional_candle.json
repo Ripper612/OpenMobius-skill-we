@@ -1,0 +1,64 @@
+{
+  "card_id": "directional_candle",
+  "type": "merged_concept",
+  "canonical_term": "Directional Candle",
+  "aliases": [
+    "directional candle"
+  ],
+  "school": "Price Action",
+  "definition": "价格在整个时间周期内基本单向运动的K线。特征是实体相对较大，影线（上影线或下影线）较小，反映市场在该周期内的强势方向性推动。",
+  "identification_rules": [
+    "看跌方向性K线：开盘价 > 收盘价，且价格先创高点，随后持续下行至低点后收盘，上影线相对实体较小",
+    "看涨方向性K线：开盘价 < 收盘价，且价格先创低点，随后持续上行至高点后收盘，下影线相对实体较小",
+    "K线实体（开盘价与收盘价之差）明显大于影线长度，体现单向推动的强度",
+    "在较低时间框架上观察，该K线由多根同向K线组成，形成连贯的单向运动"
+  ],
+  "trading_implication": "方向性K线表明市场在该周期内存在强势的单向推动力量，通常预示趋势延续。交易者可用其判断市场方向偏好：看到看跌方向性K线后，预期下一根K线为开盘-高点-低点-收盘的看跌形态；看到看涨方向性K线后，预期下一根K线为开盘-低点-高点-收盘的看涨形态。在多时间框架分析中，高时间框架的方向性K线可指导低时间框架的交易方向。",
+  "common_mistakes": [
+    "混淆方向性K线与反转K线：方向性K线影线小于实体，反转K线影线大于实体，两者形成机制和交易含义完全不同",
+    "忽视多时间框架结构：仅在单一时间框架识别方向性K线，未在低时间框架验证其形成过程，导致误判"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "sIcsLFSNoXM_case_001_nq100日线看跌方向性k线形成过程",
+      "video_id": "sIcsLFSNoXM",
+      "title": "NQ100日线看跌方向性K线形成过程分析"
+    },
+    {
+      "card_id": "sIcsLFSNoXM_case_002_轻质原油期货多日方向性k线后的反转",
+      "video_id": "sIcsLFSNoXM",
+      "title": "轻质原油日线三日方向性K线后的看跌反转"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "original_card_id": "sIcsLFSNoXM_concept_directional_candle",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.519,
+        371.68
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132298Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,103 @@
+{
+  "card_id": "iEaMbuFZb24_case_003_白银周线_4小时_15分钟的看跌扩张",
+  "type": "case",
+  "title": "白银周线看跌交付状态改变与多时间框架对齐的3R交易",
+  "related_concepts": [
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "displacement",
+    "market_structure_shift",
+    "protected_high_low"
+  ],
+  "school": "ICT",
+  "asset": "XAGUSD",
+  "timeframe": "Weekly / 4H / 15M",
+  "market_context": "白银周线形成看跌交付状态改变（CSD），价格突破前期高点后回落至区间内，随后继续下行。博主利用多时间框架对齐寻找高概率空头设置。",
+  "key_observation": "周线形成CSD信号（收盘穿过上升蜡烛），预示看跌延续；4小时和15分钟时间框架同步形成看跌设置，三个时间框架对齐产生强大的扩张信号。",
+  "analysis_steps": [
+    "Step 1: 在周线图上识别价格突破前期高点后回落至区间内，随后继续下行的形态",
+    "Step 2: 确认周线蜡烛收盘穿过一系列上升蜡烛，形成看跌交付状态改变（CSD）",
+    "Step 3: 标记周线下方的失败摆动低点和公允价值缺口作为目标区域",
+    "Step 4: 下钻至4小时时间框架，等待高时间框架蜡烛的上影线形成",
+    "Step 5: 在4小时图上识别价格扫荡高点和触及对立蜡烛的两个兴趣点重叠",
+    "Step 6: 确认4小时蜡烛收盘回到前一根蜡烛内部，形成看跌结构",
+    "Step 7: 标记4小时下方的等值低点和前期低点作为目标",
+    "Step 8: 下钻至15分钟时间框架，等待通过一系列上升蜡烛的收盘和CSD信号",
+    "Step 9: 在15分钟图上识别价格回测至公允价值缺口和兴趣点",
+    "Step 10: 确认15分钟收盘穿过上升蜡烛序列，形成CSD和订单块",
+    "Step 11: 在15分钟收盘处入场做空，止损设在预期持有的高点",
+    "Step 12: 目标设定为周线标记的低点区域，与标准差指标对齐，确认为3R交易"
+  ],
+  "outcome": "价格继续下行穿过目标区域，交易获得3R收益。三个时间框架对齐的看跌扩张完全实现。",
+  "lessons": "多时间框架对齐是交易中最重要的概念之一。缺乏高时间框架分析会导致交易方向错误和频繁被套。通过周线CSD确定方向偏差，4小时找结构，15分钟精确入场，可以显著提高交易成功率和风险回报比。",
+  "primary_image": "cards/iEaMbuFZb24/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/iEaMbuFZb24/images/case_003_detail_1.jpg",
+    "cards/iEaMbuFZb24/images/case_003_detail_2.jpg",
+    "cards/iEaMbuFZb24/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "SPY 15 分钟 K 线图。图上显示从 10:00 至 15:00 的价格走势，可见价格范围约 31.550 至 32.175。图上有三条水平线分别位于 31.975、31.900 和 31.800 处。两个矩形框分别标注在 31.975-32.000 区间和 31.800-31.850 区间。右下角显示文字标签包括'S1'、'15m 4H Model'、'04:00:00'和'Bias: Be",
+    "case_003_detail_1.jpg": "图表为蜡烛图，显示从3月至5月2025年的价格走势。价格范围从24000至36500。图上有一条水平虚线位于27740处，一条竖直虚线标记为Mon 04 Nov。K线由绿色和黑色蜡烛组成，分布在整个时间周期内。10月份出现最高蜡烛约35500，3月份出现最低蜡烛约24500。图右上角显示'The Market Lens'文字，左下角显示'TradingView PRO'标识。",
+    "case_003_detail_2.jpg": "图表为蜡烛图，显示从 2024 年 3 月至 2025 年 5 月的价格走势。价格范围从 24000 到 36500。图上有两条水平线：左侧约 30385 处一条，上方约 34200 处一条。在 34000 至 34200 区间有一个矩形标注框。K 线由绿色和黑色蜡烛组成，图右侧有竖虚线标记 12 月日期分界。左下角显示 TradingView Pro 标识。右上角显示'The Market Le",
+    "case_003_detail_3.jpg": "SPY 4 小时 K 线图，价格范围约 30.375 至 33.625。图上有 3 条蓝色水平线分别位于 32.375、32.125 和 31.345 处。另有 3 个矩形框标注，分别覆盖约 31.875-32.625、31.500-32.000 和 32.750-33.250 的价格区间。K 线显示在 32.125-32.375 区间内有多根 K 线聚集，部分 K 线在 31.500-32.00"
+  },
+  "sources": [
+    {
+      "video_id": "iEaMbuFZb24",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        370.599,
+        728.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了周线、4小时、15分钟三个时间框架的分析过程，清晰标注了关键价位、CSD信号、目标区域，并明确说明交易结果为3R收益。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:40.500462Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"白银周线看跌交付状态改变与多时间框架对齐的3R交易\",\"school\":\"ICT\",\"asset\":\"XAGUSD\",\"timeframe\":\"Weekly / 4H / 15M\",\"market_context\":\"白银周线形成看跌交付状态改变（CSD），价格突破前期高点后回落至区间内，随后继续下行。博主利用多时间框架对齐寻找高概率空头设置。\",\"key_observation\":\"周线形成CSD信号（收盘穿过上升蜡烛），预示看跌延续；4小时和15分钟时间框架同步形成看跌设置，三个时间框架对齐产生强大的扩张信号。\",\"analysis_steps\":[\"Step 1: 在周线图上识别价格突破前期高点后回落至区间内，随后继续下行的形态\",\"Step 2: 确认周线蜡烛收盘穿过一系列上升蜡烛，形成看跌交付状态改变（CSD）\",\"Step 3: 标记周线下方的失败摆动低点和公允价值缺口作为目标区域\",\"Step 4: 下钻至4小时时间框架，等待高时间框架蜡烛的上影线形成\",\"Step 5: 在4小时图上识别价格扫荡高点和触及对立蜡烛的两个兴趣点重叠\",\"Step 6: 确认4小时蜡烛收盘回到前一根蜡烛内部，形成看跌结构\",\"Step 7: 标记4小时下方的等值低点和前期低点作为目标\",\"Step 8: 下钻至15分钟时间框架，等待通过一系列上升蜡烛的收盘和CSD信号\",\"Step 9: 在15分钟图上识别价格回测至公允价值缺口和兴趣点\",\"Step 10: 确认15分钟收盘穿过上升蜡烛序列，形成CSD和订单块\",\"Step 11: 在15分钟收盘处入场做空，止损设在预期持有的高点\",\"Step 12: 目标设定为周线标记的低点区域，与标准差指标对齐，确认为3R交易\"],\"outcome\":\"价格继续下行穿过目标区域，交易获得3R收益。三个时间框架对齐的看跌扩张完全实现。\",\"lessons\":\"多时间框架对齐是交易中最重要的概念之一。缺乏高时间框架分析会导致交易方向错误和频繁被套。通过周线CSD确定方向偏差，4小时找结构，15分钟精确入场，可以显著提高交易成功率和风险回报比。\",\"primary_image_frame_id\":\"iEaMbuFZb24_f020\",\"supporting_image_frame_ids\":[\"iEaMbuFZb24_f015\",\"iEaMbuFZb24_f016\",\"iEaMbuFZb24_f019\"],\"related_concepts\":[\"CSD (Change in the state of delivery)\",\"FVG (Fair Value Gap)\",\"Order Block\",\"Displacement\",\"Market Structure Shift\",\"Multi-timeframe alignment\",\"Protected Swing\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了周线、4小时、15分钟三个时间框架的分析过程，清晰标注了关键价位、CSD信号、目标区域，并明确说明交易结果为3R收益。\"}",
+  "error": null
+}

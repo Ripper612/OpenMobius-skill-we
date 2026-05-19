@@ -1,0 +1,104 @@
+{
+  "card_id": "TCFvsZeYvV8_case_006_识别操纵后的盘整_从操纵反推盘整范围",
+  "type": "case",
+  "title": "通过识别操纵反推盘整范围的方法论",
+  "related_concepts": [
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "accumulation_manipulation_distribution_amd",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "market_structure_shift_mss",
+    "liquidity",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "1M",
+  "market_context": "2023年10月26日伦敦盘和纽约盘交易时段，NQ11在14260-14460区间内出现多轮操纵-盘整循环，伴随FVG和订单块的形成。",
+  "key_observation": "当难以直接识别盘整范围时，应先定位快速、激进的价格运动（操纵），再反向确定该操纵所作用的盘整区间，而非直接寻找盘整。",
+  "analysis_steps": [
+    "Step 1: 识别伦敦低点（London low）后的第一次激进下行运动，标记出快速位移（Displacement）。",
+    "Step 2: 根据激进下行后的反弹回升，确定该操纵所对应的盘整范围（约14300-14460区间）。",
+    "Step 3: 在已识别的盘整范围上方标记分布区域（Distribution），预期价格在突破该高点后会出现激进上行。",
+    "Step 4: 观察价格突破盘整高点后的激进上行，随后回落进入新的盘整范围，形成新一轮积累-操纵-分布（AMD）循环。",
+    "Step 5: 在新盘整范围下方标记预期分布低点，使用操纵腿的投影（从高点到创新高的低点）来预测分布目标。",
+    "Step 6: 进入伦敦盘时段，重复该方法：先定位激进的价格运动，再反推其对应的盘整范围。",
+    "Step 7: 使用操纵腿投影工具，从新高回落到创新高的低点，预测价格在分布阶段的下行目标。"
+  ],
+  "outcome": null,
+  "lessons": "识别盘整的关键是先找操纵（快速、激进的价格运动），而非直接寻找盘整本身。操纵的反向运动定义了盘整的边界。AMD循环在多个时间框架上重复出现，使用投影工具可预测分布阶段的目标价位。",
+  "primary_image": "cards/TCFvsZeYvV8/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/TCFvsZeYvV8/images/case_006_detail_1.jpg",
+    "cards/TCFvsZeYvV8/images/case_006_detail_2.jpg",
+    "cards/TCFvsZeYvV8/images/case_006_detail_3.jpg",
+    "cards/TCFvsZeYvV8/images/case_006_detail_4.jpg",
+    "cards/TCFvsZeYvV8/images/case_006_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "USD 1分钟K线图，时间范围从11:00至12:50。图表显示从14450下跌至14280的下行趋势，跨越约15根K线。图上有三条水平线分别位于14299.75、14280.00和14245.00。三个矩形标注框分别覆盖14460-14500、14280-14320和14240-14290价格区间。绿色阴影区域出现在图表中部偏下方。K线由黑色和绿色蜡烛组成，在14280-14320区间内显示混合",
+    "case_006_detail_1.jpg": "USD 1分钟K线图。图上显示从08:20至11:30的价格走势。可见三条水平虚线分别位于14460、14350和14260价位。图上有两个灰色矩形区域和一个蓝色矩形区域。蓝色矩形区域标注为FVG，覆盖约14350至14420价格范围。K线整体呈现先上升后下降的形态，上升段约12根K线从14340上升至14460，随后出现下行走势至14260附近。图右侧显示HTD标记。",
+    "case_006_detail_2.jpg": "USD 1 分钟 K 线图，时间范围从 08:15 至 12:45，日期标注为 26/10/2023。图上可见价格范围约 14260 至 14530。图中有两条水平线分别位于 14460 和 14300 处。图上标注有两个矩形区域，其中一个蓝色矩形覆盖约 14300 至 14460 的价格区间。K 线形态显示初期上升趋势，随后出现快速下跌，之后在较低价位形成多根绿色 K 线。右侧标注有文字'HYO",
+    "case_006_detail_3.jpg": "USD 1分钟K线图，时间范围显示为26/10/2023。图上价格范围约从14160到14460。可见多条水平虚线标注，包括14450、14320、14240等价位。图表显示一段上升趋势（绿色K线为主），随后转为下降趋势（黑色K线为主），最后在14230至14280区间形成整理形态。图右侧标注有时间信息'NYD'、'8:30'、'0:00'等。底部时间轴显示具体交易时段。",
+    "case_006_detail_4.jpg": "USD 1 分钟 K 线图，时间范围从 10:50 至 13:20。图上价格范围约从 14150 到 14470。图表显示整体下行趋势，期间穿插多根绿色和黑色 K 线。图上标注有三个矩形区域，分别位于约 14230-14280、14270-14290 和 14240-14380 价格范围。两条水平线分别位于 14269.75 和 14290.00。右侧工具栏显示 Sell、Buy、Flatten ",
+    "case_006_detail_5.jpg": "USD 15分钟K线图。图上有一个粉红色矩形框，纵向跨度约从14841.75至15025.75，包含多根K线。矩形内K线呈绿色和棕色混合。矩形右侧有一根独立的绿色K线位于约14960水平。图上有三条水平线分别位于15025.75、14960.00和14841.75。一条竖虚线穿过图表。左下角标注'NYO 8-30'，右下方显示'3/10/2023 NQ11 | 15m'和时间戳'Tue 03 Oc"
+  },
+  "sources": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        681.16,
+        863.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从操纵反推盘整的方法论，包括具体价位（14260-14460）、时间框架（1M）、多个循环示例和投影工具应用。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:56.801907Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"通过识别操纵反推盘整范围的方法论\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"1M\",\"market_context\":\"2023年10月26日伦敦盘和纽约盘交易时段，NQ11在14260-14460区间内出现多轮操纵-盘整循环，伴随FVG和订单块的形成。\",\"key_observation\":\"当难以直接识别盘整范围时，应先定位快速、激进的价格运动（操纵），再反向确定该操纵所作用的盘整区间，而非直接寻找盘整。\",\"analysis_steps\":[\"Step 1: 识别伦敦低点（London low）后的第一次激进下行运动，标记出快速位移（Displacement）。\",\"Step 2: 根据激进下行后的反弹回升，确定该操纵所对应的盘整范围（约14300-14460区间）。\",\"Step 3: 在已识别的盘整范围上方标记分布区域（Distribution），预期价格在突破该高点后会出现激进上行。\",\"Step 4: 观察价格突破盘整高点后的激进上行，随后回落进入新的盘整范围，形成新一轮积累-操纵-分布（AMD）循环。\",\"Step 5: 在新盘整范围下方标记预期分布低点，使用操纵腿的投影（从高点到创新高的低点）来预测分布目标。\",\"Step 6: 进入伦敦盘时段，重复该方法：先定位激进的价格运动，再反推其对应的盘整范围。\",\"Step 7: 使用操纵腿投影工具，从新高回落到创新高的低点，预测价格在分布阶段的下行目标。\"],\"outcome\":null,\"lessons\":\"识别盘整的关键是先找操纵（快速、激进的价格运动），而非直接寻找盘整本身。操纵的反向运动定义了盘整的边界。AMD循环在多个时间框架上重复出现，使用投影工具可预测分布阶段的目标价位。\",\"primary_image_frame_id\":\"TCFvsZeYvV8_f026\",\"supporting_image_frame_ids\":[\"TCFvsZeYvV8_f023\",\"TCFvsZeYvV8_f024\",\"TCFvsZeYvV8_f025\",\"TCFvsZeYvV8_f027\",\"TCFvsZeYvV8_f029\"],\"related_concepts\":[\"Accumulation, Manipulation, Distribution (AMD)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Liquidity\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从操纵反推盘整的方法论，包括具体价位（14260-14460）、时间框架（1M）、多个循环示例和投影工具应用。\"}",
+  "error": null
+}

@@ -1,0 +1,103 @@
+{
+  "card_id": "MsuEQQl7L6s_case_005_usd_4小时图摆动点筛选案例",
+  "type": "case",
+  "title": "USD 4小时图摆动点筛选：Candle Two/Three Closure与Point of Interest验证",
+  "related_concepts": [
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_two_closure",
+    "candle_three_closure",
+    "point_of_interest",
+    "fair_value_gap",
+    "equal_lows",
+    "swing_formation",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "4H",
+  "market_context": "USD 4小时图显示从2月6日至2月18日的价格走势，范围在22025-22750之间。博主演示如何通过机械性规则（Candle Two/Three Closure）和结构性要求（Point of Interest）来筛选有效摆动点，移除随机或无效的摆动。",
+  "key_observation": "并非所有标记的摆动点都有效。有效摆动点必须同时满足两个条件：(1) 存在有效的Candle Two或Candle Three Closure；(2) 价格触及Point of Interest（如FVG或Equal Lows）。缺少任一条件的摆动点应被移除。",
+  "analysis_steps": [
+    "Step 1: 识别初始摆动点标记，检查是否存在Candle Two Closure（价格未回到前一根K线的高点内部）。",
+    "Step 2: 对于通过Candle Two Closure的摆动点，验证是否存在Point of Interest（如FVG或Equal Lows）。",
+    "Step 3: 移除不满足Candle Two/Three Closure条件的摆动点（例如价格回到前一根K线体内的摆动）。",
+    "Step 4: 移除虽然满足Candle Two Closure但缺少Point of Interest的摆动点（机械有效但结构无效）。",
+    "Step 5: 评估保留的摆动点是否在逻辑上合理（例如两个摆动点距离过近时，考虑移除其中一个）。",
+    "Step 6: 确认最终保留的摆动点既满足机械条件又触及关键结构区域（FVG、Equal Lows等）。"
+  ],
+  "outcome": null,
+  "lessons": "有效摆动点筛选需要双重验证：机械性的K线闭合规则（Candle Two/Three Closure）确保技术有效性，Point of Interest验证确保结构意义。单独满足其中一个条件不足以确认摆动点有效。这种严格筛选可以移除噪音，提高后续交易设置的质量。",
+  "primary_image": "cards/MsuEQQl7L6s/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/MsuEQQl7L6s/images/case_005_detail_1.jpg",
+    "cards/MsuEQQl7L6s/images/case_005_detail_2.jpg",
+    "cards/MsuEQQl7L6s/images/case_005_detail_3.jpg",
+    "cards/MsuEQQl7L6s/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 4小时K线图。图表显示价格范围从22050到22750。左侧标注一条水平线位于22614.25处。图上另有一条水平线约在22300处，其下方有矩形标注框。K线序列由绿色和黑色蜡烛组成，部分K线带有粉红色影线。右侧多根K线显示长上影线或长下影线。图中央有一条竖虚线标记时间点11 Feb 25 14:00。底部工具栏显示4h时间框架和10x倍数选项。",
+    "case_005_detail_1.jpg": "USD 4小时K线图。图表显示从12日至22日期间的价格走势，价格范围在24200至25320之间。图上绘制了多条矩形框，标注了特定的价格区间。两条水平虚线分别位于约24500和25160处。右侧显示黄色矩形框覆盖约24680至24820的价格区间。K线以绿色和黑色交替出现，大多数K线具有上下影线。图表底部显示时间戳'Fri 17 Oct 25, 10:00'和交易工具栏。",
+    "case_005_detail_2.jpg": "USD 4小时K线图。图上显示价格范围从24160到25280。左侧有一根大型黑色K线从10:00时段向下延伸。中间区域（12:00至16:00）显示多根绿色和黑色K线在24400至24880区间内波动。图上标注有两条水平虚线分别位于24605和24400价格位。右侧最新K线区域用黄色矩形框标记，价格范围约在24640至24800之间。图左下角显示时间标记'1/4 AMC'，底部显示'Tue 14",
+    "case_005_detail_3.jpg": "图表显示 USD 资产的多日 K 线序列，从 2 月 6 日至 2 月 18 日。价格范围在 22025 至 22750 之间。图上有一条灰色虚线水平线位于 22425 处。K 线由绿色（看涨）和黑色（看跌）蜡烛组成，多根 K 线上标有粉红色圆点标记。图中可见多个长下影线形态，特别是在 2 月 9 日附近；同时在 2 月 12-13 日和 2 月 17 日附近有长上影线。中间区域显示 22400 ",
+    "case_005_detail_4.jpg": "USD 4小时K线图，价格范围从22050.00至22750.00。图上有两条水平线分别位于22325.00和22208.75，形成一个矩形标注区域。时间标签显示'Mon 10 Feb '25 18:00'。K线序列显示第7根为大幅下跌K线，上影线延伸至22625.00；第12根K线下影线刺破至22175.00；第14根K线为大幅上涨K线，上影线至22700.00。从第14根K线起，后续K线呈上升"
+  },
+  "sources": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "segment_ids": [
+        "seg_008",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        324.28,
+        423.96
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了摆动点筛选的完整流程，包括具体的移除理由和验证标准，图表清晰显示了标记的摆动点和相关结构区域。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:58.316113Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 4小时图摆动点筛选：Candle Two/Three Closure与Point of Interest验证\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"4H\",\"market_context\":\"USD 4小时图显示从2月6日至2月18日的价格走势，范围在22025-22750之间。博主演示如何通过机械性规则（Candle Two/Three Closure）和结构性要求（Point of Interest）来筛选有效摆动点，移除随机或无效的摆动。\",\"key_observation\":\"并非所有标记的摆动点都有效。有效摆动点必须同时满足两个条件：(1) 存在有效的Candle Two或Candle Three Closure；(2) 价格触及Point of Interest（如FVG或Equal Lows）。缺少任一条件的摆动点应被移除。\",\"analysis_steps\":[\"Step 1: 识别初始摆动点标记，检查是否存在Candle Two Closure（价格未回到前一根K线的高点内部）。\",\"Step 2: 对于通过Candle Two Closure的摆动点，验证是否存在Point of Interest（如FVG或Equal Lows）。\",\"Step 3: 移除不满足Candle Two/Three Closure条件的摆动点（例如价格回到前一根K线体内的摆动）。\",\"Step 4: 移除虽然满足Candle Two Closure但缺少Point of Interest的摆动点（机械有效但结构无效）。\",\"Step 5: 评估保留的摆动点是否在逻辑上合理（例如两个摆动点距离过近时，考虑移除其中一个）。\",\"Step 6: 确认最终保留的摆动点既满足机械条件又触及关键结构区域（FVG、Equal Lows等）。\"],\"outcome\":null,\"lessons\":\"有效摆动点筛选需要双重验证：机械性的K线闭合规则（Candle Two/Three Closure）确保技术有效性，Point of Interest验证确保结构意义。单独满足其中一个条件不足以确认摆动点有效。这种严格筛选可以移除噪音，提高后续交易设置的质量。\",\"primary_image_frame_id\":\"MsuEQQl7L6s_f013\",\"supporting_image_frame_ids\":[\"MsuEQQl7L6s_f011\",\"MsuEQQl7L6s_f012\",\"MsuEQQl7L6s_f001\",\"MsuEQQl7L6s_f014\"],\"related_concepts\":[\"Candle Two Closure\",\"Candle Three Closure\",\"Point of Interest\",\"Fair Value Gap\",\"Equal Lows\",\"Swing High\",\"Swing Low\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了摆动点筛选的完整流程，包括具体的移除理由和验证标准，图表清晰显示了标记的摆动点和相关结构区域。\"}",
+  "error": null
+}

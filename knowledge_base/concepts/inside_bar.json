@@ -1,0 +1,70 @@
+{
+  "card_id": "inside_bar",
+  "type": "merged_concept",
+  "canonical_term": "Inside Bar",
+  "aliases": [
+    "内部K线",
+    "包含K线"
+  ],
+  "school": "The Strat",
+  "definition": "当前K线的高低点都在前一根K线的高低点范围内的形态。不提供明确的方向信号，需等待后续K线确认方向。",
+  "identification_rules": [
+    "当前K线的最高点低于或等于前一根K线的最高点",
+    "当前K线的最低点高于或等于前一根K线的最低点",
+    "当前K线完全被包含在前一根K线的范围内"
+  ],
+  "trading_implication": "Inside Bar本身不给出交易方向信号，需等待下一根K线形成来确认。若后续K线突破前一根K线的高点，预期看涨延续；若突破低点，预期看跌延续。Inside Bar常出现在价格整理或犹豫阶段，是观察市场下一步意图的关键形态。",
+  "common_mistakes": [
+    "将Inside Bar视为独立的交易信号，而不等待后续K线确认",
+    "忽视Inside Bar形成前的市场结构和价格阶段（如扩张vs整理）",
+    "机械地交易Inside Bar而不结合价格交付阶段（phases of price delivery）分析"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "6zTz7WMdMWg_case_003_eth_4小时图的多次反转和流动性扫盘",
+      "video_id": "6zTz7WMdMWg",
+      "title": "ETH 4小时图多次反转与流动性扫盘分析"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_005_gbp_usd_4小时图的摆动点和fvg应用",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD 4小时图的摆动点和FVG多次反转分析"
+    },
+    {
+      "card_id": "9MUej4g9Jyg_case_001_es期货多时间框架交易设置分析",
+      "video_id": "9MUej4g9Jyg",
+      "title": "ES期货多时间框架Strat反转入场分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_inside_bar",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.12,
+        371.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133484Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

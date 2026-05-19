@@ -1,0 +1,52 @@
+{
+  "card_id": "session_based_price_action",
+  "type": "merged_concept",
+  "canonical_term": "Session-based Price Action",
+  "aliases": [
+    "交易时段价格行为",
+    "基于伦敦纽约时段的价格分析"
+  ],
+  "school": "Price Action",
+  "definition": "基于伦敦和纽约等特定交易时段的价格行为分析方法。通过观察各时段内的位移、结构和不平衡，结合前期走势判断当前交易机会和目标位。",
+  "identification_rules": [
+    "识别特定交易时段（如伦敦盘、纽约盘、亚洲盘）内的价格行为特征",
+    "在该时段内观察三个关键要素：位移（Displacement）、结构（相对等高/等低）和不平衡（FVG）",
+    "追踪该时段是否触及或突破前期高点/低点，判断流动性是否被扫除",
+    "结合前期走势（prior action）确定当前时段的预期方向和目标位"
+  ],
+  "trading_implication": "通过分析特定交易时段的价格行为，交易者可以确定日内偏差（intraday bias），进而在更低时间框架上寻找具体入场点。例如，若伦敦盘运行前期高点并产生位移，则预期纽约盘可能继续上行；反之则寻找做空机会。目标位通常对应该时段内的流动性区域（FVG、等高/等低）。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "xdm_OexQWJY",
+      "original_card_id": "xdm_OexQWJY_concept_session_based_price_action",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        187.44
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135664Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

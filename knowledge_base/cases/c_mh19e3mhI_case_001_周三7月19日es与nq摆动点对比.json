@@ -1,0 +1,110 @@
+{
+  "card_id": "c_mh19e3mhI_case_001_周三7月19日es与nq摆动点对比",
+  "type": "case",
+  "title": "ES与NQ摆动点对比：识别相对强弱与SMT",
+  "related_concepts": [
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Relative Weakness",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Candle Closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Size",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Divergence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "swing_points",
+    "order_block",
+    "candle_closure",
+    "market_structure"
+  ],
+  "school": "SMC",
+  "asset": "ES1! / NQ1!",
+  "timeframe": "1D",
+  "market_context": "2023年7月19日（周三），ES和NQ在同一摆动高点形成分歧。ES创出更高的高点，而NQ未能跟进反而创出更低的低点，形成明显的Smart Money Technique信号。",
+  "key_observation": "在7月19日的摆动高点，ES突破并创新高，而NQ未能接近该高点反而下跌，显示ES相对强势、NQ相对弱势。这种分歧可用于判断资产间的相对强弱关系。",
+  "analysis_steps": [
+    "Step 1: 观察7月19日（周三）ES和NQ在同一摆动高点的表现差异——ES保持在该区域附近，NQ出现大幅下跌。",
+    "Step 2: 比较两资产回升时的表现——ES突破摆动高点创新高，而NQ未能接近该高点，形成SMT。",
+    "Step 3: 分析订单块（Order Block）的表现——NQ在订单块处得到尊重并下跌，ES则穿过订单块的中点线并扫除周一高点。",
+    "Step 4: 评估两资产从订单块移出时的动能——NQ获得干净的下跌推动，ES则在下跌中表现乏力，进一步确认相对强弱。",
+    "Step 5: 利用ES/NQ比率图表验证——当ES/NQ图表看涨时，确认ES相对强势、NQ相对弱势。"
+  ],
+  "outcome": null,
+  "lessons": "相对强弱分析的关键指标包括：摆动点表现、K线大小、收盘位置、订单块尊重程度。通过对比相关资产在相同价格水平的反应，可识别SMT并判断哪个资产更适合做多（ES）或做空（NQ）。ES/NQ比率图表提供了快速判断相对强弱的量化工具。",
+  "primary_image": "cards/c_mh19e3mhI/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/c_mh19e3mhI/images/case_001_detail_1.jpg",
+    "cards/c_mh19e3mhI/images/case_001_detail_2.jpg",
+    "cards/c_mh19e3mhI/images/case_001_detail_3.jpg",
+    "cards/c_mh19e3mhI/images/case_001_detail_4.jpg",
+    "cards/c_mh19e3mhI/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图像显示两个并排的蜡烛图面板。左侧面板标记为 D，价格范围约 4400 至 4620，包含一系列绿色和黑色 K 线，多数带有上下影线。右侧面板同样标记为 D，价格范围约 15000 至 16100，包含类似的绿色和黑色 K 线序列。两个面板均显示时间轴标记为 Wed 26 Jul 23 至 Aug 28。右侧面板中央有一个灰色圆形遮挡物。图上可见多个价格标签，包括 4503.75、15312.50",
+    "case_001_detail_1.jpg": "图上为双面板日线K线图。左侧面板价格范围约4400至4650，右侧面板价格范围约14900至16120。两个面板均显示绿色和黑色K线，时间轴标注包括Nov 24 Jul 23、Aug等日期。图上有三个数值标签：4620.50、4493.75、15243.00。图表顶部标注为Trades_edu和USD。未见其他技术指标或形态标注。",
+    "case_001_detail_2.jpg": "图上显示两个并排的 K 线图表面板，均为日线级别（标注显示 Fri 21 Jul 23）。左侧面板价格范围约 4400 至 4650，右侧面板价格范围约 15000 至 16200。两个面板均由绿色和黑色 K 线组成，每根 K 线均带有上下影线。左侧面板中部有一个矩形框标注，框内包含多根 K 线。图上可见两条水平线分别位于 4545.00 和 4545.50 价格位置。右下角显示时间戳 15:15",
+    "case_001_detail_3.jpg": "图上展示 SMT（Smart Money Technique）的使用示例。上方面板标记为'Relative Strength'，包含一组黑绿相间的 K 线，上方有向上倾斜的趋势线标注'SMT'。下方面板标记为'Relative Weakness'，包含一组黑绿相间的 K 线，下方有向下倾斜的趋势线标注'SMT'。图上文字说明 SMT 可用于显示相关资产之间的分歧，用于展示相对强度和相对弱势。图表类",
+    "case_001_detail_4.jpg": "图表显示两个相邻的日线K线图面板。右侧面板展示价格范围约14900至16120的K线序列，时间跨度从7月至28日。图上标注了三个价格水平：15923.00、15494.75、15320.00。绘制了两条趋势线：一条从左下向右上延伸（约15320至16120），另一条从右上向右下延伸（约16120至15160）。K线由绿色和黑色蜡烛组成，影线长度相对主体变化。右下角显示时间戳15:35:08（UTC",
+    "case_001_detail_5.jpg": "图像显示两个并排的蜡烛图面板，均覆盖从七月初至八月中旬的时间段。左侧面板和右侧面板均包含绿色和黑色蜡烛，表示上升和下降周期。左侧面板上绘制了一条向上的趋势线和一条向下的趋势线，形成一个三角形区域。右侧面板上绘制了一条从左上到右下的向下趋势线。图表中心显示价格标签4677.55，下方显示4500.00和15200.00的价格水平。左侧面板中可见一个矩形注释框。两个面板的右侧均显示价格刻度，左侧显示日"
+  },
+  "sources": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        363.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例进行了完整分析：明确指出资产代码（ES/NQ）、时间框架（日线）、具体日期（7月19日）、关键价位、分析步骤（摆动点对比、订单块表现、K线大小、收盘位置）和结论（ES相对强、NQ相对弱）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:34.838459Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES与NQ摆动点对比：识别相对强弱与SMT\",\"school\":\"SMC\",\"asset\":\"ES1! / NQ1!\",\"timeframe\":\"1D\",\"market_context\":\"2023年7月19日（周三），ES和NQ在同一摆动高点形成分歧。ES创出更高的高点，而NQ未能跟进反而创出更低的低点，形成明显的Smart Money Technique信号。\",\"key_observation\":\"在7月19日的摆动高点，ES突破并创新高，而NQ未能接近该高点反而下跌，显示ES相对强势、NQ相对弱势。这种分歧可用于判断资产间的相对强弱关系。\",\"analysis_steps\":[\"Step 1: 观察7月19日（周三）ES和NQ在同一摆动高点的表现差异——ES保持在该区域附近，NQ出现大幅下跌。\",\"Step 2: 比较两资产回升时的表现——ES突破摆动高点创新高，而NQ未能接近该高点，形成SMT。\",\"Step 3: 分析订单块（Order Block）的表现——NQ在订单块处得到尊重并下跌，ES则穿过订单块的中点线并扫除周一高点。\",\"Step 4: 评估两资产从订单块移出时的动能——NQ获得干净的下跌推动，ES则在下跌中表现乏力，进一步确认相对强弱。\",\"Step 5: 利用ES/NQ比率图表验证——当ES/NQ图表看涨时，确认ES相对强势、NQ相对弱势。\"],\"outcome\":null,\"lessons\":\"相对强弱分析的关键指标包括：摆动点表现、K线大小、收盘位置、订单块尊重程度。通过对比相关资产在相同价格水平的反应，可识别SMT并判断哪个资产更适合做多（ES）或做空（NQ）。ES/NQ比率图表提供了快速判断相对强弱的量化工具。\",\"primary_image_frame_id\":\"c_mh19e3mhI_f007\",\"supporting_image_frame_ids\":[\"c_mh19e3mhI_f003\",\"c_mh19e3mhI_f004\",\"c_mh19e3mhI_f008\",\"c_mh19e3mhI_f009\",\"c_mh19e3mhI_f010\"],\"related_concepts\":[\"Relative Strength\",\"Relative Weakness\",\"SMT (Smart Money Technique)\",\"Swing Points\",\"Order Block\",\"Candle Closure\",\"Candle Size\",\"Divergence\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例进行了完整分析：明确指出资产代码（ES/NQ）、时间框架（日线）、具体日期（7月19日）、关键价位、分析步骤（摆动点对比、订单块表现、K线大小、收盘位置）和结论（ES相对强、NQ相对弱）。\"}",
+  "error": null
+}

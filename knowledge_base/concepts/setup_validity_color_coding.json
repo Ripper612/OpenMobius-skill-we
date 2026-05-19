@@ -1,0 +1,53 @@
+{
+  "card_id": "setup_validity_color_coding",
+  "type": "merged_concept",
+  "canonical_term": "Setup Validity Color Coding",
+  "aliases": [
+    "C2/C3/C4 Color Coding",
+    "Fractal Setup Status Indicator"
+  ],
+  "school": "ICT",
+  "definition": "通过颜色标记指示交易设置（C2、C3、C4）的有效性状态：灰色表示设置在C4内保持有效，红色表示在第一根蜡烛内失败，橙色表示在第二根蜡烛后失败。",
+  "identification_rules": [
+    "灰色C2/C3/C4标记：设置从形成至C4蜡烛收盘期间未被破坏，保持有效状态",
+    "红色C2/C3/C4标记：设置在形成后的第一根蜡烛内即被触发失败",
+    "橙色C2/C3/C4标记：设置在第二根蜡烛后（而非第一根）被触发失败",
+    "在指标设置中勾选C2、C3、C4选项后，图表自动显示相应颜色编码的标记"
+  ],
+  "trading_implication": "颜色编码帮助交易者快速识别设置的生命周期和失败时间点。灰色设置表示仍在有效期内可继续监控；红色和橙色标记则记录已失效的设置，用于回测分析和理解市场结构破坏的时间节点。这对于评估设置质量和优化交易决策具有参考价值。",
+  "common_mistakes": [
+    "混淆颜色含义：误认为红色和橙色都表示同一种失败状态，而实际上它们区分了失败发生的具体时间窗口",
+    "忽视灰色设置的时间限制：灰色表示在C4内有效，但不意味着设置永久有效，需要等待C4收盘确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_setup_validity_color_coding",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.08,
+        546.399
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135774Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

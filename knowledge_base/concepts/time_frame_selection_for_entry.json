@@ -1,0 +1,55 @@
+{
+  "card_id": "time_frame_selection_for_entry",
+  "type": "merged_concept",
+  "canonical_term": "Time Frame Selection for Entry",
+  "aliases": [
+    "Entry Time Frame Selection",
+    "HTF/LTF Alignment"
+  ],
+  "school": "ICT",
+  "definition": "根据入场时间框架选择相应的高时间框架参考点。在低时间框架（5分钟、1分钟）入场时，主要关注日线、4小时和1小时的关键点位；在4小时入场时则参考周线。",
+  "identification_rules": [
+    "确定计划入场的时间框架（如5分钟或1分钟）",
+    "向上查看至少两个更高的时间框架（如日线、4小时、1小时）",
+    "在高时间框架上标注订单块、公允价值缺口、流动性等关键点位",
+    "在低时间框架上寻找设置以接近这些高时间框架的点位",
+    "从高时间框架逐级向下确认，确保低时间框架设置与高时间框架目标对齐"
+  ],
+  "trading_implication": "通过多时间框架联动，交易者可以在低时间框架上获得高概率入场机会，同时以高时间框架的关键点位作为目标。例如，在日线和4小时确认看涨后，在5分钟或1分钟图上等待FVG填充或订单块回测的设置，以较小风险进入趋势。这种方法减少风险并提高入场精准度。",
+  "common_mistakes": [
+    "在低时间框架入场时过度关注月线或周线等过高的时间框架，导致点位过于遥远而不适用",
+    "只关注单一时间框架而忽视多时间框架的对齐确认",
+    "未能在低时间框架上等待具体的设置（如FVG填充、前期低点回测），而是仓促入场"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "wDXTIDbIMwU",
+      "original_card_id": "wDXTIDbIMwU_concept_time_frame_selection_for_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        7.22,
+        189.18
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136281Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,151 @@
+{
+  "card_id": "8BWkRGhuj1k_case_001_nq1_5月27日至6月2日的扩张_整理_反转交易案例",
+  "type": "case",
+  "title": "NQ1! 5月27日-6月2日扩张-整理-反转交易案例",
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Daily Bias",
+      "card_id": "daily_bias",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "expansion",
+    "consolidation",
+    "retracement",
+    "displacement",
+    "fair_value_gap",
+    "order_block",
+    "protected_high_low",
+    "market_structure_shift",
+    "change_in_the_state_of_delivery",
+    "equilibrium",
+    "daily_bias",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H",
+  "market_context": "5月27日至6月2日期间，NQ1!在1小时图上展现从看涨偏向逐步转变为看跌的完整过程。博主通过日线收盘与价格阶段相融合，识别出扩张-整理-反转的形成及其交易机会。",
+  "key_observation": "博主强调将价格阶段（Expansion、Consolidation、Retracement）与日线偏向和保护摆动点相融合，以确认真正的反转信号。单纯的技术形态（如expansion met with expansion）需要配合日线收盘才能形成有效的交易信号。",
+  "analysis_steps": [
+    "Step 1: 识别初始扩张与整理——5月27日形成约21640-21700的整理区间，之前有向上扩张。",
+    "Step 2: 观察扩张是否被反向扩张所遇见——5月28日-29日出现大幅下跌K线（从约21700跌至21225），形成expansion met with expansion的反转信号。",
+    "Step 3: 确认日线收盘与CSD——检查日线是否在整理区间外收盘，以确认真正的交付状态改变（CSD）。",
+    "Step 4: 寻找保护摆动点与继续信号——在反转后寻找浅层回撤进入FVG或低点扫荡，以确认继续方向。",
+    "Step 5: 监控后续阶段——观察是否形成consolidation后的expansion，或retracement后的expansion，以判断是否继续或反转。",
+    "Step 6: 应用日线偏向过滤——当价格形成看似反转的形态时，检查是否与日线偏向对齐，避免被虚假反转所迷惑。",
+    "Step 7: 识别无效交易设置——当后续形态不符合预期阶段序列或日线偏向时，放弃该交易机会。"
+  ],
+  "outcome": "博主展示了多个交易场景：初期看涨偏向下的下跌反转被正确识别，但后续上涨过程中因缺乏保护摆动点而错过做多机会；随后看跌偏向确立后，通过日线收盘与扩张-整理-反转的组合成功识别下跌继续，最终价格从约22000+下跌至约21280附近。博主强调这不是完美交易，而是通过日线偏向的重新对齐来调整交易方向。",
+  "lessons": "将价格阶段与日线收盘、保护摆动点相融合是确认真正反转的关键。单一的技术形态（如expansion met with expansion）容易产生虚假信号；必须等待日线收盘确认CSD，才能以高概率交易反转。保护摆动点的缺失意味着缺乏有效的继续信号，应该放弃该交易。日线偏向是过滤器，防止在不符合整体趋势的地方交易。",
+  "primary_image": "cards/8BWkRGhuj1k/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/8BWkRGhuj1k/images/case_001_detail_1.jpg",
+    "cards/8BWkRGhuj1k/images/case_001_detail_2.jpg",
+    "cards/8BWkRGhuj1k/images/case_001_detail_3.jpg",
+    "cards/8BWkRGhuj1k/images/case_001_detail_4.jpg",
+    "cards/8BWkRGhuj1k/images/case_001_detail_5.jpg",
+    "cards/8BWkRGhuj1k/images/case_001_detail_6.jpg",
+    "cards/8BWkRGhuj1k/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表资产标注为 USD，时间框架为 1h，图右侧当前价标签显示 22031.00。可见价格范围约从 21400 至 22240。图上有两个矩形标注框：一个位于约 21640 至 21720 区间，另一个位于约 21900 至 21960 区间。图上另有一条水平实线位于约 21720，以及一条水平虚线位于约 21640。K 线序列中可见一根从约 21560 上行至 21900 的大阳线，随后出现多根",
+    "case_001_detail_1.jpg": "图为教学幻灯片，标题为'Blending Phases'，左下方显示一段无价格刻度的K线图，右上方为流程图结构。流程图包含多个节点，标签分别为'Expansion'（红色/蓝色/绿色/粉色）、'Consolidation'、'Retracement'及'Expansion (Reversal)'，以连线相连。K线图上有一个矩形框标注一组K线区域，并有两条短水平蓝线分别位于图的不同位置。图右下角标注",
+    "case_001_detail_2.jpg": "图标题为'Blending Phases'，左下角标注品牌'TTrades'及页码'12'。图右上方有一个流程图，包含标签节点：'Expansion'（圆形，顶部）、'Expansion'（粉色椭圆）、'Consolidation'（矩形）、'Retracement'（矩形）、'Expansion'（绿色，两个）、'Expansion (Reversal)'（粉色矩形）。K线图上绘有三个矩形框，分",
+    "case_001_detail_3.jpg": "图表显示资产代码 NQ1！的 1 小时 K 线图，货币单位为 USD，可见价格范围约 21160 至 21880。图上有一个矩形标注框，覆盖约 21640 至 21700 区间内的多根 K 线，对应 5 月 27 日时段。图上有两条水平虚线，分别位于约 21680 和 21415 附近。一条垂直虚线标记于 5 月 28 日 07:00。5 月 28 日 18:00 附近出现数根主体较大的 K 线，",
+    "case_001_detail_4.jpg": "图表显示 USD 1 小时 K 线图，日期范围覆盖 5 月 25 日至 5 月 30 日，可见价格区间约为 21225 至 21800。图上有一个矩形框标注，框住约 8 至 10 根 K 线，价格范围约在 21625 至 21700 之间，位于 5 月 27 日附近。图右侧 5 月 29 日区域出现两根大幅绿色 K 线与一根大幅黑色 K 线，黑色 K 线实体从约 21700 延伸至 21225。图",
+    "case_001_detail_5.jpg": "图表为USD计价资产的1小时K线图，时间轴覆盖5月25日至5月30日。图左侧价格轴显示范围约21275至21875。图上有一个矩形标注框，位于5月27日附近、价格约21625至21700区间内，框内包含多根K线。图上有两条水平线，分别位于约21675和约21415处，后者为虚线延伸。图右侧最新K线区域（5月29日07:00附近）有一根体量较大的绿色K线及一根黑色K线，并有一条垂直虚线穿过该区域。左",
+    "case_001_detail_6.jpg": "图表为 NQ1! 1 小时 K 线图，价格刻度范围约从 21275 至 21875。图上绘有一个矩形框，覆盖约 21600 至 21700 区间内数根 K 线。图上有一条水平实线位于约 21675，另有一条水平虚线位于约 21425，两条线均向右延伸至图表右侧。日期 29 附近出现两根大幅绿色 K 线，从约 21350 上行至约 21750。图右上角标注有文字 'The Market Lens' ",
+    "case_001_detail_7.jpg": "图表资产标注为 USD，时间框架为 1h，日期范围覆盖 5 月 27 日至 6 月 2 日附近。可见价格范围约从 21400 至 22240。图上有两个矩形标注：一个位于约 21640 至 21720 区间，对应日期 27-28 日的横盘 K 线群；另一个位于约 21920 至 22060 区间，对应 28 日 18:00 后上涨后的 K 线群。图上另有一条实线水平线位于约 21720，一条虚线水"
+  },
+  "sources": [
+    {
+      "video_id": "8BWkRGhuj1k",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_018"
+      ],
+      "time_range": [
+        315.759,
+        997.759
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例进行了完整、详细的分析，包括资产代码（NQ1!）、时间框架（1H）、具体价位（21640-21700整理区、21225低点等）、分析步骤（扩张-整理-反转的识别过程）、日线收盘的确认机制、保护摆动点的应用，以及最终的交易结果。所有关键要素均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:27.613030Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1! 5月27日-6月2日扩张-整理-反转交易案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H\",\"market_context\":\"5月27日至6月2日期间，NQ1!在1小时图上展现从看涨偏向逐步转变为看跌的完整过程。博主通过日线收盘与价格阶段相融合，识别出扩张-整理-反转的形成及其交易机会。\",\"key_observation\":\"博主强调将价格阶段（Expansion、Consolidation、Retracement）与日线偏向和保护摆动点相融合，以确认真正的反转信号。单纯的技术形态（如expansion met with expansion）需要配合日线收盘才能形成有效的交易信号。\",\"analysis_steps\":[\"Step 1: 识别初始扩张与整理——5月27日形成约21640-21700的整理区间，之前有向上扩张。\",\"Step 2: 观察扩张是否被反向扩张所遇见——5月28日-29日出现大幅下跌K线（从约21700跌至21225），形成expansion met with expansion的反转信号。\",\"Step 3: 确认日线收盘与CSD——检查日线是否在整理区间外收盘，以确认真正的交付状态改变（CSD）。\",\"Step 4: 寻找保护摆动点与继续信号——在反转后寻找浅层回撤进入FVG或低点扫荡，以确认继续方向。\",\"Step 5: 监控后续阶段——观察是否形成consolidation后的expansion，或retracement后的expansion，以判断是否继续或反转。\",\"Step 6: 应用日线偏向过滤——当价格形成看似反转的形态时，检查是否与日线偏向对齐，避免被虚假反转所迷惑。\",\"Step 7: 识别无效交易设置——当后续形态不符合预期阶段序列或日线偏向时，放弃该交易机会。\"],\"outcome\":\"博主展示了多个交易场景：初期看涨偏向下的下跌反转被正确识别，但后续上涨过程中因缺乏保护摆动点而错过做多机会；随后看跌偏向确立后，通过日线收盘与扩张-整理-反转的组合成功识别下跌继续，最终价格从约22000+下跌至约21280附近。博主强调这不是完美交易，而是通过日线偏向的重新对齐来调整交易方向。\",\"lessons\":\"将价格阶段与日线收盘、保护摆动点相融合是确认真正反转的关键。单一的技术形态（如expansion met with expansion）容易产生虚假信号；必须等待日线收盘确认CSD，才能以高概率交易反转。保护摆动点的缺失意味着缺乏有效的继续信号，应该放弃该交易。日线偏向是过滤器，防止在不符合整体趋势的地方交易。\",\"primary_image_frame_id\":\"8BWkRGhuj1k_f018\",\"supporting_image_frame_ids\":[\"8BWkRGhuj1k_f011\",\"8BWkRGhuj1k_f012\",\"8BWkRGhuj1k_f013\",\"8BWkRGhuj1k_f014\",\"8BWkRGhuj1k_f015\",\"8BWkRGhuj1k_f016\",\"8BWkRGhuj1k_f017\",\"8BWkRGhuj1k_f019\",\"8BWkRGhuj1k_f020\",\"8BWkRGhuj1k_f021\",\"8BWkRGhuj1k_f022\",\"8BWkRGhuj1k_f023\",\"8BWkRGhuj1k_f024\",\"8BWkRGhuj1k_f025\",\"8BWkRGhuj1k_f026\"",
+  "error": null
+}

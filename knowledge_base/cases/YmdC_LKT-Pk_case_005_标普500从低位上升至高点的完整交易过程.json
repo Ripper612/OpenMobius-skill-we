@@ -1,0 +1,129 @@
+{
+  "card_id": "YmdC_LKT-Pk_case_005_标普500从低位上升至高点的完整交易过程",
+  "type": "case",
+  "title": "标普500从3790低位上升至3838高点的多时间框架交易过程",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "optimal_trade_entry_ote",
+    "balanced_price_range_bpr",
+    "market_structure_shift_mss",
+    "liquidity",
+    "premium_discount",
+    "equilibrium_eq",
+    "failure_to_displace"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1M / 15S / 5S",
+  "market_context": "标普500 E-mini期货在早盘形成3790-3823的整理区间，随后突破向上。博主在15分钟高时间框架观察到前期高点3822作为目标，利用多个低时间框架（1分钟、15秒、5秒）追踪结构和位移，完整记录从低位到高点的上升全过程。",
+  "key_observation": "博主初期看空偏差，但通过观察低时间框架的结构失败（failure to displace lower）和BPR形态识别，成功切换至看多偏差，并在多个时间框架上捕捉到连续的上升位移和OTE入场机会。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表上识别3790-3823的整理区间，标记前期高点3822作为上升目标。",
+    "Step 2: 在1分钟图表上观察价格突破整理区间后的结构，寻找低于结构的位移以确认下跌信号。",
+    "Step 3: 发现价格未能在公允价值缺口下方有效位移，反而停留在OTE折价区内，判断下跌失败。",
+    "Step 4: 识别aggressive down后跟aggressive up的BPR形态，确认市场结构转变为看多。",
+    "Step 5: 在1分钟图表上第一次做多入场，目标是突破前期高点；部分止损在break even。",
+    "Step 6: 价格回调跌破低点后再次上升，在15秒图表上识别第二次做多机会。",
+    "Step 7: 在15秒图表上观察价格在3814-3825区间的盘整，识别内部流动性和OTE。",
+    "Step 8: 价格继续向上突破，在5秒图表上追踪最后的位移阶段，目标指向3838高点。",
+    "Step 9: 确认价格未能在关键低点下方形成有效位移，继续看多直至达到前期高点目标。"
+  ],
+  "outcome": "博主在多个时间框架上成功捕捉上升趋势，从3790附近做多至3838高点，获得约48点的利润。虽然初期看空偏差，但通过结构分析和失败位移识别，及时切换偏差并获利。部分头寸在break even止损，部分头寸持有至高点附近。",
+  "lessons": "即使初期偏差错误，通过严格遵循结构规则和观察失败位移（failure to displace），仍可识别市场结构转变并获得盈利交易。多时间框架协同分析（HTF目标+LTF执行）提高了入场精准度。BPR形态（aggressive down + aggressive up）是有效的偏差切换信号。",
+  "primary_image": "cards/YmdC_LKT-Pk/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/YmdC_LKT-Pk/images/case_005_detail_1.jpg",
+    "cards/YmdC_LKT-Pk/images/case_005_detail_2.jpg",
+    "cards/YmdC_LKT-Pk/images/case_005_detail_3.jpg",
+    "cards/YmdC_LKT-Pk/images/case_005_detail_4.jpg",
+    "cards/YmdC_LKT-Pk/images/case_005_detail_5.jpg",
+    "cards/YmdC_LKT-Pk/images/case_005_detail_6.jpg",
+    "cards/YmdC_LKT-Pk/images/case_005_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "ES 1分钟K线图。图上显示从约3700至3838的上升趋势，跨越约40根K线。在3814至3822区间有一个矩形标注框。图右侧显示多个价格标签，包括3822.00、3814.00、3810.50等水平线。时间戳显示为Jun 25 Oct 22 09:52。K线以绿色为主，间有红色K线。最高点在3838附近，之后出现回调。",
+    "case_005_detail_1.jpg": "CME_MINI 1 分钟 K 线图，时间范围从 10:00 至 12:20。图上显示一系列绿色和红色 K 线。左侧呈下降趋势，约从 10:00 至 10:25；随后在 10:25 至 10:50 间出现盘整；10:50 至 11:10 间呈上升趋势；11:10 至 11:30 间再次出现回调和盘整。图上标注有多条水平线，标签分别为 0、0.62、0.5、0.62、0.79，呈斐波那契比例分布。图",
+    "case_005_detail_2.jpg": "CME_MINI 1 分钟 K 线图，时间范围从 10:20 至 12:39。图上绘制了多条水平线和矩形框，其中标注有斐波那契水平位 0.5、0.62、0.79（出现两次）。K 线呈绿红相间的蜡烛形态，多根 K 线具有较长的上下影线。图右侧显示当前时间为 12:39，图上可见多条无标签的水平线和矩形框标注。",
+    "case_005_detail_3.jpg": "CME_MINI 1 分钟 K 线图。图上绘制多条水平线，标注有斐波那契比例数值（0.5、0.62、0.79），分别出现在图表的不同价格区域。左下角可见一个灰色矩形框，标记为 OB。K 线以红绿混合形式呈现，时间轴显示从 10:40 至 13:10 的 1 分钟级别数据。图上未见其他指标或形态标注。",
+    "case_005_detail_4.jpg": "S&P 500 E-mini Futures 15 分钟 K 线图。图上显示价格范围从 3762.50 到 3842.50。图中有多条水平线标注在 3822.00、3814.00、3804.75、3797.50 等价位。图上绘制了两个矩形框，分别标记在 3800-3825 和 3795-3815 区间。此外还有三条趋势线：一条从约 3828 向下至 3795，另两条分别标记上升和下降方向。K 线呈",
+    "case_005_detail_5.jpg": "S&P 500 E-mini 期货 1 分钟 K 线图。图上显示从 07:10 至 10:50 的交易时段。可见两条水平线分别位于 3823.00 和 3790.00，将图表分为三个价格区间。K 线序列在 07:30 至 08:50 期间以红色蜡烛为主，集中在 3790-3810 区域；从 09:00 开始转为绿色蜡烛主导的上升序列。最新 K 线位于 10:50 附近，收盘价在 3823.00 水",
+    "case_005_detail_6.jpg": "S&P 500 E-mini 期货 1 分钟 K 线图。图表显示从左侧约 06:45 时间点开始的上升趋势，价格从 3700 附近上升至 3822 高点。图右侧标注有多条水平线，价格水平分别为 3822.00、3817.25、3808.75、3807.25、3800.00、3794.25、3792.50。图上标记有时间戳'Sep 21 03:22 29.64'。上升阶段以绿色 K 线为主，在 38",
+    "case_005_detail_7.jpg": "S&P 500 E-mini Futures 15 秒 K 线图。图上显示从 09:00 至 10:25 的价格走势，整体价格范围从 3794.00 到 3860.00。图中有一条矩形框标注，框定了 3814.00 至 3825.00 的价格区间。图上还有两条水平线分别位于 3825.00 和 3814.00。K 线从左侧 3794.00 附近开始上升，中间在 3814-3825 区间内出现多根红"
+  },
+  "sources": [
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        187.56,
+        545.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整清晰：资产ES、多时间框架（1M/15S/5S）、关键价位（3790-3823-3838）、分析步骤（结构识别→位移失败→偏差切换→多次入场）、交易结果（获利）均有详细讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:58.981813Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500从3790低位上升至3838高点的多时间框架交易过程\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1M / 15S / 5S\",\"market_context\":\"标普500 E-mini期货在早盘形成3790-3823的整理区间，随后突破向上。博主在15分钟高时间框架观察到前期高点3822作为目标，利用多个低时间框架（1分钟、15秒、5秒）追踪结构和位移，完整记录从低位到高点的上升全过程。\",\"key_observation\":\"博主初期看空偏差，但通过观察低时间框架的结构失败（failure to displace lower）和BPR形态识别，成功切换至看多偏差，并在多个时间框架上捕捉到连续的上升位移和OTE入场机会。\",\"analysis_steps\":[\"Step 1: 在15分钟图表上识别3790-3823的整理区间，标记前期高点3822作为上升目标。\",\"Step 2: 在1分钟图表上观察价格突破整理区间后的结构，寻找低于结构的位移以确认下跌信号。\",\"Step 3: 发现价格未能在公允价值缺口下方有效位移，反而停留在OTE折价区内，判断下跌失败。\",\"Step 4: 识别aggressive down后跟aggressive up的BPR形态，确认市场结构转变为看多。\",\"Step 5: 在1分钟图表上第一次做多入场，目标是突破前期高点；部分止损在break even。\",\"Step 6: 价格回调跌破低点后再次上升，在15秒图表上识别第二次做多机会。\",\"Step 7: 在15秒图表上观察价格在3814-3825区间的盘整，识别内部流动性和OTE。\",\"Step 8: 价格继续向上突破，在5秒图表上追踪最后的位移阶段，目标指向3838高点。\",\"Step 9: 确认价格未能在关键低点下方形成有效位移，继续看多直至达到前期高点目标。\"],\"outcome\":\"博主在多个时间框架上成功捕捉上升趋势，从3790附近做多至3838高点，获得约48点的利润。虽然初期看空偏差，但通过结构分析和失败位移识别，及时切换偏差并获利。部分头寸在break even止损，部分头寸持有至高点附近。\",\"lessons\":\"即使初期偏差错误，通过严格遵循结构规则和观察失败位移（failure to displace），仍可识别市场结构转变并获得盈利交易。多时间框架协同分析（HTF目标+LTF执行）提高了入场精准度。BPR形态（aggressive down + aggressive up）是有效的偏差切换信号。\",\"primary_image_frame_id\":\"YmdC_LKT-Pk_f013\",\"supporting_image_frame_ids\":[\"YmdC_LKT-Pk_f008\",\"YmdC_LKT-Pk_f009\",\"YmdC_LKT-Pk_f010\",\"YmdC_LKT-Pk_f011\",\"YmdC_LKT-Pk_f002\",\"YmdC_LKT-Pk_f012\",\"YmdC_LKT-Pk_f014\",\"YmdC_LKT-Pk_f015\",\"YmdC_LKT-Pk_f016\",\"YmdC_LKT-Pk_f017\",\"YmdC_LKT-Pk_f018\",\"YmdC_LKT-Pk_f019\",\"YmdC_LKT-Pk_f020\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displace",
+  "error": null
+}

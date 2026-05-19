@@ -1,0 +1,67 @@
+{
+  "card_id": "silver_bullet_strategy",
+  "type": "merged_concept",
+  "canonical_term": "Silver Bullet Strategy",
+  "aliases": [
+    "Silver Bullet AM Session"
+  ],
+  "school": "Price Action",
+  "definition": "基于前一小时（9:00 AM）高低点的日内交易策略。仅在10-11 AM时间窗口内，等待价格突破该范围的一侧后，寻求反转入场以触及范围另一端。",
+  "identification_rules": [
+    "标记9:00 AM小时线的高点和低点，作为交易框架的基准范围",
+    "在10:00 AM时开始监控，等待价格突破（sweep）该范围的高点或低点",
+    "一旦价格突破范围一侧，寻找反转信号（如Breaker Block、Order Block或Fair Value Gap）作为入场点",
+    "所有入场必须发生在10:00-11:00 AM时间窗口内，超出此窗口不交易",
+    "交易目标是价格回归至9:00 AM范围的另一端（高点或低点）"
+  ],
+  "trading_implication": "该策略利用美国盘中特定时间窗口的价格结构反转机会。通过标记前一小时的极值点，识别机构订单流向（扫荡流动性后的反转），在限定时间内以较高概率捕捉日内反向运动。适用于NQ等高流动性合约，强调时间纪律和结构确认。",
+  "common_mistakes": [
+    "在10-11 AM窗口外寻找或执行交易信号，违反时间限制规则",
+    "价格未能突破9:00 AM范围的高低点时仍然交易（应等待明确的sweep确认）",
+    "忽视Breaker Block等反转确认信号，仅基于价格突破就盲目入场"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "o0v4KQxZbpU_case_001_第一个silver_bullet交易案例",
+      "video_id": "o0v4KQxZbpU",
+      "title": "Silver Bullet交易案例：9AM高点扫盘后做空至9AM低点"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_003_回测第一天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "7月第一个Silver Bullet做空交易回测"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "original_card_id": "o0v4KQxZbpU_concept_silver_bullet_strategy",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.599,
+        210.599
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135933Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

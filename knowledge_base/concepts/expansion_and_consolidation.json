@@ -1,0 +1,61 @@
+{
+  "card_id": "expansion_and_consolidation",
+  "type": "merged_concept",
+  "canonical_term": "Expansion and Consolidation",
+  "aliases": [
+    "Expansion/Consolidation cycle",
+    "Price expansion and consolidation phases"
+  ],
+  "school": "Price Action",
+  "definition": "价格运动的两种主要形态：扩张是单向强势运动，特征为小影线支撑趋势延续；盘整是价格在一定范围内波动，特征为往返运动消耗幅度。",
+  "identification_rules": [
+    "扩张：K线开盘后单向运动，影线小，收盘远离开盘价，形成一侧方向性走势",
+    "盘整：K线开盘后出现对向运动，影线大，收盘接近开盘价或在前一K线范围内",
+    "扩张转盘整：价格在扩张后回撤进入一定价格区间，形成多根往返K线",
+    "盘整转扩张：价格突破盘整区间边界，形成小影线的单向K线"
+  ],
+  "trading_implication": "扩张阶段适合顺势交易，寻找小影线K线作为入场信号。盘整阶段应避免追高杀低，或在盘整低点扫荡后寻求突破。扩张后的盘整常预示反向或继续，需结合更低时间框架确认。扩张-盘整-扩张的循环是识别趋势延续的关键模式。",
+  "common_mistakes": [
+    "在扩张阶段试图交易盘整，导致被困在反向运动中",
+    "将盘整误认为扩张，在大影线K线上追单",
+    "忽视盘整中的流动性扫荡，未能识别突破前的诱导",
+    "在扩张-盘整-扩张周期中过早入场，未等待盘整完成确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_expansion_and_consolidation",
+      "segment_ids": [
+        "seg_002",
+        "seg_006",
+        "seg_009",
+        "seg_023",
+        "seg_031",
+        "seg_037",
+        "seg_038"
+      ],
+      "time_range": [
+        122.479,
+        2033.039
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132798Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

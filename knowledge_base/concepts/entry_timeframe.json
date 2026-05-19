@@ -1,0 +1,55 @@
+{
+  "card_id": "entry_timeframe",
+  "type": "merged_concept",
+  "canonical_term": "Entry Timeframe",
+  "aliases": [
+    "交易入场周期",
+    "入场时间框架"
+  ],
+  "school": "ICT",
+  "definition": "在确定日线级别的交易偏差后，下降到更低时间框架（如小时图、5分钟图）寻找具体交易入场点的操作周期。",
+  "identification_rules": [
+    "先在高时间框架（HTF，如日线）确立交易方向和关键价格水平（前日高低点、摆动点、FVG等）",
+    "确认日线偏差后，逐级下降到中等时间框架（如小时图）标记午夜开盘价、关键FVG和入场兴趣点",
+    "继续下降到更低时间框架（如5分钟图）识别具体的FVG或订单块作为精确入场区域",
+    "在低时间框架上设置止损于该区域的高点，目标位参考中等时间框架的摆动低点或更高时间框架的目标"
+  ],
+  "trading_implication": "Entry Timeframe是从宏观到微观的分层入场方法。交易者先用日线确定趋势方向和大级别支撑阻力，再用小时图定位时间窗口（如伦敦或纽约交易时段），最后用5分钟图精确找到FVG或OB作为具体入场点。这样可以在高概率区域以更精确的价格进场，同时保持清晰的止损逻辑。",
+  "common_mistakes": [
+    "直接在低时间框架交易而忽视日线偏差确认，导致交易方向与大趋势相反",
+    "在低时间框架找到FVG后未检查中等时间框架的结构，可能入场于虚假信号",
+    "未根据交易时段（伦敦、纽约）调整低时间框架的观察，错过高波动性的入场机会"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_entry_timeframe",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        811.56,
+        1106.7
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132704Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

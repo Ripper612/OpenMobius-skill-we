@@ -1,0 +1,108 @@
+{
+  "card_id": "TfHlNgAZ_II_case_004_usd_jpy日线趋势延续案例",
+  "type": "case",
+  "title": "USD/JPY日线趋势延续：从内部流动性到外部流动性的机制化交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Higher Lows and Higher Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "internal_range_liquidity",
+    "swing_high_swing_low",
+    "market_structure_shift",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "USD/JPY",
+  "timeframe": "1D / 1H",
+  "market_context": "USD/JPY日线形成更高的低点和更高的高点的上升趋势。价格在内部范围流动性处回撤，博主预期价格将继续交易更高，最终到达日线外部范围流动性目标。",
+  "key_observation": "日线确立上升趋势结构（HLHLs），内部流动性和外部流动性已识别。小时图显示交付状态改变（CSD），形成新的订单块，为趋势延续提供入场机会。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别更高的低点和更高的高点，确认上升趋势偏差。",
+    "Step 2: 标记日线内部范围流动性（Internal Range Liquidity）和外部范围流动性（External Range Liquidity）。",
+    "Step 3: 下降到小时图，寻找交付状态改变（CSD）以识别订单块。",
+    "Step 4: 在小时图上找到形成低点的蜡烛，选择合适的订单块用于入场。",
+    "Step 5: 等待价格扫除低点或进入公允价值缺口（FVG），确认新的订单块形成。",
+    "Step 6: 在新订单块低点处设置止损，目标为2倍风险或持有至外部范围流动性。",
+    "Step 7: 追踪价格回撤至内部范围流动性，然后再次向外部范围流动性推进。",
+    "Step 8: 确认价格最终到达日线外部范围流动性目标，完成趋势延续。"
+  ],
+  "outcome": "价格成功从内部范围流动性反弹，形成新的订单块，触及2倍风险目标，随后继续回撤至内部流动性再次向上，最终达到日线外部范围流动性高点（约149127）。",
+  "lessons": "该案例展示了多时间框架分析的机制性应用：日线确定大方向和流动性目标，小时图通过CSD识别具体入场点和订单块。关键是等待价格扫除低点或填补FVG以确认新订单块，从而提高交易概率。止损和目标的设置基于明确的结构参考点。",
+  "primary_image": "cards/TfHlNgAZ_II/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/TfHlNgAZ_II/images/case_004_detail_1.jpg",
+    "cards/TfHlNgAZ_II/images/case_004_detail_2.jpg",
+    "cards/TfHlNgAZ_II/images/case_004_detail_3.jpg",
+    "cards/TfHlNgAZ_II/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表显示 US 资产的 K 线图，价格范围从 146800 到 149500。图上有多条水平线标注，其中 149127 处有一条虚线贯穿整个图表宽度。图中绘制了两个矩形区域，分别位于 147200-147800 和 147700-147950 价格范围。左侧可见一根大幅上升的绿色 K 线从 146900 上升至 149200。中间区域显示多根 K 线在 147700 至 148200 之间的整理形",
+    "case_004_detail_1.jpg": "图表显示一段时间内的 K 线走势，价格范围从 146400 到 149600。图上有四条水平线分别位于 149100、148100、147800 和 147200。图中央有一个黄色矩形区域，范围从 147200 到 147800。右侧出现一根大型绿色 K 线（从约 146400 到 148600）和一根相邻的大型黑色 K 线（从约 148200 到 148700）。整个图表中分布着多根绿色和黑色 ",
+    "case_004_detail_2.jpg": "图表显示 USD/JPY 货币对的 K 线图。左侧价格刻度范围从 146700 到 149400。图上有四条水平线分别位于 149100、147975、147800 和 147950 处。两个黄色矩形区域分别标记在 147200 至 147800 和 147200 至 147950 的价格范围。图表右侧出现一根大型绿色 K 线从约 146700 上升至 148600，其后紧跟一根大型黑色 K 线收",
+    "case_004_detail_3.jpg": "图表显示一份K线图，价格范围从146700至149400。图上有多条水平线标注，分别位于149100、147900和147800处。图中央有一个黄色矩形区域覆盖约147200至147800的价格范围。图上标注了时间戳'Tue 08 Oct 07:00'和'Tue 08 Tue 08 Oct 22:00'，以及'1H'和'00:00 UTC'的文字标签。K线形态包括一根大幅上升的绿色K线（从1469",
+    "case_004_detail_4.jpg": "ES 图表显示烛线图，价格范围从 147000 到 149600。图上有三条水平线分别位于 149100、148100 和 147800 处。三个矩形区域用浅黄色填充，分别覆盖 147200-147800、147800-148100 和 148100-149100 的价格范围。图表包含多根绿色和黑色烛线，其中约 09:00 处有一根长绿烛线从 146900 延伸至 148900，约 10:00 处"
+  },
+  "sources": [
+    {
+      "video_id": "TfHlNgAZ_II",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        728.32,
+        877.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线结构识别到小时图入场的全过程，包括具体价位、订单块位置、止损和目标设置，以及最终价格到达外部流动性的结果验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:57.669351Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD/JPY日线趋势延续：从内部流动性到外部流动性的机制化交易\",\"school\":\"ICT\",\"asset\":\"USD/JPY\",\"timeframe\":\"1D / 1H\",\"market_context\":\"USD/JPY日线形成更高的低点和更高的高点的上升趋势。价格在内部范围流动性处回撤，博主预期价格将继续交易更高，最终到达日线外部范围流动性目标。\",\"key_observation\":\"日线确立上升趋势结构（HLHLs），内部流动性和外部流动性已识别。小时图显示交付状态改变（CSD），形成新的订单块，为趋势延续提供入场机会。\",\"analysis_steps\":[\"Step 1: 在日线图上识别更高的低点和更高的高点，确认上升趋势偏差。\",\"Step 2: 标记日线内部范围流动性（Internal Range Liquidity）和外部范围流动性（External Range Liquidity）。\",\"Step 3: 下降到小时图，寻找交付状态改变（CSD）以识别订单块。\",\"Step 4: 在小时图上找到形成低点的蜡烛，选择合适的订单块用于入场。\",\"Step 5: 等待价格扫除低点或进入公允价值缺口（FVG），确认新的订单块形成。\",\"Step 6: 在新订单块低点处设置止损，目标为2倍风险或持有至外部范围流动性。\",\"Step 7: 追踪价格回撤至内部范围流动性，然后再次向外部范围流动性推进。\",\"Step 8: 确认价格最终到达日线外部范围流动性目标，完成趋势延续。\"],\"outcome\":\"价格成功从内部范围流动性反弹，形成新的订单块，触及2倍风险目标，随后继续回撤至内部流动性再次向上，最终达到日线外部范围流动性高点（约149127）。\",\"lessons\":\"该案例展示了多时间框架分析的机制性应用：日线确定大方向和流动性目标，小时图通过CSD识别具体入场点和订单块。关键是等待价格扫除低点或填补FVG以确认新订单块，从而提高交易概率。止损和目标的设置基于明确的结构参考点。\",\"primary_image_frame_id\":\"TfHlNgAZ_II_f029\",\"supporting_image_frame_ids\":[\"TfHlNgAZ_II_f026\",\"TfHlNgAZ_II_f027\",\"TfHlNgAZ_II_f028\",\"TfHlNgAZ_II_f030\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in the state of delivery\",\"Internal Range Liquidity\",\"External Range Liquidity\",\"Market Structure Shift\",\"Higher Lows and Higher Highs\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线结构识别到小时图入场的全过程，包括具体价位、订单块位置、止损和目标设置，以及最终价格到达外部流动性的结果验证。\"}",
+  "error": null
+}

@@ -1,0 +1,106 @@
+{
+  "card_id": "sgAnVR6RSDg_case_002_usd_5分钟图从上升到下降的结构转变",
+  "type": "case",
+  "title": "USD 5分钟图从上升到下降的结构转变",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Higher High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift",
+    "swing_formation",
+    "displacement",
+    "premium_discount_premium_",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "USDHQ11",
+  "timeframe": "5m",
+  "market_context": "USD在5分钟图上从约17650上升至17760附近形成高点，随后进入整理阶段。价格在17700-17740区间反复波动，期间出现多个摆动高低点。博主通过观察结构变化来判断趋势是否从看涨转为看跌。",
+  "key_observation": "博主识别出关键的结构转变点：当价格突破之前的摆动低点时，从看涨结构（高点更高、低点更高）转变为看跌结构（低点更低、高点更低），这是判断趋势反转的核心信号。",
+  "analysis_steps": [
+    "Step 1: 确认上升趋势的特征——观察到连续的高点更高、低点更高的形态（从17650上升至17760）",
+    "Step 2: 识别高点后的整理阶段——价格在17760附近形成高点后回落至17700-17740区间，进入盘整",
+    "Step 3: 观察是否形成更高的低点——在整理过程中，博主期望看到更高的低点来确认上升趋势继续",
+    "Step 4: 检测关键低点的突破——当价格突破之前的摆动低点时，这标志着结构的改变",
+    "Step 5: 确认看跌结构的形成——突破后形成低点更低、高点更低的形态，确认从看涨转为看跌",
+    "Step 6: 寻找入场信号——在确认看跌结构后，博主期望看到更低的高点来确认做空机会"
+  ],
+  "outcome": null,
+  "lessons": "市场结构转变的关键在于观察摆动高低点的相对关系。当价格突破之前的摆动低点时，结合随后形成的更低高点，可以确认趋势从看涨转为看跌。这种结构性的改变比单纯的价格运动更能预示趋势反转。",
+  "primary_image": "cards/sgAnVR6RSDg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/sgAnVR6RSDg/images/case_002_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 5分钟K线图，时间范围从07:00至15:30。图上显示从17650上升至17760的上升趋势，跨越约15根K线。绿色K线主导前半段走势，黑色K线穿插其中。在17760附近出现高点后，价格回落至17700-17740区间并形成整理。图上有两条水平虚线分别位于17691.00和17700.50。右侧标注显示'HTO 8:30'和'24/1/2024 HQ11 5m'。底部工具栏显示'Sell",
+    "case_002_detail_1.jpg": "USD 5分钟K线图，时间范围从06:30至15:30。图上显示价格从17650上升至17760附近，期间出现多根绿色和黑色K线。在17760处附近有一根黑色K线带有上影线。随后出现一系列黑色K线向下至17730。图上标注有两条水平线：一条在17690处标记为'HTO 8:30'，另一条在17711处。右侧显示'24/1/2024 HQ11 5m'的文字标签。图右下角可见'Sell'和'Buy'按"
+  },
+  "sources": [
+    {
+      "video_id": "sgAnVR6RSDg",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        252.64,
+        758.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对USD 5分钟图的分析过程完整清晰，包括上升趋势特征、整理阶段、关键低点突破和看跌结构确认等步骤，价格水平和时间框架均从图表中清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:04.585053Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 5分钟图从上升到下降的结构转变\",\"school\":\"ICT\",\"asset\":\"USDHQ11\",\"timeframe\":\"5m\",\"market_context\":\"USD在5分钟图上从约17650上升至17760附近形成高点，随后进入整理阶段。价格在17700-17740区间反复波动，期间出现多个摆动高低点。博主通过观察结构变化来判断趋势是否从看涨转为看跌。\",\"key_observation\":\"博主识别出关键的结构转变点：当价格突破之前的摆动低点时，从看涨结构（高点更高、低点更高）转变为看跌结构（低点更低、高点更低），这是判断趋势反转的核心信号。\",\"analysis_steps\":[\"Step 1: 确认上升趋势的特征——观察到连续的高点更高、低点更高的形态（从17650上升至17760）\",\"Step 2: 识别高点后的整理阶段——价格在17760附近形成高点后回落至17700-17740区间，进入盘整\",\"Step 3: 观察是否形成更高的低点——在整理过程中，博主期望看到更高的低点来确认上升趋势继续\",\"Step 4: 检测关键低点的突破——当价格突破之前的摆动低点时，这标志着结构的改变\",\"Step 5: 确认看跌结构的形成——突破后形成低点更低、高点更低的形态，确认从看涨转为看跌\",\"Step 6: 寻找入场信号——在确认看跌结构后，博主期望看到更低的高点来确认做空机会\"],\"outcome\":null,\"lessons\":\"市场结构转变的关键在于观察摆动高低点的相对关系。当价格突破之前的摆动低点时，结合随后形成的更低高点，可以确认趋势从看涨转为看跌。这种结构性的改变比单纯的价格运动更能预示趋势反转。\",\"primary_image_frame_id\":\"sgAnVR6RSDg_f001\",\"supporting_image_frame_ids\":[\"sgAnVR6RSDg_f015\",\"sgAnVR6RSDg_f016\",\"sgAnVR6RSDg_f017\",\"sgAnVR6RSDg_f018\",\"sgAnVR6RSDg_f019\",\"sgAnVR6RSDg_f020\",\"sgAnVR6RSDg_f021\",\"sgAnVR6RSDg_f022\",\"sgAnVR6RSDg_f023\",\"sgAnVR6RSDg_f024\",\"sgAnVR6RSDg_f025\"],\"related_concepts\":[\"Market Structure Shift\",\"Swing High\",\"Swing Low\",\"Higher High\",\"Higher Low\",\"Lower High\",\"Lower Low\",\"Displacement\",\"Premium/Discount\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对USD 5分钟图的分析过程完整清晰，包括上升趋势特征、整理阶段、关键低点突破和看跌结构确认等步骤，价格水平和时间框架均从图表中清晰可读。\"}",
+  "error": null
+}

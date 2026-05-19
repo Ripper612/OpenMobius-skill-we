@@ -1,0 +1,130 @@
+{
+  "card_id": "Tjk9bXERZy0_case_004_新闻事件前后的扩张形态演变",
+  "type": "case",
+  "title": "新闻事件前后的扩张形态演变与Power of 3应用",
+  "related_concepts": [
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Accumulation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "broadening_formation",
+    "power_of_3_indicator",
+    "inducement",
+    "smart_money_technique_smt",
+    "premium_discount_premium_",
+    "equilibrium",
+    "liquidity",
+    "box_setup",
+    "order_block"
+  ],
+  "school": "SMC",
+  "asset": "NQ1!",
+  "timeframe": "1H",
+  "market_context": "NQ100在新闻发布前形成盘整范围（约18200-18450），随后新闻触发操纵阶段突破一侧，最终回归另一侧形成扩张形态。",
+  "key_observation": "博主展示了如何通过Power of 3（积累-操纵-派发）模型识别新闻事件前后的扩张形态演变，以及如何将其与SMT、折价/溢价区结合用于目标定位。",
+  "analysis_steps": [
+    "Step 1: 识别新闻前的积累阶段——价格在18200-18450区间形成盘整范围（收敛形态）",
+    "Step 2: 标记操纵阶段——新闻发布时价格突破上方趋势线，扫除高点流动性后反向",
+    "Step 3: 观察派发阶段——价格从上方突破回落至下方趋势线，形成扩张形态",
+    "Step 4: 将扩张形态与SMT配对——在范围边缘寻找不对称信号作为兴趣点",
+    "Step 5: 使用折价/溢价区更新目标——当价格未能到达范围另一侧时，以均衡点或折价区作为回归目标",
+    "Step 6: 应用Box Setup——将初始范围作为兴趣点，追踪价格在扩张过程中的多个回测机会"
+  ],
+  "outcome": null,
+  "lessons": "扩张形态在新闻事件前后形成时，可通过Power of 3模型预测价格从一侧到另一侧的运动。结合SMT、折价/溢价区和均衡点，可精确定位目标位和回归区域，提高交易概率。",
+  "primary_image": "cards/Tjk9bXERZy0/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/Tjk9bXERZy0/images/case_004_detail_1.jpg",
+    "cards/Tjk9bXERZy0/images/case_004_detail_2.jpg",
+    "cards/Tjk9bXERZy0/images/case_004_detail_3.jpg",
+    "cards/Tjk9bXERZy0/images/case_004_detail_4.jpg",
+    "cards/Tjk9bXERZy0/images/case_004_detail_5.jpg",
+    "cards/Tjk9bXERZy0/images/case_004_detail_6.jpg",
+    "cards/Tjk9bXERZy0/images/case_004_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "NQ100 1小时K线图。图上显示价格范围从18040到18640。绘制两条蓝色趋势线：一条从左下向右上延伸，另一条从左上向右下延伸，两线在中间区域形成收敛。矩形框标注覆盖约18200至18500的价格区间。K线由绿色和黑色组成，左侧和右侧区域绿色K线较多，中间区域黑色K线占比较大。右侧最新K线为绿色。图表底部显示时间标记为11/4/2024，周期标注为NQ1! | 60M。",
+    "case_004_detail_1.jpg": "NQ100 1小时K线图。图上显示价格范围约从18050到19750。中央区域有一个矩形标注框，内部包含多根K线在18200至18450区间内波动。矩形上下方各有一条蓝色趋势线：上方趋势线从左上向右下倾斜，下方趋势线从左下向右上倾斜，两线形成收敛形态。图右侧出现一根长黑色K线，向下刺破至约18050。图上标注有日期'10-4 2024'和文字'NQ11 / 6588'。左侧价格刻度显示18415.",
+    "case_004_detail_2.jpg": "NQ100 1小时K线图。图上绘制两条向下倾斜的蓝色趋势线，上方趋势线从左上方约18540向右下方延伸至约17600，下方趋势线从约18100向右下方延伸。图表左侧显示一段上升K线序列，中间区域呈现18100至18300之间的盘整形态，随后出现一根大幅下跌的黑色K线从18500跌至18000附近，之后K线在18000至18200区间内小幅波动。右侧显示一个黄色十字光标标记在约18100价格水平。图",
+    "case_004_detail_3.jpg": "NASDAQ 100 E-mini Futures 1 小时 K 线图。图上绘有一条从左上向右下延伸的蓝色趋势线，起点约 19400，终点约 17640。图中有一条水平线位于 17740 处。可见 K 线价格范围从 17640 到 19400。图上标注有日期文字'05-4-2024'。K 线形态显示多根蜡烛在 18000 至 19200 区间内呈现长下影线，右侧区域出现一根长黑色 K 线从约 18",
+    "case_004_detail_4.jpg": "NASDAQ 100 E-mini Futures 1 小时 K 线图。图上绘有两条趋势线：一条从左下向右上延伸，另一条从左上向右下延伸。图右侧标注了一个矩形区域，范围约在 18050 至 18200 之间，用蓝色和黄色填充。图上有一条水平线位于 18100.00 处。可见 K 线价格范围从 17750.00 至 18625.00。图右侧叠加有粉红色和绿色的波形线条。图表底部显示日期标记为 16/",
+    "case_004_detail_5.jpg": "NASDAQ 100 E-mini Futures 1 小时 K 线图。图上绘制两条趋势线：一条从左上向右下倾斜（约从 18750 至 17650），另一条从左下向右上倾斜（约从 18100 至 18750）。图右侧有一条水平线位于 18342.25。中央区域有黄色矩形标记。K 线整体价格范围约 17650 至 18750。图表显示早期上升段、中间盘整段（K 线在两条趋势线之间波动）、以及右侧下降",
+    "case_004_detail_6.jpg": "NQ100 1小时K线图。图上绘制两条蓝色趋势线：上升趋势线从左下向右上延伸至约18400，下降趋势线从左上向右下延伸至约17400。K线整体价格范围约18600至17600。左侧显示初始上冲至18500附近后急速下跌。中间区域K线在两条趋势线之间波动，形成收敛形态。右侧K线突破上升趋势线至18300附近，随后转向下跌，最终收于17800附近。图上有一个黄色十字标记，位置约在中间偏下区域。",
+    "case_004_detail_7.jpg": "NQ100 E-mini Futures 15分钟图表。图上绘制了多条矩形区域标注，分别用粉色和蓝色填充，覆盖价格范围从17900至18500。同时有三条趋势线，其中一条向上倾斜，两条向下倾斜，跨越整个图表区域。K线显示混合方向的价格行为，包含多根看涨和看跌蜡烛。图表中部可见一个整理形态，价格在18000至18300之间波动。右侧价格刻度标注清晰，时间标签显示18-4-2025。"
+  },
+  "sources": [
+    {
+      "video_id": "Tjk9bXERZy0",
+      "segment_ids": [
+        "seg_003",
+        "seg_005"
+      ],
+      "time_range": [
+        325.479,
+        769.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了新闻前后的三阶段演变、具体价格范围、多个分析工具的组合应用，以及对扩张形态的详细解释。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:54.128299Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"新闻事件前后的扩张形态演变与Power of 3应用\",\"school\":\"SMC\",\"asset\":\"NQ1!\",\"timeframe\":\"1H\",\"market_context\":\"NQ100在新闻发布前形成盘整范围（约18200-18450），随后新闻触发操纵阶段突破一侧，最终回归另一侧形成扩张形态。\",\"key_observation\":\"博主展示了如何通过Power of 3（积累-操纵-派发）模型识别新闻事件前后的扩张形态演变，以及如何将其与SMT、折价/溢价区结合用于目标定位。\",\"analysis_steps\":[\"Step 1: 识别新闻前的积累阶段——价格在18200-18450区间形成盘整范围（收敛形态）\",\"Step 2: 标记操纵阶段——新闻发布时价格突破上方趋势线，扫除高点流动性后反向\",\"Step 3: 观察派发阶段——价格从上方突破回落至下方趋势线，形成扩张形态\",\"Step 4: 将扩张形态与SMT配对——在范围边缘寻找不对称信号作为兴趣点\",\"Step 5: 使用折价/溢价区更新目标——当价格未能到达范围另一侧时，以均衡点或折价区作为回归目标\",\"Step 6: 应用Box Setup——将初始范围作为兴趣点，追踪价格在扩张过程中的多个回测机会\"],\"outcome\":null,\"lessons\":\"扩张形态在新闻事件前后形成时，可通过Power of 3模型预测价格从一侧到另一侧的运动。结合SMT、折价/溢价区和均衡点，可精确定位目标位和回归区域，提高交易概率。\",\"primary_image_frame_id\":\"Tjk9bXERZy0_f013\",\"supporting_image_frame_ids\":[\"Tjk9bXERZy0_f011\",\"Tjk9bXERZy0_f012\",\"Tjk9bXERZy0_f014\",\"Tjk9bXERZy0_f015\",\"Tjk9bXERZy0_f016\",\"Tjk9bXERZy0_f017\",\"Tjk9bXERZy0_f021\"],\"related_concepts\":[\"Broadening Formation\",\"Power of 3\",\"Accumulation\",\"Manipulation\",\"Distribution\",\"SMT\",\"Premium/Discount\",\"Equilibrium\",\"Liquidity\",\"Box Setup\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了新闻前后的三阶段演变、具体价格范围、多个分析工具的组合应用，以及对扩张形态的详细解释。\"}",
+  "error": null
+}

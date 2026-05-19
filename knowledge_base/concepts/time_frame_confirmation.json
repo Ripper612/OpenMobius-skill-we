@@ -1,0 +1,55 @@
+{
+  "card_id": "time_frame_confirmation",
+  "type": "merged_concept",
+  "canonical_term": "Time Frame Confirmation",
+  "aliases": [
+    "多时间框架确认",
+    "时间框架验证"
+  ],
+  "school": "ICT",
+  "definition": "在日线级别的价格结构（如影线、摆动点）基础上，使用不同时间框架（小时线、30分钟线、15分钟线、5分钟线）进行逐级确认，以验证日线信号的有效性并寻找精确入场点的方法。",
+  "identification_rules": [
+    "亚洲时段：使用小时线或30分钟线确认日线影线或摆动点",
+    "伦敦时段：可使用小时线、30分钟线或15分钟线进行确认",
+    "纽约时段：虽可使用小时线或30分钟线，但需快速反应，因反转通常发生迅速",
+    "在低时间框架（如5分钟线）上寻找CSD（交付状态改变）作为具体入场信号",
+    "确认过程中检查是否形成新的Protected Swing或Low Resistance Liquidity"
+  ],
+  "trading_implication": "通过分层时间框架确认，交易者可在日线级别的关键价格水平附近找到高概率入场点。不同交易时段使用相应时间框架避免虚假信号；最终在低时间框架（5分钟）上执行具体交易。该方法帮助交易者在日线目标（如买方流动性）与实际入场之间建立逻辑链条，提高风险回报比。",
+  "common_mistakes": [
+    "在纽约时段等待小时线CSD确认，导致目标已被触及或错失入场机会",
+    "未考虑交易时段特性，机械地应用同一时间框架组合进行确认",
+    "忽视低时间框架上是否真正形成Protected Swing，盲目基于高时间框架信号入场"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_time_frame_confirmation",
+      "segment_ids": [
+        "seg_013"
+      ],
+      "time_range": [
+        605.36,
+        673.839
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136260Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

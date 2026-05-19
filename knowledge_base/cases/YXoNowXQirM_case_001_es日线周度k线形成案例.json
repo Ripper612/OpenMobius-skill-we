@@ -1,0 +1,89 @@
+{
+  "card_id": "YXoNowXQirM_case_001_es日线周度k线形成案例",
+  "type": "case",
+  "title": "ES日线周度K线OLHC结构形成演示",
+  "related_concepts": [
+    {
+      "term": "OLHC",
+      "card_id": "open_high_low_close_ohlc",
+      "exists": true
+    },
+    {
+      "term": "Candle Formation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "open_high_low_close_ohlc",
+    "market_structure",
+    "time_frame_confluence"
+  ],
+  "school": "Price Action",
+  "asset": "ES",
+  "timeframe": "1D / Weekly",
+  "market_context": "以E-mini S&P 500期货为例，展示周一至周五日内K线如何逐步构成周度K线的完整OLHC结构，涵盖2023年3月至5月的多周期走势。",
+  "key_observation": "博主演示了周度K线的形成机制：周一开盘价为周开(Open)，周内最低点为周低(Low)，周内最高点为周高(High)，周五收盘价为周收(Close)，通过多日K线序列逐步构建单根周K线。",
+  "analysis_steps": [
+    "Step 1: 讲解OLHC四个价格点的定义及其在单根K线中的位置关系。",
+    "Step 2: 展示看涨K线的预期形态——Open Low High Close，价格先跌破开盘价形成低点，再上升至高点后收盘。",
+    "Step 3: 展示看跌K线的预期形态——Open High Low Close，价格先升至高点，再下跌至低点后收盘。",
+    "Step 4: 用ES日线图表演示周一至周五的日K线如何逐日形成周度K线的OLHC结构。",
+    "Step 5: 标注周度K线的开盘价(周一开盘)、最低点(周内最低)、最高点(周内最高)、收盘价(周五收盘)。",
+    "Step 6: 用NASDAQ 15分钟图表展示同样的OLHC原理在更短时间框架上的应用。"
+  ],
+  "outcome": null,
+  "lessons": "OLHC结构是所有时间框架K线的基础。理解周度K线如何由多日日K线组成，有助于交易者在不同时间框架间建立连贯的市场结构认知，为多时间框架分析奠定基础。",
+  "primary_image": "cards/YXoNowXQirM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/YXoNowXQirM/images/case_001_detail_1.jpg",
+    "cards/YXoNowXQirM/images/case_001_detail_2.jpg",
+    "cards/YXoNowXQirM/images/case_001_detail_3.jpg",
+    "cards/YXoNowXQirM/images/case_001_detail_4.jpg",
+    "cards/YXoNowXQirM/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES 1日线图表显示从3月初至4月中旬的价格走势。图上标注了三条水平线，分别位于4031.25、3997.3和4007.25处，各带有对应的数字标签。右侧矩形框标记为FVF CANDLE POST，框内范围约在3990至4040之间。图上显示一系列绿色和黑色K线，多数K线具有较长的上下影线。底部文字标注显示Range为26.75 USD，日期标记为Fri 07 Apr 23。可见价格范围从3890",
+    "case_001_detail_1.jpg": "图表展示 E-MINI S&P 500 期货（2023 年 6 月）1 小时周期的单根 K 线。图上标注了 OLHC 四个价格点：HIGH 4124.00、CLOSE 4122.50、OPEN 4115.50、LOW 4113.50。K 线为绿色实体，主体从 4115.50 至 4122.50，上影线刺破至 4124.00，下影线延伸至 4113.50。可见价格范围约 4113.50 至 4127",
+    "case_001_detail_2.jpg": "图上展示 E-MINI S&P 500 期货 1 小时 K 线图。单根黑色实心 K 线，带上下影线。图上标注四个水平虚线及对应文字标签：HIGH 在 4124.00、OPEN 在 4122.50、CLOSE 在 4415.50、LOW 在 4413.50。K 线主体位于 OPEN 和 CLOSE 之间，上影线从主体顶部延伸至 HIGH 水平，下影线从主体底部延伸至 LOW 水平。右侧价格刻度显示范",
+    "case_001_detail_3.jpg": "CME_MINI 期货图表显示从 3 月中旬至 5 月中旬的 K 线序列。价格范围从 3880.00 至 4160.00。图上有一个矩形框标注，框内包含三条水平线，分别标记为 4031.25、3991.5 和 3988.75。矩形框大致覆盖 3991.5 至 4031.25 的价格区间。早期 4 月出现一根大幅下跌的黑色 K 线，从约 4100 跌至 3950。整个序列中 K 线呈绿黑交替排列，多",
+    "case_001_detail_4.jpg": "NQ 15分钟K线图。图表显示从左侧高点13305.00向下运行至约13176.00的下跌走势，随后在中间区域出现震荡恢复。图上有一个黑色矩形框标注，范围在13218.75至13228.75之间，旁边标记有数值标签。中心偏右位置有一根带长下影线的黑色K线。右侧价格轴显示当前价格为13220.25。图上标注文字包括'LONG CANDLE POST'和'Range: 8.500'。",
+    "case_001_detail_5.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图表左侧显示一段K线序列，包含多根绿色和黑色蜡烛，价格从约13250下行至11090。图右侧有一根大黑色K线，其主体位于13208至13226之间。图上标注有多个价格数字：13226、13208、13208.5、13328.5和11146.00。可见两个矩形框：一个较大的框覆盖整个价格范围，另一个较小的框突出13208至13226"
+  },
+  "sources": [
+    {
+      "video_id": "YXoNowXQirM",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.48,
+        166.879
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了ES周度K线的OLHC形成过程，资产代码、时间框架、关键价位均清晰可读，分析步骤按讲解顺序完整记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:08.043827Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES日线周度K线OLHC结构形成演示\",\"school\":\"Price Action\",\"asset\":\"ES\",\"timeframe\":\"1D / Weekly\",\"market_context\":\"以E-mini S&P 500期货为例，展示周一至周五日内K线如何逐步构成周度K线的完整OLHC结构，涵盖2023年3月至5月的多周期走势。\",\"key_observation\":\"博主演示了周度K线的形成机制：周一开盘价为周开(Open)，周内最低点为周低(Low)，周内最高点为周高(High)，周五收盘价为周收(Close)，通过多日K线序列逐步构建单根周K线。\",\"analysis_steps\":[\"Step 1: 讲解OLHC四个价格点的定义及其在单根K线中的位置关系。\",\"Step 2: 展示看涨K线的预期形态——Open Low High Close，价格先跌破开盘价形成低点，再上升至高点后收盘。\",\"Step 3: 展示看跌K线的预期形态——Open High Low Close，价格先升至高点，再下跌至低点后收盘。\",\"Step 4: 用ES日线图表演示周一至周五的日K线如何逐日形成周度K线的OLHC结构。\",\"Step 5: 标注周度K线的开盘价(周一开盘)、最低点(周内最低)、最高点(周内最高)、收盘价(周五收盘)。\",\"Step 6: 用NASDAQ 15分钟图表展示同样的OLHC原理在更短时间框架上的应用。\"],\"outcome\":null,\"lessons\":\"OLHC结构是所有时间框架K线的基础。理解周度K线如何由多日日K线组成，有助于交易者在不同时间框架间建立连贯的市场结构认知，为多时间框架分析奠定基础。\",\"primary_image_frame_id\":\"YXoNowXQirM_f004\",\"supporting_image_frame_ids\":[\"YXoNowXQirM_f002\",\"YXoNowXQirM_f003\",\"YXoNowXQirM_f005\",\"YXoNowXQirM_f006\",\"YXoNowXQirM_f001\"],\"related_concepts\":[\"OLHC\",\"Candle Formation\",\"Market Structure\",\"Multi-Timeframe Analysis\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了ES周度K线的OLHC形成过程，资产代码、时间框架、关键价位均清晰可读，分析步骤按讲解顺序完整记录。\"}",
+  "error": null
+}

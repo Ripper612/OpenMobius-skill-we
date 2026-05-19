@@ -1,0 +1,113 @@
+{
+  "card_id": "Pcbyc9TdNsU_case_002_box设置与标准差结合的交易案例",
+  "type": "case",
+  "title": "Box框架与标准差结合的操纵腿投影与反转交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "change_in_the_state_of_delivery",
+    "standard_deviation",
+    "swing_formation",
+    "liquidity",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "HQ11",
+  "timeframe": "1M",
+  "market_context": "2023年1月11日，价格从14572上升至14648形成积累，随后在14630-14640区间盘整，出现等高结构。之后价格激进下跌至-2到-2.5标准差区域，展示完整的积累-操纵-派发周期。",
+  "key_observation": "博主使用Box框架标记盘整区间（基于K线实体），将操纵腿（从高点至对应低点）投影至标准差水平，识别-2到-2.5标准差作为反转/回测区域，并在该区域观察价格行为确认交易机会。",
+  "analysis_steps": [
+    "Step 1: 识别等高结构（equal highs）和盘整/积累区间，位于14630-14640价格范围",
+    "Step 2: 标记激进突破出盘整区间，随后回测进入盘整区域，确认结构转变和交付状态改变",
+    "Step 3: 使用Box框架基于K线实体标记盘整上下边界，确定操纵区域为超出这些实体的任何价格",
+    "Step 4: 从盘整高点向下找到对应的摆动低点（swing low），用于投影操纵腿",
+    "Step 5: 将操纵腿从高点至低点的距离投影至标准差水平，目标为-2到-2.5标准差反转区",
+    "Step 6: 在-2到-2.5标准差区域观察价格回测和订单块，寻找继续下跌前的短期反弹",
+    "Step 7: 确认价格在该区域激进下跌后回升但未能清除卖方流动性，预示继续下跌至-4标准差"
+  ],
+  "outcome": "价格在-2到-2.5标准差区域出现短期反弹后继续下跌，最终触及-4标准差水平，验证了基于Box框架和标准差投影的交易设置有效性。",
+  "lessons": "Box框架结合标准差投影提供了精确的操纵腿识别和反转区域定位。在-2到-2.5标准差区域的价格行为（是否清除流动性、是否形成订单块）是判断继续下跌还是反转的关键。AMD周期（积累-操纵-派发）与标准差水平的结合增强了交易信号的可靠性。",
+  "primary_image": "cards/Pcbyc9TdNsU/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/Pcbyc9TdNsU/images/case_002_detail_1.jpg",
+    "cards/Pcbyc9TdNsU/images/case_002_detail_2.jpg",
+    "cards/Pcbyc9TdNsU/images/case_002_detail_3.jpg",
+    "cards/Pcbyc9TdNsU/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 1 分钟 K 线图，时间戳显示 1/11/2023。图上可见价格范围从 14572.00 至 14672.00。图中标注有多个矩形区域：粉色矩形在 14644-14648 区间，灰色矩形分别在 14636-14640、14604-14620、14584-14600 区间。一条水平虚线位于 14639.50。图右侧有一条青色阴影区域跨越多根 K 线。K 线主要呈绿色和黑色，其中一根长黑色 K",
+    "case_002_detail_1.jpg": "USD 5分钟K线图，时间范围从09:30至18:00，当前时间标记在12:45。图上可见价格范围约15250至15460。左侧09:30至11:00区间显示绿色K线，中间11:00至12:00区间有粉红色矩形标注，12:00至13:30区间显示黑色K线向下运动。图上有三条水平参考线分别位于15417.22、15383.25和15310.00。下方有浅绿色矩形区域标注为FVG，范围约15310至1",
+    "case_002_detail_2.jpg": "USD 5分钟K线图，时间范围显示为2023年9月11日。图表可见价格范围约从15220到15500。图上有一个粉红色矩形标注在约15490-15510价格区间的K线上。右侧显示HYD、8:30、0:00等文字标签。图下方显示交易时间轴从07:00至21:00，底部可见Sell、Buy、Flatten按钮。整体K线呈下行走势，后期出现盘整形态。",
+    "case_002_detail_3.jpg": "USD 1分钟K线图。图表显示从14572上升至14648的上升趋势，跨越约30根K线。中部形成14630至14640区间的盘整，包含绿色和黑色K线混合。图上有一个粉红色矩形框覆盖上部盘整区域约12根K线。右侧显示多条水平线标注，标注文字包括'1/11/2023'、'HQ11 | 1M'和'2.5'。左上角显示当前价格14633.95和14632.79。图表底部时间轴显示从10:10至11:25的",
+    "case_002_detail_4.jpg": "USD 1 分钟 K 线图，时间范围从 10:25 至 11:45。图上显示约 80 根 K 线，价格范围在 14580 至 14668 之间波动。图上有 5 条水平线分别位于 14647.75、14639.00、14612.00、14596.00 和 14584.00。三个矩形区域用浅色填充标记：粉色区域约在 10:40 至 10:50 间位于 14640 至 14650 价格范围，灰色区域约在"
+  },
+  "sources": [
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        234.0,
+        415.96
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "转录文本详细描述了完整的分析步骤、价格水平和标准差投影过程；图表清晰显示Box标记、标准差线和价格运动；结果明确可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:39.166330Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"Box框架与标准差结合的操纵腿投影与反转交易\",\"school\":\"ICT\",\"asset\":\"HQ11\",\"timeframe\":\"1M\",\"market_context\":\"2023年1月11日，价格从14572上升至14648形成积累，随后在14630-14640区间盘整，出现等高结构。之后价格激进下跌至-2到-2.5标准差区域，展示完整的积累-操纵-派发周期。\",\"key_observation\":\"博主使用Box框架标记盘整区间（基于K线实体），将操纵腿（从高点至对应低点）投影至标准差水平，识别-2到-2.5标准差作为反转/回测区域，并在该区域观察价格行为确认交易机会。\",\"analysis_steps\":[\"Step 1: 识别等高结构（equal highs）和盘整/积累区间，位于14630-14640价格范围\",\"Step 2: 标记激进突破出盘整区间，随后回测进入盘整区域，确认结构转变和交付状态改变\",\"Step 3: 使用Box框架基于K线实体标记盘整上下边界，确定操纵区域为超出这些实体的任何价格\",\"Step 4: 从盘整高点向下找到对应的摆动低点（swing low），用于投影操纵腿\",\"Step 5: 将操纵腿从高点至低点的距离投影至标准差水平，目标为-2到-2.5标准差反转区\",\"Step 6: 在-2到-2.5标准差区域观察价格回测和订单块，寻找继续下跌前的短期反弹\",\"Step 7: 确认价格在该区域激进下跌后回升但未能清除卖方流动性，预示继续下跌至-4标准差\"],\"outcome\":\"价格在-2到-2.5标准差区域出现短期反弹后继续下跌，最终触及-4标准差水平，验证了基于Box框架和标准差投影的交易设置有效性。\",\"lessons\":\"Box框架结合标准差投影提供了精确的操纵腿识别和反转区域定位。在-2到-2.5标准差区域的价格行为（是否清除流动性、是否形成订单块）是判断继续下跌还是反转的关键。AMD周期（积累-操纵-派发）与标准差水平的结合增强了交易信号的可靠性。\",\"primary_image_frame_id\":\"Pcbyc9TdNsU_f013\",\"supporting_image_frame_ids\":[\"Pcbyc9TdNsU_f008\",\"Pcbyc9TdNsU_f009\",\"Pcbyc9TdNsU_f001\",\"Pcbyc9TdNsU_f012\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Market Structure Shift\",\"Change in the state of delivery\",\"Accumulation, Manipulation, Distribution\",\"Standard Deviation\",\"Swing Low\",\"Liquidity\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"转录文本详细描述了完整的分析步骤、价格水平和标准差投影过程；图表清晰显示Box标记、标准差线和价格运动；结果明确可见。\"}",
+  "error": null
+}

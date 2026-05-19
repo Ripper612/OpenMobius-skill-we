@@ -1,0 +1,76 @@
+{
+  "card_id": "premium_discount_zone",
+  "type": "merged_concept",
+  "canonical_term": "Premium/Discount Zone",
+  "aliases": [
+    "Discount Area",
+    "Premium Area",
+    "折价区",
+    "溢价区"
+  ],
+  "school": "ICT",
+  "definition": "将看涨K线按开盘价分割为两部分：开盘价以下为折价区（利于做多），开盘价以上为溢价区（利于做空）。用于判断价格相对于该周期的位置。",
+  "identification_rules": [
+    "在看涨K线中，找到开盘价水平线作为分界线",
+    "开盘价下方的价格区域为折价区",
+    "开盘价上方的价格区域为溢价区",
+    "可在多个时间框架上同时标记折价/溢价区进行对比"
+  ],
+  "trading_implication": "在多个时间框架的折价区买入是理想的交易策略，因为价格处于相对低位。交易者可在折价区寻找低风险买入机会，结合Order Block和Fair Value Gap等结构进行入场。溢价区则适合做空。该概念具有分形特性，可应用于任何时间框架。",
+  "common_mistakes": [
+    "混淆折价区和溢价区的方向（折价区用于做多，溢价区用于做空）",
+    "未在多个时间框架上确认折价区位置，导致交易设置不够稳健"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_001_nq1日线看跌ote案例",
+      "video_id": "1YRs4Z1lMws",
+      "title": "NQ1日线看跌OTE案例：从摆动高低点绘制斐波那契寻找空头入场"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_002_前一日高点被扫后的wick尊重案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "前一日高点被扫后的wick尊重案例"
+    },
+    {
+      "card_id": "PlZD45uLPjE_case_001_标普500_1小时线seek_and_destroy模式分析",
+      "video_id": "PlZD45uLPjE",
+      "title": "标普500 1小时线Seek and Destroy模式识别与交易入场"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_005_激进上升突破后的做多头皮交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "激进上升突破后在OTE区域做多头皮交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_discount_premium_zone",
+      "segment_ids": [
+        "seg_008"
+      ],
+      "time_range": [
+        1141.86,
+        1323.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134884Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

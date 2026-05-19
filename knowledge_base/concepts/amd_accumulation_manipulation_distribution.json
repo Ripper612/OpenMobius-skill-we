@@ -1,0 +1,76 @@
+{
+  "card_id": "amd_accumulation_manipulation_distribution",
+  "type": "merged_concept",
+  "canonical_term": "AMD (Accumulation, Manipulation, Distribution)",
+  "aliases": [
+    "Power of 3",
+    "积累-操纵-派发模型"
+  ],
+  "school": "ICT",
+  "definition": "描述价格在一个交易周期内的典型运动模式：积累阶段通过新闻等手段操纵价格下行，随后派发至目标流动性水平（如前日高点）。",
+  "identification_rules": [
+    "积累阶段：价格在一个区间内横向整理或缓慢运动，形成订单块或公允价值缺口",
+    "操纵阶段：伴随新闻事件或特定时间点（如8:30数据发布），价格快速下行，与前期方向相反",
+    "派发阶段：操纵后价格反向运动，目标指向前日高点或其他已标记的流动性区域",
+    "三个阶段应在同一交易周期内（如一天内）依次完成"
+  ],
+  "trading_implication": "AMD模式用于识别机构订单流向和预测价格目标。交易者在识别到积累和操纵阶段后，可预期派发阶段会向前日高点或标记的流动性运动，从而在操纵低点附近寻找做多入场机会，目标设定为派发目标位。",
+  "common_mistakes": [
+    "仅看到操纵下行就认为趋势反转，忽视后续派发阶段的上行目标",
+    "未能在高时间框架标记清晰的流动性目标（如前日高点），导致派发目标模糊",
+    "在积累阶段过早入场，应等待操纵完成后再在低时间框架寻找入场点"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "TCFvsZeYvV8_case_004_日线第二个_amd_案例_伦敦盘整与操纵",
+      "video_id": "TCFvsZeYvV8",
+      "title": "NQ日线AMD：伦敦盘整、操纵扫低、纽约派发"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_005_1_分钟图中的新日开盘缺口与多层_amd",
+      "video_id": "TCFvsZeYvV8",
+      "title": "1分钟新日开盘缺口中的多层AMD与标准差投影"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_008_日线收盘形成与派发完成",
+      "video_id": "TCFvsZeYvV8",
+      "title": "日线AMD模式：午夜操纵形成下影线，派发完成实体"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_002_第二个例子_汽油期货反向交易",
+      "video_id": "jKuXaC84Qx4",
+      "title": "汽油期货日线V形反转配合小时线CSD的反向交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "original_card_id": "FXJBFbZQbck_concept_accumulation_manipulation_distribution",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        506.36,
+        738.959
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:57:06.261953Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

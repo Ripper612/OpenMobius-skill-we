@@ -1,0 +1,115 @@
+{
+  "card_id": "tyoxl1l-6iI_case_003_usd期货月线到日线到小时线的多级分形",
+  "type": "case",
+  "title": "USD期货月线到日线到小时线的多级分形交易",
+  "related_concepts": [
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Fractal",
+      "card_id": "fractal",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "T-spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_2_closure_c2",
+    "fractal",
+    "market_structure_shift",
+    "equilibrium",
+    "order_block",
+    "t_spot",
+    "smart_money_technique",
+    "liquidity",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1M / 1D / 1H",
+  "market_context": "USD期货在月线上形成K线2收盘，价格扫除前期高点后回落至前一根K线内部。该结构在日线和小时线上递归重复，展现分形特性，为下行交易提供多时间框架确认。",
+  "key_observation": "博主识别出月线K线2收盘后，在日线和小时线上发现相同的K线2收盘模式，形成递归分形结构。每个时间框架都显示价格扫除流动性后回落，预示持续下行。",
+  "analysis_steps": [
+    "Step 1: 在月线上识别K线2收盘——价格扫除前期高点（约126000），然后收盘回落至前一根K线内部（约122000-127000区间）",
+    "Step 2: 确认月线的Change in State of Delivery和EQ水平，建立下行目标",
+    "Step 3: 下钻至日线，在相同价格区域（约119000-127000）发现另一个K线2收盘模式",
+    "Step 4: 日线上价格同样扫除高点后回落，形成有效的日线K线2收盘",
+    "Step 5: 继续下钻至小时线，在约106500-107500区域识别第三层K线2收盘",
+    "Step 6: 小时线上形成Daily Swing Point和SMT信号，确认Change in State of Delivery",
+    "Step 7: 在小时线上标记T-spot交易区域（约100200-102500和106500-107200），准备做空入场",
+    "Step 8: 观察价格回撤至高点形成K线2收盘，如果K线3收盘低于K线2低点，则预期K线4继续下行",
+    "Step 9: 验证后续行情——价格确实下跌，并在等低点处再次形成K线2收盘，继续下行"
+  ],
+  "outcome": "价格按照分形预期继续下行。在小时线上形成多个T-spot信号，每次K线2收盘后都伴随K线3和K线4的下行延续。博主提醒在K线5和K线6处需要警惕新的价格阶段开始。",
+  "lessons": "分形模型在多时间框架上具有递归性——月线的K线2收盘结构在日线和小时线上重复出现。通过从高时间框架向低时间框架逐级下钻，可以精确定位T-spot交易区域。K线2收盘后的K线3和K线4通常延续原方向，但需在K线5-6处警惕趋势反转。",
+  "primary_image": "cards/tyoxl1l-6iI/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/tyoxl1l-6iI/images/case_003_detail_1.jpg",
+    "cards/tyoxl1l-6iI/images/case_003_detail_2.jpg",
+    "cards/tyoxl1l-6iI/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 日线图，时间跨度从 7 月至 2026 年。图上可见价格范围约 86000 至 134000。多条水平虚线标注关键价格位，包括 122489、126000、118000、108000 等。图上有多个矩形标注框：两个标记为 C2 的框分别位于 124000-128000 和 122000-127000 区间，一个标记为 X2 的框位于 108000-114000 区间，另有一个大型矩形框跨越",
+    "case_003_detail_1.jpg": "图上为 USD 日线图，时间跨度从 9 月至 2026 年 1 月。可见价格范围约 88000 至 128000。图上有 4 条水平线分别位于 126000、119000、108340、102000 处。另有 3 个矩形标注框分别覆盖约 119000-127000、110000-117000、109000-119000 的价格区间。图上标记有文字标签'C2'位于 127000 附近，以及右下角显示",
+    "case_003_detail_2.jpg": "图表显示 USD 资产的 K 线图，价格范围从 97500 到 109500。图上标注有多条水平线，包括标记为 MFT1、C2、XC4 的关键价格水平。三个矩形框分别位于 100200-102500、106500-107200 和 103200-105200 价格区间。右侧显示时间戳 16:00:00、模型信息 1H-30 Model 及偏差状态 Bias: Neutral。图表右下角标注 MFT",
+    "case_003_detail_3.jpg": "MET1 图表显示烛线走势，价格范围从 96500 到 108500。图上绘有一条向上倾斜的趋势线标记为 MET1，从约 106500 延伸至 107500。四条水平线分别位于 107000、105000、101500 和 99500 处。标注包括两个 C2 矩形框分别在 99500-100500 和 107500-108000 区间，一个 C4 矩形框在 101500-103500 区间，以及一"
+  },
+  "sources": [
+    {
+      "video_id": "tyoxl1l-6iI",
+      "segment_ids": [
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        560.32,
+        705.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了月线→日线→小时线的三层分形分析，每个时间框架的K线2收盘位置、价格范围、交易信号都清晰可见，分析步骤按顺序展开，结果验证充分。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:03.435313Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD期货月线到日线到小时线的多级分形交易\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1M / 1D / 1H\",\"market_context\":\"USD期货在月线上形成K线2收盘，价格扫除前期高点后回落至前一根K线内部。该结构在日线和小时线上递归重复，展现分形特性，为下行交易提供多时间框架确认。\",\"key_observation\":\"博主识别出月线K线2收盘后，在日线和小时线上发现相同的K线2收盘模式，形成递归分形结构。每个时间框架都显示价格扫除流动性后回落，预示持续下行。\",\"analysis_steps\":[\"Step 1: 在月线上识别K线2收盘——价格扫除前期高点（约126000），然后收盘回落至前一根K线内部（约122000-127000区间）\",\"Step 2: 确认月线的Change in State of Delivery和EQ水平，建立下行目标\",\"Step 3: 下钻至日线，在相同价格区域（约119000-127000）发现另一个K线2收盘模式\",\"Step 4: 日线上价格同样扫除高点后回落，形成有效的日线K线2收盘\",\"Step 5: 继续下钻至小时线，在约106500-107500区域识别第三层K线2收盘\",\"Step 6: 小时线上形成Daily Swing Point和SMT信号，确认Change in State of Delivery\",\"Step 7: 在小时线上标记T-spot交易区域（约100200-102500和106500-107200），准备做空入场\",\"Step 8: 观察价格回撤至高点形成K线2收盘，如果K线3收盘低于K线2低点，则预期K线4继续下行\",\"Step 9: 验证后续行情——价格确实下跌，并在等低点处再次形成K线2收盘，继续下行\"],\"outcome\":\"价格按照分形预期继续下行。在小时线上形成多个T-spot信号，每次K线2收盘后都伴随K线3和K线4的下行延续。博主提醒在K线5和K线6处需要警惕新的价格阶段开始。\",\"lessons\":\"分形模型在多时间框架上具有递归性——月线的K线2收盘结构在日线和小时线上重复出现。通过从高时间框架向低时间框架逐级下钻，可以精确定位T-spot交易区域。K线2收盘后的K线3和K线4通常延续原方向，但需在K线5-6处警惕趋势反转。\",\"primary_image_frame_id\":\"tyoxl1l-6iI_f021\",\"supporting_image_frame_ids\":[\"tyoxl1l-6iI_f022\",\"tyoxl1l-6iI_f023\",\"tyoxl1l-6iI_f024\"],\"related_concepts\":[\"Candle 2 Closure\",\"Fractal\",\"Change in State of Delivery\",\"Equilibrium\",\"Order Block\",\"T-spot\",\"Smart Money Technique\",\"Liquidity\",\"Market Structure Shift\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了月线→日线→小时线的三层分形分析，每个时间框架的K线2收盘位置、价格范围、交易信号都清晰可见，分析步骤按顺序展开，结果验证充分。\"}",
+  "error": null
+}

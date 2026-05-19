@@ -1,0 +1,98 @@
+{
+  "card_id": "2lIaRUtJqpU_case_002_英镑美元日线连续失败摇摆分析",
+  "type": "case",
+  "title": "英镑美元日线连续失败摇摆与低阻力流动性分析",
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "low_resistance_liquidity",
+    "protected_high_low",
+    "failure_swing",
+    "order_block",
+    "market_structure_shift",
+    "high_resistance_liquidity",
+    "inducement"
+  ],
+  "school": "SMC",
+  "asset": "GBPUSD",
+  "timeframe": "1D",
+  "market_context": "英镑美元在日线上经历多日上升后，在约1.2600附近形成高点。随后价格回落，期间多个连续交易日的摆动高点未被突破，形成低阻力流动性区域。",
+  "key_observation": "多个连续交易日未能突破前一日高点，形成低阻力流动性。价格最终突破这些高点并扩展，但随后失败回落至范围内，订单流转为看跌。",
+  "analysis_steps": [
+    "Step 1: 在日线图上标记出多个连续交易日的摆动高点，观察是否有高点被突破。",
+    "Step 2: 识别没有任何一根K线突破前一日高点的现象，确认这形成了低阻力流动性区域。",
+    "Step 3: 下钻至4小时图表，验证这些日线高点在低时间框架上对应多个失败摇摆。",
+    "Step 4: 回到日线，观察价格是否开始突破这些累积的高点并向上扩展。",
+    "Step 5: 追踪价格突破后的行为，观察是否出现失败闭合（未能收出范围）。",
+    "Step 6: 识别价格回落至范围内的K线，标记为卖方流动性被扫除后的订单流转变。",
+    "Step 7: 区分高阻力流动性（价格突破后回落闭合）与失败摇摆（未能创出新高）的差异。"
+  ],
+  "outcome": null,
+  "lessons": "连续多日未突破前高点形成的低阻力流动性是价格扩展的目标。当价格突破这些高点后失败回落，订单流从看涨转为看跌，标志着趋势可能反转。高阻力流动性与失败摇摆的区分对于识别后续交易方向至关重要。",
+  "primary_image": "cards/2lIaRUtJqpU/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/2lIaRUtJqpU/images/case_002_detail_1.jpg",
+    "cards/2lIaRUtJqpU/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为 British Pound / U.S. Dollar（GBPUSD）1D K 线图，数据来源标注为 OANDA。图右侧价格刻度范围约从 1.21800 至 1.26000，当前价格标签显示 1.25254。图上可见约 20 根 K 线，整体呈阶梯式上行排列，绿色与黑色 K 线交替出现。图上叠加有三个嵌套矩形框标注，分布在约 1.23900 至 1.25400 价格区间内。最新一根 K 线",
+    "case_002_detail_1.jpg": "GBPUSD 日线蜡烛图，可见价格范围约从 1.2200 到 1.2600。图左侧自 3 月 20 日起出现一系列绿色 K 线，向右上方延伸至约 4 月 4 日附近的高点约 1.2600。此后图上出现一系列黑色 K 线，依次向下排列至约 1.2380。图右侧绘有 4 个无文字标签的矩形框，呈阶梯状嵌套排列，价格区间约覆盖 1.2380 至 1.2560。右侧价格轴当前价标签显示 1.23279。图",
+    "case_002_detail_2.jpg": "图表为 GBPUSD 日线蜡烛图，可见价格范围约从 1.21800 至 1.26000。图上绘制有两个矩形框区域，分别覆盖约 1.24800 至 1.25200 及 1.24000 至 1.24800 的价格区间。K 线序列从图左侧约 3 月 20 日起呈上行排列，至约 4 月 4 日附近出现高点后转为连续黑色 K 线下行。图右侧价格轴标注当前价位约 1.24596 及 1.23836。图上未见文"
+  },
+  "sources": [
+    {
+      "video_id": "2lIaRUtJqpU",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        184.2,
+        364.62
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对GBPUSD日线案例的分析完整清晰，包括资产、时间框架、关键价位（约1.2600高点、1.2380低点）、分析步骤（标记连续高点→识别低阻力流动性→下钻4H验证→观察突破与失败→订单流转变）均有详细讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:19:23.506221Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"英镑美元日线连续失败摇摆与低阻力流动性分析\",\"school\":\"SMC\",\"asset\":\"GBPUSD\",\"timeframe\":\"1D\",\"market_context\":\"英镑美元在日线上经历多日上升后，在约1.2600附近形成高点。随后价格回落，期间多个连续交易日的摆动高点未被突破，形成低阻力流动性区域。\",\"key_observation\":\"多个连续交易日未能突破前一日高点，形成低阻力流动性。价格最终突破这些高点并扩展，但随后失败回落至范围内，订单流转为看跌。\",\"analysis_steps\":[\"Step 1: 在日线图上标记出多个连续交易日的摆动高点，观察是否有高点被突破。\",\"Step 2: 识别没有任何一根K线突破前一日高点的现象，确认这形成了低阻力流动性区域。\",\"Step 3: 下钻至4小时图表，验证这些日线高点在低时间框架上对应多个失败摇摆。\",\"Step 4: 回到日线，观察价格是否开始突破这些累积的高点并向上扩展。\",\"Step 5: 追踪价格突破后的行为，观察是否出现失败闭合（未能收出范围）。\",\"Step 6: 识别价格回落至范围内的K线，标记为卖方流动性被扫除后的订单流转变。\",\"Step 7: 区分高阻力流动性（价格突破后回落闭合）与失败摇摆（未能创出新高）的差异。\"],\"outcome\":null,\"lessons\":\"连续多日未突破前高点形成的低阻力流动性是价格扩展的目标。当价格突破这些高点后失败回落，订单流从看涨转为看跌，标志着趋势可能反转。高阻力流动性与失败摇摆的区分对于识别后续交易方向至关重要。\",\"primary_image_frame_id\":\"2lIaRUtJqpU_f012\",\"supporting_image_frame_ids\":[\"2lIaRUtJqpU_f011\",\"2lIaRUtJqpU_f002\"],\"related_concepts\":[\"Low Resistance Liquidity\",\"Protected Swing\",\"Failure Swing\",\"Order Block\",\"Market Structure Shift\",\"High Resistance Liquidity\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对GBPUSD日线案例的分析完整清晰，包括资产、时间框架、关键价位（约1.2600高点、1.2380低点）、分析步骤（标记连续高点→识别低阻力流动性→下钻4H验证→观察突破与失败→订单流转变）均有详细讲解。\"}",
+  "error": null
+}

@@ -1,0 +1,98 @@
+{
+  "card_id": "MsuEQQl7L6s_case_004_usd_4小时图多个candle_closure案例",
+  "type": "case",
+  "title": "USD 4小时图多个Candle Three Closure案例分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Price Continuation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "candle_three_closure",
+    "candle_two_closure",
+    "order_block",
+    "market_structure",
+    "swing_high_low"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "4H",
+  "market_context": "USD 4小时图显示价格在24400-25160区间内波动，多次触及Fair Value Gap区域。博主分析了价格在关键水平处的K线收盘行为，以判断趋势延续或反转的可能性。",
+  "key_observation": "在Fair Value Gap处，当缺少Candle Two Closure时，需要等待Candle Three Closure来确认趋势方向。Candle Three Closure的形成预示价格将沿原方向继续运行。",
+  "analysis_steps": [
+    "Step 1: 识别价格到达Fair Value Gap的位置，检查是否形成Candle Two Closure。",
+    "Step 2: 在第一个案例中，价格突破前一根K线高点但未形成Candle Two Closure，而是在下一根K线收于Candle Two的实体下方，形成Candle Three Closure。",
+    "Step 3: 确认Candle Three Closure后，预期价格将继续向下运行。",
+    "Step 4: 在第二个案例中，分析新周开盘缺口（new week opening gap）处的K线行为，同样缺少Candle Two Closure。",
+    "Step 5: 观察后续K线收于前一根K线（Candle Two）实体上方，形成Candle Three Closure向上。",
+    "Step 6: 确认Candle Three Closure后，预期价格将继续向上运行至更高的摆动高点。",
+    "Step 7: 标记并验证多个摆动高点和低点的有效性，判断哪些是真实的结构点。"
+  ],
+  "outcome": "两个Candle Three Closure案例均确认了价格的延续方向：第一个向下延续，第二个向上延续至新高。",
+  "lessons": "Candle Three Closure是在Fair Value Gap或关键价格水平处确认趋势延续的有效工具。当缺少Candle Two Closure时，必须等待第三根K线的收盘确认，以避免假突破。这种方法提高了交易设置的可靠性。",
+  "primary_image": "cards/MsuEQQl7L6s/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/MsuEQQl7L6s/images/case_004_detail_1.jpg",
+    "cards/MsuEQQl7L6s/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD 4小时K线图。图表显示从12日至22日期间的价格走势，价格范围在24200至25320之间。图上绘制了多条矩形框，标注了特定的价格区间。两条水平虚线分别位于约24500和25160处。右侧显示黄色矩形框覆盖约24680至24820的价格区间。K线以绿色和黑色交替出现，大多数K线具有上下影线。图表底部显示时间戳'Fri 17 Oct 25, 10:00'和交易工具栏。",
+    "case_004_detail_1.jpg": "USD 4小时K线图。图上显示一系列绿色和黑色K线，价格范围从24400到25320。图中绘制了一个矩形框，范围约在24400至24610之间。一条竖直虚线标记在Jun 19 Oct 28 23:00时间点。右侧价格刻度清晰可见，从24200到25320。图上未见其他指标或标注。",
+    "case_004_detail_2.jpg": "USD 4小时K线图。图上显示价格范围从24160到25280。左侧有一根大型黑色K线从10:00时段向下延伸。中间区域（12:00至16:00）显示多根绿色和黑色K线在24400至24880区间内波动。图上标注有两条水平虚线分别位于24605和24400价格位。右侧最新K线区域用黄色矩形框标记，价格范围约在24640至24800之间。图左下角显示时间标记'1/4 AMC'，底部显示'Tue 14"
+  },
+  "sources": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "segment_ids": [
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        291.4,
+        352.84000000000003
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了两个Candle Three Closure案例，清晰说明了分析步骤、价格水平和预期结果。图表标注清晰，时间框架和资产代码明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:45.922261Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 4小时图多个Candle Three Closure案例分析\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"4H\",\"market_context\":\"USD 4小时图显示价格在24400-25160区间内波动，多次触及Fair Value Gap区域。博主分析了价格在关键水平处的K线收盘行为，以判断趋势延续或反转的可能性。\",\"key_observation\":\"在Fair Value Gap处，当缺少Candle Two Closure时，需要等待Candle Three Closure来确认趋势方向。Candle Three Closure的形成预示价格将沿原方向继续运行。\",\"analysis_steps\":[\"Step 1: 识别价格到达Fair Value Gap的位置，检查是否形成Candle Two Closure。\",\"Step 2: 在第一个案例中，价格突破前一根K线高点但未形成Candle Two Closure，而是在下一根K线收于Candle Two的实体下方，形成Candle Three Closure。\",\"Step 3: 确认Candle Three Closure后，预期价格将继续向下运行。\",\"Step 4: 在第二个案例中，分析新周开盘缺口（new week opening gap）处的K线行为，同样缺少Candle Two Closure。\",\"Step 5: 观察后续K线收于前一根K线（Candle Two）实体上方，形成Candle Three Closure向上。\",\"Step 6: 确认Candle Three Closure后，预期价格将继续向上运行至更高的摆动高点。\",\"Step 7: 标记并验证多个摆动高点和低点的有效性，判断哪些是真实的结构点。\"],\"outcome\":\"两个Candle Three Closure案例均确认了价格的延续方向：第一个向下延续，第二个向上延续至新高。\",\"lessons\":\"Candle Three Closure是在Fair Value Gap或关键价格水平处确认趋势延续的有效工具。当缺少Candle Two Closure时，必须等待第三根K线的收盘确认，以避免假突破。这种方法提高了交易设置的可靠性。\",\"primary_image_frame_id\":\"MsuEQQl7L6s_f011\",\"supporting_image_frame_ids\":[\"MsuEQQl7L6s_f010\",\"MsuEQQl7L6s_f012\"],\"related_concepts\":[\"Fair Value Gap\",\"Candle Three Closure\",\"Candle Two Closure\",\"Order Block\",\"Market Structure\",\"Swing High/Low\",\"Price Continuation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了两个Candle Three Closure案例，清晰说明了分析步骤、价格水平和预期结果。图表标注清晰，时间框架和资产代码明确。\"}",
+  "error": null
+}

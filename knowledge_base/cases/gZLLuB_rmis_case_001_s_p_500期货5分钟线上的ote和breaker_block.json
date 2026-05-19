@@ -1,0 +1,109 @@
+{
+  "card_id": "gZLLuB_rmis_case_001_s_p_500期货5分钟线上的ote和breaker_block",
+  "type": "case",
+  "title": "ES 5分钟线OTE和Breaker Block的入场设置",
+  "related_concepts": [
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "optimal_trade_entry_ote",
+    "breaker_block",
+    "fair_value_gap_fvg",
+    "displacement",
+    "fibonacci_retracement",
+    "order_block_ob",
+    "premium_discount_premium_",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5m",
+  "market_context": "S&P 500 E-mini期货在5分钟线上形成向上位移后回撤，价格在Breaker Block结构后寻求最优入场点，涉及多个时间框架的结构分析。",
+  "key_observation": "博主展示了在Breaker Block形成后的回撤中，如何使用OTE（最优交易入场点）结合0.62和0.79斐波那契水平以及FVG来确定高概率入场区域。",
+  "analysis_steps": [
+    "Step 1: 识别向上位移腿（Displacement）从低点到高点的完整范围，作为斐波那契回撤的基础。",
+    "Step 2: 在位移后的回撤中绘制斐波那契回撤水平，标记0.5、0.62、0.79等关键水平。",
+    "Step 3: 识别Breaker Block结构——先前的支撑/阻力在价格突破后转变为新的阻力/支撑区。",
+    "Step 4: 在Breaker Block区域内寻找FVG（公允价值缺口），与OTE水平形成汇聚。",
+    "Step 5: 确认OTE入场区域位于0.62和0.79斐波那契水平附近，结合FVG形成高概率入场点。",
+    "Step 6: 在更低时间框架（如1分钟）上验证入场信号，寻找具体的K线形态确认。"
+  ],
+  "outcome": null,
+  "lessons": "OTE通过结合斐波那契回撤和Breaker Block结构，在位移后的回撤中提供高概率入场点。关键是在折价区（0.62-0.79水平）寻找FVG汇聚，并在低时间框架上确认入场信号。",
+  "primary_image": "cards/gZLLuB_rmis/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/gZLLuB_rmis/images/case_001_detail_1.jpg",
+    "cards/gZLLuB_rmis/images/case_001_detail_2.jpg",
+    "cards/gZLLuB_rmis/images/case_001_detail_3.jpg",
+    "cards/gZLLuB_rmis/images/case_001_detail_4.jpg",
+    "cards/gZLLuB_rmis/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES 5分钟K线图。图上显示从左至右的价格走势，整体范围约4075至4137.50。图中绘有一条水平线位于4104.75，以及一个灰色矩形框标注在4097.50至4104.75区间。图上有三条斐波那契回撤水平线，分别标记为0.5、0.62、0.78，对应价格约4102.50、4100.00、4097.50。K线呈现红绿交替形态，左侧以红色K线为主，中段出现绿色K线，右侧再次出现大幅红色K线。右侧价",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 5分钟线图。图上绘制一条连续的线形走势，从左侧约4650附近开始，向上运行至4680附近形成第一个峰值，随后下行至约4638.50处形成低点（标记有加号符号），之后再次上升形成多个波动，最终上升至约4692.75附近。图上有一条水平线标注为BOL，位于4661.00价格水平。右侧价格刻度显示当前价格为4684.75，用蓝色高亮背景标记。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图表显示从左至右的价格走势，整体可见范围约4067.50至4432.50。图上呈现先上升后大幅下跌再整理的形态。左侧K线多为绿色，中段出现大幅红色K线向下，右侧为绿红混合的整理区间。右侧价格标注显示4105.50。图上未见其他标注、形态框或指标。",
+    "case_001_detail_3.jpg": "ES 5分钟K线图。图上显示一段时间内的价格走势，包含多根绿色和红色K线。右侧价格轴显示当前价格为4108.25。图上有4条水平线标注，分别位于4108.25、4100.00（标记为0.5）、4092.00（标记为0.62）和4082.00（标记为0.71）。在4092至4108.25之间有一个灰色矩形区域。可见价格范围从约4682到4129。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图表显示价格范围从 3890 到 4125。图上有一个灰色矩形框标注在 3920 至 3960 区间。在该矩形附近标记有两个斐波那契水平线标签：0.382 和 0.5。图表左侧显示早期价格在 3900 至 3950 区间的波动，中部出现标注矩形的盘整区域，右侧显示从约 4000 向上延伸至 4125 的上升走势，期间包含多根绿色 K",
+    "case_001_detail_5.jpg": "S&P 500 E-mini Futures 1分钟K线图。图表显示从左至右的时间序列，时间轴标注从11:30至15:50。价格范围从4094.00至4148.00。图上K线呈现先涨后跌的整体形态：前半段K线多为绿色，价格从约4120上升至4142附近；中段出现大幅下跌，红色K线连续出现，价格下行至4102；后半段K线在4102至4120区间内震荡，绿红交替。最右侧最新K线为红色，收盘价接近409"
+  },
+  "sources": [
+    {
+      "video_id": "gZLLuB_rmis",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.04,
+        185.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了OTE和Breaker Block的应用流程，包括具体的斐波那契水平（0.62、0.79）、价格区域和多时间框架验证方法。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:36.828628Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 5分钟线OTE和Breaker Block的入场设置\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5m\",\"market_context\":\"S&P 500 E-mini期货在5分钟线上形成向上位移后回撤，价格在Breaker Block结构后寻求最优入场点，涉及多个时间框架的结构分析。\",\"key_observation\":\"博主展示了在Breaker Block形成后的回撤中，如何使用OTE（最优交易入场点）结合0.62和0.79斐波那契水平以及FVG来确定高概率入场区域。\",\"analysis_steps\":[\"Step 1: 识别向上位移腿（Displacement）从低点到高点的完整范围，作为斐波那契回撤的基础。\",\"Step 2: 在位移后的回撤中绘制斐波那契回撤水平，标记0.5、0.62、0.79等关键水平。\",\"Step 3: 识别Breaker Block结构——先前的支撑/阻力在价格突破后转变为新的阻力/支撑区。\",\"Step 4: 在Breaker Block区域内寻找FVG（公允价值缺口），与OTE水平形成汇聚。\",\"Step 5: 确认OTE入场区域位于0.62和0.79斐波那契水平附近，结合FVG形成高概率入场点。\",\"Step 6: 在更低时间框架（如1分钟）上验证入场信号，寻找具体的K线形态确认。\"],\"outcome\":null,\"lessons\":\"OTE通过结合斐波那契回撤和Breaker Block结构，在位移后的回撤中提供高概率入场点。关键是在折价区（0.62-0.79水平）寻找FVG汇聚，并在低时间框架上确认入场信号。\",\"primary_image_frame_id\":\"gZLLuB_rmis_f002\",\"supporting_image_frame_ids\":[\"gZLLuB_rmis_f003\",\"gZLLuB_rmis_f004\",\"gZLLuB_rmis_f005\",\"gZLLuB_rmis_f006\",\"gZLLuB_rmis_f007\"],\"related_concepts\":[\"Optimal Trade Entry (OTE)\",\"Breaker Block\",\"Fair Value Gap (FVG)\",\"Displacement\",\"Fibonacci Retracement\",\"Order Block (OB)\",\"Premium/Discount\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了OTE和Breaker Block的应用流程，包括具体的斐波那契水平（0.62、0.79）、价格区域和多时间框架验证方法。\"}",
+  "error": null
+}

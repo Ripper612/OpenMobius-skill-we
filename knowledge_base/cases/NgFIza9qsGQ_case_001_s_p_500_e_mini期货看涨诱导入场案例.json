@@ -1,0 +1,103 @@
+{
+  "card_id": "NgFIza9qsGQ_case_001_s_p_500_e_mini期货看涨诱导入场案例",
+  "type": "case",
+  "title": "ES期货看涨诱导入场：高点突破后回到区间的做多机会",
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Trend",
+      "card_id": "trend_definition",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "inducement",
+    "order_block",
+    "displacement",
+    "trend_definition",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1M",
+  "market_context": "早盘ES在3880-3900区间横盘整理，随后出现向上位移至3920附近。价格在4小时订单块附近形成看涨趋势，目标指向日线订单块更高位置。",
+  "key_observation": "博主识别出典型的看涨诱导设置：价格在高点被扫荡后回到交易区间，为做多提供高概率入场机会。这是在趋势中寻找入场的关键模式。",
+  "analysis_steps": [
+    "Step 1: 识别4小时订单块位置作为初始支撑区域，以及日线订单块作为最终目标",
+    "Step 2: 观察价格形成看涨趋势，出现向上位移伴随多根绿色K线",
+    "Step 3: 标记高点（约3920-3925区间），确认这是诱导设置的关键水平",
+    "Step 4: 等待价格突破高点后回到交易区间（3895-3910粉色矩形区域）",
+    "Step 5: 在回到区间时确认诱导完成，准备做多入场",
+    "Step 6: 设置止损在高点下方，目标指向日线订单块或更高目标"
+  ],
+  "outcome": null,
+  "lessons": "诱导设置是趋势中的高概率入场模式：价格先扫荡高点吸引空头，然后回到区间给多头机会。关键是等待价格回到区间而不是追高，这样可以获得更好的风险回报比和更小的止损。",
+  "primary_image": "cards/NgFIza9qsGQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/NgFIza9qsGQ/images/case_001_detail_1.jpg",
+    "cards/NgFIza9qsGQ/images/case_001_detail_2.jpg",
+    "cards/NgFIza9qsGQ/images/case_001_detail_3.jpg",
+    "cards/NgFIza9qsGQ/images/case_001_detail_4.jpg",
+    "cards/NgFIza9qsGQ/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 1分钟图表。图上标注文字'Inducement'位于左侧。可见价格范围约从3875到3922。图表中央有一个粉色矩形框标注，覆盖约3895至3910的价格区间。图上绘有多条趋势线，显示上升和下降的方向。K线呈现绿色和黑色交替排列，分为三个时间段的集群。图表顶部有灰色阴影区域。右侧价格刻度清晰可见。",
+    "case_001_detail_1.jpg": "S&P 500 E-mini 期货 1 分钟图。图上显示从约 08:30 至 10:25 的交易时段。价格范围从 3849.25 至 3920.50。图上有两条灰色矩形区域标注，分别位于上方 3915-3920.50 区间和下方 3849.25-3860 区间。K 线序列显示早期在 3880-3900 区间内的横盘整理，随后出现向上位移至 3920 附近，伴随多根绿色 K 线。之后价格回落并在 3",
+    "case_001_detail_2.jpg": "S&P 500 E-mini 期货 1 分钟图。图上绘有多条趋势线连接摆动高点和低点，以及一个粉色矩形框标注在约 3890 至 3905 价格区间。K 线呈现绿色和黑色交替排列，绿色 K 线主要出现在 3910 至 3920 区间，黑色 K 线主要出现在 3880 至 3895 区间。右侧最新几根 K 线呈灰色且体积较小。图右侧价格刻度显示范围约从 3875 到 3922。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini期货1分钟K线图。图上显示价格范围约3878至3922。左侧绘有标注为'Inducement'的上升趋势线及下降趋势线。中央区域有一个粉色矩形标注，内含三行文字标签分别显示Range、Open和Volume数据。K线由绿色和黑色蜡烛组成，分布在3900至3920区间。右侧显示体积柱状图。图右上角有向下箭头标注。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini 期货 1 分钟图。图上标注文字'Inducement'位于左上方。可见价格范围约从 3878 到 3924。图表中绘有多条上升和下降的趋势线，连接一系列绿色和黑色 K 线。图上有三个矩形区域分别用浅蓝色和浅粉色填充。右侧有一条向下指向的箭头标注。右下角可见数根灰色 K 线。除上述标注外，未见其他指标或水平线。",
+    "case_001_detail_5.jpg": "S&P 500 E-mini Futures 1分钟图。图上标注文字'Inducement'位于左侧。可见价格范围约从3878到3922。图上绘有多条趋势线连接摆动高低点，以及两个矩形区域分别标记在上下价格区间。K线呈现交替的绿色和黑色蜡烛，上方区域约在3910至3925之间，下方区域约在3880至3910之间。最右侧K线具有长下影线，向下刺破至约3878。图上有一条水平虚线位于约3914.50处"
+  },
+  "sources": [
+    {
+      "video_id": "NgFIza9qsGQ",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.359,
+        367.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了诱导设置的定义、图表标注清晰、价格水平明确（3895-3910入场区、3920-3925高点、日线OB目标），分析步骤按顺序呈现。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:37.941551Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货看涨诱导入场：高点突破后回到区间的做多机会\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1M\",\"market_context\":\"早盘ES在3880-3900区间横盘整理，随后出现向上位移至3920附近。价格在4小时订单块附近形成看涨趋势，目标指向日线订单块更高位置。\",\"key_observation\":\"博主识别出典型的看涨诱导设置：价格在高点被扫荡后回到交易区间，为做多提供高概率入场机会。这是在趋势中寻找入场的关键模式。\",\"analysis_steps\":[\"Step 1: 识别4小时订单块位置作为初始支撑区域，以及日线订单块作为最终目标\",\"Step 2: 观察价格形成看涨趋势，出现向上位移伴随多根绿色K线\",\"Step 3: 标记高点（约3920-3925区间），确认这是诱导设置的关键水平\",\"Step 4: 等待价格突破高点后回到交易区间（3895-3910粉色矩形区域）\",\"Step 5: 在回到区间时确认诱导完成，准备做多入场\",\"Step 6: 设置止损在高点下方，目标指向日线订单块或更高目标\"],\"outcome\":null,\"lessons\":\"诱导设置是趋势中的高概率入场模式：价格先扫荡高点吸引空头，然后回到区间给多头机会。关键是等待价格回到区间而不是追高，这样可以获得更好的风险回报比和更小的止损。\",\"primary_image_frame_id\":\"NgFIza9qsGQ_f004\",\"supporting_image_frame_ids\":[\"NgFIza9qsGQ_f001\",\"NgFIza9qsGQ_f003\",\"NgFIza9qsGQ_f005\",\"NgFIza9qsGQ_f006\",\"NgFIza9qsGQ_f002\"],\"related_concepts\":[\"Inducement\",\"Order Block\",\"Displacement\",\"Trend\",\"Market Structure\",\"Liquidity\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了诱导设置的定义、图表标注清晰、价格水平明确（3895-3910入场区、3920-3925高点、日线OB目标），分析步骤按顺序呈现。\"}",
+  "error": null
+}

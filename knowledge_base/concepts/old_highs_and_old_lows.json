@@ -1,0 +1,53 @@
+{
+  "card_id": "old_highs_and_old_lows",
+  "type": "merged_concept",
+  "canonical_term": "Old Highs and Old Lows",
+  "aliases": [
+    "Historical swing extremes",
+    "Previous highs and lows"
+  ],
+  "school": "SMC",
+  "definition": "之前形成的单个突出摆动点，是明确的历史价格极值。与相对相等的高/低点不同，这些是独立的、易于识别的历史高点或低点，可用于框架反转或作为流动性目标。",
+  "identification_rules": [
+    "识别单个突出的摆动高点或低点，该点在图表上明显高于或低于周围K线",
+    "确认该摆动点是历史形成的，而非当前正在形成的结构",
+    "与相对相等高/低点区分：Old Highs/Lows是单个明确的极值，而相对相等高/低点是两个或多个聚集在一起的接近价格水平",
+    "可跨越多个时间框架标记（如前一周高/低、前一天高/低、交易时段高/低）"
+  ],
+  "trading_implication": "Old Highs和Old Lows作为流动性目标和反转框架的关键参考点。交易者可用其标记重要的历史价格水平，当价格接近这些水平时，可能形成反转或被用作目标位。结合交易时段高/低（如亚洲、伦敦、纽约时段）使用，可帮助框架价格走势的预期目标和反转点。",
+  "common_mistakes": [
+    "将Old Highs/Lows与相对相等高/低点混淆；后者是多个接近的摆动点，而前者是单个突出的历史极值",
+    "未能跨时间框架系统地标记Old Highs/Lows，导致遗漏重要的流动性目标"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "U8xH2dEgH5A",
+      "original_card_id": "U8xH2dEgH5A_concept_old_highs_and_old_lows",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        254.58,
+        439.139
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134367Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

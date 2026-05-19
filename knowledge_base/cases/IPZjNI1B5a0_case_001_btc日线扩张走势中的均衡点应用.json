@@ -1,0 +1,117 @@
+{
+  "card_id": "IPZjNI1B5a0_case_001_btc日线扩张走势中的均衡点应用",
+  "type": "case",
+  "title": "ETH日线扩张走势中的均衡点应用与PD数组匹配",
+  "related_concepts": [
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Low",
+      "card_id": "protected_swing_protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "equilibrium",
+    "premium_discount_premium_",
+    "fair_value_gap",
+    "order_block",
+    "protected_swing_protected_high_low",
+    "displacement",
+    "change_in_the_state_of_delivery",
+    "failure_swings",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": "ETHUSD",
+  "timeframe": "1D / 1H",
+  "market_context": "ETH经历前一日大幅下跌形成扩张后，次日价格在均衡点上半部分继续上行，博主通过PD数组匹配在上半部分寻找支撑位，追踪多日连续尊重均衡点的扩张延续走势。",
+  "key_observation": "在价格扩张阶段，均衡点（EQ）的上半部分倾向于支撑价格继续上行，而非像传统折价/溢价理论那样回测。博主通过在EQ上半部分匹配PD数组（FVG、Protected Low等）找到高概率支撑位。",
+  "analysis_steps": [
+    "Step 1: 识别前一日形成的扩张K线，从Wick High到Wick Low计算0.5斐波那契位置标记均衡点。",
+    "Step 2: 在均衡点上半部分寻找PD数组（Fair Value Gap、Protected Low、Opposing Candles等）作为预期支撑。",
+    "Step 3: 观察次日价格是否尊重均衡点上半部分，若价格在该区域获得反应并继续上行，则确认扩张延续。",
+    "Step 4: 追踪后续多日走势，每日检查是否继续尊重前一日EQ上半部分，形成更高时间框架的Wick。",
+    "Step 5: 若EQ上半部分未被尊重，则翻转偏差，预期低点被扫除，价格转向下行。"
+  ],
+  "outcome": "价格连续多日尊重均衡点上半部分，形成持续上行的扩张走势，每日都在EQ上半部分的PD数组处获得支撑后继续上行，最终突破前期高点并扫除左侧失败摆动。",
+  "lessons": "在扩张阶段，均衡点的上下半部分具有不对称的支撑/阻力特性。上半部分在看涨扩张中倾向支撑价格继续上行，而非回测。通过PD数组匹配在EQ上半部分寻找具体入场点，可提高扩张延续交易的成功率。",
+  "primary_image": "cards/IPZjNI1B5a0/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/IPZjNI1B5a0/images/case_001_detail_1.jpg",
+    "cards/IPZjNI1B5a0/images/case_001_detail_2.jpg",
+    "cards/IPZjNI1B5a0/images/case_001_detail_3.jpg",
+    "cards/IPZjNI1B5a0/images/case_001_detail_4.jpg",
+    "cards/IPZjNI1B5a0/images/case_001_detail_5.jpg",
+    "cards/IPZjNI1B5a0/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图为K线图，右侧价格刻度显示范围约从38000至43300。图中可见一根大型黑色K线，主体从约42800延伸至40700。其右侧有两根大型绿色K线，主体范围约40700至42600。最右侧K线带有向下延伸至约38500的长下影线。图上有三条水平线标注，分别位于约42360、40560及40320处。另有一个橙黄色矩形框标注于约40320至40560区间。图左侧可见多根K线呈下行后回升走势。",
+    "case_001_detail_1.jpg": "图为教学幻灯片，左上角标题文字为'Phases of Price'，左下角显示品牌标识'TTrades'及页码'3'。画面中央偏右区域有约15根前景K线（绿色与黑色混合），K线序列呈先下行后上行走势。背景铺有半透明水印式K线图。图上无价格刻度、无资产代码、无时间框架标注，亦无水平线、矩形框或其他标注工具。图中央偏左位置有一个黄色圆形光标高亮标记。",
+    "case_001_detail_2.jpg": "图为教学示意图，左上角标注文字'EQ'。图中包含两组 K 线示意图：左侧一组以一根大绿色阳线为核心，外围绘有矩形框，矩形内有一条虚线水平线位于该阳线主体约中间位置，矩形上方跟随数根小 K 线向上排列；右侧一组以一根大黑色阴线为核心，外围同样绘有矩形框，矩形内有一条虚线水平线位于该阴线主体约中间位置，矩形下方跟随数根小 K 线向下排列。图左上角文字标签为'EQ'，图下方显示品牌标识'TTrades'",
+    "case_001_detail_3.jpg": "图左上角标题文字为'PD Array Matching'，图下方显示品牌标识'TTrades'及数字'9'。K线图中可见两个矩形框标注，两框部分重叠，覆盖图中一组K线区域。图中另有一条向右延伸的水平虚线，虚线附近放置一个黄色圆形高亮标记。价格刻度及资产代码、时间框架均不可读，图表背景呈半透明叠加状态。",
+    "case_001_detail_4.jpg": "图表为 ETH 1 小时 K 线图，右侧价格刻度范围约从 40960 至 43340。图右侧可见一根主体较长的黑色 K 线，主体范围约 40700 至 42800，其上方紧接一根小黑 K 线。随后出现一根绿色 K 线，主体范围约 40700 至 42200。图上有一条贯穿全图的水平虚线，位于约 42087 处。时间轴底部高亮显示 Tue 14 Jan 07:00，光标以黄色十字标记定位于该时间点附",
+    "case_001_detail_5.jpg": "图表为 ETH 1 小时 K 线图，可见价格范围约从 41000 至 43440。图上有两条水平线，分别位于约 42100 和 41480 附近。图右侧可见一根大型黑色实体 K 线与一根大型绿色实体 K 线相邻，两根 K 线主体均跨越约 40600 至 42200 至 42600 区间。图中段有多根 K 线在约 41800 至 42800 区间内横向排列。左侧价格轴在约 42396 处有高亮标签。",
+    "case_001_detail_6.jpg": "图表为1小时K线图，价格范围约从37600至41900。图左侧出现一根大阴线，随后K线在约38000至39500区间内形成多根小实体K线的横盘区域。图中部偏右位置标注有一个黄色矩形框，覆盖约39200至39700价格区间。图右侧出现一根大阴线，下影线延伸至约37700，随后两根大阳线收于约40000附近。图上另有两条水平线，分别位于约38600和38000处。底部工具栏显示时间框架为1h。"
+  },
+  "sources": [
+    {
+      "video_id": "IPZjNI1B5a0",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.96,
+        371.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从教学概念到实际图表的分析过程，资产代码、时间框架、关键价位、分析步骤均清晰可读，多日走势验证了理论应用。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:24.113859Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH日线扩张走势中的均衡点应用与PD数组匹配\",\"school\":\"ICT\",\"asset\":\"ETHUSD\",\"timeframe\":\"1D / 1H\",\"market_context\":\"ETH经历前一日大幅下跌形成扩张后，次日价格在均衡点上半部分继续上行，博主通过PD数组匹配在上半部分寻找支撑位，追踪多日连续尊重均衡点的扩张延续走势。\",\"key_observation\":\"在价格扩张阶段，均衡点（EQ）的上半部分倾向于支撑价格继续上行，而非像传统折价/溢价理论那样回测。博主通过在EQ上半部分匹配PD数组（FVG、Protected Low等）找到高概率支撑位。\",\"analysis_steps\":[\"Step 1: 识别前一日形成的扩张K线，从Wick High到Wick Low计算0.5斐波那契位置标记均衡点。\",\"Step 2: 在均衡点上半部分寻找PD数组（Fair Value Gap、Protected Low、Opposing Candles等）作为预期支撑。\",\"Step 3: 观察次日价格是否尊重均衡点上半部分，若价格在该区域获得反应并继续上行，则确认扩张延续。\",\"Step 4: 追踪后续多日走势，每日检查是否继续尊重前一日EQ上半部分，形成更高时间框架的Wick。\",\"Step 5: 若EQ上半部分未被尊重，则翻转偏差，预期低点被扫除，价格转向下行。\"],\"outcome\":\"价格连续多日尊重均衡点上半部分，形成持续上行的扩张走势，每日都在EQ上半部分的PD数组处获得支撑后继续上行，最终突破前期高点并扫除左侧失败摆动。\",\"lessons\":\"在扩张阶段，均衡点的上下半部分具有不对称的支撑/阻力特性。上半部分在看涨扩张中倾向支撑价格继续上行，而非回测。通过PD数组匹配在EQ上半部分寻找具体入场点，可提高扩张延续交易的成功率。\",\"primary_image_frame_id\":\"IPZjNI1B5a0_f009\",\"supporting_image_frame_ids\":[\"IPZjNI1B5a0_f003\",\"IPZjNI1B5a0_f004\",\"IPZjNI1B5a0_f005\",\"IPZjNI1B5a0_f008\",\"IPZjNI1B5a0_f010\",\"IPZjNI1B5a0_f011\"],\"related_concepts\":[\"Equilibrium\",\"PD Array\",\"Fair Value Gap\",\"Order Block\",\"Protected Low\",\"Displacement\",\"Change in the state of delivery\",\"Opposing Candles\",\"Failure Swings\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从教学概念到实际图表的分析过程，资产代码、时间框架、关键价位、分析步骤均清晰可读，多日走势验证了理论应用。\"}",
+  "error": null
+}

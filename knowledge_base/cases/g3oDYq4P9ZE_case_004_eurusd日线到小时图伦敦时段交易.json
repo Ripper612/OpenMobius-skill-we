@@ -1,0 +1,106 @@
+{
+  "card_id": "g3oDYq4P9ZE_case_004_eurusd日线到小时图伦敦时段交易",
+  "type": "case",
+  "title": "GBPUSD日线看跌偏差到小时图伦敦时段FVG交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Stop Hunt",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "displacement",
+    "order_block",
+    "liquidity",
+    "market_structure_shift",
+    "previous_day_high_low",
+    "swing_low_swing_high"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1D → 1H → 5M",
+  "market_context": "GBPUSD日线上未能收盘于前一日高点之上，已处于看跌趋势。博主通过日线确定看跌偏差后，下降到小时图在伦敦时段识别FVG和扫盘机会。",
+  "key_observation": "日线失败收盘于前一日高点上方，预示看跌偏差。小时图在伦敦时段出现止损猎杀（stop hunt）进入公允价值缺口，随后形成激进的位移下行。",
+  "analysis_steps": [
+    "Step 1: 在日线上观察前一日高点（约1.27400），确认价格未能收盘于其上方，建立看跌偏差。",
+    "Step 2: 下降到小时图，标记午夜开盘价（Daily Open）作为参考点。",
+    "Step 3: 识别小时图在伦敦时段的止损猎杀（stop hunt）事件，价格扫过高点后进入FVG。",
+    "Step 4: 标记出现的公允价值缺口（Fair Value Gap），作为潜在入场区域。",
+    "Step 5: 观察价格从FVG激进下行，形成明显的位移（Displacement）。",
+    "Step 6: 设置止损于扫盘高点，目标设定为前一日低点或更低的摆动点。",
+    "Step 7: 可选择下降到5分钟图寻找更精确的入场点，或在小时图FVG处直接入场。"
+  ],
+  "outcome": "价格激进下行至前一日低点，并继续向下突破摆动点，交易获利。",
+  "lessons": "通过日线确定看跌偏差后，在小时图伦敦时段利用止损猎杀和FVG的组合可以识别高概率空头入场。关键是识别激进的位移和FVG的形成，同时使用扫盘高点作为止损参考。",
+  "primary_image": "cards/g3oDYq4P9ZE/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/g3oDYq4P9ZE/images/case_004_detail_1.jpg",
+    "cards/g3oDYq4P9ZE/images/case_004_detail_2.jpg",
+    "cards/g3oDYq4P9ZE/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "GBP/USD 1 小时 K 线图。图上显示从左侧高点 1.27600 向下的下跌走势，最低点触及约 1.26500。图上有两条水平线分别位于 1.27600 和 1.26500。标注包括一个灰色矩形标记为'Daily Open'位于上方区域，以及一个青色矩形覆盖中间价格区间。最近一根 K 线呈现长下影线形态，下影线穿过 1.26500 水平线。图底部显示时间标记'Wed 28 Jun 23 00",
+    "case_004_detail_1.jpg": "GBP/USD 日线图。图上显示从 6 月 12 日至 6 月 28 日的 K 线序列，价格范围约 1.25800 至 1.28600。图中绘制两条水平线分别位于 1.27400 和 1.27000 价格水平，两线之间有矩形标注框。K 线序列呈绿黑交替排列，绿色 K 线出现在 12、14、17 日期位置，黑色 K 线穿插其间。右侧价格刻度显示当前价 1.27400，带绿色高亮背景。图上未见其他指标",
+    "case_004_detail_2.jpg": "GBP/USD 1 小时 K 线图。图上显示从 27 日 12:00 至 29 日 12:00 的价格走势。可见价格范围约从 1.26900 到 1.28800。图上有两条水平线分别位于 1.27500 和 1.26800 处。在 28 日 06:00 附近标注有文字'Buys Open'。K 线形态显示先上升后下降的走势，其中上升段约 8 根 K 线，下降段约 6 根 K 线，随后在 1.273",
+    "case_004_detail_3.jpg": "GBP/USD 1小时K线图。图上显示约20根K线，价格范围在1.27060至1.27500之间。图上有两条水平虚线，分别位于1.27380和1.27320处。右侧标注有'Daily Open'文字标签。K线呈现绿色和黑色混合，多数K线具有上下影线，部分K线下影线长度明显超过主体。图右上角显示'TTrader_edu'和'USD'文字。底部时间轴显示从21:30至09:00的时间标记。"
+  },
+  "sources": [
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        811.56,
+        1106.7
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时图的分析过程，清晰标注了关键价位、FVG位置、入场点和止损位，并给出了交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:44.877341Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD日线看跌偏差到小时图伦敦时段FVG交易\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1D → 1H → 5M\",\"market_context\":\"GBPUSD日线上未能收盘于前一日高点之上，已处于看跌趋势。博主通过日线确定看跌偏差后，下降到小时图在伦敦时段识别FVG和扫盘机会。\",\"key_observation\":\"日线失败收盘于前一日高点上方，预示看跌偏差。小时图在伦敦时段出现止损猎杀（stop hunt）进入公允价值缺口，随后形成激进的位移下行。\",\"analysis_steps\":[\"Step 1: 在日线上观察前一日高点（约1.27400），确认价格未能收盘于其上方，建立看跌偏差。\",\"Step 2: 下降到小时图，标记午夜开盘价（Daily Open）作为参考点。\",\"Step 3: 识别小时图在伦敦时段的止损猎杀（stop hunt）事件，价格扫过高点后进入FVG。\",\"Step 4: 标记出现的公允价值缺口（Fair Value Gap），作为潜在入场区域。\",\"Step 5: 观察价格从FVG激进下行，形成明显的位移（Displacement）。\",\"Step 6: 设置止损于扫盘高点，目标设定为前一日低点或更低的摆动点。\",\"Step 7: 可选择下降到5分钟图寻找更精确的入场点，或在小时图FVG处直接入场。\"],\"outcome\":\"价格激进下行至前一日低点，并继续向下突破摆动点，交易获利。\",\"lessons\":\"通过日线确定看跌偏差后，在小时图伦敦时段利用止损猎杀和FVG的组合可以识别高概率空头入场。关键是识别激进的位移和FVG的形成，同时使用扫盘高点作为止损参考。\",\"primary_image_frame_id\":\"g3oDYq4P9ZE_f033\",\"supporting_image_frame_ids\":[\"g3oDYq4P9ZE_f030\",\"g3oDYq4P9ZE_f031\",\"g3oDYq4P9ZE_f032\"],\"related_concepts\":[\"Fair Value Gap\",\"Displacement\",\"Order Block\",\"Liquidity\",\"Stop Hunt\",\"Market Structure Shift\",\"Previous Day High/Low\",\"Swing Point\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到小时图的分析过程，清晰标注了关键价位、FVG位置、入场点和止损位，并给出了交易结果。\"}",
+  "error": null
+}

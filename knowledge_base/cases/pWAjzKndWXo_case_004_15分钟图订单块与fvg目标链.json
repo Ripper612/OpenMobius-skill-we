@@ -1,0 +1,86 @@
+{
+  "card_id": "pWAjzKndWXo_case_004_15分钟图订单块与fvg目标链",
+  "type": "case",
+  "title": "ES 15分钟订单块入场与FVG链式目标",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Imbalance",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Target Chain",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "fair_value_gap_fvg",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "15m",
+  "market_context": "S&P 500 E-mini期货在15分钟图上呈现上升趋势，价格在3640-3785区间波动。图中识别出多个订单块和公允价值缺口区域，用于构建目标链条。",
+  "key_observation": "博主演示如何在订单块处入场做空，然后依次以多个FVG（不平衡）作为目标链条，而不仅仅依赖流动性（摆动高点）作为唯一目标。",
+  "analysis_steps": [
+    "Step 1: 识别上方订单块区域（3713.75-3680.00），作为潜在做空入场点。",
+    "Step 2: 确认第一个FVG目标（上方不平衡区域）。",
+    "Step 3: 识别第二个FVG目标（中间不平衡区域，约3680-3690）。",
+    "Step 4: 识别第三个FVG目标（下方不平衡区域，约3660-3670）。",
+    "Step 5: 对比使用FVG链式目标与传统流动性目标的差异——FVG目标可能导致更早出场，但提供更多的分层目标选择。"
+  ],
+  "outcome": null,
+  "lessons": "使用FVG（不平衡）作为分层目标链条，可以比单纯追逐流动性（摆动高点）提供更多的出场机会和灵活性。这种方法适合希望在趋势中获得多个获利点的交易者。",
+  "primary_image": "cards/pWAjzKndWXo/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/pWAjzKndWXo/images/case_004_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上可见价格范围约从3615到3760。图中标注有多个灰色矩形框，分别位于3700-3710、3680-3690、3660-3670等价格区间。K线呈现红绿混合形态，左侧K线多为红色，中间区域混合，右侧近期K线多为绿色。图右侧价格刻度显示最新报价附近为3750-3760区间。除矩形标注外，未见其他指标或形态标注。",
+    "case_004_detail_1.jpg": "ES 15分钟K线图。图上显示S&P 500 E-mini期货合约，价格范围从3640.00至3785.00。图中标注有两个灰色矩形框：上方框位于3713.75至3680.00区间，下方框位于3680.00至3650.00区间。K线呈现绿色和红色交替，显示在标注区域内有整理形态。右侧价格刻度显示最新报价在3785.00附近。时间戳显示19 Jun 22 19:15。"
+  },
+  "sources": [
+    {
+      "video_id": "pWAjzKndWXo",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        187.599,
+        232.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了订单块入场点、多个FVG目标的识别过程，以及与流动性目标的对比分析。图表标注明确，时间框架和资产代码清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:39.286005Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 15分钟订单块入场与FVG链式目标\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"15m\",\"market_context\":\"S&P 500 E-mini期货在15分钟图上呈现上升趋势，价格在3640-3785区间波动。图中识别出多个订单块和公允价值缺口区域，用于构建目标链条。\",\"key_observation\":\"博主演示如何在订单块处入场做空，然后依次以多个FVG（不平衡）作为目标链条，而不仅仅依赖流动性（摆动高点）作为唯一目标。\",\"analysis_steps\":[\"Step 1: 识别上方订单块区域（3713.75-3680.00），作为潜在做空入场点。\",\"Step 2: 确认第一个FVG目标（上方不平衡区域）。\",\"Step 3: 识别第二个FVG目标（中间不平衡区域，约3680-3690）。\",\"Step 4: 识别第三个FVG目标（下方不平衡区域，约3660-3670）。\",\"Step 5: 对比使用FVG链式目标与传统流动性目标的差异——FVG目标可能导致更早出场，但提供更多的分层目标选择。\"],\"outcome\":null,\"lessons\":\"使用FVG（不平衡）作为分层目标链条，可以比单纯追逐流动性（摆动高点）提供更多的出场机会和灵活性。这种方法适合希望在趋势中获得多个获利点的交易者。\",\"primary_image_frame_id\":\"pWAjzKndWXo_f008\",\"supporting_image_frame_ids\":[\"pWAjzKndWXo_f007\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Imbalance\",\"Liquidity\",\"Target Chain\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了订单块入场点、多个FVG目标的识别过程，以及与流动性目标的对比分析。图表标注明确，时间框架和资产代码清晰可读。\"}",
+  "error": null
+}

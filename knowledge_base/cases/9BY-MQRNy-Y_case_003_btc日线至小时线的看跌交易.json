@@ -1,0 +1,114 @@
+{
+  "card_id": "9BY-MQRNy-Y_case_003_btc日线至小时线的看跌交易",
+  "type": "case",
+  "title": "BTC日线至小时线的看跌交易：双次入场与止损管理",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "V-shaped Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift",
+    "order_block",
+    "fair_value_gap",
+    "balanced_price_range",
+    "liquidity",
+    "candle_2_closure_c2",
+    "v_shaped_reversal",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1D / 1H",
+  "market_context": "周线形成看跌偏差后，日线出现candle 2看跌收盘。价格在106000-104000区间形成BPR和整理，随后在小时线出现V形反转和延续机会。",
+  "key_observation": "博主展示了从日线高时间框架的看跌结构下行到小时线的具体交易执行过程，包括第一次成功的3.74R获利和第二次被止损的情况，体现真实交易中的胜负结合。",
+  "analysis_steps": [
+    "Step 1: 在周线观察到看跌偏差，预期价格向下运动",
+    "Step 2: 下行至日线寻找与周线偏差对齐的日线摆动点",
+    "Step 3: 识别日线上的BPR（平衡价格区间）和整理结构，预期价格先上行扫除摆动点",
+    "Step 4: 观察日线形成大幅上升的wick反转K线，为小时线交易提供结构",
+    "Step 5: 在小时线上寻找收盘低于上升K线序列的延续信号",
+    "Step 6: 第一次入场在小时线延续处，目标2R，实际获得3.74R",
+    "Step 7: 在日线出现强势下跌K线后，等待新的整理阶段形成新摆动点",
+    "Step 8: 第二次入场在后续V形反转处，但被止损扫出"
+  ],
+  "outcome": "第一次入场成功获利3.74R；第二次入场被有效止损扫出，体现了真实交易中的风险管理和胜负交替。",
+  "lessons": "多时间框架分析需要从高时间框架的偏差和结构开始，然后在低时间框架寻找具体入场点。即使结构和背景完美，也会遭遇止损，这是交易的正常部分。需要耐心等待新的价格阶段而非急于追单。",
+  "primary_image": "cards/9BY-MQRNy-Y/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/9BY-MQRNy-Y/images/case_003_detail_1.jpg",
+    "cards/9BY-MQRNy-Y/images/case_003_detail_2.jpg",
+    "cards/9BY-MQRNy-Y/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图为 BTCUSDT K 线图，网站水印标注 TTrades.com。图上可见价格范围约从 94000 至 117800，K 线主要活动集中在 101500 至 110000 区间。图左侧至中部呈现一段下行走势，从约 110000 跌至约 101500，随后在 101500 至 105000 区间出现多根 K 线横向整理。图右侧绘有两条水平线，分别位于约 105000 和 107200 附近，并有",
+    "case_003_detail_1.jpg": "BTCUSDT 日线 K 线图，右侧价格刻度从约 85000 延伸至 129000。图上绘有两条无标签水平线，分别位于约 106000 和 104000 附近，横跨图表中部至右侧。K 线群集中于图表左中部，其中一根绿色 K 线主体延伸至约 111000，其后紧跟一根黑色 K 线。图表右侧出现一根主体较大的黑色 K 线，价格区间约在 107000 至 95000 之间。最右侧 K 线收于两条水平线附",
+    "case_003_detail_2.jpg": "图为 BTCUSDT K 线图，可见价格范围约从 91000 至 111000。图左侧 K 线呈下行排列，从约 111000 下行至约 92000。图中部出现一段横向整理区间，随后出现一组上行 K 线触及约 109000。图右侧有一条水平线延伸至约 105000 附近，并叠加两个矩形标注区域：一个浅绿色较大矩形与一个稍小的绿色矩形，价格范围约在 103500 至 106500 之间。矩形区域内可见",
+    "case_003_detail_3.jpg": "图表为 BTCUSDT 日线蜡烛图，可见价格范围约从 97000 至 115000。图左侧有一根较长的绿色 K 线，主体从约 97500 延伸至 109000。图中部可见多根绿色与黑色 K 线交替排列，价格在约 103000 至 111500 区间内波动。图右侧有一根较大的黑色 K 线，主体从约 105500 向下延伸至 102000。图上有一条水平线位于约 105000 处，横跨图表延伸至右侧，"
+  },
+  "sources": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        506.24,
+        662.64
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从周线到日线再到小时线的分析过程，明确标注了两次入场、获利和止损结果，关键价位和时间框架清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:02.410513Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC日线至小时线的看跌交易：双次入场与止损管理\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1D / 1H\",\"market_context\":\"周线形成看跌偏差后，日线出现candle 2看跌收盘。价格在106000-104000区间形成BPR和整理，随后在小时线出现V形反转和延续机会。\",\"key_observation\":\"博主展示了从日线高时间框架的看跌结构下行到小时线的具体交易执行过程，包括第一次成功的3.74R获利和第二次被止损的情况，体现真实交易中的胜负结合。\",\"analysis_steps\":[\"Step 1: 在周线观察到看跌偏差，预期价格向下运动\",\"Step 2: 下行至日线寻找与周线偏差对齐的日线摆动点\",\"Step 3: 识别日线上的BPR（平衡价格区间）和整理结构，预期价格先上行扫除摆动点\",\"Step 4: 观察日线形成大幅上升的wick反转K线，为小时线交易提供结构\",\"Step 5: 在小时线上寻找收盘低于上升K线序列的延续信号\",\"Step 6: 第一次入场在小时线延续处，目标2R，实际获得3.74R\",\"Step 7: 在日线出现强势下跌K线后，等待新的整理阶段形成新摆动点\",\"Step 8: 第二次入场在后续V形反转处，但被止损扫出\"],\"outcome\":\"第一次入场成功获利3.74R；第二次入场被有效止损扫出，体现了真实交易中的风险管理和胜负交替。\",\"lessons\":\"多时间框架分析需要从高时间框架的偏差和结构开始，然后在低时间框架寻找具体入场点。即使结构和背景完美，也会遭遇止损，这是交易的正常部分。需要耐心等待新的价格阶段而非急于追单。\",\"primary_image_frame_id\":\"9BY-MQRNy-Y_f020\",\"supporting_image_frame_ids\":[\"9BY-MQRNy-Y_f019\",\"9BY-MQRNy-Y_f021\",\"9BY-MQRNy-Y_f022\"],\"related_concepts\":[\"Market Structure Shift\",\"Order Block\",\"Fair Value Gap\",\"Balanced Price Range\",\"Liquidity\",\"Candle 2 Closure\",\"V-shaped Reversal\",\"Risk Management\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从周线到日线再到小时线的分析过程，明确标注了两次入场、获利和止损结果，关键价位和时间框架清晰可读。\"}",
+  "error": null
+}

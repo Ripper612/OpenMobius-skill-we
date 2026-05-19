@@ -1,0 +1,51 @@
+{
+  "card_id": "previous_week_high_and_low",
+  "type": "merged_concept",
+  "canonical_term": "Previous Week High and Low",
+  "aliases": [
+    "上一周高点和低点",
+    "周高低点"
+  ],
+  "school": "ICT",
+  "definition": "上一周内形成的最高价格点和最低价格点。作为关键流动性水平，用于框架反转或吸引价格回测，帮助交易者识别重要支撑阻力位。",
+  "identification_rules": [
+    "在周线图上识别上一个完整交易周（通常周一至周五）内的最高点和最低点",
+    "标记这两个价格水平作为水平线，在后续交易中观察价格是否触及或突破",
+    "当价格在当周内回测这些水平时，作为潜在的反转框架或流动性吸引点"
+  ],
+  "trading_implication": "Previous Week High/Low是交易者应始终标记在图表上的关键流动性水平。价格通常会被吸引到这些水平进行回测或突破。可用于：(1)框架反转——价格在该水平反转；(2)流动性吸引——价格被吸引至该水平后继续原方向运行。与Session High/Low和Previous Day High/Low一起构成完整的流动性框架体系。",
+  "common_mistakes": [
+    "材料未明确提到常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "U8xH2dEgH5A",
+      "original_card_id": "U8xH2dEgH5A_concept_previous_week_high_and_low",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        254.58,
+        439.139
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135016Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

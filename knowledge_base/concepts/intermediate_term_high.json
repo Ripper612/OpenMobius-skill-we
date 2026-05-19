@@ -1,0 +1,61 @@
+{
+  "card_id": "intermediate_term_high",
+  "type": "merged_concept",
+  "canonical_term": "Intermediate Term High",
+  "aliases": [
+    "ITH"
+  ],
+  "school": "ICT",
+  "definition": "由两个或多个短期高点形成的更高级别高点。第一个短期高点之后出现扫荡，随后在另一侧形成第二个短期高点，且该高点高于前两个短期高点，即构成中期高点。",
+  "identification_rules": [
+    "识别第一个短期高点（Short-Term High, STH）",
+    "价格从该高点下行后扫荡（sweep）该高点",
+    "在扫荡后的另一侧形成第二个短期高点",
+    "第二个短期高点必须高于第一个短期高点和扫荡前的高点",
+    "通常在公允价值缺口（FVG）与减伤块（Mitigation Block）重叠区域确认"
+  ],
+  "trading_implication": "中期高点用作空头交易的止损位置。一旦确认中期高点形成，交易者可在其下方寻找入场机会（如FVG与Mitigation Block重叠区），将止损设置在该中期高点处。中期高点被突破表示交易无效。目标通常指向前一日低点或更低的流动性区域。",
+  "common_mistakes": [
+    "在中期高点未完全确认前过早移动止损至盈亏平衡点，导致被扫荡出局",
+    "混淆短期高点与中期高点，未等待第二个短期高点形成即入场",
+    "忽视中期高点必须高于前两个高点的条件，误判形态"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0R61Y6Pn74Q_case_001_cpi后黄金反转交易案例",
+      "video_id": "0R61Y6Pn74Q",
+      "title": "CPI后黄金日线订单块与5分钟FVG叠加做空案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0R61Y6Pn74Q",
+      "original_card_id": "0R61Y6Pn74Q_concept_intermediate_term_high",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        124.92,
+        485.319
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133505Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

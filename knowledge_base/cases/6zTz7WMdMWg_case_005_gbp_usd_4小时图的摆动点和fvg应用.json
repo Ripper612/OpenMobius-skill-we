@@ -1,0 +1,128 @@
+{
+  "card_id": "6zTz7WMdMWg_case_005_gbp_usd_4小时图的摆动点和fvg应用",
+  "type": "case",
+  "title": "GBP/USD 4小时图的摆动点和FVG多次反转分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Inside Bar",
+      "card_id": "inside_bar",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "swing_low_swing_high",
+    "displacement",
+    "liquidity",
+    "market_structure_shift_mss",
+    "premium_discount_premium_",
+    "inside_bar",
+    "reversal_vs_continuation",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "GBP/USD",
+  "timeframe": "4H",
+  "market_context": "GBP/USD在7月25日至8月10日期间经历明显下跌，从约1.29300跌至1.26400附近。期间形成多个摆动点、FVG和订单块，价格多次在这些结构处反转或被扫盘。",
+  "key_observation": "博主通过追踪价格对摆动点、FVG和订单块的反应，识别出价格在每次接近这些关键结构时的行为模式——要么被扫盘，要么在其处反转，从而预测后续走势方向。",
+  "analysis_steps": [
+    "Step 1: 识别初始下跌中的摆动点和FVG，观察价格是否突破前一根K线的低点。",
+    "Step 2: 当价格收盘低于摆动点时，预期继续下行；当收盘回到区间内时，预期反弹或回测。",
+    "Step 3: 追踪价格对多个摆动低点的触及情况，判断是否形成连续的下行位移。",
+    "Step 4: 识别价格在下跌后的反弹，观察其是否能突破前期高点或摆动点高点。",
+    "Step 5: 当价格反弹后无法收盘在摆动点高点之上时，预期再次下行或形成内部K线。",
+    "Step 6: 识别FVG作为支撑区域，当价格回测FVG时，观察是否得到尊重或被穿透。",
+    "Step 7: 在价格尊重PD数组（FVG+摆动点+订单块）后，寻找下一个交易日模型的设置机会。",
+    "Step 8: 进行多时间框架分析，从4小时图的流动性目标下钻到15分钟和1分钟图，确认摆动点和内部K线结构。"
+  ],
+  "outcome": null,
+  "lessons": "在ICT框架中，摆动点、FVG和订单块的组合能有效预测价格反转点。关键是观察价格收盘位置（是否突破结构）和对多个结构的连续反应，而非单一信号。多时间框架分析可确认高时间框架的流动性目标和低时间框架的入场精度。",
+  "primary_image": "cards/6zTz7WMdMWg/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/6zTz7WMdMWg/images/case_005_detail_1.jpg",
+    "cards/6zTz7WMdMWg/images/case_005_detail_2.jpg",
+    "cards/6zTz7WMdMWg/images/case_005_detail_3.jpg",
+    "cards/6zTz7WMdMWg/images/case_005_detail_4.jpg",
+    "cards/6zTz7WMdMWg/images/case_005_detail_5.jpg",
+    "cards/6zTz7WMdMWg/images/case_005_detail_6.jpg",
+    "cards/6zTz7WMdMWg/images/case_005_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "GBPUSD 4小时K线图，图右上角标注账户名TTrades_edu。可见价格范围约从1.26300至1.28900。图上绘有三个矩形框标注，分别位于约1.28000至1.28200区间、约1.26900至1.27100区间及约1.26400至1.26600区间。右侧价格轴显示当前价1.27587（绿色高亮标签），另有1.26734和1.26586两个价格标签。K线序列从左侧约1.28800区域向",
+    "case_005_detail_1.jpg": "GBP/USD 4 小时 K 线图，时间轴显示日期范围约为 7 月 25 日至 8 月 9 日。图右侧价格刻度范围约从 1.26734 至 1.29300。图中可见一段连续阴线序列，从图左上方向右下方延伸。在约 1.27400 至 1.28022 区间内，有一个矩形标注框圈住数根小阳线组成的 K 线簇，矩形上边界延伸出一条水平线至约 1.28022。图右侧当前价格标签显示为 1.27734，以绿色",
+    "case_005_detail_2.jpg": "GBP/USD 4 小时 K 线图，时间轴显示 7 月 26 日至 8 月 10 日区间，图右侧价格刻度范围约 1.26400 至 1.29500。图上有一个矩形标注框，覆盖约 1.27400 至 1.28000 价格区间内的数根 K 线。Aug 2 13:00 处出现一根实体较长的黑色 K 线，实体从约 1.27400 向下延伸至约 1.26500，下影线延伸至约 1.26400 附近。图右侧价",
+    "case_005_detail_3.jpg": "GBP/USD 4小时K线图，时间轴显示2023年7月26日至8月10日区间。图右侧价格刻度范围约从1.26400至1.29000，当前价标注为1.27114。图上有一个矩形标注框，覆盖约1.27500至1.28000价格区域，位于8月1日至2日附近。最新数根K线呈连续下行形态，最后一根K线主体较长，下影线延伸至约1.26500附近。图右侧另有两个高亮价格标签：1.26734与1.25986。图上",
+    "case_005_detail_4.jpg": "GBP/USD 4小时K线图，图上可见价格范围约从1.26500至1.28500。K线序列整体自左上向右下排列，图上绘有两个矩形框：一个位于约1.27500至1.28000区间，另一个位于约1.26900至1.27400区间。最新一根K线主体延伸至约1.26700附近，图右侧价格轴高亮标签显示当前价约为1.26726。图上未见文字标签或其他线条标注，底部时间轴显示当前时间为2023年8月3日。",
+    "case_005_detail_5.jpg": "GBP/USD 4小时K线图，可见价格范围约从1.26200至1.28800。图上绘有两个矩形框：上方矩形覆盖约1.27390至1.28200区间，下方矩形覆盖约1.26500至1.27390区间。一条水平虚线从约1.27390向右延伸，并在该位置附近有一个圆形标注符号。图右侧价格轴显示多个高亮价格标签，包括1.27390、1.27193、1.26714及1.26586。K线序列从左侧高位区域向右",
+    "case_005_detail_6.jpg": "GBP/USD 4 小时 K 线图，图右上角标注账户名 TTrades_edu。可见价格范围约从 1.26400 至 1.28800。图上绘制有约 4 个矩形框标注，分布在 1.26900 至 1.28000 区间的不同价格层级。图右侧价格轴上有三个高亮标签：1.26943、1.26734 及 1.26560。K 线整体呈从左上向右下排列，最右侧可见一根带有较长下影线的 K 线，下影线延伸至约 1",
+    "case_005_detail_7.jpg": "GBPUSD 4 小时 K 线图，时间轴显示 7 月 27 日至 8 月 11 日区间。图右侧价格轴可读数字包括 1.27397（高亮当前价标签）、1.26734 及 1.26586。图上有两个矩形框标注：一个位于约 1.2790 至 1.2820 区间，另一个位于约 1.2690 至 1.2710 区间。K 线整体从左侧高位向右下方延伸至约 1.2620 低点后，Aug 3 至 4 日附近出现连"
+  },
+  "sources": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        722.519,
+        1080.299
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对GBP/USD 4小时图的分析完整清晰，包括资产、时间框架、关键价位（1.27390、1.26734、1.26586等）、摆动点识别、FVG应用、订单块标注，以及多时间框架下钻的完整步骤。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:18.377429Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBP/USD 4小时图的摆动点和FVG多次反转分析\",\"school\":\"ICT\",\"asset\":\"GBP/USD\",\"timeframe\":\"4H\",\"market_context\":\"GBP/USD在7月25日至8月10日期间经历明显下跌，从约1.29300跌至1.26400附近。期间形成多个摆动点、FVG和订单块，价格多次在这些结构处反转或被扫盘。\",\"key_observation\":\"博主通过追踪价格对摆动点、FVG和订单块的反应，识别出价格在每次接近这些关键结构时的行为模式——要么被扫盘，要么在其处反转，从而预测后续走势方向。\",\"analysis_steps\":[\"Step 1: 识别初始下跌中的摆动点和FVG，观察价格是否突破前一根K线的低点。\",\"Step 2: 当价格收盘低于摆动点时，预期继续下行；当收盘回到区间内时，预期反弹或回测。\",\"Step 3: 追踪价格对多个摆动低点的触及情况，判断是否形成连续的下行位移。\",\"Step 4: 识别价格在下跌后的反弹，观察其是否能突破前期高点或摆动点高点。\",\"Step 5: 当价格反弹后无法收盘在摆动点高点之上时，预期再次下行或形成内部K线。\",\"Step 6: 识别FVG作为支撑区域，当价格回测FVG时，观察是否得到尊重或被穿透。\",\"Step 7: 在价格尊重PD数组（FVG+摆动点+订单块）后，寻找下一个交易日模型的设置机会。\",\"Step 8: 进行多时间框架分析，从4小时图的流动性目标下钻到15分钟和1分钟图，确认摆动点和内部K线结构。\"],\"outcome\":null,\"lessons\":\"在ICT框架中，摆动点、FVG和订单块的组合能有效预测价格反转点。关键是观察价格收盘位置（是否突破结构）和对多个结构的连续反应，而非单一信号。多时间框架分析可确认高时间框架的流动性目标和低时间框架的入场精度。\",\"primary_image_frame_id\":\"6zTz7WMdMWg_f031\",\"supporting_image_frame_ids\":[\"6zTz7WMdMWg_f025\",\"6zTz7WMdMWg_f026\",\"6zTz7WMdMWg_f001\",\"6zTz7WMdMWg_f027\",\"6zTz7WMdMWg_f028\",\"6zTz7WMdMWg_f029\",\"6zTz7WMdMWg_f030\",\"6zTz7WMdMWg_f032\",\"6zTz7WMdMWg_f033\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Swing Point\",\"Displacement\",\"Liquidity\",\"Market Structure Shift (MSS)\",\"PD Array\",\"Inside Bar\",\"Next Day Model\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对GBP/USD 4小时图的分析完整清晰，包括资产、时间框架、关键价位（1.27390、1.26734、1.26586等）、摆动点识别、FVG应用、订单块标注，以及多时间框架下钻的完整步骤。\"}",
+  "error": null
+}

@@ -1,0 +1,127 @@
+{
+  "card_id": "Pcbyc9TdNsU_case_003_多时段amd案例_亚洲_伦敦_纽约",
+  "type": "case",
+  "title": "NQ11多时段AMD模式：亚洲积累-伦敦操纵-纽约派发",
+  "related_concepts": [
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Consolidation Box",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "accumulation_manipulation_distribution_amd",
+    "order_block_ob",
+    "displacement",
+    "fair_value_gap_fvg",
+    "breaker_block",
+    "failure_swing",
+    "standard_deviation_projection",
+    "box_setup",
+    "liquidity",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "1M / 15M",
+  "market_context": "跨越三个交易时段的NQ11走势分析。亚洲盘整形成盒体结构，伦敦盘扫低后向内位移，纽约盘派发至失败摆动和旧高点，验证标准差目标。",
+  "key_observation": "博主识别出典型的三时段AMD模式：亚洲积累（盘整），伦敦操纵（扫低+向内位移），纽约派发（触及-2到-2.5标准差目标及旧高点）。",
+  "analysis_steps": [
+    "Step 1: 标记亚洲盘整区间的高低点，形成盒体结构（Consolidation Box）。",
+    "Step 2: 观察伦敦盘开盘后的激进向下位移（Displacement Lower），扫除亚洲低点。",
+    "Step 3: 确认伦敦盘的向内位移（Displacement back into range），验证操纵意图。",
+    "Step 4: 从伦敦低点到高点投影标准差水平，标记-1、-2、-2.5标准差位置。",
+    "Step 5: 在纽约盘回测Breaker Block区域寻找入场点，止损设在该区域低点。",
+    "Step 6: 目标设定为失败摆动（Failure Swing）和旧高点，验证-2到-2.5标准差目标。",
+    "Step 7: 观察纽约盘价格向上派发，确认触及预期目标区域。"
+  ],
+  "outcome": "价格成功派发至失败摆动和旧高点，同时触及-2和-2.5标准差水平，验证了三时段AMD模式的有效性。",
+  "lessons": "三时段AMD模式（亚洲积累-伦敦操纵-纽约派发）结合标准差投影和Order Block回测，提供高概率的交易设置。关键是识别每个时段的角色，并在Breaker Block处寻找最优入场点。",
+  "primary_image": "cards/Pcbyc9TdNsU/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/Pcbyc9TdNsU/images/case_003_detail_1.jpg",
+    "cards/Pcbyc9TdNsU/images/case_003_detail_2.jpg",
+    "cards/Pcbyc9TdNsU/images/case_003_detail_3.jpg",
+    "cards/Pcbyc9TdNsU/images/case_003_detail_4.jpg",
+    "cards/Pcbyc9TdNsU/images/case_003_detail_5.jpg",
+    "cards/Pcbyc9TdNsU/images/case_003_detail_6.jpg",
+    "cards/Pcbyc9TdNsU/images/case_003_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表显示 USD 资产的 K 线图，价格范围从 14920 到 15260。图上有三条带数字标签的水平线，分别标记为 2.3、2、1，对应价格 15240、15120、15000。左侧显示从高点 15260 向下的下跌走势，中间区域有绿色矩形标注约 15040-15080 的整理区间，下方有粉色矩形标注约 14980-15020 的区域。右侧显示从整理区向上的上升走势。图表底部显示时间信息'25/",
+    "case_003_detail_1.jpg": "USD 1 分钟 K 线图，时间戳显示 1/11/2023。图上可见价格范围从 14572.00 至 14672.00。图中标注有多个矩形区域：粉色矩形在 14644-14648 区间，灰色矩形分别在 14636-14640、14604-14620、14584-14600 区间。一条水平虚线位于 14639.50。图右侧有一条青色阴影区域跨越多根 K 线。K 线主要呈绿色和黑色，其中一根长黑色 K",
+    "case_003_detail_2.jpg": "USD 1分钟K线图，时间戳显示2023年1月11日。图上可见价格范围从14560到14636。左侧有两条水平线分别位于14596和14588.25。图中央有一个浅蓝色矩形框，覆盖从约14604到14628的价格区间。K线序列显示一根大黑色K线从14628下跌至14604，上影线延伸至14636，随后是一系列较小的K线在14588至14604区间内波动，包含绿色和黑色K线混合。右下角显示'Sell",
+    "case_003_detail_3.jpg": "USD 1 分钟 K 线图。图上有三个矩形标注框，分别标记交易信息：上方青色框标注目标价位 14.75，中间灰色框标注开仓成交信息，下方粉色框标注止损价位 9.05。图右侧价格刻度显示范围约 14560 至 14638。K 线整体呈现上升后回落的形态，左侧有一段上升趋势，中间出现下跌，右侧呈现整理。图上有一个黄色圆形标记位于 14600 附近。底部时间轴显示 1/11/2023 及 HQ11/1M",
+    "case_003_detail_4.jpg": "USD 1分钟K线图。图上显示从10:55至12:35的价格走势，价格范围在14560至14639之间。图上有4条水平线分别位于14620.25、14616.00、14585.25和14580.00处。此外还有3个矩形区域用浅蓝色和粉红色标注，分别覆盖14616-14639、14580-14620.25和14575-14585.25的价格区间。K线呈现绿色和黑色主体混合，下方显示时间戳标记为1/1",
+    "case_003_detail_5.jpg": "NQ11 15分钟K线图，时间范围显示为2023年8月25日。图上价格范围从15240跌至14920。左侧上方显示当前价格标签15040.25。图表显示初期下跌趋势，随后进入盘整区间。中部有一个黄绿色十字光标标记。右下角显示交易按钮（Sell、Buy、Flatten）。底部时间轴标注从09:00至21:00及次日凌晨时段。",
+    "case_003_detail_6.jpg": "USD 15分钟K线图。图上显示从15240.00向下的下跌走势，跌至约14920.00。中间存在一个绿色矩形标注的整理区域，位于15020.00至15060.00之间，包含多根K线。左侧显示当前价格标签15097.25，下方显示14960.00。图右侧有黄色十字标记。时间戳显示25/8/2023，NQ11 15分钟周期。整体可见价格范围约320点。",
+    "case_003_detail_7.jpg": "USD 15分钟K线图。图上显示从15320.00向下的下跌走势，跌至约14920.00附近。图中用绿色矩形框标注了一个整理区域，范围约在14960至15060之间，该区域内包含多根K线。右侧标注显示时间为25/0/2023，周期为NQ11 | 15m。图上有一个黄色十字标记位于约15180.00区域。右侧价格刻度显示整体可见范围从14920.00至15320.00。除上述矩形框和标记外，图上未见"
+  },
+  "sources": [
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        415.96,
+        660.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三时段分析过程，清晰标注了关键价位、标准差水平、入场点和目标，交易结果明确验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:39.250599Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ11多时段AMD模式：亚洲积累-伦敦操纵-纽约派发\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"1M / 15M\",\"market_context\":\"跨越三个交易时段的NQ11走势分析。亚洲盘整形成盒体结构，伦敦盘扫低后向内位移，纽约盘派发至失败摆动和旧高点，验证标准差目标。\",\"key_observation\":\"博主识别出典型的三时段AMD模式：亚洲积累（盘整），伦敦操纵（扫低+向内位移），纽约派发（触及-2到-2.5标准差目标及旧高点）。\",\"analysis_steps\":[\"Step 1: 标记亚洲盘整区间的高低点，形成盒体结构（Consolidation Box）。\",\"Step 2: 观察伦敦盘开盘后的激进向下位移（Displacement Lower），扫除亚洲低点。\",\"Step 3: 确认伦敦盘的向内位移（Displacement back into range），验证操纵意图。\",\"Step 4: 从伦敦低点到高点投影标准差水平，标记-1、-2、-2.5标准差位置。\",\"Step 5: 在纽约盘回测Breaker Block区域寻找入场点，止损设在该区域低点。\",\"Step 6: 目标设定为失败摆动（Failure Swing）和旧高点，验证-2到-2.5标准差目标。\",\"Step 7: 观察纽约盘价格向上派发，确认触及预期目标区域。\"],\"outcome\":\"价格成功派发至失败摆动和旧高点，同时触及-2和-2.5标准差水平，验证了三时段AMD模式的有效性。\",\"lessons\":\"三时段AMD模式（亚洲积累-伦敦操纵-纽约派发）结合标准差投影和Order Block回测，提供高概率的交易设置。关键是识别每个时段的角色，并在Breaker Block处寻找最优入场点。\",\"primary_image_frame_id\":\"Pcbyc9TdNsU_f020\",\"supporting_image_frame_ids\":[\"Pcbyc9TdNsU_f013\",\"Pcbyc9TdNsU_f014\",\"Pcbyc9TdNsU_f015\",\"Pcbyc9TdNsU_f016\",\"Pcbyc9TdNsU_f017\",\"Pcbyc9TdNsU_f018\",\"Pcbyc9TdNsU_f019\",\"Pcbyc9TdNsU_f021\"],\"related_concepts\":[\"Accumulation, Manipulation, Distribution (AMD)\",\"Order Block (OB)\",\"Displacement\",\"Fair Value Gap (FVG)\",\"Breaker Block\",\"Failure Swing\",\"Standard Deviation Projection\",\"Consolidation Box\",\"Liquidity\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三时段分析过程，清晰标注了关键价位、标准差水平、入场点和目标，交易结果明确验证。\"}",
+  "error": null
+}

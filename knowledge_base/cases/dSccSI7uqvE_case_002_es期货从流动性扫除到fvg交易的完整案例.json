@@ -1,0 +1,105 @@
+{
+  "card_id": "dSccSI7uqvE_case_002_es期货从流动性扫除到fvg交易的完整案例",
+  "type": "case",
+  "title": "ES期货流动性扫除后FVG折价区做多交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "liquidity",
+    "displacement",
+    "broadening_formation",
+    "premium_discount",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "high_low_time_frame"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "15M / 5M",
+  "market_context": "ES在15分钟图上形成Broadening Formation（扩张形态），价格在约3920-3960区间盘整后向下缺口，触及短期流动性低点，随后在5分钟图上形成FVG。",
+  "key_observation": "价格运行流动性后触及Broadening Formation，随后向下缺口形成FVG。在5分钟图上，FVG处于折价区（Discount），提供高概率做多入场点。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图上识别Broadening Formation形态，标记约3920-3960的矩形区间作为关键点位。",
+    "Step 2: 观察价格从该区间向下缺口，扫除下方短期流动性低点（约3810附近）。",
+    "Step 3: 切换到5分钟图，确认向下缺口形成的Fair Value Gap（FVG）。",
+    "Step 4: 判断FVG相对于Displacement Range处于折价区（Discount），符合做多条件。",
+    "Step 5: 在FVG折价区内入场做多，设置第一目标在高点（约3937.50），止损设在低点（约3880）。",
+    "Step 6: 价格进入FVG后反弹，成功触及高点目标并平仓获利。"
+  ],
+  "outcome": "成功获利。价格在FVG折价区入场后反弹至高点，第一目标达成，按计划平仓。",
+  "lessons": "Broadening Formation后的缺口往往形成FVG，在折价区入场做多具有高概率。通过HTF确认结构，LTF精确入场，结合明确的目标和止损，可以实现快速获利交易。",
+  "primary_image": "cards/dSccSI7uqvE/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/dSccSI7uqvE/images/case_002_detail_1.jpg",
+    "cards/dSccSI7uqvE/images/case_002_detail_2.jpg",
+    "cards/dSccSI7uqvE/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ES 5分钟K线图。图上显示从左侧约3942.75下跌至右侧约3852.00的价格走势。图中有一条向下倾斜的虚线趋势线从约3912.00延伸至3852.00。三条水平线分别位于3912.00、3900.00和3880.00。图上用绿色矩形标记了3900.00至3920.00的区间，用粉色矩形标记了3880.00至3900.00的区间。右侧价格刻度显示当前价格约3876.00。图上标注有文字'Bas",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上绘有一条实线上升趋势线从左下方约3800位置延伸至右上方约4000位置，以及一条虚线趋势线从该实线继续向上延伸。图表显示一个矩形区域标注在约3920至3960价格范围内。K线呈现先跌后涨的形态，从约3960位置出现向下缺口并急速下跌至3810附近，随后以绿色K线反弹收复至3920以上。在3920至3960区间内形成约8根K线的盘整形",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上绘制两条虚线趋势线：一条从左下向右上延伸（约从3800至4000），另一条从右上向右下延伸（约从4000至3850）。图中央有一个矩形框标注，范围约在3920至3980之间。右侧价格刻度显示最高4025.00、最低3790.00。图上有两条水平虚线，分别对应3992.25和3864.25价格位。K线序列显示多根绿色和红色蜡烛，整体呈",
+    "case_002_detail_3.jpg": "ES 5分钟K线图。图上显示从约3945下跌至3840的下行走势。中央区域有一根标记为'S'的水平线，以及多条水平线标注在3937.50、3920、3900、3880、3860等价格位。图上绘制了两条向下倾斜的虚线趋势线。标注有一个矩形框标记为'Box'，覆盖约3860至3920的价格区间。另有一个矩形框覆盖约3880至3937.50区间。K线显示多根红色蜡烛体，部分K线具有下影线。"
+  },
+  "sources": [
+    {
+      "video_id": "dSccSI7uqvE",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.0,
+        286.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从HTF识别结构、流动性扫除、缺口形成、LTF入场到目标达成的全流程，关键价位、时间框架、交易结果均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:35.665647Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货流动性扫除后FVG折价区做多交易\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"15M / 5M\",\"market_context\":\"ES在15分钟图上形成Broadening Formation（扩张形态），价格在约3920-3960区间盘整后向下缺口，触及短期流动性低点，随后在5分钟图上形成FVG。\",\"key_observation\":\"价格运行流动性后触及Broadening Formation，随后向下缺口形成FVG。在5分钟图上，FVG处于折价区（Discount），提供高概率做多入场点。\",\"analysis_steps\":[\"Step 1: 在15分钟图上识别Broadening Formation形态，标记约3920-3960的矩形区间作为关键点位。\",\"Step 2: 观察价格从该区间向下缺口，扫除下方短期流动性低点（约3810附近）。\",\"Step 3: 切换到5分钟图，确认向下缺口形成的Fair Value Gap（FVG）。\",\"Step 4: 判断FVG相对于Displacement Range处于折价区（Discount），符合做多条件。\",\"Step 5: 在FVG折价区内入场做多，设置第一目标在高点（约3937.50），止损设在低点（约3880）。\",\"Step 6: 价格进入FVG后反弹，成功触及高点目标并平仓获利。\"],\"outcome\":\"成功获利。价格在FVG折价区入场后反弹至高点，第一目标达成，按计划平仓。\",\"lessons\":\"Broadening Formation后的缺口往往形成FVG，在折价区入场做多具有高概率。通过HTF确认结构，LTF精确入场，结合明确的目标和止损，可以实现快速获利交易。\",\"primary_image_frame_id\":\"dSccSI7uqvE_f010\",\"supporting_image_frame_ids\":[\"dSccSI7uqvE_f007\",\"dSccSI7uqvE_f008\",\"dSccSI7uqvE_f009\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Liquidity\",\"Displacement\",\"Broadening Formation\",\"Premium / Discount\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"HTF / LTF\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从HTF识别结构、流动性扫除、缺口形成、LTF入场到目标达成的全流程，关键价位、时间框架、交易结果均清晰可见。\"}",
+  "error": null
+}

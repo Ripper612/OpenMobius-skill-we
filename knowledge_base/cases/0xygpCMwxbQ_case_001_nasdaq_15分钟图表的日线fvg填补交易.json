@@ -1,0 +1,120 @@
+{
+  "card_id": "0xygpCMwxbQ_case_001_nasdaq_15分钟图表的日线fvg填补交易",
+  "type": "case",
+  "title": "NASDAQ 15分钟日线FVG填补的多头入场分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Stop Raid",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Discount / Premium",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Liquidity (Buyside/Sellside)",
+      "card_id": "liquidity_buyside_sellside",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "breaker_block",
+    "optimal_trade_entry_ote",
+    "liquidity_sweep",
+    "market_structure_shift_mss",
+    "premium_discount_premium_",
+    "liquidity_buyside_sellside",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M",
+  "market_context": "NASDAQ在日线形成FVG缺口后向下填补，价格在约13015附近的日线FVG区域内运动，形成Stop Raid和Structure Shift，为多头入场提供机会。",
+  "key_observation": "价格向下填补日线FVG，同时形成Stop Raid（扫荡卖方流动性）和Structure Shift（突破前期结构），在折价区内出现多个PD Array结构（FVG、Order Block、Breaker Block、OTE），为混合入场模型提供条件。",
+  "analysis_steps": [
+    "Step 1: 识别日线FVG缺口位置（约13015附近），标记为Daily FVG Fill区域。",
+    "Step 2: 观察价格向下运动时是否形成Stop Raid，确认卖方流动性被扫荡。",
+    "Step 3: 确认Market Structure Shift发生，即前期高点被突破后价格向下移动。",
+    "Step 4: 使用0.5斐波那契水平分割Displacement Range，识别折价区（绿色区域）和溢价区（粉色区域）。",
+    "Step 5: 在折价区内识别PD Array结构：检查Fair Value Gap（小型FVG）、Order Block（向下收盘K线）、Breaker Block（向上收盘K线）。",
+    "Step 6: 应用OTE（Optimal Trade Entry）进一步缩小入场范围，排除溢价区上方的区域。",
+    "Step 7: 混合多个概念（FVG+OTE+Order Block）确定最优入场点，设置止损于低点，目标指向买方流动性。"
+  ],
+  "outcome": "根据图表标注，入场点约13025（Open PHL），止损约13001（Stop），目标约13107（Target），风险回报比约2.67，最终价格向上触及买方流动性目标区域。",
+  "lessons": "在日线FVG填补交易中，通过Stop Raid和Structure Shift确认方向后，在折价区内混合使用FVG、OTE、Order Block等多个PD Array结构可以提高入场精准度；风险回报比和实际成交概率需要平衡，不应过度追求极限入场点。",
+  "primary_image": "cards/0xygpCMwxbQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/0xygpCMwxbQ/images/case_001_detail_1.jpg",
+    "cards/0xygpCMwxbQ/images/case_001_detail_2.jpg",
+    "cards/0xygpCMwxbQ/images/case_001_detail_3.jpg",
+    "cards/0xygpCMwxbQ/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图为纳斯达克100 E-mini期货15分钟K线图。图右侧有三条带标签的水平线：上方绿色标注目标位约13107，中间标注当前持仓开盘盈亏及风险回报比2.67，下方红色标注止损位约13001。图右侧有两个矩形标注区域：上方绿色矩形覆盖约13065至13107区间，下方粉色矩形覆盖约13001至13065区间并标有'Daily FVG Fill'文字。图右上角文字标注包含'Stop Raid'、'St",
+    "case_001_detail_1.jpg": "NASDAQ 100 E-mini Futures 15 分钟 K 线图，可见价格范围约从 12990 到 13150。图右上角有五行文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上有一条水平线标注为 Daily FVG Fill，位于约 13015 附近，从约 10:30 延伸至 14:00 时段。图中约",
+    "case_001_detail_2.jpg": "NASDAQ 100 E-mini Futures 15 分钟 K 线图，日期为 2023 年 5 月 4 日。图右上角有五行文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图中可见两个矩形区域：粉色矩形覆盖约 13060 至 13110 区间，绿色矩形覆盖约 13010 至 13060 区间。图上标有斐波那契",
+    "case_001_detail_3.jpg": "NASDAQ 100 E-mini Futures 15 分钟 K 线图，时间轴显示 Thu 04 May 23，范围约 04:00 至 19:00。图右上角有五行文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图中约 09:00 处有一个矩形框标注，覆盖价格区间约 13040 至 13065。图上有三条水平线",
+    "case_001_detail_4.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）15 分钟 K 线图，时间轴显示 2023 年 5 月 4 日。图右上角有五行文字标注：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上绘有两个矩形区域：绿色矩形约覆盖 13038 至 13072 区间，标注为目标区（Target，Amount 1"
+  },
+  "sources": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        367.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整，资产代码NQ1!、时间框架15分钟、关键价位（13015 FVG、13025入场、13001止损、13107目标）、分析步骤（Stop Raid→Structure Shift→Discount/Premium→PD Array混合）均清晰，并给出了具体交易结果和风险回报比。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:14:28.532597Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NASDAQ 15分钟日线FVG填补的多头入场分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M\",\"market_context\":\"NASDAQ在日线形成FVG缺口后向下填补，价格在约13015附近的日线FVG区域内运动，形成Stop Raid和Structure Shift，为多头入场提供机会。\",\"key_observation\":\"价格向下填补日线FVG，同时形成Stop Raid（扫荡卖方流动性）和Structure Shift（突破前期结构），在折价区内出现多个PD Array结构（FVG、Order Block、Breaker Block、OTE），为混合入场模型提供条件。\",\"analysis_steps\":[\"Step 1: 识别日线FVG缺口位置（约13015附近），标记为Daily FVG Fill区域。\",\"Step 2: 观察价格向下运动时是否形成Stop Raid，确认卖方流动性被扫荡。\",\"Step 3: 确认Market Structure Shift发生，即前期高点被突破后价格向下移动。\",\"Step 4: 使用0.5斐波那契水平分割Displacement Range，识别折价区（绿色区域）和溢价区（粉色区域）。\",\"Step 5: 在折价区内识别PD Array结构：检查Fair Value Gap（小型FVG）、Order Block（向下收盘K线）、Breaker Block（向上收盘K线）。\",\"Step 6: 应用OTE（Optimal Trade Entry）进一步缩小入场范围，排除溢价区上方的区域。\",\"Step 7: 混合多个概念（FVG+OTE+Order Block）确定最优入场点，设置止损于低点，目标指向买方流动性。\"],\"outcome\":\"根据图表标注，入场点约13025（Open PHL），止损约13001（Stop），目标约13107（Target），风险回报比约2.67，最终价格向上触及买方流动性目标区域。\",\"lessons\":\"在日线FVG填补交易中，通过Stop Raid和Structure Shift确认方向后，在折价区内混合使用FVG、OTE、Order Block等多个PD Array结构可以提高入场精准度；风险回报比和实际成交概率需要平衡，不应过度追求极限入场点。\",\"primary_image_frame_id\":\"0xygpCMwxbQ_f008\",\"supporting_image_frame_ids\":[\"0xygpCMwxbQ_f005\",\"0xygpCMwxbQ_f006\",\"0xygpCMwxbQ_f007\",\"0xygpCMwxbQ_f009\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Breaker Block\",\"Optimal Trade Entry (OTE)\",\"Stop Raid\",\"Market Structure Shift (MSS)\",\"Discount / Premium\",\"PD Array\",\"Liquidity (Buyside/Sellside)\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整，资产代码NQ1!、时间框架15分钟、关键价位（13015 FV",
+  "error": null
+}

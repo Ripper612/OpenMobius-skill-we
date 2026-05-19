@@ -1,0 +1,361 @@
+{
+  "card_id": "v_shaped_reversal",
+  "type": "merged_concept",
+  "canonical_term": "V-Shaped Reversal",
+  "aliases": [
+    "V-shape",
+    "V-shape reversal",
+    "V-shaped pattern",
+    "V-shaped recovery",
+    "V-shaped signature",
+    "V底反转",
+    "V形反转"
+  ],
+  "school": "ICT",
+  "definition": "价格快速下跌至关键水平（如FVG、Order Block、摆动低点）后，在1-3根K线内立即以相反方向快速扩张反弹，形成扩张-扩张的V字形态。反转蜡烛通常具有小上影线，收盘穿过前期下跌K线序列，常伴随CSD与流动性扫荡确认。",
+  "identification_rules": [
+    "价格扩张下行至明确的关键水平（FVG、Order Block、摆动高/低点、前一日或前一周高/低点）",
+    "在该关键水平处，价格未出现回撤或长期盘整，而是在1-3根K线内直接以相反方向快速扩张，形成扩张-扩张模式",
+    "反转蜡烛收盘穿过前期下跌K线序列（down close candles），显示买方控制",
+    "反转蜡烛通常具有小上影线，支持向上扩张；若上影线过大则质量下降",
+    "下行部分应穿破前期支撑或形成流动性扫荡（sweep），上行部分应突破该支撑点位",
+    "常与Change in State of Delivery（CSD）同时出现，确认反转有效性",
+    "可结合SMT（相关资产分歧）或Protected Swing进一步验证",
+    "可在高时间框架与低时间框架上识别（分形概念）；高时间框架表现为明显V形或长影线，低时间框架可见清晰的扩张-扩张结构",
+    "反转后价格应在整理区间内形成新的受保护摆动点（Protected Swing），预期该低点在趋势延续中不被突破"
+  ],
+  "trading_implication": "V形反转是强势反转或延续信号。若发生在已有开放目标的延续阶段，作为延续PSP使用；若发生在趋势反转关键水平，则确认低点已形成。反转越快、收盘越干净，可信度越高。高时间框架偏差强时可在低时间框架V形反转处激进入场；偏差弱时应等待后续延续确认（回撤、盘整或新扩张）。止损设于Protected Swing低点，目标指向更高时间框架流动性。",
+  "common_mistakes": [
+    "在V形反转完全形成前过早入场，导致被流动性扫荡出局",
+    "未确认CSD、SMT或关键水平就仓促入场，忽视形态完整性",
+    "将缓慢反弹（超过3根K线）或长期盘整后的上升误认为V形反转；真正的V形应快速、尖锐",
+    "混淆V形反转与延续结构，将扩张-回撤-扩张或扩张-盘整-扩张误当作反转",
+    "在随机高低点交易V形反转，而非在相关的摆动高/低点（如前一日或前一周高/低）",
+    "看到V形形态就立即入场，不等待后续延续信号（回撤、盘整或新扩张）确认",
+    "在高时间框架上看到长影线就认为是反转，未在低时间框架验证是否真正形成扩张-扩张模式",
+    "在延续阶段将V形反转误认为独立反转信号，导致逆向交易被止损",
+    "忽视高时间框架目标已被触及的情况，在FOMO驱动下交易失败的延续",
+    "在V形反转形成时同时扫出短期高点/低点，应等待额外确认再入场",
+    "高时间框架偏差不足时激进交易低时间框架V形反转",
+    "仅基于V形形态本身交易，忽视candle two收盘、SMT等确认信号",
+    "未能观察价格是否尊重EQ；收盘穿过EQ后继续看涨会降低反转延续概率"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Candle Two",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3eVxTV_7L2U_case_009_rbob汽油4小时到30分钟的两阶段smt交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RBOB汽油4H-30M两阶段SMT确认V形反转交易"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_002_gld月线至小时线的看涨交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "GLD月线至小时线的看涨交易——受保护摆动入场"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_003_btc日线至小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "BTC日线至小时线的看跌交易：双次入场与止损管理"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_004_btc日线至4小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "日线看跌后上移4小时线寻找清晰V形反转交易"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_003_eurusd_1小时图_扫除短期高点的continuation失",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "EURUSD 1H：Continuation失败与高点扫除的识别"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_005_uni_1小时图_缓慢closure的consolidation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "UNI 1H：缓慢closure识别consolidation而非continuation"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_008_btc_1小时图_短期低点扫除后的continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时：短期低点扫除后的continuation确认等待"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_002_usd_1小时图_前期高点反转案例",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1小时图：扩张反转与低点扫除的理想结构"
+    },
+    {
+      "card_id": "caaS6_Q7O78_case_004_5分钟线上的csd入场与快速获利",
+      "video_id": "caaS6_Q7O78",
+      "title": "5分钟线CSD识别V形反转，2倍风险回报快速获利"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_002_第二个例子_汽油期货反向交易",
+      "video_id": "jKuXaC84Qx4",
+      "title": "汽油期货日线V形反转配合小时线CSD的反向交易"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_005_第五个例子_前一日低点反弹与eq突破",
+      "video_id": "jKuXaC84Qx4",
+      "title": "前一日低点V形反应与EQ突破分析"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_004_日线反转与小时图延续的多层级交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "日线反转与小时图V形反转的多层级延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_012_usd_5分钟图的consolidation与突破交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD 5分钟盘整中等高点的SMT反转交易"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_006_usd_cad_15分钟v形反转与smt确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD/CAD 15分钟V形反转与SMT确认的高质量设置"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_v_shaped_reversal",
+      "segment_ids": [
+        "seg_026",
+        "seg_027",
+        "seg_031"
+      ],
+      "time_range": [
+        1545.6,
+        1961.039
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_v_shaped_reversal",
+      "segment_ids": [
+        "seg_008",
+        "seg_009",
+        "seg_012"
+      ],
+      "time_range": [
+        407.199,
+        609.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_v_shaped_reversal",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        43.52,
+        149.76
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "original_card_id": "PQiRV0JMhIQ_concept_v_shaped_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_011",
+        "seg_012",
+        "seg_019"
+      ],
+      "time_range": [
+        10.88,
+        1129.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_v_shaped_reversal",
+      "segment_ids": [
+        "seg_002",
+        "seg_009",
+        "seg_016"
+      ],
+      "time_range": [
+        107.03999999999999,
+        811.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_v_shape_reversal",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        904.44,
+        1033.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_v_shaped_reversal",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_015",
+        "seg_017",
+        "seg_020"
+      ],
+      "time_range": [
+        425.32,
+        753.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_v_shaped_reversal",
+      "segment_ids": [
+        "seg_010",
+        "seg_021",
+        "seg_025",
+        "seg_030",
+        "seg_037"
+      ],
+      "time_range": [
+        584.0,
+        1996.159
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "original_card_id": "vn1RYjhJUnQ_concept_v_shaped_reversal",
+      "segment_ids": [
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        510.96,
+        594.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 9,
+    "source_videos": 9,
+    "high_confidence_sources": 8,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:25.166684Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "6张ICT + 3张Price Action，按多数选ICT。Price Action卡（JHVaSKtE1Ys、caaS6_Q7O78、jKuXaC84Qx4）内容与ICT框架高度兼容，无实质冲突。",
+  "error": null
+}

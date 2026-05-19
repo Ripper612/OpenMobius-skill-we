@@ -1,0 +1,111 @@
+{
+  "card_id": "_94CPMjWi9E_case_001_es期货小时图结构转变案例",
+  "type": "case",
+  "title": "ES期货小时图HTF水平突破与MSS确认案例",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "breaker_block",
+    "order_block_ob",
+    "optimal_trade_entry_ote",
+    "liquidity",
+    "displacement",
+    "swing_high_low"
+  ],
+  "school": "ICT",
+  "asset": "ES11",
+  "timeframe": "1H",
+  "market_context": "ES期货在前一天高点4552.00处形成HTF阻力水平。价格在10:00新闻事件前后向下扫除流动性，随后突破该高点形成市场结构转变，触发多头设置。",
+  "key_observation": "价格未能突破前一个摆动低点，而是在扫除卖方流动性后向上突破HTF高点4552.00，形成明确的MSS信号，随后在FVG、Breaker Block和OTE汇聚处产生强势反应。",
+  "analysis_steps": [
+    "Step 1: 标记前一天高点4552.00作为HTF阻力水平，观察价格是否会突破该结构。",
+    "Step 2: 价格向下测试但未能突破摆动低点，确认未形成破坏性结构。",
+    "Step 3: 识别流动性扫除（sweep）事件，价格在10:30达到峰值4561.00后快速下跌。",
+    "Step 4: 确认MSS形成——价格收盘并积极突破摆动低点，标志着结构转变。",
+    "Step 5: 在MSS后识别多个汇聚设置：FVG（4556-4558区间）、Breaker Block和OTE（斐波那契0.79-0.70水平）。",
+    "Step 6: 观察价格触及OTE和FVG区域后产生的位移（Displacement），多头K线体尊重Breaker Block和FVG。",
+    "Step 7: 追踪后续伦敦低点扫除，确认趋势延续。"
+  ],
+  "outcome": "价格在FVG、Breaker Block和OTE汇聚处产生强势反应，形成位移并向上运行，确认多头设置的有效性。",
+  "lessons": "HTF水平与流动性扫除相结合能有效确认MSS。多个汇聚因素（FVG、Breaker Block、OTE）在同一区域出现时，提供高概率入场点。未能突破摆动低点但突破HTF高点的结构转变是可靠的趋势反转信号。",
+  "primary_image": "cards/_94CPMjWi9E/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/_94CPMjWi9E/images/case_001_detail_1.jpg",
+    "cards/_94CPMjWi9E/images/case_001_detail_2.jpg",
+    "cards/_94CPMjWi9E/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES11 1分钟K线图，时间范围从07:00至13:30。图上显示一条水平线位于4551.00。可见K线从左侧07:00开始上升趋势，至10:30达到峰值约4561.00处，该处标有黄色三角形。峰值K线呈长上影线形态。随后从10:30至11:00出现快速下跌，连续黑色K线下行。图上标注有矩形框标记为'imb'位于4556.00至4558.00区间。下方标注'[0:00]'位于4544.00附近。右",
+    "case_001_detail_1.jpg": "ETH 1 小时 K 线图。图上显示从 04:00 到 16:00 的价格走势，可见价格范围约从 4538.00 到 4572.00。早期 K 线（04:00 至 06:00）呈现较小波动，随后从 07:00 开始出现一系列绿色 K 线，价格逐步上升至 11:00 附近。图上有一条水平线位于 4552.00 处。在 11:00 附近的 K 线显示长上影线，刺破至约 4568.00。右侧价格标签显示",
+    "case_001_detail_2.jpg": "ETH 1 小时 K 线图。图上显示从左侧约 4540 上升至右侧约 4560 的上升趋势，跨越约 10 根 K 线。图中有两条水平线分别位于 4550 和 4548 处。K 线以绿色为主，近期 K 线在 4558 至 4560 区间内形成盘整，多根 K 线在该区间顶部出现上影线。图下方显示成交量柱状图。时间标签显示 Fri 14 Jul 23 10:00 至 11:00 时段。",
+    "case_001_detail_3.jpg": "ETH 1 分钟 K 线图，时间范围从 08:00 至 14:00。图上可见价格范围约 4537 至 4567。三条带数字标签的水平线分别位于 4557（标记 0.79）、4550（标记 0.70）、4542（标记 0.42）。图中标注有一个矩形框标记为 FVG，位于中上方价格区域。另有一个矩形框位于下方价格区域。K 线序列显示绿色和黑色蜡烛交替出现，其中一根大黑色蜡烛从约 4558 下跌至 44"
+  },
+  "sources": [
+    {
+      "video_id": "_94CPMjWi9E",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        184.319,
+        363.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从HTF水平识别、流动性扫除、MSS确认到多重汇聚设置的全过程，关键价位和时间点清晰，结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:51.159241Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货小时图HTF水平突破与MSS确认案例\",\"school\":\"ICT\",\"asset\":\"ES11\",\"timeframe\":\"1H\",\"market_context\":\"ES期货在前一天高点4552.00处形成HTF阻力水平。价格在10:00新闻事件前后向下扫除流动性，随后突破该高点形成市场结构转变，触发多头设置。\",\"key_observation\":\"价格未能突破前一个摆动低点，而是在扫除卖方流动性后向上突破HTF高点4552.00，形成明确的MSS信号，随后在FVG、Breaker Block和OTE汇聚处产生强势反应。\",\"analysis_steps\":[\"Step 1: 标记前一天高点4552.00作为HTF阻力水平，观察价格是否会突破该结构。\",\"Step 2: 价格向下测试但未能突破摆动低点，确认未形成破坏性结构。\",\"Step 3: 识别流动性扫除（sweep）事件，价格在10:30达到峰值4561.00后快速下跌。\",\"Step 4: 确认MSS形成——价格收盘并积极突破摆动低点，标志着结构转变。\",\"Step 5: 在MSS后识别多个汇聚设置：FVG（4556-4558区间）、Breaker Block和OTE（斐波那契0.79-0.70水平）。\",\"Step 6: 观察价格触及OTE和FVG区域后产生的位移（Displacement），多头K线体尊重Breaker Block和FVG。\",\"Step 7: 追踪后续伦敦低点扫除，确认趋势延续。\"],\"outcome\":\"价格在FVG、Breaker Block和OTE汇聚处产生强势反应，形成位移并向上运行，确认多头设置的有效性。\",\"lessons\":\"HTF水平与流动性扫除相结合能有效确认MSS。多个汇聚因素（FVG、Breaker Block、OTE）在同一区域出现时，提供高概率入场点。未能突破摆动低点但突破HTF高点的结构转变是可靠的趋势反转信号。\",\"primary_image_frame_id\":\"_94CPMjWi9E_f010\",\"supporting_image_frame_ids\":[\"_94CPMjWi9E_f001\",\"_94CPMjWi9E_f009\",\"_94CPMjWi9E_f011\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"Breaker Block\",\"Order Block (OB)\",\"Optimal Trade Entry (OTE)\",\"Liquidity\",\"Displacement\",\"High Time Frame (HTF)\",\"Swing High/Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从HTF水平识别、流动性扫除、MSS确认到多重汇聚设置的全过程，关键价位和时间点清晰，结果明确。\"}",
+  "error": null
+}

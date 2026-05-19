@@ -1,0 +1,118 @@
+{
+  "card_id": "FAKWJ-1NlLE_case_002_usdjpy_周线反转到15分钟入场案例",
+  "type": "case",
+  "title": "USDJPY周线反转到15分钟入场，2.4R风险回报比",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Expansion Retracement",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "protected_high_low",
+    "change_in_state_of_delivery_csd",
+    "displacement",
+    "market_structure_shift_mss",
+    "failure_swings",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "USDJPY",
+  "timeframe": "15m (with 4H & Weekly context)",
+  "market_context": "周线形成看涨反转信号，4小时出现扩展回撤进入FVG区域，留下失败摆动高点。15分钟时间框架用于精确入场执行。",
+  "key_observation": "周线反转烛线确认看涨偏差，4小时浅层对抗性运行形成第三根烛线，15分钟在受保护摆动点处提供高概率入场机会。",
+  "analysis_steps": [
+    "Step 1: 识别周线反转烛线，确立看涨偏差预期本周价格向上扩展。",
+    "Step 2: 观察4小时扩展回撤进入FVG，在高点留下失败摆动（failure swings）。",
+    "Step 3: 下钻15分钟时间框架，寻找前一根烛线低点（2100）的反转机会。",
+    "Step 4: 评估对抗性运行规模——早期浅层对抗性运行可在同一烛线内交易，大型对抗性运行需等待下一根烛线开盘。",
+    "Step 5: 确认交付状态改变（Change in State of Delivery），模型打印确认信号。",
+    "Step 6: 识别受保护摆动点——价格触及短期目标后扩展回撤，进入FVG后收盘于下跌烛线上方，形成可用作止损的受保护摆动。",
+    "Step 7: 验证风险回报比——以受保护摆动点作为止损，目标位可获得2.45R回报。"
+  ],
+  "outcome": "交易成功平仓，获利0.169（1449数量），风险回报比2.4R，已实现盈利。",
+  "lessons": "多时间框架协同分析提高入场精准度；受保护摆动点提供可靠止损位置；避免追高——等待对抗性运行完成或新烛线开盘；扩展烛线的时间和范围有限，需在新高时框烛线前平仓。",
+  "primary_image": "cards/FAKWJ-1NlLE/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/FAKWJ-1NlLE/images/case_002_detail_1.jpg",
+    "cards/FAKWJ-1NlLE/images/case_002_detail_2.jpg",
+    "cards/FAKWJ-1NlLE/images/case_002_detail_3.jpg",
+    "cards/FAKWJ-1NlLE/images/case_002_detail_4.jpg",
+    "cards/FAKWJ-1NlLE/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USDJPY 15 分钟 K 线图，可见价格范围约 147.450 至 148.100。图右侧叠加了一笔已平仓交易的标注框：绿色区域标注为目标位（Target: 0.169, Amount: 50244.93），灰色区域标注为止损位（Stop: 0.069, Amount: 49900），中间弹窗显示 Closed P&L: 0.169，数量 1449，Risk/Reward Ratio: 2.4",
+    "case_002_detail_1.jpg": "USDJPY 4 小时 K 线图，图右下角标注 4H-4D Model 及 Bias: Neutral。可见价格范围约 145.800 至 149.000。图上有多条水平线：当前价标签 147.819 处有一条虚线水平线，约 147.200 处有一条实线水平线，约 148.800 处有一条水平线。图上有两个矩形框，分别位于 148.800–149.000 区域及 147.200–147.400 区",
+    "case_002_detail_2.jpg": "USDJPY 15 分钟 K 线图，图右下角标注资产为 USDJPY (15)，时间戳显示 03:30:00，Bias: Neutral。可见价格范围约从 147.250 至 147.900。图右侧有多根连续阴线，其中一根阴线主体跨度约从 147.700 至 147.450。图上有一条虚线水平线位于约 147.550 处，并有多个时间标注：13:00、17:00、1:00、21:00。最右侧最新一",
+    "case_002_detail_3.jpg": "USDJPY 15 分钟 K 线图，图右下角标注显示资产为 USDJPY（15m），时间戳 01:30:00，Bias: Neutral，15m-4H Model。可见价格范围约从 147.250 到 147.900。图上有两条水平虚线，分别位于约 147.550 和 147.430 附近，并带有时间标注 13:00、17:00、21:00、1:00。图中部偏右区域有一个矩形框，覆盖约 147.4",
+    "case_002_detail_4.jpg": "USDJPY 15 分钟 K 线图，可见价格范围约 147.300 至 147.900。图上有多条水平线，分别位于约 147.775、147.700、147.620、147.490 及 147.425 处，其中 147.425 为当前价格标签并附有贯穿全图的虚线。图右侧有两个小型矩形框，位于约 147.420 至 147.510 区间。图右侧可见一根大型黑色实体 K 线（标注 17:00）及紧随其",
+    "case_002_detail_5.jpg": "USDJPY 15 分钟 K 线图，可见价格范围约从 147.250 至 147.900。图上有两条虚线水平线分别位于约 147.780 和 147.700，构成一个矩形区域。图中下方约 147.390 至 147.490 处有另一个矩形标注框。图右侧标注有时间标签 '17:00'、'5:00'、'21:00'、'1:00'，以及文字标签 'C2' 位于约 147.350 附近。图右下角显示资产信"
+  },
+  "sources": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        401.84000000000003,
+        634.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从周线反转信号到15分钟入场的全过程，包括具体价位、烛线结构、风险回报比计算和实际交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:43.831343Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USDJPY周线反转到15分钟入场，2.4R风险回报比\",\"school\":\"ICT\",\"asset\":\"USDJPY\",\"timeframe\":\"15m (with 4H & Weekly context)\",\"market_context\":\"周线形成看涨反转信号，4小时出现扩展回撤进入FVG区域，留下失败摆动高点。15分钟时间框架用于精确入场执行。\",\"key_observation\":\"周线反转烛线确认看涨偏差，4小时浅层对抗性运行形成第三根烛线，15分钟在受保护摆动点处提供高概率入场机会。\",\"analysis_steps\":[\"Step 1: 识别周线反转烛线，确立看涨偏差预期本周价格向上扩展。\",\"Step 2: 观察4小时扩展回撤进入FVG，在高点留下失败摆动（failure swings）。\",\"Step 3: 下钻15分钟时间框架，寻找前一根烛线低点（2100）的反转机会。\",\"Step 4: 评估对抗性运行规模——早期浅层对抗性运行可在同一烛线内交易，大型对抗性运行需等待下一根烛线开盘。\",\"Step 5: 确认交付状态改变（Change in State of Delivery），模型打印确认信号。\",\"Step 6: 识别受保护摆动点——价格触及短期目标后扩展回撤，进入FVG后收盘于下跌烛线上方，形成可用作止损的受保护摆动。\",\"Step 7: 验证风险回报比——以受保护摆动点作为止损，目标位可获得2.45R回报。\"],\"outcome\":\"交易成功平仓，获利0.169（1449数量），风险回报比2.4R，已实现盈利。\",\"lessons\":\"多时间框架协同分析提高入场精准度；受保护摆动点提供可靠止损位置；避免追高——等待对抗性运行完成或新烛线开盘；扩展烛线的时间和范围有限，需在新高时框烛线前平仓。\",\"primary_image_frame_id\":\"FAKWJ-1NlLE_f021\",\"supporting_image_frame_ids\":[\"FAKWJ-1NlLE_f016\",\"FAKWJ-1NlLE_f017\",\"FAKWJ-1NlLE_f018\",\"FAKWJ-1NlLE_f019\",\"FAKWJ-1NlLE_f020\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Protected Swing\",\"Change in State of Delivery (CSD)\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Failure Swings\",\"Expansion Retracement\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从周线反转信号到15分钟入场的全过程，包括具体价位、烛线结构、风险回报比计算和实际交易结果。\"}",
+  "error": null
+}

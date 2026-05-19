@@ -1,0 +1,55 @@
+{
+  "card_id": "fixed_dollar_risk_fixed_percentage_risk",
+  "type": "merged_concept",
+  "canonical_term": "Fixed Dollar Risk / Fixed Percentage Risk",
+  "aliases": [
+    "一致头寸规模",
+    "固定百分比风险",
+    "固定美元风险"
+  ],
+  "school": "Risk Management",
+  "definition": "通过调整每笔交易的合约数量，使风险金额（美元）或风险百分比保持一致的头寸管理方法。确保风险回报表的盈利性计算成立。",
+  "identification_rules": [
+    "检查交易记录中每笔交易的风险金额是否相同（如都是$1,000）",
+    "观察合约数量是否随止损点数变化而调整，以维持固定风险",
+    "验证风险计算公式：合约数 = 固定风险金额 ÷（价值/点 × 止损点数）"
+  ],
+  "trading_implication": "固定风险使风险回报比与胜率的相关性成立，从而使盈利性表格有效。例如50%胜率配1:2风险回报在固定风险下可盈利，但若头寸规模不一致则无法实现预期收益。相比固定合约数，固定风险能准确控制每笔交易的实际风险敞口，避免因止损点数变化导致风险波动。",
+  "common_mistakes": [
+    "使用固定合约数而非固定风险，导致不同止损点数下风险金额不一致，破坏风险回报表的有效性",
+    "未能正确计算所需合约数，导致实际风险偏离目标（应使用计算器或电子表格辅助）",
+    "在期货交易中忽视微型合约的灵活性，无法精确接近目标风险金额"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "original_card_id": "0OjlQ91TZiU_concept_fixed_dollar_risk_fixed_percentage_risk",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.44,
+        369.639
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133038Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

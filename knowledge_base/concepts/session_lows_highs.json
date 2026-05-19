@@ -1,0 +1,66 @@
+{
+  "card_id": "session_lows_highs",
+  "type": "merged_concept",
+  "canonical_term": "Session Lows/Highs",
+  "aliases": [
+    "Intraday Session Extremes",
+    "Session High",
+    "Session Low"
+  ],
+  "school": "Price Action",
+  "definition": "特定交易时段（如亚洲、伦敦、纽约盘）内形成的最低点和最高点，用作价格目标、支撑阻力位和交易预期调整的参考水平。",
+  "identification_rules": [
+    "标记出每个交易时段（Asia、London、New York）的开盘时间边界",
+    "在该时段内识别最高价和最低价，形成该时段的High和Low",
+    "记录这些极值点的具体价格水平，用水平线标注在图表上",
+    "当价格在日内波动中接近或触及这些水平时，作为潜在的支撑/阻力或交易目标"
+  ],
+  "trading_implication": "Session Lows/Highs是调整日内交易预期的关键参考。当日线K线形成较大上影线时，不应期待价格大幅扩展，而应将目标调整至日开盘价或该交易时段的极值点。例如，在纽约盘若亚洲和伦敦的高点已被突破，则应寻找回到日开盘价或当前时段低点作为目标，而非贪心追求更大幅度的反向运动。",
+  "common_mistakes": [
+    "忽视时段划分，将不同交易时段的高低点混淆，导致目标设置不当",
+    "当日线K线形成大上影线时，仍期待价格扩展至极端目标，而不是调整预期至Session Lows/Highs",
+    "未考虑已被扫除的Session High/Low，重复设置已失效的目标水平",
+    "在下午时段（如油气交易的午盘）不合理地期待价格回到早盘高点，忽视该时段的时间和范围限制"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "27S9gjgcSlI_case_001_es与nq伦敦高点smt反转案例",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ伦敦高点SMT反转案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_session_lows_highs",
+      "segment_ids": [
+        "seg_006",
+        "seg_009",
+        "seg_012",
+        "seg_020",
+        "seg_022"
+      ],
+      "time_range": [
+        300.479,
+        1065.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135647Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

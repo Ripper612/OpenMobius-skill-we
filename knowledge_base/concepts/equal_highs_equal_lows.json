@@ -1,0 +1,61 @@
+{
+  "card_id": "equal_highs_equal_lows",
+  "type": "merged_concept",
+  "canonical_term": "Equal Highs / Equal Lows",
+  "aliases": [
+    "相同高点/相同低点",
+    "等高点/等低点"
+  ],
+  "school": "SMC",
+  "definition": "价格在不同时间周期内触及相同或接近的价格水平形成的多个高点或低点。常与标准差投影对齐，构成PD数组中的强支撑或阻力区域。",
+  "identification_rules": [
+    "在图表上识别至少两个或以上在相同价格水平附近形成的摆动高点或低点",
+    "这些相同高点/低点通常出现在不同的时间周期或不同的操纵腿之后",
+    "可通过标准差投影验证：相同高点/低点常与第2-2.5或第4标准差水平重合",
+    "相同低点可作为'低悬果实'（low hanging fruit），表示市场可能轻松触及该区域"
+  ],
+  "trading_implication": "Equal Highs/Lows作为PD数组的关键组成部分，标记出机构订单可能聚集的区域。在多时间框架分析中，当价格从高时间框架的操纵腿投影出标准差目标时，如果低时间框架的相同高点/低点与这些目标重合，会形成强大的交易汇聚点。交易者可将其作为目标区域或反应点，结合订单块进行入场和止损设置。",
+  "common_mistakes": [
+    "材料未明确提及常见误区，但隐含风险是将孤立的单一高点/低点误认为Equal Highs/Lows，需要确认多次触及同一水平",
+    "未能将Equal Highs/Lows与标准差投影结合验证，导致识别的支撑/阻力区域缺乏汇聚力度"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "pWAjzKndWXo_case_002_es_多时间框架目标设置案例",
+      "video_id": "pWAjzKndWXo",
+      "title": "ES多时间框架目标设置：流动性与FVG组合应用"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_equal_highs_equal_lows",
+      "segment_ids": [
+        "seg_004",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        325.08,
+        785.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132732Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

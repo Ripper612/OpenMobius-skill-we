@@ -1,0 +1,96 @@
+{
+  "card_id": "LZZAaILYNyI_case_002_es_1分钟图破坏块结构交易案例",
+  "type": "case",
+  "title": "ES 1分钟破坏块结构回测FVG折价区入场与止损追踪",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Discount",
+      "card_id": "discount",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "fair_value_gap",
+    "order_block",
+    "discount",
+    "market_structure_shift",
+    "protected_high_low"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1m",
+  "market_context": "ES期货1分钟图显示价格从高点约4620.00急速下跌至约3960.00，随后在低位区间震荡。博主演示在破坏块结构上方回测公允价值缺口折价区的交易设置。",
+  "key_observation": "当价格突破订单块结构后，该订单块转变为破坏块（Breaker Block）。交易者可在随后的回测中于FVG折价区入场，并根据结构破坏逐步上移止损至保护位。",
+  "analysis_steps": [
+    "Step 1: 识别破坏块结构——价格突破上方订单块，该订单块转变为破坏块",
+    "Step 2: 寻找回测机会——等待价格回测至破坏块上方的公允价值缺口（FVG）",
+    "Step 3: 确认折价区入场——在FVG的折价区（下半部分）寻找最优交易入场点（OTE）",
+    "Step 4: 设置初始止损——可选择破坏块K线的低点或下方订单块的低点作为初始止损",
+    "Step 5: 追踪止损——当价格突破新的结构高点时，逐步上移止损至该结构的低点",
+    "Step 6: 持续追踪——每当新结构被破坏，继续上移止损至新的保护位，直至被止损出场"
+  ],
+  "outcome": "交易者在多个结构破坏点逐步上移止损，最终在某个保护位被止损出场，演示了有效的动态止损追踪方法。",
+  "lessons": "破坏块结构提供了高概率的回测入场机会。在折价区入场后，应根据价格突破的新结构逐步上移止损至保护位，而非固定止损，这样既能保护利润又能跟随趋势。",
+  "primary_image": "cards/LZZAaILYNyI/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/LZZAaILYNyI/images/case_002_detail_1.jpg",
+    "cards/LZZAaILYNyI/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ES 1分钟K线图。图上显示约2小时的分钟级别K线数据，价格范围从2980.00至3997.00。图表中部偏下方有一个矩形标注框，框内及周围标有三个价格标签：S-[3984.25]、S-[3984.25]、S-[3003.75]。K线由绿色和红色蜡烛组成，整体呈波动走势。右侧价格轴显示多个价格刻度点。图上未见其他指标或形态标注。",
+    "case_002_detail_1.jpg": "ES 1分钟K线图。图上显示从08:00至13:00的交易时段。可见价格范围约从3960.00至4620.00。图上有三条带标签的水平线，分别标记为0.786(4206.00)、0.5(4601.00)、0.236(4601.00)。中间两条水平线之间有一个灰色矩形框。K线形态显示早间上升至约4620.00，随后出现急速下跌至约3960.00，之后在3960.00至4100.00区间内震荡。右侧价",
+    "case_002_detail_2.jpg": "ES1! 1分钟K线图。图表显示约4小时的日内交易数据，时间从02:15至06:45。可见价格范围约从2981到3997。图上绘有一个矩形标注框，位置在下方价格区域约2983至2991之间。右侧价格面板显示多个价格标签，包括3993.50、3991.75、2989.50、2988.00等。K线由绿色和红色蜡烛组成，分布在整个可见范围内。图上未见其他技术指标或额外标注。"
+  },
+  "sources": [
+    {
+      "video_id": "LZZAaILYNyI",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        189.519,
+        281.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了破坏块结构识别、FVG折价区入场、初始止损设置及动态止损追踪的全过程，关键价位和步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:50.341578Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 1分钟破坏块结构回测FVG折价区入场与止损追踪\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1m\",\"market_context\":\"ES期货1分钟图显示价格从高点约4620.00急速下跌至约3960.00，随后在低位区间震荡。博主演示在破坏块结构上方回测公允价值缺口折价区的交易设置。\",\"key_observation\":\"当价格突破订单块结构后，该订单块转变为破坏块（Breaker Block）。交易者可在随后的回测中于FVG折价区入场，并根据结构破坏逐步上移止损至保护位。\",\"analysis_steps\":[\"Step 1: 识别破坏块结构——价格突破上方订单块，该订单块转变为破坏块\",\"Step 2: 寻找回测机会——等待价格回测至破坏块上方的公允价值缺口（FVG）\",\"Step 3: 确认折价区入场——在FVG的折价区（下半部分）寻找最优交易入场点（OTE）\",\"Step 4: 设置初始止损——可选择破坏块K线的低点或下方订单块的低点作为初始止损\",\"Step 5: 追踪止损——当价格突破新的结构高点时，逐步上移止损至该结构的低点\",\"Step 6: 持续追踪——每当新结构被破坏，继续上移止损至新的保护位，直至被止损出场\"],\"outcome\":\"交易者在多个结构破坏点逐步上移止损，最终在某个保护位被止损出场，演示了有效的动态止损追踪方法。\",\"lessons\":\"破坏块结构提供了高概率的回测入场机会。在折价区入场后，应根据价格突破的新结构逐步上移止损至保护位，而非固定止损，这样既能保护利润又能跟随趋势。\",\"primary_image_frame_id\":\"LZZAaILYNyI_f010\",\"supporting_image_frame_ids\":[\"LZZAaILYNyI_f008\",\"LZZAaILYNyI_f009\"],\"related_concepts\":[\"Breaker Block\",\"Fair Value Gap\",\"Order Block\",\"Optimal Trade Entry\",\"Discount\",\"Market Structure Shift\",\"Protected Swing\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了破坏块结构识别、FVG折价区入场、初始止损设置及动态止损追踪的全过程，关键价位和步骤清晰。\"}",
+  "error": null
+}

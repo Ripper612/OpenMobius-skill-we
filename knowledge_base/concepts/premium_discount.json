@@ -1,0 +1,707 @@
+{
+  "card_id": "premium_discount",
+  "type": "merged_concept",
+  "canonical_term": "Premium / Discount",
+  "aliases": [
+    "Deep Discount",
+    "Deep Premium",
+    "Discount Array",
+    "Discount Zone",
+    "OT",
+    "PD",
+    "PD Array",
+    "PD区",
+    "Premium Array",
+    "Premium Zone",
+    "Premium Zone / Discount Zone",
+    "Premium/Discount Entry",
+    "折价区",
+    "溢价区",
+    "溢价区 / 折价区",
+    "溢价区/折价区"
+  ],
+  "school": "ICT",
+  "definition": "将一个价格区间用0.5斐波那契水平（均衡点/EQ）分割：上方为溢价区（Premium，利于做空），下方为折价区（Discount，利于做多）。区间可基于摆动高低点、位移腿、盘整范围或开盘价水平界定。价格越深入折价/溢价区，风险回报比越有利；均衡点入场风险回报比仅为1:1。",
+  "identification_rules": [
+    "确定一个明确的价格区间高点和低点（可为摆动高/低点、位移腿高低点、盘整范围高低点、Asia/London range，或以午夜0:00与8:30开盘价作为参考水平）",
+    "在该区间高点与低点之间应用斐波那契回撤工具，定位0.5水平线，即均衡点（Equilibrium/EQ）",
+    "0.5水平线上方的区域标记为溢价区（Premium）",
+    "0.5水平线下方的区域标记为折价区（Discount）",
+    "价格在折价区时倾向于做多，在溢价区时倾向于做空",
+    "当价格同时高于午夜0:00和8:30两个开盘价时为深溢价（Deep Premium），同时低于两者时为深折价（Deep Discount）",
+    "当价格创出新高或新低时，需更新并重新标记新的Premium/Discount范围",
+    "可在多个时间框架分别对不同周期的价格区间应用此划分，高时间框架确定方向后下钻低时间框架寻找具体入场点",
+    "可结合0.62或0.79等其他斐波那契水平在折价/溢价区内进一步细化最优入场区域（OTE）"
+  ],
+  "trading_implication": "折价区用于寻找做多入场机会，溢价区用于寻找做空入场机会。价格越深入折价/溢价区，风险回报比越优；均衡点附近入场风险回报比仅约1:1。结合PD Array（FVG、Order Block、Breaker Block等）在对应区域内寻找高概率入场点。市场结构转变（MSS）后，价格通常回测至溢价或折价区。该框架也可用于目标位设定——做多时以溢价区为目标，做空时以折价区为目标。需动态更新区间以适应新的高低点。",
+  "common_mistakes": [
+    "混淆溢价区和折价区的交易方向：溢价区利于做空，折价区利于做多；在溢价区做多或折价区做空违反基本逻辑",
+    "未正确识别用于划分的价格区间高低点（应基于摆动高低点、位移腿或其他明确结构级别），导致0.5水平线位置计算错误",
+    "忽视价格区间的动态性：当价格创出新高/新低时未实时更新Premium/Discount范围，导致目标或入场区域失效",
+    "混淆多个嵌套范围：一段走势中存在多个层级的区间，需分别标记各自的0.5水平线",
+    "将Premium/Discount与固定支撑阻力混淆：前者是基于特定区间0.5斐波那契分割的相对位置概念，而非绝对价格水平",
+    "单独依赖Premium/Discount判断入场，忽视与FVG、Order Block、市场结构等其他工具的配合使用",
+    "在均衡点附近入场，忽视此时风险回报比仅为1:1的劣势",
+    "混淆external liquidity和internal liquidity，导致使用错误的高低点绘制区间",
+    "未根据更高时间框架的订单流更新折价/溢价标记，导致目标设置不当",
+    "仅看单一开盘价水平判断，忽视多个水平叠加效应（如同时高于0:00和8:30才构成深溢价）"
+  ],
+  "related_concepts": [
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Intermediate Term High",
+      "card_id": "intermediate_term_high",
+      "exists": true
+    },
+    {
+      "term": "Long-term High / Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Intermediate-term High / Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Short-term High / Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Dealing Range",
+      "card_id": "dealing_range",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Judas Swing",
+      "card_id": "judas_swing",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Seek and Destroy",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0xygpCMwxbQ_case_002_nasdaq_5分钟图表的breaker_block与fvg嵌套",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 5分钟Breaker Block内嵌FVG的精准入场"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_003_标普500_1分钟图表的高点突破交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "标普500 1分钟图表的高点突破与OTE回测交易"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_004_nasdaq_1分钟图表的box_setup交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 1分钟Box Setup交易——无结构转变的范围突破"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_005_标普500多时间框架从日线到5分钟的交易分析",
+      "video_id": "0xygpCMwxbQ",
+      "title": "标普500多时间框架分析：日线Stop Raid到5分钟精确入场"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_008_gbp_usd从5分钟到30秒图的多层级分析",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD从1小时到30秒的多层级FVG与订单块分析"
+    },
+    {
+      "card_id": "CAuN4tvLInQ_case_001_标普500期货纽约早盘交易范围分析",
+      "video_id": "CAuN4tvLInQ",
+      "title": "标普500期货纽约早盘交易范围与位移腿分析"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_002_nq日线到2分钟多时间框架联动案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ日线FVG到2分钟CISD多时间框架联动做空"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_001_cl原油期货看跌案例",
+      "video_id": "EYzP7c24AwM",
+      "title": "CL原油期货日线看跌确认与多时间框架派发"
+    },
+    {
+      "card_id": "Gu7FjYYcKhI_case_001_标普500期货周五日内行情分析",
+      "video_id": "Gu7FjYYcKhI",
+      "title": "ES1!日内折价溢价区域识别与交易偏向确定"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_006_e_mini_s_p_500期货_4小时和日线_偏差识别案例",
+      "video_id": "HFfChGFHD44",
+      "title": "E-MINI S&P 500期货 4小时和日线偏差识别"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_002_原油期货_cl_看涨操纵案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "原油期货CL看涨操纵案例：伦敦失败摆动后纽约扫荡折价区入场"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_003_原油期货_cl_范围突破案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "原油期货CL日内范围突破与CSD交易案例"
+    },
+    {
+      "card_id": "LZZAaILYNyI_case_001_es_5分钟图高时间框架流动性交易案例",
+      "video_id": "LZZAaILYNyI",
+      "title": "ES 5分钟高时间框架流动性入场与溢价区做空止损跟踪"
+    },
+    {
+      "card_id": "MlMsG7li9zY_case_003_英镑美元日线到15分钟的完整交易设置",
+      "video_id": "MlMsG7li9zY",
+      "title": "英镑美元日线FVG填补后的多头设置与15分钟OTE入场"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_002_nasdaq_100_1小时图表的多层级扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "NQ 1小时图多层级扩张形态与SMT、Power of 3应用"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_006_gbpusd_1小时图_多阶段反转与日线对齐",
+      "video_id": "VD4xb9VfMHA",
+      "title": "GBPUSD 1H：范围突破反转与日线收盘对齐"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_002_纳斯达克_nq_日线_1小时_15分钟做多案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "NQ日线-1小时-15分钟多头设置：前日低点扫除+FVG目标"
+    },
+    {
+      "card_id": "WwmS47Gb3M0_case_003_欧元兑加元_eurcad_日线_1小时_15分钟做空案例",
+      "video_id": "WwmS47Gb3M0",
+      "title": "EURCAD日线-1小时-15分钟多时间框架做空案例"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_005_标普500从低位上升至高点的完整交易过程",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "标普500从3790低位上升至3838高点的多时间框架交易过程"
+    },
+    {
+      "card_id": "aDYzoae3viQ_case_001_伦敦盘e_mini期货交易案例",
+      "video_id": "aDYzoae3viQ",
+      "title": "伦敦盘E-mini期货位移突破15分钟FVG的完整交易案例"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_001_伦敦开盘后的买卖日案例分析",
+      "video_id": "b6yvRKf8haE",
+      "title": "伦敦开盘后亚洲低点被取，纽约时段激进位移跌破深折价区案例"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_002_经典卖出日的范围捕捉",
+      "video_id": "b6yvRKf8haE",
+      "title": "经典卖出日的范围捕捉与伦敦偏离后的纽约交易机会"
+    },
+    {
+      "card_id": "b6yvRKf8haE_case_005_新闻事件驱动的亚洲伦敦操纵",
+      "video_id": "b6yvRKf8haE",
+      "title": "8:30新闻事件驱动的亚洲伦敦操纵与深溢价区反转"
+    },
+    {
+      "card_id": "dSccSI7uqvE_case_002_es期货从流动性扫除到fvg交易的完整案例",
+      "video_id": "dSccSI7uqvE",
+      "title": "ES期货流动性扫除后FVG折价区做多交易"
+    },
+    {
+      "card_id": "hh_kKK4Fhrw_case_001_s_p_500_e_mini期货从高点4300下跌至低点3640",
+      "video_id": "hh_kKK4Fhrw",
+      "title": "ES 4H从4300跌至3640的多技术点位识别与LTF入场模型应用"
+    },
+    {
+      "card_id": "lpam8F-N3EM_case_003_新闻发布前的1分钟做多案例",
+      "video_id": "lpam8F-N3EM",
+      "title": "新闻禁运期间1分钟折价区FVG做多案例"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_003_nq日线低阻力流动性扫盘案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "NQ日线低阻力流动性扫盘与小时图MSS+FVG入场"
+    },
+    {
+      "card_id": "pWAjzKndWXo_case_001_es_5分钟图空头交易目标分析",
+      "video_id": "pWAjzKndWXo",
+      "title": "ES 5分钟图空头交易多层次目标分析"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_003_nq第三个例子_向下扫盘至折价区",
+      "video_id": "q40pRwjuPYQ",
+      "title": "NQ向下扫盘至折价区FVG的短线交易"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_004_原油_oil_5分钟图的结构分析",
+      "video_id": "sgAnVR6RSDg",
+      "title": "原油5分钟图上升趋势中的结构转变与下降趋势形成"
+    },
+    {
+      "card_id": "tZMgGsTqqVM_case_001_s_p_500_e_mini期货日线流动性分配案例",
+      "video_id": "tZMgGsTqqVM",
+      "title": "ES日线流动性分配：MSS后回落吸收下方流动性再上升"
+    },
+    {
+      "card_id": "umyCqr_0NsI_case_001_e_mini_nasdaq_100期货1分钟图结构分析",
+      "video_id": "umyCqr_0NsI",
+      "title": "NQ1! 1分钟图：从15分钟扫盘高点到结构转变的完整标记"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_001_标普500期货bpr长仓交易案例",
+      "video_id": "yOPESX2aWkI",
+      "title": "标普500期货BPR长仓交易案例"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_002_突破前期低点后的长仓设置",
+      "video_id": "yOPESX2aWkI",
+      "title": "突破前期低点后的BPR长仓设置"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0R61Y6Pn74Q",
+      "original_card_id": "0R61Y6Pn74Q_concept_premium_discount",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        124.92,
+        306.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "0xygpCMwxbQ",
+      "original_card_id": "0xygpCMwxbQ_concept_premium_discount",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        650.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "1oco9lesido",
+      "original_card_id": "1oco9lesido_concept_premium_discount",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        148.34
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "2lIaRUtJqpU",
+      "original_card_id": "2lIaRUtJqpU_concept_premium_discount",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        184.2
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "original_card_id": "4WCiIyCiBrQ_concept_premium_discount",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.0,
+        523.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "A8UpRZlRzlg",
+      "original_card_id": "A8UpRZlRzlg_concept_premium_discount",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.72,
+        187.0
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "CAuN4tvLInQ",
+      "original_card_id": "CAuN4tvLInQ_concept_premium_discount",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        0.659,
+        350.78
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "E89d1HArbgM",
+      "original_card_id": "E89d1HArbgM_concept_premium_discount",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        192.159,
+        546.92
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_premium_and_discount_zones",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.84,
+        548.24
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Gu7FjYYcKhI",
+      "original_card_id": "Gu7FjYYcKhI_concept_premium_discount",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.48,
+        260.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "MlMsG7li9zY",
+      "original_card_id": "MlMsG7li9zY_concept_premium_discount",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        509.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Tjk9bXERZy0",
+      "original_card_id": "Tjk9bXERZy0_concept_premium_discount",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        325.479,
+        506.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "WFqLwOp2pXw",
+      "original_card_id": "WFqLwOp2pXw_concept_premium_discount",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        241.92,
+        292.4
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Zm2oKad3Tb8",
+      "original_card_id": "Zm2oKad3Tb8_concept_premium_discount",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.96,
+        187.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "b6yvRKf8haE",
+      "original_card_id": "b6yvRKf8haE_concept_discount_and_premium",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.799,
+        465.639
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "gZLLuB_rmis",
+      "original_card_id": "gZLLuB_rmis_concept_premium_discount",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.04,
+        185.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "hh_kKK4Fhrw",
+      "original_card_id": "hh_kKK4Fhrw_concept_premium_discount",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        190.26,
+        368.58
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "lpam8F-N3EM",
+      "original_card_id": "lpam8F-N3EM_concept_premium_discount",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.08,
+        311.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "mwmWNCTEYtY",
+      "original_card_id": "mwmWNCTEYtY_concept_premium_discount",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        372.479,
+        730.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "sgAnVR6RSDg",
+      "original_card_id": "sgAnVR6RSDg_concept_premium_discount",
+      "segment_ids": [
+        "seg_004",
+        "seg_006"
+      ],
+      "time_range": [
+        432.72,
+        758.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "tZMgGsTqqVM",
+      "original_card_id": "tZMgGsTqqVM_concept_premium_discount",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.96,
+        189.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "umyCqr_0NsI",
+      "original_card_id": "umyCqr_0NsI_concept_premium_discount",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        192.92,
+        550.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "yOPESX2aWkI",
+      "original_card_id": "yOPESX2aWkI_concept_premium_discount",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        182.34
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ynFA6E3qHj0",
+      "original_card_id": "ynFA6E3qHj0_concept_premium_discount",
+      "segment_ids": [
+        "seg_002",
+        "seg_006"
+      ],
+      "time_range": [
+        183.78,
+        684.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_premium_discount",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        6.74,
+        443.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 25,
+    "source_videos": 25,
+    "high_confidence_sources": 21,
+    "medium_confidence_sources": 4,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:51:23.458572Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 5"
+  ],
+  "merge_notes": "25张原始卡均标注school为ICT，无冲突。两张卡（EYzP7c24AwM、b6yvRKf8haE）以午夜0:00和8:30开盘价作为Premium/Discount参考水平，与主流斐波那契分割方法并存，均已纳入识别规则。",
+  "error": null
+}

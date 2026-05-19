@@ -1,0 +1,56 @@
+{
+  "card_id": "htf_ltf_high_time_frame_low_time_frame_htf_ltf_",
+  "type": "merged_concept",
+  "canonical_term": "HTF/LTF (High Time Frame / Low Time Frame)",
+  "aliases": [
+    "Multi-timeframe Analysis",
+    "Nested Timeframe Structure",
+    "Time Frame Analysis"
+  ],
+  "school": "ICT",
+  "definition": "使用多个时间周期进行分析的方法：高时间框架（如日线、4小时）确定价格目标方向（DOL），低时间框架（如5分钟、1分钟）寻找具体入场点，形成嵌套结构。",
+  "identification_rules": [
+    "在高时间框架上识别关键流动性目标（如FVG、OB、老高点/低点），确定整体交易偏向",
+    "在低时间框架上寻找与高时间框架目标一致的入场信号（如Order Block、Breaker Block）",
+    "验证低时间框架的FVG、OB等结构是否嵌套在高时间框架的同类结构内",
+    "确认低时间框架的价格行动不与高时间框架的DOL目标相悖，避免被低时间框架的波动吓出仓位"
+  ],
+  "trading_implication": "HTF/LTF分析提供了从宏观到微观的交易框架。高时间框架提供战略方向和风险管理的止损位置，低时间框架提供战术入场点。通过这种嵌套结构，交易者可以在低时间框架的短期波动中保持对高时间框架目标的信心，提高交易的执行纪律和成功率。",
+  "common_mistakes": [
+    "仅关注低时间框架的价格行动，忽视高时间框架的DOL目标，导致在短期回调时过早止损",
+    "高低时间框架目标不一致时仍然入场，增加交易风险",
+    "未验证低时间框架的结构是否真正嵌套在高时间框架内，导致虚假信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "MmvC4rsmmcM",
+      "original_card_id": "MmvC4rsmmcM_concept_time_frame_analysis_htf_ltf",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        496.28
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:53:26.945205Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

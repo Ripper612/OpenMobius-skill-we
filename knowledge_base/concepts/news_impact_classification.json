@@ -1,0 +1,54 @@
+{
+  "card_id": "news_impact_classification",
+  "type": "merged_concept",
+  "canonical_term": "News Impact Classification",
+  "aliases": [
+    "Economic News Impact Level",
+    "新闻影响等级分类"
+  ],
+  "school": "Risk Management",
+  "definition": "根据经济日历中新闻事件对市场波动性的影响程度，将其分为高、中、低三个等级，并据此制定相应的交易回避和参与规则。",
+  "identification_rules": [
+    "访问forexfactory.com经济日历，使用筛选功能按资产和影响等级分类",
+    "高影响新闻（红色标记）：如CPI、PPI、NFP、FOMC等重大经济指标",
+    "中影响新闻（黄色标记）：影响程度次于高影响但仍可引发波动的事件",
+    "低影响新闻（绿色标记）：对市场波动性影响较小的事件"
+  ],
+  "trading_implication": "根据新闻影响等级制定交易日程：高影响新闻需避免前一天和发布时段，仅在发布后交易；中影响新闻避免发布前一个交易时段；低影响新闻无限制。通过此分类可规避新闻发布前后的高波动性风险，提高交易的可控性和成功率。",
+  "common_mistakes": [
+    "未区分新闻影响等级，对所有新闻事件采用相同的回避策略",
+    "忽视不同资产对同一新闻事件的差异化反应（如美元资产vs其他资产对美国经济数据的敏感度不同）",
+    "在高影响新闻发布时段仍然交易，暴露于不可控的波动性风险"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "original_card_id": "hKCMqh0ZsY0_concept_news_impact_classification",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.719,
+        191.76
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134344Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

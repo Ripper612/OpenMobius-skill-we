@@ -1,0 +1,78 @@
+{
+  "card_id": "c_mh19e3mhI_case_007_9_35至10_05_es与nq相关性变化预示",
+  "type": "case",
+  "title": "ES/NQ相关性变化：比值高点领先实际反转",
+  "related_concepts": [
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Correlation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "market_structure_shift"
+  ],
+  "school": "SMC",
+  "asset": "ES11 / NQ11",
+  "timeframe": "5M",
+  "market_context": "美股期货ES与NQ在9:30开盘后形成反转信号。ES相对较弱，NQ相对较强。博主通过ES/NQ比值观察两资产的相关性变化，发现比值在10:00形成高点，但实际低点延迟至10:05。",
+  "key_observation": "ES/NQ比值在10:00形成高点，但ES与NQ的实际低点直到10:05才出现。这表明比值反转可能领先实际价格反转，提示反转即将来临。",
+  "analysis_steps": [
+    "Step 1: 观察9:30开盘时ES与NQ的反转信号形成。",
+    "Step 2: 识别NQ相对强于ES的现象——NQ收盘高于前期高点，而ES难以突破该高点。",
+    "Step 3: 通过SMT（Smart Money Technique）确认两资产强度差异——NQ继续上升至新高，ES在前一小时K线上方挣扎。",
+    "Step 4: 在9:35标记ES与NQ的低点。",
+    "Step 5: 观察10:00时ES/NQ比值形成高点。",
+    "Step 6: 发现ES与NQ的实际低点延迟至10:05才出现，而非在10:00。",
+    "Step 7: 得出结论——比值反转可能提前给出反转信号，预示实际反转即将到来。"
+  ],
+  "outcome": null,
+  "lessons": "ES/NQ比值的反转可能领先实际价格反转，为交易者提供早期预警信号。当两个相关资产的比值出现结构转变时，应关注实际价格是否随后跟进反转，这可能是高概率交易设置的前兆。",
+  "primary_image": "cards/c_mh19e3mhI/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/c_mh19e3mhI/images/case_007_detail_1.jpg",
+    "cards/c_mh19e3mhI/images/case_007_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "图上显示 ES/NQ 两个资产的 5 分钟 K 线对比图。左侧为 ES 图表，右侧为 NQ 图表。左侧 ES 图表价格范围约 4460 至 4495，绘有一条向上趋势线和一条向下趋势线，多条水平线标注关键价格位。右侧 NQ 图表价格范围约 15040 至 15220，同样绘有向下趋势线和向上趋势线，多条水平线标注价格位。两个图表均包含绿色和黑色 K 线，时间轴显示交易时段从早晨至上午。图上标注有多",
+    "case_007_detail_1.jpg": "图上显示两个独立的 5 分钟 K 线图表面板。左侧面板为 ES11/CABE_MINI:NQ11 资产，价格范围约 4520 至 4552；右侧面板同一资产，价格范围约 15360 至 15514。两个面板均显示绿色和黑色 K 线混合排列，表示上升和下降的蜡烛。时间轴标注从 08:30 开始，显示交易日内时段。左侧面板有一条竖直蓝线标记在约 09:00 时刻。右上角显示当前价格标签 4552.25",
+    "case_007_detail_2.jpg": "图上显示 ES11/CABE_MINI:NQ11 资产的 5 分钟 K 线图。可见价格范围约从 4500.00 到 4552.25。图表由多根绿色和黑色 K 线组成，显示双向价格波动。右侧价格刻度标注了多个价格水平。图上标记有时间戳'Fri 04 Aug 23 10:20'。左下角显示'0.75'和'0.25'的数值标签。图表中央有一个灰色圆形元素。未见其他技术指标或标注。"
+  },
+  "sources": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        719.16,
+        828.66
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰标注了时间点（9:35、10:00、10:05）、资产代码（ES/NQ）、时间框架（5M）和具体观察现象，分析步骤完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:48.370988Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES/NQ相关性变化：比值高点领先实际反转\",\"school\":\"SMC\",\"asset\":\"ES11 / NQ11\",\"timeframe\":\"5M\",\"market_context\":\"美股期货ES与NQ在9:30开盘后形成反转信号。ES相对较弱，NQ相对较强。博主通过ES/NQ比值观察两资产的相关性变化，发现比值在10:00形成高点，但实际低点延迟至10:05。\",\"key_observation\":\"ES/NQ比值在10:00形成高点，但ES与NQ的实际低点直到10:05才出现。这表明比值反转可能领先实际价格反转，提示反转即将来临。\",\"analysis_steps\":[\"Step 1: 观察9:30开盘时ES与NQ的反转信号形成。\",\"Step 2: 识别NQ相对强于ES的现象——NQ收盘高于前期高点，而ES难以突破该高点。\",\"Step 3: 通过SMT（Smart Money Technique）确认两资产强度差异——NQ继续上升至新高，ES在前一小时K线上方挣扎。\",\"Step 4: 在9:35标记ES与NQ的低点。\",\"Step 5: 观察10:00时ES/NQ比值形成高点。\",\"Step 6: 发现ES与NQ的实际低点延迟至10:05才出现，而非在10:00。\",\"Step 7: 得出结论——比值反转可能提前给出反转信号，预示实际反转即将到来。\"],\"outcome\":null,\"lessons\":\"ES/NQ比值的反转可能领先实际价格反转，为交易者提供早期预警信号。当两个相关资产的比值出现结构转变时，应关注实际价格是否随后跟进反转，这可能是高概率交易设置的前兆。\",\"primary_image_frame_id\":\"c_mh19e3mhI_f023\",\"supporting_image_frame_ids\":[\"c_mh19e3mhI_f027\",\"c_mh19e3mhI_f028\"],\"related_concepts\":[\"SMT\",\"Correlation\",\"Market Structure Shift\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰标注了时间点（9:35、10:00、10:05）、资产代码（ES/NQ）、时间框架（5M）和具体观察现象，分析步骤完整。\"}",
+  "error": null
+}

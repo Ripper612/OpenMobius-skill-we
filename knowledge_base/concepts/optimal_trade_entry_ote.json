@@ -1,0 +1,367 @@
+{
+  "card_id": "optimal_trade_entry_ote",
+  "type": "merged_concept",
+  "canonical_term": "Optimal Trade Entry (OTE)",
+  "aliases": [
+    "OTE",
+    "OTE zone",
+    "optimal entry zone",
+    "最优交易入场点",
+    "最优入场点"
+  ],
+  "school": "ICT",
+  "definition": "利用斐波那契回撤工具（0.62、0.705、0.79区间）在价格位移后回撤时识别的高概率入场区域。以0.5水平线（均衡点）划分折价区与溢价区，在折价区寻找做多机会，在溢价区寻找做空机会。可与FVG、订单块等PD Array叠加使用，也可在多时间框架嵌套应用。",
+  "identification_rules": [
+    "确认明确的摆动高点（swing high）和摆动低点（swing low），从位移腿的起点向终点拖拽斐波那契回撤工具",
+    "识别0.62、0.705（中点）、0.79三条水平线构成的OTE核心区域",
+    "以0.5斐波那契水平线（均衡点）为界：折价区（0.5以下）寻找做多OTE，溢价区（0.5以上）寻找做空OTE",
+    "在OTE区域内寻找FVG、订单块等PD Array的汇聚以增强确认",
+    "入场前确认已满足前置条件：止损扫荡（Stop Raid）、市场结构转变（MSS）或明确的位移",
+    "结合高时间框架流动性目标和会话结构（如Killzone）确认OTE所在时间框架的方向",
+    "可在高时间框架OTE形成的位移范围内，于低时间框架再次嵌套标记OTE以精确入场",
+    "若OTE区域内的订单块开盘价不在OTE范围内，可使用该订单块中点（50%）作为替代入场参考"
+  ],
+  "trading_implication": "OTE是多时间框架分析到具体执行的最后定位步骤。交易者先在高时间框架确认趋势方向与流动性目标，再在低时间框架通过位移和结构转变确认方向，最后在OTE区间内精确设置入场、止损与目标。入场越接近止损端，风险回报比越高但成交概率降低，需在两者间平衡。OTE也可用于预测价格目标位置，适用于多个时间框架的递归应用。",
+  "common_mistakes": [
+    "在溢价区做多或在折价区做空，违反OTE的基本方向原则",
+    "未确认清晰的摆动高点和摆动低点就盲目绘制斐波那契工具",
+    "忽视OTE与其他PD Array（FVG、订单块）的汇聚确认，单独依赖OTE入场",
+    "未在价格实际完成位移后才应用OTE，导致在盘整中错误入场",
+    "未从高时间框架确认流动性目标就直接在低时间框架寻找OTE，导致方向错误",
+    "在会话结构未完成或缺乏明确位移确认时过早入场",
+    "将OTE与具体的单根K线或精确价位混淆，忽视OTE是一个区间而非点位",
+    "混淆OTE与流动性区域，将OTE作为最终目标而非中间入场区域",
+    "未考虑时间因素（如Killzone）就在OTE区域入场，导致低效率交易",
+    "未能区分OTE所在的时间框架，混淆高时间框架与低时间框架的OTE应用"
+  ],
+  "related_concepts": [
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Stop Raid",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Liquidity (Buyside/Sellside Liquidity)",
+      "card_id": "liquidity_buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Seek and Destroy",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-GkOTMYoJT4_case_002_标普500十五分钟图停损扫盘案例",
+      "video_id": "-GkOTMYoJT4",
+      "title": "标普500十五分钟图停损扫盘后FVG填补上升案例"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_001_nasdaq_15分钟图表的日线fvg填补交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 15分钟日线FVG填补的多头入场分析"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_004_黄金小时到分钟级多时间框架交易",
+      "video_id": "1YRs4Z1lMws",
+      "title": "黄金小时到分钟级多时间框架交易——OTE与FVG汇聚入场"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_004_cpi发布后nq与es的smt空头交易",
+      "video_id": "27S9gjgcSlI",
+      "title": "CPI发布后NQ与ES的SMT空头交易"
+    },
+    {
+      "card_id": "9MUej4g9Jyg_case_001_es期货多时间框架交易设置分析",
+      "video_id": "9MUej4g9Jyg",
+      "title": "ES期货多时间框架Strat反转入场分析"
+    },
+    {
+      "card_id": "A8UpRZlRzlg_case_001_标普500迷你期货模型一案例",
+      "video_id": "A8UpRZlRzlg",
+      "title": "NQ1!标普500迷你期货Model 1入场流程：流动性扫盘+结构突破+FVG回撤"
+    },
+    {
+      "card_id": "CAuN4tvLInQ_case_002_标普500期货多头入场机会分析",
+      "video_id": "CAuN4tvLInQ",
+      "title": "标普500期货两个做多入场机会分析"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_002_原油期货_cl_看涨操纵案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "原油期货CL看涨操纵案例：伦敦失败摆动后纽约扫荡折价区入场"
+    },
+    {
+      "card_id": "MlMsG7li9zY_case_003_英镑美元日线到15分钟的完整交易设置",
+      "video_id": "MlMsG7li9zY",
+      "title": "英镑美元日线FVG填补后的多头设置与15分钟OTE入场"
+    },
+    {
+      "card_id": "PePk1V0Q4QQ_case_001_s_p_500_e_mini期货24日交易案例",
+      "video_id": "PePk1V0Q4QQ",
+      "title": "S&P 500 E-mini期货24日MSS、位移与FVG多头入场分析"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_001_纳斯达克与标普500强弱对比交易",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "纳斯达克与标普500强弱对比做多交易"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_002_15分钟fvg回测的多次低时间框架入场",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "4小时FVG回测中的1分钟多次低时间框架入场"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_005_标普500从低位上升至高点的完整交易过程",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "标普500从3790低位上升至3838高点的多时间框架交易过程"
+    },
+    {
+      "card_id": "_94CPMjWi9E_case_001_es期货小时图结构转变案例",
+      "video_id": "_94CPMjWi9E",
+      "title": "ES期货小时图HTF水平突破与MSS确认案例"
+    },
+    {
+      "card_id": "aDYzoae3viQ_case_001_伦敦盘e_mini期货交易案例",
+      "video_id": "aDYzoae3viQ",
+      "title": "伦敦盘E-mini期货位移突破15分钟FVG的完整交易案例"
+    },
+    {
+      "card_id": "eHQ4nE-TQ2w_case_002_es与nq的看涨背离交易案例",
+      "video_id": "eHQ4nE-TQ2w",
+      "title": "NQ看涨背离交易：高时间框架识别与低时间框架精确入场"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_001_s_p_500期货5分钟线上的ote和breaker_block",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES 5分钟线OTE和Breaker Block的入场设置"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_002_s_p_500小时线上的smart_money反转和ote应用",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES小时线Smart Money反转后的OTE最优入场应用"
+    },
+    {
+      "card_id": "gZLLuB_rmis_case_003_s_p_500期货1分钟线上的多层ote嵌套",
+      "video_id": "gZLLuB_rmis",
+      "title": "ES 1分钟线多层OTE嵌套的精确入场分析"
+    },
+    {
+      "card_id": "hh_kKK4Fhrw_case_001_s_p_500_e_mini期货从高点4300下跌至低点3640",
+      "video_id": "hh_kKK4Fhrw",
+      "title": "ES 4H从4300跌至3640的多技术点位识别与LTF入场模型应用"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_001_nq期货多时间框架入场精细化案例",
+      "video_id": "ivirRu3fc4o",
+      "title": "NQ期货多时间框架嵌套FVG精细化入场"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_002_错过高时间框架入场后的低时间框架确认交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "错过15分钟FVG后，等待等高点形成再用1分钟OB确认入场"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_003_15秒图表反向头皮交易案例",
+      "video_id": "ivirRu3fc4o",
+      "title": "15秒图表反向头皮交易：折价区FVG做空案例"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_004_连续fvg和ote的多次头皮交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "NQ 15秒图多次FVG和OTE头皮交易序列"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_005_激进上升突破后的做多头皮交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "激进上升突破后在OTE区域做多头皮交易"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_001_eurusd周一至周三的日内交易案例",
+      "video_id": "klaiq36QnEM",
+      "title": "EURUSD周一至周三日内交易：日线FVG回测与小时级breaker确认卖出"
+    },
+    {
+      "card_id": "xdm_OexQWJY_case_002_伦敦时段运行前期高点与fvg做多案例",
+      "video_id": "xdm_OexQWJY",
+      "title": "伦敦时段向上位移后利用折价区FVG与OTE做多至相等高点"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_002_虚假伦敦反转与真实纽约反转",
+      "video_id": "xdzyejskSKE",
+      "title": "虚假伦敦反转与真实纽约反转的区分"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_006_标普500的高时间框架缺口与反转",
+      "video_id": "xdzyejskSKE",
+      "title": "ES高时间框架缺口与伦敦纽约时段反转交易"
+    },
+    {
+      "card_id": "xvqsLTpmpsI_case_001_标普500期货e_mini的日内做空交易分析",
+      "video_id": "xvqsLTpmpsI",
+      "title": "标普500期货E-mini日内做空交易：从15分钟结构到1分钟入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "original_card_id": "0xygpCMwxbQ_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        650.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "1YRs4Z1lMws",
+      "original_card_id": "1YRs4Z1lMws_concept_optimal_trade_entry_ote",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        10.24,
+        517.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "PlZD45uLPjE",
+      "original_card_id": "PlZD45uLPjE_concept_optimal_trade_entry_ote",
+      "segment_ids": [
+        "seg_001",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        592.98
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YESqIoA7Wyg",
+      "original_card_id": "YESqIoA7Wyg_concept_optimal_trade_entry_ote",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        548.76,
+        727.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "gZLLuB_rmis",
+      "original_card_id": "gZLLuB_rmis_concept_optimal_trade_entry_ote",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.04,
+        185.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:43.862662Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "5张原始卡均标注ICT，school无冲突。OTE核心斐波那契区间：卡1泛指折价/溢价区，卡2/5明确0.62-0.79，卡3强调0-0.5与0.5-1.0，综合后以0.62、0.705、0.79为核心区间，0.5为均衡分界。",
+  "error": null
+}

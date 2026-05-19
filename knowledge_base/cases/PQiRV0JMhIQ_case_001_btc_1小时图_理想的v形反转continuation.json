@@ -1,0 +1,104 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_001_btc_1小时图_理想的v形反转continuation",
+  "type": "case",
+  "title": "BTC 1小时图：理想的V形反转continuation",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "V-shaped Recovery",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Continuation Pattern",
+      "card_id": "continuation_signature",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "protected_high_low",
+    "retracement",
+    "market_structure",
+    "market_structure_shift",
+    "continuation_signature",
+    "swing_low_swing_high"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC在1小时图上形成上升趋势，价格经历初期上升后出现回调，随后快速反弹形成V形反转，展示典型的continuation形态。",
+  "key_observation": "理想的continuation应包含：到达point of interest（FVG）、V形反弹、快速收盘于下跌K线上方，同时保护摆动低点并未突破前期高点。",
+  "analysis_steps": [
+    "Step 1: 识别初期上升leg和expansion阶段，确立趋势方向。",
+    "Step 2: 观察价格回调是否到达fair value gap或point of interest。",
+    "Step 3: 确认V形反弹形态，检查是否快速收盘于down close candles上方。",
+    "Step 4: 验证protected swing是否形成，即低点被保护且未被突破。",
+    "Step 5: 确认价格未突破前期高点，为后续expansion预留空间。",
+    "Step 6: 观察CSD（Change in State of Delivery）或FVG是否被持有，作为continuation的确认信号。"
+  ],
+  "outcome": null,
+  "lessons": "理想的continuation需要满足多个条件：精确到达FVG、快速V形反弹、保护摆动点、未突破前期高点。这种形态提供高概率的交易机会，但现实中continuations往往不完美，需要灵活应对。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_001_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "BTC 1 小时 K 线图。图表显示约 40 根 K 线，价格范围从左侧约 105500 上升至右侧约 119700。K 线以绿色和黑色交替出现，绿色 K 线占多数。大部分 K 线具有上下影线，主体部分宽度不一。图上未见水平线、趋势线、斐波那契工具或其他标注。右下角显示时间戳和交易对信息。",
+    "case_001_detail_1.jpg": "图上显示标题'Reason 3'。中央为一组12根K线，由绿色和黑色蜡烛组成，整体呈上升排列。图上有一条水平线标注为'HTF Target'，位于K线序列上方。下方文字标注'HTF target taken'。左下角显示'TTrades'品牌标识和数字'10'。图上未标注具体价格数值或时间框架。",
+    "case_001_detail_2.jpg": "图上显示一段K线序列，包含绿色和黑色蜡烛交替排列。图上有一条水平线标记为'HTF Target'。在该水平线下方有文字标注'HTF target taken'。图右上方有一个红色圆形符号，下方连接一条向下的箭头指向K线序列中的一根黑色蜡烛。页面标题为'Reason 3 - Solution (Avoid)'，左下角显示'TTrades'品牌标识和数字'12'。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        236.239,
+        350.15999999999997
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对BTC 1H图的continuation形态进行了完整分析，清晰展示了理想形态的所有关键要素：FVG、V形反弹、protected swing、未突破前期高点等，分析步骤逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:34.431780Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC 1小时图：理想的V形反转continuation\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC在1小时图上形成上升趋势，价格经历初期上升后出现回调，随后快速反弹形成V形反转，展示典型的continuation形态。\",\"key_observation\":\"理想的continuation应包含：到达point of interest（FVG）、V形反弹、快速收盘于下跌K线上方，同时保护摆动低点并未突破前期高点。\",\"analysis_steps\":[\"Step 1: 识别初期上升leg和expansion阶段，确立趋势方向。\",\"Step 2: 观察价格回调是否到达fair value gap或point of interest。\",\"Step 3: 确认V形反弹形态，检查是否快速收盘于down close candles上方。\",\"Step 4: 验证protected swing是否形成，即低点被保护且未被突破。\",\"Step 5: 确认价格未突破前期高点，为后续expansion预留空间。\",\"Step 6: 观察CSD（Change in State of Delivery）或FVG是否被持有，作为continuation的确认信号。\"],\"outcome\":null,\"lessons\":\"理想的continuation需要满足多个条件：精确到达FVG、快速V形反弹、保护摆动点、未突破前期高点。这种形态提供高概率的交易机会，但现实中continuations往往不完美，需要灵活应对。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f010\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f008\",\"PQiRV0JMhIQ_f009\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Protected Swing\",\"V-shaped Recovery\",\"Market Structure\",\"Change in State of Delivery\",\"Continuation Pattern\",\"Swing Point\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对BTC 1H图的continuation形态进行了完整分析，清晰展示了理想形态的所有关键要素：FVG、V形反弹、protected swing、未突破前期高点等，分析步骤逻辑清晰。\"}",
+  "error": null
+}

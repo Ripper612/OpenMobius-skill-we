@@ -1,0 +1,54 @@
+{
+  "card_id": "body_invalidation",
+  "type": "merged_concept",
+  "canonical_term": "Body Invalidation",
+  "aliases": [
+    "止损设置在K线实体低点"
+  ],
+  "school": "ICT",
+  "definition": "将止损设置在K线实体低点而非完整摆动低点的止损策略。相比完整摆动低点止损，可改善风险回报比，但增加被扫出的风险。",
+  "identification_rules": [
+    "识别受保护摆动（Protected Swing）的完整低点位置",
+    "在该摆动低点对应K线的实体（开盘价与收盘价之间）找到低点",
+    "将止损线设置在该K线实体低点，而非摆动的完整低点（包括下影线）",
+    "通常用于风险回报比不足时的调整策略"
+  ],
+  "trading_implication": "Body Invalidation是一种风险回报优化技巧。当以完整摆动低点作为止损无法获得目标风险回报比（如2R）时，交易者可将止损上移至K线实体低点，从而缩小止损距离、改善风险回报。代价是价格更容易触及止损并扫出头寸，即使之后价格仍可能达到目标位。适用于无法获得理想风险回报的交易设置。",
+  "common_mistakes": [
+    "混淆Body Invalidation与Full Invalidation（完整摆动低点止损）的用途差异",
+    "未认识到Body Invalidation虽然改善风险回报，但增加被扫出的概率",
+    "在风险回报已足够的情况下仍使用Body Invalidation，反而增加不必要风险"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_body_invalidation",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        43.52,
+        330.96
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131260Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

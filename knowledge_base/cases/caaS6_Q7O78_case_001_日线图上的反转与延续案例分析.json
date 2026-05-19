@@ -1,0 +1,110 @@
+{
+  "card_id": "caaS6_Q7O78_case_001_日线图上的反转与延续案例分析",
+  "type": "case",
+  "title": "日线范围内回闭与反转延续的机械性分析",
+  "related_concepts": [
+    {
+      "term": "Close back inside the range",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Close outside the range",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Phase of price delivery",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "turtle_soup",
+    "fair_value_gap",
+    "market_structure",
+    "swing_high_low"
+  ],
+  "school": "Price Action",
+  "asset": null,
+  "timeframe": "1D",
+  "market_context": "博主通过日线K线序列演示价格在范围内的回闭（close back inside the range）与突破（close outside the range）的机械性判断方法，展示如何识别反转与延续信号。",
+  "key_observation": "价格在范围内回闭通常预示下一日价格走低；突破范围外收盘则预示延续；但需结合价格交付阶段（phase of price delivery）判断，避免被困在盘整中。",
+  "analysis_steps": [
+    "Step 1: 识别初始范围——观察K线是否在前一根K线的范围内回闭（close back inside the range）。",
+    "Step 2: 应用次日模型——范围内回闭后预期次日价格走低；范围外收盘则预期延续。",
+    "Step 3: 观察扫盘与回闭——当价格扫出前一日高点或低点后回到范围内，判断为机械性看跌或看涨信号。",
+    "Step 4: 识别失败突破——某些情况下机械性信号失败（如预期下跌但价格反弹），说明'没有什么总是100%有效'。",
+    "Step 5: 融合价格交付阶段——在多根K线持续突破范围外收盘时，识别为新的价格交付阶段（new phase of price delivery），而非简单反转。",
+    "Step 6: 处理冲突信号——当扫盘后回到范围内但未突破对侧高点时，需要等待更多K线确认方向，避免过早入场。",
+    "Step 7: 监测强势收盘——强势收盘（strong closure）可作为看涨信号，即使未完全突破对侧高点。"
+  ],
+  "outcome": null,
+  "lessons": "机械性的范围内回闭与突破规则提供初步方向判断，但需融合价格交付阶段识别来区分反转与延续；单一K线信号可能失败，需等待多根K线确认；强势收盘质量与扫盘位置同样重要。",
+  "primary_image": "cards/caaS6_Q7O78/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/caaS6_Q7O78/images/case_001_detail_1.jpg",
+    "cards/caaS6_Q7O78/images/case_001_detail_2.jpg",
+    "cards/caaS6_Q7O78/images/case_001_detail_3.jpg",
+    "cards/caaS6_Q7O78/images/case_001_detail_4.jpg",
+    "cards/caaS6_Q7O78/images/case_001_detail_5.jpg",
+    "cards/caaS6_Q7O78/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图上显示标题为'Next day model'的教学示意图。中央区域展示约12根K线，包含绿色和黑色实体，均带有上下影线。图上叠加了3个矩形框，用于标注特定的K线序列区域。中间位置有一条蓝色水平线。图上未标注具体资产代码、时间框架或价格数值。左下角显示'TTrades'品牌标识。",
+    "case_001_detail_1.jpg": "K线图显示价格范围从68.50至76.00。图上有一条水平虚线标记在71.95价位，从左侧延伸至右侧。右侧靠近边缘处有一条竖直虚线。图表包含约12根K线，颜色交替为绿色和黑色。左上角标注'The Market Lens'文字。左侧价格刻度清晰可见，从68.50到76.00。最右侧有一条竖直虚线，与水平虚线相交。",
+    "case_001_detail_2.jpg": "图表显示一系列蜡烛线，价格范围从 68.00 到 76.00。图上有一条水平虚线位于 73.67 处，贯穿整个图表。左上角显示数值 73.67。右上角标注文字'The Market Lens'。K 线序列包含绿色和黑色蜡烛，呈现下跌后反弹的形态，最初从 75.50 附近下跌至 68.00，随后在 70.30 至 74.00 区间内形成多根蜡烛的整理。",
+    "case_001_detail_3.jpg": "图表显示一段价格走势，纵轴刻度范围从 71.60 到 78.00。图上有一条水平虚线标记在 76.48 价格位置，贯穿整个图表宽度。K 线序列包含多根绿色蜡烛、一根黑色蜡烛及数根白色蜡烛，整体价格范围约从 71.60 至 77.50。多根 K 线具有下影线，长度在 0.30 至 1.00 之间。图右上角标注文字'The Market Lens'。一条竖虚线标记图表中的特定位置。",
+    "case_001_detail_4.jpg": "图表显示一系列 K 线，价格范围从 71.50 至 78.50。左上角显示数值 77.38。图上绘制了一个矩形标注框，覆盖约 76.80 至 77.30 的价格区间。一条虚线水平线位于约 76.80 处。K 线序列中包含多根绿色蜡烛和两根黑色蜡烛，最左侧绿色蜡烛具有向下延伸的长下影线。工具栏显示 2px 笔刷宽度设置。",
+    "case_001_detail_5.jpg": "图表显示一段上升趋势的K线序列，价格范围从71.50至78.50。左侧有一根绿色K线，下影线延伸至72.00。中间部分显示多根交替的绿色和黑色K线，整体向上运行至77.25附近。图上有一条水平虚线标记在74.75价格位置，贯穿整个图表。右侧有一条竖直虚线。图表右上角标注'The Market Lens'文字。",
+    "case_001_detail_6.jpg": "K线图显示价格从72.00附近上升至78.00区间。图上可见约15根K线，整体呈上升趋势。左侧起始处有数根绿色K线，中段出现黑色K线与白色K线交替的盘整形态，价格在76.00至77.50之间波动。右侧最新K线在78.00处，图上有竖虚线标记该价格水平。右上角显示'The Market Lens'和'Trades_24h'文字标签。价格刻度从72.00至79.00，多数K线具有上下影线。"
+  },
+  "sources": [
+    {
+      "video_id": "caaS6_Q7O78",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.599,
+        371.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了日线范围内回闭与突破的分析步骤，通过多个K线序列展示机械性规则的应用与失败案例，清晰说明需融合价格交付阶段判断。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:39:44.497692Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线范围内回闭与反转延续的机械性分析\",\"school\":\"Price Action\",\"asset\":null,\"timeframe\":\"1D\",\"market_context\":\"博主通过日线K线序列演示价格在范围内的回闭（close back inside the range）与突破（close outside the range）的机械性判断方法，展示如何识别反转与延续信号。\",\"key_observation\":\"价格在范围内回闭通常预示下一日价格走低；突破范围外收盘则预示延续；但需结合价格交付阶段（phase of price delivery）判断，避免被困在盘整中。\",\"analysis_steps\":[\"Step 1: 识别初始范围——观察K线是否在前一根K线的范围内回闭（close back inside the range）。\",\"Step 2: 应用次日模型——范围内回闭后预期次日价格走低；范围外收盘则预期延续。\",\"Step 3: 观察扫盘与回闭——当价格扫出前一日高点或低点后回到范围内，判断为机械性看跌或看涨信号。\",\"Step 4: 识别失败突破——某些情况下机械性信号失败（如预期下跌但价格反弹），说明'没有什么总是100%有效'。\",\"Step 5: 融合价格交付阶段——在多根K线持续突破范围外收盘时，识别为新的价格交付阶段（new phase of price delivery），而非简单反转。\",\"Step 6: 处理冲突信号——当扫盘后回到范围内但未突破对侧高点时，需要等待更多K线确认方向，避免过早入场。\",\"Step 7: 监测强势收盘——强势收盘（strong closure）可作为看涨信号，即使未完全突破对侧高点。\"],\"outcome\":null,\"lessons\":\"机械性的范围内回闭与突破规则提供初步方向判断，但需融合价格交付阶段识别来区分反转与延续；单一K线信号可能失败，需等待多根K线确认；强势收盘质量与扫盘位置同样重要。\",\"primary_image_frame_id\":\"caaS6_Q7O78_f007\",\"supporting_image_frame_ids\":[\"caaS6_Q7O78_f008\",\"caaS6_Q7O78_f009\",\"caaS6_Q7O78_f010\",\"caaS6_Q7O78_f011\",\"caaS6_Q7O78_f012\",\"caaS6_Q7O78_f013\"],\"related_concepts\":[\"Close back inside the range\",\"Close outside the range\",\"Sweep\",\"Fair Value Gap\",\"Phase of price delivery\",\"Market Structure\",\"Swing High/Low\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了日线范围内回闭与突破的分析步骤，通过多个K线序列展示机械性规则的应用与失败案例，清晰说明需融合价格交付阶段判断。\"}",
+  "error": null
+}

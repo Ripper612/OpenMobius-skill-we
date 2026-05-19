@@ -1,0 +1,115 @@
+{
+  "card_id": "qdQYhePcvGE_case_008_usd多层级延续交易的完整案例",
+  "type": "case",
+  "title": "USD多层级延续交易：日线延续+小时图反转入场达成2R",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "smart_money_technique",
+    "displacement",
+    "time_frame_confluence",
+    "continuation_pattern",
+    "reversal_candle"
+  ],
+  "school": "ICT",
+  "asset": "USDJPY",
+  "timeframe": "1H (with Daily context)",
+  "market_context": "USD在日线上形成延续结构，价格扫过流动性后回升，在小时图上出现反转信号。博主在多个时间框架协调的基础上寻找高概率入场点。",
+  "key_observation": "博主识别到日线延续、中间时间框架延续和入场时间框架延续三层协调，通过Protected Swing作为关键参考点，在小时图反转处入场，最终达成2R目标。",
+  "analysis_steps": [
+    "Step 1: 观察日线图表，识别价格形成的延续结构（continuation from higher timeframe）",
+    "Step 2: 在中间时间框架（小时图）上确认延续信号，标注Protected Swing高点和低点",
+    "Step 3: 识别小时图上的扫荡（sweep）和向上回升（closure back above），但注意到价格扩张（expansion）降低了预期",
+    "Step 4: 由于扩张存在，要求在更低时间框架上看到反转信号，而非直接做反转交易",
+    "Step 5: 观察到Change in State of Delivery（CSD）和与CL的Smart Money Technique（SMT）分歧",
+    "Step 6: 等待低时间框架上出现相同的反转K线（reversal candle），在该处建立多头头寸",
+    "Step 7: 设定目标为2R，最终价格达成目标"
+  ],
+  "outcome": "交易成功达成2R目标。博主通过多时间框架协调（日线延续+小时图延续+分钟图反转）精确入场，展示了分层交易的有效性。",
+  "lessons": "多时间框架协调是高效交易的关键：在高时间框架确认大方向延续，中间框架验证结构，低时间框架精确入场。当出现扩张时应提高入场标准，要求更强的反转信号而非仅依赖结构。Protected Swing是关键参考点，CSD和SMT分歧提供额外确认。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_008_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_008_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_008_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_008_detail_3.jpg",
+    "cards/qdQYhePcvGE/images/case_008_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_008_primary.jpg": "图表显示 USD 资产的分钟级别 K 线图，时间范围从 00:30 至 11:00。价格范围在 21390.00 至 21535.00 之间。图上有三条水平线分别位于 21501.25、21429.75 和 21425.00。两个矩形区域分别标注在约 21460-21500 和 21440-21480 价格区间，其中一个用浅绿色填充，另一个用浅灰色填充。在 07:00 时刻处有一条竖虚线。K 线形",
+    "case_008_detail_1.jpg": "图表显示 USD 资产的分钟级 K 线图，价格范围从 21375.00 到 21510.00。图上有三条水平虚线分别位于 21477.50、21440.00 和 21423.25。左侧可见一根大幅下跌的 K 线，从约 21475 跌至 21375，带有长下影线。图中部区域有两个矩形标注框，分别覆盖约 21440 至 21460 和 21440 至 21465 的价格区间。右侧 K 线显示在 214",
+    "case_008_detail_2.jpg": "图表显示 USD 资产的 K 线图，时间范围从 03:00 至 09:00。价格范围在 21408.00 至 21496.00 之间。图上标注了 4 条水平线分别位于 21484.00、21456.00、21444.00 和 21429.50。此外还有 4 个矩形区域分别覆盖不同的价格区间：21420-21444、21440-21468、21460-21490 和 21440-21480。K 线由",
+    "case_008_detail_3.jpg": "GBP/USD 1 小时 K 线图。图上显示价格范围从 1.9200 到 2.0150。标注包括三条水平虚线分别位于 1.9791、1.9750 和 1.9450，以及一个标记为'CL1'的矩形框和一条向上的趋势线，框体和趋势线均位于 1.9450 至 1.9600 区间。图右下角显示'Fri (1H)'、'1h-15 Model'、'23:00:00'、'Bias: Bullish'、'SWI ",
+    "case_008_detail_4.jpg": "GBP/USD 1小时K线图。图上显示价格范围从1.9300至2.0248。可见三条水平线分别位于1.9950、1.9680和1.9450。图中标注有矩形框标记为C1、I1、C2等，框体位于1.9450至1.9680区间。K线呈现混合形态，包含绿色和黑色蜡烛，其中一根黑色蜡烛达到约1.9900高度后回落。图右下角显示时间戳16:00:00及\"Bias: Bullish\"文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_019",
+        "seg_020"
+      ],
+      "time_range": [
+        989.759,
+        1072.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三层时间框架的分析过程、具体价位、入场逻辑和交易结果，分析步骤清晰有序，图表标注明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:55.230354Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD多层级延续交易：日线延续+小时图反转入场达成2R\",\"school\":\"ICT\",\"asset\":\"USDJPY\",\"timeframe\":\"1H (with Daily context)\",\"market_context\":\"USD在日线上形成延续结构，价格扫过流动性后回升，在小时图上出现反转信号。博主在多个时间框架协调的基础上寻找高概率入场点。\",\"key_observation\":\"博主识别到日线延续、中间时间框架延续和入场时间框架延续三层协调，通过Protected Swing作为关键参考点，在小时图反转处入场，最终达成2R目标。\",\"analysis_steps\":[\"Step 1: 观察日线图表，识别价格形成的延续结构（continuation from higher timeframe）\",\"Step 2: 在中间时间框架（小时图）上确认延续信号，标注Protected Swing高点和低点\",\"Step 3: 识别小时图上的扫荡（sweep）和向上回升（closure back above），但注意到价格扩张（expansion）降低了预期\",\"Step 4: 由于扩张存在，要求在更低时间框架上看到反转信号，而非直接做反转交易\",\"Step 5: 观察到Change in State of Delivery（CSD）和与CL的Smart Money Technique（SMT）分歧\",\"Step 6: 等待低时间框架上出现相同的反转K线（reversal candle），在该处建立多头头寸\",\"Step 7: 设定目标为2R，最终价格达成目标\"],\"outcome\":\"交易成功达成2R目标。博主通过多时间框架协调（日线延续+小时图延续+分钟图反转）精确入场，展示了分层交易的有效性。\",\"lessons\":\"多时间框架协调是高效交易的关键：在高时间框架确认大方向延续，中间框架验证结构，低时间框架精确入场。当出现扩张时应提高入场标准，要求更强的反转信号而非仅依赖结构。Protected Swing是关键参考点，CSD和SMT分歧提供额外确认。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f035\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f033\",\"qdQYhePcvGE_f034\",\"qdQYhePcvGE_f036\",\"qdQYhePcvGE_f001\"],\"related_concepts\":[\"Protected Swing\",\"Order Block\",\"Fair Value Gap\",\"Change in State of Delivery\",\"Smart Money Technique\",\"Displacement\",\"Multi-timeframe Analysis\",\"Continuation\",\"Reversal Candle\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三层时间框架的分析过程、具体价位、入场逻辑和交易结果，分析步骤清晰有序，图表标注明确。\"}",
+  "error": null
+}

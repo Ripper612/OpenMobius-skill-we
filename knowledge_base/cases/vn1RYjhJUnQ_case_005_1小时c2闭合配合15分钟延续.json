@@ -1,0 +1,89 @@
+{
+  "card_id": "vn1RYjhJUnQ_case_005_1小时c2闭合配合15分钟延续",
+  "type": "case",
+  "title": "1小时C2闭合配合15分钟延续订单块确认",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Continuation Pattern",
+      "card_id": "continuation_signature",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF Confirmation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "market_structure_shift",
+    "continuation_signature",
+    "point_of_interest"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSD",
+  "timeframe": "1H / 15m",
+  "market_context": "价格在1小时级别形成C2闭合（约25740-25800区间），随后在15分钟级别确认CSD后，回测关键水平并形成延续订单块，预示向上延续。",
+  "key_observation": "博主强调1小时C2闭合必须在低时间框架（15分钟）确认，不是所有闭合都有效；需要观察价格如何开盘、交易至关键点、形成延续订单块，最后向上延续至左侧高点。",
+  "analysis_steps": [
+    "Step 1: 在1小时图表上识别C2闭合，确认价格穿过该水平的方式和收盘位置（约25740-25800）。",
+    "Step 2: 切换至15分钟图表验证1小时闭合是否得到确认，观察低时间框架的结构质量。",
+    "Step 3: 在15分钟图表上确认CSD（交付状态改变），预示短期趋势变化。",
+    "Step 4: 观察价格开盘后向下交易至关键点（Point of Interest），形成回测。",
+    "Step 5: 识别在回测区域形成的延续订单块（Continuation Order Block）。",
+    "Step 6: 确认价格随后向上交易，目标指向左侧高点（约25880-25920区间）。"
+  ],
+  "outcome": null,
+  "lessons": "高时间框架闭合（如1小时C2）的有效性必须通过低时间框架结构确认；不是所有闭合都值得交易，需要检查低时间框架是否形成高质量的延续订单块和CSD；价格在关键点回测后形成的订单块是延续交易的高概率入场区域。",
+  "primary_image": "cards/vn1RYjhJUnQ/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/vn1RYjhJUnQ/images/case_005_detail_1.jpg",
+    "cards/vn1RYjhJUnQ/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 15分钟K线图。图上显示价格范围约从25640到25980。标注包含三条水平线，分别位于25935、25800和25740处，其中25740处标记为'C2'。图上绘制了多个矩形区域，主要集中在25740至25980价格范围内。K线呈现绿色和黑色交替形态，整体呈现盘整特征。右下角显示'15m-4H Model'和'Bias: Neutral'文字标签。图右侧显示时间戳'03:45:00'。",
+    "case_005_detail_1.jpg": "USD 图表显示约 1 小时的 K 线数据。图上有三条水平线分别位于 25920、25880 和 25798 处。右侧标注有文字标签 C2，对应约 25860-25880 的价格区间。图上可见一个矩形框标记在 25880-25920 区间。K 线呈现整体盘整形态，中间部分有一根 K 线向下刺破至约 25760 后收回。右侧最新 K 线呈现绿色和黑色混合。图下方显示时间标记'Thu 04 Dec 2",
+    "case_005_detail_2.jpg": "图表显示 USD 资产的 K 线走势。可见价格范围从 25660 到 26060。图上有 4 条水平线分别位于 25920、25800、25740 和 25970 处。标注了 3 个矩形区域，其中两个分别标记为 C2（约 25740-25800 区间）和 C4（约 25880-25940 区间）。右侧显示绿色 K 线，左侧为黑色 K 线。图右下角显示 NGI1 (1ka)、15m-M Model、"
+  },
+  "sources": [
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "segment_ids": [
+        "seg_010"
+      ],
+      "time_range": [
+        470.4,
+        510.96
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了1小时到15分钟的多时间框架分析流程，清晰标注了C2闭合、关键价位、订单块位置，并明确说明了验证逻辑和延续预期。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:04.761365Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"1小时C2闭合配合15分钟延续订单块确认\",\"school\":\"ICT\",\"asset\":\"BTCUSD\",\"timeframe\":\"1H / 15m\",\"market_context\":\"价格在1小时级别形成C2闭合（约25740-25800区间），随后在15分钟级别确认CSD后，回测关键水平并形成延续订单块，预示向上延续。\",\"key_observation\":\"博主强调1小时C2闭合必须在低时间框架（15分钟）确认，不是所有闭合都有效；需要观察价格如何开盘、交易至关键点、形成延续订单块，最后向上延续至左侧高点。\",\"analysis_steps\":[\"Step 1: 在1小时图表上识别C2闭合，确认价格穿过该水平的方式和收盘位置（约25740-25800）。\",\"Step 2: 切换至15分钟图表验证1小时闭合是否得到确认，观察低时间框架的结构质量。\",\"Step 3: 在15分钟图表上确认CSD（交付状态改变），预示短期趋势变化。\",\"Step 4: 观察价格开盘后向下交易至关键点（Point of Interest），形成回测。\",\"Step 5: 识别在回测区域形成的延续订单块（Continuation Order Block）。\",\"Step 6: 确认价格随后向上交易，目标指向左侧高点（约25880-25920区间）。\"],\"outcome\":null,\"lessons\":\"高时间框架闭合（如1小时C2）的有效性必须通过低时间框架结构确认；不是所有闭合都值得交易，需要检查低时间框架是否形成高质量的延续订单块和CSD；价格在关键点回测后形成的订单块是延续交易的高概率入场区域。\",\"primary_image_frame_id\":\"vn1RYjhJUnQ_f017\",\"supporting_image_frame_ids\":[\"vn1RYjhJUnQ_f016\",\"vn1RYjhJUnQ_f018\"],\"related_concepts\":[\"Order Block\",\"CSD (Change in the state of delivery)\",\"Market Structure Shift\",\"Continuation Pattern\",\"HTF / LTF Confirmation\",\"Point of Interest\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了1小时到15分钟的多时间框架分析流程，清晰标注了C2闭合、关键价位、订单块位置，并明确说明了验证逻辑和延续预期。\"}",
+  "error": null
+}

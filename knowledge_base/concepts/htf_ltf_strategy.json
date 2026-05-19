@@ -1,0 +1,53 @@
+{
+  "card_id": "htf_ltf_strategy",
+  "type": "merged_concept",
+  "canonical_term": "HTF / LTF Strategy",
+  "aliases": [
+    "High Time Frame / Low Time Frame Strategy",
+    "多时间框架交易策略"
+  ],
+  "school": "Price Action",
+  "definition": "使用高时间框架（如日线、4小时）确定市场偏差和交易区间，然后在低时间框架（如15分钟、1分钟）上执行具体交易设置的多时间框架分析方法。",
+  "identification_rules": [
+    "在高时间框架（日线或4小时）上识别偏差（Deviation）和区间范围",
+    "在高时间框架上标记关键的摆动高点和低点，通常使用K线实体或影线",
+    "切换至低时间框架（15分钟或更低），在高时间框架确定的区间内寻找具体交易设置",
+    "低时间框架的交易设置应与高时间框架的偏差方向和区间范围保持一致"
+  ],
+  "trading_implication": "HTF/LTF策略通过多时间框架的协调提高交易概率。高时间框架提供交易的大方向和区间边界（偏差、范围），低时间框架用于精确入场和执行。例如在日线上识别偏离区间的价格后，在15分钟图上寻找具体的做空或做多设置，以获得更优的风险回报比。",
+  "common_mistakes": [
+    "在低时间框架上交易而忽视高时间框架的偏差和区间确认，导致逆势交易",
+    "混淆高时间框架的K线实体和影线的用途，未根据市场情况灵活选择"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HFfChGFHD44",
+      "original_card_id": "HFfChGFHD44_concept_htf_ltf_strategy",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        387.24,
+        508.139
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133383Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

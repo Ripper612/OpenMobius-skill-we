@@ -1,0 +1,378 @@
+{
+  "card_id": "retracement",
+  "type": "merged_concept",
+  "canonical_term": "Retracement",
+  "aliases": [
+    "V-shaped recovery",
+    "回撤",
+    "回测",
+    "回调",
+    "短期回调",
+    "缓慢回撤"
+  ],
+  "school": "Price Action",
+  "definition": "价格在主趋势扩张后的缓慢、浅层反向回调，不突破前期关键摆动高/低点，不改变整体趋势方向。通常进入公允价值缺口（FVG）或其他关键水平，形成失败摆动后反转，进入新一轮扩张，构成扩张-回撤-扩张循环中的中间阶段。",
+  "identification_rules": [
+    "发生在扩张（Expansion）之后，价格反向移动但幅度浅、速度慢，K线表现为低波动性运动",
+    "回撤不突破前期扩张的起点，不创出新的反向摆动高点或低点",
+    "回撤过程中在高点或低点形成失败摆动（Failure Swings）",
+    "回撤通常进入公允价值缺口（FVG）、订单块（Order Block）或其他关键支撑/阻力水平（PDA区域）",
+    "回撤完成后形成受保护摆动（Protected Swing），随后价格反转进入新的扩张",
+    "可通过日线收盘位置确认：收盘回到前期价格区间内部（而非突破下方）倾向于回撤而非反转",
+    "回撤后应出现V形恢复或新的看涨/看跌K线形态，收盘快速穿过前期反向K线收盘价",
+    "多时间框架验证：低时间框架的回撤方向应与高时间框架的扩张偏差（Bias）一致"
+  ],
+  "trading_implication": "回撤是趋势延续的关键信号，为交易者提供低风险入场机会。应等待回撤完成并确认新扩张信号（如受保护摆动形成、V形恢复、K线收盘穿越关键位）后再入场，以受保护摆动低/高点作为止损，目标指向前期高/低点。回撤的浅度和缓慢性质表明市场强度；若回撤过深或突破前期结构，则可能预示反转。可结合多时间框架提高入场精度。",
+  "common_mistakes": [
+    "将回撤与反转混淆：若价格突破前期关键摆动高/低点或形成新的反向结构，则为反转而非回撤",
+    "将快速、大幅度的反向移动误认为回撤，实际上这是反转（Reversal）",
+    "将缓慢浅层的回撤误判为盘整（Consolidation）：回撤应为单向反向移动，而非横盘整理",
+    "在回撤过程中过早入场，未等待受保护摆动形成或V形恢复完成就建立头寸",
+    "未确认失败摆动形成就仓促入场，导致被诱导（Inducement）",
+    "忽视回撤应进入FVG或PDA区域的规则，将任意价格区域的回调都视为交易机会",
+    "混淆\"扩展遇扩展\"（看跌信号）与\"扩展遇回撤\"（看涨延续）的区别",
+    "未等待日线完全收盘就判断回撤或反转，导致盘中波动造成误判",
+    "忽视多时间框架一致性：低时间框架的回撤必须与高时间框架的偏差对齐",
+    "在回撤中过早平仓，未能参与后续的趋势延续"
+  ],
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Price Distribution Array",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "V-shaped reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "4Gm8p6O7Ebs_case_004_纳指伦敦_纽约会话扩张分析",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "纳指1H伦敦-纽约会话扩张-回撤-扩张循环分析"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_001_nq1_5月27日至6月2日的扩张_整理_反转交易案例",
+      "video_id": "8BWkRGhuj1k",
+      "title": "NQ1! 5月27日-6月2日扩张-整理-反转交易案例"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_005_usd_5分钟图的低时间框架延续交易",
+      "video_id": "8BWkRGhuj1k",
+      "title": "USD 5分钟图低时间框架延续交易——扩张-回撤-扩张信号"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_001_nq1小时线回撤案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1小时线扩张-回撤-扩张循环分析"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_004_eurusd_5分钟多头交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "EURUSD 5分钟多头交易：盘整扫低后FVG回撤进场"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_005_nq1日线月度结构分析",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1日线月度结构中的回撤入场与反转信号"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_006_nq1_3分钟实时交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1 3分钟实时交易：扩张-回撤循环与受保护摆动追踪"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_001_eth_4小时日线对齐交易案例",
+      "video_id": "FgP2lc9nneM",
+      "title": "ETH 4小时日线对齐交易案例：多时间框架联动反转"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_003_xageur日线反转与目标位置确认",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGEUR日线反转确认与失败摆动堆积目标"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_001_btc_1小时图_理想的v形反转continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时图：理想的V形反转continuation"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_002_uni日线图_consolidation导致的continuat",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "UNI日线：consolidation后continuation失败的反向运动"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_007_多资产图表_consolidation范围的操纵与突破",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1H：Consolidation范围内的低点操纵与突破确认"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_009_xau_usd_1小时图_范围突破的continuation确认",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "XAU/USD 1H：范围突破后的continuation确认"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_004_spx500_1小时图_反转与回测流程",
+      "video_id": "VD4xb9VfMHA",
+      "title": "SPX500 1H：V形反转与摆动低点回测"
+    },
+    {
+      "card_id": "caaS6_Q7O78_case_004_5分钟线上的csd入场与快速获利",
+      "video_id": "caaS6_Q7O78",
+      "title": "5分钟线CSD识别V形反转，2倍风险回报快速获利"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_002_第二个案例_下跌后上升的标准差投影与pd数组对齐",
+      "video_id": "kTWXpAo1uE8",
+      "title": "NQ1! 下跌后反弹：标准差投影与Order Block及Equal Highs对齐"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_005_低时间框架反转与高时间框架回撤的区别",
+      "video_id": "sgAnVR6RSDg",
+      "title": "5分钟结构转变实为小时图FVG回撤"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_004_usd_4小时线上的k线2收盘与延续",
+      "video_id": "tyoxl1l-6iI",
+      "title": "USD 4小时线K线2收盘形态识别与下钻交易"
+    },
+    {
+      "card_id": "ynFA6E3qHj0_case_002_btc_usdt_1分钟图_多次结构测试与反向运动",
+      "video_id": "ynFA6E3qHj0",
+      "title": "BTC/USDT 1分钟：多次结构测试与反向运动分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_retracement",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_014",
+        "seg_015",
+        "seg_021",
+        "seg_022",
+        "seg_023",
+        "seg_025",
+        "seg_030",
+        "seg_031"
+      ],
+      "time_range": [
+        11.12,
+        1653.279
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_retracement",
+      "segment_ids": [
+        "seg_006",
+        "seg_009",
+        "seg_015"
+      ],
+      "time_range": [
+        334.72,
+        766.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_retracement",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        11.12,
+        325.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_retracement",
+      "segment_ids": [
+        "seg_009",
+        "seg_011"
+      ],
+      "time_range": [
+        401.84000000000003,
+        600.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "original_card_id": "PQiRV0JMhIQ_concept_retracement",
+      "segment_ids": [
+        "seg_004",
+        "seg_019",
+        "seg_029"
+      ],
+      "time_range": [
+        236.239,
+        1608.159
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_retracement",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_011",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        11.04,
+        1072.28
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_retracement",
+      "segment_ids": [
+        "seg_003",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        183.36,
+        567.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "iEaMbuFZb24",
+      "original_card_id": "iEaMbuFZb24_concept_retracement",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        907.04,
+        1085.76
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 8,
+    "source_videos": 8,
+    "high_confidence_sources": 8,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:49.228078Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "6张Price Action + 2张ICT，按多数选Price Action。ICT卡与Price Action卡在核心特征（缓慢浅层、FVG、失败摆动）上高度一致，无实质冲突。",
+  "error": null
+}

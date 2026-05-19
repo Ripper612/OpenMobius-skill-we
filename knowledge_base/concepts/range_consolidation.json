@@ -1,0 +1,152 @@
+{
+  "card_id": "range_consolidation",
+  "type": "merged_concept",
+  "canonical_term": "Range Consolidation",
+  "aliases": [
+    "Consolidation range",
+    "Range-bound"
+  ],
+  "school": "Price Action",
+  "definition": "价格在明确的高点（Range High）和低点（Range Low）之间反复波动、缺乏方向性的横盘整理形态。K线绿黑相间、波幅较小，价格多次触及边界但未能有效突破。突破任意一侧边界时整理结束，产生方向性交易机会。",
+  "identification_rules": [
+    "在图表上标记出清晰的范围高点（Range High / Consolidation High）和范围低点（Range Low / Consolidation Low）",
+    "观察价格在两个边界之间形成多根K线，绿黑相间波动，缺乏强势方向性突破",
+    "确认价格多次触及范围边界但未能持续突破，而是反复回测",
+    "范围内K线通常较小，显示市场缺乏方向性动能",
+    "在低时间框架（如1小时、30分钟）上表现更明显和频繁",
+    "当价格收盘突破范围高点或低点时，标记为breakout信号，整理阶段结束"
+  ],
+  "trading_implication": "Range Consolidation常出现于扩张（Expansion）行情之后，用于识别市场整理阶段。交易者可在范围内寻找支撑/阻力反弹机会，或等待价格突破边界以确认趋势方向。范围内扫除低点后形成反转信号时，可结合高时间框架偏向进行低时间框架反转交易。需警惕范围内的虚假突破（Inducement）。结合前期摆动点（Swing Points）可增强判断可靠性。",
+  "common_mistakes": [
+    "在整理期间频繁交易，而非等待突破确认——整理阶段噪音较多，失败率高",
+    "未等待价格收盘确认突破，在触及范围边界时过早入场",
+    "将范围高点的突破误认为Change in State of Delivery，忽视需要一系列K线确认的要求",
+    "过早进场，未等待shallow retracement和protected swing形成后的continuation确认",
+    "假设范围必然会被突破，忽视价格可能继续在范围内波动的可能性",
+    "混淆大consolidation与内部小consolidation，导致交易信号层级混乱",
+    "混淆范围整理与真正的趋势反转，导致交易方向判断错误"
+  ],
+  "related_concepts": [
+    {
+      "term": "Previous Candle High/Low",
+      "card_id": "previous_candle_high_low",
+      "exists": true
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Next Candle Model",
+      "card_id": "next_day_model",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "LKNQDAdId4s_case_006_黄金盘整中的wick被不尊重案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "黄金盘整中wick被不尊重导致扫低案例"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_009_xau_usd_1小时图_范围突破的continuation确认",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "XAU/USD 1H：范围突破后的continuation确认"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_003_btc多时间框架延续交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "BTC小时线摆动点内多时间框架延续交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_range_consolidation",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        364.259,
+        722.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_consolidation_range",
+      "segment_ids": [
+        "seg_014",
+        "seg_027",
+        "seg_032"
+      ],
+      "time_range": [
+        787.68,
+        1682.08
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:59:01.654733Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

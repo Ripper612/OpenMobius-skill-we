@@ -1,0 +1,115 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_009_xau_usd_1小时图_范围突破的continuation确认",
+  "type": "case",
+  "title": "XAU/USD 1H：范围突破后的continuation确认",
+  "related_concepts": [
+    {
+      "term": "Consolidation Range",
+      "card_id": "range_consolidation",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Breakout Confirmation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "V-shaped Recovery",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "range_consolidation",
+    "continuation_pattern",
+    "retracement",
+    "order_block",
+    "fair_value_gap",
+    "market_structure",
+    "swing_formation",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "XAU/USD",
+  "timeframe": "1H",
+  "market_context": "黄金在1小时图上形成了一个明确的consolidation范围。价格突破范围上沿后，博主观察价格是否能形成真实的continuation（延续），还是会被拉回范围内进行操纵。",
+  "key_observation": "价格突破范围高点后，博主等待观察下一根K线的表现。如果价格回到范围内，说明这是操纵；如果形成V形恢复并继续上升，则确认了真实的突破continuation。",
+  "analysis_steps": [
+    "Step 1: 识别consolidation范围的形成——价格在一个明确的矩形区间内震荡",
+    "Step 2: 观察价格突破范围上沿的初始动作",
+    "Step 3: 等待下一根K线确认——判断是否会回到范围内（操纵）还是继续上升（continuation）",
+    "Step 4: 识别V形恢复形态——价格下探后快速反弹，确认买方力量",
+    "Step 5: 确认价格收盘在范围上方，同时突破短期高点（scenario two）",
+    "Step 6: 选择交易策略——要么立即入场（高风险），要么等待进一步的V形恢复确认（低风险）"
+  ],
+  "outcome": "价格确实形成了continuation，通过V形恢复验证了突破的真实性。博主通过等待额外的价格行动而避免了一次潜在的损失。",
+  "lessons": "在突破consolidation范围时，不要急于入场。等待观察下一根K线或形成V形恢复，可以区分真实突破与操纵。continuation确认是验证突破有效性的关键——价格应该形成新的摆动高点，而不是回到范围内。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_009_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_009_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_009_detail_2.jpg",
+    "cards/PQiRV0JMhIQ/images/case_009_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_009_primary.jpg": "图表显示一份烛线图，价格范围约从5800至8700。图上有一条水平线位于8200附近，以及一个矩形框标注覆盖约6800至8200的价格区间。K线序列显示从左侧高点向下运动至中部低点约5800，随后向上反弹。多根K线呈现长下影线特征。图右侧有一根较长的黑色K线。除矩形框和水平线外，未见其他标注或指标。",
+    "case_009_detail_1.jpg": "图表显示一个烛线图，价格范围从约2600到8700。图上绘制了一个矩形标注框，位置大约在3200至5200价格区间。烛线由绿色和黑色混合组成，分布在整个可见范围内。各根烛线具有不同长度的影线。图右侧显示时间刻度标签，但资产代码和时间框架在当前视图中不清晰可见。",
+    "case_009_detail_2.jpg": "多资产并行显示的烛线图表。图上展示了从左至右的完整价格走势，价格范围约在23100至26375之间。初期呈上升趋势，绿色烛线主导，随后出现大幅绿色烛线与黑色烛线的交替。中段形成一系列绿黑交替的烛线，范围收窄在24500至25500区间。后续出现明显下跌，黑色烛线主导，价格下探至23500附近。最后阶段呈恢复态势，绿色烛线逐步上升，伴随多根带有上下影线的烛线，表现出在各价格水平的拒绝特征。整体呈现上",
+    "case_009_detail_3.jpg": "BTC 1 小时 K 线图。图上显示从左下至右上的整体价格走势，初期呈上升趋势，绿色 K 线占主导，高点逐步上升至约 26375。中段出现黑色 K 线主导的下跌阶段，价格回落至约 24200 附近。右侧显示绿色 K 线恢复上升，价格回升至约 25500 水平。图上有一条水平线标注在约 25500 价格位置。可见价格范围从 24200 到 26375，共约 40 根 K 线。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_017"
+      ],
+      "time_range": [
+        893.68,
+        971.279
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从范围识别、突破观察、continuation确认到交易决策的全过程，关键价位和分析步骤清晰可辨。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:54.624966Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"XAU/USD 1H：范围突破后的continuation确认\",\"school\":\"ICT\",\"asset\":\"XAU/USD\",\"timeframe\":\"1H\",\"market_context\":\"黄金在1小时图上形成了一个明确的consolidation范围。价格突破范围上沿后，博主观察价格是否能形成真实的continuation（延续），还是会被拉回范围内进行操纵。\",\"key_observation\":\"价格突破范围高点后，博主等待观察下一根K线的表现。如果价格回到范围内，说明这是操纵；如果形成V形恢复并继续上升，则确认了真实的突破continuation。\",\"analysis_steps\":[\"Step 1: 识别consolidation范围的形成——价格在一个明确的矩形区间内震荡\",\"Step 2: 观察价格突破范围上沿的初始动作\",\"Step 3: 等待下一根K线确认——判断是否会回到范围内（操纵）还是继续上升（continuation）\",\"Step 4: 识别V形恢复形态——价格下探后快速反弹，确认买方力量\",\"Step 5: 确认价格收盘在范围上方，同时突破短期高点（scenario two）\",\"Step 6: 选择交易策略——要么立即入场（高风险），要么等待进一步的V形恢复确认（低风险）\"],\"outcome\":\"价格确实形成了continuation，通过V形恢复验证了突破的真实性。博主通过等待额外的价格行动而避免了一次潜在的损失。\",\"lessons\":\"在突破consolidation范围时，不要急于入场。等待观察下一根K线或形成V形恢复，可以区分真实突破与操纵。continuation确认是验证突破有效性的关键——价格应该形成新的摆动高点，而不是回到范围内。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f031\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f001\",\"PQiRV0JMhIQ_f032\",\"PQiRV0JMhIQ_f033\"],\"related_concepts\":[\"Consolidation Range\",\"Continuation\",\"Breakout Confirmation\",\"V-shaped Recovery\",\"Order Block\",\"Fair Value Gap\",\"Market Structure\",\"Swing High\",\"Inducement\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从范围识别、突破观察、continuation确认到交易决策的全过程，关键价位和分析步骤清晰可辨。\"}",
+  "error": null
+}

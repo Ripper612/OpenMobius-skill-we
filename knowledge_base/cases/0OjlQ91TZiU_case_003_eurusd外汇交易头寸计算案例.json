@@ -1,0 +1,75 @@
+{
+  "card_id": "0OjlQ91TZiU_case_003_eurusd外汇交易头寸计算案例",
+  "type": "case",
+  "title": "100K账户1%风险下EURUSD头寸计算",
+  "related_concepts": [
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Position Sizing",
+      "card_id": "position_sizing",
+      "exists": true
+    },
+    {
+      "term": "Risk-Reward Ratio",
+      "card_id": "risk_to_reward_ratio_risk_to_",
+      "exists": true
+    },
+    {
+      "term": "Account Risk Percentage",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "position_sizing",
+    "risk_to_reward_ratio_risk_to_"
+  ],
+  "school": "Risk Management",
+  "asset": "EURUSD",
+  "timeframe": "5M",
+  "market_context": "博主演示在100K美元账户、1%风险限制、1000手数设置下，使用TradingView风险回报工具自动计算EURUSD交易的正确头寸规模。日期为2023年12月18日。",
+  "key_observation": "通过TradingView的风险回报工具，输入账户规模、风险百分比、入场价、止损点数，系统自动输出正确的手数，确保风险控制在预设范围内。",
+  "analysis_steps": [
+    "Step 1: 设定账户参数——100K账户、1%风险、1000手数作为基准",
+    "Step 2: 在TradingView风险回报工具中输入Short Position的关键信息：入场价1.09246、止损点数0.00067",
+    "Step 3: 工具自动计算出对应的手数（约6.7手），确保风险金额为99000美元（1%风险）",
+    "Step 4: 验证止损和获利目标的标注——Stop显示0.00067、Quantity 6.7、Amount 99000",
+    "Step 5: 演示该模板可保存为100K账户的标准模板，便于后续交易复用"
+  ],
+  "outcome": "系统成功输出EURUSD交易的正确头寸规模：在1%风险、0.00067点止损的条件下，需要6.7手（约6700单位）来控制风险在1000美元以内。",
+  "lessons": "使用TradingView风险回报工具可自动化头寸计算，避免手工计算错误。关键是正确输入账户规模、风险百分比和止损点数，工具会精确输出符合风险管理要求的手数。",
+  "primary_image": "cards/0OjlQ91TZiU/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/0OjlQ91TZiU/images/case_003_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图上为一张带有弹出对话框的 K 线图，对话框标题为 Short Position，包含 Inputs、Style、Visibility 三个选项卡，当前显示 Inputs 页。对话框内可见以下数值字段：Account size 100000 USD、Lot size 1000、Risk 1.00%、Entry price 1.09246；PROFIT LEVEL 区域 Ticks 125、Pric",
+    "case_003_detail_1.jpg": "EURUSD 5 分钟 K 线图，日期标注为 18/12/2023，图上水印显示 TTrader_edu。图中央有一个浅蓝色矩形区域，覆盖约 09:55 至 11:00 时段，价格范围约 1.09121 至 1.09300。矩形内含一条从左上至右下的虚线斜线。矩形上方标注文字显示止损信息：Stop 0.00067，数量 6.7，金额 99000；矩形中部标注 Closed P&L 0.00125、"
+  },
+  "sources": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        369.639,
+        559.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了完整的头寸计算流程：账户规模、风险百分比、入场价、止损点数均从图表和对话框中明确读取，输出结果（6.7手）也清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:07:03.361054Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"100K账户1%风险下EURUSD头寸计算\",\"school\":\"Risk Management\",\"asset\":\"EURUSD\",\"timeframe\":\"5M\",\"market_context\":\"博主演示在100K美元账户、1%风险限制、1000手数设置下，使用TradingView风险回报工具自动计算EURUSD交易的正确头寸规模。日期为2023年12月18日。\",\"key_observation\":\"通过TradingView的风险回报工具，输入账户规模、风险百分比、入场价、止损点数，系统自动输出正确的手数，确保风险控制在预设范围内。\",\"analysis_steps\":[\"Step 1: 设定账户参数——100K账户、1%风险、1000手数作为基准\",\"Step 2: 在TradingView风险回报工具中输入Short Position的关键信息：入场价1.09246、止损点数0.00067\",\"Step 3: 工具自动计算出对应的手数（约6.7手），确保风险金额为99000美元（1%风险）\",\"Step 4: 验证止损和获利目标的标注——Stop显示0.00067、Quantity 6.7、Amount 99000\",\"Step 5: 演示该模板可保存为100K账户的标准模板，便于后续交易复用\"],\"outcome\":\"系统成功输出EURUSD交易的正确头寸规模：在1%风险、0.00067点止损的条件下，需要6.7手（约6700单位）来控制风险在1000美元以内。\",\"lessons\":\"使用TradingView风险回报工具可自动化头寸计算，避免手工计算错误。关键是正确输入账户规模、风险百分比和止损点数，工具会精确输出符合风险管理要求的手数。\",\"primary_image_frame_id\":\"0OjlQ91TZiU_f016\",\"supporting_image_frame_ids\":[\"0OjlQ91TZiU_f017\"],\"related_concepts\":[\"Risk Management\",\"Position Sizing\",\"Risk-Reward Ratio\",\"Account Risk Percentage\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了完整的头寸计算流程：账户规模、风险百分比、入场价、止损点数均从图表和对话框中明确读取，输出结果（6.7手）也清晰可见。\"}",
+  "error": null
+}

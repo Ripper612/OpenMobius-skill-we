@@ -1,0 +1,112 @@
+{
+  "card_id": "-KKuZb5Z5aU_case_002_usdcad小时线延续交易案例",
+  "type": "case",
+  "title": "USDCAD小时线看跌延续交易——从C2收盘到突破前日低点",
+  "related_concepts": [
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Closure",
+      "card_id": "candle_3_closure",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Previous Day Low",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_2_closure_c2",
+    "candle_3_closure",
+    "fair_value_gap_fvg",
+    "equilibrium_eq",
+    "protected_high_low",
+    "smart_money_technique_smt",
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob"
+  ],
+  "school": "ICT",
+  "asset": "USDCAD",
+  "timeframe": "1H",
+  "market_context": "USDCAD形成看跌的二号收盘（Candle 2 Closure），博主在小时线上等待摆动形成以确认延续信号，最终形成三号收盘（Candle 3 Closure）确认新的受保护摆动，价格随后下行突破前一日低点。",
+  "key_observation": "博主识别出初始的看跌C2收盘后，不急于入场，而是等待小时线形成新的受保护摆动（Protected Swing）和三号收盘确认，以此作为看跌延续的高概率信号。",
+  "analysis_steps": [
+    "Step 1: 标记出EQ（均衡点）和前一日低点作为关键参考水平，为看跌延续交易做准备。",
+    "Step 2: 识别EQ下方的两个FVG（公允价值缺口），作为潜在的兴趣点。",
+    "Step 3: 等待小时线形成摆动而非猜测，观察价格是否尊重这些FVG。",
+    "Step 4: 确认第一个FVG未被尊重，将其移除，继续观察。",
+    "Step 5: 识别三号收盘（Candle 3 Closure）的形成，确认新的受保护摆动已建立。",
+    "Step 6: 标记HTF（高时间框架）的灯芯已形成，预期价格交易进入前一日低点或更低。",
+    "Step 7: 观察SMT（Smart Money Technique）信号和交付状态改变（CSD），确认看跌延续。",
+    "Step 8: 确认价格突破前一日低点，完成第一目标，并观察进一步的下行扩展。"
+  ],
+  "outcome": "价格成功突破前一日低点（约1.37850），形成第一目标的突破，并继续下行扩展至约1.37600附近。",
+  "lessons": "在ICT框架中，等待完整的摆动结构（特别是三号收盘）比急于入场更重要；结合EQ、前日低点和FVG等多个参考点可提高看跌延续交易的概率；SMT和CSD信号的出现进一步确认了趋势延续的有效性。",
+  "primary_image": "cards/-KKuZb5Z5aU/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/-KKuZb5Z5aU/images/case_002_detail_1.jpg",
+    "cards/-KKuZb5Z5aU/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USDCAD 1 小时 K 线图，图右下角标注 1H-1D Model、Bias: Neutral、04:00:00 及 SMT(Auto): DXY。图上可见两处文字标签 C2，分别位于约 1.38650 和 1.37950 附近。一条标注 DXY 的上升趋势线从图中部延伸至约 1.38700。图上有绿色、橙色及灰色三处矩形框标注，分别覆盖约 1.38250–1.38550、1.38150–1.",
+    "case_002_detail_1.jpg": "USD/CAD 1 小时 K 线图，来自 TTrades.com 平台。图上可见价格范围约从 1.37400 到 1.38900。左侧 K 线在 1.38400 至 1.38600 区间内呈多根小实体排列。图中部出现一根大实体阴线，从约 1.38600 下行至约 1.37900。其后有一组小 K 线聚集于 1.37900 至 1.38050 附近，图上在该区域绘有一个矩形框，范围约为 1.3785",
+    "case_002_detail_2.jpg": "USDCAD 1 小时 K 线图，来自 TTrades.com。图上可见价格范围约从 1.37450 至 1.38900。图中有一个浅黄色矩形框，位于约 1.38150 至 1.38250 区间，横跨数根 K 线。图上有两条水平线：一条虚线位于约 1.38250，另一条实线位于约 1.37850，均向右延伸。K 线序列在日期 9 至 10 区间呈下行排列，从约 1.38650 下行至约 1.378"
+  },
+  "sources": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        283.92,
+        389.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从初始观察到最终结果的全过程，关键价位、时间框架、分析步骤均清晰可读，图表标注详细，结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:04:09.174727Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USDCAD小时线看跌延续交易——从C2收盘到突破前日低点\",\"school\":\"ICT\",\"asset\":\"USDCAD\",\"timeframe\":\"1H\",\"market_context\":\"USDCAD形成看跌的二号收盘（Candle 2 Closure），博主在小时线上等待摆动形成以确认延续信号，最终形成三号收盘（Candle 3 Closure）确认新的受保护摆动，价格随后下行突破前一日低点。\",\"key_observation\":\"博主识别出初始的看跌C2收盘后，不急于入场，而是等待小时线形成新的受保护摆动（Protected Swing）和三号收盘确认，以此作为看跌延续的高概率信号。\",\"analysis_steps\":[\"Step 1: 标记出EQ（均衡点）和前一日低点作为关键参考水平，为看跌延续交易做准备。\",\"Step 2: 识别EQ下方的两个FVG（公允价值缺口），作为潜在的兴趣点。\",\"Step 3: 等待小时线形成摆动而非猜测，观察价格是否尊重这些FVG。\",\"Step 4: 确认第一个FVG未被尊重，将其移除，继续观察。\",\"Step 5: 识别三号收盘（Candle 3 Closure）的形成，确认新的受保护摆动已建立。\",\"Step 6: 标记HTF（高时间框架）的灯芯已形成，预期价格交易进入前一日低点或更低。\",\"Step 7: 观察SMT（Smart Money Technique）信号和交付状态改变（CSD），确认看跌延续。\",\"Step 8: 确认价格突破前一日低点，完成第一目标，并观察进一步的下行扩展。\"],\"outcome\":\"价格成功突破前一日低点（约1.37850），形成第一目标的突破，并继续下行扩展至约1.37600附近。\",\"lessons\":\"在ICT框架中，等待完整的摆动结构（特别是三号收盘）比急于入场更重要；结合EQ、前日低点和FVG等多个参考点可提高看跌延续交易的概率；SMT和CSD信号的出现进一步确认了趋势延续的有效性。\",\"primary_image_frame_id\":\"-KKuZb5Z5aU_f013\",\"supporting_image_frame_ids\":[\"-KKuZb5Z5aU_f011\",\"-KKuZb5Z5aU_f012\"],\"related_concepts\":[\"Candle 2 Closure\",\"Candle 3 Closure\",\"Fair Value Gap (FVG)\",\"Equilibrium (EQ)\",\"Protected Swing\",\"Smart Money Technique (SMT)\",\"Change in the state of delivery (CSD)\",\"Order Block (OB)\",\"Previous Day Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从初始观察到最终结果的全过程，关键价位、时间框架、分析步骤均清晰可读，图表标注详细，结果明确。\"}",
+  "error": null
+}

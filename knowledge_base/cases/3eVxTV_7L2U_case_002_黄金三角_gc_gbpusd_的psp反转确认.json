@@ -1,0 +1,102 @@
+{
+  "card_id": "3eVxTV_7L2U_case_002_黄金三角_gc_gbpusd_的psp反转确认",
+  "type": "case",
+  "title": "黄金三角SMT与PSP反转确认交易",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Pullback Structure Pattern (PSP)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Range High / Range Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "market_structure_shift_mss",
+    "liquidity",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "GC / GBPUSD",
+  "timeframe": "1H / 4H / 30M",
+  "market_context": "GC和GBPUSD均在1小时图表上触及范围高点，但未形成Smart Money Technique (SMT)分歧。通过PSP (Pullback Structure Pattern) 确认反转信号，交易目标指向范围对侧。",
+  "key_observation": "两个资产价格同时触及范围高点但未创造SMT，PSP的形成确认了反转，随后价格完美交易至范围对侧（4小时外部范围）。",
+  "analysis_steps": [
+    "Step 1: 在1小时图表上观察GC和GBPUSD均交易至Range High，但两者未形成SMT分歧。",
+    "Step 2: 识别PSP (Pullback Structure Pattern) 的形成，该模式确认反转信号。",
+    "Step 3: 在4小时时间框架上确认第一阶段SMT（基于gap）。",
+    "Step 4: 下降至30分钟时间框架，观察第二阶段SMT确认更高时间框架的SMT。",
+    "Step 5: 第二阶段SMT形成后，确认反转并锁定交易目标为4小时图表的外部范围对侧。",
+    "Step 6: 观察530蜡烛线的PSP形成：左侧面板收盘看跌，右侧面板收盘看涨，形成continuation PSP。",
+    "Step 7: 价格完美交易进入目标范围，寻找continuation PSPs形成以确认持续。"
+  ],
+  "outcome": "价格完美交易进入范围对侧目标区域，continuation PSPs随后形成，确认交易有效性。",
+  "lessons": "多资产协调分析（Gold Triad）增强信号可靠性；PSP确认反转比单一SMT更强有力；跨时间框架验证（4H→30M）提高交易概率；范围交易中未形成SMT的同步触顶是反转的关键信号。",
+  "primary_image": "cards/3eVxTV_7L2U/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/3eVxTV_7L2U/images/case_002_detail_1.jpg",
+    "cards/3eVxTV_7L2U/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图为双面板布局，左侧为 Gold Futures (Dec 2025) 1 小时 K 线图（COMEX），右侧为 Gold/British Pound 1 小时 K 线图（FOREX.com）。两个面板均标注有 'Range High' 与 'Range Low' 两条水平矩形区域。左侧面板价格轴范围约 3840 至 3980，当前价格标签显示 3863.8；右侧面板价格轴范围约 2840 至 2",
+    "case_002_detail_1.jpg": "图上为双面板布局，左侧为 GBPUSD 4 小时 K 线图（OANDA），右侧为 EURUSD 4 小时 K 线图（OANDA），均处于 Replay 模式。左侧图价格刻度范围约 1.34000 至 1.35900，右侧价格刻度范围约 1.15800 至 1.17000。左侧图右轴当前价标签显示 1.34992，十字线价格标签显示 1.35246。左侧图中可见一个矩形标注，位于约 1.34900 ",
+    "case_002_detail_2.jpg": "图为双面板布局，左侧为 GBPUSD 30 分钟 K 线图，右侧为 EURUSD 30 分钟 K 线图，均来自 OANDA 数据源，时间轴对齐于 2025 年 8 月 28 日 07:00。左侧图上绘有一条从左下向右上延伸的趋势线，以及一个位于 1.35150 至 1.35250 区间的矩形标注；当前价格标签显示为 1.35146。右侧图上绘有一条类似方向的上升趋势线，当前价格标签显示为 1.16"
+  },
+  "sources": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "segment_ids": [
+        "seg_015"
+      ],
+      "time_range": [
+        961.6,
+        1031.679
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了GC和GBPUSD的1H图表、4H和30M的SMT序列、PSP确认过程，以及最终价格走向目标的结果。资产代码、时间框架、关键结构均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:21:57.163110Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金三角SMT与PSP反转确认交易\",\"school\":\"ICT\",\"asset\":\"GC / GBPUSD\",\"timeframe\":\"1H / 4H / 30M\",\"market_context\":\"GC和GBPUSD均在1小时图表上触及范围高点，但未形成Smart Money Technique (SMT)分歧。通过PSP (Pullback Structure Pattern) 确认反转信号，交易目标指向范围对侧。\",\"key_observation\":\"两个资产价格同时触及范围高点但未创造SMT，PSP的形成确认了反转，随后价格完美交易至范围对侧（4小时外部范围）。\",\"analysis_steps\":[\"Step 1: 在1小时图表上观察GC和GBPUSD均交易至Range High，但两者未形成SMT分歧。\",\"Step 2: 识别PSP (Pullback Structure Pattern) 的形成，该模式确认反转信号。\",\"Step 3: 在4小时时间框架上确认第一阶段SMT（基于gap）。\",\"Step 4: 下降至30分钟时间框架，观察第二阶段SMT确认更高时间框架的SMT。\",\"Step 5: 第二阶段SMT形成后，确认反转并锁定交易目标为4小时图表的外部范围对侧。\",\"Step 6: 观察530蜡烛线的PSP形成：左侧面板收盘看跌，右侧面板收盘看涨，形成continuation PSP。\",\"Step 7: 价格完美交易进入目标范围，寻找continuation PSPs形成以确认持续。\"],\"outcome\":\"价格完美交易进入范围对侧目标区域，continuation PSPs随后形成，确认交易有效性。\",\"lessons\":\"多资产协调分析（Gold Triad）增强信号可靠性；PSP确认反转比单一SMT更强有力；跨时间框架验证（4H→30M）提高交易概率；范围交易中未形成SMT的同步触顶是反转的关键信号。\",\"primary_image_frame_id\":\"3eVxTV_7L2U_f033\",\"supporting_image_frame_ids\":[\"3eVxTV_7L2U_f001\",\"3eVxTV_7L2U_f034\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Pullback Structure Pattern (PSP)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Market Structure Shift (MSS)\",\"Liquidity\",\"Range High / Range Low\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了GC和GBPUSD的1H图表、4H和30M的SMT序列、PSP确认过程，以及最终价格走向目标的结果。资产代码、时间框架、关键结构均清晰可读。\"}",
+  "error": null
+}

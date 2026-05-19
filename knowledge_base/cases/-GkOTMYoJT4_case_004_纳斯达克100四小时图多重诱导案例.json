@@ -1,0 +1,101 @@
+{
+  "card_id": "-GkOTMYoJT4_case_004_纳斯达克100四小时图多重诱导案例",
+  "type": "case",
+  "title": "纳斯达克100四小时图多重诱导案例",
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "inducement",
+    "fair_value_gap",
+    "displacement",
+    "order_block",
+    "liquidity",
+    "market_structure_shift",
+    "buyside_sellside_liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "4H",
+  "market_context": "纳斯达克100 E-mini期货在四小时图上展现出典型的诱导移动模式。价格先从摆动高点约12600下行至低点约11960，随后反弹回到区间，再次扫除低点，最终向买方流动性上升。",
+  "key_observation": "博主识别出两次连续的诱导移动：价格扫除旧低点后回到区间形成位移移动和公允价值缺口，随后再次扫除低点但未能创出新低，最终向上突破至买方流动性区域。",
+  "analysis_steps": [
+    "Step 1: 识别摆动高点约12600和初始低点约11960的市场结构",
+    "Step 2: 观察价格从低点反弹并回到区间，形成第一次位移移动（Displacement）",
+    "Step 3: 标记第一个公允价值缺口（FVG）在反弹过程中形成",
+    "Step 4: 观察价格再次下行至新低点，但未能有效突破前期低点",
+    "Step 5: 注意到第二个公允价值缺口形成，价格收盘强劲",
+    "Step 6: 确认价格挣扎向下，预期向上回归至买方流动性",
+    "Step 7: 验证价格最终向上突破至买方流动性区域，完成诱导模式"
+  ],
+  "outcome": "价格成功向上突破至买方流动性区域，完成两次诱导移动的模式，确认了在趋势市场中通过扫除低点获得入场机会的有效性。",
+  "lessons": "在趋势市场中，机构通过多次扫除摆动低点来诱导交易者止损，然后向相反方向运行。关键是观察价格收盘是否尊重旧低点，以及是否形成FVG和位移移动，这些都是反向运行的信号。",
+  "primary_image": "cards/-GkOTMYoJT4/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/-GkOTMYoJT4/images/case_004_detail_1.jpg",
+    "cards/-GkOTMYoJT4/images/case_004_detail_2.jpg",
+    "cards/-GkOTMYoJT4/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）4 小时 K 线图，来自 CME_MINI，当前价格标签显示 12649.75。图上可见价格范围约从 11760 至 12820。图上有两个矩形标注区域：一个位于约 12160 至 12220 价格区间（约 3 月 15 日附近），另一个位于约 12620 至 12680 价格区间（图右上方）。图上另有两条水平线，分别位于约 1",
+    "case_004_detail_1.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）4 小时 K 线图，来自 CME_MINI。图右侧价格刻度显示可见范围约从 11760 至 12820。图上无额外水平线、趋势线或矩形标注。右侧当前价标签显示 12333.25，另有高亮价格 12649.75 可见。图中左侧区域存在一个摆动高点约在 12600 附近，随后 K 线下行至约 11960 低点，之后右侧出现数根连续绿",
+    "case_004_detail_2.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）4 小时 K 线图，可见价格范围约从 11840 至 12960。图上绘制有两个矩形标注区域：一个位于约 12340 至 12480 区间，另一个位于约 12580 至 12720 区间，两者均以浅色填充显示。图右侧价格轴标注三个高亮价格标签：12876.25、12649.75 及 12186.75。K 线序列中，约 13 Ma",
+    "case_004_detail_3.jpg": "图表为 NASDAQ 100 E-mini Futures 1 分钟 K 线图，时间轴覆盖 14:10 至 16:00 附近，日期标注为 Fri 12 May '23。右侧价格轴可见范围约 13321.75 至 13382.00，当前价格标签显示 13369.75，底部另有 13321.75 标签。图上约 15:00 附近有一个小矩形标注，价格区间约在 13336 至 13342。15:10 之后"
+  },
+  "sources": [
+    {
+      "video_id": "-GkOTMYoJT4",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        374.88,
+        496.919
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了四小时图的两次诱导移动过程，清晰标注了FVG、低点位置和流动性目标，分析步骤逻辑清晰，资产代码和时间框架明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:02:23.137014Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克100四小时图多重诱导案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"4H\",\"market_context\":\"纳斯达克100 E-mini期货在四小时图上展现出典型的诱导移动模式。价格先从摆动高点约12600下行至低点约11960，随后反弹回到区间，再次扫除低点，最终向买方流动性上升。\",\"key_observation\":\"博主识别出两次连续的诱导移动：价格扫除旧低点后回到区间形成位移移动和公允价值缺口，随后再次扫除低点但未能创出新低，最终向上突破至买方流动性区域。\",\"analysis_steps\":[\"Step 1: 识别摆动高点约12600和初始低点约11960的市场结构\",\"Step 2: 观察价格从低点反弹并回到区间，形成第一次位移移动（Displacement）\",\"Step 3: 标记第一个公允价值缺口（FVG）在反弹过程中形成\",\"Step 4: 观察价格再次下行至新低点，但未能有效突破前期低点\",\"Step 5: 注意到第二个公允价值缺口形成，价格收盘强劲\",\"Step 6: 确认价格挣扎向下，预期向上回归至买方流动性\",\"Step 7: 验证价格最终向上突破至买方流动性区域，完成诱导模式\"],\"outcome\":\"价格成功向上突破至买方流动性区域，完成两次诱导移动的模式，确认了在趋势市场中通过扫除低点获得入场机会的有效性。\",\"lessons\":\"在趋势市场中，机构通过多次扫除摆动低点来诱导交易者止损，然后向相反方向运行。关键是观察价格收盘是否尊重旧低点，以及是否形成FVG和位移移动，这些都是反向运行的信号。\",\"primary_image_frame_id\":\"-GkOTMYoJT4_f015\",\"supporting_image_frame_ids\":[\"-GkOTMYoJT4_f014\",\"-GkOTMYoJT4_f016\",\"-GkOTMYoJT4_f017\"],\"related_concepts\":[\"Inducement\",\"Fair Value Gap\",\"Displacement\",\"Order Block\",\"Liquidity\",\"Market Structure Shift\",\"Buyside Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了四小时图的两次诱导移动过程，清晰标注了FVG、低点位置和流动性目标，分析步骤逻辑清晰，资产代码和时间框架明确。\"}",
+  "error": null
+}

@@ -1,0 +1,106 @@
+{
+  "card_id": "YXoNowXQirM_case_002_nasdaq_15分钟至4小时多周期联动分析",
+  "type": "case",
+  "title": "4小时看跌K线后的5分钟OLHC结构与流动性扫荡分析",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "OLHC Structure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Accumulation Manipulation Distribution",
+      "card_id": "accumulation_manipulation_distribution_accumula",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "displacement",
+    "market_structure",
+    "accumulation_manipulation_distribution_accumula",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M / 4H",
+  "market_context": "NASDAQ 100 E-mini Futures在4小时图形成看跌K线（黑色）后，博主预期下一根4小时K线遵循OLHC结构，通过5分钟图观察价格如何在开盘价支撑下形成低点、扩张至流动性目标、形成高点并收盘。",
+  "key_observation": "博主识别出4小时图的看跌K线后，预期下一根4小时K线会形成完整的OLHC结构。通过5分钟图验证，价格在开盘价获得支撑，随后向上扩张至预先识别的流动性目标（Draw on Liquidity），最终形成高点和收盘。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别看跌K线（黑色蜡烛），确认下行趋势",
+    "Step 2: 预期下一根4小时K线遵循OLHC（开盘-低点-高点-收盘）结构",
+    "Step 3: 切换至5分钟图，观察4小时K线开盘时的价格位置",
+    "Step 4: 确认5分钟图中价格首先形成低点（Low），低于开盘价",
+    "Step 5: 观察开盘价作为支撑，阻止价格继续下跌（\"nothing is closing below it\"）",
+    "Step 6: 确认价格向上扩张（Expansion），目标指向预先识别的流动性目标（Draw on Liquidity）",
+    "Step 7: 记录价格形成高点（High），随后收盘（Close），完成OLHC结构",
+    "Step 8: 用积累-操纵-派发（AMD）模型重新解释：开盘价为积累区，突破开盘价为操纵阶段，高点后的卖压为派发阶段"
+  ],
+  "outcome": null,
+  "lessons": "通过多周期联动分析，在高时间框架（4小时）识别关键结构后，可在低时间框架（5分钟）精确观察价格执行过程。开盘价常作为关键支撑/阻力，价格围绕其形成的OLHC结构反映了机构订单流向。识别流动性目标后，可预期价格向其扩张的过程。",
+  "primary_image": "cards/YXoNowXQirM/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/YXoNowXQirM/images/case_002_detail_1.jpg",
+    "cards/YXoNowXQirM/images/case_002_detail_2.jpg",
+    "cards/YXoNowXQirM/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NASDAQ 100 E-mini Futures 5分钟K线图。图上显示从09:30至19:00的交易时段。左侧显示下跌走势至11:00，随后上升至13:30形成高点，之后出现回调。图右侧标注有三条水平线，分别位于12919.3、12988和12884.25。一个矩形框标注了12884.25至12919.3之间的价格区域。右下角显示文字标签'4H CANDLE YSIS'和'20-25(100)",
+    "case_002_detail_1.jpg": "NASDAQ 100 E-mini Futures 4 小时 K 线图。图上显示从 11 月 22 日至 4 月 4 日的价格走势，可见价格范围约 12630 至 13060。图上有一条水平线标记为 IDA，位置约在 12980 处，并用矩形框标注。右侧显示当前价格标签 12706.50，差值标记为 DIFF 7.50。K 线序列中绿色和黑色蜡烛交替出现，11 月 27 日附近有一根长上影线的蜡烛",
+    "case_002_detail_2.jpg": "NASDAQ 100 E-mini Futures 5分钟K线图。图上显示从约11:00至21:30的交易时段。可见多条水平线标注在12994、12988.25、12988和12894.25价格位置。图上绘制了两个矩形区域，一个跨越12894.25至12994，另一个跨越12988至12995。右侧显示当前价格12932.25。中间图表区域约13:00-14:00时段有灰色圆形标注。19:00-2",
+    "case_002_detail_3.jpg": "NASDAQ 100 E-mini Futures 5分钟K线图。图上显示从23:00到11:00 UTC-4的交易时段。可见三条带标签的水平线分别位于12908.25、12865.5和12798处。图上有多个矩形标注框标记价格区间。早期K线呈绿色上升，随后出现大幅黑色K线下跌，之后形成12798至12865.5之间的整理区间。右下角显示当前价格12870.25。图右侧价格刻度范围从12790.0"
+  },
+  "sources": [
+    {
+      "video_id": "YXoNowXQirM",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        172.519,
+        329.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了4小时至5分钟的多周期分析过程，清晰标注了关键价位、流动性目标、开盘价支撑，并用AMD模型验证了观察结论。所有关键数字和结构都从图表中可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:09.835220Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"4小时看跌K线后的5分钟OLHC结构与流动性扫荡分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M / 4H\",\"market_context\":\"NASDAQ 100 E-mini Futures在4小时图形成看跌K线（黑色）后，博主预期下一根4小时K线遵循OLHC结构，通过5分钟图观察价格如何在开盘价支撑下形成低点、扩张至流动性目标、形成高点并收盘。\",\"key_observation\":\"博主识别出4小时图的看跌K线后，预期下一根4小时K线会形成完整的OLHC结构。通过5分钟图验证，价格在开盘价获得支撑，随后向上扩张至预先识别的流动性目标（Draw on Liquidity），最终形成高点和收盘。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别看跌K线（黑色蜡烛），确认下行趋势\",\"Step 2: 预期下一根4小时K线遵循OLHC（开盘-低点-高点-收盘）结构\",\"Step 3: 切换至5分钟图，观察4小时K线开盘时的价格位置\",\"Step 4: 确认5分钟图中价格首先形成低点（Low），低于开盘价\",\"Step 5: 观察开盘价作为支撑，阻止价格继续下跌（\\\"nothing is closing below it\\\"）\",\"Step 6: 确认价格向上扩张（Expansion），目标指向预先识别的流动性目标（Draw on Liquidity）\",\"Step 7: 记录价格形成高点（High），随后收盘（Close），完成OLHC结构\",\"Step 8: 用积累-操纵-派发（AMD）模型重新解释：开盘价为积累区，突破开盘价为操纵阶段，高点后的卖压为派发阶段\"],\"outcome\":null,\"lessons\":\"通过多周期联动分析，在高时间框架（4小时）识别关键结构后，可在低时间框架（5分钟）精确观察价格执行过程。开盘价常作为关键支撑/阻力，价格围绕其形成的OLHC结构反映了机构订单流向。识别流动性目标后，可预期价格向其扩张的过程。\",\"primary_image_frame_id\":\"YXoNowXQirM_f009\",\"supporting_image_frame_ids\":[\"YXoNowXQirM_f008\",\"YXoNowXQirM_f010\",\"YXoNowXQirM_f011\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"Displacement\",\"Market Structure\",\"OLHC Structure\",\"Accumulation Manipulation Distribution\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了4小时至5分钟的多周期分析过程，清晰标注了关键价位、流动性目标、开盘价支撑，并用AMD模型验证了观察结论。所有关键数字和结构都从图表中可读。\"}",
+  "error": null
+}

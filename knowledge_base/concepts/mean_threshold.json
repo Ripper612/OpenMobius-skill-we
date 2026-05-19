@@ -1,0 +1,286 @@
+{
+  "card_id": "mean_threshold",
+  "type": "merged_concept",
+  "canonical_term": "Mean Threshold",
+  "aliases": [
+    "0.5 Fib of Order Block",
+    "50% Fibonacci Level of Order Block",
+    "50% of the body",
+    "中点位置",
+    "中点水平",
+    "中点线",
+    "中线",
+    "均值水平",
+    "均值阈值",
+    "订单块中点",
+    "订单块均值阈值"
+  ],
+  "school": "ICT",
+  "definition": "订单块、推进块或破坏块K线实体的中点（50%）位置，部分情境下取0.85斐波那契位置。价格回测至此水平时应产生明显反应；若价格收盘突破该线，则对应结构块失效，预示需调整交易计划。",
+  "identification_rules": [
+    "定位目标结构块（Order Block、Propulsion Block 或 Breaker Block）",
+    "若K线实体饱满、影线较小，取K线实体高点与低点之间的50%中点位置作为Mean Threshold",
+    "若K线影线较大、实体较小，则取收盘价到影线极值的50%斐波那契位置作为Mean Threshold",
+    "若用于优化入场精度，可取K线实体高低之间的0.85斐波那契位置（body_low + (body_high - body_low) × 0.85）",
+    "在图表上绘制水平线标记该位置，观察价格回测时是否在此处受到尊重（反弹、停顿）或被收盘突破",
+    "若价格收盘于Mean Threshold外侧（看涨块下方或看跌块上方），则判定该结构块失效"
+  ],
+  "trading_implication": "Mean Threshold是判断结构块有效性的关键参考线，同时可作为替代入场点以改善风险回报比。价格尊重该水平（不收盘突破）说明结构块仍有效，可继续持仓；价格突破则结构块失效，应考虑平仓或调整策略。相比在开盘价入场，在Mean Threshold处入场可显著缩小止损距离（如从3.5点缩至1.75点），但存在不成交风险。不应单独使用，需结合叙述方向与其他确认信号。",
+  "common_mistakes": [
+    "混淆Mean Threshold与结构块开盘价——Mean Threshold是块内部的中点，而非开盘价本身",
+    "价格仅触及Mean Threshold即过早平仓——应等待K线收盘确认是否真正突破，而非仅基于触及",
+    "价格突破Mean Threshold后仍坚持原有交易方向，忽视结构块失效信号",
+    "在没有强势叙述或方向偏好的情况下，仅凭Mean Threshold支撑贸然入场",
+    "未结合其他确认信号（如推进块、新订单块形成）单独使用Mean Threshold",
+    "对影线较大的K线错误地使用整个实体中点，而非收盘价到影线极值的0.5斐波那契位置",
+    "计算0.85位置时混入影线数据——应仅使用K线实体高低（body high / body low），不含影线",
+    "忽视时间框架差异——应在更高时间框架确认后再在低时间框架应用Mean Threshold"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Opening Price",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_002_ym1日线看涨ote案例",
+      "video_id": "1YRs4Z1lMws",
+      "title": "YM1日线看涨OTE案例：FVG与订单块汇聚的多重确认"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_002_nq_小时图与5分钟图_fvg订单块交易",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ小时图FVG与5分钟订单块的多时间框架交易"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_003_usoil_5分钟图_大型订单块与平均阈值应用",
+      "video_id": "DMUiDBnTYc8",
+      "title": "USOIL 5分钟：大型订单块与平均阈值优化入场"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_004_nq_15分钟图_纽约开盘扫盘与订单块",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ 15分钟：纽约开盘扫盘与订单块多重入场"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_005_日线图_多重订单块延续趋势",
+      "video_id": "DMUiDBnTYc8",
+      "title": "日线多重订单块延续趋势分析"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_006_nq_5分钟图_二级订单块入场",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ 5分钟图：二级订单块入场获得2.5R"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_006_es1期货60分钟图的订单块与流动性链条",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 60分钟图：低阻力流动性扫荡与订单块反向运行"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_007_es1期货5分钟图的多层级订单块与推进块形成",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 5分钟图多层级订单块与推进块的形成与验证"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_008_es1期货1分钟图的精细订单块入场与止损设置",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1 1分钟图：订单块入场、均值阈值止损与高阻力流动性无效化"
+    },
+    {
+      "card_id": "Y8DkNYhq0X0_case_004_标普500_5分钟均值阈值入场对比",
+      "video_id": "Y8DkNYhq0X0",
+      "title": "标普500 5分钟均值阈值入场对比"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_003_周五8月4日es与nq_order_block表现",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES与NQ周五8月4日Order Block均值阈值表现对比"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_004_周一至周五每日相对强弱预测与验证",
+      "video_id": "c_mh19e3mhI",
+      "title": "周一至周五ES相对强、NQ相对弱的逐日验证"
+    },
+    {
+      "card_id": "dcIdzqD3kMU_case_001_e_mini_s_p_500期货熊市破坏块案例",
+      "video_id": "dcIdzqD3kMU",
+      "title": "E-MINI S&P 500期货熊市破坏块识别与均值阈值反应"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_005_nq等值高点与smt配合的1分钟breaker交易",
+      "video_id": "xP-o11jRCyg",
+      "title": "ETH 1分钟等值高点SMT配合Breaker交易"
+    },
+    {
+      "card_id": "y6SnEdASVLY_case_005_轻质原油期货看涨反转延续案例",
+      "video_id": "y6SnEdASVLY",
+      "title": "轻质原油期货看涨反转延续交易案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9PKJ0U1gl4g",
+      "original_card_id": "9PKJ0U1gl4g_concept_mean_threshold",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        12.44,
+        542.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "DMUiDBnTYc8",
+      "original_card_id": "DMUiDBnTYc8_concept_mean_threshold",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        192.159,
+        877.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FGkb_50BfT8",
+      "original_card_id": "FGkb_50BfT8_concept_mean_threshold",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.48,
+        694.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_mean_threshold",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        371.599,
+        728.32
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "Y8DkNYhq0X0",
+      "original_card_id": "Y8DkNYhq0X0_concept_mean_threshold",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        400.62,
+        498.68
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "dcIdzqD3kMU",
+      "original_card_id": "dcIdzqD3kMU_concept_mean_threshold",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        187.98,
+        455.699
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 6,
+    "source_videos": 6,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:22.689728Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "6张原始卡均标注ICT，school无冲突。计算方法存在分歧：4张取50%中点，1张取0.85斐波那契位，1张区分实体饱满与影线较大两种情况；已将三种方法并列保留于识别规则中。",
+  "error": null
+}

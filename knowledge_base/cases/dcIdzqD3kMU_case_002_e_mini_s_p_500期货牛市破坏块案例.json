@@ -1,0 +1,101 @@
+{
+  "card_id": "dcIdzqD3kMU_case_002_e_mini_s_p_500期货牛市破坏块案例",
+  "type": "case",
+  "title": "E-MINI S&P 500期货牛市破坏块与均值阈值验证",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "breaker_block",
+    "market_structure_shift_mss",
+    "equilibrium_eq",
+    "liquidity",
+    "protected_high_low"
+  ],
+  "school": "ICT",
+  "asset": "ES (E-MINI S&P 500 Futures MAR 2023)",
+  "timeframe": "30M / 15M / 4H",
+  "market_context": "从4小时图表识别公允价值缺口后，在30分钟时间框架内形成低-高-更低低-更高高的市场结构，随后价格在15分钟图表中测试破坏块的均值阈值。",
+  "key_observation": "博主识别出一个大型上涨收盘烛体作为破坏块，并标记其均值阈值。关键观察是价格体尊重均值阈值，烛体不穿过该水平，但下影线可能触及更深的区域。",
+  "analysis_steps": [
+    "Step 1: 在4小时图表中识别公允价值缺口（FVG），标记为HIGH和LOW水平线。",
+    "Step 2: 下降至30分钟图表，观察到一根大型上涨收盘烛体与流动性方向相反。",
+    "Step 3: 在30分钟结构中标记摆动点：LOW、HIGH、LL（更低低）、HH（更高高），确认低-高-更低低-更高高的序列。",
+    "Step 4: 识别大型上涨收盘烛体为破坏块（Breaker Block），标记其烛体范围和均值阈值。",
+    "Step 5: 在15分钟图表中追踪价格走势，验证价格是否尊重破坏块的均值阈值。",
+    "Step 6: 观察价格反应：烛体不穿过均值阈值，但下影线可能触及更深区域，确认均值阈值的支撑作用。"
+  ],
+  "outcome": null,
+  "lessons": "破坏块的均值阈值是关键的支撑/阻力水平。理想情况是价格触及均值阈值但收盘在其外侧，表明市场结构的有效性。烛体与下影线的分离提供了对流动性扫荡深度的洞察。",
+  "primary_image": "cards/dcIdzqD3kMU/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/dcIdzqD3kMU/images/case_002_detail_1.jpg",
+    "cards/dcIdzqD3kMU/images/case_002_detail_2.jpg",
+    "cards/dcIdzqD3kMU/images/case_002_detail_3.jpg",
+    "cards/dcIdzqD3kMU/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "E-MINI S&P 500 期货 3 月合约 30 分钟图。图上标注四个水平价格线：HIGH 在 4045.00、LOW 在 4020.00、HH 在 4053.00、LL 在 4012.00。三个浅蓝色矩形区域分别覆盖 HIGH 和 LOW 标注附近的价格范围。K 线从左侧 4062.00 下跌至 4012.00，随后反弹至 4053.00。右侧价格刻度显示当前价 4021.50。图上未见其他",
+    "case_002_detail_1.jpg": "E-MINI S&P 500 期货 3 月合约 4 小时图。图表显示从 1 月 20 日至 2 月 3 日的价格走势，价格范围约从 3970 到 4120。图上绿色 K 线表示上涨，黑色 K 线表示下跌。1 月 20-28 日期间呈上升趋势，最高点约 4110-4120；之后 1 月 28 日至 31 日呈下降趋势，最低点约 4020。图右侧显示当前价格标签 4012.75。整个周期内 K 线多数",
+    "case_002_detail_2.jpg": "E-MINI S&P 500 期货 3 月合约 30 分钟图。图上标注四个文字标签：HH 位于约 4644 价位、HIGH 位于约 4040 价位、LOW 位于约 4020 价位、LL 位于约 4008 价位。可见价格范围从 4008 到 4650。图表左侧显示从高位向下的下跌走势，中间部分形成低点，右侧显示从低点向上的上升走势。K 线以绿色和黑色交替出现。图下方有灰色水平带状区域。右侧价格刻度显",
+    "case_002_detail_3.jpg": "E-MINI S&P 500 期货 3 月合约 15 分钟图。图上标注有四个文字标签：左侧标记为 HIGH 和 HH 的水平线位于 4170.00 附近，标记为 LOW 和 LL 的水平线位于 4158.50 附近。图中央有一条青色矩形区域，跨越约 05:00 至 08:00 时间段，价格范围约 4163.00 至 4170.00。另有一条水平线位于 4165.00。K 线显示从 03:00 开始",
+    "case_002_detail_4.jpg": "S&P 500 E-mini Futures 15 分钟图。图上显示从左侧约 4698.50 下跌至中部约 4683.00 的下降趋势，跨越约 8 根 K 线。图中标注有四个文字标签：HIGH、HH、LOW、LL，其中 HIGH 和 LOW 对应两条水平线，分别位于约 4693.50 和 4689.75。一个浅蓝色矩形框标记了 4689.75 至 4693.50 之间的区域。该区域内有多根 K 线"
+  },
+  "sources": [
+    {
+      "video_id": "dcIdzqD3kMU",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        275.22,
+        455.699
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从4小时到30分钟再到15分钟的多时间框架分析，清晰标记了所有关键价位（HIGH/LOW/HH/LL），明确指出破坏块的均值阈值验证过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:09.153495Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"E-MINI S&P 500期货牛市破坏块与均值阈值验证\",\"school\":\"ICT\",\"asset\":\"ES (E-MINI S&P 500 Futures MAR 2023)\",\"timeframe\":\"30M / 15M / 4H\",\"market_context\":\"从4小时图表识别公允价值缺口后，在30分钟时间框架内形成低-高-更低低-更高高的市场结构，随后价格在15分钟图表中测试破坏块的均值阈值。\",\"key_observation\":\"博主识别出一个大型上涨收盘烛体作为破坏块，并标记其均值阈值。关键观察是价格体尊重均值阈值，烛体不穿过该水平，但下影线可能触及更深的区域。\",\"analysis_steps\":[\"Step 1: 在4小时图表中识别公允价值缺口（FVG），标记为HIGH和LOW水平线。\",\"Step 2: 下降至30分钟图表，观察到一根大型上涨收盘烛体与流动性方向相反。\",\"Step 3: 在30分钟结构中标记摆动点：LOW、HIGH、LL（更低低）、HH（更高高），确认低-高-更低低-更高高的序列。\",\"Step 4: 识别大型上涨收盘烛体为破坏块（Breaker Block），标记其烛体范围和均值阈值。\",\"Step 5: 在15分钟图表中追踪价格走势，验证价格是否尊重破坏块的均值阈值。\",\"Step 6: 观察价格反应：烛体不穿过均值阈值，但下影线可能触及更深区域，确认均值阈值的支撑作用。\"],\"outcome\":null,\"lessons\":\"破坏块的均值阈值是关键的支撑/阻力水平。理想情况是价格触及均值阈值但收盘在其外侧，表明市场结构的有效性。烛体与下影线的分离提供了对流动性扫荡深度的洞察。\",\"primary_image_frame_id\":\"dcIdzqD3kMU_f014\",\"supporting_image_frame_ids\":[\"dcIdzqD3kMU_f011\",\"dcIdzqD3kMU_f013\",\"dcIdzqD3kMU_f010\",\"dcIdzqD3kMU_f016\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Breaker Block\",\"Market Structure Shift (MSS)\",\"Equilibrium (EQ)\",\"Liquidity\",\"Protected Swing\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从4小时到30分钟再到15分钟的多时间框架分析，清晰标记了所有关键价位（HIGH/LOW/HH/LL），明确指出破坏块的均值阈值验证过程。\"}",
+  "error": null
+}

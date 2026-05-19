@@ -1,0 +1,63 @@
+{
+  "card_id": "htf_key_level",
+  "type": "merged_concept",
+  "canonical_term": "HTF Key Level",
+  "aliases": [
+    "High Time Frame Key Level"
+  ],
+  "school": "ICT",
+  "definition": "高时间框架上的关键价格水平，作为低时间框架Candle Two/Three Closure形成的必要前提条件，用于确认价格反转或延续的有效性。",
+  "identification_rules": [
+    "必须在高时间框架（如日线）上识别，而非低时间框架（如15分钟）",
+    "作为参考水平线标记在图表上，价格接近或触及该水平时成为关键决策点",
+    "Candle Two Closure和Candle Three Closure的形成都需要以HTF Key Level作为背景参考"
+  ],
+  "trading_implication": "HTF Key Level是判断低时间框架K线形态是否有效的必要条件。只有当价格在HTF Key Level附近形成有效的Candle Two或Candle Three Closure时，才能可靠地预期后续K线（Candle Three或Candle Four）的延续方向。它提供了交易决策的上位框架支撑，避免在无关键水平支撑的情况下随意交易。",
+  "common_mistakes": [
+    "在没有HTF Key Level的情况下交易低时间框架的K线形态，导致信号无效",
+    "混淆HTF Key Level与低时间框架的局部高低点，忽视时间框架的层级差异"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "tyoxl1l-6iI_case_001_apoz日线上的多个k线2收盘识别",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线多个K线2收盘的识别与验证"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_001_轻质原油期货的纽约反转案例",
+      "video_id": "xdzyejskSKE",
+      "title": "轻质原油期货纽约反转：高时间框架位触及与流动性扫荡"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "original_card_id": "MsuEQQl7L6s_concept_htf_key_level",
+      "segment_ids": [
+        "seg_002",
+        "seg_015"
+      ],
+      "time_range": [
+        50.56,
+        696.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133422Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

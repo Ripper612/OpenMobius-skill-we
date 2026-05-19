@@ -1,0 +1,192 @@
+{
+  "card_id": "turtle_soup_entry",
+  "type": "merged_concept",
+  "canonical_term": "Turtle Soup Entry",
+  "aliases": [
+    "Turtle Soup"
+  ],
+  "school": "ICT",
+  "definition": "反转序列的第一步，指价格扫除前期摆动高点或整理区间极值后立即反转的最早入场信号。确认度最低但入场时机最早，在看跌反转中扫除高点做空，在看涨反转中扫除低点做多，通常发生在预期操纵之后，尚未形成inversion、CSD等后续确认信号。",
+  "identification_rules": [
+    "价格向上突破并扫出左侧前期摆动高点（看跌方向），或向下扫出前期摆动低点（看涨方向）",
+    "突破通常伴随快速、有力的K线动作，扫除整理区间或摆动极值",
+    "突破后立即出现反向K线或收盘价回落至突破点下方（看跌），表明突破失败",
+    "通常在更高时间框架的摆动高低点处形成",
+    "此时尚未形成其他反转确认信号（如inversion、CSD等），确认度最低",
+    "需在整理/盘整区间形成后出现，而非随机突破"
+  ],
+  "trading_implication": "Turtle Soup是反转序列中确认度最低、入场时机最早的信号，单独使用风险较高，易被假突破扫损。交易者可在此阶段入场以获取最优风险回报比，但需设置紧密止损（对应被扫的高低点）。通常需与后续确认信号（inversion、CSD、Breaker Block、FVG）结合使用，随确认信号增加，反转可靠性逐步提升。",
+  "common_mistakes": [
+    "在高点已被有效突破或发生明显位移后仍尝试做空，导致止损被扫",
+    "止损设置过紧或过松，未能准确对应被扫的高点或低点位置",
+    "未确认趋势方向或市场结构支持就盲目使用该入场方式",
+    "仅基于Turtle Soup信号入场，未等待后续确认信号，导致频繁止损",
+    "将Turtle Soup与完整反转序列混淆，高估其单独的预测力",
+    "将Turtle Soup与简单的突破混淆，忽视其必须在整理/盘整区间后形成的前置条件",
+    "在多个PD array中同时追踪Turtle Soup，导致入场点不一致且难以积累可靠交易数据",
+    "在没有预期操纵或市场结构支持的情况下盲目交易Turtle Soup"
+  ],
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected High/Low",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-wr4xATE37g_case_001_eur_usd日线与小时线的受保护摆动追踪",
+      "video_id": "-wr4xATE37g",
+      "title": "EUR/USD日线反转与小时线受保护摆动追踪"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_006_英镑美元_gbpusd_日线至月线范围交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "GBPUSD日线-月线范围交易：扫低后CSD确认突破"
+    },
+    {
+      "card_id": "r_UF8U-hsL8_case_001_apoz资产的反转与延续交易案例",
+      "video_id": "r_UF8U-hsL8",
+      "title": "APOZ反转序列与延续做空交易案例"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_001_eurusd_1分钟反转序列案例",
+      "video_id": "wik00c9_2nk",
+      "title": "EURUSD 1分钟整理区间扫低后的完整反转序列"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_002_日线偏差与小时线反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "日线偏差后小时线反转与亚洲高点突破"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_003_spx_15分钟下跌反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "SPX 15分钟下跌反转：Turtle Soup到Breaker Block的完整形态"
+    },
+    {
+      "card_id": "wik00c9_2nk_case_004_btc_1小时盘整与反转案例",
+      "video_id": "wik00c9_2nk",
+      "title": "BTC 1小时盘整与反转案例：Turtle Soup到Propulsion Block"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "NgFIza9qsGQ",
+      "original_card_id": "NgFIza9qsGQ_concept_turtle_soup_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        187.799,
+        367.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "r_UF8U-hsL8",
+      "original_card_id": "r_UF8U-hsL8_concept_turtle_soup",
+      "segment_ids": [
+        "seg_001",
+        "seg_005",
+        "seg_007"
+      ],
+      "time_range": [
+        11.12,
+        573.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_turtle_soup",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        192.959,
+        1016.639
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:22.170263Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "3张原始卡均为ICT，school无冲突。卡1侧重做空激进入场，卡2、卡3侧重反转序列第一步，定义已综合三者技术细节。",
+  "error": null
+}

@@ -1,0 +1,98 @@
+{
+  "card_id": "E89d1HArbgM_case_001_nq1分钟级别的csd与mss对比",
+  "type": "case",
+  "title": "NQ1分钟级别CSD与MSS的时间差异对比",
+  "related_concepts": [
+    {
+      "term": "CSD (Change in State of Delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "MSS (Market Structure Shift)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "displacement",
+    "fair_value_gap",
+    "swing_high_low",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "NQ1分钟图中，价格从约16092上行至16175附近形成高点，随后出现回调。博主通过对比Change in State of Delivery（CSD）和Market Structure Shift（MSS）两种信号，演示它们在识别趋势转变中的时间差异和实际应用。",
+  "key_observation": "CSD（交付状态改变）通常先于MSS（市场结构转变）出现。CSD关注收盘价低于上升K线序列的开盘价并验证订单块，而MSS要求完整的位移和收盘价低于摆动低点。这种时间差为交易者提供了更早的入场机会，但也可能导致虚假信号。",
+  "analysis_steps": [
+    "Step 1: 识别上升K线序列（约09:30前的绿色K线群），确定其开盘价水平（约16151.50）作为CSD的参考点。",
+    "Step 2: 观察价格在09:30附近出现的大阴线，检查是否收盘低于上升序列的开盘价，从而验证CSD信号和订单块形成。",
+    "Step 3: 在CSD确认后，寻找是否存在完整的位移和收盘价低于前期摆动低点（约16180），以确认MSS信号。",
+    "Step 4: 对比两个信号的出现时间，发现CSD先于MSS出现，说明CSD可作为更早的趋势转变预警。",
+    "Step 5: 分析CSD确认后的入场机会，包括订单块回测、0.5均值水平和FVG等多个潜在入场点。",
+    "Step 6: 说明MSS的优势在于确认性更强，但代价是错过了CSD提供的更早入场机会。"
+  ],
+  "outcome": null,
+  "lessons": "CSD提供比MSS更早的趋势转变信号，使交易者能更快入场；但CSD也可能产生虚假信号，导致亏损交易。选择使用CSD还是MSS取决于交易风格：追求早期入场者可用CSD配合多个确认点（订单块回测、FVG、0.5水平），保守交易者应等待完整的MSS确认。",
+  "primary_image": "cards/E89d1HArbgM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/E89d1HArbgM/images/case_001_detail_1.jpg",
+    "cards/E89d1HArbgM/images/case_001_detail_2.jpg",
+    "cards/E89d1HArbgM/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NQ1! 1 分钟 K 线图，图上水平价格刻度范围约从 16092 至 16216。图左侧可见一段由多根绿色 K 线构成的上行序列，从约 16092 延伸至约 16172。约 09:30 时间处出现一根较大的阴线，随后价格在约 16155 至 16200 区间内形成多根 K 线的密集区。图上有两条水平线：一条位于约 16180 处，另一条为虚线位于约 16151.50 处，后者附近有光标标记。图右",
+    "case_001_detail_1.jpg": "图为标题为'Comparison'的教学幻灯片第3页，包含上下两组示意性K线图。上方图组中，水平线标注'Important Level'位于K线序列高点附近，另一水平线标注'CISD'位于中段，文字标签'Market Structure Shift'配合括号标注于低点区域附近。下方图组中，水平线标注'Important Level'位于K线序列低点附近，另一水平线标注'CISD'位于中段，文字标签",
+    "case_001_detail_2.jpg": "NQ1! 1 分钟 K 线图，时间轴显示 2023 年 7 月 12 日，时间范围约 08:50 至 10:35。图右侧价格刻度范围约 16092 至 16216。K 线从左侧约 16096 区域起，经过约 40 根 K 线逐步上移至约 16175 附近，随后出现数根主体较大的 K 线，价格区间约在 16148 至 16190 之间。图上有一条水平线位于约 16180 处，以及一个小矩形框标注于约",
+    "case_001_detail_3.jpg": "NQ1! 1 分钟 K 线图，日期标注为 7/12/2023，图右上角显示 TTrades_edu 水印。可见价格范围约从 16084 到 16212。图上有一条水平线位于约 16180 处，以及一个矩形框标注于约 09:45 至 09:50 时段对应的 K 线区域。K 线从 08:50 起整体呈逐步上行走势，09:30 附近出现一根较大阳线，随后在 09:35 附近出现带长上影线的 K 线，上影"
+  },
+  "sources": [
+    {
+      "video_id": "E89d1HArbgM",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.44,
+        369.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主在NQ1分钟图上清晰演示了CSD与MSS的对比，包括具体价位（16151.50、16180）、时间点（09:30）和完整的分析步骤。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:20.680417Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1分钟级别CSD与MSS的时间差异对比\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"NQ1分钟图中，价格从约16092上行至16175附近形成高点，随后出现回调。博主通过对比Change in State of Delivery（CSD）和Market Structure Shift（MSS）两种信号，演示它们在识别趋势转变中的时间差异和实际应用。\",\"key_observation\":\"CSD（交付状态改变）通常先于MSS（市场结构转变）出现。CSD关注收盘价低于上升K线序列的开盘价并验证订单块，而MSS要求完整的位移和收盘价低于摆动低点。这种时间差为交易者提供了更早的入场机会，但也可能导致虚假信号。\",\"analysis_steps\":[\"Step 1: 识别上升K线序列（约09:30前的绿色K线群），确定其开盘价水平（约16151.50）作为CSD的参考点。\",\"Step 2: 观察价格在09:30附近出现的大阴线，检查是否收盘低于上升序列的开盘价，从而验证CSD信号和订单块形成。\",\"Step 3: 在CSD确认后，寻找是否存在完整的位移和收盘价低于前期摆动低点（约16180），以确认MSS信号。\",\"Step 4: 对比两个信号的出现时间，发现CSD先于MSS出现，说明CSD可作为更早的趋势转变预警。\",\"Step 5: 分析CSD确认后的入场机会，包括订单块回测、0.5均值水平和FVG等多个潜在入场点。\",\"Step 6: 说明MSS的优势在于确认性更强，但代价是错过了CSD提供的更早入场机会。\"],\"outcome\":null,\"lessons\":\"CSD提供比MSS更早的趋势转变信号，使交易者能更快入场；但CSD也可能产生虚假信号，导致亏损交易。选择使用CSD还是MSS取决于交易风格：追求早期入场者可用CSD配合多个确认点（订单块回测、FVG、0.5水平），保守交易者应等待完整的MSS确认。\",\"primary_image_frame_id\":\"E89d1HArbgM_f007\",\"supporting_image_frame_ids\":[\"E89d1HArbgM_f004\",\"E89d1HArbgM_f008\",\"E89d1HArbgM_f009\"],\"related_concepts\":[\"CSD (Change in State of Delivery)\",\"MSS (Market Structure Shift)\",\"Order Block\",\"Displacement\",\"Fair Value Gap\",\"Swing High/Low\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主在NQ1分钟图上清晰演示了CSD与MSS的对比，包括具体价位（16151.50、16180）、时间点（09:30）和完整的分析步骤。\"}",
+  "error": null
+}

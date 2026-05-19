@@ -1,0 +1,60 @@
+{
+  "card_id": "inversely_correlated_pairs",
+  "type": "merged_concept",
+  "canonical_term": "Inversely Correlated Pairs",
+  "aliases": [
+    "反向相关资产对",
+    "负相关交易对"
+  ],
+  "school": "SMC",
+  "definition": "两个资产之间呈反向运动关系的交易对。当一个创出新高时，另一个应创出新低；反之亦然。如DXY与EUR/USD、ES与NQ在特定结构中的表现。",
+  "identification_rules": [
+    "确认两个资产具有反向相关性（如美元指数DXY与EUR/USD）",
+    "在一个资产上标记出高点和低点序列（高、更高的高、低、更高的低等）",
+    "在另一个资产上应看到相反的结构（高对应低、更高的高对应更低的低）",
+    "当一个资产创新高而另一个未创新低时，或一个创更高的高而另一个创更高的低时，即形成SMT"
+  ],
+  "trading_implication": "在反向相关资产对中识别SMT（Smart Money Technique）可预示潜在反转。当预期的反向结构不出现时（如一个资产创新高但另一个未创新低），表明市场结构分歧，可作为做空或做多的信号。交易者需在两个资产间同时监控结构，寻找偏离预期的点位作为入场机会。",
+  "common_mistakes": [
+    "只在单个资产上分析结构，忽视反向相关资产的对应表现",
+    "混淆方向：在反向相关资产上应做相反操作（一个看跌则另一个看涨）",
+    "未能正确识别SMT的具体形式，误判高点/低点的对应关系"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "27S9gjgcSlI_case_006_dxy与eur_usd反向相关smt识别",
+      "video_id": "27S9gjgcSlI",
+      "title": "DXY与EUR/USD反向相关SMT识别与反转预测"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "original_card_id": "27S9gjgcSlI_concept_inversely_correlated_pairs",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        741.48,
+        920.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133687Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

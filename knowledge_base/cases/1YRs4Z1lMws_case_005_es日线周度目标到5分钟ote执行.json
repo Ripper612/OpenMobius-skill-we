@@ -1,0 +1,127 @@
+{
+  "card_id": "1YRs4Z1lMws_case_005_es日线周度目标到5分钟ote执行",
+  "type": "case",
+  "title": "ES日线周度目标到5分钟OTE最优入场执行",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Daily Open",
+      "card_id": "daily_open",
+      "exists": true
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "ote_optimal_trade_entry",
+    "fibonacci_retracement",
+    "market_structure_shift",
+    "protected_high_low",
+    "liquidity",
+    "daily_open",
+    "risk_to_reward_ratio"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "5M (with Daily context)",
+  "market_context": "2023年8月18日，ES在日线上形成周度目标（日线摆动低点约4340），周三至周四出现扩张走势。博主预期TGIF设置来封闭周度范围，计划从日开盘4434处寻找纽约反转机会。",
+  "key_observation": "日线识别出多个失败摆动高点（约4420-4428区域），5分钟图中价格在日开盘上方形成回撤，OTE区域（0.705和0.62斐波那契水平）提供高概率入场点，目标指向失败摆动高点。",
+  "analysis_steps": [
+    "Step 1: 在日线图上确认周度目标为日线摆动低点（约4340），识别失败摆动高点集群（约4420-4428）。",
+    "Step 2: 下探5分钟图，标记日开盘位置（4434）作为纽约反转参考点。",
+    "Step 3: 观察5分钟价格走势：向下扫荡后出现位移上行，形成从低点到当前高点的摆动结构。",
+    "Step 4: 使用斐波那契回撤工具从摆动低点至摆动高点标记OTE区域，0.705水平约4405，0.62水平约4407。",
+    "Step 5: 确认理想入场点为0.705（4405），备选入场点为0.62（4407），目标设定为日线失败摆动高点（约4428-4434）。",
+    "Step 6: 执行交易：在OTE区域入场，追踪后续摆动高点，计算风险回报比为3.4R。",
+    "Step 7: 价格扫荡OTE中点后出现位移上行，穿过日开盘，最终到达失败摆动高点完成目标。"
+  ],
+  "outcome": "成功执行3.4R交易。价格在OTE区域入场后，经历OTE中点扫荡，随后出现位移上行穿过日开盘（4434），最终扫荡日线失败摆动高点，实现预期目标。",
+  "lessons": "多时间框架协同分析的有效性：日线确定周度目标和失败摆动结构，5分钟图精确定位OTE入场区域。斐波那契回撤在折价区的应用提高入场精准度。价格在扫荡OTE中点后的位移上行是强势信号，确认交易方向正确。",
+  "primary_image": "cards/1YRs4Z1lMws/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/1YRs4Z1lMws/images/case_005_detail_1.jpg",
+    "cards/1YRs4Z1lMws/images/case_005_detail_2.jpg",
+    "cards/1YRs4Z1lMws/images/case_005_detail_3.jpg",
+    "cards/1YRs4Z1lMws/images/case_005_detail_4.jpg",
+    "cards/1YRs4Z1lMws/images/case_005_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "ES1! 5分钟K线图，日期标注为18/8/2023，图右上角显示账户名TTrades_edu。图上可见价格范围约从4394到4436。一条虚线水平线标注为Daily Open位于约4434处。图中约09:00至10:00区间绘制有斐波那契回撤工具，标注水平线分别为0.5、0.62、0.705、0.79，对应价格约4420、4407、4405、4403。图上有一个矩形框标注于约4399至4412区",
+    "case_005_detail_1.jpg": "ES1! 日线 K 线图，时间范围覆盖 2023 年 6 月至 9 月初。图上有一条水平线位于约 4420 处，从 6 月下旬延伸至 8 月初。K 线从 6 月初约 4380 区域上行至 7 月中旬约 4680 高点，随后连续下行至 8 月初约 4420 附近。约 8 月 11 日处有一根带长下影线的 K 线，下影线延伸至约 4340。图右侧有一个大型黑色矩形标注，覆盖约 4310 至 4540 ",
+    "case_005_detail_2.jpg": "ES1! 5 分钟 K 线图，日期标注为 2023 年 8 月 18 日，图右上角显示 TTrades_edu 水印。可见价格范围约从 4396.96 至 4428.00。图左侧至 07:00 附近呈现一段由绿色 K 线组成的上行区域，随后出现连续黑色 K 线向下运行至约 4402.00。08:30 至 09:30 区间内有一组绿色 K 线，图上在该区域绘制了一个矩形标注，覆盖约 4401.00 ",
+    "case_005_detail_3.jpg": "ES1! 5 分钟 K 线图，日期标注为 18/8/2023，图右上角显示账户名 TTrades_edu。图右侧价格刻度范围约从 4392.00 至 4434.00，左侧当前价标签显示 4407.00。图上有一条贯穿全图的水平虚线，标注为 Daily Open，位于 4434.00。图左上方有一条向右下方延伸的斜线，从约 4434.00 斜向下至约 07:00 附近。图中绘有两个矩形框：一个较大矩",
+    "case_005_detail_4.jpg": "ES1! 5分钟K线图，日期标注为2023年8月18日，图右上角显示TTrades_edu水印。图上可见价格范围约从4399到4437.75。一条虚线水平线标注为Daily Open位于4434附近。图上存在两个矩形区域：一个灰色半透明矩形覆盖09:00至10:00时段，另一个绿色半透明矩形覆盖10:00至13:00时段。斐波那契水平线标注0.62和0.79分别位于4407至4404区间内。K线从",
+    "case_005_detail_5.jpg": "ES1! 5分钟K线图，日期标注为2023年8月18日，图右上角显示账户名TTrades_edu。图上可见价格范围约从4394至4452。图中部有一段多根K线的下行走势，从约4436区域下行至约4398附近低点后回升。图上绘制有斐波那契回撤网格，覆盖约4418至4398区间，标注水平包括0、0.5、0.62、0.705、0.79、1。一个矩形框标注于约4406至4418区域。虚线水平线标注为'Da"
+  },
+  "sources": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "segment_ids": [
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020"
+      ],
+      "time_range": [
+        577.04,
+        757.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线周度目标识别、失败摆动确认、5分钟OTE标记到最终3.4R交易执行的全过程，关键价位（4434日开盘、4405/4407 OTE水平、4428-4434目标）清晰可读，分析步骤逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:16:17.980177Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES日线周度目标到5分钟OTE最优入场执行\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"5M (with Daily context)\",\"market_context\":\"2023年8月18日，ES在日线上形成周度目标（日线摆动低点约4340），周三至周四出现扩张走势。博主预期TGIF设置来封闭周度范围，计划从日开盘4434处寻找纽约反转机会。\",\"key_observation\":\"日线识别出多个失败摆动高点（约4420-4428区域），5分钟图中价格在日开盘上方形成回撤，OTE区域（0.705和0.62斐波那契水平）提供高概率入场点，目标指向失败摆动高点。\",\"analysis_steps\":[\"Step 1: 在日线图上确认周度目标为日线摆动低点（约4340），识别失败摆动高点集群（约4420-4428）。\",\"Step 2: 下探5分钟图，标记日开盘位置（4434）作为纽约反转参考点。\",\"Step 3: 观察5分钟价格走势：向下扫荡后出现位移上行，形成从低点到当前高点的摆动结构。\",\"Step 4: 使用斐波那契回撤工具从摆动低点至摆动高点标记OTE区域，0.705水平约4405，0.62水平约4407。\",\"Step 5: 确认理想入场点为0.705（4405），备选入场点为0.62（4407），目标设定为日线失败摆动高点（约4428-4434）。\",\"Step 6: 执行交易：在OTE区域入场，追踪后续摆动高点，计算风险回报比为3.4R。\",\"Step 7: 价格扫荡OTE中点后出现位移上行，穿过日开盘，最终到达失败摆动高点完成目标。\"],\"outcome\":\"成功执行3.4R交易。价格在OTE区域入场后，经历OTE中点扫荡，随后出现位移上行穿过日开盘（4434），最终扫荡日线失败摆动高点，实现预期目标。\",\"lessons\":\"多时间框架协同分析的有效性：日线确定周度目标和失败摆动结构，5分钟图精确定位OTE入场区域。斐波那契回撤在折价区的应用提高入场精准度。价格在扫荡OTE中点后的位移上行是强势信号，确认交易方向正确。\",\"primary_image_frame_id\":\"1YRs4Z1lMws_f024\",\"supporting_image_frame_ids\":[\"1YRs4Z1lMws_f021\",\"1YRs4Z1lMws_f022\",\"1YRs4Z1lMws_f023\",\"1YRs4Z1lMws_f025\",\"1YRs4Z1lMws_f026\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"OTE (Optimal Trade Entry)\",\"Fibonacci Retracement\",\"Market Structure Shift\",\"Protected Swing\",\"Liquidity\",\"Daily Open\",\"Risk-to-Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线周度目标识别、失败摆动确认、5分钟OTE标记到最终3.4R交易执行的全过程，关键价位（4434日开盘、4405/4407 OTE水平、4428-4434目标）清晰可读，分析步骤逻辑连贯。\"}",
+  "error": null
+}

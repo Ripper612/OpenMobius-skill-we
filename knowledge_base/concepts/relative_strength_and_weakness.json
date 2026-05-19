@@ -1,0 +1,58 @@
+{
+  "card_id": "relative_strength_and_weakness",
+  "type": "merged_concept",
+  "canonical_term": "Relative Strength and Weakness",
+  "aliases": [
+    "相关资产强弱对比",
+    "相对强弱"
+  ],
+  "school": "SMC",
+  "definition": "比较两个相关资产的价格走势强弱关系。通过摆动点、K线收盘位置和K线大小判断，一个资产相对另一个更看涨或更看跌。",
+  "identification_rules": [
+    "比较摆动点：一个资产突破摆动高点而另一个未能突破，表明前者相对强势。",
+    "观察K线收盘：相对强势的资产收盘在关键水平上方，相对弱势的资产收盘在下方。",
+    "评估K线大小：相对强势的资产K线体积较大且方向明确，相对弱势的资产K线较小或反向。",
+    "识别SMT分歧：一个资产创出新高/新低，另一个资产未能跟随，表明相对强弱变化。",
+    "使用ES/NQ比值图：当ES/NQ图表看涨时，ES相对强势、NQ相对弱势；当ES/NQ图表看跌时，ES相对弱势、NQ相对强势。"
+  ],
+  "trading_implication": "相对强弱关系指导交易方向选择。若NQ相对弱势，应在NQ上寻找做空设置；若ES相对强势，应在ES上寻找做多设置。通过ES/NQ比值图的反转可预判相关资产的反转，帮助交易者提前识别相关性变化和潜在的趋势转折点。",
+  "common_mistakes": [
+    "仅看单个资产的走势而忽视相关资产的对比，导致误判强弱关系。",
+    "混淆ES/NQ比值图的方向含义，错误解读相对强弱。",
+    "未能结合Order Block、Fair Value Gap等结构工具来验证相对强弱判断。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "original_card_id": "c_mh19e3mhI_concept_relative_strength_and_weakness",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        719.16
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135338Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,83 @@
+{
+  "card_id": "stop_loss",
+  "type": "merged_concept",
+  "canonical_term": "Stop Loss",
+  "aliases": [
+    "止损",
+    "止损位"
+  ],
+  "school": "Risk Management",
+  "definition": "在交易中设置的预定价格水平，用于限制亏损。通常放在摆动高/低点或订单块另一端，当价格触及该水平时自动平仓。",
+  "identification_rules": [
+    "止损可设置在Swing High或Swing Low处，作为交易无效的确认点",
+    "止损也可设置在Order Block的另一端（如做多时设在OB下端），提供更高的风险回报比但增加被扫损的风险",
+    "止损位置应在入场点和目标价格之间平衡，以获得最优的风险回报比（通常目标为1.5R以上）"
+  ],
+  "trading_implication": "止损是风险管理的核心工具。设置在Swing Low提供更稳定的保护但风险回报比较低；设置在Order Block另一端可获得更高风险回报比但价格可能触及止损而交易仍有效。交易者需在入场点调整以接近无效点，而非调整止损点来接近入场点。",
+  "common_mistakes": [
+    "将止损设在Order Block另一端时，价格可能因Wick触及止损而被扫出，即使交易本身未被真正无效化",
+    "优先调整止损位置而非调整入场点，导致风险管理不当"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "9PKJ0U1gl4g_case_001_原油期货日线propulsion_block交易案例",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "原油期货日线Propulsion Block交易案例"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_001_nq_5分钟图_订单块验证失败案例",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ 5分钟图：缺乏HTF支撑的订单块验证失败案例"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_006_回测结果总结",
+      "video_id": "TNybDCtwBnc",
+      "title": "五笔回测总结：80%胜率，2.79R平均收益验证"
+    },
+    {
+      "card_id": "Y8DkNYhq0X0_case_004_标普500_5分钟均值阈值入场对比",
+      "video_id": "Y8DkNYhq0X0",
+      "title": "标普500 5分钟均值阈值入场对比"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_017_回测第十五天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第十五天：FVG做多入场被止损出局"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_019_回测第十七天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第十七天：FVG扫低后反弹做多，3R获利移至保本"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "original_card_id": "DMUiDBnTYc8_concept_stop_loss",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        698.8389999999999,
+        877.36
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136035Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

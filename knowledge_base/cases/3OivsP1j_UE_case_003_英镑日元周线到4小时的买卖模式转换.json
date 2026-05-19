@@ -1,0 +1,115 @@
+{
+  "card_id": "3OivsP1j_UE_case_003_英镑日元周线到4小时的买卖模式转换",
+  "type": "case",
+  "title": "GBPJPY 周线到4小时的卖买模式转换与流动性追踪",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Buy Model / Sell Model",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "liquidity",
+    "swing_high_swing_low",
+    "internal_range_liquidity",
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "GBPJPY",
+  "timeframe": "4H",
+  "market_context": "GBPJPY在周线上突破旧高点后，从外部流动性进入内部流动性区域。4小时图显示价格从卖方模式转向买方模式，通过结构改变和订单块形成高概率入场机会。",
+  "key_observation": "博主观察到GBPJPY在周线上取出旧高后，4小时图形成了从内部流动性到外部流动性的完整转换，期间通过FVG回测和订单块入场实现了从卖方模式到买方模式的转变。",
+  "analysis_steps": [
+    "Step 1: 在周线上识别旧高点被突破，标记外部流动性（约188.000）和内部流动性（约184.500）",
+    "Step 2: 下移至4小时图，观察价格以位移形式跌破旧高，随后回测进入FVG（内部流动性）",
+    "Step 3: 识别4小时图上的结构改变信号（CSD），价格突破新高点预示从卖方模式转向买方模式",
+    "Step 4: 在4小时新形成的FVG处标记内部流动性，预期价格继续上行至外部流动性",
+    "Step 5: 下移至15分钟图确认价格在FVG处整固，寻找订单块入场点",
+    "Step 6: 确认订单块入场，止损设在被扫除的旧低点，目标指向4小时外部流动性或周线旧高"
+  ],
+  "outcome": "价格成功触及4小时外部流动性目标（约188.300），随后继续上行至周线旧高点（约188.000），完成了从内部到外部流动性的追踪，目标达成。",
+  "lessons": "通过多时间框架的流动性分析，从周线的外部→内部→外部转换框架4小时的卖→买模式转变，再用低时间框架精确入场，体现了ICT中从高到低时间框架的递进分析方法，以及结构改变作为模式转换信号的重要性。",
+  "primary_image": "cards/3OivsP1j_UE/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/3OivsP1j_UE/images/case_003_detail_1.jpg",
+    "cards/3OivsP1j_UE/images/case_003_detail_2.jpg",
+    "cards/3OivsP1j_UE/images/case_003_detail_3.jpg",
+    "cards/3OivsP1j_UE/images/case_003_detail_4.jpg",
+    "cards/3OivsP1j_UE/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "GBP/JPY 240 分钟 K 线图，可见价格范围约 182.500 至 188.500。图上标注两个文字标签：'External Range Liquidity' 对应上方绿色矩形区域，'Internal Range Liquidity' 对应下方灰色矩形区域。两个矩形均绘制于最后一根 K 线右侧的未来区域。绿色矩形顶部标注目标信息框，显示 Target 2.736、Amount 205099",
+    "case_003_detail_1.jpg": "GBPJPY 周线 K 线图，可见价格范围约从 177.000 至 192.000。图左侧有一根大绿色 K 线主体，随后多根交替绿黑 K 线分布于 181.000 至 185.500 区间。图中部可见多根较小 K 线在 181.000 至 184.500 区间内排列。图右侧出现一根上影线延伸至约 187.500 至 188.000 的绿色 K 线。图上有一条虚线水平线位于约 178.497。左侧价",
+    "case_003_detail_2.jpg": "GBPJPY 周线K线图，时间范围覆盖2023年6月至2024年4月。图右侧价格轴显示当前价格标签约为186.480与184.215。图上有两个矩形框标注：一个覆盖约183.500至186.500区间，另一个覆盖约177.500至184.000区间。图上另有一条垂直虚线标注于2023年10月30日附近，以及两条短水平线位于约184.300与183.800。最右侧两根K线均为阳线，上影线延伸至约18",
+    "case_003_detail_3.jpg": "GBPJPY 240 分钟 K 线图，图上标注来源为 TTrades_edu。可见价格范围约从 182.500 至 188.500。图上有两条带文字标签的水平线：约 188.000 处标记为 'External Range Liquidity'，约 184.500 处标记为 'Internal Range Liquidity'。另有两条无标签水平线分别位于约 187.000 和 183.500。左",
+    "case_003_detail_4.jpg": "GBP/JPY 240 分钟 K 线图，时间范围覆盖 10 月 30 日至 12 月 11 日。图上有四条水平线：约 188.000 处标注为 External Range Liquidity，约 184.500 处标注为 Internal Range Liquidity，另有约 186.500 和 183.500 处各一条无标签水平线。图左侧价格轴显示当前价格标签 185.179（绿色高亮）及 ",
+    "case_003_detail_5.jpg": "GBP/JPY 240 分钟 K 线图，图上标注来源为 TTrades_edu。图右侧价格轴当前价标签显示 187.139，可见价格范围约 185.000 至 188.800。图上有一条带文字标签的水平线，标注为 External Range Liquidity，位于约 188.300 处，横跨图表大部分区域。另有两条无标签水平线分别位于约 186.400 和 185.500 附近。图中 Nov "
+  },
+  "sources": [
+    {
+      "video_id": "3OivsP1j_UE",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        351.84000000000003,
+        713.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了GBPJPY从周线到4小时的分析过程，清晰标注了流动性水平、结构转变点、入场点和目标，并给出了具体的交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:20:32.684715Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPJPY 周线到4小时的卖买模式转换与流动性追踪\",\"school\":\"ICT\",\"asset\":\"GBPJPY\",\"timeframe\":\"4H\",\"market_context\":\"GBPJPY在周线上突破旧高点后，从外部流动性进入内部流动性区域。4小时图显示价格从卖方模式转向买方模式，通过结构改变和订单块形成高概率入场机会。\",\"key_observation\":\"博主观察到GBPJPY在周线上取出旧高后，4小时图形成了从内部流动性到外部流动性的完整转换，期间通过FVG回测和订单块入场实现了从卖方模式到买方模式的转变。\",\"analysis_steps\":[\"Step 1: 在周线上识别旧高点被突破，标记外部流动性（约188.000）和内部流动性（约184.500）\",\"Step 2: 下移至4小时图，观察价格以位移形式跌破旧高，随后回测进入FVG（内部流动性）\",\"Step 3: 识别4小时图上的结构改变信号（CSD），价格突破新高点预示从卖方模式转向买方模式\",\"Step 4: 在4小时新形成的FVG处标记内部流动性，预期价格继续上行至外部流动性\",\"Step 5: 下移至15分钟图确认价格在FVG处整固，寻找订单块入场点\",\"Step 6: 确认订单块入场，止损设在被扫除的旧低点，目标指向4小时外部流动性或周线旧高\"],\"outcome\":\"价格成功触及4小时外部流动性目标（约188.300），随后继续上行至周线旧高点（约188.000），完成了从内部到外部流动性的追踪，目标达成。\",\"lessons\":\"通过多时间框架的流动性分析，从周线的外部→内部→外部转换框架4小时的卖→买模式转变，再用低时间框架精确入场，体现了ICT中从高到低时间框架的递进分析方法，以及结构改变作为模式转换信号的重要性。\",\"primary_image_frame_id\":\"3OivsP1j_UE_f017\",\"supporting_image_frame_ids\":[\"3OivsP1j_UE_f001\",\"3OivsP1j_UE_f014\",\"3OivsP1j_UE_f015\",\"3OivsP1j_UE_f016\",\"3OivsP1j_UE_f018\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Liquidity\",\"External Range Liquidity\",\"Internal Range Liquidity\",\"Market Structure Shift (MSS)\",\"Change in the state of delivery (CSD)\",\"Displacement\",\"Buy Model / Sell Model\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了GBPJPY从周线到4小时的分析过程，清晰标注了流动性水平、结构转变点、入场点和目标，并给出了具体的交易结果。\"}",
+  "error": null
+}

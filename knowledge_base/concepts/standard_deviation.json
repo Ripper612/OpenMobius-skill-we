@@ -1,0 +1,96 @@
+{
+  "card_id": "standard_deviation",
+  "type": "merged_concept",
+  "canonical_term": "Standard Deviation",
+  "aliases": [
+    "标准差"
+  ],
+  "school": "ICT",
+  "definition": "衡量价格波动幅度的统计工具。在交易中，2-4标准差水平用于识别潜在的回撤或反转区域，作为价格目标和风险管理的参考。",
+  "identification_rules": [
+    "在伦敦时段高点和当前低点之间的价格投影中，2-2.5标准差水平标记潜在回撤或反转区域",
+    "4标准差水平可作为更远的价格目标或极端波动的参考点",
+    "结合伦敦操纵（London Manipulation）的高低点进行投影计算"
+  ],
+  "trading_implication": "标准差帮助交易者在特定价格水平预期反转或回撤。在ICT框架中，2-2.5标准差常用于设定中期目标或止损参考，4标准差用于识别极端目标。与订单块、公允价值缺口等结构性工具结合使用，提高交易的概率性。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FAKWJ-1NlLE_case_004_nq_5分钟1小时模型看跌案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ 5分钟1小时模型看跌案例 - 浅wick确认与FVG止损"
+    },
+    {
+      "card_id": "MPeeE55rNOw_case_003_nq日内完整交易流程分析",
+      "video_id": "MPeeE55rNOw",
+      "title": "NQ日内完整交易流程：亚洲扫盘到纽约会话的FVG与OB应用"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_002_box设置与标准差结合的交易案例",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "Box框架与标准差结合的操纵腿投影与反转交易"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_007_伦敦时段的投影与派发预测",
+      "video_id": "TCFvsZeYvV8",
+      "title": "伦敦时段操纵腿投影与派发预测"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_008_日线收盘形成与派发完成",
+      "video_id": "TCFvsZeYvV8",
+      "title": "日线AMD模式：午夜操纵形成下影线，派发完成实体"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_005_伦敦时段到纽约时段的完整交易设置",
+      "video_id": "kTWXpAo1uE8",
+      "title": "伦敦积累操纵到纽约分布的完整交易设置"
+    },
+    {
+      "card_id": "upHS7SDL9kg_case_003_ym_5分钟图大操纵腿处理",
+      "video_id": "upHS7SDL9kg",
+      "title": "YM 5分钟图大操纵腿使用-1标准差目标反转"
+    },
+    {
+      "card_id": "wwMjc9RfpCg_case_001_标普500期货小时图操纵腿案例",
+      "video_id": "wwMjc9RfpCg",
+      "title": "标普500期货1小时图操纵腿与标准差目标确认"
+    },
+    {
+      "card_id": "wwMjc9RfpCg_case_002_标普500期货四小时fvg到两分钟图案例",
+      "video_id": "wwMjc9RfpCg",
+      "title": "标普500期货四小时FVG到两分钟图操纵腿与标准差目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MPeeE55rNOw",
+      "original_card_id": "MPeeE55rNOw_concept_standard_deviation",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        550.6,
+        729.6
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135990Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

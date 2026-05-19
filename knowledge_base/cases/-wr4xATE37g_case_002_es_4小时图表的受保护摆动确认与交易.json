@@ -1,0 +1,91 @@
+{
+  "card_id": "-wr4xATE37g_case_002_es_4小时图表的受保护摆动确认与交易",
+  "type": "case",
+  "title": "ES 4小时图表：日线看跌收盘确认受保护摆动卖出",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Bearish Closure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "fair_value_gap",
+    "market_structure_shift",
+    "time_frame_confluence",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "4H",
+  "market_context": "ES在日线形成看跌收盘，预期价格继续下行。博主利用日线叙述在4小时图表上精细化分析，通过FVG预期和15分钟图表确认受保护摆动高点，形成低风险卖出机会。",
+  "key_observation": "日线看跌收盘后，价格在4小时FVG区域形成高点并收回，确认该高点应保持完整；15分钟图表显示受保护摆动高点被突破，预示继续下行。",
+  "analysis_steps": [
+    "Step 1: 观察日线图表，识别看跌收盘信号，预期价格继续下行。",
+    "Step 2: 在4小时图表上定位日线下半部分的FVG区域，预期价格回撤至此区域形成高点。",
+    "Step 3: 等待多根K线确认看跌收盘，价格收回至范围内，确认该高点应保持完整。",
+    "Step 4: 下钻至15分钟图表，寻找受保护摆动高点。",
+    "Step 5: 在15分钟图表上确认一系列上升收盘K线形成的高点，以及价格是否已突破该高点。",
+    "Step 6: 确认价格已收盘突破该高点，预期其保持完整，形成卖出信号。",
+    "Step 7: 监控新的受保护摆动高点形成条件，需要价格收盘突破新高点位置。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架协同分析提高确认质量：日线看跌收盘提供方向预期，4小时FVG定位回撤区域，15分钟受保护摆动确认具体入场点。受保护摆动需要收盘突破确认，而非仅触及。",
+  "primary_image": "cards/-wr4xATE37g/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/-wr4xATE37g/images/case_002_detail_1.jpg",
+    "cards/-wr4xATE37g/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示标注为 USD 的资产在 4 小时时间框架下的 K 线图，可见价格范围约从 5500 至 6000。图上有一个橙黄色矩形框标注于约 5680 至 5740 区间，覆盖约 2 至 3 根 K 线。一条红色弧形箭头从矩形框内约 5700 处向下延伸至约 5540 处，箭头末端指向光标位置。图右侧有两条水平虚线，分别位于约 5700 和约 5380 处。左侧价格轴当前高亮标签显示 5597.00",
+    "case_002_detail_1.jpg": "EURUSD 日线 K 线图，可见价格范围约从 1.01000 到 1.07000。图上绘有一个较大的蓝色矩形框，覆盖约 11 月 22 日至 12 月 18 日区间，价格范围约 1.03500 至 1.06000。另有一个较小的蓝色矩形框，覆盖约 12 月 18 日至 12 月 30 日区间，价格范围约 1.03500 至 1.04500。图上另有两条水平线分别位于约 1.04500 和 1.0",
+    "case_002_detail_2.jpg": "图表显示资产代码含 USD、时间框架为 5m 的 K 线图，右侧价格轴当前高亮标签为 5686.75。图上有一个浅橙色填充矩形区域，覆盖约 5700 至 5740 价格范围，横跨图表大部分宽度。图右侧可见两根较大的黑色阴线 K 线。图中央有一个下拉菜单弹窗，列出多个绘图模板选项，包括 mss、ob、SMT (high)、SMT (low) 等文字标签，该弹窗遮挡了部分图表内容。可见价格范围约从 5"
+  },
+  "sources": [
+    {
+      "video_id": "-wr4xATE37g",
+      "segment_ids": [
+        "seg_010"
+      ],
+      "time_range": [
+        639.279,
+        746.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线→4小时→15分钟的分析流程，清晰标注了FVG、受保护摆动高点、收盘确认等关键要素，资产代码ES、时间框架4H明确，分析步骤按讲解顺序完整记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:05:46.761886Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 4小时图表：日线看跌收盘确认受保护摆动卖出\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"4H\",\"market_context\":\"ES在日线形成看跌收盘，预期价格继续下行。博主利用日线叙述在4小时图表上精细化分析，通过FVG预期和15分钟图表确认受保护摆动高点，形成低风险卖出机会。\",\"key_observation\":\"日线看跌收盘后，价格在4小时FVG区域形成高点并收回，确认该高点应保持完整；15分钟图表显示受保护摆动高点被突破，预示继续下行。\",\"analysis_steps\":[\"Step 1: 观察日线图表，识别看跌收盘信号，预期价格继续下行。\",\"Step 2: 在4小时图表上定位日线下半部分的FVG区域，预期价格回撤至此区域形成高点。\",\"Step 3: 等待多根K线确认看跌收盘，价格收回至范围内，确认该高点应保持完整。\",\"Step 4: 下钻至15分钟图表，寻找受保护摆动高点。\",\"Step 5: 在15分钟图表上确认一系列上升收盘K线形成的高点，以及价格是否已突破该高点。\",\"Step 6: 确认价格已收盘突破该高点，预期其保持完整，形成卖出信号。\",\"Step 7: 监控新的受保护摆动高点形成条件，需要价格收盘突破新高点位置。\"],\"outcome\":null,\"lessons\":\"多时间框架协同分析提高确认质量：日线看跌收盘提供方向预期，4小时FVG定位回撤区域，15分钟受保护摆动确认具体入场点。受保护摆动需要收盘突破确认，而非仅触及。\",\"primary_image_frame_id\":\"-wr4xATE37g_f024\",\"supporting_image_frame_ids\":[\"-wr4xATE37g_f023\",\"-wr4xATE37g_f025\"],\"related_concepts\":[\"Protected Swing\",\"Fair Value Gap\",\"Market Structure Shift\",\"Multi-timeframe Analysis\",\"Bearish Closure\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线→4小时→15分钟的分析流程，清晰标注了FVG、受保护摆动高点、收盘确认等关键要素，资产代码ES、时间框架4H明确，分析步骤按讲解顺序完整记录。\"}",
+  "error": null
+}

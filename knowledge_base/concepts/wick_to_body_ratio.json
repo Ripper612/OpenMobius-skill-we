@@ -1,0 +1,60 @@
+{
+  "card_id": "wick_to_body_ratio",
+  "type": "merged_concept",
+  "canonical_term": "Wick-to-Body Ratio",
+  "aliases": [
+    "Wick relative to body",
+    "影线与实体比例"
+  ],
+  "school": "Price Action",
+  "definition": "K线影线与实体的相对大小关系。影线较小表示方向性K线，影线较大表示反转或犹豫K线，用于区分价格运动的性质。",
+  "identification_rules": [
+    "方向性K线：影线明显小于实体，表示价格单向运动占主导",
+    "反转K线：影线明显大于实体，表示价格先向一方运动后反向回撤",
+    "犹豫K线：上下影线都较长，实体较小，表示开盘价与收盘价接近，缺乏方向性"
+  ],
+  "trading_implication": "影线与实体的比例帮助交易者识别K线类型，从而判断市场状态。方向性K线（小影线）表示趋势延续的可能；反转K线（大影线）表示可能的反转或拒绝；犹豫K线（均衡影线）表示市场缺乏方向。这三种K线类型的组合模式可用于预测后续价格走势。",
+  "common_mistakes": [
+    "混淆影线大小与K线强度：大影线不一定表示弱势，可能表示反转或市场犹豫",
+    "忽视时间框架差异：同一根高时间框架K线的影线由低时间框架多根K线组成，需要观察低时间框架形成过程",
+    "单独使用影线比例判断：应结合方向偏差（directional bias）和市场结构综合分析"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "sIcsLFSNoXM_case_002_轻质原油期货多日方向性k线后的反转",
+      "video_id": "sIcsLFSNoXM",
+      "title": "轻质原油日线三日方向性K线后的看跌反转"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "original_card_id": "sIcsLFSNoXM_concept_wick_to_body_ratio",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        10.519,
+        549.32
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136766Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

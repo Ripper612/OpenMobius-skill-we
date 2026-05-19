@@ -1,0 +1,55 @@
+{
+  "card_id": "session_high_and_low",
+  "type": "merged_concept",
+  "canonical_term": "Session High and Low",
+  "aliases": [
+    "Asia session high/low",
+    "London session high/low",
+    "New York session high/low",
+    "Session highs and lows"
+  ],
+  "school": "ICT",
+  "definition": "特定交易时段（如亚洲、伦敦、纽约）内形成的最高价和最低价。用于标记关键流动性水平，帮助交易者框架反转、识别交易目标和流动性吸引点。",
+  "identification_rules": [
+    "识别特定交易时段的开始和结束时间（如亚洲盘、伦敦盘、纽约盘）",
+    "在该时段内找出最高的K线高点，标记为该时段的Session High",
+    "在该时段内找出最低的K线低点，标记为该时段的Session Low",
+    "在图表上用水平线标注这些价格水平，便于后续参考"
+  ],
+  "trading_implication": "Session High和Low是重要的流动性参考点，可用于三个目的：（1）框架反转——价格突破或回测这些水平时预示趋势变化；（2）交易目标——价格运动时以未被触及的Session High/Low作为目标位；（3）流动性吸引——价格倾向于扫荡这些水平以吸收订单。跨越多个时段的Session High/Low可形成相对相等的高点或低点，增强其作为支撑/阻力的有效性。",
+  "common_mistakes": [
+    "材料中未明确提到常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "U8xH2dEgH5A",
+      "original_card_id": "U8xH2dEgH5A_concept_session_high_and_low",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        254.58,
+        586.82
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135602Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

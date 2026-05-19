@@ -1,0 +1,87 @@
+{
+  "card_id": "o0v4KQxZbpU_case_002_第二个silver_bullet交易案例",
+  "type": "case",
+  "title": "Silver Bullet窗口内价格未能有效扫盘的反转失败案例",
+  "related_concepts": [
+    {
+      "term": "Silver Bullet",
+      "card_id": "silver_bullet",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "silver_bullet",
+    "liquidity",
+    "market_structure",
+    "order_block",
+    "killzone"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1M",
+  "market_context": "9:00 AM开盘后价格形成高低点，博主在1分钟图上标记10-11 AM Silver Bullet交易窗口，观察该时段内的价格反转信号和流动性扫荡情况。",
+  "key_observation": "在Silver Bullet窗口（10-11 AM）内，价格未能有效扫盘9:00 AM的高低点，反转信号不符合交易条件，因此不构成有效的交易机会。",
+  "analysis_steps": [
+    "Step 1: 从9:00 AM K线标记出该根蜡烛的高点和低点作为参考水平。",
+    "Step 2: 在1分钟图上用垂直线标记10:00 AM和11:00 AM时间点，确定Silver Bullet交易窗口范围。",
+    "Step 3: 观察10-11 AM窗口内价格行动，检查是否出现向9:00 AM高低点的扫盘（流动性猎取）。",
+    "Step 4: 评估价格在该窗口内的反转信号强度和结构完整性。",
+    "Step 5: 确认价格未能有效扫盘，反转条件不满足，判定为无效交易设置。"
+  ],
+  "outcome": "价格在Silver Bullet窗口内未能形成有效的反转交易机会，不符合入场条件，案例作为反面教学示例说明何时应该避免交易。",
+  "lessons": "Silver Bullet窗口是高概率交易时段，但并非所有时段都会产生有效信号。必须等待价格完整扫盘流动性并形成明确反转结构，否则应避免交易。不是所有符合时间窗口的价格行动都值得交易。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_002_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 1 分钟 K 线图。图上显示时间范围从 09:40 至 12:00。可见价格范围约从 15044.00 至 13160.00。图上有两个矩形标注区域：一个灰色矩形约在 10:15 至 10:30 时段，另一个浅蓝色矩形约在 10:30 至 10:50 时段，两者均覆盖约 13100 至 13140 的价格区间。图上有三条水平线分别位于 13144.00、13121.25 和 15048.0",
+    "case_002_detail_1.jpg": "USD 1 分钟 K 线图。图上显示从 09:45 至 11:10 的价格走势，价格范围约 15770 至 15930。左侧显示一段绿色 K 线后跟随黑色 K 线的下跌，随后在 15810 附近形成整理。图上标注有两个价格标签：15841.50 和 [0:00]，其中 [0:00] 处有矩形框标注。从 10:05 开始出现绿色 K 线上升，之后 K 线呈混合颜色在 15830 至 15850 区间"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        183.92,
+        210.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰标记了9:00 AM高低点、10-11 AM窗口，明确说明价格未能有效扫盘，不符合交易条件。两张图表完整展示了分析过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:29.039585Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"Silver Bullet窗口内价格未能有效扫盘的反转失败案例\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1M\",\"market_context\":\"9:00 AM开盘后价格形成高低点，博主在1分钟图上标记10-11 AM Silver Bullet交易窗口，观察该时段内的价格反转信号和流动性扫荡情况。\",\"key_observation\":\"在Silver Bullet窗口（10-11 AM）内，价格未能有效扫盘9:00 AM的高低点，反转信号不符合交易条件，因此不构成有效的交易机会。\",\"analysis_steps\":[\"Step 1: 从9:00 AM K线标记出该根蜡烛的高点和低点作为参考水平。\",\"Step 2: 在1分钟图上用垂直线标记10:00 AM和11:00 AM时间点，确定Silver Bullet交易窗口范围。\",\"Step 3: 观察10-11 AM窗口内价格行动，检查是否出现向9:00 AM高低点的扫盘（流动性猎取）。\",\"Step 4: 评估价格在该窗口内的反转信号强度和结构完整性。\",\"Step 5: 确认价格未能有效扫盘，反转条件不满足，判定为无效交易设置。\"],\"outcome\":\"价格在Silver Bullet窗口内未能形成有效的反转交易机会，不符合入场条件，案例作为反面教学示例说明何时应该避免交易。\",\"lessons\":\"Silver Bullet窗口是高概率交易时段，但并非所有时段都会产生有效信号。必须等待价格完整扫盘流动性并形成明确反转结构，否则应避免交易。不是所有符合时间窗口的价格行动都值得交易。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f007\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f008\"],\"related_concepts\":[\"Silver Bullet\",\"Liquidity\",\"Market Structure\",\"Order Block\",\"Killzone\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰标记了9:00 AM高低点、10-11 AM窗口，明确说明价格未能有效扫盘，不符合交易条件。两张图表完整展示了分析过程。\"}",
+  "error": null
+}

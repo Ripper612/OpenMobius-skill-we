@@ -1,0 +1,109 @@
+{
+  "card_id": "E89d1HArbgM_case_003_原油日线的虚假突破与真实结构转变",
+  "type": "case",
+  "title": "原油日线虚假突破与三层结构转变信号",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "inversion",
+    "change_in_state_of_delivery_csd",
+    "market_structure_shift_mss",
+    "buyside_sellside_liquidity",
+    "premium_discount_premium_",
+    "breaker_block"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "1D",
+  "market_context": "原油在2023年9月底触及买停和旧月高点（约91.50），随后价格反转下行。博主展示价格如何通过三种不同的信号方式验证从看涨到看跌的转变。",
+  "key_observation": "价格先触及买停和旧高点引发虚假突破，随后通过Inversion、CSD和MSS三层递进的信号验证结构转变，其中CSD和MSS出现的时间明显晚于Inversion。",
+  "analysis_steps": [
+    "Step 1: 识别旧月高点（约91.50）和买停位置，观察价格是否会触及这些流动性区域。",
+    "Step 2: 监测看涨FVG被收盘价突破的情况，判断是否形成Inversion信号。",
+    "Step 3: 观察一系列上升收盘K线被突破的情况，验证Change in State of Delivery（CSD）。",
+    "Step 4: 等待摆动低点被突破并收盘，确认完整的Market Structure Shift（MSS）。",
+    "Step 5: 在MSS确认后，寻找价格回测到溢价区或订单块的区域，作为做空的高概率入场点。",
+    "Step 6: 观察后续K线形成新的订单块，并在其被回测后继续下行，验证结构转变的有效性。"
+  ],
+  "outcome": null,
+  "lessons": "Inversion和CSD信号会比完整的MSS更早出现，可用于提前入场；但MSS提供更强的结构确认。三种信号的先后顺序很重要：Inversion→CSD→MSS。交易者应根据自己的风险偏好选择在哪个信号阶段入场，而不必等待所有三个信号同时出现。",
+  "primary_image": "cards/E89d1HArbgM/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/E89d1HArbgM/images/case_003_detail_1.jpg",
+    "cards/E89d1HArbgM/images/case_003_detail_2.jpg",
+    "cards/E89d1HArbgM/images/case_003_detail_3.jpg",
+    "cards/E89d1HArbgM/images/case_003_detail_4.jpg",
+    "cards/E89d1HArbgM/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 CL1!（原油期货）日线 K 线图，可见价格范围约 84.50 至 93.50。图上标注有一个带文字标签'Buy Stops'的白色矩形框，位于约 90.50 至 91.50 区间。另有一个黄色矩形框覆盖约 89.50 至 90.50 区间，以及一个白色矩形框位于约 87.00 至 90.00 区间。图上有一条蓝色水平线位于约 88.50，一条虚线水平线位于约 88.22（当前价标签）。最",
+    "case_003_detail_1.jpg": "图表为 CL1!（原油期货）日线 K 线图，时间轴覆盖 2023 年 8 月底至 10 月初。图右侧价格轴显示当前价约 90.60，另有两条水平线分别位于 91.50 和 89.32 附近。图上有一个矩形标注框，标签文字为 'Buy Stop'，位于约 91.00 至 91.50 区间。K 线序列整体自左下方约 83.50 向右上方延伸至约 93.00，右侧出现两根较大绿色 K 线后紧接一根较大黑",
+    "case_003_detail_2.jpg": "图表为 CL1!（原油期货）日线 K 线图，可见价格范围约 82.00 至 93.00。图上有一个带文字标签'Buy from'的虚线矩形框，覆盖约 89.00 至 91.00 区间。另有一个黄色填充矩形标注于约 89.00 至 90.50 区间，与多根 K 线重叠。图上还有一条水平蓝色线位于约 88.50 处。左侧价格轴显示当前价标签 89.57 及另一标签 83.23。图右侧可见一根跨度较大的",
+    "case_003_detail_3.jpg": "CL1! 日线蜡烛图，可见价格范围约从 77.50 到 96.00。图上标注一条带文字标签的水平线，位于约 91.50 处，标记为 'Buy Stops'。另有一条蓝色水平线位于约 88.50 处延伸至图右侧。图上有两个矩形标注：一个黄色/橙色矩形位于约 89.50 至 91.00 区间，另一个浅绿色大矩形覆盖约 81.00 至 93.50 的价格区间及对应时间段。图右侧价格轴当前价格标签显示约 ",
+    "case_003_detail_4.jpg": "图表为 CL1!（原油期货）日线蜡烛图，可见价格范围约从 77.50 至 96.00。图上有一条水平线位于约 91.50 处，标注文字为 'Buy Stop'；另有两条无标签水平线分别位于约 88.00 和 85.50 附近。图上绘有两个矩形框：一个位于约 91.00 至 93.50 区间（浅橙色），另一个位于约 81.00 至 88.50 区间（浅绿色）。图右下角时间标签显示 'Tue 17 O",
+    "case_003_detail_5.jpg": "CL1! 日线蜡烛图，可见价格范围约从 72.00 至 95.00。图上有一条带文字标签的水平线，位于约 91.00 处，标注为 'Key High'。图中约 90.00 至 93.50 区间存在一个浅粉色矩形标注区域，位于图表中部偏右位置。另有两条蓝色水平线段，分别位于约 88.00 和 83.00 处。K 线整体呈先升后降走势，从左侧约 72.00 上行至约 93.50 后转为下行，右侧出现数"
+  },
+  "sources": [
+    {
+      "video_id": "E89d1HArbgM",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.12,
+        546.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三层信号的形成过程、时间顺序和实际图表标注，资产、时间框架、关键价位均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:19.911272Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油日线虚假突破与三层结构转变信号\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"1D\",\"market_context\":\"原油在2023年9月底触及买停和旧月高点（约91.50），随后价格反转下行。博主展示价格如何通过三种不同的信号方式验证从看涨到看跌的转变。\",\"key_observation\":\"价格先触及买停和旧高点引发虚假突破，随后通过Inversion、CSD和MSS三层递进的信号验证结构转变，其中CSD和MSS出现的时间明显晚于Inversion。\",\"analysis_steps\":[\"Step 1: 识别旧月高点（约91.50）和买停位置，观察价格是否会触及这些流动性区域。\",\"Step 2: 监测看涨FVG被收盘价突破的情况，判断是否形成Inversion信号。\",\"Step 3: 观察一系列上升收盘K线被突破的情况，验证Change in State of Delivery（CSD）。\",\"Step 4: 等待摆动低点被突破并收盘，确认完整的Market Structure Shift（MSS）。\",\"Step 5: 在MSS确认后，寻找价格回测到溢价区或订单块的区域，作为做空的高概率入场点。\",\"Step 6: 观察后续K线形成新的订单块，并在其被回测后继续下行，验证结构转变的有效性。\"],\"outcome\":null,\"lessons\":\"Inversion和CSD信号会比完整的MSS更早出现，可用于提前入场；但MSS提供更强的结构确认。三种信号的先后顺序很重要：Inversion→CSD→MSS。交易者应根据自己的风险偏好选择在哪个信号阶段入场，而不必等待所有三个信号同时出现。\",\"primary_image_frame_id\":\"E89d1HArbgM_f015\",\"supporting_image_frame_ids\":[\"E89d1HArbgM_f014\",\"E89d1HArbgM_f016\",\"E89d1HArbgM_f017\",\"E89d1HArbgM_f018\",\"E89d1HArbgM_f019\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Inversion\",\"Change in State of Delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Buyside Liquidity\",\"Buy Stops\",\"Premium/Discount\",\"Breaker Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三层信号的形成过程、时间顺序和实际图表标注，资产、时间框架、关键价位均清晰可读。\"}",
+  "error": null
+}

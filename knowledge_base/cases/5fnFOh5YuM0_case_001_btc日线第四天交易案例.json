@@ -1,0 +1,144 @@
+{
+  "card_id": "5fnFOh5YuM0_case_001_btc日线第四天交易案例",
+  "type": "case",
+  "title": "BTC日线第四天交易案例：从摆动低点到多时间框架入场",
+  "related_concepts": [
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Top Down Analysis",
+      "card_id": "top_down_analysis_top_down",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "swing_formation",
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "smart_money_technique_smt",
+    "fair_value_gap_fvg",
+    "equilibrium_eq",
+    "order_block_ob",
+    "premium_discount_premium_",
+    "liquidity",
+    "top_down_analysis_top_down",
+    "killzone",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1D",
+  "market_context": "BTC日线形成摆动低点，确认市场结构转变（CSD）从看跌转向看涨。博主通过识别日线第四天的特征，结合30分钟和3分钟时间框架的PD数组，在伦敦和纽约交易时段执行交易。",
+  "key_observation": "日线形成有效摆动低点（两侧各有更高的低点），且ES扫除了先前摆动高点的低点，形成SMT，确认看涨偏差。第三根K线的上半部分突破预示强势延续。",
+  "analysis_steps": [
+    "Step 1: 识别日线摆动低点——确认低点两侧各有更高的低点，满足摆动低点定义。",
+    "Step 2: 检查先前摆动高点——发现该高点由FVG形成，但ES已扫除其低点，形成SMT，表明看涨偏差。",
+    "Step 3: 确认市场结构转变（CSD）——通过看跌K线收盘穿过SMT形成的低点，确认日线从看跌转向看涨。",
+    "Step 4: 标记第三根K线的均衡点（EQ）——预期价格在上半部分突破以显示强势，避免深度回撤至折价区。",
+    "Step 5: 在30分钟时间框架上寻找日线wick形成——等待价格在前一根K线EQ上方形成低点，设置无效水平。",
+    "Step 6: 识别30分钟的扩张与整固——观察到扩张后的整固，预期再次测试低点。",
+    "Step 7: 伦敦时段分析——价格接近低点但未突破，与ES形成SMT，确认低点将持稳。",
+    "Step 8: 确认伦敦反转——看跌K线收盘穿过SMT形成的低点，预期纽约延续。",
+    "Step 9: 纽约时段识别FVG——在30分钟高时间框架K线中形成多个FVG，等待低时间框架价格行为。",
+    "Step 10: 3分钟时间框架分析——识别扩张与整固，预期在8:30或9:30新闻驱动前再次测试低点。",
+    "Step 11: 8:30新闻驱动确认——3分钟、30分钟、日线三个时间框架同向对齐，看跌K线穿过低点形成CSD。",
+    "Step 12: 执行交易——在CSD确认处入场，止损设在低点，目标2R收益。"
+  ],
+  "outcome": "成功获得2R收益。三个时间框架（日线、30分钟、3分钟）在新闻驱动时段完全对齐，确认了交易的有效性。",
+  "lessons": "核心要点是多时间框架对齐的重要性。从日线识别摆动低点和市场结构转变确立偏差，在中时间框架（30分钟）找到结构，在低时间框架（3分钟）结合新闻驱动时段（Killzone）寻找最优入场点。SMT和CSD的确认是关键信号。",
+  "primary_image": "cards/5fnFOh5YuM0/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/5fnFOh5YuM0/images/case_001_detail_1.jpg",
+    "cards/5fnFOh5YuM0/images/case_001_detail_2.jpg",
+    "cards/5fnFOh5YuM0/images/case_001_detail_3.jpg",
+    "cards/5fnFOh5YuM0/images/case_001_detail_4.jpg",
+    "cards/5fnFOh5YuM0/images/case_001_detail_5.jpg",
+    "cards/5fnFOh5YuM0/images/case_001_detail_6.jpg",
+    "cards/5fnFOh5YuM0/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为日线蜡烛图，右侧价格轴刻度从约78500延伸至约31400。图上可见一系列黑色K线自高位向下延伸，绿色K线间隔分布其中。图右侧有一条带高亮背景的当前价标签，数值约为79158。图中低位区域绘有一个小矩形框，位于约78500至79500价格区间。时间轴上标注有'Tue 18 Mar 25'的竖向虚线。右侧最新数根K线集中于79000至80500区间，其中包含绿色K线。图上未见其他文字标注或技术",
+    "case_001_detail_1.jpg": "图为教学示意图，标题为'Swing Formation'，无资产代码及时间框架标注，无价格刻度。图上展示两组K线簇：左侧一组3根K线（黑、绿、黑），右侧一组3根K线（绿、黑、黑）位置高于左侧。一条弧形曲线从左侧K线簇底部向下延伸至最低点，标注黄色标签'Swing low'，再向上弯曲延伸至右侧K线簇顶部，标注黄色标签'Swing high'。图左上角有标题文字'Swing Formation'，左",
+    "case_001_detail_2.jpg": "图为教学示意性 K 线图，左上角标注文字'4th Day'，底部水印为'TTrades'。图上有两组 K 线群组：左侧约 6 根 K 线（含黑色与绿色实体），右侧约 4 根 K 线（含绿色与黑色实体）。图上有两个带文字标签的标注框：右上角橙黄色框标注'Swing high'，通过曲线箭头指向右侧 K 线群组的高点；底部橙黄色框标注'Swing low'，通过曲线箭头指向左侧 K 线群组的低点。左侧",
+    "case_001_detail_3.jpg": "图为教学示意幻灯片，标题为'Top Down Analysis'，底部署名'TTrades'，页码为4。图上并排展示三组蜡烛图，从左至右分别标注'Bias'、'Structure'、'Entry'。Structure 面板中有一个虚线矩形框标注于一组K线上方，并有一条水平线延伸至 Entry 面板，标签为'CSD'。Entry 面板中有一条水平线标注'OB'，右侧有一个浅绿色矩形区域覆盖数根K线。",
+    "case_001_detail_4.jpg": "图表为日线K线图，右侧价格刻度从约78700延伸至约22000。图上可见一系列黑色（阴线）K线自图左上方向右下方排列，期间夹杂数根绿色（阳线）K线。图右侧最新数根K线中有一根带有较长下影线，下影线延伸至约79000以下，并在约78800附近可见一个粉色小圆点标记。当前价格标签显示于右侧价格轴约79500处，并有一条虚线水平延伸。时间轴标注显示'Tue 18 Mar 25'位于图下方高亮区域。图上未",
+    "case_001_detail_5.jpg": "ETH 30 分钟 K 线图，可见价格范围约从 19450 到 20280。图上有一条蓝色水平线，位于约 19800 处，从图左侧延伸至图中部约三分之二位置。图左侧 K 线呈现从约 19840 向下至约 19450 后回升的走势，随后 K 线向上延伸至约 20100 至 20280 区域。图右侧可见数根主体较大的绿色与黑色 K 线，主体高度约为 300 至 400 个价格单位。时间轴显示跨越多个交",
+    "case_001_detail_6.jpg": "图表显示 ETH 的 30 分钟 K 线图。图右上角标注资产为 ETH，时间戳显示 12:35:17 UTC-4。图上有一条蓝色水平线位于约 19800 处。左侧区域有约 10 根 K 线在 19780 至 19840 区间内密集排列，并有一个矩形框标注该区域。图中部存在一段空白间隔，右侧出现数根体积较大的绿色与黑色 K 线，最大绿色 K 线主体跨度约从 19470 至 20060，最大黑色 K ",
+    "case_001_detail_7.jpg": "图为 ETH 的 K 线图，右上角显示资产为 ETH。图左侧可见多根 K 线密集分布于约 19700 至 19950 区间，其中有一个矩形标注框围绕约 19700 至 19820 区间。图上有两条水平线，一条实线位于约 19780，一条虚线位于约 19450，虚线延伸至图右侧。图右侧出现三根主体较大的 K 线，分别为绿色、黑色、绿色，主体范围约从 19400 至 20000，最右侧另有一根较小绿色"
+  },
+  "sources": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.12,
+        369.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线摆动低点识别、CSD确认、多时间框架对齐、新闻驱动入场的全过程，并给出了具体的2R交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:26:45.574529Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC日线第四天交易案例：从摆动低点到多时间框架入场\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1D\",\"market_context\":\"BTC日线形成摆动低点，确认市场结构转变（CSD）从看跌转向看涨。博主通过识别日线第四天的特征，结合30分钟和3分钟时间框架的PD数组，在伦敦和纽约交易时段执行交易。\",\"key_observation\":\"日线形成有效摆动低点（两侧各有更高的低点），且ES扫除了先前摆动高点的低点，形成SMT，确认看涨偏差。第三根K线的上半部分突破预示强势延续。\",\"analysis_steps\":[\"Step 1: 识别日线摆动低点——确认低点两侧各有更高的低点，满足摆动低点定义。\",\"Step 2: 检查先前摆动高点——发现该高点由FVG形成，但ES已扫除其低点，形成SMT，表明看涨偏差。\",\"Step 3: 确认市场结构转变（CSD）——通过看跌K线收盘穿过SMT形成的低点，确认日线从看跌转向看涨。\",\"Step 4: 标记第三根K线的均衡点（EQ）——预期价格在上半部分突破以显示强势，避免深度回撤至折价区。\",\"Step 5: 在30分钟时间框架上寻找日线wick形成——等待价格在前一根K线EQ上方形成低点，设置无效水平。\",\"Step 6: 识别30分钟的扩张与整固——观察到扩张后的整固，预期再次测试低点。\",\"Step 7: 伦敦时段分析——价格接近低点但未突破，与ES形成SMT，确认低点将持稳。\",\"Step 8: 确认伦敦反转——看跌K线收盘穿过SMT形成的低点，预期纽约延续。\",\"Step 9: 纽约时段识别FVG——在30分钟高时间框架K线中形成多个FVG，等待低时间框架价格行为。\",\"Step 10: 3分钟时间框架分析——识别扩张与整固，预期在8:30或9:30新闻驱动前再次测试低点。\",\"Step 11: 8:30新闻驱动确认——3分钟、30分钟、日线三个时间框架同向对齐，看跌K线穿过低点形成CSD。\",\"Step 12: 执行交易——在CSD确认处入场，止损设在低点，目标2R收益。\"],\"outcome\":\"成功获得2R收益。三个时间框架（日线、30分钟、3分钟）在新闻驱动时段完全对齐，确认了交易的有效性。\",\"lessons\":\"核心要点是多时间框架对齐的重要性。从日线识别摆动低点和市场结构转变确立偏差，在中时间框架（30分钟）找到结构，在低时间框架（3分钟）结合新闻驱动时段（Killzone）寻找最优入场点。SMT和CSD的确认是关键信号。\",\"primary_image_frame_id\":\"5fnFOh5YuM0_f007\",\"supporting_image_frame_ids\":[\"5fnFOh5YuM0_f002\",\"5fnFOh5YuM0_f004\",\"5fnFOh5YuM0_f005\",\"5fnFOh5YuM0_f006\",\"5fnFOh5YuM0_f008\",\"5fnFOh5YuM0_f009\",\"5fnFOh5YuM0_f010\"],\"related_concepts\":[\"Swing Low\",\"Swing High\",\"Market Structure Shift (MSS)\",\"Change in the State of Delivery (CSD)\",\"Smart Money Technique (SMT)\",\"Fair Value Gap (FVG)\",\"Equilibrium (EQ)\",\"",
+  "error": null
+}

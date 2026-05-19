@@ -1,0 +1,112 @@
+{
+  "card_id": "tZMgGsTqqVM_case_001_s_p_500_e_mini期货日线流动性分配案例",
+  "type": "case",
+  "title": "ES日线流动性分配：MSS后回落吸收下方流动性再上升",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Swing Highs / Lows",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Relative Equal Highs / Lows",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "premium_discount",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1D",
+  "market_context": "2021年11月至2022年7月期间，ES从高点4880下跌至低点3640，吸收下方流动性。随后在4100-4150区间形成MSS，预示趋势反转。当前价格4116.75，处于关键结构转折点。",
+  "key_observation": "博主识别出价格在下方吸收流动性后上升至4300附近形成相等高点，MSS后预期回落至4070以下吸收下方流动性，再上升至4300目标。日线偏多但短期需回落确认。",
+  "analysis_steps": [
+    "Step 1: 识别前期流动性吸收点——价格从高点4880下跌至3640，吸收下方卖方流动性。",
+    "Step 2: 标记摆动高低点和相等高低点——在4300、4160、4040等关键水平标记相等高点和流动性汇集区。",
+    "Step 3: 确认市场结构转变（MSS）——价格在4100-4150区间突破前期摆动低点，形成MSS信号，预示从下跌转为上升。",
+    "Step 4: 识别公允价值缺口和订单块——在4000-4040区间标记灰色矩形，表示待填补的FVG和流动性区域。",
+    "Step 5: 判断折价/溢价区间——价格当前处于折价区（相对于4300目标），预期先回落至4070吸收流动性。",
+    "Step 6: 制定日线偏多策略——确认日线总体偏多至4300，但短期需等待回落至4070以下确认后再做多。",
+    "Step 7: 在低时间框架（15分钟、5分钟）标记相等低点和目标——4120-4122为近期相等低点，4160、4145、4135为中期阻力。"
+  ],
+  "outcome": null,
+  "lessons": "流动性分配的核心逻辑：价格先吸收一侧流动性，再向另一侧分配。通过识别MSS、相等高低点和FVG，可预测价格最可能的路径。日线偏多但需低时间框架确认，避免在未吸收流动性前盲目入场。",
+  "primary_image": "cards/tZMgGsTqqVM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/tZMgGsTqqVM/images/case_001_detail_1.jpg",
+    "cards/tZMgGsTqqVM/images/case_001_detail_2.jpg",
+    "cards/tZMgGsTqqVM/images/case_001_detail_3.jpg",
+    "cards/tZMgGsTqqVM/images/case_001_detail_4.jpg",
+    "cards/tZMgGsTqqVM/images/case_001_detail_5.jpg",
+    "cards/tZMgGsTqqVM/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 日线图。图上显示从 2021 年 11 月至 2022 年 7 月的价格走势，价格范围约 3840 至 4840。右侧标注有三条水平线分别位于 4280、4160、4040 处。图上有一个标记为'MSS'的矩形框位于 4100-4150 区间，另有一个灰色矩形框位于 4000-4040 区间。右侧最新价格标注为 4122.25，下方显示 3994.75",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 日线图，价格范围从 3640.00 至 4880.00。图上绘有一条水平线位于 3640.00 处。右侧显示一份文字清单，列举了分析要点包括流动性、市场结构、MSS、FVG 与 OB、折价溢价区间及高低点类型。图表左上角显示当前价 4116.75。K 线从 2021 年 3 月起呈上升趋势至 11 月高点，随后下降至 2022 年 6 月低点 3640",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 日线图，时间跨度从 2021 年 11 月至 2022 年 7 月。图上绘有多条水平线，价格范围从 3720 至 4880。右侧显示一份检查清单，列出分析要点包括'Previous Liquidity Taken?'、'Swing highs / lows (Market Structure)'、'Market Structure Shift (MSS",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 图表显示一段时间内的 K 线走势，价格范围从 3990 到 4220。图上有两条水平线分别位于 4070 和 4120，形成一个矩形区间标注。图右侧显示当前价格为 4117.75，涨幅 0.21%。K 线由绿色（上升）和红色（下降）蜡烛组成，下方有成交量指标面板。图表未见其他技术指标或标注。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示价格范围从4100到4185。左侧显示下跌趋势，中间部分出现整理和反弹，右侧显示上升至4165后回落至4120附近。图上有一个粉红色矩形标注位于4120-4122区域。左上角显示当前价格标签4118.00和4118.25。K线由绿色（上升）和红色（下跌）蜡烛组成，整个图表跨越多个交易时段。",
+    "case_001_detail_5.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上可见价格范围从4070到4185。图表中部偏右区域标注了三条水平线，分别位于4160、4145和4135价格水平。同一区域内绘制了两个矩形框，分别覆盖4135至4160和4145至4160的价格范围。K线序列显示从图左侧4185附近下跌至4100附近，随后反弹至4165附近。图右侧显示当前价格为4115.50，以绿色文字标注。",
+    "case_001_detail_6.jpg": "图表显示一份带有多项市场结构分析工具的K线图。左侧为勾选列表，包含'Previous Liquidity Taken'、'Swing highs / lows (Market Structure)'、'Market Structure Shift (MSS)'、'Imbalances (FVG & OB)'等项目。主图区域显示K线走势，价格范围约3640至4760。图上绘有多条水平线和灰色矩形框标"
+  },
+  "sources": [
+    {
+      "video_id": "tZMgGsTqqVM",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.96,
+        345.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线分析框架、关键价位（4300、4160、4040、4070）、MSS标记、流动性分配逻辑和多时间框架确认过程，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:42.319347Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES日线流动性分配：MSS后回落吸收下方流动性再上升\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1D\",\"market_context\":\"2021年11月至2022年7月期间，ES从高点4880下跌至低点3640，吸收下方流动性。随后在4100-4150区间形成MSS，预示趋势反转。当前价格4116.75，处于关键结构转折点。\",\"key_observation\":\"博主识别出价格在下方吸收流动性后上升至4300附近形成相等高点，MSS后预期回落至4070以下吸收下方流动性，再上升至4300目标。日线偏多但短期需回落确认。\",\"analysis_steps\":[\"Step 1: 识别前期流动性吸收点——价格从高点4880下跌至3640，吸收下方卖方流动性。\",\"Step 2: 标记摆动高低点和相等高低点——在4300、4160、4040等关键水平标记相等高点和流动性汇集区。\",\"Step 3: 确认市场结构转变（MSS）——价格在4100-4150区间突破前期摆动低点，形成MSS信号，预示从下跌转为上升。\",\"Step 4: 识别公允价值缺口和订单块——在4000-4040区间标记灰色矩形，表示待填补的FVG和流动性区域。\",\"Step 5: 判断折价/溢价区间——价格当前处于折价区（相对于4300目标），预期先回落至4070吸收流动性。\",\"Step 6: 制定日线偏多策略——确认日线总体偏多至4300，但短期需等待回落至4070以下确认后再做多。\",\"Step 7: 在低时间框架（15分钟、5分钟）标记相等低点和目标——4120-4122为近期相等低点，4160、4145、4135为中期阻力。\"],\"outcome\":null,\"lessons\":\"流动性分配的核心逻辑：价格先吸收一侧流动性，再向另一侧分配。通过识别MSS、相等高低点和FVG，可预测价格最可能的路径。日线偏多但需低时间框架确认，避免在未吸收流动性前盲目入场。\",\"primary_image_frame_id\":\"tZMgGsTqqVM_f007\",\"supporting_image_frame_ids\":[\"tZMgGsTqqVM_f003\",\"tZMgGsTqqVM_f004\",\"tZMgGsTqqVM_f002\",\"tZMgGsTqqVM_f009\",\"tZMgGsTqqVM_f010\",\"tZMgGsTqqVM_f011\"],\"related_concepts\":[\"Liquidity\",\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Swing Highs / Lows\",\"Relative Equal Highs / Lows\",\"Premium / Discount\",\"Displacement\",\"Imbalance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线分析框架、关键价位（4300、4160、4040、4070）、MSS标记、流动性分配逻辑和多时间框架确认过程，分析步骤清晰有序。\"}",
+  "error": null
+}

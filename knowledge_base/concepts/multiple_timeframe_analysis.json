@@ -1,0 +1,179 @@
+{
+  "card_id": "multiple_timeframe_analysis",
+  "type": "merged_concept",
+  "canonical_term": "Multiple Timeframe Analysis",
+  "aliases": [
+    "HTF/LTF Analysis",
+    "Timeframe Alignment",
+    "Top-Down Analysis",
+    "多时间框架分析",
+    "时间框架递推",
+    "跨时间框架分析"
+  ],
+  "school": "ICT",
+  "definition": "从高时间框架（如日线）向低时间框架（如分钟级）逐级下钻：高时间框架通过摆动点和市场结构转变确定方向偏向，中时间框架识别支撑该偏向的结构（订单块、公允价值缺口），低时间框架精确入场。可在每级时间框架上识别操纵腿并投影标准差，寻找多框架汇聚点提升交易确定性。",
+  "identification_rules": [
+    "在高时间框架（如日线）通过市场结构转变或摆动高低点识别明确的方向偏向，并标记关键结构（如日线FVG、摆动高低点）",
+    "在高时间框架上识别操纵腿（单一方向的完整运动），投影其标准差（±2、±2.5、±4），得到初级目标区域",
+    "在中时间框架（如4小时或1小时）寻找支撑高时间框架偏向的结构，包括交付状态改变、订单块或公允价值缺口；并在该框架上重新识别操纵腿并投影标准差",
+    "继续下钻到更低时间框架（如15分钟、5分钟、1分钟），在每个框架上重复识别操纵腿和标准差投影",
+    "检查多个时间框架的标准差投影是否与PD arrays（FVG、OB、等高点/低点）对齐，寻找跨框架汇聚点作为高概率入场或目标区域",
+    "在最低时间框架上等待交付状态改变或对立蜡烛形成（如OB回测）作为具体入场信号",
+    "验证三个时间框架的信号方向一致：高时间框架偏向、中时间框架结构、低时间框架入场信号均指向同一方向"
+  ],
+  "trading_implication": "高时间框架防止逆势交易并提供总体目标，中时间框架验证趋势延续并提供结构化风险管理点位，低时间框架精确入场。当多个时间框架的标准差投影与PD arrays重合时（如一个投影的-4与另一投影的-2.5对齐），形成高汇聚区域，是最优交易设置。三个时间框架对齐时价格通常产生强劲扩张运动，可用于设置止损、目标价位和风险回报比计算。",
+  "common_mistakes": [
+    "仅在低时间框架交易而忽视高时间框架偏向，导致逆势交易被止损",
+    "在高时间框架偏向与低时间框架信号不一致时仍然入场，降低交易成功率",
+    "未等待中时间框架的结构确认（如交付状态改变）就在低时间框架入场，增加虚假信号风险",
+    "混淆时间框架的用途，例如用低时间框架确定偏向或用高时间框架精确入场",
+    "仅在单一时间框架上投影标准差，忽视跨时间框架的汇聚验证，导致目标区域不够精确",
+    "在低时间框架入场时忽视高时间框架的整体目标，可能在未达到主要目标前过早止损或平仓",
+    "未能正确识别每个时间框架上的操纵腿，导致投影方向或幅度错误",
+    "将多个时间框架的投影混淆或重叠不当，无法形成清晰的汇聚点"
+  ],
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "High Timeframe",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Timeframe",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "6zTz7WMdMWg_case_009_ym期货从4小时到15分钟的反转交易",
+      "video_id": "6zTz7WMdMWg",
+      "title": "YM期货4小时到15分钟的反转交易"
+    },
+    {
+      "card_id": "E6bpY4dQvlE_case_002_s_p_500_e_mini期货15秒图多个box_setup示",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES期货15秒图Box Setup多周期分析与买方曲线入场"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_004_高点被扫后wick被不尊重的案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "高点被扫后wick被不尊重导致反转失败"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_006_gbpusd周一至周五的看涨周期案例",
+      "video_id": "klaiq36QnEM",
+      "title": "GBPUSD周一至周五看涨周期：订单块、FVG与流动性扫荡"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "iEaMbuFZb24",
+      "original_card_id": "iEaMbuFZb24_concept_multiple_timeframe_analysis",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        11.0,
+        1215.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_multiple_timeframe_analysis",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        425.56,
+        785.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:54.994379Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "两张原始卡均为ICT，无学派冲突。卡1侧重三框架对齐逻辑，卡2侧重标准差投影与汇聚点，已整合为统一规则体系。",
+  "error": null
+}

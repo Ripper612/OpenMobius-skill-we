@@ -1,0 +1,55 @@
+{
+  "card_id": "correlation_reversal",
+  "type": "merged_concept",
+  "canonical_term": "Correlation Reversal",
+  "aliases": [
+    "ES/NQ reversal",
+    "相关性反转"
+  ],
+  "school": "SMC",
+  "definition": "ES/NQ比值图表上的反转形态，表示ES与NQ之间相关性的改变。当比值反转时，意味着相对强弱关系逆转：从ES弱/NQ强转变为ES强/NQ弱，或反之。",
+  "identification_rules": [
+    "观察ES/NQ比值图表，识别明确的反转点（高点或低点的突破）",
+    "在比值反转时，检查ES和NQ各自的相对表现是否出现相反的强弱变化",
+    "比值反转通常伴随价格扫过前期高/低点后回落或反弹的形态",
+    "可在多个时间框架上识别（日线、小时线、5分钟线等）"
+  ],
+  "trading_implication": "Correlation Reversal可用于预示ES或NQ即将发生的趋势反转。当ES/NQ比值反转时，往往领先于实际资产的反转，提供提前的交易信号。通过识别相关性改变，交易者可以判断哪个资产相对强势，从而在低时间框架上寻找相应的做多或做空机会。例如，若比值反转显示NQ变弱、ES变强，则可在NQ上寻找空头设置。",
+  "common_mistakes": [
+    "仅关注单个资产的价格走势，忽视ES/NQ比值反转所传递的相关性信息",
+    "未能识别比值反转可能领先于实际资产反转的特性，错过提前布局的机会",
+    "混淆相关性反转与单纯的价格反转，未能理解两者的因果关系"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "original_card_id": "c_mh19e3mhI_concept_correlation_reversal",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        541.08,
+        828.66
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131977Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

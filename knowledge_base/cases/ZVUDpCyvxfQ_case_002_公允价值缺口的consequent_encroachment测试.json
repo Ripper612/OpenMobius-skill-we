@@ -1,0 +1,114 @@
+{
+  "card_id": "ZVUDpCyvxfQ_case_002_公允价值缺口的consequent_encroachment测试",
+  "type": "case",
+  "title": "公允价值缺口的Consequent Encroachment测试与缺口尊重判断",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Consequent Encroachment (CE)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "SIBI (Sell-side Inefficiency, Buy-side Imbalance)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "BISI (Buy-side Inefficiency, Sell-side Imbalance)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG Fill",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "inversion",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M",
+  "market_context": "NASDAQ 100 E-mini期货在4月27日至5月初期间出现明显的看跌和看涨FVG结构。价格在12620-12810区间内形成SIBI和BISI缺口，随后多次回测这些缺口区域，展现出缺口尊重与破坏的典型行为。",
+  "key_observation": "博主演示了当价格回到FVG时，通过Consequent Encroachment（缺口50%位置）的收盘位置来判断缺口是否被尊重。若价格收盘穿过CE位置，则缺口被破坏；若收盘在CE之外，则缺口仍被尊重，预示后续反向延续。",
+  "analysis_steps": [
+    "Step 1: 识别SIBI（看跌FVG）和BISI（看涨FVG）的形成——SIBI为卖方被提供但买方低效的缺口，BISI为买方被提供但卖方低效的缺口。",
+    "Step 2: 标记每个FVG的三个关键位置——缺口起点、Consequent Encroachment（50%位置）和完全填补点。",
+    "Step 3: 观察价格回到SIBI缺口时的行为——价格触及缺口但未收盘穿过CE，显示缺口被尊重。",
+    "Step 4: 观察价格回到BISI缺口时的行为——价格触及缺口并收盘穿过CE，表明缺口被破坏，价格不再尊重该结构。",
+    "Step 5: 对比两个缺口的收盘位置差异——SIBI收盘在CE之外表示尊重，BISI收盘穿过CE表示失效。",
+    "Step 6: 演示FVG Inversion现象——当缺口被填补后，先前的缺口区域可能转变为新的支撑或阻力。"
+  ],
+  "outcome": null,
+  "lessons": "Consequent Encroachment是判断FVG是否被尊重的关键指标。价格收盘位置相对于CE决定了缺口的有效性：收盘在CE之外表示缺口仍被尊重，预示反向延续；收盘穿过CE则缺口失效，价格可能继续突破。这是区分高概率交易设置与失效信号的核心方法。",
+  "primary_image": "cards/ZVUDpCyvxfQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/ZVUDpCyvxfQ/images/case_002_detail_1.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_002_detail_2.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_002_detail_3.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_002_detail_4.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_002_detail_5.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_002_detail_6.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_002_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NASDAQ 100 E-mini Futures 15分钟图表。图上标题为'Consequent Encroachment (CE)'。左侧显示3根黑色K线，右侧显示3根绿色K线，两组K线在约12920至12960价格区间内各有一个灰色矩形标注，分别标记为'SIBI'和'BISI'。图上有两条标记为'FVG FILL'的文字标签。虚线水平线连接左右两侧K线的上影线。右侧显示当前价格12927.0",
+    "case_002_detail_1.jpg": "NASDAQ 100 E-mini Futures 1小时K线图。图上显示从27日03:00至5月09:00的价格走势。左侧为三根黑色K线，从12810下跌至12620，每根均带上影线。右侧为三根绿色K线，从12620上升至12800，每根均带下影线。图中有两个灰色矩形区域，分别标注为SIBI和BISI，均位于12710至12770价格区间。右侧显示当前价格12694.25。",
+    "case_002_detail_2.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从23:00至16:00的价格走势，价格范围约13160至13276。图上标注有文字标签'SIBI'位于13244附近。可见一条水平线位于13103.50。图上有一个矩形框标注在13240至13250区间。K线呈现多次下跌后反弹的形态，其中04:00和08:00处各有一根长下影线的黑色K线，下影线刺破至13160附近。右侧",
+    "case_002_detail_3.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示5根K线，包含黑色和绿色蜡烛。右侧价格刻度范围从12790.00至13070.00。图上标注两个灰色矩形区域，分别标记为SIBI和BISI，位置约在12920至12950价格区间。标注文字FVG FLI出现在图上。最新K线为绿色，收盘价显示在右侧为12942.25。图上可见多条水平虚线标注关键价格水平。",
+    "case_002_detail_4.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从4月至6月2日的价格走势。左侧有一根大黑色K线从13262.50跌至13240.00，随后是一根绿色K线。中间区域显示多根绿黑相间的K线，价格在13210.00至13232.50之间波动。图上有一条灰色矩形标注，跨越13240.00至13242.50价格区间，标记为'SIBI'。右侧显示当前价格13240.00，背景为绿",
+    "case_002_detail_5.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上可见一条灰色矩形区域，标注为'SIBI'，位于约13242.50至13247.50价格范围。右侧价格刻度显示最新价格为13213.50。K线整体价格范围从13197.50至13270.00。图表左侧显示初期下跌走势，中间区域呈现13210至13230之间的盘整，右侧显示上升至13232.50后的回落。K线由绿色和黑色主体组成，",
+    "case_002_detail_6.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从01:00至15:00 UTC的K线序列，价格范围在13100至13242之间。04:00处有一根绿色K线创出高点13242.00，随后04:30处有一根黑色K线创出低点13100.00。图上绘制了一个灰色矩形框，位置约在10:00至12:00时间段，价格范围约13095至13310。图上标注有文字'SIBI'和'Rec",
+    "case_002_detail_7.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上标题为'Fair Value Gap Inversion'。可见价格范围约从12740到13120。图上有多条灰色矩形标注区域，均位于12920至12960价格范围内，标记为'FVG FILL'、'SIBI'和'BIBI'。K线序列包含黑色和绿色蜡烛，黑色蜡烛主要出现在左侧和右侧区域，绿色蜡烛集中在中间和右侧区域。部分K线具有"
+  },
+  "sources": [
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        185.04,
+        363.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了FVG的三个关键位置、CE的定义与测试方法、缺口尊重与破坏的判断标准，并通过多个实际图表示例展示了不同收盘位置的含义。分析步骤清晰，价格水平和时间框架均从图表中明确读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:37.124160Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"公允价值缺口的Consequent Encroachment测试与缺口尊重判断\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M\",\"market_context\":\"NASDAQ 100 E-mini期货在4月27日至5月初期间出现明显的看跌和看涨FVG结构。价格在12620-12810区间内形成SIBI和BISI缺口，随后多次回测这些缺口区域，展现出缺口尊重与破坏的典型行为。\",\"key_observation\":\"博主演示了当价格回到FVG时，通过Consequent Encroachment（缺口50%位置）的收盘位置来判断缺口是否被尊重。若价格收盘穿过CE位置，则缺口被破坏；若收盘在CE之外，则缺口仍被尊重，预示后续反向延续。\",\"analysis_steps\":[\"Step 1: 识别SIBI（看跌FVG）和BISI（看涨FVG）的形成——SIBI为卖方被提供但买方低效的缺口，BISI为买方被提供但卖方低效的缺口。\",\"Step 2: 标记每个FVG的三个关键位置——缺口起点、Consequent Encroachment（50%位置）和完全填补点。\",\"Step 3: 观察价格回到SIBI缺口时的行为——价格触及缺口但未收盘穿过CE，显示缺口被尊重。\",\"Step 4: 观察价格回到BISI缺口时的行为——价格触及缺口并收盘穿过CE，表明缺口被破坏，价格不再尊重该结构。\",\"Step 5: 对比两个缺口的收盘位置差异——SIBI收盘在CE之外表示尊重，BISI收盘穿过CE表示失效。\",\"Step 6: 演示FVG Inversion现象——当缺口被填补后，先前的缺口区域可能转变为新的支撑或阻力。\"],\"outcome\":null,\"lessons\":\"Consequent Encroachment是判断FVG是否被尊重的关键指标。价格收盘位置相对于CE决定了缺口的有效性：收盘在CE之外表示缺口仍被尊重，预示反向延续；收盘穿过CE则缺口失效，价格可能继续突破。这是区分高概率交易设置与失效信号的核心方法。\",\"primary_image_frame_id\":\"ZVUDpCyvxfQ_f009\",\"supporting_image_frame_ids\":[\"ZVUDpCyvxfQ_f007\",\"ZVUDpCyvxfQ_f008\",\"ZVUDpCyvxfQ_f010\",\"ZVUDpCyvxfQ_f001\",\"ZVUDpCyvxfQ_f011\",\"ZVUDpCyvxfQ_f012\",\"ZVUDpCyvxfQ_f013\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Consequent Encroachment (CE)\",\"Order Block (OB)\",\"SIBI (Sell-side Inefficiency, Buy-side Imbalance)\",\"BISI (Buy-side Inefficiency, Sell-side Imbalance)\",\"FVG Fill\",\"FVG Inversion\",\"Market Structure\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了FVG的三个关键位置、CE的定义与测试方法、缺口尊重与破坏的判断标准，并通过多个实际图表示例展示了不同收盘位置的含义。分析步骤清晰，价",
+  "error": null
+}

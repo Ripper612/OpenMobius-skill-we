@@ -1,0 +1,88 @@
+{
+  "card_id": "premium_discount_area",
+  "type": "merged_concept",
+  "canonical_term": "Premium/Discount Area",
+  "aliases": [
+    "Discount Zone",
+    "Premium Zone",
+    "溢价区/折价区"
+  ],
+  "school": "ICT",
+  "definition": "将摆动高低点之间的价格区间用0.5斐波那契水平分割，上方为溢价区（利于做空），下方为折价区（利于做多）的两个区域。",
+  "identification_rules": [
+    "从摆动高点向摆动低点拖拽斐波那契回撤工具（看跌场景）或从摆动低点向摆动高点拖拽（看涨场景）",
+    "0.5斐波那契水平线为分界线，将整个区间分为上下两部分",
+    "0.5水平线上方的区域为溢价区，下方的区域为折价区"
+  ],
+  "trading_implication": "溢价区表示价格处于相对高位，适合寻找做空机会；折价区表示价格处于相对低位，适合寻找做多机会。结合OTE（最优交易入场点）的62.79和70.5斐波那契水平，在折价或溢价区内精确定位高概率入场区域。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "AdmnWLjf8rY_case_001_nq_1分钟多头入场案例_纽约开盘前",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟多头入场：伦敦高点流动性扫盘后的折价区入场"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_001_纳斯达克期货_nq_看涨操纵案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "NQ看涨操纵：伦敦整理后纽约开盘下行操纵突破前高"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_001_纽约开盘后的_6_分钟图_amd_案例",
+      "video_id": "TCFvsZeYvV8",
+      "title": "纽约开盘后 NQ 6分钟图：AMD模式中的反转与Box Setup做多"
+    },
+    {
+      "card_id": "_94CPMjWi9E_case_003_dxy日线结构转变与pd_array应用",
+      "video_id": "_94CPMjWi9E",
+      "title": "DXY日线MSS与PD Array折价区反应分析"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_005_黄金日线看涨结构的回测和扩张",
+      "video_id": "iEaMbuFZb24",
+      "title": "黄金日线看涨结构回测判断与小时线扩张"
+    },
+    {
+      "card_id": "ivirRu3fc4o_case_004_连续fvg和ote的多次头皮交易",
+      "video_id": "ivirRu3fc4o",
+      "title": "NQ 15秒图多次FVG和OTE头皮交易序列"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_006_audjpy周线至15分钟图高时间框架案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "AUDJPY周线FVG至15分钟Breaker Block高概率入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "original_card_id": "1YRs4Z1lMws_concept_premium_discount_area",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.24,
+        78.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134863Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,107 @@
+{
+  "card_id": "YmdC_LKT-Pk_case_004_15秒级别bpr内的激进做空与反向做多",
+  "type": "case",
+  "title": "15秒BPR内激进做空转向做多的快速调整",
+  "related_concepts": [
+    {
+      "term": "BPR (Balanced Price Range)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "ote_optimal_trade_entry",
+    "order_block",
+    "market_structure",
+    "displacement",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "15s",
+  "market_context": "ES在09:00-10:25期间从3794上升至3860，在3814-3825区间形成BPR（平衡价格区间），由看涨FVG和看跌FVG重叠构成。价格在该区域内出现激进下跌后反向上升。",
+  "key_observation": "博主在15秒图表中识别到BPR区域内的激进做空机会（OTE short），目标是下方FVG。当价格无法收盘下方时，观察到\"aggressive down, aggressive up\"的模式，这提示BPR特征，随即转向做多。",
+  "analysis_steps": [
+    "Step 1: 在15秒图表中识别BPR区域（3814-3825），该区域由看涨和看跌FVG重叠形成。",
+    "Step 2: 观察价格在BPR内出现激进下跌，寻找OTE（最优交易入场点）做空机会，目标指向下方FVG。",
+    "Step 3: 执行激进做空，部分头寸在突破低点时止损在break even。",
+    "Step 4: 观察价格无法收盘下方，出现'aggressive down aggressive up'的反向运动，识别为BPR特征。",
+    "Step 5: 基于结构变化，转向做多，在价格回升时入场。",
+    "Step 6: 做多头寸部分获利，部分在break even止损。",
+    "Step 7: 确认15秒图表上没有结构破坏（no break of structure），继续看涨趋势，价格继续上升。"
+  ],
+  "outcome": "激进做空部分在break even止损，随后转向做多获得部分利润，最终头寸在break even止损。尽管初始偏差错误，但通过遵循结构规则仍获得可盈利的交易，并成功调整偏差方向。",
+  "lessons": "即使初始交易偏差错误，通过严格遵循市场结构规则（如BPR识别、激进运动观察）仍可获得盈利交易。关键是快速识别价格行为变化（aggressive down/up模式），及时调整交易偏差。小时间框架内的快速调整需要对结构的敏锐观察。",
+  "primary_image": "cards/YmdC_LKT-Pk/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/YmdC_LKT-Pk/images/case_004_detail_1.jpg",
+    "cards/YmdC_LKT-Pk/images/case_004_detail_2.jpg",
+    "cards/YmdC_LKT-Pk/images/case_004_detail_3.jpg",
+    "cards/YmdC_LKT-Pk/images/case_004_detail_4.jpg",
+    "cards/YmdC_LKT-Pk/images/case_004_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 E-mini Futures 15 秒 K 线图。图上显示从左下至右上的上升趋势，价格范围从 3800 到 3825。中部区域有两个矩形标注框，分别标记为 0.75 和 0.5，对应约 3815-3820 和 3810-3815 的价格区间。图右侧显示当前价格标签及多个价格水平线。K 线以绿色为主，红色 K 线零散分布在整个图表中。时间戳显示 09:40:50。",
+    "case_004_detail_1.jpg": "S&P 500 E-mini Futures 15 秒 K 线图。图上显示从 09:00 至 10:25 的价格走势，整体价格范围从 3794.00 到 3860.00。图中有一条矩形框标注，框定了 3814.00 至 3825.00 的价格区间。图上还有两条水平线分别位于 3825.00 和 3814.00。K 线从左侧 3794.00 附近开始上升，中间在 3814-3825 区间内出现多根红",
+    "case_004_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示从09:00开始的上升趋势，至09:35左右形成一个整理区间，区间范围约在3814.00至3823.00之间。该区间内绘有斐波那契回撤工具，标注有0.382、0.5、0.618三个水平位。整理区间后价格向上突破，随后形成一段强势上升，最高触及3826.00。右侧价格轴显示当前价格为3824.00。图上有三条水平线分别对应3823",
+    "case_004_detail_3.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示价格范围约从3814到3858。图中标注有一个矩形框围绕下方的整合区域，框内标有三个文字标签分别为0.79、0.62、0.5，呈竖向排列。两条水平线分别位于约3838.75和3823.75处。K线形态显示下方存在多根绿红相间的K线形成整合，随后向上突破至3858附近形成高点，之后出现回落。右侧价格标签显示当前价格在3819.50",
+    "case_004_detail_4.jpg": "S&P 500 E-mini Futures 5 秒级 K 线图。图上可见多条水平线和矩形标注，价格范围从 3807 到 3838。右侧价格刻度显示当前价格在 3822 附近。图中有多个灰色矩形区域垂直堆叠，标注了 3813 至 3824 之间的价格水平。文字标签显示 0.79、0.62、0.0 等数值。K 线整体呈上升趋势，左侧起点约 3810，右侧最高点接近 3838。中间区域显示盘整形态，K",
+    "case_004_detail_5.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示价格范围从3807.50至3835.00。中间区域有两个矩形标注框，分别对应3820-3824和3814-3818的价格区间，框内标有斐波那契比例标签0.79、0.62和0.5。图上有三条水平线分别位于3823.00、3818.00和3814.50。右侧K线显示价格从中间的整固区向上运动至3835.00附近。左侧显示较早期的K线在"
+  },
+  "sources": [
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        365.82,
+        545.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主详细讲解了15秒图表中的BPR识别、激进做空入场、价格行为观察、偏差转换等完整过程，图表清晰显示相关区域和价格水平。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:45.536038Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"15秒BPR内激进做空转向做多的快速调整\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"15s\",\"market_context\":\"ES在09:00-10:25期间从3794上升至3860，在3814-3825区间形成BPR（平衡价格区间），由看涨FVG和看跌FVG重叠构成。价格在该区域内出现激进下跌后反向上升。\",\"key_observation\":\"博主在15秒图表中识别到BPR区域内的激进做空机会（OTE short），目标是下方FVG。当价格无法收盘下方时，观察到\\\"aggressive down, aggressive up\\\"的模式，这提示BPR特征，随即转向做多。\",\"analysis_steps\":[\"Step 1: 在15秒图表中识别BPR区域（3814-3825），该区域由看涨和看跌FVG重叠形成。\",\"Step 2: 观察价格在BPR内出现激进下跌，寻找OTE（最优交易入场点）做空机会，目标指向下方FVG。\",\"Step 3: 执行激进做空，部分头寸在突破低点时止损在break even。\",\"Step 4: 观察价格无法收盘下方，出现'aggressive down aggressive up'的反向运动，识别为BPR特征。\",\"Step 5: 基于结构变化，转向做多，在价格回升时入场。\",\"Step 6: 做多头寸部分获利，部分在break even止损。\",\"Step 7: 确认15秒图表上没有结构破坏（no break of structure），继续看涨趋势，价格继续上升。\"],\"outcome\":\"激进做空部分在break even止损，随后转向做多获得部分利润，最终头寸在break even止损。尽管初始偏差错误，但通过遵循结构规则仍获得可盈利的交易，并成功调整偏差方向。\",\"lessons\":\"即使初始交易偏差错误，通过严格遵循市场结构规则（如BPR识别、激进运动观察）仍可获得盈利交易。关键是快速识别价格行为变化（aggressive down/up模式），及时调整交易偏差。小时间框架内的快速调整需要对结构的敏锐观察。\",\"primary_image_frame_id\":\"YmdC_LKT-Pk_f015\",\"supporting_image_frame_ids\":[\"YmdC_LKT-Pk_f014\",\"YmdC_LKT-Pk_f016\",\"YmdC_LKT-Pk_f017\",\"YmdC_LKT-Pk_f019\",\"YmdC_LKT-Pk_f020\"],\"related_concepts\":[\"BPR (Balanced Price Range)\",\"FVG (Fair Value Gap)\",\"OTE (Optimal Trade Entry)\",\"Order Block\",\"Market Structure\",\"Displacement\",\"Inducement\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主详细讲解了15秒图表中的BPR识别、激进做空入场、价格行为观察、偏差转换等完整过程，图表清晰显示相关区域和价格水平。\"}",
+  "error": null
+}

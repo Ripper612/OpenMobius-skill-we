@@ -1,0 +1,103 @@
+{
+  "card_id": "g3oDYq4P9ZE_case_001_ftse日线前一日高低点交易案例",
+  "type": "case",
+  "title": "FTSE日线前一日高低点流动性追踪案例",
+  "related_concepts": [
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Draw on Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Daily Bias",
+      "card_id": "daily_bias",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "previous_day_high_low",
+    "liquidity",
+    "draw_on_liquidity",
+    "daily_bias",
+    "market_structure",
+    "reversal"
+  ],
+  "school": "Price Action",
+  "asset": "FTSE",
+  "timeframe": "1D",
+  "market_context": "FTSE日线从5月中旬至6月初呈现下行趋势，价格在33000-34800区间波动。博主通过追踪前一日高低点来框架化每日的流动性目标和交易偏差。",
+  "key_observation": "前一日高低点是框架化日线流动性和交易偏差的最简单方法。价格倾向于触及前一日高点或低点，或两者兼有；当价格无法突破并收盘于这些水平之外时，会形成反转信号。",
+  "analysis_steps": [
+    "Step 1: 标记前一日高点和低点作为基准流动性水平",
+    "Step 2: 观察价格是否能突破前一日高点或低点",
+    "Step 3: 判断价格是否能收盘于这些水平之外（确认突破）或被拒绝（反转信号）",
+    "Step 4: 根据价格行为框架化下一日的预期方向——若收盘于高点上方则看涨，若收盘于低点下方则看跌",
+    "Step 5: 追踪价格是否继续触及前一日的相反水平（如收盘于高点上方后，预期触及前一日低点）",
+    "Step 6: 当价格无法突破前一日高/低点时，将其作为反转点，预期反向运动"
+  ],
+  "outcome": null,
+  "lessons": "前一日高低点提供了简单而有效的流动性框架。价格突破并收盘于这些水平之外表示趋势延续；无法突破或收盘于范围内表示反转。这种方法无需复杂指标，仅通过K线结构即可识别每日交易偏差和流动性目标。",
+  "primary_image": "cards/g3oDYq4P9ZE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/g3oDYq4P9ZE/images/case_001_detail_1.jpg",
+    "cards/g3oDYq4P9ZE/images/case_001_detail_2.jpg",
+    "cards/g3oDYq4P9ZE/images/case_001_detail_3.jpg",
+    "cards/g3oDYq4P9ZE/images/case_001_detail_4.jpg",
+    "cards/g3oDYq4P9ZE/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表显示一份烛线图，价格范围约从32600至34600。图上交替出现绿色和黑色烛线，每根烛线均带有上下影线。右侧价格刻度标注有34148和32854两个数值。图表底部显示时间轴标记为5月至6月，当前时间戳为17:27:56(UTC-4)。图表右下角可见交易界面按钮，包括Sell、Buy和Flatten选项。图上未见其他标注、趋势线或指标。",
+    "case_001_detail_1.jpg": "FTSE_edu 日线图。图表显示从 5 月 17 日至 6 月 1 日期间的 K 线走势。可见价格范围约从 33000 到 34800。K 线序列中绿色和黑色蜡烛交替出现，多数 K 线具有上下影线。图右侧显示当前价格标记为 33772。图上标注有日期标签'Tue 23 May 23'。整体 K 线序列呈现从左侧较高价位向右侧较低价位的下行走势。",
+    "case_001_detail_2.jpg": "BTC/USD 日线图。图表显示从5月中旬至6月中旬的K线序列，价格范围约33000至34800。K线呈绿色和黑色交替排列，每根K线均带有上下影线。图右侧显示价格标签34900和33792。图上标注有日期文字'Fri 19 May 21'。中心偏右位置有一个灰色圆形标注。底部时间轴显示具体日期刻度。",
+    "case_001_detail_3.jpg": "USDJPY 日线图，显示从5月初至6月底的价格走势。图表可见价格范围约从32800至34500。K线序列由绿色和黑色蜡烛交替组成，大多数K线具有上下影线。右侧价格轴标注当前价格33207。图上未见其他标注、趋势线或技术指标。",
+    "case_001_detail_4.jpg": "USDJPY 日线图。图表显示从5月初至6月中旬的价格走势，价格范围约32800至34500。K线呈现绿色（上升）和黑色（下降）交替排列。多根K线具有较长的上下影线。图上右侧标注数字33271。图表中部和下部区域绘制有两个矩形框，位置约在33000至33500价格区间。整体呈现波动整理形态，无其他指标显示。",
+    "case_001_detail_5.jpg": "EURUSD 日线图。图上显示一系列绿色和黑色 K 线，价格范围约从 32900 到 34700。图中央有一个矩形标注框，大致覆盖 33200 至 34200 的价格区间。右侧可见灰色圆形标记，对应约 34070 的价格位置。底部显示日期标签'Wed 07 Jun 23'。图上有'Sell'、'Buy'、'Flatten'等交易按钮标签。右上角显示资产代码和当前价格信息。"
+  },
+  "sources": [
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        365.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整，清晰展示了前一日高低点的应用方法、价格反应模式和交易框架逻辑。多个图表示例充分说明了概念。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:43.431971Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"FTSE日线前一日高低点流动性追踪案例\",\"school\":\"Price Action\",\"asset\":\"FTSE\",\"timeframe\":\"1D\",\"market_context\":\"FTSE日线从5月中旬至6月初呈现下行趋势，价格在33000-34800区间波动。博主通过追踪前一日高低点来框架化每日的流动性目标和交易偏差。\",\"key_observation\":\"前一日高低点是框架化日线流动性和交易偏差的最简单方法。价格倾向于触及前一日高点或低点，或两者兼有；当价格无法突破并收盘于这些水平之外时，会形成反转信号。\",\"analysis_steps\":[\"Step 1: 标记前一日高点和低点作为基准流动性水平\",\"Step 2: 观察价格是否能突破前一日高点或低点\",\"Step 3: 判断价格是否能收盘于这些水平之外（确认突破）或被拒绝（反转信号）\",\"Step 4: 根据价格行为框架化下一日的预期方向——若收盘于高点上方则看涨，若收盘于低点下方则看跌\",\"Step 5: 追踪价格是否继续触及前一日的相反水平（如收盘于高点上方后，预期触及前一日低点）\",\"Step 6: 当价格无法突破前一日高/低点时，将其作为反转点，预期反向运动\"],\"outcome\":null,\"lessons\":\"前一日高低点提供了简单而有效的流动性框架。价格突破并收盘于这些水平之外表示趋势延续；无法突破或收盘于范围内表示反转。这种方法无需复杂指标，仅通过K线结构即可识别每日交易偏差和流动性目标。\",\"primary_image_frame_id\":\"g3oDYq4P9ZE_f007\",\"supporting_image_frame_ids\":[\"g3oDYq4P9ZE_f005\",\"g3oDYq4P9ZE_f006\",\"g3oDYq4P9ZE_f008\",\"g3oDYq4P9ZE_f009\",\"g3oDYq4P9ZE_f010\"],\"related_concepts\":[\"Previous Day High/Low\",\"Liquidity\",\"Draw on Liquidity\",\"Daily Bias\",\"Price Action\",\"Market Structure\",\"Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整，清晰展示了前一日高低点的应用方法、价格反应模式和交易框架逻辑。多个图表示例充分说明了概念。\"}",
+  "error": null
+}

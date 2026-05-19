@@ -1,0 +1,120 @@
+{
+  "card_id": "wy3OSPxu5U0_case_002_nasdaq_8月24日的日线到5分钟交易设置",
+  "type": "case",
+  "title": "纳斯达克8月24日日线到5分钟交易设置",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "breaker_block",
+    "market_structure_shift",
+    "premium_discount_premium_",
+    "swing_high_low",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "纳斯达克在8月中旬达到高点约16000后开始回落。8月24日价格在日线上失败突破摆动高点，伦敦盘扫高后无法位移突破，纽约盘开盘后形成看跌信号。",
+  "key_observation": "日线上价格未能突破前期摆动高点，形成失败信号；伦敦盘扫高但无法位移；纽约盘开盘上行后回落，验证了订单块的有效性，预示下行机会。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别前期摆动低点已触及2.5标准差，周一至周三形成强势上升",
+    "Step 2: 观察到价格未能突破摆动高点，判断可能存在下行机会",
+    "Step 3: 标记前一日高低点和日线订单块（Order Block）作为潜在阻力区",
+    "Step 4: 切换到小时线寻找与看跌偏见相符的兴趣点",
+    "Step 5: 标记午夜开盘价（Midnight Open）",
+    "Step 6: 观察伦敦盘扫高但无法位移突破，价格开始下行",
+    "Step 7: 观察纽约盘开盘上行至日线开盘价后回落，验证订单块",
+    "Step 8: 切换到5分钟图表，标记小时线订单块和前一日高点",
+    "Step 9: 识别价格使用FVG上升至小时线订单块区域",
+    "Step 10: 在5分钟图表上标记破坏块（Breaker Block），识别高低高低低的结构",
+    "Step 11: 标记最小2R止损位置，等待9:30纽约开盘前的交易机会"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架分析中，日线失败突破是关键信号；小时线订单块与5分钟破坏块的结合提供高概率入场点；价格未能位移突破摆动高点预示反向运动；PD array（价格分布数组）中的FVG和OB组合形成强阻力区。",
+  "primary_image": "cards/wy3OSPxu5U0/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/wy3OSPxu5U0/images/case_002_detail_1.jpg",
+    "cards/wy3OSPxu5U0/images/case_002_detail_2.jpg",
+    "cards/wy3OSPxu5U0/images/case_002_detail_3.jpg",
+    "cards/wy3OSPxu5U0/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 5分钟K线图。图上显示从05:30至13:00的价格走势。左侧为上升段，绿色K线从约13340上升至13388；中段为下降段，黑色K线从13388下跌至13310；右侧为整理段，K线在13335至13356区间内波动。图上标注两条水平线（13356.75和13335.25）及两个矩形区域：上方矩形（浅蓝色）覆盖13335.25至13356.75，下方矩形（浅绿色）覆盖13310至13340",
+    "case_002_detail_1.jpg": "USD 日线图，价格范围从 14100.00 至 16200.00。图上有 4 条水平线分别位于 15370.50、15195.20、14800.00 和 14600.00。图中标注有字母 D 和数字 -2.5。K 线从 6 月开始上升至 8 月中旬达到高点约 16000.00，随后下跌至 8 月末。图上可见多根带有上下影线的 K 线，绿色 K 线和黑色 K 线交替出现。时间轴显示从 6 月至 1",
+    "case_002_detail_2.jpg": "USD 1 小时 K 线图。图上显示从约 14980 上升至 15380 的上升趋势，跨越约 15 根 K 线。在 15380 处有一条标记为'Daily Open'的水平线。图上另有两条水平线分别位于 15348.25 和 15342.25。最近 4 根 K 线在 15340 至 15380 区间内形成盘整，包含绿色和黑色 K 线混合。12:00 时刻有一根长绿色 K 线从约 15100 上升至",
+    "case_002_detail_3.jpg": "USD 1小时K线图。图上显示从2023年8月23日至8月28日的价格走势。可见价格范围约从15040到15620。图上有两条水平线分别位于15360和15240处。标注包括'Daily Open'标记在15360附近、文字标签'15338.75'和'15240.50'。K线形态显示：8月24日06时附近出现一根大幅上升的绿色K线，随后形成一个由多根绿色和黑色K线组成的整理区间，价格在15240至",
+    "case_002_detail_4.jpg": "USD 5分钟K线图，时间范围从06:10至12:00。图上显示价格从13387.50下跌至约13330.00，随后在13335.00至13350.00区间内形成盘整。图上有一条水平线位于13357.50处。下方区间内K线呈绿黑交替形态，多根K线具有较长下影线。图右侧约10:00时刻处有一个灰色圆形标记。左下角显示TradingView平台标识，右下角显示时间戳18:06:43(UTC-4)及ET"
+  },
+  "sources": [
+    {
+      "video_id": "wy3OSPxu5U0",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        148.959,
+        305.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到5分钟的分析过程，清晰标记了关键价位、订单块、破坏块等结构，分析步骤逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:50.209787Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克8月24日日线到5分钟交易设置\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"纳斯达克在8月中旬达到高点约16000后开始回落。8月24日价格在日线上失败突破摆动高点，伦敦盘扫高后无法位移突破，纽约盘开盘后形成看跌信号。\",\"key_observation\":\"日线上价格未能突破前期摆动高点，形成失败信号；伦敦盘扫高但无法位移；纽约盘开盘上行后回落，验证了订单块的有效性，预示下行机会。\",\"analysis_steps\":[\"Step 1: 在日线上识别前期摆动低点已触及2.5标准差，周一至周三形成强势上升\",\"Step 2: 观察到价格未能突破摆动高点，判断可能存在下行机会\",\"Step 3: 标记前一日高低点和日线订单块（Order Block）作为潜在阻力区\",\"Step 4: 切换到小时线寻找与看跌偏见相符的兴趣点\",\"Step 5: 标记午夜开盘价（Midnight Open）\",\"Step 6: 观察伦敦盘扫高但无法位移突破，价格开始下行\",\"Step 7: 观察纽约盘开盘上行至日线开盘价后回落，验证订单块\",\"Step 8: 切换到5分钟图表，标记小时线订单块和前一日高点\",\"Step 9: 识别价格使用FVG上升至小时线订单块区域\",\"Step 10: 在5分钟图表上标记破坏块（Breaker Block），识别高低高低低的结构\",\"Step 11: 标记最小2R止损位置，等待9:30纽约开盘前的交易机会\"],\"outcome\":null,\"lessons\":\"多时间框架分析中，日线失败突破是关键信号；小时线订单块与5分钟破坏块的结合提供高概率入场点；价格未能位移突破摆动高点预示反向运动；PD array（价格分布数组）中的FVG和OB组合形成强阻力区。\",\"primary_image_frame_id\":\"wy3OSPxu5U0_f011\",\"supporting_image_frame_ids\":[\"wy3OSPxu5U0_f007\",\"wy3OSPxu5U0_f008\",\"wy3OSPxu5U0_f009\",\"wy3OSPxu5U0_f010\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Breaker Block\",\"Market Structure Shift\",\"PD array\",\"Swing High/Low\",\"Liquidity\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到5分钟的分析过程，清晰标记了关键价位、订单块、破坏块等结构，分析步骤逻辑清晰。\"}",
+  "error": null
+}

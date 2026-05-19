@@ -1,0 +1,73 @@
+{
+  "card_id": "open_high_low_close_ohlc",
+  "type": "merged_concept",
+  "canonical_term": "Open High Low Close (OHLC)",
+  "aliases": [
+    "4-Hour OHLC",
+    "Daily OHLC",
+    "OLHC"
+  ],
+  "school": "Price Action",
+  "definition": "K线的四个关键价格点：开盘价、最高价、最低价、收盘价。用于识别特定时间周期内的价格运动模式，判断趋势延续或反转信号。",
+  "identification_rules": [
+    "观察K线的开盘位置（Open）作为周期起点",
+    "识别K线的最高点（High）和最低点（Low）的相对位置关系",
+    "确认K线的收盘价（Close）相对于开盘价的位置（高于或低于）",
+    "看涨OHLC模式：开盘→低点→高点→收盘（Open Low High Close），表示积累-操纵-派发",
+    "看跌OHLC模式：开盘→高点→低点→收盘（Open High Low Close），表示分布后下跌",
+    "在日线和4小时线上应用，结合特定时间开口（如0:00、8:30、9:30、10:00、14:00）识别"
+  ],
+  "trading_implication": "OHLC形态用于预测下一个周期的价格方向。看涨OHLC（开低高收）预示继续上升，看跌OHLC（开高低收）预示继续下跌。结合时间水平（午夜开盘、8:30、纽约开盘等）使用，可识别订单块、对立摆动和分布时机，提高入场精准度和风险管理。",
+  "common_mistakes": [
+    "仅关注单根K线的OHLC而忽视其在更高时间框架中的位置和意义",
+    "混淆看涨OHLC（Open Low High Close）和看跌OHLC（Open High Low Close）的含义",
+    "未能在正确的时间水平（如10:00和14:00的4小时开口）应用OHLC识别",
+    "将OHLC形态与订单块或对立摆动分离，忽视它们的组合效应"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "YXoNowXQirM_case_001_es日线周度k线形成案例",
+      "video_id": "YXoNowXQirM",
+      "title": "ES日线周度K线OLHC结构形成演示"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_006_标普500的高时间框架缺口与反转",
+      "video_id": "xdzyejskSKE",
+      "title": "ES高时间框架缺口与伦敦纽约时段反转交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_open_high_low_close_ohlc",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.84,
+        904.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134458Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,65 @@
+{
+  "card_id": "series_of_down_close_candles",
+  "type": "merged_concept",
+  "canonical_term": "Series of Down Close Candles",
+  "aliases": [
+    "down close candles",
+    "连续下跌收盘K线"
+  ],
+  "school": "ICT",
+  "definition": "一系列连续K线的收盘价低于前一根K线的收盘价，表示下跌趋势的确认。突破此序列（收盘价回升至序列上方）是重要的交易信号，预示趋势可能反转或延续。",
+  "identification_rules": [
+    "识别连续多根K线，每根K线的收盘价都低于前一根K线的收盘价",
+    "该序列通常在下跌趋势中形成，代表卖方控制",
+    "当价格收盘价突破该序列上方时（即收盘价高于序列中最高的收盘价），形成关键的交易确认信号",
+    "可在不同时间框架上识别（日线、小时线、分钟线等）"
+  ],
+  "trading_implication": "Series of Down Close Candles的突破是确认趋势反转或延续的关键信号。当价格收盘价穿过该序列时，交易者可以在新K线开盘时建立头寸，止损设在该序列形成期间的低点。该信号常与Change in the State of Delivery结合使用，提高交易的确认度。突破该序列后的目标通常指向2R或更高的流动性区域。",
+  "common_mistakes": [
+    "在Series of Down Close Candles形成过程中过早入场，应等待价格完全突破该序列后再交易",
+    "忽视该序列与更高时间框架结构的关系，导致交易偏差",
+    "未能结合Protected Swing或其他确认信号，仅凭突破该序列就盲目交易"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "4Gm8p6O7Ebs_case_001_黄金小时图扩张走势分析",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "黄金1小时图三天扩张走势追踪"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_series_of_down_close_candles",
+      "segment_ids": [
+        "seg_003",
+        "seg_005",
+        "seg_010",
+        "seg_013",
+        "seg_015",
+        "seg_021"
+      ],
+      "time_range": [
+        263.04,
+        1132.72
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135542Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

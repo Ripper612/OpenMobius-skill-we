@@ -1,0 +1,56 @@
+{
+  "card_id": "timeframe_pairing",
+  "type": "merged_concept",
+  "canonical_term": "Timeframe Pairing",
+  "aliases": [
+    "时间框架对齐",
+    "时间框架配对"
+  ],
+  "school": "ICT",
+  "definition": "将不同周期的图表按固定比例组合使用，用于自上而下分析中的偏差、结构和入场对齐。常见配对为周线配4小时、日线配1小时、4小时配15分钟等。",
+  "identification_rules": [
+    "确认使用的三个时间框架：高时间框架用于偏差、中间时间框架用于结构、低时间框架用于入场",
+    "验证中间时间框架与高时间框架的结构一致性（如都呈现看跌结构）",
+    "在中间时间框架上识别关键水平（FVG、摆动高/低点或OB）",
+    "在低时间框架上等待与中间时间框架结构对齐的信号（如CSD或OB形成）",
+    "确保三个时间框架的方向一致后才执行交易"
+  ],
+  "trading_implication": "Timeframe Pairing是自上而下分析的核心执行框架。通过在配对的时间框架间逐级验证结构一致性，交易者可以在高概率的价格水平和时机入场。当高时间框架偏差、中间时间框架结构和低时间框架入场信号三者对齐时，价格通常会出现显著的扩张运动。该方法提高了入场的精确性和风险回报比。",
+  "common_mistakes": [
+    "使用不匹配的时间框架组合，导致结构信号相互矛盾",
+    "在中间时间框架结构未与高时间框架偏差对齐时就在低时间框架寻找入场",
+    "忽视在低时间框架上等待CSD或OB确认，过早入场",
+    "混淆三个时间框架的用途，将入场信号误用于结构判断"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_timeframe_pairing",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.04,
+        193.239
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136325Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

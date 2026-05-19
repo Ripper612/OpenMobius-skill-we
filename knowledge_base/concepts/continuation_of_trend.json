@@ -1,0 +1,60 @@
+{
+  "card_id": "continuation_of_trend",
+  "type": "merged_concept",
+  "canonical_term": "Continuation of Trend",
+  "aliases": [
+    "趋势延续",
+    "趋势继续"
+  ],
+  "school": "ICT",
+  "definition": "在既有趋势方向上，通过识别和交易订单块、公允价值缺口及流动性扫除等关键价格结构，寻找多次入场机会以延续价格运动的交易方法。",
+  "identification_rules": [
+    "确认当前趋势方向（上升或下降）及其关键结构（摆动高/低点）",
+    "在趋势方向上寻找向重要水平（订单块、FVG、流动性扫除）的价格运动",
+    "识别一系列同向收盘K线（上升趋势中的上收K线，下降趋势中的下收K线）到达重要水平",
+    "确认价格突破并收盘穿过这些K线，形成新的订单块",
+    "验证该订单块是否伴随位移（Displacement）和FVG产生",
+    "确认订单块未被更高时间框架的结构所缺失（需对应HTF水平）"
+  ],
+  "trading_implication": "趋势延续提供了在既有趋势中寻找多个交易入场点的框架。交易者在趋势中识别订单块和FVG，通过验证价格穿过关键K线来确认新的订单块形成，然后在该订单块处入场，目标指向下一个流动性或重要水平。这种方法允许交易者在单一趋势中获得多次机会，而非仅依赖初始反转点。可使用均值阈值（Mean Threshold）优化风险回报比。",
+  "common_mistakes": [
+    "选择未到达重要水平的订单块进行交易，导致缺乏有效的价格确认",
+    "忽视订单块必须对应更高时间框架水平的要求，导致交易无效",
+    "在订单块未被穿过验证前就提前入场",
+    "将止损设置在订单块另一端而非摆动低点，增加被Wick止损的风险",
+    "未能识别趋势中的多个连续订单块机会，只交易第一个入场点"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "original_card_id": "DMUiDBnTYc8_concept_continuation_of_trend",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        336.24,
+        877.36
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131821Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

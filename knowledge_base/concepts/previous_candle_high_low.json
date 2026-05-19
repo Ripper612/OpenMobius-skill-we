@@ -1,0 +1,72 @@
+{
+  "card_id": "previous_candle_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Previous Candle High/Low",
+  "aliases": [
+    "前一根K线高/低点",
+    "前一根蜡烛的高/低"
+  ],
+  "school": "Price Action",
+  "definition": "前一根K线的最高点和最低点，用作当前价格走势的参考水平。当价格无法突破这些水平时，预期价格将回到该范围内或反向运行。",
+  "identification_rules": [
+    "识别前一根已完成K线的最高价（High）和最低价（Low）",
+    "观察当前K线是否能够突破（displace）或收盘于前一根K线的高/低点之外",
+    "若当前K线触及但未能收盘于前一根K线高/低点之外，则预期价格将回到该范围或反向",
+    "若当前K线成功收盘于前一根K线高/低点之外，则可预期下一根K线继续向该方向延伸或寻求下一个前一根K线的高/低点"
+  ],
+  "trading_implication": "Previous Candle High/Low用于框架化两种交易机会：（1）流动性吸引（Liquidity Draw）——价格倾向于触及前一根K线的高/低点作为目标；（2）反转框架（Reversal Frame）——当价格无法突破前一根K线的高/低点时，预期反向运行。该工具可应用于多个时间框架（4小时、1小时、30分钟等），但低时间框架会产生更多噪音。",
+  "common_mistakes": [
+    "假设价格总是会触及前一根K线的高/低点——实际上有时会失败，分析师不应期望100%准确率",
+    "在低时间框架（如15分钟）过度依赖该工具——低时间框架会产生更多噪音，需结合其他工具确认",
+    "忽视K线的收盘位置——关键是价格是否能够收盘于前一根K线高/低点之外，仅触及不足以确认突破"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "6zTz7WMdMWg_case_001_nq期货4小时图的前一根k线高低点应用",
+      "video_id": "6zTz7WMdMWg",
+      "title": "NQ期货4小时图前一根K线高低点的流动性预期应用"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_002_twit资产4小时连续上升走势分析",
+      "video_id": "6zTz7WMdMWg",
+      "title": "TWIT资产4小时连续上升走势中的前一根K线高点追踪"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_004_eth_1小时图的范围整理和突破",
+      "video_id": "6zTz7WMdMWg",
+      "title": "ETH 1小时图范围整理中的前一根K线高低点交易法"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_previous_candle_high_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        543.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134906Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

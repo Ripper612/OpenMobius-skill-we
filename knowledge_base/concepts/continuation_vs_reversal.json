@@ -1,0 +1,69 @@
+{
+  "card_id": "continuation_vs_reversal",
+  "type": "merged_concept",
+  "canonical_term": "Continuation vs Reversal",
+  "aliases": [
+    "延续与反转",
+    "盘整后的两种走势"
+  ],
+  "school": "ICT",
+  "definition": "盘整后的两种主要价格走势：延续指价格未触及高时框水平，继续原趋势运行；反转指价格已触及高时框水平，预期反向运行。",
+  "identification_rules": [
+    "延续：盘整前存在明确的扩张（大幅波动），盘整后价格未触及高时框目标或水平，应继续原趋势方向",
+    "延续：观察到操纵（manipulation）后，价格闭盘穿过盘整边界，形成交付状态改变（CSD），预示趋势延续",
+    "反转：盘整前存在扩张，盘整后价格已触及或扫过高时框目标/水平，预期反向运行",
+    "反转：观察到操纵后，价格闭盘穿过盘整对侧边界，形成CSD，预示趋势反转",
+    "可使用相关资产的SMT来辅助判断：若相关资产已扫出盘整边界，可将其视为已发生操纵，即使当前资产未扫出"
+  ],
+  "trading_implication": "延续和反转是盘整后的两种预期结果，决定交易方向和风险管理策略。识别高时框目标是否已触及是关键：未触及则倾向延续原趋势，已触及则预期反转。交易者应等待操纵完成和CSD确认后再入场，而非在盘整内部猜测方向。可结合折价/溢价区和均衡点进行精确入场。",
+  "common_mistakes": [
+    "在盘整内部交易，试图猜测价格将向哪一侧突破，而不等待操纵和CSD确认",
+    "未检查高时框目标是否已触及，导致对延续和反转的判断错误",
+    "忽视相关资产的SMT信息，仅基于单一资产判断，错过辅助确认信号",
+    "未等待闭盘穿过盘整边界形成CSD就提前入场，增加被诱导（Inducement）的风险"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3eVxTV_7L2U_case_010_rbob汽油继续psp与目标追踪",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RBOB汽油小时图继续PSP确认目标开放"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_004_btc_1小时图_consolidation范围内的虚假突破",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时：盘整内虚假突破的识别与风险规避"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "WFqLwOp2pXw",
+      "original_card_id": "WFqLwOp2pXw_concept_continuation_vs_reversal",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        121.6,
+        292.4
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131873Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,104 @@
+{
+  "card_id": "eywpZT3z6GQ_case_003_btc多时间框架延续交易案例",
+  "type": "case",
+  "title": "BTC小时线摆动点内多时间框架延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Consolidation Range",
+      "card_id": "range_consolidation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "swing_low_swing_high",
+    "market_structure",
+    "displacement",
+    "high_low_time_frame",
+    "continuation_pattern",
+    "range_consolidation"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H / 15M / 1M",
+  "market_context": "BTC在小时线形成摆动点后，价格在该摆动点内部继续运行。博主通过多时间框架分析（1小时、15分钟、1分钟）识别多个入场机会，展示了如何在高时间框架目标指导下进行交易延续。",
+  "key_observation": "在小时线摆动点内交易延续时，即使价格已跌破短期低点，只要有高时间框架目标支撑，仍可在更低时间框架寻找多个有效入场点。",
+  "analysis_steps": [
+    "Step 1: 在1小时时间框架上识别摆动点和高时间框架目标位置",
+    "Step 2: 确认价格在摆动点内部形成第3根或第4根K线的延续结构",
+    "Step 3: 下钻到15分钟时间框架，在摆动点处寻找第一个入场机会",
+    "Step 4: 识别15分钟内的第二个摆动点，提供额外入场机会",
+    "Step 5: 进一步下钻到1分钟时间框架，在价格突破并回测时寻找第三个入场机会",
+    "Step 6: 在第二个例子中，识别整理区间的突破（高点突破），形成小时线缺口（FVG）",
+    "Step 7: 在小时线第3根K线开盘时，下钻到15分钟寻找交易设置"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架延续交易的核心是：(1)高时间框架目标指导交易决策；(2)即使短期低点被破，只要有HTF支撑就值得继续寻找机会；(3)通过LTF逐级下钻可识别多个高概率入场点；(4)整理区间突破后的缺口和摆动点是关键的交易触发器。",
+  "primary_image": "cards/eywpZT3z6GQ/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/eywpZT3z6GQ/images/case_003_detail_1.jpg",
+    "cards/eywpZT3z6GQ/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表显示 USDT 1 小时周期的 K 线图。价格范围从 5700.00 至 6900.00。图上绘有一条水平线位于 6800.00 处，以及一个矩形框标注在约 6000.00 至 6800.00 的价格区间。K 线序列呈上升趋势，由绿色和黑色蜡烛交替组成，跨越约 40 根 K 线。多数 K 线具有上下影线。最高点约在 6900.00，最低点约在 5700.00。",
+    "case_003_detail_1.jpg": "多资产对比图表显示多根高波动性K线，价格范围从61700至94512。图上绘有一条水平线及一个矩形标注框，矩形位置约在74500至78000价格区间。底部工具栏显示时间框架选择按钮（1m、5m、15m、1h、4h、1D、1W、1M），当前未清晰显示选中的时间框架。K线呈现长影线特征，右侧区域K线密集度较高。",
+    "case_003_detail_2.jpg": "图表显示 USDT 资产的 K 线图，价格范围约 45500 至 48700。图上有两个矩形标注区域：上方黄色区域约在 48100 至 48500 之间，下方浅蓝色区域约在 46200 至 46800 之间。中央区域显示多根 K 线在两个标注区域之间的整理形态。图表右侧有数根黑色实体 K 线位于 46800 下方。图上可见三条水平参考线但无文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "eywpZT3z6GQ",
+      "segment_ids": [
+        "seg_010"
+      ],
+      "time_range": [
+        480.8,
+        567.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了两个案例的多时间框架分析过程，清晰标注了摆动点、缺口、整理区间等关键结构，并逐步演示了从1H到15M再到1M的下钻逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:40.389202Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC小时线摆动点内多时间框架延续交易\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H / 15M / 1M\",\"market_context\":\"BTC在小时线形成摆动点后，价格在该摆动点内部继续运行。博主通过多时间框架分析（1小时、15分钟、1分钟）识别多个入场机会，展示了如何在高时间框架目标指导下进行交易延续。\",\"key_observation\":\"在小时线摆动点内交易延续时，即使价格已跌破短期低点，只要有高时间框架目标支撑，仍可在更低时间框架寻找多个有效入场点。\",\"analysis_steps\":[\"Step 1: 在1小时时间框架上识别摆动点和高时间框架目标位置\",\"Step 2: 确认价格在摆动点内部形成第3根或第4根K线的延续结构\",\"Step 3: 下钻到15分钟时间框架，在摆动点处寻找第一个入场机会\",\"Step 4: 识别15分钟内的第二个摆动点，提供额外入场机会\",\"Step 5: 进一步下钻到1分钟时间框架，在价格突破并回测时寻找第三个入场机会\",\"Step 6: 在第二个例子中，识别整理区间的突破（高点突破），形成小时线缺口（FVG）\",\"Step 7: 在小时线第3根K线开盘时，下钻到15分钟寻找交易设置\"],\"outcome\":null,\"lessons\":\"多时间框架延续交易的核心是：(1)高时间框架目标指导交易决策；(2)即使短期低点被破，只要有HTF支撑就值得继续寻找机会；(3)通过LTF逐级下钻可识别多个高概率入场点；(4)整理区间突破后的缺口和摆动点是关键的交易触发器。\",\"primary_image_frame_id\":\"eywpZT3z6GQ_f019\",\"supporting_image_frame_ids\":[\"eywpZT3z6GQ_f017\",\"eywpZT3z6GQ_f018\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Swing Point\",\"Market Structure\",\"Displacement\",\"HTF / LTF\",\"Continuation\",\"Consolidation Range\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了两个案例的多时间框架分析过程，清晰标注了摆动点、缺口、整理区间等关键结构，并逐步演示了从1H到15M再到1M的下钻逻辑。\"}",
+  "error": null
+}

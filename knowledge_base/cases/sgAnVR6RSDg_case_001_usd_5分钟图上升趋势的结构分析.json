@@ -1,0 +1,93 @@
+{
+  "card_id": "sgAnVR6RSDg_case_001_usd_5分钟图上升趋势的结构分析",
+  "type": "case",
+  "title": "USD 5分钟图上升趋势的结构分析",
+  "related_concepts": [
+    {
+      "term": "Higher High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Trend Continuation",
+      "card_id": "trend_continuation",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "swing_formation",
+    "market_structure",
+    "trend_continuation"
+  ],
+  "school": "Price Action",
+  "asset": "USD",
+  "timeframe": "5m",
+  "market_context": "2024年1月23-24日USD 5分钟图显示从17576上升至17636的上升趋势，期间形成多个更高高点和更高低点的结构序列。",
+  "key_observation": "博主通过识别连续的更高高点（Higher High）和更高低点（Higher Low）来确认上升趋势的延续，演示了如何通过摆动结构判断趋势方向。",
+  "analysis_steps": [
+    "Step 1: 识别初始上升趋势中的第一个高点和低点作为基准。",
+    "Step 2: 观察价格突破初始高点，形成更高高点（Higher High），确认上升动能。",
+    "Step 3: 等待价格回调形成摆动低点（Swing Low），检验该低点是否高于前一个低点（Higher Low）。",
+    "Step 4: 确认更高低点形成后，预期价格继续上升并突破前一个高点，形成新的更高高点。",
+    "Step 5: 重复该过程，通过连续的更高高点和更高低点序列确认上升趋势的持续性。",
+    "Step 6: 对比下降趋势（Lower High和Lower Low）的结构，强化上升趋势识别的对比理解。"
+  ],
+  "outcome": null,
+  "lessons": "上升趋势的核心特征是连续形成更高高点和更高低点；通过摆动结构的对比分析可以清晰判断趋势方向；不需要追求每个顶部或底部，而是跟随结构确认的趋势延续信号。",
+  "primary_image": "cards/sgAnVR6RSDg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/sgAnVR6RSDg/images/case_001_detail_1.jpg",
+    "cards/sgAnVR6RSDg/images/case_001_detail_2.jpg",
+    "cards/sgAnVR6RSDg/images/case_001_detail_3.jpg",
+    "cards/sgAnVR6RSDg/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "USD 5分钟K线图。图上显示从22:30至06:30时间段的价格走势，可见价格范围约从17588.00至17636.75。K线序列由绿色和黑色蜡烛组成，整体呈上升趋势。图上标注有多个粉红色圆圈标记摆动高点和低点。最高点附近的K线呈长上影线形态。中间区域显示绿色和黑色K线交替出现的整理形态。图右下角显示交易按钮（Sell、Buy、Flatten）和时间戳15:21:09。",
+    "case_001_detail_1.jpg": "图上展示两个独立的K线序列，均为烛线图表。上方序列包含约30根K线，呈上升趋势，绿色和黑色烛线交替出现，每根K线具有上下影线。下方序列包含约15根K线，先下降后回升，同样为绿色和黑色烛线混合。两个序列各有一条水平线穿过中部区域。图上标题为'Understanding HTF'。未提供资产代码、时间框架或具体价格刻度。",
+    "case_001_detail_2.jpg": "USD 5分钟K线图，时间范围为2024年1月23日20:30至1月24日04:00。图上显示价格范围从17576.00至17626.00。K线由绿色和黑色蜡烛组成，整体呈上升趋势。图上有一条水平虚线位于17605.00，以及一条竖直虚线标记当前时间位置00:32。右下角显示交易界面按钮（Sell、Buy、Flatten）。",
+    "case_001_detail_3.jpg": "USD 5分钟K线图。图表显示从21:00至04:30的价格走势。可见价格范围约从17576到17626。图上有两条水平虚线分别位于17613和17606。K线以绿色和黑色蜡烛组成，左侧以绿色蜡烛为主，中间至右侧出现绿黑交替的形态。图右侧标注'0:00'和'24/1/2024 HQ11 | 5m'。底部显示成交量柱状图。右下角可见'Sell'和'Buy'按钮。整体呈现在17590至17610区间内",
+    "case_001_detail_4.jpg": "USD 1 分钟 K 线图，时间范围从 21:30 至 05:00，日期标注为 24/1/2024。图上显示价格范围从 17546.00 至 17636.00。K 线序列由绿色和黑色蜡烛组成，左侧从约 17546 开始，向右上方运动至 17620 附近。中间区域显示约 17590 至 17605 的盘整形态。图上有多个粉红色圆圈标记在各个摆动高低点。右侧显示时间标记 0:00 和文字标签 HQ11"
+  },
+  "sources": [
+    {
+      "video_id": "sgAnVR6RSDg",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        190.84,
+        432.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对USD 5分钟图的上升趋势分析完整清晰，资产、时间框架、关键结构点（高点/低点）和分析步骤都明确展示，图表标注清楚。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:01.336039Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 5分钟图上升趋势的结构分析\",\"school\":\"Price Action\",\"asset\":\"USD\",\"timeframe\":\"5m\",\"market_context\":\"2024年1月23-24日USD 5分钟图显示从17576上升至17636的上升趋势，期间形成多个更高高点和更高低点的结构序列。\",\"key_observation\":\"博主通过识别连续的更高高点（Higher High）和更高低点（Higher Low）来确认上升趋势的延续，演示了如何通过摆动结构判断趋势方向。\",\"analysis_steps\":[\"Step 1: 识别初始上升趋势中的第一个高点和低点作为基准。\",\"Step 2: 观察价格突破初始高点，形成更高高点（Higher High），确认上升动能。\",\"Step 3: 等待价格回调形成摆动低点（Swing Low），检验该低点是否高于前一个低点（Higher Low）。\",\"Step 4: 确认更高低点形成后，预期价格继续上升并突破前一个高点，形成新的更高高点。\",\"Step 5: 重复该过程，通过连续的更高高点和更高低点序列确认上升趋势的持续性。\",\"Step 6: 对比下降趋势（Lower High和Lower Low）的结构，强化上升趋势识别的对比理解。\"],\"outcome\":null,\"lessons\":\"上升趋势的核心特征是连续形成更高高点和更高低点；通过摆动结构的对比分析可以清晰判断趋势方向；不需要追求每个顶部或底部，而是跟随结构确认的趋势延续信号。\",\"primary_image_frame_id\":\"sgAnVR6RSDg_f011\",\"supporting_image_frame_ids\":[\"sgAnVR6RSDg_f007\",\"sgAnVR6RSDg_f008\",\"sgAnVR6RSDg_f009\",\"sgAnVR6RSDg_f010\"],\"related_concepts\":[\"Higher High\",\"Higher Low\",\"Swing High\",\"Swing Low\",\"Market Structure\",\"Trend Continuation\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对USD 5分钟图的上升趋势分析完整清晰，资产、时间框架、关键结构点（高点/低点）和分析步骤都明确展示，图表标注清楚。\"}",
+  "error": null
+}

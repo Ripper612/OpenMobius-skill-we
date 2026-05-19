@@ -1,0 +1,61 @@
+{
+  "card_id": "wick_size_and_expansion_support",
+  "type": "merged_concept",
+  "canonical_term": "Wick Size and Expansion Support",
+  "aliases": [
+    "Wick Support for Expansion",
+    "影线大小与扩张支撑"
+  ],
+  "school": "ICT",
+  "definition": "通过K线影线大小判断价格是否具备趋势扩张能力的方法。小影线支持价格继续趋势运行，大影线则消耗了过多价格范围，不支持进一步扩张。",
+  "identification_rules": [
+    "小影线K线：对立方向的影线相对较小，K线主体占比大，表明价格在该周期内单向趋势明显",
+    "大影线K线：对立方向的影线占据K线大部分范围，已消耗该周期的大部分可用价格范围",
+    "对比判断：在同一时间框架内，将当前K线的影线大小与前期K线对比，评估剩余扩张空间",
+    "结合CSD使用：在形成受保护摆动点（Protected High/Low）后，观察当日K线影线大小以预判扩张能力"
+  ],
+  "trading_implication": "小影线K线支持价格继续趋势扩张，可设定激进目标（如前期摆动低点、标准差投影）。大影线K线不支持扩张，应调整目标预期至日开盘价、会话低点或当前K线低点，避免过度预期。该原理适用于日线及更高时间框架的反转交易设置中，帮助交易者根据影线大小动态调整风险回报比。",
+  "common_mistakes": [
+    "忽视影线大小差异，对所有反转K线使用相同的目标预期，导致大影线情况下目标过于激进",
+    "未考虑K线已消耗的价格范围，期望大影线K线之后仍能形成大幅扩张，违反价格范围约束",
+    "在大影线情况下仍试图交易至前期摆动点，而非回看开盘价或会话低点，增加被套风险"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_wick_size_and_expansion_support",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        11.12,
+        473.199
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136745Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

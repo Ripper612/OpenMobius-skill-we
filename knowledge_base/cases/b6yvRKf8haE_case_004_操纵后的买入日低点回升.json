@@ -1,0 +1,114 @@
+{
+  "card_id": "b6yvRKf8haE_case_004_操纵后的买入日低点回升",
+  "type": "case",
+  "title": "买入日操纵后的低点回升至深溢价区",
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Midnight Open",
+      "card_id": "midnight_open",
+      "exists": true
+    },
+    {
+      "term": "8:30 Open",
+      "card_id": "8_30_and_midnight_open",
+      "exists": true
+    },
+    {
+      "term": "Premium",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Discount",
+      "card_id": "discount",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Pivot Point",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "inducement",
+    "midnight_open",
+    "8_30_and_midnight_open",
+    "discount",
+    "order_block",
+    "fair_value_gap",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5M",
+  "market_context": "经典买入日走势，价格在午夜开盘和8:30开盘下方形成操纵，随后反弹至深溢价区。博主展示多个交易日的框架应用，重点分析如何利用午夜开盘和8:30开盘作为枢轴点和目标位。",
+  "key_observation": "在买入日中，价格在午夜开盘和8:30开盘下方形成操纵（Inducement），随后出现激进反弹，最终回升至深溢价区。这种模式提供了清晰的交易框架：操纵区域是最优入场点，午夜/8:30开盘是反弹目标。",
+  "analysis_steps": [
+    "Step 1: 识别午夜开盘和8:30开盘的位置，作为日内交易的关键枢轴点",
+    "Step 2: 观察价格在这两个开盘价下方的操纵走势，确认折价区形成",
+    "Step 3: 等待激进反弹信号，价格突破8:30开盘上方",
+    "Step 4: 追踪价格回升至午夜开盘，观察是否能够突破并进入深溢价区",
+    "Step 5: 确认价格进入深溢价区后，预期后续可能出现更强的下跌或反转",
+    "Step 6: 使用午夜/8:30开盘作为目标位和止损参考，管理交易风险"
+  ],
+  "outcome": null,
+  "lessons": "买入日的操纵-反弹模式是高概率交易设置。关键是识别操纵区域（午夜和8:30开盘下方）作为最优入场点，然后追踪反弹至这两个开盘价的目标。深溢价区的形成预示后续可能的强势下跌，这是风险管理和目标设定的重要参考。",
+  "primary_image": "cards/b6yvRKf8haE/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/b6yvRKf8haE/images/case_004_detail_1.jpg",
+    "cards/b6yvRKf8haE/images/case_004_detail_2.jpg",
+    "cards/b6yvRKf8haE/images/case_004_detail_3.jpg",
+    "cards/b6yvRKf8haE/images/case_004_detail_4.jpg",
+    "cards/b6yvRKf8haE/images/case_004_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上可见价格范围约从4048到4144。图中绘有两条水平线，分别位于4104和4096价格水平，两线之间形成一个矩形标注区域。中部区域约09:00至10:30 UTC时段出现一根大幅下跌的红色K线，下影线从4104附近向下刺破至4048附近。其后K线在4096至4104区间内形成多根整理K线。右侧价格标签显示4104.50、4096.75",
+    "case_004_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从左至右的完整价格走势，高点约4032.75，低点约3878.00。图中有两条水平线分别位于4008.50和4012.30处。两个矩形标注分别标记为'2:00'和'8:30'，对应图上的特定时间区域。K线呈现先跌后涨的整体形态，中间部分有明显的下跌段，右侧显示价格回升。右侧价格标尺显示当前价格约3982附近。图上未见其他指标或复杂",
+    "case_004_detail_2.jpg": "S 期货 5 分钟 K 线图。图上显示从左至右的价格走势，从约 4027 下跌至约 3869，随后反弹至 3923。图上有三条水平线分别位于 4019.75、4004.00 和 3999.75。右侧价格刻度显示当前价格为 3923.75。图中标注有两个时间标签'8:48'和'8:35'。K 线由绿色（上升）和红色（下降）蜡烛组成，整体可见价格范围约从 3869.75 至 4027.75。",
+    "case_004_detail_3.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上可见价格范围从约3860到4025.75。图表左侧显示上升后下跌的走势，中间部分有多个用圆圈标记的区域，右侧显示从低点反弹的走势。图上有三条水平线分别位于约4012.75、4025.25和3945.25处。底部时间轴显示时间戳包括8:22、8:34和Nov 28 Nov 29 - 22:24:25。右侧价格刻度显示当前价格标记在402",
+    "case_004_detail_4.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从左侧约4000下跌至3940附近，随后在中右部分出现回升。可见价格范围约从3940到4024.50。图上有两条水平线位于3973.00至3973.25区间，分别标注时间标签6:00和8:30。K线由绿色和红色蜡烛组成，显示近期内混合方向的价格波动。右侧价格刻度显示多个价格水平标记。",
+    "case_004_detail_5.jpg": "ES 5分钟K线图。图上显示价格范围从3943.00至3998.00。图中有两条水平线分别位于3974.00和3968.00，两条线之间用矩形框标注。时间标签显示6:04和8:34。约09:00时区域出现一根大幅下跌的红色K线，带有较长下影线。之后K线在3968至3974区间内形成多根整理K线。右侧价格轴显示当前价格约3972.00。图上未见其他指标或标注。"
+  },
+  "sources": [
+    {
+      "video_id": "b6yvRKf8haE",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        188.599,
+        465.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对买入日操纵-反弹模式的分析完整清晰，包括关键价位（午夜开盘、8:30开盘）、操纵区域、反弹目标和深溢价区的形成过程，图表展示了完整的走势演变。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:19.792612Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"买入日操纵后的低点回升至深溢价区\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5M\",\"market_context\":\"经典买入日走势，价格在午夜开盘和8:30开盘下方形成操纵，随后反弹至深溢价区。博主展示多个交易日的框架应用，重点分析如何利用午夜开盘和8:30开盘作为枢轴点和目标位。\",\"key_observation\":\"在买入日中，价格在午夜开盘和8:30开盘下方形成操纵（Inducement），随后出现激进反弹，最终回升至深溢价区。这种模式提供了清晰的交易框架：操纵区域是最优入场点，午夜/8:30开盘是反弹目标。\",\"analysis_steps\":[\"Step 1: 识别午夜开盘和8:30开盘的位置，作为日内交易的关键枢轴点\",\"Step 2: 观察价格在这两个开盘价下方的操纵走势，确认折价区形成\",\"Step 3: 等待激进反弹信号，价格突破8:30开盘上方\",\"Step 4: 追踪价格回升至午夜开盘，观察是否能够突破并进入深溢价区\",\"Step 5: 确认价格进入深溢价区后，预期后续可能出现更强的下跌或反转\",\"Step 6: 使用午夜/8:30开盘作为目标位和止损参考，管理交易风险\"],\"outcome\":null,\"lessons\":\"买入日的操纵-反弹模式是高概率交易设置。关键是识别操纵区域（午夜和8:30开盘下方）作为最优入场点，然后追踪反弹至这两个开盘价的目标。深溢价区的形成预示后续可能的强势下跌，这是风险管理和目标设定的重要参考。\",\"primary_image_frame_id\":\"b6yvRKf8haE_f013\",\"supporting_image_frame_ids\":[\"b6yvRKf8haE_f008\",\"b6yvRKf8haE_f009\",\"b6yvRKf8haE_f010\",\"b6yvRKf8haE_f011\",\"b6yvRKf8haE_f012\"],\"related_concepts\":[\"Inducement\",\"Midnight Open\",\"8:30 Open\",\"Premium\",\"Discount\",\"Order Block\",\"Fair Value Gap\",\"Market Structure\",\"Pivot Point\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对买入日操纵-反弹模式的分析完整清晰，包括关键价位（午夜开盘、8:30开盘）、操纵区域、反弹目标和深溢价区的形成过程，图表展示了完整的走势演变。\"}",
+  "error": null
+}

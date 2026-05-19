@@ -1,0 +1,96 @@
+{
+  "card_id": "tZMgGsTqqVM_case_002_15分钟和5分钟图表的交易设置",
+  "type": "case",
+  "title": "ES期货15分钟和5分钟多时间框架交易设置",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "liquidity",
+    "fair_value_gap",
+    "market_structure",
+    "swing_high_low",
+    "time_frame_confluence",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "15分钟 / 5分钟",
+  "market_context": "ES在4070-4120区间形成相等低点，博主从日线看空转为看多短期，计划在价格下探4070吸收流动性后反弹至4300。",
+  "key_observation": "15分钟图识别相等低点和高点结构，5分钟图标注4160、4145、4135关键水平，预期虚假上涨吸收流动性后继续下跌。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图上标记相等的摆动低点和高点，识别流动性聚集区域。",
+    "Step 2: 观察价格突破相等高点后的虚假上涨，确认吸收卖方流动性的意图。",
+    "Step 3: 在5分钟图上标注4160、4145、4135三个关键水平，形成多个矩形区间。",
+    "Step 4: 确认日线看空态势需要价格跌破4070以下才能改变，设定下跌目标。",
+    "Step 5: 规划交易预期：虚假上涨→分发→下跌至4070吸收买方流动性→反弹至4300。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架分析中，高时间框架（日线）确定大方向偏见，中时间框架（15分钟）识别结构和流动性位置，低时间框架（5分钟）精确标注入场和止损水平。相等摆动点和关键价位的组合提高交易概率。",
+  "primary_image": "cards/tZMgGsTqqVM/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/tZMgGsTqqVM/images/case_002_detail_1.jpg",
+    "cards/tZMgGsTqqVM/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上可见价格范围从4070到4185。图表中部偏右区域标注了三条水平线，分别位于4160、4145和4135价格水平。同一区域内绘制了两个矩形框，分别覆盖4135至4160和4145至4160的价格范围。K线序列显示从图左侧4185附近下跌至4100附近，随后反弹至4165附近。图右侧显示当前价格为4115.50，以绿色文字标注。",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 图表显示一段时间内的 K 线走势，价格范围从 3990 到 4220。图上有两条水平线分别位于 4070 和 4120，形成一个矩形区间标注。图右侧显示当前价格为 4117.75，涨幅 0.21%。K 线由绿色（上升）和红色（下降）蜡烛组成，下方有成交量指标面板。图表未见其他技术指标或标注。",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示价格范围从4100到4185。左侧显示下跌趋势，中间部分出现整理和反弹，右侧显示上升至4165后回落至4120附近。图上有一个粉红色矩形标注位于4120-4122区域。左上角显示当前价格标签4118.00和4118.25。K线由绿色（上升）和红色（下跌）蜡烛组成，整个图表跨越多个交易时段。"
+  },
+  "sources": [
+    {
+      "video_id": "tZMgGsTqqVM",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        189.04,
+        259.359
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个时间框架的分析过程，明确标注了关键价位（4070、4120、4160、4145、4135、4300），清晰阐述了交易逻辑和预期走势。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:39.257834Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货15分钟和5分钟多时间框架交易设置\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"15分钟 / 5分钟\",\"market_context\":\"ES在4070-4120区间形成相等低点，博主从日线看空转为看多短期，计划在价格下探4070吸收流动性后反弹至4300。\",\"key_observation\":\"15分钟图识别相等低点和高点结构，5分钟图标注4160、4145、4135关键水平，预期虚假上涨吸收流动性后继续下跌。\",\"analysis_steps\":[\"Step 1: 在15分钟图上标记相等的摆动低点和高点，识别流动性聚集区域。\",\"Step 2: 观察价格突破相等高点后的虚假上涨，确认吸收卖方流动性的意图。\",\"Step 3: 在5分钟图上标注4160、4145、4135三个关键水平，形成多个矩形区间。\",\"Step 4: 确认日线看空态势需要价格跌破4070以下才能改变，设定下跌目标。\",\"Step 5: 规划交易预期：虚假上涨→分发→下跌至4070吸收买方流动性→反弹至4300。\"],\"outcome\":null,\"lessons\":\"多时间框架分析中，高时间框架（日线）确定大方向偏见，中时间框架（15分钟）识别结构和流动性位置，低时间框架（5分钟）精确标注入场和止损水平。相等摆动点和关键价位的组合提高交易概率。\",\"primary_image_frame_id\":\"tZMgGsTqqVM_f010\",\"supporting_image_frame_ids\":[\"tZMgGsTqqVM_f002\",\"tZMgGsTqqVM_f009\"],\"related_concepts\":[\"Order Block\",\"Liquidity\",\"Fair Value Gap\",\"Market Structure\",\"Swing High/Low\",\"Multi-timeframe Analysis\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个时间框架的分析过程，明确标注了关键价位（4070、4120、4160、4145、4135、4300），清晰阐述了交易逻辑和预期走势。\"}",
+  "error": null
+}

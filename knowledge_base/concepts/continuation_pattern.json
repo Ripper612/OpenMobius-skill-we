@@ -1,0 +1,224 @@
+{
+  "card_id": "continuation_pattern",
+  "type": "merged_concept",
+  "canonical_term": "Continuation Pattern",
+  "aliases": [
+    "continuation",
+    "延续形态"
+  ],
+  "school": "ICT",
+  "definition": "价格在回撤或整理后恢复原有趋势的K线序列。理想形态表现为快速V形反转，收盘价在1-3根K线内穿过一系列相反方向K线，并突破整理区间边界、公允价值缺口或前期摆动点，确认趋势延续意图。",
+  "identification_rules": [
+    "在整理或盘整区间后，价格收盘突破该区间的上/下边界",
+    "价格到达公允价值缺口(FVG)或扫出摆动低/高点后，形成快速V形反转",
+    "收盘价穿过一系列相反方向K线（如上升趋势中穿过下跌K线的收盘价），且应在1-3根K线内完成；超过此范围表明形成整理而非Continuation",
+    "形成一系列同向收盘K线（多个上升收盘或下降收盘），表明趋势延续",
+    "可在较低时间框架（如1小时）观察到明确的收盘序列突破，且与高时间框架（如日线）偏向一致",
+    "理想情况下，Continuation形成时不应同时扫出短期高点或低点",
+    "Continuation应在未触及更高时间框架目标的情况下形成"
+  ],
+  "trading_implication": "Continuation是跟随趋势的高概率入场信号。在多时间框架对齐（如周线偏向+日线摆动点+小时线入场）且价格快速V形反转并穿过关键价位时入场，可降低假突破风险。需警惕三类失败场景：形成整理而非Continuation；同时扫出短期高低点；更高时间框架目标已达成。目标为跟随高时框架预期方向运行至流动性目标。",
+  "common_mistakes": [
+    "在Continuation未完全形成时过早入场，导致被诱导或假突破扫损",
+    "忽视多时间框架对齐，仅在低时间框架看到Continuation就入场，缺乏高时框架确认",
+    "将单根反转K线误认为Continuation，应等待收盘序列确认",
+    "在Continuation形成后才入场但止损设置过大，风险回报比不佳",
+    "将整理(Consolidation)误认为Continuation——整理中穿过关键价位缺乏快速V形反转，且常伴随对整理范围另一侧的扫荡",
+    "在短期高低点被扫出的同时交易Continuation——此时价格可能形成新的反转阶段而非趋势延续",
+    "在更高时间框架目标已达成时追入Continuation——FOMO心理导致在趋势可能反转的关键位置入场",
+    "对穿过关键价位的时间要求过松——超过3根K线才穿过表明形成整理，不应作为Continuation交易",
+    "忽视Protected Swing的保护作用——未能识别Continuation是否真正保护了前期摆动点"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "4Gm8p6O7Ebs_case_004_纳指伦敦_纽约会话扩张分析",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "纳指1H伦敦-纽约会话扩张-回撤-扩张循环分析"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_001_黄金期货_gc_周线至小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "黄金期货(GC)周线看跌至小时线2R获利交易"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_001_xagusd日线相关摆动点识别与反应",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGUSD日线堆积低点中的相关摆动点识别与价格反应"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_002_uni日线图_consolidation导致的continuat",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "UNI日线：consolidation后continuation失败的反向运动"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_003_eurusd_1小时图_扫除短期高点的continuation失",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "EURUSD 1H：Continuation失败与高点扫除的识别"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_005_uni_1小时图_缓慢closure的consolidation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "UNI 1H：缓慢closure识别consolidation而非continuation"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_006_btc_1小时图_扫除高点后的continuation等待",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时图：扫除高点后的continuation等待"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_007_多资产图表_consolidation范围的操纵与突破",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1H：Consolidation范围内的低点操纵与突破确认"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_008_btc_1小时图_短期低点扫除后的continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时：短期低点扫除后的continuation确认等待"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_009_xau_usd_1小时图_范围突破的continuation确认",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "XAU/USD 1H：范围突破后的continuation确认"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_011_twitter用户案例_缓慢closure的continuati",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC缓慢closure失败：consolidation而非continuation"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_012_twitter用户案例_扫除高点的虚假continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "价格穿过FVG但同时扫除高点的虚假continuation"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_013_uni_1小时图_高时间框架wick形成的continuatio",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "UNI 1H：高时间框架wick形成时的continuation交易"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_014_nq与btc_多次expansion后的continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC多次expansion后continuation失败的避坑案例"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_003_btc多时间框架延续交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "BTC小时线摆动点内多时间框架延续交易"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_004_整理范围突破后的看涨交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "整理范围突破后的看涨交易案例"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_001_第一个例子_日线看涨偏差失效案例",
+      "video_id": "jKuXaC84Qx4",
+      "title": "日线看涨偏差失效案例：CSD与SMT反向确认"
+    },
+    {
+      "card_id": "nWHint4Yano_case_002_美元继续上升时的gbpusd做空机会",
+      "video_id": "nWHint4Yano",
+      "title": "美元反转上升时通过相对强度确认GBPUSD做空"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_008_usd多层级延续交易的完整案例",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD多层级延续交易：日线延续+小时图反转入场达成2R"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_continuation",
+      "segment_ids": [
+        "seg_004",
+        "seg_009",
+        "seg_013",
+        "seg_015"
+      ],
+      "time_range": [
+        144.48,
+        766.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "original_card_id": "PQiRV0JMhIQ_concept_continuation",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_011",
+        "seg_012",
+        "seg_019",
+        "seg_020",
+        "seg_026"
+      ],
+      "time_range": [
+        10.88,
+        1465.76
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:36.649094Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

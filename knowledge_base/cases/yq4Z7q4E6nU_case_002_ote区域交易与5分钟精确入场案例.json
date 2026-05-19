@@ -1,0 +1,119 @@
+{
+  "card_id": "yq4Z7q4E6nU_case_002_ote区域交易与5分钟精确入场案例",
+  "type": "case",
+  "title": "1小时OTE区域多时间框架精确入场与4R获利案例",
+  "related_concepts": [
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array",
+      "card_id": "premium_discount_array",
+      "exists": true
+    },
+    {
+      "term": "Hammer Candle",
+      "card_id": "hammer_candle",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "ote_optimal_trade_entry",
+    "displacement",
+    "order_block",
+    "fair_value_gap",
+    "fibonacci_retracement",
+    "premium_discount_array",
+    "hammer_candle",
+    "time_frame_confluence",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1! (S&P 500 E-mini Futures)",
+  "timeframe": "1H / 5M / 1M / 15s (Multi-timeframe analysis)",
+  "market_context": "价格在1小时图上经历位移下跌后形成OTE区域。15秒图显示激进下行扫低后回升，5分钟图确认hammer形态，1分钟图精确定位入场点。",
+  "key_observation": "博主强调在范围内的激进运动（aggressive move out and back into range）会在高时间框架上形成hammer或shooter形态，这是识别OTE入场的关键。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别位移下跌后形成的OTE区域（约3843.75水平）",
+    "Step 2: 在15秒图上观察价格激进下行至3810.75低点，随后激进回升回到范围内",
+    "Step 3: 在5分钟图上确认hammer形态（下影线刺破后收回），验证OTE的有效性",
+    "Step 4: 在1分钟图上定位精确入场点，与PD array（斜线下跌K线）对齐",
+    "Step 5: 设置止损在前期低点3810.75，目标设定为之前的低点区域",
+    "Step 6: 交易执行后价格上升至目标区域，获利超过4R"
+  ],
+  "outcome": "交易成功，价格从入场点上升至前期低点目标区域，获利超过4倍风险回报比（>4R）。关键是价格在5分钟图上未能有效突破并收盘于低点下方，预示回升进入OTE区域的可能性。",
+  "lessons": "多时间框架协调是精确入场的核心：高时间框架（1H）定位OTE区域，中时间框架（5M）确认形态有效性，低时间框架（1M/15s）精确定位入场点。激进运动的回测是高概率信号。",
+  "primary_image": "cards/yq4Z7q4E6nU/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/yq4Z7q4E6nU/images/case_002_detail_1.jpg",
+    "cards/yq4Z7q4E6nU/images/case_002_detail_2.jpg",
+    "cards/yq4Z7q4E6nU/images/case_002_detail_3.jpg",
+    "cards/yq4Z7q4E6nU/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S期货5分钟K线图。图上有三条水平线分别位于3843、3815和3810.75处。标注显示0.5和0.62两个比例标记，对应于上下价格区间之间的分割。最新K线呈现长下影线形态，下影线从3843附近向下刺破至3810.75后于同一根K线内收回至3815上方。可见价格范围约从3810到3854。右侧价格刻度清晰可见，图上未见其他指标或形态标注。",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图表显示从 23 日至 1 月 2 日期间的价格走势，可见价格范围约从 3810 到 3885。图上有一条水平虚线位于 3843.75 处。K 线序列中包含多根绿色和黑色蜡烛，中间部分有一根大型黑色 K 线从约 3877 下跌至 3810，随后出现一系列绿色 K 线从 3810 上升至 3877。右侧价格轴显示当前价格标记为 384",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从07:00至12:30的价格走势，价格范围约3818至3869。可见一根大黑K线从高点向下，随后出现一系列黑色K线，之后两根绿色K线上升至3862附近，再跌回。图上有一条水平虚线约在3862.50处，以及一个粉红色矩形标注在3840至3843价格区间。右侧价格刻度显示当前价格标记。",
+    "case_002_detail_3.jpg": "S&P 500 E-mini Futures 15 秒图。图上显示一段明显的下行走势，从约 3850 跌至 3810.75。右侧价格轴标注范围从 3810.00 到 3854.00。图上有两条水平线分别位于 3843.00 和 3814.00。在近期下跌区域标注有斐波那契回撤工具，显示 0.62、0.79 和 1.0 三个水平面。多根 K 线在 3810.75 附近呈现长下影线形态。左侧时间轴显示",
+    "case_002_detail_4.jpg": "S&P 500 E-mini 期货 1 分钟 K 线图。图上显示从左侧约 3880 下跌至右侧约 3820 的下行走势，跨越约 40 根 K 线。图右侧中央有两个矩形标注区域：上方绿色矩形范围为 3849.75 至 3843.75，下方粉色矩形范围为 3843.75 至 3837.25。两个矩形之间有一条水平虚线位于 3843.75。最近的 K 线在这两个标注区域内波动。右侧价格刻度显示当前价格约"
+  },
+  "sources": [
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        188.22,
+        293.3
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从1H到15s的多时间框架分析过程，清晰标注了关键价位（3843.75、3810.75、3815），明确给出交易结果（>4R获利），分析步骤逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:27.676354Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"1小时OTE区域多时间框架精确入场与4R获利案例\",\"school\":\"ICT\",\"asset\":\"NQ1! (S&P 500 E-mini Futures)\",\"timeframe\":\"1H / 5M / 1M / 15s (Multi-timeframe analysis)\",\"market_context\":\"价格在1小时图上经历位移下跌后形成OTE区域。15秒图显示激进下行扫低后回升，5分钟图确认hammer形态，1分钟图精确定位入场点。\",\"key_observation\":\"博主强调在范围内的激进运动（aggressive move out and back into range）会在高时间框架上形成hammer或shooter形态，这是识别OTE入场的关键。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别位移下跌后形成的OTE区域（约3843.75水平）\",\"Step 2: 在15秒图上观察价格激进下行至3810.75低点，随后激进回升回到范围内\",\"Step 3: 在5分钟图上确认hammer形态（下影线刺破后收回），验证OTE的有效性\",\"Step 4: 在1分钟图上定位精确入场点，与PD array（斜线下跌K线）对齐\",\"Step 5: 设置止损在前期低点3810.75，目标设定为之前的低点区域\",\"Step 6: 交易执行后价格上升至目标区域，获利超过4R\"],\"outcome\":\"交易成功，价格从入场点上升至前期低点目标区域，获利超过4倍风险回报比（>4R）。关键是价格在5分钟图上未能有效突破并收盘于低点下方，预示回升进入OTE区域的可能性。\",\"lessons\":\"多时间框架协调是精确入场的核心：高时间框架（1H）定位OTE区域，中时间框架（5M）确认形态有效性，低时间框架（1M/15s）精确定位入场点。激进运动的回测是高概率信号。\",\"primary_image_frame_id\":\"yq4Z7q4E6nU_f010\",\"supporting_image_frame_ids\":[\"yq4Z7q4E6nU_f001\",\"yq4Z7q4E6nU_f008\",\"yq4Z7q4E6nU_f009\",\"yq4Z7q4E6nU_f007\"],\"related_concepts\":[\"OTE (Optimal Trade Entry)\",\"Displacement\",\"Order Block\",\"Fair Value Gap\",\"Fibonacci Retracement\",\"Premium/Discount Array\",\"Hammer Candle\",\"Multi-timeframe Analysis\",\"Liquidity\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从1H到15s的多时间框架分析过程，清晰标注了关键价位（3843.75、3810.75、3815），明确给出交易结果（>4R获利），分析步骤逻辑清晰。\"}",
+  "error": null
+}

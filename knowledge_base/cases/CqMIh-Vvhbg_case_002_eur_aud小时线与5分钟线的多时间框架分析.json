@@ -1,0 +1,118 @@
+{
+  "card_id": "CqMIh-Vvhbg_case_002_eur_aud小时线与5分钟线的多时间框架分析",
+  "type": "case",
+  "title": "EUR/AUD多时间框架Fractal模型分析与指标参数调整",
+  "related_concepts": [
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Wick",
+      "card_id": "higher_time_frame_wick",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Bias Configuration",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "aligned_timeframe",
+    "market_structure_shift",
+    "order_block",
+    "fair_value_gap",
+    "higher_time_frame_wick",
+    "time_frame_confluence",
+    "market_structure",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1H / 5M",
+  "market_context": "EUR/AUD在1小时线上形成Change in State of Delivery，价格在1.62900附近。博主演示如何在小时线和5分钟线间切换应用Fractal模型，识别多时间框架的交易设置。",
+  "key_observation": "Fractal模型具有自适应特性，可在多个时间框架间自动调整指标参数。博主展示了从1H-D模型切换到5M-1H模型的过程，通过改变Bias从Neutral到Bearish来识别看跌设置。",
+  "analysis_steps": [
+    "Step 1: 在1小时线上识别Change in State of Delivery，标记出投影目标和T-spot区域（预期形成高时间框架Wick的灰色区域）",
+    "Step 2: 观察价格是否进入T-spot区域并形成高时间框架Wick，然后预期全天下跌延续",
+    "Step 3: 标记对立蜡烛形态，确认下一根蜡烛收盘看跌后，寻找延续信号",
+    "Step 4: 验证价格最终突破左侧低点，确认设置有效",
+    "Step 5: 切换到5分钟时间框架，演示Fractal模型的自动参数调整功能（从1H-D切换到5M-1H）",
+    "Step 6: 在5分钟线上重复相同分析逻辑，识别高时间框架蜡烛收盘和预期的Wick形成区域",
+    "Step 7: 将Bias从Neutral改为Bearish，指标自动筛选看跌设置",
+    "Step 8: 配置指标设置面板，启用警告/错误消息、设置History参数、调整Fractal时间框架选项（1m-15m、5m-1H等）"
+  ],
+  "outcome": null,
+  "lessons": "Fractal模型的核心优势在于跨时间框架的自适应性和参数自动调整。通过在HTF和LTF间切换，交易者可以在同一个分析框架内识别多层级的交易设置。指标配置中的History、Bias和时间框架选择直接影响信号的准确性和相关性。",
+  "primary_image": "cards/CqMIh-Vvhbg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/CqMIh-Vvhbg/images/case_002_detail_1.jpg",
+    "cards/CqMIh-Vvhbg/images/case_002_detail_2.jpg",
+    "cards/CqMIh-Vvhbg/images/case_002_detail_3.jpg",
+    "cards/CqMIh-Vvhbg/images/case_002_detail_4.jpg",
+    "cards/CqMIh-Vvhbg/images/case_002_detail_5.jpg",
+    "cards/CqMIh-Vvhbg/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图为 EURAUD 烛台图，底部工具栏显示时间戳为 Tue 19 Nov 09:50，右下角标注 5e-1H Model 及 Bias: Bearish 文字。图上可见多个矩形标注，分别标记为 C2（约 1.62700-1.62800 区域）、C3（约 1.62750-1.62780 区域）、C4（约 1.62290-1.62480 区域）。图左侧当前价标签显示 1.62212，底部有一条虚线水平",
+    "case_002_detail_1.jpg": "图表为 EURAUD 1 小时 K 线图，可见价格范围约从 1.62100 至 1.63900。图上有一条水平线位于约 1.62900 处，无文字标签。图右上角标注文字'1H-D Model'及'Bias: Neutral'。图上约 1.63580 处有文字标注'KC2'。日期 19 附近出现一根大幅绿色 K 线（从约 1.62500 延伸至 1.63100），随后紧跟一根大幅黑色 K 线收回至约",
+    "case_002_detail_2.jpg": "图为 EURAUD 1 小时 K 线图，日期范围覆盖 11 月 14 日至 20 日，价格刻度从约 1.62100 至 1.64100。图上有两个带文字标签的矩形框，分别标注为 XC2 和 C2，位于约 1.63500 至 1.63650 区间。右侧另有一个无标签矩形框位于同一价格区间附近。图上有两条水平虚线，分别位于约 1.62894 和 1.62600。11 月 18 日附近绘有一条蓝色水平线",
+    "case_002_detail_3.jpg": "EURAUD 1小时K线图，可见价格范围约从1.61300至1.63400，时间跨度为11月18日至25日。图上有两个矩形标注区域：一个覆盖约1.62600至1.63200区间，另一个覆盖约1.62200至1.62600区间。图上有一条带文字标签'C4'的水平虚线位于1.62600处，另有一条蓝色水平线位于约1.62900处。左侧价格轴显示当前价标签1.61835及另一标签1.61504。图右下角",
+    "case_002_detail_4.jpg": "EURAUD 5 分钟 K 线图，时间轴覆盖 05:00 至 13:00，图右下角标注 5x-1H Model、00:05:00 及 Bias: Neutral。图上有两条水平实线：一条位于约 1.62780 横跨图表左侧至中部，另一条位于约 1.62650 出现在图表右侧区域。图左侧价格轴显示当前价标签 1.62571，另有一条虚线水平线贯穿全图对应该价位。约 09:30 处出现一根主体较长的阴",
+    "case_002_detail_5.jpg": "图左侧为指标设置面板，当前打开了 Fractal 时间框架下拉菜单，选项包括 Automatic、15s-5m、1m-15m（高亮选中）、3m-30m、5m-1H、15m-4H、1H-1D、4H-1W、1D-1M。右侧为 EURAUD 5 分钟 K 线图，时间轴显示 Tue 19 Nov，范围约 08:00 至 14:00。图右下角标注显示资产为 EURAUD（5m）、模型为 1m-15m Mod",
+    "case_002_detail_6.jpg": "图左侧为一个指标设置面板（TTFM [Pro+]），显示 Inputs 标签页，包含 GENERAL SETTINGS、TIME FILTER、HTF CANDLES 等配置项，Bias 设置为 Bearish，Apply below 设置为 1 hour，三个时间过滤器均未勾选。图右侧为 EURAUD 5 分钟 K 线图，右下角标注 5m-1H Model 及 Bias: Bearish。可见价"
+  },
+  "sources": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.2,
+        369.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了Fractal模型在1H和5M时间框架上的应用全过程，包括具体价位、指标参数调整、设置识别逻辑和配置说明，信息清晰完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:31.245522Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EUR/AUD多时间框架Fractal模型分析与指标参数调整\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1H / 5M\",\"market_context\":\"EUR/AUD在1小时线上形成Change in State of Delivery，价格在1.62900附近。博主演示如何在小时线和5分钟线间切换应用Fractal模型，识别多时间框架的交易设置。\",\"key_observation\":\"Fractal模型具有自适应特性，可在多个时间框架间自动调整指标参数。博主展示了从1H-D模型切换到5M-1H模型的过程，通过改变Bias从Neutral到Bearish来识别看跌设置。\",\"analysis_steps\":[\"Step 1: 在1小时线上识别Change in State of Delivery，标记出投影目标和T-spot区域（预期形成高时间框架Wick的灰色区域）\",\"Step 2: 观察价格是否进入T-spot区域并形成高时间框架Wick，然后预期全天下跌延续\",\"Step 3: 标记对立蜡烛形态，确认下一根蜡烛收盘看跌后，寻找延续信号\",\"Step 4: 验证价格最终突破左侧低点，确认设置有效\",\"Step 5: 切换到5分钟时间框架，演示Fractal模型的自动参数调整功能（从1H-D切换到5M-1H）\",\"Step 6: 在5分钟线上重复相同分析逻辑，识别高时间框架蜡烛收盘和预期的Wick形成区域\",\"Step 7: 将Bias从Neutral改为Bearish，指标自动筛选看跌设置\",\"Step 8: 配置指标设置面板，启用警告/错误消息、设置History参数、调整Fractal时间框架选项（1m-15m、5m-1H等）\"],\"outcome\":null,\"lessons\":\"Fractal模型的核心优势在于跨时间框架的自适应性和参数自动调整。通过在HTF和LTF间切换，交易者可以在同一个分析框架内识别多层级的交易设置。指标配置中的History、Bias和时间框架选择直接影响信号的准确性和相关性。\",\"primary_image_frame_id\":\"CqMIh-Vvhbg_f011\",\"supporting_image_frame_ids\":[\"CqMIh-Vvhbg_f007\",\"CqMIh-Vvhbg_f008\",\"CqMIh-Vvhbg_f009\",\"CqMIh-Vvhbg_f010\",\"CqMIh-Vvhbg_f012\",\"CqMIh-Vvhbg_f013\"],\"related_concepts\":[\"Fractal Model\",\"Change in State of Delivery\",\"Order Block\",\"Fair Value Gap\",\"Higher Time Frame Wick\",\"Multi-Timeframe Analysis\",\"Market Structure\",\"Bias Configuration\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了Fractal模型在1H和5M时间框架上的应用全过程，包括具体价位、指标参数调整、设置识别逻辑和配置说明，信息清晰完整。\"}",
+  "error": null
+}

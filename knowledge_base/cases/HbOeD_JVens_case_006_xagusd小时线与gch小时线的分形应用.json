@@ -1,0 +1,89 @@
+{
+  "card_id": "HbOeD_JVens_case_006_xagusd小时线与gch小时线的分形应用",
+  "type": "case",
+  "title": "XAGUSD与GCH小时线的分形摆动点验证",
+  "related_concepts": [
+    {
+      "term": "Swing Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Valid Separation",
+      "card_id": "valid_separation",
+      "exists": true
+    },
+    {
+      "term": "Relevant Swings",
+      "card_id": "relevant_swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Fractal Pattern",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure",
+    "failure_swings",
+    "valid_separation",
+    "relevant_swing_high_low",
+    "point_of_interest"
+  ],
+  "school": "SMC",
+  "asset": "XAGUSD / GCH",
+  "timeframe": "1H",
+  "market_context": "博主在两个不同资产的1小时图表上展示相同的摆动点分析逻辑，通过对比验证分形模型在不同市场中的一致性和适用性。",
+  "key_observation": "XAGUSD和GCH在1小时线上呈现相同的摆动结构：都形成了失败摆动（failure swings），随后产生有效分离的反转低点，最终突破前期高点，展现出分形一致性。",
+  "analysis_steps": [
+    "Step 1: 观察两个资产在小时线上都形成了巩固区间（consolidation）和失败摆动（failure swings）。",
+    "Step 2: 识别两个资产的反转低点，确认其相对于前期低点具有有效分离（valid separation）。",
+    "Step 3: 验证两个资产随后都突破了前期高点，形成相关的摆动结构（relevant swings）。",
+    "Step 4: 确认这些摆动点作为交易兴趣点（point of interest）的有效性，说明不应在失败摆动附近交易。",
+    "Step 5: 总结分形模型在XAGUSD和GCH上的一致性，强调需要在图表上实践以掌握摆动点识别技能。"
+  ],
+  "outcome": null,
+  "lessons": "分形模型在不同资产和时间框架上具有一致性；有效分离的摆动点识别需要经验和判断力；失败摆动附近不适合交易；相关摆动点是确定交易兴趣点的关键。",
+  "primary_image": "cards/HbOeD_JVens/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/HbOeD_JVens/images/case_006_detail_1.jpg",
+    "cards/HbOeD_JVens/images/case_006_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图表显示 XAGUSD 的 1 小时 K 线图，可见价格范围约从 3040 至 3145。图上绘制有两个矩形框标注：上方矩形框覆盖约 3090 至 3145 区间，下方矩形框覆盖约 3040 至 3090 区间。图中央位置有一根较大的阴线，从约 3120 向下延伸至约 3050，其后跟随数根阳线回升至约 3100 附近。图右侧价格轴当前价格标签显示约 3114。图上未见文字标签或其他指标。",
+    "case_006_detail_1.jpg": "图表显示资产代码含GCH字样，纵轴标注USD，价格范围约从4800至5249。图上绘有两个矩形框：上方矩形覆盖约5180至5240区间，下方矩形覆盖约5060至5180区间。图中部有一根较大的阴线，从约5200下行至5060附近，其后跟随数根阳线回升至5200区域。图右侧有一条从约5100向右延伸的斜线标注。图上未见文字术语标签或指标面板。",
+    "case_006_detail_2.jpg": "图表为 GCH 资产的 1 小时 K 线图，可见价格范围约从 4980 到 5310。图上绘制有两个矩形框：上方矩形框覆盖约 5280 至 5310 区间，包含多根 K 线；下方矩形框覆盖约 5060 至 5120 区间，包含数根 K 线。图中央位置有一根较大的阴线，从约 5280 向下延伸至约 5060。图左下方可见一段由较小 K 线组成的区域，价格范围约在 4980 至 5080 之间。图上未"
+  },
+  "sources": [
+    {
+      "video_id": "HbOeD_JVens",
+      "segment_ids": [
+        "seg_011"
+      ],
+      "time_range": [
+        712.8,
+        781.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了两个资产的1小时图表，标注了摆动点和反转区域，完整讲解了分形验证的分析步骤和逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:57.434872Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"XAGUSD与GCH小时线的分形摆动点验证\",\"school\":\"SMC\",\"asset\":\"XAGUSD / GCH\",\"timeframe\":\"1H\",\"market_context\":\"博主在两个不同资产的1小时图表上展示相同的摆动点分析逻辑，通过对比验证分形模型在不同市场中的一致性和适用性。\",\"key_observation\":\"XAGUSD和GCH在1小时线上呈现相同的摆动结构：都形成了失败摆动（failure swings），随后产生有效分离的反转低点，最终突破前期高点，展现出分形一致性。\",\"analysis_steps\":[\"Step 1: 观察两个资产在小时线上都形成了巩固区间（consolidation）和失败摆动（failure swings）。\",\"Step 2: 识别两个资产的反转低点，确认其相对于前期低点具有有效分离（valid separation）。\",\"Step 3: 验证两个资产随后都突破了前期高点，形成相关的摆动结构（relevant swings）。\",\"Step 4: 确认这些摆动点作为交易兴趣点（point of interest）的有效性，说明不应在失败摆动附近交易。\",\"Step 5: 总结分形模型在XAGUSD和GCH上的一致性，强调需要在图表上实践以掌握摆动点识别技能。\"],\"outcome\":null,\"lessons\":\"分形模型在不同资产和时间框架上具有一致性；有效分离的摆动点识别需要经验和判断力；失败摆动附近不适合交易；相关摆动点是确定交易兴趣点的关键。\",\"primary_image_frame_id\":\"HbOeD_JVens_f025\",\"supporting_image_frame_ids\":[\"HbOeD_JVens_f024\",\"HbOeD_JVens_f026\"],\"related_concepts\":[\"Swing Structure\",\"Failure Swings\",\"Valid Separation\",\"Relevant Swings\",\"Point of Interest\",\"Fractal Pattern\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了两个资产的1小时图表，标注了摆动点和反转区域，完整讲解了分形验证的分析步骤和逻辑。\"}",
+  "error": null
+}

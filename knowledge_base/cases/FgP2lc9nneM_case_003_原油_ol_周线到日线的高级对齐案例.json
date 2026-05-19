@@ -1,0 +1,126 @@
+{
+  "card_id": "FgP2lc9nneM_case_003_原油_ol_周线到日线的高级对齐案例",
+  "type": "case",
+  "title": "原油(OL)周线到日线的高级多时间框架对齐案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Expansion",
+      "card_id": "candle_3_expansion",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk-to-Reward Ratio",
+      "card_id": "risk_to_reward_ratio",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "protected_high_low",
+    "market_structure_shift",
+    "change_in_the_state_of_delivery",
+    "candle_2_closure_c2",
+    "candle_3_expansion",
+    "risk_to_reward_ratio"
+  ],
+  "school": "ICT",
+  "asset": "OL1!",
+  "timeframe": "Weekly / Daily / 4H / 15m",
+  "market_context": "原油在周线形成扩展后出现回调。周线Monday形成反转，Friday收高，预示可能继续上升。日线形成下跌K线后出现摆动，为多时间框架对齐提供基础。",
+  "key_observation": "博主通过多时间框架对齐（周线、日线、4小时、15分钟）在同一方向形成扩展，实现高概率交易设置。关键是日线Candle 2收盘确认方向，4小时形成反转K线，15分钟形成延续入场。",
+  "analysis_steps": [
+    "Step 1: 观察周线形成扩展K线，Friday收高，预示可能继续上升方向。",
+    "Step 2: 分析日线结构，识别下跌K线形成的摆动，确定50%位置作为关键支撑。",
+    "Step 3: 等待Monday日线开盘，观察价格是否跌破前一日低点（预期看涨时的必要条件）。",
+    "Step 4: 切换到4小时图，确认价格触及前一日低点后形成反转K线（Candle 2 closure）。",
+    "Step 5: 验证4小时Candle 2收盘在下跌K线上方，扫除前期低点，预示Candle 3可能扩展。",
+    "Step 6: 切换到15分钟图，在4小时Candle 3内寻找延续K线（continuation）作为入场点。",
+    "Step 7: 设置止损在15分钟新形成的Protected Swing低点，目标指向日线高点或周线等高点（8R+风险回报）。",
+    "Step 8: 监控价格是否在触及目标后回撤至前期低点，形成新的Protected Swing以确认延续。"
+  ],
+  "outcome": "交易成功获得2R风险回报，价格形成上升趋势并触及目标区域。通过多时间框架对齐，博主演示了如何从低时间框架止损点（15分钟Protected Swing）交易至高时间框架目标（周线等高点），理论上可获得8R以上的风险回报。",
+  "lessons": "多时间框架对齐是实现高概率交易的关键：(1)高时间框架（周线、日线）确定方向和目标；(2)中时间框架（4小时）确认反转信号；(3)低时间框架（15分钟）精确入场和止损。日线Candle 2的收盘质量（小wick）决定了后续扩展的可能性。",
+  "primary_image": "cards/FgP2lc9nneM/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/FgP2lc9nneM/images/case_003_detail_1.jpg",
+    "cards/FgP2lc9nneM/images/case_003_detail_2.jpg",
+    "cards/FgP2lc9nneM/images/case_003_detail_3.jpg",
+    "cards/FgP2lc9nneM/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 OL1! 的 K 线图，右侧价格刻度范围约从 48.00 至 77.00。图上绘制有一个矩形框，位于图表右侧区域，覆盖约 8 至 10 根 K 线，价格范围约在 56.00 至 62.00 之间。图左侧可见一根较长的绿色 K 线，高点约达 75.00，以及一根较长的黑色 K 线，低点约至 52.00。图右侧矩形框内 K 线呈横向排列。图上未见文字标签或其他指标。",
+    "case_003_detail_1.jpg": "图表显示资产代码为 MQT1! 的日线蜡烛图，价格范围约从 54.50 至 86.50。图左侧可见一处摆动高点区域约在 86.50 附近，随后 K 线整体向下运行，在图中偏右位置出现一处摆动低点约在 54.50 附近。此后右侧 K 线整体向上回升至约 79.00 区域。图上有一条贯穿全图的浅色水平线，位置约在 57.50 处。图上未见文字标注、矩形框或其他技术指标。",
+    "case_003_detail_2.jpg": "图表为 BLL 资产的 4 小时 K 线图，右侧价格刻度从约 37 延伸至约 83。图左侧可见一段由绿色与黑色 K 线交替构成的震荡走势，价格区间约在 39 至 55 之间。图中部出现一段上行走势，K 线依次抬高，最高触及约 83 附近，随后出现一段下行，K 线收至约 60 区域。图右侧可见数根大实体 K 线，绿色与黑色交替出现，实体范围约在 60 至 83 之间。图上未见任何文字标注、水平线、矩",
+    "case_003_detail_3.jpg": "图表为 NQ1! 15 分钟 K 线图。图右侧中央区域有两个矩形标注框叠加：一个浅绿色矩形覆盖较大价格区间，一个灰色矩形覆盖较小区间，两者均包含多根 K 线。图上可见三条带文字标签的水平线，分别标注 Target、Entry P&L 及 Stop 信息，含数量与金额数据。图左侧 K 线整体呈先下行后回升走势，右侧出现数根绿色与黑色 K 线，最右端有一根较大黑色 K 线。图右下角标注 Stop 水平",
+    "case_003_detail_4.jpg": "图表显示资产代码左上角标注为 BLL，时间框架底部工具栏显示 15m。图上可见价格范围约从 79.00 至 82.00。图中部偏左区域出现连续数根下行 K 线，随后价格在约 79.85 附近形成低点，多根小 K 线在该区域横向排列。图右侧出现数根较大的绿色 K 线与黑色 K 线交替排列。图中可见两条水平线分别位于约 79.90 与 80.15 附近，并有两个矩形框标注于低点区域附近。图上还可见一个"
+  },
+  "sources": [
+    {
+      "video_id": "FgP2lc9nneM",
+      "segment_ids": [
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020",
+        "seg_021"
+      ],
+      "time_range": [
+        588.24,
+        921.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从周线到15分钟的分析过程，清晰标注了关键K线、价格水平和交易结果，资产代码、时间框架、入场逻辑和止损目标均明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:30.406003Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油(OL)周线到日线的高级多时间框架对齐案例\",\"school\":\"ICT\",\"asset\":\"OL1!\",\"timeframe\":\"Weekly / Daily / 4H / 15m\",\"market_context\":\"原油在周线形成扩展后出现回调。周线Monday形成反转，Friday收高，预示可能继续上升。日线形成下跌K线后出现摆动，为多时间框架对齐提供基础。\",\"key_observation\":\"博主通过多时间框架对齐（周线、日线、4小时、15分钟）在同一方向形成扩展，实现高概率交易设置。关键是日线Candle 2收盘确认方向，4小时形成反转K线，15分钟形成延续入场。\",\"analysis_steps\":[\"Step 1: 观察周线形成扩展K线，Friday收高，预示可能继续上升方向。\",\"Step 2: 分析日线结构，识别下跌K线形成的摆动，确定50%位置作为关键支撑。\",\"Step 3: 等待Monday日线开盘，观察价格是否跌破前一日低点（预期看涨时的必要条件）。\",\"Step 4: 切换到4小时图，确认价格触及前一日低点后形成反转K线（Candle 2 closure）。\",\"Step 5: 验证4小时Candle 2收盘在下跌K线上方，扫除前期低点，预示Candle 3可能扩展。\",\"Step 6: 切换到15分钟图，在4小时Candle 3内寻找延续K线（continuation）作为入场点。\",\"Step 7: 设置止损在15分钟新形成的Protected Swing低点，目标指向日线高点或周线等高点（8R+风险回报）。\",\"Step 8: 监控价格是否在触及目标后回撤至前期低点，形成新的Protected Swing以确认延续。\"],\"outcome\":\"交易成功获得2R风险回报，价格形成上升趋势并触及目标区域。通过多时间框架对齐，博主演示了如何从低时间框架止损点（15分钟Protected Swing）交易至高时间框架目标（周线等高点），理论上可获得8R以上的风险回报。\",\"lessons\":\"多时间框架对齐是实现高概率交易的关键：(1)高时间框架（周线、日线）确定方向和目标；(2)中时间框架（4小时）确认反转信号；(3)低时间框架（15分钟）精确入场和止损。日线Candle 2的收盘质量（小wick）决定了后续扩展的可能性。\",\"primary_image_frame_id\":\"FgP2lc9nneM_f023\",\"supporting_image_frame_ids\":[\"FgP2lc9nneM_f022\",\"FgP2lc9nneM_f025\",\"FgP2lc9nneM_f026\",\"FgP2lc9nneM_f027\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Protected Swing\",\"Market Structure Shift\",\"Change in the state of delivery\",\"Candle 2 Closure\",\"Candle 3 Expansion\",\"Multi-timeframe Alignment\",\"Risk-to-Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从周线到15分钟的分析过程，清晰标注了关键K线、价格水平和交易结果，资产代码、时间框架、入场",
+  "error": null
+}

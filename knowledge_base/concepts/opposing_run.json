@@ -1,0 +1,171 @@
+{
+  "card_id": "opposing_run",
+  "type": "merged_concept",
+  "canonical_term": "Opposing Run",
+  "aliases": [
+    "Judas swing",
+    "Opposing Candle",
+    "Wick",
+    "opposing move",
+    "反向运动",
+    "对抗运动"
+  ],
+  "school": "ICT",
+  "definition": "在趋势延续框架中，价格回测到重要水平（FVG、订单块、扫盘摆动高/低点等兴趣点）后形成的、方向与当前趋势相反的K线。需后续价格突破该K线收盘或继续朝原趋势方向运行，才构成有效的延续确认信号，可用于识别入场点、止损位及支撑阻力区域。",
+  "identification_rules": [
+    "价格必须先回测到重要水平（FVG、订单块、流动性区域或扫盘的摆动高/低点），未进入兴趣点则不构成有效形态",
+    "在该重要水平处形成一根方向与当前趋势相反的K线（如上升趋势中出现下跌K线）",
+    "该反向K线通常在一系列同向K线之后出现，标志着短期结构的改变",
+    "需后续K线收盘突破该反向K线，或价格继续朝原趋势方向运行，以验证延续信号有效",
+    "可与SMT配对使用：相关资产之一完成扫盘而另一个未扫盘时，仍可视为有效",
+    "可与FVG或订单块重叠，形成多重点位确认"
+  ],
+  "trading_implication": "Opposing Candle是趋势延续框架中的高概率入场确认信号。价格进入重要水平后形成反向K线，表明机构可能在该区域进行操纵，随后倾向于继续原趋势。交易者等待收盘突破该K线后入场，止损设于其极值处。结合多时间框架偏差与SMT等确认信号使用，可提高风险回报比，也适用于错过初始反转入场后的延续参与。",
+  "common_mistakes": [
+    "在反向K线形成但未被后续K线突破时过早入场，导致被反向扫盘",
+    "将任何反向K线都视为有效形态，忽视必须先进入FVG或兴趣点的前置条件",
+    "仅看到反向K线就入场，未等待价格继续朝原趋势方向运行的确认",
+    "混淆Opposing Candle与Order Block的概念——前者强调收盘突破的确认要求，两者虽相关但用途有区别",
+    "未在多时间框架背景下识别，导致在错误方向建立头寸",
+    "将单个Opposing Candle作为独立交易信号，忽视更高时间框架的结构确认",
+    "忽视SMT配对条件，在单一资产上机械应用该规则"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "F0G31iLVpVg_case_005_nq1日线月度结构分析",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1日线月度结构中的回撤入场与反转信号"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_004_nq_5分钟1小时模型看跌案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ 5分钟1小时模型看跌案例 - 浅wick确认与FVG止损"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_002_黄金期货_gc_4小时至15分钟浅回撤延续",
+      "video_id": "IJcfC6wAPZU",
+      "title": "黄金期货(GC)4小时至15分钟浅回撤延续交易"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_003_原油期货_cl_激进位移后的回测入场",
+      "video_id": "IJcfC6wAPZU",
+      "title": "原油期货CL激进位移后的回测入场策略"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_006_英镑美元_gbpusd_日线至月线范围交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "GBPUSD日线-月线范围交易：扫低后CSD确认突破"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "IJcfC6wAPZU",
+      "original_card_id": "IJcfC6wAPZU_concept_opposing_candle",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_005"
+      ],
+      "time_range": [
+        10.96,
+        910.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_opposing_candle",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        697.12,
+        748.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "iEaMbuFZb24",
+      "original_card_id": "iEaMbuFZb24_concept_opposing_candle",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        192.36,
+        1085.76
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:34.194662Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "3张原始卡均为ICT，school无冲突。原始卡术语为'Opposing Candle'，规范术语为'Opposing Run'，内容已按规范术语整合，概念实质一致。",
+  "error": null
+}

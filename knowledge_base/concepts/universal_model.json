@@ -1,0 +1,57 @@
+{
+  "card_id": "universal_model",
+  "type": "merged_concept",
+  "canonical_term": "Universal Model",
+  "aliases": [
+    "价格框架",
+    "通用模型"
+  ],
+  "school": "ICT",
+  "definition": "通过识别内部范围（关键水平）和外部范围（目标水平）的关系，预测价格在关键水平反转后的目标位置的分析框架。包括内部到外部、外部到内部、操纵范围三种模式。",
+  "identification_rules": [
+    "内部到外部模式：价格进入内部范围（如FVG），预期反转后交易至导致该回撤的外部范围",
+    "外部到内部模式：价格触及或操纵外部范围高点/低点后，预期回撤进入内部范围（FVG或缺口），然后继续或反转至对立侧",
+    "操纵范围模式：范围高点或低点为关键水平，对立侧范围或摆动点为目标水平",
+    "必须结合摆动形态确认：市场无法在没有摆动形态的情况下反转，需验证K线2闭合或K线3强势闭合"
+  ],
+  "trading_implication": "Universal Model提供了从关键水平预测目标水平的机械化方法。交易者在价格触及内部范围流动性时，可预期反转至外部范围；或在触及外部范围时，预期回撤至内部范围后的后续走势。与摆动形态结合使用，可确认反转的有效性，提高交易的概率性。",
+  "common_mistakes": [
+    "未结合摆动形态确认就提前入场：K线2闭合或K线3强势闭合前无法确认反转",
+    "忽视wick size的重要性：小wick允许反转和扩张，大wick表示反转烛线应避免交易",
+    "混淆内部范围和外部范围的角色：内部范围是关键水平（反转触发点），外部范围是目标水平（反转目标）",
+    "在K线3未形成前参与交易：某些形态（如K线3闭合）必须等待完整形成后才能确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_universal_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        11.2,
+        379.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136531Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

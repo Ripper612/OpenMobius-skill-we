@@ -1,0 +1,55 @@
+{
+  "card_id": "multi_timeframe_overlay",
+  "type": "merged_concept",
+  "canonical_term": "Multi-Timeframe Overlay",
+  "aliases": [
+    "HTF/LTF Overlay",
+    "Timeframe Confluence"
+  ],
+  "school": "ICT",
+  "definition": "通过复制指标并在不同时间框架上应用，将高时间框架的T-Spot、订单块、公允价值缺口等设置与低时间框架的相同结构重叠显示，以寻找多个时间框架的交易信号汇聚点。",
+  "identification_rules": [
+    "复制指标实例，将其应用于不同时间框架（如日线和1小时、1小时和5分钟）",
+    "在低时间框架图表上隐藏高时间框架的K线体，仅保留高时间框架的T-Spot、订单块投影等标记",
+    "观察高时间框架的T-Spot区域与低时间框架的T-Spot或设置是否在价格上重合或相邻",
+    "确认两个时间框架的信号方向一致（如都指向看跌或看涨）"
+  ],
+  "trading_implication": "多时间框架重叠提高交易信号的可靠性。当高时间框架T-Spot与低时间框架设置重合时，形成强汇聚点，增加交易概率。可用于确认入场点、设置止损位和目标位。例如，高时间框架T-Spot与低时间框架T-Spot重叠时，该区域成为关键支撑/阻力，反向突破该区域可能预示趋势反转。",
+  "common_mistakes": [
+    "未根据时间过滤器调整设置，导致指标在不适当的时间框架上显示信号",
+    "在低时间框架上保留高时间框架的K线体显示，造成图表混乱，难以识别真实的低时间框架设置",
+    "忽视高低时间框架信号方向的一致性，导致交易方向与市场结构相反"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_multi_timeframe_overlay",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        725.0,
+        1082.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134209Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

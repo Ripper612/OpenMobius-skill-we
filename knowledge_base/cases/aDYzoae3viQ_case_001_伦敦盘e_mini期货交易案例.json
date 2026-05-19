@@ -1,0 +1,123 @@
+{
+  "card_id": "aDYzoae3viQ_case_001_伦敦盘e_mini期货交易案例",
+  "type": "case",
+  "title": "伦敦盘E-mini期货位移突破15分钟FVG的完整交易案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Scalping",
+      "card_id": "scalping",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Partial Profit Taking",
+      "card_id": "partial_profit_taking",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "displacement",
+    "order_block_ob",
+    "optimal_trade_entry_ote",
+    "liquidity",
+    "premium_discount",
+    "market_structure",
+    "scalping",
+    "partial_profit_taking"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "15s / 15m",
+  "market_context": "伦敦盘期间，价格在新闻禁令解除前形成位移范围覆盖结构。交易者识别到15分钟公允价值缺口作为折价区的关键点位，为做多提供了点位兴趣和风险管理框架。",
+  "key_observation": "价格在伦敦盘形成位移突破，触及并填补第三个公允价值缺口。博主在15秒图表上观察到位移穿过结构进入15分钟FVG的精确设置，该区域处于折价区和最优交易入场点（OTE）范围内。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表上识别伦敦盘期间的位移范围覆盖结构，确认存在15分钟公允价值缺口作为折价区。",
+    "Step 2: 标记公允价值缺口的具体位置，为下一步低时间框架分析做准备。",
+    "Step 3: 切换至15秒图表，观察价格行动在接近该区域时的表现。",
+    "Step 4: 确认位移突破进入15分钟FVG，在15秒图表上识别出一个处于折价区和OTE范围内的15秒公允价值缺口。",
+    "Step 5: 在该15秒FVG处设置做多入场，风险设置在流动性扫荡位置。",
+    "Step 6: 第一个部分平仓目标设置在摆动高点。",
+    "Step 7: 监控1分钟时间框架，如果摆动高点未被突破，则保持看空偏见。",
+    "Step 8: 价格出现小幅回撤但仍在15分钟FVG内，执行第一个部分平仓。",
+    "Step 9: 将止损移至盈亏平衡点，继续持有剩余头寸进行剩余目标。",
+    "Step 10: 最终被止出，交易结束。"
+  ],
+  "outcome": "交易被止出。博主在第一个部分平仓后将止损移至盈亏平衡点，但最终价格反向运行导致剩余头寸被止损执行。",
+  "lessons": "该案例演示了如何在高时间框架（15分钟）识别关键结构和公允价值缺口，然后在低时间框架（15秒）精确定位入场点。强调了部分平仓策略的重要性——在第一个目标达成后立即锁定利润并移至盈亏平衡，以管理剩余头寸的风险。同时展示了即使设置正确，市场仍可能反向运行，止损管理至关重要。",
+  "primary_image": "cards/aDYzoae3viQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/aDYzoae3viQ/images/case_001_detail_1.jpg",
+    "cards/aDYzoae3viQ/images/case_001_detail_2.jpg",
+    "cards/aDYzoae3viQ/images/case_001_detail_3.jpg",
+    "cards/aDYzoae3viQ/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES 15秒K线图。图上标注三个矩形区域：绿色区域位于上方标记目标价位4330.00，灰色区域位于中部标记入场价位4276.50，粉色区域位于下方标记止损价位3.50。两条红色和灰色水平线分别位于4279.25和4271.50处。可见价格范围从4268.50至4287.75。K线在标注区域内呈现整理形态。图右侧显示当前价格标签。",
+    "case_001_detail_1.jpg": "S&P 500 E-mini 期货 15 分钟 K 线图。图上可见从左侧向下倾斜的趋势线，终点约在 4366.50 处标记为 EQL。图右侧价格刻度显示范围约 4312.00 至 4366.50。图上有多条水平线标注，包括 4309.00 处标记为 HI PRC、4480.00 处标记为 0.5、4472.00 处标记为 0.62、4464.00 处标记为 with FVG、4456.00 处标记",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 15 秒图表。图上显示价格范围从 4291 到 4268。三条水平线分别位于 4276、4271 和 4268 处。两个矩形区域分别标记在 4276-4271 和 4271-4268 之间。K 线显示从左侧约 4285 的位置向下运动至 4268 附近。下方时间轴显示交易时段从 09:00 至 10:35。右侧价格刻度清晰可见。",
+    "case_001_detail_3.jpg": "ES 15秒K线图。图上有三条红色水平线分别位于4276、4271和4234价格水平。两个灰色矩形框分别标记了4271-4276区间和4234-4271区间。K线整体价格范围从4234到4287。图表显示早期盘中在4281-4287区间内的整理，随后出现从4276向下的快速下跌至4234附近，期间多根K线呈现长下影线形态。右下角显示当前价格标签4304.75。时间轴显示从09:15至10:15的交",
+    "case_001_detail_4.jpg": "ES 15秒K线图。图上显示价格范围约从4268.50至4287.00。图中有一条红色水平线位于4276.00处，另有标注为0.5的水平线位于4272.00处。图上绘制了两个灰色矩形区域，分别对应上方4276.00至4280.00区间和下方4268.50至4276.00区间。K线呈现从左侧高位向下运动的形态，下方区域内多根K线显示长下影线特征。右侧价格标签显示4272.00。"
+  },
+  "sources": [
+    {
+      "video_id": "aDYzoae3viQ",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.96,
+        160.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主提供了完整的分析流程：从15分钟结构识别→15秒精确入场→部分平仓→止损管理→最终被止出。所有关键价位、时间框架、交易步骤和结果都清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:54.086522Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"伦敦盘E-mini期货位移突破15分钟FVG的完整交易案例\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"15s / 15m\",\"market_context\":\"伦敦盘期间，价格在新闻禁令解除前形成位移范围覆盖结构。交易者识别到15分钟公允价值缺口作为折价区的关键点位，为做多提供了点位兴趣和风险管理框架。\",\"key_observation\":\"价格在伦敦盘形成位移突破，触及并填补第三个公允价值缺口。博主在15秒图表上观察到位移穿过结构进入15分钟FVG的精确设置，该区域处于折价区和最优交易入场点（OTE）范围内。\",\"analysis_steps\":[\"Step 1: 在15分钟图表上识别伦敦盘期间的位移范围覆盖结构，确认存在15分钟公允价值缺口作为折价区。\",\"Step 2: 标记公允价值缺口的具体位置，为下一步低时间框架分析做准备。\",\"Step 3: 切换至15秒图表，观察价格行动在接近该区域时的表现。\",\"Step 4: 确认位移突破进入15分钟FVG，在15秒图表上识别出一个处于折价区和OTE范围内的15秒公允价值缺口。\",\"Step 5: 在该15秒FVG处设置做多入场，风险设置在流动性扫荡位置。\",\"Step 6: 第一个部分平仓目标设置在摆动高点。\",\"Step 7: 监控1分钟时间框架，如果摆动高点未被突破，则保持看空偏见。\",\"Step 8: 价格出现小幅回撤但仍在15分钟FVG内，执行第一个部分平仓。\",\"Step 9: 将止损移至盈亏平衡点，继续持有剩余头寸进行剩余目标。\",\"Step 10: 最终被止出，交易结束。\"],\"outcome\":\"交易被止出。博主在第一个部分平仓后将止损移至盈亏平衡点，但最终价格反向运行导致剩余头寸被止损执行。\",\"lessons\":\"该案例演示了如何在高时间框架（15分钟）识别关键结构和公允价值缺口，然后在低时间框架（15秒）精确定位入场点。强调了部分平仓策略的重要性——在第一个目标达成后立即锁定利润并移至盈亏平衡，以管理剩余头寸的风险。同时展示了即使设置正确，市场仍可能反向运行，止损管理至关重要。\",\"primary_image_frame_id\":\"aDYzoae3viQ_f006\",\"supporting_image_frame_ids\":[\"aDYzoae3viQ_f003\",\"aDYzoae3viQ_f004\",\"aDYzoae3viQ_f002\",\"aDYzoae3viQ_f005\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Displacement\",\"Order Block (OB)\",\"Optimal Trade Entry (OTE)\",\"Liquidity\",\"Premium / Discount\",\"Market Structure\",\"Scalping\",\"Risk Management\",\"Partial Profit Taking\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主提供了完整的分析流程：从15分钟结构识别→15秒精确入场→部分平仓→止损管理→最终被止出。所有关键价位、时间框架、交易步骤和结果都清晰可见。\"}",
+  "error": null
+}

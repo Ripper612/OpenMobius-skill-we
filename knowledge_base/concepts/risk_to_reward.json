@@ -1,0 +1,302 @@
+{
+  "card_id": "risk_to_reward",
+  "type": "merged_concept",
+  "canonical_term": "Risk to Reward",
+  "aliases": [
+    "R:R",
+    "Risk/Reward Ratio"
+  ],
+  "school": "Risk Management",
+  "definition": "止损距离与利润目标距离的比例关系，以R倍数表示（如2R表示收益为风险的2倍）。计算公式：(目标价位 - 入场价) ÷ (入场价 - 止损价)。通过调整止损至新形成的失效点而非原始反转低点，可在相同风险下获得更高R倍数，评估交易的风险收益性价比。",
+  "identification_rules": [
+    "确定入场价与止损价的距离（点数差）作为风险单位（1R），止损通常设于关键结构低点、K线实体低点或受保护的摆动点",
+    "确定目标价位与入场价的距离（点数差）作为收益单位，用收益单位除以风险单位得出R倍数",
+    "常见目标倍数为2R、3R、4R，高质量交易设置应满足至少2R的比例要求",
+    "在续延入场中，识别新形成的失效点（如续延订单块的高点）作为止损，而非使用原始反转低点，以改善R倍数",
+    "通过系列向上/向下收盘K线穿过重要水平来确认新的失效点有效性",
+    "在交易平台持仓面板或已平仓交易弹窗中可直接查看Risk/Reward Ratio数值",
+    "若初始目标的比例不理想，可使用标准差投影等工具调整目标位置以获得更优比例"
+  ],
+  "trading_implication": "风险回报比是评估交易设置质量的核心指标，应在入场前确认能获得至少2R的比例。即使胜率不高，足够高的R倍数也能保证正期望值与账户长期增长。在续延入场中，等待新订单块或公允价值缺口形成后，以新失效点设置止损，可在相同风险下显著提升收益倍数。止损过大导致比例不理想时，应放弃或调整该交易。",
+  "common_mistakes": [
+    "未在交易前明确计算风险回报比，导致止损过大或目标过小，盲目入场",
+    "接受低于2R（或1:2）的交易设置，导致长期收益不足以覆盖亏损",
+    "混淆止损距离与利润目标的计算方向，或使用不一致的参考点",
+    "在价格接近目标时提前平仓，未能充分获取预期的R倍数收益",
+    "为追求更高R倍数而将止损设置过远，增加被扫荡的风险",
+    "在已获得目标收益后继续持仓，试图追求更高收益而放弃已确定的R倍数",
+    "仅关注绝对点数而忽视比例关系，未能标准化评估不同交易的质量",
+    "使用原始反转低点作为止损，而不是利用新形成的失效点来改善比率",
+    "未等待系列收盘K线穿过重要水平就仓促入场，导致止损设置不当"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    },
+    {
+      "term": "Take Profit",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Position Sizing",
+      "card_id": "position_sizing",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Target Price",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Invalidation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "5fnFOh5YuM0_case_003_欧元美元日线看涨设置",
+      "video_id": "5fnFOh5YuM0",
+      "title": "欧元美元日线看涨设置：低阻力流动性与摆动结构确认"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_004_btc日线看跌扩张交易",
+      "video_id": "5fnFOh5YuM0",
+      "title": "日线扩张K线的多时间框架看跌交易"
+    },
+    {
+      "card_id": "6zTz7WMdMWg_case_009_ym期货从4小时到15分钟的反转交易",
+      "video_id": "6zTz7WMdMWg",
+      "title": "YM期货4小时到15分钟的反转交易"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_001_黄金期货_gc_周线至小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "黄金期货(GC)周线看跌至小时线2R获利交易"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_006_eth_1小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "ETH 1小时线多时间框架看跌交易"
+    },
+    {
+      "card_id": "9MUej4g9Jyg_case_001_es期货多时间框架交易设置分析",
+      "video_id": "9MUej4g9Jyg",
+      "title": "ES期货多时间框架Strat反转入场分析"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_001_原油期货日线propulsion_block交易案例",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "原油期货日线Propulsion Block交易案例"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_003_eur_aud_5分钟线的t_spot重叠交易",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "GC1! 5分钟线T-Spot与1小时线重叠的高概率做多设置"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_004_黄金期货gc1小时线与5分钟线的看涨设置",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "黄金期货GC1小时线C2与5分钟线的看涨Order Block设置"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_003_usoil_5分钟图_大型订单块与平均阈值应用",
+      "video_id": "DMUiDBnTYc8",
+      "title": "USOIL 5分钟：大型订单块与平均阈值优化入场"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_004_nq_15分钟图_纽约开盘扫盘与订单块",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ 15分钟：纽约开盘扫盘与订单块多重入场"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_005_日线图_多重订单块延续趋势",
+      "video_id": "DMUiDBnTYc8",
+      "title": "日线多重订单块延续趋势分析"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_004_nq_5分钟1小时模型看跌案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ 5分钟1小时模型看跌案例 - 浅wick确认与FVG止损"
+    },
+    {
+      "card_id": "MlMsG7li9zY_case_001_纳斯达克100期货日线折价区做多案例",
+      "video_id": "MlMsG7li9zY",
+      "title": "纳斯达克100期货日线折价区做多案例"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_005_黄金第五个交易案例_复杂结构做空",
+      "video_id": "TNybDCtwBnc",
+      "title": "黄金日线扫高点后小时线CSD确认，5分钟线等待CSD后做空"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_004_美元日元日线到5分钟的多次入场机会",
+      "video_id": "iEaMbuFZb24",
+      "title": "USD/JPY日线到5分钟的多次入场机会分析"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_005_黄金日线看涨结构的回测和扩张",
+      "video_id": "iEaMbuFZb24",
+      "title": "黄金日线看涨结构回测判断与小时线扩张"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_005_gbpusd反转失败案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GBPUSD反转失败案例：CSD信号止损，转向EUR成功"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_028_回测第二十六天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "第26天交易：浅扫后反弹乏力，拒绝低质量价格行为"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_003_usd_30分钟与1分钟的candle_3交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD 30分钟反转与1分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_014_es_1小时与5分钟的candle_3交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "ES 1小时反转后的5分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "ubCe509_JLY_case_001_es1期货周线到15分钟的多时间框架对齐交易",
+      "video_id": "ubCe509_JLY",
+      "title": "ES1期货周线到15分钟多时间框架对齐做空交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "original_card_id": "5fnFOh5YuM0_concept_risk_reward_ratio",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        191.4,
+        904.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_risk_reward_ratio",
+      "segment_ids": [
+        "seg_004",
+        "seg_009",
+        "seg_010",
+        "seg_021"
+      ],
+      "time_range": [
+        144.48,
+        1022.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_risk_reward_ratio",
+      "segment_ids": [
+        "seg_001",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        696.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_risk_reward_ratio_r",
+      "segment_ids": [
+        "seg_008",
+        "seg_011",
+        "seg_015",
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_024"
+      ],
+      "time_range": [
+        359.12,
+        1219.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IJcfC6wAPZU",
+      "original_card_id": "IJcfC6wAPZU_concept_risk_to_reward",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.96,
+        193.08
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:09.291387Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "5张原始卡school字段均为Risk Management，无冲突。第5张卡（IJcfC6wAPZU）侧重续延入场改善R倍数的具体方法，已整合入识别规则与trading_implication。",
+  "error": null
+}

@@ -1,0 +1,177 @@
+{
+  "card_id": "failure_to_displace",
+  "type": "merged_concept",
+  "canonical_term": "Failure to Displace",
+  "aliases": [
+    "Failed Displacement",
+    "Failure to Close Outside",
+    "Lack of Displacement"
+  ],
+  "school": "ICT",
+  "definition": "价格触及摆动高点或低点（或关键结构区域）后，未能收盘于该水平之外，表明缺乏突破动能。收盘价回到区间内部，预示价格将向反方向运行，可作为反转或偏差方向切换的信号。",
+  "identification_rules": [
+    "观察价格是否触及或扫过摆动高点/低点，或试图突破关键结构（如支撑/阻力位）",
+    "确认该K线收盘价是否回到摆动点或区间内部（未能在区间外收盘）——收盘位置是判定的核心",
+    "若价格触及但未能收盘于摆动点之外，则判定为 Failure to Displace",
+    "观察是否伴随反向强势K线（aggressive up/down candle）出现，形成反转信号",
+    "通常伴随K线回到前一根K线范围内或形成内包K线形态",
+    "可在多个时间框架上应用（日线、4小时、1小时等），优先参考高时间框架的判定"
+  ],
+  "trading_implication": "Failure to Displace是判断反转或偏差方向切换的关键信号。价格在摆动低点失败突破时预期看涨（下一根K线可能为OLHC），在摆动高点失败突破时预期看跌（下一根K线可能为OHLC）。可在失败点附近建立反向头寸，结合 PD Array（FVG、OB 等）及 Next Candle/Next Day Model 框架化目标，指向更高结构或前期高低点。",
+  "common_mistakes": [
+    "仅看价格触及而忽视收盘位置——必须确认收盘价未能在区间外，而非仅触及",
+    "将 Failure to Displace 与简单价格触及或虚假突破混淆，导致误判或过早入场",
+    "混淆 Failure to Displace 与 Displacement——Displacement 是强势突破并伴随 FVG 产生，而 Failure to Displace 是未能突破",
+    "在低时间框架过度应用而忽视高时间框架偏差——应优先参考高时间框架的 Failure to Displace",
+    "忽视 Failure to Displace 后出现的反向强势K线，错过反转信号",
+    "孤立使用该概念而不结合 PD Array 或其他流动性框架",
+    "忽视摆动点的有效性——需确保所识别的摆动点是市场结构中的关键转折点"
+  ],
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Next Candle Model",
+      "card_id": "next_day_model",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium/Discount Array",
+      "card_id": "premium_discount_array",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "5rbFskdmEmU_case_001_标普500_e_mini期货11月4日日内走势分析",
+      "video_id": "5rbFskdmEmU",
+      "title": "标普500 E-mini期货11月4日位移与位移缺失分析"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_003_错误偏差下的做空尝试与转向做多",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "失败位移识别：从错误做空转向正确做多"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_005_标普500从低位上升至高点的完整交易过程",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "标普500从3790低位上升至3838高点的多时间框架交易过程"
+    },
+    {
+      "card_id": "ynFA6E3qHj0_case_001_nq1期货1分钟图_从高点失败突破到下跌扫盘",
+      "video_id": "ynFA6E3qHj0",
+      "title": "NQ1期货1分钟图：高点失败突破到下跌扫盘的结构分析"
+    },
+    {
+      "card_id": "ynFA6E3qHj0_case_003_es日线图_识别日线级别的摆动点与位移",
+      "video_id": "ynFA6E3qHj0",
+      "title": "ES日线图：识别摆动点与位移判断日线偏向"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_failure_to_displace",
+      "segment_ids": [
+        "seg_004",
+        "seg_009"
+      ],
+      "time_range": [
+        543.0,
+        1500.24
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "original_card_id": "YmdC_LKT-Pk_concept_failure_to_displace",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        187.56,
+        545.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_failure_to_displace",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        365.72,
+        719.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:36.823634Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": null,
+  "error": null
+}

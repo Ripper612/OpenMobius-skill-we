@@ -1,0 +1,183 @@
+{
+  "card_id": "swing_high_swing_low",
+  "type": "merged_concept",
+  "canonical_term": "Swing High / Swing Low",
+  "aliases": [
+    "External Range Liquidity",
+    "局部高低点",
+    "局部高点/局部低点",
+    "摆动低点",
+    "摆动高点",
+    "摆动高点/摆动低点",
+    "短期高点/低点"
+  ],
+  "school": "ICT",
+  "definition": "摆动高点或摆动低点，代表市场关键流动性汇集的价格极值水平（外部范围流动性）。价格在内部范围流动性（FVG）与外部范围流动性之间循环振荡，外部流动性通常作为反转后的最终交易目标。",
+  "identification_rules": [
+    "识别前一个明确的摆动高点（Swing High）或摆动低点（Swing Low），该点位代表局部价格极值",
+    "确认该高点或低点在形成后未被后续价格立即突破，即为有效摆动点",
+    "确认价格从该摆动点开始产生回撤，进入由公允价值缺口（FVG）定义的内部范围",
+    "外部范围流动性通常与内部范围流动性（FVG）配对出现，两者构成通用模型框架",
+    "可在任何时间框架上识别，优先在高时间框架（1小时、4小时、周线等）标记关键水平"
+  ],
+  "trading_implication": "外部范围流动性（摆动高/低）是价格振荡模型的核心目标。在高时间框架确定方向偏差后，预期价格从内部范围流动性（FVG）运动至外部范围流动性。可使用变交付状态（CSD）或订单块作为低时间框架入场触发，目标通常设定为2R风险回报比，交易须在猎杀区内执行。",
+  "common_mistakes": [
+    "混淆外部范围流动性（摆动极值点）与内部范围流动性（FVG），导致目标设定错误",
+    "期望价格总是完美地在内外流动性之间循环，忽视市场有时跳过某些级别或不回测的情况",
+    "在单一时间框架上应用该概念，未考虑多时间框架的层级关系",
+    "在缺乏强势偏差的情况下交易外部流动性被扫除后的反弹，忽视流动性已被清除的风险",
+    "未等待变交付状态（CSD）确认就提前入场，导致被诱导（Inducement）",
+    "将摆动高/低识别错误，使用无效的外部流动性水平作为目标"
+  ],
+  "related_concepts": [
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Swing Formation",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Universal Model",
+      "card_id": "universal_model",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3OivsP1j_UE_case_003_英镑日元周线到4小时的买卖模式转换",
+      "video_id": "3OivsP1j_UE",
+      "title": "GBPJPY 周线到4小时的卖买模式转换与流动性追踪"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_004_纳指5分钟开盘范围内的内外流动性循环",
+      "video_id": "3OivsP1j_UE",
+      "title": "NQ1 5分钟开盘范围内的内外流动性循环"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_001_黄金周线至15分钟多时间框架交易案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "黄金周线至15分钟多时间框架交易案例"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_002_日线扫盘后的5分钟入场案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "日线扫盘后通过小时图FVG和5分钟CSD的多层级入场"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_004_usd_jpy日线趋势延续案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "USD/JPY日线趋势延续：从内部流动性到外部流动性的机制化交易"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_002_nq第二个例子_从内部流动性到外部流动性",
+      "video_id": "q40pRwjuPYQ",
+      "title": "NQ从15分钟内部流动性到5分钟扫盘再到30秒FVG入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3OivsP1j_UE",
+      "original_card_id": "3OivsP1j_UE_concept_external_range_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.48,
+        713.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_external_range_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        11.2,
+        379.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_external_range_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        11.0,
+        877.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:35.657798Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "3张原始卡均为ICT学派，无学派冲突。原始卡主题为External Range Liquidity，规范术语为Swing High/Swing Low，两者高度重叠，已按规范术语整合。",
+  "error": null
+}

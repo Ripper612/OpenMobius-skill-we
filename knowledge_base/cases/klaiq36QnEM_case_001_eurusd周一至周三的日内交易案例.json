@@ -1,0 +1,124 @@
+{
+  "card_id": "klaiq36QnEM_case_001_eurusd周一至周三的日内交易案例",
+  "type": "case",
+  "title": "EURUSD周一至周三日内交易：日线FVG回测与小时级breaker确认卖出",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity (SSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Draw on Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Accumulation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "breaker_block",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "draw_on_liquidity",
+    "market_structure_shift_mss",
+    "optimal_trade_entry_ote",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1D / 1H / 15M",
+  "market_context": "EURUSD在2月初触及日线公允价值缺口（Daily FVG）后形成反转。周一跳过不交易，周二价格回测日线高点，周三在纽约盘中通过15分钟图表的FVG和breaker回测确认卖出机会，最终触及下方流动性目标。",
+  "key_observation": "博主应用MMXM交易模型：跳过周一，在周二确认价格触及日线FVG后，周三在纽约盘中利用小时级breaker和15分钟FVG的重合回测点作为高概率卖出入场，目标是下方的draw on liquidity（卖方流动性）。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别Daily FVG（约1.0740-1.0770区间）作为draw on liquidity目标，以及上方的Daily FVG作为周一的反转点。",
+    "Step 2: 跳过周一交易，观察周二价格上升至日线高点附近，确认触及了高时间框架的关键水平。",
+    "Step 3: 切换到1小时图表，识别H1 Breaker（约1.0765）和Accumulation区域（约1.0735），以及下方的Sellside Liquidity（约1.0725）。",
+    "Step 4: 进入周三，在15分钟图表中观察价格回测H1 Breaker和15分钟FVG的重合区域（Accumulation区间约1.0700-1.0720）。",
+    "Step 5: 在15分钟图表中确认价格从Accumulation区域反向下行，形成卖出信号，目标指向下方的draw on liquidity。",
+    "Step 6: 价格最终触及下方流动性目标，完成交易模型的执行。"
+  ],
+  "outcome": "价格从周三的15分钟Accumulation区域（约1.0700-1.0720）反向下行，成功触及下方的draw on liquidity（日线FVG下方的卖方流动性区域），交易目标达成。",
+  "lessons": "MMXM模型的核心是跳过周一的不确定性，在周二确认HTF（高时间框架）水平被触及后，周三在纽约盘中利用多时间框架的结构重合（H1 Breaker + M15 FVG）寻找OTE（最优入场点），从而以高概率执行交易。经济日历和时间框架的连续性是该模型的关键。",
+  "primary_image": "cards/klaiq36QnEM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/klaiq36QnEM/images/case_001_detail_1.jpg",
+    "cards/klaiq36QnEM/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "EURUSD 15 分钟 K 线图。图上绘有三条水平线，分别位于 1.07350、1.07090 和 1.06800。图中央有一个标记为'Accumulation'的矩形框，覆盖约 1.07000 至 1.07200 的价格区间。下方另有一个矩形框位于 1.06900 至 1.07050 区间。图上标注'Open'和'Close'文字标签。K 线序列由绿色和黑色蜡烛组成，各根 K 线具有不同长度的",
+    "case_001_detail_1.jpg": "EURUSD 日线图。图上显示从 2023 年 1 月至 3 月的价格走势。可见价格范围约从 1.04600 至 1.10800。图上有一条水平线位于 1.06400 处。标注区域包括两个矩形框：一个标记为'Daily FVG'位于约 1.07400 至 1.07700 区间，另一个标记为'M'位于约 1.07200 至 1.07600 区间。K 线序列显示从 1 月起的上升趋势，2 月初达到高点",
+    "case_001_detail_2.jpg": "EURUSD 1 小时 K 线图。图上标注有三条带文字标签的水平线：H1 Breaker 约在 1.07650、Accumulation 约在 1.07350、Sellside Liquidity 约在 1.07250。可见价格范围从 1.06600 到 1.08150。图表显示一段上升趋势后跟随一段下降趋势，期间有多根绿色和黑色 K 线交替出现。在 1.07900 附近有一根带长上影线的黑色 K"
+  },
+  "sources": [
+    {
+      "video_id": "klaiq36QnEM",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        184.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对EURUSD案例的分析完整清晰：资产、时间框架、关键价位（Daily FVG、H1 Breaker、Accumulation、Sellside Liquidity）、分析步骤（跳过周一→周二确认→周三M15回测→触及目标）和交易结果都有明确记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:41.395040Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD周一至周三日内交易：日线FVG回测与小时级breaker确认卖出\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1D / 1H / 15M\",\"market_context\":\"EURUSD在2月初触及日线公允价值缺口（Daily FVG）后形成反转。周一跳过不交易，周二价格回测日线高点，周三在纽约盘中通过15分钟图表的FVG和breaker回测确认卖出机会，最终触及下方流动性目标。\",\"key_observation\":\"博主应用MMXM交易模型：跳过周一，在周二确认价格触及日线FVG后，周三在纽约盘中利用小时级breaker和15分钟FVG的重合回测点作为高概率卖出入场，目标是下方的draw on liquidity（卖方流动性）。\",\"analysis_steps\":[\"Step 1: 在日线图上识别Daily FVG（约1.0740-1.0770区间）作为draw on liquidity目标，以及上方的Daily FVG作为周一的反转点。\",\"Step 2: 跳过周一交易，观察周二价格上升至日线高点附近，确认触及了高时间框架的关键水平。\",\"Step 3: 切换到1小时图表，识别H1 Breaker（约1.0765）和Accumulation区域（约1.0735），以及下方的Sellside Liquidity（约1.0725）。\",\"Step 4: 进入周三，在15分钟图表中观察价格回测H1 Breaker和15分钟FVG的重合区域（Accumulation区间约1.0700-1.0720）。\",\"Step 5: 在15分钟图表中确认价格从Accumulation区域反向下行，形成卖出信号，目标指向下方的draw on liquidity。\",\"Step 6: 价格最终触及下方流动性目标，完成交易模型的执行。\"],\"outcome\":\"价格从周三的15分钟Accumulation区域（约1.0700-1.0720）反向下行，成功触及下方的draw on liquidity（日线FVG下方的卖方流动性区域），交易目标达成。\",\"lessons\":\"MMXM模型的核心是跳过周一的不确定性，在周二确认HTF（高时间框架）水平被触及后，周三在纽约盘中利用多时间框架的结构重合（H1 Breaker + M15 FVG）寻找OTE（最优入场点），从而以高概率执行交易。经济日历和时间框架的连续性是该模型的关键。\",\"primary_image_frame_id\":\"klaiq36QnEM_f005\",\"supporting_image_frame_ids\":[\"klaiq36QnEM_f003\",\"klaiq36QnEM_f004\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Breaker Block\",\"Liquidity\",\"Sellside Liquidity (SSL)\",\"Draw on Liquidity\",\"Market Structure Shift (MSS)\",\"Optimal Trade Entry (OTE)\",\"Accumulation\",\"High Time Frame (HTF)\",\"Low Time Frame (LTF)\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\"",
+  "error": null
+}

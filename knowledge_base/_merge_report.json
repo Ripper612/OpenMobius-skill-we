@@ -1,0 +1,38 @@
+{
+  "project_name": "Education - ICT",
+  "generated_at": "2026-05-13T15:59:16.151354Z",
+  "stats": {
+    "total_source_concept_cards": 1383,
+    "merged_concepts": 380,
+    "single_source_concepts": 253,
+    "multi_source_concepts": 127,
+    "failed_merges": 0,
+    "total_source_case_cards": 584,
+    "indexed_cases": 584,
+    "cases_with_illustrations": 584,
+    "unresolved_concept_refs": 862,
+    "school_conflicts": 41,
+    "total_api_calls": 128,
+    "total_cost_usd": 2.692,
+    "total_time_seconds": 579.81
+  },
+  "stage_1": {
+    "model": "anthropic/claude-haiku-4.5",
+    "n_calls": 1,
+    "cost_usd": 0.025,
+    "elapsed_seconds": 38.79
+  },
+  "stage_2": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "n_calls": 127,
+    "cost_usd": 2.6670000000000003,
+    "elapsed_seconds": 541.0
+  },
+  "stage_3": {
+    "model": null,
+    "n_calls": 0,
+    "cost_usd": 0.0,
+    "elapsed_seconds": 0.02
+  },
+  "warnings": []
+}

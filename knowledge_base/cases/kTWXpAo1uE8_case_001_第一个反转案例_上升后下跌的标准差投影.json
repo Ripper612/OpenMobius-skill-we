@@ -1,0 +1,120 @@
+{
+  "card_id": "kTWXpAo1uE8_case_001_第一个反转案例_上升后下跌的标准差投影",
+  "type": "case",
+  "title": "NQ1! 60m上升后激进下跌的标准差投影分析",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "standard_deviation_projection",
+    "manipulation_leg",
+    "premium_discount_premium_",
+    "equilibrium",
+    "change_in_the_state_of_delivery"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "60m",
+  "market_context": "价格在NQ1! 60分钟图上经历上升趋势后出现激进下跌回到区间，博主通过识别操纵腿并投影标准差来分析反转机制。",
+  "key_observation": "价格从低点上升至高点形成操纵腿，随后激进下跌回到区间。通过投影该操纵腿的标准差，可以识别-2到-2.5和-4标准差水平作为关键反应区域。",
+  "analysis_steps": [
+    "Step 1: 识别价格上升后的激进下跌形态，确认价格回到了之前的区间范围。",
+    "Step 2: 定位操纵腿——从低点到高点的那一段K线序列（在新高形成前的移动）。",
+    "Step 3: 从高点到低点投影操纵腿，生成标准差投影线。",
+    "Step 4: 标记-2到-2.5标准差水平（黄色矩形区域），作为第一个关键反应区。",
+    "Step 5: 标记-4标准差水平（最大扩展），作为极端反应区。",
+    "Step 6: 观察价格在-2到-2.5区域的反应，判断是回撤还是反转。",
+    "Step 7: 如果价格穿过-2到-2.5并继续下跌，则寻找-4标准差的最大扩展反应。",
+    "Step 8: 在-4标准差处标记折价区和溢价区的均衡点，预期价格回撤至均衡。",
+    "Step 9: 将标准差投影与PD数组（如FVG、卖方流动性）叠加，寻找多重确认。"
+  ],
+  "outcome": null,
+  "lessons": "标准差投影是识别反转关键水平的有效工具。-2到-2.5和-4标准差水平常伴随PD数组（FVG、流动性）形成高概率反应区。操纵腿的准确识别是投影准确性的基础。",
+  "primary_image": "cards/kTWXpAo1uE8/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/kTWXpAo1uE8/images/case_001_detail_1.jpg",
+    "cards/kTWXpAo1uE8/images/case_001_detail_2.jpg",
+    "cards/kTWXpAo1uE8/images/case_001_detail_3.jpg",
+    "cards/kTWXpAo1uE8/images/case_001_detail_4.jpg",
+    "cards/kTWXpAo1uE8/images/case_001_detail_5.jpg",
+    "cards/kTWXpAo1uE8/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图上展示一段 K 线序列，标题为'Retracement or Reversal'。左侧呈上升趋势，绿色 K 线逐步上行至顶部。随后出现下降趋势，黑色 K 线向下运行。图上有三条带数字标签的水平线，分别标记为 1、2、2.5 和 4。一个黄色矩形区域位于 2 和 2.5 标签之间。最右侧的 K 线为黑色，带有长下影线，穿过黄色矩形区域向下延伸。",
+    "case_001_detail_1.jpg": "图上显示一组约20根K线，颜色为绿色和黑色混合。K线呈现先上升后下降的整体形态。图上方有一个标注为'Anchoring'的虚线矩形框，框内包含K线序列的上部分。K线具有不同长度的影线。右下角显示页码'3'。图上未显示资产代码、时间框架或价格刻度数字。",
+    "case_001_detail_2.jpg": "USD 60分钟K线图。图上可见价格范围约从14600到15175。图中绘有一个粉红色矩形框，位置约在15000至15100价格区间。右侧标注显示日期为29/9/2023，资产为NQ11，时间框架为60分钟。图右侧还标有数字标签2和2.3。K线呈现从左下向右上的整体上升趋势，中间存在14700至14900区间的盘整形态。图上有两条水平虚线分别位于14976.75和14894.25处。",
+    "case_001_detail_3.jpg": "USD 60分钟K线图，时间范围从10月初至10月9日。图上价格范围约从14425到15125。可见两个用粉红色矩形标注的价格区域：一个在15025-15050附近，另一个在14590-14625附近。图上有三条水平线分别位于15025、14698.25和14590.25处。K线整体呈下降趋势，从图左侧的15050附近下行至图右侧的14590附近。中间区域14800-14900间有多根K线显示较长",
+    "case_001_detail_4.jpg": "USD 60分钟K线图，时间范围显示12/10/2023。图上可见价格范围约从14975到15900。标注有两条水平线分别位于15348.25和15310.00。图中央有一个粉红色矩形框标注，覆盖约15420至15480的价格区间。K线呈现上升趋势，从左侧约15200上升至中部15450附近，随后出现调整。可见多根K线在15300至15350区间内形成整理形态。右侧K线显示价格回落至15300附近",
+    "case_001_detail_5.jpg": "图上显示一张 K 线图，标题为'Max Expansion'。图表展示从左下向上的上升趋势，由绿色 K 线组成，随后在顶部形成峰值，之后转为下降趋势，由黑色 K 线主导。右侧标注有 4 条水平线，分别标记为'1'、'2'、'2.5'、'4'。中间区域可见混合颜色的 K 线。下降阶段的多根 K 线呈现长下影线形态。图上未标注资产代码或时间框架信息。",
+    "case_001_detail_6.jpg": "USD 60分钟K线图。图上显示价格范围约从14600到15160。图中有两个黄色矩形框标注，分别位于14620-14680和14600-14750区间。一个粉红色矩形框覆盖在15040-15060价格区域。图上标注文字包括'25/9/2023'、'NQ11 | 60m'和'Mon 02 Oct 23 08:00'。K线序列显示从左侧的下跌走势，中间出现整理区间，随后上升至15040附近形成粉红框"
+  },
+  "sources": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        129.52,
+        311.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了操纵腿识别、标准差投影、关键水平标记的全过程，资产代码、时间框架、价格范围均从图表清晰读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:15.548313Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1! 60m上升后激进下跌的标准差投影分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"60m\",\"market_context\":\"价格在NQ1! 60分钟图上经历上升趋势后出现激进下跌回到区间，博主通过识别操纵腿并投影标准差来分析反转机制。\",\"key_observation\":\"价格从低点上升至高点形成操纵腿，随后激进下跌回到区间。通过投影该操纵腿的标准差，可以识别-2到-2.5和-4标准差水平作为关键反应区域。\",\"analysis_steps\":[\"Step 1: 识别价格上升后的激进下跌形态，确认价格回到了之前的区间范围。\",\"Step 2: 定位操纵腿——从低点到高点的那一段K线序列（在新高形成前的移动）。\",\"Step 3: 从高点到低点投影操纵腿，生成标准差投影线。\",\"Step 4: 标记-2到-2.5标准差水平（黄色矩形区域），作为第一个关键反应区。\",\"Step 5: 标记-4标准差水平（最大扩展），作为极端反应区。\",\"Step 6: 观察价格在-2到-2.5区域的反应，判断是回撤还是反转。\",\"Step 7: 如果价格穿过-2到-2.5并继续下跌，则寻找-4标准差的最大扩展反应。\",\"Step 8: 在-4标准差处标记折价区和溢价区的均衡点，预期价格回撤至均衡。\",\"Step 9: 将标准差投影与PD数组（如FVG、卖方流动性）叠加，寻找多重确认。\"],\"outcome\":null,\"lessons\":\"标准差投影是识别反转关键水平的有效工具。-2到-2.5和-4标准差水平常伴随PD数组（FVG、流动性）形成高概率反应区。操纵腿的准确识别是投影准确性的基础。\",\"primary_image_frame_id\":\"kTWXpAo1uE8_f009\",\"supporting_image_frame_ids\":[\"kTWXpAo1uE8_f004\",\"kTWXpAo1uE8_f006\",\"kTWXpAo1uE8_f007\",\"kTWXpAo1uE8_f008\",\"kTWXpAo1uE8_f010\",\"kTWXpAo1uE8_f011\"],\"related_concepts\":[\"Displacement\",\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"Standard Deviation Projection\",\"Manipulation Leg\",\"Premium/Discount\",\"Equilibrium\",\"PD Array\",\"Change in the state of delivery\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了操纵腿识别、标准差投影、关键水平标记的全过程，资产代码、时间框架、价格范围均从图表清晰读出。\"}",
+  "error": null
+}

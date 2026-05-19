@@ -1,0 +1,127 @@
+{
+  "card_id": "lpam8F-N3EM_case_001_纳斯达克100期货15分钟到1分钟的做空案例",
+  "type": "case",
+  "title": "NQ1! 15分钟等高点流动性扫除到1分钟位移做空案例",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "MSS",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "FVG",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Premium",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "0.5 Level",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Risk : Reward",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "market_structure_shift",
+    "displacement",
+    "fair_value_gap",
+    "order_block",
+    "fibonacci_retracement",
+    "equilibrium_eq",
+    "equal_lows",
+    "swing_formation"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15分钟 → 1分钟",
+  "market_context": "纳斯达克100期货在15分钟图上形成等高点，流动性在该高点被扫除，随后价格在1分钟图上出现强势位移，为做空提供机会。",
+  "key_observation": "博主识别出15分钟等高点流动性扫除后，转向1分钟图寻找市场结构转变和位移，在0.5斐波那契水平上方的FVG处设置做空入场，建立了完整的风险回报比框架。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图上识别等高点（Equal Highs）流动性扫除点",
+    "Step 2: 转向1分钟图确认价格未能突破该高点",
+    "Step 3: 识别市场结构转变（MSS）和强势位移（Displacement），价格在低点下方突破",
+    "Step 4: 使用斐波那契工具从位移范围的高点到低点绘制，确定0.5水平线",
+    "Step 5: 在0.5斐波那契水平上方（溢价区）寻找FVG或订单块作为做空入场点",
+    "Step 6: 设置止损位于FVG上方或生成FVG的K线上方",
+    "Step 7: 确定第一目标位为等低点（Equal Lows），第二目标位为下方的摆动低点"
+  ],
+  "outcome": null,
+  "lessons": "完整的A+设置需要五个关键要素：流动性扫除、市场结构转变、位移、0.5斐波那契水平上的FVG/OB、以及返回该区域。在溢价区做空时，入场必须在0.5水平上方，止损设置要考虑FVG可能被回测的风险，目标位应基于已知的摆动结构。",
+  "primary_image": "cards/lpam8F-N3EM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/lpam8F-N3EM/images/case_001_detail_1.jpg",
+    "cards/lpam8F-N3EM/images/case_001_detail_2.jpg",
+    "cards/lpam8F-N3EM/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NASDAQ 100 E-mini Futures 1分钟图表。图上标注了多个矩形区域和水平线。粉红色矩形区域标记为'Liquidity Grab'、'MSS + Displacement'、'FVG/OB above/below: 5 fib of Displacement Range'和'Solid Risk - Reward'，覆盖价格范围约11920至11990。绿色矩形区域标记为'Ret",
+    "case_001_detail_1.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图右侧显示五条文字标注，分别为-Liquidity Grab、-MSS + Displacement、-FVG/OB above/below .5 fib of Displacement Range、-Return to the FVG/OB、-Solid Risk : Reward。图上K线整体价格范围约从11750到12325",
+    "case_001_detail_2.jpg": "NQ1! 1分钟K线图。图上标注了5条文字标签：Liquidity Grab、MSS + Displacement、FVG/OB above/below .5 fib of Displacement Range、Return to the FVG/OB、Solid Risk : Reward。可见价格范围约从11810到11990。图右侧标注了4条水平线，分别位于11893.00、11872.25",
+    "case_001_detail_3.jpg": "NASDAQ 100 E-mini Futures 1分钟K线图。图上显示价格范围从11750.00至11934.00。图中有两个矩形区域标注：粉色矩形覆盖11865.75至11934.00区间，绿色矩形覆盖11800.00至11865.75区间。右侧标注文字包括'Return to the Y Eur/UB'、'Solid Risk : Reward'和'0.50 (1064.00)'。K线在中"
+  },
+  "sources": [
+    {
+      "video_id": "lpam8F-N3EM",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.08,
+        124.119
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从15分钟到1分钟的分析流程，清晰标注了所有关键价位、FVG区域、目标位，并详细说明了入场和止损逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:26.970374Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1! 15分钟等高点流动性扫除到1分钟位移做空案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15分钟 → 1分钟\",\"market_context\":\"纳斯达克100期货在15分钟图上形成等高点，流动性在该高点被扫除，随后价格在1分钟图上出现强势位移，为做空提供机会。\",\"key_observation\":\"博主识别出15分钟等高点流动性扫除后，转向1分钟图寻找市场结构转变和位移，在0.5斐波那契水平上方的FVG处设置做空入场，建立了完整的风险回报比框架。\",\"analysis_steps\":[\"Step 1: 在15分钟图上识别等高点（Equal Highs）流动性扫除点\",\"Step 2: 转向1分钟图确认价格未能突破该高点\",\"Step 3: 识别市场结构转变（MSS）和强势位移（Displacement），价格在低点下方突破\",\"Step 4: 使用斐波那契工具从位移范围的高点到低点绘制，确定0.5水平线\",\"Step 5: 在0.5斐波那契水平上方（溢价区）寻找FVG或订单块作为做空入场点\",\"Step 6: 设置止损位于FVG上方或生成FVG的K线上方\",\"Step 7: 确定第一目标位为等低点（Equal Lows），第二目标位为下方的摆动低点\"],\"outcome\":null,\"lessons\":\"完整的A+设置需要五个关键要素：流动性扫除、市场结构转变、位移、0.5斐波那契水平上的FVG/OB、以及返回该区域。在溢价区做空时，入场必须在0.5水平上方，止损设置要考虑FVG可能被回测的风险，目标位应基于已知的摆动结构。\",\"primary_image_frame_id\":\"lpam8F-N3EM_f004\",\"supporting_image_frame_ids\":[\"lpam8F-N3EM_f002\",\"lpam8F-N3EM_f003\",\"lpam8F-N3EM_f005\"],\"related_concepts\":[\"Liquidity\",\"Equal Highs\",\"MSS\",\"Displacement\",\"FVG\",\"Order Block\",\"Premium\",\"Fibonacci Retracement\",\"0.5 Level\",\"Risk : Reward\",\"Equal Lows\",\"Swing Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从15分钟到1分钟的分析流程，清晰标注了所有关键价位、FVG区域、目标位，并详细说明了入场和止损逻辑。\"}",
+  "error": null
+}

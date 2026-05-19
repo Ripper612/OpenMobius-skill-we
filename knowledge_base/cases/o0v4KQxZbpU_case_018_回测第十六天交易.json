@@ -1,0 +1,91 @@
+{
+  "card_id": "o0v4KQxZbpU_case_018_回测第十六天交易",
+  "type": "case",
+  "title": "回测第十六天：Order Block入场做多被止损出局",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "FVG",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "NAS100在回测第十六天（周二）经历早盘下跌后反弹。价格在09:00-09:30形成下行，随后09:30-10:40持续上升。博主在反弹过程中识别Order Block并尝试做多入场。",
+  "key_observation": "价格在扫低后反弹至Order Block区域，博主设置止损于前期高点。虽然入场成功，但价格随即反向运行，触发止损被迫出局。",
+  "analysis_steps": [
+    "Step 1: 标记出早盘下跌的低点和高点，确定交易窗口范围（09:00-11:00）。",
+    "Step 2: 观察价格从低点反弹，识别潜在的Order Block入场区域。",
+    "Step 3: 在Order Block处设置做多入场，止损设在前期摆动高点。",
+    "Step 4: 入场后价格快速反向下行，触发止损，被迫出局。",
+    "Step 5: 博主评价该交易为不理想的设置，因为价格在折价区反弹时已接近低点，不符合最优入场条件。"
+  ],
+  "outcome": "交易被止损出局。博主指出入场时机不佳，价格在回升过程中已经接近低点，缺乏足够的结构确认。",
+  "lessons": "在使用Order Block入场时，应等待价格在折价区形成更清晰的结构确认，而非仅在反弹初期入场。止损设置在摆动高点虽然逻辑清晰，但需要结合更强的价格结构来提高成功率。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_018_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_018_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_018_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_018_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_018_primary.jpg": "NAS100 1 分钟 K 线图。图上显示从约 15100 到 15725 的价格范围。右侧价格刻度标注了多条水平线，间隔为 50 点。图表中央有三个矩形区域标注，分别用浅粉红色和浅绿色填充。左侧 K 线序列呈现黑绿混合形态，右侧主要为绿色 K 线。图上未见其他指标或标注。",
+    "case_018_detail_1.jpg": "NAS100 1分钟K线图。图表显示从09:00至10:40的价格走势。左侧主图显示K线序列，从09:00至09:30呈下跌趋势，多根黑色K线，随后从09:30至10:40呈上升趋势，多根绿色K线。图上绘有6条水平线，分别位于15000、15450、15750、19350、19750等价格水平。右侧面板显示3个矩形框，分别标注在19350-19750、15450-15750、15000-15450",
+    "case_018_detail_2.jpg": "NAS100 1分钟K线图。图上显示从约10:15至11:30 UTC的K线序列。可见价格范围约从17670至18812。图表右侧价格轴标注有三条水平线，分别位于18772.5、17745和17670处。图上绘制有两个矩形框，分别对应不同的价格区间。K线呈绿色和黑色交替出现，整体在标注的价格水平之间波动。左侧工具栏显示FX Replay平台界面，顶部标题栏显示'Backtesting'模式。",
+    "case_018_detail_3.jpg": "NAS100 1 分钟 K 线图。图上有三个矩形标注框：上方粉色框标记为'Gap: 15.15(0840) (0.08%) 115688, Amount: 750'，中间绿色框标记为'Open: FRI: 1.3400 Pip, Gap: 11'，下方绿色框标记为'Imbalance (0.27%) 24885, Amount: 1025.48'。K 线由绿色和黑色蜡烛组成，价格范围从约 1567"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_011"
+      ],
+      "time_range": [
+        1010.72,
+        1195.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "转录文本清晰描述了入场、止损和出局过程；图表显示了具体的价格区域和Order Block标注；博主给出了明确的交易结果和评价。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:24.381226Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第十六天：Order Block入场做多被止损出局\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"NAS100在回测第十六天（周二）经历早盘下跌后反弹。价格在09:00-09:30形成下行，随后09:30-10:40持续上升。博主在反弹过程中识别Order Block并尝试做多入场。\",\"key_observation\":\"价格在扫低后反弹至Order Block区域，博主设置止损于前期高点。虽然入场成功，但价格随即反向运行，触发止损被迫出局。\",\"analysis_steps\":[\"Step 1: 标记出早盘下跌的低点和高点，确定交易窗口范围（09:00-11:00）。\",\"Step 2: 观察价格从低点反弹，识别潜在的Order Block入场区域。\",\"Step 3: 在Order Block处设置做多入场，止损设在前期摆动高点。\",\"Step 4: 入场后价格快速反向下行，触发止损，被迫出局。\",\"Step 5: 博主评价该交易为不理想的设置，因为价格在折价区反弹时已接近低点，不符合最优入场条件。\"],\"outcome\":\"交易被止损出局。博主指出入场时机不佳，价格在回升过程中已经接近低点，缺乏足够的结构确认。\",\"lessons\":\"在使用Order Block入场时，应等待价格在折价区形成更清晰的结构确认，而非仅在反弹初期入场。止损设置在摆动高点虽然逻辑清晰，但需要结合更强的价格结构来提高成功率。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f035\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f034\",\"o0v4KQxZbpU_f036\",\"o0v4KQxZbpU_f037\"],\"related_concepts\":[\"Order Block\",\"FVG\",\"Displacement\",\"Market Structure\",\"Liquidity\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"转录文本清晰描述了入场、止损和出局过程；图表显示了具体的价格区域和Order Block标注；博主给出了明确的交易结果和评价。\"}",
+  "error": null
+}

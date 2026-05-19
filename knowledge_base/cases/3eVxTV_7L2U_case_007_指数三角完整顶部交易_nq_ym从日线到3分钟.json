@@ -1,0 +1,119 @@
+{
+  "card_id": "3eVxTV_7L2U_case_007_指数三角完整顶部交易_nq_ym从日线到3分钟",
+  "type": "case",
+  "title": "NQ/YM日线三角顶部：从SMT到PSP再到3分钟CSD确认交易",
+  "related_concepts": [
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "PSP",
+      "card_id": "precision_swing_point",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "CSD",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "FVG",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Range Trading",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Time Frame Alignment",
+      "card_id": "time_frame_alignment",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "precision_swing_point",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "fair_value_gap",
+    "liquidity",
+    "market_structure_shift",
+    "time_frame_alignment"
+  ],
+  "school": "ICT",
+  "asset": "NQ1! / YM1!",
+  "timeframe": "1D / 4H / 30m / 3m",
+  "market_context": "日线开高形成日高，突破高时间框架SMT。伦敦时段形成4小时C2反转闭合与精准摆动点(PSP)。纽约9:30继续，30分钟内形成第二阶段PSP，3分钟CSD确认做空机会至范围低点。",
+  "key_observation": "日线范围高点突破高时间框架SMT，伦敦反转形成4小时PSP，纽约9:30继续形成30分钟PSP，3分钟CSD提供最优入场确认，目标为范围低点对侧流动性。",
+  "analysis_steps": [
+    "Step 1: 观察日线开高并创建日高，该日高突破了高时间框架SMT（第一阶段裂纹相关性）。",
+    "Step 2: 在4小时图上识别伦敦反转形成的C2闭合，同时创建精准摆动点(PSP)，这是强度切换PSP。",
+    "Step 3: 下降至30分钟图，观察纽约9:30继续，价格回测进入范围，突破摆动高点形成第一阶段SMT。",
+    "Step 4: 当价格交易进入该高点时，创建PSP，这是关键的两阶段PSP序列（最高概率反转确认）。",
+    "Step 5: 下降至3分钟图，在CSD(交付状态改变)创建处入场，使用时间框架对齐确认C2反转。",
+    "Step 6: 识别订单块/CSD作为入场触发，目标设定为范围对侧（范围低点），这是高时间框架目标。"
+  ],
+  "outcome": "交易执行：在3分钟CSD创建处入场做空，价格最终到达范围低点的高时间框架目标流动性，完成7小时交易。",
+  "lessons": "多时间框架对齐是关键：日线SMT突破→4小时PSP反转→30分钟PSP确认→3分钟CSD入场。两阶段PSP序列配合关键时间点(9:30纽约开盘)提供最高概率反转。范围交易中，对侧流动性是明确的高时间框架目标。",
+  "primary_image": "cards/3eVxTV_7L2U/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/3eVxTV_7L2U/images/case_007_detail_1.jpg",
+    "cards/3eVxTV_7L2U/images/case_007_detail_2.jpg",
+    "cards/3eVxTV_7L2U/images/case_007_detail_3.jpg",
+    "cards/3eVxTV_7L2U/images/case_007_detail_4.jpg",
+    "cards/3eVxTV_7L2U/images/case_007_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "图为双面板布局，左侧为 YM1!（NASDAQ 100 E-mini Futures）3 分钟 K 线图，右侧为 E-mini Dow Jones ($5) Futures 3 分钟 K 线图，均处于 Replay 模式。左侧价格刻度范围约 23660 至 24280，当前价标签显示 23881.25；右侧价格刻度范围约 44860 至 45240，当前价标签显示 45022。两侧图表各有一条向下",
+    "case_007_detail_1.jpg": "图上为三联面板布局，均为1日K线图。左侧面板为NASDAQ 100 E-mini Futures（NQ1!），价格刻度约22,600至24,900，当前价标签显示23,571.00，图上另有23,600.00水平标注。中间面板为S&P 500 E-mini Futures（ES1!），价格刻度约6,200至6,720，当前价标签显示6,426.25，图上有一条斜向趋势线标注于6,500至6,540",
+    "case_007_detail_2.jpg": "图上为三联面板布局，从左至右分别显示纳斯达克100期货（NQ）、标普500期货（ES1!）、道琼斯期货（YM）的4小时K线图，均来自CME或CBOT。左侧NQ面板价格刻度约22600至24600，当前价标签显示23912.75，图上有一个矩形标注位于约24000至24200区间。中间ES1!面板价格刻度约6400至6570，当前价标签6526.00，另有两条水平价格标签分别位于6503.00和65",
+    "case_007_detail_3.jpg": "图上为三联面板布局，均为4小时K线图。左侧面板为纳斯达克100期货（NQ），当前价格标签显示23912.75，可见价格范围约22600至24600，图上有一条水平线位于24000附近。中间面板为标普500期货（ES1!），可见价格范围约6400至6570，图右侧轴标注6509.50、6503.00、6500.00三个价格标签，图上有一条从左下向右上延伸的趋势线及一个矩形框标注于6490至6510区",
+    "case_007_detail_4.jpg": "图上为双面板布局，左侧为 NASDAQ 100 E-mini Futures（NQ）30 分钟 K 线图，右侧为 E-mini Dow Jones ($5) Futures（YM）30 分钟 K 线图，均处于 Replay 模式。左侧图当前价格标签显示 23,881.25，图上绘有一条从约 24,280 向下延伸至约 23,940 的斜线标注。右侧图顶部显示 O45,022 H45,102 L45",
+    "case_007_detail_5.jpg": "图上为双面板布局，左侧为 YM1!（NASDAQ 100 E-mini Futures）30 分钟 K 线图，右侧为 E-mini Dow Jones ($5) Futures 30 分钟 K 线图。左侧面板可见价格区间约 23660 至 24280，当前价格标签显示 23881.25，图上有一条向下倾斜的趋势线连接多个高点。右侧面板可见价格区间约 44700 至 45400，当前价格标签显示 4"
+  },
+  "sources": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "segment_ids": [
+        "seg_023"
+      ],
+      "time_range": [
+        1300.96,
+        1474.159
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到3分钟的多时间框架分析过程，清晰标注了SMT、PSP、CSD等关键结构，给出了具体交易结果和目标价位。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:22:30.391691Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ/YM日线三角顶部：从SMT到PSP再到3分钟CSD确认交易\",\"school\":\"ICT\",\"asset\":\"NQ1! / YM1!\",\"timeframe\":\"1D / 4H / 30m / 3m\",\"market_context\":\"日线开高形成日高，突破高时间框架SMT。伦敦时段形成4小时C2反转闭合与精准摆动点(PSP)。纽约9:30继续，30分钟内形成第二阶段PSP，3分钟CSD确认做空机会至范围低点。\",\"key_observation\":\"日线范围高点突破高时间框架SMT，伦敦反转形成4小时PSP，纽约9:30继续形成30分钟PSP，3分钟CSD提供最优入场确认，目标为范围低点对侧流动性。\",\"analysis_steps\":[\"Step 1: 观察日线开高并创建日高，该日高突破了高时间框架SMT（第一阶段裂纹相关性）。\",\"Step 2: 在4小时图上识别伦敦反转形成的C2闭合，同时创建精准摆动点(PSP)，这是强度切换PSP。\",\"Step 3: 下降至30分钟图，观察纽约9:30继续，价格回测进入范围，突破摆动高点形成第一阶段SMT。\",\"Step 4: 当价格交易进入该高点时，创建PSP，这是关键的两阶段PSP序列（最高概率反转确认）。\",\"Step 5: 下降至3分钟图，在CSD(交付状态改变)创建处入场，使用时间框架对齐确认C2反转。\",\"Step 6: 识别订单块/CSD作为入场触发，目标设定为范围对侧（范围低点），这是高时间框架目标。\"],\"outcome\":\"交易执行：在3分钟CSD创建处入场做空，价格最终到达范围低点的高时间框架目标流动性，完成7小时交易。\",\"lessons\":\"多时间框架对齐是关键：日线SMT突破→4小时PSP反转→30分钟PSP确认→3分钟CSD入场。两阶段PSP序列配合关键时间点(9:30纽约开盘)提供最高概率反转。范围交易中，对侧流动性是明确的高时间框架目标。\",\"primary_image_frame_id\":\"3eVxTV_7L2U_f047\",\"supporting_image_frame_ids\":[\"3eVxTV_7L2U_f043\",\"3eVxTV_7L2U_f044\",\"3eVxTV_7L2U_f045\",\"3eVxTV_7L2U_f046\",\"3eVxTV_7L2U_f048\"],\"related_concepts\":[\"SMT\",\"PSP\",\"Order Block\",\"CSD\",\"FVG\",\"Liquidity\",\"Market Structure Shift\",\"Price Action\",\"Range Trading\",\"Time Frame Alignment\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到3分钟的多时间框架分析过程，清晰标注了SMT、PSP、CSD等关键结构，给出了具体交易结果和目标价位。\"}",
+  "error": null
+}

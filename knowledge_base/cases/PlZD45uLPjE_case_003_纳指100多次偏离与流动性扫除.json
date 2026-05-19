@@ -1,0 +1,139 @@
+{
+  "card_id": "PlZD45uLPjE_case_003_纳指100多次偏离与流动性扫除",
+  "type": "case",
+  "title": "纳指100多次偏离与流动性扫除分析",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "The Strat",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Fractal Pattern",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "displacement",
+    "order_block",
+    "equilibrium",
+    "fair_value_gap",
+    "broadening_formation",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M",
+  "market_context": "纳指100期货6月合约在亚洲时段和纽约开盘前后，在一个明确的交易区间内多次测试买卖方流动性，形成多个大幅位移蜡烛线和订单块，展现机构资金扫除流动性后回归区间的典型行为。",
+  "key_observation": "价格在买卖方流动性之间反复偏离与回归，每次扫除流动性后都会形成新的订单块，价格倾向于在区间内寻求均衡点或OTE（最优交易入场点）进行反应。",
+  "analysis_steps": [
+    "Step 1: 识别亚洲时段高点、低点和日开盘价，标记买卖方流动性区域（Buyside Liquidity约13080-13120，Sellside Liquidity约12960-13000）。",
+    "Step 2: 观察第一根大幅位移蜡烛线形成的订单块，预期价格会对其进行反应。",
+    "Step 3: 追踪价格首次偏离区间向下扫除卖方流动性，随后回归区间内部。",
+    "Step 4: 识别第二次偏离，价格再次扫除卖方流动性，但这次伴随更大的位移蜡烛线，预示可能离开区间。",
+    "Step 5: 使用The Strat方法，将摆动高低点连接成趋势线，识别出宽幅形态（Broadening Formation）。",
+    "Step 6: 标记亚洲时段高低点作为关键参考，观察价格如何在这些水平与区间流动性之间互动。",
+    "Step 7: 当价格测试卖方流动性后回升时，寻找均衡点（EQ）或OTE作为潜在反应区域。",
+    "Step 8: 追踪价格在OTE处的反应，观察是否形成新的订单块或FVG。",
+    "Step 9: 监控价格多次循环扫除流动性的分形模式，每次扫除后都回归区间进行巩固。",
+    "Step 10: 在纽约开盘前后，观察价格是否继续在区间内波动或突破离开。"
+  ],
+  "outcome": null,
+  "lessons": "市场在明确的流动性区间内表现出分形的扫除模式：每次扫除买卖方流动性后，价格都会回归区间寻求均衡。订单块和大幅位移蜡烛线是关键反应点。使用OTE和均衡点可以识别高概率的反应区域。宽幅形态和趋势线帮助预测价格是否会离开区间。",
+  "primary_image": "cards/PlZD45uLPjE/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/PlZD45uLPjE/images/case_003_detail_1.jpg",
+    "cards/PlZD45uLPjE/images/case_003_detail_2.jpg",
+    "cards/PlZD45uLPjE/images/case_003_detail_3.jpg",
+    "cards/PlZD45uLPjE/images/case_003_detail_4.jpg",
+    "cards/PlZD45uLPjE/images/case_003_detail_5.jpg",
+    "cards/PlZD45uLPjE/images/case_003_detail_6.jpg",
+    "cards/PlZD45uLPjE/images/case_003_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NQ期货6月合约15分钟图。图上标注有两个粉色矩形区域，分别标记为Buyside Liquidity（约13080-13120）和Sellside Liquidity（约12960-13000）。图中绘有两条趋势线：一条从摆动高点向下倾斜，一条从摆动低点向上倾斜。可见多条水平线标注，包括Daily Open（日开盘）和OE标签。K线在标注的流动性区域之间波动，价格范围约从12920到13170。右",
+    "case_003_detail_1.jpg": "E-MINI NASDAQ-100 期货 6 月合约 15 分钟图。图上标注三条水平线分别标记为'Asian Session High'、'Asian Session Low'和'Daily Open'，均位于 13010 附近。两个粉红色矩形框分别标记为'Buyside Liquidity'（上方，约 13000-13010）和'Sellside Liquidity'（下方，约 12950-13",
+    "case_003_detail_2.jpg": "E-MINI NASDAQ-100 期货 6 月合约 15 分钟图。图上标注了 5 条水平线：13080 处标记为'Buyside Liquidity'、13010 处标记为'Asian Session High'和'Daily Open'、12960.50 处标记为'Sellside Liquidity'、13020 处标记为'Asian Session Low'。图上有 3 个粉红色矩形框分别",
+    "case_003_detail_3.jpg": "E-MINI NASDAQ-100 期货 6 月合约 15 分钟图。图上标注了两个粉色矩形区域分别标记为'Buyside Liquidity'（约 13080-13120）和'Sellside Liquidity'（约 12960-13010）。图上有三条水平线，其中一条标记为'Daily Open'位于 13030.00。左侧标注'Asian Session High'和'Asian Sessi",
+    "case_003_detail_4.jpg": "NASDAQ 100 E-mini Futures 15分钟图。图上有5条带文字标签的水平线：Buyside Liquidity在12900.00、Sellside Liquidity在12730.00、Daily Open在13671.25、Asian Session High在12850.00、Asian Session Low在12750.00。价格范围从12700到13900。左侧显示大幅",
+    "case_003_detail_5.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上标注了四个矩形区域：Buyside Liquidity（约12900-13100）、Asian Session High（约12850-12950）、Asian Session Low（约12700-12800）、Sellside Liquidity（约12700-12750）。图右侧显示斐波那契回撤工具，标记了0.5、0.6",
+    "case_003_detail_6.jpg": "NASDAQ 100 E-mini Futures 15分钟图。图上标注了四个矩形区域：Buyside Liquidity、Sellside Liquidity、Asian Session High、Asian Session Low，以及一条标记为Daily Open的虚线。可见价格范围从12750.00至13900.00。K线显示从Asian Session High约13700处向下跳空至1",
+    "case_003_detail_7.jpg": "NQ100 15分钟K线图。图上标注了5条水平线：Buyside Liquidity在12910.00、Asian Session High在12910.00、Daily Open在12920.00、Asian Session Low在12800.00、Sellside Liquidity在12740.00。可见价格范围约从12710.00至13000.00。左侧显示下跌走势，中间形成12800至"
+  },
+  "sources": [
+    {
+      "video_id": "PlZD45uLPjE",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        285.6,
+        503.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了纳指100期货15分钟图的多个阶段，清晰标注了流动性区域、订单块、位移蜡烛线、OTE和均衡点，分析步骤按时间顺序展开，涵盖亚洲时段到纽约开盘的完整过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:50.500866Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳指100多次偏离与流动性扫除分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M\",\"market_context\":\"纳指100期货6月合约在亚洲时段和纽约开盘前后，在一个明确的交易区间内多次测试买卖方流动性，形成多个大幅位移蜡烛线和订单块，展现机构资金扫除流动性后回归区间的典型行为。\",\"key_observation\":\"价格在买卖方流动性之间反复偏离与回归，每次扫除流动性后都会形成新的订单块，价格倾向于在区间内寻求均衡点或OTE（最优交易入场点）进行反应。\",\"analysis_steps\":[\"Step 1: 识别亚洲时段高点、低点和日开盘价，标记买卖方流动性区域（Buyside Liquidity约13080-13120，Sellside Liquidity约12960-13000）。\",\"Step 2: 观察第一根大幅位移蜡烛线形成的订单块，预期价格会对其进行反应。\",\"Step 3: 追踪价格首次偏离区间向下扫除卖方流动性，随后回归区间内部。\",\"Step 4: 识别第二次偏离，价格再次扫除卖方流动性，但这次伴随更大的位移蜡烛线，预示可能离开区间。\",\"Step 5: 使用The Strat方法，将摆动高低点连接成趋势线，识别出宽幅形态（Broadening Formation）。\",\"Step 6: 标记亚洲时段高低点作为关键参考，观察价格如何在这些水平与区间流动性之间互动。\",\"Step 7: 当价格测试卖方流动性后回升时，寻找均衡点（EQ）或OTE作为潜在反应区域。\",\"Step 8: 追踪价格在OTE处的反应，观察是否形成新的订单块或FVG。\",\"Step 9: 监控价格多次循环扫除流动性的分形模式，每次扫除后都回归区间进行巩固。\",\"Step 10: 在纽约开盘前后，观察价格是否继续在区间内波动或突破离开。\"],\"outcome\":null,\"lessons\":\"市场在明确的流动性区间内表现出分形的扫除模式：每次扫除买卖方流动性后，价格都会回归区间寻求均衡。订单块和大幅位移蜡烛线是关键反应点。使用OTE和均衡点可以识别高概率的反应区域。宽幅形态和趋势线帮助预测价格是否会离开区间。\",\"primary_image_frame_id\":\"PlZD45uLPjE_f013\",\"supporting_image_frame_ids\":[\"PlZD45uLPjE_f011\",\"PlZD45uLPjE_f002\",\"PlZD45uLPjE_f012\",\"PlZD45uLPjE_f014\",\"PlZD45uLPjE_f015\",\"PlZD45uLPjE_f016\",\"PlZD45uLPjE_f017\"],\"related_concepts\":[\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Displacement\",\"Order Block\",\"OTE\",\"Equilibrium\",\"Fair Value Gap\",\"The Strat\",\"Broadening Formation\",\"Market Structure\",\"Fractal Pattern\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了纳指100期货15分钟图的多个阶段，清晰标注了流动性区域、订单块、位移蜡烛线、OTE和均衡点，分析步骤按时间顺序展开，涵盖亚洲时段到",
+  "error": null
+}

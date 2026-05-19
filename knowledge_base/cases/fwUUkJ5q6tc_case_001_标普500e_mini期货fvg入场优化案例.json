@@ -1,0 +1,96 @@
+{
+  "card_id": "fwUUkJ5q6tc_case_001_标普500e_mini期货fvg入场优化案例",
+  "type": "case",
+  "title": "标普500E-mini期货FVG入场优化：0.5斐波那契、订单块、多时间框架精细化",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement (0.5 level)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk Reduction",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Entry Refinement",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "breaker_block",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "Multi-timeframe: 1D / 4H / 5M / 1M",
+  "market_context": "标普500E-mini期货在3月至9月期间形成大幅波动，从3960至4640区间运行。博主在一个明显的FVG区域（约3980-4040）展示如何通过多层次分析优化入场点，降低风险。",
+  "key_observation": "博主指出在大时间框架FVG上应用0.5斐波那契水平，结合订单块对齐和更小时间框架的不平衡（Imbalance），可以逐层精细化入场点，在保持高概率的同时显著降低风险敞口。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别大型FVG（约3980-4040价格区间），这是初始的宽泛入场区域。",
+    "Step 2: 在该FVG上应用0.5斐波那契水平，将入场点从FVG顶部下移至0.5 fib位置，直接降低风险。",
+    "Step 3: 向左查看是否存在与FVG对齐的订单块或破坏块（Order Block/Breaker），用其开盘价进一步精细化入场。",
+    "Step 4: 在4小时图表上观察同一FVG区域，寻找较小的订单块作为参考点。",
+    "Step 5: 在5分钟图表上定位FVG内的不平衡（Imbalance），进一步缩小入场范围。",
+    "Step 6: 最后在1分钟图表上识别与0.5 fib和订单块对齐的最小不平衡，确定精确入场点（约3915-3925区间）。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架的分层分析能显著优化入场精度。通过0.5斐波那契、订单块对齐和递进式的时间框架缩小，交易者可以在保持高概率的同时大幅降低风险，即使不能捕捉每一笔交易也能改善风险回报比。",
+  "primary_image": "cards/fwUUkJ5q6tc/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/fwUUkJ5q6tc/images/case_001_detail_1.jpg",
+    "cards/fwUUkJ5q6tc/images/case_001_detail_2.jpg",
+    "cards/fwUUkJ5q6tc/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 1 分钟 K 线图。图上绘有一个灰色矩形框，覆盖约 3915 至 3925 的价格区间。图右侧有三行文字标注：'On larger FVG use a .5 fib'、'Look for an Order Block / Breaker that lines up with the FVG'、'Smaller time frame imbalance ",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 日线图。图表显示从3月至9月的价格走势，价格范围从3960至4640。图上有一个灰色矩形标注框位于约3980至4040价格区间。右侧显示三行文字标注：'On larger FVG use a .5 fib'、'Look for an Order Block / Breaker that lines up with the FVG'、'Smaller t",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 图表。图上有一个灰色矩形区域标注，大约覆盖 4000 至 4100 价格范围。右侧价格刻度显示当前价格约 4178.75。图上有三条水平线分别位于 4000.00、3938.50 和 3938.50 处。K 线显示从高点向下的大幅下跌至 3820 附近，随后上升至当前水平。图下方有三行文字标注：'On larger FVG use a .5 fib'、",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从06:00至20:00的价格走势，价格范围在3918.50至4004.00之间。图中有一个灰色矩形标注，位置约在3956至3968价格区间。右侧显示当前价格标签3938.50。图上有三行文字标注：'On larger FVG use a .5 fib'、'Look for an Order Block / Breaker tha"
+  },
+  "sources": [
+    {
+      "video_id": "fwUUkJ5q6tc",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.24,
+        143.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到1分钟的四层分析流程，每步都有明确的图表标注和价格区间，分析逻辑清晰，三个优化方法论依次递进。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:12.420237Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500E-mini期货FVG入场优化：0.5斐波那契、订单块、多时间框架精细化\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"Multi-timeframe: 1D / 4H / 5M / 1M\",\"market_context\":\"标普500E-mini期货在3月至9月期间形成大幅波动，从3960至4640区间运行。博主在一个明显的FVG区域（约3980-4040）展示如何通过多层次分析优化入场点，降低风险。\",\"key_observation\":\"博主指出在大时间框架FVG上应用0.5斐波那契水平，结合订单块对齐和更小时间框架的不平衡（Imbalance），可以逐层精细化入场点，在保持高概率的同时显著降低风险敞口。\",\"analysis_steps\":[\"Step 1: 在日线图上识别大型FVG（约3980-4040价格区间），这是初始的宽泛入场区域。\",\"Step 2: 在该FVG上应用0.5斐波那契水平，将入场点从FVG顶部下移至0.5 fib位置，直接降低风险。\",\"Step 3: 向左查看是否存在与FVG对齐的订单块或破坏块（Order Block/Breaker），用其开盘价进一步精细化入场。\",\"Step 4: 在4小时图表上观察同一FVG区域，寻找较小的订单块作为参考点。\",\"Step 5: 在5分钟图表上定位FVG内的不平衡（Imbalance），进一步缩小入场范围。\",\"Step 6: 最后在1分钟图表上识别与0.5 fib和订单块对齐的最小不平衡，确定精确入场点（约3915-3925区间）。\"],\"outcome\":null,\"lessons\":\"多时间框架的分层分析能显著优化入场精度。通过0.5斐波那契、订单块对齐和递进式的时间框架缩小，交易者可以在保持高概率的同时大幅降低风险，即使不能捕捉每一笔交易也能改善风险回报比。\",\"primary_image_frame_id\":\"fwUUkJ5q6tc_f007\",\"supporting_image_frame_ids\":[\"fwUUkJ5q6tc_f004\",\"fwUUkJ5q6tc_f006\",\"fwUUkJ5q6tc_f005\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Breaker Block\",\"Fibonacci Retracement (0.5 level)\",\"Imbalance\",\"Multi-timeframe Analysis\",\"Risk Reduction\",\"Entry Refinement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到1分钟的四层分析流程，每步都有明确的图表标注和价格区间，分析逻辑清晰，三个优化方法论依次递进。\"}",
+  "error": null
+}

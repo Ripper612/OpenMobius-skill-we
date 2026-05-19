@@ -1,0 +1,105 @@
+{
+  "card_id": "WwmS47Gb3M0_case_005_纳斯达克_nq_做空案例_使用日开盘替代午夜开盘",
+  "type": "case",
+  "title": "NQ做空案例：日开盘替代午夜开盘的订单块入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Daily Open",
+      "card_id": "daily_open",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "smart_money_technique_smt",
+    "change_in_the_state_of_delivery_csd",
+    "market_structure_shift_mss",
+    "liquidity",
+    "daily_open"
+  ],
+  "school": "ICT",
+  "asset": "NQ",
+  "timeframe": "1H / 15M",
+  "market_context": "NQ触及前日高点后形成看跌结构。1小时图出现FVG，15分钟图显示订单块和反转信号。博主演示如何使用日开盘替代午夜开盘作为入场参考点。",
+  "key_observation": "NQ在前日高点附近创造SMT（与ES出现分歧），1小时形成看跌FVG，15分钟出现订单块和收盘反转信号，为做空提供高概率入场机会。",
+  "analysis_steps": [
+    "Step 1: 在日线图标记前日高点和前日低点作为关键参考水平。",
+    "Step 2: 下降到1小时图，确认前日高点已被触及，识别看跌FVG（部分被FOMC蜡烛缓解）。",
+    "Step 3: 识别NQ与ES的SMT分歧：NQ创新高而ES创新低，表明NQ相对较弱。",
+    "Step 4: 下降到15分钟图，寻找看跌FVG和订单块。",
+    "Step 5: 观察价格收盘是否突破一系列上升蜡烛（验证反转/CSD），确认订单块有效性。",
+    "Step 6: 在日开盘上方设置做空入场，止损放在对立蜡烛低点下方或50%灯芯处。",
+    "Step 7: 目标设定为1小时FVG，追踪风险回报比（本例达到2.26R）。"
+  ],
+  "outcome": "入场成功触及1小时FVG目标，获得2.26R的风险回报比。使用日开盘替代午夜开盘的方法有效，而使用午夜开盘的替代入场未能成交。",
+  "lessons": "日开盘可作为比午夜开盘更可靠的参考点进行订单块入场。结合SMT分歧识别、FVG和订单块的多重确认能提高做空的成功率。风险管理应基于对立蜡烛和灯芯位置。",
+  "primary_image": "cards/WwmS47Gb3M0/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/WwmS47Gb3M0/images/case_005_detail_1.jpg",
+    "cards/WwmS47Gb3M0/images/case_005_detail_2.jpg",
+    "cards/WwmS47Gb3M0/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "TTI/index_okt 1 小时 K 线图。图上绘有一条从左下向右上延伸的上升趋势线。三条水平线分别位于 17760.00、17700.00 和 17640.00 处。图右侧有两个矩形区域标注，其中一个标记为'Daily Open'。左侧 K 线呈现在 17700 至 17760 区间的盘整形态，右侧 K 线显示向下运动，部分 K 线下影线穿破 17640.00 水平线。图上标注有时间戳'24",
+    "case_005_detail_1.jpg": "图表显示 TTI:vdeu_okt 资产的 K 线图，价格范围从 17690 到 17860。图上有三条水平线分别位于 17820.34、17740 和 17730 处。标注包括两个黄色矩形框，分别覆盖 17730-17740 和 17760-17800 价格区间，以及一条从左下向右上延伸的上升趋势线。图右侧标记有'Daily Open'文字标签。底部时间轴显示'24-4-2024'和'HO11 ",
+    "case_005_detail_2.jpg": "图表显示 TTrader_sBu 资产的 K 线图。可见价格范围约从 17640 到 17800。图上有两条水平线分别位于 17790 和 17720 处。一个浅米色矩形框标注了约 17700 至 17750 的价格区间。K 线呈现绿色和黑色混合形态，在该区间内形成盘整。图底部显示时间标记为 24/4/2024，标注信息包括 HQ1T : 60m 和 Wed 24 Apr 24 07:00。右侧面",
+    "case_005_detail_3.jpg": "TTUSDT 日线图。图表显示从 4 月初至 2 月中旬的价格走势，可见价格范围约 17040 至 18260。图上有一条水平线位于 17540 附近。K 线序列呈黑绿交替形态，其中一根黑色 K 线上有黄色圆形标记。图右下方标注日期为 2/1/4 2024 及 HQ11 D。多根 K 线具有向上或向下延伸的影线。图表顶部显示资产代码 TTusdt_okt 及时间框架标识。"
+  },
+  "sources": [
+    {
+      "video_id": "WwmS47Gb3M0",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.28,
+        551.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了NQ做空案例的全部分析步骤、入场条件、止损设置和目标价位，并明确给出了2.26R的交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:00.439534Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ做空案例：日开盘替代午夜开盘的订单块入场\",\"school\":\"ICT\",\"asset\":\"NQ\",\"timeframe\":\"1H / 15M\",\"market_context\":\"NQ触及前日高点后形成看跌结构。1小时图出现FVG，15分钟图显示订单块和反转信号。博主演示如何使用日开盘替代午夜开盘作为入场参考点。\",\"key_observation\":\"NQ在前日高点附近创造SMT（与ES出现分歧），1小时形成看跌FVG，15分钟出现订单块和收盘反转信号，为做空提供高概率入场机会。\",\"analysis_steps\":[\"Step 1: 在日线图标记前日高点和前日低点作为关键参考水平。\",\"Step 2: 下降到1小时图，确认前日高点已被触及，识别看跌FVG（部分被FOMC蜡烛缓解）。\",\"Step 3: 识别NQ与ES的SMT分歧：NQ创新高而ES创新低，表明NQ相对较弱。\",\"Step 4: 下降到15分钟图，寻找看跌FVG和订单块。\",\"Step 5: 观察价格收盘是否突破一系列上升蜡烛（验证反转/CSD），确认订单块有效性。\",\"Step 6: 在日开盘上方设置做空入场，止损放在对立蜡烛低点下方或50%灯芯处。\",\"Step 7: 目标设定为1小时FVG，追踪风险回报比（本例达到2.26R）。\"],\"outcome\":\"入场成功触及1小时FVG目标，获得2.26R的风险回报比。使用日开盘替代午夜开盘的方法有效，而使用午夜开盘的替代入场未能成交。\",\"lessons\":\"日开盘可作为比午夜开盘更可靠的参考点进行订单块入场。结合SMT分歧识别、FVG和订单块的多重确认能提高做空的成功率。风险管理应基于对立蜡烛和灯芯位置。\",\"primary_image_frame_id\":\"WwmS47Gb3M0_f019\",\"supporting_image_frame_ids\":[\"WwmS47Gb3M0_f018\",\"WwmS47Gb3M0_f017\",\"WwmS47Gb3M0_f016\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Smart Money Technique (SMT)\",\"Change in the state of delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Liquidity\",\"Daily Open\",\"Risk Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了NQ做空案例的全部分析步骤、入场条件、止损设置和目标价位，并明确给出了2.26R的交易结果。\"}",
+  "error": null
+}

@@ -1,0 +1,56 @@
+{
+  "card_id": "order_block_on_buy_side_of_curve",
+  "type": "merged_concept",
+  "canonical_term": "Order Block on Buy Side of Curve",
+  "aliases": [
+    "Bullish Order Block",
+    "Buy Side Order Block"
+  ],
+  "school": "ICT",
+  "definition": "在看涨趋势中形成的订单块，由下跌K线进入重要水平（前订单块、FVG或扫盘）后收盘穿过开盘价验证而成，用于寻找趋势延续的入场点。",
+  "identification_rules": [
+    "识别一根或一系列下跌收盘K线进入重要水平（前订单块、FVG或扫盘的流动性）",
+    "价格必须收盘穿过这些下跌K线的开盘价，才能验证其为有效订单块",
+    "该订单块应与更高时间框架的结构对齐（如小时线的FVG或摆动点）",
+    "订单块形成后，价格应出现位移（Displacement）并向下收盘，随后回测该订单块区域"
+  ],
+  "trading_implication": "买方曲线上的订单块是在智能货币反转或趋势延续中寻找的高概率入场点。交易者可在订单块的开盘价或均值阈值（50% Fib）处入场，止损设在订单块低点或摆动低点，目标指向买方流动性或前期摆动高点。使用均值阈值入场可显著提高风险回报比（从1.3R提升至2.6R），但需承担未成交的风险。",
+  "common_mistakes": [
+    "订单块未到达更高时间框架的重要水平就被认为有效，导致虚假信号",
+    "未等待价格收盘穿过下跌K线的开盘价就提前入场",
+    "忽视订单块必须伴随位移和向下收盘的验证过程",
+    "将止损设在订单块另一端而非摆动低点，增加被扫损的风险"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "original_card_id": "DMUiDBnTYc8_concept_order_block_on_buy_side_of_curve",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        336.24,
+        698.8389999999999
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134566Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

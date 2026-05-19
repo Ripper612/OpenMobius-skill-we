@@ -1,0 +1,212 @@
+{
+  "card_id": "candle_two_closure",
+  "type": "merged_concept",
+  "canonical_term": "Candle Two Closure",
+  "aliases": [
+    "C2 Closure",
+    "Candle 2 Closure",
+    "Second Candle Closure"
+  ],
+  "school": "ICT",
+  "definition": "第二根K线相对于第一根K线的收盘形态。看涨情形下，第二根K线扫出第一根K线低点后收盘于其上方，或收盘高于前一根下跌K线收盘价，形成新的受保护摆动；看跌情形下则相反。标志着延续或反转信号，预示第三、四根K线的后续方向。",
+  "identification_rules": [
+    "识别前一根K线（第一根K线）的高点、低点和收盘位置",
+    "观察第二根K线的收盘价是否穿过第一根K线的收盘价或关键水平",
+    "看涨Candle Two Closure：第二根K线扫出第一根K线低点后收盘于其上方，或收盘价高于前一根下跌K线的收盘价，形成新的受保护摆动",
+    "看跌Candle Two Closure：第二根K线扫出第一根K线高点后收盘于其下方，或收盘价低于前一根上涨K线的收盘价",
+    "理想情形下，第二根K线应具有较浅的上影线（看涨）或下影线（看跌），以支持后续方向扩展；大影线时应等待后续K线确认",
+    "需结合高时间框架关键水平（HTF Key Level）或兴趣点作为背景条件",
+    "通常与Change in State of Delivery（CSD）或前期摆动高/低点（PDH/PDL）配合识别"
+  ],
+  "trading_implication": "Candle Two Closure是判断市场延续或反转的关键信号。看涨收盘预示上行延续，交易者可在低时间框架确认交付状态改变后，寻求价格回测EQ并突破前日高点的机会；看跌收盘预示向下延续，等待价格开盘上行后再交易向下。可在第三、四根K线中寻找入场机会，结合Equilibrium（0.5斐波那契）确定预期wick形成区域，提高精确性。",
+  "common_mistakes": [
+    "未区分Candle Two Closure与Candle Three Closure的差异——第二根K线未形成理想收盘时，应等待第三根K线确认",
+    "忽视影线大小的影响——大影线时应等待后续K线确认，而非立即交易",
+    "未验证是否存在高时间框架关键水平或兴趣点就直接交易Candle Two Closure",
+    "将Candle Two Closure单独作为交易信号，忽视需配合CSD、EQ失效或对立设置等其他确认条件",
+    "在亚洲或伦敦时段过早进入低时间框架，应优先在高时间框架确认交付状态改变后再操作",
+    "误认为Candle Two Closure必然导致目标达成，实际需结合SMT、流动性分布等因素判断",
+    "未结合Equilibrium工具确定预期的wick形成区域",
+    "未能区分看涨vs看跌Candle Two的含义，导致方向判断错误"
+  ],
+  "related_concepts": [
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low (PDH/PDL)",
+      "card_id": "previous_day_high_low_pdh_pdl",
+      "exists": true
+    },
+    {
+      "term": "Reversal Closure",
+      "card_id": "candle_2_closure",
+      "exists": true
+    },
+    {
+      "term": "Continuation Closure",
+      "card_id": "continuation_closure",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "MsuEQQl7L6s_case_001_eurusd日线candle_two_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "EURUSD日线FVG处Candle Two Closure反转案例"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_002_eurusd日线candle_three_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "EURUSD日线Candle Three Closure确认上升趋势"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_004_usd_4小时图多个candle_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4小时图多个Candle Three Closure案例分析"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_005_usd_4小时图摆动点筛选案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4小时图摆动点筛选：Candle Two/Three Closure与Point of Interest验证"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_006_usd_4小时图candle_three_closure与pro",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4H Candle Three Closure与Protected Swing形成案例"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_007_usd_15分钟图交易设置案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 15分钟图基于4H FVG的Candle Three Closure交易设置"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_008_usd_15分钟图无效candle_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 15分钟盘整扫低后无效Candle Closure案例"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_001_第一个例子_日线看涨偏差失效案例",
+      "video_id": "jKuXaC84Qx4",
+      "title": "日线看涨偏差失效案例：CSD与SMT反向确认"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_002_第二个例子_汽油期货反向交易",
+      "video_id": "jKuXaC84Qx4",
+      "title": "汽油期货日线V形反转配合小时线CSD的反向交易"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_005_第五个例子_前一日低点反弹与eq突破",
+      "video_id": "jKuXaC84Qx4",
+      "title": "前一日低点V形反应与EQ突破分析"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_006_第六个例子_月线分形模型确认",
+      "video_id": "jKuXaC84Qx4",
+      "title": "月线分形模型确认与日线EQ失效下行演示"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_candle_two_closure",
+      "segment_ids": [
+        "seg_004",
+        "seg_006",
+        "seg_007",
+        "seg_023"
+      ],
+      "time_range": [
+        165.16,
+        967.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "MsuEQQl7L6s",
+      "original_card_id": "MsuEQQl7L6s_concept_candle_two_closure",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_007",
+        "seg_011",
+        "seg_015"
+      ],
+      "time_range": [
+        50.56,
+        696.24
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_candle_two_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_005",
+        "seg_008",
+        "seg_011",
+        "seg_015",
+        "seg_020"
+      ],
+      "time_range": [
+        11.0,
+        753.16
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:26.202942Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "3张原始卡均为ICT，school无冲突。卡1侧重延续信号，卡2侧重反转信号，卡3兼顾两者；定义已综合三者，保留扫出低/高点与收盘穿越两种具体描述。",
+  "error": null
+}

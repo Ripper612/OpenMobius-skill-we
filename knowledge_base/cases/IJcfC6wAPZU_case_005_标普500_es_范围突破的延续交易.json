@@ -1,0 +1,96 @@
+{
+  "card_id": "IJcfC6wAPZU_case_005_标普500_es_范围突破的延续交易",
+  "type": "case",
+  "title": "ES范围突破后的多次延续入场与2R目标达成",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candles",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Continuation Entry",
+      "card_id": "retest_entry",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio (2R)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift_mss",
+    "retest_entry"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "5m",
+  "market_context": "ES在盘整范围内突破后，价格回测公允价值缺口（FVG）并形成对立K线，随后在5分钟图中出现多次延续交易机会，最终完成2R风险回报目标。",
+  "key_observation": "博主识别出价格突破范围后的回测机制：价格进入FVG区域并形成对立K线（opposing candles），这是延续交易的关键触发条件。多次延续入场均基于高点被突破且收盘低于前期上升K线的收盘价。",
+  "analysis_steps": [
+    "Step 1: 识别范围突破——价格突破盘整范围的一侧，博主预期延续下行。",
+    "Step 2: 等待回测结构——价格回测进入FVG区域，形成对立K线（opposing candles）。",
+    "Step 3: 确认第一个延续入场——高点被突破，收盘低于前期上升K线收盘价，满足延续条件。",
+    "Step 4: 评估后续延续——价格未能到达FVG，但形成新的对立K线，继续寻找延续机会。",
+    "Step 5: 第二个延续入场——价格再次回测FVG，收盘穿过上升K线收盘价，确认延续。",
+    "Step 6: 目标达成——价格继续下行，完成2R风险回报目标。"
+  ],
+  "outcome": "多次延续入场最终完成2R目标。博主强调早期入场优于接近短期目标时的入场。",
+  "lessons": "延续交易的核心是识别对立K线（opposing candles）与FVG的结合。不是所有收盘都构成有效延续——必须满足高点被突破且收盘低于前期上升K线的条件。避免追逐接近目标的入场，优先选择结构清晰的早期机会。",
+  "primary_image": "cards/IJcfC6wAPZU/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/IJcfC6wAPZU/images/case_005_detail_1.jpg",
+    "cards/IJcfC6wAPZU/images/case_005_detail_2.jpg",
+    "cards/IJcfC6wAPZU/images/case_005_detail_3.jpg",
+    "cards/IJcfC6wAPZU/images/case_005_detail_4.jpg",
+    "cards/IJcfC6wAPZU/images/case_005_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "ES1! 5分钟K线图，时间范围覆盖06:00至15:00，可见价格区间约为5827.50至5905.00。图上标注有三个矩形色块：橙黄色矩形覆盖约5887.50至5895.00区域，灰色矩形覆盖约5855.00至5875.00区域，青色矩形覆盖约5840.00至5865.00区域。图上可见文字标签C2、C4及数值标注-1、-2、-2.5、-4、-4.5，并有多条水平虚线。右下角显示'5m-1H ",
+    "case_005_detail_1.jpg": "图为 NQ1! 5 分钟 K 线图，时间轴覆盖 06:30 至 13:00，日期标注为 Tue 29 Oct，右下角注明 5m-1H Model 及 Bias: Neutral。可见价格范围约 20660 至 20980。图上有两条水平线位于约 20750 附近延伸至图右侧。09:30 附近出现一根大阴线，主体从约 20800 向下延伸至约 20740。10:00 附近有一根大阳线主体至约 208",
+    "case_005_detail_2.jpg": "NQ1! 5 分钟 K 线图，时间范围覆盖 10 月 29 日约 05:30 至 14:30。图右下角标注'5m-IH Model'及'Bias: Neutral'。图上可见两条贴近的水平线位于约 20745 至 20750 区域，另有水平线位于约 20800 及 20860 附近。图上有两个浅绿色矩形框，分别标注'C2'（约 20750 至 20800）和'C4'（约 20835 至 20910",
+    "case_005_detail_3.jpg": "图为 5 分钟 K 线图，日期标注为 Thu 31 Oct，时间轴从 04:00 延伸至 12:30。右侧价格刻度范围约 5862.00 至 5904.00。图上覆盖一个黄色/橙色矩形区域，纵向范围约 5888.00 至 5896.00，横向贯穿整张图。当前价格标签显示 5886.25，以虚线水平延伸。图上另有两条虚线水平线分别位于约 5880.00 与 5876.00。文字标注 c2 位于约 5",
+    "case_005_detail_4.jpg": "ES1! 5分钟K线图，时间范围覆盖04:30至13:00，可见价格区间约5862.00至5904.00。图上有一个黄色/米色矩形框横跨全图宽度，覆盖约5888.00至5896.00区域。另有一个浅蓝绿色矩形框覆盖约09:30至10:30时段、5874.00至5890.00价格区间。图中还有一个灰色矩形框位于约09:00至09:30时段、5884.00至5888.00区间。两条虚线水平线分别位于约",
+    "case_005_detail_5.jpg": "图为 ES1! 5 分钟 K 线图，时间轴从 05:00 延伸至约 14:30，价格轴范围约 5832.50 至 5910.00。图上有一个浅黄色矩形区域，覆盖约 5887.50 至 5895.00 的水平价格带，横跨图表大部分宽度。另有一个较小矩形位于约 5857.50 至 5865.00 区间，出现在 10:00 至 11:30 附近。图中可见多条水平虚线，分别位于约 5880.00 和 58"
+  },
+  "sources": [
+    {
+      "video_id": "IJcfC6wAPZU",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        731.16,
+        910.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从范围突破到多次延续入场再到2R目标达成的全过程，关键价位、时间框架、入场条件均清晰可辨。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:10.616961Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES范围突破后的多次延续入场与2R目标达成\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"5m\",\"market_context\":\"ES在盘整范围内突破后，价格回测公允价值缺口（FVG）并形成对立K线，随后在5分钟图中出现多次延续交易机会，最终完成2R风险回报目标。\",\"key_observation\":\"博主识别出价格突破范围后的回测机制：价格进入FVG区域并形成对立K线（opposing candles），这是延续交易的关键触发条件。多次延续入场均基于高点被突破且收盘低于前期上升K线的收盘价。\",\"analysis_steps\":[\"Step 1: 识别范围突破——价格突破盘整范围的一侧，博主预期延续下行。\",\"Step 2: 等待回测结构——价格回测进入FVG区域，形成对立K线（opposing candles）。\",\"Step 3: 确认第一个延续入场——高点被突破，收盘低于前期上升K线收盘价，满足延续条件。\",\"Step 4: 评估后续延续——价格未能到达FVG，但形成新的对立K线，继续寻找延续机会。\",\"Step 5: 第二个延续入场——价格再次回测FVG，收盘穿过上升K线收盘价，确认延续。\",\"Step 6: 目标达成——价格继续下行，完成2R风险回报目标。\"],\"outcome\":\"多次延续入场最终完成2R目标。博主强调早期入场优于接近短期目标时的入场。\",\"lessons\":\"延续交易的核心是识别对立K线（opposing candles）与FVG的结合。不是所有收盘都构成有效延续——必须满足高点被突破且收盘低于前期上升K线的条件。避免追逐接近目标的入场，优先选择结构清晰的早期机会。\",\"primary_image_frame_id\":\"IJcfC6wAPZU_f031\",\"supporting_image_frame_ids\":[\"IJcfC6wAPZU_f025\",\"IJcfC6wAPZU_f026\",\"IJcfC6wAPZU_f028\",\"IJcfC6wAPZU_f029\",\"IJcfC6wAPZU_f030\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Opposing Candles\",\"Market Structure Shift (MSS)\",\"Continuation Entry\",\"Risk Reward Ratio (2R)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从范围突破到多次延续入场再到2R目标达成的全过程，关键价位、时间框架、入场条件均清晰可辨。\"}",
+  "error": null
+}

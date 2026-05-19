@@ -1,0 +1,60 @@
+{
+  "card_id": "relevant_high_relevant_low",
+  "type": "merged_concept",
+  "canonical_term": "Relevant High / Relevant Low",
+  "aliases": [
+    "relevant swing high/low",
+    "significant price level"
+  ],
+  "school": "ICT",
+  "definition": "具有市场结构意义的价格水平，通常为前一天/周的高低点或摆动高低点。价格反转应在这些水平处形成，而非随意高低点。",
+  "identification_rules": [
+    "识别前一天或前一周的高点和低点作为相关水平",
+    "识别图表上的摆动高点（swing high）和摆动低点（swing low）",
+    "避免选择随意的高低点；确保所选水平具有结构意义",
+    "当价格突破相关高/低点后，若形成'expansion met with expansion'结构，则该高/低点为有效的反转点",
+    "相关高/低点应能解释价格后续的反转行为，而不会留下被忽视的失败摆动点"
+  ],
+  "trading_implication": "相关高/低点是预期反转形成的关键参考。交易者应在价格触及相关高/低点时，观察低时间框架是否形成'expansion met with expansion'的反转结构。若价格在非相关水平反转，则该反转可能失败。相关高/低点也用于确定何时可以预期价格回撤或反向运动，是制定交易计划的基础。",
+  "common_mistakes": [
+    "选择随意的高低点进行反转交易，导致价格继续突破该水平而非反转",
+    "忽视前一天/周的高低点等明显的相关水平，转而交易结构不清晰的高低点",
+    "在价格未触及相关高/低点时就预期反转，导致交易失败",
+    "未检查相关高/低点是否会留下失败的摆动点；若留下失败摆动，则该水平不够相关"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_relevant_high_relevant_low",
+      "segment_ids": [
+        "seg_002",
+        "seg_013",
+        "seg_014",
+        "seg_017",
+        "seg_019"
+      ],
+      "time_range": [
+        107.03999999999999,
+        918.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:58:52.645002Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

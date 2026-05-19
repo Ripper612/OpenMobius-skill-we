@@ -1,0 +1,52 @@
+{
+  "card_id": "change_in_the_state_of_delivery_bearish",
+  "type": "merged_concept",
+  "canonical_term": "Change in the State of Delivery (Bearish)",
+  "aliases": [
+    "Bearish CISD",
+    "Bearish CSD"
+  ],
+  "school": "ICT",
+  "definition": "价格在高时间框架内突破特定K线结构后，预示看跌趋势可能形成或延续的结构转变。通常与看涨CISD相对，用不同颜色标记以区分趋势方向。",
+  "identification_rules": [
+    "在高时间框架（如1小时）内识别，通过指标自动标记为'Bearish CISD'标签",
+    "与看涨CISD相对应，表示价格结构从看涨转向看跌的状态改变",
+    "可在指标设置中独立调整颜色显示，与看涨CISD区分",
+    "通常与Candle 1 Sweep、T-Spot等高时间框架结构元素配合使用"
+  ],
+  "trading_implication": "Bearish CISD标记出价格结构转变为看跌的关键点，交易者可用其识别潜在的空头入场机会。该概念与Market Structure Shift类似，预示短期趋势可能反转。在多时间框架分析中，可将高时间框架的Bearish CISD与低时间框架的具体设置（如C2、C3、C4）叠加，寻找高概率的交易机会。",
+  "common_mistakes": [
+    "材料未明确说明常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_bearish_change_in_state_of_delivery",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        546.399,
+        725.0
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131639Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

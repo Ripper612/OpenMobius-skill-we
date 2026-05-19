@@ -1,0 +1,158 @@
+{
+  "card_id": "standard_deviation_projections",
+  "type": "merged_concept",
+  "canonical_term": "Standard Deviation Projections",
+  "aliases": [
+    "Fib Standard Deviation Projections",
+    "Fibonacci Standard Deviation",
+    "SD投影",
+    "SD投影目标",
+    "标准差投影"
+  ],
+  "school": "ICT",
+  "definition": "使用斐波那契工具从操纵腿（高点到低点或低点到高点）投影标准差倍数（-2、-2.5、-4）作为价格目标和潜在反转区域的方法。-2至-2.5为第一目标（低悬果实），-4为最大扩展目标，需结合PD阵列（FVG、订单块、流动性）汇聚确认。",
+  "identification_rules": [
+    "识别操纵腿：在AMD周期中，找到智能货币反转前扫除流动性、改变交付状态后的摆动腿（高点到低点或低点到高点）",
+    "从操纵腿的高点到低点（或低点到高点）锚定斐波那契工具，以该距离作为标准差单位",
+    "在投影中标记-2、-2.5、-4标准差水平，分别作为第一目标、回撤/反转区和最大扩展目标",
+    "优先选择与FVG、订单块、等高/低点或流动性重合的标准差水平作为高概率确认目标",
+    "检查多个投影的汇聚：若一个投影的-4与另一投影的-2至-2.5重合，信号可靠性增强",
+    "参考高时间框架PD阵列（如1小时FVG或订单块）作为结构背景，在低时间框架上识别操纵腿"
+  ],
+  "trading_implication": "标准差投影为分配阶段提供量化价格目标。进入头寸后，以-2至-2.5标准差作为第一目标和潜在反转区；若价格尊重中间订单块或关键结构并持续位移，则继续目标-4标准差。多个投影汇聚或与PD阵列重合时可信度更高。若缺乏持续位移，预期在-4区域出现反转回到原始整理区间。可跨多个时间框架使用。",
+  "common_mistakes": [
+    "错误识别操纵腿，使用错误的高低点锚定斐波那契，导致投影目标偏离",
+    "忽视中间结构：仅关注标准差水平而不验证价格是否尊重订单块或关键K线结构，导致目标失效",
+    "仅依赖单一投影而忽视与其他PD阵列或多个投影的汇聚确认",
+    "混淆-2至-2.5与-4的用途，未按顺序逐级观察价格反应，或过度依赖单一标准差水平",
+    "未结合AMD框架，孤立使用标准差投影而不确认是否处于真正的分配阶段",
+    "未确认高时间框架PD阵列就直接使用标准差投影，导致目标缺乏结构支撑",
+    "未考虑位移延续性，在缺乏持续位移的情况下仍期望价格到达-4标准差"
+  ],
+  "related_concepts": [
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "original_card_id": "Pcbyc9TdNsU_concept_standard_deviation_projections",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.36,
+        660.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_standard_deviation_projections",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_006"
+      ],
+      "time_range": [
+        10.559,
+        607.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wwMjc9RfpCg",
+      "original_card_id": "wwMjc9RfpCg_concept_standard_deviation_projections",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        6.68,
+        538.3389999999999
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:01.368822Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

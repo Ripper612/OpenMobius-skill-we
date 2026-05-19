@@ -1,0 +1,59 @@
+{
+  "card_id": "liquidity_confluence",
+  "type": "merged_concept",
+  "canonical_term": "Liquidity Confluence",
+  "aliases": [
+    "流动性共振",
+    "流动性汇聚"
+  ],
+  "school": "ICT",
+  "definition": "将斐波那契投影目标与现有流动性目标（如等高点、前期高点、失败摆动）相结合，形成多重确认的交易信号区域，增强目标的可靠性。",
+  "identification_rules": [
+    "识别投影目标：基于操纵腿（manipulation leg）使用斐波那契工具标记-2、-2.5、-4、-4.5等水平",
+    "识别流动性目标：在图表上找出等高点、前期高点、失败摆动等现有流动性聚集区域",
+    "确认汇聚：当投影目标与流动性目标在同一价格区域重合时，形成流动性汇聚",
+    "评估操纵腿大小：正常操纵腿预期目标为-2至-2.5；大型操纵腿则使用-1作为目标"
+  ],
+  "trading_implication": "流动性汇聚提高了交易目标的可靠性。当投影目标与流动性目标重合时，价格更可能在该区域反应。交易者可用投影作为主要目标的确认工具，或在缺乏流动性的区域（如历史新高）单独使用投影作为目标。在多重汇聚点处，建议在第一个流动性目标处获利，避免过度持仓。",
+  "common_mistakes": [
+    "忽视操纵腿大小差异：对所有情况都使用-2至-2.5目标，而大型操纵腿应使用-1",
+    "将投影视为唯一目标：投影应作为现有流动性目标的汇聚确认，而非独立交易信号",
+    "过度持仓：在多重目标汇聚点处贪心持仓至最终目标，导致利润回吐"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "original_card_id": "upHS7SDL9kg_concept_liquidity_confluence",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_005",
+        "seg_006",
+        "seg_008",
+        "seg_014"
+      ],
+      "time_range": [
+        11.36,
+        579.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133774Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

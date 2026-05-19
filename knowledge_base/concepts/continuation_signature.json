@@ -1,0 +1,206 @@
+{
+  "card_id": "continuation_signature",
+  "type": "merged_concept",
+  "canonical_term": "Continuation Signature",
+  "aliases": [
+    "continuation pattern",
+    "continuation setup"
+  ],
+  "school": "Price Action",
+  "definition": "价格经历扩张后回撤、再次同向扩张的形态，或在前一日高低点附近开盘后先向反方向运动尊重EQ、随后突破前一日极值的K线结构。回撤未形成受保护摆动点，第二或第三根K线收盘确认方向，预示趋势延续。",
+  "identification_rules": [
+    "识别初始扩张阶段（Expansion），随后观察回撤阶段（Retracement），确认回撤未形成受保护摆动点（Protected Swing）",
+    "确认回撤后价格再次向原方向扩张，且未被相反方向扩张抵消（非Reversal形态）",
+    "看涨延续：价格开盘后先下行，尊重前一日EQ（小时线不宜收盘于EQ下方），随后上行突破前一日高点",
+    "看跌延续：价格开盘后先上行，尊重前一日EQ，随后下行突破前一日低点",
+    "需在低时间框架（1小时、30分钟或5-15分钟）观察到Change in the State of Delivery（CSD）确认方向",
+    "第二根K线（Candle Two）或第三根K线（Candle Three）收盘方向须明确显示价格朝预期方向移动的意图",
+    "前一日应形成理想的Candle Two Closure（收盘于前一日极值方向，表明方向确认）",
+    "可在多个时间框架识别（日线、4小时、1小时、30分钟等），通常与SMT或市场结构转变配对出现"
+  ],
+  "trading_implication": "Continuation Signature为趋势延续提供高概率入场框架。在低时间框架确认CSD后，可沿前一日极值方向或回撤阶段（如Protected Swing或OTE区域）入场。灯芯大小影响突破幅度预期：大灯芯表示后续扩展有限，小灯芯可能产生更大扩展。止损设于前期高低点，目标参考EQ或前一日极值。建议结合日线偏差确认以提高可靠性。",
+  "common_mistakes": [
+    "未在低时间框架确认CSD就仓促入场，导致被假突破扫损",
+    "对EQ的理解不当，认为价格必须触及EQ才算尊重，实际上只要不收盘于EQ下方即可",
+    "忽视灯芯大小对后续扩展幅度的影响，对所有情况使用相同目标位",
+    "将回撤误认为是受保护摆动点（Protected Swing），导致在不适当位置入场",
+    "未能区分Continuation Signature与Reversal形态，特别是当出现相反方向扩张时",
+    "忽视日线收盘信号的确认，仅基于小时图形态交易，容易被诱导（Inducement）",
+    "在回撤阶段过早入场，未等待完整的Continuation Signature形成",
+    "未等待Candle Two或Candle Three完整收盘即提前入场",
+    "忽视Continuation Setup需要与SMT或其他确认信号配对的要求",
+    "将长期盘整误认为是有效的Continuation Setup"
+  ],
+  "related_concepts": [
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Wick Size",
+      "card_id": "wick_size",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_001_ym日线延续交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "YM日线理想二号收盘后的小时线延续交易"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_002_黄金_gc_多日扫盘后的看空交易",
+      "video_id": "FgP2lc9nneM",
+      "title": "黄金(GC)7日无新摆动后的日线Candle 2看空交易"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_001_btc_1小时图_理想的v形反转continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时图：理想的V形反转continuation"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_004_第四个例子_公允价值缺口与eq失效",
+      "video_id": "jKuXaC84Qx4",
+      "title": "日线V形反转后小时线FVG盘整与EQ失效导致下行"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_005_1小时c2闭合配合15分钟延续",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "1小时C2闭合配合15分钟延续订单块确认"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_continuation_pattern",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        43.2,
+        283.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_continuation_signature",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_006",
+        "seg_014",
+        "seg_016",
+        "seg_017",
+        "seg_023"
+      ],
+      "time_range": [
+        11.12,
+        1266.08
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_continuation_setup",
+      "segment_ids": [
+        "seg_006",
+        "seg_008",
+        "seg_011",
+        "seg_012",
+        "seg_013"
+      ],
+      "time_range": [
+        248.72,
+        522.44
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:36.538480Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "2张Price Action + 1张ICT，按多数选Price Action。第3张卡描述的是原有设置失效后的延续，与前两张侧重点略有差异，已整合入识别规则中。",
+  "error": null
+}

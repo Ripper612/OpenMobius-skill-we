@@ -1,0 +1,108 @@
+{
+  "card_id": "VD4xb9VfMHA_case_002_usd_1小时图_前期高点反转案例",
+  "type": "case",
+  "title": "USD 1小时图：扩张反转与低点扫除的理想结构",
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "V-shaped reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "expansion",
+    "displacement",
+    "liquidity",
+    "order_block",
+    "protected_high_low",
+    "market_structure_shift",
+    "change_in_the_state_of_delivery",
+    "v_shaped_reversal"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1H",
+  "market_context": "价格从前期高点22040下跌至21200附近，形成低点。随后价格反弹至21700区域，再次下跌至21560，最终形成V形反转结构并向上突破。",
+  "key_observation": "博主强调这是理想的反转结构：扩张向下遇到扩张向上，同时扫除低点，并通过突破一系列下跌K线形成受保护摆动，为后续上升奠定基础。",
+  "analysis_steps": [
+    "Step 1: 识别初期扩张向下的阶段，价格从高点22040快速下跌至21520附近。",
+    "Step 2: 观察中间的盘整/回撤阶段（21520-21600区间），确认是否继续下跌。",
+    "Step 3: 识别扩张向下遇到扩张向上的反转点，价格从21200反弹至21700形成大绿K线。",
+    "Step 4: 确认低点被扫除（价格触及21200附近的低点），验证流动性清理。",
+    "Step 5: 观察价格是否突破一系列下跌K线的收盘价，形成受保护摆动（Protected Swing）。",
+    "Step 6: 确认反转后的扩张向上，价格突破21700后继续上升，为后续交易提供机会。"
+  ],
+  "outcome": null,
+  "lessons": "理想的反转结构需要三个要素：(1)扩张向下遇到扩张向上；(2)低点被扫除清理流动性；(3)价格突破一系列下跌K线形成受保护摆动。这种结构会清除早期多头和空头交易者，为后续趋势延续创造条件。",
+  "primary_image": "cards/VD4xb9VfMHA/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/VD4xb9VfMHA/images/case_002_detail_1.jpg",
+    "cards/VD4xb9VfMHA/images/case_002_detail_2.jpg",
+    "cards/VD4xb9VfMHA/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示 USD 资产的 K 线图，价格范围从 21040 到 21920。图上绘有三条水平线，分别位于 21760、21600 和 21160 处。其中 21760 至 21160 之间用矩形框标记，21600 至 21760 之间也有矩形框标记。K 线序列显示初期有向上跳空缺口，随后出现一系列下跌的黑色 K 线，中间部分形成 21400 至 21600 区间的盘整，后期出现大幅上升的绿色 K ",
+    "case_002_detail_1.jpg": "USD 1小时K线图。图上显示从28日至3日的价格走势，价格范围约21200至22080。图上有两条水平线分别位于21760和21412价格位。28日出现大幅上升的绿色K线至22040，随后29日出现一系列黑色K线下跌至21520附近。30日形成21520至21600区间的盘整。1日出现向下跳空缺口至21200，之后2日出现绿黑相间的K线。图上标注有两个矩形框分别围绕21520-21760和215",
+    "case_002_detail_2.jpg": "图表显示 1 小时周期的蜡烛图，价格范围从 22000 到 21080。图上有三条水平线分别位于 21760、21560 和 21486.25。左侧显示从 22000 开始的下跌趋势，中间部分为 21520 至 21600 区间的小幅波动，右侧出现一根大绿色 K 线从 21200 上升至 21700，随后跟随一根大黑色 K 线从 21700 下跌至 21560。图上标注有三个矩形框，分别围绕不同价",
+    "case_002_detail_3.jpg": "图表显示 USD 资产的 K 线图，价格范围从 21000.00 到 21880.00。图上有 4 条水平线分别位于 21760.00、21520.00、21320.00 和 21160.00 处。可见多根 K 线，其中绿色和黑色主体交替出现，大部分集中在 21320 至 21760 区间。图上标注有 3 个矩形框，分别框定不同的价格区域。左下角显示时间信息，右下角有交易按钮（Sell、Buy、F"
+  },
+  "sources": [
+    {
+      "video_id": "VD4xb9VfMHA",
+      "segment_ids": [
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        435.199,
+        590.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰，资产(USD)、时间框架(1H)、关键价位(22040、21520、21200、21700、21560)、分析步骤(扩张-低点-反转-突破)都有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:00.017143Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 1小时图：扩张反转与低点扫除的理想结构\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1H\",\"market_context\":\"价格从前期高点22040下跌至21200附近，形成低点。随后价格反弹至21700区域，再次下跌至21560，最终形成V形反转结构并向上突破。\",\"key_observation\":\"博主强调这是理想的反转结构：扩张向下遇到扩张向上，同时扫除低点，并通过突破一系列下跌K线形成受保护摆动，为后续上升奠定基础。\",\"analysis_steps\":[\"Step 1: 识别初期扩张向下的阶段，价格从高点22040快速下跌至21520附近。\",\"Step 2: 观察中间的盘整/回撤阶段（21520-21600区间），确认是否继续下跌。\",\"Step 3: 识别扩张向下遇到扩张向上的反转点，价格从21200反弹至21700形成大绿K线。\",\"Step 4: 确认低点被扫除（价格触及21200附近的低点），验证流动性清理。\",\"Step 5: 观察价格是否突破一系列下跌K线的收盘价，形成受保护摆动（Protected Swing）。\",\"Step 6: 确认反转后的扩张向上，价格突破21700后继续上升，为后续交易提供机会。\"],\"outcome\":null,\"lessons\":\"理想的反转结构需要三个要素：(1)扩张向下遇到扩张向上；(2)低点被扫除清理流动性；(3)价格突破一系列下跌K线形成受保护摆动。这种结构会清除早期多头和空头交易者，为后续趋势延续创造条件。\",\"primary_image_frame_id\":\"VD4xb9VfMHA_f018\",\"supporting_image_frame_ids\":[\"VD4xb9VfMHA_f017\",\"VD4xb9VfMHA_f001\",\"VD4xb9VfMHA_f019\"],\"related_concepts\":[\"Expansion\",\"Displacement\",\"Liquidity\",\"Order Block\",\"Protected Swing\",\"Market Structure Shift\",\"Change in the state of delivery\",\"V-shaped reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰，资产(USD)、时间框架(1H)、关键价位(22040、21520、21200、21700、21560)、分析步骤(扩张-低点-反转-突破)都有明确说明。\"}",
+  "error": null
+}

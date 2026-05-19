@@ -1,0 +1,95 @@
+{
+  "card_id": "3eVxTV_7L2U_case_006_指数三角smt失败触发反转_nq_es_ym周线到日线",
+  "type": "case",
+  "title": "指数三角SMT失败触发反转（周线到日线）",
+  "related_concepts": [
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Divergence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "market_structure_shift",
+    "order_block",
+    "liquidity",
+    "time_frame_confluence"
+  ],
+  "school": "SMC",
+  "asset": "NQ1! / ES1! / YM1!",
+  "timeframe": "1W / 1D",
+  "market_context": "三大指数期货（纳斯达克100、标普500、道琼斯）在周线上同时操纵同一高点。ES率先突破该高点，而NQ未能操纵形成分歧，预示SMT失败与潜在反转。",
+  "key_observation": "当最弱资产（NQ）最终追上并突破SMT高点时，市场可能触发反转。这种分歧现象（一个资产创新高而另一个失败）是SMT失败的典型信号。",
+  "analysis_steps": [
+    "Step 1: 在周线三联图上标记三个资产（NQ、ES、YM）共同操纵的同一高点",
+    "Step 2: 观察ES首先突破该高点，而NQ明显失败未能操纵，形成资产间分歧",
+    "Step 3: 识别这种分歧为SMT失败的信号，预示市场可能反转",
+    "Step 4: 下钻到日线时间框架，重新标记相同的高点结构",
+    "Step 5: 在日线上确认ES触及该高点与YM形成SMT，而NQ再次失败未能操纵",
+    "Step 6: 确认日线序列比周线序列具有更高概率（中间资产突破SMT而第三资产创造分歧）",
+    "Step 7: 进一步下钻到4小时时间框架进行配置文件分析"
+  ],
+  "outcome": null,
+  "lessons": "SMT失败（资产间分歧）是高概率反转信号。当最弱资产最终追上并突破时，触发反转。日线序列（中间资产突破+第三资产分歧）比周线序列（全部突破）具有更高概率。多时间框架确认增强信号可靠性。",
+  "primary_image": "cards/3eVxTV_7L2U/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/3eVxTV_7L2U/images/case_006_detail_1.jpg",
+    "cards/3eVxTV_7L2U/images/case_006_detail_2.jpg",
+    "cards/3eVxTV_7L2U/images/case_006_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图上显示三个并排的日线蜡烛图面板，从左至右分别为纳斯达克100迷你期货（NQ1!）、标普500迷你期货（ES1!）和道琼斯5美元迷你期货（YM1!），均来自CME/CBOT交易所。三个面板共享同一日期轴，最新日期标注为2025年7月28日（周一）。左侧NQ1!面板价格轴范围约22600至24600，中间ES1!面板价格轴范围约6200至6720，右侧YM1!面板价格轴范围约43800至47200。",
+    "case_006_detail_1.jpg": "图上为三联面板周线K线图，从左至右分别为纳斯达克100迷你期货（NQ1!）、标普500迷你期货（ES1!）、道琼斯迷你期货（YM1!），均来自CME/CBOT，时间框架为1W。三个面板的时间轴游标均定位于2025年7月14日（周一）。左侧NQ1!面板价格轴范围约21600至25400，当前价格标签显示23111.50，最新K线为大幅阴线。中间ES1!面板右轴标注6676.75与6320.75两个价",
+    "case_006_detail_2.jpg": "图上为三联面板周线图，从左至右分别为纳斯达克100期货（NQ1!）、标普500期货（ES）、道琼斯小型期货（YM），均为1W时间框架。左侧NQ1!面板价格范围约21600至25400，当前价标签显示23111.50，另有一条水平线标注23404.25。中间ES面板右侧价格轴显示5700至6700区间，当前价标签6320.75可见。右侧YM面板价格轴显示41200至49200区间，当前价标签4404",
+    "case_006_detail_3.jpg": "图上为三联面板布局，均为1日K线图。左侧面板为NASDAQ 100 E-mini Futures（NQ1!），价格刻度约22,600至24,900，当前价标签显示23,571.00，图上另有23,600.00水平标注。中间面板为S&P 500 E-mini Futures（ES1!），价格刻度约6,200至6,720，当前价标签显示6,426.25，图上有一条斜向趋势线标注于6,500至6,540"
+  },
+  "sources": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "segment_ids": [
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        1201.039,
+        1300.96
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了周线到日线的分析过程，清晰标记了关键高点、资产分歧、SMT失败信号，并解释了反转触发机制。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:22:19.288576Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"指数三角SMT失败触发反转（周线到日线）\",\"school\":\"SMC\",\"asset\":\"NQ1! / ES1! / YM1!\",\"timeframe\":\"1W / 1D\",\"market_context\":\"三大指数期货（纳斯达克100、标普500、道琼斯）在周线上同时操纵同一高点。ES率先突破该高点，而NQ未能操纵形成分歧，预示SMT失败与潜在反转。\",\"key_observation\":\"当最弱资产（NQ）最终追上并突破SMT高点时，市场可能触发反转。这种分歧现象（一个资产创新高而另一个失败）是SMT失败的典型信号。\",\"analysis_steps\":[\"Step 1: 在周线三联图上标记三个资产（NQ、ES、YM）共同操纵的同一高点\",\"Step 2: 观察ES首先突破该高点，而NQ明显失败未能操纵，形成资产间分歧\",\"Step 3: 识别这种分歧为SMT失败的信号，预示市场可能反转\",\"Step 4: 下钻到日线时间框架，重新标记相同的高点结构\",\"Step 5: 在日线上确认ES触及该高点与YM形成SMT，而NQ再次失败未能操纵\",\"Step 6: 确认日线序列比周线序列具有更高概率（中间资产突破SMT而第三资产创造分歧）\",\"Step 7: 进一步下钻到4小时时间框架进行配置文件分析\"],\"outcome\":null,\"lessons\":\"SMT失败（资产间分歧）是高概率反转信号。当最弱资产最终追上并突破时，触发反转。日线序列（中间资产突破+第三资产分歧）比周线序列（全部突破）具有更高概率。多时间框架确认增强信号可靠性。\",\"primary_image_frame_id\":\"3eVxTV_7L2U_f042\",\"supporting_image_frame_ids\":[\"3eVxTV_7L2U_f040\",\"3eVxTV_7L2U_f041\",\"3eVxTV_7L2U_f043\"],\"related_concepts\":[\"SMT\",\"Market Structure Shift\",\"Divergence\",\"Order Block\",\"Liquidity\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了周线到日线的分析过程，清晰标记了关键高点、资产分歧、SMT失败信号，并解释了反转触发机制。\"}",
+  "error": null
+}

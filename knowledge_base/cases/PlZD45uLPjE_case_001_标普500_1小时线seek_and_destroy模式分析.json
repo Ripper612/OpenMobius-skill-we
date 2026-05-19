@@ -1,0 +1,129 @@
+{
+  "card_id": "PlZD45uLPjE_case_001_标普500_1小时线seek_and_destroy模式分析",
+  "type": "case",
+  "title": "标普500 1小时线Seek and Destroy模式识别与交易入场",
+  "related_concepts": [
+    {
+      "term": "Seek and Destroy Pattern",
+      "card_id": "seek_and_destroy_profile",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Zone",
+      "card_id": "premium_discount_zone",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "seek_and_destroy_profile",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "order_block",
+    "equilibrium",
+    "ote_optimal_trade_entry",
+    "fair_value_gap",
+    "market_structure",
+    "displacement",
+    "fibonacci_retracement",
+    "premium_discount_zone"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1H",
+  "market_context": "标普500期货在1小时线上形成盘整结构，缺乏高时间框架方向性，价格在买卖方流动性之间反复波动，创造多个偏离点。",
+  "key_observation": "Seek and Destroy模式是高时间框架缺乏方向性导致的盘整，价格在扫荡买卖方流动性后会回归到区间内。博主通过标注偏离点、均衡点、OTE和流动性来识别高概率交易机会。",
+  "analysis_steps": [
+    "Step 1: 识别Seek and Destroy模式的定义——高时间框架缺乏方向性导致的盘整结构",
+    "Step 2: 标注买卖方流动性（Buyside Liquidity ~4080、Sellside Liquidity ~3950）",
+    "Step 3: 标注买卖停损点（Buy Stops ~4020、Sell Stops ~3990）作为区间内的支撑阻力",
+    "Step 4: 识别价格偏离区间的四个关键点（粉红色矩形标注）",
+    "Step 5: 对每个偏离点应用三层目标体系：第一目标为均衡点（Equilibrium），第二目标为OTE（使用斐波那契回撤），第三目标为对侧流动性",
+    "Step 6: 在第一个偏离点（上方）寻找均衡点、OTE和下方卖停点",
+    "Step 7: 在第二个偏离点（中上方）寻找均衡点、OTE和下方卖停点",
+    "Step 8: 在第三个偏离点（中下方）寻找均衡点、OTE和上方买停点",
+    "Step 9: 在第四个偏离点（下方）寻找均衡点、OTE和上方买停点",
+    "Step 10: 使用斐波那契水平线（0.79、0.62、0.5）精确定位OTE区域作为最优入场点"
+  ],
+  "outcome": null,
+  "lessons": "Seek and Destroy模式中，关键是识别价格偏离区间的点位，然后使用均衡点、OTE和对侧流动性作为三层递进目标。斐波那契回撤在折价/溢价区的应用能显著提高入场精准度。该模式虽然波动频繁，但通过系统化的目标设置可以捕捉多个高概率交易机会。",
+  "primary_image": "cards/PlZD45uLPjE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/PlZD45uLPjE/images/case_001_detail_1.jpg",
+    "cards/PlZD45uLPjE/images/case_001_detail_2.jpg",
+    "cards/PlZD45uLPjE/images/case_001_detail_3.jpg",
+    "cards/PlZD45uLPjE/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 1 小时线图。图上绘制有两条带标签的水平线：4079 处标记为'Buyside Liquidity'、3950 处标记为'Sellside Liquidity'。右侧价格轴显示三条水平线分别标记为 0.79、0.62、0.5，对应价格约 4050、4030、4010。图上有四个粉红色矩形框和一个绿色矩形框标注特定价格区间。左侧标注有'Buy Steps",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 1 小时线图。图上有四条带文字标签的水平线，从上到下分别标记为 Buyside Liquidity（4080.00）、Buy Steps（3995.00）、Sell Steps（3980.00）和 Sellside Liquidity（3950.00）。线图显示价格在 4090.00 至 3940.00 区间内波动，形成多个摆动高点和低点。中间区域在 ",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 1小时线性图表。图上有四条水平线标注，从上到下分别标记为Buyside Liquidity（4060）、Buy stops（4020）、Sell stops（3990）、Sellside Liquidity（3950）。价格范围在3930至4090之间波动。图右侧显示向上箭头标注。右下角显示当前价格3924.50。图表显示多个摆动高低点，整体价格行为在",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 1 小时线图。图上为线性图表，显示价格范围约 3920 至 4090。标注包括两条水平线：4060 处标记为 Buyside Liquidity、3950 处标记为 Sellside Liquidity。四个粉红色矩形框分别标注在摆动高低点：最高处约 4090、最低处约 3950、中间高点约 4035 标记为 Buy Steps、中间低点约 3995 ",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 1小时线图。图上为线性走势图，显示价格范围从3910到4110。标注包括四条水平线分别标记为Buyside Liquidity（两条）、Sell Stops和Sellside Liquidity。三个粉红色矩形框分别位于约4070-4090、4030-4050和3940-3960价格区间。右侧显示斐波那契水平线标签，包括0.236、0.382、0.5和"
+  },
+  "sources": [
+    {
+      "video_id": "PlZD45uLPjE",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        183.66
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了Seek and Destroy模式的识别流程、关键价位标注、偏离点识别、三层目标体系和斐波那契应用，图表清晰标注了所有关键水平线和矩形框。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:40.828722Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500 1小时线Seek and Destroy模式识别与交易入场\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1H\",\"market_context\":\"标普500期货在1小时线上形成盘整结构，缺乏高时间框架方向性，价格在买卖方流动性之间反复波动，创造多个偏离点。\",\"key_observation\":\"Seek and Destroy模式是高时间框架缺乏方向性导致的盘整，价格在扫荡买卖方流动性后会回归到区间内。博主通过标注偏离点、均衡点、OTE和流动性来识别高概率交易机会。\",\"analysis_steps\":[\"Step 1: 识别Seek and Destroy模式的定义——高时间框架缺乏方向性导致的盘整结构\",\"Step 2: 标注买卖方流动性（Buyside Liquidity ~4080、Sellside Liquidity ~3950）\",\"Step 3: 标注买卖停损点（Buy Stops ~4020、Sell Stops ~3990）作为区间内的支撑阻力\",\"Step 4: 识别价格偏离区间的四个关键点（粉红色矩形标注）\",\"Step 5: 对每个偏离点应用三层目标体系：第一目标为均衡点（Equilibrium），第二目标为OTE（使用斐波那契回撤），第三目标为对侧流动性\",\"Step 6: 在第一个偏离点（上方）寻找均衡点、OTE和下方卖停点\",\"Step 7: 在第二个偏离点（中上方）寻找均衡点、OTE和下方卖停点\",\"Step 8: 在第三个偏离点（中下方）寻找均衡点、OTE和上方买停点\",\"Step 9: 在第四个偏离点（下方）寻找均衡点、OTE和上方买停点\",\"Step 10: 使用斐波那契水平线（0.79、0.62、0.5）精确定位OTE区域作为最优入场点\"],\"outcome\":null,\"lessons\":\"Seek and Destroy模式中，关键是识别价格偏离区间的点位，然后使用均衡点、OTE和对侧流动性作为三层递进目标。斐波那契回撤在折价/溢价区的应用能显著提高入场精准度。该模式虽然波动频繁，但通过系统化的目标设置可以捕捉多个高概率交易机会。\",\"primary_image_frame_id\":\"PlZD45uLPjE_f006\",\"supporting_image_frame_ids\":[\"PlZD45uLPjE_f003\",\"PlZD45uLPjE_f004\",\"PlZD45uLPjE_f005\",\"PlZD45uLPjE_f007\"],\"related_concepts\":[\"Seek and Destroy Pattern\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Order Block\",\"Equilibrium\",\"OTE (Optimal Trade Entry)\",\"Fair Value Gap\",\"Market Structure\",\"Displacement\",\"Fibonacci Retracement\",\"Premium/Discount Zone\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了Seek and Destroy模式的识别流程、关键价位标注、偏离点识别、三层目标体系和斐波那契应用，图表清晰标注了所有关键水平线和矩形框。\"}",
+  "error": null
+}

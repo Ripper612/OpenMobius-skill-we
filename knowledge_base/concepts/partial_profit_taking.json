@@ -1,0 +1,60 @@
+{
+  "card_id": "partial_profit_taking",
+  "type": "merged_concept",
+  "canonical_term": "Partial Profit Taking",
+  "aliases": [
+    "分批平仓",
+    "分次获利"
+  ],
+  "school": "ICT",
+  "definition": "在单笔交易中分多次平仓获利的策略。通常在等低点、订单块或公允价值缺口处设置第一、二、三部分平仓位，逐步锁定利润。",
+  "identification_rules": [
+    "在进场后识别价格路径上的关键支撑/阻力位（如摆动低点、订单块、FVG）",
+    "将这些关键位标记为第一、二、三平仓目标",
+    "第一平仓通常设在最近的摆动低点或小型订单块处",
+    "第二平仓设在更远的订单块或FVG处",
+    "第三平仓或最终头寸持有至更高的目标位或摆动高点"
+  ],
+  "trading_implication": "分批平仓允许交易者在价格向目标方向运行时逐步锁定利润，同时保留部分头寸以捕捉更大的移动。这种方法降低了单次平仓的时机风险，并在达到第一目标后即可收回初始风险。材料中示例显示第一平仓在等低点处、第二平仓在更高的订单块或FVG处、第三平仓在摆动高点附近。",
+  "common_mistakes": [
+    "材料未明确提及常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "aDYzoae3viQ_case_001_伦敦盘e_mini期货交易案例",
+      "video_id": "aDYzoae3viQ",
+      "title": "伦敦盘E-mini期货位移突破15分钟FVG的完整交易案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "lpam8F-N3EM",
+      "original_card_id": "lpam8F-N3EM_concept_partial_profit_taking",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.08,
+        311.6
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134651Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

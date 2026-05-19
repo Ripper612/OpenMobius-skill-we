@@ -1,0 +1,104 @@
+{
+  "card_id": "xdm_OexQWJY_case_002_伦敦时段运行前期高点与fvg做多案例",
+  "type": "case",
+  "title": "伦敦时段向上位移后利用折价区FVG与OTE做多至相等高点",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Equal High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "optimal_trade_entry_ote",
+    "liquidity",
+    "market_structure",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1H",
+  "market_context": "早盘运行至低点后，伦敦时段出现向上位移，价格从约3840上升至4010附近。博主利用日内偏差分析（4H和1H图表）识别做多机会，目标为前期相等高点。",
+  "key_observation": "伦敦时段在早盘低点后形成向上位移（Displacement），随后在折价区内出现FVG和OTE，为做多提供高概率入场点。价格目标为前期相等高点（Equal High）。",
+  "analysis_steps": [
+    "Step 1: 在4小时图表上识别早盘的大幅下跌（Displacement down）和相对相等低点（Relative Equal Lows）的结构。",
+    "Step 2: 观察伦敦时段开始后价格向上的强势位移（Displacement up），确认做多偏差。",
+    "Step 3: 在1小时图表上定位早盘低点（约3840）被扫除后的向上运行。",
+    "Step 4: 识别折价区内的FVG（Fair Value Gap）和OTE（Optimal Trade Entry）区域作为做多入场点。",
+    "Step 5: 确定前期相等高点（Equal High）作为目标位，位于约4010附近。",
+    "Step 6: 在OTE区域建立做多头寸，风险设置在低点保护，目标指向相等高点。"
+  ],
+  "outcome": null,
+  "lessons": "日内交易中，通过识别高时间框架的位移和结构（早盘低点+伦敦向上位移），可在低时间框架的折价区FVG和OTE处获得高概率做多机会。相等高点是明确的目标位，体现了市场结构的对称性和流动性聚集点。",
+  "primary_image": "cards/xdm_OexQWJY/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/xdm_OexQWJY/images/case_002_detail_1.jpg",
+    "cards/xdm_OexQWJY/images/case_002_detail_2.jpg",
+    "cards/xdm_OexQWJY/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从左侧约 3840 上升至右侧约 4068 的整体上升趋势。中部区域有一个矩形标注框，范围约在 3961.50 至 4024.75 之间，表示一个整合区域。可见 K 线中绿色蜡烛占多数，红色蜡烛分散出现。右侧价格刻度显示当前价格区间，图上未见其他指标或额外标注。",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 4小时K线图。图上左侧有文字标签'Displacement'。右侧价格轴显示当前价格为3924.50（绿色高亮）。图表可见价格范围从3870到4440。左侧显示两个价格标签3924.00和3924.25。图上有一条水平虚线位于3857.50。K线序列显示左侧大幅下跌红烛，中部区间整理，右侧上升趋势中多根绿烛，最后以大幅下跌红烛结束。",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图表显示从左侧约 3840 开始的上升趋势，延伸至中部约 4010 的高点。K 线序列包含绿色上升 K 线和红色下降 K 线混合排列。图上有一条水平虚线位于 3962.50 价格水平。右侧价格刻度显示范围从 3840.00 至 4080.50。图表底部显示时间标记从 18 日至 28 日，当前时间戳显示 23:50:24（UTC+4",
+    "case_002_detail_3.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从 7 月 21 日至 8 月 3 日的价格走势，价格范围约从 3860 到 4050。图上绘制有两个灰色矩形框：一个位于 3950 至 3980 区间，另一个位于 3860 至 3900 区间。右侧价格刻度显示多个水平线标记。K 线呈现先上升后下降的形态，中间区域有一段相对平稳的整理区间，随后出现向下的移动。图上未见其他指"
+  },
+  "sources": [
+    {
+      "video_id": "xdm_OexQWJY",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        187.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从高时间框架结构识别到低时间框架入场的全过程，资产、时间框架、关键价位（3840低点、4010高点）、分析步骤均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:46.318256Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"伦敦时段向上位移后利用折价区FVG与OTE做多至相等高点\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1H\",\"market_context\":\"早盘运行至低点后，伦敦时段出现向上位移，价格从约3840上升至4010附近。博主利用日内偏差分析（4H和1H图表）识别做多机会，目标为前期相等高点。\",\"key_observation\":\"伦敦时段在早盘低点后形成向上位移（Displacement），随后在折价区内出现FVG和OTE，为做多提供高概率入场点。价格目标为前期相等高点（Equal High）。\",\"analysis_steps\":[\"Step 1: 在4小时图表上识别早盘的大幅下跌（Displacement down）和相对相等低点（Relative Equal Lows）的结构。\",\"Step 2: 观察伦敦时段开始后价格向上的强势位移（Displacement up），确认做多偏差。\",\"Step 3: 在1小时图表上定位早盘低点（约3840）被扫除后的向上运行。\",\"Step 4: 识别折价区内的FVG（Fair Value Gap）和OTE（Optimal Trade Entry）区域作为做多入场点。\",\"Step 5: 确定前期相等高点（Equal High）作为目标位，位于约4010附近。\",\"Step 6: 在OTE区域建立做多头寸，风险设置在低点保护，目标指向相等高点。\"],\"outcome\":null,\"lessons\":\"日内交易中，通过识别高时间框架的位移和结构（早盘低点+伦敦向上位移），可在低时间框架的折价区FVG和OTE处获得高概率做多机会。相等高点是明确的目标位，体现了市场结构的对称性和流动性聚集点。\",\"primary_image_frame_id\":\"xdm_OexQWJY_f007\",\"supporting_image_frame_ids\":[\"xdm_OexQWJY_f003\",\"xdm_OexQWJY_f006\",\"xdm_OexQWJY_f008\"],\"related_concepts\":[\"Displacement\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Optimal Trade Entry (OTE)\",\"Equal High\",\"Liquidity\",\"Market Structure\",\"Premium/Discount\",\"Imbalance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从高时间框架结构识别到低时间框架入场的全过程，资产、时间框架、关键价位（3840低点、4010高点）、分析步骤均清晰可读。\"}",
+  "error": null
+}

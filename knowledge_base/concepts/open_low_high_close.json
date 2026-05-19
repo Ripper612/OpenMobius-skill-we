@@ -1,0 +1,68 @@
+{
+  "card_id": "open_low_high_close",
+  "type": "merged_concept",
+  "canonical_term": "Open Low High Close",
+  "aliases": [
+    "OLHC pattern",
+    "bullish day structure"
+  ],
+  "school": "ICT",
+  "definition": "看涨周期内的典型日线形态：开盘后价格下跌至低点，随后上升至高点并收盘。用于确认周内看涨结构的延续。",
+  "identification_rules": [
+    "在看涨周期（如周一至周五的看涨周）中识别",
+    "开盘价高于或接近前一日收盘价",
+    "价格随后下跌至日内低点（形成低点）",
+    "价格从低点反弹上升至日内高点",
+    "收盘价在高点附近或高于开盘价",
+    "整体形成从开盘→下跌→上升→收盘的完整周期"
+  ],
+  "trading_implication": "OLHC形态表明市场在看涨周期内的健康结构。交易者用其确认周内趋势延续的有效性。当识别到OLHC形态时，预期价格将继续向上扩展，可在随后的日子（如周三）寻找继续向下的卖方流动性或向上的买方目标。该形态常与日线订单块、公允价值缺口等结构配合使用，指导多时间框架的入场决策。",
+  "common_mistakes": [
+    "未在看涨周期背景下识别OLHC，导致误判形态含义",
+    "将OLHC形态与单纯的日线形态混淆，忽视其周期性背景",
+    "在形态未完全形成时过早入场，应等待完整的开盘-低点-高点-收盘序列"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "6zTz7WMdMWg_case_006_gbp_usd从4小时到1分钟的多时间框架交易执行",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD 4小时到1分钟多时间框架交易执行"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_003_nq纳指期货多个时间框架分析",
+      "video_id": "EYzP7c24AwM",
+      "title": "NQ纳指期货多时间框架时间水平与订单块验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "klaiq36QnEM",
+      "original_card_id": "klaiq36QnEM_concept_open_low_high_close",
+      "segment_ids": [
+        "seg_002",
+        "seg_007"
+      ],
+      "time_range": [
+        184.8,
+        812.519
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134477Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

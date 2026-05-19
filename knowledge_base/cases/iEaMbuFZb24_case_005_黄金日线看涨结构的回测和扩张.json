@@ -1,0 +1,122 @@
+{
+  "card_id": "iEaMbuFZb24_case_005_黄金日线看涨结构的回测和扩张",
+  "type": "case",
+  "title": "黄金日线看涨结构回测判断与小时线扩张",
+  "related_concepts": [
+    {
+      "term": "Bullish Structure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Retracement vs Reversal",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Discount Zone",
+      "card_id": "premium_discount_area",
+      "exists": true
+    },
+    {
+      "term": "Time Frame Alignment",
+      "card_id": "time_frame_alignment",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "propulsion_block",
+    "order_block",
+    "premium_discount_area",
+    "time_frame_alignment",
+    "expansion",
+    "risk_to_reward"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "1D",
+  "market_context": "黄金形成看涨结构（高点更高、低点更高），价格扩张进入FVG后出现回撤。博主通过日线K线收盘判断是回撤还是反转，随后在小时线和5分钟线对齐后获得扩张收益。",
+  "key_observation": "博主观察到黄金在扩张进入FVG后需要用日线K线收盘来判断后续走势性质。若日线收低则为反转，若日线收在区间内则为回撤。通过多时间框架对齐实现高概率入场。",
+  "analysis_steps": [
+    "Step 1: 识别黄金日线形成的看涨结构（高点更高、低点更高）",
+    "Step 2: 观察价格扩张进入FVG后的回撤走势",
+    "Step 3: 让一根日线K线完全收盘以判断走势性质（反转 vs 回撤）",
+    "Step 4: 根据日线收盘判断为回撤，确立向上的方向偏差",
+    "Step 5: 下降到小时线寻找结构和CSD（交付状态改变）",
+    "Step 6: 在小时线上识别新的Propulsion Block，确定不应跌破的区域",
+    "Step 7: 进一步下降到5分钟线寻找通过下跌收盘K线的入场点",
+    "Step 8: 在5分钟线上等待收盘穿过下跌K线进入折价区域",
+    "Step 9: 当三个时间框架（日线、小时线、5分钟线）对齐后执行入场",
+    "Step 10: 观察价格扩张至目标位（高时间框架目标或标准差投影）"
+  ],
+  "outcome": "价格成功扩张，突破了小时线的高点，并继续上升至更高的目标位。通过多时间框架对齐获得了显著的风险回报比收益。",
+  "lessons": "多时间框架对齐是实现高概率交易的关键。日线用于确定方向偏差和走势性质判断，小时线用于结构和CSD识别，5分钟线用于精确入场。只有当所有时间框架信号一致时，才会出现真正的扩张机会。",
+  "primary_image": "cards/iEaMbuFZb24/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/iEaMbuFZb24/images/case_005_detail_1.jpg",
+    "cards/iEaMbuFZb24/images/case_005_detail_2.jpg",
+    "cards/iEaMbuFZb24/images/case_005_detail_3.jpg",
+    "cards/iEaMbuFZb24/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表显示一份带有交易标注的 K 线图。价格范围从 2652.5 到 2730.0。图上有三条水平线分别位于 2708.5、2683.9 和 2675.0。右侧有三个矩形标注框，分别标记目标价位、开仓损益及止损信息。K 线呈现左侧下跌、中部整理、右侧上升后回落的形态。绿色和黑色 K 线交替出现，多数 K 线具有上下影线。时间标签显示交易跨越 1 月 14 日至 1 月 15 日。",
+    "case_005_detail_1.jpg": "图表为烛线图，显示价格范围约从 2540 到 2840。横轴标注显示时间跨度包括 2025 年 1 月至 2 月期间。图上可见约 30 根烛线，绿色烛线表示上升，黑色烛线表示下降。左侧区域烛线在 2750 附近形成高点，中段出现下行走势至 2600 附近，右侧烛线显示回升至 2710 附近。多数烛线具有上下影线，表明价格在各周期内出现高低点回撤。图右上角显示'The Market Lens'文字标",
+    "case_005_detail_2.jpg": "图表为烛线图，显示从2024年12月25日至2025年2月24日的价格走势。价格范围在2550.0至2840.0之间。图上有一条水平虚线位于2690.0价格水平。烛线由绿色和黑色组成，大部分烛线具有上下影线。1月中旬附近出现较大的烛线主体，高度约至2760.0。图右上角标注'The Market Lens'文字。左下角显示'PRO'标识。横轴标注日期从12月25日至2月24日。",
+    "case_005_detail_3.jpg": "图表显示多个时间段的 K 线走势。左侧呈现从 2720.0 向下的下跌趋势，约 12 根 K 线逐步下行至 2675.0 附近。中间区域形成 2675.0 至 2690.0 之间的盘整，多根 K 线在此区间内波动，部分下影线穿破 2675.0。右侧出现两根较大 K 线，绿色 K 线和黑色 K 线分别触及约 2716.0 和 2715.0，之后回落至 2690.0 至 2693.0 区间。图上标注有",
+    "case_005_detail_4.jpg": "NQ1! 5分钟K线图。图上可见价格范围从2684.5至2696.0。图下方有一条蓝色水平线位于2685.5处，跨越整个图表。图中央有一个矩形框标注，范围约在2685.5至2690.5之间。右侧显示文字标签'The Market Lens'、'Se-U Model'和'Bias: Bullish'。K线序列显示：15:00至16:30期间绿色K线上升至2693.5，16:30至20:00期间黑色K"
+  },
+  "sources": [
+    {
+      "video_id": "iEaMbuFZb24",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        907.04,
+        1215.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对黄金案例的分析完整清晰，包括资产（黄金）、时间框架（日线、小时线、5分钟线）、关键价位、分析步骤和交易结果都有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:49.794329Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金日线看涨结构回测判断与小时线扩张\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"1D\",\"market_context\":\"黄金形成看涨结构（高点更高、低点更高），价格扩张进入FVG后出现回撤。博主通过日线K线收盘判断是回撤还是反转，随后在小时线和5分钟线对齐后获得扩张收益。\",\"key_observation\":\"博主观察到黄金在扩张进入FVG后需要用日线K线收盘来判断后续走势性质。若日线收低则为反转，若日线收在区间内则为回撤。通过多时间框架对齐实现高概率入场。\",\"analysis_steps\":[\"Step 1: 识别黄金日线形成的看涨结构（高点更高、低点更高）\",\"Step 2: 观察价格扩张进入FVG后的回撤走势\",\"Step 3: 让一根日线K线完全收盘以判断走势性质（反转 vs 回撤）\",\"Step 4: 根据日线收盘判断为回撤，确立向上的方向偏差\",\"Step 5: 下降到小时线寻找结构和CSD（交付状态改变）\",\"Step 6: 在小时线上识别新的Propulsion Block，确定不应跌破的区域\",\"Step 7: 进一步下降到5分钟线寻找通过下跌收盘K线的入场点\",\"Step 8: 在5分钟线上等待收盘穿过下跌K线进入折价区域\",\"Step 9: 当三个时间框架（日线、小时线、5分钟线）对齐后执行入场\",\"Step 10: 观察价格扩张至目标位（高时间框架目标或标准差投影）\"],\"outcome\":\"价格成功扩张，突破了小时线的高点，并继续上升至更高的目标位。通过多时间框架对齐获得了显著的风险回报比收益。\",\"lessons\":\"多时间框架对齐是实现高概率交易的关键。日线用于确定方向偏差和走势性质判断，小时线用于结构和CSD识别，5分钟线用于精确入场。只有当所有时间框架信号一致时，才会出现真正的扩张机会。\",\"primary_image_frame_id\":\"iEaMbuFZb24_f037\",\"supporting_image_frame_ids\":[\"iEaMbuFZb24_f034\",\"iEaMbuFZb24_f035\",\"iEaMbuFZb24_f036\",\"iEaMbuFZb24_f038\"],\"related_concepts\":[\"Bullish Structure\",\"Fair Value Gap\",\"Retracement vs Reversal\",\"Change in the state of delivery\",\"Propulsion Block\",\"Order Block\",\"Discount Zone\",\"Time Frame Alignment\",\"Expansion\",\"Risk/Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对黄金案例的分析完整清晰，包括资产（黄金）、时间框架（日线、小时线、5分钟线）、关键价位、分析步骤和交易结果都有明确说明。\"}",
+  "error": null
+}

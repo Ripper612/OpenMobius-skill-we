@@ -1,0 +1,103 @@
+{
+  "card_id": "rXMVPUZPw4A_case_001_nasdaq_2分钟图_breaker_block与fvg的第一",
+  "type": "case",
+  "title": "NASDAQ 2分钟图：Breaker Block与FVG的Unicorn模型交易",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Unicorn Model",
+      "card_id": "unicorn_model",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "fair_value_gap",
+    "displacement",
+    "order_block",
+    "unicorn_model",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "2M",
+  "market_context": "NASDAQ在2023年9月14日形成低-高-更低-更高的Breaker Block结构，价格从15645下跌至15535，随后反弹。博主在2分钟图上识别出Unicorn模型（Breaker Block+重叠FVG）的交易机会。",
+  "key_observation": "价格形成完整的Breaker Block结构（低→高→更低→更高），并在反弹过程中创建了与Breaker Block重叠的Fair Value Gap，该FVG成为最优入场区域。",
+  "analysis_steps": [
+    "Step 1: 识别Breaker Block的四个关键K线——最后一根看跌K线（在更高高点前）和最后一根看涨K线（在更低低点前）。",
+    "Step 2: 确认价格形成低-高-更低-更高的完整结构，通过向上突破确认Breaker Block有效。",
+    "Step 3: 检查是否存在重叠的Fair Value Gap——确认高点K线与低点K线之间无重叠，形成FVG。",
+    "Step 4: 在FVG区域寻找入场点，设置止损位于结构低点（约15525）。",
+    "Step 5: 计算风险回报比——止损距离约35点，目标高点距离约81.75点，风险回报比约2.31R。",
+    "Step 6: 观察价格回测FVG后的上升走势，确认目标高点被触及。"
+  ],
+  "outcome": "交易成功。价格从入场点下跌至FVG区域后反弹，最终触及目标高点81.70，实现2.31R的风险回报比。已平仓盈亏为81.75。",
+  "lessons": "Unicorn模型（Breaker Block+重叠FVG）提供高概率入场点。关键是识别完整的四K线Breaker Block结构，并确认FVG的存在。止损设置在结构低点可获得良好的风险回报比。价格通常会回测FVG后继续原方向运动。",
+  "primary_image": "cards/rXMVPUZPw4A/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/rXMVPUZPw4A/images/case_001_detail_1.jpg",
+    "cards/rXMVPUZPw4A/images/case_001_detail_2.jpg",
+    "cards/rXMVPUZPw4A/images/case_001_detail_3.jpg",
+    "cards/rXMVPUZPw4A/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "USD 2分钟K线图，时间为2023年9月14日09:00至11:50。图上可见价格范围约15510至15670。标注包含三个矩形区域：上方绿色区域标记目标价位81.70及数量102135.71；中间灰色区域显示已平仓盈亏81.75、数量1.409、风险回报比2.31；下方灰色区域标记止损35.00及数量99600。图上有红色圆点标记入场点，位于约15565和15535处。K线序列由绿色和黑色蜡烛",
+    "case_001_detail_1.jpg": "图上展示了两个标注为'Breaker Block'的矩形区域。上方区域标记为'Bearish Breaker Block'，下方区域标记为'Bullish Breaker Block'。图中包含多根绿色和黑色K线，部分K线上方和下方有小的黄金色三角形标记。两个breaker block区域均用虚线矩形框出，内部包含多根K线。图上未显示资产代码、时间框架或价格刻度数字。",
+    "case_001_detail_2.jpg": "图上展示两个独立的 K 线序列，分别位于上下两个面板。上面板顶部有标签'Breaker Block'，右侧标注'Bearish Breaker Block'。下面板左侧标注'Bullish Breaker Block'。两个面板均包含绿色和黑色 K 线混合排列，部分 K 线具有较长的上下影线。图上有灰色矩形区域标记特定价格范围，以及橙色三角形标记指向某些 K 线。虚线矩形框围绕特定 K 线组合。未",
+    "case_001_detail_3.jpg": "USD 2分钟K线图，时间范围从09:16至11:30。图上显示约20根K线，价格从15645.00下行至15520.00。K线由绿色和黑色混合组成，多数K线具有上下影线。图中有一条灰色矩形框标注，位置约在15530.00至15560.00之间。图上标记有3个红色圆点，分别位于不同价格水平。右下角显示交易界面按钮'Sell'、'Buy'和'Flatten'。",
+    "case_001_detail_4.jpg": "USD 1分钟K线图，时间范围从09:16至11:30，日期为2023年9月14日。图上价格范围从15520.00至15645.00。右侧有一个灰色矩形标注框，覆盖价格区间约15540.00至15575.00。图上有三个红色圆点分别标记在约15575.00、15570.00和15525.00处。一条水平线位于15566.25。K线序列呈现绿色和黑色交替，整体呈下行趋势。右下角显示文字标注'14/9"
+  },
+  "sources": [
+    {
+      "video_id": "rXMVPUZPw4A",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        104.72,
+        310.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了Breaker Block识别、FVG确认、入场点选择、止损设置和风险回报比计算的全过程，并给出了具体的交易结果（2.31R）。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:21.834533Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NASDAQ 2分钟图：Breaker Block与FVG的Unicorn模型交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"2M\",\"market_context\":\"NASDAQ在2023年9月14日形成低-高-更低-更高的Breaker Block结构，价格从15645下跌至15535，随后反弹。博主在2分钟图上识别出Unicorn模型（Breaker Block+重叠FVG）的交易机会。\",\"key_observation\":\"价格形成完整的Breaker Block结构（低→高→更低→更高），并在反弹过程中创建了与Breaker Block重叠的Fair Value Gap，该FVG成为最优入场区域。\",\"analysis_steps\":[\"Step 1: 识别Breaker Block的四个关键K线——最后一根看跌K线（在更高高点前）和最后一根看涨K线（在更低低点前）。\",\"Step 2: 确认价格形成低-高-更低-更高的完整结构，通过向上突破确认Breaker Block有效。\",\"Step 3: 检查是否存在重叠的Fair Value Gap——确认高点K线与低点K线之间无重叠，形成FVG。\",\"Step 4: 在FVG区域寻找入场点，设置止损位于结构低点（约15525）。\",\"Step 5: 计算风险回报比——止损距离约35点，目标高点距离约81.75点，风险回报比约2.31R。\",\"Step 6: 观察价格回测FVG后的上升走势，确认目标高点被触及。\"],\"outcome\":\"交易成功。价格从入场点下跌至FVG区域后反弹，最终触及目标高点81.70，实现2.31R的风险回报比。已平仓盈亏为81.75。\",\"lessons\":\"Unicorn模型（Breaker Block+重叠FVG）提供高概率入场点。关键是识别完整的四K线Breaker Block结构，并确认FVG的存在。止损设置在结构低点可获得良好的风险回报比。价格通常会回测FVG后继续原方向运动。\",\"primary_image_frame_id\":\"rXMVPUZPw4A_f010\",\"supporting_image_frame_ids\":[\"rXMVPUZPw4A_f003\",\"rXMVPUZPw4A_f005\",\"rXMVPUZPw4A_f006\",\"rXMVPUZPw4A_f001\",\"rXMVPUZPw4A_f009\"],\"related_concepts\":[\"Breaker Block\",\"Fair Value Gap\",\"Displacement\",\"Order Block\",\"Unicorn Model\",\"Risk Reward Ratio\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了Breaker Block识别、FVG确认、入场点选择、止损设置和风险回报比计算的全过程，并给出了具体的交易结果（2.31R）。\"}",
+  "error": null
+}

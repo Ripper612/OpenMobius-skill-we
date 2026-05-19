@@ -1,0 +1,109 @@
+{
+  "card_id": "ivirRu3fc4o_case_005_激进上升突破后的做多头皮交易",
+  "type": "case",
+  "title": "激进上升突破后在OTE区域做多头皮交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Scalping",
+      "card_id": "scalping",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Zone",
+      "card_id": "premium_discount_zone",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "optimal_trade_entry_ote",
+    "fibonacci_retracement",
+    "scalping",
+    "premium_discount_zone",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15s",
+  "market_context": "NQ100 E-mini Futures在15秒图上出现激进上升位移，价格从约13100突破至13825，期间形成多个FVG和OB结构，为头皮交易提供多个入场和出场机会。",
+  "key_observation": "博主在激进上升突破后，利用OTE（最优交易入场点）和Fibonacci回撤水平（0.5、0.62、0.79）在折价区寻找做多头皮交易机会，目标是上方FVG或摆动高点，快速获利后离场。",
+  "analysis_steps": [
+    "Step 1: 识别激进向下位移进入FVG，考虑在该区域顶部做空，风险设在高点。",
+    "Step 2: 标记上方较大的FVG作为做空目标，观察价格是否回撤到0.62 Fibonacci水平。",
+    "Step 3: 价格确实回撤到0.62水平后，识别新的FVG形成，考虑在该FVG底部做多。",
+    "Step 4: 做多入场后，目标设定为上方FVG区域或摆动高点，在OTE区域附近获利离场。",
+    "Step 5: 观察激进上升突破结构后，再次在OTE区域寻找做多机会，目标为上方高点或FVG。",
+    "Step 6: 强调头皮交易中快速止损和分批获利的重要性，不追求完整行情，而是在OTE区域快速进出。"
+  ],
+  "outcome": null,
+  "lessons": "在激进位移后的OTE区域进行头皮交易时，应结合Fibonacci回撤水平和FVG结构确定入场点，设置紧密止损，快速获利离场。头皮交易的核心是频繁交易、快速止损、不追求大行情，而是通过多次小利润积累收益。",
+  "primary_image": "cards/ivirRu3fc4o/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/ivirRu3fc4o/images/case_005_detail_1.jpg",
+    "cards/ivirRu3fc4o/images/case_005_detail_2.jpg",
+    "cards/ivirRu3fc4o/images/case_005_detail_3.jpg",
+    "cards/ivirRu3fc4o/images/case_005_detail_4.jpg",
+    "cards/ivirRu3fc4o/images/case_005_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "NASDAQ 100 E-mini Futures 15秒K线图。图上显示从09-15至10-08的价格走势，整体呈上升趋势，从约13100上升至13825。图上有两个矩形标注框：粉色矩形覆盖上方区域（约13784至13825），绿色矩形覆盖下方区域（约13700至13784）。图上标注有4条水平线，其中两条带有标签'0.5'和'0.65'，分别位于13804.50和13784.00。右侧价格轴显",
+    "case_005_detail_1.jpg": "NQ100 15分钟K线图。图上显示从09-15至10-02的价格走势，整体价格范围从13318到13824。图上标注有三条带标签的水平线，分别标记为0.5、0.62、0.78，对应价格约13872、13842、13748。图上还有两个矩形框，其中一个位于上方价格区域，另一个位于中部。K线形态显示下方多根绿色K线，中上方出现混合的红绿K线，在13584至13624区间有明显的横盘整理。",
+    "case_005_detail_2.jpg": "NASDAQ 100 E-mini Futures 15秒K线图。图上显示从09-17至10-07的价格走势，价格范围约13310至13824.50。图上有三条灰色矩形区域覆盖在K线上，分别位于不同价格段。三条红色水平线分别标注为0.5、0.62、0.79，对应斐波那契水平。另有一条蓝色水平线位于约13540处。K线呈现绿红交替的蜡烛图形态，显示价格波动和整理特征。右侧价格刻度清晰可见，当前价格显",
+    "case_005_detail_3.jpg": "NASDAQ 100 E-mini Futures 15秒K线图。图上显示价格范围从13312.00至13824.00。四条水平线分别位于13872.50、13784.00、13544.00和13312.00。两个灰色矩形框标注了13544-13784和13784-13872两个价格区间。K线呈现绿红交替形态，右侧价格轴显示当前价13762.50，背景为红色高亮。图上未见其他标注或指标。",
+    "case_005_detail_4.jpg": "NASDAQ 100 E-mini Futures 15秒K线图。图上显示价格范围约13818至13824.50。图表中央有三个矩形区域标注：上方粉红色矩形约在13820至13824.50区间，中间绿色矩形约在13818至13820区间，下方灰色矩形在13818以下。K线密集分布在这些区域内，包含多根绿色和红色蜡烛体。时间轴显示从09:27至10:17的15秒级别时间刻度。右侧价格刻度清晰可见。",
+    "case_005_detail_5.jpg": "NASDAQ-100 E-mini Futures 15分钟K线图。图上显示从09:30至10:17的交易时段。右侧价格刻度范围约13320至13824.50。图上有6条水平线标注，分别位于13824.25、13792、13748、13872、13364和13332价位。两个灰色矩形框分别标记在13748-13792区间和13332-13364区间。K线呈绿红交替排列，显示多个时间段内的价格波动。"
+  },
+  "sources": [
+    {
+      "video_id": "ivirRu3fc4o",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        188.959,
+        355.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了激进上升突破后的多个头皮交易案例，清晰标注了FVG、Fibonacci水平、OTE区域，分析步骤按时间顺序完整呈现，资产代码、时间框架、关键价位均可从图表读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:48.956816Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"激进上升突破后在OTE区域做多头皮交易\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15s\",\"market_context\":\"NQ100 E-mini Futures在15秒图上出现激进上升位移，价格从约13100突破至13825，期间形成多个FVG和OB结构，为头皮交易提供多个入场和出场机会。\",\"key_observation\":\"博主在激进上升突破后，利用OTE（最优交易入场点）和Fibonacci回撤水平（0.5、0.62、0.79）在折价区寻找做多头皮交易机会，目标是上方FVG或摆动高点，快速获利后离场。\",\"analysis_steps\":[\"Step 1: 识别激进向下位移进入FVG，考虑在该区域顶部做空，风险设在高点。\",\"Step 2: 标记上方较大的FVG作为做空目标，观察价格是否回撤到0.62 Fibonacci水平。\",\"Step 3: 价格确实回撤到0.62水平后，识别新的FVG形成，考虑在该FVG底部做多。\",\"Step 4: 做多入场后，目标设定为上方FVG区域或摆动高点，在OTE区域附近获利离场。\",\"Step 5: 观察激进上升突破结构后，再次在OTE区域寻找做多机会，目标为上方高点或FVG。\",\"Step 6: 强调头皮交易中快速止损和分批获利的重要性，不追求完整行情，而是在OTE区域快速进出。\"],\"outcome\":null,\"lessons\":\"在激进位移后的OTE区域进行头皮交易时，应结合Fibonacci回撤水平和FVG结构确定入场点，设置紧密止损，快速获利离场。头皮交易的核心是频繁交易、快速止损、不追求大行情，而是通过多次小利润积累收益。\",\"primary_image_frame_id\":\"ivirRu3fc4o_f009\",\"supporting_image_frame_ids\":[\"ivirRu3fc4o_f008\",\"ivirRu3fc4o_f010\",\"ivirRu3fc4o_f011\",\"ivirRu3fc4o_f012\",\"ivirRu3fc4o_f013\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Optimal Trade Entry (OTE)\",\"Fibonacci Retracement\",\"Scalping\",\"Premium/Discount Zone\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了激进上升突破后的多个头皮交易案例，清晰标注了FVG、Fibonacci水平、OTE区域，分析步骤按时间顺序完整呈现，资产代码、时间框架、关键价位均可从图表读出。\"}",
+  "error": null
+}

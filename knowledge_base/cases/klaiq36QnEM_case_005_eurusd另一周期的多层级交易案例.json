@@ -1,0 +1,113 @@
+{
+  "card_id": "klaiq36QnEM_case_005_eurusd另一周期的多层级交易案例",
+  "type": "case",
+  "title": "EURUSD多周期流动性扫荡与FVG回测交易案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Sell Side Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array",
+      "card_id": "premium_discount_array",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "buyside_sellside_liquidity",
+    "premium_discount_array",
+    "market_structure_shift",
+    "inducement",
+    "breaker_block"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1H / 15M",
+  "market_context": "周一价格在午夜开盘上方形成位移并产生FVG，周二触及高时间框架PD array后反应，周三纽约盘形成新的卖方流动性，最终通过15分钟FVG和旧高点识别阻力区域。",
+  "key_observation": "博主通过多周期分析识别出价格在午夜开盘上方的FVG被尊重，以及周二在PD array处的反应预示周三继续下行的机会，最终触及多个卖方流动性目标。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别周一价格在午夜开盘上方的位移和FVG形成",
+    "Step 2: 下探15分钟图确认FVG被价格尊重，标记当前卖方流动性低点作为目标",
+    "Step 3: 回到小时图确认日线等低点的位置，预期价格向下延伸",
+    "Step 4: 观察周二价格触及高时间框架PD array并产生反应",
+    "Step 5: 在小时图上标记日线开盘和下方的卖方流动性区域",
+    "Step 6: 下探15分钟图识别15分钟FVG和旧高点作为可能的入场点",
+    "Step 7: 确认旧高点应作为阻力，预期价格在此处反应后继续下行",
+    "Step 8: 追踪价格触及初始卖方流动性，随后位移穿过旧高点继续下行至下方卖方流动性"
+  ],
+  "outcome": "价格成功触及初始卖方流动性，随后位移穿过旧高点，继续下行至下方的卖方流动性目标，完成多层级流动性扫荡。",
+  "lessons": "多周期分析中，高时间框架的PD array反应可预示低时间框架的延续机会；15分钟FVG与旧高点的组合可识别高概率阻力区；价格在扫荡流动性后的位移通常会穿过先前的结构高点继续趋势方向。",
+  "primary_image": "cards/klaiq36QnEM/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/klaiq36QnEM/images/case_005_detail_1.jpg",
+    "cards/klaiq36QnEM/images/case_005_detail_2.jpg",
+    "cards/klaiq36QnEM/images/case_005_detail_3.jpg",
+    "cards/klaiq36QnEM/images/case_005_detail_4.jpg",
+    "cards/klaiq36QnEM/images/case_005_detail_5.jpg",
+    "cards/klaiq36QnEM/images/case_005_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "EUR/USD 15分钟K线图。图上标注有一条水平线标记为'Daily Open'位于1.05300。另有两条无标签的水平线分别位于1.05150和1.04950。图上绘制了两个矩形框：一个覆盖1.04950至1.05150区间，另一个覆盖1.05150至1.05300区间。K线显示从29日21:00时段出现一根大幅下跌的黑色K线，下探至1.04750附近。随后30日03:00至12:00期间形成",
+    "case_005_detail_1.jpg": "EURUSD 日线图显示从 5 月 9 日至 7 月 22 日的价格走势。图上绘制了多根绿色和黑色 K 线，价格范围约在 1.03500 至 1.08000 之间波动。右侧价格刻度显示两个标记点：1.06972 和 1.04686。图中央有一个弹出式对话框标注为'Change interval'，下方显示'1H'和'1 hour'文字。底部工具栏包含'Sell'、'Buy'和'Flatten'按钮",
+    "case_005_detail_2.jpg": "EURUSD 1 小时 K 线图。图上显示从 6 月 26 日至 7 月 1 日的价格走势。可见价格范围约从 1.04000 到 1.06200。图上有两条水平线：一条在 1.06100 处，另一条为虚线在 1.05300 处标记为'Daily Open'。图中央有一个矩形框标注，范围约在 1.04900 至 1.05300 之间。6 月 28 日出现一根大幅下跌的黑色 K 线，从约 1.0760",
+    "case_005_detail_3.jpg": "EURUSD 日线图显示从 7 月下旬至 8 月下旬的下跌趋势，随后进入 9 月的整理阶段。图上可见多根黑色 K 线和绿色 K 线交替出现。右侧标注显示两个价格水平：1.04045 和 1.04470。图表时间轴标记有 7 月 25 日、8 月、9 月 15 日、9 月 22 日、10 月等关键日期。整体价格范围从 0.98600 至 1.06400。",
+    "case_005_detail_4.jpg": "EURUSD 1小时K线图。图上显示从约0.99150至1.06600的价格范围。右侧标注有一个灰色圆形标记，标注文字为'Daily Open'，指向价格0.99670附近。下方有一条虚线箭头从该标注指向下方，连接至0.99641和0.99640两个价格标签。K线序列显示绿色和黑色蜡烛体混合分布，整体呈下行趋势，多根K线具有较长的上影线。图表底部显示时间轴标记为'Wed 23 Sep 22 20:",
+    "case_005_detail_5.jpg": "EURUSD 15分钟K线图。图上显示从20日21时至22日01时的价格走势。图表左侧显示从0.99750开始的K线，随后在21时附近出现大幅向下跳空至0.98750附近。之后K线进入整理阶段，在0.98800至0.99350区间内形成多根小实体K线，颜色交替出现绿色和黑色。图上标注有两条水平线：0.99650处标记为Daily Open，0.99150处无标签。一个灰色矩形框覆盖在0.99200",
+    "case_005_detail_6.jpg": "EURUSD 日线图。图上显示从 21:00 UTC 开始的价格行动，包含一个向下跳空缺口，随后出现长下影线刺破至约 0.98700。图中有两条水平线分别位于 0.99000 和 0.98900。一个灰色矩形框标注在 0.99000 至 0.99200 区间。可见价格范围从 0.98650 至 0.99630。右侧价格轴标记当前价为 0.98900。图上标有'Daily Open'文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "klaiq36QnEM",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        471.78,
+        652.74
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了多周期分析过程，从日线到1小时再到15分钟，清晰标注了关键价位、流动性区域和FVG，最终给出了交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:49.996111Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD多周期流动性扫荡与FVG回测交易案例\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1H / 15M\",\"market_context\":\"周一价格在午夜开盘上方形成位移并产生FVG，周二触及高时间框架PD array后反应，周三纽约盘形成新的卖方流动性，最终通过15分钟FVG和旧高点识别阻力区域。\",\"key_observation\":\"博主通过多周期分析识别出价格在午夜开盘上方的FVG被尊重，以及周二在PD array处的反应预示周三继续下行的机会，最终触及多个卖方流动性目标。\",\"analysis_steps\":[\"Step 1: 在日线图上识别周一价格在午夜开盘上方的位移和FVG形成\",\"Step 2: 下探15分钟图确认FVG被价格尊重，标记当前卖方流动性低点作为目标\",\"Step 3: 回到小时图确认日线等低点的位置，预期价格向下延伸\",\"Step 4: 观察周二价格触及高时间框架PD array并产生反应\",\"Step 5: 在小时图上标记日线开盘和下方的卖方流动性区域\",\"Step 6: 下探15分钟图识别15分钟FVG和旧高点作为可能的入场点\",\"Step 7: 确认旧高点应作为阻力，预期价格在此处反应后继续下行\",\"Step 8: 追踪价格触及初始卖方流动性，随后位移穿过旧高点继续下行至下方卖方流动性\"],\"outcome\":\"价格成功触及初始卖方流动性，随后位移穿过旧高点，继续下行至下方的卖方流动性目标，完成多层级流动性扫荡。\",\"lessons\":\"多周期分析中，高时间框架的PD array反应可预示低时间框架的延续机会；15分钟FVG与旧高点的组合可识别高概率阻力区；价格在扫荡流动性后的位移通常会穿过先前的结构高点继续趋势方向。\",\"primary_image_frame_id\":\"klaiq36QnEM_f018\",\"supporting_image_frame_ids\":[\"klaiq36QnEM_f016\",\"klaiq36QnEM_f017\",\"klaiq36QnEM_f019\",\"klaiq36QnEM_f020\",\"klaiq36QnEM_f021\",\"klaiq36QnEM_f022\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Sell Side Liquidity\",\"Premium/Discount Array\",\"Market Structure Shift\",\"Inducement\",\"Breaker Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了多周期分析过程，从日线到1小时再到15分钟，清晰标注了关键价位、流动性区域和FVG，最终给出了交易结果。\"}",
+  "error": null
+}

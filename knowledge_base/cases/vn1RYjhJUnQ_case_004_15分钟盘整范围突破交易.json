@@ -1,0 +1,91 @@
+{
+  "card_id": "vn1RYjhJUnQ_case_004_15分钟盘整范围突破交易",
+  "type": "case",
+  "title": "15分钟盘整范围突破交易——双边扫盘后的方向确认",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Range Breakout",
+      "card_id": "deviation_from_range",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "consolidation",
+    "protected_high_low",
+    "deviation_from_range",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15m",
+  "market_context": "价格在25860-25930区间（标记为C2）形成盘整，期间反复测试两侧，未能形成有效的Change in State of Delivery（CSD），预示将突破一侧并交易至另一侧。",
+  "key_observation": "博主观察到价格未能在下方形成有效的CSD（未能收盘在关键水平下方），这表明看跌设置无效，价格将进入盘整并最终突破范围的一侧。",
+  "analysis_steps": [
+    "Step 1: 识别看跌设置的失效——价格未能收盘在CSD确认水平下方，指标未打印看跌信号。",
+    "Step 2: 确认盘整形成——当CSD失效时，价格通常会进入盘整状态，形成C2区间（25860-25930）。",
+    "Step 3: 观察双边扫盘——价格先扫出范围上侧，随后交易至下侧；再扫出下侧，测试是否回到上侧。",
+    "Step 4: 监测Protected Swing的突破——价格突破先前的Protected Swing，表明趋势强度减弱，盘整继续。",
+    "Step 5: 等待范围突破——扫出下侧后，等待价格是否会交易回到上侧，或最终突破范围确立新方向。"
+  ],
+  "outcome": null,
+  "lessons": "当低时间框架（15分钟）未能形成有效的CSD时，不应急于交易，而应等待价格进入盘整并反复扫盘两侧。最终的范围突破会给出清晰的方向信号。Protected Swing的失效是盘整延续而非趋势延续的关键指标。",
+  "primary_image": "cards/vn1RYjhJUnQ/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/vn1RYjhJUnQ/images/case_004_detail_1.jpg",
+    "cards/vn1RYjhJUnQ/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD 15分钟K线图。图上可见价格范围约从25770到25980。标注包括三条水平线分别位于25930、25880和25860处。图中央有一个矩形框标记为C2，覆盖25860至25930的价格区间。右侧显示时间戳为Thu 04 Dec '25 07:45，并标注15m-4H Model和Bias: Neutral。K线呈现多根小实体形态，影线穿过标注的水平线区域。图右下角显示播放控制按钮和时间倍",
+    "case_004_detail_1.jpg": "USD 15分钟K线图。图上显示价格范围约从25770到25980。可见三条水平线分别位于25930、25900、25880价格水平。图右侧显示时间戳为",
+    "case_004_detail_2.jpg": "USD 图表显示约 1 小时的 K 线数据。图上有三条水平线分别位于 25920、25880 和 25798 处。右侧标注有文字标签 C2，对应约 25860-25880 的价格区间。图上可见一个矩形框标记在 25880-25920 区间。K 线呈现整体盘整形态，中间部分有一根 K 线向下刺破至约 25760 后收回。右侧最新 K 线呈现绿色和黑色混合。图下方显示时间标记'Thu 04 Dec 2"
+  },
+  "sources": [
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "segment_ids": [
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        393.6,
+        470.4
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了盘整形成的原因、双边扫盘过程、Protected Swing失效的含义，以及对后续走势的预期。资产、时间框架、价格区间、关键水平均从图表清晰读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:53.973241Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"15分钟盘整范围突破交易——双边扫盘后的方向确认\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15m\",\"market_context\":\"价格在25860-25930区间（标记为C2）形成盘整，期间反复测试两侧，未能形成有效的Change in State of Delivery（CSD），预示将突破一侧并交易至另一侧。\",\"key_observation\":\"博主观察到价格未能在下方形成有效的CSD（未能收盘在关键水平下方），这表明看跌设置无效，价格将进入盘整并最终突破范围的一侧。\",\"analysis_steps\":[\"Step 1: 识别看跌设置的失效——价格未能收盘在CSD确认水平下方，指标未打印看跌信号。\",\"Step 2: 确认盘整形成——当CSD失效时，价格通常会进入盘整状态，形成C2区间（25860-25930）。\",\"Step 3: 观察双边扫盘——价格先扫出范围上侧，随后交易至下侧；再扫出下侧，测试是否回到上侧。\",\"Step 4: 监测Protected Swing的突破——价格突破先前的Protected Swing，表明趋势强度减弱，盘整继续。\",\"Step 5: 等待范围突破——扫出下侧后，等待价格是否会交易回到上侧，或最终突破范围确立新方向。\"],\"outcome\":null,\"lessons\":\"当低时间框架（15分钟）未能形成有效的CSD时，不应急于交易，而应等待价格进入盘整并反复扫盘两侧。最终的范围突破会给出清晰的方向信号。Protected Swing的失效是盘整延续而非趋势延续的关键指标。\",\"primary_image_frame_id\":\"vn1RYjhJUnQ_f015\",\"supporting_image_frame_ids\":[\"vn1RYjhJUnQ_f014\",\"vn1RYjhJUnQ_f016\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Consolidation\",\"Protected Swing\",\"Range Breakout\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了盘整形成的原因、双边扫盘过程、Protected Swing失效的含义，以及对后续走势的预期。资产、时间框架、价格区间、关键水平均从图表清晰读出。\"}",
+  "error": null
+}

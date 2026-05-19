@@ -1,0 +1,98 @@
+{
+  "card_id": "DMUiDBnTYc8_case_001_nq_5分钟图_订单块验证失败案例",
+  "type": "case",
+  "title": "NQ 5分钟图：缺乏HTF支撑的订单块验证失败案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Support",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "displacement",
+    "fair_value_gap",
+    "liquidity",
+    "market_structure",
+    "stop_loss"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M",
+  "market_context": "NQ1!在11/12/2023日期，价格从低点约16130上升至约16415附近。博主在5分钟图上识别出一个看似有效的订单块形态，但缺乏高时间框架重要水平的支撑，最终导致交易被止损。",
+  "key_observation": "5分钟图上形成的订单块虽然满足位移和收盘形态，但在缺乏小时图重要水平（如FVG或买方流动性）支撑的情况下，仅产生等高而非更高的高点，订单块无效。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别一系列上升K线，形成看似订单块的形态，计划在回测时入场。",
+    "Step 2: 设置止损位于该订单块的高点，目标为2R收益。",
+    "Step 3: 价格回测订单块区域并触发入场，但随后被止损出场。",
+    "Step 4: 放大到1小时图检查是否存在重要水平支撑，发现买方流动性位于上方，而非订单块所在区域。",
+    "Step 5: 确认5分钟图的上升K线仅创出等高而非更高的高点，说明缺乏高时间框架支撑，订单块无效。",
+    "Step 6: 检查小时图FVG，确认价格应该继续向上填补FVG，而非在5分钟订单块处反转。"
+  ],
+  "outcome": "交易被止损。价格在回测5分钟订单块后继续下跌，触发止损位。",
+  "lessons": "订单块必须建立在高时间框架重要水平（如流动性、FVG、前期摆动点）之上才有效。仅在低时间框架形成的订单块，如果缺乏HTF支撑，容易被无效化。交易前必须多时间框架确认。",
+  "primary_image": "cards/DMUiDBnTYc8/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/DMUiDBnTYc8/images/case_001_detail_1.jpg",
+    "cards/DMUiDBnTYc8/images/case_001_detail_2.jpg",
+    "cards/DMUiDBnTYc8/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表资产为 NQ1!，日期标注为 11/12/2023，右上角显示 TTrades_edu 水印。图上可见价格范围约从 16160 至 16440。图中约 10:30 处有一根较大阴线，从约 16420 下跌至约 16230，随后在约 16239 处有一条水平线标注。图上有两个重叠矩形区域，一个灰色、一个浅绿色，覆盖约 16230 至 16400 的价格区间，时间范围约从 11:00 至 13:0",
+    "case_001_detail_1.jpg": "图表为 NQ1! 1 分钟 K 线图，日期标注为 11/12/2023，右上角显示 TTrades_edu 水印。图右侧价格轴可见范围约从 16260 至 16440。图上有三条带文字标签的水平线：NYO 约在 16296、8:30 约在 16285、0:00 约在 16265。另有一处文字标注 Buy Stop 位于约 16180 附近的水平线上。左侧价格轴高亮显示 16389.50 及 163",
+    "case_001_detail_2.jpg": "图表显示 NQ1! 合约的 K 线图，右上角标注 TTrades_edu。图右侧价格刻度范围约从 16130 到 16415。图上有一条虚线水平线位于约 16296.25 处。K 线序列呈现先下行后上行的弧形走势，低点区域约在 16130 附近，随后出现数根连续绿色 K 线，其中一根主体从约 16300 延伸至 16390，紧接一根上影线延伸至约 16415。时间轴底部标注 11/12/2023 ",
+    "case_001_detail_3.jpg": "图为教学示意图，顶部标题文字为'Orderblocks'，无资产代码及时间框架信息。图分上下两个K线面板。上方面板顶部有一条虚线水平线标注'Important Level'，右侧有一条实线水平线标注'OB'；K线序列从上方'Important Level'附近向下延伸至'OB'线下方。下方面板底部有一条实线水平线标注'Important Level'，右侧有一条实线水平线标注'OB'；K线序列从下"
+  },
+  "sources": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.4,
+        192.159
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟订单块形成、入场、止损的全过程，并通过多时间框架对比清晰解释了失败原因。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:09.593149Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 5分钟图：缺乏HTF支撑的订单块验证失败案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M\",\"market_context\":\"NQ1!在11/12/2023日期，价格从低点约16130上升至约16415附近。博主在5分钟图上识别出一个看似有效的订单块形态，但缺乏高时间框架重要水平的支撑，最终导致交易被止损。\",\"key_observation\":\"5分钟图上形成的订单块虽然满足位移和收盘形态，但在缺乏小时图重要水平（如FVG或买方流动性）支撑的情况下，仅产生等高而非更高的高点，订单块无效。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别一系列上升K线，形成看似订单块的形态，计划在回测时入场。\",\"Step 2: 设置止损位于该订单块的高点，目标为2R收益。\",\"Step 3: 价格回测订单块区域并触发入场，但随后被止损出场。\",\"Step 4: 放大到1小时图检查是否存在重要水平支撑，发现买方流动性位于上方，而非订单块所在区域。\",\"Step 5: 确认5分钟图的上升K线仅创出等高而非更高的高点，说明缺乏高时间框架支撑，订单块无效。\",\"Step 6: 检查小时图FVG，确认价格应该继续向上填补FVG，而非在5分钟订单块处反转。\"],\"outcome\":\"交易被止损。价格在回测5分钟订单块后继续下跌，触发止损位。\",\"lessons\":\"订单块必须建立在高时间框架重要水平（如流动性、FVG、前期摆动点）之上才有效。仅在低时间框架形成的订单块，如果缺乏HTF支撑，容易被无效化。交易前必须多时间框架确认。\",\"primary_image_frame_id\":\"DMUiDBnTYc8_f006\",\"supporting_image_frame_ids\":[\"DMUiDBnTYc8_f005\",\"DMUiDBnTYc8_f007\",\"DMUiDBnTYc8_f003\"],\"related_concepts\":[\"Order Block\",\"Displacement\",\"Fair Value Gap\",\"Liquidity\",\"Higher Time Frame Support\",\"Market Structure\",\"Stop Loss\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟订单块形成、入场、止损的全过程，并通过多时间框架对比清晰解释了失败原因。\"}",
+  "error": null
+}

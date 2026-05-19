@@ -1,0 +1,105 @@
+{
+  "card_id": "TCFvsZeYvV8_case_008_日线收盘形成与派发完成",
+  "type": "case",
+  "title": "日线AMD模式：午夜操纵形成下影线，派发完成实体",
+  "related_concepts": [
+    {
+      "term": "AMD (Accumulation, Manipulation, Distribution)",
+      "card_id": "amd_accumulation_manipulation_distribution",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "Daily Candle Formation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Wick Formation",
+      "card_id": "wick_size_and_expansion",
+      "exists": true
+    },
+    {
+      "term": "Candle Body",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "amd_accumulation_manipulation_distribution",
+    "standard_deviation",
+    "order_block",
+    "fair_value_gap",
+    "box_setup",
+    "wick_size_and_expansion"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "15m (analyzing daily candle formation)",
+  "market_context": "NQ期货在3/10/2023日线中，从NYO 8:30开始，经历午夜后的标准差操纵（2-2.5 SD），随后进入派发阶段（4-4.5 SD），完成整个AMD周期。",
+  "key_observation": "博主展示了如何通过标准差追踪日线的完整AMD模式：午夜后的操纵在日线上形成下影线，随后的派发阶段形成日线实体，最终完成日线收盘。",
+  "analysis_steps": [
+    "Step 1: 识别日线开盘价位（NYO 8:30），标记为AMD周期的起点。",
+    "Step 2: 观察午夜后价格运动到2-2.5标准差区域，这部分操纵将形成日线的下影线（wick）。",
+    "Step 3: 标记Box setup中的可能入场点，即在偏离范围的标准差处回测时的机会。",
+    "Step 4: 追踪价格回撤进入公允价值缺口（FVG）和上升收盘K线，确认派发阶段开始。",
+    "Step 5: 观察价格继续下行至4-4.5标准差区域，形成日线的实体部分（body）。",
+    "Step 6: 确认日线最终收盘形态，验证完整的AMD模式（积累-操纵-派发）已形成。"
+  ],
+  "outcome": null,
+  "lessons": "日线AMD模式可通过标准差工具在15分钟图表上清晰追踪：午夜后的操纵创造下影线，派发阶段形成实体。理解这一结构有助于识别日线收盘前的关键价格行为和潜在反转点。",
+  "primary_image": "cards/TCFvsZeYvV8/images/case_008_primary.jpg",
+  "supporting_images": [
+    "cards/TCFvsZeYvV8/images/case_008_detail_1.jpg",
+    "cards/TCFvsZeYvV8/images/case_008_detail_2.jpg",
+    "cards/TCFvsZeYvV8/images/case_008_detail_3.jpg",
+    "cards/TCFvsZeYvV8/images/case_008_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_008_primary.jpg": "USD 15分钟K线图。图上显示价格范围从14660.50至15080.00。图表包含多条水平线标注，分别标记为0.00、8.30、4、4.5等数值。图上有三个矩形框：上方粉色矩形覆盖14960至15020区间，中部和下部各有一个灰色矩形分别覆盖14740至14860和14680至14740区间。K线形态显示上方绿色K线集中在14960至15020，随后出现大幅下跌至14680附近，期间穿插绿色K",
+    "case_008_detail_1.jpg": "USD 15分钟K线图。图上有一个粉红色矩形框，纵向跨度约从14841.75至15025.75，包含多根K线。矩形内K线呈绿色和棕色混合。矩形右侧有一根独立的绿色K线位于约14960水平。图上有三条水平线分别位于15025.75、14960.00和14841.75。一条竖虚线穿过图表。左下角标注'NYO 8-30'，右下方显示'3/10/2023 NQ11 | 15m'和时间戳'Tue 03 Oc",
+    "case_008_detail_2.jpg": "USD 15分钟K线图。图上显示价格范围约从14720到15040。左侧K线区域内有一个绿色填充矩形框标注，覆盖约14980至15020价格区间。下方有一个灰色矩形框标注，位置约在14740至14800区间。图上标注文字包括'HYD'、'8:30'、'3/10/2023'、'NQ11 | 15m'。右侧可见绿色K线及'Sell'、'Buy'、'Flatten'按钮。时间轴显示从15:00至22:3",
+    "case_008_detail_3.jpg": "图表显示 USD 资产的价格走势。左侧为绿色阴影区域，覆盖约 14980 至 15000 价格范围。中上方有粉红色矩形标注，范围约 14980 至 15020。图上有多根黑色和绿色 K 线，显示从约 15020 下跌至 14850 的价格运动。中下方有灰色矩形标注，范围约 14740 至 14800。右侧有蓝色竖向阴影区域，内含黑色 K 线主体。图上标注有多个小方形标记和数字标签，包括'3/10/",
+    "case_008_detail_4.jpg": "图表显示 USD 资产 6 时间框架的 K 线图。价格范围从 14620 到 15001。图上有多条水平线标注在 14990、14960、14840、14820、14740、14720 等价格位置。图上覆盖有多个矩形框：粉色框在顶部约 15001 至 14990 区间，绿色框在 14990 至 14960 区间，蓝色框在中部约 14760 至 14740 区间，大型黑色框在下部约 14700 至 "
+  },
+  "sources": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "segment_ids": [
+        "seg_008"
+      ],
+      "time_range": [
+        863.88,
+        985.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线AMD周期的三个阶段，标准差标记清晰，价格运动路径明确，分析步骤按时间顺序完整呈现。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:58.377946Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线AMD模式：午夜操纵形成下影线，派发完成实体\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"15m (analyzing daily candle formation)\",\"market_context\":\"NQ期货在3/10/2023日线中，从NYO 8:30开始，经历午夜后的标准差操纵（2-2.5 SD），随后进入派发阶段（4-4.5 SD），完成整个AMD周期。\",\"key_observation\":\"博主展示了如何通过标准差追踪日线的完整AMD模式：午夜后的操纵在日线上形成下影线，随后的派发阶段形成日线实体，最终完成日线收盘。\",\"analysis_steps\":[\"Step 1: 识别日线开盘价位（NYO 8:30），标记为AMD周期的起点。\",\"Step 2: 观察午夜后价格运动到2-2.5标准差区域，这部分操纵将形成日线的下影线（wick）。\",\"Step 3: 标记Box setup中的可能入场点，即在偏离范围的标准差处回测时的机会。\",\"Step 4: 追踪价格回撤进入公允价值缺口（FVG）和上升收盘K线，确认派发阶段开始。\",\"Step 5: 观察价格继续下行至4-4.5标准差区域，形成日线的实体部分（body）。\",\"Step 6: 确认日线最终收盘形态，验证完整的AMD模式（积累-操纵-派发）已形成。\"],\"outcome\":null,\"lessons\":\"日线AMD模式可通过标准差工具在15分钟图表上清晰追踪：午夜后的操纵创造下影线，派发阶段形成实体。理解这一结构有助于识别日线收盘前的关键价格行为和潜在反转点。\",\"primary_image_frame_id\":\"TCFvsZeYvV8_f033\",\"supporting_image_frame_ids\":[\"TCFvsZeYvV8_f029\",\"TCFvsZeYvV8_f030\",\"TCFvsZeYvV8_f031\",\"TCFvsZeYvV8_f032\"],\"related_concepts\":[\"AMD (Accumulation, Manipulation, Distribution)\",\"Standard Deviation\",\"Daily Candle Formation\",\"Order Block\",\"Fair Value Gap\",\"Box Setup\",\"Wick Formation\",\"Candle Body\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线AMD周期的三个阶段，标准差标记清晰，价格运动路径明确，分析步骤按时间顺序完整呈现。\"}",
+  "error": null
+}

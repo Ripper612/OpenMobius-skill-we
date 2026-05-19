@@ -1,0 +1,94 @@
+{
+  "card_id": "VD4xb9VfMHA_case_004_spx500_1小时图_反转与回测流程",
+  "type": "case",
+  "title": "SPX500 1H：V形反转与摆动低点回测",
+  "related_concepts": [
+    {
+      "term": "Change in the State of Delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery",
+    "swing_formation",
+    "displacement",
+    "retracement",
+    "expansion",
+    "fair_value_gap"
+  ],
+  "school": "ICT",
+  "asset": "SPX500",
+  "timeframe": "1H",
+  "market_context": "价格在3372-3376区间盘整后向下扩张至3316附近，形成V形反转。随后价格回升并回测之前的摆动低点，确认向上延续的可能性。",
+  "key_observation": "博主识别出向下扩张遇到向上扩张构成反转信号（expansion met with expansion），预期价格若回到前期区间内收盘，将继续走高；关键是观察是否出现回测而非进一步向下扩张。",
+  "analysis_steps": [
+    "Step 1: 识别向下扩张遇到向上扩张形成V形反转，这是Change in the State of Delivery信号。",
+    "Step 2: 在反转区域寻找关键的摆动低点，排除不相关的低点，聚焦于由前期摆动高点创造的摆动低点（约3316）。",
+    "Step 3: 观察价格是否扫除该摆动低点，确认低点被突破。",
+    "Step 4: 识别一系列向下收盘的K线（series of down close candles），作为回测的参考。",
+    "Step 5: 预期回测阶段结束后出现新的向上扩张，标志着趋势延续。"
+  ],
+  "outcome": "价格成功扫除摆动低点后形成回测，随后出现向上扩张，确认了反转并延续上升趋势。",
+  "lessons": "在识别反转时，需要观察扩张遇到扩张的模式；关键是找到正确的摆动低点而非所有低点；回测阶段应表现为盘整或回撤，而非继续向下扩张，否则低点可能失效。",
+  "primary_image": "cards/VD4xb9VfMHA/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/VD4xb9VfMHA/images/case_004_detail_1.jpg",
+    "cards/VD4xb9VfMHA/images/case_004_detail_2.jpg",
+    "cards/VD4xb9VfMHA/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "SPX500 1小时K线图。图上显示从约16:00到22:00的价格走势，价格范围在3308.0至3384.0之间。图上有多条水平线标注，其中最高处标记为C2（3384.0）。左侧显示3372-3376区间的盘整，随后出现下跌至3316附近。中间部分有一根黄色高亮K线在3320水平。右侧显示从3324上升至3354的走势，期间在3340-3346区间形成盘整。图上绘制了多个矩形框标注不同价格区间。",
+    "case_004_detail_1.jpg": "APOZ 1 小时 K 线图。图上绘有三条水平线，分别位于 3372.0、3331.4 和 3328.0 价格水平。图上标注了三个矩形区域，分别覆盖不同的价格范围。其中一个矩形区域用黄色高亮显示，位于约 3340 至 3328 之间。图上有三个文字标签标记为 C、O、B，均位于约 3340 价格水平附近。K 线序列显示绿色和黑色蜡烛交替出现。在 17:00 至 18:00 时间段可见一个缺口。约 ",
+    "case_004_detail_2.jpg": "SPX500 1小时K线图。图上绘制了5条水平线分别位于3376.0、3372.0、3360.0、3332.0、3324.0价位。图中标注了多个矩形框，其中一个黄色矩形框标记为FVG，位置约在3336.0至3332.0区间。可见K线整体价格范围从3304.0至3380.0。图表显示多根K线在3372.0至3360.0区间内形成盘整形态。图上右上角显示The Market Lens标题及PRO标识。",
+    "case_004_detail_3.jpg": "SPX02 1小时K线图。图上显示从16日至22日的价格走势，价格范围在3308至3384之间。图上有多条水平线标注关键价格位，其中3384和3315处标记为Q2。左侧显示从3372下跌至3336的走势，中间区域在3340至3348形成盘整。17日06时出现向下跳空至3332，随后下影线触及3315。20日出现从3324上升至3384的上升走势，形成长上影线。21日价格从3375下跌至3324。图"
+  },
+  "sources": [
+    {
+      "video_id": "VD4xb9VfMHA",
+      "segment_ids": [
+        "seg_016",
+        "seg_017",
+        "seg_018"
+      ],
+      "time_range": [
+        783.44,
+        882.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了反转识别、摆动点选择、扫除确认和回测预期的全过程，关键价位和K线形态清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:00.058116Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"SPX500 1H：V形反转与摆动低点回测\",\"school\":\"ICT\",\"asset\":\"SPX500\",\"timeframe\":\"1H\",\"market_context\":\"价格在3372-3376区间盘整后向下扩张至3316附近，形成V形反转。随后价格回升并回测之前的摆动低点，确认向上延续的可能性。\",\"key_observation\":\"博主识别出向下扩张遇到向上扩张构成反转信号（expansion met with expansion），预期价格若回到前期区间内收盘，将继续走高；关键是观察是否出现回测而非进一步向下扩张。\",\"analysis_steps\":[\"Step 1: 识别向下扩张遇到向上扩张形成V形反转，这是Change in the State of Delivery信号。\",\"Step 2: 在反转区域寻找关键的摆动低点，排除不相关的低点，聚焦于由前期摆动高点创造的摆动低点（约3316）。\",\"Step 3: 观察价格是否扫除该摆动低点，确认低点被突破。\",\"Step 4: 识别一系列向下收盘的K线（series of down close candles），作为回测的参考。\",\"Step 5: 预期回测阶段结束后出现新的向上扩张，标志着趋势延续。\"],\"outcome\":\"价格成功扫除摆动低点后形成回测，随后出现向上扩张，确认了反转并延续上升趋势。\",\"lessons\":\"在识别反转时，需要观察扩张遇到扩张的模式；关键是找到正确的摆动低点而非所有低点；回测阶段应表现为盘整或回撤，而非继续向下扩张，否则低点可能失效。\",\"primary_image_frame_id\":\"VD4xb9VfMHA_f028\",\"supporting_image_frame_ids\":[\"VD4xb9VfMHA_f026\",\"VD4xb9VfMHA_f027\",\"VD4xb9VfMHA_f029\"],\"related_concepts\":[\"Change in the State of Delivery\",\"Swing High\",\"Swing Low\",\"Displacement\",\"Retracement\",\"Expansion\",\"Fair Value Gap\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了反转识别、摆动点选择、扫除确认和回测预期的全过程，关键价位和K线形态清晰可见。\"}",
+  "error": null
+}

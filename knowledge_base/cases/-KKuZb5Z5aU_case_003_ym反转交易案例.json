@@ -1,0 +1,118 @@
+{
+  "card_id": "-KKuZb5Z5aU_case_003_ym反转交易案例",
+  "type": "case",
+  "title": "YM反转交易案例：前日低点SMT与CSD触发的反向上行",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "smart_money_technique_smt",
+    "change_in_state_of_delivery_csd",
+    "equilibrium_eq",
+    "order_block_ob",
+    "protected_high_low",
+    "liquidity",
+    "market_structure_shift_mss",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "YM1!",
+  "timeframe": "1H",
+  "market_context": "YM在开盘后向下触及前一日低点（约47300），形成Smart Money Technique信号与交付状态改变，随后反向上行突破EQ与公允价值缺口，展示完整反转形态执行。",
+  "key_observation": "价格开盘向下优先（Open Low），触及前日低点形成SMT与CSD，小wick结构预示反转，随后价格反向上行突破EQ并延伸至前日高点（约47800），展示机构流动性扫荡后的真实上行动能。",
+  "analysis_steps": [
+    "Step 1: 识别开盘方向——价格开盘向下优先（Open Low），这是看涨信号，与开盘向上优先（Open High）的看跌相反。",
+    "Step 2: 确认前日低点触及——价格下行触及前一日低点（约47300），形成SMT（Smart Money Technique）信号。",
+    "Step 3: 验证交付状态改变——在小时级别或更低时间框架（15分钟/5分钟）观察到CSD（Change in State of Delivery），预示趋势反转。",
+    "Step 4: 观察小wick结构——价格在前日低点附近形成小wick，表明卖方流动性已被扫荡，反转条件成熟。",
+    "Step 5: 追踪反向上行——价格反向上行，突破EQ（Equilibrium，约47425），进入折价区上方。",
+    "Step 6: 确认突破FVG——价格继续上行，突破灰色矩形标注的公允价值缺口区域（约47325-47550）。",
+    "Step 7: 延伸至前日高点——价格上行至前日高点（C3，约47800），形成完整反转形态。",
+    "Step 8: 识别Protected Swing与流动性扫荡——价格在达到前日高点后形成Protected Swing，但该摆动仅在触及流动性前受保护；价格随后扫荡该流动性，再进行真实上行。"
+  ],
+  "outcome": "价格成功完成反转交易，从前日低点（约47300）上行至前日高点（约47800），涨幅约500点。反转形态展示了开盘低点→前日低点触及→SMT+CSD确认→EQ突破→FVG突破→前日高点触及的完整执行链条。",
+  "lessons": "反转交易的核心要素：(1)开盘方向优先（Open Low为看涨）；(2)前日关键水平触及+SMT+CSD的三重确认；(3)小wick结构表明流动性已扫荡；(4)反向上行需突破EQ与FVG；(5)Protected Swing在触及流动性前受保护，触及后会被扫荡，真实趋势才会展开。",
+  "primary_image": "cards/-KKuZb5Z5aU/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/-KKuZb5Z5aU/images/case_003_detail_1.jpg",
+    "cards/-KKuZb5Z5aU/images/case_003_detail_2.jpg",
+    "cards/-KKuZb5Z5aU/images/case_003_detail_3.jpg",
+    "cards/-KKuZb5Z5aU/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表标注资产为 USD，时间框架为 1H，右下角显示 YMI (1H) 及 1H-1D Model，Bias: Neutral。可见价格范围约从 47175 到 47825。图上有两条带文字标签的水平虚线：47800 处标注 C3，另有文字标签 C2 位于约 47250 区域。图中有一个灰色矩形框覆盖约 47325 至 47550 区间，内含一个黄褐色小矩形框位于约 47500 至 47560。一",
+    "case_003_detail_1.jpg": "图表为1小时K线图，资产代码显示为USD，右上角标注YM1!(1H)及Bias: Neutral。图上可见价格范围约从47100至47775。图中央有一个浅灰色矩形标注区域，纵向覆盖约47300至47550，横向覆盖数根K线。图上有两条水平虚线，分别位于约47550和47350附近。图右侧出现两根体量较大的K线，一根绿色一根黑色，绿色K线下影线延伸至约47175。图左侧价格轴显示当前价47233。",
+    "case_003_detail_2.jpg": "图表为 YMI 1 小时 K 线图，价格范围约从 47125 到 47775。图上有一个灰色矩形标注区域，覆盖约 47325 至 47550 价格区间。图上可见两条水平线：一条实线位于约 47350，一条蓝色实线位于约 47525，另有一条虚线位于约 47550。图上还有一条从左下向右上延伸的橙色斜线，起点约 47275。文字标签 'ES1/NQU' 出现在约 47275 至 47300 区域。右",
+    "case_003_detail_3.jpg": "图表为 YM1!（道琼斯期货）1 小时 K 线图，来源标注为 TTrades.com，偏向标注为 Bias: Neutral。可见价格范围约从 47280 至 47800。图上有一个大型灰色矩形框覆盖约 47320 至 47560 区间，内部嵌套一个黄色小矩形框位于约 47460 至 47540，另有一个浅绿色矩形框延伸至右侧约 47370 至 47540。图上还有一条从左下向右上延伸的斜线标注。",
+    "case_003_detail_4.jpg": "图表为 YMI 1 小时 K 线图，平台标注为 TTrades.com，当前价格显示为 47737。图上有两条虚线水平线分别标注为 C3（约 47800）和 C2（约 47300）。图中央区域有一个灰色矩形框覆盖约 47300 至 47560 价格区间，框内含一个黄色小矩形（约 47480 至 47560）和一个绿色小矩形（约 47320 至 47480）。图上另有文字标注 ES1!/NQ1! 位"
+  },
+  "sources": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        389.68,
+        527.64
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了反转交易的全过程：资产YM1!、时间框架1H、关键价位（前日低点47300、EQ约47425、前日高点47800）、分析步骤（开盘方向→SMT+CSD→小wick→反向上行→EQ突破→FVG突破→前日高点）均清晰可辨，结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:04:17.437455Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"YM反转交易案例：前日低点SMT与CSD触发的反向上行\",\"school\":\"ICT\",\"asset\":\"YM1!\",\"timeframe\":\"1H\",\"market_context\":\"YM在开盘后向下触及前一日低点（约47300），形成Smart Money Technique信号与交付状态改变，随后反向上行突破EQ与公允价值缺口，展示完整反转形态执行。\",\"key_observation\":\"价格开盘向下优先（Open Low），触及前日低点形成SMT与CSD，小wick结构预示反转，随后价格反向上行突破EQ并延伸至前日高点（约47800），展示机构流动性扫荡后的真实上行动能。\",\"analysis_steps\":[\"Step 1: 识别开盘方向——价格开盘向下优先（Open Low），这是看涨信号，与开盘向上优先（Open High）的看跌相反。\",\"Step 2: 确认前日低点触及——价格下行触及前一日低点（约47300），形成SMT（Smart Money Technique）信号。\",\"Step 3: 验证交付状态改变——在小时级别或更低时间框架（15分钟/5分钟）观察到CSD（Change in State of Delivery），预示趋势反转。\",\"Step 4: 观察小wick结构——价格在前日低点附近形成小wick，表明卖方流动性已被扫荡，反转条件成熟。\",\"Step 5: 追踪反向上行——价格反向上行，突破EQ（Equilibrium，约47425），进入折价区上方。\",\"Step 6: 确认突破FVG——价格继续上行，突破灰色矩形标注的公允价值缺口区域（约47325-47550）。\",\"Step 7: 延伸至前日高点——价格上行至前日高点（C3，约47800），形成完整反转形态。\",\"Step 8: 识别Protected Swing与流动性扫荡——价格在达到前日高点后形成Protected Swing，但该摆动仅在触及流动性前受保护；价格随后扫荡该流动性，再进行真实上行。\"],\"outcome\":\"价格成功完成反转交易，从前日低点（约47300）上行至前日高点（约47800），涨幅约500点。反转形态展示了开盘低点→前日低点触及→SMT+CSD确认→EQ突破→FVG突破→前日高点触及的完整执行链条。\",\"lessons\":\"反转交易的核心要素：(1)开盘方向优先（Open Low为看涨）；(2)前日关键水平触及+SMT+CSD的三重确认；(3)小wick结构表明流动性已扫荡；(4)反向上行需突破EQ与FVG；(5)Protected Swing在触及流动性前受保护，触及后会被扫荡，真实趋势才会展开。\",\"primary_image_frame_id\":\"-KKuZb5Z5aU_f017\",\"supporting_image_frame_ids\":[\"-KKuZb5Z5aU_f015\",\"-KKuZb5Z5aU_f016\",\"-KKuZb5Z5aU_f018\",\"-KKuZb5Z5aU_f001\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Smart Money Technique (SMT)\",\"Change in State of Delivery (CSD)\",\"Equilibrium (EQ)\",\"Order Block (OB)\",\"Protected Swing\",\"Liquidity\",\"Market Structure Shift (M",
+  "error": null
+}

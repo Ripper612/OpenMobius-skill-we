@@ -1,0 +1,146 @@
+{
+  "card_id": "seek_and_destroy_profile",
+  "type": "merged_concept",
+  "canonical_term": "Seek and Destroy Profile",
+  "aliases": [
+    "Indecision Candle Profile",
+    "Seek and Destroy Pattern"
+  ],
+  "school": "ICT",
+  "definition": "高时间框架缺乏明确方向时出现的盘整形态。日线开盘价与收盘价相近，价格在区间内反复震荡，扫除买卖方流动性后回归区间，形成可交易的偏离点。具有分形特性，可在多个时间框架内出现，常见于高影响经济数据发布前。",
+  "identification_rules": [
+    "日线开盘价与收盘价相近，实体极小（相对全天波幅），全天缺乏方向性",
+    "全天价格在一个范围内反复进出，多次触及范围边界后回落",
+    "标记区间的买方流动性（Buyside Liquidity）和卖方流动性（Sellside Liquidity）作为区间真实边界",
+    "观察价格突破区间边界后是否回归区间内部，形成偏离点（deviation from the range）",
+    "伦敦时段无方向性，同时扫荡亚洲高点和低点；或伦敦已创造大部分日内波幅而纽约缺乏方向",
+    "在亚洲时段标记高点和低点，观察伦敦和纽约时段是否扫除这些流动性后回归",
+    "确认该形态具有分形特性，低时间框架内也存在相同的 Seek and Destroy 子形态",
+    "通常出现在高影响经济数据发布前（如 CPI、FOMC、NFP）或高时间框架结构不明确时"
+  ],
+  "trading_implication": "该形态表示市场处于犹豫状态，缺乏明确方向，整体应以回避为主。若参与，应识别价格偏离区间的点位，预期价格回归区间，而非追求突破。三个主要目标位：（1）区间均衡点（Equilibrium / 0.5 斐波那契位），（2）最优交易入场点（OTE），（3）区间另一侧的流动性。需在多个时间框架确认后入场。",
+  "common_mistakes": [
+    "试图在区间外交易或追求突破，而非交易回归区间内部",
+    "在高时间框架缺乏方向的情况下盲目参与，导致被困在盘整中",
+    "未能正确识别区间的真实边界（买卖方流动性位置），导致目标位设置错误",
+    "忽视高影响新闻前的市场犹豫信号，盲目入场",
+    "未能识别伦敦是否已创造大部分日内波幅，对纽约时段期望过高",
+    "未标记区间的均衡点和溢价/折价区域，无法有效设定目标",
+    "忽视该形态的分形特性，未在多个时间框架上进行确认",
+    "在价格未完全回归区间时过早入场，被假突破（inducement）扫出"
+  ],
+  "related_concepts": [
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fractal",
+      "card_id": "fractal",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "PlZD45uLPjE_case_001_标普500_1小时线seek_and_destroy模式分析",
+      "video_id": "PlZD45uLPjE",
+      "title": "标普500 1小时线Seek and Destroy模式识别与交易入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "original_card_id": "4WCiIyCiBrQ_concept_seek_and_destroy_profile",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.0,
+        523.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "PlZD45uLPjE",
+      "original_card_id": "PlZD45uLPjE_concept_seek_and_destroy_profile",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        592.98
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:59:07.299290Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "1 张 Price Action + 1 张 ICT，按多数选 ICT；两卡定义互补，Price Action 侧重日线犹豫K线特征，ICT 侧重流动性扫除与分形特性，已综合保留。",
+  "error": null
+}

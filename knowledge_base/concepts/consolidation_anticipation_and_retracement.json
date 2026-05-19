@@ -1,0 +1,54 @@
+{
+  "card_id": "consolidation_anticipation_and_retracement",
+  "type": "merged_concept",
+  "canonical_term": "Consolidation Anticipation and Retracement",
+  "aliases": [
+    "整理与反向运动预期",
+    "盘整预期与回撤"
+  ],
+  "school": "SMC",
+  "definition": "在价格大幅扩张或触及高时间框架关键位后，预期主要货币（如美元）可能出现盘整、回撤或反转，同时配对货币（如欧元、英镑）反向运动的现象。",
+  "identification_rules": [
+    "观察美元在大幅上升后是否接近或触及高时间框架关键水平",
+    "确认美元价格已完成显著的扩张运动（Displacement）",
+    "在触及关键位后，观察美元K线是否开始形成盘整或向下回撤的形态",
+    "同时检查配对货币（欧元、英镑等）是否出现相反方向的运动"
+  ],
+  "trading_implication": "当美元在大幅扩张后预期进入盘整或回撤阶段时，交易者应转向寻找与美元反向运动的货币对进行交易。例如，若美元预期回撤，欧元或英镑通常会上升，可将这两种货币配对交易以捕捉相反方向的机会。这种方法避免了在美元盘整期间的低效交易，转而利用配对货币的相反趋势。",
+  "common_mistakes": [
+    "未能在大幅扩张后识别出盘整或回撤的预期，继续追随原趋势",
+    "忽视配对货币的反向运动机会，仅关注美元本身的走势",
+    "在美元盘整期间仍试图交易美元相关对，而不是转向配对货币"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "original_card_id": "HrjYoxAUb3s_concept_consolidation_anticipation_and_retraceme",
+      "segment_ids": [
+        "seg_016"
+      ],
+      "time_range": [
+        696.08,
+        772.52
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131793Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

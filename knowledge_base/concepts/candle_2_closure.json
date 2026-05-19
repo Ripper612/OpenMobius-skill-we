@@ -1,0 +1,134 @@
+{
+  "card_id": "candle_2_closure",
+  "type": "merged_concept",
+  "canonical_term": "Candle 2 Closure",
+  "aliases": [
+    "C2",
+    "C2 Closure",
+    "C2C",
+    "Candle to Closure",
+    "Reversal Closure",
+    "Second Candle Closure",
+    "第二根K线收盘"
+  ],
+  "school": "ICT",
+  "definition": "价格在当前K线内扫过前一根K线的高点或低点（扫出流动性）后，收盘回到前一根K线范围内或反向侧，预示价格即将反向运动的K线形态。看涨场景：扫低后收盘回到前低上方；看跌场景：扫高后收盘回到前高下方。",
+  "identification_rules": [
+    "价格在当前K线内扫过前一根K线的极值（高点或低点）",
+    "当前K线收盘价回到前一根K线的范围内，或收盘于扫出极值的反向侧",
+    "看涨场景：扫过前一根K线低点后，收盘回到该低点上方或前一根K线范围内",
+    "看跌场景：扫过前一根K线高点后，收盘回到该高点下方或前一根K线范围内",
+    "该形态应出现在高时间框架关键价格水平（如FVG、摆动高低点、订单块）附近，以提高信号有效性"
+  ],
+  "trading_implication": "Reversal Closure是判断价格反转意图的高概率信号。识别后可预期第3根K线（Candle 3/Expansion Candle）沿反转方向扩展，第4根K线进一步确认趋势。可与equilibrium（0.5斐波那契水平）配合，在expansion candle的上半部分（看涨）或下半部分（看跌）寻找wick形成位置作为入场依据。常与订单块、公允价值缺口等高时间框架关键水平结合使用确认反转点。",
+  "common_mistakes": [
+    "混淆Reversal Closure与Continuation Closure：前者收盘回到前一根K线内部预示反转，后者收盘突破前一根K线范围预示趋势延续",
+    "在Candle 2 Closure未形成时过早交易Candle 3，应等待明确的reversal closure信号",
+    "在没有高时间框架关键水平支撑的情况下，对每个扫过并回闭的形态都视为Reversal Closure，降低信号有效性",
+    "忽视与equilibrium的配合使用，导致expansion candle的目标位置判断不准"
+  ],
+  "related_concepts": [
+    {
+      "term": "Continuation Closure",
+      "card_id": "continuation_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle 3",
+      "card_id": "candle_3",
+      "exists": true
+    },
+    {
+      "term": "Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "HTF / High Time Frame",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "CqMIh-Vvhbg_case_005_es标普500指数日线至小时线的看跌延续",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "ES日线C2与CSD确认后的小时线看跌延续至投影目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "original_card_id": "MsuEQQl7L6s_concept_reversal_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.96,
+        164.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "tyoxl1l-6iI",
+      "original_card_id": "tyoxl1l-6iI_concept_reversal_closure",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.04,
+        134.239
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:36.456807Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "两张原始卡均为ICT，school无冲突。两卡均描述同一Reversal Closure形态，内容高度一致，已合并去重。",
+  "error": null
+}

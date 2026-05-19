@@ -1,0 +1,259 @@
+{
+  "card_id": "reversal_candle",
+  "type": "merged_concept",
+  "canonical_term": "Reversal Candle",
+  "aliases": [
+    "反转K线",
+    "反转蜡烛"
+  ],
+  "school": "Price Action",
+  "definition": "具有明显大影线、开盘价与收盘价接近（实体较小）的K线形态。价格先向一个方向大幅运动形成影线，随后反向收盘至开盘价附近，表明该方向动能耗尽，不支持单向扩张，预示价格方向可能改变。",
+  "identification_rules": [
+    "K线具有明显大影线，影线长度明显大于实体（主体）",
+    "开盘价与收盘价接近，形成较小的实体",
+    "看跌反转K线：开盘价 > 收盘价，存在明显上影线（Open High Low Close）",
+    "看涨反转K线：开盘价 < 收盘价，存在明显下影线（Open Low High Close）",
+    "价格在K线大部分时间内形成影线（对立运动），而非浅层短暂的对立运动",
+    "整根K线显示一个方向的激进运动被反方向运动所抵消，不支持单向扩张",
+    "可在任何时间框架识别；低时间框架的价格波动可构成高时间框架的反转K线",
+    "通常在关键价格水平（如前期低点、FVG、Order Block）或扫除流动性后形成",
+    "可伴随Change in the State of Delivery（CSD）确认市场结构转变"
+  ],
+  "trading_implication": "反转K线标志Candle 2结束，预示Candle 3可能出现延续性运动。交易者应等待该K线完全收盘后，在下一根K线（Candle 3）开盘处寻找延续交易机会。wick越小，反转可信度越高。结合CSD和高低时间框架分析可提高确认度。单独出现时应降低扩张目标的激进程度，预期价格回归开盘价或附近流动性区域。",
+  "common_mistakes": [
+    "在反转K线完全收盘前就进场，导致被反向波动止损",
+    "将反转K线与扩张K线混淆，错误预期价格继续扩张而非回归",
+    "未根据影线大小调整交易目标，仍按扩张K线逻辑设置过远目标",
+    "忽视CSD确认，仅凭K线形态交易",
+    "将任何在低点形成的K线都误认为反转K线，忽视收盘形态和市场结构转变的确认",
+    "在反转K线后的Candle 3中交易反转而非延续，违反该形态核心用途",
+    "将反转K线与方向性K线混淆，忽视影线与实体的相对大小关系",
+    "过度依赖单根反转K线做交易决策，未结合整体市场结构和方向偏差",
+    "未在低时间框架验证反转K线的形成过程，导致误判信号"
+  ],
+  "related_concepts": [
+    {
+      "term": "Change in the State of Delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Expansion",
+      "card_id": "candle_3_expansion",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Directional Candle",
+      "card_id": "directional_candle",
+      "exists": true
+    },
+    {
+      "term": "Indecision Candle",
+      "card_id": "indecision_candle",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_006_usdcad_4小时线到15分钟线交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD 4H-15M 多次试探高点后形成交付状态改变反转"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_002_eurusd日线candle_three_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "EURUSD日线Candle Three Closure确认上升趋势"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_003_nq_4小时图candle_three_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "NQ 4小时图Candle Three Closure确认上升延续"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_005_高级反转k线看跌交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "高级反转K线看跌交易：930时间窗口入场达成2R目标"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_002_gll小时图与5分钟模型交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "GLL小时图反转与5分钟CSD延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_005_4小时与15分钟的candle_3延续",
+      "video_id": "qdQYhePcvGE",
+      "title": "4小时反转后的15分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_008_usd多层级延续交易的完整案例",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD多层级延续交易：日线延续+小时图反转入场达成2R"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_009_gbp_usd小时图与5分钟的candle_3交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "GBP/USD小时反转后5分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_010_gll_5分钟图的candle_3与candle_4交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "GLL 5分钟图candle 3失败后的candle 4延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_013_xagusd多时间框架的反转与延续",
+      "video_id": "qdQYhePcvGE",
+      "title": "XAGUSD日线反转后的小时图延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_014_es_1小时与5分钟的candle_3交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "ES 1小时反转后的5分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_016_usd_4小时与15分钟的反转与延续交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD 4H反转后15分钟反转与延续交易"
+    },
+    {
+      "card_id": "sIcsLFSNoXM_case_002_轻质原油期货多日方向性k线后的反转",
+      "video_id": "sIcsLFSNoXM",
+      "title": "轻质原油日线三日方向性K线后的看跌反转"
+    },
+    {
+      "card_id": "sIcsLFSNoXM_case_003_原油月线看跌反转k线与后续扩张",
+      "video_id": "sIcsLFSNoXM",
+      "title": "原油月线看跌反转K线与后续向下扩张"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_reversal_candle",
+      "segment_ids": [
+        "seg_003",
+        "seg_012",
+        "seg_017",
+        "seg_019"
+      ],
+      "time_range": [
+        111.52000000000001,
+        807.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_reversal_candle",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        11.12,
+        226.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_reversal_candle",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_006",
+        "seg_007",
+        "seg_009",
+        "seg_010",
+        "seg_012",
+        "seg_020",
+        "seg_023",
+        "seg_025",
+        "seg_030",
+        "seg_037"
+      ],
+      "time_range": [
+        11.2,
+        1996.159
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "sIcsLFSNoXM",
+      "original_card_id": "sIcsLFSNoXM_concept_reversal_candle",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        371.68,
+        726.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:03.003257Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "3张Price Action + 1张ICT，按多数选Price Action。ICT卡强调CSD和流动性扫除等ICT专属框架，已将相关规则作为可选确认条件保留。",
+  "error": null
+}

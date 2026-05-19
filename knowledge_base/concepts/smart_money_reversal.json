@@ -1,0 +1,134 @@
+{
+  "card_id": "smart_money_reversal",
+  "type": "merged_concept",
+  "canonical_term": "Smart Money Reversal",
+  "aliases": [
+    "智能货币反转"
+  ],
+  "school": "SMC",
+  "definition": "价格到达重要水平后扫除流动性，随即以强劲位移突破该水平，收盘穿过形成该结构的K线开盘价（或突破看跌FVG及下跌K线），并形成短期低点，标志趋势从一个方向向另一方向转变的关键反转点。",
+  "identification_rules": [
+    "价格必须到达重要水平（高时间框架PD阵列、订单块或摆动高低点）",
+    "必须扫除该水平处的流动性（买方流动性在摆动高点上方，卖方流动性在摆动低点下方）",
+    "价格随后以位移形式突破该水平",
+    "收盘必须穿过形成该结构的单根或多根K线的开盘价（看涨反转：上升K线收盘在开盘上方；看跌反转：下降K线收盘在开盘下方）",
+    "收盘价突破看跌FVG（Bearish FVG）及下跌K线，作为额外确认条件",
+    "反转后形成短期低点（short-term low），确认反转有效性",
+    "该模式必须基于重要水平，随机位置出现的相同形态不构成有效反转"
+  ],
+  "trading_implication": "Smart Money Reversal标志从卖方曲线转向买方曲线（或反之）的趋势转变。确认反转后，交易者可在随后的回测中寻找订单块或旧FVG作为支撑/阻力入场，利用订单块50%斐波那契位优化风险回报比。反转有效性取决于是否基于高时间框架重要水平，否则易产生虚假信号。",
+  "common_mistakes": [
+    "在缺乏高时间框架重要水平的情况下识别反转，导致虚假信号",
+    "忽视流动性扫除的必要性，仅基于价格穿过开盘价判断反转",
+    "未等待完整的位移和收盘确认，过早入场",
+    "未等待所有确认条件齐备（如短期低点形成）就仓促入场，仅基于单一条件判断反转",
+    "混淆反转点与后续订单块入场点，在反转本身而非回测时入场"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "DMUiDBnTYc8_case_004_nq_15分钟图_纽约开盘扫盘与订单块",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ 15分钟：纽约开盘扫盘与订单块多重入场"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_006_gbpusd周一至周五的看涨周期案例",
+      "video_id": "klaiq36QnEM",
+      "title": "GBPUSD周一至周五看涨周期：订单块、FVG与流动性扫荡"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "original_card_id": "DMUiDBnTYc8_concept_smart_money_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.4,
+        698.8389999999999
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "uDJI2AbyyCs",
+      "original_card_id": "uDJI2AbyyCs_concept_smart_money_reversal",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        471.24,
+        616.64
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:59:05.968173Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,52 @@
+{
+  "card_id": "engulfing_candle",
+  "type": "merged_concept",
+  "canonical_term": "Engulfing Candle",
+  "aliases": [
+    "包含形态",
+    "吞没形态"
+  ],
+  "school": "Price Action",
+  "definition": "一根K线的实体完全包含前一根K线实体的形态。通常用于判断趋势延续的强度，特别是在相对强弱分析中识别货币对的方向性动能。",
+  "identification_rules": [
+    "当前K线的开盘价和收盘价范围完全包含前一根K线的开盘价和收盘价范围",
+    "可以在多时间框架上观察，用于确认趋势方向的有效性",
+    "需要结合低时间框架检查是否存在真实反转信号"
+  ],
+  "trading_implication": "吞没形态表明价格动能的延续。在相对强弱分析中，若EURGBP出现看涨吞没，表明英镑相对欧元较弱，可用于确认美元强势下应做空的货币对。需在低时间框架验证是否为真实反转，以避免虚假信号。",
+  "common_mistakes": [
+    "仅基于吞没形态本身判断反转，未在低时间框架确认真实反转信号",
+    "忽视相对强弱分析，在错误的资产上交易正确的想法，导致错过扩张行情"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "nWHint4Yano",
+      "original_card_id": "nWHint4Yano_concept_engulfing_candle",
+      "segment_ids": [
+        "seg_010"
+      ],
+      "time_range": [
+        490.4,
+        543.36
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132451Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

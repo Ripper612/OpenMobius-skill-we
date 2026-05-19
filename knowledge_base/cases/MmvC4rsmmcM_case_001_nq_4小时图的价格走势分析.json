@@ -1,0 +1,118 @@
+{
+  "card_id": "MmvC4rsmmcM_case_001_nq_4小时图的价格走势分析",
+  "type": "case",
+  "title": "NQ 4小时图缺口上升到下跌的完整走势分析",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Equal High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Old High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Volume Imbalance",
+      "card_id": "volume_and_balance_imbalance",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "volume_and_balance_imbalance",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ",
+  "timeframe": "4H",
+  "market_context": "NQ从缺口向上突破后形成位移，随后价格回落。分析师通过追踪从初始缺口上升到后续下跌的完整走势，演示如何识别关键的流动性目标和价格结构转变。",
+  "key_observation": "博主通过追踪价格位移（Displacement）来确定流动性目标。当价格无法突破关键结构（如低点或高点）时，表明趋势可能反转；当价格成功位移突破时，则指向下一个流动性目标。",
+  "analysis_steps": [
+    "Step 1: 识别初始缺口上升和随后的激进下跌走势，确定是否存在位移回升到区间内的可能性。",
+    "Step 2: 观察价格是否能够突破关键低点；如果无法突破，则预期价格会回升至更高区域。",
+    "Step 3: 当价格回升时，检查是否能够突破之前的高点；如果无法突破，则识别订单块（Order Block）作为阻力。",
+    "Step 4: 追踪价格对公允价值缺口（FVG）和成交量失衡（Volume Imbalance）的回测，作为下一个流动性目标。",
+    "Step 5: 当价格成功位移突破高点时，将之前的高点标记为等高点（Equal High），作为后续目标。",
+    "Step 6: 监测价格是否能够突破关键低点；如果无法突破，则预期价格继续上升至等高点或更高的旧高点。",
+    "Step 7: 确认价格位移突破后，将旧高点（Old High）作为最终的流动性目标。"
+  ],
+  "outcome": null,
+  "lessons": "通过位移判断价格目标的关键是观察价格是否能够突破关键结构。无法突破表示反向运动；成功突破则指向下一个流动性目标。结合FVG、OB、等高等低等工具，可以建立高概率的交易设置。",
+  "primary_image": "cards/MmvC4rsmmcM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/MmvC4rsmmcM/images/case_001_detail_1.jpg",
+    "cards/MmvC4rsmmcM/images/case_001_detail_2.jpg",
+    "cards/MmvC4rsmmcM/images/case_001_detail_3.jpg",
+    "cards/MmvC4rsmmcM/images/case_001_detail_4.jpg",
+    "cards/MmvC4rsmmcM/images/case_001_detail_5.jpg",
+    "cards/MmvC4rsmmcM/images/case_001_detail_6.jpg",
+    "cards/MmvC4rsmmcM/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NASDAQ-100 E-mini Futures 4小时K线图。图表左侧显示一根大幅上升的绿色K线，随后跟随一根大幅下跌的黑色K线，上影线延伸至约11450。中间区域包含约15根交替的绿黑K线，整体在10600至11100范围内波动。图上绘制有4条水平线，分别位于11143.75、11104.00、10934.50和10824.50。一个灰色矩形区域覆盖从10934.50至11104.00的价格",
+    "case_001_detail_1.jpg": "CME_MINI 4小时K线图。图上显示从22日至18日的价格走势。右侧价格刻度标注范围从10540.00至11740.00。图上有4条水平虚线分别位于11104.00、11047.00、10943.00和10758.75处。右侧区域绘有一条向下倾斜的趋势线，从约11140.00下行至10820.00。K线序列呈绿黑交替形态，中间区域显示10800.00至11100.00间的盘整，右侧最新K线显示",
+    "case_001_detail_2.jpg": "CME_MINI 4 小时 K 线图。图上显示从 22 日至 14 日的价格走势，价格范围在 10545 至 11748 之间。图表包含多根绿色和黑色 K 线，呈现上下波动的形态。图上绘制了一条向下倾斜的趋势线，从约 11145 下行至 10825。此外还有四条水平虚线分别位于 11104、11067、10943 和 10754.75 价格水平。右侧价格刻度清晰可见，未见其他指标或标注。",
+    "case_001_detail_3.jpg": "NASDAQ-100 E-mini Futures 4小时K线图。图右侧显示三条水平线标注，分别位于11104.00、11087.00和10970.25价格水平。可见K线价格范围约从10700到11552.50。图表显示多根绿色（上涨）和黑色（下跌）K线，分布在整个可见区间。中间区域约11000-11100范围内出现多根K线的密集排列。多数K线具有下影线延伸。图表底部显示时间标记为Wed 18 D",
+    "case_001_detail_4.jpg": "NQ100 E-mini Futures 4小时K线图。图右侧显示4条水平价格标注线，分别位于11104.00、11087.00、10914.25、10875.50。可见K线价格范围约从10700到11532。图表左侧显示一段历史K线走势，包含多根绿色和黑色K线，中间部分有较长的黑色K线。图上标注有时间戳",
+    "case_001_detail_5.jpg": "NASDAQ-100 E-mini Futures 4小时K线图。图表显示从左侧约11650价位向下运行至右侧约10625价位的价格走势。图上绘制有三条水平线分别位于11104.50、10914.25和10823.50处。中间区域有一个矩形标注框，范围约在10823.50至11104.50之间。K线由绿色和黑色蜡烛组成，呈现交替出现的形态。右侧价格刻度显示当前可见范围从10625.00至11650",
+    "case_001_detail_6.jpg": "NASDAQ-100 E-mini Futures 4小时K线图。图上显示从11月20日至1月23日期间的价格走势，价格范围从10625到11450。图中标注了两个灰色矩形区域，分别位于约10850-11050和10950-11150价格区间。K线序列呈现绿色和黑色交替，伴随多条上下影线。从左侧高点11400附近向下运行至右侧低点10625附近，中间在10850-11050区间出现多根K线的横向整",
+    "case_001_detail_7.jpg": "NASDAQ-100 E-mini Futures 4小时K线图。图表显示价格范围从10575到11625。图上有三条水平线分别位于11623.75、11104.00和10875.50。三个矩形框标注了不同的价格区间，其中一个灰色阴影矩形框覆盖约11104至11623的区域。K线序列显示初期有一根长黑色K线从约11400下跌至10850，随后在10900至11200区间内出现绿黑相间的K线组合，中"
+  },
+  "sources": [
+    {
+      "video_id": "MmvC4rsmmcM",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        0.659,
+        361.919
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ 4小时图的分析完整清晰，包括资产代码、时间框架、关键价位（11104、10943等）、分析步骤（缺口识别、位移判断、流动性追踪）均有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:24.659694Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 4小时图缺口上升到下跌的完整走势分析\",\"school\":\"ICT\",\"asset\":\"NQ\",\"timeframe\":\"4H\",\"market_context\":\"NQ从缺口向上突破后形成位移，随后价格回落。分析师通过追踪从初始缺口上升到后续下跌的完整走势，演示如何识别关键的流动性目标和价格结构转变。\",\"key_observation\":\"博主通过追踪价格位移（Displacement）来确定流动性目标。当价格无法突破关键结构（如低点或高点）时，表明趋势可能反转；当价格成功位移突破时，则指向下一个流动性目标。\",\"analysis_steps\":[\"Step 1: 识别初始缺口上升和随后的激进下跌走势，确定是否存在位移回升到区间内的可能性。\",\"Step 2: 观察价格是否能够突破关键低点；如果无法突破，则预期价格会回升至更高区域。\",\"Step 3: 当价格回升时，检查是否能够突破之前的高点；如果无法突破，则识别订单块（Order Block）作为阻力。\",\"Step 4: 追踪价格对公允价值缺口（FVG）和成交量失衡（Volume Imbalance）的回测，作为下一个流动性目标。\",\"Step 5: 当价格成功位移突破高点时，将之前的高点标记为等高点（Equal High），作为后续目标。\",\"Step 6: 监测价格是否能够突破关键低点；如果无法突破，则预期价格继续上升至等高点或更高的旧高点。\",\"Step 7: 确认价格位移突破后，将旧高点（Old High）作为最终的流动性目标。\"],\"outcome\":null,\"lessons\":\"通过位移判断价格目标的关键是观察价格是否能够突破关键结构。无法突破表示反向运动；成功突破则指向下一个流动性目标。结合FVG、OB、等高等低等工具，可以建立高概率的交易设置。\",\"primary_image_frame_id\":\"MmvC4rsmmcM_f008\",\"supporting_image_frame_ids\":[\"MmvC4rsmmcM_f002\",\"MmvC4rsmmcM_f003\",\"MmvC4rsmmcM_f004\",\"MmvC4rsmmcM_f005\",\"MmvC4rsmmcM_f006\",\"MmvC4rsmmcM_f007\",\"MmvC4rsmmcM_f009\"],\"related_concepts\":[\"Displacement\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Equal High\",\"Old High\",\"Volume Imbalance\",\"Market Structure\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ 4小时图的分析完整清晰，包括资产代码、时间框架、关键价位（11104、10943等）、分析步骤（缺口识别、位移判断、流动性追踪）均有明确说明。\"}",
+  "error": null
+}

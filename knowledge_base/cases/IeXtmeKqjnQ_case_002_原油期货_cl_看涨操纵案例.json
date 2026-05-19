@@ -1,0 +1,112 @@
+{
+  "card_id": "IeXtmeKqjnQ_case_002_原油期货_cl_看涨操纵案例",
+  "type": "case",
+  "title": "原油期货CL看涨操纵案例：伦敦失败摆动后纽约扫荡折价区入场",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "premium_discount",
+    "equilibrium_eq",
+    "failure_swing",
+    "liquidity_sweep",
+    "market_structure",
+    "optimal_trade_entry_ote"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "15M / 5M",
+  "market_context": "伦敦交易时段原油在一个交易范围内整理，未能突破范围高低点。进入纽约交易时段后，价格在8:30时扫除范围低点，触发Change in State of Delivery，随后在折价区形成入场机会。",
+  "key_observation": "伦敦形成失败摆动（未突破范围两端），纽约8:30扫除范围低点后价格反向上行，在折价区（范围中点下方）提供最优入场点，目标为前一日高点。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表上识别伦敦交易时段形成的交易范围（Range High约75.60，Range Low约74.40）",
+    "Step 2: 观察伦敦未能突破范围两端，形成失败摆动（Failure Swing）",
+    "Step 3: 进入纽约交易时段，在8:30时价格下探并扫除范围低点（约74.40），同时扫除午夜开盘价",
+    "Step 4: 在5分钟图表上确认一系列向下收盘K线，标记为Change in State of Delivery的初期失败",
+    "Step 5: 计算范围的中点（Equilibrium/Mean），确定折价区（Discount）位置约74.87-74.84",
+    "Step 6: 在折价区设置入场点，止损设在范围低点（约74.62），目标设定为范围高点（约75.60）",
+    "Step 7: 价格在折价区获得入场信号后上行，成功达到目标价位"
+  ],
+  "outcome": "交易成功。价格从折价区入场后上行至范围高点，达成目标。根据交易面板显示，目标收益为0.14（0.19%），金额$107.69。",
+  "lessons": "在多时间框架分析中，识别失败摆动和Change in State of Delivery是关键。利用Premium/Discount区分（基于范围中点）在折价区入场具有高概率。机构操纵范围边界以扫除流动性后反向运行是常见模式，应在反向信号出现时果断入场。",
+  "primary_image": "cards/IeXtmeKqjnQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/IeXtmeKqjnQ/images/case_002_detail_1.jpg",
+    "cards/IeXtmeKqjnQ/images/case_002_detail_2.jpg",
+    "cards/IeXtmeKqjnQ/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为 Light Crude Oil Futures（CL1!）5 分钟 K 线图，来源标注为 TTrades_edu，日期显示为 2024 年 2 月 9 日。图右侧可见价格刻度范围约从 74.15 至 77.50。图上叠加了一个三区域交易管理框：上方绿色矩形标注 Target 0.14（0.19%）、Amount $107.69；中间灰色矩形标注 Open P&L 0.12、Qty 0.76",
+    "case_002_detail_1.jpg": "Light Crude Oil Futures（CL1!）15 分钟 K 线图，图右上角标注 TTraders_edu。可见价格范围约从 73.00 到 75.80。图左侧 K 线由约 73.00 上行至约 75.30，随后出现多根下行 K 线回落至约 74.40，之后在 74.40 至 75.00 区间内形成多根 K 线的横向整理。图右侧有一个黑色填充矩形标注，覆盖约 74.40 至 75.60",
+    "case_002_detail_2.jpg": "图表为 Light Crude Oil Futures（CL1!）5 分钟 K 线图，来源标注为 TTraders_edu，日期显示 9/2/2024。可见价格范围约从 74.15 至 76.25。图右侧覆盖一个大型黑色填充矩形，纵向跨越约 74.60 至 76.25 区间。图上有一条水平虚线位于约 74.87，左侧价格轴标注 74.87 及 74.84 两个高亮标签。另有一条水平线位于约 74.",
+    "case_002_detail_3.jpg": "图表为 Light Crude Oil Futures（CL1!）5 分钟 K 线图，日期标注为 9/2/2024，来源标注为 TTrader_edu。右侧价格轴可见两个高亮价格标签，分别位于 74.91 和 74.62 附近，另有一条水平线位于约 74.69。图上约 07:30 至 08:00 时段有一个浅色矩形标注框，覆盖约 74.65 至 74.90 区间。图右侧约 08:30 至 09:0"
+  },
+  "sources": [
+    {
+      "video_id": "IeXtmeKqjnQ",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.48,
+        369.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从伦敦失败摆动、纽约扫荡、折价区入场到目标达成的全过程，关键价位、时间点、交易结果均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:16.576124Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油期货CL看涨操纵案例：伦敦失败摆动后纽约扫荡折价区入场\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"15M / 5M\",\"market_context\":\"伦敦交易时段原油在一个交易范围内整理，未能突破范围高低点。进入纽约交易时段后，价格在8:30时扫除范围低点，触发Change in State of Delivery，随后在折价区形成入场机会。\",\"key_observation\":\"伦敦形成失败摆动（未突破范围两端），纽约8:30扫除范围低点后价格反向上行，在折价区（范围中点下方）提供最优入场点，目标为前一日高点。\",\"analysis_steps\":[\"Step 1: 在15分钟图表上识别伦敦交易时段形成的交易范围（Range High约75.60，Range Low约74.40）\",\"Step 2: 观察伦敦未能突破范围两端，形成失败摆动（Failure Swing）\",\"Step 3: 进入纽约交易时段，在8:30时价格下探并扫除范围低点（约74.40），同时扫除午夜开盘价\",\"Step 4: 在5分钟图表上确认一系列向下收盘K线，标记为Change in State of Delivery的初期失败\",\"Step 5: 计算范围的中点（Equilibrium/Mean），确定折价区（Discount）位置约74.87-74.84\",\"Step 6: 在折价区设置入场点，止损设在范围低点（约74.62），目标设定为范围高点（约75.60）\",\"Step 7: 价格在折价区获得入场信号后上行，成功达到目标价位\"],\"outcome\":\"交易成功。价格从折价区入场后上行至范围高点，达成目标。根据交易面板显示，目标收益为0.14（0.19%），金额$107.69。\",\"lessons\":\"在多时间框架分析中，识别失败摆动和Change in State of Delivery是关键。利用Premium/Discount区分（基于范围中点）在折价区入场具有高概率。机构操纵范围边界以扫除流动性后反向运行是常见模式，应在反向信号出现时果断入场。\",\"primary_image_frame_id\":\"IeXtmeKqjnQ_f001\",\"supporting_image_frame_ids\":[\"IeXtmeKqjnQ_f008\",\"IeXtmeKqjnQ_f009\",\"IeXtmeKqjnQ_f010\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Failure Swing\",\"Liquidity Sweep\",\"Market Structure\",\"Optimal Trade Entry (OTE)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从伦敦失败摆动、纽约扫荡、折价区入场到目标达成的全过程，关键价位、时间点、交易结果均清晰可见。\"}",
+  "error": null
+}

@@ -1,0 +1,196 @@
+{
+  "card_id": "broadening_formation",
+  "type": "merged_concept",
+  "canonical_term": "Broadening Formation",
+  "aliases": [
+    "Broadening",
+    "Broadening Pattern",
+    "Range Expansion",
+    "扩大形态",
+    "扩张区间",
+    "扩张形态"
+  ],
+  "school": "ICT",
+  "definition": "价格在盘整后连续突破前期摆动高低点，形成高点逐次抬高、低点逐次走低的扩张结构。两条发散趋势线分别连接摆动高点与低点，边界持续扩大。价格在上下边界间反复测试买卖方流动性，突破一侧失败后回归并测试另一侧。",
+  "identification_rules": [
+    "识别初始区间：找到明确的摆动高点和低点作为起始范围，通常建立在先前盘整基础上。",
+    "向左观察确认：检查该高点是否突破了左侧历史高点，检查该低点是否突破了左侧历史低点。",
+    "确认双向突破：价格需连续突破初始高点（形成更高高点）和初始低点（形成更低低点），单次单向突破不构成该形态。",
+    "从摆动低点向上倾斜绘制趋势线，从摆动高点向下倾斜绘制趋势线，两线呈发散状形成扩大通道。",
+    "追踪失败突破：当价格突破范围一侧后，观察其是否失败并回归范围内，随后测试另一侧。",
+    "持续扩张：每次新的突破和失败都会扩大范围边界，重复此过程确认形态成立。",
+    "识别嵌套形态：在更小时间框架内可能存在更小的扩张形态，需分层识别。",
+    "高时间框架上的扩张形态可表现为外包K线（Outside Bar）。"
+  ],
+  "trading_implication": "扩张形态用于标记流动性扫除的关键点位及识别区间内反复运动规律。当价格突破范围一侧失败时，预期回归并测试另一侧。可在区间边界结合SMT寻找入场机会，以边界作为目标价位；触及边界后切换至低时间框架寻找FVG、OB等具体入场结构。突破时常伴随大幅位移K线，可结合Power of 3及折价/溢价区综合判断方向。",
+  "common_mistakes": [
+    "未正确向左观察：仅看当前高低点，未确认其是否真正突破了历史高低点。",
+    "将单次单向高点或低点突破误认为扩张形态，需确认连续的双向突破。",
+    "未等待完整盘整形成就过早识别该形态，导致形态不成立。",
+    "忽视扩张形态必须建立在先前盘整基础上的前提条件。",
+    "混淆扩张形态与收敛形态：扩张形态边界逐步扩大，而非收敛。",
+    "忽视嵌套结构：在更小时间框架内可能存在多个扩张形态，需分层识别。",
+    "过度依赖单一工具：应结合SMT、Power of 3、折价/溢价区等多个概念使用。",
+    "在高时间框架上误读：高时间框架的扩张形态表现为外包K线，需正确理解其含义。"
+  ],
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Range",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "The Strat",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "PlZD45uLPjE_case_003_纳指100多次偏离与流动性扫除",
+      "video_id": "PlZD45uLPjE",
+      "title": "纳指100多次偏离与流动性扫除分析"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_001_nasdaq_100_15分钟图表的扩张形态识别",
+      "video_id": "Tjk9bXERZy0",
+      "title": "NQ 15分钟扩张形态的实时识别与流动性扫荡"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_002_nasdaq_100_1小时图表的多层级扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "NQ 1小时图多层级扩张形态与SMT、Power of 3应用"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_003_日线与15分钟图的跨时间框架扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "日线扩张形态在15分钟跨时段追踪"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_004_新闻事件前后的扩张形态演变",
+      "video_id": "Tjk9bXERZy0",
+      "title": "新闻事件前后的扩张形态演变与Power of 3应用"
+    },
+    {
+      "card_id": "dSccSI7uqvE_case_001_es_15分钟图broadening_formation交易案例",
+      "video_id": "dSccSI7uqvE",
+      "title": "ES 15分钟图Broadening Formation识别与流动性扫除交易"
+    },
+    {
+      "card_id": "dSccSI7uqvE_case_002_es期货从流动性扫除到fvg交易的完整案例",
+      "video_id": "dSccSI7uqvE",
+      "title": "ES期货流动性扫除后FVG折价区做多交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "PlZD45uLPjE",
+      "original_card_id": "PlZD45uLPjE_concept_broadening_formation",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        285.6,
+        429.199
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "Tjk9bXERZy0",
+      "original_card_id": "Tjk9bXERZy0_concept_broadening_formation",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        11.24,
+        769.32
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "dSccSI7uqvE",
+      "original_card_id": "dSccSI7uqvE_concept_broadening_formation",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.359,
+        286.08
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:21.497714Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'The Strat']",
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "3张原始卡school分布：1张The Strat + 2张ICT，按多数选ICT。The Strat卡与ICT卡在核心结构描述上高度一致，均强调发散趋势线与双向突破。",
+  "error": null
+}

@@ -1,0 +1,94 @@
+{
+  "card_id": "klaiq36QnEM_case_002_nzdusd周五至周五的交易演变",
+  "type": "case",
+  "title": "NZDUSD周五日线订单块与纽约盘卖出设置",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Draw on Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "smart_money_technique",
+    "liquidity",
+    "draw_on_liquidity",
+    "market_structure_shift",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NZDUSD",
+  "timeframe": "1D / 15M",
+  "market_context": "周四价格测试日线高位后反转，周五形成日线订单块。博主在纽约盘时段通过15分钟图表识别卖出机会，目标触及draw on liquidity（下方流动性）。",
+  "key_observation": "周五日线形成订单块（D1 OB）在0.83150附近；周四测试该日线水平后反转；纽约盘出现SMT（高点分歧）和FVG，确认卖出设置有效。",
+  "analysis_steps": [
+    "Step 1: 观察日线结构，识别周四对日线高位的测试及随后的反转信号。",
+    "Step 2: 确认周五形成的日线订单块（D1 OB）位置在0.83150。",
+    "Step 3: 切换到15分钟图表，在纽约盘时段识别SMT（高点分歧）和FVG。",
+    "Step 4: 标记卖出阶段（Sell Stage）在0.82850，识别市场结构中的买方流动性。",
+    "Step 5: 确认价格目标为下方的draw on liquidity，执行卖出设置。"
+  ],
+  "outcome": null,
+  "lessons": "MMXM模型强调跳过周一、关注高时间框架水平被触及后的次日纽约盘设置。通过日线订单块和15分钟FVG/SMT的结合，可以在低时间框架上识别高概率卖出机会。draw on liquidity是关键目标位。",
+  "primary_image": "cards/klaiq36QnEM/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/klaiq36QnEM/images/case_002_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NZDUSD 15分钟K线图。图上标注有两条水平线：0.83150处标记为'-D1 OB'、0.82850处标记为'Sell Stage'。图中部分区域标有文字'Buys in Market Structure'。K线整体价格范围从0.82000至0.83200。图上显示一段上升趋势后跟随一段快速下行位移，下行过程中K线密集，伴随多根下影线。右侧有一个灰色圆形标记。图表底部显示时间戳'14/04/",
+    "case_002_detail_1.jpg": "新西兰元兑美元日线图。图上显示从2月下旬至5月中旬的价格走势，价格范围约0.61000至0.65000。图中有一条水平线位于0.63200处。标注文字包括'Res (Untested 7.5)'、'SET UK'等。3月初出现一根大幅下跌的黑色K线，下影线从0.63400附近向下刺破至0.61000。之后K线在0.61000至0.63200区间内形成多根绿黑相间的K线，影线长度不一。5月初的最新K"
+  },
+  "sources": [
+    {
+      "video_id": "klaiq36QnEM",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        184.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "资产、时间框架、关键价位（0.83150、0.82850）、分析步骤（日线→15分钟、SMT识别、FVG确认）均从图表和讲解中清晰读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:38.066518Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NZDUSD周五日线订单块与纽约盘卖出设置\",\"school\":\"ICT\",\"asset\":\"NZDUSD\",\"timeframe\":\"1D / 15M\",\"market_context\":\"周四价格测试日线高位后反转，周五形成日线订单块。博主在纽约盘时段通过15分钟图表识别卖出机会，目标触及draw on liquidity（下方流动性）。\",\"key_observation\":\"周五日线形成订单块（D1 OB）在0.83150附近；周四测试该日线水平后反转；纽约盘出现SMT（高点分歧）和FVG，确认卖出设置有效。\",\"analysis_steps\":[\"Step 1: 观察日线结构，识别周四对日线高位的测试及随后的反转信号。\",\"Step 2: 确认周五形成的日线订单块（D1 OB）位置在0.83150。\",\"Step 3: 切换到15分钟图表，在纽约盘时段识别SMT（高点分歧）和FVG。\",\"Step 4: 标记卖出阶段（Sell Stage）在0.82850，识别市场结构中的买方流动性。\",\"Step 5: 确认价格目标为下方的draw on liquidity，执行卖出设置。\"],\"outcome\":null,\"lessons\":\"MMXM模型强调跳过周一、关注高时间框架水平被触及后的次日纽约盘设置。通过日线订单块和15分钟FVG/SMT的结合，可以在低时间框架上识别高概率卖出机会。draw on liquidity是关键目标位。\",\"primary_image_frame_id\":\"klaiq36QnEM_f007\",\"supporting_image_frame_ids\":[\"klaiq36QnEM_f006\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Smart Money Technique\",\"Liquidity\",\"Draw on Liquidity\",\"Market Structure Shift\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"资产、时间框架、关键价位（0.83150、0.82850）、分析步骤（日线→15分钟、SMT识别、FVG确认）均从图表和讲解中清晰读出。\"}",
+  "error": null
+}

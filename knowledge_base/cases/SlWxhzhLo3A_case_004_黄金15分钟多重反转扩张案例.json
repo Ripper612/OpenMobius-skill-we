@@ -1,0 +1,125 @@
+{
+  "card_id": "SlWxhzhLo3A_case_004_黄金15分钟多重反转扩张案例",
+  "type": "case",
+  "title": "黄金15分钟多重反转扩张案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Small Wick",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Opposing Run",
+      "card_id": "judas_swing",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "smart_money_technique",
+    "change_in_the_state_of_delivery",
+    "displacement",
+    "aligned_timeframe",
+    "failure_swing",
+    "judas_swing"
+  ],
+  "school": "ICT",
+  "asset": "GC11",
+  "timeframe": "15m",
+  "market_context": "黄金在4小时低点形成反转结构，15分钟图显示小影线支持向下扩张，市场结构转变和SMT确认下行趋势，展示分形概念在多时间框架的应用。",
+  "key_observation": "博主识别出小影线、市场结构转变(CSD)和SMT确认三个关键要素共同支持向下扩张，并通过对比高时间框架(4小时)的失败摆动来验证15分钟的交易机会。",
+  "analysis_steps": [
+    "Step 1: 观察4小时低点形成反转，识别前期失败摆动(两个浅层摆动高点)作为高时间框架目标。",
+    "Step 2: 在15分钟图上确认小影线出现早期，表明价格未消耗过多时间和范围。",
+    "Step 3: 识别市场结构转变(CSD)——价格突破前一个摆动高点，预示反转。",
+    "Step 4: 确认SMT(Smart Money Technique)——V形反转形态，显示机构订单流向下行。",
+    "Step 5: 等待新K线闭合后，观察价格是否在新K线早期触及前一根K线高点。",
+    "Step 6: 判断对立运行(opposing run)的深度——浅层对立运行支持当根K线内交易，深层对立运行则等待下一根K线。",
+    "Step 7: 在新K线内观察相同概念重复——小影线+市场结构转变，确认延续下行。",
+    "Step 8: 追踪公允价值缺口(FVG)，判断价格是否操纵低点后回升，或直接延续下行。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架分形概念的应用：高时间框架(4小时)的失败摆动可作为低时间框架(15分钟)的交易目标；小影线+CSD+SMT三要素共同确认扩张方向；等待新K线闭合而非在当根K线内仓促交易，提高概率；相同概念在反转和延续中重复出现。",
+  "primary_image": "cards/SlWxhzhLo3A/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/SlWxhzhLo3A/images/case_004_detail_1.jpg",
+    "cards/SlWxhzhLo3A/images/case_004_detail_2.jpg",
+    "cards/SlWxhzhLo3A/images/case_004_detail_3.jpg",
+    "cards/SlWxhzhLo3A/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "GC1 黄金期货 15 分钟图。图上显示从 22:00 至 15:00 的价格走势，价格范围在 3412.0 至 3442.0 之间。图上有三条水平虚线分别位于 3412.0、3422.0 和 3432.0 价格水平。中央区域有一个标记为'C4'的矩形框，覆盖约 3424.0 至 3432.0 的价格范围。该区域内包含多根绿色和黑色 K 线，呈现整理形态。09:00 至 10:00 时段出现一根大",
+    "case_004_detail_1.jpg": "GC11 15分钟K线图。图上显示价格范围从3400.0至3432.0。左侧K线呈下跌形态，从3432.0下行至3408.2，随后进入3408.0至3420.0区间的整理。图中有两条虚线水平线分别标记在约3428.0和3412.0处。20:00时段出现向上跳空至3420.0，随后21:00出现一根大黑K线收至3410.0附近，22:00出现小绿K线。右下角显示时间戳15:45:00及'Bias: ",
+    "case_004_detail_2.jpg": "GC11 15分钟K线图。图上显示从07:00至12:00的交易时段。可见价格范围从3402.0至3434.0。图上有4条水平虚线分别位于3428.0、3422.0、3412.0和3408.1处。图上还有3个矩形框分别标注在3428.0-3422.0、3422.0-3412.0和3412.0-3408.0的价格区间。一条竖直虚线出现在图表中部。K线形态显示初期下跌、中期盘整、随后上升、再次下跌、最",
+    "case_004_detail_3.jpg": "GC11 15分钟K线图。图上显示从左侧18:00开始至右侧10:00的价格走势，整体价格范围从3410.0至3442.0。图上有4条水平虚线分别位于3422.0、3418.0、3432.0和3412.0价格水平。中部区域有一个矩形标注框标记为'C4'，框体范围约在3428.0至3432.0之间。K线序列显示上升趋势，中间出现黑色K线和回调，右侧显示从低点反弹的绿色K线。图右下角显示'GC11(1",
+    "case_004_detail_4.jpg": "GC11 15分钟K线图。图上显示从左侧约20:00时刻开始的上升趋势，价格从3412.0上升至3432.0。中间区域（约23:00至01:00）有一个矩形标注框，范围约在3424.0至3432.0之间。图上有三条水平线：3428.6处、3422.0处和3432.0处。K线序列中绿色K线占多数，但在07:00和08:00时段出现较大的黑色K线。右侧显示资产标签'GC11 (15m)'、'Bias:"
+  },
+  "sources": [
+    {
+      "video_id": "SlWxhzhLo3A",
+      "segment_ids": [
+        "seg_020",
+        "seg_021",
+        "seg_022",
+        "seg_023",
+        "seg_024",
+        "seg_025"
+      ],
+      "time_range": [
+        949.279,
+        1273.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了15分钟图的反转和延续过程，清晰标注了关键价位(3432.0、3422.0、3412.0等)、K线形态、时间戳，并详细解释了每一步分析逻辑和决策依据。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:06.959791Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金15分钟多重反转扩张案例\",\"school\":\"ICT\",\"asset\":\"GC11\",\"timeframe\":\"15m\",\"market_context\":\"黄金在4小时低点形成反转结构，15分钟图显示小影线支持向下扩张，市场结构转变和SMT确认下行趋势，展示分形概念在多时间框架的应用。\",\"key_observation\":\"博主识别出小影线、市场结构转变(CSD)和SMT确认三个关键要素共同支持向下扩张，并通过对比高时间框架(4小时)的失败摆动来验证15分钟的交易机会。\",\"analysis_steps\":[\"Step 1: 观察4小时低点形成反转，识别前期失败摆动(两个浅层摆动高点)作为高时间框架目标。\",\"Step 2: 在15分钟图上确认小影线出现早期，表明价格未消耗过多时间和范围。\",\"Step 3: 识别市场结构转变(CSD)——价格突破前一个摆动高点，预示反转。\",\"Step 4: 确认SMT(Smart Money Technique)——V形反转形态，显示机构订单流向下行。\",\"Step 5: 等待新K线闭合后，观察价格是否在新K线早期触及前一根K线高点。\",\"Step 6: 判断对立运行(opposing run)的深度——浅层对立运行支持当根K线内交易，深层对立运行则等待下一根K线。\",\"Step 7: 在新K线内观察相同概念重复——小影线+市场结构转变，确认延续下行。\",\"Step 8: 追踪公允价值缺口(FVG)，判断价格是否操纵低点后回升，或直接延续下行。\"],\"outcome\":null,\"lessons\":\"多时间框架分形概念的应用：高时间框架(4小时)的失败摆动可作为低时间框架(15分钟)的交易目标；小影线+CSD+SMT三要素共同确认扩张方向；等待新K线闭合而非在当根K线内仓促交易，提高概率；相同概念在反转和延续中重复出现。\",\"primary_image_frame_id\":\"SlWxhzhLo3A_f039\",\"supporting_image_frame_ids\":[\"SlWxhzhLo3A_f035\",\"SlWxhzhLo3A_f036\",\"SlWxhzhLo3A_f037\",\"SlWxhzhLo3A_f038\",\"SlWxhzhLo3A_f040\",\"SlWxhzhLo3A_f041\",\"SlWxhzhLo3A_f042\",\"SlWxhzhLo3A_f043\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Market Structure Shift\",\"Smart Money Technique\",\"Change in the state of delivery\",\"Displacement\",\"Fractal Model\",\"Failure Swing\",\"Small Wick\",\"Opposing Run\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了15分钟图的反转和延续过程，清晰标注了关键价位(3432.0、3422.0、3412.0等)、K线形态、时间戳，并详细解释了每一步分析逻辑和决策依据。\"}",
+  "error": null
+}

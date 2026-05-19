@@ -1,0 +1,114 @@
+{
+  "card_id": "1YRs4Z1lMws_case_003_eurusd日线到小时级联ote分析",
+  "type": "case",
+  "title": "EURUSD日线到小时级联OTE分析",
+  "related_concepts": [
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "ote_optimal_trade_entry",
+    "displacement",
+    "order_block_ob",
+    "breaker_block",
+    "swing_high_low",
+    "fibonacci_retracement",
+    "market_structure",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1D / 1H",
+  "market_context": "EURUSD在2023年6月-7月期间经历大幅下跌后反弹。日线形成位移范围，价格回测至OTE区域后再次下行，形成多层级交易结构。",
+  "key_observation": "博主通过日线确定初始位移范围和OTE，然后下探小时图追踪新的摆动高低点，在多个时间框架上形成级联OTE结构，展示从高时间框架到低时间框架的递进分析方法。",
+  "analysis_steps": [
+    "Step 1: 在EURUSD日线上识别大幅下跌后的位移范围（约1.0840-1.0979区间）",
+    "Step 2: 使用斐波那契回撤工具标注日线OTE，预期价格回测至0.5-0.62水平（约1.0931-1.0962）",
+    "Step 3: 观察价格确实回升至日线OTE区域，填补小时图FVG",
+    "Step 4: 下探小时图，标注小时级别的位移范围（约1.0950-1.0980）",
+    "Step 5: 在小时图上追踪新的摆动高低点，当价格创出新低时继续向下延伸OTE",
+    "Step 6: 识别价格回测至小时OTE后再次下行的位移，标注新的OTE范围",
+    "Step 7: 在小时图下行位移中识别Breaker Block，预期价格返回该区域时产生反应"
+  ],
+  "outcome": null,
+  "lessons": "级联OTE分析通过多时间框架递进，先在日线确定大方向和位移范围，再在小时图追踪具体摆动点位，形成嵌套的OTE结构。每次位移后的回测都是新的OTE机会，Breaker Block标记了失败的支撑/阻力转变为新的交易区域。",
+  "primary_image": "cards/1YRs4Z1lMws/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/1YRs4Z1lMws/images/case_003_detail_1.jpg",
+    "cards/1YRs4Z1lMws/images/case_003_detail_2.jpg",
+    "cards/1YRs4Z1lMws/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "EURUSD 60 分钟 K 线图，可见价格范围约从 1.08100 到 1.10200。图上绘制有两组斐波那契回撤网格：上方一组覆盖约 1.09300 至 1.09650 区间，标注有 0.5、0.62、0.705、0.79 四个水平线；下方一组覆盖约 1.08500 至 1.08800 区间，同样标注 0.5、0.62、0.705、0.79。图上另有两个矩形框，分别位于上方约 1.09550–",
+    "case_003_detail_1.jpg": "EURUSD 日线K线图，时间范围覆盖约2023年4月下旬至9月初。图右侧当前价标签显示1.09950。图上绘制有斐波那契回撤工具，标注水平线分别为0（约1.0840）、0.5（约1.0931）、0.62（约1.0962）、0.705（约1.0965）、0.79（约1.0979）。图上另有一个矩形框标注，覆盖约1.09600至1.10100价格区间内的近期K线群。K线整体从左侧高点约1.11000",
+    "case_003_detail_2.jpg": "EURUSD 60 分钟 K 线图，可见价格范围约从 1.08200 至 1.10300。图右侧显示四条斐波那契水平线，标注数值分别为 0.79（约 1.09870）、0.705（约 1.09750）、0.62（约 1.09620）、0.5（约 1.09500）。图上另有两条无标签水平线，分别位于约 1.09600 和 1.08400 附近。K 线走势显示：日期 21 附近出现高点约 1.1010",
+    "case_003_detail_3.jpg": "EURUSD 60 分钟 K 线图，可见价格范围约从 1.08200 到 1.10300。图上右侧绘制有斐波那契回撤工具，标注水平线分别标记为 0.79、0.705、0.62、0.5，对应价格约在 1.09650、1.09600、1.09400、1.09300 附近，其中 0.705 水平线以橙色高亮显示。图右侧另有三条水平线，分别位于约 1.10090、1.09230 和 1.08550 处，无"
+  },
+  "sources": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "segment_ids": [
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        335.52,
+        482.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线到小时图的级联分析过程，关键价位、时间框架、分析步骤均清晰可读，图表标注详细。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:16:03.477917Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD日线到小时级联OTE分析\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1D / 1H\",\"market_context\":\"EURUSD在2023年6月-7月期间经历大幅下跌后反弹。日线形成位移范围，价格回测至OTE区域后再次下行，形成多层级交易结构。\",\"key_observation\":\"博主通过日线确定初始位移范围和OTE，然后下探小时图追踪新的摆动高低点，在多个时间框架上形成级联OTE结构，展示从高时间框架到低时间框架的递进分析方法。\",\"analysis_steps\":[\"Step 1: 在EURUSD日线上识别大幅下跌后的位移范围（约1.0840-1.0979区间）\",\"Step 2: 使用斐波那契回撤工具标注日线OTE，预期价格回测至0.5-0.62水平（约1.0931-1.0962）\",\"Step 3: 观察价格确实回升至日线OTE区域，填补小时图FVG\",\"Step 4: 下探小时图，标注小时级别的位移范围（约1.0950-1.0980）\",\"Step 5: 在小时图上追踪新的摆动高低点，当价格创出新低时继续向下延伸OTE\",\"Step 6: 识别价格回测至小时OTE后再次下行的位移，标注新的OTE范围\",\"Step 7: 在小时图下行位移中识别Breaker Block，预期价格返回该区域时产生反应\"],\"outcome\":null,\"lessons\":\"级联OTE分析通过多时间框架递进，先在日线确定大方向和位移范围，再在小时图追踪具体摆动点位，形成嵌套的OTE结构。每次位移后的回测都是新的OTE机会，Breaker Block标记了失败的支撑/阻力转变为新的交易区域。\",\"primary_image_frame_id\":\"1YRs4Z1lMws_f016\",\"supporting_image_frame_ids\":[\"1YRs4Z1lMws_f001\",\"1YRs4Z1lMws_f014\",\"1YRs4Z1lMws_f015\"],\"related_concepts\":[\"OTE (Optimal Trade Entry)\",\"Displacement\",\"FVG (Fair Value Gap)\",\"Order Block (OB)\",\"Breaker Block\",\"Swing High/Low\",\"Fibonacci Retracement\",\"Market Structure\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线到小时图的级联分析过程，关键价位、时间框架、分析步骤均清晰可读，图表标注详细。\"}",
+  "error": null
+}

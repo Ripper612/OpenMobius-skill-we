@@ -1,0 +1,106 @@
+{
+  "card_id": "o0v4KQxZbpU_case_021_回测第十九天交易",
+  "type": "case",
+  "title": "10 AM扫低后反弹乏力的交易分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "liquidity",
+    "turtle_soup",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "回测第十九天。上午9:20-9:30形成高点，随后9:30-10:20持续下跌。10 AM时段扫低，之后出现反弹但力度不足，交易者对价格行为不满意。",
+  "key_observation": "10 AM K线扫低后，价格反弹缺乏位移（Displacement），反弹力度不够强劲，未能有效回到之前的范围，显示市场结构中缺乏买方积极性。",
+  "analysis_steps": [
+    "Step 1: 标记出第四个时段的高点和低点，观察价格行为。",
+    "Step 2: 识别向下扫低（sweep down），设置突破止损和3R目标。",
+    "Step 3: 进入第七个时段，标记新的高低点，观察10 AM K线是否扫低。",
+    "Step 4: 确认10 AM K线确实扫低，评估价格是否会回到之前的范围。",
+    "Step 5: 寻找做多机会，在低点设置止损，目标为范围另一侧（3R）。",
+    "Step 6: 交易被止损出场。",
+    "Step 7: 进入下一个时段，标记高低点，识别向下扫低。",
+    "Step 8: 观察反弹是否产生位移（Displacement），发现反弹不够强劲，缺乏积极性。",
+    "Step 9: 识别公允价值缺口（FVG），计划向下位移交易。",
+    "Step 10: 投影斐波那契水平，确定3R位置，移动止损至盈亏平衡点。"
+  ],
+  "outcome": "交易被止损出场；后续反弹缺乏位移，显示市场结构疲弱，交易者对该价格行为不满意。",
+  "lessons": "当价格扫低后反弹缺乏位移和强度时，应警惕市场结构的疲弱。反弹的力度和结构质量是判断后续趋势的关键指标。不满意的价格行为（缺乏位移）是避免交易的重要信号。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_021_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_021_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_021_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_021_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_021_detail_4.jpg",
+    "cards/o0v4KQxZbpU/images/case_021_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_021_primary.jpg": "NAS100 1分钟K线图。图上显示从约15320下跌至15100的下行走势，跨越约20根K线。图中标注有两个矩形区域，均标记为FVG文字标签。上方绿色矩形区域位于15240至15280价格范围，下方粉色矩形区域位于15100至15150价格范围。中间区域显示5根K线在15150至15200之间的整理形态。右侧价格刻度显示多条水平参考线。",
+    "case_021_detail_1.jpg": "NAS100 1 分钟图表。左侧面板显示 K 线图，从约 09:20 开始上升至 09:30 附近达到高点，随后从 09:30 至 10:20 持续下跌。右侧面板显示同一时段的成交量柱状图，绿色和黑色柱子交替出现。图右侧价格刻度标注有四条水平线，分别位于 15610、15450、15350 和 15310 处。可见价格范围约从 15310 至 15610，跨度约 300 点。",
+    "case_021_detail_2.jpg": "NAS100 1分钟K线图。图上有两个矩形区域标注：上方绿色区域约在15100至15362之间，下方粉色区域约在15100至15200之间。可见K线整体价格范围约从15100到15400。图右侧显示多条带粉色标签的水平线。最近几根K线中包含一根绿色K线、两根黑色K线，其中一根黑色K线具有较长的下影线。图表底部显示时间标记为'Fri 04 Aug 23 - 11:24'和'Fri 04 Aug 23",
+    "case_021_detail_3.jpg": "NAS100 1分钟图表。图上显示两个面板，左侧为历史K线序列，右侧为放大视图。图上绘制了4条水平线，分别位于15384、15310、15265.77和15200价格水平。右侧面板中有一根黑色K线和一根绿色K线，两根K线之间及其下方标记了两个矩形区域。价格范围约从15200至15400。除水平线和矩形标注外，未见其他指标或形态标记。",
+    "case_021_detail_4.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示约20根混合颜色的K线，包含绿色和黑色蜡烛，伴随上下影线。右侧面板显示4根大型K线：黑色、绿色、黑色、黑色，从约15325跨越至15100。绿色K线夹在两根黑色K线之间。图上绘制多条水平线，间隔约25点，覆盖15100至15340的价格范围。右侧价格刻度标注清晰。图表顶部显示资产代码NAS100、时间框架1m及Backtesting标签",
+    "case_021_detail_5.jpg": "NAS100 1分钟K线图。图上显示从约15100上升至15320的上升趋势，跨越约20根K线。图表中部有两个矩形标注框，分别位于15160-15240和15240-15320价格区间。右侧价格刻度显示多条水平线标记。图上可见一根大型绿色K线位于15300-15350区间，以及两根黑色K线位于15150-15200区间。图右侧显示价格刻度标签，最高至15425.00000000，最低至15100."
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        1195.0,
+        1373.24
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰描述了10 AM扫低、反弹乏力的完整分析过程，图表显示明确的FVG标注和价格结构，交易结果和不满意的价格行为都有记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:34.982879Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"10 AM扫低后反弹乏力的交易分析\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"回测第十九天。上午9:20-9:30形成高点，随后9:30-10:20持续下跌。10 AM时段扫低，之后出现反弹但力度不足，交易者对价格行为不满意。\",\"key_observation\":\"10 AM K线扫低后，价格反弹缺乏位移（Displacement），反弹力度不够强劲，未能有效回到之前的范围，显示市场结构中缺乏买方积极性。\",\"analysis_steps\":[\"Step 1: 标记出第四个时段的高点和低点，观察价格行为。\",\"Step 2: 识别向下扫低（sweep down），设置突破止损和3R目标。\",\"Step 3: 进入第七个时段，标记新的高低点，观察10 AM K线是否扫低。\",\"Step 4: 确认10 AM K线确实扫低，评估价格是否会回到之前的范围。\",\"Step 5: 寻找做多机会，在低点设置止损，目标为范围另一侧（3R）。\",\"Step 6: 交易被止损出场。\",\"Step 7: 进入下一个时段，标记高低点，识别向下扫低。\",\"Step 8: 观察反弹是否产生位移（Displacement），发现反弹不够强劲，缺乏积极性。\",\"Step 9: 识别公允价值缺口（FVG），计划向下位移交易。\",\"Step 10: 投影斐波那契水平，确定3R位置，移动止损至盈亏平衡点。\"],\"outcome\":\"交易被止损出场；后续反弹缺乏位移，显示市场结构疲弱，交易者对该价格行为不满意。\",\"lessons\":\"当价格扫低后反弹缺乏位移和强度时，应警惕市场结构的疲弱。反弹的力度和结构质量是判断后续趋势的关键指标。不满意的价格行为（缺乏位移）是避免交易的重要信号。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f044\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f041\",\"o0v4KQxZbpU_f042\",\"o0v4KQxZbpU_f043\",\"o0v4KQxZbpU_f045\",\"o0v4KQxZbpU_f046\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Liquidity\",\"Sweep\",\"Market Structure\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰描述了10 AM扫低、反弹乏力的完整分析过程，图表显示明确的FVG标注和价格结构，交易结果和不满意的价格行为都有记录。\"}",
+  "error": null
+}

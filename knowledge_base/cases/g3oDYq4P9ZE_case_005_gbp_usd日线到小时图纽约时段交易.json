@@ -1,0 +1,114 @@
+{
+  "card_id": "g3oDYq4P9ZE_case_005_gbp_usd日线到小时图纽约时段交易",
+  "type": "case",
+  "title": "GBP/USD纽约时段小时图FVG交易设置",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "liquidity",
+    "reversal_vs_continuation",
+    "killzone",
+    "market_structure_shift",
+    "swing_low_swing_high"
+  ],
+  "school": "ICT",
+  "asset": "GBP/USD",
+  "timeframe": "1H",
+  "market_context": "基于日线Next Day Model预期看跌。前一日高点未被突破，价格已处于熊市趋势中。纽约时段进场，目标是利用小时图FVG和摆动点进行下跌交易。",
+  "key_observation": "在纽约时段（Killzone）识别到小时图内的FVG，以及从日线高点向下的止损设置。价格在扫荡流动性后形成FVG，提供高概率入场机会。",
+  "analysis_steps": [
+    "Step 1: 在日线图上确认前一日高点未被突破，确立熊市偏差",
+    "Step 2: 下降到小时图，标记午夜开盘价作为参考点",
+    "Step 3: 识别伦敦时段的止损猎杀（stop hunt）进入FVG区域",
+    "Step 4: 标记小时图FVG（约1.27500-1.27380区间）作为潜在入场区域",
+    "Step 5: 设置止损位于小时图高点（约1.27600）",
+    "Step 6: 确定目标位为前一日低点或更低的摆动点（约1.26500或更低）",
+    "Step 7: 在纽约时段等待价格回到FVG区域进场，观察是否有进一步下跌"
+  ],
+  "outcome": "价格从FVG区域向下运动，达到2R目标位（约2.55R风险回报比），最终触及前一日低点附近的摆动点，交易成功达到目标。",
+  "lessons": "利用Next Day Model建立日线偏差，结合小时图FVG和流动性扫荡识别高概率入场点。在Killzone（纽约时段）进场增加成功率。止损设在明确的结构高点，目标位基于前期摆动点和支撑位。",
+  "primary_image": "cards/g3oDYq4P9ZE/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/g3oDYq4P9ZE/images/case_005_detail_1.jpg",
+    "cards/g3oDYq4P9ZE/images/case_005_detail_2.jpg",
+    "cards/g3oDYq4P9ZE/images/case_005_detail_3.jpg",
+    "cards/g3oDYq4P9ZE/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "GBP/USD 1 小时 K 线图。图上显示从左侧高点 1.27600 向下的下跌走势，最低点触及约 1.26500。图上有两条水平线分别位于 1.27600 和 1.26500。标注包括一个灰色矩形标记为'Daily Open'位于上方区域，以及一个青色矩形覆盖中间价格区间。最近一根 K 线呈现长下影线形态，下影线穿过 1.26500 水平线。图底部显示时间标记'Wed 28 Jun 23 00",
+    "case_005_detail_1.jpg": "GBP/USD 日线图。图上显示从 6 月 12 日至 6 月 28 日的 K 线序列，价格范围约 1.25800 至 1.28600。图中绘制两条水平线分别位于 1.27400 和 1.27000 价格水平，两线之间有矩形标注框。K 线序列呈绿黑交替排列，绿色 K 线出现在 12、14、17 日期位置，黑色 K 线穿插其间。右侧价格刻度显示当前价 1.27400，带绿色高亮背景。图上未见其他指标",
+    "case_005_detail_2.jpg": "GBP/USD 1 小时 K 线图。图上显示从 27 日 12:00 至 29 日 12:00 的价格走势。可见价格范围约从 1.26900 到 1.28800。图上有两条水平线分别位于 1.27500 和 1.26800 处。在 28 日 06:00 附近标注有文字'Buys Open'。K 线形态显示先上升后下降的走势，其中上升段约 8 根 K 线，下降段约 6 根 K 线，随后在 1.273",
+    "case_005_detail_3.jpg": "GBP/USD 1小时K线图。图上显示约20根K线，价格范围在1.27060至1.27500之间。图上有两条水平虚线，分别位于1.27380和1.27320处。右侧标注有'Daily Open'文字标签。K线呈现绿色和黑色混合，多数K线具有上下影线，部分K线下影线长度明显超过主体。图右上角显示'TTrader_edu'和'USD'文字。底部时间轴显示从21:30至09:00的时间标记。",
+    "case_005_detail_4.jpg": "GBP/USD 1 小时 K 线图。图上显示价格范围从 1.25200 到 1.27700。一条水平线位于 1.26700 处。矩形标注框标记为'Daily Open'，覆盖约 1.25750 至 1.26150 的价格区间。图表左侧显示一根大幅上升的 K 线，上影线延伸至 1.26750，随后出现多根小型 K 线形成盘整，最后下行至 1.25750 附近。右侧价格轴显示当前价格标签为 1.261"
+  },
+  "sources": [
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        811.56,
+        1106.7
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线偏差到小时图FVG的分析流程，明确标注了入场点、止损位和目标位，并给出了交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:55.678755Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBP/USD纽约时段小时图FVG交易设置\",\"school\":\"ICT\",\"asset\":\"GBP/USD\",\"timeframe\":\"1H\",\"market_context\":\"基于日线Next Day Model预期看跌。前一日高点未被突破，价格已处于熊市趋势中。纽约时段进场，目标是利用小时图FVG和摆动点进行下跌交易。\",\"key_observation\":\"在纽约时段（Killzone）识别到小时图内的FVG，以及从日线高点向下的止损设置。价格在扫荡流动性后形成FVG，提供高概率入场机会。\",\"analysis_steps\":[\"Step 1: 在日线图上确认前一日高点未被突破，确立熊市偏差\",\"Step 2: 下降到小时图，标记午夜开盘价作为参考点\",\"Step 3: 识别伦敦时段的止损猎杀（stop hunt）进入FVG区域\",\"Step 4: 标记小时图FVG（约1.27500-1.27380区间）作为潜在入场区域\",\"Step 5: 设置止损位于小时图高点（约1.27600）\",\"Step 6: 确定目标位为前一日低点或更低的摆动点（约1.26500或更低）\",\"Step 7: 在纽约时段等待价格回到FVG区域进场，观察是否有进一步下跌\"],\"outcome\":\"价格从FVG区域向下运动，达到2R目标位（约2.55R风险回报比），最终触及前一日低点附近的摆动点，交易成功达到目标。\",\"lessons\":\"利用Next Day Model建立日线偏差，结合小时图FVG和流动性扫荡识别高概率入场点。在Killzone（纽约时段）进场增加成功率。止损设在明确的结构高点，目标位基于前期摆动点和支撑位。\",\"primary_image_frame_id\":\"g3oDYq4P9ZE_f033\",\"supporting_image_frame_ids\":[\"g3oDYq4P9ZE_f030\",\"g3oDYq4P9ZE_f031\",\"g3oDYq4P9ZE_f032\",\"g3oDYq4P9ZE_f035\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Liquidity\",\"Next Day Model\",\"Killzone\",\"Market Structure Shift\",\"Swing Point\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线偏差到小时图FVG的分析流程，明确标注了入场点、止损位和目标位，并给出了交易结果。\"}",
+  "error": null
+}

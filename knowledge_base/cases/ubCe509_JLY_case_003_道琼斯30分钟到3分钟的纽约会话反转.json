@@ -1,0 +1,104 @@
+{
+  "card_id": "ubCe509_JLY_case_003_道琼斯30分钟到3分钟的纽约会话反转",
+  "type": "case",
+  "title": "道琼斯30分钟到3分钟纽约会话反转交易",
+  "related_concepts": [
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "FVG",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "failure_swing",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "YM1!",
+  "timeframe": "30M / 3M",
+  "market_context": "纽约会话中，道琼斯在日线开盘附近形成多个失败摆动（failure swings），识别出SMT信号，为向下反转提供高概率设置。",
+  "key_observation": "在30分钟图表上识别到SMT（Smart Money Technique）——日线高点处的失败摆动，结合3分钟图表的公允价值缺口（FVG）回测，确认双时间框架对齐的空头设置。",
+  "analysis_steps": [
+    "Step 1: 在30分钟图表上观察纽约会话，识别日线开盘附近的多个失败摆动（failure swings on the highs），这构成SMT信号。",
+    "Step 2: 确认30分钟结构呈现看跌对齐（bearish alignment），等待价格未能扫除低点但形成SMT的确认。",
+    "Step 3: 在30分钟图表上识别形成的看涨公允价值缺口（bullish FVG），作为3分钟图表的目标回测区域。",
+    "Step 4: 下钻至3分钟图表，观察价格进入30分钟FVG区域（43500-43565）时的行为。",
+    "Step 5: 等待3分钟图表形成看跌价格行为，并在收盘穿过下跌K线进入兴趣点（point of interest）时确认对齐。",
+    "Step 6: 同时扫除3分钟低点，确认双时间框架对齐后，在新K线开盘时入场做空。",
+    "Step 7: 设置止损在低点（43480附近），目标为2R收益（目标价格43365）。"
+  ],
+  "outcome": "成功捕捉向下扩张，达到2R目标。开仓P&L为1，风险收益比1.95，止损61点（0.14%），目标119点（0.27%）。",
+  "lessons": "多时间框架对齐是高概率交易的关键：先在高时间框架（30分钟）确认结构和SMT信号，再在低时间框架（3分钟）等待FVG回测和价格行为确认，只有两个时间框架都指向同一方向时才入场。",
+  "primary_image": "cards/ubCe509_JLY/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/ubCe509_JLY/images/case_003_detail_1.jpg",
+    "cards/ubCe509_JLY/images/case_003_detail_2.jpg",
+    "cards/ubCe509_JLY/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表显示 YM1! 合约 3 分钟周期，时间范围从 08:00 至 13:30。可见价格范围约 43400 至 43690。图上有两条水平线标注：43500 处为蓝色线，43565 处为灰色虚线。一个黄色矩形框覆盖 43500 至 43565 价格区间。图右侧有一条竖虚线标记时间点 10:39。K 线集中在 43500 至 43600 区间内波动，包含多根绿色和黑色蜡烛，部分 K 线下影线穿破 4",
+    "case_003_detail_1.jpg": "图表显示 YM1! 合约 30 分钟周期的 K 线图。价格范围从 43280 到 43740。图上有一条水平虚线位于 43456 处。K 线序列从 25 日 06:00 开始，09:00 处出现向上跳空至 43420，随后形成一系列小实体的绿色 K 线在 43600 至 43660 区间内，21:00 处出现黑色 K 线收于 43580。26 日 03:00 至 09:00 期间形成下跌趋势，连续",
+    "case_003_detail_2.jpg": "图表显示 YM1! 合约 30 分钟周期。价格范围从 43280 到 43740。图上有一条水平虚线位于 43542 处，贯穿图表右侧。左侧开盘处出现一根大幅绿色 K 线从 43320 上升至 43660。中间区域约 8 根 K 线在 43600 至 43640 之间交替出现绿色和黑色。随后约 10 根黑色 K 线形成下跌趋势至 43480。图上标注有一个矩形框围绕 43480 至 43520 区",
+    "case_003_detail_3.jpg": "图表显示一分钟时间框架的 K 线图。价格范围从 43440 到 43730。图上有三个矩形区域标注：黄色区域位于下方约 43530 至 43600，绿色区域位于上方约 43720 至 43730，灰色区域位于中间约 43600 至 43720。右侧标注显示开仓 P&L 为 1，数量 0.164，风险收益比 1.95；止损位 61（0.14%），金额 49950；目标位 119（0.27%），金额 "
+  },
+  "sources": [
+    {
+      "video_id": "ubCe509_JLY",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        551.76,
+        730.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了30分钟和3分钟的分析过程，清晰标注了关键价位、FVG区域、入场点和止损目标，交易结果明确达到2R。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:12.586272Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"道琼斯30分钟到3分钟纽约会话反转交易\",\"school\":\"ICT\",\"asset\":\"YM1!\",\"timeframe\":\"30M / 3M\",\"market_context\":\"纽约会话中，道琼斯在日线开盘附近形成多个失败摆动（failure swings），识别出SMT信号，为向下反转提供高概率设置。\",\"key_observation\":\"在30分钟图表上识别到SMT（Smart Money Technique）——日线高点处的失败摆动，结合3分钟图表的公允价值缺口（FVG）回测，确认双时间框架对齐的空头设置。\",\"analysis_steps\":[\"Step 1: 在30分钟图表上观察纽约会话，识别日线开盘附近的多个失败摆动（failure swings on the highs），这构成SMT信号。\",\"Step 2: 确认30分钟结构呈现看跌对齐（bearish alignment），等待价格未能扫除低点但形成SMT的确认。\",\"Step 3: 在30分钟图表上识别形成的看涨公允价值缺口（bullish FVG），作为3分钟图表的目标回测区域。\",\"Step 4: 下钻至3分钟图表，观察价格进入30分钟FVG区域（43500-43565）时的行为。\",\"Step 5: 等待3分钟图表形成看跌价格行为，并在收盘穿过下跌K线进入兴趣点（point of interest）时确认对齐。\",\"Step 6: 同时扫除3分钟低点，确认双时间框架对齐后，在新K线开盘时入场做空。\",\"Step 7: 设置止损在低点（43480附近），目标为2R收益（目标价格43365）。\"],\"outcome\":\"成功捕捉向下扩张，达到2R目标。开仓P&L为1，风险收益比1.95，止损61点（0.14%），目标119点（0.27%）。\",\"lessons\":\"多时间框架对齐是高概率交易的关键：先在高时间框架（30分钟）确认结构和SMT信号，再在低时间框架（3分钟）等待FVG回测和价格行为确认，只有两个时间框架都指向同一方向时才入场。\",\"primary_image_frame_id\":\"ubCe509_JLY_f024\",\"supporting_image_frame_ids\":[\"ubCe509_JLY_f022\",\"ubCe509_JLY_f023\",\"ubCe509_JLY_f025\"],\"related_concepts\":[\"SMT\",\"FVG\",\"Order Block\",\"Market Structure Shift\",\"Failure Swing\",\"Multi-Timeframe Alignment\",\"Price Action\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了30分钟和3分钟的分析过程，清晰标注了关键价位、FVG区域、入场点和止损目标，交易结果明确达到2R。\"}",
+  "error": null
+}

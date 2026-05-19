@@ -1,0 +1,107 @@
+{
+  "card_id": "mwmWNCTEYtY_case_001_nq日线扫盘至内部流动性案例",
+  "type": "case",
+  "title": "NQ日线扫盘至内部流动性案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Internal Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Risk-Reward Ratio (2R)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "internal_range_liquidity",
+    "buyside_sellside_liquidity",
+    "market_structure_shift_mss",
+    "short_term_high_short_term_low",
+    "killzone",
+    "order_block_ob"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "NQ日线在经历强势下跌后形成摆动低点，随后出现反弹。博主追踪价格从外部流动性（日线低点）回测至内部流动性（日线FVG）的过程，并在多个时间框架上寻找交易机会。",
+  "key_observation": "价格扫除日线外部低点后，预期回测日线内部流动性（FVG）。在小时图和5分钟图上，价格形成MSS和新的FVG，为交易提供高概率入场点。",
+  "analysis_steps": [
+    "Step 1: 在NQ日线上识别摆动低点（外部流动性），标记为swing low，两侧各有更高的低点。",
+    "Step 2: 识别日线上的FVG（内部流动性），该FVG同时是新交易日的开盘缺口。",
+    "Step 3: 下降至1小时图，确认价格已进入伦敦交易时段（Kill Zone），并验证价格正在回测日线FVG。",
+    "Step 4: 在1小时图上观察价格形成摆动低点，预期从内部流动性（日线FVG）向外部流动性（日线高点）运动。",
+    "Step 5: 继续下降至5分钟图，识别价格在回测小时图FVG后形成的市场结构转变（MSS）。",
+    "Step 6: 在5分钟图上标记两个FVG区域，选择在第一个FVG起点入场，止损设在该FVG的最低点。",
+    "Step 7: 设定目标为2R，该目标位于摆动高点附近，对应外部流动性。",
+    "Step 8: 跟踪交易执行，价格触及入场点后上升至目标高点，完成从内部到外部流动性的运动。"
+  ],
+  "outcome": "交易成功达成2R目标。价格从日线FVG回测点上升至摆动高点，完成内部到外部流动性的完整周期。若持有至日线FVG可获得更高收益，但按照该模型仅关注2R目标。",
+  "lessons": "该案例展示了多时间框架流动性模型的实际应用：(1)从高时间框架识别内外部流动性关键位；(2)在Kill Zone时段下降至低时间框架寻找具体入场点；(3)利用MSS和FVG在低时间框架上精确定位止损和目标；(4)价格倾向于从外部流动性回测至内部流动性，再向新的外部流动性运动。",
+  "primary_image": "cards/mwmWNCTEYtY/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/mwmWNCTEYtY/images/case_001_detail_1.jpg",
+    "cards/mwmWNCTEYtY/images/case_001_detail_2.jpg",
+    "cards/mwmWNCTEYtY/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ETH 1 小时 K 线图。图上显示价格范围约从 17400 到 17800。图中有一段上升的 K 线序列，主要由绿色 K 线组成，从左侧约 17500 上升至中部约 17710，共约 8 根 K 线。上升段后出现一根黑色 K 线。图上标注有两个粉红色矩形区域，分别位于 17790-17800 和 17680-17690 价格水平。另有一条水平虚线位于 17690。图右下角显示时间标记'24-4-",
+    "case_001_detail_1.jpg": "TTUSDT_OKX 日线图。图表显示从 1 月下旬至 4 月中旬的上升趋势，由绿色和黑色 K 线交替组成，高点约 18650。随后从 4 月中旬至下旬出现急速下跌，由连续黑色 K 线构成，低点约 16450。图右侧最新 K 线为绿色，收盘价在 17000 上方。图上有一条水平线位于 17400 价格水平，跨越中间多根 K 线。可见价格范围约 16450 至 18700。",
+    "case_001_detail_2.jpg": "ETH 1 小时 K 线图。图上显示从左下方约 17620 的低点向上的一系列绿色 K 线，逐步上升至约 17790 附近。图上有一条粉红色矩形区域，跨越图表中部至右侧，位于 17740 至 17790 价格范围内。右侧最新 K 线为绿色，上影线刺破至约 17800。图左下角显示时间标记'23/4/2024'及'10:11 | 6:08'。图表右下角显示当前时间戳。除上述矩形标注外，未见其他指标或",
+    "case_001_detail_3.jpg": "BTC 1 小时 K 线图，时间戳显示 24-4-2024。图上可见价格范围从 17064 到 17770。三条水平线分别位于 17745、17690 和 17064 处。图表下方和上方各有一条粉红色背景的矩形区域。中间偏下位置有一根 K 线用黄色高亮标记，位置约在 17100 附近。整体 K 线呈下行趋势，从左侧高点向右下方延伸至低点区域。"
+  },
+  "sources": [
+    {
+      "video_id": "mwmWNCTEYtY",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.04,
+        372.479
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时图再到5分钟图的分析过程，清晰标注了FVG、摆动点、入场点、止损和目标，并给出了交易结果。所有关键价位和时间框架均可从图表和讲解中读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:03.732842Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线扫盘至内部流动性案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"NQ日线在经历强势下跌后形成摆动低点，随后出现反弹。博主追踪价格从外部流动性（日线低点）回测至内部流动性（日线FVG）的过程，并在多个时间框架上寻找交易机会。\",\"key_observation\":\"价格扫除日线外部低点后，预期回测日线内部流动性（FVG）。在小时图和5分钟图上，价格形成MSS和新的FVG，为交易提供高概率入场点。\",\"analysis_steps\":[\"Step 1: 在NQ日线上识别摆动低点（外部流动性），标记为swing low，两侧各有更高的低点。\",\"Step 2: 识别日线上的FVG（内部流动性），该FVG同时是新交易日的开盘缺口。\",\"Step 3: 下降至1小时图，确认价格已进入伦敦交易时段（Kill Zone），并验证价格正在回测日线FVG。\",\"Step 4: 在1小时图上观察价格形成摆动低点，预期从内部流动性（日线FVG）向外部流动性（日线高点）运动。\",\"Step 5: 继续下降至5分钟图，识别价格在回测小时图FVG后形成的市场结构转变（MSS）。\",\"Step 6: 在5分钟图上标记两个FVG区域，选择在第一个FVG起点入场，止损设在该FVG的最低点。\",\"Step 7: 设定目标为2R，该目标位于摆动高点附近，对应外部流动性。\",\"Step 8: 跟踪交易执行，价格触及入场点后上升至目标高点，完成从内部到外部流动性的运动。\"],\"outcome\":\"交易成功达成2R目标。价格从日线FVG回测点上升至摆动高点，完成内部到外部流动性的完整周期。若持有至日线FVG可获得更高收益，但按照该模型仅关注2R目标。\",\"lessons\":\"该案例展示了多时间框架流动性模型的实际应用：(1)从高时间框架识别内外部流动性关键位；(2)在Kill Zone时段下降至低时间框架寻找具体入场点；(3)利用MSS和FVG在低时间框架上精确定位止损和目标；(4)价格倾向于从外部流动性回测至内部流动性，再向新的外部流动性运动。\",\"primary_image_frame_id\":\"mwmWNCTEYtY_f009\",\"supporting_image_frame_ids\":[\"mwmWNCTEYtY_f007\",\"mwmWNCTEYtY_f008\",\"mwmWNCTEYtY_f010\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Internal Liquidity\",\"External Liquidity\",\"Buyside Liquidity (BSL)\",\"Sellside Liquidity (SSL)\",\"Market Structure Shift (MSS)\",\"Swing High / Swing Low\",\"Killzone\",\"Order Block (OB)\",\"Risk-Reward Ratio (2R)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到小时图再到5分钟图的分析过程，清晰标注了FVG、摆动点、入场点、止损和目标，并给出了交易结果。所有关键价位和时间框架均可从图表和讲解中读出。\"}",
+  "error": null
+}

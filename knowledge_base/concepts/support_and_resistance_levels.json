@@ -1,0 +1,61 @@
+{
+  "card_id": "support_and_resistance_levels",
+  "type": "merged_concept",
+  "canonical_term": "Support and Resistance Levels",
+  "aliases": [
+    "S&R Levels",
+    "Support/Resistance",
+    "时间支撑阻力位"
+  ],
+  "school": "Price Action",
+  "definition": "基于特定时间点（如午夜开盘、8:30、9:30、10:00、14:00）形成的价格水平，价格在这些位置反复测试并作为支撑或阻力，用于预测价格反转或延续。",
+  "identification_rules": [
+    "午夜开盘（0:00）：每日新K线开盘价位置，可用作支撑/阻力或溢价/折价区分界线",
+    "8:30开盘：新闻禁令解除或高影响新闻发布时间，常形成对立摆动（Judas swing）或订单块",
+    "9:30开盘：纽约股票交易所开盘时间，标志波动性进入市场，常伴随分布阶段",
+    "10:00和14:00：4小时K线开盘时间，用于识别4小时周期的开高低收形态",
+    "价格在这些时间点反复接触同一水平线，确认其有效性后可作为交易参考"
+  ],
+  "trading_implication": "交易者在这些关键时间点监测价格行为，判断支撑或阻力是否被尊重。若价格无法突破这些水平，则反向运行；若突破，则该水平转变为相反方向的支撑/阻力。结合开高低收形态和订单块识别，可预测价格在新K线周期内的延续或反转方向。",
+  "common_mistakes": [
+    "仅依赖单一时间水平判断，未考虑价格是否在溢价区或折价区",
+    "未在低时间框架确认时间水平的有效性就直接交易",
+    "忽视时间水平与订单块、对立摆动的组合作用",
+    "不同资产类别的时间水平设置不同（如外汇无9:30开盘），混淆使用"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_support_and_resistance_levels",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.84,
+        904.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136099Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

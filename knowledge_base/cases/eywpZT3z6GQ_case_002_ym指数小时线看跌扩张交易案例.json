@@ -1,0 +1,112 @@
+{
+  "card_id": "eywpZT3z6GQ_case_002_ym指数小时线看跌扩张交易案例",
+  "type": "case",
+  "title": "YM指数小时线看跌扩张交易案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Candle closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Retracement vs Reversal",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swings",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "equal_lows",
+    "displacement",
+    "order_block_ob",
+    "candle_closure"
+  ],
+  "school": "ICT",
+  "asset": "YM",
+  "timeframe": "1H",
+  "market_context": "YM指数在小时线上形成向下扩张形态，伴随浅幅反向运动。价格在公允价值缺口和等低点之间形成交易结构，为向下延续提供了清晰的交易背景。",
+  "key_observation": "博主识别到小时线第2根K线收盘后出现的向下扩张机会。通过观察公允价值缺口（FVG）和等低点（equal lows）的对齐，预期第3根K线向下延续。",
+  "analysis_steps": [
+    "Step 1: 在YM小时线上识别向下扩张形态和浅幅反向运动",
+    "Step 2: 标记公允价值缺口（FVG）和下方等低点的位置",
+    "Step 3: 确认小时线第2根K线收盘，为第3根K线的交易提供背景",
+    "Step 4: 下移至15分钟时间框架，验证扩张形态和FVG是否保持",
+    "Step 5: 确认15分钟第2根K线收盘与小时线第3根K线对齐",
+    "Step 6: 进一步下移至1分钟时间框架，寻找具体入场设置",
+    "Step 7: 监控价格是否进入FVG或形成完整的开高低收（OHLC）形态",
+    "Step 8: 等待价格最终突破短期低点，确认向下延续的有效性",
+    "Step 9: 识别价格运动为回测（retracement）而非反转（reversal），确认继续做空的有效性"
+  ],
+  "outcome": "交易最终成功。价格经过一段时间的整理后，最终向下延续并突破短期低点，完成了预期的向下扩张交易。虽然没有获得理想的A+入场形态（wick进入FVG后立即下跌），但通过识别价格运动的性质（回测而非反转），交易者成功捕捉了向下延续的机会。",
+  "lessons": "多时间框架对齐是关键：小时线、15分钟线和1分钟线的结构必须相互验证。区分回测与反转至关重要——突破短期低点后的反向运动是回测，提供了有效的继续交易机会。等待完整的K线收盘信号和FVG的确认能提高交易的概率。",
+  "primary_image": "cards/eywpZT3z6GQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/eywpZT3z6GQ/images/case_002_detail_1.jpg",
+    "cards/eywpZT3z6GQ/images/case_002_detail_2.jpg",
+    "cards/eywpZT3z6GQ/images/case_002_detail_3.jpg",
+    "cards/eywpZT3z6GQ/images/case_002_detail_4.jpg",
+    "cards/eywpZT3z6GQ/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示 USDT 1 小时 K 线图，价格范围从 3600 至 4900。左侧显示约 40 根绿色 K 线构成上升趋势，从 3600 上升至 4850。中间区域出现黑色 K 线，价格在 4550 至 4850 之间形成盘整。右侧显示价格从 4850 下跌至 4350，期间混合绿色和黑色 K 线。图上有四条水平线分别位于 4850、4700、4550、4350 处。右侧图表区域用浅绿色矩形框标记了",
+    "case_002_detail_1.jpg": "USDT 1小时K线图。图上显示从左下至右上的上升趋势，价格范围从4.6014至4.8815。中间区域存在三个矩形标注框，分别覆盖约4.7500至4.8200、4.7000至4.7500、以及4.7800至4.8815的价格区间。早期K线多为绿色，中间区域出现黑色和绿色混合的K线，显示多根K线在4.7400至4.7800区间内波动。右侧区域有一根较高的黑色K线，其后跟随绿色K线。整体K线形态显示长",
+    "case_002_detail_2.jpg": "图表显示 USDT 资产的 K 线图，价格范围约从 81500 到 84000。图上有两条水平线分别位于 83000 和 82500 处。图中可见一个黄色矩形框标注，覆盖上方价格区域约 83000 至 83500 范围内的多根 K 线。K 线序列中黑色蜡烛与绿色蜡烛交替出现，整体呈现在 82500 至 83500 区间内的盘整形态，跨越约 20 根 K 线。",
+    "case_002_detail_3.jpg": "BTC K线图显示从58000至84500的上升趋势，随后出现回调。图上标注有三个水平价格区间：82000至84500处、70000至72000处、65000至68000处，分别用黄色和灰色矩形框标记。右侧显示三根连续黑色K线，价格范围在65000至72000之间，伴随较长下影线。整体可见价格范围约从58000到84500。",
+    "case_002_detail_4.jpg": "BTC K线图显示价格从左侧约61000上升至67500附近，随后出现回调并在64000至66500区间内整理。图右侧显示从66500向下快速下跌至61500，期间出现3根连续黑色K线，影线较短。图上有多条水平线标注在66500、64000、62500等价位。两个矩形框分别标注在上方66200-67200区间（浅黄色背景）和下方61500-63000区间（浅蓝色背景）。可见价格范围约从61000至",
+    "case_002_detail_5.jpg": "BTC K线图显示价格范围约61000至65000。图上有一条上升趋势从左侧约61000上升至65000附近，随后出现下降趋势回落至61200附近。图上标注有三个矩形区域，分别位于64200-64800、62000-63000和61200-62200价格区间。右侧K线显示多根带有上下影线的蜡烛，表现出在这些区域内的波动。图上有多条水平线但未见文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "eywpZT3z6GQ",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        307.039,
+        480.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从小时线到15分钟再到1分钟的多时间框架分析过程，清晰标注了FVG和等低点，交易结果明确，分析步骤详细。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:46.771755Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"YM指数小时线看跌扩张交易案例\",\"school\":\"ICT\",\"asset\":\"YM\",\"timeframe\":\"1H\",\"market_context\":\"YM指数在小时线上形成向下扩张形态，伴随浅幅反向运动。价格在公允价值缺口和等低点之间形成交易结构，为向下延续提供了清晰的交易背景。\",\"key_observation\":\"博主识别到小时线第2根K线收盘后出现的向下扩张机会。通过观察公允价值缺口（FVG）和等低点（equal lows）的对齐，预期第3根K线向下延续。\",\"analysis_steps\":[\"Step 1: 在YM小时线上识别向下扩张形态和浅幅反向运动\",\"Step 2: 标记公允价值缺口（FVG）和下方等低点的位置\",\"Step 3: 确认小时线第2根K线收盘，为第3根K线的交易提供背景\",\"Step 4: 下移至15分钟时间框架，验证扩张形态和FVG是否保持\",\"Step 5: 确认15分钟第2根K线收盘与小时线第3根K线对齐\",\"Step 6: 进一步下移至1分钟时间框架，寻找具体入场设置\",\"Step 7: 监控价格是否进入FVG或形成完整的开高低收（OHLC）形态\",\"Step 8: 等待价格最终突破短期低点，确认向下延续的有效性\",\"Step 9: 识别价格运动为回测（retracement）而非反转（reversal），确认继续做空的有效性\"],\"outcome\":\"交易最终成功。价格经过一段时间的整理后，最终向下延续并突破短期低点，完成了预期的向下扩张交易。虽然没有获得理想的A+入场形态（wick进入FVG后立即下跌），但通过识别价格运动的性质（回测而非反转），交易者成功捕捉了向下延续的机会。\",\"lessons\":\"多时间框架对齐是关键：小时线、15分钟线和1分钟线的结构必须相互验证。区分回测与反转至关重要——突破短期低点后的反向运动是回测，提供了有效的继续交易机会。等待完整的K线收盘信号和FVG的确认能提高交易的概率。\",\"primary_image_frame_id\":\"eywpZT3z6GQ_f012\",\"supporting_image_frame_ids\":[\"eywpZT3z6GQ_f011\",\"eywpZT3z6GQ_f014\",\"eywpZT3z6GQ_f015\",\"eywpZT3z6GQ_f001\",\"eywpZT3z6GQ_f016\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Equal Lows\",\"Displacement\",\"Order Block (OB)\",\"Multi-timeframe alignment\",\"Candle closure\",\"Retracement vs Reversal\",\"Protected Swings\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从小时线到15分钟再到1分钟的多时间框架分析过程，清晰标注了FVG和等低点，交易结果明确，分析步骤详细。\"}",
+  "error": null
+}

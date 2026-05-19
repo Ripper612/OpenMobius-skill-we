@@ -1,0 +1,93 @@
+{
+  "card_id": "protected_swing_protected_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Protected Swing / Protected High/Low",
+  "aliases": [
+    "Protected High",
+    "Protected Low",
+    "Protected Swing Point"
+  ],
+  "school": "ICT",
+  "definition": "在趋势延续中，通过CSD确认的摆动点，预期在后续价格运动中不会被突破。作为止损位参考和交易确认的关键水平。",
+  "identification_rules": [
+    "价格形成浅层对向运动（shallow opposing run/wick）后，出现CSD（交付状态改变）",
+    "CSD表现为价格收盘穿过前一根K线的相反方向，确认摆动点已形成",
+    "在趋势方向上，该摆动点的低点（看涨）或高点（看跌）成为protected level",
+    "可通过低时间框架的fractal model确认高时间框架摆动点的wick已形成"
+  ],
+  "trading_implication": "Protected Swing确认后，交易者可以在该水平设置止损，预期价格不会回破该点。用于确认扩张蜡烛（expansion candle）的有效性，以及寻找continuation entry。当形成新的protected swing时，可用作新的止损位，支持风险回报比计算（如2R目标）。",
+  "common_mistakes": [
+    "在wick完全形成前过早入场，导致被止损出局",
+    "混淆shallow opposing run与large opposing run，误判protected swing的形成",
+    "未等待CSD确认就假设摆动点已protected，导致价格继续突破该水平",
+    "在expansion candle内多次追单，而非等待新的higher time frame candle开盘获得新range"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-wr4xATE37g_case_001_eur_usd日线与小时线的受保护摆动追踪",
+      "video_id": "-wr4xATE37g",
+      "title": "EUR/USD日线反转与小时线受保护摆动追踪"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_004_btc日线看跌扩张交易",
+      "video_id": "5fnFOh5YuM0",
+      "title": "日线扩张K线的多时间框架看跌交易"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_001_btc日线扩张走势中的均衡点应用",
+      "video_id": "IPZjNI1B5a0",
+      "title": "ETH日线扩张走势中的均衡点应用与PD数组匹配"
+    },
+    {
+      "card_id": "IPZjNI1B5a0_case_002_ym指数多日连续扩张的均衡点追踪",
+      "video_id": "IPZjNI1B5a0",
+      "title": "YM指数多日连续扩张的均衡点追踪"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_001_btc小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "BTC小时图V形反转到5分钟图多头延续交易"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_001_黄金日线反转交易案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "SPX日线小影线反转交易——从CSD到流动性目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_protected_swing_protected_high_low",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_008",
+        "seg_011",
+        "seg_013",
+        "seg_015"
+      ],
+      "time_range": [
+        54.16,
+        837.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135145Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

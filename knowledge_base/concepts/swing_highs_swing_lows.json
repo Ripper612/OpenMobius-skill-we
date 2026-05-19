@@ -1,0 +1,60 @@
+{
+  "card_id": "swing_highs_swing_lows",
+  "type": "merged_concept",
+  "canonical_term": "Swing Highs / Swing Lows",
+  "aliases": [
+    "Short-term Highs/Lows",
+    "摆动高点/摆动低点",
+    "相对等高/等低 (Relative Equal Highs/Lows)"
+  ],
+  "school": "ICT",
+  "definition": "价格在趋势中形成的局部高点和低点。这些位置是交易者设置止损的关键区域，因此汇集了大量流动性，成为市场结构分析的基础。",
+  "identification_rules": [
+    "识别连续的价格波动中，相对高于周围K线的价格点作为摆动高点",
+    "识别连续的价格波动中，相对低于周围K线的价格点作为摆动低点",
+    "在同一时间框架内，多个相同或接近价格水平的摆动高/低点称为相对等高/等低（Relative Equal Highs/Lows）",
+    "摆动高点之上和摆动低点之下是流动性集中区域，通常成为后续交易的目标"
+  ],
+  "trading_implication": "摆动高/低点是识别市场结构和流动性位置的关键工具。交易者通过标记这些点来确定止损位置所在的流动性区域，进而判断价格最可能的运动方向。在多时间框架分析中，摆动高/低点帮助确定日内偏差（是否需要先向下扫荡流动性再上升），从而优化交易入场时机。",
+  "common_mistakes": [
+    "材料未明确提及常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FdRKBTz0Fps_case_003_15分钟图表中的结构清晰性对比",
+      "video_id": "FdRKBTz0Fps",
+      "title": "15分钟图表结构清晰性对比：噪音少、趋势易识别"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "tZMgGsTqqVM",
+      "original_card_id": "tZMgGsTqqVM_concept_swing_highs_swing_lows",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        6.96,
+        345.32
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136122Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

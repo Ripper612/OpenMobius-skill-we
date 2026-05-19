@@ -1,0 +1,100 @@
+{
+  "card_id": "m4k_1pF5zFI_case_003_usd日线盘整突破案例",
+  "type": "case",
+  "title": "GLL日线盘整突破后流动性枯竭案例",
+  "related_concepts": [
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Failed Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breakout",
+      "card_id": "breakout",
+      "exists": true
+    },
+    {
+      "term": "HTF Analysis",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "consolidation",
+    "failure_swing",
+    "low_resistance_liquidity",
+    "market_structure",
+    "order_block",
+    "breakout"
+  ],
+  "school": "SMC",
+  "asset": "GLL",
+  "timeframe": "1H",
+  "market_context": "GLL在1.8850-1.9350区间内形成盘整，两侧均有失败摇摆。纽约时段已扫除亚洲和伦敦的高点，缺乏低阻力流动性目标。",
+  "key_observation": "价格突破盘整低点后，由于高点已在纽约时段被扫除，缺乏清晰的失败摇摆作为目标，导致交易吸引力大幅下降。",
+  "analysis_steps": [
+    "Step 1: 识别盘整区间——前一根K线的范围涵盖后续所有K线，标记出1.9350高点和1.8850低点。",
+    "Step 2: 观察两侧失败摇摆——检查高时间框架K线不重叠，确认两侧均有失败摇摆。",
+    "Step 3: 等待区间边界被突破——在高点或低点被触及前不寻求交易机会。",
+    "Step 4: 确认低点突破——价格突破1.8850盘整低点。",
+    "Step 5: 评估目标可行性——分析纽约时段已扫除亚洲和伦敦高点，缺乏低阻力流动性目标。",
+    "Step 6: 判断交易吸引力——由于缺乏清晰的失败摇摆或日线开盘价目标，交易范围有限，吸引力下降。"
+  ],
+  "outcome": null,
+  "lessons": "在盘整突破后，必须评估高时间框架的流动性状况。若关键摆动点已被扫除，即使突破成立也缺乏有效目标，应避免追逐低阻力的突破。",
+  "primary_image": "cards/m4k_1pF5zFI/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/m4k_1pF5zFI/images/case_003_detail_1.jpg",
+    "cards/m4k_1pF5zFI/images/case_003_detail_2.jpg",
+    "cards/m4k_1pF5zFI/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "GLL/USD 1小时K线图。图上显示价格范围从1.8650至1.9500。图中绘制有一个矩形框标注，范围约在1.8850至1.9330之间。两条水平虚线分别位于1.9043和1.9330价位。K线序列显示多根绿色和黑色蜡烛体在矩形框内交替出现，形成盘整形态。图右侧最新K线为黑色实体，其后跟随一根绿色K线。图底部显示时间刻度，标记有08:00、06:00、12:00、18:00等时间点，以及一条竖",
+    "case_003_detail_1.jpg": "GLL 1 小时 K 线图。图上绘制了一个矩形框，上边界在 1.9350，下边界在 1.8850。可见价格范围约从 1.8650 到 1.9450。图表左侧显示早期 K 线波动较大，中间区域 K 线在矩形框内密集波动，包含绿色和黑色 K 线混合。右侧最新三根 K 线分别为黑色、绿色、黑色，均在 1.9050 至 1.9150 区间内。图上有两条水平线分别位于 1.9350 和 1.8850，与矩形",
+    "case_003_detail_2.jpg": "GLL/USD 图表显示价格范围从 1.8850 到 1.9450。图上有一个矩形框标注在 1.9050 至 1.9350 区间。左侧 K 线显示在 1.9050 至 1.9350 之间的盘整。中间部分价格下行至 1.8850 附近。右侧最新三根 K 线分别为黑色、绿色、黑色，位于 1.8950 至 1.9150 区间。图上有两条水平虚线分别位于 1.8880 和 1.9150 价格水平。",
+    "case_003_detail_3.jpg": "GLL 货币对 K 线图。图上显示价格范围从 1.8650 到 1.9500。两条水平虚线分别位于 1.9100 和 1.8850 处。一个矩形框标注了从 1.8850 到 1.9350 的价格区间。图右侧显示文字标签'0.0115 (0.61%) 115'。K 线由绿色和黑色主体组成，多数 K 线具有上下影线。图表右侧最新的两根 K 线分别为绿色和黑色主体。底部时间轴显示时间刻度，但具体时间框架"
+  },
+  "sources": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "segment_ids": [
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        473.199,
+        605.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整分析了盘整识别、失败摇摆判断、突破确认及流动性评估全过程，关键价位清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:57.948582Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GLL日线盘整突破后流动性枯竭案例\",\"school\":\"SMC\",\"asset\":\"GLL\",\"timeframe\":\"1H\",\"market_context\":\"GLL在1.8850-1.9350区间内形成盘整，两侧均有失败摇摆。纽约时段已扫除亚洲和伦敦的高点，缺乏低阻力流动性目标。\",\"key_observation\":\"价格突破盘整低点后，由于高点已在纽约时段被扫除，缺乏清晰的失败摇摆作为目标，导致交易吸引力大幅下降。\",\"analysis_steps\":[\"Step 1: 识别盘整区间——前一根K线的范围涵盖后续所有K线，标记出1.9350高点和1.8850低点。\",\"Step 2: 观察两侧失败摇摆——检查高时间框架K线不重叠，确认两侧均有失败摇摆。\",\"Step 3: 等待区间边界被突破——在高点或低点被触及前不寻求交易机会。\",\"Step 4: 确认低点突破——价格突破1.8850盘整低点。\",\"Step 5: 评估目标可行性——分析纽约时段已扫除亚洲和伦敦高点，缺乏低阻力流动性目标。\",\"Step 6: 判断交易吸引力——由于缺乏清晰的失败摇摆或日线开盘价目标，交易范围有限，吸引力下降。\"],\"outcome\":null,\"lessons\":\"在盘整突破后，必须评估高时间框架的流动性状况。若关键摆动点已被扫除，即使突破成立也缺乏有效目标，应避免追逐低阻力的突破。\",\"primary_image_frame_id\":\"m4k_1pF5zFI_f020\",\"supporting_image_frame_ids\":[\"m4k_1pF5zFI_f019\",\"m4k_1pF5zFI_f001\",\"m4k_1pF5zFI_f021\"],\"related_concepts\":[\"Consolidation\",\"Failed Swing\",\"Low Resistance Liquidity\",\"Market Structure\",\"Order Block\",\"Breakout\",\"HTF Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整分析了盘整识别、失败摇摆判断、突破确认及流动性评估全过程，关键价位清晰可见。\"}",
+  "error": null
+}

@@ -1,0 +1,112 @@
+{
+  "card_id": "IeXtmeKqjnQ_case_001_纳斯达克期货_nq_看涨操纵案例",
+  "type": "case",
+  "title": "NQ看涨操纵：伦敦整理后纽约开盘下行操纵突破前高",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Accumulation Manipulation Distribution",
+      "card_id": "accumulation_manipulation_distribution_accumula",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Discount Zone",
+      "card_id": "premium_discount_area",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "buyside_sellside_liquidity",
+    "power_of_3_indicator",
+    "accumulation_manipulation_distribution_accumula",
+    "inducement",
+    "premium_discount_area"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M / 5M / 1M",
+  "market_context": "NQ在日线上形成3天扩张后回撤至FVG支撑，收盘突破前一日高点。伦敦时段整理，纽约开盘时段进行下行操纵，随后CSD确认继续上行至前一日高点。",
+  "key_observation": "典型的看涨纽约操纵模式：London整理或未能到达HTF关键位，New York在该范围内操纵下行制造诱导，随后CSD确认并继续上行至目标位（前一日高点）。",
+  "analysis_steps": [
+    "Step 1: 观察日线结构，识别3天扩张后形成的摆动低点和FVG支撑区域（约17390-17650）。",
+    "Step 2: 确认前一日收盘突破前一日高点，预期后续目标为前一日高点。",
+    "Step 3: 下探15分钟图，观察London会话行为——确认London主要整理，未能到达HTF关键位（Buyside Liquidity约17810-17830）。",
+    "Step 4: 识别New York会话的操纵行为——在8:30或9:30时段出现向上操纵，随后向下操纵至低点区域。",
+    "Step 5: 下探5分钟图，确认New York开盘后的下行操纵低点，观察是否能够突破该低点形成新低。",
+    "Step 6: 确认CSD（Change in State of Delivery）——收盘突破下行操纵的高点，预示上行延续。",
+    "Step 7: 下探1分钟图，在CSD确认后的折价区（Discount Zone）寻找最优入场点（OTE）。",
+    "Step 8: 设置止损于操纵低点，目标指向前一日高点（Buyside Liquidity区域）。"
+  ],
+  "outcome": "价格在New York开盘后被操纵至低点，随后CSD确认，收盘突破操纵高点，最终达到前一日高点目标位。",
+  "lessons": "看涨纽约操纵的核心特征是London整理+New York下行操纵+CSD确认+上行延续。通过多时间框架分析（日线→15分钟→5分钟→1分钟）逐层确认结构，在CSD后的折价区寻找高概率入场点，目标为HTF关键位（前一日高点/Buyside Liquidity）。",
+  "primary_image": "cards/IeXtmeKqjnQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/IeXtmeKqjnQ/images/case_001_detail_1.jpg",
+    "cards/IeXtmeKqjnQ/images/case_001_detail_2.jpg",
+    "cards/IeXtmeKqjnQ/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图为教学示意图，标题为'Bullish NY Manipulation'，副标题为'Bullish Example'，来源标注为TTrades第4页。图上绘有一条黄色水平线标注为'HTF Key Level'，另有一条蓝色水平线标注为'CSD'。图上有两个黄色文字标签框：'London'指向左侧K线群，'New York'指向右侧低点区域。K线序列在New York标注处出现向下刺破HTF Key",
+    "case_001_detail_1.jpg": "NQ1！15 分钟 K 线图，图左上角标注资产为 NASDAQ 100 E-mini Futures，时间框架 15M。图上有一个带文字标签的矩形框，标注为 Buyside Liquidity，位于约 17810 至 17830 价格区间，矩形横跨多根 K 线。图中另有一个较大的黑色矩形覆盖约 17760 至 17820 区间的一根大阴线实体。图左侧可见一根从约 17390 延伸至 17650 的",
+    "case_001_detail_2.jpg": "图为 NASDAQ 100 E mini Futures（NQ1!）5 分钟 K 线图，日期标注为 2026 年 4 月 26 日，来源标注为 TTrades_edu。图上可见价格范围约从 17630 至 17860。图右侧有一个大面积黑色矩形覆盖约 07:30 之后的 K 线区域。图上有两条水平线，分别位于约 17780 和 17720 附近，并标注数字 0.00 和 8.30。右侧价格轴有蓝色",
+    "case_001_detail_3.jpg": "图表为 NASDAQ 100 E mini Futures（NQ1!）1 分钟 K 线图，日期标注为 26/4/2024。图上可见两个矩形标注区域：上方为浅绿色矩形，覆盖约 17700 至 17830 价格区间；下方为灰色矩形，标注文字为"
+  },
+  "sources": [
+    {
+      "video_id": "IeXtmeKqjnQ",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.08,
+        191.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了看涨操纵的全过程：日线结构→15分钟London行为→5分钟New York操纵→1分钟CSD确认与入场，资产代码、时间框架、关键价位清晰，分析步骤按实际顺序记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:12.680893Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ看涨操纵：伦敦整理后纽约开盘下行操纵突破前高\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M / 5M / 1M\",\"market_context\":\"NQ在日线上形成3天扩张后回撤至FVG支撑，收盘突破前一日高点。伦敦时段整理，纽约开盘时段进行下行操纵，随后CSD确认继续上行至前一日高点。\",\"key_observation\":\"典型的看涨纽约操纵模式：London整理或未能到达HTF关键位，New York在该范围内操纵下行制造诱导，随后CSD确认并继续上行至目标位（前一日高点）。\",\"analysis_steps\":[\"Step 1: 观察日线结构，识别3天扩张后形成的摆动低点和FVG支撑区域（约17390-17650）。\",\"Step 2: 确认前一日收盘突破前一日高点，预期后续目标为前一日高点。\",\"Step 3: 下探15分钟图，观察London会话行为——确认London主要整理，未能到达HTF关键位（Buyside Liquidity约17810-17830）。\",\"Step 4: 识别New York会话的操纵行为——在8:30或9:30时段出现向上操纵，随后向下操纵至低点区域。\",\"Step 5: 下探5分钟图，确认New York开盘后的下行操纵低点，观察是否能够突破该低点形成新低。\",\"Step 6: 确认CSD（Change in State of Delivery）——收盘突破下行操纵的高点，预示上行延续。\",\"Step 7: 下探1分钟图，在CSD确认后的折价区（Discount Zone）寻找最优入场点（OTE）。\",\"Step 8: 设置止损于操纵低点，目标指向前一日高点（Buyside Liquidity区域）。\"],\"outcome\":\"价格在New York开盘后被操纵至低点，随后CSD确认，收盘突破操纵高点，最终达到前一日高点目标位。\",\"lessons\":\"看涨纽约操纵的核心特征是London整理+New York下行操纵+CSD确认+上行延续。通过多时间框架分析（日线→15分钟→5分钟→1分钟）逐层确认结构，在CSD后的折价区寻找高概率入场点，目标为HTF关键位（前一日高点/Buyside Liquidity）。\",\"primary_image_frame_id\":\"IeXtmeKqjnQ_f003\",\"supporting_image_frame_ids\":[\"IeXtmeKqjnQ_f005\",\"IeXtmeKqjnQ_f006\",\"IeXtmeKqjnQ_f007\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Change in State of Delivery\",\"Buyside Liquidity\",\"Power of 3\",\"Accumulation Manipulation Distribution\",\"Inducement\",\"Optimal Trade Entry\",\"Discount Zone\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了看涨操纵的全过程：日线结构→15分钟London行为→5分钟New York操纵→1分钟CSD确认与入场，资产代码、时间框架、关键价位清晰，分析步骤按实际顺序记录。\"}",
+  "error": null
+}

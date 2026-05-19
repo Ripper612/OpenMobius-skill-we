@@ -1,0 +1,108 @@
+{
+  "card_id": "c_mh19e3mhI_case_003_周五8月4日es与nq_order_block表现",
+  "type": "case",
+  "title": "ES与NQ周五8月4日Order Block均值阈值表现对比",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Relative Weakness",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Candle Closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "mean_threshold",
+    "fair_value_gap",
+    "swing_points",
+    "candle_closure",
+    "liquidity_sweep",
+    "smart_money_technique_smt"
+  ],
+  "school": "SMC",
+  "asset": "ES1! / NQ1!",
+  "timeframe": "1D",
+  "market_context": "周五8月4日，ES和NQ在各自的Order Block处表现出明显的相对强弱差异。NQ尊重Order Block均值阈值后下跌，ES突破均值阈值继续上行，显示ES相对强势、NQ相对弱势。",
+  "key_observation": "NQ在Order Block处尊重均值阈值（mean threshold）并随后下跌，而ES突破该均值阈值继续向上运行至周一高点，扫除流动性后才收盘于该区域下方，体现两者相对强弱的分化。",
+  "analysis_steps": [
+    "Step 1: 博主定义相对强弱的判断标准——通过摆动点（swing points）、K线收盘位置和K线大小进行对比。",
+    "Step 2: 博主标记出周五8月4日ES和NQ在Order Block处的表现，观察两者对均值阈值的尊重程度。",
+    "Step 3: 博主指出NQ在周五获得相对强势，价格向上进入Order Block后收盘在范围内；而ES仅触及FVG但未达到Order Block，收盘在范围下方。",
+    "Step 4: 博主预测周一应出现ES相对强势、NQ相对弱势的反应，基于周五的FVG反应预期看涨。",
+    "Step 5: 博主验证周一ES立即向上运行，接近Consequent Encroachment，而NQ远未达到该水平。",
+    "Step 6: 博主分析周二走势，ES扫除低点后回升至Order Block均值阈值附近收盘在体内，NQ扫除低点但未回升至均值阈值，收盘在体外。",
+    "Step 7: 博主继续追踪周三走势，ES小幅反应后收盘在范围内，NQ尊重均值阈值后继续下行，再次确认相对弱势。",
+    "Step 8: 博主总结NQ再次触及均值阈值后回落，持续显示相对弱势表现，与ES的强势形成对比。"
+  ],
+  "outcome": null,
+  "lessons": "相对强弱分析的核心在于对比两个相关资产在相同结构（如Order Block）处的表现差异。通过观察K线收盘位置、对均值阈值的尊重程度和后续反应方向，可以预测哪个资产更适合做多（强势）或做空（弱势）。ES的突破行为和NQ的尊重行为清晰地指示了后续的交易方向倾向。",
+  "primary_image": "cards/c_mh19e3mhI/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/c_mh19e3mhI/images/case_003_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图上显示 ES/NQ 日线多面板对比图表。左侧面板标注 ES 和 NQ 的方向指示（ES 和 ES/NQ 显示下降箭头，NQ 显示上升箭头）。上方面板显示价格范围约 4520 至 4600，包含多根绿色和黑色 K 线，时间轴标记从 19 至 21 日及 Aug 月份。下方面板显示价格范围约 13480 至 15900，同样包含交替的绿黑 K 线，时间轴标记 Fri 04 Aug '23。两个面板均",
+    "case_003_detail_1.jpg": "图上为多面板日线图表，显示 ES 和 NQ 两个资产的并排对比。左侧面板为 ES，右侧面板为 NQ，均为日线（D）时间框架。图左上角标注 ES/NQ、ES、NQ 三行文字，其中 ES/NQ 和 ES 旁有向下箭头，NQ 旁有向上箭头。两个面板均显示从 7 月下旬至 8 月中旬的 K 线序列，包含绿色和黑色蜡烛体。8 月初两个面板均出现连续黑色 K 线，表现为下行走势。图上标注有 0.25 数值和 "
+  },
+  "sources": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        541.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对周五8月4日ES与NQ的Order Block表现进行了完整的对比分析，包括具体的价格水平、K线收盘位置、均值阈值的尊重情况，以及后续多日的验证过程。分析步骤清晰、逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:37.924666Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES与NQ周五8月4日Order Block均值阈值表现对比\",\"school\":\"SMC\",\"asset\":\"ES1! / NQ1!\",\"timeframe\":\"1D\",\"market_context\":\"周五8月4日，ES和NQ在各自的Order Block处表现出明显的相对强弱差异。NQ尊重Order Block均值阈值后下跌，ES突破均值阈值继续上行，显示ES相对强势、NQ相对弱势。\",\"key_observation\":\"NQ在Order Block处尊重均值阈值（mean threshold）并随后下跌，而ES突破该均值阈值继续向上运行至周一高点，扫除流动性后才收盘于该区域下方，体现两者相对强弱的分化。\",\"analysis_steps\":[\"Step 1: 博主定义相对强弱的判断标准——通过摆动点（swing points）、K线收盘位置和K线大小进行对比。\",\"Step 2: 博主标记出周五8月4日ES和NQ在Order Block处的表现，观察两者对均值阈值的尊重程度。\",\"Step 3: 博主指出NQ在周五获得相对强势，价格向上进入Order Block后收盘在范围内；而ES仅触及FVG但未达到Order Block，收盘在范围下方。\",\"Step 4: 博主预测周一应出现ES相对强势、NQ相对弱势的反应，基于周五的FVG反应预期看涨。\",\"Step 5: 博主验证周一ES立即向上运行，接近Consequent Encroachment，而NQ远未达到该水平。\",\"Step 6: 博主分析周二走势，ES扫除低点后回升至Order Block均值阈值附近收盘在体内，NQ扫除低点但未回升至均值阈值，收盘在体外。\",\"Step 7: 博主继续追踪周三走势，ES小幅反应后收盘在范围内，NQ尊重均值阈值后继续下行，再次确认相对弱势。\",\"Step 8: 博主总结NQ再次触及均值阈值后回落，持续显示相对弱势表现，与ES的强势形成对比。\"],\"outcome\":null,\"lessons\":\"相对强弱分析的核心在于对比两个相关资产在相同结构（如Order Block）处的表现差异。通过观察K线收盘位置、对均值阈值的尊重程度和后续反应方向，可以预测哪个资产更适合做多（强势）或做空（弱势）。ES的突破行为和NQ的尊重行为清晰地指示了后续的交易方向倾向。\",\"primary_image_frame_id\":\"c_mh19e3mhI_f001\",\"supporting_image_frame_ids\":[\"c_mh19e3mhI_f014\",\"c_mh19e3mhI_f015\",\"c_mh19e3mhI_f016\",\"c_mh19e3mhI_f017\",\"c_mh19e3mhI_f018\",\"c_mh19e3mhI_f019\"],\"related_concepts\":[\"Order Block\",\"Mean Threshold\",\"Relative Strength\",\"Relative Weakness\",\"Fair Value Gap\",\"Swing Points\",\"Candle Closure\",\"Liquidity Sweep\",\"SMT\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对周五8月4日ES与NQ的Order Block表现进行了完整的对比分析，包括具体的价格水平、K线收盘位置、均值阈值的尊重情况，以及后续多日的验证过程。分析步骤清晰、逻辑连",
+  "error": null
+}

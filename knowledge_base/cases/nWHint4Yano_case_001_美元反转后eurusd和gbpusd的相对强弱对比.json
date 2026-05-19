@@ -1,0 +1,108 @@
+{
+  "card_id": "nWHint4Yano_case_001_美元反转后eurusd和gbpusd的相对强弱对比",
+  "type": "case",
+  "title": "美元反转后通过EURGBP判断货币强弱选择做空GBPUSD",
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "OB (Order Block)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength Analysis",
+      "card_id": "relative_strength_analysis",
+      "exists": true
+    },
+    {
+      "term": "Currency Pair Correlation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "market_structure_shift",
+    "relative_strength_analysis"
+  ],
+  "school": "SMC",
+  "asset": "DXY / EURUSD / GBPUSD / EURGBP",
+  "timeframe": "1D / 1H",
+  "market_context": "美元在7月低点形成反转，DXY日线突破前期结构。博主通过多时间框架分析判断美元强势，需要确定欧元和英镑中哪个更弱以选择正确的交易对象。",
+  "key_observation": "EURGBP日线呈看涨趋势表明欧元强于英镑，因此英镑为较弱资产。在美元强势背景下，应做空GBPUSD而非EURUSD，以配对强弱货币获得更优的趋势。",
+  "analysis_steps": [
+    "Step 1: 观察DXY日线，识别7月低点的显著反转形态，确认美元处于看涨状态。",
+    "Step 2: 在DXY日线上标记受保护的摆动点和公允价值缺口，为后续结构分析奠定基础。",
+    "Step 3: 查看EURGBP日线，确认其处于看涨趋势，推断欧元相对强于英镑。",
+    "Step 4: 在EURUSD 1小时图上识别日线公允价值缺口（约1.0850-1.0920）和受保护的摆动点。",
+    "Step 5: 观察EURUSD 1小时图出现看涨的交付状态改变（CSD），确认欧元短期强势。",
+    "Step 6: 转向GBPUSD 1小时图，观察失败摆动和结构突破，等待看跌结构形成以建立做空头寸。",
+    "Step 7: 对比EURUSD和GBPUSD的表现，确认GBPUSD的下跌幅度更大，验证英镑为较弱资产的判断。"
+  ],
+  "outcome": null,
+  "lessons": "相对强弱分析是选择正确交易对象的关键。当主要货币（如美元）出现反转时，应通过交叉对（如EURGBP）判断配对货币的相对强弱，然后选择将强势货币与弱势货币配对的交易方向，以获得更强劲的趋势和更高的成功概率。",
+  "primary_image": "cards/nWHint4Yano/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/nWHint4Yano/images/case_001_detail_1.jpg",
+    "cards/nWHint4Yano/images/case_001_detail_2.jpg",
+    "cards/nWHint4Yano/images/case_001_detail_3.jpg",
+    "cards/nWHint4Yano/images/case_001_detail_4.jpg",
+    "cards/nWHint4Yano/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "GBPUSD 1 小时 K 线图。图表显示从左侧约 1.23500 开始的上升趋势，延伸至右侧约 1.27200 附近。中间区域显示 1.26500 至 1.27000 之间的盘整。右侧最近的 K 线包括一根大型绿色 K 线，其后跟随一根黑色 K 线。图上有一个矩形框标注在约 1.26800 至 1.27200 的价格区间。可见价格范围从 1.23500 到 1.27500。",
+    "case_001_detail_1.jpg": "图像为教学示例，展示多组 K 线形态。左侧面板包含多根绿色和黑色 K 线，具有上下影线。右侧面板显示 4 根 K 线，其中绿色 K 线标记为看涨，黑色 K 线标记为看跌。右侧还列出 EUR/GBP 和 EUR/USD 的货币对对比说明。图上标注有\"Bullish EUR/GBP means EUR is stronger than GBP\"和\"So can look to long EUR\"等文字",
+    "case_001_detail_2.jpg": "DXY 日线图表显示约两个月的价格走势。图上可见绿色和黑色 K 线交替出现，价格范围从 103.5 至 107.5。中间位置存在一根高点 K 线，上影线延伸至 107.5 附近，之后形成下降趋势，包含多个逐次走低的高点和低点。右侧最近的 K 线显示价格在 104 至 105 区间内的整理形态。图上未见其他标注、指标或文字标签。",
+    "case_001_detail_3.jpg": "EURUSD 日线图表。图上显示多月份的 K 线数据，价格范围约从 0.98500 到 1.12000。K 线以绿色（上升）和黑色（下降）表示。图右侧中部区域有一个黄色矩形标注，覆盖约 1.08500 至 1.09200 的价格区间。整个图表中多根 K 线呈现长下影线形态。除黄色矩形外，图上未见其他标注、水平线或指标。",
+    "case_001_detail_4.jpg": "EURUSD 1 小时 K 线图。图上有一条黄色矩形区域，水平跨越图表，价格范围约在 1.08800 至 1.09200 之间。图表右侧显示一根大型绿色 K 线，上影线较长，随后跟随一根大型黑色 K 线。图表左侧至中心区域显示多根小型 K 线在 1.08500 至 1.09500 区间内的整理形态。整体价格范围从左侧约 1.06500 上升至中心偏右约 1.11000，随后下降至右侧约 1.090",
+    "case_001_detail_5.jpg": "EURUSD 1 小时 K 线图。图上显示从左下角约 1.06500 开始的上升趋势，延续至约 1.09800 的高点，随后出现下降趋势至约 1.08000。图中可见两个矩形标注框，分别位于 1.09200-1.09600 和 1.08800-1.09200 价格区间。右侧显示一根大型绿色 K 线（开盘约 1.09400）伴随长上影线，其后跟随一根大型黑色 K 线带长下影线。整体 K 线形态呈现多"
+  },
+  "sources": [
+    {
+      "video_id": "nWHint4Yano",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        103.03999999999999,
+        322.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从DXY反转识别、EURGBP相对强弱判断、到EURUSD和GBPUSD具体交易设置的全过程，关键价位、时间框架和分析步骤均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:11.545947Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美元反转后通过EURGBP判断货币强弱选择做空GBPUSD\",\"school\":\"SMC\",\"asset\":\"DXY / EURUSD / GBPUSD / EURGBP\",\"timeframe\":\"1D / 1H\",\"market_context\":\"美元在7月低点形成反转，DXY日线突破前期结构。博主通过多时间框架分析判断美元强势，需要确定欧元和英镑中哪个更弱以选择正确的交易对象。\",\"key_observation\":\"EURGBP日线呈看涨趋势表明欧元强于英镑，因此英镑为较弱资产。在美元强势背景下，应做空GBPUSD而非EURUSD，以配对强弱货币获得更优的趋势。\",\"analysis_steps\":[\"Step 1: 观察DXY日线，识别7月低点的显著反转形态，确认美元处于看涨状态。\",\"Step 2: 在DXY日线上标记受保护的摆动点和公允价值缺口，为后续结构分析奠定基础。\",\"Step 3: 查看EURGBP日线，确认其处于看涨趋势，推断欧元相对强于英镑。\",\"Step 4: 在EURUSD 1小时图上识别日线公允价值缺口（约1.0850-1.0920）和受保护的摆动点。\",\"Step 5: 观察EURUSD 1小时图出现看涨的交付状态改变（CSD），确认欧元短期强势。\",\"Step 6: 转向GBPUSD 1小时图，观察失败摆动和结构突破，等待看跌结构形成以建立做空头寸。\",\"Step 7: 对比EURUSD和GBPUSD的表现，确认GBPUSD的下跌幅度更大，验证英镑为较弱资产的判断。\"],\"outcome\":null,\"lessons\":\"相对强弱分析是选择正确交易对象的关键。当主要货币（如美元）出现反转时，应通过交叉对（如EURGBP）判断配对货币的相对强弱，然后选择将强势货币与弱势货币配对的交易方向，以获得更强劲的趋势和更高的成功概率。\",\"primary_image_frame_id\":\"nWHint4Yano_f010\",\"supporting_image_frame_ids\":[\"nWHint4Yano_f005\",\"nWHint4Yano_f007\",\"nWHint4Yano_f008\",\"nWHint4Yano_f009\",\"nWHint4Yano_f011\"],\"related_concepts\":[\"SMT (Smart Money Technique)\",\"FVG (Fair Value Gap)\",\"OB (Order Block)\",\"CSD (Change in the state of delivery)\",\"Protected Swing\",\"Market Structure Shift\",\"Relative Strength Analysis\",\"Currency Pair Correlation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从DXY反转识别、EURGBP相对强弱判断、到EURUSD和GBPUSD具体交易设置的全过程，关键价位、时间框架和分析步骤均清晰可读。\"}",
+  "error": null
+}

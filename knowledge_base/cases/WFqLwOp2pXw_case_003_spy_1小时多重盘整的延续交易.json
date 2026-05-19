@@ -1,0 +1,126 @@
+{
+  "card_id": "WFqLwOp2pXw_case_003_spy_1小时多重盘整的延续交易",
+  "type": "case",
+  "title": "SPY 1小时多重盘整的延续交易策略",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "equilibrium",
+    "inducement",
+    "market_structure_shift",
+    "consolidation",
+    "displacement",
+    "power_of_3_indicator",
+    "liquidity",
+    "change_in_the_state_of_delivery"
+  ],
+  "school": "ICT",
+  "asset": "SPY",
+  "timeframe": "1H",
+  "market_context": "SPY在3418.0高点附近形成初始盘整，随后突破该高点后回调，在3396.0-3418.0区间形成第二层盘整，期间多次扫盘低点和均衡点，为延续交易提供多个机会。",
+  "key_observation": "博主识别出价格在突破初始盘整高点后，形成新的盘整结构，通过扫盘低点（inducement）和均衡点（EQ）反应，多次产生延续入场机会，而非试图在低点直接做多。",
+  "analysis_steps": [
+    "Step 1: 识别初始盘整结构，标记3418.0高点、3396.0中点和3378.0低点三个关键水平。",
+    "Step 2: 观察价格突破3418.0高点后的走势，判断是否会出现回调或延续。",
+    "Step 3: 确认价格未能形成opposing candle（对立K线），而是形成新的盘整，保持在3418.0和3378.0之间。",
+    "Step 4: 识别价格扫盘低点进入Fair Value Gap（FVG），形成inducement（诱导）。",
+    "Step 5: 标记第二层盘整的均衡点（EQ），作为反应和延续入场的参考水平。",
+    "Step 6: 等待价格在均衡点附近形成低点，确认通过一系列下跌K线的收盘确认。",
+    "Step 7: 在收盘确认后，寻找延续入场机会，而非在低点直接建仓。",
+    "Step 8: 总结交易框架：盘整→等待操纵（扫盘）→交易延续（expansion）。"
+  ],
+  "outcome": null,
+  "lessons": "在多重盘整结构中，不应试图在低点直接做多，而应等待价格形成低点后的延续信号。通过识别Fair Value Gap、均衡点和收盘确认，可以获得更高概率的延续入场机会。这体现了'盘整-操纵-派发'的Power of 3模型在实际交易中的应用。",
+  "primary_image": "cards/WFqLwOp2pXw/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/WFqLwOp2pXw/images/case_003_detail_1.jpg",
+    "cards/WFqLwOp2pXw/images/case_003_detail_2.jpg",
+    "cards/WFqLwOp2pXw/images/case_003_detail_3.jpg",
+    "cards/WFqLwOp2pXw/images/case_003_detail_4.jpg",
+    "cards/WFqLwOp2pXw/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "SPY 图表显示烛线图，价格范围从 3356.0 至 3428.0。图上绘制了 4 条水平线，分别位于 3416.0、3400.0、3386.0 和 3382.0 价位。此外还有 3 个矩形框标注，分别围绕不同的 K 线集群区域。K 线以绿色和黑色交替显示，多根 K 线具有下影线。图表右下角可见交易控制面板，包含 Sell、Buy 等按钮。",
+    "case_003_detail_1.jpg": "SPY 1 小时 K 线图。图上显示价格范围从 3324.0 至 3420.0。可见多条水平线标注，分别位于 3418.0、3396.0 和 3378.0 价格水平。图上绘制了两个矩形区域，分别覆盖 3418.0 至 3396.0 和 3396.0 至 3378.0 的价格范围。K 线序列显示从左侧低点向上运行至 3418.0 附近形成高点，随后出现回调和整理，期间包含绿色和黑色 K 线交替出现。",
+    "case_003_detail_2.jpg": "SPY 图表显示烛线图，价格范围从 3328.0 到 3428.0。图上有三条水平线分别位于 3418.0、3396.0 和 3376.0 处。两个矩形区域分别标记在 3418.0 至 3396.0 之间和 3396.0 至 3376.0 之间。图表包含多根绿色和黑色烛线，显示混合方向的价格运动。底部工具栏显示交易控制选项，包括卖出、买入和平仓按钮。",
+    "case_003_detail_3.jpg": "图表显示 APOZ 资产的 K 线图，价格范围从 3328.0 到 3428.0。图上绘制了三条水平线，分别位于 3418.0、3396.0 和 3384.0 处。在这些水平线之间形成了两个矩形标注区域。K 线以绿色和黑色交替显示，每根 K 线均有上下影线。图表底部显示时间刻度和交易控制按钮（Sell、Buy、Flatten 等）。",
+    "case_003_detail_4.jpg": "SPY 1 小时 K 线图。图上绘制了四条水平线，分别位于 3416.0、3408.0、3396.0 和 3380.0 价格水平。图上还标记了三个矩形区域，分别对应价格区间 3408.0-3416.0、3380.0-3396.0 和 3396.0-3408.0。K 线整体价格范围从 3364.0 到 3428.0。可见 K 线呈绿色和黑色交替排列，多根 K 线具有下影线。",
+    "case_003_detail_5.jpg": "SPX02 K线图显示价格范围从3328.0至3432.0。图上绘制了三条水平线分别位于3400.8、3408.0和3416.0价格水平。另有两个矩形框标注：一个框围绕3408.0至3416.0区间，另一个框围绕3368.0至3384.0区间。K线序列显示从左侧3328.0开始上升至3416.0，随后下跌至3368.0附近形成整理，右侧出现绿色大阳线至3424.0附近。图表底部显示时间标记和交易控"
+  },
+  "sources": [
+    {
+      "video_id": "WFqLwOp2pXw",
+      "segment_ids": [
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "time_range": [
+        563.92,
+        715.279
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从初始盘整识别、突破确认、扫盘诱导、均衡点反应到延续入场的全过程，关键价位清晰（3418.0、3396.0、3378.0等），分析步骤有序，图表标注详细。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:49.713812Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"SPY 1小时多重盘整的延续交易策略\",\"school\":\"ICT\",\"asset\":\"SPY\",\"timeframe\":\"1H\",\"market_context\":\"SPY在3418.0高点附近形成初始盘整，随后突破该高点后回调，在3396.0-3418.0区间形成第二层盘整，期间多次扫盘低点和均衡点，为延续交易提供多个机会。\",\"key_observation\":\"博主识别出价格在突破初始盘整高点后，形成新的盘整结构，通过扫盘低点（inducement）和均衡点（EQ）反应，多次产生延续入场机会，而非试图在低点直接做多。\",\"analysis_steps\":[\"Step 1: 识别初始盘整结构，标记3418.0高点、3396.0中点和3378.0低点三个关键水平。\",\"Step 2: 观察价格突破3418.0高点后的走势，判断是否会出现回调或延续。\",\"Step 3: 确认价格未能形成opposing candle（对立K线），而是形成新的盘整，保持在3418.0和3378.0之间。\",\"Step 4: 识别价格扫盘低点进入Fair Value Gap（FVG），形成inducement（诱导）。\",\"Step 5: 标记第二层盘整的均衡点（EQ），作为反应和延续入场的参考水平。\",\"Step 6: 等待价格在均衡点附近形成低点，确认通过一系列下跌K线的收盘确认。\",\"Step 7: 在收盘确认后，寻找延续入场机会，而非在低点直接建仓。\",\"Step 8: 总结交易框架：盘整→等待操纵（扫盘）→交易延续（expansion）。\"],\"outcome\":null,\"lessons\":\"在多重盘整结构中，不应试图在低点直接做多，而应等待价格形成低点后的延续信号。通过识别Fair Value Gap、均衡点和收盘确认，可以获得更高概率的延续入场机会。这体现了'盘整-操纵-派发'的Power of 3模型在实际交易中的应用。\",\"primary_image_frame_id\":\"WFqLwOp2pXw_f023\",\"supporting_image_frame_ids\":[\"WFqLwOp2pXw_f001\",\"WFqLwOp2pXw_f020\",\"WFqLwOp2pXw_f021\",\"WFqLwOp2pXw_f022\",\"WFqLwOp2pXw_f024\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Equilibrium\",\"Inducement\",\"Market Structure Shift\",\"Consolidation\",\"Displacement\",\"Power of 3\",\"Liquidity\",\"Change in the state of delivery\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从初始盘整识别、突破确认、扫盘诱导、均衡点反应到延续入场的全过程，关键价位清晰（3418.0、3396.0、3378.0等），分析步骤有序，图表标注详细。\"}",
+  "error": null
+}

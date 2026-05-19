@@ -1,0 +1,355 @@
+{
+  "card_id": "sellside_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Sellside Liquidity",
+  "aliases": [
+    "SSL",
+    "Sell stops",
+    "卖方流动性"
+  ],
+  "school": "ICT",
+  "definition": "汇集在摆动低点下方（或摆动高点上方）的止损订单集中区域。散户在摆动低点下方设置止损，智能资金通过扫除这些订单后反向运行；在标准差投影中通常与-2到-2.5水平对齐。扫除后价格产生位移并反向，是识别潜在反转点的关键参考。",
+  "identification_rules": [
+    "在价格图表上识别有效摆动低点（Swing Low）：该低点左右两侧各有一个更高的低点；或识别有效摆动高点（Swing High）",
+    "在摆动低点下方（或摆动高点上方）标记水平线，该区域为卖方止损单汇集的流动性区域",
+    "关注相对相等的低点（Relatively Equal Lows）或旧低点（Old Lows），多个低点聚集可增强流动性强度",
+    "观察价格是否向下扫除摆动低点下方区域（sweep），触及或穿过后产生位移（Displacement）反向运行",
+    "结合标准差投影工具，确认-2到-2.5标准差水平是否与摆动低点下方订单聚集区重合",
+    "检查该区域是否与其他PD数组（如Order Block、Fair Value Gap）形成汇聚，增强确认度",
+    "可结合会话低点（Session Lows）、前一天低点（Previous Day Low）等多层级流动性进行确认",
+    "结合高时间框架（HTF）关键水平与低时间框架（LTF）位移共同确认有效性"
+  ],
+  "trading_implication": "卖方流动性扫除是做多信号：高时间框架确认SSL被扫除后，在低时间框架寻找Breaker Block、Fair Value Gap等结构入场，止损设在Breaker Block下方。亦可作为做空目标：确认看跌结构后，预期价格向摆动高点上方的卖方流动性推进，作为短单止盈目标。可与标准差投影、多时间框架分析结合，提高低风险入场机会识别精度。",
+  "common_mistakes": [
+    "混淆卖方流动性与买方流动性的位置：卖方流动性在摆动低点下方（或摆动高点上方），买方流动性在摆动高点上方（或摆动低点下方）",
+    "未能正确识别有效摆动低点或摆动高点，导致标记错误的流动性区域",
+    "忽视相对相等的低点，只关注单一摆动低点，低估流动性强度",
+    "未将卖方流动性与标准差投影水平相结合，导致识别不精确",
+    "忽视与其他PD数组的汇聚确认，单独依赖卖方流动性判断",
+    "忽视时间框架的重要性，低时间框架标记的卖方流动性有效性不如高时间框架"
+  ],
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "OB",
+      "card_id": "order_block_breaker_block",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Unicorn Model",
+      "card_id": "unicorn_model",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Session Highs and Lows",
+      "card_id": "session_high_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Relatively Equal Highs/Lows",
+      "card_id": "equal_highs_and_equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Old Highs and Lows",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0R61Y6Pn74Q_case_001_cpi后黄金反转交易案例",
+      "video_id": "0R61Y6Pn74Q",
+      "title": "CPI后黄金日线订单块与5分钟FVG叠加做空案例"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_001_nq1日线看跌ote案例",
+      "video_id": "1YRs4Z1lMws",
+      "title": "NQ1日线看跌OTE案例：从摆动高低点绘制斐波那契寻找空头入场"
+    },
+    {
+      "card_id": "2lIaRUtJqpU_case_001_纳斯达克期货15分钟看跌交易",
+      "video_id": "2lIaRUtJqpU",
+      "title": "纳斯达克期货15分钟看跌交易：低阻力流动性目标验证"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_001_标普期货周线的外部到内部流动性转换",
+      "video_id": "3OivsP1j_UE",
+      "title": "ES1周线：外部流动性到内部流动性的循环转换"
+    },
+    {
+      "card_id": "7p9MBFk8EEM_case_002_美油usoil多周期联动案例",
+      "video_id": "7p9MBFk8EEM",
+      "title": "美油USOIL日线多周期联动：周线FVG支撑与订单块突破"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_002_原油期货小时线低时间框架入场",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "原油期货日线Propulsion Block在小时线的低时间框架入场"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_006_nq_5分钟图_二级订单块入场",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ 5分钟图：二级订单块入场获得2.5R"
+    },
+    {
+      "card_id": "E6bpY4dQvlE_case_002_s_p_500_e_mini期货15秒图多个box_setup示",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES期货15秒图Box Setup多周期分析与买方曲线入场"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_001_es1期货5分钟图的高低阻力流动性应用",
+      "video_id": "FGkb_50BfT8",
+      "title": "ES1期货5分钟图中的高低阻力流动性识别与应用"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_001_e_mini_s_p_500期货_1小时_box_setup案例",
+      "video_id": "HFfChGFHD44",
+      "title": "ES 1H Box Setup：区间突破回测与偏差重测交易"
+    },
+    {
+      "card_id": "MlMsG7li9zY_case_001_纳斯达克100期货日线折价区做多案例",
+      "video_id": "MlMsG7li9zY",
+      "title": "纳斯达克100期货日线折价区做多案例"
+    },
+    {
+      "card_id": "Njs-eRpeP9Q_case_001_es期货5分钟图流动性识别案例",
+      "video_id": "Njs-eRpeP9Q",
+      "title": "ES期货5分钟图流动性识别与扫荡分析"
+    },
+    {
+      "card_id": "PlZD45uLPjE_case_001_标普500_1小时线seek_and_destroy模式分析",
+      "video_id": "PlZD45uLPjE",
+      "title": "标普500 1小时线Seek and Destroy模式识别与交易入场"
+    },
+    {
+      "card_id": "PlZD45uLPjE_case_002_纳指100亚洲时段高低点扫盘案例",
+      "video_id": "PlZD45uLPjE",
+      "title": "纳指100亚洲时段高低点扫盘与流动性建立"
+    },
+    {
+      "card_id": "PlZD45uLPjE_case_003_纳指100多次偏离与流动性扫除",
+      "video_id": "PlZD45uLPjE",
+      "title": "纳指100多次偏离与流动性扫除分析"
+    },
+    {
+      "card_id": "PlZD45uLPjE_case_004_纳指100完整seek_and_destroy周期演示",
+      "video_id": "PlZD45uLPjE",
+      "title": "纳指100完整Seek and Destroy周期演示"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_001_nasdaq_100_15分钟图表的扩张形态识别",
+      "video_id": "Tjk9bXERZy0",
+      "title": "NQ 15分钟扩张形态的实时识别与流动性扫荡"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_001_eurusd_4小时图流动性识别案例",
+      "video_id": "U8xH2dEgH5A",
+      "title": "EURUSD 4小时图流动性识别与摆动点追踪"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_002_eurusd_日线与小时线多时间框架流动性分析",
+      "video_id": "U8xH2dEgH5A",
+      "title": "EURUSD多时间框架流动性分析与交易目标确定"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_003_标普500_e_mini期货5分钟图交易流程",
+      "video_id": "U8xH2dEgH5A",
+      "title": "标普500 E-mini期货5分钟图多层流动性框架交易"
+    },
+    {
+      "card_id": "dSccSI7uqvE_case_001_es_15分钟图broadening_formation交易案例",
+      "video_id": "dSccSI7uqvE",
+      "title": "ES 15分钟图Broadening Formation识别与流动性扫除交易"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_002_第二个案例_下跌后上升的标准差投影与pd数组对齐",
+      "video_id": "kTWXpAo1uE8",
+      "title": "NQ1! 下跌后反弹：标准差投影与Order Block及Equal Highs对齐"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_011_spx_1小时反转与5分钟延续",
+      "video_id": "qdQYhePcvGE",
+      "title": "USD 1小时反转失败后5分钟延续交易"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_001_eurusd_60分钟与5分钟反演交易案例",
+      "video_id": "uDJI2AbyyCs",
+      "title": "EURUSD 60分钟与5分钟反演交易案例"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_003_黄金日线智能货币反转与旧fvg支撑案例",
+      "video_id": "uDJI2AbyyCs",
+      "title": "黄金日线智能货币反转与旧FVG支撑案例"
+    },
+    {
+      "card_id": "umyCqr_0NsI_case_003_伦敦时段订单块与纽约时段回测",
+      "video_id": "umyCqr_0NsI",
+      "title": "伦敦上收盘订单块在纽约时段的长期高点回测与卖方流动性交付"
+    },
+    {
+      "card_id": "xdzyejskSKE_case_001_轻质原油期货的纽约反转案例",
+      "video_id": "xdzyejskSKE",
+      "title": "轻质原油期货纽约反转：高时间框架位触及与流动性扫荡"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "original_card_id": "75S4vwD4P1U_concept_sellside_liquidity",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        639.519,
+        807.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "U8xH2dEgH5A",
+      "original_card_id": "U8xH2dEgH5A_concept_sellside_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        439.139
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "kTWXpAo1uE8",
+      "original_card_id": "kTWXpAo1uE8_concept_sellside_liquidity",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        129.52,
+        403.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wy3OSPxu5U0",
+      "original_card_id": "wy3OSPxu5U0_concept_sellside_liquidity",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        51.52,
+        110.24000000000001
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xdzyejskSKE",
+      "original_card_id": "xdzyejskSKE_concept_sellside_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.599,
+        549.399
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:07.251505Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "原始卡存在定义分歧：3张（75S4vwD4P1U、U8xH2dEgH5A、kTWXpAo1uE8）将SSL定位于摆动低点下方；2张（wy3OSPxu5U0、xdzyejskSKE）将SSL定位于摆动高点上方。两者均为ICT框架内SSL的合法用法（上下文不同），定义已综合两种情形。",
+  "error": null
+}

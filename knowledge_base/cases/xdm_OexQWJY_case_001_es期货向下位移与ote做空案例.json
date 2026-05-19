@@ -1,0 +1,106 @@
+{
+  "card_id": "xdm_OexQWJY_case_001_es期货向下位移与ote做空案例",
+  "type": "case",
+  "title": "ES期货向下位移后OTE做空至等低点",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "equal_lows",
+    "fair_value_gap",
+    "premium_discount_premium_",
+    "order_block",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1H / 5M",
+  "market_context": "ES期货在4小时图上形成明显向下位移，伴随相等低点结构。博主在日内偏差框架下，利用4小时和1小时图作为主要时间框架，寻找低时间框架的做空机会。",
+  "key_observation": "4小时图显示强劲向下位移（Displacement），随后在1小时图上识别出相等低点（Equal Lows）结构和公允价值缺口（FVG），为在低时间框架寻找OTE做空提供了高概率设置。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别向下位移（Displacement），标注为明显的下跌K线序列。",
+    "Step 2: 在1小时图上确认相等低点（Equal Lows）结构，作为下方目标。",
+    "Step 3: 识别1小时图上的公允价值缺口（FVG），位于下方区域。",
+    "Step 4: 切换到5分钟图，在溢价区（Premium）寻找OTE（最优交易入场点），使用0.5斐波那契水平标记入场区域。",
+    "Step 5: 确定风险位置（止损）在上方相关高点。",
+    "Step 6: 目标设定为下方相等低点，完成做空交易流程。"
+  ],
+  "outcome": null,
+  "lessons": "在日内交易中，先从高时间框架（4H/1H）识别大方向和关键结构（位移、相等点、FVG），再下沉到低时间框架（5M）精确寻找OTE入场点。溢价区/折价区的0.5斐波那契分割是高概率入场的关键工具。",
+  "primary_image": "cards/xdm_OexQWJY/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/xdm_OexQWJY/images/case_001_detail_1.jpg",
+    "cards/xdm_OexQWJY/images/case_001_detail_2.jpg",
+    "cards/xdm_OexQWJY/images/case_001_detail_3.jpg",
+    "cards/xdm_OexQWJY/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 4小时K线图。图上左侧有文字标签'Displacement'。右侧价格轴显示当前价格为3924.50（绿色高亮）。图表可见价格范围从3870到4440。左侧显示两个价格标签3924.00和3924.25。图上有一条水平虚线位于3857.50。K线序列显示左侧大幅下跌红烛，中部区间整理，右侧上升趋势中多根绿烛，最后以大幅下跌红烛结束。",
+    "case_001_detail_1.jpg": "ES 5分钟K线图。图上显示价格范围约从2941.25至2963.00。图表中绘制了多条水平矩形框，其中一条标注为'0.5'。K线呈现绿色（上升）和红色（下降）的混合形态，多数K线具有明显的上下影线。图右侧价格刻度清晰显示，最新报价在2963.25附近。图上未见其他指标或标注。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini 期货 1 小时 K 线图。图表显示价格范围从 3840 到 3980。图上有一个右键菜单弹窗，包含模板、视觉顺序、对象树、克隆、复制、锁定、隐藏、移除和设置等选项。K 线呈现从左上向下的下跌走势，中间部分有一段明显的下行，随后在图表右侧出现绿色 K 线的反弹。下方时间轴显示从 11 点到 22 点的时间标记。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 1 小时图。图表显示从左侧约 3975 下跌至右侧约 3840 的下行走势，跨越多根 K 线。可见价格范围约 3840 至 3982。右侧价格标签显示 3982.25 和 3854.28。图上标注有日期",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从 7 月 21 日至 8 月 3 日的价格走势，价格范围约从 3860 到 4050。图上绘制有两个灰色矩形框：一个位于 3950 至 3980 区间，另一个位于 3860 至 3900 区间。右侧价格刻度显示多个水平线标记。K 线呈现先上升后下降的形态，中间区域有一段相对平稳的整理区间，随后出现向下的移动。图上未见其他指"
+  },
+  "sources": [
+    {
+      "video_id": "xdm_OexQWJY",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        187.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从4H位移识别→1H结构确认→5M OTE入场的完整分析流程，关键价位和概念清晰，图表标注明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:45.112978Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货向下位移后OTE做空至等低点\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1H / 5M\",\"market_context\":\"ES期货在4小时图上形成明显向下位移，伴随相等低点结构。博主在日内偏差框架下，利用4小时和1小时图作为主要时间框架，寻找低时间框架的做空机会。\",\"key_observation\":\"4小时图显示强劲向下位移（Displacement），随后在1小时图上识别出相等低点（Equal Lows）结构和公允价值缺口（FVG），为在低时间框架寻找OTE做空提供了高概率设置。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别向下位移（Displacement），标注为明显的下跌K线序列。\",\"Step 2: 在1小时图上确认相等低点（Equal Lows）结构，作为下方目标。\",\"Step 3: 识别1小时图上的公允价值缺口（FVG），位于下方区域。\",\"Step 4: 切换到5分钟图，在溢价区（Premium）寻找OTE（最优交易入场点），使用0.5斐波那契水平标记入场区域。\",\"Step 5: 确定风险位置（止损）在上方相关高点。\",\"Step 6: 目标设定为下方相等低点，完成做空交易流程。\"],\"outcome\":null,\"lessons\":\"在日内交易中，先从高时间框架（4H/1H）识别大方向和关键结构（位移、相等点、FVG），再下沉到低时间框架（5M）精确寻找OTE入场点。溢价区/折价区的0.5斐波那契分割是高概率入场的关键工具。\",\"primary_image_frame_id\":\"xdm_OexQWJY_f003\",\"supporting_image_frame_ids\":[\"xdm_OexQWJY_f004\",\"xdm_OexQWJY_f005\",\"xdm_OexQWJY_f002\",\"xdm_OexQWJY_f008\"],\"related_concepts\":[\"Displacement\",\"Equal Lows\",\"Fair Value Gap\",\"OTE\",\"Premium/Discount\",\"Order Block\",\"Liquidity\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从4H位移识别→1H结构确认→5M OTE入场的完整分析流程，关键价位和概念清晰，图表标注明确。\"}",
+  "error": null
+}

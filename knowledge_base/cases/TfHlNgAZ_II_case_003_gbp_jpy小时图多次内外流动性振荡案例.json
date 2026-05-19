@@ -1,0 +1,113 @@
+{
+  "card_id": "TfHlNgAZ_II_case_003_gbp_jpy小时图多次内外流动性振荡案例",
+  "type": "case",
+  "title": "GBP/JPY小时图内外流动性多次振荡与推进块交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity (Internal/External Range Liquidity)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Higher Lows and Higher Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management (2R Target)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "propulsion_block",
+    "change_in_the_state_of_delivery_csd",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "GBP/JPY",
+  "timeframe": "1H",
+  "market_context": "GBP/JPY在10月29-31日期间形成上升趋势，价格在小时图内部流动性(FVG)和外部流动性(摆动高点)之间反复振荡，期间多次触及订单块和推进块区域。",
+  "key_observation": "博主展示了在上升趋势中，价格在内部范围流动性和外部范围流动性之间的机械性往复运动，形成高低点递升的结构，每次回测都产生新的推进块交易机会。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别推进块(Propulsion Block)，设定2R目标并验证其有效性。",
+    "Step 2: 回到小时图观察价格如何在内部范围流动性和外部范围流动性之间往复。",
+    "Step 3: 确认上升趋势中形成的高低点递升结构(higher lows and higher highs)。",
+    "Step 4: 在小时图上识别公允价值缺口(FVG)，预期价格回测该区域。",
+    "Step 5: 在5分钟图上找到交付状态改变(CSD)的低点和形成该低点的K线序列。",
+    "Step 6: 标记开盘价作为突破确认点，等待收盘突破该水平。",
+    "Step 7: 在突破后等待回测，设置限价单或继续入场点。",
+    "Step 8: 验证新的订单块形成(通过收盘突破下行K线)，以此作为新的入场点。",
+    "Step 9: 设置止损在该订单块低点，目标设为2R或持有跑步者(Runners)至外部范围流动性。",
+    "Step 10: 追踪价格从内部范围流动性→外部范围流动性→内部范围流动性的循环往复。"
+  ],
+  "outcome": "第一笔交易在2R处止盈；继续入场在回测后同样触及2R止盈；随后价格继续上升，最终触及日线外部范围流动性(约67.60-67.88区间)，并在日线公允价值缺口处回测后再次上升至日线高点。",
+  "lessons": "在明确的上升趋势中，通过识别内外流动性的往复模式和推进块的形成，可以建立高概率的机械性交易流程。关键是确认趋势方向、标记流动性水平、等待CSD确认、验证新订单块形成，然后以固定的风险回报比(2R)执行。这种方法的优势在于流程清晰、可重复性强。",
+  "primary_image": "cards/TfHlNgAZ_II/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/TfHlNgAZ_II/images/case_003_detail_1.jpg",
+    "cards/TfHlNgAZ_II/images/case_003_detail_2.jpg",
+    "cards/TfHlNgAZ_II/images/case_003_detail_3.jpg",
+    "cards/TfHlNgAZ_II/images/case_003_detail_4.jpg",
+    "cards/TfHlNgAZ_II/images/case_003_detail_5.jpg",
+    "cards/TfHlNgAZ_II/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "5分钟K线图，价格范围从67.40至68.60。图上有三条水平线分别位于68.20、67.88和67.60处。图表中标注了多个矩形区域：绿色矩形覆盖约68.00至68.55的价格范围；灰色矩形分别位于67.75至68.10和67.88至68.20区间；黄色矩形位于底部67.60附近。K线从04:30开始，在67.60至68.20区间内波动至08:30，随后出现上升走势至08:00至09:00期间达",
+    "case_003_detail_1.jpg": "图表显示一个 5 分钟周期的 K 线图，时间轴从 18:00 跨越至次日 02:00。价格范围在 67.22 至 67.68 之间。图上有 4 条水平虚线分别位于 67.62、67.54、67.44 和 67.38 处。图下方有一个黄色矩形阴影区域，覆盖约 67.28 至 67.34 的价格范围。K 线以绿色和黑色主体交替出现，各根 K 线具有不同长度的上下影线。右上角显示'The Market ",
+    "case_003_detail_2.jpg": "图表显示一段时间内的 K 线走势，价格范围在 67.20 至 67.90 之间。图上有多条水平线标注，分别位于 67.61、67.55、67.48 和 67.30 处。图上绘制了三个矩形区域：黄色矩形在 67.30 至 67.35 区间，灰色矩形在 67.48 至 67.58 区间，绿色矩形在 67.58 至 67.88 区间。另有一条蓝色水平线段位于约 67.48 水平。K 线序列从 18:00",
+    "case_003_detail_3.jpg": "图表为烛线图，显示从 10 月 27 日 18:00 至 10 月 31 日 06:00 的价格走势。可见价格范围约 66.70 至 68.40。图上有两条水平虚线分别位于 67.68 和 66.90 附近。下方区域绘有两个矩形框，分别覆盖 66.90-67.20 和 67.20-67.60 的价格区间。烛线序列中绿色和黑色烛线交替出现，各烛线的影线长度与主体比例不一。右上角显示'The Mark",
+    "case_003_detail_4.jpg": "图表显示一段多日期的 K 线走势，时间跨度从 29 日 18:00 至 31 日 06:00。价格范围在 66.80 至 68.50 之间。图上有两条水平线标注：一条在 67.60 附近带有矩形框，另一条在 66.90 附近。K 线序列由绿色和黑色蜡烛交替组成，每根 K 线均显示上下影线。右上角显示'The Market Lens'文字标识。图表底部显示时间刻度标记。",
+    "case_003_detail_5.jpg": "图表显示一段时间内的 K 线走势，价格范围从 67.25 到 68.20。图上有多条水平线标注：虚线位于 67.68、点线位于 67.60、蓝色实线位于 67.73。图下方有两个矩形框，分别覆盖 67.60 至 67.73 和 67.58 至 67.65 的价格区间，其中下方矩形填充为黄色。K 线序列包含绿色和黑色蜡烛，在 04:00 至 05:00 时段出现连续黑色 K 线，在 68.08 附近",
+    "case_003_detail_6.jpg": "GBP/JPY 烛线图，价格范围从 66.70 至 68.60。图上显示从 10 月 29 日至 31 日的烛线序列，包含绿色和黑色烛线混合排列。两条水平虚线分别位于约 67.60 和 66.90 处。图上标记有两个米色矩形区域，分别约在 67.25-67.65 和 67.50-67.70 价格范围内。一条竖直虚线标注在 10 月 30 日 08:00。烛线普遍具有上下影线，最高烛线约达 68.5"
+  },
+  "sources": [
+    {
+      "video_id": "TfHlNgAZ_II",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        550.56,
+        877.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时图再到5分钟图的多时间框架分析，清晰标注了所有关键价位、流动性区域、订单块和推进块，并详细讲解了每一步的交易逻辑和入场确认条件，交易结果也明确给出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:56.988038Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBP/JPY小时图内外流动性多次振荡与推进块交易\",\"school\":\"ICT\",\"asset\":\"GBP/JPY\",\"timeframe\":\"1H\",\"market_context\":\"GBP/JPY在10月29-31日期间形成上升趋势，价格在小时图内部流动性(FVG)和外部流动性(摆动高点)之间反复振荡，期间多次触及订单块和推进块区域。\",\"key_observation\":\"博主展示了在上升趋势中，价格在内部范围流动性和外部范围流动性之间的机械性往复运动，形成高低点递升的结构，每次回测都产生新的推进块交易机会。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别推进块(Propulsion Block)，设定2R目标并验证其有效性。\",\"Step 2: 回到小时图观察价格如何在内部范围流动性和外部范围流动性之间往复。\",\"Step 3: 确认上升趋势中形成的高低点递升结构(higher lows and higher highs)。\",\"Step 4: 在小时图上识别公允价值缺口(FVG)，预期价格回测该区域。\",\"Step 5: 在5分钟图上找到交付状态改变(CSD)的低点和形成该低点的K线序列。\",\"Step 6: 标记开盘价作为突破确认点，等待收盘突破该水平。\",\"Step 7: 在突破后等待回测，设置限价单或继续入场点。\",\"Step 8: 验证新的订单块形成(通过收盘突破下行K线)，以此作为新的入场点。\",\"Step 9: 设置止损在该订单块低点，目标设为2R或持有跑步者(Runners)至外部范围流动性。\",\"Step 10: 追踪价格从内部范围流动性→外部范围流动性→内部范围流动性的循环往复。\"],\"outcome\":\"第一笔交易在2R处止盈；继续入场在回测后同样触及2R止盈；随后价格继续上升，最终触及日线外部范围流动性(约67.60-67.88区间)，并在日线公允价值缺口处回测后再次上升至日线高点。\",\"lessons\":\"在明确的上升趋势中，通过识别内外流动性的往复模式和推进块的形成，可以建立高概率的机械性交易流程。关键是确认趋势方向、标记流动性水平、等待CSD确认、验证新订单块形成，然后以固定的风险回报比(2R)执行。这种方法的优势在于流程清晰、可重复性强。\",\"primary_image_frame_id\":\"TfHlNgAZ_II_f024\",\"supporting_image_frame_ids\":[\"TfHlNgAZ_II_f019\",\"TfHlNgAZ_II_f020\",\"TfHlNgAZ_II_f021\",\"TfHlNgAZ_II_f022\",\"TfHlNgAZ_II_f023\",\"TfHlNgAZ_II_f025\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Propulsion Block\",\"Liquidity (Internal/External Range Liquidity)\",\"Change in the state of delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Higher Lows and Higher Highs\",\"Risk Management (2R Target)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到小时图再",
+  "error": null
+}

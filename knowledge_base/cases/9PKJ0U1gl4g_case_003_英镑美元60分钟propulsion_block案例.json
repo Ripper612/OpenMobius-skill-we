@@ -1,0 +1,109 @@
+{
+  "card_id": "9PKJ0U1gl4g_case_003_英镑美元60分钟propulsion_block案例",
+  "type": "case",
+  "title": "GBPUSD 60分钟Propulsion Block突破案例",
+  "related_concepts": [
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buy Side Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "propulsion_block",
+    "order_block",
+    "breaker_block",
+    "smart_money_technique_smt",
+    "displacement",
+    "fair_value_gap",
+    "liquidity",
+    "buyside_sellside_liquidity"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1H",
+  "market_context": "GBPUSD 60分钟图中，价格在前期形成SMT（Smart Money Technique）分歧，随后出现Displacement强势位移，扫除低点流动性后形成Breaker Block。",
+  "key_observation": "博主识别到一个日线级别的Propulsion Block在60分钟图上的应用：价格在Breaker Block区域内尊重开盘价敏感性（mean threshold），最终向上突破形成新的推进块，为做多提供高概率入场机会。",
+  "analysis_steps": [
+    "Step 1: 在GBPUSD 60分钟图上识别SMT现象（价格分歧）和Displacement强势位移。",
+    "Step 2: 观察价格扫除低点流动性（Sellside Liquidity）并形成Breaker Block。",
+    "Step 3: 识别前期形成的Order Block（下跌收盘K线），作为反弹的支撑。",
+    "Step 4: 确认价格是否能够收盘在Order Block上方，形成Propulsion Block的条件。",
+    "Step 5: 验证价格在Propulsion Block内是否尊重开盘价的mean threshold（中线），不破位下方。",
+    "Step 6: 等待价格收盘突破Propulsion Block上方，确认Propulsion Block形成。",
+    "Step 7: 在开盘价附近寻找入场点，止损设置在Propulsion Block实体另一侧。",
+    "Step 8: 目标指向Buy Side Liquidity（摆动高点附近的流动性）。"
+  ],
+  "outcome": "价格成功突破Propulsion Block，向上Displacement交付至Buy Side Liquidity区域，交易获利。",
+  "lessons": "Propulsion Block是在Order Block被回测后形成的更小、更精确的入场结构。关键是确认价格尊重开盘价敏感性（mean threshold），不破位下方，这增强了向上突破的可信度。结合SMT和Displacement的确认，可以提高交易的成功率。",
+  "primary_image": "cards/9PKJ0U1gl4g/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/9PKJ0U1gl4g/images/case_003_detail_1.jpg",
+    "cards/9PKJ0U1gl4g/images/case_003_detail_2.jpg",
+    "cards/9PKJ0U1gl4g/images/case_003_detail_3.jpg",
+    "cards/9PKJ0U1gl4g/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "GBPUSD 60 分钟 K 线图，可见价格范围约 1.26500 至 1.27950。图上标注一条带文字标签 SMT 的上升趋势线，起点约 1.26480。图上有三个矩形区域：一个灰色矩形约覆盖 1.26850 至 1.27100，一个绿色矩形约覆盖 1.27300 至 1.27700，另一个灰色矩形约覆盖 1.27300 至 1.27420。绿色矩形内可见多根连续阳线。图上另有三条带文字的水平",
+    "case_003_detail_1.jpg": "GBPUSD 60 分钟 K 线图，图表来源标注为 TTrades_edu。可见价格范围约从 1.26500 至 1.27950。图右侧价格轴当前高亮标签显示 1.27243，另有两个蓝色标签分别位于约 1.26885 和 1.26844。图中右下方区域有一条带文字标签的斜线，标注文字为 SMT，斜线两端点分别位于约 1.26440 和 1.26500 附近。图上另有一条水平虚线位于约 1.270",
+    "case_003_detail_2.jpg": "GBPUSD 60 分钟 K 线图，图表来源标注为 TTrades_edu，底部时间轴显示日期范围约为 10 月 1 日至 1 月 12 日，当前时间标注为 Wed 10 Jan 24 11:00。右侧价格刻度范围约从 1.26500 至 1.27950。图右侧价格轴当前价标签显示 1.27243（绿色高亮）。图上有一条虚线水平线位于约 1.26730 处，对应光标所在位置。图上未见其他矩形框、趋",
+    "case_003_detail_3.jpg": "GBPUSD 60 分钟 K 线图，时间范围覆盖 2024 年 1 月 5 日至 14 日。图右侧价格刻度范围约为 1.26500 至 1.27950。图上有一条水平线标注文字 S&R，位于约 1.26850 处。图右侧中部有一个灰色矩形框，覆盖价格区间约 1.27150 至 1.27400。图右侧当前价格标签显示 1.27364（绿色高亮）及 1.27149（虚线）。K 线在日期 9 至 10 ",
+    "case_003_detail_4.jpg": "GBPUSD 60 分钟 K 线图，图右下角标注资产与时间框架。可见价格范围约从 1.26500 至 1.27950。图中右侧中部有一个灰色矩形框，覆盖约 1.27050 至 1.27400 区间。图上有一条斜向上的趋势线，标注文字为 'SMT'，位于约 1.26850 附近，连接 1 月 9 日至 10 日区间的低点。图右侧有两条短水平线，分别位于约 1.27200 和 1.27350 处。右侧"
+  },
+  "sources": [
+    {
+      "video_id": "9PKJ0U1gl4g",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        196.28,
+        373.479
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对GBPUSD案例的分析完整清晰，涵盖SMT识别、Displacement确认、Breaker Block形成、Propulsion Block条件验证、入场点选择和目标设定，图表标注详细，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:58.730544Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD 60分钟Propulsion Block突破案例\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1H\",\"market_context\":\"GBPUSD 60分钟图中，价格在前期形成SMT（Smart Money Technique）分歧，随后出现Displacement强势位移，扫除低点流动性后形成Breaker Block。\",\"key_observation\":\"博主识别到一个日线级别的Propulsion Block在60分钟图上的应用：价格在Breaker Block区域内尊重开盘价敏感性（mean threshold），最终向上突破形成新的推进块，为做多提供高概率入场机会。\",\"analysis_steps\":[\"Step 1: 在GBPUSD 60分钟图上识别SMT现象（价格分歧）和Displacement强势位移。\",\"Step 2: 观察价格扫除低点流动性（Sellside Liquidity）并形成Breaker Block。\",\"Step 3: 识别前期形成的Order Block（下跌收盘K线），作为反弹的支撑。\",\"Step 4: 确认价格是否能够收盘在Order Block上方，形成Propulsion Block的条件。\",\"Step 5: 验证价格在Propulsion Block内是否尊重开盘价的mean threshold（中线），不破位下方。\",\"Step 6: 等待价格收盘突破Propulsion Block上方，确认Propulsion Block形成。\",\"Step 7: 在开盘价附近寻找入场点，止损设置在Propulsion Block实体另一侧。\",\"Step 8: 目标指向Buy Side Liquidity（摆动高点附近的流动性）。\"],\"outcome\":\"价格成功突破Propulsion Block，向上Displacement交付至Buy Side Liquidity区域，交易获利。\",\"lessons\":\"Propulsion Block是在Order Block被回测后形成的更小、更精确的入场结构。关键是确认价格尊重开盘价敏感性（mean threshold），不破位下方，这增强了向上突破的可信度。结合SMT和Displacement的确认，可以提高交易的成功率。\",\"primary_image_frame_id\":\"9PKJ0U1gl4g_f013\",\"supporting_image_frame_ids\":[\"9PKJ0U1gl4g_f001\",\"9PKJ0U1gl4g_f010\",\"9PKJ0U1gl4g_f011\",\"9PKJ0U1gl4g_f012\"],\"related_concepts\":[\"Propulsion Block\",\"Order Block\",\"Breaker Block\",\"SMT\",\"Displacement\",\"Fair Value Gap\",\"Liquidity\",\"Buy Side Liquidity\",\"Sell Side Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对GBPUSD案例的分析完整清晰，涵盖SMT识别、Displacement确认、Breaker Block形成、Propulsion Block条件验证、入场点选择和目标设定，图表标注详细，交易结果明确。\"}",
+  "error": null
+}

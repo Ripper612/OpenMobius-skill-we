@@ -1,0 +1,106 @@
+{
+  "card_id": "o0v4KQxZbpU_case_008_回测第六天交易",
+  "type": "case",
+  "title": "回测第六天交易：11AM无有效扫盘，订单取消",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "mitigation_block",
+    "breaker_block",
+    "liquidity",
+    "market_structure",
+    "displacement",
+    "killzone"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1H",
+  "market_context": "NAS100在日线上升趋势中，博主进行多日回测交易。第六天在11:00 AM时段检查是否出现有效的流动性扫盘和结构突破，以确定是否符合交易条件。",
+  "key_observation": "11:00 AM时段未出现有效的扫盘（sweep）。价格仅触及前期高点形成等高（equal highs），不符合交易入场条件，因此取消待命订单。",
+  "analysis_steps": [
+    "Step 1: 标记9:00 AM K线的高点和低点作为参考结构。",
+    "Step 2: 观察价格是否在11:00 AM时段出现向上位移（displacement）和扫盘。",
+    "Step 3: 确认价格仅触及前期高点形成等高，而非有效扫盘，不符合交易条件。",
+    "Step 4: 取消原定的订单，因为交易设置不在11:00 AM窗口内有效。",
+    "Step 5: 继续观察后续K线，检查是否出现向下收盘的K线以及其对价格的支撑作用。",
+    "Step 6: 识别订单块（Order Block）和减伤块（Mitigation/Breaker Block）作为潜在入场区域。",
+    "Step 7: 在减伤块内部寻找公允价值缺口（Fair Value Gap）作为优先入场点。"
+  ],
+  "outcome": null,
+  "lessons": "在特定时间窗口（如11:00 AM）内，必须等待有效的扫盘和结构突破信号才能入场。仅触及前期高点的等高不构成有效的交易设置。严格遵守时间窗口规则可以避免在不符合条件的情况下入场。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_008_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_008_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_008_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_008_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_008_primary.jpg": "NAS100 日线图。图上有多条水平线标注在 15370、15320、15200、15100、15040 等价格位置。两个矩形区域分别标记为'FVG - Imbalance'，其中一个位于 15280 至 15320 区间（粉色背景），另一个位于 15100 至 15200 区间（浅蓝色背景）。可见价格范围从 15040 至 15370。右侧显示一根大型绿色 K 线从约 15100 上升至 153",
+    "case_008_detail_1.jpg": "NAS100 日线图。图表显示从左至右的价格走势，可见价格范围约从 14850 到 15112。图上有多条水平线标注，其中两条矩形框分别标记在 15068-15075 区间和 14985-15000 区间。K 线序列显示初期多根绿色蜡烛，中段出现一系列黑色蜡烛表现下行，后期再次出现绿色蜡烛。各根 K 线的上下影线长度不一。右侧价格刻度清晰显示数值标记。",
+    "case_008_detail_2.jpg": "NAS100 1小时K线图。图上显示约20根K线，价格范围从14671.83至15302.00。K线呈绿色和黑色混合，多数具有上下影线。图上标注有两个矩形区域，分别位于下方（约14671-15044）和上方（约14894-15302）。右侧价格刻度清晰显示多个价格水平。图表底部显示时间轴，当前时间标记在15:10附近。未见其他指标或额外标注。",
+    "case_008_detail_3.jpg": "NAS100 日线图。图上显示从约 14900 至 15398 的上升趋势。可见一个灰色矩形标注区域位于 15210 至 15348 之间。图上有三条水平线分别标记在 15348、15210 和 15312 处。K 线序列中绿色蜡烛占多数，黑色蜡烛分散分布。图表下方显示成交量柱状图。右侧价格刻度清晰可读。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        561.92,
+        743.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主明确说明11 AM无有效扫盘、取消订单的原因，以及后续的分析步骤清晰可追踪。图表和讲解内容相符。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:46.692260Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第六天交易：11AM无有效扫盘，订单取消\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1H\",\"market_context\":\"NAS100在日线上升趋势中，博主进行多日回测交易。第六天在11:00 AM时段检查是否出现有效的流动性扫盘和结构突破，以确定是否符合交易条件。\",\"key_observation\":\"11:00 AM时段未出现有效的扫盘（sweep）。价格仅触及前期高点形成等高（equal highs），不符合交易入场条件，因此取消待命订单。\",\"analysis_steps\":[\"Step 1: 标记9:00 AM K线的高点和低点作为参考结构。\",\"Step 2: 观察价格是否在11:00 AM时段出现向上位移（displacement）和扫盘。\",\"Step 3: 确认价格仅触及前期高点形成等高，而非有效扫盘，不符合交易条件。\",\"Step 4: 取消原定的订单，因为交易设置不在11:00 AM窗口内有效。\",\"Step 5: 继续观察后续K线，检查是否出现向下收盘的K线以及其对价格的支撑作用。\",\"Step 6: 识别订单块（Order Block）和减伤块（Mitigation/Breaker Block）作为潜在入场区域。\",\"Step 7: 在减伤块内部寻找公允价值缺口（Fair Value Gap）作为优先入场点。\"],\"outcome\":null,\"lessons\":\"在特定时间窗口（如11:00 AM）内，必须等待有效的扫盘和结构突破信号才能入场。仅触及前期高点的等高不构成有效的交易设置。严格遵守时间窗口规则可以避免在不符合条件的情况下入场。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f023\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f019\",\"o0v4KQxZbpU_f020\",\"o0v4KQxZbpU_f022\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Mitigation Block\",\"Breaker Block\",\"Liquidity\",\"Market Structure\",\"Displacement\",\"Killzone\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主明确说明11 AM无有效扫盘、取消订单的原因，以及后续的分析步骤清晰可追踪。图表和讲解内容相符。\"}",
+  "error": null
+}

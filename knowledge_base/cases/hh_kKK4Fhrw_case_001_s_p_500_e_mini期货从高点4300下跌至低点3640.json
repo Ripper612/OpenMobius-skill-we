@@ -1,0 +1,130 @@
+{
+  "card_id": "hh_kKK4Fhrw_case_001_s_p_500_e_mini期货从高点4300下跌至低点3640",
+  "type": "case",
+  "title": "ES 4H从4300跌至3640的多技术点位识别与LTF入场模型应用",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Highs and Lows",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "optimal_trade_entry_ote",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "displacement",
+    "premium_discount",
+    "equilibrium_eq",
+    "balanced_price_range_bpr",
+    "high_low_time_frame"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "4H",
+  "market_context": "S&P 500 E-mini期货在4小时图表上从约4300的高点经历大幅下跌至3640低点，跌幅约660点。中间形成多个盘整区域，包含FVG、OB和多个摆动高低点，为识别LTF入场机会提供了丰富的HTF参考点位。",
+  "key_observation": "博主演示了在HTF（4H）上识别五类关键点位（highs/lows、session highs/lows、daily highs/lows、FVG、OB、OTE、range liquidity）后，如何在LTF（1分钟/15秒）上寻找具体入场模型的实际应用流程。",
+  "analysis_steps": [
+    "Step 1: 识别已被突破的摆动高低点及未来可能被扫荡的高低点作为价格磁铁目标",
+    "Step 2: 在价格突破高点后观察是否继续上行或回落，寻找Fair Value Gap作为关键反转区域",
+    "Step 3: 标记4H FVG（约3763-3723）和相关Order Block，作为LTF入场的HTF参考",
+    "Step 4: 使用斐波那契回撤（0.5、0.62、0.79）划分折价区和溢价区，确定OTE（Optimal Trade Entry）位置",
+    "Step 5: 在价格跌破低点后，在折价区内观察LTF是否形成做多入场模型",
+    "Step 6: 在价格反弹至前期高点附近时，在溢价区观察LTF是否形成做空入场模型",
+    "Step 7: 使用Range的内部流动性和OTE作为目标位，预期反向运动前的回撤目标"
+  ],
+  "outcome": null,
+  "lessons": "在HTF上识别FVG、OB、摆动高低点和OTE等多个技术点位后，不应盲目在HTF直接交易，而应下沉到LTF观察是否形成确认的入场模型。这样可以提高入场的精确性，避免虚假突破。同时要注意在熊市中，反弹可能只是折价区的回撤，最终仍会继续下跌。",
+  "primary_image": "cards/hh_kKK4Fhrw/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/hh_kKK4Fhrw/images/case_001_detail_1.jpg",
+    "cards/hh_kKK4Fhrw/images/case_001_detail_2.jpg",
+    "cards/hh_kKK4Fhrw/images/case_001_detail_3.jpg",
+    "cards/hh_kKK4Fhrw/images/case_001_detail_4.jpg",
+    "cards/hh_kKK4Fhrw/images/case_001_detail_5.jpg",
+    "cards/hh_kKK4Fhrw/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 4小时K线图。图上显示从左上角约4300.00下跌至右侧约3640.00的下降趋势。中间区域有多个矩形标注框，其中一个标记为FVG，对应价格区间约3763.00至3725.75。图上还有多条水平线标注在3763.00、3725.75、3723.00和3643.75等价格位置。右侧价格刻度显示当前价格在3763.00附近。K线形态显示多根红绿蜡烛在370",
+    "case_001_detail_1.jpg": "S&P 500 E-mini 期货 4 小时 K 线图。图上显示从左侧约 3965 的高点向下运行至右侧约 3640 的低点，跨度约 12 根 K 线。中间区域在 3680 至 3720 之间形成盘整，包含 4 根红绿交替的 K 线。下方区域多根 K 线的下影线穿破 3640 水平。右侧价格轴标注当前价位 3745.00。图上未见其他标注或指标。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 4小时K线图。图表显示从左侧约4025价位向下运行至右侧3648.25的下跌走势。可见价格范围约4025至3648.25。图上标注有3745.00和3648.25两个价位标签。K线序列中红色蜡烛占多数，绿色蜡烛零散分布其中。中段约3700至3750区间内出现相对密集的K线形成盘整形态。右侧显示当前价位信息框。整体呈现逐步创低的下跌结构。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 4小时K线图。图表显示从左上方约4022.00下跌至右下方约3648.00的下降趋势，跌幅约374点。图上可见多根红色K线和绿色K线交替出现。右侧价格刻度标注了3791.00、3648.50等关键价格。图右下方有一个矩形框标注，框内价格范围约在3648至3680之间。最新K线位置显示在图表右侧，对应时间为2023年9月22日14:00。图上未见其他指标",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 4小时K线图。图上可见价格范围从4300到3640。左侧有一根大幅下跌的红色K线。中间区域标注了一个灰色矩形框标记为4H FVG，位置约在3755至3775。下方有两条红色水平线分别标记为0.5和0.62，对应价格约3743和3720。图上还有多个矩形框标注在3680至3745区间。右侧显示当前价格标签。一个右键菜单弹窗显示在图表中央，包含Templa",
+    "case_001_detail_5.jpg": "S&P 500 E-mini Futures 4小时K线图。图上显示从左侧约4300下跌至右侧约3615的价格走势。图表左侧为大幅下跌的红色K线，中间区域约3700至3640范围内出现多根红绿交替的小K线形成盘整。图上标注有两个矩形框：上方灰色矩形标记为FVG，跨越3763至3723价格区间；下方米色矩形覆盖盘整区域。右侧显示斐波那契水平线标记，从上至下标注为0.618、0.5、0.382、0。右",
+    "case_001_detail_6.jpg": "ES 4小时K线图。图上显示从3940下跌至3610的下行趋势。标注包括4条水平线分别位于3823、3723、3647、3613处。图中央有一个标记为FVG的矩形框，位于3765至3785区间。下方有多个矩形框标注两个主要整理区域，分别在3700-3750和3620-3680之间。图上还标注了斐波那契回撤水平线，标签分别为0.79、0.62、0.5。可见K线呈现先跌后整理的形态，整理区内红绿K线交"
+  },
+  "sources": [
+    {
+      "video_id": "hh_kKK4Fhrw",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.799,
+        368.58
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从HTF识别到LTF应用的全流程，关键价位（4300、3763、3723、3640）、时间框架（4H、1分钟）、技术工具（FVG、OB、OTE、斐波那契）均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:51.908787Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 4H从4300跌至3640的多技术点位识别与LTF入场模型应用\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"4H\",\"market_context\":\"S&P 500 E-mini期货在4小时图表上从约4300的高点经历大幅下跌至3640低点，跌幅约660点。中间形成多个盘整区域，包含FVG、OB和多个摆动高低点，为识别LTF入场机会提供了丰富的HTF参考点位。\",\"key_observation\":\"博主演示了在HTF（4H）上识别五类关键点位（highs/lows、session highs/lows、daily highs/lows、FVG、OB、OTE、range liquidity）后，如何在LTF（1分钟/15秒）上寻找具体入场模型的实际应用流程。\",\"analysis_steps\":[\"Step 1: 识别已被突破的摆动高低点及未来可能被扫荡的高低点作为价格磁铁目标\",\"Step 2: 在价格突破高点后观察是否继续上行或回落，寻找Fair Value Gap作为关键反转区域\",\"Step 3: 标记4H FVG（约3763-3723）和相关Order Block，作为LTF入场的HTF参考\",\"Step 4: 使用斐波那契回撤（0.5、0.62、0.79）划分折价区和溢价区，确定OTE（Optimal Trade Entry）位置\",\"Step 5: 在价格跌破低点后，在折价区内观察LTF是否形成做多入场模型\",\"Step 6: 在价格反弹至前期高点附近时，在溢价区观察LTF是否形成做空入场模型\",\"Step 7: 使用Range的内部流动性和OTE作为目标位，预期反向运动前的回撤目标\"],\"outcome\":null,\"lessons\":\"在HTF上识别FVG、OB、摆动高低点和OTE等多个技术点位后，不应盲目在HTF直接交易，而应下沉到LTF观察是否形成确认的入场模型。这样可以提高入场的精确性，避免虚假突破。同时要注意在熊市中，反弹可能只是折价区的回撤，最终仍会继续下跌。\",\"primary_image_frame_id\":\"hh_kKK4Fhrw_f002\",\"supporting_image_frame_ids\":[\"hh_kKK4Fhrw_f003\",\"hh_kKK4Fhrw_f004\",\"hh_kKK4Fhrw_f005\",\"hh_kKK4Fhrw_f007\",\"hh_kKK4Fhrw_f008\",\"hh_kKK4Fhrw_f009\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Optimal Trade Entry (OTE)\",\"Liquidity\",\"Highs and Lows\",\"Displacement\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Balanced Price Range (BPR)\",\"HTF / LTF\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从HTF识别到LTF应用的全流程，关键价位（4300、3763、3723、3640）、时间框架（4H、1分钟）、技术工具（FVG、OB、OTE、斐波那契）均清晰可见。\"}",
+  "error": null
+}

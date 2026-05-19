@@ -1,0 +1,62 @@
+{
+  "card_id": "precision_swing_point",
+  "type": "merged_concept",
+  "canonical_term": "Precision Swing Point",
+  "aliases": [
+    "PSP"
+  ],
+  "school": "SMC",
+  "definition": "在相关联的市场间，两个K线在同一时间周期内收盘方向相反时形成的信号。用于确认价格反转或趋势延续，可单独使用或与SMT组合形成更强的确认信号。",
+  "identification_rules": [
+    "识别两个相关联的市场（如CL与HO、GC与Gold/GBP等）",
+    "观察对应时间周期内的K线收盘方向：一个收盘看涨，另一个收盘看跌",
+    "确认这种相反收盘方向出现在同一根K线或相邻K线上",
+    "PSP可单独形成，也可在SMT之后形成作为二阶段确认"
+  ],
+  "trading_implication": "PSP作为反转确认信号，当价格触及关键水平（如FVG、订单块、范围高/低点）但未形成SMT时，PSP可单独确认反转。在二阶段PSP中，先形成PSP后跟随SMT形成更强确认。交易者在PSP确认后交易后续K线朝反向方向运行，或在扩张中寻找延续PSP。",
+  "common_mistakes": [
+    "误将相关市场的等高点（equal highs）判断为PSP反转信号，忽视了两个市场都在扩张离开原始反转点的叙述背景",
+    "未区分PSP的两种形式：反转PSP（确认反转）与延续PSP（在扩张中形成，不产生摆动点）",
+    "在没有关键水平支撑的情况下过度依赖PSP单独信号，应结合范围框架、FVG或订单块使用"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3eVxTV_7L2U_case_007_指数三角完整顶部交易_nq_ym从日线到3分钟",
+      "video_id": "3eVxTV_7L2U",
+      "title": "NQ/YM日线三角顶部：从SMT到PSP再到3分钟CSD确认交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_precision_swing_point",
+      "segment_ids": [
+        "seg_012",
+        "seg_013",
+        "seg_015",
+        "seg_016"
+      ],
+      "time_range": [
+        646.0,
+        1107.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134843Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,92 @@
+{
+  "card_id": "o0v4KQxZbpU_case_029_回测第二十七天交易",
+  "type": "case",
+  "title": "第27天：扫低后FVG入场做多被止损",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "turtle_soup",
+    "displacement",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1分钟",
+  "market_context": "NAS100在第17天出现下跌走势，博主标记日内高低点后观察价格行为。价格经历扫低（sweep）后反弹，形成Fair Value Gap，为做多提供机会。",
+  "key_observation": "价格扫低后反弹，在FVG区域形成做多入场点，但随后被止损出局，反映该交易设置的风险回报比不理想。",
+  "analysis_steps": [
+    "Step 1: 标记日内高点和低点，观察价格是否能收盘在高点上方（未能实现）",
+    "Step 2: 识别价格下跌趋势，评估11:00左右的反弹机会（不满意）",
+    "Step 3: 观察浅层扫低（shallow sweep），判断缺乏有效位移（displacement）",
+    "Step 4: 识别第二次扫低后出现位移，标记Fair Value Gap区域",
+    "Step 5: 在FVG区域设置做多入场，但评估风险回报比不理想",
+    "Step 6: 执行交易后被止损出局"
+  ],
+  "outcome": "交易被止损出局，未能获利",
+  "lessons": "浅层扫低和缺乏明显位移的反弹信号可靠性较低；即使识别到FVG，也需谨慎评估风险回报比，避免在不理想的设置中强行入场。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_029_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_029_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_029_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_029_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_029_primary.jpg": "NAS100 1 分钟 K 线图。图上显示左侧为详细 K 线走势，右侧为简化的 K 线表示。可见价格范围约从 14450 到 14665。图上标注有三个矩形区域，分别对应不同的价格水平和成交量标签。左侧 K 线呈现绿色和黑色主体的混合形态，跨越整个可见价格范围。右侧面板显示黑色和绿色的简化 K 线块。图表底部显示时间刻度，当前时间标记为 Fri 14 Apr 23 10:22。",
+    "case_029_detail_1.jpg": "NAS100 1分钟图表。左侧面板显示一段下跌走势，K线从约15825跌至15470。右侧面板展示两个大型矩形块：绿色块对应价格范围约15470至15671，标注文字为'121 +44 Long | 14.28'；黑色块对应价格范围约15671至15825，标注文字为'125 +388 Long | 14.28'。图右侧价格刻度轴显示多条带颜色标签的水平线，标注有数值。图上未见其他指标或形态标注。",
+    "case_029_detail_2.jpg": "NAS100 日线图。图上显示从约 14852 至 14625 的下跌趋势，跨越多根 K 线。绿色和黑色 K 线交替出现，多根 K 线具有长下影线。图上标记有三个矩形区域，分别位于不同价格水平。右侧价格刻度显示范围约 14625 至 14852。图表底部显示时间标记为\"Thu 17 Aug 23 10:18\"。",
+    "case_029_detail_3.jpg": "NAS100 日线图。图上显示一段时间内的 K 线走势，价格范围约从 14454 到 14632。图表左侧为完整日线序列，右侧为放大视图。图上有两条水平线分别位于 14651 和 14454 处，均带有价格标签。此外标注了三个矩形区域，分别位于 14600-14650、14500-14550 和 14450-14500 的价格区间。K 线由绿色和黑色蜡烛组成，分布在整个可见价格范围内。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_014"
+      ],
+      "time_range": [
+        1530.64,
+        1633.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲述了标记高低点、识别扫低、评估FVG、入场和止损的全过程，关键价位和时间框架清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:57.172058Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"第27天：扫低后FVG入场做多被止损\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1分钟\",\"market_context\":\"NAS100在第17天出现下跌走势，博主标记日内高低点后观察价格行为。价格经历扫低（sweep）后反弹，形成Fair Value Gap，为做多提供机会。\",\"key_observation\":\"价格扫低后反弹，在FVG区域形成做多入场点，但随后被止损出局，反映该交易设置的风险回报比不理想。\",\"analysis_steps\":[\"Step 1: 标记日内高点和低点，观察价格是否能收盘在高点上方（未能实现）\",\"Step 2: 识别价格下跌趋势，评估11:00左右的反弹机会（不满意）\",\"Step 3: 观察浅层扫低（shallow sweep），判断缺乏有效位移（displacement）\",\"Step 4: 识别第二次扫低后出现位移，标记Fair Value Gap区域\",\"Step 5: 在FVG区域设置做多入场，但评估风险回报比不理想\",\"Step 6: 执行交易后被止损出局\"],\"outcome\":\"交易被止损出局，未能获利\",\"lessons\":\"浅层扫低和缺乏明显位移的反弹信号可靠性较低；即使识别到FVG，也需谨慎评估风险回报比，避免在不理想的设置中强行入场。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f055\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f052\",\"o0v4KQxZbpU_f053\",\"o0v4KQxZbpU_f054\"],\"related_concepts\":[\"Fair Value Gap\",\"Sweep\",\"Displacement\",\"Order Block\",\"Market Structure\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲述了标记高低点、识别扫低、评估FVG、入场和止损的全过程，关键价位和时间框架清晰。\"}",
+  "error": null
+}

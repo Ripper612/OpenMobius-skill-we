@@ -1,0 +1,126 @@
+{
+  "card_id": "eywpZT3z6GQ_case_001_黄金小时线看涨扩张交易案例",
+  "type": "case",
+  "title": "黄金小时线看涨扩张交易案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Time Frame Alignment",
+      "card_id": "time_frame_alignment",
+      "exists": true
+    },
+    {
+      "term": "Bullish Bias",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift",
+    "candle_2_closure_c2",
+    "aligned_timeframe",
+    "time_frame_alignment",
+    "swing_low_swing_high"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "1H",
+  "market_context": "黄金处于日线看涨趋势中，出现扩张进入整理形态。博主通过多时间框架分析识别看涨偏差和入场机会。",
+  "key_observation": "在日线看涨趋势背景下，黄金小时线形成扩张后进入整理，通过小时线偏差、15分钟摆动点和1分钟分形模型的组合，成功识别高概率看涨入场点。",
+  "analysis_steps": [
+    "Step 1: 确认日线看涨趋势背景，识别小时线扩张进入整理的形态特征。",
+    "Step 2: 在小时线上寻找Candle 2收盘和Candle 3收盘，预期下一根K线出现扩张。",
+    "Step 3: 识别小时线内的FVG、内部流动性和外部流动性，建立看涨偏差。",
+    "Step 4: 在15分钟时间框架上寻找形成小时线低点的摆动点，并在该点寻找Candle 2收盘。",
+    "Step 5: 在15分钟扩张K线内部寻找15分钟和1分钟分形模型。",
+    "Step 6: 识别Candle 2收盘和交付状态改变(CSD)，预期Candle 3的影线形成。",
+    "Step 7: 在1分钟时间框架上等待继续走势，形成更高时间框架K线的影线。",
+    "Step 8: 在确认后进场，止损设在低点，目标为2R收益。"
+  ],
+  "outcome": "成功获得2R收益。价格在整理后突破，通过小时线扩张K线的身体进行交易，最终达到预期目标。",
+  "lessons": "多时间框架对齐是关键：从日线偏差→小时线扩张→15分钟摆动→1分钟分形，逐级确认。整理是看涨延续信号，应优先考虑向上扫荡而非向下。小时线的小影线支持扩张预期，是进场的重要确认。",
+  "primary_image": "cards/eywpZT3z6GQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/eywpZT3z6GQ/images/case_001_detail_1.jpg",
+    "cards/eywpZT3z6GQ/images/case_001_detail_2.jpg",
+    "cards/eywpZT3z6GQ/images/case_001_detail_3.jpg",
+    "cards/eywpZT3z6GQ/images/case_001_detail_4.jpg",
+    "cards/eywpZT3z6GQ/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表显示一份K线图，价格范围从3.9614至4.8114。左侧区域呈现上升趋势，由绿色和黑色K线组成，多根K线带有较长下影线。中间区域出现下跌，黑色K线占主导。右侧区域显示一个矩形标注框，框内K线在4.0至4.15价格区间内波动，呈现整理形态。图上未见明确的文字标签或其他技术指标。",
+    "case_001_detail_1.jpg": "图上显示标题'Hourly Bias'，下方为一系列16根K线按时间顺序排列。K线颜色交替出现绿色和黑色，每根K线具有不同的主体大小和影线长度。图右侧约4根K线上方覆盖一个黄色矩形阴影区域，该区域上方有一条虚线水平线。左下角显示'TTrades'品牌标识。图上未标注具体价格刻度或资产代码。",
+    "case_001_detail_2.jpg": "图上标题为'15m Swing'，显示15分钟时间框架的K线图。图中包含多根K线，其中两根黑色K线位于中间偏左区域，各带上影线。黑色K线之后跟随一根较大的绿色K线。右侧区域有一根黑色K线带下影线，其上方为一根较大的绿色K线带上影线。图上有两条水平虚线贯穿整个图表。左下角显示'TTrades'标志和数字'2'，底部显示时间框架标签'15m'和'1h'。",
+    "case_001_detail_3.jpg": "图上展示标题为'15m > 1m Fractal Model'的双时间框架对比。左侧标记为'1m'的面板显示1分钟K线图，包含一段下跌走势随后转为上升走势的K线序列。右侧标记为'15m'的面板显示15分钟K线图，包含两根黑色K线和一根绿色K线，其中绿色K线体积较大。右侧面板的最后几根K线被一个矩形框标注。图上有两条虚线水平线贯穿两个面板。左下角显示'TTrades'标志和数字'4'。",
+    "case_001_detail_4.jpg": "图表显示 USDT 的 K 线走势，价格范围约从 4.6014 到 4.7014。图左侧呈现一根长下影线的黑色 K 线，随后跟随绿色 K 线。中间区域为一系列绿黑交替的 K 线，振幅逐渐缩小。图上有一个黄色矩形框标注，覆盖约 4.6350 至 4.6750 的价格区间。右侧 K 线呈现相对窄幅整理，在 4.6400 至 4.6800 之间波动，其中一根 K 线上标有小圆圈标记。",
+    "case_001_detail_5.jpg": "图表显示 USDT 资产的 K 线图，价格范围约从 4.6814 到 4.8813。图上有两条水平线分别位于 4.7312 和 4.7712 处。下方有一个黄色矩形区域覆盖从 4.6814 到 4.7312 的价格范围。K 线序列包含绿色和黑色蜡烛，右侧显示一根大绿蜡烛后跟一根大黑蜡烛，中间部分呈现混合的绿黑蜡烛形态。时间框架信息在图上不清晰可见。"
+  },
+  "sources": [
+    {
+      "video_id": "eywpZT3z6GQ",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.88,
+        307.039
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线背景、小时线偏差、15分钟摆动、1分钟分形到最终入场和2R收益的全过程，关键价位和步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:44.311367Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金小时线看涨扩张交易案例\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"1H\",\"market_context\":\"黄金处于日线看涨趋势中，出现扩张进入整理形态。博主通过多时间框架分析识别看涨偏差和入场机会。\",\"key_observation\":\"在日线看涨趋势背景下，黄金小时线形成扩张后进入整理，通过小时线偏差、15分钟摆动点和1分钟分形模型的组合，成功识别高概率看涨入场点。\",\"analysis_steps\":[\"Step 1: 确认日线看涨趋势背景，识别小时线扩张进入整理的形态特征。\",\"Step 2: 在小时线上寻找Candle 2收盘和Candle 3收盘，预期下一根K线出现扩张。\",\"Step 3: 识别小时线内的FVG、内部流动性和外部流动性，建立看涨偏差。\",\"Step 4: 在15分钟时间框架上寻找形成小时线低点的摆动点，并在该点寻找Candle 2收盘。\",\"Step 5: 在15分钟扩张K线内部寻找15分钟和1分钟分形模型。\",\"Step 6: 识别Candle 2收盘和交付状态改变(CSD)，预期Candle 3的影线形成。\",\"Step 7: 在1分钟时间框架上等待继续走势，形成更高时间框架K线的影线。\",\"Step 8: 在确认后进场，止损设在低点，目标为2R收益。\"],\"outcome\":\"成功获得2R收益。价格在整理后突破，通过小时线扩张K线的身体进行交易，最终达到预期目标。\",\"lessons\":\"多时间框架对齐是关键：从日线偏差→小时线扩张→15分钟摆动→1分钟分形，逐级确认。整理是看涨延续信号，应优先考虑向上扫荡而非向下。小时线的小影线支持扩张预期，是进场的重要确认。\",\"primary_image_frame_id\":\"eywpZT3z6GQ_f005\",\"supporting_image_frame_ids\":[\"eywpZT3z6GQ_f002\",\"eywpZT3z6GQ_f003\",\"eywpZT3z6GQ_f004\",\"eywpZT3z6GQ_f006\",\"eywpZT3z6GQ_f009\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Change in the state of delivery\",\"Market Structure Shift\",\"Candle 2 Closure\",\"Fractal Model\",\"Time Frame Alignment\",\"Bullish Bias\",\"Swing Point\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线背景、小时线偏差、15分钟摆动、1分钟分形到最终入场和2R收益的全过程，关键价位和步骤清晰。\"}",
+  "error": null
+}

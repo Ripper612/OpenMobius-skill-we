@@ -1,0 +1,59 @@
+{
+  "card_id": "candle_3_closure",
+  "type": "merged_concept",
+  "canonical_term": "Candle 3 Closure",
+  "aliases": [
+    "C3",
+    "C3 closure"
+  ],
+  "school": "ICT",
+  "definition": "指标可配置的高时间框架第三根蜡烛的收盘价位。作为分形模型的组成部分，与C4延续配合使用，用于识别特定的交易设置。",
+  "identification_rules": [
+    "在指标设置中勾选C3选项后，系统自动标记高时间框架第三根蜡烛的收盘位置",
+    "C3通常与C4（第四根蜡烛）的延续配合出现，形成完整的交易信号",
+    "C3标签在图表上以矩形框标注，位置对应高时间框架蜡烛的收盘价区间",
+    "可通过指标的Fractal参数独立启用或禁用C3显示"
+  ],
+  "trading_implication": "C3是分形模型识别交易设置的关键参考点。交易者通过观察C3收盘后是否出现C4延续来确认设置的有效性。若设置在C4内失效，则标记为失败；若保持有效，则继续追踪。C3与C2、C4组合使用，帮助交易者在多时间框架上识别高概率入场机会。",
+  "common_mistakes": [
+    "将C3单独使用而忽视C4延续的确认——C3必须配合C4延续才能形成完整的交易设置",
+    "混淆C3的不同状态颜色含义——灰色C3表示设置仍有效，红色表示在第一根蜡烛内失败，橙色表示在第二根蜡烛后失败"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_002_usdcad小时线延续交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD小时线看跌延续交易——从C2收盘到突破前日低点"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_candle_3_closure",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.08,
+        546.399
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131472Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

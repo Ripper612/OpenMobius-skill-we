@@ -1,0 +1,129 @@
+{
+  "card_id": "5rbFskdmEmU_case_001_标普500_e_mini期货11月4日日内走势分析",
+  "type": "case",
+  "title": "标普500 E-mini期货11月4日位移与位移缺失分析",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Lack of Displacement",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buy-side Liquidity",
+      "card_id": "liquidity_buyside_sellside",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "failure_to_displace",
+    "fair_value_gap",
+    "order_block",
+    "breaker_block",
+    "liquidity",
+    "liquidity_buyside_sellside",
+    "market_structure_shift",
+    "power_of_3_indicator",
+    "balanced_price_range",
+    "smart_money_technique_smt"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1m",
+  "market_context": "2022年11月4日（周五）RTH开盘，标普500 E-mini期货从前一日高点3754附近开始，经历从买方流动性向卖方流动性的转换，最终形成日内下跌走势。",
+  "key_observation": "博主通过追踪位移（Displacement）和位移缺失（Lack of Displacement）来识别趋势转换点。关键观察是：当价格未能在结构上方形成有力的位移时，预示趋势可能反转；反之，有力的位移确认趋势延续。",
+  "analysis_steps": [
+    "Step 1: 从RTH开盘开始，观察价格是否在前一日高点3754上方形成位移，发现缺乏有力的向上位移。",
+    "Step 2: 识别短期低点，观察价格是否能够在该低点下方形成有力位移，发现多次失败位移表明价格将继续上行。",
+    "Step 3: 当价格突破中期结构并形成有力向上位移时，确认从买方流动性转向卖方流动性的开始。",
+    "Step 4: 在上升趋势中，监测每个新高和新低，观察是否继续形成位移或出现位移缺失。",
+    "Step 5: 识别BPR（平衡价格区间）形成，价格在该区域内立即反向，表明趋势可能反转。",
+    "Step 6: 当价格未能在高点上方形成有力位移，反而快速回落时，确认从卖方流动性转向买方流动性。",
+    "Step 7: 在下跌趋势中，追踪位移缺失点位（如FVG和Breaker Block），作为空头入场机会。",
+    "Step 8: 最终演示如何利用位移缺失和FVG重叠区域寻找高概率空头交易设置。"
+  ],
+  "outcome": null,
+  "lessons": "位移缺失是识别趋势反转的关键信号。当价格在结构上方或下方未能形成有力的位移（大幅、有力的K线收盘在极端），而是快速回到区间内时，预示反向运动即将发生。结合Power of Three（积累-操纵-派发）模型，可以识别出高概率的交易机会。",
+  "primary_image": "cards/5rbFskdmEmU/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/5rbFskdmEmU/images/case_001_detail_1.jpg",
+    "cards/5rbFskdmEmU/images/case_001_detail_2.jpg",
+    "cards/5rbFskdmEmU/images/case_001_detail_3.jpg",
+    "cards/5rbFskdmEmU/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 S&P 500 E-mini Futures（CME_MINI）1 分钟 K 线图，时间轴覆盖 08:00 至 12:00，日期标注为 Fri 04 Nov '22。可见价格范围约从 3720 至 3808。图上有两条水平线分别位于约 3783 和 3762 附近，另有两个矩形框标注，一个位于约 3778 至 3785 区间，另一个位于约 3748 至 3756 区间。图右侧价格轴当前高亮",
+    "case_001_detail_1.jpg": "图为S&P 500 E-mini Futures（CME_MINI）1分钟K线图，时间轴覆盖07:30至约11:30。图上可见一条水平线位于约3782.50附近，横贯图表中部。右侧价格轴有三组高亮标签：3782.50/3781.50/3779.75区域、3754.00/3753.75区域、3739.00/3736.00区域，最新价格标签显示3779.75（粉色背景）。K线在08:00至08:30附",
+    "case_001_detail_2.jpg": "图表为 S&P 500 E-mini Futures（CME_MINI）1 分钟 K 线图，时间轴显示 2022 年 11 月 4 日（周五）约 07:40 至 11:40 时段。图右侧价格刻度可见范围约 3720 至 3808。图上绘有两条水平线，分别位于约 3783 和 3772.75 处，右侧当前价标签以红色高亮显示 3772.75。图中约 09:00 至 09:20 区域有一个矩形标注框，",
+    "case_001_detail_3.jpg": "图表为 S&P 500 E-mini Futures（CME_MINI）1 分钟 K 线图，日期标注为 2022 年 11 月 4 日。可见价格范围约从 3716 至 3808。图上有一条水平线位于约 3782.50 处。图中约 09:00 至 09:50 时段内出现一段下行 K 线序列，从约 3800 区域下行至约 3730 附近。低点附近绘有两个小矩形框，价格区间约在 3748 至 3765 ",
+    "case_001_detail_4.jpg": "图表标题显示为 S&P 500 E-mini Futures，来自 CME MINI，平台为 TradingView，时间框架为 1 分钟。图上可见价格范围约从 3720 至 3808。图上有一条水平虚线位于约 3750 附近。图上绘制有两个矩形框，一个位于约 3775 至 3785 区间，另一个位于约 3758 至 3768 区间。K 线序列显示从左侧约 3730 区域上行至约 3800，随后回"
+  },
+  "sources": [
+    {
+      "video_id": "5rbFskdmEmU",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        476.3
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对案例分析完整，资产（ES）、时间框架（1分钟）、关键价位（3754、3783等）、分析步骤清晰，演示了完整的位移与位移缺失识别过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:27:52.719057Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500 E-mini期货11月4日位移与位移缺失分析\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1m\",\"market_context\":\"2022年11月4日（周五）RTH开盘，标普500 E-mini期货从前一日高点3754附近开始，经历从买方流动性向卖方流动性的转换，最终形成日内下跌走势。\",\"key_observation\":\"博主通过追踪位移（Displacement）和位移缺失（Lack of Displacement）来识别趋势转换点。关键观察是：当价格未能在结构上方形成有力的位移时，预示趋势可能反转；反之，有力的位移确认趋势延续。\",\"analysis_steps\":[\"Step 1: 从RTH开盘开始，观察价格是否在前一日高点3754上方形成位移，发现缺乏有力的向上位移。\",\"Step 2: 识别短期低点，观察价格是否能够在该低点下方形成有力位移，发现多次失败位移表明价格将继续上行。\",\"Step 3: 当价格突破中期结构并形成有力向上位移时，确认从买方流动性转向卖方流动性的开始。\",\"Step 4: 在上升趋势中，监测每个新高和新低，观察是否继续形成位移或出现位移缺失。\",\"Step 5: 识别BPR（平衡价格区间）形成，价格在该区域内立即反向，表明趋势可能反转。\",\"Step 6: 当价格未能在高点上方形成有力位移，反而快速回落时，确认从卖方流动性转向买方流动性。\",\"Step 7: 在下跌趋势中，追踪位移缺失点位（如FVG和Breaker Block），作为空头入场机会。\",\"Step 8: 最终演示如何利用位移缺失和FVG重叠区域寻找高概率空头交易设置。\"],\"outcome\":null,\"lessons\":\"位移缺失是识别趋势反转的关键信号。当价格在结构上方或下方未能形成有力的位移（大幅、有力的K线收盘在极端），而是快速回到区间内时，预示反向运动即将发生。结合Power of Three（积累-操纵-派发）模型，可以识别出高概率的交易机会。\",\"primary_image_frame_id\":\"5rbFskdmEmU_f007\",\"supporting_image_frame_ids\":[\"5rbFskdmEmU_f004\",\"5rbFskdmEmU_f005\",\"5rbFskdmEmU_f008\",\"5rbFskdmEmU_f001\",\"5rbFskdmEmU_f009\",\"5rbFskdmEmU_f010\"],\"related_concepts\":[\"Displacement\",\"Lack of Displacement\",\"Fair Value Gap\",\"Order Block\",\"Breaker Block\",\"Liquidity\",\"Buy-side Liquidity\",\"Sell-side Liquidity\",\"Market Structure Shift\",\"Power of 3\",\"Balanced Price Range\",\"SMT\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对案例分析完整，资产（ES）、时间框架（1分钟）、关键价位（3754、3783等）、分析步骤清晰，演示了完整的位移与位移缺失识别过程。\"}",
+  "error": null
+}

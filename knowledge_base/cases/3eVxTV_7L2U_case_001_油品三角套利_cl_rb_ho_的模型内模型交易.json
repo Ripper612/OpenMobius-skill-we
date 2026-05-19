@@ -1,0 +1,119 @@
+{
+  "card_id": "3eVxTV_7L2U_case_001_油品三角套利_cl_rb_ho_的模型内模型交易",
+  "type": "case",
+  "title": "油品三角套利（CL/RB/HO）的模型内模型交易",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Model within a Model",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "External Range Liquidity (ERL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Internal Range Liquidity (IRL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Precision Swing Point (PSP)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing Point Confirmation",
+      "card_id": "swing_point_confirmation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "liquidity",
+    "swing_point_confirmation"
+  ],
+  "school": "SMC",
+  "asset": "CL1! / RB1! / HO1!",
+  "timeframe": "1D / 4H",
+  "market_context": "原油期货CL在操纵范围低点后向上扩张，留下失败摆动。价格回测FVG时，与相关油品资产（HO、RB）形成Smart Money Technique分歧，确认反转信号。",
+  "key_observation": "CL操纵范围低点后扩张形成FVG，价格回测该FVG时与HO形成SMT确认反转，随后交易分布至范围低点作为目标。这是模型内模型的应用——外部范围操纵内部范围流动性。",
+  "analysis_steps": [
+    "Step 1: 识别CL在范围低点的操纵和随后的向上扩张位移，该位移留下失败摆动。",
+    "Step 2: 标记扩张过程中形成的FVG（公允价值缺口）作为关键水平。",
+    "Step 3: 观察价格回测FVG时，与相关资产HO的价格行为形成SMT（一个创新高，另一个未创新高）。",
+    "Step 4: 通过SMT确认反转信号，验证第一阶段SMT与第二阶段摆动点SMT的两阶段确认。",
+    "Step 5: 交易确认后的后续K线，目标为范围低点（Internal Range Liquidity），完成外部到内部的模型转换。"
+  ],
+  "outcome": null,
+  "lessons": "模型内模型交易通过在高时间框架范围操纵中识别低时间框架流动性目标。关键是使用相关资产的SMT作为反转确认，而非单一资产的FVG触及。两阶段SMT确认（关键水平+摆动点）提高了反转的可靠性。",
+  "primary_image": "cards/3eVxTV_7L2U/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/3eVxTV_7L2U/images/case_001_detail_1.jpg",
+    "cards/3eVxTV_7L2U/images/case_001_detail_2.jpg",
+    "cards/3eVxTV_7L2U/images/case_001_detail_3.jpg",
+    "cards/3eVxTV_7L2U/images/case_001_detail_4.jpg",
+    "cards/3eVxTV_7L2U/images/case_001_detail_5.jpg",
+    "cards/3eVxTV_7L2U/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图为 TradingView 双面板布局，左侧为 NY Harbor ULSD Futures（HO1!）4 小时 K 线图，右侧为 RBOB Gasoline Futures 4 小时 K 线图，两者均来自 NYMEX，时间轴对齐，截止至 2025 年 9 月 18 日 18:00。左侧图右轴当前价标签显示 2.3677，可见价格区间约 2.2950 至 2.4200；图下方有一个矩形标注，覆盖",
+    "case_001_detail_1.jpg": "图为教学示意图，无资产代码及时间框架标注，无价格刻度。图上绘制约9根示意K线，左侧3根位于较低区域，右侧最后一根为高体白K线延伸至上方。图上有两条虚线水平线，上方标注'External Range Liquidity(ERL)'，下方标注'Internal Range Liquidity(IRL)'，并有一条斜向下的趋势线连接两条虚线之间。左上角图例显示'IRL'对应'Key Level'、'ER",
+    "case_001_detail_2.jpg": "图为示意性蜡烛图，无资产代码及时间框架标注。图左上角有图例，标注两个色块：'Range low'对应'Key Level'，'Range high'对应'Target Level'。图中可见约9根K线，包含深色实体（阴线）与空心实体（阳线）。图上有两条水平线：上方标注'Opposing Range High'，下方标注'External Range Low'。最右侧一根阳线实体延伸至'Opposi",
+    "case_001_detail_3.jpg": "图为教学示意图，无真实资产代码或价格刻度。图上绘有约8根示意K线，并标注两条虚线水平线：上方标注'External Range Liquidity(ERL)'，下方标注'Internal Range Liquidity(IRL)'。左上角图例显示'IRL Key Level'与'ERL Target Level'两项说明。图中有一条向下箭头线从高点区域指向IRL虚线附近。底部图例行依次标注'1st",
+    "case_001_detail_4.jpg": "图为教学示意图，无资产代码及时间框架标注，无价格刻度。图中绘制约9根示意性K线，左上角图例标注ERL对应Key Level、IRL对应Target Level。图上有一条从左下向右上延伸的斜线，标注为External Range Liquidity(ERL)；另有一条水平虚线标注为Internal Range Liquidity(IRL)。左侧K线组下方有矩形括号标注，右上角有虚线圆圈标记。图底部",
+    "case_001_detail_5.jpg": "图为教学示意性 K 线图，无资产代码、时间框架及价格刻度。图上有两条带标签的虚线水平线：上方标注为 'External Range Liquidity(ERL)'，下方标注为 'Internal Range Liquidity(IRL)'。图左上角有图例说明：'IRL Key Level' 与 'ERL Target Level'。一条虚线斜线从 ERL 水平线附近向右下方延伸至两线之间的虚线圆圈",
+    "case_001_detail_6.jpg": "图为双面板日线 K 线图，左侧为 CL1!（轻质原油期货，NYMEX），右侧为 NY Harbor ULSD 期货（NYMEX），两者均为 1D 时间框架。左侧面板价格刻度范围约 52.50 至 65.00，右侧轴当前价标签显示 60.85，另有一标签显示 56.37。图上有一矩形标注框，覆盖约 56.00 至 61.00 价格区间，横跨约 10 根 K 线。右侧面板价格刻度范围约 1.8800 "
+  },
+  "sources": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "segment_ids": [
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        754.24,
+        961.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了CL/RB/HO三角套利的分析过程，包括范围操纵、FVG形成、SMT确认和目标设定，图表清晰标注了关键水平和交易逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:21:57.320780Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"油品三角套利（CL/RB/HO）的模型内模型交易\",\"school\":\"SMC\",\"asset\":\"CL1! / RB1! / HO1!\",\"timeframe\":\"1D / 4H\",\"market_context\":\"原油期货CL在操纵范围低点后向上扩张，留下失败摆动。价格回测FVG时，与相关油品资产（HO、RB）形成Smart Money Technique分歧，确认反转信号。\",\"key_observation\":\"CL操纵范围低点后扩张形成FVG，价格回测该FVG时与HO形成SMT确认反转，随后交易分布至范围低点作为目标。这是模型内模型的应用——外部范围操纵内部范围流动性。\",\"analysis_steps\":[\"Step 1: 识别CL在范围低点的操纵和随后的向上扩张位移，该位移留下失败摆动。\",\"Step 2: 标记扩张过程中形成的FVG（公允价值缺口）作为关键水平。\",\"Step 3: 观察价格回测FVG时，与相关资产HO的价格行为形成SMT（一个创新高，另一个未创新高）。\",\"Step 4: 通过SMT确认反转信号，验证第一阶段SMT与第二阶段摆动点SMT的两阶段确认。\",\"Step 5: 交易确认后的后续K线，目标为范围低点（Internal Range Liquidity），完成外部到内部的模型转换。\"],\"outcome\":null,\"lessons\":\"模型内模型交易通过在高时间框架范围操纵中识别低时间框架流动性目标。关键是使用相关资产的SMT作为反转确认，而非单一资产的FVG触及。两阶段SMT确认（关键水平+摆动点）提高了反转的可靠性。\",\"primary_image_frame_id\":\"3eVxTV_7L2U_f032\",\"supporting_image_frame_ids\":[\"3eVxTV_7L2U_f026\",\"3eVxTV_7L2U_f027\",\"3eVxTV_7L2U_f028\",\"3eVxTV_7L2U_f029\",\"3eVxTV_7L2U_f030\",\"3eVxTV_7L2U_f031\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Liquidity\",\"Model within a Model\",\"External Range Liquidity (ERL)\",\"Internal Range Liquidity (IRL)\",\"Precision Swing Point (PSP)\",\"Swing Point Confirmation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了CL/RB/HO三角套利的分析过程，包括范围操纵、FVG形成、SMT确认和目标设定，图表清晰标注了关键水平和交易逻辑。\"}",
+  "error": null
+}

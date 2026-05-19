@@ -1,0 +1,51 @@
+{
+  "card_id": "internal_low",
+  "type": "merged_concept",
+  "canonical_term": "Internal Low",
+  "aliases": [
+    "内部低点"
+  ],
+  "school": "ICT",
+  "definition": "价格在下行过程中形成的局部低点。在突破该低点后，通常预示价格可能反转向上，成为寻找做多设置的参考点。",
+  "identification_rules": [
+    "在下行趋势中识别一个明确的局部低点（相对于其前后K线）",
+    "该低点应被后续价格走势突破（向下穿过），伴随一定的位移（Displacement）",
+    "突破后价格通常会回测或接近该低点区域，形成潜在的做多入场机会"
+  ],
+  "trading_implication": "Internal Low是寻找做多设置的关键参考。交易者等待价格突破Internal Low后，再在更高时间框架的点位兴趣（如FVG或BPR）处寻找做多入场。这种方法通过确认价格已突破局部低点来建立看涨叙述，降低虚假信号风险，提高交易的概率。",
+  "common_mistakes": [
+    "在Internal Low被突破之前就提前做多，导致被扫损",
+    "忽视Internal Low突破后的回测确认，仓促入场"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "yOPESX2aWkI",
+      "original_card_id": "yOPESX2aWkI_concept_internal_low",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        182.34
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133548Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

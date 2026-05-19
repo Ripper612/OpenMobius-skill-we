@@ -1,0 +1,61 @@
+{
+  "card_id": "intraday_bias_framework",
+  "type": "merged_concept",
+  "canonical_term": "Intraday Bias Framework",
+  "aliases": [
+    "Daily Bias",
+    "Intraday Bias"
+  ],
+  "school": "ICT",
+  "definition": "通过分析前一根K线高低点、摆动点和下一根K线模型，在多个时间框架上判断日内价格方向的系统性框架。用于识别流动性目标和潜在反转点。",
+  "identification_rules": [
+    "观察前一根K线的高点和低点，判断价格是否会向其中一侧移动以获取流动性或形成反转。",
+    "检查当前K线是否能够突破（Displace）前一根K线的高/低点；若无法突破且收盘回到范围内，预期下一根K线向另一侧移动。",
+    "识别摆动点（Swing Points），当价格无法突破摆动点时，可预期价格反向回到范围内。",
+    "应用下一根K线模型（Next Candle Model）：当前K线失败突破时，预期下一根K线向相反方向移动以获取流动性。",
+    "结合PD Array（如FVG、OB等）与摆动点，在多时间框架上确认偏差方向。",
+    "在较低时间框架上标记范围高点和低点，等待价格触及其中一侧后判断是否能够突破。"
+  ],
+  "trading_implication": "该框架用于建立可靠的日内交易偏差，指导入场和目标设定。通过识别前一根K线高/低点和摆动点，交易者可预期价格向特定流动性区域移动。结合多时间框架分析（如从4小时降至1小时或1分钟），可在较低时间框架上寻找高概率入场点。该框架帮助交易者在OB、FVG等关键区域附近设置低风险交易，目标指向前期高点或其他流动性汇集区。",
+  "common_mistakes": [
+    "期望总是正确预测价格方向；实际上该框架会失败，需要接受一定的失误率。",
+    "在较低时间框架（如15分钟、1分钟）上应用时过度依赖前一根K线高/低点，导致信号过于嘈杂；应结合范围高/低点和摆动点来过滤。",
+    "忽视K线收盘位置的重要性；收盘是否在范围内或突破范围外决定了下一步的预期方向。",
+    "未能结合PD Array（如FVG、OB）进行确认，导致在没有支撑/阻力的区域进行交易。",
+    "在多时间框架间缺乏一致性；高时间框架的偏差与低时间框架的信号产生冲突时，未能优先考虑高时间框架。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_intraday_bias_framework",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        1080.299
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:55:02.016434Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

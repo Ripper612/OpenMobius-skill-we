@@ -1,0 +1,107 @@
+{
+  "card_id": "AdmnWLjf8rY_case_002_nq_1分钟空头入场案例_小时fvg目标",
+  "type": "case",
+  "title": "NQ 1分钟空头入场案例（小时FVG目标）",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Drawn Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "draw_on_liquidity",
+    "smart_money_technique_smt",
+    "low_resistance_liquidity",
+    "displacement",
+    "market_structure_shift_mss",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "2023年2月10日，NQ从伦敦高点约14955下行至低点约14595，随后反弹至14870区域。期间形成多个FVG和OB结构，为多时间框架联动分析提供机会。",
+  "key_observation": "博主识别出小时级FVG作为drawn liquidity目标，通过15分钟扫盘确认伦敦高点被取，1分钟形成新FVG后入场做空，目标指向小时FVG。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别伦敦高点（约15020）被取出，确认drawn liquidity已扫除。",
+    "Step 2: 在5分钟图上观察到SMT现象——ES未能创出新高，而NQ创出新高，形成分歧。",
+    "Step 3: 切换到15分钟图，确认伦敦高点被扫后，价格形成看跌K线并收盘在该高点下方，预期该区域转为阻力。",
+    "Step 4: 在1分钟图上识别一系列higher lows形成的low resistance liquidity，这是关键的做空信号。",
+    "Step 5: 观察1分钟图上形成的FVG（被交易进入后又位移离开），随后形成第二个FVG。",
+    "Step 6: 在第二个1分钟FVG处设置空头入场，止损设在该FVG的高点，目标指向小时级FVG（约14430-14450区域）。"
+  ],
+  "outcome": "成功到达小时FVG目标。价格从1分钟FVG入场后，沿着low resistance liquidity下行，最终触及小时级FVG目标区域。",
+  "lessons": "多时间框架联动分析的有效性：先从高时间框架（小时）识别drawn liquidity目标，用中时间框架（15分钟）确认扫盘和结构反转，最后在低时间框架（1分钟）寻找精确入场点。Low resistance liquidity和FVG的组合是高概率做空信号。",
+  "primary_image": "cards/AdmnWLjf8rY/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/AdmnWLjf8rY/images/case_002_detail_1.jpg",
+    "cards/AdmnWLjf8rY/images/case_002_detail_2.jpg",
+    "cards/AdmnWLjf8rY/images/case_002_detail_3.jpg",
+    "cards/AdmnWLjf8rY/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NQ1! 1 分钟 K 线图，日期标注为 2/10/2023，时间轴覆盖约 9:00 至 14:00。图右侧价格刻度范围约 14850.00 至 15070.00。图上有两条水平线：约 15010.00 处一条实线，约 14918.75 处一条虚线。图上有两个灰色矩形框：一个位于约 14970.00 至 14990.00 区间，另一个位于约 14880.00 至 14905.00 区间并延伸至图右",
+    "case_002_detail_1.jpg": "图表为 NQ1! 1 分钟 K 线图，时间轴显示 06:00 至 13:00，日期标注为 2/10/2023。右侧价格轴可见范围约 14800 至 14955。K 线从左侧约 14955 处向下延伸至约 09:00 时段的低点约 14595，随后回升至约 14870 区域。图右侧绘有一个浅绿色矩形，纵向范围约 14430 至 14930，其下半部分与一个灰色矩形重叠，灰色矩形纵向范围约 14430",
+    "case_002_detail_2.jpg": "NQ1! 5 分钟 K 线图，时间范围覆盖 Oct 至 2/10/2023。图上可见价格区间约从 14620 到 15200。图上有一条水平线位于约 15020 处，另有一条斜向趋势线标注文字 SMT，延伸至约 14826 水平。图右侧价格轴标注多个价格标签，包括 14952.25、14907.50、14851.50、14826.00、14756.50。图上绘制两个矩形框，分别为浅绿色和浅灰色，位",
+    "case_002_detail_3.jpg": "NQ1! 15 分钟 K 线图，图上标注来源为 TTrades_edu，日期显示 2/10/2023。可见价格范围约从 14625 到 15350。图上有一个较大的矩形框，覆盖约 14950 至 15000 区间，横跨多根 K 线。另有一个浅色填充矩形框位于约 14875 至 14925 区间。左侧价格轴显示当前价格标签约为 14962，另有一条虚线水平线位于约 14806。图右侧有一条竖向虚线。",
+    "case_002_detail_4.jpg": "NQ1! 1 分钟 K 线图，时间轴显示 2023 年 2 月 10 日，时间范围约 09:50 至 13:10。图上可见价格从左侧约 14900 区域上行至约 15060 高点，高点处标注文字\"SMT\"。此后 K 线连续下行至约 14960 区域。图上有两个灰色矩形框：一个横跨较宽时间范围位于约 14970 至 14990 价格区间，另一个位于图表下方约 14860 至 14910 区间。图上另"
+  },
+  "sources": [
+    {
+      "video_id": "AdmnWLjf8rY",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        184.56,
+        295.58
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从5分钟→15分钟→1分钟的分析流程，清晰标注了FVG、SMT、入场点和目标位，图表中多个帧都明确显示了关键价位和结构，交易结果也得到确认。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:25.379512Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 1分钟空头入场案例（小时FVG目标）\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"2023年2月10日，NQ从伦敦高点约14955下行至低点约14595，随后反弹至14870区域。期间形成多个FVG和OB结构，为多时间框架联动分析提供机会。\",\"key_observation\":\"博主识别出小时级FVG作为drawn liquidity目标，通过15分钟扫盘确认伦敦高点被取，1分钟形成新FVG后入场做空，目标指向小时FVG。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别伦敦高点（约15020）被取出，确认drawn liquidity已扫除。\",\"Step 2: 在5分钟图上观察到SMT现象——ES未能创出新高，而NQ创出新高，形成分歧。\",\"Step 3: 切换到15分钟图，确认伦敦高点被扫后，价格形成看跌K线并收盘在该高点下方，预期该区域转为阻力。\",\"Step 4: 在1分钟图上识别一系列higher lows形成的low resistance liquidity，这是关键的做空信号。\",\"Step 5: 观察1分钟图上形成的FVG（被交易进入后又位移离开），随后形成第二个FVG。\",\"Step 6: 在第二个1分钟FVG处设置空头入场，止损设在该FVG的高点，目标指向小时级FVG（约14430-14450区域）。\"],\"outcome\":\"成功到达小时FVG目标。价格从1分钟FVG入场后，沿着low resistance liquidity下行，最终触及小时级FVG目标区域。\",\"lessons\":\"多时间框架联动分析的有效性：先从高时间框架（小时）识别drawn liquidity目标，用中时间框架（15分钟）确认扫盘和结构反转，最后在低时间框架（1分钟）寻找精确入场点。Low resistance liquidity和FVG的组合是高概率做空信号。\",\"primary_image_frame_id\":\"AdmnWLjf8rY_f009\",\"supporting_image_frame_ids\":[\"AdmnWLjf8rY_f006\",\"AdmnWLjf8rY_f007\",\"AdmnWLjf8rY_f008\",\"AdmnWLjf8rY_f010\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Drawn Liquidity\",\"Smart Money Technique (SMT)\",\"Low Resistance Liquidity\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从5分钟→15分钟→1分钟的分析流程，清晰标注了FVG、SMT、入场点和目标位，图表中多个帧都明确显示了关键价位和结构，交易结果也得到确认。\"}",
+  "error": null
+}

@@ -1,0 +1,94 @@
+{
+  "card_id": "xdm_OexQWJY_case_003_伦敦纽约时段高点创造与下行目标案例",
+  "type": "case",
+  "title": "伦敦纽约时段高点创造与下行流动性目标",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Trend Line Liquidity",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "fair_value_gap_fvg",
+    "liquidity",
+    "order_block_ob",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1H",
+  "market_context": "伦敦-纽约交易时段，价格在亚洲时段创造相对等高后，伦敦时段继续上行至中期高点，随后出现看跌信号，预示下行走势。",
+  "key_observation": "伦敦时段价格运行至FVG上方创造中期高点，随后出现位移下行，目标指向下方的趋势线流动性和大型FVG区域。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别位移（Displacement）——左侧大幅下跌红烛，中部整理，右侧强势上升后大幅下跌。",
+    "Step 2: 在1小时图上观察伦敦-纽约时段前的价格行为——识别先前高点、流动性扫荡和位移下行。",
+    "Step 3: 标记伦敦时段运行至上方FVG并创造中期高点（约4010附近）。",
+    "Step 4: 确认高点形成后的看跌信号——价格未能继续上行，反而出现下行位移。",
+    "Step 5: 识别下方目标——趋势线流动性、大型FVG缺口和相对等低区域（约3860-3900）。",
+    "Step 6: 标注整合区域（约3961.50-4024.75）作为中期结构参考。"
+  ],
+  "outcome": null,
+  "lessons": "伦敦-纽约时段是关键交易窗口；识别前期高点和流动性位置后，当价格创造中期高点但未能突破上方FVG时，应预期下行位移；下方大型FVG和趋势线流动性是主要下行目标。",
+  "primary_image": "cards/xdm_OexQWJY/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/xdm_OexQWJY/images/case_003_detail_1.jpg",
+    "cards/xdm_OexQWJY/images/case_003_detail_2.jpg",
+    "cards/xdm_OexQWJY/images/case_003_detail_3.jpg",
+    "cards/xdm_OexQWJY/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从 7 月 21 日至 8 月 3 日的价格走势，价格范围约从 3860 到 4050。图上绘制有两个灰色矩形框：一个位于 3950 至 3980 区间，另一个位于 3860 至 3900 区间。右侧价格刻度显示多个水平线标记。K 线呈现先上升后下降的形态，中间区域有一段相对平稳的整理区间，随后出现向下的移动。图上未见其他指",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 4小时K线图。图上左侧有文字标签'Displacement'。右侧价格轴显示当前价格为3924.50（绿色高亮）。图表可见价格范围从3870到4440。左侧显示两个价格标签3924.00和3924.25。图上有一条水平虚线位于3857.50。K线序列显示左侧大幅下跌红烛，中部区间整理，右侧上升趋势中多根绿烛，最后以大幅下跌红烛结束。",
+    "case_003_detail_2.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图表显示从左侧约 3840 开始的上升趋势，延伸至中部约 4010 的高点。K 线序列包含绿色上升 K 线和红色下降 K 线混合排列。图上有一条水平虚线位于 3962.50 价格水平。右侧价格刻度显示范围从 3840.00 至 4080.50。图表底部显示时间标记从 18 日至 28 日，当前时间戳显示 23:50:24（UTC+4",
+    "case_003_detail_3.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从左侧约 3840 上升至右侧约 4068 的整体上升趋势。中部区域有一个矩形标注框，范围约在 3961.50 至 4024.75 之间，表示一个整合区域。可见 K 线中绿色蜡烛占多数，红色蜡烛分散出现。右侧价格刻度显示当前价格区间，图上未见其他指标或额外标注。",
+    "case_003_detail_4.jpg": "S&P 500 E-mini Futures 1 小时图。图表显示从左侧约 3975 下跌至右侧约 3840 的下行走势，跨越多根 K 线。可见价格范围约 3840 至 3982。右侧价格标签显示 3982.25 和 3854.28。图上标注有日期"
+  },
+  "sources": [
+    {
+      "video_id": "xdm_OexQWJY",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        187.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了伦敦时段高点创造、下行位移、目标流动性的全过程，关键价位和时间框架清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:45.493025Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"伦敦纽约时段高点创造与下行流动性目标\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1H\",\"market_context\":\"伦敦-纽约交易时段，价格在亚洲时段创造相对等高后，伦敦时段继续上行至中期高点，随后出现看跌信号，预示下行走势。\",\"key_observation\":\"伦敦时段价格运行至FVG上方创造中期高点，随后出现位移下行，目标指向下方的趋势线流动性和大型FVG区域。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别位移（Displacement）——左侧大幅下跌红烛，中部整理，右侧强势上升后大幅下跌。\",\"Step 2: 在1小时图上观察伦敦-纽约时段前的价格行为——识别先前高点、流动性扫荡和位移下行。\",\"Step 3: 标记伦敦时段运行至上方FVG并创造中期高点（约4010附近）。\",\"Step 4: 确认高点形成后的看跌信号——价格未能继续上行，反而出现下行位移。\",\"Step 5: 识别下方目标——趋势线流动性、大型FVG缺口和相对等低区域（约3860-3900）。\",\"Step 6: 标注整合区域（约3961.50-4024.75）作为中期结构参考。\"],\"outcome\":null,\"lessons\":\"伦敦-纽约时段是关键交易窗口；识别前期高点和流动性位置后，当价格创造中期高点但未能突破上方FVG时，应预期下行位移；下方大型FVG和趋势线流动性是主要下行目标。\",\"primary_image_frame_id\":\"xdm_OexQWJY_f008\",\"supporting_image_frame_ids\":[\"xdm_OexQWJY_f003\",\"xdm_OexQWJY_f006\",\"xdm_OexQWJY_f007\",\"xdm_OexQWJY_f002\"],\"related_concepts\":[\"Displacement\",\"Fair Value Gap (FVG)\",\"Liquidity\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Imbalance\",\"Trend Line Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了伦敦时段高点创造、下行位移、目标流动性的全过程，关键价位和时间框架清晰可读。\"}",
+  "error": null
+}

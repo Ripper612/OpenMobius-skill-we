@@ -1,0 +1,127 @@
+{
+  "card_id": "qdQYhePcvGE_case_013_xagusd多时间框架的反转与延续",
+  "type": "case",
+  "title": "XAGUSD日线反转后的小时图延续交易",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Continuation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower Time Frame Reversal",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Candle Quality",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Wick Analysis",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "expansion",
+    "consolidation",
+    "order_block",
+    "reversal_candle",
+    "market_structure",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "XAGUSD",
+  "timeframe": "1H / 5m",
+  "market_context": "XAGUSD在日线形成扩张后的低质量反转条件。博主在日线确立强势看涨偏差后，利用小时图的低质量条件进行小时图反转交易，展示多时间框架协同的交易方法。",
+  "key_observation": "日线形成扩张-盘整-反转的结构，产生强势看涨偏差。小时图在扩张后出现低质量反转条件，但由于日线偏差强势，可在小时图反转处进行交易。",
+  "analysis_steps": [
+    "Step 1: 观察日线形成价格扩张（向下扩张，向上扩张），随后盘整，最后形成反转蜡烛（绿色收盘，下影线浅）。",
+    "Step 2: 评估日线反转蜡烛的质量——由于是扩张后的反转，质量较低，但确立了强势看涨偏差。",
+    "Step 3: 决定使用整个蜡烛体范围而非0.5下影线，因为交易的是扩张蜡烛且下影线浅的情况。",
+    "Step 4: 切换到小时图，观察到小时图也形成了扩张后的低质量反转条件，但日线偏差强势。",
+    "Step 5: 在小时图上标记盘整范围，识别伦敦时段的反转蜡烛作为潜在交易点。",
+    "Step 6: 关注纽约时段，观察小时图扫除盘整低点——这是做多的关键入场信号。",
+    "Step 7: 由于日线偏差强势，可在小时图反转处进行交易，形成'日线延续+小时图反转'的组合。",
+    "Step 8: 切换到5分钟图，观察扫除盘整低点后的价格行为，确认扩张-盘整的延续结构。"
+  ],
+  "outcome": null,
+  "lessons": "在强势日线偏差支撑下，即使小时图反转质量较低，也可利用多时间框架协同进行交易。关键是识别扩张蜡烛的特征（小下影线），并在低时间框架上寻找反转机会。扫除盘整低点是确认做多的重要信号。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_013_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_013_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_013_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_013_detail_3.jpg",
+    "cards/qdQYhePcvGE/images/case_013_detail_4.jpg",
+    "cards/qdQYhePcvGE/images/case_013_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_013_primary.jpg": "图表显示 USD 1 小时周期 K 线图，价格范围从 6280.00 至 6550.00。图上有两条水平参考线：6451.80 处为虚线，6350.00 处为点线。图中绿色 K 线与黑色 K 线交替出现，跨越 8 月末至 9 月初时间段。在 6410 至 6450 价格区间有一个黄色矩形标注。右下角显示交易控制面板，包含 Sell、Buy、Flatten 按钮。图右上方标注显示'Bias: Bul",
+    "case_013_detail_1.jpg": "XAGUSD 2 分钟 K 线图。图上显示价格范围从 41.050 到 41.750。可见多条标注：一条向上倾斜的趋势线标记为 XAGUSD/OOBB；三个矩形框分别标注止损、开仓信息和目标价位，其中止损标注为 0.180（0.43%）36，开仓 PSL 为 0.095，目标为 0.355（0.86%）71；一个浅蓝色大矩形框覆盖从约 41.100 到 41.625 的价格区间。K 线呈现绿黑相间",
+    "case_013_detail_2.jpg": "XAGUSD 1 分钟 K 线图。图上显示价格范围从 40.800 到 41.720。可见三条水平线分别位于 41.520、41.400 和 41.085 处。图上标注有一条向下倾斜的趋势线标记为'XAGUSD/XAGUSP'。三个矩形框分别标注在 41.400-41.520、41.120-41.280 等区域。K 线形态显示早期在 41.520 至 41.400 区间内的盘整，随后出现大幅下跌至",
+    "case_013_detail_3.jpg": "图表显示 USD 资产的 K 线图，价格范围从 6350.00 到 6550.00。图上有多条水平线标注在 6470.00、6450.00 和 6430.00 处。左侧区域显示一系列 K 线在 6380.00 至 6500.00 之间波动，中间存在两个矩形标注区域。右侧显示三根 K 线，其中一根黑色 K 线夹在两根绿色 K 线之间，下影线延伸至约 6370.00。图上标记有文字标签'S&1'和'C",
+    "case_013_detail_4.jpg": "图表显示 USD 资产的 K 线图，价格范围从 6448.00 到 6506.00。图上有 4 条水平线分别位于 6477.75、6496.00、6462.00 和 6452.00。图中标注了多个矩形区域，分别围绕 6486-6488、6462-6468、6480-6490 和 6452-6462 的价格范围。K 线显示从左侧的下跌走势（多根黑色 K 线从 6482 跌至 6448），随后出现上升",
+    "case_013_detail_5.jpg": "USD 5分钟K线图，时间范围从02:00至15:30。图上可见价格范围约6471.00至6490.00。图中有三条水平线分别位于6489.00、6478.00和6477.00处。另有两个矩形框标注，分别覆盖6480.00至6489.00和6477.00至6480.00的价格区间。K线序列显示早期在6483.00至6488.00区间内波动，约04:30至05:00时出现下行，随后在6480.00至"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_030",
+        "seg_031",
+        "seg_032"
+      ],
+      "time_range": [
+        1529.039,
+        1682.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线反转识别、小时图低质量条件评估、多时间框架协同交易的全过程，关键价位、蜡烛特征、交易逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:14.440720Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"XAGUSD日线反转后的小时图延续交易\",\"school\":\"ICT\",\"asset\":\"XAGUSD\",\"timeframe\":\"1H / 5m\",\"market_context\":\"XAGUSD在日线形成扩张后的低质量反转条件。博主在日线确立强势看涨偏差后，利用小时图的低质量条件进行小时图反转交易，展示多时间框架协同的交易方法。\",\"key_observation\":\"日线形成扩张-盘整-反转的结构，产生强势看涨偏差。小时图在扩张后出现低质量反转条件，但由于日线偏差强势，可在小时图反转处进行交易。\",\"analysis_steps\":[\"Step 1: 观察日线形成价格扩张（向下扩张，向上扩张），随后盘整，最后形成反转蜡烛（绿色收盘，下影线浅）。\",\"Step 2: 评估日线反转蜡烛的质量——由于是扩张后的反转，质量较低，但确立了强势看涨偏差。\",\"Step 3: 决定使用整个蜡烛体范围而非0.5下影线，因为交易的是扩张蜡烛且下影线浅的情况。\",\"Step 4: 切换到小时图，观察到小时图也形成了扩张后的低质量反转条件，但日线偏差强势。\",\"Step 5: 在小时图上标记盘整范围，识别伦敦时段的反转蜡烛作为潜在交易点。\",\"Step 6: 关注纽约时段，观察小时图扫除盘整低点——这是做多的关键入场信号。\",\"Step 7: 由于日线偏差强势，可在小时图反转处进行交易，形成'日线延续+小时图反转'的组合。\",\"Step 8: 切换到5分钟图，观察扫除盘整低点后的价格行为，确认扩张-盘整的延续结构。\"],\"outcome\":null,\"lessons\":\"在强势日线偏差支撑下，即使小时图反转质量较低，也可利用多时间框架协同进行交易。关键是识别扩张蜡烛的特征（小下影线），并在低时间框架上寻找反转机会。扫除盘整低点是确认做多的重要信号。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f054\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f051\",\"qdQYhePcvGE_f052\",\"qdQYhePcvGE_f055\",\"qdQYhePcvGE_f056\",\"qdQYhePcvGE_f057\"],\"related_concepts\":[\"Displacement\",\"Expansion\",\"Consolidation\",\"Order Block\",\"Reversal Candle\",\"Market Structure\",\"Liquidity Sweep\",\"Higher Time Frame Continuation\",\"Lower Time Frame Reversal\",\"Candle Quality\",\"Wick Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线反转识别、小时图低质量条件评估、多时间框架协同交易的全过程，关键价位、蜡烛特征、交易逻辑清晰。\"}",
+  "error": null
+}

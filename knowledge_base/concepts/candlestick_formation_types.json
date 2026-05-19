@@ -1,0 +1,51 @@
+{
+  "card_id": "candlestick_formation_types",
+  "type": "merged_concept",
+  "canonical_term": "Candlestick Formation Types",
+  "aliases": [
+    "K线形成方式",
+    "蜡烛线形态类型"
+  ],
+  "school": "The Strat",
+  "definition": "K线相对于前一根K线的三种形成方式：盘整（未突破前一根K线高低点）、单边突破（突破一侧流动性）、双边突破（同时突破买卖方流动性）。",
+  "identification_rules": [
+    "盘整：当前K线的高点未超过前一根K线的高点（买方流动性），低点未低于前一根K线的低点（卖方流动性）",
+    "单边突破：当前K线突破前一根K线的一侧（高点或低点），但未突破另一侧",
+    "双边突破：当前K线同时突破前一根K线的高点和低点，即突破买卖双方流动性"
+  ],
+  "trading_implication": "识别K线形成方式用于预测价格后续走向。若非盘整状态，价格倾向于向前一根K线的高点或低点移动，或同时向两侧移动。这帮助交易者预期价格可能触及的流动性水平，用于框架化流动性吸收或反转点。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "YESqIoA7Wyg",
+      "original_card_id": "YESqIoA7Wyg_concept_candlestick_formation_types",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.44,
+        193.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131594Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,120 @@
+{
+  "card_id": "SlWxhzhLo3A_case_005_1分钟图反转扩张细节案例",
+  "type": "case",
+  "title": "1分钟图反转扩张细节案例",
+  "related_concepts": [
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "FVG (Fair Value Gap)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Small Wick",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fractal Concept",
+      "card_id": "fractal_model",
+      "exists": true
+    },
+    {
+      "term": "Candle to Closure",
+      "card_id": "wick_closure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "displacement",
+    "order_block",
+    "fractal_model",
+    "wick_closure"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "1m",
+  "market_context": "NQ11期货在1分钟图上形成反转K线后，通过小影线和市场结构转变确认，展示从反转到扩张的完整过程，最终形成受保护摆动并继续扩张至目标位。",
+  "key_observation": "博主强调在反转K线形成后，需要等待新K线开盘而非在K线内部交易；通过小影线（small wick）配合市场结构转变（CSD）来确认扩张方向，避免在反转形成过程中过早入场。",
+  "analysis_steps": [
+    "Step 1: 观察15分钟图上的反转K线形成过程，注意价格在3400.0附近的C4区域形成反转。",
+    "Step 2: 切换到1分钟图，确认反转K线在24840-24860区间内形成，但不在K线内部交易。",
+    "Step 3: 等待新K线开盘，观察是否形成浅层对立运动（shallow opposing run）和小影线。",
+    "Step 4: 确认市场结构转变（CSD）——新K线收盘穿过前一根K线高点，形成反转确认。",
+    "Step 5: 识别公允价值缺口（FVG），标记价格可能回测的区域。",
+    "Step 6: 观察后续K线是否形成小影线支持扩张方向，而非大幅对立运动。",
+    "Step 7: 在新的高时间框架K线开盘时寻找入场机会，确认受保护摆动（Protected Swing）形成。",
+    "Step 8: 追踪价格扩张至目标位，使用前期高点或流动性区域作为目标参考。"
+  ],
+  "outcome": "价格在形成反转K线后，通过小影线和CSD确认，最终形成受保护摆动并继续扩张至更高目标位。博主展示了从反转确认到扩张延续的完整过程，强调了等待新K线开盘和使用小影线作为扩张信号的重要性。",
+  "lessons": "关键教训：(1)不要在反转K线形成过程中交易，等待新K线开盘；(2)小影线配合CSD是确认扩张方向的有效信号；(3)使用高时间框架K线开盘作为过滤器，避免被困在新的价格阶段；(4)受保护摆动形成后可继续追踪扩张至目标位。",
+  "primary_image": "cards/SlWxhzhLo3A/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/SlWxhzhLo3A/images/case_005_detail_1.jpg",
+    "cards/SlWxhzhLo3A/images/case_005_detail_2.jpg",
+    "cards/SlWxhzhLo3A/images/case_005_detail_3.jpg",
+    "cards/SlWxhzhLo3A/images/case_005_detail_4.jpg",
+    "cards/SlWxhzhLo3A/images/case_005_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "USD 1分钟K线图，时间范围从13:45至15:40。图上有5条水平虚线分别位于24865、24850、24840、24825、24820价格水平。标注了两个矩形区域：C4标记在24835至24855区间，C7标记在24860至24870区间。另有两个未标记的矩形区域分别在24845至24865和24840至24850。K线整体价格范围从24815至24872.60。图表右上角显示'The Ma",
+    "case_005_detail_1.jpg": "USD 1分钟K线图。图上显示价格范围从24796.00至24868.00。左侧标注当前价24851.25，带虚线水平参考。图上有两个矩形标注框分别标记为C2和C4，分别对应约24816-24840和24820-24860的价格区间。K线序列显示从13:00开始的走势，包含一个向下跳空缺口、随后的盘整区间、以及14:30附近的绿色K线和14:45附近的黑色K线。右下角显示时间戳Mon 29 Sep",
+    "case_005_detail_2.jpg": "USD 1分钟K线图。图上显示从13:30至15:20的价格走势，价格范围在24817.50至24877.50之间。图表中有两条水平虚线分别位于24840.25和24850处。标注文字'C4'出现在24840价格水平。图上绘制了两个矩形框标记特定价格区间，以及一条从左下向右上延伸的上升趋势线。K线呈现绿色和黑色交替出现的形态，整体在24820至24862.5区间内波动。右下角显示'NQ11(1m)",
+    "case_005_detail_3.jpg": "USD 1分钟K线图，时间范围从13:30至15:20。图上可见价格范围约24817.50至24877.50。图中标注有4条水平线分别位于24853、24840、24830、24832处。矩形框标记区域包括标注为'C4'的下方区间（约24820-24835）和上方区间（约24850-24865）。一条向上趋势线从约24862.50延伸至24870.00。K线形态显示13:30至14:00间黑绿交替",
+    "case_005_detail_4.jpg": "USD 1 分钟 K 线图，时间范围从 13:40 到 15:20。图上标注两个矩形区域：C4 位于 24825 至 24840 价格范围，C2 位于 24865 至 24870 范围。一条水平虚线位于 24862.80。K 线从 13:40 开始呈上升趋势至 14:20，随后下跌至 14:35，之后在 24840 至 24862.80 之间震荡。14:50 处出现一根大幅上升的绿色 K 线，随后",
+    "case_005_detail_5.jpg": "USD 1分钟K线图，时间范围从14:05至16:10。图上显示价格范围从24792.00至24864.00。图中有4条水平虚线分别位于24860.00、24844.00、24840.00和24824.00处。早期K线在24844.00至24860.00区间内形成整理，之后从14:20开始出现下跌趋势，低点逐步下移至24804.00。15:40处出现向上跳空缺口，随后形成长上影线K线。15:50处"
+  },
+  "sources": [
+    {
+      "video_id": "SlWxhzhLo3A",
+      "segment_ids": [
+        "seg_026",
+        "seg_027",
+        "seg_028",
+        "seg_029",
+        "seg_030",
+        "seg_031",
+        "seg_032",
+        "seg_033"
+      ],
+      "time_range": [
+        1273.76,
+        1596.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整清晰，资产代码NQ11、时间框架1分钟、关键价位24840-24860、分析步骤和结论都有详细讲解，展示了从反转到扩张的完整过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:18.504606Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"1分钟图反转扩张细节案例\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"1m\",\"market_context\":\"NQ11期货在1分钟图上形成反转K线后，通过小影线和市场结构转变确认，展示从反转到扩张的完整过程，最终形成受保护摆动并继续扩张至目标位。\",\"key_observation\":\"博主强调在反转K线形成后，需要等待新K线开盘而非在K线内部交易；通过小影线（small wick）配合市场结构转变（CSD）来确认扩张方向，避免在反转形成过程中过早入场。\",\"analysis_steps\":[\"Step 1: 观察15分钟图上的反转K线形成过程，注意价格在3400.0附近的C4区域形成反转。\",\"Step 2: 切换到1分钟图，确认反转K线在24840-24860区间内形成，但不在K线内部交易。\",\"Step 3: 等待新K线开盘，观察是否形成浅层对立运动（shallow opposing run）和小影线。\",\"Step 4: 确认市场结构转变（CSD）——新K线收盘穿过前一根K线高点，形成反转确认。\",\"Step 5: 识别公允价值缺口（FVG），标记价格可能回测的区域。\",\"Step 6: 观察后续K线是否形成小影线支持扩张方向，而非大幅对立运动。\",\"Step 7: 在新的高时间框架K线开盘时寻找入场机会，确认受保护摆动（Protected Swing）形成。\",\"Step 8: 追踪价格扩张至目标位，使用前期高点或流动性区域作为目标参考。\"],\"outcome\":\"价格在形成反转K线后，通过小影线和CSD确认，最终形成受保护摆动并继续扩张至更高目标位。博主展示了从反转确认到扩张延续的完整过程，强调了等待新K线开盘和使用小影线作为扩张信号的重要性。\",\"lessons\":\"关键教训：(1)不要在反转K线形成过程中交易，等待新K线开盘；(2)小影线配合CSD是确认扩张方向的有效信号；(3)使用高时间框架K线开盘作为过滤器，避免被困在新的价格阶段；(4)受保护摆动形成后可继续追踪扩张至目标位。\",\"primary_image_frame_id\":\"SlWxhzhLo3A_f049\",\"supporting_image_frame_ids\":[\"SlWxhzhLo3A_f045\",\"SlWxhzhLo3A_f046\",\"SlWxhzhLo3A_f047\",\"SlWxhzhLo3A_f048\",\"SlWxhzhLo3A_f050\",\"SlWxhzhLo3A_f051\",\"SlWxhzhLo3A_f052\",\"SlWxhzhLo3A_f053\"],\"related_concepts\":[\"CSD (Change in the state of delivery)\",\"FVG (Fair Value Gap)\",\"Small Wick\",\"Protected Swing\",\"Displacement\",\"SMT (Smart Money Technique)\",\"Order Block\",\"Fractal Concept\",\"Candle to Closure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整清晰，资产代码NQ11、时间框架1分钟、关键价位24840-24860、分析步骤和结论都有详细讲解，展示了从反转到扩张的完整过程。\"}",
+  "error": null
+}

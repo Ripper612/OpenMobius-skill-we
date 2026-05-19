@@ -1,0 +1,120 @@
+{
+  "card_id": "wwMjc9RfpCg_case_002_标普500期货四小时fvg到两分钟图案例",
+  "type": "case",
+  "title": "标普500期货四小时FVG到两分钟图操纵腿与标准差目标",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Projection",
+      "card_id": "fibonacci_projection",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Confluence",
+      "card_id": "confluence",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "manipulation_leg",
+    "fibonacci_projection",
+    "standard_deviation",
+    "confluence",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "4H / 2M",
+  "market_context": "标普500期货在四小时图上形成公允价值缺口（FVG），价格向下扫盘低点后，博主在两分钟图上识别操纵腿结构，并通过斐波那契投影与标准差工具确定目标位。",
+  "key_observation": "博主观察到四小时FVG与低点扫盘后，在两分钟图上形成明确的操纵腿（Manipulation Leg），其2.5倍斐波那契投影与第四标准差高度重合，预示价格将触及该目标区域。",
+  "analysis_steps": [
+    "Step 1: 在四小时图上识别公允价值缺口（FVG）和订单块（Order Block）结构",
+    "Step 2: 观察价格向下扫盘低点，确认低点未被突破且形成反向位移（Displacement）",
+    "Step 3: 切换至两分钟图，识别短期低点和随后的向上位移腿",
+    "Step 4: 从短期低点到高点绘制斐波那契回撤，投影2.5倍水平线作为目标",
+    "Step 5: 确认2.5倍斐波那契线与第四标准差高度重合，形成强汇聚信号",
+    "Step 6: 观察价格演进，确认价格最终触及第四标准差目标位"
+  ],
+  "outcome": "价格最终触及第四标准差目标位，验证了通过多时间框架汇聚（FVG、操纵腿、斐波那契投影、标准差）确定的高概率目标区域。",
+  "lessons": "多时间框架汇聚（HTF FVG + LTF 操纵腿 + 斐波那契投影 + 标准差）能显著提高目标位的准确性；当2.5倍斐波那契线与标准差重合时，形成强有力的汇聚信号，预示高概率反应区域。",
+  "primary_image": "cards/wwMjc9RfpCg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/wwMjc9RfpCg/images/case_002_detail_1.jpg",
+    "cards/wwMjc9RfpCg/images/case_002_detail_2.jpg",
+    "cards/wwMjc9RfpCg/images/case_002_detail_3.jpg",
+    "cards/wwMjc9RfpCg/images/case_002_detail_4.jpg",
+    "cards/wwMjc9RfpCg/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 2分钟K线图。图上显示从左侧约4130下跌至4100的下降趋势，随后在4100至4115区间内形成震荡整理。右侧价格刻度标注有4113.00、4103.75、4100.00等水平线。图下方有一条粉红色矩形区域覆盖约4090至4100价格范围。K线由绿色和黑色蜡烛组成，在整理区间内显示多根带上下影线的K线。时间轴显示从07:40至11:20的交易时段。",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 15分钟图表。图上有一条黄色水平带状区域跨越约4635至4640价格范围。图右侧显示三条水平线分别位于4635.00、4620.00和4615.50。K线在4615至4630区间内震荡，绿色和黑色K线交替出现。右下角面板显示当前价格约3992.75。图上有\"Sell\"、\"Buy\"、\"Flatten\"三个按钮标签。时间轴显示从02:00至01:00的交易",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 15 分钟图。图上显示一条黄色水平带状区域约在 4636 至 4623 之间。图表左侧有多根绿色 K 线，价格范围约 4000 至 4620。中部出现一根大幅下跌的黑色 K 线，从约 4623 下跌至 3963。图右侧标注有多条粉红色水平线和矩形框，分别位于 4623.09、3963.00 和 3956.25 价格水平。图右侧价格刻度显示当前价格标记在",
+    "case_002_detail_3.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从左侧约 3840 开始的上升趋势，最高点达 3975 附近，随后出现下跌至 3900 区域。图右侧有两条水平线分别标记在 3915.00 和 3897.25。图中央下方有一个粉红色矩形区域，纵跨约 3880 至 3920 价格范围。该区域内及其上方有多个小矩形框和圆形标记聚集在 3910 附近。可见价格在 3900 至 3",
+    "case_002_detail_4.jpg": "S&P 500 E-mini Futures 1小时K线图。图表显示从06:00开始的交易活动，价格范围3845至3980。左侧显示一系列绿色K线上升至约3980的高点，随后出现多根黑色K线下跌。图上有两个重叠的粉红色矩形区域标注在3880至3920价格范围内。右侧价格轴显示多条水平参考线，包括3917.00、3891.25和3902.00。图右下角显示Sell和Buy按钮。当前价格标记为3917",
+    "case_002_detail_5.jpg": "S&P 500 E-mini Futures 2分钟K线图。图上显示从左侧约4140.00开始的下跌走势，延伸至右侧约4086.00。图表右下方有粉红色矩形区域覆盖4086.00至4102.00价格范围。右侧价格轴标记当前价格4104.00，并显示4101.75和4102.00两条水平线。图上可见多根绿色和黑色K线，其中包含长下影线形态。底部工具栏显示Sell、Buy、Flatten按钮。时间轴显"
+  },
+  "sources": [
+    {
+      "video_id": "wwMjc9RfpCg",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        187.8,
+        374.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从四小时到两分钟的多时间框架分析过程，清晰标注了关键价位、操纵腿结构、斐波那契投影和标准差目标，最终价格行动验证了分析结论。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:07.006264Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500期货四小时FVG到两分钟图操纵腿与标准差目标\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"4H / 2M\",\"market_context\":\"标普500期货在四小时图上形成公允价值缺口（FVG），价格向下扫盘低点后，博主在两分钟图上识别操纵腿结构，并通过斐波那契投影与标准差工具确定目标位。\",\"key_observation\":\"博主观察到四小时FVG与低点扫盘后，在两分钟图上形成明确的操纵腿（Manipulation Leg），其2.5倍斐波那契投影与第四标准差高度重合，预示价格将触及该目标区域。\",\"analysis_steps\":[\"Step 1: 在四小时图上识别公允价值缺口（FVG）和订单块（Order Block）结构\",\"Step 2: 观察价格向下扫盘低点，确认低点未被突破且形成反向位移（Displacement）\",\"Step 3: 切换至两分钟图，识别短期低点和随后的向上位移腿\",\"Step 4: 从短期低点到高点绘制斐波那契回撤，投影2.5倍水平线作为目标\",\"Step 5: 确认2.5倍斐波那契线与第四标准差高度重合，形成强汇聚信号\",\"Step 6: 观察价格演进，确认价格最终触及第四标准差目标位\"],\"outcome\":\"价格最终触及第四标准差目标位，验证了通过多时间框架汇聚（FVG、操纵腿、斐波那契投影、标准差）确定的高概率目标区域。\",\"lessons\":\"多时间框架汇聚（HTF FVG + LTF 操纵腿 + 斐波那契投影 + 标准差）能显著提高目标位的准确性；当2.5倍斐波那契线与标准差重合时，形成强有力的汇聚信号，预示高概率反应区域。\",\"primary_image_frame_id\":\"wwMjc9RfpCg_f013\",\"supporting_image_frame_ids\":[\"wwMjc9RfpCg_f007\",\"wwMjc9RfpCg_f008\",\"wwMjc9RfpCg_f001\",\"wwMjc9RfpCg_f010\",\"wwMjc9RfpCg_f012\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Manipulation Leg\",\"Fibonacci Projection\",\"Standard Deviation\",\"High Time Frame (HTF)\",\"Low Time Frame (LTF)\",\"Confluence\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从四小时到两分钟的多时间框架分析过程，清晰标注了关键价位、操纵腿结构、斐波那契投影和标准差目标，最终价格行动验证了分析结论。\"}",
+  "error": null
+}

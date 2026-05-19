@@ -1,0 +1,119 @@
+{
+  "card_id": "LZZAaILYNyI_case_001_es_5分钟图高时间框架流动性交易案例",
+  "type": "case",
+  "title": "ES 5分钟高时间框架流动性入场与溢价区做空止损跟踪",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Short Term High/Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "liquidity",
+    "market_structure_shift_mss",
+    "displacement",
+    "premium_discount",
+    "protected_high_low"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5m",
+  "market_context": "ES在02:00-07:00上升至3945高点，随后下行。博主识别高时间框架流动性POI在3924.00附近，作为关键入场区域。价格在此区域形成FVG后继续下行至3890。",
+  "key_observation": "博主展示了在高时间框架流动性/POI处入场做空的完整流程：识别HTF流动性→等待结构破坏→在溢价区寻找FVG→设置初始止损→根据结构破坏逐步跟踪止损。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图识别高时间框架POI/流动性水平位于3924.00附近（摆动高点上方）",
+    "Step 2: 观察价格从07:00高点3945下行，确认市场结构转变（MSS）",
+    "Step 3: 在下行过程中识别溢价区内的FVG（Fair Value Gap），作为做空入场点",
+    "Step 4: 设置初始止损在FVG形成的K线高点或短期高点（Short Term High）",
+    "Step 5: 第一次部分平仓后，结构破坏确认，将止损移至入场点或短期高点（受保护摆动点）",
+    "Step 6: 继续监控后续位移（Displacement）破坏，每次结构破坏后逐步下移止损至新的短期高点",
+    "Step 7: 演示在1分钟图上可以更紧密地跟踪止损，但必须等待结构转变后才移动"
+  ],
+  "outcome": null,
+  "lessons": "止损跟踪的核心原则：(1)仅在结构破坏后移动止损，不要提前；(2)初始止损可用FVG形成K线高点或短期高点；(3)每次新的结构破坏确认后，止损可移至该破坏点的短期高点；(4)在高时间框架流动性处入场，结合低时间框架FVG提高精准度；(5)可在低时间框架上更紧密跟踪，但逻辑保持一致。",
+  "primary_image": "cards/LZZAaILYNyI/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/LZZAaILYNyI/images/case_001_detail_1.jpg",
+    "cards/LZZAaILYNyI/images/case_001_detail_2.jpg",
+    "cards/LZZAaILYNyI/images/case_001_detail_3.jpg",
+    "cards/LZZAaILYNyI/images/case_001_detail_4.jpg",
+    "cards/LZZAaILYNyI/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES1! 5分钟线图。图上显示从02:00至16:00 UTC的价格走势，价格范围在3890.00至3948.00之间。图中有一条水平线位于3914.50处，标注文字为'Higher Time Frame POI / Liquidity / POI'。另有一个矩形框标注在3902.00至3916.75的价格区间。右侧价格刻度显示当前价格为3914.50。线图呈现多个摆动高点和低点，整体形成锯齿状波",
+    "case_001_detail_1.jpg": "ES 5分钟线图，时间范围从02:00至16:00 UTC。图上显示一条线图，从左侧02:00开始上升至07:00附近达到3934.50高点，随后下行至16:00。图中有一条水平线标注为'Higher Time Frame POI / Liquidity / POI'，位于3924.00价格水平。在3920至3930区间有一个矩形标注框。下行段显示多次振荡，最低点接近3890.00。右侧价格刻度显",
+    "case_001_detail_2.jpg": "ES 5分钟线图。图上显示从02:00至16:00的价格走势。左侧为上升趋势，在07:00附近达到约3945.00的高点。之后转为下降趋势，期间出现多次振荡。图上标注有一个灰色矩形框，标记为'Higher Time Frame POI / Liquidity / POI'，位于3920.00至3945.00价格区间。07:00处有一条竖虚线标记。价格范围整体从约3900.00至3945.00。图右",
+    "case_001_detail_3.jpg": "ES 5分钟线图。图上绘制一条连续线表示价格走势，从左侧02:00时段约3900.00上升至06:00时段高点3948.00，随后下行至08:00时段约3900.00。之后价格在3900.00至3920.00区间内呈锯齿状波动至16:00。图上标注一个矩形框，范围在3914.75至3924.75之间，标签为\"Higher Time Frame FVG / Liquidity / FVG\"。矩形框内",
+    "case_001_detail_4.jpg": "ES 1分钟K线图。图上绘有一条向上趋势线从约3950延伸至3990。在3985至4000区间标注有矩形框。图上标记有文字'anti FVG'。右侧价格轴显示当前价格为3943.25。可见价格范围从3950至4008。图上有多个摆动高低点，最高点约在3990附近，之后价格下行至3960至3980区间内波动。",
+    "case_001_detail_5.jpg": "ES 1分钟K线图。图上显示从08:00至13:00的交易时段。可见价格范围约从3960.00至4620.00。图上有三条带标签的水平线，分别标记为0.786(4206.00)、0.5(4601.00)、0.236(4601.00)。中间两条水平线之间有一个灰色矩形框。K线形态显示早间上升至约4620.00，随后出现急速下跌至约3960.00，之后在3960.00至4100.00区间内震荡。右侧价"
+  },
+  "sources": [
+    {
+      "video_id": "LZZAaILYNyI",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.759,
+        189.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从HTF流动性识别、结构破坏、FVG入场到止损跟踪的全流程，图表清晰标注关键价位和区域，分析步骤逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:54.254680Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 5分钟高时间框架流动性入场与溢价区做空止损跟踪\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5m\",\"market_context\":\"ES在02:00-07:00上升至3945高点，随后下行。博主识别高时间框架流动性POI在3924.00附近，作为关键入场区域。价格在此区域形成FVG后继续下行至3890。\",\"key_observation\":\"博主展示了在高时间框架流动性/POI处入场做空的完整流程：识别HTF流动性→等待结构破坏→在溢价区寻找FVG→设置初始止损→根据结构破坏逐步跟踪止损。\",\"analysis_steps\":[\"Step 1: 在5分钟图识别高时间框架POI/流动性水平位于3924.00附近（摆动高点上方）\",\"Step 2: 观察价格从07:00高点3945下行，确认市场结构转变（MSS）\",\"Step 3: 在下行过程中识别溢价区内的FVG（Fair Value Gap），作为做空入场点\",\"Step 4: 设置初始止损在FVG形成的K线高点或短期高点（Short Term High）\",\"Step 5: 第一次部分平仓后，结构破坏确认，将止损移至入场点或短期高点（受保护摆动点）\",\"Step 6: 继续监控后续位移（Displacement）破坏，每次结构破坏后逐步下移止损至新的短期高点\",\"Step 7: 演示在1分钟图上可以更紧密地跟踪止损，但必须等待结构转变后才移动\"],\"outcome\":null,\"lessons\":\"止损跟踪的核心原则：(1)仅在结构破坏后移动止损，不要提前；(2)初始止损可用FVG形成K线高点或短期高点；(3)每次新的结构破坏确认后，止损可移至该破坏点的短期高点；(4)在高时间框架流动性处入场，结合低时间框架FVG提高精准度；(5)可在低时间框架上更紧密跟踪，但逻辑保持一致。\",\"primary_image_frame_id\":\"LZZAaILYNyI_f002\",\"supporting_image_frame_ids\":[\"LZZAaILYNyI_f004\",\"LZZAaILYNyI_f005\",\"LZZAaILYNyI_f006\",\"LZZAaILYNyI_f007\",\"LZZAaILYNyI_f008\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Liquidity\",\"Market Structure Shift (MSS)\",\"Displacement\",\"Premium / Discount\",\"Short Term High/Low\",\"Protected Swing\",\"High Time Frame (HTF)\",\"Low Time Frame (LTF)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从HTF流动性识别、结构破坏、FVG入场到止损跟踪的全流程，图表清晰标注关键价位和区域，分析步骤逻辑清晰。\"}",
+  "error": null
+}

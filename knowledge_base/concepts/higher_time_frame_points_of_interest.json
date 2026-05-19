@@ -1,0 +1,57 @@
+{
+  "card_id": "higher_time_frame_points_of_interest",
+  "type": "merged_concept",
+  "canonical_term": "Higher Time Frame Points of Interest",
+  "aliases": [
+    "HTF Points of Interest",
+    "高时间框架关键点位"
+  ],
+  "school": "ICT",
+  "definition": "在高时间框架上识别的关键价格水平或结构，用于指导何时应切换至低时间框架寻找具体入场模型。高低时间框架为相对概念，取决于交易者的实际入场周期。",
+  "identification_rules": [
+    "识别高时间框架上的摆动高点和低点，判断哪些已被突破、哪些可能被突破",
+    "在高时间框架上标记Fair Value Gap（FVG），作为价格可能回测的区域",
+    "在高时间框架上标记Order Block（OB），识别潜在的支撑或阻力区",
+    "计算高时间框架范围的OTE（Optimal Trade Entry），通常为0.5斐波那契水平",
+    "识别高时间框架上的范围流动性（Range Liquidity），包括范围内部的关键水平",
+    "当价格在高时间框架上接近这些关键点位时，切换至低时间框架搜索具体入场模型"
+  ],
+  "trading_implication": "高时间框架点位充当低时间框架交易的触发条件和目标框架。交易者不应持续监看低时间框架，而是等待价格在高时间框架上接近FVG、OB、摆动高低点或OTE时，才切换至低时间框架寻找确认的入场模型。这样可以提高入场的概率和效率，避免在无关键点位附近的虚假信号。",
+  "common_mistakes": [
+    "混淆高低时间框架的相对性，未根据自身入场周期灵活调整监看的时间框架层级",
+    "在低时间框架上持续搜索入场，而不是等待高时间框架关键点位的接近",
+    "仅关注单一类型的高时间框架点位（如仅看FVG），忽视其他同样重要的结构如OB、摆动高低点",
+    "未确认低时间框架的具体入场模型就直接在高时间框架点位附近入场"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "hh_kKK4Fhrw",
+      "original_card_id": "hh_kKK4Fhrw_concept_higher_time_frame_points_of_interest",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.799,
+        190.26
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133256Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

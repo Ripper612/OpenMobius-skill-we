@@ -1,0 +1,94 @@
+{
+  "card_id": "sIcsLFSNoXM_case_002_轻质原油期货多日方向性k线后的反转",
+  "type": "case",
+  "title": "轻质原油日线三日方向性K线后的看跌反转",
+  "related_concepts": [
+    {
+      "term": "Directional Candle",
+      "card_id": "directional_candle",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Wick-to-Body Ratio",
+      "card_id": "wick_to_body_ratio",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "directional_candle",
+    "reversal_candle",
+    "wick_to_body_ratio",
+    "time_frame_confluence",
+    "market_structure"
+  ],
+  "school": "Price Action",
+  "asset": "CL",
+  "timeframe": "1D",
+  "market_context": "轻质原油期货在4月中下旬形成多日连续看涨方向性K线（开低高收），价格在80.50-86.50区间内波动，随后在月末出现反转信号。",
+  "key_observation": "博主识别出原油日线上连续三天的看涨方向性K线（Open-High-Low-Close结构），随后出现看跌反转K线（Open-High-Low-Close，wick大于body），预示趋势反转。",
+  "analysis_steps": [
+    "Step 1: 观察原油日线图，识别出连续三天形成的看涨方向性K线模式（开低、创高、创低、收高）。",
+    "Step 2: 在第三根方向性K线后，识别出一根看跌反转K线，其特征是上影线（wick）明显大于K线实体（body）。",
+    "Step 3: 分析反转K线在15分钟低时间框架上的形成过程：价格先向上运动（看似看涨方向性K线），随后反向下跌至开盘价下方收盘。",
+    "Step 4: 确认反转K线的结构特征（Open-High-Low-Close）与教学示例中的看跌反转K线一致，预示后续看跌方向。",
+    "Step 5: 基于反转K线的形成，预期下一个交易周期会出现看跌方向性K线（Open-High-Low-Close，向下位移）。"
+  ],
+  "outcome": null,
+  "lessons": "反转K线的关键特征是wick大于body，表明在低时间框架上价格先向一个方向运动后反向。连续方向性K线后出现反转K线是趋势反转的重要信号，可用于预测后续方向性K线的形成。",
+  "primary_image": "cards/sIcsLFSNoXM/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/sIcsLFSNoXM/images/case_002_detail_1.jpg",
+    "cards/sIcsLFSNoXM/images/case_002_detail_2.jpg",
+    "cards/sIcsLFSNoXM/images/case_002_detail_3.jpg",
+    "cards/sIcsLFSNoXM/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "轻质原油期货 15 分钟 K 线图。图上可见价格范围约从 80.60 到 85.20。图中标注有一条水平线位于 84.80 处。图上有两个黑色矩形框分别标记在 81.00 至 82.50 和 82.00 至 83.20 的价格区间。一个黄色高亮区域出现在 84.80 附近。图右侧有一条竖虚线标记时间点。K 线显示在 81.00 至 83.20 区间内有多根 K 线形成的整理形态。",
+    "case_002_detail_1.jpg": "轻质原油期货（NYMEX）K线图，显示从3月下旬至5月初的价格走势。图上价格范围约79.00至87.50。3月下旬出现上升趋势，从80.50上升至86.50，随后4月初至中旬出现下降趋势回落至80.50。4月中旬至下旬形成盘整形态，价格在80.50至83.50区间内波动，K线以绿色和黑色混合呈现。图上有一条水平线位于84.00水平。图右侧显示时间戳29-4-2024及12:00:08 UTC-4。",
+    "case_002_detail_2.jpg": "Light Crude Oil Futures 15 分钟图表。图上显示从左至右的价格走势，整体范围在 81.40 至 86.60 之间。左侧呈下降趋势，中间形成盘整区域，右侧呈上升趋势。图上有两条水平线标注，分别位于 82.60 和 83.40 价格水平。一个黑色矩形框标注在约 82.80 至 83.20 区间。右侧有一个黄色圆形标记位于 83.40 水平。图上标注有'NVD'文字和'9:30'",
+    "case_002_detail_3.jpg": "图为教学示意图，标题为'Reversal candle'，展示一个看跌例子。图上有多根K线，从左至右显示先上升后下降的价格走势。四个黄色标签分别指向High、Open、Close、Low四个价格点。图中有一条虚线水平线标记为'Opening Price'。最右侧为一根实心黑色K线，无下影线。图下方标注'Bearish Example'。左下角显示'TTrades'品牌标识。",
+    "case_002_detail_4.jpg": "Light Crude Oil Futures 日线图。图上显示从约 74.00 至 87.50 的上升趋势，跨越多根 K 线。K 线以绿色和黑色混合呈现。图中有一条水平虚线位于 85.25 价格水平。图上标注有日期 5/4/2024 和标签 L1:1.0。可见价格范围约从 74.00 到 90.00。图右侧显示一根较大的绿色 K 线，其价格范围约在 82.50 至 87.50 之间。"
+  },
+  "sources": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        190.959,
+        549.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对原油日线反转K线的分析完整清晰，包括资产代码(CL)、时间框架(1D/15M)、关键K线结构、低时间框架验证等要素均有明确展示。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:00.219949Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"轻质原油日线三日方向性K线后的看跌反转\",\"school\":\"Price Action\",\"asset\":\"CL\",\"timeframe\":\"1D\",\"market_context\":\"轻质原油期货在4月中下旬形成多日连续看涨方向性K线（开低高收），价格在80.50-86.50区间内波动，随后在月末出现反转信号。\",\"key_observation\":\"博主识别出原油日线上连续三天的看涨方向性K线（Open-High-Low-Close结构），随后出现看跌反转K线（Open-High-Low-Close，wick大于body），预示趋势反转。\",\"analysis_steps\":[\"Step 1: 观察原油日线图，识别出连续三天形成的看涨方向性K线模式（开低、创高、创低、收高）。\",\"Step 2: 在第三根方向性K线后，识别出一根看跌反转K线，其特征是上影线（wick）明显大于K线实体（body）。\",\"Step 3: 分析反转K线在15分钟低时间框架上的形成过程：价格先向上运动（看似看涨方向性K线），随后反向下跌至开盘价下方收盘。\",\"Step 4: 确认反转K线的结构特征（Open-High-Low-Close）与教学示例中的看跌反转K线一致，预示后续看跌方向。\",\"Step 5: 基于反转K线的形成，预期下一个交易周期会出现看跌方向性K线（Open-High-Low-Close，向下位移）。\"],\"outcome\":null,\"lessons\":\"反转K线的关键特征是wick大于body，表明在低时间框架上价格先向一个方向运动后反向。连续方向性K线后出现反转K线是趋势反转的重要信号，可用于预测后续方向性K线的形成。\",\"primary_image_frame_id\":\"sIcsLFSNoXM_f012\",\"supporting_image_frame_ids\":[\"sIcsLFSNoXM_f009\",\"sIcsLFSNoXM_f011\",\"sIcsLFSNoXM_f015\",\"sIcsLFSNoXM_f016\"],\"related_concepts\":[\"Directional Candle\",\"Reversal Candle\",\"Price Action\",\"Wick-to-Body Ratio\",\"Multi-Timeframe Analysis\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对原油日线反转K线的分析完整清晰，包括资产代码(CL)、时间框架(1D/15M)、关键K线结构、低时间框架验证等要素均有明确展示。\"}",
+  "error": null
+}

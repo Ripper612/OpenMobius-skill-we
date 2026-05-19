@@ -1,0 +1,60 @@
+{
+  "card_id": "intermediate_term_high_intermediate_term_low",
+  "type": "merged_concept",
+  "canonical_term": "Intermediate-term High / Intermediate-term Low",
+  "aliases": [
+    "ITH / ITL",
+    "中期摆动高点/低点"
+  ],
+  "school": "ICT",
+  "definition": "由短期摆动点组成的中期价格极值。形成条件：价格扫过一个短期摆动点，随后在另一侧形成新的短期摆动点，两者共同确认一个中期摆动点。也可通过价格回测公允价值缺口后形成。",
+  "identification_rules": [
+    "识别一个短期摆动点（STH或STL）",
+    "确认该短期摆动点被扫过（价格穿越该水平）",
+    "在相反方向形成新的短期摆动点",
+    "新短期摆动点与被扫过的短期摆动点共同确认中期摆动点",
+    "或：价格回测FVG后形成的短期摆动点可直接确认为中期摆动点"
+  ],
+  "trading_implication": "中期摆动点是市场结构分析的关键参考。一旦确认，交易者不应预期价格在继续趋势前回测该中期摆动点。用于识别长期摆动点、确定市场结构转变、设置止损位和预期价格目标。在缺乏清晰FVG的震荡行情中，可用中期摆动点寻找高概率入场点。",
+  "common_mistakes": [
+    "未等待第二个短期摆动点形成就过早标记中期摆动点",
+    "混淆短期摆动点与中期摆动点，导致止损设置不当",
+    "忽视中期摆动点被扫过后的结构转变信号",
+    "未区分通过扫过确认的中期摆动点与通过FVG回测确认的中期摆动点"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "umyCqr_0NsI",
+      "original_card_id": "umyCqr_0NsI_concept_intermediate_term_high_intermediate_term",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.599,
+        840.759
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133527Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

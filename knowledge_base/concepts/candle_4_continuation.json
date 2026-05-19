@@ -1,0 +1,56 @@
+{
+  "card_id": "candle_4_continuation",
+  "type": "merged_concept",
+  "canonical_term": "Candle 4 Continuation",
+  "aliases": [
+    "C4",
+    "C4 Continuation"
+  ],
+  "school": "ICT",
+  "definition": "第四根高时间框架蜡烛的收盘确认信号。当价格在C4收盘时仍保持预期方向运动，表明交易设置保持有效，趋势延续概率较高。",
+  "identification_rules": [
+    "识别C2、C3后，观察第四根高时间框架蜡烛（C4）的收盘位置",
+    "若C4收盘方向与设置预期一致（如看空设置中C4收盘在开盘下方），则确认延续信号",
+    "若C4收盘突破对立方向的关键水平（如看空设置中收盘高于对立蜡烛），则设置失效转红",
+    "通过指标标签颜色判断：灰色C4表示设置在C4内保持有效，红色C4表示设置在第一根蜡烛后失效，橙色C4表示在第二根蜡烛后失效"
+  ],
+  "trading_implication": "C4延续确认后，交易者可寻求在低时间框架上的具体入场点。若C4收盘确认延续，预期价格将继续按设置方向运动，可参考Formation Liquidity（前一日低点/高点）和投影目标位设置止盈。C4失效（转红/橙）是早期预警信号，提示设置可能不成立，应考虑放弃或调整策略。",
+  "common_mistakes": [
+    "在C4收盘前过早入场，未等待完整的C4确认信号",
+    "混淆C4收盘与低时间框架蜡烛收盘，导致误判延续有效性",
+    "忽视C4转红/橙的预警，继续持仓导致亏损",
+    "未结合Formation Liquidity和T-Spot等其他指标确认，单独依赖C4判断"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_candle_4_continuation",
+      "segment_ids": [
+        "seg_003",
+        "seg_006"
+      ],
+      "time_range": [
+        369.08,
+        1082.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131549Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

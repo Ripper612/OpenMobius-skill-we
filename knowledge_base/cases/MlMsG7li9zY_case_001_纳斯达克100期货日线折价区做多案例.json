@@ -1,0 +1,112 @@
+{
+  "card_id": "MlMsG7li9zY_case_001_纳斯达克100期货日线折价区做多案例",
+  "type": "case",
+  "title": "纳斯达克100期货日线折价区做多案例",
+  "related_concepts": [
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "premium_discount_premium_",
+    "equilibrium_eq",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "swing_high_low",
+    "risk_to_reward"
+  ],
+  "school": "SMC",
+  "asset": "NQ1!",
+  "timeframe": "1D",
+  "market_context": "纳斯达克100期货从5月下跌至7月形成摆动低点，随后反弹。博主识别出从摆动高到摆动低的主要价格范围，用于划分折价区和溢价区，寻找做多机会。",
+  "key_observation": "在折价区内存在公允价值缺口（FVG），价格回测该折价区后上升，验证了折价区做多的有效性。折价区提供更优的风险回报比例。",
+  "analysis_steps": [
+    "Step 1: 识别摆动高点（约12761）和摆动低点（约10500），标记出主要价格范围。",
+    "Step 2: 使用0.5斐波那契水平线划分范围，确定均衡点（EQ）和折价区/溢价区的分界。",
+    "Step 3: 在折价区内识别公允价值缺口（FVG）作为PD array的组成部分。",
+    "Step 4: 观察价格从上方回测折价区，进入FVG区域。",
+    "Step 5: 确认价格在折价区获得支撑后上升，验证做多设置的有效性。",
+    "Step 6: 展示折价区做多相比均衡点做多具有更优的风险回报比（从1:1提升至更高倍数）。"
+  ],
+  "outcome": "价格成功回测折价区内的FVG后反弹上升，确认了在折价区寻找做多机会的有效性。",
+  "lessons": "在折价区寻找做多机会能提供更优的风险回报比。识别多层级范围内的FVG和OB作为PD array，结合价格结构变化，可以提高交易的概率。折价区是做多的理想区域，溢价区是做空的理想区域。",
+  "primary_image": "cards/MlMsG7li9zY/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/MlMsG7li9zY/images/case_001_detail_1.jpg",
+    "cards/MlMsG7li9zY/images/case_001_detail_2.jpg",
+    "cards/MlMsG7li9zY/images/case_001_detail_3.jpg",
+    "cards/MlMsG7li9zY/images/case_001_detail_4.jpg",
+    "cards/MlMsG7li9zY/images/case_001_detail_5.jpg",
+    "cards/MlMsG7li9zY/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NASDAQ 100 E-mini Futures 日线图。图上显示从5月至10月的K线序列，价格范围从10700到12760。图上有两个带文字标签的矩形区域：上方标记为'Buyside Liquidity'（粉红色背景），下方标记为'Sellside Liquidity'（浅绿色背景）。另有两个无标签的矩形区域分别位于中间价格区间。图内标注有数字标签'0.5'和'2.3'。K线呈绿色和黑色交替排",
+    "case_001_detail_1.jpg": "NASDAQ 100 E-mini Futures 日线图。图上标注两个流动性区域：上方标记为'Buyside Liquidity'位于约12600至12761区间，下方标记为'Sellside Liquidity'位于约10500至11000区间。可见价格范围从10500到12761。K线序列从5月跨越至10月，呈现初期下跌、中期盘整、后期上升的形态。图上有一个矩形框标注在约10900至1110",
+    "case_001_detail_2.jpg": "NASDAQ 100 E-mini Futures 日线图。图上标注两个主要流动性区域：上方 Buyside Liquidity 区域约在 12000 至 12700 范围，下方 Sellside Liquidity 区域约在 11200 至 11700 范围。图中央有一个粉色矩形框，标记范围约 11600 至 12000，两侧各标有 0.5 标记。下方有一个绿色矩形框，范围约 11200 至 1",
+    "case_001_detail_3.jpg": "NASDAQ 100 E-mini Futures 日线图。图上标注两个矩形区域：上方标记为'Buyside Liquidity'（浅粉红色），下方标记为'Sellside Liquidity'（浅绿色）。可见价格范围约从 10700 到 12760。图表显示从 5 月至 10 月的 K 线序列，包含绿色和黑色蜡烛。右侧显示一根绿色 K 线，价格为 12337.50。图上有三个带数据标签的矩形框，",
+    "case_001_detail_4.jpg": "NASDAQ 100 E-mini Futures 日线图。图上标注两条水平线：上方 12680.00 处标记为'Buyside Liquidity'，下方 10900.00 处标记为'Sellside Liquidity'。中间区域约 11600-11700 处有一条浅色水平线。图上显示从 5 月至 10 月的 K 线序列，绿色和黑色 K 线交替出现，价格在 10900 至 12760 之间波动",
+    "case_001_detail_5.jpg": "NASDAQ 100 E-mini Futures 日线图。图上显示从5月24日至7月6日的K线走势。可见一个粉红色矩形框标注，上边界约15243.50，下边界约14432.50。矩形内部有一条水平线标记为0.5，位于约14816.00。图上K线整体呈上升趋势，从5月底的黑色K线开始，随后转为绿色K线，6月中旬形成一系列连续上升的绿色K线，最高点约15300。右侧价格刻度显示当前价格约15243.",
+    "case_001_detail_6.jpg": "NASDAQ 100 E-mini Futures 日线图。图上显示从 6 月 5 日至 6 月 26 日的价格走势。可见价格范围约从 14400 到 15700。图上有两个矩形标注区域：粉色矩形覆盖约 15400 至 15600 的价格范围，绿色矩形覆盖约 14400 至 14900 的价格范围。两个矩形内各标有数字标签'0.5'和'0.3'。K 线序列显示绿色蜡烛从 6 月初至 6 月 20 "
+  },
+  "sources": [
+    {
+      "video_id": "MlMsG7li9zY",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        361.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了NASDAQ日线从识别范围、划分折价溢价区、定位FVG、价格回测到上升的全过程，关键价位和分析步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:18.756057Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克100期货日线折价区做多案例\",\"school\":\"SMC\",\"asset\":\"NQ1!\",\"timeframe\":\"1D\",\"market_context\":\"纳斯达克100期货从5月下跌至7月形成摆动低点，随后反弹。博主识别出从摆动高到摆动低的主要价格范围，用于划分折价区和溢价区，寻找做多机会。\",\"key_observation\":\"在折价区内存在公允价值缺口（FVG），价格回测该折价区后上升，验证了折价区做多的有效性。折价区提供更优的风险回报比例。\",\"analysis_steps\":[\"Step 1: 识别摆动高点（约12761）和摆动低点（约10500），标记出主要价格范围。\",\"Step 2: 使用0.5斐波那契水平线划分范围，确定均衡点（EQ）和折价区/溢价区的分界。\",\"Step 3: 在折价区内识别公允价值缺口（FVG）作为PD array的组成部分。\",\"Step 4: 观察价格从上方回测折价区，进入FVG区域。\",\"Step 5: 确认价格在折价区获得支撑后上升，验证做多设置的有效性。\",\"Step 6: 展示折价区做多相比均衡点做多具有更优的风险回报比（从1:1提升至更高倍数）。\"],\"outcome\":\"价格成功回测折价区内的FVG后反弹上升，确认了在折价区寻找做多机会的有效性。\",\"lessons\":\"在折价区寻找做多机会能提供更优的风险回报比。识别多层级范围内的FVG和OB作为PD array，结合价格结构变化，可以提高交易的概率。折价区是做多的理想区域，溢价区是做空的理想区域。\",\"primary_image_frame_id\":\"MlMsG7li9zY_f004\",\"supporting_image_frame_ids\":[\"MlMsG7li9zY_f002\",\"MlMsG7li9zY_f003\",\"MlMsG7li9zY_f005\",\"MlMsG7li9zY_f006\",\"MlMsG7li9zY_f007\",\"MlMsG7li9zY_f008\"],\"related_concepts\":[\"Premium/Discount\",\"Equilibrium (EQ)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"PD Array\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Swing High/Low\",\"Risk/Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了NASDAQ日线从识别范围、划分折价溢价区、定位FVG、价格回测到上升的全过程，关键价位和分析步骤清晰。\"}",
+  "error": null
+}

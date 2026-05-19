@@ -1,0 +1,59 @@
+{
+  "card_id": "a_ict_entry_checklist",
+  "type": "merged_concept",
+  "canonical_term": "A+ ICT Entry Checklist",
+  "aliases": [
+    "Five-Point Entry Checklist",
+    "ICT Entry Checklist"
+  ],
+  "school": "ICT",
+  "definition": "一套包含五个核心要素的交易入场检查清单：Stop Raid、Structure Shift、Discount/Premium、PD Array、Solid Risk-Reward，用于确保在具有日线偏向后执行高概率交易设置。",
+  "identification_rules": [
+    "确认Stop Raid：价格在被突破前已形成低点（或高点），表明流动性被扫荡。",
+    "确认Structure Shift：前一个摆动高点（或低点）被突破，价格积极移动超越该结构。",
+    "确认Discount/Premium：使用0.5斐波那契水平分割位移范围，折价区用于做多，溢价区用于做空。",
+    "确认PD Array：在折价或溢价区内识别至少一个有效的订单块（FVG、OB、OTE或Breaker Block）。",
+    "确认Solid Risk-Reward：止损与目标的风险回报比达到可接受水平（材料示例中为2.67+）。"
+  ],
+  "trading_implication": "该清单是ICT方法论的综合入场框架。交易者在确认日线偏向后，逐项验证五个要素是否满足，可单独使用某一概念或混合两到三个概念作为入场模型。清单的目的是在高概率设置与实际成交可能性之间找到平衡，避免过度优化导致无法成交。典型用法包括：从高时间框架（日线）识别Stop Raid和Structure Shift，然后下探低时间框架（5分钟、1分钟）在Discount区寻找PD Array进行精确入场。",
+  "common_mistakes": [
+    "在没有Stop Raid的情况下进行Structure Shift交易（材料明确指出：\"I prefer to have a stop raid prior to the displacement\"）。",
+    "在溢价区而非折价区寻找入场点（材料示例中提到FVG在溢价区不符合标准）。",
+    "忽视风险回报比，过度接近止损以追求更高概率（材料指出需要在RR、视觉吸引力和成交可能性之间平衡）。",
+    "在低时间框架上缺乏流动性扫荡的情况下进行Box Setup入场（材料明确说明：\"without a lower time frame liquidity raid prior to a move I am not interested in it\"）。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "original_card_id": "0xygpCMwxbQ_concept_a_ict_entry_checklist",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        650.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131064Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

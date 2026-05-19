@@ -1,0 +1,107 @@
+{
+  "card_id": "4Gm8p6O7Ebs_case_002_白银日线扩张至反转案例",
+  "type": "case",
+  "title": "白银日线三天扩张至反转案例",
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Shallow Retracement",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "expansion",
+    "fair_value_gap_fvg",
+    "balanced_price_range_bpr",
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "protected_high_low",
+    "power_of_3_indicator"
+  ],
+  "school": "ICT",
+  "asset": "APOZ",
+  "timeframe": "1D",
+  "market_context": "白银日线形成扩张对扩张结构，两个重叠的公允价值缺口（FVG）或平衡价格区间（BPR）形成，预示市场结构转变（CSD）。连续三天扩张后触及目标价位，随后进入新阶段。",
+  "key_observation": "博主观察到白银日线出现三天连续扩张（大幅波动+浅回撤模式），在第三天扩张后价格触及预期目标，随后形成可能的反转或盘整信号，需要等待新的一天确认趋势方向。",
+  "analysis_steps": [
+    "Step 1: 识别白银日线上的扩张对扩张结构，两个重叠的FVG/BPR形成日线CSD。",
+    "Step 2: 预期价格继续扩张，观察是否出现大幅波动伴随浅回撤的扩张模式。",
+    "Step 3: 标记出三天扩张周期：大幅波动-浅回撤、大幅波动-浅回撤、大幅波动-浅回撤。",
+    "Step 4: 确认第三天扩张后价格触及预期目标水平（约35.25附近）。",
+    "Step 5: 观察第四天K线形成受保护摆动（Protected Swing），判断是否为反转或回撤。",
+    "Step 6: 根据第四天收盘形态（可能为反转或回撤），预期后续可能出现盘整或新阶段价格交付。",
+    "Step 7: 建议等待第五天K线打印，以确认是否为真实反转或仅为暂时回撤。"
+  ],
+  "outcome": null,
+  "lessons": "三天扩张后通常预示新阶段价格交付的开始，可能为盘整或反转。交易者应避免在扩张完成后立即入场，而应等待新的一天形成以确认趋势方向。受保护摆动的形成是判断反转vs回撤的关键信号。",
+  "primary_image": "cards/4Gm8p6O7Ebs/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/4Gm8p6O7Ebs/images/case_002_detail_1.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_002_detail_2.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图为 apoz/USD 日线蜡烛图，可见价格范围约 32.500 至 35.750。图上绘有一个矩形框，覆盖约 34.875 至 35.250 区间，横跨早三月至 3 月 13 日附近。最新一根 K 线为大阳线，收盘区域接近 35.250，上影线延伸至矩形上沿附近。图上另有一条红色垂直箭头标注于该大阳线上，方向向下，范围约从 35.250 至 34.250。图中还可见一条约 34.125 处的水平",
+    "case_002_detail_1.jpg": "图表显示资产代码 apoz，货币单位 USD，时间框架为日线（1D）。图上可见价格范围约从 31.200 到 35.600。右侧价格轴标注当前价格标签区域显示 34.870、34.800、34.705、34.618 等数值。图上有一条贯穿全图的水平虚线位于 32.545 处，另有一段较短的水平虚线位于约 32.800 附近。K 线序列从左侧约 1 月 21 日延伸至 3 月 13 日附近，其中约 ",
+    "case_002_detail_2.jpg": "图为 apoz/USD 日线蜡烛图，可见价格范围约从 31.750 至 35.125。图左侧轴显示当前价标签 34.870（绿色高亮），另有 34.750 和 34.616 两个价格标签。图上可见一条蓝色短水平线位于约 33.150 附近，以及一条虚线短水平线位于约 33.000 附近，均出现在 3 月中旬区域。K 线序列从 1 月 27 日延伸至 4 月初，其中 2 月下旬出现一根主体较长的黑色",
+    "case_002_detail_3.jpg": "图为 APOZ/USD 日线蜡烛图，可见价格范围约从 31.875 至 35.250。图左侧价格轴标注当前价约 32.645，并有一条贯穿全图的水平虚线对应该价位。图上另有两条短水平蓝线，分别位于约 33.125 和 33.875 附近。右侧价格轴高亮显示 34.870、34.705、34.616 三个价格标签。图中约 Mar 11 至 13 区间出现一根较长的绿色 K 线，最高触及约 35.25"
+  },
+  "sources": [
+    {
+      "video_id": "4Gm8p6O7Ebs",
+      "segment_ids": [
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        463.68,
+        664.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整：资产APOZ、时间框架1D、关键价位35.25、三天扩张周期清晰、反转/盘整判断逻辑明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:23:57.471535Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"白银日线三天扩张至反转案例\",\"school\":\"ICT\",\"asset\":\"APOZ\",\"timeframe\":\"1D\",\"market_context\":\"白银日线形成扩张对扩张结构，两个重叠的公允价值缺口（FVG）或平衡价格区间（BPR）形成，预示市场结构转变（CSD）。连续三天扩张后触及目标价位，随后进入新阶段。\",\"key_observation\":\"博主观察到白银日线出现三天连续扩张（大幅波动+浅回撤模式），在第三天扩张后价格触及预期目标，随后形成可能的反转或盘整信号，需要等待新的一天确认趋势方向。\",\"analysis_steps\":[\"Step 1: 识别白银日线上的扩张对扩张结构，两个重叠的FVG/BPR形成日线CSD。\",\"Step 2: 预期价格继续扩张，观察是否出现大幅波动伴随浅回撤的扩张模式。\",\"Step 3: 标记出三天扩张周期：大幅波动-浅回撤、大幅波动-浅回撤、大幅波动-浅回撤。\",\"Step 4: 确认第三天扩张后价格触及预期目标水平（约35.25附近）。\",\"Step 5: 观察第四天K线形成受保护摆动（Protected Swing），判断是否为反转或回撤。\",\"Step 6: 根据第四天收盘形态（可能为反转或回撤），预期后续可能出现盘整或新阶段价格交付。\",\"Step 7: 建议等待第五天K线打印，以确认是否为真实反转或仅为暂时回撤。\"],\"outcome\":null,\"lessons\":\"三天扩张后通常预示新阶段价格交付的开始，可能为盘整或反转。交易者应避免在扩张完成后立即入场，而应等待新的一天形成以确认趋势方向。受保护摆动的形成是判断反转vs回撤的关键信号。\",\"primary_image_frame_id\":\"4Gm8p6O7Ebs_f022\",\"supporting_image_frame_ids\":[\"4Gm8p6O7Ebs_f019\",\"4Gm8p6O7Ebs_f020\",\"4Gm8p6O7Ebs_f021\",\"4Gm8p6O7Ebs_f023\"],\"related_concepts\":[\"Expansion\",\"Fair Value Gap (FVG)\",\"Balanced Price Range (BPR)\",\"Market Structure Shift (MSS)\",\"Change in the state of delivery (CSD)\",\"Protected Swing\",\"Shallow Retracement\",\"Power of 3\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整：资产APOZ、时间框架1D、关键价位35.25、三天扩张周期清晰、反转/盘整判断逻辑明确。\"}",
+  "error": null
+}

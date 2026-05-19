@@ -1,0 +1,125 @@
+{
+  "card_id": "hKCMqh0ZsY0_case_001_nasdaq周线交易案例",
+  "type": "case",
+  "title": "FOMC/NFP周期内的周线操纵-分布交易案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Midweek Reversal",
+      "card_id": "midweek_reversal",
+      "exists": true
+    },
+    {
+      "term": "Inverted Volume and Balance",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "change_in_the_state_of_delivery",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "standard_deviation_projection",
+    "midweek_reversal"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1W",
+  "market_context": "FOMC和NFP高影响新闻周。博主避开周一（积累）、周二（FOMC前）、周四（NFP前），专注于FOMC后和NFP后的交易机会。",
+  "key_observation": "周三FOMC后扫低形成操纵，周四继续，周五NFP后出现分布走高。使用标准差投影确定目标位，第四标准差与失败摆动对齐形成高概率目标。",
+  "analysis_steps": [
+    "Step 1: 根据经济日历识别高影响新闻（FOMC和NFP），规划交易日期避开周一、周二和周四。",
+    "Step 2: 在周线图上观察周三FOMC后价格扫低，识别为操纵信号，预期后续分布走高。",
+    "Step 3: 使用周线档案从失败摆动（而非操纵移动）投影标准差，确定第四标准差作为目标位。",
+    "Step 4: 下钻到1小时时间框架，确认周三形成低点、周四继续、周五形成中周反转（midweek reversal）。",
+    "Step 5: 识别周五NFP后的向下操纵，预期随后向上分布至第四标准差目标位。",
+    "Step 6: 在1小时图上观察价格进入FVG和倒置成交量失衡区域，形成订单块作为支撑。",
+    "Step 7: 使用标准差投影和订单块汇聚确定获利目标，目标位在第四标准差或买方流动性区域。"
+  ],
+  "outcome": "价格达到第四标准差目标位，未能突破至买方流动性，留待后续交易机会。",
+  "lessons": "在高影响新闻周，通过经济日历规划交易日期，识别操纵-分布模式。使用标准差投影和订单块汇聚提高目标位精准度。中周反转结构与多时间框架确认提升交易概率。",
+  "primary_image": "cards/hKCMqh0ZsY0/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/hKCMqh0ZsY0/images/case_001_detail_1.jpg",
+    "cards/hKCMqh0ZsY0/images/case_001_detail_2.jpg",
+    "cards/hKCMqh0ZsY0/images/case_001_detail_3.jpg",
+    "cards/hKCMqh0ZsY0/images/case_001_detail_4.jpg",
+    "cards/hKCMqh0ZsY0/images/case_001_detail_5.jpg",
+    "cards/hKCMqh0ZsY0/images/case_001_detail_6.jpg",
+    "cards/hKCMqh0ZsY0/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "USDT_CNY 日线图。图上显示从 18 日至 23 日的 K 线序列，包含绿色和黑色蜡烛体。可见价格范围约从 17250 到 18225。图中绘制一条矩形框，上边界约在 18025，下边界约在 17750，跨越 20 至 23 日的 K 线区间。矩形上方有一个黄色十字标记。图右侧显示两条水平虚线，分别对应 18025 和 17750 价格水平。",
+    "case_001_detail_1.jpg": "TTUSDT_OKX 日线图。图上显示从 1 月 17 日至 2 月 16 日的日 K 线序列，价格范围约 17600 至 18400。图左侧显示两个价格标签：17928.35 和 17804.36。图中央有一个矩形框标注，覆盖约 17600 至 18200 的价格区间。K 线序列包含多根绿色（看涨）和黑色（看跌）蜡烛，其中左侧有一根大型绿色 K 线，中央区域有一根黑色 K 线，右下方有一根带长下",
+    "case_001_detail_2.jpg": "TTvideo_okt 图表显示价格范围从 17650 到 18025。图上有两条水平线：一条在 17773.00 处，一条在 17950.00 处，均带虚线延伸。一个米色矩形框标注了约 17650 至 17950 的价格区间。右侧有黄色加号标记。图表底部显示日期 1/2/2024 及文字标签。K 线在标注矩形区域内呈现波动和整理形态。",
+    "case_001_detail_3.jpg": "BTC/USD 1小时K线图。图上有一个黄色矩形框标注，覆盖约17750至18025的价格区间。图右侧显示两条水平虚线，分别位于18025和17750处。K线在矩形区域内呈现多根小幅波动的形态，随后向下突破至17750以下，之后出现反弹。可见价格范围约从17700到18250。图上标注有日期'1/2/2024'和资产标识'BTC1 USD'。",
+    "case_001_detail_4.jpg": "TTvixdx_okt 图表显示一个黄色矩形标注区域，价格范围约在 17700 至 17850 之间。图上有三条水平线分别位于 17843.50、17750.00 和 17700.00 处。K 线图显示多根蜡烛线在标注区域内外活动，其中包含一根长下影线的 K 线向下刺破至约 17650 水平。图表底部显示日期标记 5/2/2024 及数值 HOT1 和 6005。右侧可见绿色加号标记。除上述标注外",
+    "case_001_detail_5.jpg": "BTC 1 小时 K 线图。图上可见一个黄色矩形标注框，位置约在 17850 至 17950 价格区间。图右侧显示两条水平线分别对应 17950 和 17850 价格位。K 线在矩形区域内外形成多根带长上下影线的蜡烛体。图表左下角标注日期为 5/2/2024，右下角显示 HOT1 4084。整体可见价格范围从 18050 至 17650。",
+    "case_001_detail_6.jpg": "BTC 图表显示一段价格区间，可见范围约从 17650 到 18050。图上有一个黄色矩形框标注，覆盖约 17700 至 17950 的价格区间，跨越多根 K 线。矩形内外有三条水平线分别位于 17850、17950 和 17750 处。图右侧有一个黄色圆形标记点。底部显示日期标注'5/2/2024'和文字'HOLD | 6088'。K 线在标注区域内呈现振荡形态。",
+    "case_001_detail_7.jpg": "ETH 1 小时 K 线图。图上有三条水平线分别位于 18015、17900 和 17700 价格水平。两个黄色矩形框分别标注了 17700-17900 和 17900-18015 的价格区间。图表显示 K 线在这些水平线之间形成整理形态，可见价格范围约从 17050 到 18050。图上标注有日期'5/2/2024'和文字'HOT1 6088'。右侧显示当前时间戳为 15:15:04 UTC-4"
+  },
+  "sources": [
+    {
+      "video_id": "hKCMqh0ZsY0",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        191.76,
+        549.079
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了周线和1小时图表，清晰阐述了FOMC/NFP周期的交易策略、操纵-分布模式、标准差投影方法和具体价格目标。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:05.966482Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"FOMC/NFP周期内的周线操纵-分布交易案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1W\",\"market_context\":\"FOMC和NFP高影响新闻周。博主避开周一（积累）、周二（FOMC前）、周四（NFP前），专注于FOMC后和NFP后的交易机会。\",\"key_observation\":\"周三FOMC后扫低形成操纵，周四继续，周五NFP后出现分布走高。使用标准差投影确定目标位，第四标准差与失败摆动对齐形成高概率目标。\",\"analysis_steps\":[\"Step 1: 根据经济日历识别高影响新闻（FOMC和NFP），规划交易日期避开周一、周二和周四。\",\"Step 2: 在周线图上观察周三FOMC后价格扫低，识别为操纵信号，预期后续分布走高。\",\"Step 3: 使用周线档案从失败摆动（而非操纵移动）投影标准差，确定第四标准差作为目标位。\",\"Step 4: 下钻到1小时时间框架，确认周三形成低点、周四继续、周五形成中周反转（midweek reversal）。\",\"Step 5: 识别周五NFP后的向下操纵，预期随后向上分布至第四标准差目标位。\",\"Step 6: 在1小时图上观察价格进入FVG和倒置成交量失衡区域，形成订单块作为支撑。\",\"Step 7: 使用标准差投影和订单块汇聚确定获利目标，目标位在第四标准差或买方流动性区域。\"],\"outcome\":\"价格达到第四标准差目标位，未能突破至买方流动性，留待后续交易机会。\",\"lessons\":\"在高影响新闻周，通过经济日历规划交易日期，识别操纵-分布模式。使用标准差投影和订单块汇聚提高目标位精准度。中周反转结构与多时间框架确认提升交易概率。\",\"primary_image_frame_id\":\"hKCMqh0ZsY0_f009\",\"supporting_image_frame_ids\":[\"hKCMqh0ZsY0_f010\",\"hKCMqh0ZsY0_f011\",\"hKCMqh0ZsY0_f012\",\"hKCMqh0ZsY0_f013\",\"hKCMqh0ZsY0_f014\",\"hKCMqh0ZsY0_f001\",\"hKCMqh0ZsY0_f016\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"Change in the state of delivery\",\"Liquidity\",\"Buyside Liquidity\",\"Accumulation, Manipulation, Distribution\",\"Standard Deviation Projection\",\"Midweek Reversal\",\"Inverted Volume and Balance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了周线和1小时图表，清晰阐述了FOMC/NFP周期的交易策略、操纵-分布模式、标准差投影方法和具体价格目标。\"}",
+  "error": null
+}

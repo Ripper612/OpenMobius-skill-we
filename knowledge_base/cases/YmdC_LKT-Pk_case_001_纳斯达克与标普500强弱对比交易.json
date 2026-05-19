@@ -1,0 +1,121 @@
+{
+  "card_id": "YmdC_LKT-Pk_case_001_纳斯达克与标普500强弱对比交易",
+  "type": "case",
+  "title": "纳斯达克与标普500强弱对比做多交易",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Internal Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "fair_value_gap_fvg",
+    "balanced_price_range_bpr",
+    "displacement",
+    "order_block_ob",
+    "optimal_trade_entry_ote",
+    "liquidity",
+    "internal_range_liquidity",
+    "market_structure_shift_mss"
+  ],
+  "school": "SMC",
+  "asset": "NQ1! / ES",
+  "timeframe": "1M / 15M",
+  "market_context": "基于4小时公允价值缺口(BPR)的高时间框架看涨偏差，价格回归至该区域后，在1分钟时间框架寻找低时间框架入场模型。",
+  "key_observation": "纳斯达克在相同价格水平未能跌破标普500的低点，显示纳斯达克相对强势；1分钟位移蜡烛出现时，确认了做多纳斯达克的机会。",
+  "analysis_steps": [
+    "Step 1: 观察高时间框架(4小时)的公允价值缺口(BPR)，确立看涨偏差和回归目标。",
+    "Step 2: 价格回归至4小时BPR下端后，切换至1分钟时间框架寻找低时间框架入场模型。",
+    "Step 3: 对比纳斯达克和标普500在相同价格水平的表现，发现纳斯达克未能跌破标普500的低点，识别纳斯达克相对强势(SMT)。",
+    "Step 4: 在1分钟位移蜡烛处确认入场信号，做多纳斯达克。",
+    "Step 5: 设置止损于该低点，目标指向前期高点。",
+    "Step 6: 在15分钟时间框架验证，观察价格进入折价区(Discount)和公允价值缺口，寻找额外的低时间框架入场机会(OTE)。",
+    "Step 7: 识别订单块(Order Block)和内部流动性(Internal Liquidity)作为支撑，确认交易设置的有效性。"
+  ],
+  "outcome": null,
+  "lessons": "通过对比相关资产在相同价格水平的表现差异(SMT)，可以识别相对强弱，从而在高时间框架结构内寻找低时间框架位移蜡烛进行高概率入场。位移、订单块和流动性的组合使用能够提高交易的精确性。",
+  "primary_image": "cards/YmdC_LKT-Pk/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/YmdC_LKT-Pk/images/case_001_detail_1.jpg",
+    "cards/YmdC_LKT-Pk/images/case_001_detail_2.jpg",
+    "cards/YmdC_LKT-Pk/images/case_001_detail_3.jpg",
+    "cards/YmdC_LKT-Pk/images/case_001_detail_4.jpg",
+    "cards/YmdC_LKT-Pk/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图上为两个并排的 1 分钟 K 线图面板。左侧为纳斯达克 100 E-mini 期货，右侧为标普 500 E-mini 期货。两个面板均显示从 08:00 至 09:40 的时间段内的 K 线走势。图上有一条灰色矩形区域跨越两个面板，纵向范围约 100 点。左侧面板价格范围约 10938 至 11092.25，右侧面板价格范围约 3643.25 至 3680.00。两个面板内均包含多根绿色和红色 ",
+    "case_001_detail_1.jpg": "图上为双面板交易图表，左侧为 NASDAQ 100 E-mini Futures，右侧为 S&P 500 E-mini Futures，均为 1 分钟时间框架。NASDAQ 100 面板显示从约 10040 到 11945 的上升走势，包含多根绿色和红色 K 线。S&P 500 面板显示从约 3680 到 3643 的下降走势，中间部分有盘整形态。两个面板均有灰色矩形标注区域。S&P 500 面板",
+    "case_001_detail_2.jpg": "CME MINI 期货 15 分钟 K 线图，时间跨度从 Oct 23 03:00 至 Oct 25 03:00。图上显示一段上升趋势从左侧 03:00 开始至约 14:30，随后转为下降趋势。图中标记有两个灰色矩形区域，其中一个位于中部约 06:00 至 12:00 区间，另一个位于右侧约 18:00 至 21:00 区间。K 线呈现绿色（上升）和红色（下降）混合排列，整体显示价格波动。右下角显",
+    "case_001_detail_3.jpg": "CME_MINI 期货合约 1 分钟 K 线图。图表显示从约 09:00 至 12:30 的交易时段。左侧区域（09:00-09:50）呈现多根绿红相间的 K 线，伴随较长的上下影线。中间区域（09:50-10:40）显示明显的下降趋势，K 线逐步走低。图表下方约 10:40-10:50 位置有一条灰色水平带。右侧区域（10:40 之后）K 线波动幅度减小，呈现相对平稳的形态。图上未见其他标注、水",
+    "case_001_detail_4.jpg": "CME_MINI 1分钟K线图。图上显示从09:20至12:50的价格走势。左侧为下跌趋势，多根红色K线从09:20向下运行至10:00附近。中间区域显示10:00至10:40的盘整形态。图上绘制有斐波那契回撤工具，标注有0.5、0.62、0.78三个水平线。上方有一条水平线标注。下方显示蓝色阴影区域。右侧时间轴显示至12:50，当前时间标记为11:55。",
+    "case_001_detail_5.jpg": "CME_MINI 1 分钟 K 线图，时间范围从 10:00 至 12:20。图上显示一系列绿色和红色 K 线。左侧呈下降趋势，约从 10:00 至 10:25；随后在 10:25 至 10:50 间出现盘整；10:50 至 11:10 间呈上升趋势；11:10 至 11:30 间再次出现回调和盘整。图上标注有多条水平线，标签分别为 0、0.62、0.5、0.62、0.79，呈斐波那契比例分布。图"
+  },
+  "sources": [
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        7.28,
+        187.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了对比分析过程、入场逻辑、时间框架切换和具体价格水平，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:42.572727Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克与标普500强弱对比做多交易\",\"school\":\"SMC\",\"asset\":\"NQ1! / ES\",\"timeframe\":\"1M / 15M\",\"market_context\":\"基于4小时公允价值缺口(BPR)的高时间框架看涨偏差，价格回归至该区域后，在1分钟时间框架寻找低时间框架入场模型。\",\"key_observation\":\"纳斯达克在相同价格水平未能跌破标普500的低点，显示纳斯达克相对强势；1分钟位移蜡烛出现时，确认了做多纳斯达克的机会。\",\"analysis_steps\":[\"Step 1: 观察高时间框架(4小时)的公允价值缺口(BPR)，确立看涨偏差和回归目标。\",\"Step 2: 价格回归至4小时BPR下端后，切换至1分钟时间框架寻找低时间框架入场模型。\",\"Step 3: 对比纳斯达克和标普500在相同价格水平的表现，发现纳斯达克未能跌破标普500的低点，识别纳斯达克相对强势(SMT)。\",\"Step 4: 在1分钟位移蜡烛处确认入场信号，做多纳斯达克。\",\"Step 5: 设置止损于该低点，目标指向前期高点。\",\"Step 6: 在15分钟时间框架验证，观察价格进入折价区(Discount)和公允价值缺口，寻找额外的低时间框架入场机会(OTE)。\",\"Step 7: 识别订单块(Order Block)和内部流动性(Internal Liquidity)作为支撑，确认交易设置的有效性。\"],\"outcome\":null,\"lessons\":\"通过对比相关资产在相同价格水平的表现差异(SMT)，可以识别相对强弱，从而在高时间框架结构内寻找低时间框架位移蜡烛进行高概率入场。位移、订单块和流动性的组合使用能够提高交易的精确性。\",\"primary_image_frame_id\":\"YmdC_LKT-Pk_f003\",\"supporting_image_frame_ids\":[\"YmdC_LKT-Pk_f004\",\"YmdC_LKT-Pk_f005\",\"YmdC_LKT-Pk_f006\",\"YmdC_LKT-Pk_f007\",\"YmdC_LKT-Pk_f008\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Fair Value Gap (FVG)\",\"Balanced Price Range (BPR)\",\"Displacement\",\"Order Block (OB)\",\"Optimal Trade Entry (OTE)\",\"Liquidity\",\"Internal Liquidity\",\"Premium/Discount Array (PD array)\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了对比分析过程、入场逻辑、时间框架切换和具体价格水平，分析步骤清晰有序。\"}",
+  "error": null
+}

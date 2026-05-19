@@ -1,0 +1,103 @@
+{
+  "card_id": "wy3OSPxu5U0_case_001_gbpaud日线到5分钟的多级别交易分析",
+  "type": "case",
+  "title": "GBPAUD日线到5分钟多级别FVG填充与流动性狩猎",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity (SSL)",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "buyside_sellside_liquidity",
+    "market_structure_shift_mss",
+    "breaker_block",
+    "mitigation_block",
+    "displacement",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "GBPAUD",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "GBPAUD在7月中旬至下旬期间形成上升趋势，价格在1.87000-1.95500区间内波动。日线图显示价格填充Daily FVG后，结构转为看跌，目标指向卖方流动性1.89900。",
+  "key_observation": "博主通过多级别分析框架，从日线识别FVG填充和卖方流动性目标，逐级下降到小时线确认市场结构转变和破坏块，最后在5分钟图表上通过FVG填充获得精确入场点。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别swing low、Daily FVG Fill（1.92500）和Sellside Liquidity（1.89900），确立看跌交易框架。",
+    "Step 2: 下降到1小时图，确认价格填充Daily FVG Fill后出现Market Structure Shift（结构转为看跌），识别H1 FVG（1.91600）和Breaker Block。",
+    "Step 3: 进一步下降到5分钟图，识别H1 Breaker（1.91300）、H1 FVG CE（1.91200）和m5 FVG Fill（1.90800）。",
+    "Step 4: 在5分钟图上观察价格形成lower high和lower low，确认下跌趋势，在m5 FVG Fill处获得具体入场信号。"
+  ],
+  "outcome": null,
+  "lessons": "多级别分析的核心是从高时间框架识别宏观方向和关键价位（FVG、流动性），然后逐级下降到低时间框架寻找具体入场点。每个时间框架的FVG填充和Breaker Block都是重要的参考，最终在最低时间框架（5分钟）通过FVG填充确认入场。",
+  "primary_image": "cards/wy3OSPxu5U0/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/wy3OSPxu5U0/images/case_001_detail_1.jpg",
+    "cards/wy3OSPxu5U0/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "GBPAUD 5分钟K线图，时间范围从19日01:00至11:00。图上标注有三条水平线：1.91300处标记为'H1 Breaker'、1.91200处标记为'H1 FVG CE'、1.90800处标记为'm5 FVG Fill'。图中有两个矩形框标注：一个覆盖H1 FVG CE区域，另一个标记为'm5 Mitigation Block'覆盖1.90800至1.91000区间。图上还标注有'Ma",
+    "case_001_detail_1.jpg": "GBPAUD 日线图。图上显示从 7 月中旬至 7 月底的价格走势，整体价格范围从 1.87000 到 1.95500。图上有两条带文字标签的水平线：1.92500 处标记为'Daily FVG Fill'、1.89900 处标记为'Sellside Liquidity'。另有一条水平线在 1.91000 处标记为'ssl'。K 线序列呈上升趋势，中间穿插绿色和黑色蜡烛，最高点在 1.93500 ",
+    "case_001_detail_2.jpg": "GBPAUD 1 小时 K 线图。图上标注有两条水平线：1.92300 处标记为'Daily FVG Fill'、1.91600 处标记为'-H1 FVG'。图表左侧有绿色矩形区域，右侧有灰色圆形标记。图下方文字标注'H1 Market Maker Sell Model Complete'。可见 K 线价格范围从 1.90288 至 1.92650。图表显示从 19/7/2023 起的 1 小时周"
+  },
+  "sources": [
+    {
+      "video_id": "wy3OSPxu5U0",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        51.52,
+        148.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线→小时线→5分钟线的三级别分析过程，每个时间框架的关键价位（FVG、Breaker、流动性）都清晰标注在图表上，分析逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:47.925756Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPAUD日线到5分钟多级别FVG填充与流动性狩猎\",\"school\":\"ICT\",\"asset\":\"GBPAUD\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"GBPAUD在7月中旬至下旬期间形成上升趋势，价格在1.87000-1.95500区间内波动。日线图显示价格填充Daily FVG后，结构转为看跌，目标指向卖方流动性1.89900。\",\"key_observation\":\"博主通过多级别分析框架，从日线识别FVG填充和卖方流动性目标，逐级下降到小时线确认市场结构转变和破坏块，最后在5分钟图表上通过FVG填充获得精确入场点。\",\"analysis_steps\":[\"Step 1: 在日线图上识别swing low、Daily FVG Fill（1.92500）和Sellside Liquidity（1.89900），确立看跌交易框架。\",\"Step 2: 下降到1小时图，确认价格填充Daily FVG Fill后出现Market Structure Shift（结构转为看跌），识别H1 FVG（1.91600）和Breaker Block。\",\"Step 3: 进一步下降到5分钟图，识别H1 Breaker（1.91300）、H1 FVG CE（1.91200）和m5 FVG Fill（1.90800）。\",\"Step 4: 在5分钟图上观察价格形成lower high和lower low，确认下跌趋势，在m5 FVG Fill处获得具体入场信号。\"],\"outcome\":null,\"lessons\":\"多级别分析的核心是从高时间框架识别宏观方向和关键价位（FVG、流动性），然后逐级下降到低时间框架寻找具体入场点。每个时间框架的FVG填充和Breaker Block都是重要的参考，最终在最低时间框架（5分钟）通过FVG填充确认入场。\",\"primary_image_frame_id\":\"wy3OSPxu5U0_f005\",\"supporting_image_frame_ids\":[\"wy3OSPxu5U0_f003\",\"wy3OSPxu5U0_f004\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Sellside Liquidity (SSL)\",\"Market Structure Shift (MSS)\",\"Breaker Block\",\"Mitigation Block\",\"Displacement\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线→小时线→5分钟线的三级别分析过程，每个时间框架的关键价位（FVG、Breaker、流动性）都清晰标注在图表上，分析逻辑连贯。\"}",
+  "error": null
+}

@@ -1,0 +1,136 @@
+{
+  "card_id": "ict_son_s_model",
+  "type": "merged_concept",
+  "canonical_term": "ICT Son's Model",
+  "aliases": [
+    "Cameron's Model",
+    "Son Model",
+    "Son's Model"
+  ],
+  "school": "ICT",
+  "definition": "由三个组件构成的多时间框架交易框架：在H1/M15或日线/4小时图上识别Draw On Liquidity（老高/老低或FVG）作为目标；在中间时间框架（M5/M15）确认相反方向的Stop Raid（流动性扫荡并收盘回归范围）；最后在低时间框架（30秒/1分钟/5分钟）寻找FVG精确入场。",
+  "identification_rules": [
+    "第一步：在高时间框架（日线/4小时/H1/M15）识别Draw On Liquidity目标，通常为老高、老低或FVG（inefficiency）",
+    "第二步：在中间时间框架（M5/M15/H1）确认Stop Raid——相反方向的摆动被扫除，且该方向K线收盘回到范围内（bullish/bearish candle close回到swept区域内）",
+    "第三步：下降到低时间框架（30秒/1分钟/5分钟）寻找Fair Value Gap或其他入场结构，目标指向高时间框架的Draw On Liquidity",
+    "止损设置：可参考具体结构高低点，NQ上通常为12点或更少",
+    "目标设置：可采用固定1:1风险回报比，或根据结构目标（前期摆动低点、OB、FVG）调整为更高比例"
+  ],
+  "trading_implication": "高时间框架的Draw On Liquidity确定价格预期方向与最终目标，中间时间框架的Stop Raid验证机构扫荡流动性的意图，低时间框架的FVG提供精确入场点。时间框架组合可灵活应用：30秒入场配合M5扫荡，或1分钟/5分钟入场配合4小时/日线目标。可采用机械式（等待中间时间框架收盘后进入低时间框架）或灵活方式（扫荡后立即寻找低时间框架位移与入场模型）。",
+  "common_mistakes": [
+    "未在中间时间框架确认Stop Raid（sweep）就直接在低时间框架入场，降低交易概率",
+    "未等待中间时间框架的candle close确认就提前入场",
+    "混淆Draw On Liquidity的方向，导致在错误方向寻找Stop Raid",
+    "忽视SMT（不同资产的分歧）作为Draw On Liquidity确认的辅助信号",
+    "在低时间框架上过度交易所有FVG，而不是等待与中间时间框架结构相符的FVG",
+    "机械地使用固定1:1目标，忽视结构性目标（如前期摆动低点、OB）可能提供更高风险回报"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_ict_son_s_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        476.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "q40pRwjuPYQ",
+      "original_card_id": "q40pRwjuPYQ_concept_ict_son_s_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        10.679,
+        840.759
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:44.474059Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

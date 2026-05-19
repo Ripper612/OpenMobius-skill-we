@@ -1,0 +1,54 @@
+{
+  "card_id": "fractal_model_info_table",
+  "type": "merged_concept",
+  "canonical_term": "Fractal Model Info Table",
+  "aliases": [
+    "Model Info Table",
+    "信息表"
+  ],
+  "school": "ICT",
+  "definition": "指标右下角显示的信息面板，实时展示当前图表的时间框架、交易资产、应用的分形模型名称、偏差设置和时间过滤器配置等关键参数。",
+  "identification_rules": [
+    "位于图表右下角，以表格或文本形式显示",
+    "包含资产代码（如EURAUD、GC1!）、时间框架标注（如5m、1H）、模型名称（如5m-1H Model）",
+    "显示Bias设置（Neutral、Bullish或Bearish）和剩余时间（如00:10:00表示HTF蜡烛距离收盘的时间）",
+    "可选显示已激活的时间过滤器（Time Filter）设置"
+  ],
+  "trading_implication": "快速参考当前分析环境的配置状态。交易者通过该表确认正在使用的模型周期组合、偏差方向和时间过滤器是否与交易计划一致，避免在错误的模型或时间框架下执行交易。特别在多指标叠加或跨时间框架分析时，该表确保分析的一致性。",
+  "common_mistakes": [
+    "未注意到时间过滤器（Time Filter）的激活状态，导致在不符合过滤条件的时间段内错误地寻找信号",
+    "在切换时间框架后忘记检查表中的模型名称是否已更新，可能基于过时的模型参数进行交易",
+    "忽视Bias设置的显示，与实际交易意图不符"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_fractal_model_info_table",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        725.0,
+        903.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133149Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,115 @@
+{
+  "card_id": "4Gm8p6O7Ebs_case_001_黄金小时图扩张走势分析",
+  "type": "case",
+  "title": "黄金1小时图三天扩张走势追踪",
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candles",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Down Close Candles",
+      "card_id": "series_of_down_close_candles",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Shallow Retracement",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "expansion",
+    "protected_high_low",
+    "change_in_the_state_of_delivery",
+    "series_of_down_close_candles",
+    "fair_value_gap",
+    "market_structure_shift",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "1H",
+  "market_context": "黄金日线出现低点扫荡后回升并收盘，形成CSD反转信号。随后小时图展现大幅扩张特征，伴随浅回撤和受保护摆动点的形成，持续三天上升趋势。",
+  "key_observation": "在日线反转信号确认后，小时图进入扩张模式，表现为大幅上升K线与浅回撤交替，通过追踪反向K线（down close candles）形成的受保护摆动点来确认趋势延续。",
+  "analysis_steps": [
+    "Step 1: 观察日线图表，识别低点扫荡后的回升收盘，确认CSD反转信号已形成。",
+    "Step 2: 在小时图上追踪第一个受保护摆动点，扫荡低点后收盘，标记该低点不应被突破。",
+    "Step 3: 识别扩张特征——两根大幅绿色K线后跟随约六根K线的浅回撤，形成大幅-小幅-大幅的循环。",
+    "Step 4: 在回撤后寻找反向K线（down close candles）收盘，形成新的受保护摆动点，预期该低点继续支撑价格上行。",
+    "Step 5: 追踪第二天的突破，价格收盘于前高之上，形成突破信号，同时在日内形成新的反向K线。",
+    "Step 6: 继续第三天的扩张，观察价格再次形成大幅上升后浅回撤，维持受保护摆动点的完整性。",
+    "Step 7: 确认三天扩张完成后，预期可能出现回撤或反向移动。"
+  ],
+  "outcome": null,
+  "lessons": "扩张走势中应避免在折价区寻求做多机会，而是等待反向K线收盘后形成受保护摆动点再入场。浅回撤是扩张的标志，大幅-小幅-大幅的循环模式重复三次后通常预示趋势可能转变。",
+  "primary_image": "cards/4Gm8p6O7Ebs/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/4Gm8p6O7Ebs/images/case_001_detail_1.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_001_detail_2.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_001_detail_3.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_001_detail_4.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_001_detail_5.jpg",
+    "cards/4Gm8p6O7Ebs/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表资产代码显示为 apoz，时间框架为 1 小时，货币单位为 USD，日期范围覆盖 12 月 8 日至 13 日。图右侧价格刻度范围约 2762.5 至 2827.5，当前价标签显示 2792.9。图上有一个矩形标注框，覆盖 Dec 9 附近约 2775.0 至 2782.5 区间，框内有一条蓝色斜向上趋势线。图上另有两条水平线，分别位于约 2802.5 和 2780.0。Dec 12 右侧可见",
+    "case_001_detail_1.jpg": "图为教学幻灯片风格页面，左上角标题文字为'When to expect'，底部显示品牌标识'TTrades'及页码'2'。图中包含两段独立的 K 线序列，均无价格刻度和资产代码。左侧序列约 20 根 K 线，绿色与深色 K 线交替排列，整体走向从左下至右上，序列左下部分有一个虚线矩形框标注。右侧序列约 18 根 K 线，同样为绿色与深色交替，整体走向亦从左下至右上，最右侧数根 K 线位于序列最高位",
+    "case_001_detail_2.jpg": "图为无资产代码和时间框架标注的蜡烛图，左上角显示文字'Interact'，左下角显示品牌标识'TTrades'及数字'3'。图中主体为一组从左下向右上排列的绿色与深色K线序列。图右侧有两根体积明显大于其余K线的绿色K线，与主体K线群之间存在间距。图上可见两处矩形标注：一处框住右侧大K线与主体群之间的间距区域，另一处位于右侧两根大K线下方区域。价格刻度不可见，无法读取具体价格数字。",
+    "case_001_detail_3.jpg": "图表资产代码显示为 apoz，计价货币为 USD，时间框架为 1 小时。图上可见价格范围约从 2707.5 至 2772.5。图上有一条蓝色矩形标注，覆盖约 2737.5 至 2742.5 区间，位于 12 月 5 至 6 日附近。图右侧有两条水平线，分别位于约 2737.5 和 2727.5，向右延伸。当前价格标签显示 2734.2，以虚线横贯全图。图中有一条垂直虚线标记于 Fri 06 Dec",
+    "case_001_detail_4.jpg": "图表资产代码显示为 apoz，计价单位为 USD，时间框架工具栏显示 1h。图上可见价格范围约从 2710.0 至 2775.0，右侧价格轴以 2.5 为刻度间隔。当前价格标签高亮显示于约 2750.3 处，并伴有一条贯穿图表的虚线水平线。图中左侧中部有一条蓝色水平线段位于约 2737.5 附近，右侧有一条短水平线段位于约 2727.5 附近，以及一条点状水平线位于约 2730.0 附近。图中约 ",
+    "case_001_detail_5.jpg": "图为资产代码 apoz、时间框架 1 小时的 K 线图，时间轴覆盖 12 月 5 日至 11 日区间，可见价格范围约 2725.0 至 2790.0。图上有两条蓝色水平线分别位于约 2737.5 和 2742.5，另有一条细水平线及一条虚线水平线位于约 2730.0 附近。图中约 12 月 9 日 09:00 处有一条垂直虚线，对应一根较长的绿色 K 线，其后跟随数根黑色 K 线依次下行至约 27",
+    "case_001_detail_6.jpg": "图表为 apoz/USD 1 小时 K 线图，可见价格范围约从 2727.5 至 2795.0。图上有一个矩形框标注区域，覆盖约 2765.0 至 2782.5 价格区间，对应 Dec 10 附近多根 K 线的整理区域。图右侧可见一根大幅绿色 K 线与一根大幅黑色 K 线。图上有一条蓝色水平线位于约 2737.5，一条虚线水平线位于约 2755.0。右侧价格轴当前价标签显示 2774.2。图左下角"
+  },
+  "sources": [
+    {
+      "video_id": "4Gm8p6O7Ebs",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        66.24,
+        336.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三天扩张的全过程，清晰标注了受保护摆动点、反向K线、价格位置（2737.5-2780.0等），并详细解释了扩张与回撤的交替模式。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:23:58.108357Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金1小时图三天扩张走势追踪\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"1H\",\"market_context\":\"黄金日线出现低点扫荡后回升并收盘，形成CSD反转信号。随后小时图展现大幅扩张特征，伴随浅回撤和受保护摆动点的形成，持续三天上升趋势。\",\"key_observation\":\"在日线反转信号确认后，小时图进入扩张模式，表现为大幅上升K线与浅回撤交替，通过追踪反向K线（down close candles）形成的受保护摆动点来确认趋势延续。\",\"analysis_steps\":[\"Step 1: 观察日线图表，识别低点扫荡后的回升收盘，确认CSD反转信号已形成。\",\"Step 2: 在小时图上追踪第一个受保护摆动点，扫荡低点后收盘，标记该低点不应被突破。\",\"Step 3: 识别扩张特征——两根大幅绿色K线后跟随约六根K线的浅回撤，形成大幅-小幅-大幅的循环。\",\"Step 4: 在回撤后寻找反向K线（down close candles）收盘，形成新的受保护摆动点，预期该低点继续支撑价格上行。\",\"Step 5: 追踪第二天的突破，价格收盘于前高之上，形成突破信号，同时在日内形成新的反向K线。\",\"Step 6: 继续第三天的扩张，观察价格再次形成大幅上升后浅回撤，维持受保护摆动点的完整性。\",\"Step 7: 确认三天扩张完成后，预期可能出现回撤或反向移动。\"],\"outcome\":null,\"lessons\":\"扩张走势中应避免在折价区寻求做多机会，而是等待反向K线收盘后形成受保护摆动点再入场。浅回撤是扩张的标志，大幅-小幅-大幅的循环模式重复三次后通常预示趋势可能转变。\",\"primary_image_frame_id\":\"4Gm8p6O7Ebs_f011\",\"supporting_image_frame_ids\":[\"4Gm8p6O7Ebs_f003\",\"4Gm8p6O7Ebs_f004\",\"4Gm8p6O7Ebs_f007\",\"4Gm8p6O7Ebs_f008\",\"4Gm8p6O7Ebs_f009\",\"4Gm8p6O7Ebs_f010\"],\"related_concepts\":[\"Expansion\",\"Protected Swing\",\"Opposing Candles\",\"Down Close Candles\",\"Fair Value Gap\",\"Change in State of Delivery\",\"Shallow Retracement\",\"Order Block\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三天扩张的全过程，清晰标注了受保护摆动点、反向K线、价格位置（2737.5-2780.0等），并详细解释了扩张与回撤的交替模式。\"}",
+  "error": null
+}

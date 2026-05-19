@@ -1,0 +1,106 @@
+{
+  "card_id": "IeXtmeKqjnQ_case_003_原油期货_cl_范围突破案例",
+  "type": "case",
+  "title": "原油期货CL日内范围突破与CSD交易案例",
+  "related_concepts": [
+    {
+      "term": "CSD (Change in the state of delivery)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "premium_discount",
+    "equilibrium",
+    "failure_swing",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "15M / 5M",
+  "market_context": "原油期货在伦敦盘整期间未能突破日内范围两侧，进入纽约盘时在8:30时段扫除范围高点，形成看涨CSD信号，目标为范围对侧（前一日高点）。",
+  "key_observation": "伦敦盘未能突破范围高低点，形成失败摆动；纽约8:30扫除范围高点后出现一系列向上收盘K线，确认CSD信号，预示价格将交付至范围对侧。",
+  "analysis_steps": [
+    "Step 1: 在15分钟图表上识别伦敦盘的日内范围高点（约75.60）和范围低点（约74.40）。",
+    "Step 2: 观察伦敦盘未能突破范围两侧，仅在范围内形成失败摆动，表明市场操纵。",
+    "Step 3: 进入纽约盘后，在5分钟图表上观察价格跌破前一低点，初次未能改变交付状态。",
+    "Step 4: 标记范围的溢价区和折价区，以及午夜开盘价（约74.87）作为参考。",
+    "Step 5: 在8:30时段，价格扫除范围高点，并在5分钟图表上形成一系列向上收盘K线。",
+    "Step 6: 确认CSD信号（交付状态改变），标记止损位于范围高点，目标设定为范围对侧（1.75点）。",
+    "Step 7: 在折价区（约74.69-74.87）寻找最优入场点，执行多头交易。",
+    "Step 8: 价格突破范围高点后继续上行，成功交付至范围对侧。"
+  ],
+  "outcome": "交易成功。价格从范围高点突破后上行至范围对侧，目标达成，获利约1.75点。",
+  "lessons": "日内范围突破交易的核心是识别伦敦盘的失败摆动与纽约盘的CSD信号。通过在折价区入场、在范围高点设止损、以范围对侧为目标，可以构建高概率的范围突破交易设置。关键是等待明确的交付状态改变信号。",
+  "primary_image": "cards/IeXtmeKqjnQ/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/IeXtmeKqjnQ/images/case_003_detail_1.jpg",
+    "cards/IeXtmeKqjnQ/images/case_003_detail_2.jpg",
+    "cards/IeXtmeKqjnQ/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 Light Crude Oil Futures（CL1!）5 分钟 K 线图，来源标注为 TTrades_edu，日期显示为 2024 年 2 月 9 日。图右侧可见价格刻度范围约从 74.15 至 77.50。图上叠加了一个三区域交易管理框：上方绿色矩形标注 Target 0.14（0.19%）、Amount $107.69；中间灰色矩形标注 Open P&L 0.12、Qty 0.76",
+    "case_003_detail_1.jpg": "Light Crude Oil Futures（CL1!）15 分钟 K 线图，图右上角标注 TTraders_edu。可见价格范围约从 73.00 到 75.80。图左侧 K 线由约 73.00 上行至约 75.30，随后出现多根下行 K 线回落至约 74.40，之后在 74.40 至 75.00 区间内形成多根 K 线的横向整理。图右侧有一个黑色填充矩形标注，覆盖约 74.40 至 75.60",
+    "case_003_detail_2.jpg": "图表为 Light Crude Oil Futures（CL1!）5 分钟 K 线图，来源标注为 TTraders_edu，日期显示 9/2/2024。可见价格范围约从 74.15 至 76.25。图右侧覆盖一个大型黑色填充矩形，纵向跨越约 74.60 至 76.25 区间。图上有一条水平虚线位于约 74.87，左侧价格轴标注 74.87 及 74.84 两个高亮标签。另有一条水平线位于约 74.",
+    "case_003_detail_3.jpg": "图表为 Light Crude Oil Futures（CL1!）5 分钟 K 线图，日期标注为 9/2/2024，来源标注为 TTrader_edu。右侧价格轴可见两个高亮价格标签，分别位于 74.91 和 74.62 附近，另有一条水平线位于约 74.69。图上约 07:30 至 08:00 时段有一个浅色矩形标注框，覆盖约 74.65 至 74.90 区间。图右侧约 08:30 至 09:0"
+  },
+  "sources": [
+    {
+      "video_id": "IeXtmeKqjnQ",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.48,
+        369.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从范围识别、伦敦盘分析、纽约盘CSD确认到交易执行的全过程，关键价位、时间点、交易结果均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:14.200390Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油期货CL日内范围突破与CSD交易案例\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"15M / 5M\",\"market_context\":\"原油期货在伦敦盘整期间未能突破日内范围两侧，进入纽约盘时在8:30时段扫除范围高点，形成看涨CSD信号，目标为范围对侧（前一日高点）。\",\"key_observation\":\"伦敦盘未能突破范围高低点，形成失败摆动；纽约8:30扫除范围高点后出现一系列向上收盘K线，确认CSD信号，预示价格将交付至范围对侧。\",\"analysis_steps\":[\"Step 1: 在15分钟图表上识别伦敦盘的日内范围高点（约75.60）和范围低点（约74.40）。\",\"Step 2: 观察伦敦盘未能突破范围两侧，仅在范围内形成失败摆动，表明市场操纵。\",\"Step 3: 进入纽约盘后，在5分钟图表上观察价格跌破前一低点，初次未能改变交付状态。\",\"Step 4: 标记范围的溢价区和折价区，以及午夜开盘价（约74.87）作为参考。\",\"Step 5: 在8:30时段，价格扫除范围高点，并在5分钟图表上形成一系列向上收盘K线。\",\"Step 6: 确认CSD信号（交付状态改变），标记止损位于范围高点，目标设定为范围对侧（1.75点）。\",\"Step 7: 在折价区（约74.69-74.87）寻找最优入场点，执行多头交易。\",\"Step 8: 价格突破范围高点后继续上行，成功交付至范围对侧。\"],\"outcome\":\"交易成功。价格从范围高点突破后上行至范围对侧，目标达成，获利约1.75点。\",\"lessons\":\"日内范围突破交易的核心是识别伦敦盘的失败摆动与纽约盘的CSD信号。通过在折价区入场、在范围高点设止损、以范围对侧为目标，可以构建高概率的范围突破交易设置。关键是等待明确的交付状态改变信号。\",\"primary_image_frame_id\":\"IeXtmeKqjnQ_f001\",\"supporting_image_frame_ids\":[\"IeXtmeKqjnQ_f008\",\"IeXtmeKqjnQ_f009\",\"IeXtmeKqjnQ_f010\"],\"related_concepts\":[\"CSD (Change in the state of delivery)\",\"Order Block\",\"Fair Value Gap\",\"Premium / Discount\",\"Equilibrium\",\"Failure Swing\",\"Liquidity\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从范围识别、伦敦盘分析、纽约盘CSD确认到交易执行的全过程，关键价位、时间点、交易结果均清晰可见。\"}",
+  "error": null
+}

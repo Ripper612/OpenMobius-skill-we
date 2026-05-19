@@ -1,0 +1,106 @@
+{
+  "card_id": "xdzyejskSKE_case_004_外部流动性扫除与范围反转",
+  "type": "case",
+  "title": "轻质原油外部流动性扫除与范围反转交易",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "CSD",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "low_resistance_liquidity",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift",
+    "fair_value_gap",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "CLi1",
+  "timeframe": "30M",
+  "market_context": "轻质原油期货在前一日形成明确的交易范围（83.77-82.41），新交易日伦敦盘扫除前日高点的卖方流动性后，形成低阻力流动性，随后在纽约盘发生范围反转。",
+  "key_observation": "价格扫除前一日范围高点（83.77）的外部流动性，形成低阻力流动性后，在纽约开盘时发生范围反转，向下突破范围低点，形成新的订单块和交易机会。",
+  "analysis_steps": [
+    "Step 1: 识别前一日的交易范围高点（83.77）和低点（82.41），标记为关键流动性区域。",
+    "Step 2: 观察伦敦盘价格上升并扫除前日高点的卖方流动性，形成低阻力流动性。",
+    "Step 3: 确认纽约开盘时价格形成对立运行（opposing run），试图建立新的订单块。",
+    "Step 4: 识别价格突破范围低点后的交付状态改变（CSD），标记为反转信号。",
+    "Step 5: 在范围低点附近设置做空入场，止损位于订单块上方，目标为2R风险回报比。",
+    "Step 6: 确认价格未被标记前即开始下行，验证交易设置的有效性。"
+  ],
+  "outcome": "交易成功执行，价格在未触及止损的情况下达到目标位置，实现2R的风险回报比。",
+  "lessons": "外部流动性扫除后形成的低阻力流动性是高概率反转信号；结合交付状态改变和范围结构，可以识别高质量的交易入场点；多重汇聚（订单块、时间框架对齐、流动性水平）增强交易的可靠性。",
+  "primary_image": "cards/xdzyejskSKE/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/xdzyejskSKE/images/case_004_detail_1.jpg",
+    "cards/xdzyejskSKE/images/case_004_detail_2.jpg",
+    "cards/xdzyejskSKE/images/case_004_detail_3.jpg",
+    "cards/xdzyejskSKE/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "Light Crude Oil Futures 30 分钟 K 线图。图上可见价格范围从 84.30 至 81.50。右侧有一个浅蓝色矩形标注，跨越 82.41 至 83.77 价格区间。矩形内包含一根大型黑色 K 线。图上有两条带数值标签的水平线：上方标注为'Range: 83.77 (83.28) 83. Amount: 119900'，下方标注为'Range: 82.41 (82.77) 8",
+    "case_004_detail_1.jpg": "轻质原油期货 15 分钟 K 线图。图表显示从左侧 84.60 下跌至 81.00 的下降趋势，随后在中间区域出现整理和反弹，价格回升至 83.40 附近。图上有两条水平虚线分别位于 82.54 和 83.44。右侧区域有一根大黑色 K 线位于 83.40 至 83.50 之间，该区域附近标有黄色圆形标记和文字标签'0.00'。整个图表中绿色 K 线出现在反弹阶段，黑色 K 线主要出现在下跌阶段。",
+    "case_004_detail_2.jpg": "Light Crude Oil Futures 30分钟K线图。图表显示从左侧84.30下跌至81.50的下降趋势。右侧中部有一个灰色矩形框标注，框内价格范围约82.50至82.97，其中包含一根大黑色K线。图上有两条水平线分别位于82.97和82.50处。图下方显示时间标记'23/4/2024'和'CLi1 | 30M'。图中央下方有一个黄色十字光标标记。左侧K线呈现绿色和黑色混合形态。",
+    "case_004_detail_3.jpg": "轻质原油期货图表显示价格从左侧约84.10下跌至81.00附近，随后出现反弹。图上标注两个矩形区域：下方浅绿色矩形位于81.50至82.50之间，上方浅灰色矩形位于82.50至83.50之间。右侧显示一根大型黑色K线，收盘价接近83.00，上影线延伸至83.50。图表底部标注日期为23/4/2024及比例信息1:1|32R。",
+    "case_004_detail_4.jpg": "轻质原油期货 30 分钟 K 线图。图表左侧显示从 86.50 下跌至 81.00 的下降趋势。中间区域标注有两条水平线，分别位于 84.40 和 82.80，之间用矩形框标记并标注为'WD'。图上另有一个较大的矩形框覆盖约 82.00 至 84.80 的价格区间。右侧显示一根大型黑色 K 线，主体约 2.80 点，上影线穿过 84.80，下影线穿过 82.00。图表底部显示时间戳'23/4/20"
+  },
+  "sources": [
+    {
+      "video_id": "xdzyejskSKE",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.88,
+        549.399
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从范围识别、流动性扫除、反转确认到交易执行的全过程，关键价位清晰（83.77/82.41），交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:16.966218Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"轻质原油外部流动性扫除与范围反转交易\",\"school\":\"ICT\",\"asset\":\"CLi1\",\"timeframe\":\"30M\",\"market_context\":\"轻质原油期货在前一日形成明确的交易范围（83.77-82.41），新交易日伦敦盘扫除前日高点的卖方流动性后，形成低阻力流动性，随后在纽约盘发生范围反转。\",\"key_observation\":\"价格扫除前一日范围高点（83.77）的外部流动性，形成低阻力流动性后，在纽约开盘时发生范围反转，向下突破范围低点，形成新的订单块和交易机会。\",\"analysis_steps\":[\"Step 1: 识别前一日的交易范围高点（83.77）和低点（82.41），标记为关键流动性区域。\",\"Step 2: 观察伦敦盘价格上升并扫除前日高点的卖方流动性，形成低阻力流动性。\",\"Step 3: 确认纽约开盘时价格形成对立运行（opposing run），试图建立新的订单块。\",\"Step 4: 识别价格突破范围低点后的交付状态改变（CSD），标记为反转信号。\",\"Step 5: 在范围低点附近设置做空入场，止损位于订单块上方，目标为2R风险回报比。\",\"Step 6: 确认价格未被标记前即开始下行，验证交易设置的有效性。\"],\"outcome\":\"交易成功执行，价格在未触及止损的情况下达到目标位置，实现2R的风险回报比。\",\"lessons\":\"外部流动性扫除后形成的低阻力流动性是高概率反转信号；结合交付状态改变和范围结构，可以识别高质量的交易入场点；多重汇聚（订单块、时间框架对齐、流动性水平）增强交易的可靠性。\",\"primary_image_frame_id\":\"xdzyejskSKE_f001\",\"supporting_image_frame_ids\":[\"xdzyejskSKE_f013\",\"xdzyejskSKE_f014\",\"xdzyejskSKE_f015\",\"xdzyejskSKE_f016\"],\"related_concepts\":[\"Liquidity\",\"Low Resistance Liquidity\",\"Order Block\",\"CSD\",\"Market Structure Shift\",\"Fair Value Gap\",\"Displacement\",\"OTE\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从范围识别、流动性扫除、反转确认到交易执行的全过程，关键价位清晰（83.77/82.41），交易结果明确。\"}",
+  "error": null
+}

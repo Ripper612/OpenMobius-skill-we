@@ -1,0 +1,57 @@
+{
+  "card_id": "power_of_three_amd_accumulation_manipulation_distribution",
+  "type": "merged_concept",
+  "canonical_term": "Power of Three / AMD (Accumulation, Manipulation, Distribution)",
+  "aliases": [
+    "AMD模型",
+    "三阶段模型"
+  ],
+  "school": "ICT",
+  "definition": "描述价格在一个周期内（如4小时K线）的三阶段运动模式：第一根K线为积累（Accumulation），第二根K线为操纵（反向运动/Manipulation），第三根K线为派发（方向性扩展/Distribution）。目标是交易第三根K线的方向性扩展。",
+  "identification_rules": [
+    "第一根K线（Candle 1）：积累阶段，形成基础结构",
+    "第二根K线（Candle 2）：操纵阶段，产生反向运动（wick）；若wick较小则支持扩展，若wick较大则不支持当根K线内交易",
+    "第三根K线（Candle 3）：派发阶段，形成浅层反向运动后产生方向性扩展，此时形成Protected Swing",
+    "识别浅层wick（shallow wick）：支持价格扩展；识别大幅反向运动（large opposing run）：需等待下一根K线",
+    "在低时间框架上观察：价格开盘→形成反向运动→形成CSD（Change in State of Delivery）确认Protected Low/High→交易扩展"
+  ],
+  "trading_implication": "Power of Three提供了机械化的交易框架。交易者应在第三根K线形成浅层wick并确认CSD后入场，交易方向性扩展。若第二根K线出现大幅反向运动，则应等待第三根K线而非在第二根K线内交易。该模型帮助交易者识别高概率的方向性扩展机会，避免在操纵阶段被扫出。",
+  "common_mistakes": [
+    "未区分第二根K线的wick大小，在大幅反向运动时过早入场导致被扫损",
+    "混淆两种场景：延续型扩展K线（Continuation Expansion Candle）与反转型扩展K线（Reversal Expansion Candle）的识别标准不同",
+    "未在低时间框架确认CSD和Protected Swing就交易，导致入场点不够精确"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_power_of_three_amd_accumulation_manipula",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.96,
+        171.519
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134820Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

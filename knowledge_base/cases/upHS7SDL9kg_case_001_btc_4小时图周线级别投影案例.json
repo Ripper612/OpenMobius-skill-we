@@ -1,0 +1,101 @@
+{
+  "card_id": "upHS7SDL9kg_case_001_btc_4小时图周线级别投影案例",
+  "type": "case",
+  "title": "BTC 4小时图周线级别投影案例",
+  "related_concepts": [
+    {
+      "term": "Fibonacci Projection",
+      "card_id": "fibonacci_projection",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Confluence",
+      "card_id": "confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fibonacci_projection",
+    "order_block",
+    "liquidity",
+    "market_structure_shift",
+    "displacement",
+    "confluence"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "4H",
+  "market_context": "BTC在4小时图上形成周线级别反转结构。价格从119000下跌至108000，中间在108000-113000区间盘整，随后形成大幅下跌至107500的操纵腿，之后反弹。",
+  "key_observation": "博主通过识别周线级别的操纵腿（从高点到低点），使用斐波那契投影工具生成目标价位，这些投影目标与等高点流动性形成汇聚，预示价格将上升至目标区域。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别周线级别的变化状态（CSD），价格扫出前周低点后回升至内部。",
+    "Step 2: 确定操纵腿的低点和制造该低点的高点，标记为分析基础。",
+    "Step 3: 使用斐波那契回撤工具从低点锚定到高点，应用PDF中讨论的设置生成投影目标（-1、0、1水平）。",
+    "Step 4: 观察投影目标与流动性目标的汇聚，包括等高点和前期高点的重合。",
+    "Step 5: 预期在下一个周线蜡烛中，价格将交易进入这些流动性目标，使用投影作为汇聚确认。",
+    "Step 6: 验证价格确实触及第一个投影目标和流动性点，并在周线蜡烛收盘良好后，预期第四根摆动蜡烛继续上升。",
+    "Step 7: 确认价格最终击中目标和投影水平，完成预测。"
+  ],
+  "outcome": "价格成功触及投影目标和流动性点，在周线蜡烛形成良好收盘后，继续上升至高点，验证了投影与流动性汇聚的有效性。",
+  "lessons": "投影工具在识别周线级别反转时具有高效性，特别是当投影目标与等高点、前期高点等流动性水平形成汇聚时。将投影作为汇聚工具而非单独目标，能提高交易的可靠性。",
+  "primary_image": "cards/upHS7SDL9kg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/upHS7SDL9kg/images/case_001_detail_1.jpg",
+    "cards/upHS7SDL9kg/images/case_001_detail_2.jpg",
+    "cards/upHS7SDL9kg/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "BTC/USDT 4小时K线图。图上显示从左侧约119000下跌至右侧约108000的下降趋势，跨越约15根K线。中间区域在108000至113000之间形成盘整，约8根K线在此区间内波动。图右侧出现一根大幅下跌的黑色K线从约113500跌至107500，随后一根绿色K线收于约110500。图上有4条水平虚线分别位于117000、113000、110500和108782.30。标注框C2标记在中间",
+    "case_001_detail_1.jpg": "图上展示一个标题为'Large Manipulation Leg'的K线序列。Y轴刻度显示-1、0、1三个水平线。K线由绿色和黑色蜡烛组成，初期在0附近形成小幅波动，中段出现一根大黑蜡烛，下影线延伸至-1附近，随后绿色蜡烛逐步上升，最终K线集中在0至+1区间上方。多根K线具有向上的影线。图左下角显示'TTrades'标识和数字'8'。",
+    "case_001_detail_2.jpg": "ETHUSD 4小时图表。图上显示从左侧117500下跌至右侧约107500的价格走势。左侧标注有水平线位于109885.60处。图中央至右侧存在两个矩形标注框，其中一个标记为C2，框体位于107500至109000价格区间。右侧显示一根大型黑色K线从约113000跌至107500，随后一根绿色K线收于107500附近。图右下角显示文字标签包括资产代码、时间框架、模型信息及偏向标记。",
+    "case_001_detail_3.jpg": "ETHUSD 4小时K线图。图上显示价格范围从105500至117500。左侧显示从117500向下的下跌走势，中间部分为110500至113500区间的盘整。图上标注有4条水平线分别位于113625、111500、110500和107500。右侧显示一根大黑K线从约113500跌至107500，随后一根大绿K线从107500回升至113000。图上有两个矩形框标注，其中一个标记为C2。右下角显示"
+  },
+  "sources": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        133.12,
+        235.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析步骤、关键价位、工具应用和最终结果验证，资产、时间框架、价格水平均从图表清晰读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:05.917356Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC 4小时图周线级别投影案例\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"4H\",\"market_context\":\"BTC在4小时图上形成周线级别反转结构。价格从119000下跌至108000，中间在108000-113000区间盘整，随后形成大幅下跌至107500的操纵腿，之后反弹。\",\"key_observation\":\"博主通过识别周线级别的操纵腿（从高点到低点），使用斐波那契投影工具生成目标价位，这些投影目标与等高点流动性形成汇聚，预示价格将上升至目标区域。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别周线级别的变化状态（CSD），价格扫出前周低点后回升至内部。\",\"Step 2: 确定操纵腿的低点和制造该低点的高点，标记为分析基础。\",\"Step 3: 使用斐波那契回撤工具从低点锚定到高点，应用PDF中讨论的设置生成投影目标（-1、0、1水平）。\",\"Step 4: 观察投影目标与流动性目标的汇聚，包括等高点和前期高点的重合。\",\"Step 5: 预期在下一个周线蜡烛中，价格将交易进入这些流动性目标，使用投影作为汇聚确认。\",\"Step 6: 验证价格确实触及第一个投影目标和流动性点，并在周线蜡烛收盘良好后，预期第四根摆动蜡烛继续上升。\",\"Step 7: 确认价格最终击中目标和投影水平，完成预测。\"],\"outcome\":\"价格成功触及投影目标和流动性点，在周线蜡烛形成良好收盘后，继续上升至高点，验证了投影与流动性汇聚的有效性。\",\"lessons\":\"投影工具在识别周线级别反转时具有高效性，特别是当投影目标与等高点、前期高点等流动性水平形成汇聚时。将投影作为汇聚工具而非单独目标，能提高交易的可靠性。\",\"primary_image_frame_id\":\"upHS7SDL9kg_f006\",\"supporting_image_frame_ids\":[\"upHS7SDL9kg_f005\",\"upHS7SDL9kg_f007\",\"upHS7SDL9kg_f008\"],\"related_concepts\":[\"Fibonacci Projection\",\"Order Block\",\"Liquidity\",\"Change in State of Delivery\",\"Displacement\",\"Equal Highs\",\"Market Structure Shift\",\"Confluence\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析步骤、关键价位、工具应用和最终结果验证，资产、时间框架、价格水平均从图表清晰读取。\"}",
+  "error": null
+}

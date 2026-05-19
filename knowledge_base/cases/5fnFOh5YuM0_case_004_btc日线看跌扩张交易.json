@@ -1,0 +1,116 @@
+{
+  "card_id": "5fnFOh5YuM0_case_004_btc日线看跌扩张交易",
+  "type": "case",
+  "title": "日线扩张K线的多时间框架看跌交易",
+  "related_concepts": [
+    {
+      "term": "Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    },
+    {
+      "term": "Protected High",
+      "card_id": "protected_swing_protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement (0.5 level)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fractal Concept",
+      "card_id": "fractal_model",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "continuation_expansion_candle",
+    "protected_swing_protected_high_low",
+    "fair_value_gap",
+    "order_block",
+    "swing_low_swing_high",
+    "fractal_model",
+    "time_frame_confluence",
+    "risk_to_reward",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "日线出现扩张K线形态（expansion candle），伴随受保护的摆动高点。博主在1小时和5分钟时间框架上使用0.5斐波那契水平寻找高概率入场点，展示分形概念在多时间框架的应用。",
+  "key_observation": "日线扩张K线与受保护摆动高点的结合形成看跌信号。博主识别出在较低时间框架上，价格应该尊重上半部分区域，并利用0.5斐波那契水平作为关键支撑/阻力位。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别扩张K线形态，确认看跌方向框架",
+    "Step 2: 识别受保护的摆动高点（Protected High），确认价格不应突破该水平",
+    "Step 3: 在1小时时间框架上观察价格是否尊重上半部分区域，寻找公允价值缺口（FVG）和摆动低点",
+    "Step 4: 确认伦敦交易时段的反转信号，预期纽约交易时段的延续",
+    "Step 5: 在5分钟时间框架上使用0.5斐波那契水平确认入场点，止损设在摆动低点或K线实体下方",
+    "Step 6: 目标设定为2倍风险回报比（2R），观察价格是否达到目标"
+  ],
+  "outcome": "交易成功达到2倍风险回报比（2R）。价格在5分钟时间框架上形成确认信号后入场，止损在摆动低点，最终达到预期目标。",
+  "lessons": "日线扩张K线与受保护摆动高点的结合是强有力的看跌信号。使用分形概念在多时间框架上应用0.5斐波那契水平可以提高入场精准度。日线方向框架是所有交易设置的驱动力，低时间框架用于精确入场时机。",
+  "primary_image": "cards/5fnFOh5YuM0/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/5fnFOh5YuM0/images/case_004_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为日线K线图，右侧价格刻度显示可见范围约从40100至46600。图上有一条贯穿全图的水平虚线，位于约41132处，右侧价格轴对应标签高亮显示该数值。图中部偏右绘制有一个矩形框，覆盖约40900至41500价格区间。K线序列呈现先上升后下降的形态：左侧出现数根绿色K线向上延伸至约46600，随后数根黑色K线向下回落至约43000附近，右侧K线在43000至43500区间内排列。图上在约4330",
+    "case_004_detail_1.jpg": "图表显示 ETH 1 小时 K 线图，可见价格范围约从 40500 至 45650。图中部区域出现连续数根阴线，K 线主体依次下移，从约 41800 区域下行至约 40900 区域。图右侧出现两根较大阳线，随后跟随数根较大阴线，阴线主体从约 43800 向下延伸至约 41200。图上有数条水平线分布于 40990、41190、41390、42590 附近，另有一个小型矩形标注框位于约 41200 "
+  },
+  "sources": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "segment_ids": [
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        726.48,
+        1022.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线扩张K线的识别、受保护摆动高点的确认、多时间框架的应用、0.5斐波那契水平的使用，以及最终的交易结果（2R）。分析步骤清晰，价格水平和时间框架均可从图表读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:26:57.754972Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线扩张K线的多时间框架看跌交易\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"日线出现扩张K线形态（expansion candle），伴随受保护的摆动高点。博主在1小时和5分钟时间框架上使用0.5斐波那契水平寻找高概率入场点，展示分形概念在多时间框架的应用。\",\"key_observation\":\"日线扩张K线与受保护摆动高点的结合形成看跌信号。博主识别出在较低时间框架上，价格应该尊重上半部分区域，并利用0.5斐波那契水平作为关键支撑/阻力位。\",\"analysis_steps\":[\"Step 1: 在日线上识别扩张K线形态，确认看跌方向框架\",\"Step 2: 识别受保护的摆动高点（Protected High），确认价格不应突破该水平\",\"Step 3: 在1小时时间框架上观察价格是否尊重上半部分区域，寻找公允价值缺口（FVG）和摆动低点\",\"Step 4: 确认伦敦交易时段的反转信号，预期纽约交易时段的延续\",\"Step 5: 在5分钟时间框架上使用0.5斐波那契水平确认入场点，止损设在摆动低点或K线实体下方\",\"Step 6: 目标设定为2倍风险回报比（2R），观察价格是否达到目标\"],\"outcome\":\"交易成功达到2倍风险回报比（2R）。价格在5分钟时间框架上形成确认信号后入场，止损在摆动低点，最终达到预期目标。\",\"lessons\":\"日线扩张K线与受保护摆动高点的结合是强有力的看跌信号。使用分形概念在多时间框架上应用0.5斐波那契水平可以提高入场精准度。日线方向框架是所有交易设置的驱动力，低时间框架用于精确入场时机。\",\"primary_image_frame_id\":\"5fnFOh5YuM0_f031\",\"supporting_image_frame_ids\":[\"5fnFOh5YuM0_f032\",\"5fnFOh5YuM0_f033\",\"5fnFOh5YuM0_f034\"],\"related_concepts\":[\"Expansion Candle\",\"Protected High\",\"Fair Value Gap\",\"Order Block\",\"Swing Point\",\"Fibonacci Retracement (0.5 level)\",\"Fractal Concept\",\"Multi-Timeframe Analysis\",\"Risk/Reward Ratio\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线扩张K线的识别、受保护摆动高点的确认、多时间框架的应用、0.5斐波那契水平的使用，以及最终的交易结果（2R）。分析步骤清晰，价格水平和时间框架均可从图表读取。\"}",
+  "error": null
+}

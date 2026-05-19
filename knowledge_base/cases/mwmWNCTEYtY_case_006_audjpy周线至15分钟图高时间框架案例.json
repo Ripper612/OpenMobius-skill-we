@@ -1,0 +1,118 @@
+{
+  "card_id": "mwmWNCTEYtY_case_006_audjpy周线至15分钟图高时间框架案例",
+  "type": "case",
+  "title": "AUDJPY周线FVG至15分钟Breaker Block高概率入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Internal Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Discount Zone",
+      "card_id": "premium_discount_area",
+      "exists": true
+    },
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Maker Buy Model",
+      "card_id": "market_maker_buy_model",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Order Flow",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "internal_range_liquidity",
+    "buyside_sellside_liquidity",
+    "market_structure_shift_mss",
+    "breaker_block",
+    "premium_discount_area",
+    "market_maker_buy_model"
+  ],
+  "school": "ICT",
+  "asset": "AUDJPY",
+  "timeframe": "1W / 4H / 15M",
+  "market_context": "AUDJPY在周线形成内部流动性（Internal Liquidity）对应FVG区域，博主通过多时间框架逐级确认，从周线高时间框架目标向下逐级分析4小时和15分钟图表，寻找从内部流动性到外部流动性的扩张机会。",
+  "key_observation": "周线存在内部流动性对应的FVG缺口，预期价格从该缺口上升至外部流动性（高点）；4小时图确认内外流动性转换；15分钟图形成Breaker Block和新FVG，提供高概率入场点。",
+  "analysis_steps": [
+    "Step 1: 在周线图识别内部流动性（Internal Liquidity）对应的FVG缺口区域（约99500-100500），预期价格向外部流动性（高点）运行。",
+    "Step 2: 下降至4小时图，观察价格是否从内部流动性回撤至外部流动性，确认市场结构转变（MSS）。",
+    "Step 3: 在4小时图确认价格达到外部流动性后形成内部流动性，等待价格回撤而非立即交易该回撤。",
+    "Step 4: 下降至15分钟图，寻找从4小时FVG向外部高点的运行，识别Market Maker Buy Model的市场结构转变。",
+    "Step 5: 在15分钟图确认市场结构转变后，等待价格回撤至FVG和Breaker Block区域。",
+    "Step 6: 识别新形成的FVG和Breaker Block（更接近折价区），设置止损于下跌K线低点或以下。",
+    "Step 7: 设置目标为2R倍数，目标价位略高于高时间框架高点，与高时间框架订单流对齐。",
+    "Step 8: 执行交易，价格最终触及目标位置（TP）并继续上升。"
+  ],
+  "outcome": "交易成功达成2R目标，价格触及TP后继续上升，获得高倍数收益。",
+  "lessons": "多时间框架分析的核心是从高时间框架（周线）识别宏观流动性目标，逐级向下确认，在低时间框架（15分钟）寻找精确入场点。Breaker Block和FVG的组合在折价区提供高概率入场机会。与高时间框架订单流对齐能显著提高交易成功率和风险回报比。",
+  "primary_image": "cards/mwmWNCTEYtY/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/mwmWNCTEYtY/images/case_006_detail_1.jpg",
+    "cards/mwmWNCTEYtY/images/case_006_detail_2.jpg",
+    "cards/mwmWNCTEYtY/images/case_006_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "AUDJPY 15 分钟 K 线图。图上绘有三条水平线，分别位于 91360、91460 和 91800 处。一个粉红色矩形区域覆盖从 91360 到 91800 的价格范围。图内有黄色加号标记位于该粉红区域内部。K 线序列显示从左侧约 91200 上升至 91750 附近，随后下行至 91400 区域。可见 K 线由绿色和黑色蜡烛交替组成。图表右下角显示时间戳 11:45:51 (UTC-4)，",
+    "case_006_detail_1.jpg": "AUDUPY 周线图。图上显示从 2024 年初至 4 月中旬的价格走势，整体价格范围从 93000 到 104500。图中有一条水平虚线位于 98200 处。在 99500 至 100500 区间有一个粉红色矩形标注。图右侧靠近 100200 处有黄色十字光标标记。图上标有文字标签包括日期'19/4/2024'、资产名'AUD/JPY'、周期'1W'以及'CCC'标记。K 线序列呈上升趋势，绿色",
+    "case_006_detail_2.jpg": "AUDUSD 日线图。图上显示从左侧约 97200 上升至中部约 103900 的上升趋势，随后下降至右侧约 97600 的下降趋势。图表下方有一个粉红色矩形区域，范围约从 97200 至 98500。图上有两条水平虚线分别位于 98462 和 98000 处。右侧可见黄色十字光标标记。图表底部标注显示日期 19/4/2024 及 AUD/JPY 2.65%。整体价格范围从 97200 至 103",
+    "case_006_detail_3.jpg": "图表显示 TFMARKET_UNI 日线级别。图上有三个矩形标注框，分别带有交易相关的文字标签。粉色矩形覆盖约 91400 至 99800 的价格范围，跨越多根 K 线。绿色矩形位于上方，覆盖约 99400 至 102120 的范围。图右侧显示两条水平线，分别在 99800 和 91400 处。可见 K 线从左侧约 102000 的高点向下运行至 91200 附近的低点，期间包含多根绿色和黑色 K"
+  },
+  "sources": [
+    {
+      "video_id": "mwmWNCTEYtY",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        746.12,
+        970.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从周线到15分钟的多时间框架分析过程，清晰标注了FVG、Breaker Block、流动性等关键区域，交易结果明确（达成2R TP），分析步骤逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:16.613556Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"AUDJPY周线FVG至15分钟Breaker Block高概率入场\",\"school\":\"ICT\",\"asset\":\"AUDJPY\",\"timeframe\":\"1W / 4H / 15M\",\"market_context\":\"AUDJPY在周线形成内部流动性（Internal Liquidity）对应FVG区域，博主通过多时间框架逐级确认，从周线高时间框架目标向下逐级分析4小时和15分钟图表，寻找从内部流动性到外部流动性的扩张机会。\",\"key_observation\":\"周线存在内部流动性对应的FVG缺口，预期价格从该缺口上升至外部流动性（高点）；4小时图确认内外流动性转换；15分钟图形成Breaker Block和新FVG，提供高概率入场点。\",\"analysis_steps\":[\"Step 1: 在周线图识别内部流动性（Internal Liquidity）对应的FVG缺口区域（约99500-100500），预期价格向外部流动性（高点）运行。\",\"Step 2: 下降至4小时图，观察价格是否从内部流动性回撤至外部流动性，确认市场结构转变（MSS）。\",\"Step 3: 在4小时图确认价格达到外部流动性后形成内部流动性，等待价格回撤而非立即交易该回撤。\",\"Step 4: 下降至15分钟图，寻找从4小时FVG向外部高点的运行，识别Market Maker Buy Model的市场结构转变。\",\"Step 5: 在15分钟图确认市场结构转变后，等待价格回撤至FVG和Breaker Block区域。\",\"Step 6: 识别新形成的FVG和Breaker Block（更接近折价区），设置止损于下跌K线低点或以下。\",\"Step 7: 设置目标为2R倍数，目标价位略高于高时间框架高点，与高时间框架订单流对齐。\",\"Step 8: 执行交易，价格最终触及目标位置（TP）并继续上升。\"],\"outcome\":\"交易成功达成2R目标，价格触及TP后继续上升，获得高倍数收益。\",\"lessons\":\"多时间框架分析的核心是从高时间框架（周线）识别宏观流动性目标，逐级向下确认，在低时间框架（15分钟）寻找精确入场点。Breaker Block和FVG的组合在折价区提供高概率入场机会。与高时间框架订单流对齐能显著提高交易成功率和风险回报比。\",\"primary_image_frame_id\":\"mwmWNCTEYtY_f030\",\"supporting_image_frame_ids\":[\"mwmWNCTEYtY_f027\",\"mwmWNCTEYtY_f028\",\"mwmWNCTEYtY_f031\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Internal Liquidity\",\"External Liquidity\",\"Market Structure Shift (MSS)\",\"Breaker Block\",\"Discount Zone\",\"Risk Reward Ratio\",\"Market Maker Buy Model\",\"Higher Time Frame Order Flow\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从周线到15分钟的多时间框架分析过程，清晰标注了FVG、Breaker Block、流动性等关键区域，交易结果明确（达成2R TP），分析步骤逻",
+  "error": null
+}

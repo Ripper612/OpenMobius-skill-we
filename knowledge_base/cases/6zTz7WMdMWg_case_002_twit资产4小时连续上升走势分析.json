@@ -1,0 +1,82 @@
+{
+  "card_id": "6zTz7WMdMWg_case_002_twit资产4小时连续上升走势分析",
+  "type": "case",
+  "title": "TWIT资产4小时连续上升走势中的前一根K线高点追踪",
+  "related_concepts": [
+    {
+      "term": "Previous Candle High/Low",
+      "card_id": "previous_candle_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "previous_candle_high_low",
+    "liquidity",
+    "displacement",
+    "market_structure"
+  ],
+  "school": "Price Action",
+  "asset": "TWIT",
+  "timeframe": "4H",
+  "market_context": "TWIT资产在4小时图上形成约10根连续绿色K线的强势上升走势，从7月18日附近向上延伸至7月19日06:00，显示持续的买方控制和向上位移。",
+  "key_observation": "博主演示如何利用前一根K线的高点作为流动性目标来追踪上升趋势。在连续上升的走势中，价格倾向于依次突破每一根K线的高点，形成可预测的流动性吸收模式。",
+  "analysis_steps": [
+    "Step 1: 观察TWIT 4小时图上约10根连续绿色K线形成的强势上升结构，从34800附近上升至35330附近。",
+    "Step 2: 识别每一根K线的高点作为下一根K线的潜在流动性目标，因为价格在上升趋势中必然需要到达前一根K线的高点或更高。",
+    "Step 3: 确认K线主体较长且上下影线极短的特征，表明买方控制强劲，价格不会在范围内长期盘整。",
+    "Step 4: 预期价格将依次突破每一根K线的高点，形成连续的流动性吸收，直到遇到阻力或反转信号。"
+  ],
+  "outcome": null,
+  "lessons": "在强势趋势中，前一根K线的高点是最直接的流动性目标。通过追踪这些高点，交易者可以预测价格的下一步目标位，而无需依赖复杂的指标。连续的绿色K线和极短的影线表明市场结构清晰，流动性吸收的概率高。",
+  "primary_image": "cards/6zTz7WMdMWg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/6zTz7WMdMWg/images/case_002_detail_1.jpg",
+    "cards/6zTz7WMdMWg/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图为 TWIT 资产 4 小时 K 线图，右侧价格轴当前标注价格为 35330，可见价格范围约从 34800 至 35560。图上显示约 10 根连续绿色 K 线，自日期 18 Jul 附近向上延伸至 19 Jul 06:00 附近，K 线主体较长且多数上下影线极短。图底部时间轴标注 'Wed 19 Jul 23 06:00'。最新一根 K 线顶部有一个圆形光标覆盖标记。图上未见任何水平线、矩形框",
+    "case_002_detail_1.jpg": "图表为 NQ1! 期货的 K 线图，右侧价格轴显示当前价格标签为 15417.50，可见价格范围约从 15040 至 15490。X 轴显示日期从 7 至 11，每日含 06:00、12:00、18:00 时间刻度，推测为日内较短周期图表。图右侧区域出现连续多根绿色 K 线，从约 15120 上行至 15490 附近。图中部约日期 10 处出现一根较大黑色 K 线后价格回升。图上无额外水平线、矩形",
+    "case_002_detail_2.jpg": "ETH 4小时K线图，时间轴显示2023年7月12日至28日区间。图右侧价格刻度范围约从34400至35640。图上可见一组连续绿色K线从约34400上行至35350附近，集中在7月18日至19日之间。顶部出现两根黑色实体K线，随后跟随一根小绿K线。最高处K线带有向上影线延伸至35400以上。右侧价格轴当前高亮标签显示34862，另一绿色高亮标签显示35250。图上未见矩形框、趋势线或其他标注工具"
+  },
+  "sources": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        184.62
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "TWIT资产、4小时时间框架、价格范围（34800-35330）、K线形态（10根连续绿色K线）、分析步骤（前一根K线高点追踪）均从图表和转录文本中清晰读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:05.993780Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"TWIT资产4小时连续上升走势中的前一根K线高点追踪\",\"school\":\"Price Action\",\"asset\":\"TWIT\",\"timeframe\":\"4H\",\"market_context\":\"TWIT资产在4小时图上形成约10根连续绿色K线的强势上升走势，从7月18日附近向上延伸至7月19日06:00，显示持续的买方控制和向上位移。\",\"key_observation\":\"博主演示如何利用前一根K线的高点作为流动性目标来追踪上升趋势。在连续上升的走势中，价格倾向于依次突破每一根K线的高点，形成可预测的流动性吸收模式。\",\"analysis_steps\":[\"Step 1: 观察TWIT 4小时图上约10根连续绿色K线形成的强势上升结构，从34800附近上升至35330附近。\",\"Step 2: 识别每一根K线的高点作为下一根K线的潜在流动性目标，因为价格在上升趋势中必然需要到达前一根K线的高点或更高。\",\"Step 3: 确认K线主体较长且上下影线极短的特征，表明买方控制强劲，价格不会在范围内长期盘整。\",\"Step 4: 预期价格将依次突破每一根K线的高点，形成连续的流动性吸收，直到遇到阻力或反转信号。\"],\"outcome\":null,\"lessons\":\"在强势趋势中，前一根K线的高点是最直接的流动性目标。通过追踪这些高点，交易者可以预测价格的下一步目标位，而无需依赖复杂的指标。连续的绿色K线和极短的影线表明市场结构清晰，流动性吸收的概率高。\",\"primary_image_frame_id\":\"6zTz7WMdMWg_f006\",\"supporting_image_frame_ids\":[\"6zTz7WMdMWg_f002\",\"6zTz7WMdMWg_f007\"],\"related_concepts\":[\"Previous Candle High/Low\",\"Liquidity\",\"Displacement\",\"Market Structure\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"TWIT资产、4小时时间框架、价格范围（34800-35330）、K线形态（10根连续绿色K线）、分析步骤（前一根K线高点追踪）均从图表和转录文本中清晰读取。\"}",
+  "error": null
+}

@@ -1,0 +1,56 @@
+{
+  "card_id": "asian_session_range",
+  "type": "merged_concept",
+  "canonical_term": "Asian Session Range",
+  "aliases": [
+    "Asia range",
+    "Asian high and low"
+  ],
+  "school": "ICT",
+  "definition": "亚洲交易时段形成的高低点范围。在Seek and Destroy模式中作为初始参考结构，用于识别伦敦和纽约时段的偏离点和流动性目标。",
+  "identification_rules": [
+    "标记亚洲交易时段（通常UTC 07:30左右开始）内形成的最高点和最低点",
+    "Asian Session High为该时段的摆动高点，Asian Session Low为摆动低点",
+    "两点之间形成一个价格范围，作为后续时段的参考结构"
+  ],
+  "trading_implication": "Asian Session Range为Seek and Destroy模式的基础结构。当伦敦或纽约时段价格突破该范围的高低点时，形成偏离(Deviation)。交易者观察价格是否回归范围内部，以及在偏离后寻找三个目标：范围的均衡点(Equilibrium)、OTE(Optimal Trade Entry)或对侧流动性(Buyside/Sellside Liquidity)。该范围帮助识别整日的关键价格水平和交易机会。",
+  "common_mistakes": [
+    "未正确标记亚洲时段的真实高低点，导致后续偏离识别错误",
+    "将Asian Session Range与Daily Open混淆，两者是不同的参考水平",
+    "忽视范围的fractal特性，未在更低时间框架内应用相同原理"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "PlZD45uLPjE",
+      "original_card_id": "PlZD45uLPjE_concept_asian_session_range",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        183.66,
+        592.98
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131090Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

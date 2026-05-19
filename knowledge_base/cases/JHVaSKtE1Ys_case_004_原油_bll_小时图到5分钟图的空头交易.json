@@ -1,0 +1,101 @@
+{
+  "card_id": "JHVaSKtE1Ys_case_004_原油_bll_小时图到5分钟图的空头交易",
+  "type": "case",
+  "title": "原油BLL小时图到5分钟图的受保护高点空头交易",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "BLL",
+  "timeframe": "1H / 5M",
+  "market_context": "原油在前一日形成扩张日后进入整理阶段。小时图显示价格在66.80-67.00区间密集排列，随后形成大阴线向下突破至66.30附近，预示反转机会。",
+  "key_observation": "博主识别出前一日高点（约67.00）作为关键反转水平。在小时图确认收盘穿过上升K线后，下钻5分钟图寻找受保护高点的入场机会，该高点与小时图FVG相关联。",
+  "analysis_steps": [
+    "Step 1: 在小时图识别前一日高点（约67.00）和整理区间（66.80-67.00），预期形成反转。",
+    "Step 2: 观察小时图大阴线突破整理区间向下，确认反转信号。",
+    "Step 3: 等待小时图收盘确认穿过上升K线序列，验证反转有效性。",
+    "Step 4: 下钻5分钟图，识别受保护高点（约67.05附近），该高点与小时图FVG相关。",
+    "Step 5: 在5分钟图中观察价格进入FVG后，收盘穿过上升K线序列，形成入场信号。",
+    "Step 6: 设置止损于受保护高点上方（约66.85），目标设定为2R风险回报比（约66.37）。",
+    "Step 7: 调整止损至K线身体位置以获得更优的风险回报比，最终止损约0.18（0.27%）。",
+    "Step 8: 交易执行后，价格命中2R目标（0.36，0.54%）。"
+  ],
+  "outcome": "交易成功命中2R目标。止损：0.18（0.27%），金额49800；目标：0.36（0.54%），金额50400。风险回报比为2:1。",
+  "lessons": "受保护高点与多时间框架FVG的结合提供高概率入场。通过调整止损至K线身体位置而非极值，可在保持有效性的同时优化风险回报比。等待小时图收盘确认而非急于入场，能避免虚假信号。",
+  "primary_image": "cards/JHVaSKtE1Ys/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/JHVaSKtE1Ys/images/case_004_detail_1.jpg",
+    "cards/JHVaSKtE1Ys/images/case_004_detail_2.jpg",
+    "cards/JHVaSKtE1Ys/images/case_004_detail_3.jpg",
+    "cards/JHVaSKtE1Ys/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "BLL/USD 5 分钟 K 线图，时间轴显示跨越 2025 年 3 月 13 日（周四）。图右侧价格刻度范围约 66.10 至 66.90，当前价格标签显示 66.73。图右侧有一个绿色矩形标注区域，纵向范围约 66.22 至 66.76。图上显示一笔交易标注：止损标签为\"Stop: 0.18 (0.27%) 18, Amount: 49800\"，目标标签为\"Target: 0.36 (0.54",
+    "case_004_detail_1.jpg": "BLL 1小时K线图，价格刻度范围约65.00至67.40，当前价标签显示66.72。图上有一个矩形标注框，覆盖约66.80至67.00区间，对应日期12附近数根K线。图上另有三条虚线水平线，分别位于约66.10、65.30及右侧对应位置。日期12附近可见多根K线在66.60至67.00区间内密集排列。日期13附近出现一根大型黑色K线，实体范围约65.30至66.20，随后出现一根大型绿色K线，实",
+    "case_004_detail_2.jpg": "BLL 5分钟K线图，图右上角标注'The Market Lens / TTrades_edu'。可见价格范围约从66.25至67.05。图上有三条水平线：约67.00处一条灰色实线、约66.75处一条虚线、约66.60处一条蓝色实线。K线在04:00至04:15区间内上行至约67.05后回落，随后约10根K线下行至约66.58附近。06:00前后出现两根大实体黑色K线，随后一根大实体绿色K线，绿",
+    "case_004_detail_3.jpg": "BLL/USD 1 小时 K 线图，可见价格范围约 65.30 至 67.20。图上有一个矩形框标注于约 66.80 至 67.00 区间，覆盖数根 K 线。图中央附近有一根大阴线，从约 66.95 向下延伸至约 66.30，其上绘有红色弧形箭头指向下方。图上有一条虚线水平线位于 66.37，另有一条点状水平线位于约 66.10。右侧可见两根较大的绿色 K 线出现于 3 月 14 日 18:00 ",
+    "case_004_detail_4.jpg": "图为 BLL/USD 5 分钟 K 线图，时间轴显示 Thu 13 Mar '25，可见范围约 22:30 至 11:30。图右侧有两个矩形标注区域：一个浅灰色矩形覆盖约 66.40 至 66.60 价格区间，一个浅绿色矩形覆盖约 65.96 至 66.35 价格区间，另有一个浅黄色矩形位于约 66.15 至 66.50 区间。图左侧价格轴标注四个高亮价格：66.77、66.50、66.29、65"
+  },
+  "sources": [
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "segment_ids": [
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_018"
+      ],
+      "time_range": [
+        748.399,
+        988.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从小时图识别反转到5分钟图入场的全过程，包括具体价位、止损、目标和最终结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:39.556047Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油BLL小时图到5分钟图的受保护高点空头交易\",\"school\":\"ICT\",\"asset\":\"BLL\",\"timeframe\":\"1H / 5M\",\"market_context\":\"原油在前一日形成扩张日后进入整理阶段。小时图显示价格在66.80-67.00区间密集排列，随后形成大阴线向下突破至66.30附近，预示反转机会。\",\"key_observation\":\"博主识别出前一日高点（约67.00）作为关键反转水平。在小时图确认收盘穿过上升K线后，下钻5分钟图寻找受保护高点的入场机会，该高点与小时图FVG相关联。\",\"analysis_steps\":[\"Step 1: 在小时图识别前一日高点（约67.00）和整理区间（66.80-67.00），预期形成反转。\",\"Step 2: 观察小时图大阴线突破整理区间向下，确认反转信号。\",\"Step 3: 等待小时图收盘确认穿过上升K线序列，验证反转有效性。\",\"Step 4: 下钻5分钟图，识别受保护高点（约67.05附近），该高点与小时图FVG相关。\",\"Step 5: 在5分钟图中观察价格进入FVG后，收盘穿过上升K线序列，形成入场信号。\",\"Step 6: 设置止损于受保护高点上方（约66.85），目标设定为2R风险回报比（约66.37）。\",\"Step 7: 调整止损至K线身体位置以获得更优的风险回报比，最终止损约0.18（0.27%）。\",\"Step 8: 交易执行后，价格命中2R目标（0.36，0.54%）。\"],\"outcome\":\"交易成功命中2R目标。止损：0.18（0.27%），金额49800；目标：0.36（0.54%），金额50400。风险回报比为2:1。\",\"lessons\":\"受保护高点与多时间框架FVG的结合提供高概率入场。通过调整止损至K线身体位置而非极值，可在保持有效性的同时优化风险回报比。等待小时图收盘确认而非急于入场，能避免虚假信号。\",\"primary_image_frame_id\":\"JHVaSKtE1Ys_f029\",\"supporting_image_frame_ids\":[\"JHVaSKtE1Ys_f027\",\"JHVaSKtE1Ys_f028\",\"JHVaSKtE1Ys_f030\",\"JHVaSKtE1Ys_f032\"],\"related_concepts\":[\"Protected Swing\",\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"Risk Management\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从小时图识别反转到5分钟图入场的全过程，包括具体价位、止损、目标和最终结果。\"}",
+  "error": null
+}

@@ -1,0 +1,136 @@
+{
+  "card_id": "F0G31iLVpVg_case_006_nq1_3分钟实时交易案例",
+  "type": "case",
+  "title": "NQ1 3分钟实时交易：扩张-回撤循环与受保护摆动追踪",
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "expansion",
+    "retracement",
+    "consolidation",
+    "protected_high_low",
+    "change_in_state_of_delivery_csd",
+    "smart_money_technique_smt",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "liquidity",
+    "market_structure_shift_mss",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "3m",
+  "market_context": "2025年6月27日，NQ1在22680-22760区间内进行多轮扩张-回撤循环。初期价格在盘整区间内震荡，后期形成明确的上升趋势，最终在受保护摆动被突破后反转下行。",
+  "key_observation": "博主通过追踪受保护摆动（Protected Swing）和识别扩张-回撤-扩张的价格阶段，判断趋势延续与反转。当相关资产ES突破盘整低点而NQ1未突破时，识别出SMT信号，为做多提供有效依据。",
+  "analysis_steps": [
+    "Step 1: 观察初期盘整区间（约22688-22708），识别Change in State of Delivery信号，价格收盘高于前期K线。",
+    "Step 2: 对比相关资产ES，发现ES已突破盘整低点而NQ1未突破，确认SMT（Smart Money Technique）信号有效。",
+    "Step 3: 从CSD处标记第一个受保护摆动，随后在新的对立K线处更新受保护摆动位置。",
+    "Step 4: 追踪扩张-回撤-扩张循环，每次扩张后的新高都产生新的受保护摆动，用于止损追踪。",
+    "Step 5: 识别小型盘整区间，预期价格将操纵低点后继续上升，或回撤至FVG后再扩张。",
+    "Step 6: 观察价格突破高点后的回撤行为，判断是否形成新的受保护低点。",
+    "Step 7: 识别最终反转信号：扩张遇到扩张（Expansion met with Expansion），表明受保护低点不再安全，成为流动性目标。",
+    "Step 8: 确认价格突破受保护低点，完成反转，开始下行。"
+  ],
+  "outcome": "价格最终突破受保护低点（约22705-22715区间），从上升趋势反转为下行，确认了博主对反转信号的识别。",
+  "lessons": "理解价格的三个阶段（扩张、回撤、盘整）是关键。通过追踪受保护摆动可以动态调整止损。相关资产的SMT信号能增强交易信心。当扩张遇到扩张时，通常预示反转，受保护摆动将成为流动性扫荡目标。",
+  "primary_image": "cards/F0G31iLVpVg/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/F0G31iLVpVg/images/case_006_detail_1.jpg",
+    "cards/F0G31iLVpVg/images/case_006_detail_2.jpg",
+    "cards/F0G31iLVpVg/images/case_006_detail_3.jpg",
+    "cards/F0G31iLVpVg/images/case_006_detail_4.jpg",
+    "cards/F0G31iLVpVg/images/case_006_detail_5.jpg",
+    "cards/F0G31iLVpVg/images/case_006_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图表为 NQ1! 3 分钟 K 线图，时间轴显示 Fri 27 Jun '25，价格范围约 22702.50 至 22762.50。图上有两个矩形框标注：一个黑色矩形框覆盖约 22730.00 至 22747.50 区间的 K 线群，另一个黄色矩形框覆盖约 22705.00 至 22715.00 区间。图上另有一条红色手绘曲线箭头，从约 22730.00 向下弯曲后向上延伸至约 22750.00。",
+    "case_006_detail_1.jpg": "图表为 USD 资产的 3 分钟 K 线图，时间轴覆盖 2025 年 6 月 27 日约 22:00 至 04:15，可见价格范围约 22680.00 至 22714.00。图右侧当前价标签显示 22702.25，并有一条水平虚线延伸至全图。图上可见一个矩形标注框，覆盖约 22688.00 至 22694.00 的价格区间。另有两条水平线分别位于约 22697.00 和 22694.00 附近。图",
+    "case_006_detail_2.jpg": "图表为 NQ1! 3 分钟 K 线图，价格轴范围约 22682.00 至 22709.00，当前价标签显示 22700.75。图上有一个矩形标注框，覆盖约 22696.00 至 22708.00 区间。图上另有一条从左下方向右上方延伸的斜线，起点约在 22687.00，终点约在 22700.00。一条水平线延伸至图右侧，位于约 22696.00。图右侧有一条虚线水平线位于约 22687.75。K ",
+    "case_006_detail_3.jpg": "图表为 USD 3 分钟 K 线图，可见价格范围约 22686 至 22720。图上有一个大矩形框标注，覆盖约 22:45 至 01:15 时段、22686 至 22708 价格区间。图中另有一个浅绿色小矩形标注，位于约 22694 至 22697 区间。图右侧当前价标签显示 22715.50。图上有两条蓝色水平线分别位于约 22697 和 22700 附近，另有一条虚线水平线位于约 22694。",
+    "case_006_detail_4.jpg": "图为 USD 3 分钟 K 线图，可见价格范围约 22688 至 22722。图上有一个橙黄色矩形框标注于约 22704 至 22712 区间，对应约 01:15 时段附近，右侧下拉菜单中列出的标签包含 ob、mss、SMT (high)、SMT (low) 等项目术语。图上另有一个绿色矩形框位于约 22693 至 22700 区间。两条水平虚线分别位于约 22708 和 22694 处延伸至图右",
+    "case_006_detail_5.jpg": "图为 NQ1! 3 分钟 K 线图，价格刻度范围约 22700.00 至 22740.00。图上有一个黄色矩形框，覆盖约 22700.00 至 22708.00 区间，位于 01:45 至 02:00 时段附近。一条蓝色水平线位于约 22715.00，另有一条虚线水平线位于约 22718.00，延伸至 03:45 附近。图中约 02:00 处有一条垂直虚线。01:30 至 02:00 时段可见多根",
+    "case_006_detail_6.jpg": "图为 USD 资产 3 分钟 K 线图，时间轴显示 00:30 至 05:30，日期标注为 Fri 27 Jun '25。右侧价格刻度范围约 22710.00 至 22756.00，当前价格标签显示 22726.25。图上有一个较大矩形框标注，覆盖约 22729.00 至 22746.00 区间；另有一个小橙色矩形位于约 22731.00 至 22734.00 处。图上有两条水平线，分别位于约 2"
+  },
+  "sources": [
+    {
+      "video_id": "F0G31iLVpVg",
+      "segment_ids": [
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        757.36,
+        1067.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了3分钟图表的多轮扩张-回撤循环，清晰标注了受保护摆动、FVG、OB等关键结构，并明确说明了反转信号的识别过程和最终结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:10.231217Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1 3分钟实时交易：扩张-回撤循环与受保护摆动追踪\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"3m\",\"market_context\":\"2025年6月27日，NQ1在22680-22760区间内进行多轮扩张-回撤循环。初期价格在盘整区间内震荡，后期形成明确的上升趋势，最终在受保护摆动被突破后反转下行。\",\"key_observation\":\"博主通过追踪受保护摆动（Protected Swing）和识别扩张-回撤-扩张的价格阶段，判断趋势延续与反转。当相关资产ES突破盘整低点而NQ1未突破时，识别出SMT信号，为做多提供有效依据。\",\"analysis_steps\":[\"Step 1: 观察初期盘整区间（约22688-22708），识别Change in State of Delivery信号，价格收盘高于前期K线。\",\"Step 2: 对比相关资产ES，发现ES已突破盘整低点而NQ1未突破，确认SMT（Smart Money Technique）信号有效。\",\"Step 3: 从CSD处标记第一个受保护摆动，随后在新的对立K线处更新受保护摆动位置。\",\"Step 4: 追踪扩张-回撤-扩张循环，每次扩张后的新高都产生新的受保护摆动，用于止损追踪。\",\"Step 5: 识别小型盘整区间，预期价格将操纵低点后继续上升，或回撤至FVG后再扩张。\",\"Step 6: 观察价格突破高点后的回撤行为，判断是否形成新的受保护低点。\",\"Step 7: 识别最终反转信号：扩张遇到扩张（Expansion met with Expansion），表明受保护低点不再安全，成为流动性目标。\",\"Step 8: 确认价格突破受保护低点，完成反转，开始下行。\"],\"outcome\":\"价格最终突破受保护低点（约22705-22715区间），从上升趋势反转为下行，确认了博主对反转信号的识别。\",\"lessons\":\"理解价格的三个阶段（扩张、回撤、盘整）是关键。通过追踪受保护摆动可以动态调整止损。相关资产的SMT信号能增强交易信心。当扩张遇到扩张时，通常预示反转，受保护摆动将成为流动性扫荡目标。\",\"primary_image_frame_id\":\"F0G31iLVpVg_f032\",\"supporting_image_frame_ids\":[\"F0G31iLVpVg_f027\",\"F0G31iLVpVg_f028\",\"F0G31iLVpVg_f029\",\"F0G31iLVpVg_f030\",\"F0G31iLVpVg_f031\",\"F0G31iLVpVg_f033\",\"F0G31iLVpVg_f034\",\"F0G31iLVpVg_f035\",\"F0G31iLVpVg_f036\"],\"related_concepts\":[\"Expansion\",\"Retracement\",\"Consolidation\",\"Protected Swing\",\"Change in State of Delivery (CSD)\",\"Smart Money Technique (SMT)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Liquidity\",\"Market Structure Shift (MSS)\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了3分钟图表的多轮扩张",
+  "error": null
+}

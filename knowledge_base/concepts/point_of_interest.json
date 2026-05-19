@@ -1,0 +1,228 @@
+{
+  "card_id": "point_of_interest",
+  "type": "merged_concept",
+  "canonical_term": "Point of Interest",
+  "aliases": [
+    "POI",
+    "关键价格区域",
+    "关键价格水平"
+  ],
+  "school": "ICT",
+  "definition": "高时间框架上的关键价格区域，包括公允价值缺口（FVG）、摆动高低点、等量低点、旧高旧低、订单块（OB）等结构性水平，通常与流动性聚集位置重合。价格须实际到达该区域并配合K线收盘确认，方可触发有效交易设置。",
+  "identification_rules": [
+    "在高时间框架上识别明确的摆动高点或摆动低点（Swing High/Low），包括等量低点（Equal Lows）等形态",
+    "在高时间框架上识别公允价值缺口（FVG）或重叠FVG区域（Balanced Price Range）作为POI",
+    "在高时间框架上识别订单块（Order Block）作为POI",
+    "POI应与流动性聚集位置相关联，流动性通常聚集在该水平附近",
+    "POI可位于前一日交易范围的上半部（用于做空反转）或下半部（用于做多反转），须与日线偏差方向一致",
+    "价格须实际到达或扫荡该区域（sweep），并伴随K线收盘回到区域内侧（reversal closure）方为有效触及",
+    "仅当K线收盘信号（Candle 2/Candle 3 Closure）与POI同时成立时，该交易设置才被视为有效；缺少POI则排除该设置"
+  ],
+  "trading_implication": "POI是多时间框架交易中过滤有效设置的必要条件。交易者须先在高时间框架标记POI，确认日线偏差与交付状态改变（CSD），再于POI处等待K线收盘确认，最后下探低时间框架寻找最终入场信号。POI为K线收盘信号提供结构框架，确保交易基于高时间框架支撑而非随意摆动点，提高机械性与可重复性。",
+  "common_mistakes": [
+    "仅基于K线收盘信号选择摆动点，忽视POI的存在",
+    "将所有sweep和closure back的形态视为有效，忽视POI的必要性",
+    "将价格与POI的任意触及视为有效，忽视收盘确认的必要性",
+    "在POI处价格未形成明确影线或收盘确认时过早入场",
+    "未确认日线偏差就在小时图寻找POI，导致交易方向与市场结构不符",
+    "未在POI处等待小时图的交付状态改变（CSD）就直接下探低时间框架",
+    "未在高时间框架正确识别POI，导致低时间框架交易缺乏有效参考",
+    "忽视POI与流动性的关系，仅关注价格水平本身而忽视市场结构",
+    "未能区分POI是摆动高低点还是FVG，导致错误的水平标记"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Reversal Closure",
+      "card_id": "candle_2_closure",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Daily Bias",
+      "card_id": "daily_bias",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0xygpCMwxbQ_case_005_标普500多时间框架从日线到5分钟的交易分析",
+      "video_id": "0xygpCMwxbQ",
+      "title": "标普500多时间框架分析：日线Stop Raid到5分钟精确入场"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_006_xagusd小时线与gch小时线的分形应用",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGUSD与GCH小时线的分形摆动点验证"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_005_usd_4小时图摆动点筛选案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4小时图摆动点筛选：Candle Two/Three Closure与Point of Interest验证"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_006_btc_1小时图_扫除高点后的continuation等待",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC 1小时图：扫除高点后的continuation等待"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_001_nq第一个交易案例_扫盘后反转做空",
+      "video_id": "TNybDCtwBnc",
+      "title": "NQ扫盘后反转做空——入场点位不理想导致止损"
+    },
+    {
+      "card_id": "eHQ4nE-TQ2w_case_001_es与nq的看跌背离交易案例",
+      "video_id": "eHQ4nE-TQ2w",
+      "title": "ES与NQ看跌背离交易案例"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_002_apoz日线到小时线的分形验证",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线K线2收盘下钻至小时线的分形验证"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_005_1小时c2闭合配合15分钟延续",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "1小时C2闭合配合15分钟延续订单块确认"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "original_card_id": "MsuEQQl7L6s_concept_point_of_interest",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_012",
+        "seg_014"
+      ],
+      "time_range": [
+        352.84000000000003,
+        626.32
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TNybDCtwBnc",
+      "original_card_id": "TNybDCtwBnc_concept_point_of_interest",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_006",
+        "seg_011",
+        "seg_014",
+        "seg_022"
+      ],
+      "time_range": [
+        124.079,
+        1026.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "tyoxl1l-6iI",
+      "original_card_id": "tyoxl1l-6iI_concept_point_of_interest",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        84.96000000000001,
+        510.879
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "yOPESX2aWkI",
+      "original_card_id": "yOPESX2aWkI_concept_point_of_interest",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        182.34
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:53.437214Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "4张原始卡均为ICT，school无冲突。各卡侧重不同维度（K线收盘过滤、日线偏差、分形确认、多时间框架叙事），已综合整合。",
+  "error": null
+}

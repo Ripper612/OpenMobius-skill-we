@@ -1,0 +1,113 @@
+{
+  "card_id": "CqMIh-Vvhbg_case_004_黄金期货gc1小时线与5分钟线的看涨设置",
+  "type": "case",
+  "title": "黄金期货GC1小时线C2与5分钟线的看涨Order Block设置",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "T-spot / Time Point",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Confluence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Candle Closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Invalidation Level",
+      "card_id": "stop_loss_placement_invalidation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "risk_to_reward",
+    "candle_closure",
+    "stop_loss_placement_invalidation"
+  ],
+  "school": "ICT",
+  "asset": "GC1!",
+  "timeframe": "1H / 5m",
+  "market_context": "黄金期货GC1在小时线上形成C2收盘（约2666），随后出现CSD信号。博主在5分钟低时间框架上寻找对应的看涨设置，利用Order Block和FVG确定入场点和目标位。",
+  "key_observation": "小时线C2收盘后，5分钟线上形成看涨Order Block。博主观察到先前的看跌设置失败，转而产生看涨信号。通过多时间框架的T-spot（时间点）重叠，确认高概率入场区域。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别初始看跌T-spot设置，但观察到该设置立即失败。",
+    "Step 2: 注意到看跌设置的失败导致价格收盘突破关键水平，形成看涨信号。",
+    "Step 3: 切换到小时线，确认C2收盘（约2666）和随后的CSD（市场结构转变）。",
+    "Step 4: 在小时线上识别FVG（公允价值缺口）作为关键兴趣点。",
+    "Step 5: 回到5分钟图，在FVG区域内寻找对应的看涨设置。",
+    "Step 6: 识别看跌K线被突破后形成的Order Block，作为潜在入场区域。",
+    "Step 7: 确认小时线T-spot与5分钟线T-spot的重叠，形成高概率入场点。",
+    "Step 8: 设置止损在Order Block低点，目标位设为2R（2倍风险回报）。",
+    "Step 9: 观察价格继续上行，确认设置有效性。",
+    "Step 10: 在第4根K线（Candle 4）收盘突破看跌K线后，预期低点保持，继续看涨。"
+  ],
+  "outcome": "交易成功。价格从入场点（约2657）上升至目标位（约2666.9），达成2R目标。最终P&L显示盈利，风险回报比为1:2。",
+  "lessons": "多时间框架的T-spot重叠提供高概率入场点。先前失败的设置反转往往产生强势信号。Order Block与FVG的结合可精确定位入场和止损位置。严格遵循风险回报比（2R）管理交易。",
+  "primary_image": "cards/CqMIh-Vvhbg/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/CqMIh-Vvhbg/images/case_004_detail_1.jpg",
+    "cards/CqMIh-Vvhbg/images/case_004_detail_2.jpg",
+    "cards/CqMIh-Vvhbg/images/case_004_detail_3.jpg",
+    "cards/CqMIh-Vvhbg/images/case_004_detail_4.jpg",
+    "cards/CqMIh-Vvhbg/images/case_004_detail_5.jpg",
+    "cards/CqMIh-Vvhbg/images/case_004_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "GC1！5 分钟 K 线图，可见价格范围约 2640.0 至 2670.0。图上有一个黄色矩形标注区域，标签为 C2，覆盖约 13:00 至 20:00 时段、价格区间 2651.0 至 2656.0。另有一个绿色矩形区域，覆盖约 20:00 至图中日期分界线，价格区间 2653.0 至 2667.0。图上三条水平虚线分别对应 Target（2666.9）、Closed P&L 入场线（2657.",
+    "case_004_detail_1.jpg": "GC1! 黄金期货 5 分钟 K 线图，时间轴显示 Tue 26 Nov，当前时间标注为 12:40。图右下角标注 '5m-1H Model' 及 'Bias: Neutral'。图上可见两条水平线，分别位于约 2660 和 2650 附近。左侧价格轴当前高亮标签显示 2654.8。图左侧有一灰色矩形区域覆盖约 2652 至 2656 价格范围。10:00 附近出现一根实体较长的黑色 K 线，主体",
+    "case_004_detail_2.jpg": "图表为 GC1!（黄金期货）5 分钟 K 线图，右下角标注显示 5m-1H Model，Bias: Neutral，倒计时 00:10:00。可见价格范围约从 2622.0 至 2678.0。图上在约 07:00 处有文字标签 C2，对应 K 线高点约 2666；约 08:00 处有文字标签 XC2，对应价格约 2362（图中相对位置）。图上有一个矩形框标注区域位于约 2654 至 2660 之间",
+    "case_004_detail_3.jpg": "GC1！（黄金期货）5 分钟 K 线图，日期标注为 Tue 26 Nov 10:30，图右下角显示 1m-1H Model 及 Bias: Neutral。可见价格范围约从 2622 至 2678。图上标注有文字标签 C2（约 2666 附近）、XC2 及 XC1（约 2648-2652 附近），并有数值标签 -1、-2、-2.5 分布于图中偏下区域。图上有两处矩形框标注，分别位于约 2655-2",
+    "case_004_detail_4.jpg": "GC1！黄金期货 1 小时 K 线图，可见价格范围约 2585 至 2730。图左侧出现一根大阴线，从约 2730 下行至约 2650。其后 K 线在约 2640 至 2695 区间内形成多根密集排列的 K 线。图上有一个灰色矩形标注区域，覆盖约 2650 至 2695 价格范围，上边界为虚线。矩形左侧附有文字标签",
+    "case_004_detail_5.jpg": "图表为 GC1!（黄金期货）5 分钟 K 线图，时间轴显示 Tue 26 Nov，当前时间标注为 21:10，右下角显示 Bias: Neutral。图右侧价格轴当前价格标签显示 2658.5 与 2656.5。图上有两条带文字标签的虚线水平线：上方约 2658.5 处标注 C2，下方约 2652.0 处标注 C2。图中有一个黄色/米色矩形区域覆盖约 2650.0 至 2653.5 价格范围，横跨",
+    "case_004_detail_6.jpg": "图为 GC1!（黄金期货）5 分钟 K 线图，可见价格范围约 2638.0 至 2668.0。图上有两个矩形标注区域：一个黄色矩形覆盖约 2650.0 至 2653.5 区间，横跨 15:00 至 20:30 时段；一个绿色矩形覆盖约 2652.0 至 2665.0 区间，位于 20:30 至 22:30 时段。图上有两条带标签的水平虚线，分别标注为 C2，位于约 2658.0 和 2652.0。"
+  },
+  "sources": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        903.24,
+        1082.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从5分钟到小时线的分析过程，清晰标注了关键价位（C2约2666、入场约2657、目标2666.9），交易结果明确显示2R盈利。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:32.147939Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金期货GC1小时线C2与5分钟线的看涨Order Block设置\",\"school\":\"ICT\",\"asset\":\"GC1!\",\"timeframe\":\"1H / 5m\",\"market_context\":\"黄金期货GC1在小时线上形成C2收盘（约2666），随后出现CSD信号。博主在5分钟低时间框架上寻找对应的看涨设置，利用Order Block和FVG确定入场点和目标位。\",\"key_observation\":\"小时线C2收盘后，5分钟线上形成看涨Order Block。博主观察到先前的看跌设置失败，转而产生看涨信号。通过多时间框架的T-spot（时间点）重叠，确认高概率入场区域。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别初始看跌T-spot设置，但观察到该设置立即失败。\",\"Step 2: 注意到看跌设置的失败导致价格收盘突破关键水平，形成看涨信号。\",\"Step 3: 切换到小时线，确认C2收盘（约2666）和随后的CSD（市场结构转变）。\",\"Step 4: 在小时线上识别FVG（公允价值缺口）作为关键兴趣点。\",\"Step 5: 回到5分钟图，在FVG区域内寻找对应的看涨设置。\",\"Step 6: 识别看跌K线被突破后形成的Order Block，作为潜在入场区域。\",\"Step 7: 确认小时线T-spot与5分钟线T-spot的重叠，形成高概率入场点。\",\"Step 8: 设置止损在Order Block低点，目标位设为2R（2倍风险回报）。\",\"Step 9: 观察价格继续上行，确认设置有效性。\",\"Step 10: 在第4根K线（Candle 4）收盘突破看跌K线后，预期低点保持，继续看涨。\"],\"outcome\":\"交易成功。价格从入场点（约2657）上升至目标位（约2666.9），达成2R目标。最终P&L显示盈利，风险回报比为1:2。\",\"lessons\":\"多时间框架的T-spot重叠提供高概率入场点。先前失败的设置反转往往产生强势信号。Order Block与FVG的结合可精确定位入场和止损位置。严格遵循风险回报比（2R）管理交易。\",\"primary_image_frame_id\":\"CqMIh-Vvhbg_f037\",\"supporting_image_frame_ids\":[\"CqMIh-Vvhbg_f031\",\"CqMIh-Vvhbg_f032\",\"CqMIh-Vvhbg_f033\",\"CqMIh-Vvhbg_f034\",\"CqMIh-Vvhbg_f035\",\"CqMIh-Vvhbg_f036\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Market Structure Shift\",\"T-spot / Time Point\",\"Multi-timeframe Confluence\",\"Risk/Reward Ratio\",\"Candle Closure\",\"Invalidation Level\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从5分钟到小时线的分析过程，清晰标注了关键价位（C2约2666、入场约2657、目标2666.9），交易结果明确显示2R盈利。\"}",
+  "error": null
+}

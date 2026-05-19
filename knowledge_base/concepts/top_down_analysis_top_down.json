@@ -1,0 +1,151 @@
+{
+  "card_id": "top_down_analysis_top_down",
+  "type": "merged_concept",
+  "canonical_term": "Top Down Analysis",
+  "aliases": [
+    "Timeframe Alignment",
+    "从上到下分析",
+    "多时间框架分析",
+    "时间框架对齐",
+    "自上而下分析"
+  ],
+  "school": "ICT",
+  "definition": "从高时间框架（周线/日线/4小时）确定偏差方向和关键点位（订单块、FVG、流动性），在中等时间框架（30分钟/1小时）验证市场结构转变（CSD/MSS），在低时间框架（1-15分钟）寻找与高时间框架点位对齐的精确入场点，三层方向完全对齐后才执行交易。",
+  "identification_rules": [
+    "第一步：在高时间框架（日线或根据入场级别选择周线/4小时）标注关键点位：摆动高/低点、订单块、公允价值缺口、流动性位置及位移目标，判断整体偏差方向（看涨或看跌）。",
+    "第二步：确认高时间框架存在有效反转或延续信号（如CSD、SMT），并在日线第三根K线的均衡点（EQ）处标记预期价格延续方向，作为中等时间框架的观察区域。",
+    "第三步：切换至中等时间框架（30分钟/1小时），等待结构与高时间框架偏差方向对齐（CSD或MSS），并识别该级别的关键价格水平（FVG、摆动高/低点、OB）。",
+    "第四步：逐级向下标注各时间框架相关点位，在最低时间框架（1-5分钟）寻找与高时间框架关键点位对齐的入场设置（如FVG回测、前期低点反弹、OB形成后的结构转变）。",
+    "验证条件：三个时间框架的交易方向必须完全对齐，且低时间框架设置须尊重（respect）高时间框架的关键点位，方可执行交易。",
+    "入场时间框架与参考时间框架须匹配：若在5分钟入场则参考日线/4小时；若在4小时入场则参考周线。"
+  ],
+  "trading_implication": "通过多时间框架递进式确认降低虚假信号风险：高时间框架提供主方向、目标区域和关键支撑阻力；中等时间框架提供结构驱动验证；低时间框架提供精确入场点和止损位。三层对齐后的交易通常伴随价格显著扩张运动。典型用法是在新闻事件（如8:30/9:30数据发布）前后，利用时间驱动与多级别价格结构的共振点执行交易。",
+  "common_mistakes": [
+    "在低时间框架入场前未确认高时间框架的有效反转信号（如未形成CSD或SMT），导致交易方向与高时间框架偏差不符。",
+    "忽视中等时间框架的结构验证，直接从高时间框架偏向跳至低时间框架入场，错过结构失效风险。",
+    "在日线第三根K线未形成明确EQ标记或价格延续信号时，过早在中等时间框架寻找交易机会。",
+    "未等待三个时间框架完全对齐就入场，导致在某个时间框架出现反向信号时被止损。",
+    "在高时间框架上标注过多点位，造成低时间框架分析混乱和过度交易。",
+    "未根据实际入场时间框架选择合适的高时间框架参考（如在1分钟入场时仍参考周线）。",
+    "低时间框架的设置未能真正尊重高时间框架的关键点位就仓促入场。"
+  ],
+  "related_concepts": [
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "5fnFOh5YuM0_case_001_btc日线第四天交易案例",
+      "video_id": "5fnFOh5YuM0",
+      "title": "BTC日线第四天交易案例：从摆动低点到多时间框架入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "original_card_id": "5fnFOh5YuM0_concept_top_down_analysis",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.12,
+        191.4
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_top_down_analysis",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.04,
+        193.239
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wDXTIDbIMwU",
+      "original_card_id": "wDXTIDbIMwU_concept_top_down_analysis",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        7.22,
+        189.18
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:21.672040Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": null,
+  "error": null
+}

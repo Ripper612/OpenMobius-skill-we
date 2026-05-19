@@ -1,0 +1,53 @@
+{
+  "card_id": "internal_to_external_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Internal to External Liquidity",
+  "aliases": [
+    "Internal Liquidity to External Liquidity",
+    "Internal-to-External Price Movement"
+  ],
+  "school": "ICT",
+  "definition": "价格从区间内部突破至外部的运动过程。描述价格先在一个公允价值缺口或整理区域内部运行，随后向外部扩展至新的流动性水平的动态。",
+  "identification_rules": [
+    "识别初始的内部流动性区域：通常表现为FVG、整理区间或订单块内部的价格运动",
+    "观察价格是否突破该区域的边界，向外部扩展至更高或更低的流动性水平",
+    "确认突破伴随扩张蜡烛（expansion candle）的形成，显示动能增强",
+    "验证突破后价格不再回到内部区域，而是继续向外部流动性推进"
+  ],
+  "trading_implication": "该概念用于识别价格扩张的方向和时机。交易者通过在内部流动性阶段建立偏差（bias），预期价格向外部流动性突破，从而在扩张蜡烛形成时寻找入场机会。结合时间框架对齐（如小时线偏差+15分钟摆动+1分钟入场），可用于精确的头皮交易设置。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_internal_to_external_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_006"
+      ],
+      "time_range": [
+        10.88,
+        373.52
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133570Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

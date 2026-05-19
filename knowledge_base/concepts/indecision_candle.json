@@ -1,0 +1,134 @@
+{
+  "card_id": "indecision_candle",
+  "type": "merged_concept",
+  "canonical_term": "Indecision Candle",
+  "aliases": [
+    "indecision bar",
+    "无方向K线",
+    "犹豫K线"
+  ],
+  "school": "Price Action",
+  "definition": "开盘价与收盘价相近、实体较小、上下影线较长的K线，表示价格在一定范围内反复震荡，整个周期内缺乏明确方向性，无法在任一方向形成有效突破或位移。",
+  "identification_rules": [
+    "开盘价与收盘价相距很近，K线实体较小",
+    "上影线和下影线都较长，相对于K线实体明显",
+    "价格在周期内上下波动但最终回到开盘价附近，多次触及范围边界后回落",
+    "无法形成有效的Displacement或突破",
+    "通常出现在高影响力新闻前（如CPI、FOMC、NFP）、大幅波动后的整理阶段，或高时间框架缺乏方向时"
+  ],
+  "trading_implication": "表明市场处于犹豫状态，缺乏方向性和决策力，不适合追求大幅位移的交易。若选择交易，应采用范围交易策略：标记范围均衡点（0.5斐波那契水平），在价格突破范围后预期其回归范围内部。可利用Premium/Discount区域设置目标位。在连续三根方向性K线后出现，往往预示接下来会有反转或巩固。",
+  "common_mistakes": [
+    "试图从范围外部交易突破，而非预期价格回归范围内部",
+    "忽视Asia范围对London和New York的约束作用",
+    "在London已创造大部分日线范围的情况下，对New York仍有高概率预期",
+    "将Indecision Candle与Reversal Candle混淆；Reversal Candle有明确的方向反转（如open high low close），而Indecision Candle仅表示缺乏方向",
+    "忽视Indecision Candle出现的背景；在大幅波动后出现时意义更大，而在平静市场中可能只是正常整理"
+  ],
+  "related_concepts": [
+    {
+      "term": "Seek and Destroy",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Directional Candle",
+      "card_id": "directional_candle",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "YESqIoA7Wyg_case_002_黄金周线高低点价格行动分析",
+      "video_id": "YESqIoA7Wyg",
+      "title": "XAUUSD周线高低点回测与价格行动分析"
+    },
+    {
+      "card_id": "sIcsLFSNoXM_case_004_黄金15分钟图表的犹豫不决k线",
+      "video_id": "sIcsLFSNoXM",
+      "title": "黄金15分钟图表的犹豫不决K线识别"
+    },
+    {
+      "card_id": "sIcsLFSNoXM_case_005_nq100大幅下跌后的犹豫不决k线",
+      "video_id": "sIcsLFSNoXM",
+      "title": "NQ100大幅下跌后的犹豫不决K线形态"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "original_card_id": "4WCiIyCiBrQ_concept_indecision_candle",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.0,
+        192.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "sIcsLFSNoXM",
+      "original_card_id": "sIcsLFSNoXM_concept_indecision_candle",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        549.32,
+        726.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:40.774498Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": null,
+  "error": null
+}

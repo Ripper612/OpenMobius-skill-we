@@ -1,0 +1,94 @@
+{
+  "card_id": "WwmS47Gb3M0_case_004_纳斯达克_nq_反转案例_使用反转和交付状态改变",
+  "type": "case",
+  "title": "NQ反转案例：利用CSD和FVG的做多入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Previous Day Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "smart_money_technique_smt",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ",
+  "timeframe": "1H / 15M",
+  "market_context": "NQ在日线扫除前日低点后，1小时形成看跌FVG。价格在15分钟图表上出现反转信号和交付状态改变，为做多提供机会。",
+  "key_observation": "博主识别到15分钟图表上收盘突破一系列K线结构，形成Change in State of Delivery信号，结合1小时看跌FVG作为目标，构成高概率做多设置。",
+  "analysis_steps": [
+    "Step 1: 在日线图表上标记前日低点（Previous Day Low）",
+    "Step 2: 下降到1小时时间框架，确认价格已扫除前日低点并创建SMT（与YM出现分歧）",
+    "Step 3: 在1小时图表上识别看跌FVG，该FVG已被FOMC蜡烛部分缓解",
+    "Step 4: 下降到15分钟图表，寻找反转或交付状态改变信号",
+    "Step 5: 观察价格收盘突破一系列向上的K线，确认CSD信号",
+    "Step 6: 在CSD突破处设置做多入场，止损放在该Wick的50%下方",
+    "Step 7: 目标设定为1小时看跌FVG水平",
+    "Step 8: 交易执行后价格上升至1小时FVG，达成2.26R收益"
+  ],
+  "outcome": "成功达成2.26R收益。价格从15分钟CSD入场点上升，触及1小时看跌FVG目标水平。",
+  "lessons": "Change in State of Delivery与Fair Value Gap结合使用时，能提供高概率的多时间框架交易设置。在较低时间框架（15M）寻找CSD入场信号，以较高时间框架（1H）的FVG作为目标，可以有效管理风险回报比。",
+  "primary_image": "cards/WwmS47Gb3M0/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/WwmS47Gb3M0/images/case_004_detail_1.jpg",
+    "cards/WwmS47Gb3M0/images/case_004_detail_2.jpg",
+    "cards/WwmS47Gb3M0/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "ETH 1 小时 K 线图。图上显示价格从约 17450 上升至 17750，随后下跌回至 17450 附近。图上有两条水平线分别位于 17650 和 17550。三个矩形区域用不同颜色标记：上方为米黄色区域（约 17800-17950），中间为浅青色区域（约 17500-17650），下方为灰色区域。图左侧显示一个黄色十字标记。K 线序列包含绿色和黑色蜡烛，上升段主要为绿色，下跌段主要为黑色。",
+    "case_004_detail_1.jpg": "ETH 1小时K线图。图上显示从17960下跌至约17400的下降趋势，随后在17400至17500区间形成整理。图中有两条水平线分别位于17760和17780。在整理区上方标有黄色加号符号。最近的K线显示从整理区向上运动，其中一根绿色K线上影线延伸至17740附近。图下方显示日期2/3/2024及HOT1|6088标记。右下角可见Sell和Buy按钮。",
+    "case_004_detail_2.jpg": "图表显示 TTI:vdeu_okt 资产的 K 线图，价格范围从 17690 到 17860。图上有三条水平线分别位于 17820.34、17740 和 17730 处。标注包括两个黄色矩形框，分别覆盖 17730-17740 和 17760-17800 价格区间，以及一条从左下向右上延伸的上升趋势线。图右侧标记有'Daily Open'文字标签。底部时间轴显示'24-4-2024'和'HO11 ",
+    "case_004_detail_3.jpg": "TTI/index_okt 1 小时 K 线图。图上绘有一条从左下向右上延伸的上升趋势线。三条水平线分别位于 17760.00、17700.00 和 17640.00 处。图右侧有两个矩形区域标注，其中一个标记为'Daily Open'。左侧 K 线呈现在 17700 至 17760 区间的盘整形态，右侧 K 线显示向下运动，部分 K 线下影线穿破 17640.00 水平线。图上标注有时间戳'24"
+  },
+  "sources": [
+    {
+      "video_id": "WwmS47Gb3M0",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.28,
+        551.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析步骤、入场逻辑、止损位置、目标设定和最终结果（2.26R），所有关键信息均从转录和图表中清晰读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:50.488348Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ反转案例：利用CSD和FVG的做多入场\",\"school\":\"ICT\",\"asset\":\"NQ\",\"timeframe\":\"1H / 15M\",\"market_context\":\"NQ在日线扫除前日低点后，1小时形成看跌FVG。价格在15分钟图表上出现反转信号和交付状态改变，为做多提供机会。\",\"key_observation\":\"博主识别到15分钟图表上收盘突破一系列K线结构，形成Change in State of Delivery信号，结合1小时看跌FVG作为目标，构成高概率做多设置。\",\"analysis_steps\":[\"Step 1: 在日线图表上标记前日低点（Previous Day Low）\",\"Step 2: 下降到1小时时间框架，确认价格已扫除前日低点并创建SMT（与YM出现分歧）\",\"Step 3: 在1小时图表上识别看跌FVG，该FVG已被FOMC蜡烛部分缓解\",\"Step 4: 下降到15分钟图表，寻找反转或交付状态改变信号\",\"Step 5: 观察价格收盘突破一系列向上的K线，确认CSD信号\",\"Step 6: 在CSD突破处设置做多入场，止损放在该Wick的50%下方\",\"Step 7: 目标设定为1小时看跌FVG水平\",\"Step 8: 交易执行后价格上升至1小时FVG，达成2.26R收益\"],\"outcome\":\"成功达成2.26R收益。价格从15分钟CSD入场点上升，触及1小时看跌FVG目标水平。\",\"lessons\":\"Change in State of Delivery与Fair Value Gap结合使用时，能提供高概率的多时间框架交易设置。在较低时间框架（15M）寻找CSD入场信号，以较高时间框架（1H）的FVG作为目标，可以有效管理风险回报比。\",\"primary_image_frame_id\":\"WwmS47Gb3M0_f015\",\"supporting_image_frame_ids\":[\"WwmS47Gb3M0_f014\",\"WwmS47Gb3M0_f018\",\"WwmS47Gb3M0_f019\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Change in the state of delivery (CSD)\",\"Order Block (OB)\",\"Smart Money Technique (SMT)\",\"Previous Day Low\",\"Multi-timeframe analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析步骤、入场逻辑、止损位置、目标设定和最终结果（2.26R），所有关键信息均从转录和图表中清晰读取。\"}",
+  "error": null
+}

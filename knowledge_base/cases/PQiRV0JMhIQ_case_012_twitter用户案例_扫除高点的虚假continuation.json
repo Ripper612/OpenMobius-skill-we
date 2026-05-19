@@ -1,0 +1,109 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_012_twitter用户案例_扫除高点的虚假continuation",
+  "type": "case",
+  "title": "价格穿过FVG但同时扫除高点的虚假continuation",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "inducement",
+    "continuation_pattern",
+    "aligned_timeframe",
+    "displacement",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": null,
+  "market_context": "价格经历扩张后回撤，穿过Fair Value Gap区域，但同时扫除了之前的摆动高点，形成看似continuation的假突破。",
+  "key_observation": "价格虽然穿过FVG并快速上移，但同时扫除了高点，这是一个诱导信号。需要等待额外K线确认是否形成真正的continuation，而不是立即入场。",
+  "analysis_steps": [
+    "Step 1: 识别初始扩张（expansion）和随后的回撤（retracement）结构",
+    "Step 2: 标记Fair Value Gap区域（黄色矩形）和Order Block区域（灰色矩形）",
+    "Step 3: 观察价格穿过FVG并快速上移的动作",
+    "Step 4: 注意到价格同时扫除了之前的摆动高点（high）",
+    "Step 5: 应用fractal模型，等待下一根K线形成其wick后再做决策",
+    "Step 6: 观察后续K线是否从FVG区域形成真正的continuation或回到区间内"
+  ],
+  "outcome": null,
+  "lessons": "穿过FVG的价格移动不一定意味着continuation。当价格同时扫除高点时，这可能是inducement（诱导）。应该给予1-2根额外K线来确认是否真正形成continuation，而不是基于单一穿过FVG的动作立即交易。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_012_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_012_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_012_detail_2.jpg",
+    "cards/PQiRV0JMhIQ/images/case_012_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_012_primary.jpg": "多资产并行显示的K线图表。主图显示价格范围约从23575到26375。图上有两个矩形标注区域：黄色矩形覆盖约24500至25200价格区间，灰色矩形覆盖约24000至24500价格区间。K线序列显示初期一根大幅上升的绿色K线，随后跟随一根大幅下降的黑色K线，之后为一系列绿黑交替的K线，波幅逐渐缩小。图表右侧显示两根孤立的K线，一根黑色、一根绿色。多根K线在下方区域呈现长下影线形态。",
+    "case_012_detail_1.jpg": "多资产对比图表显示烛线图。左侧呈现从约26500下跌至23500的下降趋势。图表中央有一根大幅上升的绿色烛线，其后跟随一根大幅下跌的黑色烛线。图上有两个矩形标注：黄色矩形覆盖约24800至25600价格区间，灰色矩形位于其下方。右侧显示较小的烛线形成盘整形态，最右端为一根小绿烛。整体价格范围约23500至26500。",
+    "case_012_detail_2.jpg": "图表显示烛线图，价格范围从 3.0016 到 5.1764。图上绘有三条水平线，分别位于 4.7064、4.3544 和 3.8544 处。左侧显示从高点向下的趋势，中间区域有两个矩形框标注，分别围绕 4.6 至 5.0 和 3.8 至 4.2 的价格区间。右侧显示一根大黑烛线紧邻一根大绿烛线。整体图表跨越多个时间周期，呈现出下降趋势后在两个不同价格区域的盘整形态。",
+    "case_012_detail_3.jpg": "图表显示烛线图，价格范围约从3.9064至5.1764。图上绘有三条水平线，分别位于4.7064、4.5064和4.3064价位。两个矩形区域分别标注在4.5064至4.7064之间和4.3064至4.5064之间。烛线序列约40根，左侧烛线呈混合绿黑色，中段主要为黑色烛线显示下行走势，右侧出现一根大黑烛线随后跟随一根大绿烛线。除水平线和矩形框外，图上未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_028",
+        "seg_029"
+      ],
+      "time_range": [
+        1503.679,
+        1608.159
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析步骤、关键观察点和交易决策逻辑，虽未给出最终结果但分析过程清晰完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset",
+    "missing_timeframe"
+  ],
+  "extracted_at": "2026-05-13T15:35:57.058975Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"价格穿过FVG但同时扫除高点的虚假continuation\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":null,\"market_context\":\"价格经历扩张后回撤，穿过Fair Value Gap区域，但同时扫除了之前的摆动高点，形成看似continuation的假突破。\",\"key_observation\":\"价格虽然穿过FVG并快速上移，但同时扫除了高点，这是一个诱导信号。需要等待额外K线确认是否形成真正的continuation，而不是立即入场。\",\"analysis_steps\":[\"Step 1: 识别初始扩张（expansion）和随后的回撤（retracement）结构\",\"Step 2: 标记Fair Value Gap区域（黄色矩形）和Order Block区域（灰色矩形）\",\"Step 3: 观察价格穿过FVG并快速上移的动作\",\"Step 4: 注意到价格同时扫除了之前的摆动高点（high）\",\"Step 5: 应用fractal模型，等待下一根K线形成其wick后再做决策\",\"Step 6: 观察后续K线是否从FVG区域形成真正的continuation或回到区间内\"],\"outcome\":null,\"lessons\":\"穿过FVG的价格移动不一定意味着continuation。当价格同时扫除高点时，这可能是inducement（诱导）。应该给予1-2根额外K线来确认是否真正形成continuation，而不是基于单一穿过FVG的动作立即交易。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f052\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f051\",\"PQiRV0JMhIQ_f053\",\"PQiRV0JMhIQ_f054\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Inducement\",\"Continuation\",\"Fractal Model\",\"Displacement\",\"Liquidity\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析步骤、关键观察点和交易决策逻辑，虽未给出最终结果但分析过程清晰完整。\"}",
+  "error": null
+}

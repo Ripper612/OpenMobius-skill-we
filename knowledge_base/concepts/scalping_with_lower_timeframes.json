@@ -1,0 +1,57 @@
+{
+  "card_id": "scalping_with_lower_timeframes",
+  "type": "merged_concept",
+  "canonical_term": "Scalping with Lower Timeframes",
+  "aliases": [
+    "15-Second Chart Scalping",
+    "Lower Timeframe Scalping"
+  ],
+  "school": "Price Action",
+  "definition": "利用15秒等低时间框架图表捕捉快速、小幅价格波动的交易方法。通过识别低时间框架内的FVG、OB等结构，进行反向趋势头皮交易，快速获利或止损。",
+  "identification_rules": [
+    "在低时间框架（如15秒图表）上识别FVG或OB等微观结构",
+    "观察价格是否形成激进的方向性移动（aggressive move）并突破结构",
+    "在低时间框架OTE区域或折价区寻找入场点",
+    "确认反向趋势信号：如价格激进下跌进入FVG后可做空，或激进上升后回调进入折价区可做多",
+    "设置止损位于相邻的摆动高点或低点"
+  ],
+  "trading_implication": "低时间框架头皮交易允许交易者在高时间框架设置内进行快速、小风险的多次交易。通过在OTE或折价区入场，交易者可快速判断方向正确性，若错误则迅速止损；若正确则可通过部分平仓（targeting OTE或斐波那契水平）获取多笔小利润。适合风险管理严格、追求高胜率的交易者。",
+  "common_mistakes": [
+    "未在低时间框架内确认FVG或OB等具体结构就盲目入场",
+    "忽视高时间框架背景，导致逆势头皮交易风险过大",
+    "贪心持仓过长，未在OTE或目标位及时部分平仓",
+    "风险管理不当，止损位设置过宽导致单笔亏损过大"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "ivirRu3fc4o",
+      "original_card_id": "ivirRu3fc4o_concept_scalping_with_lower_timeframes",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.12,
+        355.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135522Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

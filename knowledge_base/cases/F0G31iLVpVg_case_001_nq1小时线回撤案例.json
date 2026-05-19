@@ -1,0 +1,104 @@
+{
+  "card_id": "F0G31iLVpVg_case_001_nq1小时线回撤案例",
+  "type": "case",
+  "title": "NQ1小时线扩张-回撤-扩张循环分析",
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "expansion",
+    "retracement",
+    "fair_value_gap",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "protected_high_low",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H",
+  "market_context": "NQ1从约22040高点下跌至21280低点，形成缓慢浅层回撤，期间价格在21520-21640区间横盘整理，随后形成受保护摆动并继续上升。",
+  "key_observation": "博主强调回撤应表现为缓慢浅层的小幅波动，而非快速大幅下跌。9小时的回撤K线仅覆盖约3小时扩张的价格范围，体现了回撤的低效率特征。",
+  "analysis_steps": [
+    "Step 1: 识别初始扩张阶段——价格从约22040向上快速推进，形成大幅、快速、充满活力的位移。",
+    "Step 2: 观察收盘结构——价格收盘回到前期范围内，形成交付状态改变(CSD)信号，预示扩张即将到来。",
+    "Step 3: 确认缓慢回撤——价格向下回撤至约21280，但表现为9根小实体K线的横盘，而非快速下跌，符合回撤的特征。",
+    "Step 4: 标记关键水平——在约21560、21520、21480处标记水平线，识别公允价值缺口(FVG)和订单块(OB)区域。",
+    "Step 5: 寻找入场机会——在K线收盘或受保护摆动形成时考虑入场，价格随后突破前期下跌K线序列形成新的受保护摆动。",
+    "Step 6: 确认新扩张——价格向上突破约21760，形成新的扩张阶段，完成扩张-回撤-扩张的完整循环。"
+  ],
+  "outcome": "价格成功形成受保护摆动后继续上升，验证了回撤后的扩张延续，展示了完整的扩张-回撤-扩张循环模式。",
+  "lessons": "回撤的关键特征是缓慢浅层，而非快速大幅。通过对比回撤K线数量与扩张覆盖的价格范围，可以判断回撤的有效性。受保护摆动的形成是确认后续扩张的重要信号，可作为高概率入场点。",
+  "primary_image": "cards/F0G31iLVpVg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/F0G31iLVpVg/images/case_001_detail_1.jpg",
+    "cards/F0G31iLVpVg/images/case_001_detail_2.jpg",
+    "cards/F0G31iLVpVg/images/case_001_detail_3.jpg",
+    "cards/F0G31iLVpVg/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表显示 NQ1! 1 小时 K 线图，价格轴范围约从 21120 到 21920。图左侧出现一根大阴线，随后 K 线在 21400 至 21560 区间内形成多根小实体 K 线的横盘区域。图中部附近出现低点约 21280，随后 K 线向上运行至约 21780。图右侧可见两条点状水平线分别位于约 21560 和 21580 附近，另有两条短水平线段分别位于约 21520 和 21340 附近。图右",
+    "case_001_detail_1.jpg": "图为教学示意性 K 线图，左上角标注文字'Interact'，右下角显示品牌标识'TTrades'及页码'4'。图上无资产代码及时间框架信息，价格轴无数字刻度。图中有三个黄色文字标签：'Retracement'位于图中偏左上区域，'Expansion'位于图中右侧，'Entry model'位于图中下方。图中绘有两条水平线，位于图表中下部同一价格区域附近，其中一条水平线上有一个小圆形标记点。一条黄",
+    "case_001_detail_2.jpg": "图表资产为 NQ1!，时间框架为 1 小时，货币单位为 USD。可见价格范围约从 21000 至 22040。图左侧 K 线从约 22040 向下运行至约 21280。图中部有一组 K 线在约 21520 至 21640 区间内横向排列。图上有两条实线水平线，分别位于约 21560 和 21520，另有一条虚线水平线位于约 21480，三条线均延伸至图右侧。图右侧出现一根绿色 K 线（约 2172",
+    "case_001_detail_3.jpg": "图表资产标注为 USD，时间框架按钮显示 1h。右侧价格刻度可见范围约从 21280 至 22040。图右侧价格轴有两个高亮标签：21760.00 与 21704.00。图上有一条水平线位于约 21760 处，另有一条虚线水平线位于约 21560 处延伸至图中部。图中约 Jun 02 20:00 处有一条垂直虚线。图左侧中部可见两条短水平蓝线，分别位于约 21560 与 21490 附近。图中有一",
+    "case_001_detail_4.jpg": "图表资产标注为 USD，时间框架工具栏显示 1h。可见价格范围约从 21240 到 22040。图右侧价格轴当前高亮标签显示 21683.00。图上有两条水平虚线，分别位于约 21683 和 21560 附近。图左侧有一条蓝色水平线位于约 21560 处，横跨数根 K 线。图中部有一个小矩形标注框位于约 21440 至 21520 区间。图右侧可见数根较大的黑色与绿色 K 线，价格区间约在 213"
+  },
+  "sources": [
+    {
+      "video_id": "F0G31iLVpVg",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        144.4,
+        325.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ1小时图的分析完整清晰，资产、时间框架、关键价位(22040、21280、21560等)、分析步骤均明确，图表截图与讲解相符。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:56.269881Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1小时线扩张-回撤-扩张循环分析\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H\",\"market_context\":\"NQ1从约22040高点下跌至21280低点，形成缓慢浅层回撤，期间价格在21520-21640区间横盘整理，随后形成受保护摆动并继续上升。\",\"key_observation\":\"博主强调回撤应表现为缓慢浅层的小幅波动，而非快速大幅下跌。9小时的回撤K线仅覆盖约3小时扩张的价格范围，体现了回撤的低效率特征。\",\"analysis_steps\":[\"Step 1: 识别初始扩张阶段——价格从约22040向上快速推进，形成大幅、快速、充满活力的位移。\",\"Step 2: 观察收盘结构——价格收盘回到前期范围内，形成交付状态改变(CSD)信号，预示扩张即将到来。\",\"Step 3: 确认缓慢回撤——价格向下回撤至约21280，但表现为9根小实体K线的横盘，而非快速下跌，符合回撤的特征。\",\"Step 4: 标记关键水平——在约21560、21520、21480处标记水平线，识别公允价值缺口(FVG)和订单块(OB)区域。\",\"Step 5: 寻找入场机会——在K线收盘或受保护摆动形成时考虑入场，价格随后突破前期下跌K线序列形成新的受保护摆动。\",\"Step 6: 确认新扩张——价格向上突破约21760，形成新的扩张阶段，完成扩张-回撤-扩张的完整循环。\"],\"outcome\":\"价格成功形成受保护摆动后继续上升，验证了回撤后的扩张延续，展示了完整的扩张-回撤-扩张循环模式。\",\"lessons\":\"回撤的关键特征是缓慢浅层，而非快速大幅。通过对比回撤K线数量与扩张覆盖的价格范围，可以判断回撤的有效性。受保护摆动的形成是确认后续扩张的重要信号，可作为高概率入场点。\",\"primary_image_frame_id\":\"F0G31iLVpVg_f008\",\"supporting_image_frame_ids\":[\"F0G31iLVpVg_f005\",\"F0G31iLVpVg_f007\",\"F0G31iLVpVg_f009\",\"F0G31iLVpVg_f010\"],\"related_concepts\":[\"Expansion\",\"Retracement\",\"Fair Value Gap\",\"Order Block\",\"Change in the state of delivery\",\"Protected Swing\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ1小时图的分析完整清晰，资产、时间框架、关键价位(22040、21280、21560等)、分析步骤均明确，图表截图与讲解相符。\"}",
+  "error": null
+}

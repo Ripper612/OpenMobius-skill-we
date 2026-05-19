@@ -1,0 +1,53 @@
+{
+  "card_id": "intraday_bias",
+  "type": "merged_concept",
+  "canonical_term": "Intraday Bias",
+  "aliases": [
+    "日内偏差",
+    "日内方向偏差"
+  ],
+  "school": "ICT",
+  "definition": "基于4小时和1小时图表，通过分析位移、结构和不平衡三要素确定日内交易方向的方法。用于在低时间框架上寻找具体交易入场点。",
+  "identification_rules": [
+    "识别Displacement：观察价格是否存在激进的、充满活力的单向移动",
+    "识别Structure：寻找相对等高点或等低点，判断价格结构的对称性",
+    "识别Imbalance（FVG）：在价格快速变动后查找K线之间的不平衡区域",
+    "综合三要素：当Displacement、Structure和Imbalance同时出现时，确定多空偏差方向",
+    "参考会话时段：结合伦敦、纽约和亚洲会话的价格行为及历史走势来验证偏差"
+  ],
+  "trading_implication": "Intraday Bias为日内交易提供方向框架。确定偏差后，交易者可在低时间框架图表上寻找OTE入场点，并根据偏差方向设定目标流动性。例如看涨偏差时做多并目标等高点或溢价区流动性；看跌偏差时做空并目标等低点或折价区流动性。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "xdm_OexQWJY",
+      "original_card_id": "xdm_OexQWJY_concept_intraday_bias",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        187.44
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133621Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,122 @@
+{
+  "card_id": "wik00c9_2nk_case_002_日线偏差与小时线反转案例",
+  "type": "case",
+  "title": "日线偏差后小时线反转与亚洲高点突破",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Bullish Bias",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "turtle_soup_entry",
+    "inversion",
+    "change_in_the_state_of_delivery",
+    "breaker_block",
+    "premium_discount_premium_",
+    "market_structure_shift",
+    "smart_money_technique_smt"
+  ],
+  "school": "ICT",
+  "asset": "SPX",
+  "timeframe": "1H",
+  "market_context": "日线显示看涨偏差（bullish bias），价格在伦敦时段形成整理后，博主预期向亚洲高点突破。小时线上形成操纵低点和反转信号。",
+  "key_observation": "日线偏差确认后，在小时线上通过Turtle Soup（低点清洗）、Inversion（反转）和Change in State of Delivery（交付状态改变）的多重确认，形成高概率反转入场点。",
+  "analysis_steps": [
+    "Step 1: 观察日线图表，识别价格扫出高点后回到前期高点区域，确认看涨偏差（bullish bias）。",
+    "Step 2: 分析日线每日轮廓，识别亚洲高点形成多个失败摆动，伦敦时段形成整理。",
+    "Step 3: 预期价格向亚洲高点或更高位置运行，基于日线偏差建立看涨预期。",
+    "Step 4: 下探小时线，识别低点清洗（Turtle Soup/purge of low）作为第一步反转信号。",
+    "Step 5: 确认Inversion形成——价格收盘穿过形成低点的公允价值缺口（FVG）。",
+    "Step 6: 确认Change in State of Delivery——形成低点的下跌K线序列被收盘穿过。",
+    "Step 7: 识别Breaker Block形成——低-高-低-高的结构，作为额外的汇聚确认。",
+    "Step 8: 标记所有PD数组元素（FVG、OB、Breaker Block）重叠区域，但专注于Change in State of Delivery作为主要交易信号。",
+    "Step 9: 观察价格从该区域反应上升，向日线预期目标（亚洲高点）运行。"
+  ],
+  "outcome": "价格从反转区域上升，继续向亚洲高点突破，确认了日线偏差与小时线反转的汇聚交易设置。",
+  "lessons": "多时间框架分析中，高时间框架（日线）的偏差确认可指导低时间框架（小时线）的反转交易。关键是识别Order of Reversal中的多个确认信号（Turtle Soup、Inversion、CSD、Breaker Block），但专注于一个主要信号以避免过度分析。PD数组的汇聚增强了交易概率。",
+  "primary_image": "cards/wik00c9_2nk/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/wik00c9_2nk/images/case_002_detail_1.jpg",
+    "cards/wik00c9_2nk/images/case_002_detail_2.jpg",
+    "cards/wik00c9_2nk/images/case_002_detail_3.jpg",
+    "cards/wik00c9_2nk/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示1分钟K线图，价格范围从68.00至68.70。图上有两条水平虚线分别位于68.53和68.38处。标注包含三个矩形框，分别位于68.50至68.53、68.30至68.38和68.42至68.47的价格区间。K线从左侧68.10附近开始上升至68.50附近，随后在68.38至68.53区间内形成整理。图右侧有一条竖直虚线。底部时间轴显示从03:30至09:30的时间范围，当前时间标记在0",
+    "case_002_detail_1.jpg": "日线图表显示从11月初至12月中旬的价格走势。图上可见约30根K线，整体价格范围从2820.0跌至2550.0后反弹至2720.0。早期以黑色K线为主，11月中旬后转为绿色K线占优。12月初形成2645.0至2720.0区间的盘整，约8根K线在此范围内。图右侧有一条虚线水平线标注在2645.3价位，该区域附近绘有矩形框。图表底部显示时间标签从Nov至2025年1月中旬。",
+    "case_002_detail_2.jpg": "图表显示一份K线图，价格范围从2715.0至2743.0。图上有一条水平虚线位于2737.0处，以及一条从左上向右下延伸的趋势线。K线序列显示初期上升至2740.5附近，随后下跌至2720.5，最后在2722.0至2728.0区间内形成盘整。底部工具栏显示'Select bar'、'5x'、'Sell'、'Buy'、'Flatten'等交易控制按钮。时间轴显示从20:00至15:00的时间标记，但",
+    "case_002_detail_3.jpg": "SPX 5分钟K线图，时间范围从22:00至16:00。图上可见价格范围从2743.0至2719.2。图表左侧显示约8根K线在2740至2733区间内的整理，随后约15根K线形成从2740向下至2724的下行走势。中段约10根K线在2731至2726区间内震荡。图右侧最后几根K线从2728快速下行至2720。图上有三条水平线分别标注在2741.0、2720.0和2719.2价位。最新K线用粉色矩形",
+    "case_002_detail_4.jpg": "图表显示一段时间内的 K 线走势，价格范围从 2743.0 至 2715.6。图上有两条水平虚线分别位于 2741.0 和 2727.0 处。左侧显示时间标记从 22:00 至 16:00，底部时间戳显示'Wed 11 Dec 08:15'。图右侧有两个矩形标注框分别围绕 2720-2721 和 2724-2726 价格区间。K 线呈现从高位向下的趋势，中段有一段盘整区间，随后出现急速下跌至 27"
+  },
+  "sources": [
+    {
+      "video_id": "wik00c9_2nk",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        548.36,
+        904.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线到小时线的分析过程，清晰标注了所有反转信号，给出了具体价位和时间框架，结果也得到验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:22.212251Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线偏差后小时线反转与亚洲高点突破\",\"school\":\"ICT\",\"asset\":\"SPX\",\"timeframe\":\"1H\",\"market_context\":\"日线显示看涨偏差（bullish bias），价格在伦敦时段形成整理后，博主预期向亚洲高点突破。小时线上形成操纵低点和反转信号。\",\"key_observation\":\"日线偏差确认后，在小时线上通过Turtle Soup（低点清洗）、Inversion（反转）和Change in State of Delivery（交付状态改变）的多重确认，形成高概率反转入场点。\",\"analysis_steps\":[\"Step 1: 观察日线图表，识别价格扫出高点后回到前期高点区域，确认看涨偏差（bullish bias）。\",\"Step 2: 分析日线每日轮廓，识别亚洲高点形成多个失败摆动，伦敦时段形成整理。\",\"Step 3: 预期价格向亚洲高点或更高位置运行，基于日线偏差建立看涨预期。\",\"Step 4: 下探小时线，识别低点清洗（Turtle Soup/purge of low）作为第一步反转信号。\",\"Step 5: 确认Inversion形成——价格收盘穿过形成低点的公允价值缺口（FVG）。\",\"Step 6: 确认Change in State of Delivery——形成低点的下跌K线序列被收盘穿过。\",\"Step 7: 识别Breaker Block形成——低-高-低-高的结构，作为额外的汇聚确认。\",\"Step 8: 标记所有PD数组元素（FVG、OB、Breaker Block）重叠区域，但专注于Change in State of Delivery作为主要交易信号。\",\"Step 9: 观察价格从该区域反应上升，向日线预期目标（亚洲高点）运行。\"],\"outcome\":\"价格从反转区域上升，继续向亚洲高点突破，确认了日线偏差与小时线反转的汇聚交易设置。\",\"lessons\":\"多时间框架分析中，高时间框架（日线）的偏差确认可指导低时间框架（小时线）的反转交易。关键是识别Order of Reversal中的多个确认信号（Turtle Soup、Inversion、CSD、Breaker Block），但专注于一个主要信号以避免过度分析。PD数组的汇聚增强了交易概率。\",\"primary_image_frame_id\":\"wik00c9_2nk_f027\",\"supporting_image_frame_ids\":[\"wik00c9_2nk_f023\",\"wik00c9_2nk_f024\",\"wik00c9_2nk_f025\",\"wik00c9_2nk_f026\",\"wik00c9_2nk_f028\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Turtle Soup\",\"Inversion\",\"Change in the state of delivery\",\"Breaker Block\",\"PD array\",\"Market Structure Shift\",\"Bullish Bias\",\"SMT\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线到小时线的分析过程，清晰标注了所有反转信号，给出了具体价位和时间框架，结果也得到验证。\"}",
+  "error": null
+}

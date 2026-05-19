@@ -1,0 +1,105 @@
+{
+  "card_id": "b6yvRKf8haE_case_005_新闻事件驱动的亚洲伦敦操纵",
+  "type": "case",
+  "title": "8:30新闻事件驱动的亚洲伦敦操纵与深溢价区反转",
+  "related_concepts": [
+    {
+      "term": "Midnight Open",
+      "card_id": "midnight_open",
+      "exists": true
+    },
+    {
+      "term": "8:30 Open",
+      "card_id": "8_30_and_midnight_open",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "midnight_open",
+    "8_30_and_midnight_open",
+    "premium_discount",
+    "inducement",
+    "order_block",
+    "fair_value_gap",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "5M",
+  "market_context": "上周五亚洲伦敦时段，午夜开盘后价格未能有效突破高点，8:30新闻事件触发急速下跌至日低，随后反弹至深溢价区，最终再次下行。",
+  "key_observation": "博主展示了如何利用午夜开盘(Midnight Open)和8:30开盘作为关键枢轴点，识别操纵行为、折价/溢价区域，以及预测价格目标的框架。",
+  "analysis_steps": [
+    "Step 1: 识别午夜开盘(~4104)和8:30开盘(~4096)作为关键参考水平",
+    "Step 2: 观察亚洲伦敦时段多次回测8:30开盘但未能有效突破高点的失败行为",
+    "Step 3: 标记8:30新闻事件导致的急速下跌至日低(~4020)，识别为操纵(Manipulation)",
+    "Step 4: 分析反弹目标——价格首先回测午夜开盘，随后继续上升进入深溢价区(~4080-4087)",
+    "Step 5: 确认价格在深溢价区拒绝午夜开盘后，未能有效收盘于其上方",
+    "Step 6: 预测最终下行走势，价格再次回测8:30开盘并向下突破，形成日内完整的操纵-反弹-下行周期"
+  ],
+  "outcome": "价格从深溢价区(~4087)向下运行，再次回测8:30开盘(~4096)后继续下行至更低水平，完成了新闻事件驱动的完整操纵周期。",
+  "lessons": "关键时间点(午夜开盘、8:30开盘)可作为强有力的枢轴和目标位；识别失败的突破和操纵行为有助于预测反向运动；深溢价区常成为反转点，价格难以有效收盘其上方。",
+  "primary_image": "cards/b6yvRKf8haE/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/b6yvRKf8haE/images/case_005_detail_1.jpg",
+    "cards/b6yvRKf8haE/images/case_005_detail_2.jpg",
+    "cards/b6yvRKf8haE/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上有一条水平线位于4087.00价格位，跨越整个图表宽度。上方区域有两个矩形标注框，位置约在4078至4088范围内。一条向下的趋势线从约4087区域延伸至4020附近。图表左侧显示一个盘整形态，随后出现一条明显的红色竖直线，从4087区域快速下行至约3997区域。下行后，K线呈现恢复和振荡形态。右侧价格刻度显示当前价格范围从3997.",
+    "case_005_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上可见价格范围约从4048到4144。图中绘有两条水平线，分别位于4104和4096价格水平，两线之间形成一个矩形标注区域。中部区域约09:00至10:30 UTC时段出现一根大幅下跌的红色K线，下影线从4104附近向下刺破至4048附近。其后K线在4096至4104区间内形成多根整理K线。右侧价格标签显示4104.50、4096.75",
+    "case_005_detail_2.jpg": "S&P 500 E-mini 期货 5 分钟 K 线图。图上显示价格范围从约 4048.00 到 4144.00。图中有两条水平线分别位于 4108.75 和 4104.75。图上绘制了两个矩形框，分别覆盖 4100-4115 和 4095-4105 价格区间。K 线形态显示在 04:00 时段出现向上跳空，随后形成尖峰高点至约 4144.00，之后出现急剧下跌，下影线延伸至约 4048.00。右",
+    "case_005_detail_3.jpg": "S 期货 5 分钟 K 线图。图上显示价格范围从 4010 到 4102.50。图中有一个矩形框标注在 4080 至 4095 区间，标记了一个盘整区域。图上有两条水平线分别位于 4087 和 4010 处。一条红色竖线从 4095 下行至 4010，之后 K 线呈绿色上升至约 4085。图右侧有一条向下的箭头和一条向下的趋势线，标注了从 4085 向下至 4070 的下行走势。图上标注有时间标签"
+  },
+  "sources": [
+    {
+      "video_id": "b6yvRKf8haE",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.319,
+        465.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从识别关键水平、观察操纵行为、预测反弹目标到最终下行的全过程，图表清晰标注了价格水平和时间点，分析逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:31.618106Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"8:30新闻事件驱动的亚洲伦敦操纵与深溢价区反转\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"5M\",\"market_context\":\"上周五亚洲伦敦时段，午夜开盘后价格未能有效突破高点，8:30新闻事件触发急速下跌至日低，随后反弹至深溢价区，最终再次下行。\",\"key_observation\":\"博主展示了如何利用午夜开盘(Midnight Open)和8:30开盘作为关键枢轴点，识别操纵行为、折价/溢价区域，以及预测价格目标的框架。\",\"analysis_steps\":[\"Step 1: 识别午夜开盘(~4104)和8:30开盘(~4096)作为关键参考水平\",\"Step 2: 观察亚洲伦敦时段多次回测8:30开盘但未能有效突破高点的失败行为\",\"Step 3: 标记8:30新闻事件导致的急速下跌至日低(~4020)，识别为操纵(Manipulation)\",\"Step 4: 分析反弹目标——价格首先回测午夜开盘，随后继续上升进入深溢价区(~4080-4087)\",\"Step 5: 确认价格在深溢价区拒绝午夜开盘后，未能有效收盘于其上方\",\"Step 6: 预测最终下行走势，价格再次回测8:30开盘并向下突破，形成日内完整的操纵-反弹-下行周期\"],\"outcome\":\"价格从深溢价区(~4087)向下运行，再次回测8:30开盘(~4096)后继续下行至更低水平，完成了新闻事件驱动的完整操纵周期。\",\"lessons\":\"关键时间点(午夜开盘、8:30开盘)可作为强有力的枢轴和目标位；识别失败的突破和操纵行为有助于预测反向运动；深溢价区常成为反转点，价格难以有效收盘其上方。\",\"primary_image_frame_id\":\"b6yvRKf8haE_f015\",\"supporting_image_frame_ids\":[\"b6yvRKf8haE_f013\",\"b6yvRKf8haE_f014\",\"b6yvRKf8haE_f016\"],\"related_concepts\":[\"Midnight Open\",\"8:30 Open\",\"Premium / Discount\",\"Manipulation\",\"Order Block\",\"Fair Value Gap\",\"Liquidity\",\"Market Structure\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从识别关键水平、观察操纵行为、预测反弹目标到最终下行的全过程，图表清晰标注了价格水平和时间点，分析逻辑连贯。\"}",
+  "error": null
+}

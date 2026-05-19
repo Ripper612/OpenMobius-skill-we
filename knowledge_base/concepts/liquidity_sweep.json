@@ -1,0 +1,575 @@
+{
+  "card_id": "liquidity_sweep",
+  "type": "merged_concept",
+  "canonical_term": "Liquidity Sweep",
+  "aliases": [
+    "Stop Raid",
+    "Sweep",
+    "liquidity run",
+    "manipulation of low/high",
+    "sweep out highs",
+    "sweep out lows",
+    "sweeping liquidity",
+    "taking out liquidity",
+    "扫出流动性",
+    "流动性扫荡"
+  ],
+  "school": "ICT",
+  "definition": "价格突破摆动高点或低点，扫除该区域聚集的买方或卖方流动性订单后，迅速反向运行的价格行为。通常伴随位移（Displacement）发生，是识别机构订单执行、市场结构转变或趋势延续的关键前置信号。扫除后K线须收回至该水平内侧方为有效确认。",
+  "identification_rules": [
+    "识别前期摆动高点（Swing High）或摆动低点（Swing Low），确认该处存在买方或卖方流动性聚集",
+    "观察价格是否以强劲位移（Displacement）触及或穿过该摆动点，突破速度快、幅度明显",
+    "确认突破后K线无法在该水平外收盘，或收盘价回到前期区间内侧，形成反向收盘蜡烛",
+    "扫除后价格立即反向运行，而非继续沿原方向延伸",
+    "扫除通常伴随公允价值缺口（FVG）或订单块（Order Block）的形成",
+    "在高时间框架确认流动性位置后，下降至低时间框架观察反向K线序列或入场结构",
+    "可结合SMT配对验证：相关资产中一个扫除而另一个未扫除时，仍可视为有效信号",
+    "扫除后若形成受保护摆动点（Protected Swing），可作为后续扩展行情的确认信号",
+    "在操纵阶段（Manipulation）中出现时，扫除通常作为假突破的组成部分，随后伴随市场结构转变（MSS）"
+  ],
+  "trading_implication": "Liquidity Sweep表明机构资金正在清除零售止损单以积累或派发头寸。扫除完成并确认反向收盘后，可在低时间框架利用FVG、Order Block或BPR寻找高概率入场点，止损设于扫除极值，目标指向高时间框架流动性区域或前期高低点。扫除低点后反向上升预示看涨延续或反转；扫除高点后反向下行预示看跌延续或反转。需结合市场结构转变（MSS）和位移强度综合判断。",
+  "common_mistakes": [
+    "在扫除过程中过早入场，未等待价格完全反向收盘确认",
+    "仅看到价格触及摆动点就认为形成有效扫除，忽视收盘须回到区间内侧这一必要条件",
+    "混淆Liquidity Sweep与简单价格突破或反弹，忽视其背后的流动性清除机制",
+    "忽视位移（Displacement）的强度，将弱势穿越误认为有效扫除",
+    "未在高时间框架确认流动性位置，在错误的摆动点设置止损或入场",
+    "将流动性扫除误认为趋势反转信号，或反之误认为趋势延续信号，未结合市场结构综合判断",
+    "扫除后未等待FVG、Order Block等结构回测确认就直接入场，错过高概率入场点",
+    "未区分真实结构突破与操纵性扫除，缺乏对市场结构转变（MSS）的确认",
+    "在未形成Change in the State of Delivery的情况下假设扫除已完成",
+    "在低时间框架过度交易扫除信号，忽视日线及以上时间框架的可靠性更高",
+    "混淆扫除方向与最终价格运动方向，导致逆向交易"
+  ],
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Draw On Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Continuation vs Reversal",
+      "card_id": "continuation_vs_reversal",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-KKuZb5Z5aU_case_004_gbpusd日线到小时线交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "GBPUSD日线理想三号收盘到小时线多次扫盘后延续上行"
+    },
+    {
+      "card_id": "-KKuZb5Z5aU_case_006_usdcad_4小时线到15分钟线交易案例",
+      "video_id": "-KKuZb5Z5aU",
+      "title": "USDCAD 4H-15M 多次试探高点后形成交付状态改变反转"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_001_nasdaq_15分钟图表的日线fvg填补交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 15分钟日线FVG填补的多头入场分析"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_003_标普500_1分钟图表的高点突破交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "标普500 1分钟图表的高点突破与OTE回测交易"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_005_标普500多时间框架从日线到5分钟的交易分析",
+      "video_id": "0xygpCMwxbQ",
+      "title": "标普500多时间框架分析：日线Stop Raid到5分钟精确入场"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_004_纳指5分钟开盘范围内的内外流动性循环",
+      "video_id": "3OivsP1j_UE",
+      "title": "NQ1 5分钟开盘范围内的内外流动性循环"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_001_nq_1分钟多头入场案例_纽约开盘前",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟多头入场：伦敦高点流动性扫盘后的折价区入场"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_002_nq_1分钟空头入场案例_小时fvg目标",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟空头入场案例（小时FVG目标）"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_002_eur_aud小时线与5分钟线的多时间框架分析",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "EUR/AUD多时间框架Fractal模型分析与指标参数调整"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_004_eurusd_5分钟多头交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "EURUSD 5分钟多头交易：盘整扫低后FVG回撤进场"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_002_nq日线多日低点未扫除的流动性分析",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线多日低点未扫除的低阻力流动性分析"
+    },
+    {
+      "card_id": "FGkb_50BfT8_case_004_nq日线上升趋势中的流动性扫除与反应",
+      "video_id": "FGkb_50BfT8",
+      "title": "NQ日线上升趋势中的流动性扫除与失败摆动分析"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_002_原油期货_cl_看涨操纵案例",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "原油期货CL看涨操纵案例：伦敦失败摆动后纽约扫荡折价区入场"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_003_eurusd_1小时图_扫除短期高点的continuation失",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "EURUSD 1H：Continuation失败与高点扫除的识别"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_005_uni_1小时图_缓慢closure的consolidation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "UNI 1H：缓慢closure识别consolidation而非continuation"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_005_1_分钟图中的新日开盘缺口与多层_amd",
+      "video_id": "TCFvsZeYvV8",
+      "title": "1分钟新日开盘缺口中的多层AMD与标准差投影"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_002_黄金第二个交易案例_扫盘后反转做多",
+      "video_id": "TNybDCtwBnc",
+      "title": "黄金日线扫盘后反转做多——多时间框架确认"
+    },
+    {
+      "card_id": "_94CPMjWi9E_case_002_eth小时图上升结构分析",
+      "video_id": "_94CPMjWi9E",
+      "title": "ETH小时图激进上升Displacement与MSS结构分析"
+    },
+    {
+      "card_id": "c_mh19e3mhI_case_003_周五8月4日es与nq_order_block表现",
+      "video_id": "c_mh19e3mhI",
+      "title": "ES与NQ周五8月4日Order Block均值阈值表现对比"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_004_美元日元日线到5分钟的多次入场机会",
+      "video_id": "iEaMbuFZb24",
+      "title": "USD/JPY日线到5分钟的多次入场机会分析"
+    },
+    {
+      "card_id": "kTWXpAo1uE8_case_004_nq日线到小时线的多时间框架分析",
+      "video_id": "kTWXpAo1uE8",
+      "title": "NQ日线到小时线的多时间框架操纵腿投影分析"
+    },
+    {
+      "card_id": "nWHint4Yano_case_003_美元扫盘后eurusd的做空设置",
+      "video_id": "nWHint4Yano",
+      "title": "美元扫盘后EURUSD的做空设置"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_001_nq第一个例子_从外部流动性到内部流动性",
+      "video_id": "q40pRwjuPYQ",
+      "title": "NQ 15分钟外部流动性到内部流动性的三步交易模型"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_013_xagusd多时间框架的反转与延续",
+      "video_id": "qdQYhePcvGE",
+      "title": "XAGUSD日线反转后的小时图延续交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_014_es_1小时与5分钟的candle_3交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "ES 1小时反转后的5分钟Candle 3延续交易"
+    },
+    {
+      "card_id": "sIcsLFSNoXM_case_006_原油日线三日扩张后的整理与反转",
+      "video_id": "sIcsLFSNoXM",
+      "title": "原油日线三日扩张后的整理与看涨反转"
+    },
+    {
+      "card_id": "tyoxl1l-6iI_case_002_apoz日线到小时线的分形验证",
+      "video_id": "tyoxl1l-6iI",
+      "title": "APOZ日线K线2收盘下钻至小时线的分形验证"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_004_15分钟盘整范围突破交易",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "15分钟盘整范围突破交易——双边扫盘后的方向确认"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_001_rb范围突破与breaker_block延续交易",
+      "video_id": "xP-o11jRCyg",
+      "title": "RB小时图范围突破与5分钟Breaker Block延续交易"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_005_nq等值高点与smt配合的1分钟breaker交易",
+      "video_id": "xP-o11jRCyg",
+      "title": "ETH 1分钟等值高点SMT配合Breaker交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "original_card_id": "0xygpCMwxbQ_concept_stop_raid",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        650.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "75S4vwD4P1U",
+      "original_card_id": "75S4vwD4P1U_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        550.079,
+        807.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        696.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        369.56,
+        904.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_003",
+        "seg_010",
+        "seg_011",
+        "seg_020"
+      ],
+      "time_range": [
+        180.879,
+        947.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_sweep_liquidity_sweep",
+      "segment_ids": [
+        "seg_008",
+        "seg_021"
+      ],
+      "time_range": [
+        359.12,
+        1111.039
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IJcfC6wAPZU",
+      "original_card_id": "IJcfC6wAPZU_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.96,
+        731.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_011"
+      ],
+      "time_range": [
+        149.76,
+        697.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "original_card_id": "Pcbyc9TdNsU_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_001",
+        "seg_004"
+      ],
+      "time_range": [
+        10.36,
+        593.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_015",
+        "seg_016",
+        "seg_018"
+      ],
+      "time_range": [
+        492.0,
+        882.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Y8DkNYhq0X0",
+      "original_card_id": "Y8DkNYhq0X0_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        400.62
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "_94CPMjWi9E",
+      "original_card_id": "_94CPMjWi9E_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        184.319,
+        363.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_sweep_liquidity_sweep",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        191.599,
+        904.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_002",
+        "seg_006"
+      ],
+      "time_range": [
+        122.159,
+        373.52
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_liquidity_sweep",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_006"
+      ],
+      "time_range": [
+        365.72,
+        995.3389999999999
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "q40pRwjuPYQ",
+      "original_card_id": "q40pRwjuPYQ_concept_stop_raid",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.679,
+        601.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_liquidity_run",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        188.22
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 17,
+    "source_videos": 17,
+    "high_confidence_sources": 16,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:52:26.525246Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "17张原始卡均标注school为ICT，无冲突。其中2张原始卡canonical_term为Stop Raid/Liquidity Run，但内容实质描述Liquidity Sweep机制，已纳入合并。",
+  "error": null
+}

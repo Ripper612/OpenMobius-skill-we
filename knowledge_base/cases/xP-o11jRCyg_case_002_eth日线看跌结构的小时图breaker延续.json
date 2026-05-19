@@ -1,0 +1,103 @@
+{
+  "card_id": "xP-o11jRCyg_case_002_eth日线看跌结构的小时图breaker延续",
+  "type": "case",
+  "title": "ETH日线看跌结构的小时图CSD确认与5分钟breaker延续交易",
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery_csd",
+    "breaker_block",
+    "order_block_ob",
+    "swing_formation",
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ETH",
+  "timeframe": "1H / 5M",
+  "market_context": "ETH日线形成看跌收盘后，博主在小时图确认CSD（交付状态改变），随后下探至小时图低点，在5分钟图上识别breaker block进行空头延续交易。",
+  "key_observation": "日线看跌收盘后，小时图确认CSD信号，预示短期趋势转变；5分钟图上形成的breaker block提供高概率空头入场点，最终达成2R目标。",
+  "analysis_steps": [
+    "Step 1: 观察日线形成一系列看跌收盘K线，确认看跌结构已形成。",
+    "Step 2: 下探小时图，识别出一个摆动低点，等待摆动低点形成以便从盘整中交易。",
+    "Step 3: 确认小时图收盘穿过开盘价，形成CSD（交付状态改变），预示看跌趋势延续。",
+    "Step 4: 下探5分钟图，找到一系列看跌收盘K线形成的低点。",
+    "Step 5: 确认5分钟图收盘穿过开盘价，再次确认CSD信号。",
+    "Step 6: 识别摆动低点被扫出后的反应，等待breaker block形成。",
+    "Step 7: 在breaker block的开始处寻找入场点，止损设置在breaker的另一侧。",
+    "Step 8: 目标设定为小时图的范围高点（即日线看跌结构的对面）。",
+    "Step 9: 价格突破范围高点，交易达成2R目标。"
+  ],
+  "outcome": "交易成功达成2R目标，价格突破小时图范围高点。",
+  "lessons": "在高时间框架确认CSD后，通过低时间框架（5分钟）识别breaker block可以提供高概率的延续交易机会。关键是等待摆动点形成、摆动被扫出，然后在breaker形成后入场，而不是在反转点入场。",
+  "primary_image": "cards/xP-o11jRCyg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/xP-o11jRCyg/images/case_002_detail_1.jpg",
+    "cards/xP-o11jRCyg/images/case_002_detail_2.jpg",
+    "cards/xP-o11jRCyg/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ETH 5分钟K线图。图上显示价格范围约从2450到3250。K线以黑色和绿色交替出现，整体呈波动状态。图中有一条水平线位于2450附近。在2900至3100价格区间内有一个矩形标注框。图右侧显示文字标签'The market is live'。图上有一个黄色十字光标标记。除上述标注外，未见其他指标或形态标注。",
+    "case_002_detail_1.jpg": "ETH 1 小时 K 线图。图上显示从左侧约 3100 下跌至约 2400 的下降趋势，随后进入一个用绿色矩形标注的区域，该区域大约在 2800 至 3000 价格范围内。绿色矩形内包含多根 K 线，显示价格在该区间内的波动。绿色矩形下方有一个灰色矩形标注，位置约在 2700 至 2800 水平。图上左上角有一个黄色标记标注为'h'。右侧价格刻度显示范围从约 2400 到 3100。",
+    "case_002_detail_2.jpg": "K线图显示一段完整的价格周期运动。图表左侧呈现从约3100向下至2700的下跌走势，随后在2850至2950区间形成整理。中段显示从2700向上回升至3050的上升走势。右侧则在2850至3050区间内反复波动。图上绘有两条水平线分别位于3050和2850处。整个图表中绿色K线和黑色K线交替出现，多数K线具有上下影线，表明在各价格水平存在买卖双方的争夺。",
+    "case_002_detail_3.jpg": "图表为蜡烛图，价格范围约从 2600 到 3400。图上有一条水平线位于 3200 附近。矩形框标注覆盖约 2900 至 3200 的价格区间。K 线序列显示从高点 3400 向下运动至 2700 附近，随后在 2700 至 2900 区间内出现盘整，之后上升至 3100 附近。图右下方可见黄色十字光标标记在约 2800 价格位置。"
+  },
+  "sources": [
+    {
+      "video_id": "xP-o11jRCyg",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        192.04,
+        548.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到小时图再到5分钟图的分析过程，清晰标注了CSD、breaker block、入场点和目标，交易结果明确为2R。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:50.102762Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH日线看跌结构的小时图CSD确认与5分钟breaker延续交易\",\"school\":\"ICT\",\"asset\":\"ETH\",\"timeframe\":\"1H / 5M\",\"market_context\":\"ETH日线形成看跌收盘后，博主在小时图确认CSD（交付状态改变），随后下探至小时图低点，在5分钟图上识别breaker block进行空头延续交易。\",\"key_observation\":\"日线看跌收盘后，小时图确认CSD信号，预示短期趋势转变；5分钟图上形成的breaker block提供高概率空头入场点，最终达成2R目标。\",\"analysis_steps\":[\"Step 1: 观察日线形成一系列看跌收盘K线，确认看跌结构已形成。\",\"Step 2: 下探小时图，识别出一个摆动低点，等待摆动低点形成以便从盘整中交易。\",\"Step 3: 确认小时图收盘穿过开盘价，形成CSD（交付状态改变），预示看跌趋势延续。\",\"Step 4: 下探5分钟图，找到一系列看跌收盘K线形成的低点。\",\"Step 5: 确认5分钟图收盘穿过开盘价，再次确认CSD信号。\",\"Step 6: 识别摆动低点被扫出后的反应，等待breaker block形成。\",\"Step 7: 在breaker block的开始处寻找入场点，止损设置在breaker的另一侧。\",\"Step 8: 目标设定为小时图的范围高点（即日线看跌结构的对面）。\",\"Step 9: 价格突破范围高点，交易达成2R目标。\"],\"outcome\":\"交易成功达成2R目标，价格突破小时图范围高点。\",\"lessons\":\"在高时间框架确认CSD后，通过低时间框架（5分钟）识别breaker block可以提供高概率的延续交易机会。关键是等待摆动点形成、摆动被扫出，然后在breaker形成后入场，而不是在反转点入场。\",\"primary_image_frame_id\":\"xP-o11jRCyg_f012\",\"supporting_image_frame_ids\":[\"xP-o11jRCyg_f013\",\"xP-o11jRCyg_f010\",\"xP-o11jRCyg_f009\"],\"related_concepts\":[\"Change in the state of delivery (CSD)\",\"Breaker Block\",\"Order Block (OB)\",\"Swing Low\",\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到小时图再到5分钟图的分析过程，清晰标注了CSD、breaker block、入场点和目标，交易结果明确为2R。\"}",
+  "error": null
+}

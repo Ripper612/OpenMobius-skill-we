@@ -1,0 +1,125 @@
+{
+  "card_id": "TfHlNgAZ_II_case_001_黄金周线至15分钟多时间框架交易案例",
+  "type": "case",
+  "title": "黄金周线至15分钟多时间框架交易案例",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "swing_high_swing_low",
+    "internal_range_liquidity",
+    "change_in_the_state_of_delivery",
+    "short_term_high_short_term_low",
+    "propulsion_block",
+    "breaker_block",
+    "killzone"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "Weekly / 4H / 15M",
+  "market_context": "黄金周线收盘高于前周开盘，形成看涨偏差。博主利用周线偏差预期价格继续上升，目标触及前周高点。",
+  "key_observation": "周线收盘高于前周开盘确认看涨偏差；4小时图表形成FVG作为内部流动性；15分钟图表寻找交付状态改变作为精确入场点。",
+  "analysis_steps": [
+    "Step 1: 在周线图表上观察到黄金前周收盘高于前周开盘，确立看涨偏差和继续上升的预期。",
+    "Step 2: 下降到4小时时间框架，识别出4小时FVG（公允价值缺口）作为内部范围流动性，同时确认前周高点作为外部范围流动性目标。",
+    "Step 3: 价格回测进入4小时FVG，验证内部到外部流动性的关系。",
+    "Step 4: 下降到15分钟图表，寻找止损扫荡（Raid）和交付状态改变（CSD）的信号。",
+    "Step 5: 识别形成低点的下跌蜡烛序列，等待价格收盘突破该蜡烛以确认交付状态改变。",
+    "Step 6: 当15分钟图表收盘突破形成低点的下跌蜡烛时，确认交付状态改变，作为订单块入场点。",
+    "Step 7: 设置止损位于摆动低点，但调整至破坏块水平以满足2R风险回报比要求。",
+    "Step 8: 目标设定为4小时外部范围流动性和前周高点，最终获得2R收益。"
+  ],
+  "outcome": "交易成功达成2R收益。价格从15分钟交付状态改变入场点上升，扫荡另一个低点后再次收盘突破下跌蜡烛（形成推进块），最终触及4小时外部范围流动性和前周高点目标。",
+  "lessons": "多时间框架分析的关键是建立从高时间框架偏差到低时间框架精确入场的完整链条。内部流动性（FVG）与外部流动性（摆动高/低）的关系指导价格方向；交付状态改变提供高概率入场点；在Killzone内执行交易并严格遵守2R最小收益要求。",
+  "primary_image": "cards/TfHlNgAZ_II/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/TfHlNgAZ_II/images/case_001_detail_1.jpg",
+    "cards/TfHlNgAZ_II/images/case_001_detail_2.jpg",
+    "cards/TfHlNgAZ_II/images/case_001_detail_3.jpg",
+    "cards/TfHlNgAZ_II/images/case_001_detail_4.jpg",
+    "cards/TfHlNgAZ_II/images/case_001_detail_5.jpg",
+    "cards/TfHlNgAZ_II/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "15分钟K线图，资产代码未清晰显示。图上可见从2752.5至2777.0的价格范围。图表包含多条水平线标注，分别位于2773.0、2770.0、2767.0和2760.5处。图中央有一个黄色矩形区域，覆盖约2757.5至2763.0的价格范围。K线序列由绿色和黑色蜡烛交替组成，大多数K线具有上下影线。时间轴显示从10月28日19:00至10月29日11:00的时间跨度。",
+    "case_001_detail_1.jpg": "图表标题为'ERL - IRL Relationship'。图上显示一系列绿色和黑色K线，绿色K线集中在左侧中上部分，黑色K线出现在中间和右侧。图上有两条灰色水平线和一条虚线水平线。右侧有一个黄色文本框标注'After ERL is token we expect a move into IRL'，旁边有黄色曲线箭头指向下方。左下角显示'TTrades 3'标识。图上未显示具体价格刻度或时间框架信",
+    "case_001_detail_2.jpg": "图上展示两个并排的 K 线图表面板，左侧标记为 HTF，右侧标记为 LTF。两个面板均包含绿色和黑色 K 线序列。左侧面板内有一个圆形标注区域，附带黄色文字标签'After ERL is logged we expect a move into IRL'。右侧面板内有两个圆形标注区域，分别标记为'2. CIBD'和'1. Raid'，均用黄色曲线箭头指示。图下方有一条黄色水平箭头标记为'Killz",
+    "case_001_detail_3.jpg": "日线图表显示约从9月下旬至10月中旬的价格走势。图上可见7根K线，主要为绿色（上涨）K线，其中一根为黑色（下跌）K线。价格范围从2590.0至2820.0。图上有一条水平虚线位于2655.0价格水平，以及一条从该水平向上延伸的虚线。右侧标注'Mon 21 Oct'表示当前日期位置。最后两根K线的实体位于2730-2760区间，其中一根K线上影线延伸至约2710。",
+    "case_001_detail_4.jpg": "图表显示一段时间内的 K 线走势，价格范围从 2710.0 至 2785.0。图上绘有一条水平线位于 2773.0 附近。可见多根绿色和黑色 K 线，均带有上下影线。右侧标注区域有两个矩形框，其中一个填充黄色，覆盖约 2757.5 至 2773.0 的价格范围。时间轴显示从 22 日至 31 日的日期标记，间隔标注 14:00 时间点。图右上角显示'The Market Lens'文字，左下角显示",
+    "case_001_detail_5.jpg": "15分钟K线图，价格范围从2757.0至2777.0。图上有4条水平线分别位于2773.0、2770.0、2767.5和2760.5。下方有黄色矩形阴影区域覆盖约2757至2761的价格范围。图表显示从21:00至12:00的K线序列，包含绿色和黑色蜡烛。06:00处有一条竖虚线，2757.8处有一条横虚线。右上角标注'The Market Lens'和'15M'，底部显示'Tue 29 Oct ",
+    "case_001_detail_6.jpg": "15分钟K线图，资产代码未显示。图上可见价格范围从2757.0至2777.0。图表包含多根绿色和黑色K线，跨越从21:00至13:00的时间段。图上有4条水平线分别位于2773.0、2770.0、2760.0和2758.0处。图下方有一个黄色矩形阴影区域，覆盖约2757.0至2761.0的价格范围。K线呈现混合形态，部分具有较长的上下影线。右上角标注显示'The Market Lens'和'15M"
+  },
+  "sources": [
+    {
+      "video_id": "TfHlNgAZ_II",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.0,
+        371.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从周线偏差到15分钟CSD入场的全流程，包括具体价格水平、时间框架转换、止损调整和2R收益验证，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:00.848026Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金周线至15分钟多时间框架交易案例\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"Weekly / 4H / 15M\",\"market_context\":\"黄金周线收盘高于前周开盘，形成看涨偏差。博主利用周线偏差预期价格继续上升，目标触及前周高点。\",\"key_observation\":\"周线收盘高于前周开盘确认看涨偏差；4小时图表形成FVG作为内部流动性；15分钟图表寻找交付状态改变作为精确入场点。\",\"analysis_steps\":[\"Step 1: 在周线图表上观察到黄金前周收盘高于前周开盘，确立看涨偏差和继续上升的预期。\",\"Step 2: 下降到4小时时间框架，识别出4小时FVG（公允价值缺口）作为内部范围流动性，同时确认前周高点作为外部范围流动性目标。\",\"Step 3: 价格回测进入4小时FVG，验证内部到外部流动性的关系。\",\"Step 4: 下降到15分钟图表，寻找止损扫荡（Raid）和交付状态改变（CSD）的信号。\",\"Step 5: 识别形成低点的下跌蜡烛序列，等待价格收盘突破该蜡烛以确认交付状态改变。\",\"Step 6: 当15分钟图表收盘突破形成低点的下跌蜡烛时，确认交付状态改变，作为订单块入场点。\",\"Step 7: 设置止损位于摆动低点，但调整至破坏块水平以满足2R风险回报比要求。\",\"Step 8: 目标设定为4小时外部范围流动性和前周高点，最终获得2R收益。\"],\"outcome\":\"交易成功达成2R收益。价格从15分钟交付状态改变入场点上升，扫荡另一个低点后再次收盘突破下跌蜡烛（形成推进块），最终触及4小时外部范围流动性和前周高点目标。\",\"lessons\":\"多时间框架分析的关键是建立从高时间框架偏差到低时间框架精确入场的完整链条。内部流动性（FVG）与外部流动性（摆动高/低）的关系指导价格方向；交付状态改变提供高概率入场点；在Killzone内执行交易并严格遵守2R最小收益要求。\",\"primary_image_frame_id\":\"TfHlNgAZ_II_f009\",\"supporting_image_frame_ids\":[\"TfHlNgAZ_II_f003\",\"TfHlNgAZ_II_f006\",\"TfHlNgAZ_II_f007\",\"TfHlNgAZ_II_f008\",\"TfHlNgAZ_II_f010\",\"TfHlNgAZ_II_f011\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"External Range Liquidity\",\"Internal Range Liquidity\",\"Change in the state of delivery\",\"Swing High / Swing Low\",\"Propulsion Block\",\"Breaker Block\",\"Killzone\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从周线偏差到15分钟CSD入场的全流程，包括具体价格水平、时间框架转换、止损调整和2R收益验证，分析步骤清晰有序。\"}",
+  "error": null
+}

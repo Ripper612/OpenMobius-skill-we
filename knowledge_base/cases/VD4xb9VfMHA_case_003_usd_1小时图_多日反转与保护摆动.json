@@ -1,0 +1,111 @@
+{
+  "card_id": "VD4xb9VfMHA_case_003_usd_1小时图_多日反转与保护摆动",
+  "type": "case",
+  "title": "USD 1H：突破前日高点后的反转与FVG目标",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Internal Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "fair_value_gap_fvg",
+    "short_term_high_short_term_low",
+    "expansion",
+    "market_structure",
+    "internal_range_liquidity",
+    "reversal"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1H",
+  "market_context": "USD在1小时图上形成V形反转。价格先从高位下跌，随后反弹突破前一日高点，触发Change in State of Delivery，预示反转机会。",
+  "key_observation": "博主强调：只有当价格突破前一日高点和左侧摆动高点后，才能预期反转。突破这些相关高点后形成的CSD是交易反转的关键信号。",
+  "analysis_steps": [
+    "Step 1: 识别V形反转结构——价格从高位下跌后快速反弹回升",
+    "Step 2: 确认Candle 3延续上升，但判断其未触及相关高点（前日高点和左侧摆动高点）",
+    "Step 3: 设定交易目标——价格需突破前日高点和左侧摆动高点才能确认反转有效",
+    "Step 4: 观察价格突破这些关键高点，形成Change in State of Delivery",
+    "Step 5: 在CSD形成后，预期价格回撤进入区间或反转，识别FVG作为内部流动性目标",
+    "Step 6: 确认价格突破等高点后的下跌扩张，形成Expansion met with Expansion的反转结构"
+  ],
+  "outcome": "价格突破前日高点和左侧摆动高点后形成CSD，随后下跌回撤进入区间，触及FVG区域作为目标位。",
+  "lessons": "反转交易需要等待价格突破相关高点/低点形成CSD，而非仅基于初始反转形态。通过识别前日高点、摆动高点和FVG，可以精确定位反转后的目标位和内部流动性。",
+  "primary_image": "cards/VD4xb9VfMHA/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/VD4xb9VfMHA/images/case_003_detail_1.jpg",
+    "cards/VD4xb9VfMHA/images/case_003_detail_2.jpg",
+    "cards/VD4xb9VfMHA/images/case_003_detail_3.jpg",
+    "cards/VD4xb9VfMHA/images/case_003_detail_4.jpg",
+    "cards/VD4xb9VfMHA/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 1小时K线图。图上显示价格范围从43920至44920。标注有三条水平线分别位于44620、44180和44360处。其中44180至44360区间用矩形框标记为C3，44620至44780区间标记为C4。右侧显示一根黑色K线在44180附近，其上方紧邻一根绿色K线在44720附近。图上有多条虚线和实线水平线，以及一条竖直虚线标记在第20天18:00时刻。左下角显示交易平台控制栏，右上角显",
+    "case_003_detail_1.jpg": "USD 价格图表显示烛线图。图上可见价格范围从 21120.00 至 22120.00。图表中标记有三个矩形区域，分别位于约 21520-21680、21640-21760 和 21680-21800 价格水平。两条水平虚线分别位于 21587.00 和 21440.00。烛线呈现绿色和黑色交替，多数烛线具有上下影线。图上标注文字包括 C1、C2、L4 等标记。右上角显示'The Market L",
+    "case_003_detail_2.jpg": "USD 1小时K线图。图表显示价格范围从43880至44920。图上有一条水平虚线位于44394处。右侧区域显示一根大黑色K线（约从44650至44160）随后跟随一根大绿色K线（约从44160至44220）。图上标注有多个矩形区域，分别标记为E4、E2等。中部区域显示44320至44400之间的盘整形态，跨越多根K线。时间标签显示Wed 16 Jul 28 08:00。",
+    "case_003_detail_3.jpg": "图表显示 USD 资产的分钟级 K 线图，价格范围从 44380 到 44940。图上有两条水平虚线分别位于 44820 和 44560，其中 44560 至 44740 区间被标记为矩形框并标注为 C4。K 线序列显示从 16 日 08:00 开始的下跌缺口，随后在 44380 至 44450 区间内出现多根 K 线的盘整，之后价格上升至 44840 附近。18 日出现长上影线的黑色 K 线，随",
+    "case_003_detail_4.jpg": "USD 价格图表显示烛线图。图上可见价格范围从 44200 到 44960。图表中标注有两个矩形区域，分别位于 44560 至 44680 和 44720 至 44840 价格区间，其中一个矩形标记为'c4'。图右侧有一条水平虚线位于约 44807 处。K 线由绿色和黑色烛线组成，分布在整个可见时间范围内。时间轴显示从 16 日至 23 日的时间标记，包含小时级别的细分。",
+    "case_003_detail_5.jpg": "USD 1 小时 K 线图。图上显示价格范围从 44380 到 44900。可见多条水平虚线标注，分别位于 44820、44730、44680 和 44660 处。图中绘制了两个矩形区域：一个覆盖 44680 至 44820 范围（浅绿色），另一个覆盖 44600 至 44730 范围（浅黄色）。K 线序列显示绿色和黑色蜡烛交替出现，其中包含多根长影线的 K 线。右侧工具栏显示'Sell'、'Bu"
+  },
+  "sources": [
+    {
+      "video_id": "VD4xb9VfMHA",
+      "segment_ids": [
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "time_range": [
+        590.32,
+        783.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了反转分析流程：V形结构识别→相关高点确认→CSD触发→FVG目标定位，图表清晰标注关键价位和时间框架。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:00.919812Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 1H：突破前日高点后的反转与FVG目标\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1H\",\"market_context\":\"USD在1小时图上形成V形反转。价格先从高位下跌，随后反弹突破前一日高点，触发Change in State of Delivery，预示反转机会。\",\"key_observation\":\"博主强调：只有当价格突破前一日高点和左侧摆动高点后，才能预期反转。突破这些相关高点后形成的CSD是交易反转的关键信号。\",\"analysis_steps\":[\"Step 1: 识别V形反转结构——价格从高位下跌后快速反弹回升\",\"Step 2: 确认Candle 3延续上升，但判断其未触及相关高点（前日高点和左侧摆动高点）\",\"Step 3: 设定交易目标——价格需突破前日高点和左侧摆动高点才能确认反转有效\",\"Step 4: 观察价格突破这些关键高点，形成Change in State of Delivery\",\"Step 5: 在CSD形成后，预期价格回撤进入区间或反转，识别FVG作为内部流动性目标\",\"Step 6: 确认价格突破等高点后的下跌扩张，形成Expansion met with Expansion的反转结构\"],\"outcome\":\"价格突破前日高点和左侧摆动高点后形成CSD，随后下跌回撤进入区间，触及FVG区域作为目标位。\",\"lessons\":\"反转交易需要等待价格突破相关高点/低点形成CSD，而非仅基于初始反转形态。通过识别前日高点、摆动高点和FVG，可以精确定位反转后的目标位和内部流动性。\",\"primary_image_frame_id\":\"VD4xb9VfMHA_f022\",\"supporting_image_frame_ids\":[\"VD4xb9VfMHA_f020\",\"VD4xb9VfMHA_f021\",\"VD4xb9VfMHA_f023\",\"VD4xb9VfMHA_f024\",\"VD4xb9VfMHA_f025\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Fair Value Gap (FVG)\",\"Swing High / Swing Low\",\"Previous Day High\",\"Expansion\",\"Market Structure\",\"Internal Liquidity\",\"Reversal\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了反转分析流程：V形结构识别→相关高点确认→CSD触发→FVG目标定位，图表清晰标注关键价位和时间框架。\"}",
+  "error": null
+}

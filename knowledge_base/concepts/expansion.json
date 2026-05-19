@@ -1,0 +1,365 @@
+{
+  "card_id": "expansion",
+  "type": "merged_concept",
+  "canonical_term": "Expansion",
+  "aliases": [
+    "Aggressive move",
+    "Expansion candle",
+    "Expansion move",
+    "Expansion phase",
+    "Price expansion",
+    "Strong directional move",
+    "expansive move",
+    "one-sided trending move",
+    "strong momentum phase"
+  ],
+  "school": "ICT",
+  "definition": "价格以强劲、充满活力的势头单边快速推进的阶段，表现为大幅实体K线、较小上下影线，通常伴随FVG产生。可在盘整或回撤后出现，与缓慢浅层的回撤交替循环。多时间框架方向对齐时Expansion强度最高，标志趋势延续或反转的开始。",
+  "identification_rules": [
+    "价格在一个方向上快速运行，K线实体较大、上下影线较小，覆盖较大价格范围",
+    "反向K线（opposing candles）极浅，不回测折价区或重要支撑/阻力位",
+    "形成大幅度范围（large range）与小幅度范围（small range）的交替模式",
+    "通常在市场结构转变（CSD/MSS）或盘整后出现，可通过Protected Swing的形成和维持确认趋势延续",
+    "Expansion后通常伴随FVG（公允价值缺口）的形成",
+    "确认高时间框架存在明确的方向性偏差（如日线/周线摆动点或关键水平突破）",
+    "中间时间框架出现Change in State of Delivery（CSD），收盘穿过形成该高/低点的一系列同向K线",
+    "低时间框架形成订单块（OB）或相关确认信号，与中间时间框架方向一致",
+    "三个时间框架的趋势方向完全对齐后，价格开始加速运动",
+    "Expansion met with Expansion（相反方向的Expansion）表示反转信号；Expansion后跟随Retracement则为延续信号"
+  ],
+  "trading_implication": "Expansion是价格周期的核心推进阶段，本身不是直接入场信号，应在其后的Retracement或Consolidation中寻找入场机会（如FVG内K线收盘或Protected Swing形成）。三个时间框架方向对齐时为高概率设置，可追求2R或更高风险回报比。若Expansion已持续多根K线（3根或以上）或已达到高时间框架目标，应避免追单，预期进入新的价格阶段。",
+  "common_mistakes": [
+    "在Expansion中期望价格大幅回撤至折价区，导致过早止损",
+    "在Expansion阶段直接追单入场，而不等待后续Retracement或Consolidation确认",
+    "Expansion已达到高时间框架目标或已有3根以上K线扩张后仍然追单，导致被套在新的价格阶段",
+    "未能区分Expansion met with Expansion（反转）与Expansion into Retracement into Expansion（延续）",
+    "混淆Expansion与Displacement，未能区分单边趋势与强势突破",
+    "混淆Expansion与单纯的大K线，未确认多时间框架对齐就入场",
+    "仅在低时间框架交易而忽视高时间框架分析，导致逆势交易被止损",
+    "在高时间框架偏差或中间时间框架结构未确认时就在低时间框架寻找入场，造成方向错误",
+    "未等待CSD或订单块确认就仓促入场，增加被诱导（Inducement）的风险",
+    "忽视Expansion与Retracement的时间对比——Retracement应耗时更长但覆盖范围更小",
+    "未结合daily closure验证Expansion信号的有效性，容易被盘中假突破误导"
+  ],
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Timeframe Alignment",
+      "card_id": "timeframe_alignment",
+      "exists": true
+    },
+    {
+      "term": "Top Down Analysis",
+      "card_id": "top_down_analysis_top_down",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF) / Low Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "4Gm8p6O7Ebs_case_001_黄金小时图扩张走势分析",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "黄金1小时图三天扩张走势追踪"
+    },
+    {
+      "card_id": "4Gm8p6O7Ebs_case_002_白银日线扩张至反转案例",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "白银日线三天扩张至反转案例"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_001_nq1_5月27日至6月2日的扩张_整理_反转交易案例",
+      "video_id": "8BWkRGhuj1k",
+      "title": "NQ1! 5月27日-6月2日扩张-整理-反转交易案例"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_005_usd_5分钟图的低时间框架延续交易",
+      "video_id": "8BWkRGhuj1k",
+      "title": "USD 5分钟图低时间框架延续交易——扩张-回撤-扩张信号"
+    },
+    {
+      "card_id": "E6bpY4dQvlE_case_002_s_p_500_e_mini期货15秒图多个box_setup示",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES期货15秒图Box Setup多周期分析与买方曲线入场"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_001_nq1小时线回撤案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1小时线扩张-回撤-扩张循环分析"
+    },
+    {
+      "card_id": "F0G31iLVpVg_case_006_nq1_3分钟实时交易案例",
+      "video_id": "F0G31iLVpVg",
+      "title": "NQ1 3分钟实时交易：扩张-回撤循环与受保护摆动追踪"
+    },
+    {
+      "card_id": "HrjYoxAUb3s_case_001_美元看跌时的eur_usd和usd_jpy配对案例",
+      "video_id": "HrjYoxAUb3s",
+      "title": "美元看跌时的EUR/USD和USD/JPY配对交易案例"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_014_nq与btc_多次expansion后的continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "BTC多次expansion后continuation失败的避坑案例"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_001_usd_1分钟图_盘整突破后的反转识别",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1分钟：盘整突破后的扩张-扩张反转确认"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_002_usd_1小时图_前期高点反转案例",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1小时图：扩张反转与低点扫除的理想结构"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_003_usd_1小时图_多日反转与保护摆动",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1H：突破前日高点后的反转与FVG目标"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_004_spx500_1小时图_反转与回测流程",
+      "video_id": "VD4xb9VfMHA",
+      "title": "SPX500 1H：V形反转与摆动低点回测"
+    },
+    {
+      "card_id": "iEaMbuFZb24_case_005_黄金日线看涨结构的回测和扩张",
+      "video_id": "iEaMbuFZb24",
+      "title": "黄金日线看涨结构回测判断与小时线扩张"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_006_第六个例子_月线分形模型确认",
+      "video_id": "jKuXaC84Qx4",
+      "title": "月线分形模型确认与日线EQ失效下行演示"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_005_gbpusd反转失败案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GBPUSD反转失败案例：CSD信号止损，转向EUR成功"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_013_xagusd多时间框架的反转与延续",
+      "video_id": "qdQYhePcvGE",
+      "title": "XAGUSD日线反转后的小时图延续交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "4Gm8p6O7Ebs",
+      "original_card_id": "4Gm8p6O7Ebs_concept_expansion",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_010"
+      ],
+      "time_range": [
+        11.04,
+        574.32
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_expansion",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022",
+        "seg_023",
+        "seg_024",
+        "seg_025",
+        "seg_026",
+        "seg_030",
+        "seg_031"
+      ],
+      "time_range": [
+        11.12,
+        1653.279
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_expansion",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        11.12,
+        325.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "original_card_id": "PQiRV0JMhIQ_concept_expansion",
+      "segment_ids": [
+        "seg_004",
+        "seg_012",
+        "seg_019",
+        "seg_031",
+        "seg_032"
+      ],
+      "time_range": [
+        236.239,
+        1767.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "iEaMbuFZb24",
+      "original_card_id": "iEaMbuFZb24_concept_expansion",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        11.0,
+        1085.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_expansion",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        11.04,
+        968.959
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 6,
+    "source_videos": 6,
+    "high_confidence_sources": 6,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:59.705419Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "6张原始卡均为ICT学派，无学派冲突。各卡侧重点有差异：部分强调单边趋势循环特征，部分强调多时间框架对齐，已综合融入定义与规则中。",
+  "error": null
+}

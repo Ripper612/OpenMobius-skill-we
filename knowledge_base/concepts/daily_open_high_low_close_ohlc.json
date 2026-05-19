@@ -1,0 +1,56 @@
+{
+  "card_id": "daily_open_high_low_close_ohlc",
+  "type": "merged_concept",
+  "canonical_term": "Daily Open High Low Close (OHLC)",
+  "aliases": [
+    "Daily OHLC",
+    "Open High Low Close"
+  ],
+  "school": "General",
+  "definition": "日线级别的四个关键价格点：开盘价、最高价、最低价、收盘价。用于标记一个完整交易日的价格范围和方向，是识别日线形态和回测目标的基础。",
+  "identification_rules": [
+    "开盘价（Open）：日线K线的起始价格，通常为前一日收盘价附近",
+    "最高价（High）：该交易日内触及的最高价格点",
+    "最低价（Low）：该交易日内触及的最低价格点",
+    "收盘价（Close）：日线K线的结束价格，决定K线实体方向",
+    "在图表上标记这四个价格点可形成日线的完整轮廓"
+  ],
+  "trading_implication": "OHLC用于识别日线形态（如Seek and Destroy中的犹豫K线），以及确定价格回测的目标位。在Seek and Destroy分析中，日线开盘价常作为价格回归的磁石点；日线高低点则界定了当日的交易范围，价格在范围外波动后倾向回归至该范围内部或OHLC关键价位。",
+  "common_mistakes": [
+    "混淆日线OHLC与更低时间框架（如15分钟）的OHLC，导致回测目标错误",
+    "仅关注收盘价方向而忽视开盘价位置，无法准确判断日线是否为犹豫形态",
+    "未能将OHLC与会话范围（Asia、London、New York）结合分析，降低回测的有效性"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "original_card_id": "4WCiIyCiBrQ_concept_daily_open_high_low_close_ohlc",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        192.36,
+        523.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:58:15.565836Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

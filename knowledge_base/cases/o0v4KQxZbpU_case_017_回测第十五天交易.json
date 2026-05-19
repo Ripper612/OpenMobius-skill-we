@@ -1,0 +1,93 @@
+{
+  "card_id": "o0v4KQxZbpU_case_017_回测第十五天交易",
+  "type": "case",
+  "title": "回测第十五天：FVG做多入场被止损出局",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "market_structure",
+    "stop_loss"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "回测第十五天，NAS100在早盘下跌后反弹。博主观察价格扫低后的反弹结构，寻找Fair Value Gap入场做多机会，但最终被止损出局。",
+  "key_observation": "价格在下跌后形成扫低（sweep），随后反弹。博主识别出Fair Value Gap区域作为做多入场点，但价格未能维持上升，反而触及止损位。",
+  "analysis_steps": [
+    "Step 1: 标记出早盘下跌阶段的低点和高点范围，确定市场结构。",
+    "Step 2: 观察价格从低点反弹，识别反弹中的Fair Value Gap（不平衡区域）。",
+    "Step 3: 在FVG区域设置做多入场点，目标为3R风险回报比，止损设在反弹高点。",
+    "Step 4: 价格快速反弹入场，但随后出现盘整或回撤，未能继续上升。",
+    "Step 5: 价格触及止损位，交易被平仓出局。"
+  ],
+  "outcome": "交易被止损出局。博主指出这次交易的入场虽然基于FVG结构，但价格的后续走势（盘整/回撤）导致止损被触发。",
+  "lessons": "即使识别出有效的FVG入场点，也需要确认价格的后续动能和结构延续。过于激进的入场或不理想的市场条件可能导致止损。应在确认位移（Displacement）和结构强度后再入场。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_017_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_017_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_017_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_017_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_017_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_017_primary.jpg": "NAS100 1 分钟 K 线图。图上有三个矩形标注框：上方粉色框标记为'Gap: 15.15(0840) (0.08%) 115688, Amount: 750'，中间绿色框标记为'Open: FRI: 1.3400 Pip, Gap: 11'，下方绿色框标记为'Imbalance (0.27%) 24885, Amount: 1025.48'。K 线由绿色和黑色蜡烛组成，价格范围从约 1567",
+    "case_017_detail_1.jpg": "NAS100 1分钟K线图。图表显示从09:00至10:40的价格走势。左侧主图显示K线序列，从09:00至09:30呈下跌趋势，多根黑色K线，随后从09:30至10:40呈上升趋势，多根绿色K线。图上绘有6条水平线，分别位于15000、15450、15750、19350、19750等价格水平。右侧面板显示3个矩形框，分别标注在19350-19750、15450-15750、15000-15450",
+    "case_017_detail_2.jpg": "NAS100 1 分钟 K 线图。图上显示从约 15100 到 15725 的价格范围。右侧价格刻度标注了多条水平线，间隔为 50 点。图表中央有三个矩形区域标注，分别用浅粉红色和浅绿色填充。左侧 K 线序列呈现黑绿混合形态，右侧主要为绿色 K 线。图上未见其他指标或标注。",
+    "case_017_detail_3.jpg": "NAS100 1分钟K线图。图上显示从约10:15至11:30 UTC的K线序列。可见价格范围约从17670至18812。图表右侧价格轴标注有三条水平线，分别位于18772.5、17745和17670处。图上绘制有两个矩形框，分别对应不同的价格区间。K线呈绿色和黑色交替出现，整体在标注的价格水平之间波动。左侧工具栏显示FX Replay平台界面，顶部标题栏显示'Backtesting'模式。",
+    "case_017_detail_4.jpg": "NAS100 1分钟K线图。图表显示从约15620下跌至14300的下行趋势。左侧主图显示多根绿色和黑色K线混合排列，右侧副图展示更大时间周期的K线形态，其中包含大型黑色K线体。图上有三条水平线分别位于约15620、14600和14300价格位置。可见价格范围从14300到15620。图表底部显示时间轴标记，右下角显示账户余额和交易信息。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_011"
+      ],
+      "time_range": [
+        1010.72,
+        1195.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "转录文本清晰描述了入场过程、止损触发和交易结果；图表显示FVG标注、价格走势和交易区域。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:20.816711Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第十五天：FVG做多入场被止损出局\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"回测第十五天，NAS100在早盘下跌后反弹。博主观察价格扫低后的反弹结构，寻找Fair Value Gap入场做多机会，但最终被止损出局。\",\"key_observation\":\"价格在下跌后形成扫低（sweep），随后反弹。博主识别出Fair Value Gap区域作为做多入场点，但价格未能维持上升，反而触及止损位。\",\"analysis_steps\":[\"Step 1: 标记出早盘下跌阶段的低点和高点范围，确定市场结构。\",\"Step 2: 观察价格从低点反弹，识别反弹中的Fair Value Gap（不平衡区域）。\",\"Step 3: 在FVG区域设置做多入场点，目标为3R风险回报比，止损设在反弹高点。\",\"Step 4: 价格快速反弹入场，但随后出现盘整或回撤，未能继续上升。\",\"Step 5: 价格触及止损位，交易被平仓出局。\"],\"outcome\":\"交易被止损出局。博主指出这次交易的入场虽然基于FVG结构，但价格的后续走势（盘整/回撤）导致止损被触发。\",\"lessons\":\"即使识别出有效的FVG入场点，也需要确认价格的后续动能和结构延续。过于激进的入场或不理想的市场条件可能导致止损。应在确认位移（Displacement）和结构强度后再入场。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f037\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f034\",\"o0v4KQxZbpU_f035\",\"o0v4KQxZbpU_f036\",\"o0v4KQxZbpU_f038\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Market Structure\",\"Risk Management\",\"Stop Loss\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"转录文本清晰描述了入场过程、止损触发和交易结果；图表显示FVG标注、价格走势和交易区域。\"}",
+  "error": null
+}

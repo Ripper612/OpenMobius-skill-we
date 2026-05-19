@@ -1,0 +1,54 @@
+{
+  "card_id": "prop_firm_account_risk_management",
+  "type": "merged_concept",
+  "canonical_term": "Prop Firm Account Risk Management",
+  "aliases": [
+    "Futures Prop Firm Position Sizing",
+    "期货评估账户风险管理"
+  ],
+  "school": "Risk Management",
+  "definition": "在期货评估账户中，基于最大回撤额而非总账户规模来计算风险敞口，通常风险7-10%的回撤额，以保留10-15次连续亏损的容错空间。",
+  "identification_rules": [
+    "识别账户的实际可用回撤额（drawdown size），而非名义账户规模（如25K账户实际回撤额为$1,500）",
+    "计算单笔交易风险占回撤额的百分比，而非占总账户规模的百分比",
+    "验证风险百分比是否能容纳10-15次连续亏损而不爆仓",
+    "在评估阶段（evaluation）使用7-10%风险比例，获得资金后（funded）降低风险比例以增加容错空间"
+  ],
+  "trading_implication": "期货评估账户的风险管理需要特殊处理。不能按总账户规模的1%风险计算（会导致6-7次连续亏损即爆仓），而应基于实际回撤额的7-10%来确定头寸规模。这样可保留足够的亏损容错次数（10-15次），提高账户生存概率。获得资金后可进一步降低风险比例以扩大安全边际。",
+  "common_mistakes": [
+    "按总账户规模的1%计算风险（如25K账户风险1%=$250），导致实际风险占回撤额的177%，账户容错能力严重不足",
+    "混淆评估阶段和获得资金后的风险策略，未根据阶段调整风险比例",
+    "忽视期货和外汇评估账户的回撤额差异，使用相同的风险百分比"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "original_card_id": "0OjlQ91TZiU_concept_prop_firm_account_risk_management",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        568.12,
+        673.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135123Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

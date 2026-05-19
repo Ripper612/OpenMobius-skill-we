@@ -1,0 +1,97 @@
+{
+  "card_id": "LKNQDAdId4s_case_005_es小时图wick被不尊重后的高点扫除",
+  "type": "case",
+  "title": "ES小时图wick被不尊重后的高点扫除",
+  "related_concepts": [
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "0.5 Fibonacci Level",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "wick",
+    "fair_value_gap",
+    "fibonacci_retracement",
+    "market_structure_shift",
+    "liquidity",
+    "order_block",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1H",
+  "market_context": "ES小时图形成一根带长下影线的wick，博主预期价格在下半部分形成高点后下行。但在5分钟图上价格穿过0.5位置并反转FVG，最终扫出小时图高点。",
+  "key_observation": "当wick的0.5位置被穿过且FVG被反转时，价格更可能扫除高点而非尊重wick下行。这表明wick被不尊重，市场结构转变为看涨。",
+  "analysis_steps": [
+    "Step 1: 在ES小时图上识别形成的wick（长下影线），预期价格在wick下半部分形成高点后下行。",
+    "Step 2: 下钻到5分钟图观察价格是否尊重wick的0.5位置。",
+    "Step 3: 观察到价格收盘穿过wick的0.5位置，表明wick被不尊重。",
+    "Step 4: 确认价格反转了该区域的FVG（Fair Value Gap）。",
+    "Step 5: 基于wick被不尊重和FVG反转，判断价格更可能上行扫除小时图高点。",
+    "Step 6: 价格随后上升扫出小时图高点，验证分析结论。"
+  ],
+  "outcome": "价格扫除了ES小时图高点，确认了wick被不尊重后的看涨扩张。",
+  "lessons": "当价格穿过wick的0.5位置并反转该区域的FVG时，wick被视为不被尊重，市场结构转变为看涨，价格倾向于扫除前期高点而非下行。这是判断市场结构转变和高概率交易设置的关键信号。",
+  "primary_image": "cards/LKNQDAdId4s/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/LKNQDAdId4s/images/case_005_detail_1.jpg",
+    "cards/LKNQDAdId4s/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为1小时K线图，右上角标注'The Market Lens / Trades_edb'水印。图上可见一个矩形框，上边界约在2624.0，下边界约在2596.0，横跨图中大部分K线区域。右侧价格轴当前高亮标签显示2599.3，并有一条虚线水平延伸至图左。图中K线在2600.0至2624.0区间内交替排列，多根K线上影线触及矩形上边界2624.0附近。时间轴显示日期跨越11月13日至14日，当前垂",
+    "case_005_detail_1.jpg": "图表为蜡烛图，时间框架标注为1H，右上角带有水印文字'The Market Lens'及'Trades_edu'。可见价格范围约从2576.0至2660.0，K线横跨日期12至14。图左侧出现一根较长的阴线，收盘约在2628.0附近，随后K线在2620.0至2632.0区间内形成多根小实体蜡烛。此后价格下行至约2596.0，随后出现数根阳线回升。日期13前后K线在2604.0至2616.0区间内形",
+    "case_005_detail_2.jpg": "图表为5分钟K线图，日期标注为Wed 13 Nov，右上角水印显示'The Market Lens'。价格轴范围约从2588.0至2626.0。图上有三条水平线，分别位于约2610.0、2602.5和2596.0处，均无文字标签。K线序列中，约10:00处出现一根大阴线，随后在2604至2612区间内有数根K线横向排列。约11:30处再次出现大阴线，之后在2594至2596附近有数根小阳线。约12"
+  },
+  "sources": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.72,
+        552.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰，包括资产(ES)、时间框架(1H/5M)、关键价位(0.5位置)、分析步骤和最终结果都有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:50.317214Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES小时图wick被不尊重后的高点扫除\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1H\",\"market_context\":\"ES小时图形成一根带长下影线的wick，博主预期价格在下半部分形成高点后下行。但在5分钟图上价格穿过0.5位置并反转FVG，最终扫出小时图高点。\",\"key_observation\":\"当wick的0.5位置被穿过且FVG被反转时，价格更可能扫除高点而非尊重wick下行。这表明wick被不尊重，市场结构转变为看涨。\",\"analysis_steps\":[\"Step 1: 在ES小时图上识别形成的wick（长下影线），预期价格在wick下半部分形成高点后下行。\",\"Step 2: 下钻到5分钟图观察价格是否尊重wick的0.5位置。\",\"Step 3: 观察到价格收盘穿过wick的0.5位置，表明wick被不尊重。\",\"Step 4: 确认价格反转了该区域的FVG（Fair Value Gap）。\",\"Step 5: 基于wick被不尊重和FVG反转，判断价格更可能上行扫除小时图高点。\",\"Step 6: 价格随后上升扫出小时图高点，验证分析结论。\"],\"outcome\":\"价格扫除了ES小时图高点，确认了wick被不尊重后的看涨扩张。\",\"lessons\":\"当价格穿过wick的0.5位置并反转该区域的FVG时，wick被视为不被尊重，市场结构转变为看涨，价格倾向于扫除前期高点而非下行。这是判断市场结构转变和高概率交易设置的关键信号。\",\"primary_image_frame_id\":\"LKNQDAdId4s_f018\",\"supporting_image_frame_ids\":[\"LKNQDAdId4s_f017\",\"LKNQDAdId4s_f019\"],\"related_concepts\":[\"Wick\",\"Fair Value Gap\",\"0.5 Fibonacci Level\",\"Market Structure Shift\",\"Liquidity\",\"Order Block\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰，包括资产(ES)、时间框架(1H/5M)、关键价位(0.5位置)、分析步骤和最终结果都有明确说明。\"}",
+  "error": null
+}

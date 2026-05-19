@@ -1,0 +1,105 @@
+{
+  "card_id": "0xygpCMwxbQ_case_004_nasdaq_1分钟图表的box_setup交易",
+  "type": "case",
+  "title": "NASDAQ 1分钟Box Setup交易——无结构转变的范围突破",
+  "related_concepts": [
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "box_setup",
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "market_structure_shift",
+    "premium_discount",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1M",
+  "market_context": "NASDAQ 100 E-mini期货在1分钟图表上形成积累-操纵-派发模式。价格在一个范围内震荡，未形成明确的市场结构转变（MSS），但通过Box Setup识别入场机会。",
+  "key_observation": "博主识别出虽然未出现标准的结构转变，但通过Box Setup方法在范围内识别积累-操纵-派发模式，最终价格突破上方流动性，展示了无需完整标准也可交易的情况。",
+  "analysis_steps": [
+    "Step 1: 观察NASDAQ 1分钟图表，识别价格在约13267水平附近形成的范围（Box）。",
+    "Step 2: 标记范围内的积累阶段——价格在范围内多次测试低点但未能有效突破。",
+    "Step 3: 识别操纵阶段——价格向下突破范围低点，但随后快速反转回到范围内（aggressive down then aggressive up）。",
+    "Step 4: 确认这是偏离范围的操纵行为（deviation from range），而非真正的结构转变。",
+    "Step 5: 等待派发阶段——观察K线是否在范围上方形成收盘，确认突破意图。",
+    "Step 6: 注意到K线未能有效收盘在旧低点下方，价格随后向上移动。",
+    "Step 7: 在范围上方识别流动性（liquidity resting above），设置目标指向该流动性。",
+    "Step 8: 执行Box Setup入场，止损设置在范围低点，目标指向上方流动性。",
+    "Step 9: 价格最终突破上方流动性，交易成功完成。"
+  ],
+  "outcome": "价格突破上方流动性，交易获利。虽未形成标准的市场结构转变，但通过Box Setup方法成功识别并执行了交易。",
+  "lessons": "Box Setup展示了在没有完整标准结构的情况下也可进行交易的方法。关键是识别积累-操纵-派发模式，即使未出现MSS。重点是观察价格偏离范围后的反应，以及上方流动性的存在。无需等待完美的结构转变，通过范围突破和流动性分析也能找到高概率交易机会。",
+  "primary_image": "cards/0xygpCMwxbQ/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/0xygpCMwxbQ/images/case_004_detail_1.jpg",
+    "cards/0xygpCMwxbQ/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图为 NASDAQ 100 E-mini Futures 1 分钟 K 线图，时间轴显示 13:15 至 14:10，当前时间戳标注为 Wed 10 May 23 13:42。图右侧价格轴当前价标签显示 13266.50。图右上角有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图中央有一个绿色矩形区域（目",
+    "case_004_detail_1.jpg": "NASDAQ 100 E-mini Futures 1 分钟 K 线图，时间轴显示 13:05 至 14:00。图右侧价格刻度范围约从 13257.5 至 13325.0，当前价格标签高亮显示约 13271.50。图上 K 线序列整体自左上向右下排列，期间夹杂数根绿色 K 线。图右上角有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD A",
+    "case_004_detail_2.jpg": "图表为 NASDAQ 100 E-mini Futures（NQ1!）1 分钟 K 线图，时间轴显示 2023 年 5 月 10 日 13:15 至 14:10 区间。图右侧有五行文字标签：Stop Raid、Structure Shift、Discount / Premium、PD Array、Solid RR。图上有一条水平线，位于约 13267 价位，从 13:28 延伸至 13:45 附近"
+  },
+  "sources": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        367.8,
+        548.1
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NASDAQ 1分钟Box Setup案例的分析完整清晰，包括资产代码、时间框架、关键价位、分析步骤和交易结果，图表截图也清晰展示了范围、操纵和突破过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:14:41.919556Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NASDAQ 1分钟Box Setup交易——无结构转变的范围突破\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1M\",\"market_context\":\"NASDAQ 100 E-mini期货在1分钟图表上形成积累-操纵-派发模式。价格在一个范围内震荡，未形成明确的市场结构转变（MSS），但通过Box Setup识别入场机会。\",\"key_observation\":\"博主识别出虽然未出现标准的结构转变，但通过Box Setup方法在范围内识别积累-操纵-派发模式，最终价格突破上方流动性，展示了无需完整标准也可交易的情况。\",\"analysis_steps\":[\"Step 1: 观察NASDAQ 1分钟图表，识别价格在约13267水平附近形成的范围（Box）。\",\"Step 2: 标记范围内的积累阶段——价格在范围内多次测试低点但未能有效突破。\",\"Step 3: 识别操纵阶段——价格向下突破范围低点，但随后快速反转回到范围内（aggressive down then aggressive up）。\",\"Step 4: 确认这是偏离范围的操纵行为（deviation from range），而非真正的结构转变。\",\"Step 5: 等待派发阶段——观察K线是否在范围上方形成收盘，确认突破意图。\",\"Step 6: 注意到K线未能有效收盘在旧低点下方，价格随后向上移动。\",\"Step 7: 在范围上方识别流动性（liquidity resting above），设置目标指向该流动性。\",\"Step 8: 执行Box Setup入场，止损设置在范围低点，目标指向上方流动性。\",\"Step 9: 价格最终突破上方流动性，交易成功完成。\"],\"outcome\":\"价格突破上方流动性，交易获利。虽未形成标准的市场结构转变，但通过Box Setup方法成功识别并执行了交易。\",\"lessons\":\"Box Setup展示了在没有完整标准结构的情况下也可进行交易的方法。关键是识别积累-操纵-派发模式，即使未出现MSS。重点是观察价格偏离范围后的反应，以及上方流动性的存在。无需等待完美的结构转变，通过范围突破和流动性分析也能找到高概率交易机会。\",\"primary_image_frame_id\":\"0xygpCMwxbQ_f017\",\"supporting_image_frame_ids\":[\"0xygpCMwxbQ_f015\",\"0xygpCMwxbQ_f016\"],\"related_concepts\":[\"Box Setup\",\"Accumulation, Manipulation, Distribution\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Market Structure Shift\",\"Premium / Discount\",\"PD Array\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NASDAQ 1分钟Box Setup案例的分析完整清晰，包括资产代码、时间框架、关键价位、分析步骤和交易结果，图表截图也清晰展示了范围、操纵和突破过程。\"}",
+  "error": null
+}

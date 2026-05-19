@@ -1,0 +1,93 @@
+{
+  "card_id": "nWHint4Yano_case_002_美元继续上升时的gbpusd做空机会",
+  "type": "case",
+  "title": "美元反转上升时通过相对强度确认GBPUSD做空",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "consolidation",
+    "continuation_pattern",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "SMC",
+  "asset": "GBPUSD",
+  "timeframe": "1H",
+  "market_context": "美元指数(DXY)在103.0低点反转后形成盘整，随后继续上升至106.5附近。EURGBP保持看涨趋势，表明英镑相对欧元较弱。在美元继续上升的环境下，寻找GBPUSD的做空机会。",
+  "key_observation": "博主通过对比EURUSD和GBPUSD的相对强度，利用EURGBP的看涨信号确认英镑较弱。美元形成SMT信号（美元低点被扫除后继续上升），结合GBPUSD的盘整突破，形成高概率做空设置。",
+  "analysis_steps": [
+    "Step 1: 观察DXY美元指数从103.0低点反转，在104.0-105.5区间形成盘整，右侧出现绿色K线表明美元继续上升。",
+    "Step 2: 检查EURUSD在1.05200-1.06200区间盘整，未能跟随美元强势上升，显示欧元相对较弱。",
+    "Step 3: 通过EURGBP看涨趋势确认欧元强于英镑，因此在美元上升环境下应做空GBPUSD而非EURUSD。",
+    "Step 4: 在GBPUSD 1小时图上识别盘整结构（1.25000-1.26500区间），等待突破信号。",
+    "Step 5: 当GBPUSD突破盘整下方时，结合美元SMT信号和相对强度确认，形成做空入场机会。"
+  ],
+  "outcome": null,
+  "lessons": "相对强度分析是多资产交易中的关键工具。通过对比相关资产（如EURGBP）可以精确判断哪个货币对更适合交易。美元的SMT信号与盘整突破的结合提高了交易的概率。在趋势延续阶段，应优先选择相对较弱的资产进行反向交易。",
+  "primary_image": "cards/nWHint4Yano/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/nWHint4Yano/images/case_002_detail_1.jpg",
+    "cards/nWHint4Yano/images/case_002_detail_2.jpg",
+    "cards/nWHint4Yano/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "GBPUSD 1 小时 K 线图。图上显示从左至右的价格走势，从约 1.23800 上升至 1.27200，随后下跌至约 1.24800。图上有两条水平线分别位于 1.26500 和 1.25000 附近。另有两个矩形标注框分别覆盖约 1.26000 至 1.27000 和 1.24500 至 1.25500 的价格区间。右侧最新 K 线显示一根大绿色 K 线后跟一根大黑色 K 线。可见价格范围从",
+    "case_002_detail_1.jpg": "DXY 美元指数 K 线图。图表显示从左侧约 107.5 的高点向下运行至中间约 103.0 的低点，形成下降趋势。中间区域出现盘整形态，价格在 104.0 至 105.5 之间波动。图上有两个矩形标注框，分别覆盖约 104.5-105.5 和 104.0-105.0 的价格区间。右侧显示一根黑色 K 线后跟两根绿色 K 线，绿色 K 线收盘价高于黑色 K 线。整体可见价格范围约 103.0 至 ",
+    "case_002_detail_2.jpg": "DXY 日线图。图表显示从左至右的完整价格走势，价格范围在 103.500 至 107.600 之间。左侧显示上升趋势至高点 107.600，随后进入下降趋势至 104.000 附近。中间区域呈现 104.500 至 105.500 的盘整形态。右侧显示价格重新上升至 106.500，最后一根 K 线为绿色，带有上影线。图上未见其他标注、水平线或指标。",
+    "case_002_detail_3.jpg": "EURUSD 1小时K线图。图表显示价格范围约从1.04500至1.07500。图上有一个黄色矩形标注，覆盖约1.05200至1.06200的价格区间，跨越多根K线。左侧K线以黑色为主，价格在1.04500至1.05800区间波动。右侧出现绿色K线，最高触及约1.07500。整个图表中K线普遍呈现较长的上下影线。中间区域显示价格在黄色矩形标注的范围内出现盘整形态。"
+  },
+  "sources": [
+    {
+      "video_id": "nWHint4Yano",
+      "segment_ids": [
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        366.319,
+        490.4
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了多资产分析流程、DXY和GBPUSD的具体价位、盘整区间、以及相对强度判断逻辑，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:10.624288Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美元反转上升时通过相对强度确认GBPUSD做空\",\"school\":\"SMC\",\"asset\":\"GBPUSD\",\"timeframe\":\"1H\",\"market_context\":\"美元指数(DXY)在103.0低点反转后形成盘整，随后继续上升至106.5附近。EURGBP保持看涨趋势，表明英镑相对欧元较弱。在美元继续上升的环境下，寻找GBPUSD的做空机会。\",\"key_observation\":\"博主通过对比EURUSD和GBPUSD的相对强度，利用EURGBP的看涨信号确认英镑较弱。美元形成SMT信号（美元低点被扫除后继续上升），结合GBPUSD的盘整突破，形成高概率做空设置。\",\"analysis_steps\":[\"Step 1: 观察DXY美元指数从103.0低点反转，在104.0-105.5区间形成盘整，右侧出现绿色K线表明美元继续上升。\",\"Step 2: 检查EURUSD在1.05200-1.06200区间盘整，未能跟随美元强势上升，显示欧元相对较弱。\",\"Step 3: 通过EURGBP看涨趋势确认欧元强于英镑，因此在美元上升环境下应做空GBPUSD而非EURUSD。\",\"Step 4: 在GBPUSD 1小时图上识别盘整结构（1.25000-1.26500区间），等待突破信号。\",\"Step 5: 当GBPUSD突破盘整下方时，结合美元SMT信号和相对强度确认，形成做空入场机会。\"],\"outcome\":null,\"lessons\":\"相对强度分析是多资产交易中的关键工具。通过对比相关资产（如EURGBP）可以精确判断哪个货币对更适合交易。美元的SMT信号与盘整突破的结合提高了交易的概率。在趋势延续阶段，应优先选择相对较弱的资产进行反向交易。\",\"primary_image_frame_id\":\"nWHint4Yano_f017\",\"supporting_image_frame_ids\":[\"nWHint4Yano_f014\",\"nWHint4Yano_f015\",\"nWHint4Yano_f016\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Relative Strength\",\"Consolidation\",\"Continuation\",\"Order Block\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了多资产分析流程、DXY和GBPUSD的具体价位、盘整区间、以及相对强度判断逻辑，分析步骤清晰有序。\"}",
+  "error": null
+}

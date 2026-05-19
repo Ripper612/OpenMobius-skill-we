@@ -1,0 +1,99 @@
+{
+  "card_id": "ZVUDpCyvxfQ_case_001_nasdaq_100期货中的sibi和bisi识别",
+  "type": "case",
+  "title": "NASDAQ 100期货中SIBI和BISI的识别与Consequent Encroachment分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "SIBI (Sell-side Imbalance)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "BISI (Buy-side Imbalance)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Consequent Encroachment (CE)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1! (NASDAQ 100 E-mini Futures)",
+  "timeframe": "1H / 15M",
+  "market_context": "NASDAQ 100期货在5月27日至5月3日期间经历了从12810下跌至12620的下行走势，随后反弹至12800。博主通过1小时和15分钟图表展示了看跌缺口（SIBI）和看涨缺口（BISI）的形成与价格反应机制。",
+  "key_observation": "博主识别出在12710-12770价格区间内同时存在SIBI（看跌公允价值缺口）和BISI（看涨公允价值缺口），并强调Consequent Encroachment（缺口中点）作为判断价格是否尊重缺口的关键水平。",
+  "analysis_steps": [
+    "Step 1: 定义FVG的三K线模式——第一根K线的低点与第三根K线的高点不重叠（看跌缺口），或第一根K线的高点与第三根K线的低点不重叠（看涨缺口）。",
+    "Step 2: 区分SIBI（Sell-side Imbalance，看跌缺口）和BISI（Buy-side Imbalance，看涨缺口）的定义——SIBI表示卖方被执行但买方无效率，BISI表示买方被执行但卖方无效率。",
+    "Step 3: 在1小时图表上标记SIBI（约12710-12760）和BISI（约12710-12770）的具体位置，观察价格如何在这些区域反应。",
+    "Step 4: 计算并标记Consequent Encroachment（CE），即缺口的50%中点水平，作为判断价格尊重缺口的关键参考。",
+    "Step 5: 在15分钟图表上验证SIBI和BISI的存在，观察价格在更低时间框架上的具体行为。",
+    "Step 6: 分析价格回归缺口时的三种可能情况：(a)触及缺口后收盘在CE之外继续下行；(b)触及CE后收盘在CE之外；(c)触及缺口后构建新缺口并收盘在CE之外。",
+    "Step 7: 识别缺口失效的条件——当价格收盘穿过CE或完全穿过缺口时，该缺口被视为无效。"
+  ],
+  "outcome": null,
+  "lessons": "SIBI和BISI的识别需要严格遵循三K线模式的定义。Consequent Encroachment（缺口中点）是判断价格是否尊重缺口的核心指标——价格收盘位置相对于CE决定了缺口的有效性和后续走势方向。在多时间框架上验证缺口信号可提高分析的可靠性。",
+  "primary_image": "cards/ZVUDpCyvxfQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/ZVUDpCyvxfQ/images/case_001_detail_1.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_001_detail_2.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_001_detail_3.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_001_detail_4.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_001_detail_5.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_001_detail_6.jpg",
+    "cards/ZVUDpCyvxfQ/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NASDAQ 100 E-mini Futures 1小时K线图。图上显示从27日03:00至5月09:00的价格走势。左侧为三根黑色K线，从12810下跌至12620，每根均带上影线。右侧为三根绿色K线，从12620上升至12800，每根均带下影线。图中有两个灰色矩形区域，分别标注为SIBI和BISI，均位于12710至12770价格区间。右侧显示当前价格12694.25。",
+    "case_001_detail_1.jpg": "NASDAQ 100 E-mini Futures 1 小时 K 线图。图上方标注文字'Fair Value Gap'。图表显示 4 根 K 线序列：两根黑色（下跌）K 线后跟两根绿色（上涨）K 线。第一根黑色 K 线在 12820 附近有上影线，收盘约 12750。第二根黑色 K 线下影线延伸至约 12610。第一根绿色 K 线开盘高于前一根黑色 K 线收盘，形成缺口，主体范围约 12630 至",
+    "case_001_detail_2.jpg": "NASDAQ 100 E-mini Futures 1 小时 K 线图。图上显示 6 根 K 线，前 3 根为黑色（下跌），后 3 根为绿色（上涨）。价格范围从 12610 到 12820。图上有一个灰色矩形框标注，覆盖约 12710 至 12760 的价格区间。两条文字标签分别标记为 LOW（约 12740）和 HIGH（约 12760）。右下角显示当前价格 12668.50。",
+    "case_001_detail_3.jpg": "NASDAQ 100 E-mini Futures 1小时K线图。图上显示从5月1日03:00至5月3日21:00的价格走势，可见价格范围约12610至12870。图上有多条水平线标注，其中标记为LOW和HIGH的线条分别位于约12745和12760附近。图中央有一个灰色矩形区域，范围约在12710至12760之间。K线序列包含黑色和绿色蜡烛，其中黑色蜡烛显示上下影线，绿色蜡烛亦有上下影线。右侧显",
+    "case_001_detail_4.jpg": "NASDAQ 100 E-mini Futures 1小时K线图。图上显示从05:00至21:00的价格走势，可见价格范围约12610至12870。图上标注两条水平线：LOW标记在12745，HIGH标记在12760。图中包含多根黑色和绿色K线，其中09:00黑色K线上影线延伸至约12820，12:00黑色K线下影线延伸至约12610。15:00和18:00处各有一根绿色K线，18:00绿色K线上",
+    "case_001_detail_5.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图表显示从27日至4月23日的价格走势，价格范围约12957.50至13017.50。K线序列由绿色和黑色蜡烛交替组成，共约40根。图上有两个灰色矩形区域标注在12988至13002价格范围内。两条向下倾斜的红色趋势线绘制在图表上方区域。右侧显示多个价格标签：13008.33、12988.09、12986.75、12977.75。",
+    "case_001_detail_6.jpg": "NASDAQ 100 E-mini Futures 15分钟K线图。图上显示从23:00至16:00的价格走势，价格范围约13160至13276。图上标注有文字标签'SIBI'位于13244附近。可见一条水平线位于13103.50。图上有一个矩形框标注在13240至13250区间。K线呈现多次下跌后反弹的形态，其中04:00和08:00处各有一根长下影线的黑色K线，下影线刺破至13160附近。右侧",
+    "case_001_detail_7.jpg": "NASDAQ 100 E-mini Futures 15分钟图表。图上标题为'Consequent Encroachment (CE)'。左侧显示3根黑色K线，右侧显示3根绿色K线，两组K线在约12920至12960价格区间内各有一个灰色矩形标注，分别标记为'SIBI'和'BISI'。图上有两条标记为'FVG FILL'的文字标签。虚线水平线连接左右两侧K线的上影线。右侧显示当前价格12927.0"
+  },
+  "sources": [
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        363.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对SIBI/BISI的定义、识别方法、Consequent Encroachment的应用都有完整讲解，图表标注清晰，价格水平和时间框架均可从图上读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:34.593628Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NASDAQ 100期货中SIBI和BISI的识别与Consequent Encroachment分析\",\"school\":\"ICT\",\"asset\":\"NQ1! (NASDAQ 100 E-mini Futures)\",\"timeframe\":\"1H / 15M\",\"market_context\":\"NASDAQ 100期货在5月27日至5月3日期间经历了从12810下跌至12620的下行走势，随后反弹至12800。博主通过1小时和15分钟图表展示了看跌缺口（SIBI）和看涨缺口（BISI）的形成与价格反应机制。\",\"key_observation\":\"博主识别出在12710-12770价格区间内同时存在SIBI（看跌公允价值缺口）和BISI（看涨公允价值缺口），并强调Consequent Encroachment（缺口中点）作为判断价格是否尊重缺口的关键水平。\",\"analysis_steps\":[\"Step 1: 定义FVG的三K线模式——第一根K线的低点与第三根K线的高点不重叠（看跌缺口），或第一根K线的高点与第三根K线的低点不重叠（看涨缺口）。\",\"Step 2: 区分SIBI（Sell-side Imbalance，看跌缺口）和BISI（Buy-side Imbalance，看涨缺口）的定义——SIBI表示卖方被执行但买方无效率，BISI表示买方被执行但卖方无效率。\",\"Step 3: 在1小时图表上标记SIBI（约12710-12760）和BISI（约12710-12770）的具体位置，观察价格如何在这些区域反应。\",\"Step 4: 计算并标记Consequent Encroachment（CE），即缺口的50%中点水平，作为判断价格尊重缺口的关键参考。\",\"Step 5: 在15分钟图表上验证SIBI和BISI的存在，观察价格在更低时间框架上的具体行为。\",\"Step 6: 分析价格回归缺口时的三种可能情况：(a)触及缺口后收盘在CE之外继续下行；(b)触及CE后收盘在CE之外；(c)触及缺口后构建新缺口并收盘在CE之外。\",\"Step 7: 识别缺口失效的条件——当价格收盘穿过CE或完全穿过缺口时，该缺口被视为无效。\"],\"outcome\":null,\"lessons\":\"SIBI和BISI的识别需要严格遵循三K线模式的定义。Consequent Encroachment（缺口中点）是判断价格是否尊重缺口的核心指标——价格收盘位置相对于CE决定了缺口的有效性和后续走势方向。在多时间框架上验证缺口信号可提高分析的可靠性。\",\"primary_image_frame_id\":\"ZVUDpCyvxfQ_f007\",\"supporting_image_frame_ids\":[\"ZVUDpCyvxfQ_f002\",\"ZVUDpCyvxfQ_f003\",\"ZVUDpCyvxfQ_f004\",\"ZVUDpCyvxfQ_f005\",\"ZVUDpCyvxfQ_f006\",\"ZVUDpCyvxfQ_f008\",\"ZVUDpCyvxfQ_f009\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"SIBI (Sell-side Imbalance)\",\"BISI (Buy-side Imbalance)\",\"Consequent Encroachment (CE)\",\"Imbalance\",\"Price Action\",\"Market Structure\"],\"extraction_co",
+  "error": null
+}

@@ -1,0 +1,117 @@
+{
+  "card_id": "gZLLuB_rmis_case_003_s_p_500期货1分钟线上的多层ote嵌套",
+  "type": "case",
+  "title": "ES 1分钟线多层OTE嵌套的精确入场分析",
+  "related_concepts": [
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "optimal_trade_entry_ote",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "fibonacci_retracement",
+    "displacement",
+    "market_structure_shift_mss",
+    "premium_discount_premium_",
+    "equilibrium_eq",
+    "breaker_block",
+    "smart_money_technique_smt"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1m",
+  "market_context": "S&P 500 E-mini期货在小时线上形成智能货币反转后出现位移腿，价格从高时间框架OTE区域回撤至低时间框架，展现多层嵌套OTE的实际应用场景。",
+  "key_observation": "博主展示了如何在高时间框架OTE内部利用低时间框架的多个FVG和OTE进行精确入场，通过斐波那契回撤（0.5、0.62、0.79）和订单块的汇聚形成高概率交易设置。",
+  "analysis_steps": [
+    "Step 1: 在小时线上识别智能货币反转和随后的位移腿破坏结构",
+    "Step 2: 使用位移范围（从低到高）绘制高时间框架OTE，标记0.62和0.79斐波那契水平",
+    "Step 3: 在高时间框架OTE内部观察5分钟线，识别多个公允价值缺口（FVG）",
+    "Step 4: 在5分钟线上应用斐波那契回撤工具，找到0.5、0.62、0.78水平与FVG的汇聚点",
+    "Step 5: 在1分钟线上进一步细化，识别订单块和额外的FVG形成嵌套OTE结构",
+    "Step 6: 确认折价区内的多层支撑汇聚，作为最优交易入场点"
+  ],
+  "outcome": null,
+  "lessons": "多层OTE嵌套通过跨时间框架的斐波那契水平和FVG汇聚提供高概率入场机会。在高时间框架OTE内部寻找低时间框架的结构破坏和公允价值缺口，能显著提高交易精确度。订单块与FVG的重叠形成强有力的支撑/阻力区域。",
+  "primary_image": "cards/gZLLuB_rmis/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/gZLLuB_rmis/images/case_003_detail_1.jpg",
+    "cards/gZLLuB_rmis/images/case_003_detail_2.jpg",
+    "cards/gZLLuB_rmis/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 1分钟K线图。图表显示从左至右的时间序列，时间轴标注从11:30至15:50。价格范围从4094.00至4148.00。图上K线呈现先涨后跌的整体形态：前半段K线多为绿色，价格从约4120上升至4142附近；中段出现大幅下跌，红色K线连续出现，价格下行至4102；后半段K线在4102至4120区间内震荡，绿红交替。最右侧最新K线为红色，收盘价接近409",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图表显示价格范围从 3890 到 4125。图上有一个灰色矩形框标注在 3920 至 3960 区间。在该矩形附近标记有两个斐波那契水平线标签：0.382 和 0.5。图表左侧显示早期价格在 3900 至 3950 区间的波动，中部出现标注矩形的盘整区域，右侧显示从约 4000 向上延伸至 4125 的上升走势，期间包含多根绿色 K",
+    "case_003_detail_2.jpg": "ES 5分钟K线图。图上显示从左至右的价格走势，整体范围约4075至4137.50。图中绘有一条水平线位于4104.75，以及一个灰色矩形框标注在4097.50至4104.75区间。图上有三条斐波那契回撤水平线，分别标记为0.5、0.62、0.78，对应价格约4102.50、4100.00、4097.50。K线呈现红绿交替形态，左侧以红色K线为主，中段出现绿色K线，右侧再次出现大幅红色K线。右侧价",
+    "case_003_detail_3.jpg": "ES 5分钟K线图。图上显示一段时间内的价格走势，包含多根绿色和红色K线。右侧价格轴显示当前价格为4108.25。图上有4条水平线标注，分别位于4108.25、4100.00（标记为0.5）、4092.00（标记为0.62）和4082.00（标记为0.71）。在4092至4108.25之间有一个灰色矩形区域。可见价格范围从约4682到4129。"
+  },
+  "sources": [
+    {
+      "video_id": "gZLLuB_rmis",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.04,
+        185.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从高时间框架到低时间框架的分析过程，清晰标注了关键价位、斐波那契水平和OTE区域，多张图表支撑分析逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:38.512302Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 1分钟线多层OTE嵌套的精确入场分析\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1m\",\"market_context\":\"S&P 500 E-mini期货在小时线上形成智能货币反转后出现位移腿，价格从高时间框架OTE区域回撤至低时间框架，展现多层嵌套OTE的实际应用场景。\",\"key_observation\":\"博主展示了如何在高时间框架OTE内部利用低时间框架的多个FVG和OTE进行精确入场，通过斐波那契回撤（0.5、0.62、0.79）和订单块的汇聚形成高概率交易设置。\",\"analysis_steps\":[\"Step 1: 在小时线上识别智能货币反转和随后的位移腿破坏结构\",\"Step 2: 使用位移范围（从低到高）绘制高时间框架OTE，标记0.62和0.79斐波那契水平\",\"Step 3: 在高时间框架OTE内部观察5分钟线，识别多个公允价值缺口（FVG）\",\"Step 4: 在5分钟线上应用斐波那契回撤工具，找到0.5、0.62、0.78水平与FVG的汇聚点\",\"Step 5: 在1分钟线上进一步细化，识别订单块和额外的FVG形成嵌套OTE结构\",\"Step 6: 确认折价区内的多层支撑汇聚，作为最优交易入场点\"],\"outcome\":null,\"lessons\":\"多层OTE嵌套通过跨时间框架的斐波那契水平和FVG汇聚提供高概率入场机会。在高时间框架OTE内部寻找低时间框架的结构破坏和公允价值缺口，能显著提高交易精确度。订单块与FVG的重叠形成强有力的支撑/阻力区域。\",\"primary_image_frame_id\":\"gZLLuB_rmis_f007\",\"supporting_image_frame_ids\":[\"gZLLuB_rmis_f006\",\"gZLLuB_rmis_f002\",\"gZLLuB_rmis_f005\"],\"related_concepts\":[\"Optimal Trade Entry (OTE)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Fibonacci Retracement\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Premium/Discount\",\"Equilibrium (EQ)\",\"Breaker Block\",\"Smart Money Technique (SMT)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从高时间框架到低时间框架的分析过程，清晰标注了关键价位、斐波那契水平和OTE区域，多张图表支撑分析逻辑。\"}",
+  "error": null
+}

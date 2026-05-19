@@ -1,0 +1,52 @@
+{
+  "card_id": "automatic_time_frame",
+  "type": "merged_concept",
+  "canonical_term": "Automatic Time Frame",
+  "aliases": [
+    "Auto Time Frame",
+    "自动时间框架"
+  ],
+  "school": "General",
+  "definition": "指标的自动时间框架选项，根据预设的时间框架对自动调整。用户可在多个预设组合（如日线-小时线、5分钟-1小时）中选择，指标会自动适配当前图表周期。",
+  "identification_rules": [
+    "在指标设置面板的 Fractal 时间框架下拉菜单中查看，选项包括 Automatic、15s-5m、1m-15m、3m-30m、5m-1H、15m-4H、1H-1D、4H-1W、1D-1M 等预设组合。",
+    "选择 Automatic 后，指标会根据当前图表时间框架自动调整为对应的高低时间框架组合。",
+    "若未使用自动模式而手动选择特定组合（如 1m-15m），在不匹配的时间框架上查看会触发警告和错误提示。"
+  ],
+  "trading_implication": "Automatic Time Frame 使交易者能灵活地在不同时间框架组合间切换，无需手动重新配置指标参数。这提高了分析效率，特别是在多时间框架分析中（如从日线-小时线切换到5分钟-1小时）。指标会自动识别相应的高时间框架信号（如 C2、C3、C4 烛线闭合），避免在错误的时间框架上应用指标导致的错误信号。",
+  "common_mistakes": [
+    "在不匹配的时间框架上查看指标会导致错误，例如选择 1m-15m 模型但在 5 分钟图表上查看，会触发错误提示。",
+    "未启用警告和错误消息选项，导致无法及时发现时间框架不匹配的问题。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_automatic_time_frame",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        191.2,
+        369.08
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131125Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

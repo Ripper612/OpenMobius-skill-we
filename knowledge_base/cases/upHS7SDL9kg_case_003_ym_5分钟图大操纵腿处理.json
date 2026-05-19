@@ -1,0 +1,100 @@
+{
+  "card_id": "upHS7SDL9kg_case_003_ym_5分钟图大操纵腿处理",
+  "type": "case",
+  "title": "YM 5分钟图大操纵腿使用-1标准差目标反转",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift",
+    "manipulation_leg",
+    "standard_deviation",
+    "order_block",
+    "candle_2_closure_c2",
+    "failure_swings",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "YM",
+  "timeframe": "5m",
+  "market_context": "纽约盘中YM形成反转结构，范围不大，预期较低。博主识别出大幅操纵腿，决定使用-1标准差作为目标而非-2至-2.5标准差，以适应较小的交易范围。",
+  "key_observation": "识别出大操纵腿结构：从C2高点（约47815）找到形成该高点的低点，操纵腿幅度约为整体目标范围的一半，属于不合理的大幅移动。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别反转结构，发现Change in State of Delivery信号。",
+    "Step 2: 标记C2高点（约47815）和形成该高点的低点，确认大操纵腿的存在。",
+    "Step 3: 计算操纵腿幅度与整体目标范围的比例关系，发现操纵腿过大（约为目标范围的50%）。",
+    "Step 4: 基于大操纵腿特征，降低预期，选择-1标准差作为目标而非-2/-2.5标准差。",
+    "Step 5: 回看左侧历史价格，验证-1标准差水平是否与之前的低点对齐。",
+    "Step 6: 观察价格下行至-1标准差水平，成功命中目标后形成反向反转回到范围内。"
+  ],
+  "outcome": "价格成功下行至-1标准差目标水平，随后形成反向反转，回到交易范围内。",
+  "lessons": "当识别到大操纵腿时，应降低目标预期，使用-1标准差而非-2至-2.5标准差。大操纵腿（占目标范围50%以上）表明价格不太可能继续扩展至极端标准差水平，应基于结构特征调整交易目标。",
+  "primary_image": "cards/upHS7SDL9kg/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/upHS7SDL9kg/images/case_003_detail_1.jpg",
+    "cards/upHS7SDL9kg/images/case_003_detail_2.jpg",
+    "cards/upHS7SDL9kg/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 5分钟K线图，价格范围从46980至47960。图上有多条水平线标注在47800、47760、47372处。图右侧标记有一系列向下倾斜的趋势线，分别标注为-1、-2、-2.5、-4、-4.5。中部区域有两个矩形框，其中一个标注为C2，另有文字标注ESTIM。图右下角显示WH1(5s)、Sm-IM Model、00:20:00及Bias:Bearish等信息。K线整体呈下行走势，最新K线在4",
+    "case_003_detail_1.jpg": "USD 1分钟K线图。图上显示价格范围从47600至47840。图中标注有两条向下倾斜的趋势线，分别标记为E1 TING1和IG11，均从约47810处向下延伸。图上有两个矩形框标注，分别围绕47690-47780和47740-47810的价格区间。标记点C2位于约47815处。左侧K线呈下降趋势，中间部分形成上升走势，右侧K线在47690至47780区间内形成整理形态。图右下角显示时间戳为Fri",
+    "case_003_detail_2.jpg": "USD 1分钟K线图。图上可见价格范围约从47620至47840。右侧标注有一个矩形框，框体位于47745至47810之间，上方标记文字'C2'。图上有三条水平线：47692处、47745处各一条，以及47810处对应C2标记。右下角显示文字标签'WH1 (3s)'、'Sec-ult Model'、'08:20:00'、'Bias: Bearish'。K线整体呈现多次上下波动，右侧约15根K线在4",
+    "case_003_detail_3.jpg": "USD 1分钟K线图。图右侧显示时间戳00:45:00及标签'WH1(3s)'、'5m-3H Model'、'Bias: Bearish'。图上有两条水平虚线分别位于47602和47550价位。可见K线价格范围约从47480至47800。图表中部存在多根小实体K线的整理形态，约在47550至47650区间。右侧16:00时段出现一根大黑K线，下影线延伸至47500附近，其后16:30时段跟随一根绿"
+  },
+  "sources": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "segment_ids": [
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        330.88,
+        455.919
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析过程：识别结构→标记操纵腿→计算比例→调整目标→验证结果，所有关键价位和时间框架清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:03.551112Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"YM 5分钟图大操纵腿使用-1标准差目标反转\",\"school\":\"ICT\",\"asset\":\"YM\",\"timeframe\":\"5m\",\"market_context\":\"纽约盘中YM形成反转结构，范围不大，预期较低。博主识别出大幅操纵腿，决定使用-1标准差作为目标而非-2至-2.5标准差，以适应较小的交易范围。\",\"key_observation\":\"识别出大操纵腿结构：从C2高点（约47815）找到形成该高点的低点，操纵腿幅度约为整体目标范围的一半，属于不合理的大幅移动。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别反转结构，发现Change in State of Delivery信号。\",\"Step 2: 标记C2高点（约47815）和形成该高点的低点，确认大操纵腿的存在。\",\"Step 3: 计算操纵腿幅度与整体目标范围的比例关系，发现操纵腿过大（约为目标范围的50%）。\",\"Step 4: 基于大操纵腿特征，降低预期，选择-1标准差作为目标而非-2/-2.5标准差。\",\"Step 5: 回看左侧历史价格，验证-1标准差水平是否与之前的低点对齐。\",\"Step 6: 观察价格下行至-1标准差水平，成功命中目标后形成反向反转回到范围内。\"],\"outcome\":\"价格成功下行至-1标准差目标水平，随后形成反向反转，回到交易范围内。\",\"lessons\":\"当识别到大操纵腿时，应降低目标预期，使用-1标准差而非-2至-2.5标准差。大操纵腿（占目标范围50%以上）表明价格不太可能继续扩展至极端标准差水平，应基于结构特征调整交易目标。\",\"primary_image_frame_id\":\"upHS7SDL9kg_f013\",\"supporting_image_frame_ids\":[\"upHS7SDL9kg_f012\",\"upHS7SDL9kg_f001\",\"upHS7SDL9kg_f014\"],\"related_concepts\":[\"Change in State of Delivery\",\"Manipulation Leg\",\"Standard Deviation\",\"Order Block\",\"Candle 2 Closure\",\"Failure Swings\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析过程：识别结构→标记操纵腿→计算比例→调整目标→验证结果，所有关键价位和时间框架清晰可见。\"}",
+  "error": null
+}

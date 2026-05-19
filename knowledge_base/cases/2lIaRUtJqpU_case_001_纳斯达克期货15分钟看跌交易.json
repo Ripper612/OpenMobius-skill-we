@@ -1,0 +1,109 @@
+{
+  "card_id": "2lIaRUtJqpU_case_001_纳斯达克期货15分钟看跌交易",
+  "type": "case",
+  "title": "纳斯达克期货15分钟看跌交易：低阻力流动性目标验证",
+  "related_concepts": [
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "low_resistance_liquidity",
+    "protected_high_low",
+    "fair_value_gap",
+    "order_block",
+    "sellside_liquidity",
+    "premium_discount_premium_",
+    "failure_swing"
+  ],
+  "school": "ICT",
+  "asset": "NQ1! (E-MINI NASDAQ-100 FUTURES JUN 2023)",
+  "timeframe": "15M",
+  "market_context": "看跌订单流背景下，价格从溢价区回升，扫除低阻力流动性后继续下跌至卖方流动性，展示机构如何利用失败摆动作为交易目标。",
+  "key_observation": "博主识别出两个关键的低阻力流动性区域（失败摆动高点），价格未能突破这些高点，随后价格向下扫除卖方流动性，验证了低阻力流动性作为下跌目标的有效性。",
+  "analysis_steps": [
+    "Step 1: 确认市场订单流为看跌，寻找价格回升至溢价区和看跌PD阵列的机会。",
+    "Step 2: 识别两个失败摆动高点（约13128和13120），标记为低阻力流动性，因为价格未能突破这些高点。",
+    "Step 3: 观察价格上升至第一个高点，未能突破，随后回落进入范围内。",
+    "Step 4: 观察价格再次上升至第二个高点（约13144），同样未能突破，形成失败摆动。",
+    "Step 5: 确认下方卖方流动性位置（约12805和12775.75），作为最终下跌目标。",
+    "Step 6: 追踪价格下跌过程，首先突破下方低点（约13058），然后继续下跌至更低的卖方流动性。",
+    "Step 7: 验证价格最终到达目标卖方流动性区域，完成看跌交易序列。"
+  ],
+  "outcome": "价格成功从溢价区下跌，扫除低阻力流动性后继续下行至卖方流动性目标区域（12697.25附近），验证了低阻力流动性作为有效交易目标的有效性。",
+  "lessons": "低阻力流动性（失败摆动）比高阻力流动性更可靠作为交易目标，因为价格更可能轻松穿过这些区域。在看跌订单流中，识别未被扫除的摆动高点，然后预期价格向下扫除卖方流动性，是高概率交易设置。",
+  "primary_image": "cards/2lIaRUtJqpU/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/2lIaRUtJqpU/images/case_001_detail_1.jpg",
+    "cards/2lIaRUtJqpU/images/case_001_detail_2.jpg",
+    "cards/2lIaRUtJqpU/images/case_001_detail_3.jpg",
+    "cards/2lIaRUtJqpU/images/case_001_detail_4.jpg",
+    "cards/2lIaRUtJqpU/images/case_001_detail_5.jpg",
+    "cards/2lIaRUtJqpU/images/case_001_detail_6.jpg",
+    "cards/2lIaRUtJqpU/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "E-MINI NASDAQ-100 FUTURES（2023年6月合约）15分钟K线图，交易所标注为CME_MINI。图右侧价格轴可见两个高亮价格标签：12789.00与12697.25。图上可见一条弧形曲线，从图中左侧低点延伸至右侧，整体呈U形走势。图右边缘出现一根大幅下行K线，实体从约12760延伸至约12630，为图中最长的单根K线实体。图左侧及中部K线价格区间集中在12790至12840之",
+    "case_001_detail_1.jpg": "E-MINI NASDAQ-100 FUTURES（JUN 2023）15 分钟折线图，时间轴覆盖 4 月 18 日至 19 日。图上可见两组波峰-波谷-波峰结构，各自最高点附近标有绿色美元符号（$）标签。左侧第一组波峰约在 13136 附近，右侧第二组出现两个相邻波峰，其中第二个波峰约在 13144 附近为图中最高点。两组结构末端各有一个向下箭头标注，位置约在 13080 区域。图右侧价格轴当前",
+    "case_001_detail_2.jpg": "图为 E-MINI NASDAQ-100 FUTURES 15 分钟图，图上覆盖两组手绘示意折线图，均为教学示意性质。左侧折线图呈现两峰两谷结构，第一峰处标有绿色美元符号，第二峰处亦标有绿色美元符号，并在第一峰水平位置绘有一条水平线，折线末端带向下箭头。右侧折线图结构相似，第一峰处标有红色叉号，第二峰处标有绿色美元符号，同样在第一峰水平位置绘有水平线，末端带向下箭头。图下方有大号文字标注\"Low ",
+    "case_001_detail_3.jpg": "图表为 E-MINI NASDAQ-100 FUTURES (JUN 2023) 15 分钟折线图。图上有两条带绿色美元符号标签的水平线，分别位于约 13128 和 13120 价位处，两线均从对应摆动高点向右延伸至图右侧。折线从左侧第一个高点下行后再次上升至第二个高点，随后折线继续下行至约 13058 区域后再度回升。图右侧绘有一条向上的箭头，起点约在 13067，指向约 13116 方向。右侧",
+    "case_001_detail_4.jpg": "E-MINI NASDAQ-100 FUTURES（JUN 2023）15 分钟 K 线图，时间轴覆盖 10:00 至次日 09:00，日期标注显示 Mon 27 Mar '23。图上有两个矩形标注：一个粉色矩形位于约 12856 至 12876 区间，另一个绿色矩形位于约 12780 至 12820 区间。图中央有一条贯穿全图宽度的灰色水平带，位于约 12808 至 12816，带有两处",
+    "case_001_detail_5.jpg": "E-MINI NASDAQ-100 FUTURES (JUN 2023) 15 分钟 K 线图，交易所标注为 CME_MINI。图右侧价格轴可见范围约从 12760 至 12876。图上有一个浅灰色矩形标注区域，横跨图表中部，价格范围约在 12822 至 12832 之间。右侧价格轴有两个高亮标签：12805.00 和 12775.75。时间轴显示从 11:00 延伸至 10:00，跨越约 23 ",
+    "case_001_detail_6.jpg": "E-MINI NASDAQ-100 FUTURES 15 分钟 K 线图，资产标注为 CME_MINI。图右侧价格刻度范围约从 12732 至 12856，当前价格标签显示 12752.50。图上绘有两个相互重叠的矩形框，位于约 12818 至 12832 价格区间。K 线从 16:00 起在约 12808 至 12828 区间内横向排列，至约 03:00 出现一根大幅下行 K 线，从约 1282",
+    "case_001_detail_7.jpg": "图表标题显示为 E-MINI NASDAQ-100 FUTURES（JUN 2023），时间框架为 15 分钟，交易所标注为 CME_MINI。图右侧价格刻度范围约从 12732 至 12856。图上绘有两个矩形框：左上方矩形覆盖约 12820 至 12836 区间，左下方矩形覆盖约 12750 至 12760 区间。08:00 附近另有一个较小矩形框位于约 12776 至 12790 区间。当前"
+  },
+  "sources": [
+    {
+      "video_id": "2lIaRUtJqpU",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        364.62
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从识别低阻力流动性、标记失败摆动、预期下跌目标到最终价格执行的全过程，关键价位清晰可读，分析逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:19:22.242445Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克期货15分钟看跌交易：低阻力流动性目标验证\",\"school\":\"ICT\",\"asset\":\"NQ1! (E-MINI NASDAQ-100 FUTURES JUN 2023)\",\"timeframe\":\"15M\",\"market_context\":\"看跌订单流背景下，价格从溢价区回升，扫除低阻力流动性后继续下跌至卖方流动性，展示机构如何利用失败摆动作为交易目标。\",\"key_observation\":\"博主识别出两个关键的低阻力流动性区域（失败摆动高点），价格未能突破这些高点，随后价格向下扫除卖方流动性，验证了低阻力流动性作为下跌目标的有效性。\",\"analysis_steps\":[\"Step 1: 确认市场订单流为看跌，寻找价格回升至溢价区和看跌PD阵列的机会。\",\"Step 2: 识别两个失败摆动高点（约13128和13120），标记为低阻力流动性，因为价格未能突破这些高点。\",\"Step 3: 观察价格上升至第一个高点，未能突破，随后回落进入范围内。\",\"Step 4: 观察价格再次上升至第二个高点（约13144），同样未能突破，形成失败摆动。\",\"Step 5: 确认下方卖方流动性位置（约12805和12775.75），作为最终下跌目标。\",\"Step 6: 追踪价格下跌过程，首先突破下方低点（约13058），然后继续下跌至更低的卖方流动性。\",\"Step 7: 验证价格最终到达目标卖方流动性区域，完成看跌交易序列。\"],\"outcome\":\"价格成功从溢价区下跌，扫除低阻力流动性后继续下行至卖方流动性目标区域（12697.25附近），验证了低阻力流动性作为有效交易目标的有效性。\",\"lessons\":\"低阻力流动性（失败摆动）比高阻力流动性更可靠作为交易目标，因为价格更可能轻松穿过这些区域。在看跌订单流中，识别未被扫除的摆动高点，然后预期价格向下扫除卖方流动性，是高概率交易设置。\",\"primary_image_frame_id\":\"2lIaRUtJqpU_f010\",\"supporting_image_frame_ids\":[\"2lIaRUtJqpU_f003\",\"2lIaRUtJqpU_f004\",\"2lIaRUtJqpU_f005\",\"2lIaRUtJqpU_f006\",\"2lIaRUtJqpU_f007\",\"2lIaRUtJqpU_f008\",\"2lIaRUtJqpU_f009\"],\"related_concepts\":[\"Low Resistance Liquidity\",\"Protected Swing\",\"Fair Value Gap\",\"Order Block\",\"Sellside Liquidity\",\"Premium/Discount\",\"PD array\",\"Failure Swing\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从识别低阻力流动性、标记失败摆动、预期下跌目标到最终价格执行的全过程，关键价位清晰可读，分析逻辑完整。\"}",
+  "error": null
+}

@@ -1,0 +1,50 @@
+{
+  "card_id": "htf_candles_offset",
+  "type": "merged_concept",
+  "canonical_term": "HTF Candles Offset",
+  "aliases": [
+    "Higher Time Frame Candles Offset"
+  ],
+  "school": "General",
+  "definition": "调整高时间框架蜡烛图在低时间框架图表上的水平距离参数。通过数值设置增加或减少偏移量，控制HTF蜡烛与图表的间距。",
+  "identification_rules": [
+    "在指标设置面板的 HTF CANDLES 配置区块中找到 Offset 参数",
+    "Offset 参数为数值输入框，默认值为特定距离（如材料中提到的默认位置）",
+    "调整 Offset 数值后，高时间框架蜡烛会沿水平方向移动，向右偏移相应距离"
+  ],
+  "trading_implication": "通过调整偏移量改善图表可读性。当HTF蜡烛与LTF图表重叠时，增加偏移量可将HTF蜡烛向右移动，避免遮挡低时间框架的K线细节，便于同时观察两个时间框架的结构。这是一个纯粹的视觉优化工具，不影响交易逻辑本身。",
+  "common_mistakes": [
+    "材料未明确提及常见误用情况"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_htf_candles_offset",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        546.399,
+        725.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133402Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

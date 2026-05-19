@@ -1,0 +1,529 @@
+{
+  "card_id": "aligned_timeframe",
+  "type": "merged_concept",
+  "canonical_term": "Aligned Timeframe",
+  "aliases": [
+    "Fractal Model",
+    "对齐时间框架"
+  ],
+  "school": "ICT",
+  "definition": "跨多个时间框架应用相同分析逻辑的自相似交易框架。在高时间框架确立偏差方向（通过流动性、FVG、K线收盘），中时间框架识别摆动点并验证CSD，低时间框架寻找相同分形结构（Candle 2收盘、CSD、延续信号）精确入场，三层信号须同时对齐方为有效设置。",
+  "identification_rules": [
+    "第一步：在高时间框架（如周线/日线/小时线）确立偏差方向，使用流动性、前期摆动高低点、FVG和K线收盘判断价格预期走向",
+    "第二步：在中时间框架（如日线/4小时线/15分钟线）寻找摆动点，需形成Candle 2或Candle 3收盘，并伴随CSD（交付状态改变）确认",
+    "第三步：在低时间框架（如小时线/15分钟线/1分钟线）重复识别相同分形结构（Candle 2收盘、CSD、延续信号），确保与高时间框架方向一致后入场",
+    "对齐验证：高时间框架K线闭合（Candle 2或Candle 3）与低时间框架CSD必须同时满足，缺少任一条件不构成有效设置",
+    "Candle 2识别：价格扫出前一根K线高/低点后收盘回到前一根K线范围内，标志反转意图；Candle 3为紧跟Candle 2的延续扩张K线",
+    "CSD识别：在低时间框架上，价格穿过形成该摆动高/低点的一系列同向收盘K线序列",
+    "时间要素：反转摆动点应在交易日早期形成（如纽约盘前），为后续扩展留足时间；K线末期形成的结构不适合交易",
+    "可继续下钻至更低时间框架重复该分形识别过程（如日线→小时线→15分钟线→1分钟线）",
+    "在高时间框架Wick形成期间，于低时间框架寻找延续信号；避免在价格已完成3根或更多扩张K线并触及高时间框架目标后继续同向交易",
+    "使用固定回溯周期识别相关摆动点：高时间框架回溯约3根K线，低时间框架按比例缩放（如日线回溯3个月，小时线回溯3天）"
+  ],
+  "trading_implication": "通过多时间框架分层验证提高交易概率：高时间框架提供方向偏差，中时间框架确认摆动点与CSD，低时间框架精确入场。适用于周-日-小时、日-4小时-15分钟、小时-15分钟-1分钟等多种组合。入场后以高时间框架摆动点或兴趣点（FVG、OB）为目标，以受保护摆动点为止损参考，目标风险回报比不低于2倍。",
+  "common_mistakes": [
+    "仅在低时间框架寻找入场而忽视高时间框架偏差，导致交易方向与大趋势相反",
+    "未在高时间框架先确认有效的Candle 2收盘就直接跳到低时间框架寻找信号，导致偏差不清晰",
+    "仅看高时间框架Candle 2/3收盘就交易，忽视低时间框架CSD验证，导致被假突破扫损",
+    "低时间框架有CSD但高时间框架无有效K线收盘，将其视为有效设置而交易",
+    "在中时间框架摆动点未形成CSD时过早入场，降低交易有效性",
+    "混淆Candle 2与Candle 3的定义及各时间框架的角色：高时间框架用于偏差预期，中时间框架用于摆动点确认，低时间框架用于精确入场",
+    "未等待上一级别K线的影线充分形成就预期扩张，过早入场被扫停",
+    "在K线末期（剩余时间不足）交易反转，即使结构完整也不应入场",
+    "在价格已完成3根或更多扩张K线并创出显著新高/低后仍继续同向交易，可能进入新的价格阶段",
+    "忽视Opposing Run的性质：大幅对抗性运动时仍按小幅运动的目标交易，导致目标设置错误",
+    "选择不对齐的时间框架组合（如日线与1分钟图），导致分形结构无法有效对应",
+    "在缺乏充分分离度的摆动点处交易，导致信号不可靠",
+    "仅凭图形交易失效设置，而不验证是否存在有效的分形模型",
+    "将价格盘整误认为失效信号，在盘整中设置反向交易",
+    "未正确区分操纵腿大小，导致斐波那契投影目标位选择错误",
+    "仅基于单一资产的分形模型做交易决策，忽视相关资产相对强弱对比"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Candle Closure",
+      "card_id": "candle_closure",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Kill Zone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Closure",
+      "card_id": "candle_3_closure",
+      "exists": true
+    },
+    {
+      "term": "Relevant Swings",
+      "card_id": "relevant_swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Opposing Run",
+      "card_id": "judas_swing",
+      "exists": true
+    },
+    {
+      "term": "Small Wick",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Hourly Bias",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Opposing Setup",
+      "card_id": "opposing_setup",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "3eVxTV_7L2U_case_011_rty小型罗素指数完整顶部到底部交易",
+      "video_id": "3eVxTV_7L2U",
+      "title": "RTY日线顶部失败操纵到4H CSD确认，30分钟FVG与YM SMT联动，1分钟V形反转入场"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_005_btc周线至4小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "BTC周线至4小时线的看跌交易设置"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_006_eth_1小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "ETH 1小时线多时间框架看跌交易"
+    },
+    {
+      "card_id": "CqMIh-Vvhbg_case_002_eur_aud小时线与5分钟线的多时间框架分析",
+      "video_id": "CqMIh-Vvhbg",
+      "title": "EUR/AUD多时间框架Fractal模型分析与指标参数调整"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_003_黄金期货_3分钟30分钟模型案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "黄金期货3分钟-30分钟模型：整固高点扫除与CSD确认下跌"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_005_nq_多时间框架综合分析案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ 多时间框架综合分析：6点反转到10点延续交易"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_002_黄金_gc_多日扫盘后的看空交易",
+      "video_id": "FgP2lc9nneM",
+      "title": "黄金(GC)7日无新摆动后的日线Candle 2看空交易"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_001_xagusd日线相关摆动点识别与反应",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGUSD日线堆积低点中的相关摆动点识别与价格反应"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_004_dll日线多月度摆动点分析",
+      "video_id": "HbOeD_JVens",
+      "title": "DLL日线3月度摆动点识别与交易反应分析"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_001_btc小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "BTC小时图V形反转到5分钟图多头延续交易"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_012_twitter用户案例_扫除高点的虚假continuation",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "价格穿过FVG但同时扫除高点的虚假continuation"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_001_白银小时图反转扩张案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "白银小时图浅层对抗反转扩张至均衡点"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_004_黄金15分钟多重反转扩张案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "黄金15分钟多重反转扩张案例"
+    },
+    {
+      "card_id": "caaS6_Q7O78_case_002_btc日线与小时线的联动交易",
+      "video_id": "caaS6_Q7O78",
+      "title": "BTC日线反转信号与小时线精确入场执行"
+    },
+    {
+      "card_id": "caaS6_Q7O78_case_003_小时线上的扩张_回撤_扩张模式",
+      "video_id": "caaS6_Q7O78",
+      "title": "小时线扩张-回撤-扩张模式与5分钟精确入场"
+    },
+    {
+      "card_id": "eywpZT3z6GQ_case_001_黄金小时线看涨扩张交易案例",
+      "video_id": "eywpZT3z6GQ",
+      "title": "黄金小时线看涨扩张交易案例"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_005_第五个例子_前一日低点反弹与eq突破",
+      "video_id": "jKuXaC84Qx4",
+      "title": "前一日低点V形反应与EQ突破分析"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_006_第六个例子_月线分形模型确认",
+      "video_id": "jKuXaC84Qx4",
+      "title": "月线分形模型确认与日线EQ失效下行演示"
+    },
+    {
+      "card_id": "nWHint4Yano_case_003_美元扫盘后eurusd的做空设置",
+      "video_id": "nWHint4Yano",
+      "title": "美元扫盘后EURUSD的做空设置"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_001_usd_1小时图有效c2扫盘确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD 1H有效C2扫盘确认与5分钟CSD验证"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_003_日线c2闭合但低时间框架csd失败案例",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "日线C2闭合但低时间框架CSD失败导致设置无效"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_fractal_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_018",
+        "seg_019"
+      ],
+      "time_range": [
+        9.679,
+        933.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_fractal_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.92,
+        369.08
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_fractal_model",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_012"
+      ],
+      "time_range": [
+        54.96,
+        546.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_fractal_model",
+      "segment_ids": [
+        "seg_004",
+        "seg_009"
+      ],
+      "time_range": [
+        303.44,
+        681.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_fractal_model_aligned_timeframe",
+      "segment_ids": [
+        "seg_003",
+        "seg_006"
+      ],
+      "time_range": [
+        149.76,
+        447.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "original_card_id": "PQiRV0JMhIQ_concept_fractal_model",
+      "segment_ids": [
+        "seg_031"
+      ],
+      "time_range": [
+        1649.679,
+        1703.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_fractal_model",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_020",
+        "seg_026",
+        "seg_027"
+      ],
+      "time_range": [
+        474.08,
+        1371.28
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TNybDCtwBnc",
+      "original_card_id": "TNybDCtwBnc_concept_fractal_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        11.04,
+        256.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "WFqLwOp2pXw",
+      "original_card_id": "WFqLwOp2pXw_concept_fractal_model",
+      "segment_ids": [
+        "seg_008",
+        "seg_013",
+        "seg_020"
+      ],
+      "time_range": [
+        342.08,
+        919.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_fractal_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_004",
+        "seg_010"
+      ],
+      "time_range": [
+        10.88,
+        567.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "jKuXaC84Qx4",
+      "original_card_id": "jKuXaC84Qx4_concept_fractal_model",
+      "segment_ids": [
+        "seg_005",
+        "seg_021",
+        "seg_023"
+      ],
+      "time_range": [
+        194.959,
+        864.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "nWHint4Yano",
+      "original_card_id": "nWHint4Yano_concept_fractal_model",
+      "segment_ids": [
+        "seg_009",
+        "seg_012"
+      ],
+      "time_range": [
+        461.84000000000003,
+        658.399
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "tyoxl1l-6iI",
+      "original_card_id": "tyoxl1l-6iI_concept_fractal_model",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        358.96,
+        778.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "upHS7SDL9kg",
+      "original_card_id": "upHS7SDL9kg_concept_fractal_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_004"
+      ],
+      "time_range": [
+        11.36,
+        166.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "vn1RYjhJUnQ",
+      "original_card_id": "vn1RYjhJUnQ_concept_fractal_model",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        48.239,
+        338.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 15,
+    "source_videos": 15,
+    "high_confidence_sources": 14,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:53:05.239250Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action', 'SMC']",
+    "unresolved_refs: 4"
+  ],
+  "merge_notes": "14张ICT + 1张SMC（nWHint4Yano），按多数选ICT。各原始卡侧重点不同（Candle机制、CSD验证、斐波那契投影、相关摆动等），均已整合为统一框架。",
+  "error": null
+}

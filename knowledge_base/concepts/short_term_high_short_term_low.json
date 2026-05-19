@@ -1,0 +1,283 @@
+{
+  "card_id": "short_term_high_short_term_low",
+  "type": "merged_concept",
+  "canonical_term": "Short-term High / Short-term Low",
+  "aliases": [
+    "STH / STL",
+    "Swing High / Swing Low"
+  ],
+  "school": "ICT",
+  "definition": "价格形成的局部极值点。短期高点：两侧各有至少一个更低高点的高点；短期低点：两侧各有至少一个更高低点的低点。代表外部流动性位置，是构建中期和长期市场结构的最小单位，也是识别订单块、流动性扫荡和市场结构转变的关键参考。",
+  "identification_rules": [
+    "短期高点：当前K线高点高于左右两侧相邻K线的高点，即两侧各有至少一个更低的高点",
+    "短期低点：当前K线低点低于左右两侧相邻K线的低点，即两侧各有至少一个更高的低点",
+    "必须有明确的两侧对比结构，单独的极值点不构成有效短期高/低",
+    "上升趋势中识别更高的高点（Higher High）与更高的低点（Higher Low）的交替形成；下降趋势中识别更低的高点（Lower High）与更低的低点（Lower Low）",
+    "优先关注与重要价格水平（如前期订单块、公允价值缺口、前一天或前一周高低点）相关联的摆动点",
+    "扫荡摆动点后出现价格位移（Displacement）并收盘穿过相关K线，可确认该点有效性并使相关K线转化为订单块",
+    "可在任何时间框架上识别，高时间框架的短期高/低优先级高于低时间框架",
+    "多个短期高/低组合形成中期高/低，中期结构结合高时间框架反应形成长期高/低"
+  ],
+  "trading_implication": "短期高/低标记外部流动性集中区域，其上方聚集买方止损单，下方聚集卖方止损单，是机构扫荡的目标。用于：(1)识别流动性位置，预测价格扫荡目标；(2)设置止损，通常将止损置于摆动高/低而非订单块另一端以降低虚假触发风险；(3)确认市场结构转变（MSS），价格突破前一有效摆动点预示趋势可能反转；(4)作为利润目标，价格在短期高/低与内部流动性（FVG）之间振荡。",
+  "common_mistakes": [
+    "将单个极值点或随机局部高低点误认为有效短期高/低，忽视两侧对比结构的必要性",
+    "选择与重要价格水平无关的随机高低点，而非与订单块、FVG或前期关键水平相关联的摆动点",
+    "在短期高/低被扫荡后立即交易，未等待价格收盘穿过相关K线来验证订单块形成",
+    "混淆短期高/低与订单块的概念：短期高/低是参考位置，订单块是由特定K线形成的支撑/阻力区",
+    "混淆短期高/低与中期高/低的定义，导致错误的结构层级判断",
+    "在短期高/低未被右侧结构验证前提前交易，应等待右侧形成对应结构来确认",
+    "忽视时间框架差异，将低时间框架的摆动点反转误判为高时间框架的趋势反转，导致止损被扫",
+    "短期高/低被扫荡后仍期望其继续提供支撑/阻力，应转向寻找内部流动性或新的订单块"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Intermediate Term High / Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Long-term High / Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher High / Higher Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower High / Lower Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Swing",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "5fnFOh5YuM0_case_002_eth多时间框架延续交易",
+      "video_id": "5fnFOh5YuM0",
+      "title": "ETH多时间框架延续交易：日线摆动确认到1H和5M入场"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_001_黄金周线至15分钟多时间框架交易案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "黄金周线至15分钟多时间框架交易案例"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_003_usd_1小时图_多日反转与保护摆动",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1H：突破前日高点后的反转与FVG目标"
+    },
+    {
+      "card_id": "eHQ4nE-TQ2w_case_001_es与nq的看跌背离交易案例",
+      "video_id": "eHQ4nE-TQ2w",
+      "title": "ES与NQ看跌背离交易案例"
+    },
+    {
+      "card_id": "mwmWNCTEYtY_case_001_nq日线扫盘至内部流动性案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "NQ日线扫盘至内部流动性案例"
+    },
+    {
+      "card_id": "pWAjzKndWXo_case_002_es_多时间框架目标设置案例",
+      "video_id": "pWAjzKndWXo",
+      "title": "ES多时间框架目标设置：流动性与FVG组合应用"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_004_原油_oil_5分钟图的结构分析",
+      "video_id": "sgAnVR6RSDg",
+      "title": "原油5分钟图上升趋势中的结构转变与下降趋势形成"
+    },
+    {
+      "card_id": "umyCqr_0NsI_case_001_e_mini_nasdaq_100期货1分钟图结构分析",
+      "video_id": "umyCqr_0NsI",
+      "title": "NQ1! 1分钟图：从15分钟扫盘高点到结构转变的完整标记"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_003_btc扫盘与多时间框架breaker_block交易",
+      "video_id": "xP-o11jRCyg",
+      "title": "BTC多时间框架Breaker Block空头交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "7p9MBFk8EEM",
+      "original_card_id": "7p9MBFk8EEM_concept_swing_high_swing_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        10.24,
+        483.039
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "DMUiDBnTYc8",
+      "original_card_id": "DMUiDBnTYc8_concept_swing_high_swing_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.4,
+        877.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_swing_high_swing_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        11.0,
+        877.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_swing_high_swing_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_013",
+        "seg_014",
+        "seg_017",
+        "seg_019"
+      ],
+      "time_range": [
+        11.04,
+        918.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "sgAnVR6RSDg",
+      "original_card_id": "sgAnVR6RSDg_concept_swing_high_swing_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        10.48,
+        758.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "umyCqr_0NsI",
+      "original_card_id": "umyCqr_0NsI_concept_short_term_high_short_term_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.599,
+        840.759
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 6,
+    "source_videos": 6,
+    "high_confidence_sources": 6,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:34.827659Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action', 'SMC']",
+    "unresolved_refs: 5"
+  ],
+  "merge_notes": "6张卡school分布：ICT×3、SMC×1、Price Action×2，按多数选ICT。SMC与ICT在流动性框架上高度重叠，Price Action卡补充了趋势结构（HH/HL/LH/LL）和相关摆动点选择原则。",
+  "error": null
+}

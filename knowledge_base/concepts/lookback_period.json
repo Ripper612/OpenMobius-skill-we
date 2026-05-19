@@ -1,0 +1,55 @@
+{
+  "card_id": "lookback_period",
+  "type": "merged_concept",
+  "canonical_term": "Lookback Period",
+  "aliases": [
+    "Look back",
+    "回溯周期"
+  ],
+  "school": "ICT",
+  "definition": "通过观察当前及往前两根高时间框架K线（共3根）来确定相关摆动点的时间范围。具有分形特性，可应用于任何时间框架，使概念不局限于特定周期。",
+  "identification_rules": [
+    "从当前高时间框架K线开始，向后数2根K线，共计3根K线构成回溯周期",
+    "在该3根K线范围内寻找相关摆动高点和低点，作为交易参考",
+    "超出这3根K线范围的摆动点通常不再被视为相关，除非具有特殊的高时间框架特征",
+    "该周期具有分形性质：日线图回溯3天，小时线图回溯3小时，月线图回溯3个月"
+  ],
+  "trading_implication": "Lookback Period用于界定哪些摆动点对当前价格行为仍具有交易意义。通过限制观察范围到最近3根高时间框架K线，交易者可以专注于最相关的支撑阻力位，避免过度参考过于久远的价格水平。这提高了反应的可靠性，特别是在寻找订单块和相关摆动点时。",
+  "common_mistakes": [
+    "超出3根高时间框架K线范围仍将旧摆动点视为相关，导致在不适当的水平寻求反应",
+    "未能理解分形特性，在不同时间框架上应用固定的时间长度（如总是回溯3天）而非3根K线",
+    "混淆高时间框架和低时间框架的回溯周期，导致参考错误的摆动点"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HbOeD_JVens",
+      "original_card_id": "HbOeD_JVens_concept_lookback_period",
+      "segment_ids": [
+        "seg_002",
+        "seg_009"
+      ],
+      "time_range": [
+        139.76,
+        681.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133839Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

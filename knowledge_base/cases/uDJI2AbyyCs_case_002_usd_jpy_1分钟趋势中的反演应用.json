@@ -1,0 +1,110 @@
+{
+  "card_id": "uDJI2AbyyCs_case_002_usd_jpy_1分钟趋势中的反演应用",
+  "type": "case",
+  "title": "USD/JPY 1分钟上升趋势中的反演与推进块应用",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Higher High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Higher Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "propulsion_block",
+    "fair_value_gap",
+    "inversion",
+    "displacement",
+    "market_structure_shift",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "USD/JPY",
+  "timeframe": "1M",
+  "market_context": "USD/JPY在1分钟图上呈现上升趋势，价格在13860-13990区间内波动后突破，随后继续上行至16000+区域，期间形成多个订单块和公允价值缺口。",
+  "key_observation": "在上升趋势中，价格通过回测推进块（Propulsion Block）形成的公允价值缺口（FVG）提供高概率入场机会；反演（Inversion）作为对立PD数组，在趋势延续过程中被有效利用。",
+  "analysis_steps": [
+    "Step 1: 识别初始范围结构，标记上下边界（13960和13870），观察价格在此范围内的扫荡行为。",
+    "Step 2: 确认价格突破范围上沿后的位移（Displacement），验证其作为订单块的有效性。",
+    "Step 3: 在上升趋势中确认更高的高点（higher high）和更高的低点（higher low）的形成。",
+    "Step 4: 识别第一个订单块，随后在其基础上形成推进块（Propulsion Block）。",
+    "Step 5: 当价格回测推进块时，观察是否形成公允价值缺口（FVG/Cy）。",
+    "Step 6: 价格突破该FVG后，作为反演结构提供入场机会，预期价格继续向上创新高。",
+    "Step 7: 验证后续价格行为是否继续遵循更高高点和更高低点的趋势模式。"
+  ],
+  "outcome": "交易成功：目标价位68.00（0.45%收益），已平仓P&L 68.00，数量3，收益率2.18%；止损设置在31.00（0.203%）。价格最终创出新高，验证了反演入场的有效性。",
+  "lessons": "在趋势中，推进块形成的FVG可作为反演结构提供高概率入场点；关键是确认趋势的完整性（更高高点+更高低点），然后在对立PD数组被回测时入场，预期趋势延续。",
+  "primary_image": "cards/uDJI2AbyyCs/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/uDJI2AbyyCs/images/case_002_detail_1.jpg",
+    "cards/uDJI2AbyyCs/images/case_002_detail_2.jpg",
+    "cards/uDJI2AbyyCs/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 1分钟K线图。图上显示从左侧约13940.00开始的下跌走势，跌至13860.00附近后出现反转。图上有三个矩形标注：绿色矩形标记目标价位68.00（0.45%）272，金额204417.46；米色矩形标记已平仓P&L 68.00，数量3，收益率2.18；灰色矩形标记止损31.00（0.203）126，金额198000。可见价格范围约13860.00至13990.00。右下角显示时间戳1/",
+    "case_002_detail_1.jpg": "USD 1分钟K线图，时间范围显示1/12/2023，标注为HQ11/2M。图上可见价格范围约13860至13990。两条水平线分别位于13960和13870处，围绕这两条线形成矩形框。另有一个黄色矩形标注在13880至13900价格区间。K线呈现绿色和黑色混合，多根K线的下影线穿破13870，上影线穿破13960。图右侧显示当前时间为10:34，价格标签显示13987.22。",
+    "case_002_detail_2.jpg": "USD 1分钟K线图，时间范围从10:10至12:10。图上显示价格范围约15866至15996。可见两条水平蓝线分别位于15960和15930。图中央有一个黄色矩形标注框，覆盖约15888至15920的价格区间。K线序列显示早期（10:10-10:40）多根绿黑相间的小幅波动K线，中期（11:00-11:20）出现较大的绿色K线向上运动，后期（11:20-11:50）转为黑色K线向下回落。右下角",
+    "case_002_detail_3.jpg": "USD/JPY 1分钟K线图，时间范围从10:40至13:00，日期标注为2023年1月12日。图上显示约70根K线，颜色交替为绿色和黑色。价格范围在15896.50至16020.00之间波动。图上有4条水平线分别位于15988.50、15979.00、15960.00和15928.00处。另有两个矩形标注框分别位于15928-15960和15952-15968价格区间。右下角显示交易按钮和平台信"
+  },
+  "sources": [
+    {
+      "video_id": "uDJI2AbyyCs",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        370.199,
+        466.96
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从范围识别、突破验证、趋势确认、推进块形成、FVG识别到反演入场的全过程，并提供了具体交易结果和价位数据。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:53.480004Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD/JPY 1分钟上升趋势中的反演与推进块应用\",\"school\":\"ICT\",\"asset\":\"USD/JPY\",\"timeframe\":\"1M\",\"market_context\":\"USD/JPY在1分钟图上呈现上升趋势，价格在13860-13990区间内波动后突破，随后继续上行至16000+区域，期间形成多个订单块和公允价值缺口。\",\"key_observation\":\"在上升趋势中，价格通过回测推进块（Propulsion Block）形成的公允价值缺口（FVG）提供高概率入场机会；反演（Inversion）作为对立PD数组，在趋势延续过程中被有效利用。\",\"analysis_steps\":[\"Step 1: 识别初始范围结构，标记上下边界（13960和13870），观察价格在此范围内的扫荡行为。\",\"Step 2: 确认价格突破范围上沿后的位移（Displacement），验证其作为订单块的有效性。\",\"Step 3: 在上升趋势中确认更高的高点（higher high）和更高的低点（higher low）的形成。\",\"Step 4: 识别第一个订单块，随后在其基础上形成推进块（Propulsion Block）。\",\"Step 5: 当价格回测推进块时，观察是否形成公允价值缺口（FVG/Cy）。\",\"Step 6: 价格突破该FVG后，作为反演结构提供入场机会，预期价格继续向上创新高。\",\"Step 7: 验证后续价格行为是否继续遵循更高高点和更高低点的趋势模式。\"],\"outcome\":\"交易成功：目标价位68.00（0.45%收益），已平仓P&L 68.00，数量3，收益率2.18%；止损设置在31.00（0.203%）。价格最终创出新高，验证了反演入场的有效性。\",\"lessons\":\"在趋势中，推进块形成的FVG可作为反演结构提供高概率入场点；关键是确认趋势的完整性（更高高点+更高低点），然后在对立PD数组被回测时入场，预期趋势延续。\",\"primary_image_frame_id\":\"uDJI2AbyyCs_f014\",\"supporting_image_frame_ids\":[\"uDJI2AbyyCs_f013\",\"uDJI2AbyyCs_f015\",\"uDJI2AbyyCs_f016\"],\"related_concepts\":[\"Order Block\",\"Propulsion Block\",\"Fair Value Gap\",\"Inversion\",\"Displacement\",\"Market Structure Shift\",\"Higher High\",\"Higher Low\",\"PD Array\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从范围识别、突破验证、趋势确认、推进块形成、FVG识别到反演入场的全过程，并提供了具体交易结果和价位数据。\"}",
+  "error": null
+}

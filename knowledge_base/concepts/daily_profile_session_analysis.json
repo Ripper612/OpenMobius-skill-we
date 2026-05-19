@@ -1,0 +1,56 @@
+{
+  "card_id": "daily_profile_session_analysis",
+  "type": "merged_concept",
+  "canonical_term": "Daily Profile / Session Analysis",
+  "aliases": [
+    "Session-based Price Action Analysis",
+    "交易时段分析"
+  ],
+  "school": "Price Action",
+  "definition": "按交易时段（亚洲、伦敦、纽约）分析价格行为，观察各时段是否突破前一时段的高低点，形成扩张形态和反转点的方法。",
+  "identification_rules": [
+    "识别前一时段的高点和低点（如亚洲时段高低点）",
+    "观察当前时段是否同时突破前一时段的高低点（两侧都被取出）",
+    "若两侧都被突破，形成扩张形态（broadening formation）",
+    "若突破失败，预期价格回到另一侧的范围",
+    "跨时段对比：若伦敦时段取出亚洲高低点但无法位移，则预期纽约时段以伦敦高低点作为兴趣点"
+  ],
+  "trading_implication": "日内交易中，通过追踪多个交易时段的高低点变化，识别价格扩张和反转机会。当一个时段突破前一时段的双边高低点时，形成扩张形态，可作为目标或反转点。若突破失败，价格倾向于回到范围另一侧。该方法特别适用于缺乏重大新闻事件或等待次日新闻发布的交易日。",
+  "common_mistakes": [
+    "未正确识别时段边界，混淆不同时段的高低点",
+    "仅关注单侧突破，忽视双侧都被取出才构成扩张形态的条件",
+    "未结合更高时间框架的结构，导致时段分析与高时间框架脱节"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "Tjk9bXERZy0",
+      "original_card_id": "Tjk9bXERZy0_concept_daily_profile_session_analysis",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        506.84,
+        769.32
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132161Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

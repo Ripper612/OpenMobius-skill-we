@@ -1,0 +1,120 @@
+{
+  "card_id": "pWAjzKndWXo_case_001_es_5分钟图空头交易目标分析",
+  "type": "case",
+  "title": "ES 5分钟图空头交易多层次目标分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity / Sellside Liquidity (SSL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "equal_lows",
+    "market_structure_shift_mss",
+    "protected_high_low",
+    "premium_discount",
+    "equilibrium_eq",
+    "breaker_block"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5m",
+  "market_context": "ES在5分钟图上形成结构转变后进入空头交易。博主通过多个时间框架（5分钟、1分钟、15分钟）展示如何识别和利用流动性、订单块和公允价值缺口来设定分层交易目标。",
+  "key_observation": "在空头交易中，交易者应该利用低点流动性、等低点（Equal Lows）、订单块和FVG作为多层次目标，而不是单一目标。这些目标可以用于逐步平仓或加仓。",
+  "analysis_steps": [
+    "Step 1: 识别5分钟图上的结构转变（MSS），确认空头交易信号已触发。",
+    "Step 2: 标记第一个目标——图表中的低点流动性区域（Sellside Liquidity）。",
+    "Step 3: 标记第二个目标——等低点（Equal Lows），这些是价格历史上相同水平的低点。",
+    "Step 4: 标记第三个目标——5分钟图上的订单块（Order Block），作为潜在支撑转阻力。",
+    "Step 5: 标记第四个目标——5分钟图上的公允价值缺口（FVG），以及对应的15分钟FVG。",
+    "Step 6: 展示如何在达到每个目标后加仓或平仓，风险管理基于受保护的摆动点（Protected Swing）。",
+    "Step 7: 演示反向交易机会——当价格回归到溢价区时，可以在FVG处做多，目标是更高的FVG或摆动高点。"
+  ],
+  "outcome": null,
+  "lessons": "多层次目标设置提高了交易的灵活性和风险管理效率。通过结合流动性、等价位、订单块和FVG，交易者可以在不同价格水平获利或调整头寸，而不是依赖单一目标。这种方法也适用于反向交易和头寸加仓策略。",
+  "primary_image": "cards/pWAjzKndWXo/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/pWAjzKndWXo/images/case_001_detail_1.jpg",
+    "cards/pWAjzKndWXo/images/case_001_detail_2.jpg",
+    "cards/pWAjzKndWXo/images/case_001_detail_3.jpg",
+    "cards/pWAjzKndWXo/images/case_001_detail_4.jpg",
+    "cards/pWAjzKndWXo/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES 5分钟K线图。图上可见价格范围从3729.00至3843.75。图中标注有两个矩形区域：上方矩形约在3765.75至3800.00之间，下方矩形约在3723.50至3765.75之间。图上有文字标签'$$$'位于上方矩形附近。K线显示从左侧3729.00向上运行至右侧3843.75，中间存在约8根K线的整理形态。右侧K线多为绿色。图右侧价格刻度显示多个水平价格标记。",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图。图表显示约24小时的价格走势，从18:00至04:30。可见价格范围在3728.00至3843.00之间。图上有一个标记为'$$$'的矩形框，位于图表中上方约3795-3815价格区间。右侧价格轴上标注有三条水平参考线，分别位于3761.75、3785.25和3705.25。K线呈现绿红交替的双向波动形态，未见其他指标或标注。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从约3872至3949的上升趋势，跨越约40根K线。图中标注两个矩形区域：上方矩形约在3909至3949价格范围，下方矩形约在3895至3924价格范围。右侧价格刻度显示当前价格附近为3915。图上有两条水平虚线分别位于约3924和3909处。K线整体呈现多根蜡烛体，上下影线分布于整个可见范围。右侧价格标签栏显示多个价格数值从39",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 1 分钟 K 线图。图上绘制了多条矩形框和水平线标注。标注包括一个标记为'mss'的矩形框位于 3920 至 3925 价格区间，以及其他未标记的矩形框分别位于 3900 至 3910 和 3920 至 3930 区间。图右侧显示价格刻度从 3900.00 至 3934.00。可见 K 线由绿色和红色蜡烛体组成，在标注的水平线之间波动。时间轴显示从 0",
+    "case_001_detail_4.jpg": "ES 1分钟K线图。图上显示从约3892到3932的价格范围。图中有多条水平线和多个灰色矩形框标注，其中一个矩形标记为'mss'位于3920-3930区间。右侧价格刻度显示多个标注价格点，包括3920.25、3917.75、3912.25、3909.25、3906.00、3903.50、3900.00等。图上可见小蓝色方形标记出现在约3910-3915区域。K线呈现绿红相间的蜡烛图形态。",
+    "case_001_detail_5.jpg": "ES 15分钟K线图。图上显示S&P 500 E-mini期货合约，价格范围从3640.00至3785.00。图中标注有两个灰色矩形框：上方框位于3713.75至3680.00区间，下方框位于3680.00至3650.00区间。K线呈现绿色和红色交替，显示在标注区域内有整理形态。右侧价格刻度显示最新报价在3785.00附近。时间戳显示19 Jun 22 19:15。"
+  },
+  "sources": [
+    {
+      "video_id": "pWAjzKndWXo",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.72,
+        187.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对5分钟图空头交易的目标设置进行了完整、系统的讲解，包括具体的价格水平、多个目标类型和实际图表标注。分析步骤清晰，概念应用明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:44.134961Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 5分钟图空头交易多层次目标分析\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5m\",\"market_context\":\"ES在5分钟图上形成结构转变后进入空头交易。博主通过多个时间框架（5分钟、1分钟、15分钟）展示如何识别和利用流动性、订单块和公允价值缺口来设定分层交易目标。\",\"key_observation\":\"在空头交易中，交易者应该利用低点流动性、等低点（Equal Lows）、订单块和FVG作为多层次目标，而不是单一目标。这些目标可以用于逐步平仓或加仓。\",\"analysis_steps\":[\"Step 1: 识别5分钟图上的结构转变（MSS），确认空头交易信号已触发。\",\"Step 2: 标记第一个目标——图表中的低点流动性区域（Sellside Liquidity）。\",\"Step 3: 标记第二个目标——等低点（Equal Lows），这些是价格历史上相同水平的低点。\",\"Step 4: 标记第三个目标——5分钟图上的订单块（Order Block），作为潜在支撑转阻力。\",\"Step 5: 标记第四个目标——5分钟图上的公允价值缺口（FVG），以及对应的15分钟FVG。\",\"Step 6: 展示如何在达到每个目标后加仓或平仓，风险管理基于受保护的摆动点（Protected Swing）。\",\"Step 7: 演示反向交易机会——当价格回归到溢价区时，可以在FVG处做多，目标是更高的FVG或摆动高点。\"],\"outcome\":null,\"lessons\":\"多层次目标设置提高了交易的灵活性和风险管理效率。通过结合流动性、等价位、订单块和FVG，交易者可以在不同价格水平获利或调整头寸，而不是依赖单一目标。这种方法也适用于反向交易和头寸加仓策略。\",\"primary_image_frame_id\":\"pWAjzKndWXo_f003\",\"supporting_image_frame_ids\":[\"pWAjzKndWXo_f002\",\"pWAjzKndWXo_f004\",\"pWAjzKndWXo_f005\",\"pWAjzKndWXo_f006\",\"pWAjzKndWXo_f007\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Liquidity / Sellside Liquidity (SSL)\",\"Equal Lows\",\"Market Structure Shift (MSS)\",\"Protected Swing\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Breaker Block\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对5分钟图空头交易的目标设置进行了完整、系统的讲解，包括具体的价格水平、多个目标类型和实际图表标注。分析步骤清晰，概念应用明确。\"}",
+  "error": null
+}

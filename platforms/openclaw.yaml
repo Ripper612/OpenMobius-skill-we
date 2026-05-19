@@ -1,0 +1,10 @@
+name: OpenMobius-skill
+description: ICT/SMC trading knowledge base (380 concepts + 584 cases) + Mobius Quant API integration for live K-line, technical indicators, and chart generation. Four interaction modes - concept Q&A; chart image analysis with auto-fetched OHLCV; chart annotation on user-uploaded images; pasted-OHLCV or asset-by-name analysis. Covers Order Block, Fair Value Gap, Liquidity Sweep, Killzone, CISD, OTE, Breaker Block, IFVG, MSS, BOS, CHoCH, Displacement and 360+ more ICT terms. Supports crypto (Binance/Bybit/OKX/Hyperliquid), A股/港股/美股, and forex.
+version: 0.1.0
+metadata:
+  openclaw:
+    emoji: 📈
+    homepage: https://github.com/MobiusQuant/OpenMobius-skill
+    requires:
+      bins:
+        - python3

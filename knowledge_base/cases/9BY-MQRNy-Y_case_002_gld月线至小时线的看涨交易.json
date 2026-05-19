@@ -1,0 +1,116 @@
+{
+  "card_id": "9BY-MQRNy-Y_case_002_gld月线至小时线的看涨交易",
+  "type": "case",
+  "title": "GLD月线至小时线的看涨交易——受保护摆动入场",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "V-shaped Reversal",
+      "card_id": "v_shaped_reversal",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "protected_high_low",
+    "fair_value_gap",
+    "smart_money_technique",
+    "market_structure_shift",
+    "v_shaped_reversal",
+    "swing_low_swing_high",
+    "liquidity",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "GLD",
+  "timeframe": "1H",
+  "market_context": "GLD月线形成摆动点，预期上行至前期等高点。日线确认摆动点后，小时线出现V形反转结构，为高概率看涨交易提供机会。",
+  "key_observation": "小时线在受保护摆动处形成V形反转，价格开盘接近受保护摆动低点，结合月线摆动点偏向上行的偏差，形成高概率看涨入场点。",
+  "analysis_steps": [
+    "Step 1: 在月线图表上识别摆动点，观察价格未能创出新高（失败摇摆），判断这是回测而非反转。",
+    "Step 2: 确认月线偏差——价格应保持在FVG上半部分，避免完全回测至FVG底部导致看跌。",
+    "Step 3: 等待日线摆动点形成，确保日线摆动点与月线偏差方向一致。",
+    "Step 4: 切换至小时线，寻找受保护摆动（Protected Swing）结构。",
+    "Step 5: 识别小时线V形反转形态，价格开盘接近受保护摆动低点。",
+    "Step 6: 确认SMT（Smart Money Technique）——相关资产出现分歧，增强看涨信号。",
+    "Step 7: 在受保护摆动处设置止损，目标为月线等高点，计算风险回报比超过2R。",
+    "Step 8: 如果错过首次入场，在低点被扫除后的V形反转处寻找第二入场机会（新受保护摆动）。"
+  ],
+  "outcome": "交易在受保护摆动处入场，目标为高时间框架等高点，获得超过2R的收益。",
+  "lessons": "多时间框架协调分析至关重要：月线摆动点提供方向偏差，日线确认结构，小时线提供精确入场点。V形反转与受保护摆动的结合是高概率看涨信号。允许多次入场机会，但需严格遵守止损规则。",
+  "primary_image": "cards/9BY-MQRNy-Y/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/9BY-MQRNy-Y/images/case_002_detail_1.jpg",
+    "cards/9BY-MQRNy-Y/images/case_002_detail_2.jpg",
+    "cards/9BY-MQRNy-Y/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示 GLD 月线 K 线图，可见价格范围约从 53.00 到 89.00。图上有一条水平线位于约 82.00 处横跨全图。图右侧区域有一个矩形标注框，覆盖约 5 至 6 根 K 线，价格范围约在 79.00 至 88.00 之间。图中可见数根高度较大的绿色 K 线与黑色 K 线交替出现，其中左侧及中部各有一根高度较大的 K 线。图右下角有一根带长下影线的 K 线，影线延伸至约 54.00 附",
+    "case_002_detail_1.jpg": "图表为 GLL 的 K 线图，时间框架未能从图上明确读取。图右侧价格刻度显示可见价格范围约从 83.00 至 87.00。图上有两条水平线，分别位于约 86.00 和 84.90 附近，横跨图表大部分区域。图中右侧偏中位置有一个黄色矩形框标注，覆盖约 84.40 至 84.70 的价格区间。图表右侧可见数根绿色 K 线，位于 84.50 以上区域。图表顶部标签栏显示多个资产代码，包括 NQ1!、G",
+    "case_002_detail_2.jpg": "图表为 ETH 1 小时 K 线图，来自 TTrades.com 平台。图右侧中部有一个交易面板叠加显示，包含三个标注框：上方绿色框标注目标价位及金额，中间框标注当前持仓盈亏与数量及风险回报比，下方框标注止损金额与百分比。图上有两个矩形区域，一个浅绿色区域位于约 59.50 至 60.20，一个浅灰色区域位于约 58.80 至 59.50。图中可见一条从左上至右下方向的斜线。图右侧出现一根大阴线后",
+    "case_002_detail_3.jpg": "图表显示 GC1! 的 K 线图，右上角标注网站 TTrades.com。图上有多个矩形标注区域：右侧有一个较大的青绿色矩形框，内含多根 K 线；左下方有一个浅绿色矩形框；右上方有一个浅青色矩形框。图上有三条带文字的标注，分别显示 Swept 数值、Points 及 Amount 信息。图右侧有一根较长的绿色 K 线向下延伸。图上还可见一条从左下向右上方向延伸的斜线。多条水平线分布于不同价格位置。"
+  },
+  "sources": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "segment_ids": [
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        334.72,
+        481.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整阐述了从月线到小时线的分析流程，清晰标注了关键价位、入场点、止损和目标，并给出了交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:01.688548Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GLD月线至小时线的看涨交易——受保护摆动入场\",\"school\":\"ICT\",\"asset\":\"GLD\",\"timeframe\":\"1H\",\"market_context\":\"GLD月线形成摆动点，预期上行至前期等高点。日线确认摆动点后，小时线出现V形反转结构，为高概率看涨交易提供机会。\",\"key_observation\":\"小时线在受保护摆动处形成V形反转，价格开盘接近受保护摆动低点，结合月线摆动点偏向上行的偏差，形成高概率看涨入场点。\",\"analysis_steps\":[\"Step 1: 在月线图表上识别摆动点，观察价格未能创出新高（失败摇摆），判断这是回测而非反转。\",\"Step 2: 确认月线偏差——价格应保持在FVG上半部分，避免完全回测至FVG底部导致看跌。\",\"Step 3: 等待日线摆动点形成，确保日线摆动点与月线偏差方向一致。\",\"Step 4: 切换至小时线，寻找受保护摆动（Protected Swing）结构。\",\"Step 5: 识别小时线V形反转形态，价格开盘接近受保护摆动低点。\",\"Step 6: 确认SMT（Smart Money Technique）——相关资产出现分歧，增强看涨信号。\",\"Step 7: 在受保护摆动处设置止损，目标为月线等高点，计算风险回报比超过2R。\",\"Step 8: 如果错过首次入场，在低点被扫除后的V形反转处寻找第二入场机会（新受保护摆动）。\"],\"outcome\":\"交易在受保护摆动处入场，目标为高时间框架等高点，获得超过2R的收益。\",\"lessons\":\"多时间框架协调分析至关重要：月线摆动点提供方向偏差，日线确认结构，小时线提供精确入场点。V形反转与受保护摆动的结合是高概率看涨信号。允许多次入场机会，但需严格遵守止损规则。\",\"primary_image_frame_id\":\"9BY-MQRNy-Y_f013\",\"supporting_image_frame_ids\":[\"9BY-MQRNy-Y_f014\",\"9BY-MQRNy-Y_f016\",\"9BY-MQRNy-Y_f017\"],\"related_concepts\":[\"Order Block\",\"Protected Swing\",\"Fair Value Gap\",\"Smart Money Technique\",\"Market Structure Shift\",\"V-shaped Reversal\",\"Swing Point\",\"Liquidity\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整阐述了从月线到小时线的分析流程，清晰标注了关键价位、入场点、止损和目标，并给出了交易结果。\"}",
+  "error": null
+}

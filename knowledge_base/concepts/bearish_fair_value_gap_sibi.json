@@ -1,0 +1,62 @@
+{
+  "card_id": "bearish_fair_value_gap_sibi",
+  "type": "merged_concept",
+  "canonical_term": "Bearish Fair Value Gap (SIBI)",
+  "aliases": [
+    "SIBI",
+    "Sell-side Imbalance Buy-side Inefficiency",
+    "看跌公允价值缺口"
+  ],
+  "school": "ICT",
+  "definition": "卖方流动性被提供但买方流动性不足的三K线不平衡形态。第一根K线的高点与第三根K线的低点之间不重叠，形成向下的缺口区域。",
+  "identification_rules": [
+    "识别三根K线序列：第一根K线的高点不与第三根K线的低点重叠",
+    "缺口区域位于第一根K线高点与第三根K线低点之间",
+    "通常在价格快速下跌后形成，伴随卖方流动性充足但买方流动性不足的状态",
+    "可通过标记缺口起点、50%位置（Consequent Encroachment）和完全填补点来确认"
+  ],
+  "trading_implication": "SIBI作为看跌结构，当价格回归时应寻求向下反转。交易者观察价格是否尊重该缺口的50%位置（Consequent Encroachment）；若价格收盘在此位置上方，则SIBI失效。若价格填补SIBI后继续下行，该缺口可在后续反弹时转变为阻力位（Fair Value Gap Inversion），支持价格向下继续运行。",
+  "common_mistakes": [
+    "未正确识别三K线结构的高低点重叠关系，误将有重叠的形态判定为SIBI",
+    "在SIBI被价格完全填补并收盘穿过Consequent Encroachment后仍继续使用，导致失效信号被忽视",
+    "期望SIBI立即被回测并转变为阻力，忽视了Fair Value Gap Inversion可能在后期经过盘整后才发生"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "ZVUDpCyvxfQ_case_004_成交量不平衡与真实缺口的对比",
+      "video_id": "ZVUDpCyvxfQ",
+      "title": "成交量不平衡与真实缺口的对比分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "original_card_id": "ZVUDpCyvxfQ_concept_bearish_fair_value_gap_sibi",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        363.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131180Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,88 @@
+{
+  "card_id": "TNybDCtwBnc_case_006_回测结果总结",
+  "type": "case",
+  "title": "五笔回测总结：80%胜率，2.79R平均收益验证",
+  "related_concepts": [
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Win Rate",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk-Reward Ratio",
+      "card_id": "risk_to_reward_ratio_risk_to_",
+      "exists": true
+    },
+    {
+      "term": "Backtesting",
+      "card_id": "backtesting",
+      "exists": true
+    },
+    {
+      "term": "Position Sizing",
+      "card_id": "position_sizing",
+      "exists": true
+    },
+    {
+      "term": "Profit Target",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "risk_to_reward_ratio_risk_to_",
+    "backtesting",
+    "position_sizing",
+    "stop_loss"
+  ],
+  "school": "Risk Management",
+  "asset": "GC",
+  "timeframe": "5m",
+  "market_context": "博主在Tradezella平台完成了基于其交易系统的五笔回测，时间为2025年6月24日。图表显示GC（黄金）5分钟K线，价格范围3344-3374，包含止损和获利目标的标注。",
+  "key_observation": "五笔回测交易达成80%胜率和2.79R平均收益，验证了该交易系统的有效性。博主强调最低目标为2R，以确保在34%以上胜率下实现长期盈利。",
+  "analysis_steps": [
+    "Step 1: 观察最后一根小时K线收盘低于前一根K线，允许下一根K线继续扩展",
+    "Step 2: 退出回测会话，进入session results查看统计数据",
+    "Step 3: 确认五笔交易的整体表现：80%胜率和2.79R平均收益",
+    "Step 4: 阐述系统的最低收益目标为2R，以支持34%以上胜率下的长期盈利"
+  ],
+  "outcome": "五笔回测交易：80%胜率（4胜1负），平均收益2.79R。图表显示一笔交易止损-$1,020（粉色区域），一笔交易获利+$3,320（绿色区域）。",
+  "lessons": "系统回测验证了交易策略的有效性。2.79R的平均收益超过最低目标2R，确保了在实际交易中即使胜率低于80%，仍能在34%胜率以上实现盈利。这强调了风险回报比在长期交易成功中的重要性。",
+  "primary_image": "cards/TNybDCtwBnc/images/case_006_primary.jpg",
+  "supporting_images": [],
+  "image_descriptions": {
+    "case_006_primary.jpg": "GC 5分钟K线图，时间为2025年6月24日03:45。图上显示价格范围约3344至3374。标注有两个矩形区域：粉色区域标记为'SL: P&L: -$1,020'，位于约3363.5至3368.6；绿色区域标记为'PT: P&L: $3,320'，位于约3346.9至3355.9。右侧显示'Place order'面板，当前市场价格显示为USD3362.8。图表左侧显示多根K线，部分带有长影线"
+  },
+  "sources": [
+    {
+      "video_id": "TNybDCtwBnc",
+      "segment_ids": [
+        "seg_025",
+        "seg_026"
+      ],
+      "time_range": [
+        1112.24,
+        1185.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰阐述了回测结果（80%胜率、2.79R）、资产（GC）、时间框架（5分钟）、关键数字和系统最低目标（2R），分析步骤完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:45.886826Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"五笔回测总结：80%胜率，2.79R平均收益验证\",\"school\":\"Risk Management\",\"asset\":\"GC\",\"timeframe\":\"5m\",\"market_context\":\"博主在Tradezella平台完成了基于其交易系统的五笔回测，时间为2025年6月24日。图表显示GC（黄金）5分钟K线，价格范围3344-3374，包含止损和获利目标的标注。\",\"key_observation\":\"五笔回测交易达成80%胜率和2.79R平均收益，验证了该交易系统的有效性。博主强调最低目标为2R，以确保在34%以上胜率下实现长期盈利。\",\"analysis_steps\":[\"Step 1: 观察最后一根小时K线收盘低于前一根K线，允许下一根K线继续扩展\",\"Step 2: 退出回测会话，进入session results查看统计数据\",\"Step 3: 确认五笔交易的整体表现：80%胜率和2.79R平均收益\",\"Step 4: 阐述系统的最低收益目标为2R，以支持34%以上胜率下的长期盈利\"],\"outcome\":\"五笔回测交易：80%胜率（4胜1负），平均收益2.79R。图表显示一笔交易止损-$1,020（粉色区域），一笔交易获利+$3,320（绿色区域）。\",\"lessons\":\"系统回测验证了交易策略的有效性。2.79R的平均收益超过最低目标2R，确保了在实际交易中即使胜率低于80%，仍能在34%胜率以上实现盈利。这强调了风险回报比在长期交易成功中的重要性。\",\"primary_image_frame_id\":\"TNybDCtwBnc_f038\",\"supporting_image_frame_ids\":[],\"related_concepts\":[\"Risk Management\",\"Win Rate\",\"Risk-Reward Ratio\",\"Backtesting\",\"Position Sizing\",\"Profit Target\",\"Stop Loss\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰阐述了回测结果（80%胜率、2.79R）、资产（GC）、时间框架（5分钟）、关键数字和系统最低目标（2R），分析步骤完整。\"}",
+  "error": null
+}

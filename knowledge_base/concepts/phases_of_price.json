@@ -1,0 +1,274 @@
+{
+  "card_id": "phases_of_price",
+  "type": "merged_concept",
+  "canonical_term": "Phases of Price",
+  "aliases": [
+    "Market Phases",
+    "Price Movement Phases",
+    "Price Phases",
+    "Three Phases of Price",
+    "价格周期",
+    "价格运动阶段",
+    "价格阶段"
+  ],
+  "school": "ICT",
+  "definition": "价格运动的三个循环阶段：扩张（Expansion，快速大幅方向性突破）、回撤/整理（Retracement/Consolidation，缓慢浅幅逆向移动或横向盘整）、反转（相反方向扩张）。扩张阶段通常伴随FVG形成且不产生深度回撤；回撤通常进入FVG或OB区域；扩张遇相反扩张则预示反转。",
+  "identification_rules": [
+    "扩张阶段：价格快速、激进、大幅度单向突破前期高点或低点，K线范围大且连续同向，通常伴随FVG形成，不产生深度回撤",
+    "回撤阶段：扩张后价格缓慢、浅幅逆向移动，多根K线用时长但覆盖范围小，通常触及FVG或OB区域，未突破前期摆动点",
+    "整理/巩固阶段：价格横向波动，高低点相近，K线实体较小，未能突破前期结构，形成相对平衡的价格区间",
+    "回撤阶段中应形成失败摆动（Failure Swings）作为特征标志",
+    "延续信号：扩张后跟随回撤或整理，再次同向扩张（扩张→回撤→扩张 或 扩张→整理→扩张）",
+    "反转信号：扩张后被相反方向的扩张所接续（Expansion met with Expansion），需在相关摆动高低点或前期高低点处观察确认",
+    "扩张阶段中，价格对均衡点（0.5）的相应半部有明显尊重，不会深度回撤至对侧；若不尊重均衡点则可翻转偏差预期",
+    "通过CSD（交付状态改变）确认阶段转换，形成受保护的摆动点（Protected Swing）",
+    "在高时间框架观察大阶段，在低时间框架验证内部结构的阶段循环"
+  ],
+  "trading_implication": "识别价格所处阶段以预判趋势延续或反转。扩张后若出现回撤/整理，在FVG或OB区域等待失败摆动和受保护摆动形成后入场；若扩张后直接反向扩张，则预示反转成立。扩张阶段应在均衡点相应半部（上半做多、下半做空）寻找PD数组支撑，而非期待深度回撤。结合高时间框架确定方向偏差，在低时间框架寻找具体入场点，通过保护摆动点管理风险。",
+  "common_mistakes": [
+    "将回撤误认为反转：回撤是缓慢浅幅的逆向移动，反转是激进的反向扩张，两者K线特征和速度明显不同",
+    "混淆整理与回撤：整理为横向盘整，回撤为逆向移动，混淆会导致对后续价格走势判断错误",
+    "在扩张阶段仍期待价格深度回撤到折价或溢价区，导致过早反向建仓或止损被扫",
+    "忽视失败摆动的形成：在回撤中应看到高点失败（Failure Swings），若未形成则不应进场",
+    "期望完美的三阶段循环：实际价格行为会混合整理与回撤，不总是清晰的三阶段模式",
+    "在随机高低点交易反转，而非相关的摆动高低点或前期高低点",
+    "未等待足够的K线闭合确认阶段转换，过早入场导致被诱导（Inducement）",
+    "仅看单一时间框架，忽视高低时间框架阶段的对应关系",
+    "在三次扩张后仍继续追单，未能识别新的整理或回撤阶段即将开始",
+    "忽视均衡点在扩张中的尊重程度，未能用其作为偏差翻转的触发条件",
+    "在大影线反转K线处仍按扩张阶段目标交易，导致目标设定过远",
+    "未在低时间框架验证高时间框架的阶段判断，错过内部结构的CSD信号",
+    "不结合相关资产验证：单一资产的整理可能因相关资产分歧（SMT）而失效，需交叉确认"
+  ],
+  "related_concepts": [
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Continuation Candle",
+      "card_id": "continuation_candle",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "8BWkRGhuj1k_case_002_apoz_usd_日线与多时间框架联动的空头交易",
+      "video_id": "8BWkRGhuj1k",
+      "title": "APOZ/USD 日线反转信号与多时间框架空头交易"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_003_usd_日线7月2日至7月29日的整理_反转_延续案例",
+      "video_id": "8BWkRGhuj1k",
+      "title": "USD日线7月2-29日整理-反转-延续案例分析"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_001_usd_1分钟图_盘整突破后的反转识别",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1分钟：盘整突破后的扩张-扩张反转确认"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_006_gbpusd_1小时图_多阶段反转与日线对齐",
+      "video_id": "VD4xb9VfMHA",
+      "title": "GBPUSD 1H：范围突破反转与日线收盘对齐"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_001_黄金日线反转交易案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "SPX日线小影线反转交易——从CSD到流动性目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "original_card_id": "5fnFOh5YuM0_concept_phases_of_price",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        191.4,
+        726.48
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "F0G31iLVpVg",
+      "original_card_id": "F0G31iLVpVg_concept_phases_of_price",
+      "segment_ids": [
+        "seg_001",
+        "seg_005",
+        "seg_014",
+        "seg_017",
+        "seg_022"
+      ],
+      "time_range": [
+        11.12,
+        1067.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "IPZjNI1B5a0",
+      "original_card_id": "IPZjNI1B5a0_concept_phases_of_price",
+      "segment_ids": [
+        "seg_001",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        10.96,
+        1086.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_phases_of_price",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_010",
+        "seg_011",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_020",
+        "seg_022"
+      ],
+      "time_range": [
+        11.04,
+        1072.28
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_phases_of_price",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        186.4,
+        300.479
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 5,
+    "source_videos": 5,
+    "high_confidence_sources": 5,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:07.864136Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "3张ICT + 2张Price Action，按多数选ICT。两个Price Action卡与ICT卡在核心阶段定义上高度一致，差异主要在影线分析等细节，已整合入identification_rules。",
+  "error": null
+}

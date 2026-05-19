@@ -1,0 +1,204 @@
+{
+  "card_id": "reversal_vs_continuation",
+  "type": "merged_concept",
+  "canonical_term": "Reversal vs Continuation",
+  "aliases": [
+    "Next Day Model",
+    "Previous Candle Model"
+  ],
+  "school": "Price Action",
+  "definition": "通过观察前一根K线是否突破高/低点后的收盘位置，预测下一根K线方向：价格取出高/低点后收盘回到K线范围内（失败突破）预示反转；收盘保持在范围外（成功突破）预示延续。结合PD数组、摆动点及价格交付阶段提高预测可靠性。",
+  "identification_rules": [
+    "识别前一根K线是否取出其高点或低点",
+    "确认前一根K线的收盘位置：收盘回到范围内为失败突破（反转信号），收盘保持在范围外为成功突破（延续信号）",
+    "失败突破预示下一根K线反向运动；成功突破预示下一根K线延续同向运动",
+    "若价格扫过低点但收盘回到范围内，预期次日开低收高（看涨反转）",
+    "若价格扫过高点但收盘回到范围内，预期次日开高收低（看跌反转）",
+    "识别前一根K线是否尊重PD数组（FVG、OB等）或摆动高低点，未能收盘突破该结构则触发反转预期",
+    "结合价格交付阶段（扩张、操纵、回撤）判断信号可靠性",
+    "必须等待前一根K线完全收盘后再判断方向"
+  ],
+  "trading_implication": "该模型用于生成日内或多时间框架的交易方向偏差。前一根K线收盘后，根据收盘位置对下一根K线方向形成预期，并在下一根K线开盘或形成后入场。需与价格交付阶段及高时间框架结构结合使用，可下钻至小时线或15分钟线寻找FVG、OB等具体入场点，以前一日高低点或摆动点作为止损和目标位。",
+  "common_mistakes": [
+    "机械应用模型而忽视价格交付阶段，导致在扩张趋势中逆向交易失败",
+    "未等待前一根K线完全收盘就提前预测下一根K线方向",
+    "忽视K线收盘位置，只看是否触及高低点（必须收盘在范围内才能触发反转模型）",
+    "未确认价格是否真正尊重了PD数组或摆动点，仅凭视觉判断",
+    "在多个信号冲突时（如摆动高点与前一根K线信号不一致）仍强行交易，应等待更多K线确认",
+    "未考虑市场结构转变（MSS）或其他高阶结构，导致预测失效",
+    "认为该模型100%有效，忽视失败情况，需要等待额外确认",
+    "在不稳定的市场结构中应用模型，导致预期失效"
+  ],
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "6zTz7WMdMWg_case_005_gbp_usd_4小时图的摆动点和fvg应用",
+      "video_id": "6zTz7WMdMWg",
+      "title": "GBP/USD 4小时图的摆动点和FVG多次反转分析"
+    },
+    {
+      "card_id": "YESqIoA7Wyg_case_004_纳斯达克月线至15分钟自上而下分析",
+      "video_id": "YESqIoA7Wyg",
+      "title": "纳斯达克月线至15分钟自上而下分析与流动性狙击"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_003_dxy日线多日偏差追踪案例",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "DXY日线多日偏差追踪与Next Day Model应用"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_005_gbp_usd日线到小时图纽约时段交易",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "GBP/USD纽约时段小时图FVG交易设置"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_reversal_vs_continuation",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.12,
+        548.399
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_next_day_model_next_candle_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        11.12,
+        1033.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_next_day_model",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        365.72,
+        1106.7
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "klaiq36QnEM",
+      "original_card_id": "klaiq36QnEM_concept_next_day_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        2.82,
+        812.519
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 3,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:06.157949Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "2张Price Action + 2张ICT，按多数选Price Action。后两张原始卡主题为Next Day Model，与Reversal vs Continuation高度重叠，已提取其中与反转/延续判断直接相关的规则合并入本卡。",
+  "error": null
+}

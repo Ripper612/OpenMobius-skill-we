@@ -1,0 +1,119 @@
+{
+  "card_id": "wik00c9_2nk_case_003_spx_15分钟下跌反转案例",
+  "type": "case",
+  "title": "SPX 15分钟下跌反转：Turtle Soup到Breaker Block的完整形态",
+  "related_concepts": [
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Confluence",
+      "card_id": "confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "turtle_soup_entry",
+    "inversion",
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "breaker_block",
+    "fair_value_gap_fvg",
+    "propulsion_block",
+    "market_structure_shift_mss",
+    "confluence"
+  ],
+  "school": "ICT",
+  "asset": "SPX",
+  "timeframe": "15M",
+  "market_context": "SPX在日线上扫除高点后回到区间内，随后继续下跌。博主在15分钟图上追踪低点是否被扫除，观察整理区间内的反转信号形成。",
+  "key_observation": "价格在整理区间内扫除高点后形成Turtle Soup，随后依次形成Inversion、CSD/Order Block、Breaker Block和FVG，这些结构重叠形成高概率反转信号，最终触发向下延续。",
+  "analysis_steps": [
+    "Step 1: 识别日线结构——扫除高点后回到区间，预期低点也会被扫除",
+    "Step 2: 在15分钟图上观察整理区间，等待高点被扫除作为Turtle Soup（第一步反转信号）",
+    "Step 3: 确认Inversion形成——价格穿过FVG并收盘在高点上方，形成第二步反转信号",
+    "Step 4: 标记Change in the State of Delivery和Order Block形成的区域",
+    "Step 5: 识别Breaker Block——从低点到高点的整个上升腿作为破坏块",
+    "Step 6: 确认Fair Value Gap形成，与Order Block和CSD重叠形成汇聚",
+    "Step 7: 观察价格从汇聚区域反应并向上交易，验证反转确认",
+    "Step 8: 识别Propulsion Block在上升腿内形成，为后续下跌延续做准备",
+    "Step 9: 确认价格突破低点，反转完全确认，开始向下延续"
+  ],
+  "outcome": "反转完全确认，价格从汇聚区域向上反应后，随后突破低点并向下延续，验证了整个反转序列的有效性。",
+  "lessons": "多个ICT结构（Turtle Soup、Inversion、CSD、Breaker Block、FVG）在同一区域重叠时形成高概率交易设置。关键是专注于1-2个主要结构而非全部，CSD/Order Block是该策略的核心。Propulsion Block在反转后的延续中提供额外的交易机会。",
+  "primary_image": "cards/wik00c9_2nk/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/wik00c9_2nk/images/case_003_detail_1.jpg",
+    "cards/wik00c9_2nk/images/case_003_detail_2.jpg",
+    "cards/wik00c9_2nk/images/case_003_detail_3.jpg",
+    "cards/wik00c9_2nk/images/case_003_detail_4.jpg",
+    "cards/wik00c9_2nk/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "15分钟K线图。图上显示价格范围从43410至43680。左侧出现一根大幅下跌的黑色K线，从43670跌至43450。随后从18:00开始进入盘整区间，约10根K线在43500至43545之间波动，绿黑相间。图上有一条水平线标注在43545处，以及一个矩形框标注覆盖盘整区域。右下角可见交易界面按钮（Sell、Buy等）。",
+    "case_003_detail_1.jpg": "SPX 5分钟K线图，时间范围从22:00至16:00。图上可见价格范围从2743.0至2719.2。图表左侧显示约8根K线在2740至2733区间内的整理，随后约15根K线形成从2740向下至2724的下行走势。中段约10根K线在2731至2726区间内震荡。图右侧最后几根K线从2728快速下行至2720。图上有三条水平线分别标注在2741.0、2720.0和2719.2价位。最新K线用粉色矩形",
+    "case_003_detail_2.jpg": "图表显示一段时间内的 K 线走势，价格范围从 2743.0 至 2715.6。图上有两条水平虚线分别位于 2741.0 和 2727.0 处。左侧显示时间标记从 22:00 至 16:00，底部时间戳显示'Wed 11 Dec 08:15'。图右侧有两个矩形标注框分别围绕 2720-2721 和 2724-2726 价格区间。K 线呈现从高位向下的趋势，中段有一段盘整区间，随后出现急速下跌至 27",
+    "case_003_detail_3.jpg": "图表显示 1 小时 K 线图，价格范围从 2715.0 至 2743.0。图上有两条水平虚线分别位于 2741.0 和 2720.0 处。两个矩形区域被高亮标注：上方区域覆盖 2724.0 至 2727.0 价格范围（黄色背景），下方区域覆盖 2718.0 至 2721.0 价格范围（粉色背景）。K 线序列显示从左侧约 23:00 时段开始，经过多个小时周期，在 08:00 至 09:00 之间出",
+    "case_003_detail_4.jpg": "图表显示一份K线图，价格范围从2714.0至2748.0。图上有三条水平线分别位于2740.0、2724.4和2720.0处。时间轴从21:00跨越至18:00，标注为'Wed 11 Dec 08:00'。图中可见三个彩色矩形框标注，分别覆盖2722.0-2726.0、2718.0-2722.0和2726.0-2730.0的价格区间。K线形态显示初期在2730.0-2740.0区间内波动，随后向下",
+    "case_003_detail_5.jpg": "图表显示1小时K线图，价格范围从43420到43680。图上有两条水平线分别位于43502和43545处。15时出现一根大幅下跌的黑色K线，从43670跌至43450。随后18时至02时间段内，K线在43500至43545区间内震荡整理，约8根K线。03时处有一条竖虚线标记，此后价格向下突破至43490。图上绿色K线主要集中在早期交易时段，黑色K线占据15时至18时及03时之后的时段。"
+  },
+  "sources": [
+    {
+      "video_id": "wik00c9_2nk",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        727.639,
+        1016.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了反转的5个步骤，清晰标注了所有关键结构，资产、时间框架、价格区间都从图表读取，分析逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:21.059333Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"SPX 15分钟下跌反转：Turtle Soup到Breaker Block的完整形态\",\"school\":\"ICT\",\"asset\":\"SPX\",\"timeframe\":\"15M\",\"market_context\":\"SPX在日线上扫除高点后回到区间内，随后继续下跌。博主在15分钟图上追踪低点是否被扫除，观察整理区间内的反转信号形成。\",\"key_observation\":\"价格在整理区间内扫除高点后形成Turtle Soup，随后依次形成Inversion、CSD/Order Block、Breaker Block和FVG，这些结构重叠形成高概率反转信号，最终触发向下延续。\",\"analysis_steps\":[\"Step 1: 识别日线结构——扫除高点后回到区间，预期低点也会被扫除\",\"Step 2: 在15分钟图上观察整理区间，等待高点被扫除作为Turtle Soup（第一步反转信号）\",\"Step 3: 确认Inversion形成——价格穿过FVG并收盘在高点上方，形成第二步反转信号\",\"Step 4: 标记Change in the State of Delivery和Order Block形成的区域\",\"Step 5: 识别Breaker Block——从低点到高点的整个上升腿作为破坏块\",\"Step 6: 确认Fair Value Gap形成，与Order Block和CSD重叠形成汇聚\",\"Step 7: 观察价格从汇聚区域反应并向上交易，验证反转确认\",\"Step 8: 识别Propulsion Block在上升腿内形成，为后续下跌延续做准备\",\"Step 9: 确认价格突破低点，反转完全确认，开始向下延续\"],\"outcome\":\"反转完全确认，价格从汇聚区域向上反应后，随后突破低点并向下延续，验证了整个反转序列的有效性。\",\"lessons\":\"多个ICT结构（Turtle Soup、Inversion、CSD、Breaker Block、FVG）在同一区域重叠时形成高概率交易设置。关键是专注于1-2个主要结构而非全部，CSD/Order Block是该策略的核心。Propulsion Block在反转后的延续中提供额外的交易机会。\",\"primary_image_frame_id\":\"wik00c9_2nk_f031\",\"supporting_image_frame_ids\":[\"wik00c9_2nk_f025\",\"wik00c9_2nk_f026\",\"wik00c9_2nk_f027\",\"wik00c9_2nk_f028\",\"wik00c9_2nk_f032\",\"wik00c9_2nk_f033\",\"wik00c9_2nk_f034\"],\"related_concepts\":[\"Turtle Soup\",\"Inversion\",\"Change in the State of Delivery (CSD)\",\"Order Block (OB)\",\"Breaker Block\",\"Fair Value Gap (FVG)\",\"Propulsion Block\",\"Market Structure Shift (MSS)\",\"Confluence\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了反转的5个步骤，清晰标注了所有关键结构，资产、时间框架、价格区间都从图表读取，分析逻辑完整。\"}",
+  "error": null
+}

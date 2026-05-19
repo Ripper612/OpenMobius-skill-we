@@ -1,0 +1,102 @@
+{
+  "card_id": "o0v4KQxZbpU_case_004_回测第二天交易",
+  "type": "case",
+  "title": "次日Silver Bullet会话中的扫低反弹做多交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "breaker_block",
+    "fair_value_gap",
+    "liquidity",
+    "killzone",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1m",
+  "market_context": "在回测第二天的Silver Bullet交易时段（9 AM），博主标记了小时高低点，观察到价格扫低后反弹，寻找做多机会。",
+  "key_observation": "价格在9 AM小时低点下方进行扫荡后反弹，形成向上收盘的K线作为Breaker Block，提供高概率做多入场点。",
+  "analysis_steps": [
+    "Step 1: 标记9 AM小时高点和低点作为参考水平线",
+    "Step 2: 观察价格扫低（sweep below the low）的行为",
+    "Step 3: 识别扫低前的向上收盘K线作为Breaker Block",
+    "Step 4: 使用该向上收盘K线作为做多入场点，目标是到达小时高点的另一侧",
+    "Step 5: 设置止损在小时低点",
+    "Step 6: 在11 AM Killzone结束前等待交易触发",
+    "Step 7: 当达到3R时，将止损移至盈亏平衡点",
+    "Step 8: 继续持仓至最终获得3.56R收益"
+  ],
+  "outcome": "交易成功获得3.56R收益。价格在扫低反弹后，使用向上K线入场做多，快速达到3R目标，随后止损移至盈亏平衡，最终收益3.56R。",
+  "lessons": "在Silver Bullet会话中，扫低后的向上收盘K线（Breaker Block）提供了高概率的做多入场点。通过在达到3R时移动止损至盈亏平衡，可以锁定利润同时保持上行潜力。小时级别的高低点是关键参考水平。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_004_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_004_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_004_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "NAS100 1小时K线图。图上标注两个矩形区域：上方区域从15222.27至15372.43，填充粉红色；下方区域从15050.00至15222.27，填充绿色。左侧主图显示较长时间周期内K线在两个区域间的波动，右侧副图展示最近1小时内的K线活动，主要集中在绿色区域范围内，包含绿色和黑色K线体。图上未见其他标注或指标。",
+    "case_004_detail_1.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示从约15080上升至15277的K线序列，右侧面板显示从15277下跌至约15100后反弹至15232的K线序列。图上标注有多条水平参考线，以及两个矩形区域框：一个浅绿色矩形框和一个浅粉色矩形框。右侧价格刻度显示最高价15277.534000，最低价约15080.000000。底部时间轴显示分钟级别时间戳。",
+    "case_004_detail_2.jpg": "NAS100 1分钟K线图。图上可见多条水平线标注，分别位于15277.51、15150和15100价格水平。图表中有两个矩形区域标注：粉色矩形覆盖约15150至15250区间，浅绿色矩形覆盖约15100至15200区间。可见价格范围从15090至15277.51。K线序列显示上升趋势后跟随下降趋势，右侧可见一根大型绿色K线，中间部分可见一根大型黑色K线。图表标题显示为Backtesting模式。",
+    "case_004_detail_3.jpg": "NAS100 1 分钟 K 线图。图表显示从约 15050 到 14800 的价格范围。左侧显示一段下跌走势，包含多根绿色和黑色 K 线，部分 K 线具有较长下影线。中间区域显示在 14800 至 14900 之间的盘整形态。右侧显示一根大幅下跌的黑色 K 线，随后出现绿色恢复 K 线。图右侧价格刻度标注有具体数值。图上可见两条水平参考线标记价格范围边界。",
+    "case_004_detail_4.jpg": "NAS100 1分钟K线图。图上可见价格范围约从14868到15044。图表中标记有两个矩形区域：下方区域约在14868至14912之间，上方区域约在15000至15044之间。右侧面板显示成交量柱状图，柱体呈绿色和黑色。顶部显示当前K线的开高低收数据及时间戳。图上未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        379.16,
+        561.399
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰描述了完整的交易过程：标记高低点、识别扫低、使用向上K线入场、设置止损、达到3R后移至盈亏平衡、最终获得3.56R收益。所有关键数字和步骤都从转录和图表中明确读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:32.315831Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"次日Silver Bullet会话中的扫低反弹做多交易\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1m\",\"market_context\":\"在回测第二天的Silver Bullet交易时段（9 AM），博主标记了小时高低点，观察到价格扫低后反弹，寻找做多机会。\",\"key_observation\":\"价格在9 AM小时低点下方进行扫荡后反弹，形成向上收盘的K线作为Breaker Block，提供高概率做多入场点。\",\"analysis_steps\":[\"Step 1: 标记9 AM小时高点和低点作为参考水平线\",\"Step 2: 观察价格扫低（sweep below the low）的行为\",\"Step 3: 识别扫低前的向上收盘K线作为Breaker Block\",\"Step 4: 使用该向上收盘K线作为做多入场点，目标是到达小时高点的另一侧\",\"Step 5: 设置止损在小时低点\",\"Step 6: 在11 AM Killzone结束前等待交易触发\",\"Step 7: 当达到3R时，将止损移至盈亏平衡点\",\"Step 8: 继续持仓至最终获得3.56R收益\"],\"outcome\":\"交易成功获得3.56R收益。价格在扫低反弹后，使用向上K线入场做多，快速达到3R目标，随后止损移至盈亏平衡，最终收益3.56R。\",\"lessons\":\"在Silver Bullet会话中，扫低后的向上收盘K线（Breaker Block）提供了高概率的做多入场点。通过在达到3R时移动止损至盈亏平衡，可以锁定利润同时保持上行潜力。小时级别的高低点是关键参考水平。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f015\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f013\",\"o0v4KQxZbpU_f014\",\"o0v4KQxZbpU_f016\",\"o0v4KQxZbpU_f017\"],\"related_concepts\":[\"Order Block\",\"Breaker Block\",\"Fair Value Gap\",\"Liquidity\",\"Killzone\",\"Market Structure\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰描述了完整的交易过程：标记高低点、识别扫低、使用向上K线入场、设置止损、达到3R后移至盈亏平衡、最终获得3.56R收益。所有关键数字和步骤都从转录和图表中明确读出。\"}",
+  "error": null
+}

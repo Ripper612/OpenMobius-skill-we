@@ -1,0 +1,119 @@
+{
+  "card_id": "ynFA6E3qHj0_case_002_btc_usdt_1分钟图_多次结构测试与反向运动",
+  "type": "case",
+  "title": "BTC/USDT 1分钟：多次结构测试与反向运动分析",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "retracement",
+    "premium_discount_premium_",
+    "market_structure",
+    "liquidity",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "BTC/USDT",
+  "timeframe": "1M",
+  "market_context": "BTC在09:00-11:40时间段内从15700下跌至15418，随后在15520-15700区间内多次震荡。价格在多个订单块和FVG之间反复测试，展现复杂的上下波动模式。",
+  "key_observation": "价格在15560-15700区间内多次回测订单块和公允价值缺口，每次测试后都出现反向运动。博主通过追踪位移(Displacement)和回测(Retracement)来判断价格是否会继续趋势或反转。",
+  "analysis_steps": [
+    "Step 1: 识别初始下行趋势中的多个订单块(OB)位置，标记在15560-15580和15520-15545区间。",
+    "Step 2: 观察价格在下跌过程中是否形成完整的K线位移，判断是否有反转信号。",
+    "Step 3: 当价格开始上升时，检查是否尊重之前形成的看涨FVG，确认位移的有效性。",
+    "Step 4: 追踪价格在15620-15640区域的旧高点，观察是否能突破并产生新的位移。",
+    "Step 5: 分析价格在溢价区(Premium)和折价区(Discount)之间的运动，判断下一步方向。",
+    "Step 6: 当价格无法突破旧高时，观察是否会回到范围内或继续向下寻找旧低点。",
+    "Step 7: 识别多个PD数组(订单块、FVG)的堆积，作为关键支撑/阻力位。",
+    "Step 8: 在价格出现位移后，预期要么小幅回测要么完全反转，根据后续K线确认方向。"
+  ],
+  "outcome": null,
+  "lessons": "在高波动性的1分钟图上，多次结构测试表明市场在积累或操纵阶段。关键是区分真正的位移(伴随强势K线)与虚假突破。通过追踪FVG尊重度和订单块回测来确认趋势延续或反转的概率。",
+  "primary_image": "cards/ynFA6E3qHj0/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/ynFA6E3qHj0/images/case_002_detail_1.jpg",
+    "cards/ynFA6E3qHj0/images/case_002_detail_2.jpg",
+    "cards/ynFA6E3qHj0/images/case_002_detail_3.jpg",
+    "cards/ynFA6E3qHj0/images/case_002_detail_4.jpg",
+    "cards/ynFA6E3qHj0/images/case_002_detail_5.jpg",
+    "cards/ynFA6E3qHj0/images/case_002_detail_6.jpg",
+    "cards/ynFA6E3qHj0/images/case_002_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为 BTCUSDT 1 分钟 K 线图，时间范围从 09:20 至 11:30。价格范围约 15570 至 15705。图上有多条矩形标注：两条标记为 OB 的矩形分别位于 15520-15540 和 15540-15560 价格区间；另有两条无标签矩形位于 15530-15560 区间；右侧上方有粉色和绿色矩形区域。图上标注有平行通道（Parallel Channel）。右侧价格轴显示当前价",
+    "case_002_detail_1.jpg": "BTC/USD 1分钟K线图。图上显示从09:00至11:10的价格走势，整体呈下行趋势，从约15700下跌至15418.25。K线由绿色和黑色蜡烛交替组成。图中标注有两个矩形框，均标记为OB文字标签，分别位于15560-15580和15520-15545价格区间。右侧价格刻度显示当前价格为15418.25。除上述矩形标注外，未见其他指标或形态框。",
+    "case_002_detail_2.jpg": "BTCUSDT 1分钟K线图。图上显示从约09:10至11:20的价格走势，整体呈下行趋势，价格范围从15700跌至15560。图上有一个矩形框标注为'OB'，位置约在15620至15640区间。右侧价格轴显示当前价格为15614.50，并带有绿色背景标签。图上可见多根黑色K线与绿色K线交替出现，下行过程中伴有多个小实体与不同长度的影线。",
+    "case_002_detail_3.jpg": "BTC/USDT 1分钟K线图。图上显示从09:20至11:30时间段的价格走势，可见价格范围约15580至15700。K线由绿色和黑色蜡烛交替组成。图上有一个矩形标注，标签为OB，位置约在15540至15560价格区间。右侧价格轴显示当前价格为15632.31。图左下角显示TTrades_edu标识。除矩形标注外，图上未见其他形态框、趋势线或指标。",
+    "case_002_detail_4.jpg": "1分钟K线图。图上可见多根K线，颜色交替为绿色和黑色。右侧价格刻度显示范围约15565至15570。图上标注有多个矩形框，其中3个标记为'OB'，分别位于约15540-15545、15530-15535、15520-15525区间。另有1个灰色圆形标注位于图表中部。右上角显示价格标签15624.00。图表底部时间轴显示从09:20至11:30的时间段。",
+    "case_002_detail_5.jpg": "BTCUSD 1分钟K线图，时间范围09:20至11:30。图上可见价格在15560至15700之间波动。左侧标注有一条趋势线标记为'Trend Line'。图中部分区域标记有'OB'文字标签。图上绘制了三个矩形框，分别位于15530-15545、15540-15560及15520-15545价格区间。K线序列中包含多根绿色和黑色蜡烛，其中约10:00处有一根长黑色K线从15670下跌至15500",
+    "case_002_detail_6.jpg": "BTC/USDT 1分钟K线图，时间范围09:30至11:40。图上可见价格范围约15560至15660。标注有两个矩形区域，均标记为'OB'：上方区域约在15625至15645之间，下方区域约在15600至15620之间。图上有多条水平线标注关键价格位。K线形态显示上方区域内有绿色K线，随后出现黑色K线向下运动，最低触及15560附近，部分K线呈长下影线形态。右侧价格标签显示当前价格约15560",
+    "case_002_detail_7.jpg": "USD 1分钟K线图。图上显示价格范围约从15525到15567。可见多根绿色和黑色K线交替出现。图上标注有两个矩形框，均标记为'OB'文字标签，分别位于约15535-15545和15520-15530价格区间。右侧价格刻度显示15542.50处有一条水平线。图中还可见一个灰色圆形标记位于中部区域。底部时间轴显示时间范围从09:40至11:30，当前时间显示为10:32。"
+  },
+  "sources": [
+    {
+      "video_id": "ynFA6E3qHj0",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_006",
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        362.1,
+        789.019
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例进行了完整的分析，清晰标注了资产(BTC/USDT)、时间框架(1分钟)、关键价位(15560-15700)、多个订单块位置，并详细演示了追踪位移、FVG尊重度和反向运动的完整过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:35.135621Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC/USDT 1分钟：多次结构测试与反向运动分析\",\"school\":\"ICT\",\"asset\":\"BTC/USDT\",\"timeframe\":\"1M\",\"market_context\":\"BTC在09:00-11:40时间段内从15700下跌至15418，随后在15520-15700区间内多次震荡。价格在多个订单块和FVG之间反复测试，展现复杂的上下波动模式。\",\"key_observation\":\"价格在15560-15700区间内多次回测订单块和公允价值缺口，每次测试后都出现反向运动。博主通过追踪位移(Displacement)和回测(Retracement)来判断价格是否会继续趋势或反转。\",\"analysis_steps\":[\"Step 1: 识别初始下行趋势中的多个订单块(OB)位置，标记在15560-15580和15520-15545区间。\",\"Step 2: 观察价格在下跌过程中是否形成完整的K线位移，判断是否有反转信号。\",\"Step 3: 当价格开始上升时，检查是否尊重之前形成的看涨FVG，确认位移的有效性。\",\"Step 4: 追踪价格在15620-15640区域的旧高点，观察是否能突破并产生新的位移。\",\"Step 5: 分析价格在溢价区(Premium)和折价区(Discount)之间的运动，判断下一步方向。\",\"Step 6: 当价格无法突破旧高时，观察是否会回到范围内或继续向下寻找旧低点。\",\"Step 7: 识别多个PD数组(订单块、FVG)的堆积，作为关键支撑/阻力位。\",\"Step 8: 在价格出现位移后，预期要么小幅回测要么完全反转，根据后续K线确认方向。\"],\"outcome\":null,\"lessons\":\"在高波动性的1分钟图上，多次结构测试表明市场在积累或操纵阶段。关键是区分真正的位移(伴随强势K线)与虚假突破。通过追踪FVG尊重度和订单块回测来确认趋势延续或反转的概率。\",\"primary_image_frame_id\":\"ynFA6E3qHj0_f001\",\"supporting_image_frame_ids\":[\"ynFA6E3qHj0_f013\",\"ynFA6E3qHj0_f014\",\"ynFA6E3qHj0_f015\",\"ynFA6E3qHj0_f016\",\"ynFA6E3qHj0_f017\",\"ynFA6E3qHj0_f018\",\"ynFA6E3qHj0_f019\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Retracement\",\"Premium/Discount\",\"PD Array\",\"Market Structure\",\"Liquidity\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例进行了完整的分析，清晰标注了资产(BTC/USDT)、时间框架(1分钟)、关键价位(15560-15700)、多个订单块位置，并详细演示了追踪位移、FVG尊重度和反向运动的完整过程。\"}",
+  "error": null
+}

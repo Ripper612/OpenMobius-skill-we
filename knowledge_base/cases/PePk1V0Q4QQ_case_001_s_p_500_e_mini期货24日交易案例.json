@@ -1,0 +1,118 @@
+{
+  "card_id": "PePk1V0Q4QQ_case_001_s_p_500_e_mini期货24日交易案例",
+  "type": "case",
+  "title": "S&P 500 E-mini期货24日MSS、位移与FVG多头入场分析",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Swing Highs/Lows",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "SMT Divergence",
+      "card_id": "smt_divergence",
+      "exists": true
+    },
+    {
+      "term": "Relative Equal Highs",
+      "card_id": "equal_highs_and_equal_lows",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "displacement",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "liquidity",
+    "optimal_trade_entry_ote",
+    "smt_divergence",
+    "equal_highs_and_equal_lows"
+  ],
+  "school": "ICT",
+  "asset": "CME_MINI (S&P 500 E-mini Futures)",
+  "timeframe": "15M / 5M",
+  "market_context": "S&P 500 E-mini期货在24日经历下跌后形成市场结构转变。价格从高位回落至低点附近，随后出现向上位移突破，伴随公允价值缺口形成，为多头交易提供机会。",
+  "key_observation": "博主识别到在5分钟和15分钟图表上，价格突破前期结构高点形成Market Structure Shift，伴随energetic displacement运动创造Fair Value Gap，这是高概率多头入场信号。",
+  "analysis_steps": [
+    "Step 1: 定义市场结构——识别摆动高点和低点（swing highs/lows），观察价格形成的高低点序列变化。",
+    "Step 2: 在5分钟图表上定位Market Structure Shift——找到价格突破前期结构高点的位置，标记MSS。",
+    "Step 3: 确认Displacement——观察价格以energetic势头向上突破结构，确保运动充满活力且快速。",
+    "Step 4: 识别Fair Value Gap——检查三根K线的wick重叠情况，找到存在明显缺口的区域（wick不重叠处）。",
+    "Step 5: 在15分钟图表上验证——确认同样的MSS和FVG结构在更高时间框架上也存在。",
+    "Step 6: 标记入场区域——将FVG区域作为最优交易入场点（OTE），准备多头交易。",
+    "Step 7: 识别后续目标——观察相对相等的摆动高点（relative equal highs）作为利润目标。"
+  ],
+  "outcome": "博主在24日识别到多个FVG入场机会。在1分钟图表上有一个入场点，如果错过则可在5分钟图表上寻找MSS和FVG的组合入场。价格目标指向相对相等的摆动高点，后续还有额外的MSS和FVG形成提供多个交易机会。",
+  "lessons": "Market Structure Shift与Displacement的组合是识别趋势反转的关键。Fair Value Gap作为价格快速运动的证据，提供高概率入场区域。在多个时间框架上验证同一结构可提高交易确定性。相对相等的摆动高点是自然的利润目标。",
+  "primary_image": "cards/PePk1V0Q4QQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/PePk1V0Q4QQ/images/case_001_detail_1.jpg",
+    "cards/PePk1V0Q4QQ/images/case_001_detail_2.jpg",
+    "cards/PePk1V0Q4QQ/images/case_001_detail_3.jpg",
+    "cards/PePk1V0Q4QQ/images/case_001_detail_4.jpg",
+    "cards/PePk1V0Q4QQ/images/case_001_detail_5.jpg",
+    "cards/PePk1V0Q4QQ/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上有两个灰色矩形区域，均标注为FVG，分别位于图表上部（约4412.50至4415.00）和下部（约4087.50至4090.00）。下部FVG区域附近标有文字标签MSS。图右侧有一条水平线位于约4097.50。K线整体价格范围从4077.50至4152.50。除上述标注外，图上未见其他指标或形态框。",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示资产代码CME_MINI，当前价格4148.25在右上角以绿色高亮显示。图表中央有大标题文字'What is market structure?'。可见三条水平线分别位于4164.00、4140.00和4100.00价位。图上绘制了两个矩形区域，分别覆盖4140.00至4164.00和4100.00至4140.00的价格范围。K",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上标题为'Why do I need to know it?'。右侧价格刻度显示当前价4145.75（绿色高亮）。图上有5个灰色矩形框标注，分别位于不同价格区间，每个框宽度约10-15点。K线序列显示红绿交替排列，整体价格范围从4670跨越至4175。除矩形框外，图上未见其他指标或趋势线标注。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上标题为'Market Structure Shift (MSS)'。可见价格范围约从4675.00至4151.50。图表显示一段下跌走势，随后进入盘整区域，最后形成上升走势。图上有两条水平线分别位于4131.50和4113.00附近。K线序列中绿色K线占多数，红色K线穿插其中。右侧价格轴显示当前价格在4151.50附近。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上有多条文字标注说明Displacement概念。图表左侧显示约4100至4120区间的盘整，随后出现向下移动至4090附近，标注有'MSS'文字。右侧显示从4090向上的上升走势，最高至4187.50，当前价格在4187.50处用绿色高亮显示。图上标注强调Displacement应导致Fair Value Gap形成，并将Displa",
+    "case_001_detail_5.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从06:00至12:00的交易时段。价格范围约从4076.00至4105.50。图上有两处文字标注：中间偏左区域标记'MSS'的矩形框，右上方标题'Fair Value Gap (FVG)'。K线由绿色（上涨）和红色（下跌）蜡烛组成，多数K线具有上下影线。中间区域显示盘整形态，右上方K线间出现缺口。",
+    "case_001_detail_6.jpg": "S&P 500 E-mini 5分钟K线图。图上显示从04:00至20:00的交易时段。可见一条从左上向右下的趋势线，从约3943跌至3876。图中标注有一个矩形框，标记为'MSS'，位于3878至3892价格区间。右侧价格刻度显示当前价格在3943附近。K线整体呈现先下跌后反弹的形态，下跌阶段约90分钟，之后出现多根绿色K线向上延伸。图上有多条水平线标注关键价格位。"
+  },
+  "sources": [
+    {
+      "video_id": "PePk1V0Q4QQ",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.44,
+        241.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了MSS、Displacement、FVG的定义与实际应用，在15M和5M图表上清晰标注关键价位，交易逻辑完整，入场和目标明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:31.120127Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"S&P 500 E-mini期货24日MSS、位移与FVG多头入场分析\",\"school\":\"ICT\",\"asset\":\"CME_MINI (S&P 500 E-mini Futures)\",\"timeframe\":\"15M / 5M\",\"market_context\":\"S&P 500 E-mini期货在24日经历下跌后形成市场结构转变。价格从高位回落至低点附近，随后出现向上位移突破，伴随公允价值缺口形成，为多头交易提供机会。\",\"key_observation\":\"博主识别到在5分钟和15分钟图表上，价格突破前期结构高点形成Market Structure Shift，伴随energetic displacement运动创造Fair Value Gap，这是高概率多头入场信号。\",\"analysis_steps\":[\"Step 1: 定义市场结构——识别摆动高点和低点（swing highs/lows），观察价格形成的高低点序列变化。\",\"Step 2: 在5分钟图表上定位Market Structure Shift——找到价格突破前期结构高点的位置，标记MSS。\",\"Step 3: 确认Displacement——观察价格以energetic势头向上突破结构，确保运动充满活力且快速。\",\"Step 4: 识别Fair Value Gap——检查三根K线的wick重叠情况，找到存在明显缺口的区域（wick不重叠处）。\",\"Step 5: 在15分钟图表上验证——确认同样的MSS和FVG结构在更高时间框架上也存在。\",\"Step 6: 标记入场区域——将FVG区域作为最优交易入场点（OTE），准备多头交易。\",\"Step 7: 识别后续目标——观察相对相等的摆动高点（relative equal highs）作为利润目标。\"],\"outcome\":\"博主在24日识别到多个FVG入场机会。在1分钟图表上有一个入场点，如果错过则可在5分钟图表上寻找MSS和FVG的组合入场。价格目标指向相对相等的摆动高点，后续还有额外的MSS和FVG形成提供多个交易机会。\",\"lessons\":\"Market Structure Shift与Displacement的组合是识别趋势反转的关键。Fair Value Gap作为价格快速运动的证据，提供高概率入场区域。在多个时间框架上验证同一结构可提高交易确定性。相对相等的摆动高点是自然的利润目标。\",\"primary_image_frame_id\":\"PePk1V0Q4QQ_f007\",\"supporting_image_frame_ids\":[\"PePk1V0Q4QQ_f002\",\"PePk1V0Q4QQ_f003\",\"PePk1V0Q4QQ_f004\",\"PePk1V0Q4QQ_f001\",\"PePk1V0Q4QQ_f006\",\"PePk1V0Q4QQ_f008\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Displacement\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Swing Highs/Lows\",\"Liquidity\",\"Optimal Trade Entry (OTE)\",\"SMT Divergence\",\"Relative Equal Highs\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了MS",
+  "error": null
+}

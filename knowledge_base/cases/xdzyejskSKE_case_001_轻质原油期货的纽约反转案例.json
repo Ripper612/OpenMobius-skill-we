@@ -1,0 +1,94 @@
+{
+  "card_id": "xdzyejskSKE_case_001_轻质原油期货的纽约反转案例",
+  "type": "case",
+  "title": "轻质原油期货纽约反转：高时间框架位触及与流动性扫荡",
+  "related_concepts": [
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame Key Level",
+      "card_id": "htf_key_level",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_state_of_delivery_csd",
+    "sellside_liquidity",
+    "order_block",
+    "failure_swing",
+    "htf_key_level",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": "Light Crude Oil Futures (NYMEX)",
+  "timeframe": "15M",
+  "market_context": "轻质原油期货在伦敦时段未能触及高时间框架关键位，价格继续回撤至纽约时段，在纽约触及该关键位后形成反转信号，随后扫除卖方流动性。",
+  "key_observation": "伦敦时段虽有下跌但未触及高时间框架关键位，纽约时段价格触及该位后形成Change in State of Delivery（CSD），预示反转；随后价格扫除之前的卖方流动性高点。",
+  "analysis_steps": [
+    "Step 1: 识别前一日低点作为卖方流动性（Sellside Liquidity）位置。",
+    "Step 2: 观察伦敦时段价格下跌但未能触及高时间框架关键位，说明反转尚未形成。",
+    "Step 3: 进入纽约时段，价格触及高时间框架关键位，形成Change in State of Delivery（一系列下跌收盘K线）。",
+    "Step 4: 首次CSD失败（未能继续下跌），表明下行动能不足，预期价格将创新低或回到前期低点。",
+    "Step 5: 价格确实创出新低，形成新的下跌收盘K线序列，与纽约开盘时间对齐。",
+    "Step 6: 价格收盘突破该序列上方，确认反转完成，设置止损于订单块底部。",
+    "Step 7: 价格继续上升，扫除所有失败摆动（Failure Swings），完成交易目标。"
+  ],
+  "outcome": "交易成功：价格从纽约反转点上升，扫除所有失败摆动高点，达成预期目标。",
+  "lessons": "纽约反转的核心是：伦敦未触及高时间框架位→纽约触及该位形成CSD→CSD失败预示新低→反转完成后扫除流动性。关键在于识别高时间框架关键位和CSD的形成与失败。",
+  "primary_image": "cards/xdzyejskSKE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/xdzyejskSKE/images/case_001_detail_1.jpg",
+    "cards/xdzyejskSKE/images/case_001_detail_2.jpg",
+    "cards/xdzyejskSKE/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "Light Crude Oil Futures 15分钟K线图。图上显示从左侧约76.95至右侧约79.35的价格范围。右侧有两个矩形标注区域：上方绿色区域跨越约76.20至79.20，下方灰色区域跨越约76.95至77.70。图中标注文字包括'Sellside Liquidity'。底部时间轴显示多个时间刻度标记。图上有黄色十字光标标记。除矩形区域和文字标注外，未见其他技术指标或形态标注。",
+    "case_001_detail_1.jpg": "图上展示一个标题为'Bearish NY Reversal'的教学示例。K线图从左至右显示上升趋势，由绿色和黑色K线组成，随后转为下降趋势。图上标注有'HTF Key Level'水平线、'London'和'New York'时段标记、'CISD'标签和一个黄色圆圈。右侧显示一根大型黑色K线，具有长上影线，标记为'Bearish Example'。图下方显示'TTrades'品牌标识。整体呈现从上",
+    "case_001_detail_2.jpg": "轻质原油期货 15 分钟 K 线图。图表右侧显示一根大型黑色 K 线，从约 76.70 跌至 75.05，跨度约 1.65 点。图上标注有一条水平线及两个矩形区域：上方矩形标记为'Sellside Liquidity'，位于 76.50 至 76.96 区间；下方矩形未标记，位于 75.05 至 75.40 区间。图右下方有黄色十字光标标记。左侧历史 K 线显示多根小型蜡烛在 75.20 至 76",
+    "case_001_detail_3.jpg": "图表显示美国轻质原油期货1小时K线图。可见价格范围从76.40至78.85。图上有一条水平线位于77.60处。右侧中部有一个黑色矩形框标注，覆盖约77.40至78.20的价格区间。图表左侧显示多根绿色和黑色K线，从78.85向下运行至77.60附近。中间部分显示在77.60至77.80区间的整理形态。多根K线具有下影线。图上标注有'Volatility Liquidity'文字。"
+  },
+  "sources": [
+    {
+      "video_id": "xdzyejskSKE",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.599,
+        192.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了纽约反转的定义、实际案例分析步骤、关键价位标注、交易结果，资产、时间框架、关键位置均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:16.075464Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"轻质原油期货纽约反转：高时间框架位触及与流动性扫荡\",\"school\":\"ICT\",\"asset\":\"Light Crude Oil Futures (NYMEX)\",\"timeframe\":\"15M\",\"market_context\":\"轻质原油期货在伦敦时段未能触及高时间框架关键位，价格继续回撤至纽约时段，在纽约触及该关键位后形成反转信号，随后扫除卖方流动性。\",\"key_observation\":\"伦敦时段虽有下跌但未触及高时间框架关键位，纽约时段价格触及该位后形成Change in State of Delivery（CSD），预示反转；随后价格扫除之前的卖方流动性高点。\",\"analysis_steps\":[\"Step 1: 识别前一日低点作为卖方流动性（Sellside Liquidity）位置。\",\"Step 2: 观察伦敦时段价格下跌但未能触及高时间框架关键位，说明反转尚未形成。\",\"Step 3: 进入纽约时段，价格触及高时间框架关键位，形成Change in State of Delivery（一系列下跌收盘K线）。\",\"Step 4: 首次CSD失败（未能继续下跌），表明下行动能不足，预期价格将创新低或回到前期低点。\",\"Step 5: 价格确实创出新低，形成新的下跌收盘K线序列，与纽约开盘时间对齐。\",\"Step 6: 价格收盘突破该序列上方，确认反转完成，设置止损于订单块底部。\",\"Step 7: 价格继续上升，扫除所有失败摆动（Failure Swings），完成交易目标。\"],\"outcome\":\"交易成功：价格从纽约反转点上升，扫除所有失败摆动高点，达成预期目标。\",\"lessons\":\"纽约反转的核心是：伦敦未触及高时间框架位→纽约触及该位形成CSD→CSD失败预示新低→反转完成后扫除流动性。关键在于识别高时间框架关键位和CSD的形成与失败。\",\"primary_image_frame_id\":\"xdzyejskSKE_f007\",\"supporting_image_frame_ids\":[\"xdzyejskSKE_f004\",\"xdzyejskSKE_f005\",\"xdzyejskSKE_f006\"],\"related_concepts\":[\"Change in State of Delivery (CSD)\",\"Sellside Liquidity\",\"Order Block\",\"Failure Swing\",\"High Time Frame Key Level\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了纽约反转的定义、实际案例分析步骤、关键价位标注、交易结果，资产、时间框架、关键位置均清晰可读。\"}",
+  "error": null
+}

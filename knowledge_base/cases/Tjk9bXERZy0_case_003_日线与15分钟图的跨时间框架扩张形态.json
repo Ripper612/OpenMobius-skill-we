@@ -1,0 +1,111 @@
+{
+  "card_id": "Tjk9bXERZy0_case_003_日线与15分钟图的跨时间框架扩张形态",
+  "type": "case",
+  "title": "日线扩张形态在15分钟跨时段追踪",
+  "related_concepts": [
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Outside Bar",
+      "card_id": "outside_bar",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Session Analysis",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Daily Profile",
+      "card_id": "daily_profile",
+      "exists": true
+    },
+    {
+      "term": "Accumulation Manipulation Distribution",
+      "card_id": "accumulation_manipulation_distribution_accumula",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "broadening_formation",
+    "outside_bar",
+    "market_structure",
+    "liquidity",
+    "daily_profile",
+    "accumulation_manipulation_distribution_accumula"
+  ],
+  "school": "SMC",
+  "asset": "NQ1",
+  "timeframe": "1D / 15m",
+  "market_context": "NQ100在4月中旬形成日线扩张形态，前一日高低点同时被突破。博主通过日线识别扩张结构，随后在15分钟图追踪亚洲、伦敦、纽约三个交易时段的展开过程。",
+  "key_observation": "日线上前一日高低点同时被突破形成扩张形态（Outside Bar），该结构在15分钟图上按交易时段重复出现，每个时段的高低点成为下一时段的目标点位。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别前一日的高低点范围（约18920-17720）",
+    "Step 2: 观察当日K线同时突破前一日高低点，确认扩张形态（Outside Bar）",
+    "Step 3: 将扩张形态的高低点作为参考，下钻到15分钟图进行时段分析",
+    "Step 4: 在15分钟图上标记亚洲时段的高低点，观察伦敦时段是否扫荡这些点位",
+    "Step 5: 确认伦敦时段扫荡亚洲高低点后无法突破，形成较小的扩张形态",
+    "Step 6: 使用伦敦时段的高低点作为纽约时段的目标点位，预期纽约时段扫荡这些点位",
+    "Step 7: 观察纽约上午时段扩张并形成新的高低点，下午时段在该范围内盘整"
+  ],
+  "outcome": null,
+  "lessons": "跨时间框架的扩张形态具有递归性：日线扩张的高低点在15分钟图上按交易时段重复出现。每个时段若无法突破前一时段的高低点，则该高低点成为下一时段的扫荡目标。这种结构可用于预测价格在不同时段的反转点位和扫荡流动性的位置。",
+  "primary_image": "cards/Tjk9bXERZy0/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/Tjk9bXERZy0/images/case_003_detail_1.jpg",
+    "cards/Tjk9bXERZy0/images/case_003_detail_2.jpg",
+    "cards/Tjk9bXERZy0/images/case_003_detail_3.jpg",
+    "cards/Tjk9bXERZy0/images/case_003_detail_4.jpg",
+    "cards/Tjk9bXERZy0/images/case_003_detail_5.jpg",
+    "cards/Tjk9bXERZy0/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NQ100 E-mini Futures 15分钟图表。图上绘制了多条矩形区域标注，分别用粉色和蓝色填充，覆盖价格范围从17900至18500。同时有三条趋势线，其中一条向上倾斜，两条向下倾斜，跨越整个图表区域。K线显示混合方向的价格行为，包含多根看涨和看跌蜡烛。图表中部可见一个整理形态，价格在18000至18300之间波动。右侧价格刻度标注清晰，时间标签显示18-4-2025。",
+    "case_003_detail_1.jpg": "NQ100 1小时K线图。图上绘制两条蓝色趋势线：上升趋势线从左下向右上延伸至约18400，下降趋势线从左上向右下延伸至约17400。K线整体价格范围约18600至17600。左侧显示初始上冲至18500附近后急速下跌。中间区域K线在两条趋势线之间波动，形成收敛形态。右侧K线突破上升趋势线至18300附近，随后转向下跌，最终收于17800附近。图上有一个黄色十字标记，位置约在中间偏下区域。",
+    "case_003_detail_2.jpg": "NQ100 1小时K线图。图上可见价格范围约从17650至18600。绘制有两条趋势线：一条从左下向右上延伸（上升趋势线），另一条从中上向右下延伸（下降趋势线），两线交汇点约在18236附近。图中央有一个矩形框标注，范围约在18000至18400之间。K线显示混合走势，绿色和黑色K线交替出现，多根K线在矩形框内形成盘整形态。底部可见成交量指标。图右侧最新K线显示下跌走势。",
+    "case_003_detail_3.jpg": "NQ100 日线图。图上显示从 3 月 27 日至 4 月 26 日的 K 线序列，价格范围约 17720 至 18920。图中绘有一条向下倾斜的蓝色趋势线（从左上向右下）和一条向上倾斜的蓝色趋势线（从左下向右上），两条线在图中部相交。一条水平虚线位于约 18475 处。K 线呈绿色（上升）和黑色（下降）交替分布，多数 K 线具有较长的上下影线。图右下角标注日期'19/4/2024'。",
+    "case_003_detail_4.jpg": "图上显示一组 K 线序列，包含绿色和深色蜡烛。图中绘制了两条趋势线：一条从左下向右上延伸，一条从左上向右下延伸，形成收敛结构。K 线被三个带颜色的矩形区域覆盖，其中左侧和右侧区域呈浅粉色，中间区域呈浅蓝色。未见价格刻度、资产代码或时间框架标注。页面右下角显示数字'18'。",
+    "case_003_detail_5.jpg": "NQ100 15分钟K线图。图上显示价格范围约从14300到18700。图中绘制了6条粉色和蓝色矩形框，分别标记在不同价格区间。两条蓝色趋势线分别向上和向下穿过图表，形成通道结构。图上有一个黄色加号标记在中间区域。K线在标记的矩形区间内呈现波动形态。右侧标注显示时间为18:4 2024，周期为15分钟。",
+    "case_003_detail_6.jpg": "NQ100 15分钟K线图。图上绘制了三条趋势线，其中一条从左下向右上延伸，另两条从上向下延伸。图上标记了多个矩形区域，分别用粉色和蓝色填充，覆盖价格范围约18150至18380。可见两条水平线分别位于18362.75和18334.50。K线在图表中央呈现盘整形态，随后右侧显示价格下行至约18100。图表底部标注日期为18/4/2025，时间框架为NQ1 | 15m。"
+  },
+  "sources": [
+    {
+      "video_id": "Tjk9bXERZy0",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        506.84,
+        769.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线扩张形态的识别过程、15分钟图的时段追踪方法，以及三个交易时段的具体高低点扫荡逻辑，分析步骤清晰有序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:54.446130Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线扩张形态在15分钟跨时段追踪\",\"school\":\"SMC\",\"asset\":\"NQ1\",\"timeframe\":\"1D / 15m\",\"market_context\":\"NQ100在4月中旬形成日线扩张形态，前一日高低点同时被突破。博主通过日线识别扩张结构，随后在15分钟图追踪亚洲、伦敦、纽约三个交易时段的展开过程。\",\"key_observation\":\"日线上前一日高低点同时被突破形成扩张形态（Outside Bar），该结构在15分钟图上按交易时段重复出现，每个时段的高低点成为下一时段的目标点位。\",\"analysis_steps\":[\"Step 1: 在日线图上识别前一日的高低点范围（约18920-17720）\",\"Step 2: 观察当日K线同时突破前一日高低点，确认扩张形态（Outside Bar）\",\"Step 3: 将扩张形态的高低点作为参考，下钻到15分钟图进行时段分析\",\"Step 4: 在15分钟图上标记亚洲时段的高低点，观察伦敦时段是否扫荡这些点位\",\"Step 5: 确认伦敦时段扫荡亚洲高低点后无法突破，形成较小的扩张形态\",\"Step 6: 使用伦敦时段的高低点作为纽约时段的目标点位，预期纽约时段扫荡这些点位\",\"Step 7: 观察纽约上午时段扩张并形成新的高低点，下午时段在该范围内盘整\"],\"outcome\":null,\"lessons\":\"跨时间框架的扩张形态具有递归性：日线扩张的高低点在15分钟图上按交易时段重复出现。每个时段若无法突破前一时段的高低点，则该高低点成为下一时段的扫荡目标。这种结构可用于预测价格在不同时段的反转点位和扫荡流动性的位置。\",\"primary_image_frame_id\":\"Tjk9bXERZy0_f021\",\"supporting_image_frame_ids\":[\"Tjk9bXERZy0_f017\",\"Tjk9bXERZy0_f018\",\"Tjk9bXERZy0_f020\",\"Tjk9bXERZy0_f022\",\"Tjk9bXERZy0_f023\",\"Tjk9bXERZy0_f024\",\"Tjk9bXERZy0_f025\",\"Tjk9bXERZy0_f026\"],\"related_concepts\":[\"Broadening Formation\",\"Outside Bar\",\"Market Structure\",\"Liquidity\",\"Session Analysis\",\"Daily Profile\",\"Accumulation Manipulation Distribution\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线扩张形态的识别过程、15分钟图的时段追踪方法，以及三个交易时段的具体高低点扫荡逻辑，分析步骤清晰有序。\"}",
+  "error": null
+}

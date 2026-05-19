@@ -1,0 +1,104 @@
+{
+  "card_id": "IeXtmeKqjnQ_case_004_纳斯达克期货_nq_多日连续突破案例",
+  "type": "case",
+  "title": "NQ日线三日连续突破与纽约操纵后突破案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "liquidity",
+    "power_of_3_indicator",
+    "displacement",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D / 15M / 5M",
+  "market_context": "纳斯达克期货在日线上形成三日连续收盘突破前一日高点的模式。伦敦时段未做出显著动作，纽约时段进行操纵后突破，最终形成4小时Power of 3模式。",
+  "key_observation": "日线上连续三日收盘突破前一日高点，标志着持续的上升动能。伦敦未参与，纽约通过扫除流动性后突破，形成完整的积累-操纵-派发周期。",
+  "analysis_steps": [
+    "Step 1: 在日线图上标记连续三日的收盘突破，每日收盘都突破前一日高点，显示持续的上升趋势。",
+    "Step 2: 下降到15分钟图表，观察伦敦时段是否参与——发现伦敦突破了该范围的一侧后下行，未形成有效的低点交易机会。",
+    "Step 3: 继续观察伦敦在范围内形成失败摆动（等高点与前一日高点），为纽约操纵做准备。",
+    "Step 4: 进入纽约时段，观察到价格扫除外部流动性（与订单流方向相反的扫荡），这是操纵阶段的标志。",
+    "Step 5: 下降到5分钟图表，识别交付状态改变（Change in State of Delivery）——收盘突破一系列下跌蜡烛，配合公允价值缺口（FVG）。",
+    "Step 6: 在订单块或FVG处设置多头入场，目标指向前一日高点。",
+    "Step 7: 确认两个入场点都被触及，价格上行并达到止盈目标。",
+    "Step 8: 在4小时图表上标记完整的Power of 3模式：积累（早期阶段）、操纵（伦敦-纽约早盘）、派发（纽约突破）。",
+    "Step 9: 使用标准差投影作为额外确认，2-2.5线与前一日高点对齐，4-4.5线与最大扩展对齐。"
+  ],
+  "outcome": "两个入场点（订单块和FVG）都被触及，价格上行并成功达到前一日高点的止盈目标。",
+  "lessons": "多时间框架分析中，日线的连续突破信号需要在低时间框架上通过伦敦-纽约的操纵模式确认。关键是识别流动性扫荡和交付状态改变，这些是高概率入场的触发器。标准差投影可作为额外的目标确认工具。",
+  "primary_image": "cards/IeXtmeKqjnQ/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/IeXtmeKqjnQ/images/case_004_detail_1.jpg",
+    "cards/IeXtmeKqjnQ/images/case_004_detail_2.jpg",
+    "cards/IeXtmeKqjnQ/images/case_004_detail_3.jpg",
+    "cards/IeXtmeKqjnQ/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为 NQ1!（纳斯达克100期货）5分钟K线图，日期标注为 7/5/2024。图上可见价格范围约从 18132.00 至 18240.00。图上标注有一个青色矩形区域，覆盖约 18156.00 至 18204.00 的价格区间，内含一条向上倾斜的虚线。青色矩形下方有一个灰色矩形，覆盖约 18148.00 至 18168.00。图右侧另有一个绿色矩形，覆盖约 18200.00 至 18240.0",
+    "case_004_detail_1.jpg": "图表为 NASDAQ 100 E-mini 期货（NQ1!）日线蜡烛图，来源标注为 TTrades_edu。可见价格范围约从 17000 至 18600。图左侧价格轴当前标注价格为 17733.75，并有一条水平虚线横贯图表对应该价位。图上 K 线序列从左侧高点约 18600 处经历一段连续阴线下行至约 17150，随后出现数根阳线。图右侧靠近 6/5/2024 垂直线处有两根较大阳线，收盘区域约",
+    "case_004_detail_2.jpg": "图表为 NQ1!（纳斯达克100期货）15 分钟 K 线图，来源标注为 TTrades_edu。图上有一条带文字标签的水平线，标记为",
+    "case_004_detail_3.jpg": "图表为 NASDAQ 100 E mini Futures（NQ1!）5 分钟 K 线图，来源标注为 TTrades_edu，日期显示 7/5/2024。图右侧价格轴当前标签显示 18163.50，左侧另有标签 18145.75。图上有一条水平线位于约 18154 附近。图右侧有一个大型黑色填充矩形覆盖约 18155 至 18210 价格区间，遮挡该区域 K 线内容。约 07:00 处有一条垂直虚",
+    "case_004_detail_4.jpg": "图为 NQ1!（NASDAQ 100 E-mini Futures）5 分钟 K 线图，日期标注为 7/5/2024，来源标注为 TTrades_edu。图上可见价格范围约从 18115 至 18224。图上有两条水平线，分别位于约 18200 和 18160 附近。右侧区域有一个绿色半透明矩形框，覆盖约 18160 至 18210 价格区间，框内标注文字"
+  },
+  "sources": [
+    {
+      "video_id": "IeXtmeKqjnQ",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.88,
+        538.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线、15分钟、5分钟多时间框架分析，清晰标记了关键价位、入场点、止盈目标，并给出了具体交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:18.257261Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线三日连续突破与纽约操纵后突破案例\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D / 15M / 5M\",\"market_context\":\"纳斯达克期货在日线上形成三日连续收盘突破前一日高点的模式。伦敦时段未做出显著动作，纽约时段进行操纵后突破，最终形成4小时Power of 3模式。\",\"key_observation\":\"日线上连续三日收盘突破前一日高点，标志着持续的上升动能。伦敦未参与，纽约通过扫除流动性后突破，形成完整的积累-操纵-派发周期。\",\"analysis_steps\":[\"Step 1: 在日线图上标记连续三日的收盘突破，每日收盘都突破前一日高点，显示持续的上升趋势。\",\"Step 2: 下降到15分钟图表，观察伦敦时段是否参与——发现伦敦突破了该范围的一侧后下行，未形成有效的低点交易机会。\",\"Step 3: 继续观察伦敦在范围内形成失败摆动（等高点与前一日高点），为纽约操纵做准备。\",\"Step 4: 进入纽约时段，观察到价格扫除外部流动性（与订单流方向相反的扫荡），这是操纵阶段的标志。\",\"Step 5: 下降到5分钟图表，识别交付状态改变（Change in State of Delivery）——收盘突破一系列下跌蜡烛，配合公允价值缺口（FVG）。\",\"Step 6: 在订单块或FVG处设置多头入场，目标指向前一日高点。\",\"Step 7: 确认两个入场点都被触及，价格上行并达到止盈目标。\",\"Step 8: 在4小时图表上标记完整的Power of 3模式：积累（早期阶段）、操纵（伦敦-纽约早盘）、派发（纽约突破）。\",\"Step 9: 使用标准差投影作为额外确认，2-2.5线与前一日高点对齐，4-4.5线与最大扩展对齐。\"],\"outcome\":\"两个入场点（订单块和FVG）都被触及，价格上行并成功达到前一日高点的止盈目标。\",\"lessons\":\"多时间框架分析中，日线的连续突破信号需要在低时间框架上通过伦敦-纽约的操纵模式确认。关键是识别流动性扫荡和交付状态改变，这些是高概率入场的触发器。标准差投影可作为额外的目标确认工具。\",\"primary_image_frame_id\":\"IeXtmeKqjnQ_f018\",\"supporting_image_frame_ids\":[\"IeXtmeKqjnQ_f014\",\"IeXtmeKqjnQ_f015\",\"IeXtmeKqjnQ_f016\",\"IeXtmeKqjnQ_f017\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in State of Delivery\",\"Liquidity\",\"Market Structure Shift\",\"Power of 3\",\"Displacement\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线、15分钟、5分钟多时间框架分析，清晰标记了关键价位、入场点、止盈目标，并给出了具体交易结果。\"}",
+  "error": null
+}

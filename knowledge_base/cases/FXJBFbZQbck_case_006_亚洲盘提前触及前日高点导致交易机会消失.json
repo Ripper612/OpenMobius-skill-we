@@ -1,0 +1,109 @@
+{
+  "card_id": "FXJBFbZQbck_case_006_亚洲盘提前触及前日高点导致交易机会消失",
+  "type": "case",
+  "title": "亚洲盘提前触及前日高点导致纽约盘交易机会消失",
+  "related_concepts": [
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Flow",
+      "card_id": "order_flow",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Session Analysis (Asia/London/New York)",
+      "card_id": "session_analysis_asia_london_new_york",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "previous_day_high_low",
+    "liquidity",
+    "order_flow",
+    "accumulation_manipulation_distribution_amd",
+    "fair_value_gap_fvg",
+    "market_structure",
+    "session_analysis_asia_london_new_york"
+  ],
+  "school": "ICT",
+  "asset": "ETH/USD",
+  "timeframe": "1M / 5M / 15M",
+  "market_context": "多日行情分析，展示从10月9日至10月11日的价格走势。博主通过前日高点作为流动性目标，观察亚洲盘、伦敦盘和纽约盘的不同表现，发现亚洲盘已提前触及前日高点，导致后续纽约盘失去有效交易机会。",
+  "key_observation": "亚洲盘在纽约盘开盘前已提前触及前日高点（约15460），使得基于前日高点设置的流动性目标失效，纽约盘随后无法形成有效的交易设置。",
+  "analysis_steps": [
+    "Step 1: 在日线图上标记前日高点（约15460）作为流动性目标和交易框架。",
+    "Step 2: 切换到低时间框架（1M/5M），观察亚洲盘开盘时价格走势。",
+    "Step 3: 发现亚洲盘已在早期触及前日高点，流动性被提前扫除。",
+    "Step 4: 观察伦敦盘表现，价格在高点附近盘整，未形成新的交易机会。",
+    "Step 5: 标记8:30新闻事件导致的操纵（Manipulation）阶段，预期后续应有派发（Distribution）。",
+    "Step 6: 在低时间框架上寻找操纵后的分布机会，但由于前日高点已被触及，交易机会消失。",
+    "Step 7: 观察纽约盘AM时段，价格继续上行但无有效入场点，因为目标流动性已被扫除。"
+  ],
+  "outcome": "纽约盘未能形成有效交易机会。价格最终完成AMD周期（积累-操纵-派发），但由于亚洲盘提前触及前日高点，基于该目标的交易设置失效。",
+  "lessons": "并非每个交易日都能找到有效的交易入场点。即使有明确的日线偏差和流动性目标，如果该目标在早期时段（如亚洲盘）被提前触及，后续交易机会将消失。交易者需要灵活调整，不强行交易。",
+  "primary_image": "cards/FXJBFbZQbck/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/FXJBFbZQbck/images/case_006_detail_1.jpg",
+    "cards/FXJBFbZQbck/images/case_006_detail_2.jpg",
+    "cards/FXJBFbZQbck/images/case_006_detail_3.jpg",
+    "cards/FXJBFbZQbck/images/case_006_detail_4.jpg",
+    "cards/FXJBFbZQbck/images/case_006_detail_5.jpg",
+    "cards/FXJBFbZQbck/images/case_006_detail_6.jpg",
+    "cards/FXJBFbZQbck/images/case_006_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图为 USD 资产 5 分钟 K 线图，时间轴覆盖 01:30 至 15:00。图上可见三个矩形标注区域：绿色矩形覆盖约 07:00 至 08:00 时段、价格区间约 15320 至 15400；粉红色矩形覆盖约 08:00 至 08:30 时段、价格区间约 15290 至 15370；蓝色矩形覆盖约 08:30 至 09:30 时段、价格区间约 15320 至 15385。图上有一条贯穿全图的水",
+    "case_006_detail_1.jpg": "图表为 5M 蜡烛图，资产代码未明确显示，货币单位为 USD。图右侧有一个绿色矩形区域覆盖约 15018.00 至 15185.00 价格范围，标注目标价信息：Target 130.75（0.87%），Amount 200190.84。图右侧另有一个粉红色矩形区域覆盖约 14949.75 至 15018.00，标注止损信息：Stop 68.25（0.45%），Amount 199900。图中央弹出",
+    "case_006_detail_2.jpg": "图为 ETH/USD 1 分钟 K 线图，时间轴覆盖 10 月 9 日约 2:30 至次日 1:30。图上可见价格刻度范围约从 14880 至 15220。图中绘制有一个粉红色矩形区域，覆盖约 14960 至 15010 价格区间，横跨 07:30 至 12:00 时段；一个绿色（青色）矩形区域，覆盖约 15000 至 15390，横跨 09:00 至 13:30 时段；一个灰色矩形区域，覆盖约 ",
+    "case_006_detail_3.jpg": "图为标注资产代码 USD、时间框架 15M 的 K 线图，图右下角显示 ETH 和 B·ADJ 标签。可见价格范围约从 14800 到 15420。图上有一个浅色矩形区域覆盖约 15080 至 15100 区间，另有一条虚线水平线延伸至约 15220 处，连接右侧一个高亮黄色标记点。图中约 Oct 9 12:00 附近出现一段垂直上行的 K 线序列，随后多根 K 线在 15180 至 15240 ",
+    "case_006_detail_4.jpg": "ETH/USD 15 分钟 K 线图，时间范围覆盖 2023 年 10 月 10 日至 12 日。图右侧价格刻度显示可见范围约从 15120 到 15460。图上有两条水平线：一条位于约 15460 处延伸至图右侧，另一条位于约 15380 处并附有矩形标注框。当前价格标签显示 15280.50。K 线在 10 月 10 日 12:00 附近出现单根大幅上行，随后多根 K 线在约 15260 至 ",
+    "case_006_detail_5.jpg": "图表为 ETH/USD 15 分钟 K 线图，可见价格范围约从 15160 至 15520。图上有三条水平线：约 15460 处一条延伸至图右侧，约 15380 处一条带矩形框标注，约 15200 处一条位于图表下方区域。图右侧当前价格标签显示 15319.50。在时间轴 10 日 12:00 附近出现一根大阳线，从约 15200 上行至约 15380。此后 K 线在约 15280 至 15340",
+    "case_006_detail_6.jpg": "图表为 USD 日线蜡烛图，可见价格范围约从 14880 至 15720。图右侧价格轴当前高亮标签显示 15410.75。图上绘有四条水平线，分布在约 15410 至 15520 区间内。图上另有两个浅色矩形框标注：一个位于约 15400 至 15520 区间，另一个位于约 15040 至 15120 区间。时间轴覆盖 2023 年 8 月中旬至 12 月，K 线由绿色和黑色蜡烛组成。约 10 月",
+    "case_006_detail_7.jpg": "图表为 USD 15 分钟 K 线图，右下角标注 B-ADJ 及 ETH (UTC-4)。可见价格范围约从 15250 至 15490。图上有一条水平线位于约 15460 处，另有一个矩形框标注于约 15410 至 15450 区间。K 线在约 15:00 时段出现一根从 15260 延伸至 15420 的大阳线，随后在 15410 至 15460 区间内出现多根 K 线横向排列。此后 K 线在约"
+  },
+  "sources": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "segment_ids": [
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        554.92,
+        780.839
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了多日行情分析过程，清晰标记了前日高点、时间框架、价格水平，详细说明了为何亚洲盘触及高点导致纽约盘机会消失的逻辑。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:38.694942Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"亚洲盘提前触及前日高点导致纽约盘交易机会消失\",\"school\":\"ICT\",\"asset\":\"ETH/USD\",\"timeframe\":\"1M / 5M / 15M\",\"market_context\":\"多日行情分析，展示从10月9日至10月11日的价格走势。博主通过前日高点作为流动性目标，观察亚洲盘、伦敦盘和纽约盘的不同表现，发现亚洲盘已提前触及前日高点，导致后续纽约盘失去有效交易机会。\",\"key_observation\":\"亚洲盘在纽约盘开盘前已提前触及前日高点（约15460），使得基于前日高点设置的流动性目标失效，纽约盘随后无法形成有效的交易设置。\",\"analysis_steps\":[\"Step 1: 在日线图上标记前日高点（约15460）作为流动性目标和交易框架。\",\"Step 2: 切换到低时间框架（1M/5M），观察亚洲盘开盘时价格走势。\",\"Step 3: 发现亚洲盘已在早期触及前日高点，流动性被提前扫除。\",\"Step 4: 观察伦敦盘表现，价格在高点附近盘整，未形成新的交易机会。\",\"Step 5: 标记8:30新闻事件导致的操纵（Manipulation）阶段，预期后续应有派发（Distribution）。\",\"Step 6: 在低时间框架上寻找操纵后的分布机会，但由于前日高点已被触及，交易机会消失。\",\"Step 7: 观察纽约盘AM时段，价格继续上行但无有效入场点，因为目标流动性已被扫除。\"],\"outcome\":\"纽约盘未能形成有效交易机会。价格最终完成AMD周期（积累-操纵-派发），但由于亚洲盘提前触及前日高点，基于该目标的交易设置失效。\",\"lessons\":\"并非每个交易日都能找到有效的交易入场点。即使有明确的日线偏差和流动性目标，如果该目标在早期时段（如亚洲盘）被提前触及，后续交易机会将消失。交易者需要灵活调整，不强行交易。\",\"primary_image_frame_id\":\"FXJBFbZQbck_f024\",\"supporting_image_frame_ids\":[\"FXJBFbZQbck_f019\",\"FXJBFbZQbck_f020\",\"FXJBFbZQbck_f021\",\"FXJBFbZQbck_f022\",\"FXJBFbZQbck_f023\",\"FXJBFbZQbck_f025\",\"FXJBFbZQbck_f026\"],\"related_concepts\":[\"Previous Day High/Low\",\"Liquidity\",\"Order Flow\",\"Accumulation, Manipulation, Distribution (AMD)\",\"Fair Value Gap (FVG)\",\"Market Structure\",\"Session Analysis (Asia/London/New York)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了多日行情分析过程，清晰标记了前日高点、时间框架、价格水平，详细说明了为何亚洲盘触及高点导致纽约盘机会消失的逻辑。\"}",
+  "error": null
+}

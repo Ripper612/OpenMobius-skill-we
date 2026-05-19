@@ -1,0 +1,311 @@
+{
+  "card_id": "swing_formation",
+  "type": "merged_concept",
+  "canonical_term": "Swing Formation",
+  "aliases": [
+    "Swing High",
+    "Swing Low",
+    "反转形态",
+    "摆动形态",
+    "摆动点"
+  ],
+  "school": "ICT",
+  "definition": "由三根K线组成的市场反转结构：中心K线为摆动高/低点（其高点或低点超越两侧相邻K线），第一根触及关键价格水平，第二根显示反转信号（收盘回到第一根范围内或形成小影线），第三根确认反转方向（强势收盘突破第二根实体）。摆动低点预示看涨反转，摆动高点预示看跌反转。",
+  "identification_rules": [
+    "摆动低点：识别一根K线，其低点低于左侧相邻K线的低点，也低于右侧相邻K线的低点",
+    "摆动高点：识别一根K线，其高点高于左侧相邻K线的高点，也高于右侧相邻K线的高点",
+    "中心K线必须有明确的两侧对比K线，形成清晰的高-低-高或低-高-低的三K线结构",
+    "Candle 2 Closure：第二根K线收盘回到第一根K线范围内，标记第一根K线的均衡点（EQ），观察第三根K线低点是否在该均衡点上方",
+    "Candle 3 Closure：第二根K线未收回第一根范围时，第三根K线须强势收盘突破第二根K线实体上方（收盘价高于第二根K线实体）",
+    "Reversal into Expansion：第一根K线触及关键水平但未反转，在其高点/低点形成小影线，允许同根K线内反转并扩张进入FVG",
+    "Candle 3 Expansion：第一根K线触及关键水平，第二根K线未收回该低点，第三根K线扩张离开第二根K线低点而不穿破它，标记第三根K线EQ以寻求第四根K线延续",
+    "摆动点通常在价格反转或结构转变（CSD）时形成"
+  ],
+  "trading_implication": "Swing Formation是确认市场反转的机械性框架。形成摆动低点后预期看涨延续，摆动高点后预期看跌延续。结合第三根K线收盘强度与均衡点（EQ），判断价格从该K线上半部分或下半部分继续运行，在更低时间框架寻找PD数组和具体入场点。小影线表示扩张能力强，大影线表示反转风险高。结合Universal Model的FVG逻辑，提供进场和目标位的机械性确认条件。",
+  "common_mistakes": [
+    "在Candle 3收盘前提前入场：Candle 3 Closure形态必须等待收盘确认，开盘时无法预判反转",
+    "忽视影线大小的含义：大影线的反转蜡烛应避免交易，小影线才支持扩张延续",
+    "混淆Candle 2 Closure和Candle 3 Closure的入场时机：两种形态的参与窗口不同，Candle 2 Closure可在形成后参与，Candle 3 Closure必须等待收盘验证",
+    "未正确验证摆动点的两侧K线对比，导致误认为非摆动点的K线为摆动点",
+    "忽视摆动点后的市场结构转变（CSD）或SMT信号，盲目交易摆动点而不确认有效性",
+    "未结合第三根K线的收盘位置和均衡点来判断价格延续方向，导致入场位置错误"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Universal Model",
+      "card_id": "universal_model",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "1YRs4Z1lMws_case_001_nq1日线看跌ote案例",
+      "video_id": "1YRs4Z1lMws",
+      "title": "NQ1日线看跌OTE案例：从摆动高低点绘制斐波那契寻找空头入场"
+    },
+    {
+      "card_id": "3OivsP1j_UE_case_001_标普期货周线的外部到内部流动性转换",
+      "video_id": "3OivsP1j_UE",
+      "title": "ES1周线：外部流动性到内部流动性的循环转换"
+    },
+    {
+      "card_id": "5fnFOh5YuM0_case_001_btc日线第四天交易案例",
+      "video_id": "5fnFOh5YuM0",
+      "title": "BTC日线第四天交易案例：从摆动低点到多时间框架入场"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_001_gbpusd_5分钟看涨breaker_block交易",
+      "video_id": "75S4vwD4P1U",
+      "title": "GBPUSD 5分钟看涨Breaker Block识别与回测"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_006_eurusd_60分钟看跌unicorn_model",
+      "video_id": "75S4vwD4P1U",
+      "title": "EURUSD 60分钟看跌Unicorn Model交易设置"
+    },
+    {
+      "card_id": "7p9MBFk8EEM_case_001_dxy日线订单块反转案例",
+      "video_id": "7p9MBFk8EEM",
+      "title": "DXY日线订单块反转案例"
+    },
+    {
+      "card_id": "7p9MBFk8EEM_case_004_黄金xauusd周线到4小时多级别案例",
+      "video_id": "7p9MBFk8EEM",
+      "title": "黄金XAUUSD周线到4小时多级别订单块与标准差投影案例"
+    },
+    {
+      "card_id": "E89d1HArbgM_case_002_原油期货月线至日线的多级别分析",
+      "video_id": "E89d1HArbgM",
+      "title": "原油期货月线至日线的多级别订单流分析"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_005_gch日线有效分离度判断与反转确认",
+      "video_id": "HbOeD_JVens",
+      "title": "GCH日线有效分离度判断与反转确认"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_003_nq_4小时图candle_three_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "NQ 4小时图Candle Three Closure确认上升延续"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_005_usd_4小时图摆动点筛选案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4小时图摆动点筛选：Candle Two/Three Closure与Point of Interest验证"
+    },
+    {
+      "card_id": "Njs-eRpeP9Q_case_001_es期货5分钟图流动性识别案例",
+      "video_id": "Njs-eRpeP9Q",
+      "title": "ES期货5分钟图流动性识别与扫荡分析"
+    },
+    {
+      "card_id": "Njs-eRpeP9Q_case_002_es期货15分钟图范围交易案例",
+      "video_id": "Njs-eRpeP9Q",
+      "title": "ES期货15分钟图范围交易中的流动性识别"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_009_xau_usd_1小时图_范围突破的continuation确认",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "XAU/USD 1H：范围突破后的continuation确认"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_002_box设置与标准差结合的交易案例",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "Box框架与标准差结合的操纵腿投影与反转交易"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_002_eurusd_日线与小时线多时间框架流动性分析",
+      "video_id": "U8xH2dEgH5A",
+      "title": "EURUSD多时间框架流动性分析与交易目标确定"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_004_spx500_1小时图_反转与回测流程",
+      "video_id": "VD4xb9VfMHA",
+      "title": "SPX500 1H：V形反转与摆动低点回测"
+    },
+    {
+      "card_id": "jKuXaC84Qx4_case_005_第五个例子_前一日低点反弹与eq突破",
+      "video_id": "jKuXaC84Qx4",
+      "title": "前一日低点V形反应与EQ突破分析"
+    },
+    {
+      "card_id": "lpam8F-N3EM_case_001_纳斯达克100期货15分钟到1分钟的做空案例",
+      "video_id": "lpam8F-N3EM",
+      "title": "NQ1! 15分钟等高点流动性扫除到1分钟位移做空案例"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_006_usd日线大幅扩张后反转案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "USD日线大幅扩张后反转交易案例"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_001_nq第一个例子_从外部流动性到内部流动性",
+      "video_id": "q40pRwjuPYQ",
+      "title": "NQ 15分钟外部流动性到内部流动性的三步交易模型"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_006_15分钟图的多次protected_swing交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "15分钟图多次Protected Swing的连续交易机会"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_007_30分钟与3分钟的candle_2与candle_3交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "30分钟反转后在3分钟图上交易Candle 2与Candle 3"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_001_usd_5分钟图上升趋势的结构分析",
+      "video_id": "sgAnVR6RSDg",
+      "title": "USD 5分钟图上升趋势的结构分析"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_002_usd_5分钟图从上升到下降的结构转变",
+      "video_id": "sgAnVR6RSDg",
+      "title": "USD 5分钟图从上升到下降的结构转变"
+    },
+    {
+      "card_id": "sgAnVR6RSDg_case_003_eurusd_5分钟图的趋势识别",
+      "video_id": "sgAnVR6RSDg",
+      "title": "EURUSD 5分钟图的上升和下降趋势识别"
+    },
+    {
+      "card_id": "umyCqr_0NsI_case_002_es11日线与60分钟图折价区回测",
+      "video_id": "umyCqr_0NsI",
+      "title": "ES11日线折价区在60分钟图中的多次中期低点回测"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_001_rb范围突破与breaker_block延续交易",
+      "video_id": "xP-o11jRCyg",
+      "title": "RB小时图范围突破与5分钟Breaker Block延续交易"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_002_eth日线看跌结构的小时图breaker延续",
+      "video_id": "xP-o11jRCyg",
+      "title": "ETH日线看跌结构的小时图CSD确认与5分钟breaker延续交易"
+    },
+    {
+      "card_id": "xP-o11jRCyg_case_004_扩张_回撤_扩张后的breaker_block空头交易",
+      "video_id": "xP-o11jRCyg",
+      "title": "ETH 1H扩张-回撤-扩张后的Breaker Block空头延续交易"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_003_巩固区间突破与回测交易",
+      "video_id": "yOPESX2aWkI",
+      "title": "ES巩固区间突破与低点回测长仓设置"
+    },
+    {
+      "card_id": "ynFA6E3qHj0_case_003_es日线图_识别日线级别的摆动点与位移",
+      "video_id": "ynFA6E3qHj0",
+      "title": "ES日线图：识别摆动点与位移判断日线偏向"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_swing_formation",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        118.719,
+        414.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "5fnFOh5YuM0",
+      "original_card_id": "5fnFOh5YuM0_concept_swing_formation",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        11.12,
+        191.4
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:59:16.091854Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "两张原始卡均为ICT，无school冲突。卡1侧重三根K线的收盘关系细节，卡2侧重摆动高低点的两侧对比结构，两者互补合并。",
+  "error": null
+}

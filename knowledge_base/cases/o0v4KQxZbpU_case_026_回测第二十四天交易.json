@@ -1,0 +1,95 @@
+{
+  "card_id": "o0v4KQxZbpU_case_026_回测第二十四天交易",
+  "type": "case",
+  "title": "第16天扫低后FVG入场做多，获3R收益后移至保本",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "breaker_block",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1M",
+  "market_context": "NAS100在第14-16天经历下跌后反弹。第16天价格扫低至约14850后，形成向上位移，博主识别FVG和Breaker Block作为做多入场机会。",
+  "key_observation": "第16天价格扫破前期低点后反弹，在低点附近形成Fair Value Gap，提供高概率做多入场点。价格随后强势上升，达成3R收益目标后移至保本。",
+  "analysis_steps": [
+    "Step 1: 标记第14天的高点和低点作为结构参考",
+    "Step 2: 观察第15天价格未能回升至前期高点，确认下行结构",
+    "Step 3: 第16天识别价格扫低至约14850，突破前期低点",
+    "Step 4: 确认扫低后的向上位移（Displacement），伴随FVG形成",
+    "Step 5: 在Breaker Block或FVG区域（约14850-15085）寻找做多入场",
+    "Step 6: 入场后价格强势上升，达成3R收益目标",
+    "Step 7: 将止损移至保本位置，锁定利润"
+  ],
+  "outcome": "成功入场做多，获得3R收益，随后移至保本止损。",
+  "lessons": "在价格扫低后的反弹中，FVG和Breaker Block提供高概率入场点。识别清晰的位移和结构转变是关键。达成目标收益后及时移至保本可以锁定利润同时保持风险管理。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_026_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_026_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_026_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_026_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_026_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_026_primary.jpg": "NAS100 1分钟K线图。图表分为左右两个面板。左侧面板显示从约15100下跌至14850的下降趋势，包含多根黑色和绿色K线。右侧面板显示从14850上升至15085的上升趋势，包含大型绿色K线。图上可见一条水平线标记在约15085处，另一条在约14850处。右侧面板顶部有一根大黑色K线，其下方为绿色K线。价格轴右侧显示多个价格标签。图表标题显示'Backtesting'和'FXReplay'。",
+    "case_026_detail_1.jpg": "NAS100 1分钟K线图。图上显示从约15100上升至15320的上升趋势，跨越约20根K线。图表中部有两个矩形标注框，分别位于15160-15240和15240-15320价格区间。右侧价格刻度显示多条水平线标记。图上可见一根大型绿色K线位于15300-15350区间，以及两根黑色K线位于15150-15200区间。图右侧显示价格刻度标签，最高至15425.00000000，最低至15100.",
+    "case_026_detail_2.jpg": "NAS100 日线图。图表显示多根绿色和黑色 K 线，价格范围从约 14685 到 15095。右侧价格轴标注有多条水平线。图上有一个矩形框标注，位置约在 14900 至 15050 区间。最右侧最新 K 线为绿色，收盘价位于 15000 至 15100 之间。图表左下角显示时间轴标记，右下角显示账户余额和交易信息。",
+    "case_026_detail_3.jpg": "NAS100 1分钟K线图。图表显示从约19175下跌至15025的下行趋势。右侧价格轴标注多条水平线，包括15115、15025、15090等价格水平。图上有两个矩形框标注，分别围绕15025-15115区间和10082-10200区间。左侧K线显示在15025-15115区间内有多根蜡烛线，包含一根绿色K线。右侧面板显示一根黑色K线主体。图下方显示时间轴标记，当前时间显示为14:01。",
+    "case_026_detail_4.jpg": "NAS100 1分钟图表。图上分为左右两个面板。左侧面板显示从09:17至10:30的1分钟K线序列，包含多根绿色和黑色K线。右侧面板展示两个大型矩形块：一个黑色矩形从约14892至15000，一个绿色矩形从约14950至15072。图右侧价格刻度标注有15072.0000000、15000.0000000、14892.0000000、14850.0000000等数值。可见价格范围约从14892至"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_013"
+      ],
+      "time_range": [
+        1373.24,
+        1526.52
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了第16天的分析过程，清晰标注了扫低、FVG、入场点和收益目标，图表和讲解相符。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:50.930253Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"第16天扫低后FVG入场做多，获3R收益后移至保本\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1M\",\"market_context\":\"NAS100在第14-16天经历下跌后反弹。第16天价格扫低至约14850后，形成向上位移，博主识别FVG和Breaker Block作为做多入场机会。\",\"key_observation\":\"第16天价格扫破前期低点后反弹，在低点附近形成Fair Value Gap，提供高概率做多入场点。价格随后强势上升，达成3R收益目标后移至保本。\",\"analysis_steps\":[\"Step 1: 标记第14天的高点和低点作为结构参考\",\"Step 2: 观察第15天价格未能回升至前期高点，确认下行结构\",\"Step 3: 第16天识别价格扫低至约14850，突破前期低点\",\"Step 4: 确认扫低后的向上位移（Displacement），伴随FVG形成\",\"Step 5: 在Breaker Block或FVG区域（约14850-15085）寻找做多入场\",\"Step 6: 入场后价格强势上升，达成3R收益目标\",\"Step 7: 将止损移至保本位置，锁定利润\"],\"outcome\":\"成功入场做多，获得3R收益，随后移至保本止损。\",\"lessons\":\"在价格扫低后的反弹中，FVG和Breaker Block提供高概率入场点。识别清晰的位移和结构转变是关键。达成目标收益后及时移至保本可以锁定利润同时保持风险管理。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f048\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f046\",\"o0v4KQxZbpU_f047\",\"o0v4KQxZbpU_f050\",\"o0v4KQxZbpU_f051\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Breaker Block\",\"Market Structure Shift\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了第16天的分析过程，清晰标注了扫低、FVG、入场点和收益目标，图表和讲解相符。\"}",
+  "error": null
+}

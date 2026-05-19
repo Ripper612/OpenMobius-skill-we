@@ -1,0 +1,129 @@
+{
+  "card_id": "WFqLwOp2pXw_case_004_eurusd_日线反转至1小时盘整反弹",
+  "type": "case",
+  "title": "EURUSD日线反转至1小时盘整反弹",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Expansion Day",
+      "card_id": "expansion_day",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "consolidation",
+    "inducement",
+    "propulsion_block",
+    "expansion_day",
+    "market_structure_shift",
+    "liquidity",
+    "swing_high_low",
+    "equilibrium"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1H",
+  "market_context": "日线处于看涨状态，价格扫盘低点后形成反转信号。1小时图在前日低点1.13650形成盘整区间，伦敦时段出现小上影线的扩张日，预示纽约延续上行。",
+  "key_observation": "价格在前日低点1.13650处形成盘整，随后扫盘低点并反弹。伦敦时段形成小上影线的扩张日K线，预示纽约可能延续上行。",
+  "analysis_steps": [
+    "Step 1: 观察日线图，确认价格处于看涨状态，标记前日高点和低点作为关键反转水平。",
+    "Step 2: 切换至1小时图，识别前日低点1.13650处形成的盘整区间（1.13650-1.13900）。",
+    "Step 3: 确认价格在盘整区间内保持，等待对低点的操纵（扫盘）。",
+    "Step 4: 观察价格触及低点后的反应，确认从低点反弹形成有效的摆动。",
+    "Step 5: 识别反弹过程中形成的公允价值缺口（FVG）和推进块（Propulsion Block）。",
+    "Step 6: 分析伦敦时段K线特征，确认小上影线和大实体的扩张日形态。",
+    "Step 7: 基于扩张日特征预期纽约时段延续上行，目标为等高点和摆动高点。",
+    "Step 8: 确认价格突破盘整上沿后的延续走势，验证交易设置的有效性。"
+  ],
+  "outcome": "价格成功从前日低点反弹，突破盘整上沿后继续上行至等高点和摆动高点，形成有效的日内反转至延续的交易模式。",
+  "lessons": "盘整形成反转的关键是：(1)识别前日关键水平；(2)等待低点被扫盘后的反应；(3)观察伦敦时段的扩张日特征（小上影线+大实体）预示纽约延续；(4)利用推进块和FVG作为延续入场点；(5)盘整内部结构转变预示趋势方向。",
+  "primary_image": "cards/WFqLwOp2pXw/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/WFqLwOp2pXw/images/case_004_detail_1.jpg",
+    "cards/WFqLwOp2pXw/images/case_004_detail_2.jpg",
+    "cards/WFqLwOp2pXw/images/case_004_detail_3.jpg",
+    "cards/WFqLwOp2pXw/images/case_004_detail_4.jpg",
+    "cards/WFqLwOp2pXw/images/case_004_detail_5.jpg",
+    "cards/WFqLwOp2pXw/images/case_004_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "EURUSD 1小时K线图。图上显示价格范围从1.13100至1.14600。左侧标注显示当前价格1.14342。图上有多条水平线标注在1.14500、1.13800和1.14150处。三个矩形框分别标记在1.13600-1.13900、1.14100-1.14300和1.14150-1.14500区间。一条向下趋势线从约1.14350延伸至1.14150。图表右侧显示一根大幅上升的绿色K线随后跟",
+    "case_004_detail_1.jpg": "EURUSD 日线图，价格范围从 1.10000 至 1.16400。图上有两条水平虚线：一条在 1.12095 处，另一条在 1.13950 处。K 线序列显示 4 月初从 1.12095 向上跳空至 1.13500，随后在 1.13000 至 1.14000 区间内形成整理，4 月中旬触及 1.15700 高点。5 月初下行至 1.10500，之后逐步恢复，6 月中旬达到 1.14300。图右",
+    "case_004_detail_2.jpg": "EURUSD 1 小时 K 线图。图上有两条水平线：1.13700 处和 1.12500 处。可见 K 线价格范围从 1.12000 到 1.14700。图表显示一段从左侧 1.13200 附近开始的上升走势至 1.14100 左右，随后出现下跌至 1.12100 的尖刺，之后恢复至 1.13700 附近。右侧显示从 1.13100 上升至 1.14500 的走势，随后回落至 1.13600。图上",
+    "case_004_detail_3.jpg": "EURUSD 1 小时 K 线图。图上显示从 6 月 2 日至 6 月 5 日的价格走势，价格范围从 1.13000 到 1.14500。左侧显示从 1.13500 上升至 1.14500 的上升段，随后下降至 1.13100 附近。中间区域显示 1.13700 至 1.13900 之间的盘整形态，有多根 K 线在此区间内。右侧显示一根大幅上升的绿色 K 线至 1.14350，随后跟随一根大幅下降",
+    "case_004_detail_4.jpg": "EURUSD 1 小时 K 线图。图上显示价格范围从 1.13000 到 1.14500。左侧显示从 6 月 2 日开始的价格走势，包含一段上升行情至 1.14500 附近，随后下跌至 1.13650 区域。图上有三条水平线分别位于 1.14500、1.13800 和 1.13650 处。中间区域有两个矩形框标注，分别围绕 1.13650-1.13900 和 1.14000-1.14200 价格区",
+    "case_004_detail_5.jpg": "EURUSD 1小时K线图。图上显示价格范围从1.13000至1.14500。可见多条水平线标注在1.13800、1.13650和1.14050位置。图中绘有两个矩形框，分别围绕1.13650至1.13950和1.13800至1.14050的价格区间。左侧K线呈上升趋势，最高触及1.14500，随后出现下行K线。中间部分显示绿黑相间的K线组合，形成盘整形态。右侧出现一根大幅上升的绿色K线至1.14",
+    "case_004_detail_6.jpg": "EURUSD 1 小时 K 线图。图上显示价格范围从 1.13000 到 1.14500。可见两条水平线分别位于 1.14283 和 1.13800。图上标注有两个矩形框：一个覆盖 1.13700 至 1.13900 区间，另一个覆盖 1.13600 至 1.13800 区间。一条向下倾斜的趋势线贯穿图表。K 线呈现从高位 1.14500 向下运动的形态，期间形成多个低点和高点递减的结构。右侧显示"
+  },
+  "sources": [
+    {
+      "video_id": "WFqLwOp2pXw",
+      "segment_ids": [
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020",
+        "seg_021"
+      ],
+      "time_range": [
+        715.279,
+        961.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线观察到1小时盘整反弹的全过程，清晰标注了关键价位（1.13650、1.13800、1.14500），详细解释了盘整-操纵-反弹的交易逻辑，并预期了伦敦-纽约的时段延续。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:51.646190Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD日线反转至1小时盘整反弹\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1H\",\"market_context\":\"日线处于看涨状态，价格扫盘低点后形成反转信号。1小时图在前日低点1.13650形成盘整区间，伦敦时段出现小上影线的扩张日，预示纽约延续上行。\",\"key_observation\":\"价格在前日低点1.13650处形成盘整，随后扫盘低点并反弹。伦敦时段形成小上影线的扩张日K线，预示纽约可能延续上行。\",\"analysis_steps\":[\"Step 1: 观察日线图，确认价格处于看涨状态，标记前日高点和低点作为关键反转水平。\",\"Step 2: 切换至1小时图，识别前日低点1.13650处形成的盘整区间（1.13650-1.13900）。\",\"Step 3: 确认价格在盘整区间内保持，等待对低点的操纵（扫盘）。\",\"Step 4: 观察价格触及低点后的反应，确认从低点反弹形成有效的摆动。\",\"Step 5: 识别反弹过程中形成的公允价值缺口（FVG）和推进块（Propulsion Block）。\",\"Step 6: 分析伦敦时段K线特征，确认小上影线和大实体的扩张日形态。\",\"Step 7: 基于扩张日特征预期纽约时段延续上行，目标为等高点和摆动高点。\",\"Step 8: 确认价格突破盘整上沿后的延续走势，验证交易设置的有效性。\"],\"outcome\":\"价格成功从前日低点反弹，突破盘整上沿后继续上行至等高点和摆动高点，形成有效的日内反转至延续的交易模式。\",\"lessons\":\"盘整形成反转的关键是：(1)识别前日关键水平；(2)等待低点被扫盘后的反应；(3)观察伦敦时段的扩张日特征（小上影线+大实体）预示纽约延续；(4)利用推进块和FVG作为延续入场点；(5)盘整内部结构转变预示趋势方向。\",\"primary_image_frame_id\":\"WFqLwOp2pXw_f031\",\"supporting_image_frame_ids\":[\"WFqLwOp2pXw_f025\",\"WFqLwOp2pXw_f026\",\"WFqLwOp2pXw_f027\",\"WFqLwOp2pXw_f028\",\"WFqLwOp2pXw_f029\",\"WFqLwOp2pXw_f030\",\"WFqLwOp2pXw_f032\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Consolidation\",\"Manipulation\",\"Propulsion Block\",\"Expansion Day\",\"Market Structure Shift\",\"Liquidity\",\"Swing High/Low\",\"Equilibrium\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线观察到1小时盘整反弹的全过程，清晰标注了关键价位（1.13650、1.13800、1.14500），详细解释了盘整-操纵-反弹的交易逻辑，并预期了伦敦-纽约的时段延续。\"}",
+  "error": null
+}

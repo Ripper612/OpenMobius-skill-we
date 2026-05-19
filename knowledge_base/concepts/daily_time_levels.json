@@ -1,0 +1,55 @@
+{
+  "card_id": "daily_time_levels",
+  "type": "merged_concept",
+  "canonical_term": "Daily Time Levels",
+  "aliases": [
+    "Daily Opening Times",
+    "Key Time Points"
+  ],
+  "school": "ICT",
+  "definition": "交易日中的关键时间点集合，包括午夜开盘(0:00)、8:30新闻发布、9:30纽约开盘、10:00和14:00四小时蜡烛开盘，用于识别订单块、支撑阻力和价格反转机会。",
+  "identification_rules": [
+    "午夜(0:00)标记每日K线开盘，作为支撑/阻力或溢价/折价参考点",
+    "8:30标记新闻发布时间，常形成Judas摆动或订单块，可作为支撑/阻力",
+    "9:30标记纽约股票交易所开盘，通常产生分配(Distribution)或反转机会",
+    "10:00和14:00标记四小时K线开盘，用于识别四小时周期的开高低收形态",
+    "所有时间以东部标准时间(EST)显示，不同资产类别(如外汇)的时间点略有差异"
+  ],
+  "trading_implication": "Daily Time Levels是结构化交易的时间框架锚点。交易者在这些时间点观察开高低收(OHLC)形态，识别订单块和Judas摆动；结合溢价/折价区域判断价格方向；利用午夜和8:30作为支撑阻力配对，与四小时蜡烛形成多时间框架联动，提高入场精准度和风险管理效率。",
+  "common_mistakes": [
+    "忽视不同资产类别间时间点的差异(如外汇没有9:30开盘)",
+    "将时间点机械地当作绝对支撑阻力，而不考虑当前的溢价/折价状态",
+    "未能在这些时间点观察完整的OHLC形态，导致错过订单块或Judas摆动信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_daily_time_levels",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.84,
+        191.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132193Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

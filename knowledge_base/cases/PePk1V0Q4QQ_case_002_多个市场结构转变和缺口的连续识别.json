@@ -1,0 +1,87 @@
+{
+  "card_id": "PePk1V0Q4QQ_case_002_多个市场结构转变和缺口的连续识别",
+  "type": "case",
+  "title": "5分钟图表上的多个市场结构转变与FVG连续识别",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Relative Equal Highs",
+      "card_id": "equal_highs_and_equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "equal_highs_and_equal_lows",
+    "displacement",
+    "order_block_ob"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "5M",
+  "market_context": "S&P 500 E-mini期货在5分钟图表上经历了从下跌到反弹的过程。价格从高点向下运动，创造了多个FVG和MSS信号，随后反弹向上触及相对相等高点。",
+  "key_observation": "博主识别了多个连续的市场结构转变（MSS）和公允价值缺口（FVG），即使错过初始1分钟入场，5分钟图表上仍提供了多个后续交易机会，目标指向相对相等高点。",
+  "analysis_steps": [
+    "Step 1: 识别初始的SMT背离和扩大形态，以及触及的FVG区域",
+    "Step 2: 在5分钟图表上确认第一个市场结构转变（MSS），价格突破结构并向上创造FVG",
+    "Step 3: 绘制该FVG作为潜在入场点，即使错过1分钟级别的入场机会",
+    "Step 4: 识别后续的多个MSS信号和相应的FVG形成",
+    "Step 5: 确定相对相等高点作为目标价位，指导后续交易方向"
+  ],
+  "outcome": null,
+  "lessons": "在多时间框架分析中，即使错过低时间框架（1分钟）的入场，高时间框架（5分钟）的MSS和FVG仍能提供多个高概率交易机会。相对相等高点可作为明确的目标参考，帮助交易者规划风险回报比。",
+  "primary_image": "cards/PePk1V0Q4QQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/PePk1V0Q4QQ/images/case_002_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini 5分钟K线图。图上显示从04:00至20:00的交易时段。可见一条从左上向右下的趋势线，从约3943跌至3876。图中标注有一个矩形框，标记为'MSS'，位于3878至3892价格区间。右侧价格刻度显示当前价格在3943附近。K线整体呈现先下跌后反弹的形态，下跌阶段约90分钟，之后出现多根绿色K线向上延伸。图上有多条水平线标注关键价格位。",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上有两个灰色矩形区域，均标注为FVG，分别位于图表上部（约4412.50至4415.00）和下部（约4087.50至4090.00）。下部FVG区域附近标有文字标签MSS。图右侧有一条水平线位于约4097.50。K线整体价格范围从4077.50至4152.50。除上述标注外，图上未见其他指标或形态框。"
+  },
+  "sources": [
+    {
+      "video_id": "PePk1V0Q4QQ",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        189.12,
+        241.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟图表上的多个MSS和FVG标注，清晰说明了分析步骤和目标参考点，资产、时间框架、关键价位均从图表直接读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:25.946975Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"5分钟图表上的多个市场结构转变与FVG连续识别\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"5M\",\"market_context\":\"S&P 500 E-mini期货在5分钟图表上经历了从下跌到反弹的过程。价格从高点向下运动，创造了多个FVG和MSS信号，随后反弹向上触及相对相等高点。\",\"key_observation\":\"博主识别了多个连续的市场结构转变（MSS）和公允价值缺口（FVG），即使错过初始1分钟入场，5分钟图表上仍提供了多个后续交易机会，目标指向相对相等高点。\",\"analysis_steps\":[\"Step 1: 识别初始的SMT背离和扩大形态，以及触及的FVG区域\",\"Step 2: 在5分钟图表上确认第一个市场结构转变（MSS），价格突破结构并向上创造FVG\",\"Step 3: 绘制该FVG作为潜在入场点，即使错过1分钟级别的入场机会\",\"Step 4: 识别后续的多个MSS信号和相应的FVG形成\",\"Step 5: 确定相对相等高点作为目标价位，指导后续交易方向\"],\"outcome\":null,\"lessons\":\"在多时间框架分析中，即使错过低时间框架（1分钟）的入场，高时间框架（5分钟）的MSS和FVG仍能提供多个高概率交易机会。相对相等高点可作为明确的目标参考，帮助交易者规划风险回报比。\",\"primary_image_frame_id\":\"PePk1V0Q4QQ_f008\",\"supporting_image_frame_ids\":[\"PePk1V0Q4QQ_f007\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"SMT (Smart Money Technique)\",\"Relative Equal Highs\",\"Displacement\",\"Order Block (OB)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟图表上的多个MSS和FVG标注，清晰说明了分析步骤和目标参考点，资产、时间框架、关键价位均从图表直接读取。\"}",
+  "error": null
+}

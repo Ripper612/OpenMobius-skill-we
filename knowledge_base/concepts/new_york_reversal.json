@@ -1,0 +1,59 @@
+{
+  "card_id": "new_york_reversal",
+  "type": "merged_concept",
+  "canonical_term": "New York Reversal",
+  "aliases": [
+    "NY Reversal",
+    "NYR"
+  ],
+  "school": "ICT",
+  "definition": "伦敦时段未触及高时间框架关键位，而在纽约时段触及该位后形成的日内反转形态，通常伴随交付状态改变信号，预示趋势反转。",
+  "identification_rules": [
+    "伦敦时段（2-5点）价格回撤但未触及高时间框架关键位或相关PD阵列",
+    "纽约时段（8:30-10点）价格继续运行并触及该高时间框架关键位",
+    "在高时间框架关键位处形成交付状态改变（CSD），表现为一系列同向平仓K线",
+    "CSD后价格反向运行，形成open-high-low-close或open-low-high-close的反转K线结构",
+    "与伦敦反转的区别：伦敦反转在伦敦时段就触及关键位，而纽约反转延迟到纽约时段才触及"
+  ],
+  "trading_implication": "New York Reversal标志着高时间框架关键位的确认触及和趋势反转的启动。交易者可在CSD形成后、价格反向运行时入场，以低阻力流动性（失败摇摆）作为目标。纽约开盘时间（8:30、9:30）常形成操纵和反向运行的机会点。风险管理上，止损可设在关键位或订单块之外。",
+  "common_mistakes": [
+    "将未触及高时间框架关键位的伦敦回撤误认为是伦敦反转，导致在纽约时段被扫荡",
+    "忽视CSD的确认，过早入场而被虚假反转扫出",
+    "未区分伦敦反转与纽约反转，导致交易逻辑混乱和止损位设置不当",
+    "在纽约时段未能识别操纵（manipulation）与位移（displacement）的区别，错过真实反转信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "xdzyejskSKE",
+      "original_card_id": "xdzyejskSKE_concept_new_york_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.599,
+        775.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134299Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,95 @@
+{
+  "card_id": "q1NmxUTm4n4_case_005_es_1分钟图的订单块入场",
+  "type": "case",
+  "title": "ES 1分钟图订单块二次入场与目标达成",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "SMT",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Low Time Frame Entry Model",
+      "card_id": "low_time_frame_entry_model",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "smart_money_technique_smt",
+    "market_structure_shift",
+    "low_time_frame_entry_model"
+  ],
+  "school": "SMC",
+  "asset": "ES",
+  "timeframe": "1M",
+  "market_context": "基于15分钟图SMT信号（ES与NASDAQ分歧），博主在2分钟图确认结构破裂后，转向1分钟图寻找低时间框架入场模型，利用订单块作为第二入场点。",
+  "key_observation": "在1分钟图上，价格突破结构并创建FVG后，随后回测形成订单块（OB），该订单块成为第二入场点，最终价格触及预设目标。",
+  "analysis_steps": [
+    "Step 1: 在2分钟图上识别结构破裂并创建FVG作为可能的第一入场点。",
+    "Step 2: 转向1分钟图进行低时间框架入场模型分析。",
+    "Step 3: 观察价格在1分钟图上的结构破裂和随后的FVG形成。",
+    "Step 4: 识别订单块（OB）在3942.00-3964.00区间，作为第二入场点。",
+    "Step 5: 设置止损在1.75点，风险回报比4.51，目标价位17.00点。",
+    "Step 6: 价格回测订单块后继续上升，最终触及预设目标。"
+  ],
+  "outcome": "交易成功达成目标，价格从入场点上升至目标价位，完成基于多时间框架SMT的交易设置。",
+  "lessons": "在确认高时间框架SMT信号后，使用低时间框架（1分钟）识别结构破裂和订单块可以提供高概率入场点；订单块回测是可靠的第二入场机会，风险回报比优化有助于交易管理。",
+  "primary_image": "cards/q1NmxUTm4n4/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/q1NmxUTm4n4/images/case_005_detail_1.jpg",
+    "cards/q1NmxUTm4n4/images/case_005_detail_2.jpg",
+    "cards/q1NmxUTm4n4/images/case_005_detail_3.jpg",
+    "cards/q1NmxUTm4n4/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "S&P 500 E-mini Futures 1 分钟图。图上有一条向下倾斜的蓝色趋势线从左上角 3976.00 下行至 3972.00。K 线从 10:40 开始呈现一系列绿色蜡烛上升至 11:25 附近，随后出现黑色蜡烛伴随长影线。图上标注有三个矩形区域：灰色矩形覆盖 3964.00 至 3970.00 区间，粉色矩形覆盖同一区间，浅绿色矩形标记为 OB 覆盖 3942.00 至 3964.0",
+    "case_005_detail_1.jpg": "S&P 500 E-mini Futures 2分钟图表。图上显示价格范围从3960到3988。两条水平线分别位于3988和3980处。图上标注有两个矩形区域：上方矩形约在3980至3990之间（粉红色背景），下方矩形约在3975至3985之间（浅绿色背景）。K线显示从左侧约3985的位置向下运动至3975附近，随后在3975至3985区间内形成整理。右侧底部可见交易按钮'Sell'、'Buy'和",
+    "case_005_detail_2.jpg": "S&P 500 E-mini Futures 2 分钟图。图上显示从左至右的上升趋势，价格从 3956.25 上升至 3994.00。图中有三个矩形标注框：上方红色框标记止损信息（Stop: 1.75），中间绿色框显示开仓 PNL 和风险收益比（4.51），下方绿色框标记目标价位（Target: 17.00）。一条向上倾斜的趋势线从左下向右上延伸。右侧价格刻度显示 3994.00 至 3956.2",
+    "case_005_detail_3.jpg": "图上为双面板交易图表，左侧为标普500 E-mini期货2分钟K线图，右侧为纳斯达克100 E-mini期货2分钟K线图。左侧图可见价格范围约3960.75至3985.75，图上有两条标记为'VAL'的趋势线形成通道结构，以及三条水平线分别位于3984.25、3981.00和3963.25。K线呈绿黑相间排列，显示多根2分钟周期蜡烛线。右侧图显示纳斯达克100期货价格范围约12050至12090。",
+    "case_005_detail_4.jpg": "S&P 500 E-mini Futures 1 分钟图。图上绘有一条向下倾斜的蓝色趋势线，从左上方约 10:40 向下延伸至 11:10 附近。图中央有一条水平虚线标记在 3961.25 处。右侧价格刻度显示 3978.25 和 3961.25 两个数值。K 线序列显示从 10:55 至 11:35 期间以绿色 K 线为主，中间穿插黑色 K 线，整体呈上升排列。可见价格范围从 3944.00 至"
+  },
+  "sources": [
+    {
+      "video_id": "q1NmxUTm4n4",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        396.86,
+        545.279
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从高时间框架SMT识别到低时间框架订单块入场的全过程，包括具体价位、风险回报比和最终结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:01.769114Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 1分钟图订单块二次入场与目标达成\",\"school\":\"SMC\",\"asset\":\"ES\",\"timeframe\":\"1M\",\"market_context\":\"基于15分钟图SMT信号（ES与NASDAQ分歧），博主在2分钟图确认结构破裂后，转向1分钟图寻找低时间框架入场模型，利用订单块作为第二入场点。\",\"key_observation\":\"在1分钟图上，价格突破结构并创建FVG后，随后回测形成订单块（OB），该订单块成为第二入场点，最终价格触及预设目标。\",\"analysis_steps\":[\"Step 1: 在2分钟图上识别结构破裂并创建FVG作为可能的第一入场点。\",\"Step 2: 转向1分钟图进行低时间框架入场模型分析。\",\"Step 3: 观察价格在1分钟图上的结构破裂和随后的FVG形成。\",\"Step 4: 识别订单块（OB）在3942.00-3964.00区间，作为第二入场点。\",\"Step 5: 设置止损在1.75点，风险回报比4.51，目标价位17.00点。\",\"Step 6: 价格回测订单块后继续上升，最终触及预设目标。\"],\"outcome\":\"交易成功达成目标，价格从入场点上升至目标价位，完成基于多时间框架SMT的交易设置。\",\"lessons\":\"在确认高时间框架SMT信号后，使用低时间框架（1分钟）识别结构破裂和订单块可以提供高概率入场点；订单块回测是可靠的第二入场机会，风险回报比优化有助于交易管理。\",\"primary_image_frame_id\":\"q1NmxUTm4n4_f018\",\"supporting_image_frame_ids\":[\"q1NmxUTm4n4_f014\",\"q1NmxUTm4n4_f015\",\"q1NmxUTm4n4_f016\",\"q1NmxUTm4n4_f017\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"SMT\",\"Market Structure Shift\",\"Low Time Frame Entry Model\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从高时间框架SMT识别到低时间框架订单块入场的全过程，包括具体价位、风险回报比和最终结果。\"}",
+  "error": null
+}

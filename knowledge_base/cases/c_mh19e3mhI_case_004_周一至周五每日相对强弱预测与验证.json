@@ -1,0 +1,111 @@
+{
+  "card_id": "c_mh19e3mhI_case_004_周一至周五每日相对强弱预测与验证",
+  "type": "case",
+  "title": "周一至周五ES相对强、NQ相对弱的逐日验证",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Relative Weakness",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Consequent Encroachment",
+      "card_id": "consequent_encroachment",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "mean_threshold",
+    "market_structure",
+    "consequent_encroachment"
+  ],
+  "school": "SMC",
+  "asset": "ES / NQ",
+  "timeframe": "1D",
+  "market_context": "基于周五（8月4日）走势观察，NQ相对强于ES（NQ触及Order Block、ES未达），预测周一起ES将相对强、NQ相对弱，并逐日验证该预测。",
+  "key_observation": "周五NQ上升至Order Block后回落，ES仅触及FVG未达OB，显示NQ相对强；由此反向预测周一起ES相对强、NQ相对弱，并通过均值阈值（Mean Threshold）和Order Block收盘位置验证。",
+  "analysis_steps": [
+    "Step 1: 观察周五走势，标记ES的Fair Value Gap和NQ的Order Block，对比两者相对强弱。",
+    "Step 2: 识别周五NQ触及Order Block后回落、ES未达Order Block的现象，判断NQ相对强。",
+    "Step 3: 基于周五相对强弱反向预测，预期周一起ES相对强、NQ相对弱，并预期产生看涨反应。",
+    "Step 4: 周一验证：ES开盘即上升，接近Consequent Encroachment，而NQ远未达到，确认ES相对强。",
+    "Step 5: 周二验证：两者都扫低，但ES回升至Order Block均值阈值并收于OB内部，NQ未达均值阈值且收于OB外部，再次确认相对强弱。",
+    "Step 6: 周三验证：ES触及低点后回升收于OB内，NQ尊重均值阈值后下行收于低点下方，继续验证相对弱势。",
+    "Step 7: 周四验证：NQ再次触及均值阈值后回落，ES保持相对强势，预测继续成立。"
+  ],
+  "outcome": null,
+  "lessons": "通过对比两个相关资产在关键结构（FVG、Order Block、Mean Threshold）处的表现，可以识别相对强弱，进而反向预测后续走势。收盘位置相对于Order Block内外是判断强弱的关键指标。",
+  "primary_image": "cards/c_mh19e3mhI/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/c_mh19e3mhI/images/case_004_detail_1.jpg",
+    "cards/c_mh19e3mhI/images/case_004_detail_2.jpg",
+    "cards/c_mh19e3mhI/images/case_004_detail_3.jpg",
+    "cards/c_mh19e3mhI/images/case_004_detail_4.jpg",
+    "cards/c_mh19e3mhI/images/case_004_detail_5.jpg",
+    "cards/c_mh19e3mhI/images/case_004_detail_6.jpg",
+    "cards/c_mh19e3mhI/images/case_004_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图上为多面板日线图表，显示 ES 和 NQ 两个资产的并排对比。左侧面板为 ES，右侧面板为 NQ，均为日线（D）时间框架。图左上角标注 ES/NQ、ES、NQ 三行文字，其中 ES/NQ 和 ES 旁有向下箭头，NQ 旁有向上箭头。两个面板均显示从 7 月下旬至 8 月中旬的 K 线序列，包含绿色和黑色蜡烛体。8 月初两个面板均出现连续黑色 K 线，表现为下行走势。图上标注有 0.25 数值和 ",
+    "case_004_detail_1.jpg": "图上显示一张 K 线图，横轴标注为 6 月至 9 月的日期范围。图表由绿色和黑色 K 线组成，绿色 K 线约占 40-50%，黑色 K 线约占 50-60%。K 线分布从左侧 6 月初开始，向右延伸至 9 月中旬。大部分 K 线具有上下影线，主体高度和影线长度变化较大。图上方标题为'TTrades 08/07/2023 8:10 AM predicting es relative strength",
+    "case_004_detail_2.jpg": "图上显示 ES/NQ 日线多面板对比图表。左侧面板标注 ES 和 NQ 的方向指示（ES 和 ES/NQ 显示下降箭头，NQ 显示上升箭头）。上方面板显示价格范围约 4520 至 4600，包含多根绿色和黑色 K 线，时间轴标记从 19 至 21 日及 Aug 月份。下方面板显示价格范围约 13480 至 15900，同样包含交替的绿黑 K 线，时间轴标记 Fri 04 Aug '23。两个面板均",
+    "case_004_detail_3.jpg": "图上为多面板日线图表，展示 ES 和 NQ 两个资产的对比。左侧面板为 ES，右侧面板为 NQ。ES 面板标注有向下箭头，NQ 面板标注有向上箭头。两个面板均显示从 7 月末至 8 月初的 K 线序列，包含绿色和黑色蜡烛。ES 面板右侧价格刻度显示约 4520 至 4600 范围，NQ 面板右侧价格刻度显示约 15304 至 15900 范围。两个面板底部均标注日期标记 24、27、Aug、14、",
+    "case_004_detail_4.jpg": "图像显示三个并排的 K 线图表面板。左侧面板展示从 7 月 24 日至 8 月 21 日的 K 线，包含绿色和黑色蜡烛。右上面板显示同期 K 线，价格范围约 4560 至 4600，标注有两个 0.25 标签框。右下面板显示同期 K 线，价格范围约 15200 至 15900。图左上角显示三行文字标注：ES/NQ 带上升箭头、ES 带上升箭头、NQ 带下降箭头。右侧显示当前价格标签 4621.00",
+    "case_004_detail_5.jpg": "图上显示多面板交易界面，包含两个日线（D）K线图表。左侧面板显示 ES/NQ 的价格走势，右上方面板和下方面板分别展示不同资产的日线图。图上标注有两处 0.25 的文字标签。右侧价格刻度显示范围约从 4473.75 到 4614.50。下方面板价格范围约从 15100 到 15912.25。K线序列由绿色和黑色蜡烛组成，跨越 7 月 31 日至 8 月中旬。图上可见多条水平线标注，以及一个灰色圆形",
+    "case_004_detail_6.jpg": "多面板交易图表显示 ES/NQ 日线数据。左侧面板显示 ES 合约，右侧上下两个面板分别显示不同时间段的价格走势。图上标注有三个价格水平：4619.75、4485.75 和 15478.25。左上角显示 ES/NQ、ES、NQ 三个资产的方向指示符（ES/NQ 和 ES 向上，NQ 向下）。可见多根绿色和黑色 K 线，具有明显的上下影线。右侧面板中有两个矩形框标注，分别位于约 4520-4560 ",
+    "case_004_detail_7.jpg": "图上为多面板日线图表，包含上下两个独立面板。上面板显示 ES/NQ 日线，价格范围约 4482 至 4600；下面板显示 NQ 日线，价格范围约 15200 至 15700。两个面板均显示从 7 月末至 8 月中旬的 K 线序列，包含绿色和黑色蜡烛体。左侧边栏标注 ES/NQ 和 ES 为上升箭头，NQ 为下降箭头。图上标注有两处 0.25 文字标签。右下角可见交易按钮区域（Sell、Buy、Fl"
+  },
+  "sources": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        363.0,
+        541.08
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了周五至周四五天的逐日分析，每日都用Order Block均值阈值和收盘位置验证预测，资产代码、时间框架、关键价位标注清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:38.542878Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"周一至周五ES相对强、NQ相对弱的逐日验证\",\"school\":\"SMC\",\"asset\":\"ES / NQ\",\"timeframe\":\"1D\",\"market_context\":\"基于周五（8月4日）走势观察，NQ相对强于ES（NQ触及Order Block、ES未达），预测周一起ES将相对强、NQ相对弱，并逐日验证该预测。\",\"key_observation\":\"周五NQ上升至Order Block后回落，ES仅触及FVG未达OB，显示NQ相对强；由此反向预测周一起ES相对强、NQ相对弱，并通过均值阈值（Mean Threshold）和Order Block收盘位置验证。\",\"analysis_steps\":[\"Step 1: 观察周五走势，标记ES的Fair Value Gap和NQ的Order Block，对比两者相对强弱。\",\"Step 2: 识别周五NQ触及Order Block后回落、ES未达Order Block的现象，判断NQ相对强。\",\"Step 3: 基于周五相对强弱反向预测，预期周一起ES相对强、NQ相对弱，并预期产生看涨反应。\",\"Step 4: 周一验证：ES开盘即上升，接近Consequent Encroachment，而NQ远未达到，确认ES相对强。\",\"Step 5: 周二验证：两者都扫低，但ES回升至Order Block均值阈值并收于OB内部，NQ未达均值阈值且收于OB外部，再次确认相对强弱。\",\"Step 6: 周三验证：ES触及低点后回升收于OB内，NQ尊重均值阈值后下行收于低点下方，继续验证相对弱势。\",\"Step 7: 周四验证：NQ再次触及均值阈值后回落，ES保持相对强势，预测继续成立。\"],\"outcome\":null,\"lessons\":\"通过对比两个相关资产在关键结构（FVG、Order Block、Mean Threshold）处的表现，可以识别相对强弱，进而反向预测后续走势。收盘位置相对于Order Block内外是判断强弱的关键指标。\",\"primary_image_frame_id\":\"c_mh19e3mhI_f014\",\"supporting_image_frame_ids\":[\"c_mh19e3mhI_f013\",\"c_mh19e3mhI_f001\",\"c_mh19e3mhI_f015\",\"c_mh19e3mhI_f016\",\"c_mh19e3mhI_f017\",\"c_mh19e3mhI_f018\",\"c_mh19e3mhI_f019\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Mean Threshold\",\"Relative Strength\",\"Relative Weakness\",\"Market Structure\",\"Price Action\",\"Consequent Encroachment\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了周五至周四五天的逐日分析，每日都用Order Block均值阈值和收盘位置验证预测，资产代码、时间框架、关键价位标注清晰。\"}",
+  "error": null
+}

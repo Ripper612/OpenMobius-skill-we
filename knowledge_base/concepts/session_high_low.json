@@ -1,0 +1,75 @@
+{
+  "card_id": "session_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Session High/Low",
+  "aliases": [
+    "Session highs and lows",
+    "交易时段高低点"
+  ],
+  "school": "ICT",
+  "definition": "特定交易时段（如亚洲、伦敦、纽约等）内的最高价和最低价。作为重要流动性水平，用于识别支撑和阻力区域，以及预测价格回归目标。",
+  "identification_rules": [
+    "确定交易时段的开始和结束时间（如亚洲20:00-00:00、伦敦02:00-05:00、纽约AM 08:30-11:00、PM 13:30-16:00）",
+    "在该时段内找出最高的K线高点，标记为Session High",
+    "在该时段内找出最低的K线低点，标记为Session Low",
+    "使用ICT Killzones & Pivots指标可自动绘制各时段的高低点水平线"
+  ],
+  "trading_implication": "Session High/Low作为关键流动性水平，当价格回归至这些区域时常产生支撑或阻力。交易者可利用Session High/Low与其他结构（如FVG、OB）形成汇聚点，提高交易概率。例如，价格可能在扫除Session Low后反向上升，或在接近Session High时遇阻。这些水平也用于投影价格目标和设置止损位。",
+  "common_mistakes": [
+    "混淆不同时区的Session High/Low，导致使用错误的流动性水平",
+    "忽视Session High/Low与其他结构（如FVG、OB）的汇聚关系，单独使用Session High/Low作为交易信号",
+    "未根据不同交易品种（外汇vs指数期货）调整Session时间设置"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "27S9gjgcSlI_case_002_es与nq_11_00低点的多时间框架smt",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ 11:00低点的多时间框架SMT确认反转"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_002_eurusd_日线与小时线多时间框架流动性分析",
+      "video_id": "U8xH2dEgH5A",
+      "title": "EURUSD多时间框架流动性分析与交易目标确定"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_003_标普500_e_mini期货5分钟图交易流程",
+      "video_id": "U8xH2dEgH5A",
+      "title": "标普500 E-mini期货5分钟图多层流动性框架交易"
+    },
+    {
+      "card_id": "YESqIoA7Wyg_case_003_标普500指数会话流动性操纵案例",
+      "video_id": "YESqIoA7Wyg",
+      "title": "ES 15分钟会话流动性操纵与缺乏位移预测"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MPeeE55rNOw",
+      "original_card_id": "MPeeE55rNOw_concept_session_high_low",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        370.039,
+        550.6
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135624Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

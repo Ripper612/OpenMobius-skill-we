@@ -1,0 +1,102 @@
+{
+  "card_id": "q40pRwjuPYQ_case_006_调整策略第三个例子_区间震荡中的多次扫盘",
+  "type": "case",
+  "title": "周一区间震荡中的多次扫盘与小型FVG入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Range-bound Trading",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "market_structure",
+    "displacement",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "30s",
+  "market_context": "周一无重大新闻，价格在一个明确的区间内震荡，在高低点之间多次扫盘，最终在小型FVG处形成入场机会。",
+  "key_observation": "博主在5分钟图表上识别出扫盘高点后，立即切换到30秒图表寻找更精确的入场点，在小型FVG处建立空头头寸，止损设在高点，目标为低点。",
+  "analysis_steps": [
+    "Step 1: 在周一无新闻的背景下，预期价格在区间内震荡，扫盘高点后回到区间，扫盘低点后再次回到区间。",
+    "Step 2: 在5分钟图表上观察到扫盘行为，确认区间结构。",
+    "Step 3: 立即切换到30秒图表，寻找更激进的回到区间的动作和收盘结构。",
+    "Step 4: 在30秒图表上识别出新的高点被扫盘，随后形成短期低点。",
+    "Step 5: 价格向下位移进入一个小型成交量失衡区域（小型FVG）。",
+    "Step 6: 在小型FVG处建立空头入场，止损设在高点，目标设在低点。",
+    "Step 7: 价格达到目标位，交易成功完成。"
+  ],
+  "outcome": "成功达到目标位。价格从小型FVG入场点向下运行至低点目标，交易获利。",
+  "lessons": "在区间震荡行情中，多时间框架联动分析能提高入场精准度。先在高时间框架（5分钟）确认结构，再在低时间框架（30秒）寻找小型FVG等微观入场点，结合止损和目标的明确设置，可以实现高概率交易。",
+  "primary_image": "cards/q40pRwjuPYQ/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/q40pRwjuPYQ/images/case_006_detail_1.jpg",
+    "cards/q40pRwjuPYQ/images/case_006_detail_2.jpg",
+    "cards/q40pRwjuPYQ/images/case_006_detail_3.jpg",
+    "cards/q40pRwjuPYQ/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "USD 4 时间框架 K 线图，时间范围从 12:00 至 13:00。图上显示从 14886 上升至 14932 的上升趋势，随后在 14920 至 14935 区间内形成盘整。图上有两个浅蓝色矩形框标注，分别覆盖 14920-14935 和 14900-14925 价格区间。可见三条水平虚线分别位于 14935.75、14921.75 和 14900.50。盘整区域内 K 线呈绿黑相间，下方有",
+    "case_006_detail_1.jpg": "USD 1分钟K线图。图上显示从11:42:30至12:37:30的价格走势，价格范围在14874.00至14926.00之间。图表中标注有三个矩形区域：下方灰色矩形约在14874至14886区间，中间灰色矩形约在14893至14910区间，上方浅绿色矩形约在14893至14922区间。K线呈现绿色和黑色交替的蜡烛体。图右下角显示时间戳'25/9/2023'和'NQ11 / 305'。",
+    "case_006_detail_2.jpg": "USD 5分钟K线图，日期为2023年9月25日。图表显示从09:30至15:00的交易时段。价格范围在14830至14920之间。图上有一条灰色矩形区域标注，大致覆盖14880至14920的价格范围，横跨11:00至14:30的时间段。左侧09:30至10:45区间以绿色K线为主，之后出现黑色K线与绿色K线混合。11:30附近有一根较大的绿色K线。右侧底部可见交易按钮标注为Sell、Buy、Fl",
+    "case_006_detail_3.jpg": "USD 4 时间框架 K 线图，时间范围从 11:55 至 12:50。图上显示价格范围从 14886.00 至 14944.00。可见约 30 根 K 线，主要由绿色（上升）和黑色（下降）蜡烛组成。从 12:05 开始呈现上升趋势，12:20 至 12:25 区间出现盘整形态。图右下角标注'25/9/2023 NQ11 / 305'及时间戳'Mon 25 Sep '23 12:29:00'。左侧",
+    "case_006_detail_4.jpg": "USD 1分钟K线图。图上显示从11:40至13:10的价格走势，价格范围14892至14950。图表左侧显示上升趋势，K线多为绿色，从约14900上升至14932。中部至右侧显示下降趋势，K线多为黑色，从14932下跌至14895。图上标记两个矩形区域，分别覆盖14920-14935和14895-14920价格范围。右侧显示时间戳'25/9/2023'和'NQ11 / 305'标签。图右下角显示"
+  },
+  "sources": [
+    {
+      "video_id": "q40pRwjuPYQ",
+      "segment_ids": [
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        696.56,
+        840.759
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从高时间框架到低时间框架的分析过程，清晰标注了入场点、止损和目标，交易结果明确，所有关键数据从图表和讲解中可直接读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:12.814986Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"周一区间震荡中的多次扫盘与小型FVG入场\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"30s\",\"market_context\":\"周一无重大新闻，价格在一个明确的区间内震荡，在高低点之间多次扫盘，最终在小型FVG处形成入场机会。\",\"key_observation\":\"博主在5分钟图表上识别出扫盘高点后，立即切换到30秒图表寻找更精确的入场点，在小型FVG处建立空头头寸，止损设在高点，目标为低点。\",\"analysis_steps\":[\"Step 1: 在周一无新闻的背景下，预期价格在区间内震荡，扫盘高点后回到区间，扫盘低点后再次回到区间。\",\"Step 2: 在5分钟图表上观察到扫盘行为，确认区间结构。\",\"Step 3: 立即切换到30秒图表，寻找更激进的回到区间的动作和收盘结构。\",\"Step 4: 在30秒图表上识别出新的高点被扫盘，随后形成短期低点。\",\"Step 5: 价格向下位移进入一个小型成交量失衡区域（小型FVG）。\",\"Step 6: 在小型FVG处建立空头入场，止损设在高点，目标设在低点。\",\"Step 7: 价格达到目标位，交易成功完成。\"],\"outcome\":\"成功达到目标位。价格从小型FVG入场点向下运行至低点目标，交易获利。\",\"lessons\":\"在区间震荡行情中，多时间框架联动分析能提高入场精准度。先在高时间框架（5分钟）确认结构，再在低时间框架（30秒）寻找小型FVG等微观入场点，结合止损和目标的明确设置，可以实现高概率交易。\",\"primary_image_frame_id\":\"q40pRwjuPYQ_f027\",\"supporting_image_frame_ids\":[\"q40pRwjuPYQ_f024\",\"q40pRwjuPYQ_f025\",\"q40pRwjuPYQ_f026\",\"q40pRwjuPYQ_f028\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Market Structure\",\"Displacement\",\"Multi-timeframe Analysis\",\"Range-bound Trading\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从高时间框架到低时间框架的分析过程，清晰标注了入场点、止损和目标，交易结果明确，所有关键数据从图表和讲解中可直接读取。\"}",
+  "error": null
+}

@@ -1,0 +1,55 @@
+{
+  "card_id": "time_filter",
+  "type": "merged_concept",
+  "canonical_term": "Time Filter",
+  "aliases": [
+    "Kill Zone Filter",
+    "时间过滤器"
+  ],
+  "school": "ICT",
+  "definition": "指标设置中可配置的功能，允许用户设置最多三个独立的时间窗口，限制仅在指定时段内显示交易设置信号，用于聚焦特定交易时段（如伦敦盘、纽约盘）。",
+  "identification_rules": [
+    "在指标设置面板的 TIME FILTER 分区中找到，可勾选启用最多三个独立的时间过滤器",
+    "每个过滤器包含起始时间和结束时间的设置（如 08:00–11:30）",
+    "设置 'Apply below' 参数以指定该过滤器应用的最低时间框架（如 1 hour 表示仅在 1 小时及以下时间框架生效）",
+    "启用后，指标仅在指定时间窗口内打印设置信号，其他时段的信号被隐藏"
+  ],
+  "trading_implication": "Time Filter 用于隔离特定交易时段的高概率设置，避免在低流动性或非目标时段被虚假信号干扰。交易者可同时配置多个 Kill Zone（如伦敦 08:00–11:30 和纽约 13:00–16:00），仅在这些时段寻找交易机会。该功能提高了信号的相关性和交易纪律性。",
+  "common_mistakes": [
+    "未正确设置 'Apply below' 参数，导致过滤器在高时间框架（如日线）上也生效，反而隐藏了应该显示的信号",
+    "在高时间框架上查看图表时忘记调整 'Apply below' 参数，导致设置无法显示（需将其设置为低于当前时间框架的周期）",
+    "配置多个重叠的时间过滤器时逻辑混乱，导致无意中排除了目标时段的信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_time_filter",
+      "segment_ids": [
+        "seg_003",
+        "seg_005"
+      ],
+      "time_range": [
+        369.08,
+        903.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136224Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

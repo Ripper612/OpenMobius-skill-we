@@ -1,0 +1,120 @@
+{
+  "card_id": "FAKWJ-1NlLE_case_004_nq_5分钟1小时模型看跌案例",
+  "type": "case",
+  "title": "NQ 5分钟1小时模型看跌案例 - 浅wick确认与FVG止损",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    },
+    {
+      "term": "Shallow Wick",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "5m-1H Model",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "T-spot",
+      "card_id": "t_spot",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "market_structure_shift_mss",
+    "opposing_run",
+    "t_spot",
+    "risk_to_reward",
+    "standard_deviation"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5m",
+  "market_context": "NQ在6小时形成反转结构，6am 4小时K线出现浅wick和大实体，预期10am继续下跌延续。使用5分钟与1小时双时间框架模型确认交易设置。",
+  "key_observation": "6am 4小时K线形成浅wick反转信号，预示10am会形成第三根K线继续下跌。通过5分钟K线确认wick形成，然后交易下行位移。",
+  "analysis_steps": [
+    "Step 1: 观察6am 4小时K线形成浅wick和大实体，识别反转信号。",
+    "Step 2: 确认该反转预示10am（第三根K线）会继续下跌延续。",
+    "Step 3: 在5分钟与1小时双时间框架模型上识别T-spot入场点，价格应开盘后在该区域形成浅wick。",
+    "Step 4: 使用FVG（公允价值缺口）作为止损位，设置在opposing candle或FVG上方。",
+    "Step 5: 设定目标为-1标准差（负一标准差），而非2R，因为存在大幅opposing run。",
+    "Step 6: 在19912-20060区间入场，止损设在20070（0.35%），目标19782.50（1.03%）。"
+  ],
+  "outcome": "成功达成目标。价格开盘后形成浅wick，随后交易下行至目标位19782.50，风险回报比2.93:1，平仓P&L +205.75点（1.03%）。",
+  "lessons": "使用多时间框架模型（5m+1H）确认浅wick形成是高概率入场信号。FVG和opposing candle提供精确止损位置。在大幅opposing run存在时，使用标准差目标比固定2R更合理。",
+  "primary_image": "cards/FAKWJ-1NlLE/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/FAKWJ-1NlLE/images/case_004_detail_1.jpg",
+    "cards/FAKWJ-1NlLE/images/case_004_detail_2.jpg",
+    "cards/FAKWJ-1NlLE/images/case_004_detail_3.jpg",
+    "cards/FAKWJ-1NlLE/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图为 NQ1! 5 分钟 K 线图，日期为 2024 年 9 月 11 日（周三）。图右上角标注资产为 NQ1!（5m），Bias 标注为 Bearish，模型标注为 5m-1H Model。图上存在一个浅色矩形标注区域，覆盖约 19912.00 至 20060.00 价格范围，对应时间约 10:00 至 11:35。图上有三条带文字标签的水平线：止损标签显示 Stop: 70.00 (0.35%",
+    "case_004_detail_1.jpg": "图表为 NQ1! 5 分钟 K 线图，时间轴显示 Wed 11 Sep '24 11:05。图右下角标注 5m-1H Model、Bias: Bearish、SMT(Auto): ES1!, YM1!。图上有一个大型矩形标注，覆盖价格约 19900 至 20060 区间，横跨图表大部分宽度。矩形上方约 20100 处有文字标签 C2。图右侧价格轴当前价高亮显示 19892.25，并有一条虚线水平延",
+    "case_004_detail_2.jpg": "图表显示 NQ1! 5 分钟 K 线图，日期标注为 2024 年 9 月 11 日星期三。图右下角标注 Bias: Bearish 及 SMT(Auto): ES1!, YM1!，并标注 5m-1M Model。图上可见两条水平实线分别位于约 20060 和 19980 附近，另有一条虚线水平线位于约 20240 区域。图上标注文字 C2 位于约 20130 价格处。图右侧可见多个时间标签（7:0",
+    "case_004_detail_3.jpg": "NQ1! 5 分钟 K 线图，日期标注为 2024 年 9 月 11 日。图上可见一个浅绿色矩形交易区域，上边界对应止损标注约 20080（Stop: 70.00, 0.35%, Amount: 49900），下边界对应目标标注约 19782.50（Target: 205.75, 1.03%, Amount: 50293.93）。矩形内有一条虚线斜线从入场位延伸至目标位。弹出框显示 Closed ",
+    "case_004_detail_4.jpg": "图表为 NQ1! 5 分钟 K 线图，时间轴显示 2024 年 8 月 6 日，时间范围约从 03:30 至 15:00。可见价格范围约从 18960 至 19680。图左侧 K 线自约 19480 向下运行至约 19200 区域，随后在约 19240 至 19320 区间出现多根 K 线横向排列。图上标注有文字标签 C3、-1、-2、-2.5、-4、-4.5"
+  },
+  "sources": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "segment_ids": [
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020"
+      ],
+      "time_range": [
+        863.8389999999999,
+        1044.559
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析步骤、入场价位、止损与目标设置，以及最终成功的交易结果，所有关键数据从图表和讲解中清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:41.307746Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 5分钟1小时模型看跌案例 - 浅wick确认与FVG止损\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5m\",\"market_context\":\"NQ在6小时形成反转结构，6am 4小时K线出现浅wick和大实体，预期10am继续下跌延续。使用5分钟与1小时双时间框架模型确认交易设置。\",\"key_observation\":\"6am 4小时K线形成浅wick反转信号，预示10am会形成第三根K线继续下跌。通过5分钟K线确认wick形成，然后交易下行位移。\",\"analysis_steps\":[\"Step 1: 观察6am 4小时K线形成浅wick和大实体，识别反转信号。\",\"Step 2: 确认该反转预示10am（第三根K线）会继续下跌延续。\",\"Step 3: 在5分钟与1小时双时间框架模型上识别T-spot入场点，价格应开盘后在该区域形成浅wick。\",\"Step 4: 使用FVG（公允价值缺口）作为止损位，设置在opposing candle或FVG上方。\",\"Step 5: 设定目标为-1标准差（负一标准差），而非2R，因为存在大幅opposing run。\",\"Step 6: 在19912-20060区间入场，止损设在20070（0.35%），目标19782.50（1.03%）。\"],\"outcome\":\"成功达成目标。价格开盘后形成浅wick，随后交易下行至目标位19782.50，风险回报比2.93:1，平仓P&L +205.75点（1.03%）。\",\"lessons\":\"使用多时间框架模型（5m+1H）确认浅wick形成是高概率入场信号。FVG和opposing candle提供精确止损位置。在大幅opposing run存在时，使用标准差目标比固定2R更合理。\",\"primary_image_frame_id\":\"FAKWJ-1NlLE_f033\",\"supporting_image_frame_ids\":[\"FAKWJ-1NlLE_f031\",\"FAKWJ-1NlLE_f032\",\"FAKWJ-1NlLE_f034\",\"FAKWJ-1NlLE_f035\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Opposing Candle\",\"Shallow Wick\",\"5m-1H Model\",\"T-spot\",\"Risk/Reward Ratio\",\"Standard Deviation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析步骤、入场价位、止损与目标设置，以及最终成功的交易结果，所有关键数据从图表和讲解中清晰可读。\"}",
+  "error": null
+}

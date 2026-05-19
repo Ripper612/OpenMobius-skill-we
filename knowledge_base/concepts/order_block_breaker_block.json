@@ -1,0 +1,60 @@
+{
+  "card_id": "order_block_breaker_block",
+  "type": "merged_concept",
+  "canonical_term": "Order Block / Breaker Block",
+  "aliases": [
+    "Breaker",
+    "OB",
+    "破坏块",
+    "订单块"
+  ],
+  "school": "ICT",
+  "definition": "在价格反转前形成的特定K线序列。Order Block是原始支撑/阻力区；Breaker Block是价格突破后，先前支撑/阻力失效转变为新的阻力/支撑区。",
+  "identification_rules": [
+    "在FVG左侧寻找一系列紧密排列的K线（up close candles），该区域即为Order Block",
+    "使用Order Block的开盘价作为精确参考点，而非整个区间",
+    "当价格突破原有结构后，失效的支撑/阻力区转变为Breaker Block，成为新的反向阻力/支撑",
+    "可跨时间框架识别：在高时间框架FVG中寻找，也可在低时间框架内发现更小的Order Block进行精细化"
+  ],
+  "trading_implication": "Order Block/Breaker Block与FVG对齐时形成高概率入场区域。通过使用Order Block的开盘价而非整个区间，可显著降低风险敞口。在多时间框架中识别Order Block可进一步精细化入场点：先在高时间框架FVG中定位Breaker Block，再在低时间框架内寻找更小的Order Block或FVG，形成分层入场策略。",
+  "common_mistakes": [
+    "材料未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "A8UpRZlRzlg_case_003_纳指100迷你期货看跌bpr案例",
+      "video_id": "A8UpRZlRzlg",
+      "title": "纳指100迷你期货看跌BPR做空入场案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "fwUUkJ5q6tc",
+      "original_card_id": "fwUUkJ5q6tc_concept_order_block_breaker_block",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.24,
+        143.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134542Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

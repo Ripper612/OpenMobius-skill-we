@@ -1,0 +1,117 @@
+{
+  "card_id": "TCFvsZeYvV8_case_004_日线第二个_amd_案例_伦敦盘整与操纵",
+  "type": "case",
+  "title": "NQ日线AMD：伦敦盘整、操纵扫低、纽约派发",
+  "related_concepts": [
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "AMD (Accumulation, Manipulation, Distribution)",
+      "card_id": "amd_accumulation_manipulation_distribution",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "London Session",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "New York Session",
+      "card_id": "new_york_session",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "power_of_3_indicator",
+    "amd_accumulation_manipulation_distribution",
+    "consolidation",
+    "inducement",
+    "displacement",
+    "order_block",
+    "market_structure",
+    "new_york_session"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "1D",
+  "market_context": "NQ在午夜后进入伦敦时段，形成盘整区间。伦敦盘中出现激进向下操纵，随后反向上升，为日线级别AMD模式的典型展现。",
+  "key_observation": "博主识别出日线Power of 3模式：伦敦时段的操纵（Manipulation）制造日线下影线，随后纽约时段派发（Distribution）完成OLHC或OLHC结构。",
+  "analysis_steps": [
+    "Step 1: 观察午夜开盘后进入伦敦时段，识别出盘整区间（Accumulation）的形成",
+    "Step 2: 识别伦敦时段内激进向下的操纵走势，扫低后快速反向上升",
+    "Step 3: 确认操纵后的反向上升是否能够回到盘整区间内，验证Displacement",
+    "Step 4: 预期纽约开盘后继续向上派发，完成日线的OLHC结构",
+    "Step 5: 观察纽约AM时段的持续上升，确认派发阶段的展开",
+    "Step 6: 验证最终日线收盘形成Open Low High Close的完整AMD模式"
+  ],
+  "outcome": "日线最终形成OLHC结构，伦敦操纵创造日线下影线，纽约派发推高收盘价，完整展现了日线级别的Accumulation-Manipulation-Distribution周期。",
+  "lessons": "日线AMD模式中，伦敦时段的操纵往往是制造日线wick的关键，通过识别盘整→激进操纵→反向位移的序列，可以预期纽约派发方向。关键是确认操纵后的反向是否能回到原盘整区间，这决定了后续派发的可信度。",
+  "primary_image": "cards/TCFvsZeYvV8/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/TCFvsZeYvV8/images/case_004_detail_1.jpg",
+    "cards/TCFvsZeYvV8/images/case_004_detail_2.jpg",
+    "cards/TCFvsZeYvV8/images/case_004_detail_3.jpg",
+    "cards/TCFvsZeYvV8/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD 15分钟K线图。图上显示价格范围从14620到14940。左侧显示一段盘整区间，随后出现三个矩形标注区域：红色矩形标记下跌至14620的低点区域，蓝色矩形标记从14620上升至14900的区间，黄色矩形标记14900至14940的上方区间。右侧显示一根大型绿色K线从约14600延伸至14940。图上标注有时间戳4/10/2023、NQ11|15m及19:30。",
+    "case_004_detail_1.jpg": "USD 5分钟K线图。图上显示从03:00至14:30的价格走势，可见价格范围约14252至14364。图中有一条水平线位于14332.00。两个矩形框标注分别覆盖14300-14340区间（蓝色）和14268-14290区间（红色）。K线序列呈现绿色和黑色交替排列。图右下角显示当前价格标签14064.75。时间轴标注从03:00至14:30，日期标记为27/10/2023。",
+    "case_004_detail_2.jpg": "USD 1小时K线图，价格范围14290至14490。图上显示一段从左侧高点14490开始的下行走势，中间在14310至14420区间形成整理，该区间用浅绿色矩形标注。18时出现一根长黑色K线从14420跌至14380。01时30分处有向下跳空缺口。右侧显示一个黑色矩形标注，标记价格约在14310至14420区间。图表底部显示时间轴从7:00至19:30，当前时间标记为03:00。左下角显示144",
+    "case_004_detail_3.jpg": "USD 15分钟K线图。图上显示价格范围从14200到14490。左侧为一组绿黑相间的K线集群，位于14460至14490区间。随后出现一根大幅下跌的黑色K线，从14400下行至14370。之后约8根K线呈交替绿黑形态逐步下行至14310附近。图中央附近形成一个14310至14340的盘整区间，包含约4根K线。图上有一条水平线位于14307.25处，贯穿图表下方区域。右侧显示时间戳'Thu 26 ",
+    "case_004_detail_4.jpg": "USD 15分钟K线图。图上显示价格范围从14210到14490。可见一根大黑色K线从约14410下跌至14270，随后形成多根小型K线在14300至14420区间内整理。图上标注有两条水平线及两个粉红色矩形区域。右侧显示时间标记为26/10/2023及NQ211 15M。底部工具栏显示Sell、Buy、Flatten等交易按钮。"
+  },
+  "sources": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        379.44,
+        545.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线AMD的三个阶段，资产代码、时间框架、关键价位、分析步骤均清晰，图表标注明确显示盘整、操纵、派发的过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:41.711749Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ日线AMD：伦敦盘整、操纵扫低、纽约派发\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"1D\",\"market_context\":\"NQ在午夜后进入伦敦时段，形成盘整区间。伦敦盘中出现激进向下操纵，随后反向上升，为日线级别AMD模式的典型展现。\",\"key_observation\":\"博主识别出日线Power of 3模式：伦敦时段的操纵（Manipulation）制造日线下影线，随后纽约时段派发（Distribution）完成OLHC或OLHC结构。\",\"analysis_steps\":[\"Step 1: 观察午夜开盘后进入伦敦时段，识别出盘整区间（Accumulation）的形成\",\"Step 2: 识别伦敦时段内激进向下的操纵走势，扫低后快速反向上升\",\"Step 3: 确认操纵后的反向上升是否能够回到盘整区间内，验证Displacement\",\"Step 4: 预期纽约开盘后继续向上派发，完成日线的OLHC结构\",\"Step 5: 观察纽约AM时段的持续上升，确认派发阶段的展开\",\"Step 6: 验证最终日线收盘形成Open Low High Close的完整AMD模式\"],\"outcome\":\"日线最终形成OLHC结构，伦敦操纵创造日线下影线，纽约派发推高收盘价，完整展现了日线级别的Accumulation-Manipulation-Distribution周期。\",\"lessons\":\"日线AMD模式中，伦敦时段的操纵往往是制造日线wick的关键，通过识别盘整→激进操纵→反向位移的序列，可以预期纽约派发方向。关键是确认操纵后的反向是否能回到原盘整区间，这决定了后续派发的可信度。\",\"primary_image_frame_id\":\"TCFvsZeYvV8_f017\",\"supporting_image_frame_ids\":[\"TCFvsZeYvV8_f013\",\"TCFvsZeYvV8_f018\",\"TCFvsZeYvV8_f001\",\"TCFvsZeYvV8_f019\"],\"related_concepts\":[\"Power of 3\",\"AMD (Accumulation, Manipulation, Distribution)\",\"Consolidation\",\"Manipulation\",\"Displacement\",\"Distribution\",\"Order Block\",\"Market Structure\",\"London Session\",\"New York Session\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线AMD的三个阶段，资产代码、时间框架、关键价位、分析步骤均清晰，图表标注明确显示盘整、操纵、派发的过程。\"}",
+  "error": null
+}

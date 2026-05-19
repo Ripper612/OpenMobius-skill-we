@@ -1,0 +1,59 @@
+{
+  "card_id": "draw_on_liquidity_dol",
+  "type": "merged_concept",
+  "canonical_term": "Draw on Liquidity (DOL)",
+  "aliases": [
+    "流动性吸取",
+    "流动性目标"
+  ],
+  "school": "ICT",
+  "definition": "通过识别市场寻求的外部流动性（旧高低点、等高等低）和内部流动性（FVG、OB等），预测价格可能运行的目标区域，用于确定日内交易偏差和风险管理。",
+  "identification_rules": [
+    "识别外部流动性：标记旧高点、旧低点、等高点、等低点作为潜在目标",
+    "识别内部流动性：在图表上标记Fair Value Gap和Order Block",
+    "观察价格位移（Displacement）方向：若价格向上位移，则寻求上方流动性；若向下位移，则寻求下方流动性",
+    "追踪价格失败点：标记价格未能突破的高点或低点，作为反向运行的信号",
+    "跨时间框架验证：在高时间框架（日线、4小时、1小时）上识别DOL，用低时间框架（5分钟及以下）寻找入场点",
+    "检查位移确认：若价格未能突破某个水平，则预期价格将反向运行至相反方向的流动性"
+  ],
+  "trading_implication": "DOL是日内交易的方向指南针。交易者在高时间框架上识别DOL目标后，使用低时间框架寻找最优入场点（OTE），同时以失败的高低点作为止损参考。若价格未能位移突破某水平，则预期反向运行至对面流动性。这样可避免被低时间框架的噪音迷惑，提高风险管理的精准度。",
+  "common_mistakes": [
+    "未在高时间框架上识别DOL就在低时间框架交易，导致方向判断错误",
+    "忽视位移确认信号，在价格未能突破时仍坚持原有方向",
+    "混淆外部流动性和内部流动性，导致目标选择不当",
+    "未跨时间框架验证，单一时间框架上的FVG或OB可能不是真正的DOL目标"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "MmvC4rsmmcM",
+      "original_card_id": "MmvC4rsmmcM_concept_draw_on_liquidity_dol",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        496.28
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132403Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

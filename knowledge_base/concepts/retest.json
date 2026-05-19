@@ -1,0 +1,78 @@
+{
+  "card_id": "retest",
+  "type": "merged_concept",
+  "canonical_term": "Retest",
+  "aliases": [
+    "回测",
+    "重新测试"
+  ],
+  "school": "ICT",
+  "definition": "价格在突破或触及关键水平（如订单块、公允价值缺口、摆动点）后，返回该水平进行二次确认，为交易者提供更优的入场机会和风险回报比。",
+  "identification_rules": [
+    "价格首次突破或触及关键结构水平（OB、FVG、摆动高/低点）",
+    "价格随后回撤，再次接近或进入该关键水平区域",
+    "回撤过程中形成新的订单块或清晰的K线结构（如闭合于下跌K线之上）",
+    "回撤后价格继续朝原趋势方向运行，而非反向突破"
+  ],
+  "trading_implication": "Retest提供了更优的风险回报比入场机会。交易者可在首次突破后等待价格回撤至关键水平，形成新的订单块或Change in State of Delivery后再入场，此时止损可设置在更紧凑的位置。Retest也可用于确认趋势延续性：若价格在回撤时得到支撑并继续上行，则增强了看涨信号的可靠性。",
+  "common_mistakes": [
+    "在首次突破时急于入场，导致止损过大、风险回报比不佳，应等待retest获得更优入场",
+    "混淆retest与趋势反转：retest是在原趋势方向内的回撤确认，而非反向突破",
+    "忽视retest过程中的新结构形成（如propulsion block），错过高概率入场点",
+    "在缺乏强势叙述或偏好的情况下，盲目交易retest，特别是当价格已扫除关键流动性后"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "E6bpY4dQvlE_case_002_s_p_500_e_mini期货15秒图多个box_setup示",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES期货15秒图Box Setup多周期分析与买方曲线入场"
+    },
+    {
+      "card_id": "E6bpY4dQvlE_case_003_s_p_500_e_mini期货5分钟图高时间框架偏向分析",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES 5分钟图盘整突破回测识别与看涨偏向判断"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_006_15分钟图的多次protected_swing交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "15分钟图多次Protected Swing的连续交易机会"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_003_巩固区间突破与回测交易",
+      "video_id": "yOPESX2aWkI",
+      "title": "ES巩固区间突破与低点回测长仓设置"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_retest",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        371.599,
+        877.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135380Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

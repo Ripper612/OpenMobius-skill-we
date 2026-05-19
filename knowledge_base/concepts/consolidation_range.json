@@ -1,0 +1,68 @@
+{
+  "card_id": "consolidation_range",
+  "type": "merged_concept",
+  "canonical_term": "Consolidation / Range",
+  "aliases": [
+    "Accumulation (在AMD模型中)",
+    "整理区间",
+    "盘整"
+  ],
+  "school": "ICT",
+  "definition": "价格在一定区间内的横向整理，形成明确的高点和低点。在AMD模型中对应积累阶段，为后续操纵和派发奠定基础。",
+  "identification_rules": [
+    "识别明确的上下边界：标记出盘整区间的高点和低点，用矩形框围绕该区域",
+    "观察K线混合特征：盘整内包含绿色和黑色K线交替出现，显示买卖力量均衡",
+    "确认流动性积累：在盘整高点上方和低点下方应有流动性（买方和卖方订单）积聚",
+    "区分盘整与趋势：盘整后应伴随激进的价格突破（向上或向下出离该区间），而非缓慢爬升",
+    "若难以识别盘整，可反向识别：先找到激进的价格行动（出离并返回），然后向左标记被操纵的区间"
+  ],
+  "trading_implication": "盘整是AMD周期的第一阶段，标志着流动性的积累。交易者应在盘整被识别后，预期随后的操纵（虚假突破）和派发（真实趋势）。可在操纵阶段寻找反转入场点，或在派发阶段寻找延续入场点。盘整的高低点也可作为止损参考。",
+  "common_mistakes": [
+    "混淆盘整与趋势：将缓慢上升或下降的价格误认为盘整，应关注是否存在明确的高低点边界",
+    "过度关注盘整本身：许多交易者纠结于精确标记盘整区间，应转而关注激进的价格行动（出离和返回），从而反推盘整范围",
+    "忽视流动性位置：未能识别盘整高点上方和低点下方的流动性积聚，导致对后续操纵方向判断错误",
+    "盘整识别不完整：仅标记一个盘整后立即交易，未考虑可能存在嵌套的多层级盘整（如1分钟盘整嵌套在5分钟盘整内）"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "TCFvsZeYvV8_case_001_纽约开盘后的_6_分钟图_amd_案例",
+      "video_id": "TCFvsZeYvV8",
+      "title": "纽约开盘后 NQ 6分钟图：AMD模式中的反转与Box Setup做多"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_consolidation_range",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        10.36,
+        863.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131771Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

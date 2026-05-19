@@ -1,0 +1,115 @@
+{
+  "card_id": "kTWXpAo1uE8_case_002_第二个案例_下跌后上升的标准差投影与pd数组对齐",
+  "type": "case",
+  "title": "NQ1! 下跌后反弹：标准差投影与Order Block及Equal Highs对齐",
+  "related_concepts": [
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Max Expansion",
+      "card_id": "max_expansion",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "standard_deviation_projection",
+    "order_block",
+    "premium_discount_premium_",
+    "manipulation_leg",
+    "fair_value_gap",
+    "sellside_liquidity",
+    "retracement",
+    "max_expansion"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "60m",
+  "market_context": "NQ1! 在9月29日至10月初期间经历先上升后下跌的周期。价格从约15050下跌至14590附近，随后反弹。博主在此过程中识别操纵腿并投影标准差，寻找与PD数组的汇聚。",
+  "key_observation": "博主发现价格下跌后的反弹中，标准差投影的-2到-2.5区间与Order Block对齐，-4标准差与Equal Highs汇聚，形成高概率的支撑和阻力区域。",
+  "analysis_steps": [
+    "Step 1: 识别从高点到低点的操纵腿（manipulation leg），即从15050附近到14590附近的下跌段。",
+    "Step 2: 从低点向上投影该操纵腿的距离，生成标准差投影（-1、-2、-2.5、-4）。",
+    "Step 3: 标记-2到-2.5标准差区间（约14560-14620），观察是否有PD数组对齐。",
+    "Step 4: 发现Order Block的均值阈值（mean threshold）恰好位于-2标准差附近。",
+    "Step 5: 标记-4标准差区间（约14320-14400），发现多个Equal Highs位于此区域上方。",
+    "Step 6: 确认标准差投影与Order Block和Equal Highs的汇聚，形成多重支撑/阻力。"
+  ],
+  "outcome": null,
+  "lessons": "将标准差投影与PD数组（Order Block、Equal Highs、FVG等）配对使用，可以识别高概率的支撑和阻力区域。-2到-2.5区间通常作为回撤或反转的第一目标，-4区间作为最大扩展目标。多重汇聚增强了这些区域的有效性。",
+  "primary_image": "cards/kTWXpAo1uE8/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/kTWXpAo1uE8/images/case_002_detail_1.jpg",
+    "cards/kTWXpAo1uE8/images/case_002_detail_2.jpg",
+    "cards/kTWXpAo1uE8/images/case_002_detail_3.jpg",
+    "cards/kTWXpAo1uE8/images/case_002_detail_4.jpg",
+    "cards/kTWXpAo1uE8/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "USD 60分钟K线图。图上显示价格范围从14320.00至15540.00。图中有三条水平线标注：14766.50、14680.00和14560.00（标记为'2.5'）。图上绘制了三个矩形区域：一个在15040-15140区间（粉色），两个在下方黄色区域分别位于14560-14640和14320-14560。K线呈现上升趋势后下降的形态，中间存在盘整区间。图右下角显示时间戳'3/10/2023",
+    "case_002_detail_1.jpg": "USD 60分钟K线图。图上可见价格范围约从14600到15175。图中绘有一个粉红色矩形框，位置约在15000至15100价格区间。右侧标注显示日期为29/9/2023，资产为NQ11，时间框架为60分钟。图右侧还标有数字标签2和2.3。K线呈现从左下向右上的整体上升趋势，中间存在14700至14900区间的盘整形态。图上有两条水平虚线分别位于14976.75和14894.25处。",
+    "case_002_detail_2.jpg": "USD 60分钟K线图，时间范围从10月初至10月9日。图上价格范围约从14425到15125。可见两个用粉红色矩形标注的价格区域：一个在15025-15050附近，另一个在14590-14625附近。图上有三条水平线分别位于15025、14698.25和14590.25处。K线整体呈下降趋势，从图左侧的15050附近下行至图右侧的14590附近。中间区域14800-14900间有多根K线显示较长",
+    "case_002_detail_3.jpg": "图上展示一段 K 线序列，标题为'Retracement or Reversal'。左侧呈上升趋势，绿色 K 线逐步上行至顶部。随后出现下降趋势，黑色 K 线向下运行。图上有三条带数字标签的水平线，分别标记为 1、2、2.5 和 4。一个黄色矩形区域位于 2 和 2.5 标签之间。最右侧的 K 线为黑色，带有长下影线，穿过黄色矩形区域向下延伸。",
+    "case_002_detail_4.jpg": "图上显示一张 K 线图，标题为'Max Expansion'。图表展示从左下向上的上升趋势，由绿色 K 线组成，随后在顶部形成峰值，之后转为下降趋势，由黑色 K 线主导。右侧标注有 4 条水平线，分别标记为'1'、'2'、'2.5'、'4'。中间区域可见混合颜色的 K 线。下降阶段的多根 K 线呈现长下影线形态。图上未标注资产代码或时间框架信息。",
+    "case_002_detail_5.jpg": "USD 60分钟K线图。图上显示价格范围约从14600到15160。图中有两个黄色矩形框标注，分别位于14620-14680和14600-14750区间。一个粉红色矩形框覆盖在15040-15060价格区域。图上标注文字包括'25/9/2023'、'NQ11 | 60m'和'Mon 02 Oct 23 08:00'。K线序列显示从左侧的下跌走势，中间出现整理区间，随后上升至15040附近形成粉红框"
+  },
+  "sources": [
+    {
+      "video_id": "kTWXpAo1uE8",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        129.52,
+        403.96
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从识别操纵腿、投影标准差、到发现PD数组对齐的全过程，关键价位和时间框架清晰，分析步骤逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:42:16.920415Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1! 下跌后反弹：标准差投影与Order Block及Equal Highs对齐\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"60m\",\"market_context\":\"NQ1! 在9月29日至10月初期间经历先上升后下跌的周期。价格从约15050下跌至14590附近，随后反弹。博主在此过程中识别操纵腿并投影标准差，寻找与PD数组的汇聚。\",\"key_observation\":\"博主发现价格下跌后的反弹中，标准差投影的-2到-2.5区间与Order Block对齐，-4标准差与Equal Highs汇聚，形成高概率的支撑和阻力区域。\",\"analysis_steps\":[\"Step 1: 识别从高点到低点的操纵腿（manipulation leg），即从15050附近到14590附近的下跌段。\",\"Step 2: 从低点向上投影该操纵腿的距离，生成标准差投影（-1、-2、-2.5、-4）。\",\"Step 3: 标记-2到-2.5标准差区间（约14560-14620），观察是否有PD数组对齐。\",\"Step 4: 发现Order Block的均值阈值（mean threshold）恰好位于-2标准差附近。\",\"Step 5: 标记-4标准差区间（约14320-14400），发现多个Equal Highs位于此区域上方。\",\"Step 6: 确认标准差投影与Order Block和Equal Highs的汇聚，形成多重支撑/阻力。\"],\"outcome\":null,\"lessons\":\"将标准差投影与PD数组（Order Block、Equal Highs、FVG等）配对使用，可以识别高概率的支撑和阻力区域。-2到-2.5区间通常作为回撤或反转的第一目标，-4区间作为最大扩展目标。多重汇聚增强了这些区域的有效性。\",\"primary_image_frame_id\":\"kTWXpAo1uE8_f012\",\"supporting_image_frame_ids\":[\"kTWXpAo1uE8_f006\",\"kTWXpAo1uE8_f007\",\"kTWXpAo1uE8_f009\",\"kTWXpAo1uE8_f010\",\"kTWXpAo1uE8_f011\"],\"related_concepts\":[\"Standard Deviation Projection\",\"Order Block\",\"Equal Highs\",\"PD Array\",\"Manipulation Leg\",\"Fair Value Gap\",\"Sellside Liquidity\",\"Retracement\",\"Max Expansion\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从识别操纵腿、投影标准差、到发现PD数组对齐的全过程，关键价位和时间框架清晰，分析步骤逻辑完整。\"}",
+  "error": null
+}

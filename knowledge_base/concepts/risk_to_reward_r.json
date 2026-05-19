@@ -1,0 +1,57 @@
+{
+  "card_id": "risk_to_reward_r",
+  "type": "merged_concept",
+  "canonical_term": "Risk-to-Reward (R)",
+  "aliases": [
+    "R倍数",
+    "风险回报比"
+  ],
+  "school": "Risk Management",
+  "definition": "交易中预期收益与风险的比例关系。通常以止损点数与目标点数的比值表示，2R表示收益为风险的两倍，是交易的最低要求标准。",
+  "identification_rules": [
+    "计算入场点到止损点的距离，作为风险(R)的基数",
+    "计算入场点到目标价位的距离，作为预期收益",
+    "收益距离÷风险距离=风险回报比倍数",
+    "2R为最低可接受标准，即收益至少应为风险的两倍"
+  ],
+  "trading_implication": "风险回报比是评估交易质量的核心指标。在确定入场点和止损位后，交易者应寻找至少能提供2R收益的目标位。更高的风险回报比（如3R、4R）提供更好的交易机会。即使胜率不高，只要维持正期望值的风险回报比，长期交易也能盈利。在多时间框架分析中，可通过日线目标、前期低点等参考位来扩展目标范围，获得更优的风险回报比。",
+  "common_mistakes": [
+    "接受低于2R的风险回报比交易，导致长期期望值为负",
+    "止损位设置过宽，使得即使达到目标也无法获得足够的风险回报比",
+    "忽视多时间框架的目标位，仅使用单一目标而错失更优的风险回报比机会"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_risk_to_reward_r",
+      "segment_ids": [
+        "seg_022",
+        "seg_028",
+        "seg_029",
+        "seg_030"
+      ],
+      "time_range": [
+        1105.76,
+        1604.96
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135482Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

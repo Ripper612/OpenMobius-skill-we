@@ -1,0 +1,92 @@
+{
+  "card_id": "7p9MBFk8EEM_case_001_dxy日线订单块反转案例",
+  "type": "case",
+  "title": "DXY日线订单块反转案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "swing_formation",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "DXY",
+  "timeframe": "1D",
+  "market_context": "DXY在日线上形成下行趋势，价格从103.800附近下跌至102.100附近，期间形成公允价值缺口和订单块结构。",
+  "key_observation": "博主识别出一根下收K线（扫除低点的黑色K线）作为订单块，该K线随后支撑价格上升至周期高点，体现了订单块的支撑作用。",
+  "analysis_steps": [
+    "Step 1: 识别日线上方的公允价值缺口（Daily FVG），位于101.900-102.700区间。",
+    "Step 2: 确认摆动低点（Swing Low）的形成，流动性聚集在该点上方。",
+    "Step 3: 观察价格填补FVG后的下行走势，但未完全扫除低点。",
+    "Step 4: 确认次日价格扫除低点进入关键点（Point of Interest），形成下收K线作为订单块。",
+    "Step 5: 监控价格收盘是否突破该订单块K线的开盘价上方。",
+    "Step 6: 确认价格突破订单块开盘价后，观察后续上升走势。",
+    "Step 7: 验证价格利用该下收K线（订单块）作为支撑，向上运行至周期高点。"
+  ],
+  "outcome": "价格成功突破订单块开盘价，随后上升至周期高点，验证了订单块的支撑作用。",
+  "lessons": "下收K线扫除低点进入关键点时，若收盘于开盘价上方，可作为强支撑订单块。价格后续突破该K线开盘价后，往往会利用其支撑上升至更高目标。",
+  "primary_image": "cards/7p9MBFk8EEM/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/7p9MBFk8EEM/images/case_001_detail_1.jpg",
+    "cards/7p9MBFk8EEM/images/case_001_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "DXY 日线K线图，图上价格范围约从101.700至104.300。右侧价格轴当前标注为102.474。图上可见三个矩形框标注：最下方矩形位于约101.900至102.050区间，附带文字标签'daily FVG'；中部矩形位于约102.400至102.700；上方矩形位于约103.000至103.200。K线序列从左侧约104.100区域向下延伸至约101.900附近，随后右侧出现向上的K线序列",
+    "case_001_detail_1.jpg": "DXY 日线蜡烛图，日期标注为 2023 年 6 月 19 日。图上可见价格范围约从 101.300 到 104.500。左侧 K 线群集中在 103.100 至 104.500 区间，由绿色与黑色 K 线交替构成。图中部出现一根大幅下行黑色 K 线，从约 103.800 延伸至 102.100。其后跟随两根较小绿色 K 线，收于 102.100 至 102.500 附近。图右侧当前价格标签显示 ",
+    "case_001_detail_2.jpg": "DXY 日线蜡烛图，可见价格范围约从 101.500 至 104.100。图上标注一个矩形区域，价格范围约在 101.900 至 102.700 之间，标签为 'daily FVG'，矩形下边界处有一条水平线延伸至图右侧。K 线序列从左侧约 103.200–104.100 区间的绿黑交替蜡烛，经过数根大实体黑色 K 线向下运行至约 102.000 附近，随后在 102.000 至 102.700 "
+  },
+  "sources": [
+    {
+      "video_id": "7p9MBFk8EEM",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        84.15899999999999,
+        161.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从FVG识别、低点扫除、订单块形成到价格反转上升的全过程，关键价位和K线形态清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:27:53.718219Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"DXY日线订单块反转案例\",\"school\":\"ICT\",\"asset\":\"DXY\",\"timeframe\":\"1D\",\"market_context\":\"DXY在日线上形成下行趋势，价格从103.800附近下跌至102.100附近，期间形成公允价值缺口和订单块结构。\",\"key_observation\":\"博主识别出一根下收K线（扫除低点的黑色K线）作为订单块，该K线随后支撑价格上升至周期高点，体现了订单块的支撑作用。\",\"analysis_steps\":[\"Step 1: 识别日线上方的公允价值缺口（Daily FVG），位于101.900-102.700区间。\",\"Step 2: 确认摆动低点（Swing Low）的形成，流动性聚集在该点上方。\",\"Step 3: 观察价格填补FVG后的下行走势，但未完全扫除低点。\",\"Step 4: 确认次日价格扫除低点进入关键点（Point of Interest），形成下收K线作为订单块。\",\"Step 5: 监控价格收盘是否突破该订单块K线的开盘价上方。\",\"Step 6: 确认价格突破订单块开盘价后，观察后续上升走势。\",\"Step 7: 验证价格利用该下收K线（订单块）作为支撑，向上运行至周期高点。\"],\"outcome\":\"价格成功突破订单块开盘价，随后上升至周期高点，验证了订单块的支撑作用。\",\"lessons\":\"下收K线扫除低点进入关键点时，若收盘于开盘价上方，可作为强支撑订单块。价格后续突破该K线开盘价后，往往会利用其支撑上升至更高目标。\",\"primary_image_frame_id\":\"7p9MBFk8EEM_f006\",\"supporting_image_frame_ids\":[\"7p9MBFk8EEM_f004\",\"7p9MBFk8EEM_f005\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Swing Low\",\"Liquidity\",\"Market Structure\",\"Support and Resistance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从FVG识别、低点扫除、订单块形成到价格反转上升的全过程，关键价位和K线形态清晰可见。\"}",
+  "error": null
+}

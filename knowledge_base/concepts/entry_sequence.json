@@ -1,0 +1,56 @@
+{
+  "card_id": "entry_sequence",
+  "type": "merged_concept",
+  "canonical_term": "Entry Sequence",
+  "aliases": [
+    "时间框架对齐入场流程"
+  ],
+  "school": "ICT",
+  "definition": "从高时间框架的偏差和结构出发，逐步向低时间框架寻找对齐的入场信号的系统方法。通过确保多个时间框架在同一方向对齐，在所有时间框架一致时捕捉扩张行情。",
+  "identification_rules": [
+    "确认高时间框架的偏差（如摆动点、旧高点），作为交易方向的初始依据",
+    "在中间时间框架（结构框架）等待市场结构转变或交付状态改变，与高时间框架偏差对齐",
+    "在中间时间框架识别关键水平（FVG、摆动高/低点或订单块），作为结构确认",
+    "下移至低时间框架（入场框架），等待订单块形成或价格行为反转，与中间框架结构对齐",
+    "当低、中、高三个时间框架的结构方向一致时，执行入场"
+  ],
+  "trading_implication": "Entry Sequence的核心目标是在所有时间框架对齐时捕捉扩张行情。交易者通过自上而下的分析确保偏差、结构和入场信号三层一致，大幅提高交易概率。具体应用包括：在高时间框架识别偏差后，在中间框架等待结构确认（CSD或MSS），再在低时间框架寻找具体入场点（通常是OB或价格反转）。这种多时间框架对齐能产生\"积极的扩张行情\"。",
+  "common_mistakes": [
+    "在中间时间框架结构未对齐时就在低时间框架入场，导致被困在单向结构中",
+    "忽视高时间框架的偏差，仅基于低时间框架的局部形态入场，缺乏大方向支撑",
+    "混淆时间框架配对关系，如用错误的中间框架来验证高时间框架偏差",
+    "在低时间框架看到订单块就立即入场，而未等待中间框架的结构确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "ubCe509_JLY",
+      "original_card_id": "ubCe509_JLY_concept_entry_sequence",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        11.04,
+        372.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132476Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

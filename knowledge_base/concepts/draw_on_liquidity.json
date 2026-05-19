@@ -1,0 +1,316 @@
+{
+  "card_id": "draw_on_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Draw on Liquidity",
+  "aliases": [
+    "Daily Liquidity Target",
+    "Drawn Liquidity",
+    "Liquidity Draw",
+    "Price Draw to Liquidity",
+    "draw to liquidity",
+    "流动性目标",
+    "预期流动性位置"
+  ],
+  "school": "ICT",
+  "definition": "价格倾向于向特定流动性水平移动的现象。目标区域通常为前一K线/前日/前周的高低点、摆动高低点或FVG等未被充分测试的关键价格区域。通过多时间框架分析，在高时间框架识别目标，在低时间框架寻找入场，预判价格在OHLC框架下的扩张方向与幅度。",
+  "identification_rules": [
+    "在高时间框架（月/周/日/4小时/1小时）上标记前一周期的摆动高点和摆动低点，作为候选目标区域",
+    "识别前一根K线的高点或低点（Previous Candle's High/Low）以及前日/前周高低点（Previous Day/Week High/Low），作为当前周期的流动性目标",
+    "识别高时间框架上的FVG（不平衡区域）作为候选的Draw on Liquidity目标",
+    "确认候选区域未被最近价格行动充分测试或扫荡（应选择更早期的旧结构，而非最近形成的高低点）",
+    "观察位移（Displacement）信号：价格未能收盘突破前一周期高点表示看跌偏差，目标转向低点；未能收盘突破低点表示看涨偏差，目标转向高点",
+    "分析前一周期收盘结构，判断下一周期是否形成看涨（OLHC）或看跌（OHLC）K线，从而确定价格扩张方向",
+    "向后回溯多个交易日（如3日），标记多个前期高低点，形成流动性水平的汇聚区",
+    "在低时间框架上观察价格是否朝向已识别的目标区域运动，作为验证信号",
+    "在巩固区间内（价格既不突破上方也不突破下方），不适用此方法"
+  ],
+  "trading_implication": "Draw on Liquidity用于建立日内交易偏差（Daily Bias）并确定交易目标。在高时间框架识别目标后，于中低时间框架寻找反向止损扫荡，再结合FVG、Order Block等信号精确入场，预期价格向已识别的流动性目标扩张。可与AMD模型及Power of 3结合：开盘积累、向流动性扩张操纵、形成高/低点后派发。即使目标明确，也不保证每日都能找到高概率入场点。",
+  "common_mistakes": [
+    "混淆Draw on Liquidity与实际流动性（Buyside/Sellside Liquidity）的概念——前者是价格目标，后者是订单聚集区",
+    "将最近形成的高点或低点误认为Draw on Liquidity，应选择更早期、未被充分测试的旧结构",
+    "仅看价格触及流动性水平，而不确认是否收盘突破，导致误判下一步方向",
+    "在价格未能突破前一K线高点时仍期望继续上升，忽视反向目标（前一K线低点）的可能性",
+    "忽视在到达Draw on Liquidity前需要先看到反向方向的止损扫荡，导致入场时机错误",
+    "未在多时间框架中对齐Draw on Liquidity目标，导致低时间框架目标与高时间框架不一致",
+    "在巩固区间内盲目应用此方法，忽视价格可能在区间内震荡而非触及前期高低点",
+    "混淆看涨和看跌K线的OHLC顺序，错误预期价格方向",
+    "过度依赖单一流动性水平，未能向左看（Look Left）寻找更多历史摆动点或订单块",
+    "过度交易：即使有明确的流动性目标，也不是每个交易日都能找到高概率入场点"
+  ],
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Previous Candle's High/Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Daily Bias",
+      "card_id": "daily_bias",
+      "exists": true
+    },
+    {
+      "term": "OHLC",
+      "card_id": "daily_profile_open_high_low_close",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Session",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "AdmnWLjf8rY_case_001_nq_1分钟多头入场案例_纽约开盘前",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟多头入场：伦敦高点流动性扫盘后的折价区入场"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_002_nq_1分钟空头入场案例_小时fvg目标",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ 1分钟空头入场案例（小时FVG目标）"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_003_es_5分钟多头案例_日线fvg目标",
+      "video_id": "AdmnWLjf8rY",
+      "title": "ES 5分钟多头案例：日线FVG目标的入场与止盈"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_004_es_5分钟空头案例_伦敦会话扫盘",
+      "video_id": "AdmnWLjf8rY",
+      "title": "ES 5分钟空头案例：伦敦会话扫盘后的drawn liquidity狙击"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_005_nq_日线到5分钟多头案例_标准差投影",
+      "video_id": "AdmnWLjf8rY",
+      "title": "NQ日线到5分钟多头案例（标准差投影）"
+    },
+    {
+      "card_id": "FXJBFbZQbck_case_001_usd日线上升趋势中的前日高点反复触及",
+      "video_id": "FXJBFbZQbck",
+      "title": "USD日线上升趋势中连续触及前日高点的流动性扫荡"
+    },
+    {
+      "card_id": "FXJBFbZQbck_case_002_usd日线下降趋势中的前日低点扫盘",
+      "video_id": "FXJBFbZQbck",
+      "title": "USD日线下降趋势中的前日低点反复扫盘"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_001_ftse日线前一日高低点交易案例",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "FTSE日线前一日高低点流动性追踪案例"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_001_eurusd周一至周三的日内交易案例",
+      "video_id": "klaiq36QnEM",
+      "title": "EURUSD周一至周三日内交易：日线FVG回测与小时级breaker确认卖出"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_002_nzdusd周五至周五的交易演变",
+      "video_id": "klaiq36QnEM",
+      "title": "NZDUSD周五日线订单块与纽约盘卖出设置"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_003_纳斯达克100周一至周三的看涨案例",
+      "video_id": "klaiq36QnEM",
+      "title": "纳斯达克100周一至周三看涨结构扩展案例"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_001_nq第一个例子_从外部流动性到内部流动性",
+      "video_id": "q40pRwjuPYQ",
+      "title": "NQ 15分钟外部流动性到内部流动性的三步交易模型"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_005_调整策略第二个例子_从内部到外部流动性的displacement",
+      "video_id": "q40pRwjuPYQ",
+      "title": "30秒图表Displacement突破与FVG入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "original_card_id": "6zTz7WMdMWg_concept_drawn_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_006",
+        "seg_008"
+      ],
+      "time_range": [
+        2.82,
+        1323.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "AdmnWLjf8rY",
+      "original_card_id": "AdmnWLjf8rY_concept_drawn_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        696.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FXJBFbZQbck",
+      "original_card_id": "FXJBFbZQbck_concept_draw_on_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_005"
+      ],
+      "time_range": [
+        10.4,
+        738.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YESqIoA7Wyg",
+      "original_card_id": "YESqIoA7Wyg_concept_draw_on_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.44,
+        769.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YXoNowXQirM",
+      "original_card_id": "YXoNowXQirM_concept_draw_on_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.48,
+        329.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_draw_on_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        995.3389999999999
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 6,
+    "source_videos": 6,
+    "high_confidence_sources": 6,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:20.469210Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "6张原始卡均标注ICT，school无冲突，直接选ICT。各卡侧重点略有差异（日线应用、K线结构、多周期框架），已综合整合。",
+  "error": null
+}

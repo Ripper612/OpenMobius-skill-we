@@ -1,0 +1,160 @@
+{
+  "card_id": "candle_three_closure",
+  "type": "merged_concept",
+  "canonical_term": "Candle Three Closure",
+  "aliases": [
+    "C3",
+    "C3 Closure",
+    "三号收盘"
+  ],
+  "school": "ICT",
+  "definition": "当前两根K线未形成理想的二号收盘（Candle Two Closure）时，第三根K线不突破第二根K线的高低点，但收盘于第二根K线主体上方（看涨）或下方（看跌），作为替代确认信号，预期第四根K线延续该方向，通常需结合受保护摆动点与高时间框架关键水平使用。",
+  "identification_rules": [
+    "确认前两根K线未形成二号收盘（第二根K线未扫出第一根K线的高/低并收回）",
+    "第三根K线不突破第二根K线的高点或低点",
+    "第三根K线收盘于第二根K线主体上方（看涨情景）或下方（看跌情景）",
+    "第三根K线收盘应形成新的受保护摆动点（Protected Swing）",
+    "必须存在高时间框架关键水平（如FVG、摆动点、前一日高/低点、均衡点）作为背景",
+    "第四根K线通常会沿第三根K线指示的方向延续"
+  ],
+  "trading_implication": "Candle Three Closure是Candle Two Closure缺失时的替代确认机制。价格触及关键水平未立即反转时，等待第三根K线打印以确认方向。形成C3 Closure后，可在第四根K线寻找入场机会，以第三根K线均衡点（0.5斐波那契位）作为目标区域，以受保护摆动点作为止损参考，并结合下位时间框架状态改变信号提升确认强度。",
+  "common_mistakes": [
+    "未确认前两根K线确实未形成二号收盘就直接使用三号收盘",
+    "忽视第三根K线必须形成新的受保护摆动点的要求",
+    "未确认存在高时间框架关键水平或兴趣点就交易C3 Closure",
+    "将随机摆动点与C3 Closure混淆，忽视背景和上下文",
+    "在第二根K线就预期反转，而不是等待第三根K线确认",
+    "将三号收盘与下位时间框架的状态改变信号分离使用，降低确认强度",
+    "未结合均衡点（EQ）来确定第四根K线的目标区域"
+  ],
+  "related_concepts": [
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Reversal Closure",
+      "card_id": "candle_2_closure",
+      "exists": true
+    },
+    {
+      "term": "Continuation Closure",
+      "card_id": "continuation_closure",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "MsuEQQl7L6s_case_002_eurusd日线candle_three_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "EURUSD日线Candle Three Closure确认上升趋势"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_003_nq_4小时图candle_three_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "NQ 4小时图Candle Three Closure确认上升延续"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_004_usd_4小时图多个candle_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4小时图多个Candle Three Closure案例分析"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_005_usd_4小时图摆动点筛选案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4小时图摆动点筛选：Candle Two/Three Closure与Point of Interest验证"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_006_usd_4小时图candle_three_closure与pro",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 4H Candle Three Closure与Protected Swing形成案例"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_007_usd_15分钟图交易设置案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 15分钟图基于4H FVG的Candle Three Closure交易设置"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_008_usd_15分钟图无效candle_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "USD 15分钟盘整扫低后无效Candle Closure案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_candle_three_closure",
+      "segment_ids": [
+        "seg_007",
+        "seg_013"
+      ],
+      "time_range": [
+        313.36,
+        565.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "MsuEQQl7L6s",
+      "original_card_id": "MsuEQQl7L6s_concept_candle_three_closure",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_011",
+        "seg_012",
+        "seg_014",
+        "seg_015"
+      ],
+      "time_range": [
+        50.56,
+        696.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:15.565665Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

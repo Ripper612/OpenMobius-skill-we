@@ -1,0 +1,92 @@
+{
+  "card_id": "o0v4KQxZbpU_case_012_回测第十天交易",
+  "type": "case",
+  "title": "回测第十天：FVG入场做多被止损出局",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "liquidity",
+    "market_structure_shift",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1D",
+  "market_context": "NAS100在回测第十天经历10 AM扫盘后反弹。价格从低点约14640反弹至15565附近，形成明显的日内结构。博主寻找在Fair Value Gap区域的做多机会。",
+  "key_observation": "价格在10 AM扫盘后出现反弹，在FVG区域形成入场机会，但随后被止损出局。这反映了市场在关键流动性水平的虚假突破行为。",
+  "analysis_steps": [
+    "Step 1: 标记9:00 AM的日内低点和高点作为参考结构",
+    "Step 2: 观察价格是否在该范围内出现激进位移（displacement）",
+    "Step 3: 识别在反弹过程中形成的Fair Value Gap区域",
+    "Step 4: 设置止损在日内低点，目标指向范围另一侧（约15565）",
+    "Step 5: 入场后价格未能维持上升动能，触发止损"
+  ],
+  "outcome": "交易被止损出局。价格在FVG区域入场后未能突破目标高点，反而回落触及止损位。",
+  "lessons": "在日内结构中使用FVG入场需要确认充分的位移和动能。仅凭FVG形成不足以保证交易成功，需要结合价格的实际反应和流动性扫荡后的后续行为。虚假突破常发生在关键水平附近。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_012_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_012_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_012_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_012_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_012_primary.jpg": "NAS100 日线图表，分为左右两个面板。左侧面板显示完整的日线K线走势，从约14640上升至15565，随后回落至14640附近。右侧面板为放大视图，展示最近几根K线的详细形态，包括一根大绿色K线和一根大黑色K线。图上标注有多条水平线，分别位于15565.79、15242.4、15008和14640价位。下方面板显示成交量柱状图。整体价格范围约从14640至15565。",
+    "case_012_detail_1.jpg": "NAS100 1分钟图表。左侧面板显示从09:21至10:00的K线序列，包含多根绿色和黑色蜡烛。右侧面板展示较大的K线形态，包含一根绿色K线和一根黑色K线。图上标注两条水平线：15825.7901337和15201.6900000。右侧价格刻度范围约15401.69至15608.00。图表底部显示时间轴和交易工具栏。",
+    "case_012_detail_2.jpg": "NAS100 1分钟K线图。图表显示从左至右的价格走势，从约15500下跌至14640，随后上升至19644。图上有两条水平线分别标注为15844.1300000和15642.7000000。两个矩形框分别标记在15500至16000和15000至15500的价格区间。左侧显示黑色K线为主的下跌段，中右侧显示绿色K线为主的上升段。右上角显示当前价格标签为15844.1300000。",
+    "case_012_detail_3.jpg": "NAS100 日线图。左侧面板显示从约17500下跌至14600的下降趋势，跨越多根K线。右侧面板显示约15000至16500区间内的整理形态，由绿色和黑色K线交替组成。图上有一条水平线位于16848处，以及一个矩形标注框从下方约14600延伸至上方约16848。右下角显示当前价格为16848.00000。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_008"
+      ],
+      "time_range": [
+        743.92,
+        892.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了完整的分析流程：标记日内高低点→识别FVG→设置风险回报→执行交易→止损出局。图表和转录文本高度匹配，关键价位和时间框架明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:00.430209Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第十天：FVG入场做多被止损出局\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1D\",\"market_context\":\"NAS100在回测第十天经历10 AM扫盘后反弹。价格从低点约14640反弹至15565附近，形成明显的日内结构。博主寻找在Fair Value Gap区域的做多机会。\",\"key_observation\":\"价格在10 AM扫盘后出现反弹，在FVG区域形成入场机会，但随后被止损出局。这反映了市场在关键流动性水平的虚假突破行为。\",\"analysis_steps\":[\"Step 1: 标记9:00 AM的日内低点和高点作为参考结构\",\"Step 2: 观察价格是否在该范围内出现激进位移（displacement）\",\"Step 3: 识别在反弹过程中形成的Fair Value Gap区域\",\"Step 4: 设置止损在日内低点，目标指向范围另一侧（约15565）\",\"Step 5: 入场后价格未能维持上升动能，触发止损\"],\"outcome\":\"交易被止损出局。价格在FVG区域入场后未能突破目标高点，反而回落触及止损位。\",\"lessons\":\"在日内结构中使用FVG入场需要确认充分的位移和动能。仅凭FVG形成不足以保证交易成功，需要结合价格的实际反应和流动性扫荡后的后续行为。虚假突破常发生在关键水平附近。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f030\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f029\",\"o0v4KQxZbpU_f001\",\"o0v4KQxZbpU_f028\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Liquidity\",\"Market Structure Shift\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了完整的分析流程：标记日内高低点→识别FVG→设置风险回报→执行交易→止损出局。图表和转录文本高度匹配，关键价位和时间框架明确。\"}",
+  "error": null
+}

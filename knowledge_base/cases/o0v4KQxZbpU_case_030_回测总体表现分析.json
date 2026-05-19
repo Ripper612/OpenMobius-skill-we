@@ -1,0 +1,76 @@
+{
+  "card_id": "o0v4KQxZbpU_case_030_回测总体表现分析",
+  "type": "case",
+  "title": "45天15笔交易回测总体表现分析",
+  "related_concepts": [
+    {
+      "term": "Risk Reward Ratio",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equity Curve",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Backtesting",
+      "card_id": "backtesting",
+      "exists": true
+    },
+    {
+      "term": "Trade Statistics",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Performance Analysis",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "backtesting"
+  ],
+  "school": "Price Action",
+  "asset": "NAS100",
+  "timeframe": "1M",
+  "market_context": "博主对NAS100进行了为期45天的回测，涵盖7月全月和8月中旬，采用高风险收益比交易策略，平均风险收益比约5:1。",
+  "key_observation": "回测期间共执行15笔交易，平均持仓时间1小时29分钟，通过高风险收益比交易实现44.4%总收益，其中7月收益23.5%，8月中旬收益16.93%。",
+  "analysis_steps": [
+    "Step 1: 查看权益曲线（Equity Curve）表现，观察到整体趋势向上且波动合理。",
+    "Step 2: 分析日度表现统计，识别周三为最佳交易日。",
+    "Step 3: 统计平均交易持仓时间为1小时29分钟，总交易笔数为15笔。",
+    "Step 4: 计算月度收益率，7月达23.5%，8月中旬达16.93%。",
+    "Step 5: 汇总总体收益率为44.4%，并注意到样本量（45天15笔）相对较小。",
+    "Step 6: 指出需要更深入的回测来验证策略的长期有效性。"
+  ],
+  "outcome": "45天内完成15笔交易，总收益44.4%（7月23.5% + 8月中旬16.93%），平均风险收益比5:1，平均持仓时间1小时29分钟。",
+  "lessons": "高风险收益比交易策略在短期回测中表现良好，但45天15笔的样本量有限；更深入的长期回测能提供更可靠的策略验证；权益曲线的波动性与高RR比例相符，反映了策略的特性。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_030_primary.jpg",
+  "supporting_images": [],
+  "image_descriptions": {
+    "case_030_primary.jpg": "NAS100 1 分钟 K 线图。图上显示左侧为详细 K 线走势，右侧为简化的 K 线表示。可见价格范围约从 14450 到 14665。图上标注有三个矩形区域，分别对应不同的价格水平和成交量标签。左侧 K 线呈现绿色和黑色主体的混合形态，跨越整个可见价格范围。右侧面板显示黑色和绿色的简化 K 线块。图表底部显示时间刻度，当前时间标记为 Fri 14 Apr 23 10:22。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_016"
+      ],
+      "time_range": [
+        1654.039,
+        1741.159
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主提供了完整的回测统计数据（交易笔数、时间框架、收益率、平均持仓时间、风险收益比），分析步骤清晰，数字来源明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:57.548106Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"45天15笔交易回测总体表现分析\",\"school\":\"Price Action\",\"asset\":\"NAS100\",\"timeframe\":\"1M\",\"market_context\":\"博主对NAS100进行了为期45天的回测，涵盖7月全月和8月中旬，采用高风险收益比交易策略，平均风险收益比约5:1。\",\"key_observation\":\"回测期间共执行15笔交易，平均持仓时间1小时29分钟，通过高风险收益比交易实现44.4%总收益，其中7月收益23.5%，8月中旬收益16.93%。\",\"analysis_steps\":[\"Step 1: 查看权益曲线（Equity Curve）表现，观察到整体趋势向上且波动合理。\",\"Step 2: 分析日度表现统计，识别周三为最佳交易日。\",\"Step 3: 统计平均交易持仓时间为1小时29分钟，总交易笔数为15笔。\",\"Step 4: 计算月度收益率，7月达23.5%，8月中旬达16.93%。\",\"Step 5: 汇总总体收益率为44.4%，并注意到样本量（45天15笔）相对较小。\",\"Step 6: 指出需要更深入的回测来验证策略的长期有效性。\"],\"outcome\":\"45天内完成15笔交易，总收益44.4%（7月23.5% + 8月中旬16.93%），平均风险收益比5:1，平均持仓时间1小时29分钟。\",\"lessons\":\"高风险收益比交易策略在短期回测中表现良好，但45天15笔的样本量有限；更深入的长期回测能提供更可靠的策略验证；权益曲线的波动性与高RR比例相符，反映了策略的特性。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f055\",\"supporting_image_frame_ids\":[],\"related_concepts\":[\"Risk Reward Ratio\",\"Equity Curve\",\"Backtesting\",\"Trade Statistics\",\"Performance Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主提供了完整的回测统计数据（交易笔数、时间框架、收益率、平均持仓时间、风险收益比），分析步骤清晰，数字来源明确。\"}",
+  "error": null
+}

@@ -1,0 +1,89 @@
+{
+  "card_id": "deviation_from_range",
+  "type": "merged_concept",
+  "canonical_term": "Deviation from Range",
+  "aliases": [
+    "Range Breakout",
+    "Range Deviation"
+  ],
+  "school": "ICT",
+  "definition": "价格突破盘整区间的高点或低点后，随后回归至该区间内的价格行为。在Seek and Destroy模式中标志着潜在的交易机会。",
+  "identification_rules": [
+    "识别一个明确的盘整区间（由高点和低点界定）",
+    "观察价格是否突破该区间的上边界或下边界",
+    "确认价格在突破后是否回归至区间内部",
+    "标记每次突破并回归的位置作为偏离点"
+  ],
+  "trading_implication": "偏离点标识了高概率的交易入场区域。交易者在识别偏离后，可以预期价格向三个目标位移动：(1)区间均衡点(EQ)、(2)最优交易入场点(OTE，使用斐波那契回撤)、(3)区间另一侧的流动性(买方或卖方流动性)。这些偏离创造了可交易的结构，特别是在缺乏高时间框架方向性的盘整中。",
+  "common_mistakes": [
+    "未能确认价格是否真正回归至区间内，导致误判偏离点",
+    "在超大位移蜡烛出现时仍按常规偏离处理，可能导致范围突破而非回归",
+    "忽视多个偏离的累积效应，未能识别范围可能被真正突破的信号"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "HFfChGFHD44_case_004_e_mini_s_p_500期货_1分钟_box_setup案例",
+      "video_id": "HFfChGFHD44",
+      "title": "1分钟Box Setup做空案例：高点回落产生5R+收益"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_005_e_mini_s_p_500期货_1分钟_使用影线的box_se",
+      "video_id": "HFfChGFHD44",
+      "title": "E-MINI S&P 500期货 1分钟 使用影线标记Box Setup低点案例"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_006_e_mini_s_p_500期货_4小时和日线_偏差识别案例",
+      "video_id": "HFfChGFHD44",
+      "title": "E-MINI S&P 500期货 4小时和日线偏差识别"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_005_usd_1小时图_范围突破反转失败案例",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1H：范围突破反转失败案例"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_004_es_2分钟图的低时间框架交易",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES 2分钟图基于15分钟SMT信号的低时间框架做空交易"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_004_15分钟盘整范围突破交易",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "15分钟盘整范围突破交易——双边扫盘后的方向确认"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "PlZD45uLPjE",
+      "original_card_id": "PlZD45uLPjE_concept_deviation_from_range",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        2.82,
+        592.98
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132246Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,91 @@
+{
+  "card_id": "MlMsG7li9zY_case_002_美元指数多个范围内的折价溢价交互",
+  "type": "case",
+  "title": "美元指数多个嵌套范围的折价溢价交互分析",
+  "related_concepts": [
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "premium_discount_premium_",
+    "equilibrium",
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift"
+  ],
+  "school": "SMC",
+  "asset": "DXY",
+  "timeframe": "1D",
+  "market_context": "美元指数在2023年5月至8月期间形成多个嵌套的价格范围，价格在102.000-104.600区间内反复波动，展现出折价区和溢价区的多层次交互关系。",
+  "key_observation": "博主演示了如何在美元指数的多个嵌套范围内识别折价溢价关系，通过0.5均衡点将每个范围分割，在折价区寻找做多机会，并在范围扩展时追踪新的折价溢价区域。",
+  "analysis_steps": [
+    "Step 1: 标记美元指数从高点到低点形成的初始范围（约104.600-102.000），计算0.5均衡点（约103.300）",
+    "Step 2: 识别初始范围内的折价区（下方绿色区域），寻找公允价值缺口作为做多的PD数组",
+    "Step 3: 价格回测折价区并反弹，确认折价区的支撑作用",
+    "Step 4: 当价格创出新高后，标记新范围（从新高到新低），重新计算0.5均衡点",
+    "Step 5: 在新范围内识别溢价区（上方粉色区域），预期价格回调时会进入该溢价区",
+    "Step 6: 追踪第二个范围的折价区，观察价格是否在该区域寻求支撑",
+    "Step 7: 当价格再次创出新高时，标记第三个范围，继续应用相同的折价溢价分析方法",
+    "Step 8: 演示范围扩展时如何动态追踪多个嵌套范围的折价溢价关系"
+  ],
+  "outcome": null,
+  "lessons": "在多个嵌套范围的市场中，通过0.5均衡点将每个范围分割为折价区和溢价区，可以识别高概率的做多入场点（折价区）和做空目标（溢价区）。当范围扩展时，需要动态更新范围边界并重新计算均衡点，以适应市场结构的变化。",
+  "primary_image": "cards/MlMsG7li9zY/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/MlMsG7li9zY/images/case_002_detail_1.jpg",
+    "cards/MlMsG7li9zY/images/case_002_detail_2.jpg",
+    "cards/MlMsG7li9zY/images/case_002_detail_3.jpg",
+    "cards/MlMsG7li9zY/images/case_002_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "美元指数日线图，时间跨度从五月下旬至八月中旬。图上可见价格范围约从100.600至105.200。图表中标注有三条水平参考线，分别位于104.600、102.600和101.800处。上方区域有三个粉红色矩形框，下方区域有三个绿色矩形框。K线由绿色和黑色蜡烛组成，整体呈波动状态，未见其他指标或标注。",
+    "case_002_detail_1.jpg": "美元指数日线图，时间跨度从4月至8月初。图上可见两个矩形标注区域，均标记为0.5：上方粉色区域约从102.880至104.600，下方绿色区域约从101.300至102.880。图右侧有两条水平线，分别位于103.710和102.880处，其中102.880处标记为0.5作为两区域的分界线。K线整体价格范围约从100.600至105.200。5月中旬至6月中旬期间，K线在标注区域内形成密集交易形态",
+    "case_002_detail_2.jpg": "U.S. Dollar Index 日线图。图上显示从5月中旬至9月初的价格走势，价格范围约从100.600至105.200。图上有两条带0.5标签的水平线，将价格区间分为上下两部分。上方矩形区域（粉红色背景）标记为0.5，下方矩形区域（浅绿色背景）也标记为0.5。右侧价格轴显示当前价格为101.906。K线由绿色和黑色蜡烛组成，5月中旬至6月中旬以绿色K线为主，6月下旬至7月初以黑色K线为主。图",
+    "case_002_detail_3.jpg": "美元指数日线图。图上显示从5月8日至6月26日的K线走势，价格范围约100.600至105.200。图中有两个矩形区域标注：上方粉红色区域约在104.600至105.200之间，下方绿色区域约在102.000至103.200之间。两个区域之间有水平线标记在103.200和102.000处。右侧显示当前价格标签102.979，背景为绿色。K线序列中绿色和黑色蜡烛交替出现，价格在两个矩形区域之间多次穿",
+    "case_002_detail_4.jpg": "美元指数DXY日线图，时间范围从2022年10月至2024年1月。图上可见价格范围约100.500至107.000。中部区域标注有一个矩形框，范围约在102.500至104.500之间，框内标有0.5标记。图上有两条水平线分别位于104.500和103.370处。右侧价格轴显示当前价格为101.532。K线序列呈现绿色和黑色蜡烛交替，整体呈下行趋势。"
+  },
+  "sources": [
+    {
+      "video_id": "MlMsG7li9zY",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        185.0,
+        361.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对美元指数的分析完整清晰，资产代码、时间框架、价格范围、折价溢价区域、分析步骤均从图表和讲解中明确读出，演示了多个嵌套范围的完整追踪过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:19.768696Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美元指数多个嵌套范围的折价溢价交互分析\",\"school\":\"SMC\",\"asset\":\"DXY\",\"timeframe\":\"1D\",\"market_context\":\"美元指数在2023年5月至8月期间形成多个嵌套的价格范围，价格在102.000-104.600区间内反复波动，展现出折价区和溢价区的多层次交互关系。\",\"key_observation\":\"博主演示了如何在美元指数的多个嵌套范围内识别折价溢价关系，通过0.5均衡点将每个范围分割，在折价区寻找做多机会，并在范围扩展时追踪新的折价溢价区域。\",\"analysis_steps\":[\"Step 1: 标记美元指数从高点到低点形成的初始范围（约104.600-102.000），计算0.5均衡点（约103.300）\",\"Step 2: 识别初始范围内的折价区（下方绿色区域），寻找公允价值缺口作为做多的PD数组\",\"Step 3: 价格回测折价区并反弹，确认折价区的支撑作用\",\"Step 4: 当价格创出新高后，标记新范围（从新高到新低），重新计算0.5均衡点\",\"Step 5: 在新范围内识别溢价区（上方粉色区域），预期价格回调时会进入该溢价区\",\"Step 6: 追踪第二个范围的折价区，观察价格是否在该区域寻求支撑\",\"Step 7: 当价格再次创出新高时，标记第三个范围，继续应用相同的折价溢价分析方法\",\"Step 8: 演示范围扩展时如何动态追踪多个嵌套范围的折价溢价关系\"],\"outcome\":null,\"lessons\":\"在多个嵌套范围的市场中，通过0.5均衡点将每个范围分割为折价区和溢价区，可以识别高概率的做多入场点（折价区）和做空目标（溢价区）。当范围扩展时，需要动态更新范围边界并重新计算均衡点，以适应市场结构的变化。\",\"primary_image_frame_id\":\"MlMsG7li9zY_f012\",\"supporting_image_frame_ids\":[\"MlMsG7li9zY_f001\",\"MlMsG7li9zY_f010\",\"MlMsG7li9zY_f011\",\"MlMsG7li9zY_f009\"],\"related_concepts\":[\"Premium/Discount\",\"Equilibrium\",\"Fair Value Gap\",\"Order Block\",\"PD Array\",\"Market Structure Shift\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对美元指数的分析完整清晰，资产代码、时间框架、价格范围、折价溢价区域、分析步骤均从图表和讲解中明确读出，演示了多个嵌套范围的完整追踪过程。\"}",
+  "error": null
+}

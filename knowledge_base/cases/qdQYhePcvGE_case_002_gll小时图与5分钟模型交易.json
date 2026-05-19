@@ -1,0 +1,112 @@
+{
+  "card_id": "qdQYhePcvGE_case_002_gll小时图与5分钟模型交易",
+  "type": "case",
+  "title": "GLL小时图反转与5分钟CSD延续交易",
+  "related_concepts": [
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Continuation Candle",
+      "card_id": "continuation_candle",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "reversal_candle",
+    "continuation_candle",
+    "fair_value_gap_fvg",
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "protected_high_low",
+    "liquidity",
+    "time_frame_confluence",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "GLL",
+  "timeframe": "1H / 5m",
+  "market_context": "GLL在小时图形成明显反转K线（价格大幅下跌后强势收复），为后续交易提供方向信号。博主使用小时图作为高时间框架，5分钟图作为低时间框架进行多时间框架协调分析。",
+  "key_observation": "小时图反转K线（开盘低走后强势上升收盘）预示延续机会。5分钟图随后确认Change in State of Delivery，表明价格结构转变，可寻找向下延续交易。",
+  "analysis_steps": [
+    "Step 1: 在小时图上识别反转K线——价格开盘后大幅下跌，随后被强势上升力量吸收，收盘接近开盘价附近，形成反转形态。",
+    "Step 2: 确认小时图反转K线后，转向5分钟图寻找延续交易机会，而非直接在小时图交易。",
+    "Step 3: 在5分钟图上标记Fair Value Gap（FVG），观察价格是否回测该区域。",
+    "Step 4: 确认5分钟图出现Change in State of Delivery（CSD），即价格突破前一个摆动结构，预示趋势转变。",
+    "Step 5: 价格在FVG处收盘低于上升K线收盘价，确认做空信号。",
+    "Step 6: 设置Protected Swing作为止损参考，目标指向下方流动性（之前的摆动低点）和与流动性对齐的投影目标。",
+    "Step 7: 执行交易后，价格确实向下运行，最终突破下方低点，达成目标。"
+  ],
+  "outcome": "交易成功。价格从FVG区域向下延续，突破保护摆动点，最终达到下方流动性区域的投影目标（标记为-2、-2.5、-4.5等）。",
+  "lessons": "关键教训：(1)优先交易反转K线后的延续K线，避免交易扩张型K线以规避回撤或反转；(2)多时间框架协调——用高时间框架（小时图）确认方向，用低时间框架（5分钟图）精确入场；(3)CSD确认是低时间框架入场的关键信号；(4)FVG、Protected Swing、下方流动性的组合提供完整的交易框架。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_002_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "GLL 5分钟K线图，时间范围从07:00至16:00。图上价格范围约1.9920至2.0440。左侧有一条水平虚线标记在2.0171。图中央有多个矩形框标注，以及数个文字标签（-1、-2、-2.5、-4.5）标记在不同价格位置。右下角显示'BRE1(5m)'、'5m=1H Model'、'01:00:00'、'Bias: Bearish'等文字。K线形态包括上升段、大幅下跌的黑色K线、中部盘整区",
+    "case_002_detail_1.jpg": "GLL 5分钟K线图，时间范围从06:00至16:30。图上有多条水平虚线标注，分别位于2.0097、2.0240、2.0040等价格水平。图表中部11:00至12:30区间内K线呈现密集整理形态，价格在2.0140至2.0320之间波动。11:00处有一根上影线较长的K线，高点触及2.0260。图右侧13:00时刻有两个矩形框标注，分别为黑色和绿色。图上标有数字标签-1、-2、-2.5、-4.5",
+    "case_002_detail_2.jpg": "GLL 5分钟K线图。图上显示价格范围从1.9880至2.0420。可见多条水平线标注在2.0078、2.0063、2.0240、2.0100等价位。图中央有两个矩形区域标注：一个浅黄色矩形覆盖2.0100至2.0240区间，一个浅青色矩形覆盖2.0050至2.0150区间。K线呈现盘整形态，在标注区域内多次反复。右侧显示当前时间为04 Sep 25:15:50，底部工具栏显示5m时间框架选项。"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        305.36,
+        422.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从小时图反转识别到5分钟图CSD确认再到交易执行的全过程，关键价位、K线形态、交易结果均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:41.353121Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GLL小时图反转与5分钟CSD延续交易\",\"school\":\"ICT\",\"asset\":\"GLL\",\"timeframe\":\"1H / 5m\",\"market_context\":\"GLL在小时图形成明显反转K线（价格大幅下跌后强势收复），为后续交易提供方向信号。博主使用小时图作为高时间框架，5分钟图作为低时间框架进行多时间框架协调分析。\",\"key_observation\":\"小时图反转K线（开盘低走后强势上升收盘）预示延续机会。5分钟图随后确认Change in State of Delivery，表明价格结构转变，可寻找向下延续交易。\",\"analysis_steps\":[\"Step 1: 在小时图上识别反转K线——价格开盘后大幅下跌，随后被强势上升力量吸收，收盘接近开盘价附近，形成反转形态。\",\"Step 2: 确认小时图反转K线后，转向5分钟图寻找延续交易机会，而非直接在小时图交易。\",\"Step 3: 在5分钟图上标记Fair Value Gap（FVG），观察价格是否回测该区域。\",\"Step 4: 确认5分钟图出现Change in State of Delivery（CSD），即价格突破前一个摆动结构，预示趋势转变。\",\"Step 5: 价格在FVG处收盘低于上升K线收盘价，确认做空信号。\",\"Step 6: 设置Protected Swing作为止损参考，目标指向下方流动性（之前的摆动低点）和与流动性对齐的投影目标。\",\"Step 7: 执行交易后，价格确实向下运行，最终突破下方低点，达成目标。\"],\"outcome\":\"交易成功。价格从FVG区域向下延续，突破保护摆动点，最终达到下方流动性区域的投影目标（标记为-2、-2.5、-4.5等）。\",\"lessons\":\"关键教训：(1)优先交易反转K线后的延续K线，避免交易扩张型K线以规避回撤或反转；(2)多时间框架协调——用高时间框架（小时图）确认方向，用低时间框架（5分钟图）精确入场；(3)CSD确认是低时间框架入场的关键信号；(4)FVG、Protected Swing、下方流动性的组合提供完整的交易框架。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f013\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f012\",\"qdQYhePcvGE_f014\"],\"related_concepts\":[\"Reversal Candle\",\"Continuation Candle\",\"Fair Value Gap (FVG)\",\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Protected Swing\",\"Liquidity\",\"Multi-Timeframe Analysis\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从小时图反转识别到5分钟图CSD确认再到交易执行的全过程，关键价位、K线形态、交易结果均清晰可见。\"}",
+  "error": null
+}

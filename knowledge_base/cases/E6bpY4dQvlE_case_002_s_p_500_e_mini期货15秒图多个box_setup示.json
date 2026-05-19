@@ -1,0 +1,130 @@
+{
+  "card_id": "E6bpY4dQvlE_case_002_s_p_500_e_mini期货15秒图多个box_setup示",
+  "type": "case",
+  "title": "ES期货15秒图Box Setup多周期分析与买方曲线入场",
+  "related_concepts": [
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "HTF/LTF Analysis",
+      "card_id": "multiple_timeframe_analysis",
+      "exists": true
+    },
+    {
+      "term": "Aggressive Move",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Retest",
+      "card_id": "retest",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "box_setup",
+    "order_block",
+    "fair_value_gap",
+    "consolidation",
+    "displacement",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "market_structure",
+    "multiple_timeframe_analysis",
+    "expansion",
+    "retest"
+  ],
+  "school": "ICT",
+  "asset": "CME_MINI (ES - S&P 500 E-mini Futures)",
+  "timeframe": "15s (primary) / 5m (HTF context)",
+  "market_context": "ES在15秒图上展现多个盘整-激进突破-回测的完整周期。博主通过5分钟高时间框架确定偏差和市场结构，然后在15秒低时间框架上识别具体Box Setup入场点。",
+  "key_observation": "关键观察是在买方曲线上入场（价格向上运动时）相比卖方曲线上追空更有优势。博主强调避免在卖方曲线上追空，因为流动性目标更可能是扫除买方流动性而非立即反转。",
+  "analysis_steps": [
+    "Step 1: 在15秒图上识别盘整区域（consolidation range）和前期摆动低点（previous low）",
+    "Step 2: 观察激进下跌（aggressive down）随后激进上升（aggressive up）的Box Setup模式",
+    "Step 3: 确认价格回测前期低点区域，这是潜在的多头入场点",
+    "Step 4: 判断当前价格位置是否在买方曲线（moving up）还是卖方曲线（moving down）",
+    "Step 5: 优先在买方曲线上早期入场（在回测区域内），而非等待完全回测后再入场",
+    "Step 6: 使用5分钟高时间框架确认偏差（displacement）和市场结构偏差，建立交易偏差",
+    "Step 7: 设定目标为盘整区域的另一侧或前期高点，使用止损位于入场下方"
+  ],
+  "outcome": "图表显示一笔已平仓交易：入场后目标达成，Closed PnL: +3.75点，风险回报比为1:3（止损1.25点，目标3.75点），交易数量1750。",
+  "lessons": "在Box Setup中，入场时机至关重要：在买方曲线上早期捕捉回测点优于等待完全反转。避免在卖方曲线上追空，因为价格更可能继续寻求买方流动性。使用高时间框架确认偏差和结构来建立交易偏差，然后在低时间框架执行。",
+  "primary_image": "cards/E6bpY4dQvlE/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/E6bpY4dQvlE/images/case_002_detail_1.jpg",
+    "cards/E6bpY4dQvlE/images/case_002_detail_2.jpg",
+    "cards/E6bpY4dQvlE/images/case_002_detail_3.jpg",
+    "cards/E6bpY4dQvlE/images/case_002_detail_4.jpg",
+    "cards/E6bpY4dQvlE/images/case_002_detail_5.jpg",
+    "cards/E6bpY4dQvlE/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表来自 TradingView，资产为 CME_MINI，时间框架为 15 秒。图中央有一条垂直虚线标记入场位置，入场位置上方为绿色矩形区域，标注文字为\"Target: 3.75 (0.10%) 15, Amount: 1750\"；下方为红色矩形区域，标注文字为\"Stop: 1.25 (0.03%) 5, Amount: 750\"。图中还有一个文字标注\"Closed PnL: 3.75, Qty",
+    "case_002_detail_1.jpg": "图左上角标注显示资产为 CME_MINI，平台为 TradingView，时间框架为 15s。图上 K 线从左下方向右上方整体呈阶梯式排列，中部区域有一个矩形标注框，框内包含数根 K 线的低点区域。图右侧可见一组连续绿色 K 线向上延伸至图表右上角。图中有一条横向虚线贯穿中下部，一条纵向虚线位于右侧区域，十字光标位于纵向虚线附近。价格刻度轴不可见，具体价格数字无法读取。",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，平台为 TradingView，数据来源 CME MINI。图右侧价格刻度范围约从 3576.00 至 3688.00，当前价格标签显示 3595.50。图左上角显示数值 3996.00、0.25、3996.25。时间轴显示跨越约 05:00 至次日 01:00，底部时间标签标注 Mon 10 Oct '22 13:40。图上未见任",
+    "case_002_detail_3.jpg": "图为 S&P 500 E-mini Futures（ES）5 分钟 K 线图，来自 TradingView CME_MINI 数据源。可见价格范围约从 3576 至 3668。图上绘有两条手绘弧形曲线：第一条从左侧低点向上弯曲至约 11:00 附近高点；第二条从约 15:00 附近高点向下弯曲至约 21:00 附近低点，两条弧线共同构成一个倒 U 形轮廓。图上另有一条水平线横跨全图，位于约 361",
+    "case_002_detail_4.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，来源标注为 CME_MINI TradingView。图上可见价格范围约从 3722 至 3774。图中有一条手绘水平线位于约 3752 处，连接两个摆动点；另有一条手绘曲线标注覆盖约 23:00 至 01:00 区间的数根 K 线，呈弧形走势。图右侧价格轴标注当前价 3734.25，并有一条贯穿全图的虚线水平线位于约 3734 处",
+    "case_002_detail_5.jpg": "图左上角显示平台标识 CME_MINI · TradingView，时间框架标签不可见。图上无价格刻度轴，无法读取任何价格数字。K 线图呈现从左侧高点向中部低点的下行走势，随后出现回升后再次回落至第二个低点，右侧 K 线整体位置高于中部低点。图中有一条垂直虚线位于图表约三分之二处，底部有一条水平虚线。图上无任何文字标注、矩形框或其他标记。",
+    "case_002_detail_6.jpg": "图左上角显示平台标识 CME_MINI 及 TradingView 字样，时间框架与价格刻度均不可见。图中为 K 线图，整体呈现左侧高点、中部低点、右侧回升的走势形态。图中央偏左位置绘有一个无文字标签的水平矩形框，覆盖数根 K 线区域。一条垂直虚线贯穿图表中部。图右侧 K 线整体位于中部低点之上，但低于左侧高点区域。图上未见价格数字刻度、指标面板或其他文字标注。"
+  },
+  "sources": [
+    {
+      "video_id": "E6bpY4dQvlE",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        182.099,
+        359.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了Box Setup的识别、买卖方曲线判断、多时间框架分析流程，并提供了实际交易结果截图。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:55.868842Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货15秒图Box Setup多周期分析与买方曲线入场\",\"school\":\"ICT\",\"asset\":\"CME_MINI (ES - S&P 500 E-mini Futures)\",\"timeframe\":\"15s (primary) / 5m (HTF context)\",\"market_context\":\"ES在15秒图上展现多个盘整-激进突破-回测的完整周期。博主通过5分钟高时间框架确定偏差和市场结构，然后在15秒低时间框架上识别具体Box Setup入场点。\",\"key_observation\":\"关键观察是在买方曲线上入场（价格向上运动时）相比卖方曲线上追空更有优势。博主强调避免在卖方曲线上追空，因为流动性目标更可能是扫除买方流动性而非立即反转。\",\"analysis_steps\":[\"Step 1: 在15秒图上识别盘整区域（consolidation range）和前期摆动低点（previous low）\",\"Step 2: 观察激进下跌（aggressive down）随后激进上升（aggressive up）的Box Setup模式\",\"Step 3: 确认价格回测前期低点区域，这是潜在的多头入场点\",\"Step 4: 判断当前价格位置是否在买方曲线（moving up）还是卖方曲线（moving down）\",\"Step 5: 优先在买方曲线上早期入场（在回测区域内），而非等待完全回测后再入场\",\"Step 6: 使用5分钟高时间框架确认偏差（displacement）和市场结构偏差，建立交易偏差\",\"Step 7: 设定目标为盘整区域的另一侧或前期高点，使用止损位于入场下方\"],\"outcome\":\"图表显示一笔已平仓交易：入场后目标达成，Closed PnL: +3.75点，风险回报比为1:3（止损1.25点，目标3.75点），交易数量1750。\",\"lessons\":\"在Box Setup中，入场时机至关重要：在买方曲线上早期捕捉回测点优于等待完全反转。避免在卖方曲线上追空，因为价格更可能继续寻求买方流动性。使用高时间框架确认偏差和结构来建立交易偏差，然后在低时间框架执行。\",\"primary_image_frame_id\":\"E6bpY4dQvlE_f007\",\"supporting_image_frame_ids\":[\"E6bpY4dQvlE_f001\",\"E6bpY4dQvlE_f008\",\"E6bpY4dQvlE_f009\",\"E6bpY4dQvlE_f010\",\"E6bpY4dQvlE_f011\",\"E6bpY4dQvlE_f012\"],\"related_concepts\":[\"Box Setup\",\"Order Block\",\"Fair Value Gap\",\"Consolidation\",\"Displacement\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Market Structure\",\"HTF/LTF Analysis\",\"Aggressive Move\",\"Retest\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了Box Setup的识别、买卖方曲线判断、多时间框架分析流程，并提供了实际交易结果截图。\"}",
+  "error": null
+}

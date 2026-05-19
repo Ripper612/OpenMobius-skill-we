@@ -1,0 +1,120 @@
+{
+  "card_id": "wDXTIDbIMwU_case_001_s_p_500_e_mini期货日内交易分析",
+  "type": "case",
+  "title": "ES日内顶级分析：从日线到15秒的多级联动交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Top-Down Analysis",
+      "card_id": "top_down_analysis",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "liquidity",
+    "market_structure_shift",
+    "mitigation_block",
+    "killzone",
+    "top_down_analysis"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "Multi-timeframe: Daily, 4H, 1H, 15m, 5m, 1m, 15s",
+  "market_context": "纽约开盘前后的ES期货走势。日线显示价格在前期高点上方遇到订单块阻力，随后向下位移。4小时图确认纽约开盘前形成的关键订单块。开盘后价格下探至公允价值缺口和前期低点，随后反弹。",
+  "key_observation": "博主识别出日线订单块（~4148.50）作为高时间框架阻力，4小时图在纽约开盘前形成的订单块（~3920-3924）作为关键支撑，开盘后价格下探填补FVG后反弹，提供低风险做多机会。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别前期高点和订单块位置（~4148.50），观察价格无法收盘在其上方。",
+    "Step 2: 识别日线下行位移中的内部流动性和公允价值缺口（~3873.75），确定下行目标。",
+    "Step 3: 切换到4小时图，聚焦纽约开盘前的K线序列，标记出订单块（~3920-3924）和相关水平线。",
+    "Step 4: 在15分钟图上观察开盘前的上升序列（~3928-3938）和随后的下行（至~3861），标记两个灰色矩形区域作为关键价格区间。",
+    "Step 5: 在5分钟图上识别公允价值缺口，预期该缺口会被回测。",
+    "Step 6: 在1分钟图上等待具体设置，观察价格下探至FVG和前期低点后的反应。",
+    "Step 7: 在15秒图上寻找低风险入场点，利用公允价值缺口和订单块之间的区域作为OTE（最优交易入场点）。",
+    "Step 8: 确认价格无法收盘在关键支撑下方，准备做多入场。",
+    "Step 9: 在1分钟图上观察价格反弹并突破前期低点，确认上升趋势。",
+    "Step 10: 识别下一个目标为4小时订单块（~3979），作为利润目标。"
+  ],
+  "outcome": null,
+  "lessons": "多级时间框架分析的核心：从高时间框架（日线、4小时）确定大方向和关键价格区域，再用中等时间框架（1小时、15分钟）确认结构，最后用低时间框架（1分钟、15秒）精确入场。公允价值缺口和订单块的组合提供高概率交易设置。开盘驱动（opening drive）后的价格行为预示后续方向。",
+  "primary_image": "cards/wDXTIDbIMwU/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/wDXTIDbIMwU/images/case_001_detail_1.jpg",
+    "cards/wDXTIDbIMwU/images/case_001_detail_2.jpg",
+    "cards/wDXTIDbIMwU/images/case_001_detail_3.jpg",
+    "cards/wDXTIDbIMwU/images/case_001_detail_4.jpg",
+    "cards/wDXTIDbIMwU/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini 期货 4 小时 K 线图。图上显示从左侧约 3820 上升至右侧约 4090 的上升趋势，由绿色和黑色 K 线交替组成。中间出现一根大幅下跌的黑色 K 线，从 4090 下跌至 3880 附近，带有较长下影线。随后 K 线在 3920 至 3930 区间内形成盘整，约 4 根 K 线。图上标注有三条水平线分别位于 3979、3924 和 3920 价格水平。此外还有两",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 10分钟图表。图上显示从10月至2月的K线走势，包含绿色上涨K线和黑色下跌K线。右侧价格轴显示范围从3700.00至4320.00。图上绘制有两条水平线，分别位于4148.50和3960.00，以及一个矩形框标注在这两条水平线之间的区域。多根K线呈现长上影线和长下影线特征。图表底部显示时间标记和交易工具栏。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini 期货 10 分钟 K 线图。图上可见两条水平线：4184.50 处和 3873.75 处。图中央有一个矩形框标注，范围约在 3950 至 4100 之间。K 线整体价格范围从 3680.00 到 4280.00。图上混合绿色和黑色 K 线，多根 K 线的上影线向上延伸至 4184.50 水平线附近。矩形框内包含多根 K 线，呈现盘整形态。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini 期货 15 分钟图。图上显示从 18:00 至 22:00 的绿色 K 线序列，价格范围约 3928 至 3938。随后从 21:00 至 04:00 出现黑色 K 线序列，价格下行至 3861。下行过程中多根 K 线呈长下影线形态。04:00 后绿色 K 线恢复，价格在 3884 至 3900 区间内波动至 14:00。图上标记有两个灰色矩形区域，分别位于约 391",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示价格范围从3844.50至3952.00。可见三条灰色水平线分别位于3916.00、3884.50和3864.00。图上有两个灰色矩形标注框，分别覆盖3916-3912和3884-3876价格区间。K线序列显示：早期绿色K线集中在3928-3940区间，随后出现一根大幅下跌的黑色K线从3920下行至3878，之后形成多根小幅波动",
+    "case_001_detail_5.jpg": "S&P 500 E-mini 期货 15 分钟 K 线图。图上显示价格范围约从 3855 到 3934.75。图表左侧显示一根大幅下跌的黑色 K 线，从约 3920 下跌至 3880 附近。之后图上显示多根绿色和黑色 K 线在 3882 至 3900 区间内震荡。图上有两个灰色矩形区域分别位于 3918-3920 和 3882-3884 价格水平。右侧价格轴显示当前价格约为 3897.50。"
+  },
+  "sources": [
+    {
+      "video_id": "wDXTIDbIMwU",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        7.22,
+        472.88
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到15秒的分析过程，清晰标注了关键价格水平、订单块、FVG位置，并解释了每个时间框架的作用。图表和讲解高度对应。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:58.775082Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES日内顶级分析：从日线到15秒的多级联动交易\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"Multi-timeframe: Daily, 4H, 1H, 15m, 5m, 1m, 15s\",\"market_context\":\"纽约开盘前后的ES期货走势。日线显示价格在前期高点上方遇到订单块阻力，随后向下位移。4小时图确认纽约开盘前形成的关键订单块。开盘后价格下探至公允价值缺口和前期低点，随后反弹。\",\"key_observation\":\"博主识别出日线订单块（~4148.50）作为高时间框架阻力，4小时图在纽约开盘前形成的订单块（~3920-3924）作为关键支撑，开盘后价格下探填补FVG后反弹，提供低风险做多机会。\",\"analysis_steps\":[\"Step 1: 在日线图上识别前期高点和订单块位置（~4148.50），观察价格无法收盘在其上方。\",\"Step 2: 识别日线下行位移中的内部流动性和公允价值缺口（~3873.75），确定下行目标。\",\"Step 3: 切换到4小时图，聚焦纽约开盘前的K线序列，标记出订单块（~3920-3924）和相关水平线。\",\"Step 4: 在15分钟图上观察开盘前的上升序列（~3928-3938）和随后的下行（至~3861），标记两个灰色矩形区域作为关键价格区间。\",\"Step 5: 在5分钟图上识别公允价值缺口，预期该缺口会被回测。\",\"Step 6: 在1分钟图上等待具体设置，观察价格下探至FVG和前期低点后的反应。\",\"Step 7: 在15秒图上寻找低风险入场点，利用公允价值缺口和订单块之间的区域作为OTE（最优交易入场点）。\",\"Step 8: 确认价格无法收盘在关键支撑下方，准备做多入场。\",\"Step 9: 在1分钟图上观察价格反弹并突破前期低点，确认上升趋势。\",\"Step 10: 识别下一个目标为4小时订单块（~3979），作为利润目标。\"],\"outcome\":null,\"lessons\":\"多级时间框架分析的核心：从高时间框架（日线、4小时）确定大方向和关键价格区域，再用中等时间框架（1小时、15分钟）确认结构，最后用低时间框架（1分钟、15秒）精确入场。公允价值缺口和订单块的组合提供高概率交易设置。开盘驱动（opening drive）后的价格行为预示后续方向。\",\"primary_image_frame_id\":\"wDXTIDbIMwU_f006\",\"supporting_image_frame_ids\":[\"wDXTIDbIMwU_f004\",\"wDXTIDbIMwU_f005\",\"wDXTIDbIMwU_f007\",\"wDXTIDbIMwU_f008\",\"wDXTIDbIMwU_f001\",\"wDXTIDbIMwU_f009\",\"wDXTIDbIMwU_f010\",\"wDXTIDbIMwU_f011\",\"wDXTIDbIMwU_f012\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Liquidity\",\"Market Structure Shift\",\"Optimal Trade Entry\",\"Mitigation Block\",\"Killzone\",\"Top-Down Analysis\"],\"extraction_confidence\":\"high\",\"confi",
+  "error": null
+}

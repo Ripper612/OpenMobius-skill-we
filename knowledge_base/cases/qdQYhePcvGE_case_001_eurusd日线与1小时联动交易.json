@@ -1,0 +1,103 @@
+{
+  "card_id": "qdQYhePcvGE_case_001_eurusd日线与1小时联动交易",
+  "type": "case",
+  "title": "EURUSD日线反转后1小时延续交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 / Candle 3 Pattern",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "High Time Frame (HTF) / Low Time Frame (LTF) Confluence",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "protected_high_low",
+    "market_structure_shift_mss",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1H / 1D",
+  "market_context": "EURUSD日线形成反转形态，价格在1.15800附近的FVG区域回测，日线显示expansion down后的reversal candle，为1小时图上寻找延续交易提供了高时间框架确认。",
+  "key_observation": "日线反转candle 2未展开（small wick），价格回测进入FVG后形成protected swing低点，为1小时图上的candle 3延续交易提供了清晰的入场机制和止损位置。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别expansion down（扫出低点）后跟expansion up（反向扩展），确认反转形态。",
+    "Step 2: 观察日线reversal candle在1.15800附近的FVG区域，确认该candle未展开（small wick），符合candle 2特征。",
+    "Step 3: 切换到1小时图，确认价格已进入FVG区域并形成consolidation。",
+    "Step 4: 在1小时图上标记protected swing低点（新低），作为后续交易的止损参考。",
+    "Step 5: 等待一系列down close candles后，寻找close over protected low的确认信号。",
+    "Step 6: 在新candle开盘时以protected low作为止损，建立long setup，目标为2R或上方projection。",
+    "Step 7: 验证交易结果：价格retest该水平后形成新swing point，最终达到目标高点。"
+  ],
+  "outcome": "交易成功。价格在protected swing低点处获得支撑，形成新的swing point，随后上升至目标高点，完成2R目标。",
+  "lessons": "Candle 3延续交易的核心是识别candle 2的特征：small wick表示可立即交易，large wick则需等待candle 3完全展开。HTF与LTF的联动确认（日线反转+1小时FVG回测）大幅提高了交易概率。Protected swing作为止损位提供了明确的风险管理框架。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_001_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_001_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_001_detail_3.jpg",
+    "cards/qdQYhePcvGE/images/case_001_detail_4.jpg",
+    "cards/qdQYhePcvGE/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "EURUSD 1小时K线图。图上显示从8月初至8月8日的价格走势，价格范围约1.14700至1.16700。图中有两个浅绿色矩形框标注，分别位于1.16000-1.16200和1.15700-1.15900区间。一条向下倾斜的黄色趋势线标记为DISPLACED，从左上向右下延伸。图上有多条水平虚线和实线标注价格水平。8月6日出现一根大幅上升的绿色K线，随后形成1.15700至1.16100之间的整",
+    "case_001_detail_1.jpg": "EURUSD 日线图。图表显示从 6 月中旬至 9 月中旬的价格走势，价格范围从 1.14000 至 1.18400。图上有一条水平虚线位于 1.15800 附近。左侧显示当前价格标记为 1.15971。右下角有一个黄色矩形框，覆盖价格区间约 1.14400 至 1.15600。K 线呈现绿色（上升）和黑色（下降）交替排列，多数 K 线具有上下影线。图表底部显示日期标签，包括'Wed 06 Aug",
+    "case_001_detail_2.jpg": "EURUSD 1 小时 K 线图。图上显示价格范围从 1.14100 到 1.16900。图中绘有三条水平线分别位于 1.15900、1.15500 和 1.15300 处。一条向下倾斜的趋势线从约 1.15900 连接至 1.15300。图上标注有文字'c2'和'GBPUSD'。右侧显示一根大型绿色 K 线，其后跟随一根黑色 K 线，黑色 K 线带有上影线。图表底部显示交易界面按钮'Sell'、",
+    "case_001_detail_3.jpg": "EURUSD 1 小时 K 线图。图上显示价格范围从 1.14600 到 1.16800。左侧有一根大幅上升的绿色 K 线，随后进入 1.15300 至 1.15900 之间的盘整区域，包含多根黑绿相间的 K 线。图上标注有三条水平线分别位于 1.15900、1.15600 和 1.15500。一条向下倾斜的趋势线标记为@EURUSD，穿过盘整区域。右侧有一根绿色 K 线上升至 1.15900 附",
+    "case_001_detail_4.jpg": "图表标题为'Trading Candle 3'，由 TTrades 平台提供。图上显示一段蜡烛图序列，左侧起始处为绿黑相间的上升趋势，中间部分形成高点后转为下降趋势，右侧显示三根连续 K 线：一根绿色 K 线、一根空心 K 线、一根黑色 K 线，最右侧为一根大型绿色 K 线，具有明显的长下影线。图上未标注具体价格数字、时间框架或其他技术指标。",
+    "case_001_detail_5.jpg": "图上标题为'Trading Candle 3'，由 TTrades 平台提供。K线图展示一段完整的价格走势：左侧为绿色K线组成的上升段，中部形成高点后转为黑色K线的下降段，右侧最后两根K线中绿色K线后跟一根大幅黑色K线，该黑色K线具有明显的上下影线。图上标注有'OBD'文字。整体K线序列呈现先涨后跌的形态，但未显示具体价格数值或时间框架信息。"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        122.479,
+        305.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线与1小时图的分析过程，清晰标注了FVG、protected swing、入场点和目标，交易结果明确，所有关键价位和步骤都可从图表和讲解中读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:42.670236Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD日线反转后1小时延续交易\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1H / 1D\",\"market_context\":\"EURUSD日线形成反转形态，价格在1.15800附近的FVG区域回测，日线显示expansion down后的reversal candle，为1小时图上寻找延续交易提供了高时间框架确认。\",\"key_observation\":\"日线反转candle 2未展开（small wick），价格回测进入FVG后形成protected swing低点，为1小时图上的candle 3延续交易提供了清晰的入场机制和止损位置。\",\"analysis_steps\":[\"Step 1: 在日线图上识别expansion down（扫出低点）后跟expansion up（反向扩展），确认反转形态。\",\"Step 2: 观察日线reversal candle在1.15800附近的FVG区域，确认该candle未展开（small wick），符合candle 2特征。\",\"Step 3: 切换到1小时图，确认价格已进入FVG区域并形成consolidation。\",\"Step 4: 在1小时图上标记protected swing低点（新低），作为后续交易的止损参考。\",\"Step 5: 等待一系列down close candles后，寻找close over protected low的确认信号。\",\"Step 6: 在新candle开盘时以protected low作为止损，建立long setup，目标为2R或上方projection。\",\"Step 7: 验证交易结果：价格retest该水平后形成新swing point，最终达到目标高点。\"],\"outcome\":\"交易成功。价格在protected swing低点处获得支撑，形成新的swing point，随后上升至目标高点，完成2R目标。\",\"lessons\":\"Candle 3延续交易的核心是识别candle 2的特征：small wick表示可立即交易，large wick则需等待candle 3完全展开。HTF与LTF的联动确认（日线反转+1小时FVG回测）大幅提高了交易概率。Protected swing作为止损位提供了明确的风险管理框架。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f011\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f008\",\"qdQYhePcvGE_f009\",\"qdQYhePcvGE_f010\",\"qdQYhePcvGE_f004\",\"qdQYhePcvGE_f006\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Protected Swing\",\"Candle 2 / Candle 3 Pattern\",\"Market Structure Shift (MSS)\",\"Displacement\",\"High Time Frame (HTF) / Low Time Frame (LTF) Confluence\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线与1小时图的分析过程，清晰标注了FVG、protected swing、入场点和",
+  "error": null
+}

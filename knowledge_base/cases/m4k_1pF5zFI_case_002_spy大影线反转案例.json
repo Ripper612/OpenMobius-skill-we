@@ -1,0 +1,102 @@
+{
+  "card_id": "m4k_1pF5zFI_case_002_spy大影线反转案例",
+  "type": "case",
+  "title": "大影线反转：调整目标至日开盘价和会话低点",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Wick Analysis",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Session Levels",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "swing_points",
+    "market_structure",
+    "equilibrium"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1H",
+  "market_context": "价格在亚洲时段盘整后，伦敦时段向上扩张，形成大幅上影线。由于影线过大，不支持向下扩张，交易者需要调整预期。",
+  "key_observation": "大影线表明价格虽然向上试探，但缺乏向下扩张的支撑。交易者应调整目标，不应贪心追求大幅下跌，而是关注日开盘价和会话低点。",
+  "analysis_steps": [
+    "Step 1: 识别日线形成的两个摆动低点，但缺少第三个摆动低点进行交易。",
+    "Step 2: 观察价格扫出高点后，寻找新的价格阶段，初步倾向看空。",
+    "Step 3: 下探低时间框架，在纽约时段开盘处寻找反转机会。",
+    "Step 4: 分析日线形态：亚洲时段盘整，伦敦时段向上扩张，随后陷入盘整，未能回测公允价值缺口。",
+    "Step 5: 观察价格向上移动形成的大影线，注意到影线过大，不符合浅层扫高后反转的典型形态。",
+    "Step 6: 基于大影线特征，调整交易目标：从追求大幅下跌改为目标日开盘价和会话低点。",
+    "Step 7: 确认价格可能下探至公允价值缺口或区间均衡点，但主要预期是回到日开盘价和会话低点。"
+  ],
+  "outcome": null,
+  "lessons": "大影线是市场结构的重要信号，表明价格缺乏向该方向扩张的动力。交易者应根据影线大小灵活调整目标，避免过度贪心。日开盘价和会话低点是更现实的目标，而非追求极端价格。",
+  "primary_image": "cards/m4k_1pF5zFI/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/m4k_1pF5zFI/images/case_002_detail_1.jpg",
+    "cards/m4k_1pF5zFI/images/case_002_detail_2.jpg",
+    "cards/m4k_1pF5zFI/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示 USD 计价资产的 K 线图，价格范围从 23700.00 到 24100.00。图上有三条水平线分别位于 23937.80、23850.00 和 23760.00。左侧区域显示绿色 K 线为主的上升走势，从 23700 附近上升至 24000 以上。中间区域出现黑色和绿色 K 线混合的盘整形态，在 23850 至 24010 之间。右侧显示一根大幅绿色 K 线从 23750 上升至 2",
+    "case_002_detail_1.jpg": "SPX500 1小时K线图。图上显示从22日18:00至25日03:00的价格走势，价格范围3424.0至3532.0。图中有两条水平虚线分别位于3501.0和3476.0，两线之间用矩形框标注。08:00至12:00期间K线从3456.0上升至3508.0。12:00至次日06:00期间K线在3476.0至3501.0区间内震荡。03:00至06:00出现一根大幅上升的绿色K线，随后06:00至",
+    "case_002_detail_2.jpg": "图表显示 USD 交易对的 K 线图，价格范围从 23640.00 到 24080.00。图上有三条水平线分别位于 23948.50、23840.00 和 23760.00 处。K 线由绿色和黑色蜡烛体组成，多根 K 线在上方区域呈现长上影线。图右侧显示当前价格标记为 23948.50。图上可见一个矩形框标注在约 23920 至 24000 的价格区间。底部工具栏显示交易控制按钮，包括 Sell、",
+    "case_002_detail_3.jpg": "图表显示 1 小时时间框架的 K 线图，价格范围从 23700 到 24080。图上绘制有三条水平线：24010、23920 和 23770 处各一条。左侧显示上升趋势，从 23700 上升至 24060 附近，期间包含多根绿色和黑色 K 线。中部区域在 23920 至 24010 之间形成整理。右侧显示一根大幅下跌的黑色 K 线，随后是一根大幅上升的绿色 K 线从 23760 上升至 23950"
+  },
+  "sources": [
+    {
+      "video_id": "m4k_1pF5zFI",
+      "segment_ids": [
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        354.15999999999997,
+        473.199
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整分析了大影线反转的形成过程、观察步骤和目标调整逻辑，关键价位和时间框架清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:42:58.078218Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"大影线反转：调整目标至日开盘价和会话低点\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1H\",\"market_context\":\"价格在亚洲时段盘整后，伦敦时段向上扩张，形成大幅上影线。由于影线过大，不支持向下扩张，交易者需要调整预期。\",\"key_observation\":\"大影线表明价格虽然向上试探，但缺乏向下扩张的支撑。交易者应调整目标，不应贪心追求大幅下跌，而是关注日开盘价和会话低点。\",\"analysis_steps\":[\"Step 1: 识别日线形成的两个摆动低点，但缺少第三个摆动低点进行交易。\",\"Step 2: 观察价格扫出高点后，寻找新的价格阶段，初步倾向看空。\",\"Step 3: 下探低时间框架，在纽约时段开盘处寻找反转机会。\",\"Step 4: 分析日线形态：亚洲时段盘整，伦敦时段向上扩张，随后陷入盘整，未能回测公允价值缺口。\",\"Step 5: 观察价格向上移动形成的大影线，注意到影线过大，不符合浅层扫高后反转的典型形态。\",\"Step 6: 基于大影线特征，调整交易目标：从追求大幅下跌改为目标日开盘价和会话低点。\",\"Step 7: 确认价格可能下探至公允价值缺口或区间均衡点，但主要预期是回到日开盘价和会话低点。\"],\"outcome\":null,\"lessons\":\"大影线是市场结构的重要信号，表明价格缺乏向该方向扩张的动力。交易者应根据影线大小灵活调整目标，避免过度贪心。日开盘价和会话低点是更现实的目标，而非追求极端价格。\",\"primary_image_frame_id\":\"m4k_1pF5zFI_f015\",\"supporting_image_frame_ids\":[\"m4k_1pF5zFI_f012\",\"m4k_1pF5zFI_f014\",\"m4k_1pF5zFI_f016\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Swing Points\",\"Market Structure\",\"Wick Analysis\",\"Session Levels\",\"Equilibrium\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整分析了大影线反转的形成过程、观察步骤和目标调整逻辑，关键价位和时间框架清晰。\"}",
+  "error": null
+}

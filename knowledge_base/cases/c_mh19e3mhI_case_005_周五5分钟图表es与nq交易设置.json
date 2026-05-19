@@ -1,0 +1,105 @@
+{
+  "card_id": "c_mh19e3mhI_case_005_周五5分钟图表es与nq交易设置",
+  "type": "case",
+  "title": "利用ES/NQ相对强弱在5分钟图表寻找多空设置",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Consequent Encroachment",
+      "card_id": "consequent_encroachment",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "consequent_encroachment",
+    "order_block_ob",
+    "displacement",
+    "smart_money_technique_smt",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "SMC",
+  "asset": "ES / NQ",
+  "timeframe": "5M",
+  "market_context": "周五行情中，ES与NQ表现出明显的相对强弱分化。ES强势突破日线FVG并回测，NQ相对较弱，难以突破月度低点附近的FVG。博主利用这一相关性差异在两个资产上寻找交易机会。",
+  "key_observation": "ES与NQ在周五5分钟图表上展现出不同的强度：ES能够突破并维持在FVG上方，而NQ在相同价格区域受阻并形成位移下行。这种相对强弱差异可用于预测两个资产的短期方向。",
+  "analysis_steps": [
+    "Step 1: 观察日线结构，识别ES日线FVG（Daily Fair Value Gap）及其后续侵蚀（Consequent Encroachment）",
+    "Step 2: 识别NQ月度低点附近的FVG（Monthly Fair Value Gap）作为高时间框架阻力",
+    "Step 3: 在5分钟图表上，观察NQ在月度FVG处受阻，形成位移下行蜡烛，而ES同时突破日线FVG的后续侵蚀区域",
+    "Step 4: 基于相对强弱判断，在NQ寻找空头设置（目标扫月度低点），在ES寻找多头设置（回测FVG后上升）",
+    "Step 5: 确认ES在晨间高点附近形成SMT（Smart Money Technique），而NQ未能突破这些高点，进一步验证相对弱势"
+  ],
+  "outcome": null,
+  "lessons": "利用ES/NQ相关性差异可以提前识别市场结构转变。当两个高度相关的资产出现分化时（一个强势突破FVG，另一个在同一区域受阻），这通常预示着短期趋势的确立。在低时间框架上，应优先在相对强势的资产寻找多头，在相对弱势的资产寻找空头。",
+  "primary_image": "cards/c_mh19e3mhI/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/c_mh19e3mhI/images/case_005_detail_1.jpg",
+    "cards/c_mh19e3mhI/images/case_005_detail_2.jpg",
+    "cards/c_mh19e3mhI/images/case_005_detail_3.jpg",
+    "cards/c_mh19e3mhI/images/case_005_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图上显示 ES/NQ 两个资产的 5 分钟 K 线对比图。左侧面板为 ES 图表，右侧面板为 NQ 图表。左侧 ES 图表中绘有一条向上的趋势线（从约 4462 上升至 4493）和一条向下的趋势线（从 4493 下降）。右侧 NQ 图表中标注有多条蓝色水平线，价格位置分别为 4493.00、4492.00、4490.00、4485.00、4482.00。两个面板中均可见红色旗帜标记。K 线以绿色",
+    "case_005_detail_1.jpg": "图上为多面板日线图表，包含上下两个独立面板。上面板显示 ES/NQ 日线，价格范围约 4482 至 4600；下面板显示 NQ 日线，价格范围约 15200 至 15700。两个面板均显示从 7 月末至 8 月中旬的 K 线序列，包含绿色和黑色蜡烛体。左侧边栏标注 ES/NQ 和 ES 为上升箭头，NQ 为下降箭头。图上标注有两处 0.25 文字标签。右下角可见交易按钮区域（Sell、Buy、Fl",
+    "case_005_detail_2.jpg": "图上为多面板日线图表，展示 ES 和 NQ 两个资产的并排对比。左侧显示三个方向指示：ES/NQ 向上箭头、ES 向上箭头、NQ 向下箭头。上方面板为 ES 日线，价格范围约 4410 至 4580，包含从 7 月至 9 月的 K 线序列，绿色和黑色 K 线混合排列。下方面板为 NQ 日线，价格范围约 14800 至 15370，同期 K 线序列。两个面板均标记有 Tue 15 Aug '23 的",
+    "case_005_detail_3.jpg": "图上为双面板 5 分钟 K 线图，左侧为 ES，右侧为 NQ。左侧 ES 面板显示一条从约 4460 上升至 4493 的上升趋势线，以及从 4493 下降至 4462 的下降趋势线。右侧 NQ 面板显示一条从约 15180 下降至 15140 的下降趋势线。两个面板均有多条蓝色标注的水平价格线。左侧面板下方约 4456-4462 区间有灰色矩形标注，右侧面板下方约 15070-15090 区间亦",
+    "case_005_detail_4.jpg": "图上显示 ES/NQ 两个资产的 5 分钟 K 线对比图。左侧为 ES 图表，右侧为 NQ 图表。左侧 ES 图表价格范围约 4460 至 4495，绘有一条向上趋势线和一条向下趋势线，多条水平线标注关键价格位。右侧 NQ 图表价格范围约 15040 至 15220，同样绘有向下趋势线和向上趋势线，多条水平线标注价格位。两个图表均包含绿色和黑色 K 线，时间轴显示交易时段从早晨至上午。图上标注有多"
+  },
+  "sources": [
+    {
+      "video_id": "c_mh19e3mhI",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        541.08,
+        719.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰，包括资产代码（ES/NQ）、时间框架（5分钟）、关键价位（日线FVG、月度低点）、分析步骤（从高时间框架到低时间框架的递进分析）以及相对强弱的具体应用。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:46.411895Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"利用ES/NQ相对强弱在5分钟图表寻找多空设置\",\"school\":\"SMC\",\"asset\":\"ES / NQ\",\"timeframe\":\"5M\",\"market_context\":\"周五行情中，ES与NQ表现出明显的相对强弱分化。ES强势突破日线FVG并回测，NQ相对较弱，难以突破月度低点附近的FVG。博主利用这一相关性差异在两个资产上寻找交易机会。\",\"key_observation\":\"ES与NQ在周五5分钟图表上展现出不同的强度：ES能够突破并维持在FVG上方，而NQ在相同价格区域受阻并形成位移下行。这种相对强弱差异可用于预测两个资产的短期方向。\",\"analysis_steps\":[\"Step 1: 观察日线结构，识别ES日线FVG（Daily Fair Value Gap）及其后续侵蚀（Consequent Encroachment）\",\"Step 2: 识别NQ月度低点附近的FVG（Monthly Fair Value Gap）作为高时间框架阻力\",\"Step 3: 在5分钟图表上，观察NQ在月度FVG处受阻，形成位移下行蜡烛，而ES同时突破日线FVG的后续侵蚀区域\",\"Step 4: 基于相对强弱判断，在NQ寻找空头设置（目标扫月度低点），在ES寻找多头设置（回测FVG后上升）\",\"Step 5: 确认ES在晨间高点附近形成SMT（Smart Money Technique），而NQ未能突破这些高点，进一步验证相对弱势\"],\"outcome\":null,\"lessons\":\"利用ES/NQ相关性差异可以提前识别市场结构转变。当两个高度相关的资产出现分化时（一个强势突破FVG，另一个在同一区域受阻），这通常预示着短期趋势的确立。在低时间框架上，应优先在相对强势的资产寻找多头，在相对弱势的资产寻找空头。\",\"primary_image_frame_id\":\"c_mh19e3mhI_f022\",\"supporting_image_frame_ids\":[\"c_mh19e3mhI_f019\",\"c_mh19e3mhI_f020\",\"c_mh19e3mhI_f021\",\"c_mh19e3mhI_f023\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Consequent Encroachment\",\"Order Block (OB)\",\"Displacement\",\"Smart Money Technique (SMT)\",\"Relative Strength\",\"Market Structure\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰，包括资产代码（ES/NQ）、时间框架（5分钟）、关键价位（日线FVG、月度低点）、分析步骤（从高时间框架到低时间框架的递进分析）以及相对强弱的具体应用。\"}",
+  "error": null
+}

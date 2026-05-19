@@ -1,0 +1,119 @@
+{
+  "card_id": "-KKuZb5Z5aU_case_006_usdcad_4小时线到15分钟线交易案例",
+  "type": "case",
+  "title": "USDCAD 4H-15M 多次试探高点后形成交付状态改变反转",
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery_csd",
+    "order_block_ob",
+    "smart_money_technique_smt",
+    "consolidation",
+    "protected_high_low",
+    "fair_value_gap_fvg",
+    "market_structure_shift_mss",
+    "reversal_candle",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "USDCAD",
+  "timeframe": "4H / 15M",
+  "market_context": "USDCAD 4小时线形成三根看跌K线后出现扫盘，价格在1.40800-1.41080区间内整固。15分钟线多次尝试突破高点1.41080但未能形成保护摆动，最终形成交付状态改变确认反转。",
+  "key_observation": "4小时线整固后，15分钟线在高点1.41080处多次试探但无法形成新高或保护摆动，直到出现闭合穿过和交付状态改变(CSD)时，才确认反转信号有效。",
+  "analysis_steps": [
+    "Step 1: 观察4小时线形成三根看跌K线和扫盘，识别整固区间1.40800-1.41080。",
+    "Step 2: 预期价格会扫除前期高点1.41080，然后交易更低。",
+    "Step 3: 切换到15分钟线，观察多次试探高点1.41080的过程。",
+    "Step 4: 确认价格无法形成新高或保护摆动，继续整固。",
+    "Step 5: 等待闭合穿过或交付状态改变(CSD)来确认反转信号。",
+    "Step 6: 识别出现小wick的反转K线，配合CSD和SMT确认。",
+    "Step 7: 设置止损在前期高点1.41080，目标指向4小时线的范围低点。",
+    "Step 8: 观察价格继续下行，确认反转有效性。"
+  ],
+  "outcome": "交易成功。价格形成反转K线配合CSD和SMT确认后，价格继续下行至目标范围低点，反转交易获利。",
+  "lessons": "在整固区间内，不要急于在第一次试探高点时交易反转。必须等待闭合穿过或交付状态改变(CSD)来确认反转信号的有效性。SMT配合CSD提供更高概率的反转确认。小wick的反转K线比大wick更值得交易。",
+  "primary_image": "cards/-KKuZb5Z5aU/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/-KKuZb5Z5aU/images/case_006_detail_1.jpg",
+    "cards/-KKuZb5Z5aU/images/case_006_detail_2.jpg",
+    "cards/-KKuZb5Z5aU/images/case_006_detail_3.jpg",
+    "cards/-KKuZb5Z5aU/images/case_006_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "USDCAD 15 分钟 K 线图，来自 TTrades.com 平台，图右下角标注 15m-4H Model、03:00:00 及 SMT(Auto): DXY、Bias:(Auto):Neutral。可见价格范围约从 1.40740 至 1.41200。图上有一条蓝色实线水平线位于 1.41080，一条虚线水平线位于约 1.40820，另一条虚线水平线位于约 1.40980。图上有两个灰色矩形",
+    "case_006_detail_1.jpg": "USD/CAD 4小时K线图，来自TTrades.com平台。图右侧价格刻度范围约从1.40300至1.41550。当前价格标签显示为1.41165，图上有一条对应该价位的水平虚线。图中约Nov 20处可见一根大阳线，主体从约1.40360延伸至1.41000。此后K线在约1.40900至1.41250区间内横向排列，持续至Nov 24附近。Nov 25至Nov 27区间内出现数根阴线，最低下探至",
+    "case_006_detail_2.jpg": "USDCAD 4小时K线图，可见价格范围约1.40600至1.41350。图左侧有一根大绿色K线，随后在1.40950至1.41250区间内出现多根交替绿黑K线。图上有一条实线水平线位于约1.41070，一条虚线水平线位于约1.40807。图中有一个虚线矩形框，覆盖约1.40800至1.41080价格区间，横跨日期24至26附近。最右侧可见K线为绿色，主体位于约1.40950至1.41000。右下",
+    "case_006_detail_3.jpg": "USDCAD 15 分钟 K 线图，可见价格范围约 1.40760 至 1.41220。图上有一条蓝色水平线位于 1.41080，一条虚线水平线位于约 1.40818。文字标注 C4 出现在约 1.41040 附近并带有水平虚线延伸。图右下角显示 15m-4H Model 及 SMT(Auto): Neutral 文字。图上有两个矩形框：一个浅灰色矩形覆盖约 09:00 至 13:00 区间、价格",
+    "case_006_detail_4.jpg": "USDCAD 15 分钟 K 线图，图右下角标注显示 15m-H1 Model、04:00:00 及 SMT(Auto): Neutral、Bias: Neutral。图上可见价格范围约从 1.40680 至 1.41140。图中有一个灰色矩形框区域覆盖约 1.40980 至 1.41060 价格区间，框内标注文字 C4 与 C2。一条橙色上升趋势线标注 DXY 出现在 17:00 至 19:00"
+  },
+  "sources": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "segment_ids": [
+        "seg_018",
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        758.72,
+        919.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了4H到15M的分析过程，清晰标注了关键价位(1.41080、1.40807)、K线形态、CSD和SMT确认，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:04:43.116974Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USDCAD 4H-15M 多次试探高点后形成交付状态改变反转\",\"school\":\"ICT\",\"asset\":\"USDCAD\",\"timeframe\":\"4H / 15M\",\"market_context\":\"USDCAD 4小时线形成三根看跌K线后出现扫盘，价格在1.40800-1.41080区间内整固。15分钟线多次尝试突破高点1.41080但未能形成保护摆动，最终形成交付状态改变确认反转。\",\"key_observation\":\"4小时线整固后，15分钟线在高点1.41080处多次试探但无法形成新高或保护摆动，直到出现闭合穿过和交付状态改变(CSD)时，才确认反转信号有效。\",\"analysis_steps\":[\"Step 1: 观察4小时线形成三根看跌K线和扫盘，识别整固区间1.40800-1.41080。\",\"Step 2: 预期价格会扫除前期高点1.41080，然后交易更低。\",\"Step 3: 切换到15分钟线，观察多次试探高点1.41080的过程。\",\"Step 4: 确认价格无法形成新高或保护摆动，继续整固。\",\"Step 5: 等待闭合穿过或交付状态改变(CSD)来确认反转信号。\",\"Step 6: 识别出现小wick的反转K线，配合CSD和SMT确认。\",\"Step 7: 设置止损在前期高点1.41080，目标指向4小时线的范围低点。\",\"Step 8: 观察价格继续下行，确认反转有效性。\"],\"outcome\":\"交易成功。价格形成反转K线配合CSD和SMT确认后，价格继续下行至目标范围低点，反转交易获利。\",\"lessons\":\"在整固区间内，不要急于在第一次试探高点时交易反转。必须等待闭合穿过或交付状态改变(CSD)来确认反转信号的有效性。SMT配合CSD提供更高概率的反转确认。小wick的反转K线比大wick更值得交易。\",\"primary_image_frame_id\":\"-KKuZb5Z5aU_f029\",\"supporting_image_frame_ids\":[\"-KKuZb5Z5aU_f027\",\"-KKuZb5Z5aU_f028\",\"-KKuZb5Z5aU_f030\",\"-KKuZb5Z5aU_f031\"],\"related_concepts\":[\"Change in the state of delivery (CSD)\",\"Order Block (OB)\",\"Smart Money Technique (SMT)\",\"Consolidation\",\"Protected Swing\",\"Fair Value Gap (FVG)\",\"Market Structure Shift (MSS)\",\"Reversal Candle\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了4H到15M的分析过程，清晰标注了关键价位(1.41080、1.40807)、K线形态、CSD和SMT确认，交易结果明确。\"}",
+  "error": null
+}

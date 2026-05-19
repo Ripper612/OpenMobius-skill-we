@@ -1,0 +1,122 @@
+{
+  "card_id": "-KKuZb5Z5aU_case_004_gbpusd日线到小时线交易案例",
+  "type": "case",
+  "title": "GBPUSD日线理想三号收盘到小时线多次扫盘后延续上行",
+  "related_concepts": [
+    {
+      "term": "Ideal Candle Three Closure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fractal Concept",
+      "card_id": "fractal_model",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Bias",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "change_in_state_of_delivery_csd",
+    "fair_value_gap_fvg",
+    "equilibrium_eq",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "fractal_model",
+    "liquidity_sweep"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "1D / 1H",
+  "market_context": "GBPUSD日线形成理想三号收盘和新受保护摆动，确立看涨偏差。价格从日线高点1.34800回撤至1.30200附近，随后在小时线上展开反弹。",
+  "key_observation": "日线确立看涨结构后，小时线价格触及前一日高点（约1.33900）形成交付状态改变（CSD），随后多次扫盘EQ和FVG区域，最终突破形成理想三号收盘信号，预示延续上行。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别理想三号收盘和新受保护摆动，确立看涨偏差。",
+    "Step 2: 下降到小时线，标记前一日高点（约1.33900）作为关键参考位。",
+    "Step 3: 观察价格开盘后走低，尊重EQ（约1.33400），符合看涨延续的预期形态。",
+    "Step 4: 识别价格触及前一日高点后形成的交付状态改变（CSD），判断为回撤而非反转。",
+    "Step 5: 追踪价格向下的第一波动，可交易回撤至EQ或关键兴趣点。",
+    "Step 6: 观察小时线形成小幅整理，随后扫盘公允价值缺口（FVG）。",
+    "Step 7: 识别第二次扫盘后形成的理想三号收盘和交付状态改变，确认延续上行信号。",
+    "Step 8: 可在第三根K线开盘时入场做多，或下降到5分钟寻找第三根K线延续。",
+    "Step 9: 确认这是日线范围内的分形概念应用，保持与日线看涨偏差一致。"
+  ],
+  "outcome": "价格在小时线上形成理想三号收盘后延续上行，突破前期高点，目标指向更高价位。交易设置显示止损0.00168（0.126%），目标0.00229（0.171%），风险回报比1:1.36。",
+  "lessons": "在多时间框架分析中，高时间框架（日线）的偏差确立是关键；低时间框架（小时线）的交付状态改变和理想三号收盘提供精确入场点；多次扫盘FVG和EQ后的突破具有更高的延续概率；保持与高时间框架偏差一致是成功交易的前提。",
+  "primary_image": "cards/-KKuZb5Z5aU/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/-KKuZb5Z5aU/images/case_004_detail_1.jpg",
+    "cards/-KKuZb5Z5aU/images/case_004_detail_2.jpg",
+    "cards/-KKuZb5Z5aU/images/case_004_detail_3.jpg",
+    "cards/-KKuZb5Z5aU/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "GBPUSD 1 小时 K 线图，图右下角标注平台为 TTrades.com。可见价格范围约从 1.33050 至 1.34150。图上有三个矩形标注区域：黄色矩形覆盖约 1.33550 至 1.33800 区间，浅绿色矩形覆盖约 1.33719 至 1.33900 区间，浅灰色矩形覆盖约 1.33500 至 1.33719 区间。图上显示三个交易信息标签：Target 标注 0.00229（0.",
+    "case_004_detail_1.jpg": "GBPUSD 日线蜡烛图，价格范围约从 1.30000 至 1.34800。图上有一条贯穿全图的虚线水平线，对应价格 1.31182，右侧标注数值。时间轴从 2025 年 10 月初延伸至 2026 年 1 月中旬。图左侧 K 线集中于 1.34000 至 1.34800 区域，随后出现一段向下的 K 线序列，最低延伸至约 1.30200，之后 K 线在 1.30200 至 1.31800 区间内",
+    "case_004_detail_2.jpg": "图为 GBPUSD 1 小时 K 线图，来自 TTrades.com 平台。可见价格范围约从 1.32800 至 1.34300。图右侧有一根较大的绿色 K 线，实体从约 1.33300 延伸至 1.33900。图上有一条水平连线标注，连接左侧约 1.33900 高点区域与右侧同价位，形成水平括号形态。另有一条虚线水平线位于约 1.33400 处。图右侧当前价格标签显示 1.34059。图中部左侧",
+    "case_004_detail_3.jpg": "图表为 GBPUSD 1 小时 K 线图，来自 TTrades.com 平台。可见价格范围约从 1.32800 至 1.34300。图上有一条实线水平线位于约 1.33800 处，以及一条虚线水平线位于约 1.33400 处，两条线均延伸至图右侧。图中约日期标签 9 处出现低点约 1.32900，随后一系列绿色 K 线向上延伸至约 1.33900 区域。日期标签 11 附近出现一根大绿色 K 线，",
+    "case_004_detail_4.jpg": "图为 GBPUSD 烛形图，右上角标注 TTrades.com，左上角显示买卖价均为 1.33950，左侧价格轴当前价标签为 1.33611。图上可见价格范围约从 1.33050 至 1.34500。图中有一条实线水平线位于约 1.33800，一条虚线水平线位于约 1.33430。图中央偏左区域有一个黄色矩形框，覆盖约 1.33430 至 1.33620 的价格区间。图右侧可见两根大阳线与两根大阴"
+  },
+  "sources": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "segment_ids": [
+        "seg_013",
+        "seg_014",
+        "seg_015"
+      ],
+      "time_range": [
+        527.64,
+        671.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线到小时线的分析过程，清晰标注了关键价位（1.33900、1.33400等），详细解释了CSD、理想三号收盘等信号，并给出了具体交易结果和风险回报比。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:04:26.395144Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD日线理想三号收盘到小时线多次扫盘后延续上行\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"1D / 1H\",\"market_context\":\"GBPUSD日线形成理想三号收盘和新受保护摆动，确立看涨偏差。价格从日线高点1.34800回撤至1.30200附近，随后在小时线上展开反弹。\",\"key_observation\":\"日线确立看涨结构后，小时线价格触及前一日高点（约1.33900）形成交付状态改变（CSD），随后多次扫盘EQ和FVG区域，最终突破形成理想三号收盘信号，预示延续上行。\",\"analysis_steps\":[\"Step 1: 在日线上识别理想三号收盘和新受保护摆动，确立看涨偏差。\",\"Step 2: 下降到小时线，标记前一日高点（约1.33900）作为关键参考位。\",\"Step 3: 观察价格开盘后走低，尊重EQ（约1.33400），符合看涨延续的预期形态。\",\"Step 4: 识别价格触及前一日高点后形成的交付状态改变（CSD），判断为回撤而非反转。\",\"Step 5: 追踪价格向下的第一波动，可交易回撤至EQ或关键兴趣点。\",\"Step 6: 观察小时线形成小幅整理，随后扫盘公允价值缺口（FVG）。\",\"Step 7: 识别第二次扫盘后形成的理想三号收盘和交付状态改变，确认延续上行信号。\",\"Step 8: 可在第三根K线开盘时入场做多，或下降到5分钟寻找第三根K线延续。\",\"Step 9: 确认这是日线范围内的分形概念应用，保持与日线看涨偏差一致。\"],\"outcome\":\"价格在小时线上形成理想三号收盘后延续上行，突破前期高点，目标指向更高价位。交易设置显示止损0.00168（0.126%），目标0.00229（0.171%），风险回报比1:1.36。\",\"lessons\":\"在多时间框架分析中，高时间框架（日线）的偏差确立是关键；低时间框架（小时线）的交付状态改变和理想三号收盘提供精确入场点；多次扫盘FVG和EQ后的突破具有更高的延续概率；保持与高时间框架偏差一致是成功交易的前提。\",\"primary_image_frame_id\":\"-KKuZb5Z5aU_f022\",\"supporting_image_frame_ids\":[\"-KKuZb5Z5aU_f019\",\"-KKuZb5Z5aU_f020\",\"-KKuZb5Z5aU_f021\",\"-KKuZb5Z5aU_f023\"],\"related_concepts\":[\"Ideal Candle Three Closure\",\"Protected Swing\",\"Change in State of Delivery (CSD)\",\"Fair Value Gap (FVG)\",\"Equilibrium (EQ)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Fractal Concept\",\"Higher Time Frame Bias\",\"Liquidity Sweep\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线到小时线的分析过程，清晰标注了关键价位（1.33900、1.33400等），详细解释了CSD、理想三号收盘等信号，并给出了具体交易结果和风险回报比。\"}",
+  "error": null
+}

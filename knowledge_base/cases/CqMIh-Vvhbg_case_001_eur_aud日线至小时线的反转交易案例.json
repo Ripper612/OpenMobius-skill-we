@@ -1,0 +1,113 @@
+{
+  "card_id": "CqMIh-Vvhbg_case_001_eur_aud日线至小时线的反转交易案例",
+  "type": "case",
+  "title": "EUR/AUD日线偏差确认至小时线CSD反转交易",
+  "related_concepts": [
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "OHLC (Open High Low Close)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "swing_low_swing_high",
+    "change_in_the_state_of_delivery_csd",
+    "market_structure_shift_mss",
+    "protected_high_low",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "EUR/AUD",
+  "timeframe": "1D / 1H",
+  "market_context": "EUR/AUD在11月7日形成日线摆动点，价格从1.6320扫至1.6150后反弹。11月18日日线收盘确认偏差（swept previous day high并回收至范围内），为反转信号。",
+  "key_observation": "日线收盘确认偏差后，博主在小时线寻找CSD（交付状态改变）以确认反转。小时线显示价格穿过一系列上升收盘K线后形成受保护摆动点，为做空设置提供确认。",
+  "analysis_steps": [
+    "Step 1: 在日线识别摆动点——11月7日形成的低点（~1.6150）和随后的反弹高点",
+    "Step 2: 观察11月18日日线收盘——价格扫出前一日高点（~1.6320）后回收至范围内，确认偏差",
+    "Step 3: 下移至小时线寻找CSD确认——观察价格是否穿过一系列上升收盘K线",
+    "Step 4: 识别受保护摆动点——小时线显示高点被穿过后形成的受保护高点（~1.63550）",
+    "Step 5: 标记OHLC设置——在纽约时段等待开盘、高点、低点、收盘形态",
+    "Step 6: 执行交易——在OHLC确认后入场做空，止损设在摆动高点，目标2R"
+  ],
+  "outcome": "交易成功达到2R目标。价格在纽约时段形成OHLC后继续下行，最终触及止盈位。",
+  "lessons": "多时间框架确认的重要性：日线偏差提供方向偏差，小时线CSD提供入场确认。受保护摆动点作为止损参考。OHLC形态在纽约时段提供高概率入场机会。",
+  "primary_image": "cards/CqMIh-Vvhbg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/CqMIh-Vvhbg/images/case_001_detail_1.jpg",
+    "cards/CqMIh-Vvhbg/images/case_001_detail_2.jpg",
+    "cards/CqMIh-Vvhbg/images/case_001_detail_3.jpg",
+    "cards/CqMIh-Vvhbg/images/case_001_detail_4.jpg",
+    "cards/CqMIh-Vvhbg/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "EURAUD 1 小时 K 线图，可见价格范围约从 1.61600 至 1.63700。图上有两个矩形标注区域：一个灰色矩形覆盖约 1.63000 至 1.63550 区间，另一个青绿色矩形覆盖约 1.61900 至 1.62500 区间，青绿色矩形内有一条向下倾斜的虚线。图上另有一条蓝色水平线位于约 1.62900 处。左侧价格轴标注有 1.62795、1.62502、1.61916、1.617",
+    "case_001_detail_1.jpg": "EUR/AUD K 线图，时间轴显示从 10 月下旬至 12 月初，右侧标注资产代码 EUR/AUD。图上可见价格范围约从 1.6100 至 1.6440。左侧价格轴显示两个高亮标签：1.62854 及当前光标位置 1.62396，后者对应一条贯穿全图的水平虚线。图中 Nov 7 附近出现一根大型黑色 K 线，主体从约 1.6320 延伸至 1.6150。此后至 Nov 18 区间内，K 线交替出",
+    "case_001_detail_2.jpg": "EUR/AUD K 线图，时间轴显示从 10 月 23 日至 12 月 4 日，右下角标注资产代码 EUR/AUD。图上可见价格范围约从 1.6100 至 1.6440。左侧价格轴高亮标签显示当前价 1.62656，并有一条贯穿全图的水平虚线对应该价位。图上另有一条垂直虚线标注于 Tue 19 Nov 处。K 线序列中约 11 月 7 日处出现一根主体较长的黑色 K 线，随后数根 K 线在 1.6",
+    "case_001_detail_3.jpg": "EURAUD 1小时K线图，可见价格范围约从1.62500至1.63650。图上有一个虚线矩形框，横跨多根K线，价格区间约在1.63500至1.63550之间。图中有一条垂直虚线标注于Mon 18 Nov 06:00时刻。右侧价格轴有两个高亮标签，分别为1.63518与1.62894。图上另有一条水平蓝色线位于约1.62870处。Nov 18附近出现一根大实体阴线，从约1.63550下行至约1.6",
+    "case_001_detail_4.jpg": "EURAUD 1小时K线图，价格轴范围约从1.61900至1.63500。图上有一条蓝色水平线标注于约1.62900处，并在18日18:00附近绘制了一个小矩形框，框体覆盖约1.62850至1.62950区间内的数根小实体K线。18日早间出现一根较长的阳线，最高触及约1.63500。此后K线在1.62900附近形成数根小实体K线的横盘区域。19日至20日期间，K线整体下移，最低延伸至约1.6210",
+    "case_001_detail_5.jpg": "图表为 EURAUD 1 小时 K 线图，可见价格范围约从 1.62100 至 1.63900。图上有一条水平线位于约 1.62900 处，无文字标签。图右上角标注文字'1H-D Model'及'Bias: Neutral'。图上约 1.63580 处有文字标注'KC2'。日期 19 附近出现一根大幅绿色 K 线（从约 1.62500 延伸至 1.63100），随后紧跟一根大幅黑色 K 线收回至约"
+  },
+  "sources": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.92,
+        191.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线偏差识别、小时线CSD确认、纽约时段OHLC设置到2R目标达成的全流程，关键价位和时间点清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:28.945241Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EUR/AUD日线偏差确认至小时线CSD反转交易\",\"school\":\"ICT\",\"asset\":\"EUR/AUD\",\"timeframe\":\"1D / 1H\",\"market_context\":\"EUR/AUD在11月7日形成日线摆动点，价格从1.6320扫至1.6150后反弹。11月18日日线收盘确认偏差（swept previous day high并回收至范围内），为反转信号。\",\"key_observation\":\"日线收盘确认偏差后，博主在小时线寻找CSD（交付状态改变）以确认反转。小时线显示价格穿过一系列上升收盘K线后形成受保护摆动点，为做空设置提供确认。\",\"analysis_steps\":[\"Step 1: 在日线识别摆动点——11月7日形成的低点（~1.6150）和随后的反弹高点\",\"Step 2: 观察11月18日日线收盘——价格扫出前一日高点（~1.6320）后回收至范围内，确认偏差\",\"Step 3: 下移至小时线寻找CSD确认——观察价格是否穿过一系列上升收盘K线\",\"Step 4: 识别受保护摆动点——小时线显示高点被穿过后形成的受保护高点（~1.63550）\",\"Step 5: 标记OHLC设置——在纽约时段等待开盘、高点、低点、收盘形态\",\"Step 6: 执行交易——在OHLC确认后入场做空，止损设在摆动高点，目标2R\"],\"outcome\":\"交易成功达到2R目标。价格在纽约时段形成OHLC后继续下行，最终触及止盈位。\",\"lessons\":\"多时间框架确认的重要性：日线偏差提供方向偏差，小时线CSD提供入场确认。受保护摆动点作为止损参考。OHLC形态在纽约时段提供高概率入场机会。\",\"primary_image_frame_id\":\"CqMIh-Vvhbg_f006\",\"supporting_image_frame_ids\":[\"CqMIh-Vvhbg_f002\",\"CqMIh-Vvhbg_f003\",\"CqMIh-Vvhbg_f004\",\"CqMIh-Vvhbg_f005\",\"CqMIh-Vvhbg_f007\"],\"related_concepts\":[\"Swing Point\",\"Change in the state of delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Protected Swing\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"OHLC (Open High Low Close)\",\"Risk Management\",\"Multi-timeframe analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线偏差识别、小时线CSD确认、纽约时段OHLC设置到2R目标达成的全流程，关键价位和时间点清晰可读。\"}",
+  "error": null
+}

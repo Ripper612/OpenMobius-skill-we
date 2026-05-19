@@ -1,0 +1,51 @@
+{
+  "card_id": "bullish_and_bearish_candles",
+  "type": "merged_concept",
+  "canonical_term": "Bullish and Bearish Candles",
+  "aliases": [
+    "上升蜡烛和下降蜡烛",
+    "看涨K线和看跌K线"
+  ],
+  "school": "General",
+  "definition": "根据K线收盘价与开盘价的相对位置判断的基本K线类型。看涨K线：收盘价高于开盘价；看跌K线：收盘价低于开盘价。",
+  "identification_rules": [
+    "看跌K线：收盘价（Close）低于开盘价（Open）",
+    "看涨K线：开盘价（Open）低于收盘价（Close）",
+    "每根K线都包含四个价格要素：Open、High、Low、Close，这是判断方向的基础"
+  ],
+  "trading_implication": "K线方向是交易分析的基础。看涨K线表示该时期买方占优，看跌K线表示卖方占优。结合方向性K线（directional candle）的特征——较小的上下影线相对于实体——可判断趋势强度。在多时间框架分析中，高时间框架的K线方向由低时间框架K线序列形成，帮助交易者确认趋势方向和预期下一根K线的形态。",
+  "common_mistakes": [
+    "材料未明确提到常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "sIcsLFSNoXM",
+      "original_card_id": "sIcsLFSNoXM_concept_bullish_and_bearish_candles",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.519,
+        190.959
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131378Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

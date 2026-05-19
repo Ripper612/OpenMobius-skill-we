@@ -1,0 +1,59 @@
+{
+  "card_id": "micro_contracts",
+  "type": "merged_concept",
+  "canonical_term": "Micro Contracts",
+  "aliases": [
+    "Micros",
+    "微型合约"
+  ],
+  "school": "Risk Management",
+  "definition": "期货微型合约，标的资产价值为迷你合约的十分之一，允许交易者通过调整合约数量实现更精确的头寸规模和风险控制。",
+  "identification_rules": [
+    "微型合约的名称通常在迷你合约代码前加字母M（如MNQ为微型纳斯达克，NQ为迷你纳斯达克）",
+    "微型合约的每点价值为对应迷你合约的十分之一（如MNQ每点$2，NQ每点$20）",
+    "微型合约允许取小数位数量（如28.5微型合约），而迷你合约只能取整数"
+  ],
+  "trading_implication": "微型合约在固定美元风险头寸规模策略中提供更高的灵活性。当计算所需合约数量时，如果迷你合约结果为非整数（如2.5或1.25），可通过微型合约实现精确头寸。例如，2.5迷你合约等于25微型合约，1.25迷你合约等于12.5微型合约。这使交易者能更接近目标风险金额，避免因四舍五入导致的风险偏差。",
+  "common_mistakes": [
+    "混淆微型合约与迷你合约的价值比例，导致头寸规模计算错误",
+    "未意识到微型合约允许小数位数量，仍按迷你合约的整数逻辑进行头寸调整"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0OjlQ91TZiU_case_002_固定美元风险改善交易结果的案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "固定美元风险vs固定合约数：连续亏损后的翻盘案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "original_card_id": "0OjlQ91TZiU_concept_micro_contracts",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        190.799,
+        559.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134090Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

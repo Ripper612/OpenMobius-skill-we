@@ -1,0 +1,366 @@
+{
+  "card_id": "box_setup",
+  "type": "merged_concept",
+  "canonical_term": "Box Setup",
+  "aliases": [
+    "Accumulation Box",
+    "Box Entry",
+    "Box Entry Model",
+    "Box Range Setup",
+    "Consolidation Box",
+    "Previous Body Setup",
+    "Range Box",
+    "Range Setup",
+    "价格框架设置",
+    "偏离-回测框架",
+    "盒形设置"
+  ],
+  "school": "ICT",
+  "definition": "标记盘整区间K线实体高低点形成的交易框架，基于积累-操纵-派发周期。识别价格激进突破区间后的回测，在回测至盘整边界、FVG、OB或折价区时寻找入场点，止损设于区间另一侧，目标指向对立方向流动性或标准差投影。",
+  "identification_rules": [
+    "用K线实体（不含影线）的最高点和最低点标记盘整区间的上下边界，确保为多根K线形成的明确区间",
+    "识别激进突破：价格快速穿出盘整区间，通常伴随FVG形成，突破需有明显力度和速度",
+    "识别激进回测：价格随后快速回到盘整区间附近，再次伴随FVG或BPR形成",
+    "在回测处寻找入场：价格重新测试盘整边界、FVG、OB或折价区时作为多头或空头入场点",
+    "若难以识别明确区间，可在Displacement发生后向左看，标记被突破的旧高点或低点作为Box参考水平",
+    "可选：标记前一根K线的收盘价或实体低点作为Box参考水平，等待价格回测该水平",
+    "可选：将操纵腿投影回原区间，确定潜在目标位（通常对应前期高点、FVG或-2至-2.5标准差）",
+    "使用高时间框架（1小时、4小时、日线）确定交易偏向，在低时间框架（15分钟、5分钟、30秒）执行具体入场",
+    "确认价格处于折价区（做多）或溢价区（做空），避免在不利区域入场"
+  ],
+  "trading_implication": "Box Setup用于在AMD周期中定位积累阶段并捕捉激进突破后的回测入场机会。高时间框架确认偏向和目标，低时间框架等待价格回测盘整边界或相关PD阵列（FVG、OB）后入场，止损设于区间另一侧或激进运动极值，目标指向对立方向流动性、前期高低点或标准差投影，通常可获得2R以上风险回报比。也可在无低时间框架流动性扫除时灵活使用。",
+  "common_mistakes": [
+    "用K线影线而非实体标记盘整框，导致边界不准确",
+    "试图在盘整区间内交易，而非等待激进突破和回测完成",
+    "过度关注盘整区间本身，忽视激进突破和回测的动作质量",
+    "突破或回测动作不够激进，无法形成有效的wick结构，降低设置有效性",
+    "未等待CSD、MSS或Order Block确认就仓促入场",
+    "未等待收盘确认就入场，导致被假突破扫出",
+    "忽视价格是否处于折价区或溢价区，在不利位置入场",
+    "在没有明确止损点或结构转变参考的情况下使用Box Setup",
+    "忽视AMD模式中的操纵阶段，误认为操纵后立即分布而错过真正入场机会",
+    "在高时间框架执行Box Setup而非低时间框架，导致风险过大",
+    "忽视FVG和BPR的存在，未能正确识别回测的精确位置",
+    "未能结合标准差投影或其他目标工具，导致目标位设置不当",
+    "不区分不同交易时段的流动性差异，导致目标已被扫除后仍入场",
+    "混淆Box Setup与Inducement——Box Setup需要激进的出入，Inducement是虚假突破后的反向运行",
+    "混淆Box的最高/最低实体与高/低影线，导致目标计算错误",
+    "在买方曲线上做空、在卖方曲线上做多，导致价格穿过预期反转点继续运行"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Accumulation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD",
+      "card_id": "power_of_3_amd",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0xygpCMwxbQ_case_004_nasdaq_1分钟图表的box_setup交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 1分钟Box Setup交易——无结构转变的范围突破"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_004_nq11月1日box_setup与订单块结合案例",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ1! 11月1日Box Setup与订单块结合做多案例"
+    },
+    {
+      "card_id": "E6bpY4dQvlE_case_001_s_p_500_e_mini期货15秒图box_setup交易案",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES E-mini期货15秒图Box Setup做多交易案例"
+    },
+    {
+      "card_id": "E6bpY4dQvlE_case_002_s_p_500_e_mini期货15秒图多个box_setup示",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES期货15秒图Box Setup多周期分析与买方曲线入场"
+    },
+    {
+      "card_id": "FXJBFbZQbck_case_005_8_30新闻操纵后的amd分布交易",
+      "video_id": "FXJBFbZQbck",
+      "title": "8:30新闻操纵后的ETH分布交易"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_001_e_mini_s_p_500期货_1小时_box_setup案例",
+      "video_id": "HFfChGFHD44",
+      "title": "ES 1H Box Setup：区间突破回测与偏差重测交易"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_002_e_mini_s_p_500期货_15分钟_box_setup案",
+      "video_id": "HFfChGFHD44",
+      "title": "ES 15分钟 低点Box Setup：激进下行后激进回升"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_003_e_mini_s_p_500期货_15分钟_box_setup案",
+      "video_id": "HFfChGFHD44",
+      "title": "ES 15分钟 Box Setup案例3：高点激进回入与2R目标设置"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_004_e_mini_s_p_500期货_1分钟_box_setup案例",
+      "video_id": "HFfChGFHD44",
+      "title": "1分钟Box Setup做空案例：高点回落产生5R+收益"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_005_e_mini_s_p_500期货_1分钟_使用影线的box_se",
+      "video_id": "HFfChGFHD44",
+      "title": "E-MINI S&P 500期货 1分钟 使用影线标记Box Setup低点案例"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_003_多时段amd案例_亚洲_伦敦_纽约",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "NQ11多时段AMD模式：亚洲积累-伦敦操纵-纽约派发"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_001_纽约开盘后的_6_分钟图_amd_案例",
+      "video_id": "TCFvsZeYvV8",
+      "title": "纽约开盘后 NQ 6分钟图：AMD模式中的反转与Box Setup做多"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_005_1_分钟图中的新日开盘缺口与多层_amd",
+      "video_id": "TCFvsZeYvV8",
+      "title": "1分钟新日开盘缺口中的多层AMD与标准差投影"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_008_日线收盘形成与派发完成",
+      "video_id": "TCFvsZeYvV8",
+      "title": "日线AMD模式：午夜操纵形成下影线，派发完成实体"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_004_新闻事件前后的扩张形态演变",
+      "video_id": "Tjk9bXERZy0",
+      "title": "新闻事件前后的扩张形态演变与Power of 3应用"
+    },
+    {
+      "card_id": "yq4Z7q4E6nU_case_001_标普500期货从3876下跌至3818的bpr交易案例",
+      "video_id": "yq4Z7q4E6nU",
+      "title": "ES期货3876-3818下跌中的BPR交易设置"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "original_card_id": "0xygpCMwxbQ_concept_box_setup",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        548.1
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "CHIK5oBRKiw",
+      "original_card_id": "CHIK5oBRKiw_concept_box_setup",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        666.12,
+        945.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "E6bpY4dQvlE",
+      "original_card_id": "E6bpY4dQvlE_concept_box_setup",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        401.3
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FXJBFbZQbck",
+      "original_card_id": "FXJBFbZQbck_concept_box_setup",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        506.36,
+        738.959
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "HFfChGFHD44",
+      "original_card_id": "HFfChGFHD44_concept_box_setup",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        508.139
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Pcbyc9TdNsU",
+      "original_card_id": "Pcbyc9TdNsU_concept_box_setup",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        234.0,
+        593.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_box_setup",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        216.239,
+        375.44
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "q40pRwjuPYQ",
+      "original_card_id": "q40pRwjuPYQ_concept_box_setup",
+      "segment_ids": [
+        "seg_005",
+        "seg_008"
+      ],
+      "time_range": [
+        418.599,
+        787.199
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 8,
+    "source_videos": 8,
+    "high_confidence_sources": 7,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:35.360119Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 4"
+  ],
+  "merge_notes": "8张原始卡均标注ICT，school无冲突。各卡侧重点略有差异：部分强调盘整框标记，部分强调激进突破回测，部分强调前K线实体参考水平，已综合为统一框架。",
+  "error": null
+}

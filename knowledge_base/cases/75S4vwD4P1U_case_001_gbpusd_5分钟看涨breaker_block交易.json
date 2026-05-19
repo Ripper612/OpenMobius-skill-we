@@ -1,0 +1,94 @@
+{
+  "card_id": "75S4vwD4P1U_case_001_gbpusd_5分钟看涨breaker_block交易",
+  "type": "case",
+  "title": "GBPUSD 5分钟看涨Breaker Block识别与回测",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "market_structure",
+    "swing_formation"
+  ],
+  "school": "ICT",
+  "asset": "GBPUSD",
+  "timeframe": "5M",
+  "market_context": "GBPUSD在2023年12月27日形成低-高-低-高结构，价格从约1.27500下跌至1.26980，随后反弹并突破前高，形成看涨Breaker Block形态。",
+  "key_observation": "博主识别出GBPUSD 5分钟图上的完整低-高-低-高结构，标记出Breaker Block区域（约1.27060-1.27140），价格回测该区域后继续上行，验证了看涨信号。",
+  "analysis_steps": [
+    "Step 1: 在GBPUSD 5分钟图上识别初始摆动低点（约1.27040）",
+    "Step 2: 确认摆动高点形成（约1.27375）",
+    "Step 3: 识别更低的摆动低点（约1.26980），确认Lower Low",
+    "Step 4: 确认更高的摆动高点（约1.27380），完成Higher High",
+    "Step 5: 标记Low-High-Lower Low-Higher High之间的一系列上升收盘K线为Breaker Block区域",
+    "Step 6: 观察价格回测Breaker Block区域（约1.27060-1.27140）的反应",
+    "Step 7: 确认价格在Breaker Block处获得支撑并继续上行"
+  ],
+  "outcome": null,
+  "lessons": "看涨Breaker Block形态由Low-High-Lower Low-Higher High四个结构点组成，Breaker Block区域由这四点之间的上升收盘K线标记。当价格回测该区域时，机构订单在此处提供支撑，推动价格继续上行，形成高概率交易机会。",
+  "primary_image": "cards/75S4vwD4P1U/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/75S4vwD4P1U/images/case_001_detail_1.jpg",
+    "cards/75S4vwD4P1U/images/case_001_detail_2.jpg",
+    "cards/75S4vwD4P1U/images/case_001_detail_3.jpg",
+    "cards/75S4vwD4P1U/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "GBPUSD 5 分钟 K 线图，日期标注为 27/12/2023，图右下角显示平台标识 TTrader_edu。可见价格范围约从 1.26940 到 1.27320。图上有三个橙色圆点标记，分别位于约 03:30 附近 1.27380 处、约 04:00 附近 1.27060 处、约 04:30 附近 1.26980 处。图中央有一个浅灰色矩形框，横跨约 04:30 至 05:30 时间段，价格",
+    "case_001_detail_1.jpg": "图表顶部标注文字为'Bullish Breaker Block'。图上呈现一段K线序列，整体走势先从左上方向下延伸至中部低点，再从低点向右上方回升。图中央绘有一个灰色填充矩形区域，横跨低点附近数根K线，矩形下边界处有一条虚线水平线。绿色K线与黑色K线交替出现于下降与上升两段序列中。图上无价格刻度数字，无资产代码及时间框架标注。",
+    "case_001_detail_2.jpg": "图为教学示意性 K 线图，顶部标题栏标注'Bullish Breaker Block'。图上共有约 12 根 K 线，绿色与黑色交替排列，无具体价格刻度。图上以带箭头文字标注四个结构点：'High'（向下箭头）、'Low'（向上箭头）、'Higher High'（向下箭头）、'Lower Low'（向上箭头）。'Low'处有一条水平虚线延伸。图中央有一个灰色矩形区域横跨约 4 至 5 根 K 线宽",
+    "case_001_detail_3.jpg": "GBPUSD 5 分钟 K 线图，日期为 2023 年 12 月 27 日。图右侧价格刻度范围约从 1.26940 至 1.27760。图左侧 K 线在 1.27280 至 1.27760 区间内横向排列，随后出现一段连续阴线，K 线从约 1.27340 向下延伸至约 1.27040。图上可见两个橙色小圆点标记，分别位于约 1.27120 和 1.27040 价位处。当前价格标签显示约 1.270",
+    "case_001_detail_4.jpg": "GBPUSD 5 分钟 K 线图，日期标注为 27/12/2023，图右上角显示水印文字 TTrader_edu。可见价格范围约从 1.26940 至 1.27820。图中部出现一段连续阴线，从约 1.27500 向下延伸至约 1.26980。图上有一个浅灰色矩形框，覆盖约 1.27060 至 1.27140 的价格区间，向右延伸至图表右侧。图上另有三个橙色圆点标记，分别位于约 1.27375、1"
+  },
+  "sources": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.44,
+        193.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了GBPUSD 5分钟Breaker Block的识别过程，包括具体价位、结构点标记、K线形态和价格回测反应，所有关键信息均从图表和讲解中清晰读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:03.217353Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"GBPUSD 5分钟看涨Breaker Block识别与回测\",\"school\":\"ICT\",\"asset\":\"GBPUSD\",\"timeframe\":\"5M\",\"market_context\":\"GBPUSD在2023年12月27日形成低-高-低-高结构，价格从约1.27500下跌至1.26980，随后反弹并突破前高，形成看涨Breaker Block形态。\",\"key_observation\":\"博主识别出GBPUSD 5分钟图上的完整低-高-低-高结构，标记出Breaker Block区域（约1.27060-1.27140），价格回测该区域后继续上行，验证了看涨信号。\",\"analysis_steps\":[\"Step 1: 在GBPUSD 5分钟图上识别初始摆动低点（约1.27040）\",\"Step 2: 确认摆动高点形成（约1.27375）\",\"Step 3: 识别更低的摆动低点（约1.26980），确认Lower Low\",\"Step 4: 确认更高的摆动高点（约1.27380），完成Higher High\",\"Step 5: 标记Low-High-Lower Low-Higher High之间的一系列上升收盘K线为Breaker Block区域\",\"Step 6: 观察价格回测Breaker Block区域（约1.27060-1.27140）的反应\",\"Step 7: 确认价格在Breaker Block处获得支撑并继续上行\"],\"outcome\":null,\"lessons\":\"看涨Breaker Block形态由Low-High-Lower Low-Higher High四个结构点组成，Breaker Block区域由这四点之间的上升收盘K线标记。当价格回测该区域时，机构订单在此处提供支撑，推动价格继续上行，形成高概率交易机会。\",\"primary_image_frame_id\":\"75S4vwD4P1U_f006\",\"supporting_image_frame_ids\":[\"75S4vwD4P1U_f002\",\"75S4vwD4P1U_f003\",\"75S4vwD4P1U_f004\",\"75S4vwD4P1U_f005\"],\"related_concepts\":[\"Breaker Block\",\"Order Block\",\"Market Structure\",\"Swing High\",\"Swing Low\",\"Price Action\",\"Support and Resistance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了GBPUSD 5分钟Breaker Block的识别过程，包括具体价位、结构点标记、K线形态和价格回测反应，所有关键信息均从图表和讲解中清晰读出。\"}",
+  "error": null
+}

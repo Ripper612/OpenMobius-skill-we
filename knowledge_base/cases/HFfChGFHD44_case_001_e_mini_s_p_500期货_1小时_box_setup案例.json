@@ -1,0 +1,122 @@
+{
+  "card_id": "HFfChGFHD44_case_001_e_mini_s_p_500期货_1小时_box_setup案例",
+  "type": "case",
+  "title": "ES 1H Box Setup：区间突破回测与偏差重测交易",
+  "related_concepts": [
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "box_setup",
+    "displacement",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "order_block",
+    "power_of_3_indicator",
+    "fair_value_gap"
+  ],
+  "school": "ICT",
+  "asset": "ES (E-MINI S&P 500 FUTURES)",
+  "timeframe": "1H",
+  "market_context": "价格在约3979（Buyside Liquidity）和3891（Sellside Liquidity）之间形成交易区间，随后出现激进突破和回到区间的典型Box Setup形态。",
+  "key_observation": "Box Setup的核心是：存在静止流动性（旧高点或低点）→ 激进突破出区间 → 回到区间内重测偏差区域。这个形态对应Power of 3的积累-操纵-派发模式。",
+  "analysis_steps": [
+    "Step 1: 识别交易区间的高点（约3979）和低点（约3891），标记为Buyside和Sellside Liquidity。",
+    "Step 2: 观察价格是否出现激进的突破移动（displacement）离开区间。",
+    "Step 3: 确认价格是否激进地回到区间内，这形成了高时间框架上的wick结构。",
+    "Step 4: 在偏差区域（区间高点上方或低点下方）寻找重测点作为潜在入场位置。",
+    "Step 5: 设置止损在当前高点/低点，目标指向区间另一侧的流动性。",
+    "Step 6: 通过多个案例演示该设置在不同市场结构中的应用（上升趋势、下降趋势、盘整后突破）。"
+  ],
+  "outcome": null,
+  "lessons": "Box Setup的有效性取决于突破的激进程度和回到区间的速度。激进的出入是形成高时间框架wick的关键。风险管理应将止损放在当前极值，目标是对面的流动性池。该设置本质上是Power of 3模式的应用。",
+  "primary_image": "cards/HFfChGFHD44/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/HFfChGFHD44/images/case_001_detail_1.jpg",
+    "cards/HFfChGFHD44/images/case_001_detail_2.jpg",
+    "cards/HFfChGFHD44/images/case_001_detail_3.jpg",
+    "cards/HFfChGFHD44/images/case_001_detail_4.jpg",
+    "cards/HFfChGFHD44/images/case_001_detail_5.jpg",
+    "cards/HFfChGFHD44/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 E-MINI S&P 500 期货（2023年6月）1小时 K 线图，交易所为 CME_MINI。可见价格范围约从 4127.5 至 4205.0。图上绘有一个红色边框矩形，横跨约日期17至19，价格区间约 4141 至 4187.5。图右侧有两个填色矩形：上方为粉色矩形，价格区间约 4187.5 至 4198；下方为浅绿色矩形，价格区间约 4141 至 4187.5。右侧价格轴上可见三个",
+    "case_001_detail_1.jpg": "图表为 E-MINI S&P 500 FUTURES（JUN 2023）1 小时线图，图表类型为折线图。图上标注两条红色水平线：约 3979 处标记为 Buyside Liquidity，约 3893 处标记为 Sellside Liquidity。折线从图左侧约 3830 上升至约 4000 后回落，再经历一段区间整理后下行至约 3875，随后折线向上延伸至约 3955，并在该位置附近绘有一个向",
+    "case_001_detail_2.jpg": "图表为 E-MINI S&P 500 期货（JUN 2023）1 小时折线图，来自 CME_MINI。图上有两条带文字标签的虚线水平线：约 3981 处标记为 Buyside Liquidity，约 3891 处标记为 Sellside Liquidity。图上绘有两个粉色矩形框：一个位于 Buyside Liquidity 水平线附近的高点区域（约 3975 至 4005），另一个位于 Sell",
+    "case_001_detail_3.jpg": "图表资产为 E-MINI S&P 500 FUTURES（JUN 2023），时间框架 1 小时，来自 CME_MINI。图上主体内容为四幅排列成 2×2 网格的示意性折线图，背景为白色。每幅示意图均包含一条锯齿形折线及一条带有文字标签\"Buyside Liquidity\"的水平虚线，虚线位于某一摆动高点处。四幅图均以向下箭头结尾。左上与右上两幅示意图在最终高点区域各有一个粉色矩形框标注，右上图矩",
+    "case_001_detail_4.jpg": "图表为 E-MINI S&P 500 期货（2023年6月）1小时线图，画面中央区域以2×2网格排列四个示意性折线图面板。每个面板均包含一条标注为 Buyside",
+    "case_001_detail_5.jpg": "图表为 E-MINI S&P 500 期货（2023年6月）1小时 K 线图，交易所标注为 CME_MINI。图右侧价格轴可见范围约从 4130 至 4207.50，当前价格标签显示 4192.75。图上有两条红色水平线，一条位于约 4188 处，另一条位于约 4141 处，两条线均横跨图表可见区域。日期 15 附近出现一根大阴线，从约 4188 下行至约 4141。此后 K 线在约 4155 至",
+    "case_001_detail_6.jpg": "图为 E-MINI S&P 500 期货（ES）1 小时 K 线图，可见价格范围约 4130 至 4205。图上有两条横跨全图的红色水平线，分别位于约 4187.5 和 4141.0。图上另有一个粉色矩形框，覆盖约 4187.5 至 4200.0 的价格区间，水平范围从 18 Apr 延伸至约 20 Apr。18 Apr 附近出现一根较长的阴线，从约 4197 下行至约 4165。图右侧价格轴显示"
+  },
+  "sources": [
+    {
+      "video_id": "HFfChGFHD44",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        366.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了Box Setup的定义、识别标准、风险管理方法，并通过多个实际图表案例演示了该设置的应用。关键价位、分析步骤和交易逻辑都清晰可辨。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:18.653161Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 1H Box Setup：区间突破回测与偏差重测交易\",\"school\":\"ICT\",\"asset\":\"ES (E-MINI S&P 500 FUTURES)\",\"timeframe\":\"1H\",\"market_context\":\"价格在约3979（Buyside Liquidity）和3891（Sellside Liquidity）之间形成交易区间，随后出现激进突破和回到区间的典型Box Setup形态。\",\"key_observation\":\"Box Setup的核心是：存在静止流动性（旧高点或低点）→ 激进突破出区间 → 回到区间内重测偏差区域。这个形态对应Power of 3的积累-操纵-派发模式。\",\"analysis_steps\":[\"Step 1: 识别交易区间的高点（约3979）和低点（约3891），标记为Buyside和Sellside Liquidity。\",\"Step 2: 观察价格是否出现激进的突破移动（displacement）离开区间。\",\"Step 3: 确认价格是否激进地回到区间内，这形成了高时间框架上的wick结构。\",\"Step 4: 在偏差区域（区间高点上方或低点下方）寻找重测点作为潜在入场位置。\",\"Step 5: 设置止损在当前高点/低点，目标指向区间另一侧的流动性。\",\"Step 6: 通过多个案例演示该设置在不同市场结构中的应用（上升趋势、下降趋势、盘整后突破）。\"],\"outcome\":null,\"lessons\":\"Box Setup的有效性取决于突破的激进程度和回到区间的速度。激进的出入是形成高时间框架wick的关键。风险管理应将止损放在当前极值，目标是对面的流动性池。该设置本质上是Power of 3模式的应用。\",\"primary_image_frame_id\":\"HFfChGFHD44_f007\",\"supporting_image_frame_ids\":[\"HFfChGFHD44_f002\",\"HFfChGFHD44_f003\",\"HFfChGFHD44_f004\",\"HFfChGFHD44_f005\",\"HFfChGFHD44_f006\",\"HFfChGFHD44_f008\"],\"related_concepts\":[\"Box Setup\",\"Displacement\",\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Order Block\",\"Power of 3\",\"Accumulation, Manipulation, Distribution\",\"Fair Value Gap\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了Box Setup的定义、识别标准、风险管理方法，并通过多个实际图表案例演示了该设置的应用。关键价位、分析步骤和交易逻辑都清晰可辨。\"}",
+  "error": null
+}

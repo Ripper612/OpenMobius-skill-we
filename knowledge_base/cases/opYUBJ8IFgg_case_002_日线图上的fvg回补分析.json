@@ -1,0 +1,75 @@
+{
+  "card_id": "opYUBJ8IFgg_case_002_日线图上的fvg回补分析",
+  "type": "case",
+  "title": "日线图上的FVG回补分析——K线开盘后下来回补缺口",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Rebalance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1D",
+  "market_context": "S&P 500 E-mini期货在日线图上出现快速价格位移，形成公允价值缺口。价格在6月中旬大幅下跌后，进入整理区间，随后继续上升。",
+  "key_observation": "当K线快速移动时会产生FVG。博主演示了K线开盘后下来回补日线缺口，然后继续上升的过程——这是价格重新平衡的典型表现。",
+  "analysis_steps": [
+    "Step 1: 观察价格快速移动时产生的公允价值缺口（FVG）",
+    "Step 2: 识别第三根K线开盘位置及其与缺口的关系",
+    "Step 3: 确认价格在继续上升前先下来回补（rebalance）了缺口",
+    "Step 4: 在日线图上验证同样的回补模式——K线开盘后下来平衡缺口，然后继续上升"
+  ],
+  "outcome": null,
+  "lessons": "价格快速位移产生的FVG通常会被回补。K线开盘后下来回补缺口是正常的重新平衡过程，不一定预示趋势反转，价格可能在回补后继续原方向运行。这种回补行为在日线图上也适用。",
+  "primary_image": "cards/opYUBJ8IFgg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/opYUBJ8IFgg/images/case_002_detail_1.jpg",
+    "cards/opYUBJ8IFgg/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "S&P 500 E-mini Futures 日线图。图表显示从五月至七月中旬的价格走势，价格范围约从 3650 至 4432。图上有两条水平线分别标注在 3757.00 和 3714.75 处。六月中旬出现一根大幅下跌的红色 K 线，从约 4150 跌至 3750。六月中旬至七月初形成一个整理区间，K 线在 3700 至 3950 之间波动，期间多根 K 线体量较小。图上标注有文字'Rebala",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示价格范围从3748.00至3833.00。两条带\"Rebalance\"标签的灰色矩形框分别标注在3764.50至3792.50和3792.50至3820.00区间。图表左侧显示早期盘整，中部出现一根大幅下跌的红色K线，随后价格上升至图表右侧的高点。右侧价格标签显示3784.50。整体K线序列由绿色和红色K线混合组成，反映上升趋势中",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图表显示从09:30至11:40的交易时段，价格范围约3762.25至3784.00。K线序列由绿色（上涨）和红色（下跌）蜡烛交替组成。图中部分区域有灰色阴影标记，表示一个整理区间。右侧价格刻度显示当前价格标签为3762.25。图上未见其他指标或标注。"
+  },
+  "sources": [
+    {
+      "video_id": "opYUBJ8IFgg",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        77.52,
+        137.239
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰演示了5分钟和日线图上的FVG回补过程，资产、时间框架、关键价位和分析步骤都明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:13.063096Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线图上的FVG回补分析——K线开盘后下来回补缺口\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1D\",\"market_context\":\"S&P 500 E-mini期货在日线图上出现快速价格位移，形成公允价值缺口。价格在6月中旬大幅下跌后，进入整理区间，随后继续上升。\",\"key_observation\":\"当K线快速移动时会产生FVG。博主演示了K线开盘后下来回补日线缺口，然后继续上升的过程——这是价格重新平衡的典型表现。\",\"analysis_steps\":[\"Step 1: 观察价格快速移动时产生的公允价值缺口（FVG）\",\"Step 2: 识别第三根K线开盘位置及其与缺口的关系\",\"Step 3: 确认价格在继续上升前先下来回补（rebalance）了缺口\",\"Step 4: 在日线图上验证同样的回补模式——K线开盘后下来平衡缺口，然后继续上升\"],\"outcome\":null,\"lessons\":\"价格快速位移产生的FVG通常会被回补。K线开盘后下来回补缺口是正常的重新平衡过程，不一定预示趋势反转，价格可能在回补后继续原方向运行。这种回补行为在日线图上也适用。\",\"primary_image_frame_id\":\"opYUBJ8IFgg_f005\",\"supporting_image_frame_ids\":[\"opYUBJ8IFgg_f001\",\"opYUBJ8IFgg_f004\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Rebalance\",\"Displacement\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰演示了5分钟和日线图上的FVG回补过程，资产、时间框架、关键价位和分析步骤都明确。\"}",
+  "error": null
+}

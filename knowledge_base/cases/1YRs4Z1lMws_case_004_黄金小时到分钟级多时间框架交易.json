@@ -1,0 +1,121 @@
+{
+  "card_id": "1YRs4Z1lMws_case_004_黄金小时到分钟级多时间框架交易",
+  "type": "case",
+  "title": "黄金小时到分钟级多时间框架交易——OTE与FVG汇聚入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD Array)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "optimal_trade_entry_ote",
+    "displacement",
+    "liquidity",
+    "killzone",
+    "market_structure_shift_mss",
+    "breaker_block",
+    "equal_lows"
+  ],
+  "school": "ICT",
+  "asset": "XAUUSD",
+  "timeframe": "60M / 5M / 1M",
+  "market_context": "黄金在2023年6月9日伦敦盘前出现向下位移，小时图显示价格从约1927.500跌至1922.668附近，形成新低后调整。博主利用多时间框架分析寻找精确入场点。",
+  "key_observation": "小时图OTE与FVG在1925.500-1926.750区间汇聚，价格在5分钟图中创造等低点产生流动性，进入伦敦盘杀戮区后在1分钟图订单块处形成高概率入场信号。",
+  "analysis_steps": [
+    "Step 1: 在小时图上识别向下位移（Displacement），调整斐波那契回撤工具标记OTE与FVG汇聚区域（约1925.500-1927.500）。",
+    "Step 2: 观察价格在该区域的反应，发现Breaker块形成，确认这是关键支撑区。",
+    "Step 3: 下探5分钟图，观察价格创造等低点（Equal Lows）产生流动性的行为。",
+    "Step 4: 注意到价格首次上升至0.79斐波那契水平（约1927.500）但仍在杀戮区外，暂不交易。",
+    "Step 5: 等待进入伦敦盘杀戮区（Killzone），价格再次上升触及0.79水平，此时在杀戮区内。",
+    "Step 6: 观察5分钟图形成新的FVG，价格从该FVG下方产生位移。",
+    "Step 7: 下探1分钟图，识别一根完整的1分钟K线上升进入5分钟FVG后产生向下位移。",
+    "Step 8: 在1分钟图订单块（Order Block）处设置入场，止损设在该订单块高点，目标指向伦敦盘前形成的低点（约1922.668）。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架交易的关键是从高时间框架（HTF）识别OTE与FVG汇聚的关键区域，然后逐级下探低时间框架（LTF）观察价格行为确认，最后在最低时间框架的订单块处精确入场。时间窗口（Killzone）的选择同样重要——避免在非活跃时段交易，等待市场流动性充足的时段。",
+  "primary_image": "cards/1YRs4Z1lMws/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/1YRs4Z1lMws/images/case_004_detail_1.jpg",
+    "cards/1YRs4Z1lMws/images/case_004_detail_2.jpg",
+    "cards/1YRs4Z1lMws/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "XAUUSD 1 分钟 K 线图，时间范围为 2023 年 6 月 9 日 04:30 至 10:30。图右侧价格轴显示范围约 1922.0 至 1927.4。图上有多条水平线，标注价格包括 1926.404、1925.320、1924.740、1922.668。右侧轴另有三个斐波那契数值标注：0.79、0.62、0.5。图上有两个矩形框：左侧绿色矩形覆盖约 04:30 至 05:30 时段、价格",
+    "case_004_detail_1.jpg": "XAUUSD 60 分钟 K 线图，日期标注为 2023 年 9 月 6 日。图上可见价格范围约从 1919.000 到 1934.000。图中绘制有斐波那契回撤工具，标注水平线包括 0.79、0.705、0.62 和 0.5 四个层级，分布在约 1925.000 至 1927.500 区间内。图中央区域有一矩形框覆盖约 1925.500 至 1928.500 范围。K 线序列中出现两根连续绿色 ",
+    "case_004_detail_2.jpg": "XAUUSD 5 分钟 K 线图，日期标注为 6/9/2023，来源标注为 TTrades_edu。图右侧可见四条斐波那契水平线，标注数值分别为 0.5（约 1925.500）、0.62（约 1926.000）、0.705（约 1926.750）、0.79（约 1927.500），另有多条虚线水平线分布于 1926.500 至 1927.000 区间。图中 04:00 至 05:30 时段有一个绿",
+    "case_004_detail_3.jpg": "XAUUSD 5 分钟 K 线图，日期为 2023 年 6 月 9 日，可见价格范围约 1921.500 至 1929.000。图上有一个绿色填充矩形框，覆盖约 04:00 至 06:00 时段、价格区间约 1922.500 至 1924.500。图右侧标注有四条斐波那契水平虚线，标签分别为 0.79（约 1927.500）、0.69（约 1927.000）、0.62（约 1926.500）、0."
+  },
+  "sources": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        443.28,
+        572.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从小时图到5分钟图再到1分钟图的分析过程，清晰标注了关键价位、时间窗口、入场点和止损位置，逻辑链条完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:16:07.126552Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金小时到分钟级多时间框架交易——OTE与FVG汇聚入场\",\"school\":\"ICT\",\"asset\":\"XAUUSD\",\"timeframe\":\"60M / 5M / 1M\",\"market_context\":\"黄金在2023年6月9日伦敦盘前出现向下位移，小时图显示价格从约1927.500跌至1922.668附近，形成新低后调整。博主利用多时间框架分析寻找精确入场点。\",\"key_observation\":\"小时图OTE与FVG在1925.500-1926.750区间汇聚，价格在5分钟图中创造等低点产生流动性，进入伦敦盘杀戮区后在1分钟图订单块处形成高概率入场信号。\",\"analysis_steps\":[\"Step 1: 在小时图上识别向下位移（Displacement），调整斐波那契回撤工具标记OTE与FVG汇聚区域（约1925.500-1927.500）。\",\"Step 2: 观察价格在该区域的反应，发现Breaker块形成，确认这是关键支撑区。\",\"Step 3: 下探5分钟图，观察价格创造等低点（Equal Lows）产生流动性的行为。\",\"Step 4: 注意到价格首次上升至0.79斐波那契水平（约1927.500）但仍在杀戮区外，暂不交易。\",\"Step 5: 等待进入伦敦盘杀戮区（Killzone），价格再次上升触及0.79水平，此时在杀戮区内。\",\"Step 6: 观察5分钟图形成新的FVG，价格从该FVG下方产生位移。\",\"Step 7: 下探1分钟图，识别一根完整的1分钟K线上升进入5分钟FVG后产生向下位移。\",\"Step 8: 在1分钟图订单块（Order Block）处设置入场，止损设在该订单块高点，目标指向伦敦盘前形成的低点（约1922.668）。\"],\"outcome\":null,\"lessons\":\"多时间框架交易的关键是从高时间框架（HTF）识别OTE与FVG汇聚的关键区域，然后逐级下探低时间框架（LTF）观察价格行为确认，最后在最低时间框架的订单块处精确入场。时间窗口（Killzone）的选择同样重要——避免在非活跃时段交易，等待市场流动性充足的时段。\",\"primary_image_frame_id\":\"1YRs4Z1lMws_f020\",\"supporting_image_frame_ids\":[\"1YRs4Z1lMws_f017\",\"1YRs4Z1lMws_f018\",\"1YRs4Z1lMws_f019\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Optimal Trade Entry (OTE)\",\"Displacement\",\"Liquidity\",\"Killzone\",\"Market Structure Shift (MSS)\",\"Breaker Block\",\"Equal Lows\",\"Premium/Discount Array (PD Array)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从小时图到5分钟图再到1分钟图的分析过程，清晰标注了关键价位、时间窗口、入场点和止损位置，逻辑链条完整。\"}",
+  "error": null
+}

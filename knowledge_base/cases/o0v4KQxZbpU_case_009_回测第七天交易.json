@@ -1,0 +1,111 @@
+{
+  "card_id": "o0v4KQxZbpU_case_009_回测第七天交易",
+  "type": "case",
+  "title": "回测第七天：FVG入场做空未成交",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "breaker_block",
+    "mitigation_block",
+    "displacement",
+    "market_structure_shift",
+    "liquidity",
+    "killzone"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1D",
+  "market_context": "NAS100在日线上升趋势中，价格从14850上升至15370附近。博主在第七天回测中观察到价格扫高后下跌，寻找做空机会。",
+  "key_observation": "价格在高点附近形成Displacement后回落，博主识别出Fair Value Gap和Breaker Block作为潜在入场点，但FVG入场未被触发。",
+  "analysis_steps": [
+    "Step 1: 观察价格扫高后的结构破坏，确认没有真正的Displacement，只是等高（equal highs）。",
+    "Step 2: 标记9:00 a.m.蜡烛的高点和低点作为参考水平。",
+    "Step 3: 识别下跌蜡烛前的支撑蜡烛，观察其是否支撑价格上升。",
+    "Step 4: 在价格收盘低于支撑蜡烛后，计划使用Mitigation/Breaker Block内的Order Block作为入场点。",
+    "Step 5: 设置止损在蜡烛高点，目标设在蜡烛另一侧。",
+    "Step 6: 将止损移至盈亏平衡点（break even）以保护交易。",
+    "Step 7: 在11:00 a.m.窗口期间检查是否有扫荡（sweep），未发现则继续观察。",
+    "Step 8: 次日标记9:00 a.m.高点和低点，观察是否出现扫荡。",
+    "Step 9: 识别Fair Value Gap作为首选入场点，但该入场未被触发。",
+    "Step 10: 确认如果使用Breaker Block入场会被成交，但由于坚持FVG入场而未执行。"
+  ],
+  "outcome": "Fair Value Gap入场未被触发（leaves without us），交易未成交。如果使用Breaker Block入场则会被成交，但博主选择等待FVG入场导致错过机会。",
+  "lessons": "严格的入场规则可能导致错过交易机会。在多个有效入场点之间需要权衡：坚持最优入场点（FVG）vs.确保进场执行（Breaker Block）。了解备选入场点的重要性。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_009_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_009_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_009_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_009_detail_3.jpg",
+    "cards/o0v4KQxZbpU/images/case_009_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_009_primary.jpg": "NAS100 日线图。图上有多条水平线标注在 15370、15320、15200、15100、15040 等价格位置。两个矩形区域分别标记为'FVG - Imbalance'，其中一个位于 15280 至 15320 区间（粉色背景），另一个位于 15100 至 15200 区间（浅蓝色背景）。可见价格范围从 15040 至 15370。右侧显示一根大型绿色 K 线从约 15100 上升至 153",
+    "case_009_detail_1.jpg": "NAS100 日线图。图表显示从左至右的价格走势，可见价格范围约从 14850 到 15112。图上有多条水平线标注，其中两条矩形框分别标记在 15068-15075 区间和 14985-15000 区间。K 线序列显示初期多根绿色蜡烛，中段出现一系列黑色蜡烛表现下行，后期再次出现绿色蜡烛。各根 K 线的上下影线长度不一。右侧价格刻度清晰显示数值标记。",
+    "case_009_detail_2.jpg": "NAS100 1小时K线图。图上显示约20根K线，价格范围从14671.83至15302.00。K线呈绿色和黑色混合，多数具有上下影线。图上标注有两个矩形区域，分别位于下方（约14671-15044）和上方（约14894-15302）。右侧价格刻度清晰显示多个价格水平。图表底部显示时间轴，当前时间标记在15:10附近。未见其他指标或额外标注。",
+    "case_009_detail_3.jpg": "NAS100 日线图。图上显示从约 14900 至 15398 的上升趋势。可见一个灰色矩形标注区域位于 15210 至 15348 之间。图上有三条水平线分别标记在 15348、15210 和 15312 处。K 线序列中绿色蜡烛占多数，黑色蜡烛分散分布。图表下方显示成交量柱状图。右侧价格刻度清晰可读。",
+    "case_009_detail_4.jpg": "NAS100 1 分钟 K 线图。图上显示从约 15500 至 15677 的上升趋势，跨越多根 K 线。绿色 K 线占主体，黑色 K 线穿插其中。右侧价格轴标注三个水平价格位：15677.000000、15644.170000、15584.170000。图上绘有一条矩形框，纵向跨度约 60 点（15584 至 15644 之间），以及一条从左下向右上延伸的趋势线。左下角显示时间戳及账户余额信息。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_007"
+      ],
+      "time_range": [
+        561.92,
+        743.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了第七天的分析过程，清晰展示了FVG识别、入场规则、止损设置和最终未成交的结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:55.797897Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"回测第七天：FVG入场做空未成交\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1D\",\"market_context\":\"NAS100在日线上升趋势中，价格从14850上升至15370附近。博主在第七天回测中观察到价格扫高后下跌，寻找做空机会。\",\"key_observation\":\"价格在高点附近形成Displacement后回落，博主识别出Fair Value Gap和Breaker Block作为潜在入场点，但FVG入场未被触发。\",\"analysis_steps\":[\"Step 1: 观察价格扫高后的结构破坏，确认没有真正的Displacement，只是等高（equal highs）。\",\"Step 2: 标记9:00 a.m.蜡烛的高点和低点作为参考水平。\",\"Step 3: 识别下跌蜡烛前的支撑蜡烛，观察其是否支撑价格上升。\",\"Step 4: 在价格收盘低于支撑蜡烛后，计划使用Mitigation/Breaker Block内的Order Block作为入场点。\",\"Step 5: 设置止损在蜡烛高点，目标设在蜡烛另一侧。\",\"Step 6: 将止损移至盈亏平衡点（break even）以保护交易。\",\"Step 7: 在11:00 a.m.窗口期间检查是否有扫荡（sweep），未发现则继续观察。\",\"Step 8: 次日标记9:00 a.m.高点和低点，观察是否出现扫荡。\",\"Step 9: 识别Fair Value Gap作为首选入场点，但该入场未被触发。\",\"Step 10: 确认如果使用Breaker Block入场会被成交，但由于坚持FVG入场而未执行。\"],\"outcome\":\"Fair Value Gap入场未被触发（leaves without us），交易未成交。如果使用Breaker Block入场则会被成交，但博主选择等待FVG入场导致错过机会。\",\"lessons\":\"严格的入场规则可能导致错过交易机会。在多个有效入场点之间需要权衡：坚持最优入场点（FVG）vs.确保进场执行（Breaker Block）。了解备选入场点的重要性。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f023\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f019\",\"o0v4KQxZbpU_f020\",\"o0v4KQxZbpU_f022\",\"o0v4KQxZbpU_f024\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Breaker Block\",\"Mitigation Block\",\"Displacement\",\"Market Structure Shift\",\"Liquidity\",\"Killzone\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了第七天的分析过程，清晰展示了FVG识别、入场规则、止损设置和最终未成交的结果。\"}",
+  "error": null
+}

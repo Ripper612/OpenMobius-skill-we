@@ -1,0 +1,93 @@
+{
+  "card_id": "HrjYoxAUb3s_case_001_美元看跌时的eur_usd和usd_jpy配对案例",
+  "type": "case",
+  "title": "美元看跌时的EUR/USD和USD/JPY配对交易案例",
+  "related_concepts": [
+    {
+      "term": "Bearish Engulfing",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Currency Pairing",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Relative Strength",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "expansion",
+    "market_structure",
+    "smart_money_technique"
+  ],
+  "school": "SMC",
+  "asset": "DXY / EURUSD / USDJPY",
+  "timeframe": "1D",
+  "market_context": "美元月线形成看跌吞没形态，预期继续下跌。欧元和日元均呈看涨走势，可作为美元下跌的配对货币。通过对比多个货币对的强度，选择最优的交易对象。",
+  "key_observation": "博主通过分析美元指数的看跌吞没形态，确定美元下跌偏向，随后对比欧元、英镑、日元、加元、瑞郎等货币的强度，发现欧元和日元最具看涨潜力，适合配对交易。",
+  "analysis_steps": [
+    "Step 1: 观察DXY日线图表，识别看跌吞没月线K线形态，确认美元处于下跌趋势。",
+    "Step 2: 在美元看跌的前提下，扫描多个外币（欧元、英镑、日元、加元、瑞郎、纽元）的日线走势，判断其强度方向。",
+    "Step 3: 对比各货币的看涨强度，排除英镑（动能不足）、加元（看跌）、纽元（看跌）等不适合的货币对。",
+    "Step 4: 确定欧元和日元为最强的看涨货币，选择EUR/USD和USD/JPY作为主要交易对象。",
+    "Step 5: 验证结果——EUR/USD向上扩张，USD/JPY向下扩张，证实配对策略的有效性。"
+  ],
+  "outcome": "EUR/USD给出向上扩张（expansion higher），USD/JPY给出向下扩张（expansion lower），配对策略成功验证。",
+  "lessons": "货币配对交易的核心是先确定基础货币（美元）的方向偏向，再对比外币的相对强度，选择最强的看涨或看跌货币进行配对。避免选择动能不足或方向相反的货币对，以确保扩张日的出现概率。",
+  "primary_image": "cards/HrjYoxAUb3s/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/HrjYoxAUb3s/images/case_001_detail_1.jpg",
+    "cards/HrjYoxAUb3s/images/case_001_detail_2.jpg",
+    "cards/HrjYoxAUb3s/images/case_001_detail_3.jpg",
+    "cards/HrjYoxAUb3s/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "DXY 日线 K 线图，图表来自 TTrades.com 平台，处于 Replay 模式。可见价格范围约从 99.500 至 107.300。图右侧有两根较长的黑色实体 K 线，中间夹有数根绿色 K 线。图中央偏右区域有一个小矩形标注框，附近标有文字标签\"EQ\"，对应价格约在 103.700 附近。图左侧至中部可见一段从约 107.300 高点向下延伸至约 99.500 低点的走势，随后价格在中部",
+    "case_001_detail_1.jpg": "图表资产为 GC1!，时间框架为日线（1D），K 线图整体价格范围约从 0.73600 至 0.78960。图上可见两个矩形标注区域：一个较大的矩形覆盖约 0.75300 至 0.76100 区间，另一个较小的蓝色矩形覆盖约 0.74800 至 0.75400 区间。图右侧出现两根较大的绿色 K 线，随后紧跟一根延伸至约 0.73600 的黑色 K 线。图上另有文字标注 'RO' 位于约 0.75",
+    "case_001_detail_2.jpg": "图表为6S1!（瑞士法郎期货）日线K线图，价格范围约从1.17000至1.28675。图左侧K线呈下行排列，从约1.28675向下延伸至约1.17000。图右侧出现数根较长的绿色K线，最高触及约1.27000附近。图上标注有多条水平虚线及三个矩形框区域，其中两个矩形框位于约1.19500至1.21500区间，另一个位于约1.17500至1.18500区间。图中可见一处文字标注\"RC2\"位于约1.2",
+    "case_001_detail_3.jpg": "USDJPY 日线蜡烛图，可见价格范围约从 139.000 至 162.000。图右侧有两根高度较大的黑色实体 K 线，从约 157.000 向下延伸至约 142.000 区域。图上标注有一个绿色矩形框，位于约 160.000 至 162.000 区间；另有一个灰色矩形框，位于约 148.000 至 152.000 区间。左侧价格轴在约 148.000 处有一个高亮标签。图表左下方时间轴显示起始于",
+    "case_001_detail_4.jpg": "EURUSD 日线蜡烛图，图上价格范围约从 1.03000 至 1.12000。时间轴覆盖 2024 年初至 2024 年末。图右侧区域有一个绿色矩形标注，覆盖约 3 至 4 根 K 线，矩形内含一根黑色实体 K 线。矩形右侧有一根较长的绿色 K 线。图表处于 Replay 模式，右上角显示 TTrades.com 水印。右侧面板列出多个资产代码，EURUSD 处于高亮选中状态。图上未见其他水平线"
+  },
+  "sources": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "segment_ids": [
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        403.12,
+        532.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析流程：美元偏向识别→多货币对比→最优配对选择→结果验证，所有关键步骤和资产代码均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:32.286475Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"美元看跌时的EUR/USD和USD/JPY配对交易案例\",\"school\":\"SMC\",\"asset\":\"DXY / EURUSD / USDJPY\",\"timeframe\":\"1D\",\"market_context\":\"美元月线形成看跌吞没形态，预期继续下跌。欧元和日元均呈看涨走势，可作为美元下跌的配对货币。通过对比多个货币对的强度，选择最优的交易对象。\",\"key_observation\":\"博主通过分析美元指数的看跌吞没形态，确定美元下跌偏向，随后对比欧元、英镑、日元、加元、瑞郎等货币的强度，发现欧元和日元最具看涨潜力，适合配对交易。\",\"analysis_steps\":[\"Step 1: 观察DXY日线图表，识别看跌吞没月线K线形态，确认美元处于下跌趋势。\",\"Step 2: 在美元看跌的前提下，扫描多个外币（欧元、英镑、日元、加元、瑞郎、纽元）的日线走势，判断其强度方向。\",\"Step 3: 对比各货币的看涨强度，排除英镑（动能不足）、加元（看跌）、纽元（看跌）等不适合的货币对。\",\"Step 4: 确定欧元和日元为最强的看涨货币，选择EUR/USD和USD/JPY作为主要交易对象。\",\"Step 5: 验证结果——EUR/USD向上扩张，USD/JPY向下扩张，证实配对策略的有效性。\"],\"outcome\":\"EUR/USD给出向上扩张（expansion higher），USD/JPY给出向下扩张（expansion lower），配对策略成功验证。\",\"lessons\":\"货币配对交易的核心是先确定基础货币（美元）的方向偏向，再对比外币的相对强度，选择最强的看涨或看跌货币进行配对。避免选择动能不足或方向相反的货币对，以确保扩张日的出现概率。\",\"primary_image_frame_id\":\"HrjYoxAUb3s_f015\",\"supporting_image_frame_ids\":[\"HrjYoxAUb3s_f016\",\"HrjYoxAUb3s_f001\",\"HrjYoxAUb3s_f017\",\"HrjYoxAUb3s_f018\"],\"related_concepts\":[\"Bearish Engulfing\",\"Currency Pairing\",\"Expansion\",\"Market Structure\",\"Relative Strength\",\"Smart Money Technique\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析流程：美元偏向识别→多货币对比→最优配对选择→结果验证，所有关键步骤和资产代码均清晰可读。\"}",
+  "error": null
+}

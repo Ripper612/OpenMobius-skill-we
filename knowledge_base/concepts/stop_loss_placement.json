@@ -1,0 +1,125 @@
+{
+  "card_id": "stop_loss_placement",
+  "type": "merged_concept",
+  "canonical_term": "Stop Loss Placement",
+  "aliases": [
+    "止损位置",
+    "止损设置"
+  ],
+  "school": "Risk Management",
+  "definition": "根据市场结构确定止损单价格水平的方法。可将止损设于Breaker Block下方/上方、形成FVG或OB的K线高低点，或摆动高低点，不同位置直接影响风险回报比与被扫损概率，需根据风险承受度灵活选择。",
+  "identification_rules": [
+    "做空时可使用形成FVG的K线高点作为止损，或使用短期摆动高点作为替代",
+    "做多时可使用形成OB的K线低点作为止损，或使用短期摆动低点作为替代",
+    "可将止损设置在Breaker Block下方（做多）或上方（做空），与入场点形成明确风险区间，通常获得更优风险回报比",
+    "可将止损设置在相关摆动高点或低点，提供更宽松止损空间，但风险回报比相对较低",
+    "止损位置选择应考虑该区域是否存在其他不平衡（FVG）或结构重叠",
+    "根据选定止损位置反推目标位，确保风险回报比符合交易计划",
+    "入场后仅在市场结构明确被突破（MSS）后，将止损移动至新的受保护摆动点或短期高低点"
+  ],
+  "trading_implication": "止损位置是风险管理核心，直接影响风险回报比与进场概率。Breaker Block下方止损可获更优风险回报比（如2R），但被扫损风险较高；摆动点止损距离更远但风险回报比较低。入场后应在结构被突破（MSS）后逐步移动止损至新保护摆动点，锁定利润并降低风险，移动时机须等待结构明确突破后执行。",
+  "common_mistakes": [
+    "将止损设置在摆动高低点而忽视Breaker Block下方的更优选项，导致风险回报比不理想",
+    "未考虑Fair Value Gap与Breaker Block的重叠关系，错过更好的止损和入场组合",
+    "机械地选择止损位置而不根据具体市场结构和风险回报比进行调整",
+    "在结构未被突破前过早移动止损，导致被虚假突破扫出",
+    "忽视短期摆动高低点的保护作用，止损设置过于宽松或过于紧凑"
+  ],
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Short-term High/Low",
+      "card_id": "short_term_high_low",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "75S4vwD4P1U_case_003_eurusd_5分钟unicorn_model交易设置",
+      "video_id": "75S4vwD4P1U",
+      "title": "EURUSD 5分钟Unicorn Model交易设置与止损策略"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "original_card_id": "75S4vwD4P1U_concept_stop_loss_placement",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        193.319,
+        550.079
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "LZZAaILYNyI",
+      "original_card_id": "LZZAaILYNyI_concept_stop_loss_placement",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.759,
+        281.639
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:59:07.307661Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

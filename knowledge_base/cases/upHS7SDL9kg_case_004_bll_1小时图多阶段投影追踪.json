@@ -1,0 +1,111 @@
+{
+  "card_id": "upHS7SDL9kg_case_004_bll_1小时图多阶段投影追踪",
+  "type": "case",
+  "title": "BLL 1小时图多阶段投影追踪与目标命中",
+  "related_concepts": [
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "standard_deviation_projection",
+    "manipulation_leg",
+    "market_structure_shift",
+    "failure_swings",
+    "order_block",
+    "candle_2_closure_c2",
+    "liquidity",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "BLL",
+  "timeframe": "1H",
+  "market_context": "BLL日线形成反转结构，博主通过标准差投影工具追踪价格在多个阶段的目标位，展示当大幅操纵腿形成时如何调整预期并依次命中-1、-2至-2.5投影目标。",
+  "key_observation": "当操纵腿（Manipulation Leg）较大时，不应期待价格扩展至-4或-2.5目标，而应聚焦-1标准差作为第一阶段目标；价格依次命中-1、-2、-2.5投影，验证了多阶段投影的有效性。",
+  "analysis_steps": [
+    "Step 1: 识别日线反转结构，标记出Candle 2收盘和Change in State of Delivery信号。",
+    "Step 2: 在左侧识别失败摆动（Failure Swings），为投影提供参考框架。",
+    "Step 3: 标记操纵腿的高点和低点，计算其范围相对于目标范围的比例（约为目标范围的一半）。",
+    "Step 4: 基于大幅操纵腿，调整预期目标从-4降低至-1标准差作为第一阶段目标。",
+    "Step 5: 观察价格突破-1标准差后未反转，确认可继续追踪-2至-2.5目标。",
+    "Step 6: 使用指标工具启用投影功能，自动生成-1、-2、-2.5、-4、-4.5等多个标准差投影线。",
+    "Step 7: 追踪价格依次命中-1、-2、-2.5投影目标，验证多阶段投影的准确性和流动性扫荡的逻辑。"
+  ],
+  "outcome": "价格依次命中-1标准差、-2标准差、-2.5标准差投影目标，展示了多阶段投影在追踪下行走势中的有效应用，同时验证了失败摆动与投影目标的重合点作为高概率目标区的价值。",
+  "lessons": "大幅操纵腿时应降低目标预期，优先关注-1标准差而非极端目标；多阶段投影结合失败摆动、Change in State of Delivery等结构信号，能提供高概率的分阶段交易目标；投影工具的自动化功能可提高分析效率。",
+  "primary_image": "cards/upHS7SDL9kg/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/upHS7SDL9kg/images/case_004_detail_1.jpg",
+    "cards/upHS7SDL9kg/images/case_004_detail_2.jpg",
+    "cards/upHS7SDL9kg/images/case_004_detail_3.jpg",
+    "cards/upHS7SDL9kg/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "BLL 1小时K线图，价格范围从59.90至65.00。图上有多条水平虚线标注，包括65.00、64.30、63.00、60.00等价位。左侧区域有一个矩形框标注在64.30至65.00之间。图上散布有文字标签-1、-2、-2.5等。K线显示从左侧65.00附近的高点开始下跌，中间经历多个整理区间，右侧价格稳定在60.00附近。整体呈现从高位向低位的下行走势，伴随多根具有上下影线的K线。",
+    "case_004_detail_1.jpg": "BLL 1 小时 K 线图，时间范围从 9 月 17 日至 9 月 28 日。图上可见价格范围约 60.80 至 64.60。图中标注有多条水平虚线，分别位于 63.96、63.20、62.40、62.00、61.80 等价格水平。右侧区域有一个标记为'C2'的矩形框，位于约 61.20 至 62.40 价格区间。图上还有一条蓝色水平线位于约 62.40 至 63.70 区间。最右侧显示一根黑色 ",
+    "case_004_detail_2.jpg": "BLL 1小时K线图。图上显示从左至右约40根K线，整体价格从63.96下跌至61.00。图中有一个粉红色矩形框标注，范围约在61.15至62.40之间，框内标有数字标签0和1。一条蓝色水平线在62.40处向右延伸。右侧最新K线显示两根黑色K线后跟一根绿色K线。图上有多条虚线水平线，包括61.72处的虚线。右下角显示指标信息Hi-26 Wma1及时间戳。",
+    "case_004_detail_3.jpg": "BLL 1 小时 K 线图。图上显示从左侧约 61.20 上升至中部 65.96 的上升趋势，随后出现回调。图上有 4 条水平虚线分别位于 63.06、62.40、82.80 和 65.00 处。右侧标注有矩形框，其中一个标记为 C4 位于 63.00 至 64.40 区间，另一个矩形框位于 64.20 至 65.00 区间。右下角显示 CL1 (1H)、10-10 Neutral、14:00:0",
+    "case_004_detail_4.jpg": "USDBRL 1 小时 K 线图。图上显示从 09:00 至 10:00 时间段的价格走势，价格范围从 60.00 至 66.00。图上有多条水平虚线标注价格水平。标注了三个矩形区域：C4 在 62.50 至 63.30 区间、C2 在 61.00 至 62.20 区间、Q2 在 64.80 至 65.80 区间。图右侧显示两根 K 线，一根绿色、一根黑色，均收盘于 64.50 附近。图上标注显示"
+  },
+  "sources": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "segment_ids": [
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        389.52,
+        579.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了BLL 1小时图的多阶段投影分析过程，清晰标注了-1、-2、-2.5目标位，价格依次命中各目标，分析步骤和结论完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:04.149549Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BLL 1小时图多阶段投影追踪与目标命中\",\"school\":\"ICT\",\"asset\":\"BLL\",\"timeframe\":\"1H\",\"market_context\":\"BLL日线形成反转结构，博主通过标准差投影工具追踪价格在多个阶段的目标位，展示当大幅操纵腿形成时如何调整预期并依次命中-1、-2至-2.5投影目标。\",\"key_observation\":\"当操纵腿（Manipulation Leg）较大时，不应期待价格扩展至-4或-2.5目标，而应聚焦-1标准差作为第一阶段目标；价格依次命中-1、-2、-2.5投影，验证了多阶段投影的有效性。\",\"analysis_steps\":[\"Step 1: 识别日线反转结构，标记出Candle 2收盘和Change in State of Delivery信号。\",\"Step 2: 在左侧识别失败摆动（Failure Swings），为投影提供参考框架。\",\"Step 3: 标记操纵腿的高点和低点，计算其范围相对于目标范围的比例（约为目标范围的一半）。\",\"Step 4: 基于大幅操纵腿，调整预期目标从-4降低至-1标准差作为第一阶段目标。\",\"Step 5: 观察价格突破-1标准差后未反转，确认可继续追踪-2至-2.5目标。\",\"Step 6: 使用指标工具启用投影功能，自动生成-1、-2、-2.5、-4、-4.5等多个标准差投影线。\",\"Step 7: 追踪价格依次命中-1、-2、-2.5投影目标，验证多阶段投影的准确性和流动性扫荡的逻辑。\"],\"outcome\":\"价格依次命中-1标准差、-2标准差、-2.5标准差投影目标，展示了多阶段投影在追踪下行走势中的有效应用，同时验证了失败摆动与投影目标的重合点作为高概率目标区的价值。\",\"lessons\":\"大幅操纵腿时应降低目标预期，优先关注-1标准差而非极端目标；多阶段投影结合失败摆动、Change in State of Delivery等结构信号，能提供高概率的分阶段交易目标；投影工具的自动化功能可提高分析效率。\",\"primary_image_frame_id\":\"upHS7SDL9kg_f019\",\"supporting_image_frame_ids\":[\"upHS7SDL9kg_f015\",\"upHS7SDL9kg_f016\",\"upHS7SDL9kg_f017\",\"upHS7SDL9kg_f018\"],\"related_concepts\":[\"Standard Deviation Projection\",\"Manipulation Leg\",\"Change in State of Delivery\",\"Failure Swings\",\"Order Block\",\"Candle 2 Closure\",\"Liquidity\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了BLL 1小时图的多阶段投影分析过程，清晰标注了-1、-2、-2.5目标位，价格依次命中各目标，分析步骤和结论完整。\"}",
+  "error": null
+}

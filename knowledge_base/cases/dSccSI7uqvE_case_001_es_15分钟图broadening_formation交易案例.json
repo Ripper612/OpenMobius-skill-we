@@ -1,0 +1,106 @@
+{
+  "card_id": "dSccSI7uqvE_case_001_es_15分钟图broadening_formation交易案例",
+  "type": "case",
+  "title": "ES 15分钟图Broadening Formation识别与流动性扫除交易",
+  "related_concepts": [
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "The Strat",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "broadening_formation",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "market_structure_shift",
+    "order_block",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "15m",
+  "market_context": "5月22日ES期货15分钟图上，价格经历大幅下跌后反弹，形成盘整区间。在这个巩固阶段，高点和低点逐次被突破，形成典型的Broadening Formation形态。",
+  "key_observation": "Broadening Formation是识别流动性扫除点的关键工具。当价格在盘整后，高点被更高的高点突破、低点被更低的低点突破时，这些突破点成为后续反转的兴趣点，预示价格将扫除流动性后反向运行。",
+  "analysis_steps": [
+    "Step 1: 识别初始盘整区间——在5月22日观察到价格形成明显的range-bound consolidation，高点约4230-4250，低点约4210-4220。",
+    "Step 2: 标记第一个Broadening Formation——高点被突破至更高位置（约4280），低点也被突破至更低位置，绘制出扩张的形态。",
+    "Step 3: 继续追踪后续的高低点突破——价格继续扩张范围，每次新高和新低都超越前一个摆动点，形成多个Broadening Formation的叠加。",
+    "Step 4: 将Broadening Formation与ICT流动性概念结合——高点突破代表扫除买方流动性（Buyside Liquidity），低点突破代表扫除卖方流动性（Sellside Liquidity）。",
+    "Step 5: 确定交易兴趣点——在高点被突破后，预期价格将反向下行扫除低点附近的流动性；在低点被突破后，预期价格将反向上行。",
+    "Step 6: 观察后续价格行为——价格在突破这些Broadening Formation的极值后，确实出现了反向运动，验证了该形态的有效性。"
+  ],
+  "outcome": null,
+  "lessons": "Broadening Formation是识别市场结构转变和流动性扫除的有效工具。当价格在盘整后形成扩张形态时，高低点的突破往往预示着智能货币的流动性扫除活动，交易者可以在这些关键点附近设置交易设置，等待价格反向运行。该形态与ICT的Order Block和流动性概念完美结合，提高了交易的概率。",
+  "primary_image": "cards/dSccSI7uqvE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/dSccSI7uqvE/images/case_001_detail_1.jpg",
+    "cards/dSccSI7uqvE/images/case_001_detail_2.jpg",
+    "cards/dSccSI7uqvE/images/case_001_detail_3.jpg",
+    "cards/dSccSI7uqvE/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 15 分钟图表。图上绘制了一个矩形框，框内包含一条向上倾斜的趋势线。矩形框大致跨越 4230 至 4380 价格区间。图右侧价格轴显示当前价格为 4407.75，并有一条水平虚线对应该价格。K 线图显示价格范围从约 4200 到 4500，绿红蜡烛混合分布。除上述矩形、趋势线和水平线外，图上未见其他标注或指标。",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示约24小时的交易数据，价格范围从4196.00至4304.00。图上绘有一条水平虚线位于4225.00附近，以及一条从左下向右上延伸的趋势线，趋势线顶部标有标记点。K线呈现绿红交替的形态，整体显示多个波动周期。右侧价格轴标注当前价格为4225.00。图表底部显示时间轴标记，左侧为TradingView工具栏。",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示价格范围从4236.00至4328.00。图上可见多根绿色和红色K线，形成上升、下降和整理的混合形态。在图表上方区域标注有两个价格数字：4328.25和4328.50。图表左侧为工具栏，底部显示时间轴和交易面板。右侧价格刻度清晰标注。未见其他技术指标或形态标注。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini 期货 15 分钟 K 线图。图上绘制两条虚线趋势线形成通道结构，上趋势线和下趋势线分别从左下向右上和右下延伸。图中有一个标记为'5'的矩形框位于通道内部。右侧价格刻度显示范围约从 4324.50 到 4430.00。K 线呈现绿红交替的形态，整体在两条趋势线之间波动。图上未见其他指标或额外标注。",
+    "case_001_detail_4.jpg": "ES 15分钟K线图。图上绘制两条虚线趋势线形成通道结构，上趋势线从左下向右上延伸至约4440，下趋势线从高点向右下延伸。图中央有一个矩形框标注，范围约在4404至4437之间。右侧价格轴显示多条水平线，标注有0.75、0.5、0.25等斐波那契水平标签。可见价格范围从4268到4440。K线显示在通道内的波动行为，无其他指标显示。"
+  },
+  "sources": [
+    {
+      "video_id": "dSccSI7uqvE",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.359,
+        191.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对Broadening Formation的定义、识别方法、与ICT的结合逻辑都有清晰讲解，图表标注完整，分析步骤按时间顺序展开，关键价位和形态特征明确可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:38.757959Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 15分钟图Broadening Formation识别与流动性扫除交易\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"15m\",\"market_context\":\"5月22日ES期货15分钟图上，价格经历大幅下跌后反弹，形成盘整区间。在这个巩固阶段，高点和低点逐次被突破，形成典型的Broadening Formation形态。\",\"key_observation\":\"Broadening Formation是识别流动性扫除点的关键工具。当价格在盘整后，高点被更高的高点突破、低点被更低的低点突破时，这些突破点成为后续反转的兴趣点，预示价格将扫除流动性后反向运行。\",\"analysis_steps\":[\"Step 1: 识别初始盘整区间——在5月22日观察到价格形成明显的range-bound consolidation，高点约4230-4250，低点约4210-4220。\",\"Step 2: 标记第一个Broadening Formation——高点被突破至更高位置（约4280），低点也被突破至更低位置，绘制出扩张的形态。\",\"Step 3: 继续追踪后续的高低点突破——价格继续扩张范围，每次新高和新低都超越前一个摆动点，形成多个Broadening Formation的叠加。\",\"Step 4: 将Broadening Formation与ICT流动性概念结合——高点突破代表扫除买方流动性（Buyside Liquidity），低点突破代表扫除卖方流动性（Sellside Liquidity）。\",\"Step 5: 确定交易兴趣点——在高点被突破后，预期价格将反向下行扫除低点附近的流动性；在低点被突破后，预期价格将反向上行。\",\"Step 6: 观察后续价格行为——价格在突破这些Broadening Formation的极值后，确实出现了反向运动，验证了该形态的有效性。\"],\"outcome\":null,\"lessons\":\"Broadening Formation是识别市场结构转变和流动性扫除的有效工具。当价格在盘整后形成扩张形态时，高低点的突破往往预示着智能货币的流动性扫除活动，交易者可以在这些关键点附近设置交易设置，等待价格反向运行。该形态与ICT的Order Block和流动性概念完美结合，提高了交易的概率。\",\"primary_image_frame_id\":\"dSccSI7uqvE_f003\",\"supporting_image_frame_ids\":[\"dSccSI7uqvE_f002\",\"dSccSI7uqvE_f004\",\"dSccSI7uqvE_f005\",\"dSccSI7uqvE_f001\"],\"related_concepts\":[\"Broadening Formation\",\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Market Structure Shift\",\"Order Block\",\"Displacement\",\"The Strat\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对Broadening Formation的定义、识别方法、与ICT的结合逻辑都有清晰讲解，图表标注完整，分析步骤按时间顺序展开，关键价位和形态特征明确可见。\"}",
+  "error": null
+}

@@ -1,0 +1,56 @@
+{
+  "card_id": "wick_disrespected",
+  "type": "merged_concept",
+  "canonical_term": "Wick Disrespected",
+  "aliases": [
+    "Failed wick reversal",
+    "Wick not respected"
+  ],
+  "school": "Price Action",
+  "definition": "价格穿过wick的0.5位置后继续向原方向运行，表明该wick形成的低时间框架反转失败，价格倾向于延续原趋势而非反转。",
+  "identification_rules": [
+    "在高时间框架形成wick（价格快速反应后回撤形成的影线）",
+    "在低时间框架观察：价格穿过wick的0.5中点位置",
+    "价格穿过0.5后继续向原方向扩展，未在wick内形成反转",
+    "最终突破wick的另一端（如上升趋势中突破下影线的低点）"
+  ],
+  "trading_implication": "Wick disrespected表明市场结构中的反转失败，原趋势将继续。交易者应放弃在该wick处的反向交易，转而跟随原趋势方向。可用于确认趋势延续的信号，帮助避免逆势交易。在低时间框架看到0.5被穿过时，应改变预期方向或等待更多确认。",
+  "common_mistakes": [
+    "在wick的0.5位置被穿过后仍坚持反向交易，导致止损被触发",
+    "未在低时间框架确认0.5是否被穿过就提前入场反向交易",
+    "忽视wick disrespected的信号，继续追求完美的反转而错过趋势延续机会",
+    "混淆wick respected和disrespected，导致交易方向判断错误"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "original_card_id": "LKNQDAdId4s_concept_wick_disrespected",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        11.08,
+        552.16
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136702Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

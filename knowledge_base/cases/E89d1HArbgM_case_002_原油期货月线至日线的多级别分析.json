@@ -1,0 +1,107 @@
+{
+  "card_id": "E89d1HArbgM_case_002_原油期货月线至日线的多级别分析",
+  "type": "case",
+  "title": "原油期货月线至日线的多级别订单流分析",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array",
+      "card_id": "premium_discount_array",
+      "exists": true
+    },
+    {
+      "term": "Swing Low",
+      "card_id": "swing_formation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift",
+    "inversion",
+    "buyside_sellside_liquidity",
+    "displacement",
+    "premium_discount_array",
+    "swing_formation"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "1D / 1M",
+  "market_context": "原油期货月线显示买方流动性（Buyside Liquidity）聚集在约91.00价位，价格从100.00下跌至62.00低点后反弹至84-90区间。博主通过日线下钻观察价格如何通过三种方式改变订单流方向。",
+  "key_observation": "博主展示了价格从月线买停（Buy Stops）区域向下运行，通过反转（Inversion）、交付状态改变（CSD）和市场结构转变（MSS）三种机制依次触发，最终扫除买方流动性的完整过程。",
+  "analysis_steps": [
+    "Step 1: 在CL1!月线上识别买方流动性（约91.00）和旧月高点，以及买停聚集区域。",
+    "Step 2: 下钻至日线图表，观察价格从上升序列中收盘，验证订单块（Order Block）的形成。",
+    "Step 3: 识别第一个信号——反转（Inversion），当看跌FVG被收盘突破时触发。",
+    "Step 4: 识别第二个信号——交付状态改变（CSD），当一系列上升收盘K线被收盘突破时触发，此时可寻求空头入场。",
+    "Step 5: 观察价格未能立即进行回测，而是继续形成新的上升收盘K线，表明市场结构尚未转变。",
+    "Step 6: 识别第三个信号——市场结构转变（MSS），当摆动低点被位移（Displacement）并收盘突破时触发，此时结构正式转为看跌。",
+    "Step 7: 对比三种信号的时间差异：反转和CSD出现较早，MSS出现较晚，说明CSD可提供比MSS更早的入场机会。",
+    "Step 8: 分析MSS后的价格行为，观察价格回测至溢价区或PD Array中的订单块，随后继续下行扫除买停。"
+  ],
+  "outcome": null,
+  "lessons": "三种订单流转变信号（反转、CSD、MSS）各有时间优先级：反转和CSD提供更早入场，但风险更高；MSS提供更晚但更确定的入场。交易者应根据自身风险偏好和系统特性选择最适合的信号。MSS后通常会回测至溢价区的订单块，这是寻求空头入场的理想位置。",
+  "primary_image": "cards/E89d1HArbgM/images/case_002_primary.jpg",
+  "supporting_images": [],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为 CL1!（原油期货）月线 K 线图，价格范围约从 56.00 至 100.00。图上有一条带文字标签的水平线，标注为 Buyside Liquidity，位于约 91.00 价位。另有一条虚线水平线位于约 88.80，对应图左侧当前价标签高亮区域。K 线序列显示从约 100.00 起的一段连续阴线，延伸至约 62.00 低点，随后图右侧出现两根较大阳线，收盘区域约在 84.00 至 90."
+  },
+  "sources": [
+    {
+      "video_id": "E89d1HArbgM",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        192.159,
+        546.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了CL1!月线至日线的多级别分析，清晰标注了关键价位（91.00买停、88.80等），详细讲解了三种订单流转变机制的时间顺序和特征，图表标注完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:21.306473Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油期货月线至日线的多级别订单流分析\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"1D / 1M\",\"market_context\":\"原油期货月线显示买方流动性（Buyside Liquidity）聚集在约91.00价位，价格从100.00下跌至62.00低点后反弹至84-90区间。博主通过日线下钻观察价格如何通过三种方式改变订单流方向。\",\"key_observation\":\"博主展示了价格从月线买停（Buy Stops）区域向下运行，通过反转（Inversion）、交付状态改变（CSD）和市场结构转变（MSS）三种机制依次触发，最终扫除买方流动性的完整过程。\",\"analysis_steps\":[\"Step 1: 在CL1!月线上识别买方流动性（约91.00）和旧月高点，以及买停聚集区域。\",\"Step 2: 下钻至日线图表，观察价格从上升序列中收盘，验证订单块（Order Block）的形成。\",\"Step 3: 识别第一个信号——反转（Inversion），当看跌FVG被收盘突破时触发。\",\"Step 4: 识别第二个信号——交付状态改变（CSD），当一系列上升收盘K线被收盘突破时触发，此时可寻求空头入场。\",\"Step 5: 观察价格未能立即进行回测，而是继续形成新的上升收盘K线，表明市场结构尚未转变。\",\"Step 6: 识别第三个信号——市场结构转变（MSS），当摆动低点被位移（Displacement）并收盘突破时触发，此时结构正式转为看跌。\",\"Step 7: 对比三种信号的时间差异：反转和CSD出现较早，MSS出现较晚，说明CSD可提供比MSS更早的入场机会。\",\"Step 8: 分析MSS后的价格行为，观察价格回测至溢价区或PD Array中的订单块，随后继续下行扫除买停。\"],\"outcome\":null,\"lessons\":\"三种订单流转变信号（反转、CSD、MSS）各有时间优先级：反转和CSD提供更早入场，但风险更高；MSS提供更晚但更确定的入场。交易者应根据自身风险偏好和系统特性选择最适合的信号。MSS后通常会回测至溢价区的订单块，这是寻求空头入场的理想位置。\",\"primary_image_frame_id\":\"E89d1HArbgM_f013\",\"supporting_image_frame_ids\":[\"E89d1HArbgM_f014\",\"E89d1HArbgM_f015\",\"E89d1HArbgM_f016\",\"E89d1HArbgM_f017\",\"E89d1HArbgM_f018\",\"E89d1HArbgM_f019\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in the state of delivery\",\"Market Structure Shift\",\"Inversion\",\"Buyside Liquidity\",\"Displacement\",\"Premium/Discount Array\",\"Swing Low\",\"Buy Stops\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了CL1!月线至日线的多级别分析，清晰标注了关键价位（91.00买停、88.80等），详细讲解了三种订单流转变机制的时间顺序和特征，图表标注完整。\"}",
+  "error": null
+}

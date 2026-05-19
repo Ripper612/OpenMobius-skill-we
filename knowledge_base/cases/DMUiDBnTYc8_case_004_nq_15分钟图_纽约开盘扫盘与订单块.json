@@ -1,0 +1,115 @@
+{
+  "card_id": "DMUiDBnTYc8_case_004_nq_15分钟图_纽约开盘扫盘与订单块",
+  "type": "case",
+  "title": "NQ 15分钟：纽约开盘扫盘与订单块多重入场",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sell Side Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Reversal",
+      "card_id": "smart_money_reversal",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "mean_threshold",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "smart_money_reversal",
+    "market_structure_shift",
+    "risk_to_reward",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "15M",
+  "market_context": "纽约开盘时段，价格从亚洲低点向下扫除卖停流动性，形成一系列下跌K线。随后价格反转向上，确认智能货币反转信号，为多头提供多个订单块入场机会。",
+  "key_observation": "博主识别出纽约开盘扫盘后形成的订单块（Order Block），通过下跌K线序列的收盘确认、公允价值缺口（FVG）以及平均阈值（Mean Threshold）三种方式寻找高概率多头入场点。",
+  "analysis_steps": [
+    "Step 1: 观察价格在亚洲和伦敦时段的整体盘整，标记亚洲低点附近的卖停流动性位置（约16255-16270）。",
+    "Step 2: 识别纽约开盘时价格向下扫除卖停，形成一系列下跌K线，确认这些下跌K线是否会成为订单块。",
+    "Step 3: 等待价格收盘在下跌K线序列上方，验证订单块的形成，计算以低点为止损、以失败摆动高点为目标的风险回报比（初始1.4R）。",
+    "Step 4: 识别公允价值缺口（FVG）作为替代入场点，计算其风险回报比约2R。",
+    "Step 5: 标记订单块的平均阈值（从K线实体高点到低点的50%），作为更优的入场点，风险回报比提升至2.6R。",
+    "Step 6: 在智能货币反转后，继续寻找下跌K线进入重要水平（订单块或FVG），等待收盘确认后作为继续做多的入场点。",
+    "Step 7: 在较低时间框架上验证价格对平均阈值的尊重，确认入场的有效性。"
+  ],
+  "outcome": "价格最终到达目标高点，多个入场点均获得利润，其中使用平均阈值入场的交易获得最高风险回报比（约2.6R）。",
+  "lessons": "订单块的多重入场方式（开盘价、FVG、平均阈值）提供了灵活的交易选择；平均阈值虽然风险回报比更优，但存在不成交风险；在智能货币反转后继续寻找订单块可以延续趋势交易机会。",
+  "primary_image": "cards/DMUiDBnTYc8/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/DMUiDBnTYc8/images/case_004_detail_1.jpg",
+    "cards/DMUiDBnTYc8/images/case_004_detail_2.jpg",
+    "cards/DMUiDBnTYc8/images/case_004_detail_3.jpg",
+    "cards/DMUiDBnTYc8/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表显示 NQ1! 合约的 K 线图，时间轴显示日期为 11/12/2023，图右上角标注 TTrades_edu。图上可见价格范围约从 16237.50 至 16332.50。图中有一个矩形框标注文字 'Sell Stops'，位于约 16255 至 16270 价格区间。图右侧价格轴上有两个高亮标签，分别位于约 16296.00 和 16285.00 处。时间轴附近有 '0:00' 文字标注。",
+    "case_004_detail_1.jpg": "图表为 NQ1! 15 分钟 K 线图，日期标注为 11/12/2023，右上角显示水印文字 TTrades_edu。右侧价格轴可见范围约从 16240 至 16335，当前价格标签显示 16277.75，并有一条水平虚线贯穿图表对应该价位。图右侧远端有一条带标签 '0.00' 的水平线位于约 16490 附近。K 线序列在图左侧呈下行排列，从约 16327 下行至约 16255，随后在图中部出现",
+    "case_004_detail_2.jpg": "图表为K线图，右侧价格轴显示范围约从16247.50至16332.50，当前价格标签显示约16281.25。图上有一个标注文字为'Sell stops'的矩形框，位于约16255.00至16265.00区间。右侧近期K线附近有一个黄色高亮矩形区域，覆盖约16277.50至16290.00区间。图上另有两条水平线分别位于约16285.00和16292.00附近。时间轴底部可见日期标注'11/12/2",
+    "case_004_detail_3.jpg": "图为教学幻灯片截图，顶部标题栏显示文字'Orderblocks'，右下角页码为2。图中呈现约8根K线，左侧为两根黑色实体K线，随后出现一系列绿色实体K线，中间夹有一根黑色K线。图上有两条水平线向右延伸，各自标注文字'OB'，上方OB线对应中段某根K线实体高位，下方OB线对应另一根K线实体低位。序列中可见一根小型黄色高亮K线实体。图上无价格刻度数字，无资产代码，无时间框架标注。背景带有水印文字。",
+    "case_004_detail_4.jpg": "图为教学示意性 K 线图，顶部标题栏显示文字'Orderblocks'，右下角页码标注为 3。图上可见约 7 根 K 线，多数为绿色实体，其中一根为黑色实体。最上方一根绿色 K 线右侧标注文字'OB'。图中部至下部有一个浅橙色矩形区域，右侧标注文字'FVG'，黑色 K 线主体位于该矩形区域内。序列底部一根绿色 K 线带有黄绿色高亮标记。图上无价格刻度数字，无资产代码，无时间框架标注。"
+  },
+  "sources": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        336.24,
+        698.8389999999999
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对NQ 15分钟图的分析完整清晰，资产代码、时间框架、关键价位（16255-16270卖停、16277.75等）、分析步骤（订单块确认、FVG、平均阈值）和交易结果均有明确记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:12.310286Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 15分钟：纽约开盘扫盘与订单块多重入场\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"15M\",\"market_context\":\"纽约开盘时段，价格从亚洲低点向下扫除卖停流动性，形成一系列下跌K线。随后价格反转向上，确认智能货币反转信号，为多头提供多个订单块入场机会。\",\"key_observation\":\"博主识别出纽约开盘扫盘后形成的订单块（Order Block），通过下跌K线序列的收盘确认、公允价值缺口（FVG）以及平均阈值（Mean Threshold）三种方式寻找高概率多头入场点。\",\"analysis_steps\":[\"Step 1: 观察价格在亚洲和伦敦时段的整体盘整，标记亚洲低点附近的卖停流动性位置（约16255-16270）。\",\"Step 2: 识别纽约开盘时价格向下扫除卖停，形成一系列下跌K线，确认这些下跌K线是否会成为订单块。\",\"Step 3: 等待价格收盘在下跌K线序列上方，验证订单块的形成，计算以低点为止损、以失败摆动高点为目标的风险回报比（初始1.4R）。\",\"Step 4: 识别公允价值缺口（FVG）作为替代入场点，计算其风险回报比约2R。\",\"Step 5: 标记订单块的平均阈值（从K线实体高点到低点的50%），作为更优的入场点，风险回报比提升至2.6R。\",\"Step 6: 在智能货币反转后，继续寻找下跌K线进入重要水平（订单块或FVG），等待收盘确认后作为继续做多的入场点。\",\"Step 7: 在较低时间框架上验证价格对平均阈值的尊重，确认入场的有效性。\"],\"outcome\":\"价格最终到达目标高点，多个入场点均获得利润，其中使用平均阈值入场的交易获得最高风险回报比（约2.6R）。\",\"lessons\":\"订单块的多重入场方式（开盘价、FVG、平均阈值）提供了灵活的交易选择；平均阈值虽然风险回报比更优，但存在不成交风险；在智能货币反转后继续寻找订单块可以延续趋势交易机会。\",\"primary_image_frame_id\":\"DMUiDBnTYc8_f018\",\"supporting_image_frame_ids\":[\"DMUiDBnTYc8_f017\",\"DMUiDBnTYc8_f019\",\"DMUiDBnTYc8_f020\",\"DMUiDBnTYc8_f015\",\"DMUiDBnTYc8_f001\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Mean Threshold\",\"Liquidity\",\"Sell Side Liquidity\",\"Smart Money Reversal\",\"Market Structure Shift\",\"Risk/Reward Ratio\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对NQ 15分钟图的分析完整清晰，资产代码、时间框架、关键价位（16255-16270卖停、16277.75等）、分析步骤（订单块确认、FVG、平均阈值）和交易结果均有明确记录。\"}",
+  "error": null
+}

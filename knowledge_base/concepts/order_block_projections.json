@@ -1,0 +1,56 @@
+{
+  "card_id": "order_block_projections",
+  "type": "merged_concept",
+  "canonical_term": "Order Block Projections",
+  "aliases": [
+    "OB Projections",
+    "订单块投影"
+  ],
+  "school": "ICT",
+  "definition": "从CSD蜡烛主体绘制的投影线，显示基于Change in State of Delivery形成的订单块预期延伸至的价格目标区域，支持手动自定义投影参数。",
+  "identification_rules": [
+    "在指标设置中启用ORDERBLOCK PROJECTIONS配置项",
+    "投影线自动从CSD（Bullish或Bearish）的蜡烛主体绘制",
+    "默认投影参数可在设置面板中查看和修改",
+    "支持通过逗号分隔的手动输入添加自定义投影值（如'A5'）",
+    "投影线在图表上显示为水平或延伸线，标注预期价格目标"
+  ],
+  "trading_implication": "Order Block Projections帮助交易者识别从CSD形成的订单块可能延伸到的价格区域，作为潜在的目标位或反转区域。通过叠加多个时间框架的投影（如HTF与LTF），可增强交易设置的确认度。投影可手动调整以适应不同的交易策略和市场条件。",
+  "common_mistakes": [
+    "未根据当前时间框架调整'Apply below'设置，导致投影在不适当的时间框架上显示",
+    "忽视投影与其他指标元素（如T-Spot、Formation Liquidity）的叠加关系，降低信号质量",
+    "盲目依赖默认投影参数，未根据具体市场条件进行手动优化"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_order_block_projections",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        546.399,
+        903.24
+      ],
+      "extraction_confidence": "medium"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 0,
+    "medium_confidence_sources": 1,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134588Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

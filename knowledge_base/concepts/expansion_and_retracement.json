@@ -1,0 +1,68 @@
+{
+  "card_id": "expansion_and_retracement",
+  "type": "merged_concept",
+  "canonical_term": "Expansion and Retracement",
+  "aliases": [
+    "Expansion Phase",
+    "Price Expansion",
+    "Price Retracement",
+    "Retracement Phase"
+  ],
+  "school": "ICT",
+  "definition": "价格运动的两个阶段：扩张指价格以强劲势头突破市场结构；回撤指价格随后回归至前期区域。回撤深度判断是否形成反转或继续趋势。",
+  "identification_rules": [
+    "扩张阶段：价格快速、有力地穿过支撑或阻力，通常伴随大幅K线实体和较小的影线。",
+    "回撤阶段：扩张后价格向相反方向移动，回归至前期形成的区域（如FVG、OB或摆动点）。",
+    "深度回撤（Deep Retracement）：回撤进入折价区或溢价区的下半部分，通常预示反转而非趋势延续。",
+    "浅度回撤（Shallow Retracement）：回撤仅触及EQ或上半部分，预示趋势延续的可能性更高。",
+    "扩张-扩张模式（Expansion into Expansion）：两次连续扩张中间无深度回撤，通常表示反转信号。",
+    "扩张-巩固模式（Expansion into Consolidation）：扩张后进入横盘整理而非深度回撤，预示继续趋势。"
+  ],
+  "trading_implication": "扩张和回撤是判断趋势延续或反转的关键。若扩张后出现浅度回撤（停留在EQ上方或折价区上半部分），则预期趋势继续；若出现深度回撤或扩张-扩张模式，则预示可能反转。交易者应在回撤阶段寻找摆动点或PD数组作为入场点，并根据回撤深度调整止损和目标位置。",
+  "common_mistakes": [
+    "将任何回撤都视为反转信号，忽视回撤深度的区别——浅度回撤通常是趋势延续的正常表现。",
+    "在深度回撤中追求入场，而不等待摆动点或CSD确认——这会导致在反转前被扫出。",
+    "混淆扩张-巩固与扩张-扩张模式——前者预示继续，后者预示反转，识别错误会导致交易方向相反。",
+    "忽视时间框架的一致性——在低时间框架看到回撤就入场，而高时间框架的扩张尚未完成，容易被反向扫动。",
+    "过度依赖回撤深度而忽视其他确认信号（如CSD、SMT、收盘确认）——单独的回撤深度不足以确认反转。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "caaS6_Q7O78_case_004_5分钟线上的csd入场与快速获利",
+      "video_id": "caaS6_Q7O78",
+      "title": "5分钟线CSD识别V形反转，2倍风险回报快速获利"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "5fnFOh5YuM0",
+      "original_card_id": "5fnFOh5YuM0_concept_expansion_and_retracement",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        191.4,
+        726.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132851Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

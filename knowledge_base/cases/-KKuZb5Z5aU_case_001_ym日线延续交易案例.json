@@ -1,0 +1,105 @@
+{
+  "card_id": "-KKuZb5Z5aU_case_001_ym日线延续交易案例",
+  "type": "case",
+  "title": "YM日线理想二号收盘后的小时线延续交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Ideal Candle Two Closure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Continuation Pattern",
+      "card_id": "continuation_signature",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "equilibrium_eq",
+    "protected_high_low",
+    "continuation_signature",
+    "displacement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "YM",
+  "timeframe": "1H (with 1D context)",
+  "market_context": "YM在日线形成理想的二号收盘，低点受保护。交易者在小时线上监控价格是否尊重EQ并突破前一日高点，以确认延续形态。",
+  "key_observation": "日线上前一根K线以看涨收盘穿过FVG，低点受保护形成理想二号收盘。小时线上价格开盘下行尊重EQ，随后上行突破前一日高点，展示完整延续形态。",
+  "analysis_steps": [
+    "Step 1: 在日线上识别前一根K线以看涨收盘穿过FVG，确认低点受保护的理想二号收盘结构。",
+    "Step 2: 标记出日线的EQ（均衡点）和前一日高点作为小时线监控的关键水平。",
+    "Step 3: 在小时线上观察价格开盘，预期价格先下行进入FVG区域。",
+    "Step 4: 验证价格在小时线上尊重EQ（不在小时线收盘跌破EQ），这是延续的必要条件。",
+    "Step 5: 观察价格随后上行突破前一日高点，确认延续形态完成。",
+    "Step 6: 根据反转K线的wick大小判断突破前一日高点后的预期涨幅——大wick预期涨幅有限，小wick可能出现扩展。"
+  ],
+  "outcome": null,
+  "lessons": "理想的延续交易需要日线和小时线的协调确认：日线形成受保护的二号收盘，小时线则需展现开盘下行尊重EQ、随后上行突破前一日高点的完整形态。wick大小决定了突破后的预期范围。",
+  "primary_image": "cards/-KKuZb5Z5aU/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/-KKuZb5Z5aU/images/case_001_detail_1.jpg",
+    "cards/-KKuZb5Z5aU/images/case_001_detail_2.jpg",
+    "cards/-KKuZb5Z5aU/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表资产标注为 USD，时间框架为 1h，时间轴显示 12 月 10 日至 14 日区间。图上可见价格范围约从 47300 至 48500。图上有一个矩形标注框，覆盖约 48150 至 48250 区间。两条虚线水平线分别位于约 47850 和 47712 处，左侧价格轴标注 47,712。K 线序列中，12 月 10 日 18:00 附近出现一根较大绿色 K 线，随后多根小 K 线在 47850",
+    "case_001_detail_1.jpg": "图表为日线K线图，资产标注为USD，平台为TTrades.com。图上可见价格范围约从46300至48900。左上角显示SELL价48,157与BUY价48,157。图右侧价格轴当前标注47,494。图上有两个黄色矩形框标注区域，分别位于约47300至47700及47600至48000区间。另有两条蓝色水平线分别位于约47700和48000处。K线从11月14日延伸至12月12日，11月25日附近",
+    "case_001_detail_2.jpg": "图表为1小时K线图，资产代码未明确显示，平台标识为TTrades.com及TradingView PRO水印。可见价格范围约从47300至48450。图左侧K线在47750至47900区间内密集排列，随后下行至约47500附近。图中部出现一根大绿色K线，主体从约47600延伸至48180。图右侧有两根大黑色K线，主体范围约47800至47450，其后跟随一根大绿色K线。图上有一个矩形标注框，框住约",
+    "case_001_detail_3.jpg": "图表为1小时K线图，资产代码显示为USD，平台标识为TTrades.com。图上可见价格范围约从47200至49000。图中有一个矩形标注框位于约48100至48250区间，另有两条水平线分别位于约48200（实线）和约47900（虚线）处。Dec 11附近出现一根大阳线，从约47900上行至约48700。Dec 12附近出现两根连续阴线，随后一根大阳线从约47500上行至约48700。最右侧K线"
+  },
+  "sources": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        165.16,
+        283.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线二号收盘识别、小时线EQ尊重、前一日高点突破的全过程，关键价位和分析步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:04:02.702296Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"YM日线理想二号收盘后的小时线延续交易\",\"school\":\"ICT\",\"asset\":\"YM\",\"timeframe\":\"1H (with 1D context)\",\"market_context\":\"YM在日线形成理想的二号收盘，低点受保护。交易者在小时线上监控价格是否尊重EQ并突破前一日高点，以确认延续形态。\",\"key_observation\":\"日线上前一根K线以看涨收盘穿过FVG，低点受保护形成理想二号收盘。小时线上价格开盘下行尊重EQ，随后上行突破前一日高点，展示完整延续形态。\",\"analysis_steps\":[\"Step 1: 在日线上识别前一根K线以看涨收盘穿过FVG，确认低点受保护的理想二号收盘结构。\",\"Step 2: 标记出日线的EQ（均衡点）和前一日高点作为小时线监控的关键水平。\",\"Step 3: 在小时线上观察价格开盘，预期价格先下行进入FVG区域。\",\"Step 4: 验证价格在小时线上尊重EQ（不在小时线收盘跌破EQ），这是延续的必要条件。\",\"Step 5: 观察价格随后上行突破前一日高点，确认延续形态完成。\",\"Step 6: 根据反转K线的wick大小判断突破前一日高点后的预期涨幅——大wick预期涨幅有限，小wick可能出现扩展。\"],\"outcome\":null,\"lessons\":\"理想的延续交易需要日线和小时线的协调确认：日线形成受保护的二号收盘，小时线则需展现开盘下行尊重EQ、随后上行突破前一日高点的完整形态。wick大小决定了突破后的预期范围。\",\"primary_image_frame_id\":\"-KKuZb5Z5aU_f009\",\"supporting_image_frame_ids\":[\"-KKuZb5Z5aU_f007\",\"-KKuZb5Z5aU_f008\",\"-KKuZb5Z5aU_f010\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Equilibrium (EQ)\",\"Protected Swing\",\"Ideal Candle Two Closure\",\"Continuation Pattern\",\"Displacement\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线二号收盘识别、小时线EQ尊重、前一日高点突破的全过程，关键价位和分析步骤清晰。\"}",
+  "error": null
+}

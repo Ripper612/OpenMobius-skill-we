@@ -1,0 +1,103 @@
+{
+  "card_id": "tyoxl1l-6iI_case_004_usd_4小时线上的k线2收盘与延续",
+  "type": "case",
+  "title": "USD 4小时线K线2收盘形态识别与下钻交易",
+  "related_concepts": [
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Fractal",
+      "card_id": "fractal",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_2_closure_c2",
+    "displacement",
+    "retracement",
+    "change_in_state_of_delivery_csd",
+    "fractal",
+    "order_block",
+    "fair_value_gap_fvg",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "4H",
+  "market_context": "USD在4小时线上经历下跌位移后多次回测，形成多个K线2收盘形态，伴随overnight gap，价格在105000-107000区间反复测试。",
+  "key_observation": "K线2收盘是市场转折点的关键信号，通过识别位移-回测-K线2收盘的循环模式，可以预测价格延续方向并在更低时间框架寻找交易机会。",
+  "analysis_steps": [
+    "Step 1: 在4小时线上识别初始下跌位移（从高点向下），随后价格回测形成第一个K线2收盘形态（约99500-100500区间）。",
+    "Step 2: 观察价格继续下跌位移，再次回测形成第二个K线2收盘形态（约107500-108000区间），确认K线2收盘的重复性。",
+    "Step 3: 识别overnight gap的出现，价格从104000跳空至110000，随后继续形成K线2收盘形态。",
+    "Step 4: 确认最新的K线2收盘形态与Change in State of Delivery（CSD）同时出现，标志着市场结构转变。",
+    "Step 5: 建议下钻至15分钟时间框架，基于4小时K线2收盘区域寻找15分钟级别的fractal模型以获得最优交易入场点。"
+  ],
+  "outcome": null,
+  "lessons": "K线2收盘形态在多个时间框架上重复出现，标志着可靠的市场转折点。通过位移-回测-K线2收盘的循环识别，可以跨时间框架构建交易设置，从高时间框架确认方向后在低时间框架精确入场。",
+  "primary_image": "cards/tyoxl1l-6iI/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/tyoxl1l-6iI/images/case_004_detail_1.jpg",
+    "cards/tyoxl1l-6iI/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图上为USD资产的K线图，价格范围从93000到110000。图中标注有两条水平虚线分别位于104500和105000处。右侧可见一个标记为'c4'的矩形框，覆盖105000至106500的价格区间。K线序列显示从左上方110000附近下跌至右侧97000附近的整体走势，期间包含多根绿色和黑色K线。图右下角显示时间标记'Wed 12 Nov '25 10:00'及模型信息'4H-3x Model'",
+    "case_004_detail_1.jpg": "MET1 图表显示烛线走势，价格范围从 96500 到 108500。图上绘有一条向上倾斜的趋势线标记为 MET1，从约 106500 延伸至 107500。四条水平线分别位于 107000、105000、101500 和 99500 处。标注包括两个 C2 矩形框分别在 99500-100500 和 107500-108000 区间，一个 C4 矩形框在 101500-103500 区间，以及一",
+    "case_004_detail_2.jpg": "图表显示 USD 资产的 K 线图，价格范围从 94000 到 111000。图上有两条水平虚线分别位于 105050 和 104675 处。中间偏上区域有一个标记为 C4 的矩形框。图表左侧显示从 111000 开始的下跌趋势，中间部分出现 101000 至 105000 的盘整区域，随后再次下跌至 98000 附近。图表右侧显示从约 104000 向上跳空至 110000 的走势，之后出现绿色"
+  },
+  "sources": [
+    {
+      "video_id": "tyoxl1l-6iI",
+      "segment_ids": [
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        705.76,
+        778.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了4小时线上多个K线2收盘形态的识别过程，清晰说明了位移-回测循环，并明确指出下钻至15分钟线的交易方法。资产、时间框架、关键价位均从图表读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:57.140535Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 4小时线K线2收盘形态识别与下钻交易\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"4H\",\"market_context\":\"USD在4小时线上经历下跌位移后多次回测，形成多个K线2收盘形态，伴随overnight gap，价格在105000-107000区间反复测试。\",\"key_observation\":\"K线2收盘是市场转折点的关键信号，通过识别位移-回测-K线2收盘的循环模式，可以预测价格延续方向并在更低时间框架寻找交易机会。\",\"analysis_steps\":[\"Step 1: 在4小时线上识别初始下跌位移（从高点向下），随后价格回测形成第一个K线2收盘形态（约99500-100500区间）。\",\"Step 2: 观察价格继续下跌位移，再次回测形成第二个K线2收盘形态（约107500-108000区间），确认K线2收盘的重复性。\",\"Step 3: 识别overnight gap的出现，价格从104000跳空至110000，随后继续形成K线2收盘形态。\",\"Step 4: 确认最新的K线2收盘形态与Change in State of Delivery（CSD）同时出现，标志着市场结构转变。\",\"Step 5: 建议下钻至15分钟时间框架，基于4小时K线2收盘区域寻找15分钟级别的fractal模型以获得最优交易入场点。\"],\"outcome\":null,\"lessons\":\"K线2收盘形态在多个时间框架上重复出现，标志着可靠的市场转折点。通过位移-回测-K线2收盘的循环识别，可以跨时间框架构建交易设置，从高时间框架确认方向后在低时间框架精确入场。\",\"primary_image_frame_id\":\"tyoxl1l-6iI_f026\",\"supporting_image_frame_ids\":[\"tyoxl1l-6iI_f024\",\"tyoxl1l-6iI_f025\"],\"related_concepts\":[\"Candle 2 Closure\",\"Displacement\",\"Retracement\",\"Change in State of Delivery (CSD)\",\"Fractal\",\"Order Block\",\"Fair Value Gap (FVG)\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了4小时线上多个K线2收盘形态的识别过程，清晰说明了位移-回测循环，并明确指出下钻至15分钟线的交易方法。资产、时间框架、关键价位均从图表读取。\"}",
+  "error": null
+}

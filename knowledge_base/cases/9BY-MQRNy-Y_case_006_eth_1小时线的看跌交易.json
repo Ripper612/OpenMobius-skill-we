@@ -1,0 +1,94 @@
+{
+  "card_id": "9BY-MQRNy-Y_case_006_eth_1小时线的看跌交易",
+  "type": "case",
+  "title": "ETH 1小时线多时间框架看跌交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fractal model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "smart_money_technique",
+    "market_structure_shift",
+    "aligned_timeframe",
+    "risk_to_reward"
+  ],
+  "school": "ICT",
+  "asset": "ETHUSDT",
+  "timeframe": "1H",
+  "market_context": "在GC同步交易期间，ETH展现出与周线预期一致的看跌结构。博主识别到周线预期的看跌K线、日线闭合以及小时线入场点的多时间框架对齐机会。",
+  "key_observation": "博主通过多时间框架对齐（周线→日线→小时线）识别高概率看跌入场。关键是在没有立即延续的情况下应用自主裁量权，同时通过SMT（另一资产的确认）来验证交易有效性。",
+  "analysis_steps": [
+    "Step 1: 识别周线预期的看跌K线，该K线触及前周低点并形成失败摆动结构",
+    "Step 2: 在日线上确认闭合K线，与周线看跌预期对齐",
+    "Step 3: 在小时线上寻找与日线闭合对齐的入场点，等待一根额外K线确认意图",
+    "Step 4: 在没有立即延续的情况下应用自主裁量权，寻找第二个延续信号",
+    "Step 5: 通过检查另一资产（GC）的SMT来验证交易有效性，确保多资产方向一致",
+    "Step 6: 执行看跌交易，目标为2R（风险回报比2倍），止损设置在关键摆动低点上方"
+  ],
+  "outcome": "交易执行成功，达到2R目标。随后出现第二个潜在延续信号，但博主因缺乏SMT确认而不信任该信号，直到价格跌破关键低点后才考虑继续持仓。",
+  "lessons": "多时间框架对齐是高概率交易的基础。在缺乏立即延续时，可应用自主裁量权，但必须通过SMT（其他资产确认）来验证信号有效性。这展示了fractal模型在多资产同步交易中的应用价值。",
+  "primary_image": "cards/9BY-MQRNy-Y/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/9BY-MQRNy-Y/images/case_006_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "图表为 ETH 1 小时 K 线图，来自 TTrades.com 平台。图上可见两条横跨全图的水平线，分别位于约 3537 和 3395 附近。图中央区域有一根体量较大的阴线，其上方叠加浅蓝色矩形框，范围约在 3440 至 3490 之间。图上有三个文字标注框，分别显示止损（Stop 10.0，金额 689）、成交信息（Closed No. 11.9，Qty 1.1，Risk/Reward Rat",
+    "case_006_detail_1.jpg": "图表为 ETH 1 小时 K 线图，可见价格范围约从 3664 至 3344。图上绘有多个灰色矩形框，分布在约 3380 至 3620 的不同价格区间。图上另有两条水平线横跨图表中部区域，分别位于约 3546 和 3500 附近。图表中段可见约 20 根 K 线在 3460 至 3540 区间内横向排列，随后出现一段向下的 K 线序列，最低延伸至约 3344。图表最右侧出现数根主体较长的黑色 K "
+  },
+  "sources": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        268.479,
+        334.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了ETH小时线交易的全过程：多时间框架分析、入场逻辑、风险管理和交易结果均清晰可见。图表标注详细，交易参数（止损、风险回报比）明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:14.905219Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH 1小时线多时间框架看跌交易\",\"school\":\"ICT\",\"asset\":\"ETHUSDT\",\"timeframe\":\"1H\",\"market_context\":\"在GC同步交易期间，ETH展现出与周线预期一致的看跌结构。博主识别到周线预期的看跌K线、日线闭合以及小时线入场点的多时间框架对齐机会。\",\"key_observation\":\"博主通过多时间框架对齐（周线→日线→小时线）识别高概率看跌入场。关键是在没有立即延续的情况下应用自主裁量权，同时通过SMT（另一资产的确认）来验证交易有效性。\",\"analysis_steps\":[\"Step 1: 识别周线预期的看跌K线，该K线触及前周低点并形成失败摆动结构\",\"Step 2: 在日线上确认闭合K线，与周线看跌预期对齐\",\"Step 3: 在小时线上寻找与日线闭合对齐的入场点，等待一根额外K线确认意图\",\"Step 4: 在没有立即延续的情况下应用自主裁量权，寻找第二个延续信号\",\"Step 5: 通过检查另一资产（GC）的SMT来验证交易有效性，确保多资产方向一致\",\"Step 6: 执行看跌交易，目标为2R（风险回报比2倍），止损设置在关键摆动低点上方\"],\"outcome\":\"交易执行成功，达到2R目标。随后出现第二个潜在延续信号，但博主因缺乏SMT确认而不信任该信号，直到价格跌破关键低点后才考虑继续持仓。\",\"lessons\":\"多时间框架对齐是高概率交易的基础。在缺乏立即延续时，可应用自主裁量权，但必须通过SMT（其他资产确认）来验证信号有效性。这展示了fractal模型在多资产同步交易中的应用价值。\",\"primary_image_frame_id\":\"9BY-MQRNy-Y_f011\",\"supporting_image_frame_ids\":[\"9BY-MQRNy-Y_f012\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Smart Money Technique\",\"Market Structure Shift\",\"Multi-timeframe alignment\",\"Fractal model\",\"Risk/Reward ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了ETH小时线交易的全过程：多时间框架分析、入场逻辑、风险管理和交易结果均清晰可见。图表标注详细，交易参数（止损、风险回报比）明确。\"}",
+  "error": null
+}

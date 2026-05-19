@@ -1,0 +1,105 @@
+{
+  "card_id": "27S9gjgcSlI_case_003_eur_usd与gbp_usd做多交易案例",
+  "type": "case",
+  "title": "EUR/USD与GBP/USD SMT确认后的Breaker Block做多交易",
+  "related_concepts": [
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Order Block (Breaker Block)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "smart_money_technique_smt",
+    "displacement",
+    "fair_value_gap_fvg",
+    "failure_swings",
+    "market_structure_shift_mss"
+  ],
+  "school": "SMC",
+  "asset": "EURUSD / GBPUSD",
+  "timeframe": "1H",
+  "market_context": "2024年1月9-10日，EUR/USD和GBP/USD在小时图上形成Smart Money Technique信号。GU创新低而EU未创新低，随后价格出现位移上升，形成多个SMT确认点。",
+  "key_observation": "GBP/USD创新低而EUR/USD创新高，形成SMT分歧信号。价格随后出现强势位移上升，伴随多个向上闭合K线，确认反转设置。",
+  "analysis_steps": [
+    "Step 1: 在小时图上比较EUR/USD和GBP/USD的结构，观察到GU创新低而EU创新高，形成第一个SMT。",
+    "Step 2: 等待结构确认，不在SMT出现时立即入场，而是观察是否有位移（Displacement）出现。",
+    "Step 3: 价格出现向下的激进走势，GU再次创新低但EU未跟随，形成第二个SMT，进一步确认反转信号。",
+    "Step 4: 观察到向上位移出现，伴随多个向上闭合K线（up close candles）形成低高低高的结构。",
+    "Step 5: 在Breaker Block区域入场做多，止损设置在Breaker Block下方和Fair Value Gap下方。",
+    "Step 6: 目标设置在失败摆动（Failure Swings）区域，风险回报比为3.2R。",
+    "Step 7: 价格被扫荡后出现位移上升，向上闭合K线持续支撑价格走高，最终触及目标获利。"
+  ],
+  "outcome": "交易成功，价格从Breaker Block入场后出现位移上升，多个向上闭合K线支撑价格继续走高，最终在失败摆动目标区域获得3.2R收益。",
+  "lessons": "SMT不应单独作为入场信号，需要等待结构确认和位移出现。Breaker Block结合失败摆动目标提供高概率的做多设置。多个SMT确认增强交易信号的可靠性。向上闭合K线的连续性是趋势延续的关键确认。",
+  "primary_image": "cards/27S9gjgcSlI/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/27S9gjgcSlI/images/case_003_detail_1.jpg",
+    "cards/27S9gjgcSlI/images/case_003_detail_2.jpg",
+    "cards/27S9gjgcSlI/images/case_003_detail_3.jpg",
+    "cards/27S9gjgcSlI/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图为双面板 1 小时 K 线图，左侧为 EUR/USD，右侧为 GBP/USD，均来自 FXReplay 回测平台。左侧面板可见价格区间约 1.08 至 1.10，图上有一条从左下向右上延伸的趋势线。右侧面板可见价格区间约 1.26 至 1.28，图上标注有一个绿色矩形区域（约 1.274 至 1.282）和一个粉色矩形区域（约 1.270 至 1.274），以及一条蓝色水平线位于约 1.2717",
+    "case_003_detail_1.jpg": "图为双面板布局，左侧为 EUR/USD 1 小时 K 线图，右侧为 GBP/USD 1 小时 K 线图，均来自 FXReplay 回测平台。左侧图可见价格范围约 1.085 至 1.103，图中绘有一条从左下向右延伸的上升趋势线，连接多个低点区域。右侧图可见价格范围约 1.262 至 1.283，同样绘有一条上升趋势线连接低点区域，当前价格标签显示 1.27。两图均在 Tue 09 Jan '24",
+    "case_003_detail_2.jpg": "图为 FXReplay 回测平台上并排显示的两个 1 小时 K 线图，左侧为 EUR/USD，右侧为 GBP/USD，日期范围约为 2024 年 1 月 9 日至 10 日。左图价格轴约在 1.085 至 1.105 区间，图上绘有一条 V 形折线，两端及顶点均有圆形控制点标记，折线低点约在 1.088 附近，另有一条水平虚线位于 1.09 附近，右侧价格轴有绿色与蓝色高亮标签。右图价格轴约在 1",
+    "case_003_detail_3.jpg": "图为 FXReplay 回测平台的双面板布局，左侧为 EUR/USD 1 小时 K 线图，右侧为 GBP/USD 1 小时 K 线图。左侧图上可见一条从左下向右上延伸的趋势线，价格范围约 1.085 至 1.105。右侧图上标注了一个交易设置框，由绿色矩形（标注 Target）、中间入场区（标注 Open P&L）和红色矩形（标注 Stop）三部分组成，当前价格标签显示 1.27。两个面板均有垂直",
+    "case_003_detail_4.jpg": "图为双面板布局，左侧为 EUR/USD 1 小时 K 线图，右侧为 GBP/USD 1 小时 K 线图，均来自 FXReplay 回测平台。左侧图上可见一条从低点向右上方延伸的趋势线，价格范围约 1.0900 至 1.1050。右侧图上标注有一条蓝色水平线位于 1.27177，一条虚线水平线位于约 1.2800，并有绿色矩形区域（约 1.2730 至 1.2850）与粉红色矩形区域（约 1.268"
+  },
+  "sources": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        371.8,
+        549.079
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了EUR/USD和GBP/USD的SMT分析过程，清晰标注了入场点、止损和目标，交易结果明确显示3.2R收益。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:18:10.016169Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EUR/USD与GBP/USD SMT确认后的Breaker Block做多交易\",\"school\":\"SMC\",\"asset\":\"EURUSD / GBPUSD\",\"timeframe\":\"1H\",\"market_context\":\"2024年1月9-10日，EUR/USD和GBP/USD在小时图上形成Smart Money Technique信号。GU创新低而EU未创新低，随后价格出现位移上升，形成多个SMT确认点。\",\"key_observation\":\"GBP/USD创新低而EUR/USD创新高，形成SMT分歧信号。价格随后出现强势位移上升，伴随多个向上闭合K线，确认反转设置。\",\"analysis_steps\":[\"Step 1: 在小时图上比较EUR/USD和GBP/USD的结构，观察到GU创新低而EU创新高，形成第一个SMT。\",\"Step 2: 等待结构确认，不在SMT出现时立即入场，而是观察是否有位移（Displacement）出现。\",\"Step 3: 价格出现向下的激进走势，GU再次创新低但EU未跟随，形成第二个SMT，进一步确认反转信号。\",\"Step 4: 观察到向上位移出现，伴随多个向上闭合K线（up close candles）形成低高低高的结构。\",\"Step 5: 在Breaker Block区域入场做多，止损设置在Breaker Block下方和Fair Value Gap下方。\",\"Step 6: 目标设置在失败摆动（Failure Swings）区域，风险回报比为3.2R。\",\"Step 7: 价格被扫荡后出现位移上升，向上闭合K线持续支撑价格走高，最终触及目标获利。\"],\"outcome\":\"交易成功，价格从Breaker Block入场后出现位移上升，多个向上闭合K线支撑价格继续走高，最终在失败摆动目标区域获得3.2R收益。\",\"lessons\":\"SMT不应单独作为入场信号，需要等待结构确认和位移出现。Breaker Block结合失败摆动目标提供高概率的做多设置。多个SMT确认增强交易信号的可靠性。向上闭合K线的连续性是趋势延续的关键确认。\",\"primary_image_frame_id\":\"27S9gjgcSlI_f001\",\"supporting_image_frame_ids\":[\"27S9gjgcSlI_f015\",\"27S9gjgcSlI_f016\",\"27S9gjgcSlI_f017\",\"27S9gjgcSlI_f018\"],\"related_concepts\":[\"Smart Money Technique (SMT)\",\"Order Block (Breaker Block)\",\"Displacement\",\"Fair Value Gap (FVG)\",\"Failure Swings\",\"Market Structure Shift (MSS)\",\"Risk Management\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了EUR/USD和GBP/USD的SMT分析过程，清晰标注了入场点、止损和目标，交易结果明确显示3.2R收益。\"}",
+  "error": null
+}

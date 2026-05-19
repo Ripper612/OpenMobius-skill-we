@@ -1,0 +1,116 @@
+{
+  "card_id": "IPZjNI1B5a0_case_003_eth看跌扩张中的均衡点反转案例",
+  "type": "case",
+  "title": "ETH看跌扩张中的均衡点反转案例",
+  "related_concepts": [
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "equilibrium_eq",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery_csd",
+    "market_structure_shift_mss",
+    "displacement",
+    "liquidity",
+    "protected_high_low"
+  ],
+  "school": "ICT",
+  "asset": "ETH",
+  "timeframe": "1H",
+  "market_context": "ETH经历看跌扩张后回到日线范围内，博主通过多日均衡点(EQ)和市场结构转变(CSD)来确认趋势延续，观察价格是否尊重均衡点下半部分继续下行。",
+  "key_observation": "价格在看跌扩张后闭合回到日线范围内，关键在于是否尊重前一日均衡点。若尊重EQ，则可交易至前一日低点；若突破EQ，则寻找高位失败摆动。",
+  "analysis_steps": [
+    "Step 1: 识别看跌扩张K线，标记前一日的均衡点(EQ)作为关键参考水平。",
+    "Step 2: 设置if-then情景：若EQ被尊重，预期价格交易至前一日低点及左侧低点；若EQ被突破，预期交易至高位失败摆动。",
+    "Step 3: 下钻至1小时图表观察盘中价格行为，识别整理区域和扫荡。",
+    "Step 4: 进一步下钻至15分钟图表，确认激进的抛售是否与日线EQ尊重相符。",
+    "Step 5: 跟踪后续多日的日线收盘，检查是否持续尊重前一日EQ，同时观察是否有前一日高点的扫荡。",
+    "Step 6: 当价格已经跳空下行后回到范围内时，等待下一个日线收盘来确认或否定思路。",
+    "Step 7: 识别订单块(Order Block)形成和市场结构转变(CSD)，确认趋势延续的有效性。",
+    "Step 8: 使用0.5斐波那契水平(特别是对于大影线的K线)来精确定位均衡点，而非整根K线的EQ。",
+    "Step 9: 配对日线收盘、日线均衡点和CSD，搜索价格扩张至失败摆动高点的机会。"
+  ],
+  "outcome": "价格最终尊重均衡点下半部分，继续下行至前一日低点，并通过订单块形成和收盘确认实现趋势延续，扩张至高位失败摆动。",
+  "lessons": "通过多日均衡点和CSD的配对，可以有效确认趋势延续。关键是耐心等待日线收盘确认，而非过早入场；同时要区分大影线K线的EQ计算方式，使用0.5影线水平而非整根K线。",
+  "primary_image": "cards/IPZjNI1B5a0/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/IPZjNI1B5a0/images/case_003_detail_1.jpg",
+    "cards/IPZjNI1B5a0/images/case_003_detail_2.jpg",
+    "cards/IPZjNI1B5a0/images/case_003_detail_3.jpg",
+    "cards/IPZjNI1B5a0/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为ETH 1小时K线图，可见价格范围约从40000至46000。图上有一个橙黄色填充矩形标注，覆盖约44100至45000价格区间，横跨约5至6根K线。图右侧可见数根大型黑色阴线K线，从约46000向下延伸至约43500。最新区域出现一根大型绿色阳线，从约43500延伸至约40500。图上有一条水平虚线位于约43500处。左侧价格轴当前标签显示约40411。",
+    "case_003_detail_1.jpg": "图为K线图，左上角显示卖价44,002、买价44,004。图右侧价格刻度范围约从43,500至45,100。图中央区域有一根大幅下行K线，随后右侧出现一根大幅上行K线。图中有一条虚线水平线位于约44,002处，另有一条虚线垂直线与黄色十字光标交叉于该水平线附近。图左侧至中部可见多根小实体K线在约44,200至44,400区间内密集排列。底部工具栏显示TradingView PRO标识及绘图工具栏。",
+    "case_003_detail_2.jpg": "图表为 K 线图，左上角显示买卖价分别为 44016 和 44014。图上可见价格范围约从 43600 至 47000。图右侧有一根主体极长的黑色 K 线，主体从约 46800 延伸至约 43700。图中部有一个矩形标注框，覆盖约 44100 至 44500 区间内的多根小 K 线。图上有三条水平线，分别位于约 44336、44100 及 43800 附近。底部时间轴标注显示 'Fri 21 Fe",
+    "case_003_detail_3.jpg": "图表为 ETH 1 小时 K 线图，可见价格范围约从 39600 至 45300。图左侧出现一根较长的黑色 K 线，实体从约 41500 延伸至 40500。图中部有多根小实体 K 线集中在约 43000 至 44000 区间。图右侧出现一根较高的绿色 K 线与一根较高的黑色 K 线，最右侧 K 线带有较长下影线延伸至约 40000。图上有一个浅橙色矩形标注，位于约 46000 至 46900 价",
+    "case_003_detail_4.jpg": "图表显示 ETH 1 小时 K 线图。图上有两个矩形标注：一个橙黄色矩形位于约 44900 至 45400 区间，另一个浅灰色矩形位于约 43600 至 43900 区间。图左侧可见一段下行走势，随后出现多根小实体 K 线在约 43600 至 44000 区间横向排列。图右侧出现两根大实体黑色 K 线与一根大实体绿色 K 线，绿色 K 线实体从约 43200 延伸至 44800，上方有影线延伸至约"
+  },
+  "sources": [
+    {
+      "video_id": "IPZjNI1B5a0",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        371.08,
+        727.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整，清晰展示了多日均衡点的应用、if-then情景设置、多时间框架确认和CSD的实际运用过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:24.004393Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH看跌扩张中的均衡点反转案例\",\"school\":\"ICT\",\"asset\":\"ETH\",\"timeframe\":\"1H\",\"market_context\":\"ETH经历看跌扩张后回到日线范围内，博主通过多日均衡点(EQ)和市场结构转变(CSD)来确认趋势延续，观察价格是否尊重均衡点下半部分继续下行。\",\"key_observation\":\"价格在看跌扩张后闭合回到日线范围内，关键在于是否尊重前一日均衡点。若尊重EQ，则可交易至前一日低点；若突破EQ，则寻找高位失败摆动。\",\"analysis_steps\":[\"Step 1: 识别看跌扩张K线，标记前一日的均衡点(EQ)作为关键参考水平。\",\"Step 2: 设置if-then情景：若EQ被尊重，预期价格交易至前一日低点及左侧低点；若EQ被突破，预期交易至高位失败摆动。\",\"Step 3: 下钻至1小时图表观察盘中价格行为，识别整理区域和扫荡。\",\"Step 4: 进一步下钻至15分钟图表，确认激进的抛售是否与日线EQ尊重相符。\",\"Step 5: 跟踪后续多日的日线收盘，检查是否持续尊重前一日EQ，同时观察是否有前一日高点的扫荡。\",\"Step 6: 当价格已经跳空下行后回到范围内时，等待下一个日线收盘来确认或否定思路。\",\"Step 7: 识别订单块(Order Block)形成和市场结构转变(CSD)，确认趋势延续的有效性。\",\"Step 8: 使用0.5斐波那契水平(特别是对于大影线的K线)来精确定位均衡点，而非整根K线的EQ。\",\"Step 9: 配对日线收盘、日线均衡点和CSD，搜索价格扩张至失败摆动高点的机会。\"],\"outcome\":\"价格最终尊重均衡点下半部分，继续下行至前一日低点，并通过订单块形成和收盘确认实现趋势延续，扩张至高位失败摆动。\",\"lessons\":\"通过多日均衡点和CSD的配对，可以有效确认趋势延续。关键是耐心等待日线收盘确认，而非过早入场；同时要区分大影线K线的EQ计算方式，使用0.5影线水平而非整根K线。\",\"primary_image_frame_id\":\"IPZjNI1B5a0_f019\",\"supporting_image_frame_ids\":[\"IPZjNI1B5a0_f013\",\"IPZjNI1B5a0_f015\",\"IPZjNI1B5a0_f017\",\"IPZjNI1B5a0_f020\",\"IPZjNI1B5a0_f001\",\"IPZjNI1B5a0_f021\"],\"related_concepts\":[\"Equilibrium (EQ)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Change in the state of delivery (CSD)\",\"Market Structure Shift (MSS)\",\"Premium/Discount Array (PD array)\",\"Displacement\",\"Liquidity\",\"Protected Swing\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整，清晰展示了多日均衡点的应用、if-then情景设置、多时间框架确认和CSD的实际运用过程。\"}",
+  "error": null
+}

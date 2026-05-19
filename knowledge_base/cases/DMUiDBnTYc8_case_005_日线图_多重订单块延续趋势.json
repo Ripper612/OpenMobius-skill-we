@@ -1,0 +1,106 @@
+{
+  "card_id": "DMUiDBnTYc8_case_005_日线图_多重订单块延续趋势",
+  "type": "case",
+  "title": "日线多重订单块延续趋势分析",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Trend Continuation",
+      "card_id": "trend_continuation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "market_structure_shift",
+    "mean_threshold",
+    "risk_to_reward",
+    "swing_high_low",
+    "trend_continuation"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "1D",
+  "market_context": "原油期货在前月高点92.86附近形成重要水平，价格创造等高点后向下位移，随后形成一系列连续订单块结构，每个订单块都成为趋势延续的潜在入场点。",
+  "key_observation": "博主识别出前月高点作为关键水平，价格在该水平附近形成多个连续的订单块（Order Block），每个订单块都通过向下位移和收盘确认而形成，构成了一个完整的趋势延续链条。",
+  "analysis_steps": [
+    "Step 1: 识别前月高点（约92.86）作为重要水平，观察价格是否创造等高点。",
+    "Step 2: 确认一系列向上收盘K线进入该重要水平，形成初始订单块候选。",
+    "Step 3: 验证价格向下位移并收盘低于这些向上收盘K线的收盘价，确认第一个订单块的形成。",
+    "Step 4: 观察价格回测该订单块以及相关的公允价值缺口（FVG）。",
+    "Step 5: 识别第二个订单块：价格再次形成向上收盘K线进入重要水平，然后向下位移并收盘确认。",
+    "Step 6: 重复识别第三个订单块，确保每个订单块都经历了向下位移和收盘确认的完整过程。",
+    "Step 7: 对每个订单块计算风险回报比，使用均值阈值（Mean Threshold）优化入场点以提高风险回报。",
+    "Step 8: 强调订单块必须回测到重要水平才能有效，否则不符合趋势延续的条件。"
+  ],
+  "outcome": "价格成功在多个订单块处获得支撑，实现趋势延续上行，每个订单块都提供了有效的入场机会，风险回报比从1.5R到2.6R不等。",
+  "lessons": "在日线上识别前月高点等重要水平是关键；订单块必须满足三个条件：向上收盘K线进入重要水平、向下位移、收盘确认；使用均值阈值可显著提高风险回报比；止损应放在摆动低点而非订单块另一端，以避免虚假止损。",
+  "primary_image": "cards/DMUiDBnTYc8/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/DMUiDBnTYc8/images/case_005_detail_1.jpg",
+    "cards/DMUiDBnTYc8/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "图表为 CL1!（原油期货）日线 K 线图，来源标注为 TTrader_edu。可见价格范围约从 74.00 至 95.00。图上绘有一个橙黄色矩形框，位于约 88.50 至 89.50 区间。图上另有多条蓝色水平线，分别位于约 89.00、83.00、81.00 及 76.00 附近。左侧价格轴标注当前价 86.22 及下方 76.00 两个价格标签。K 线序列从左侧低点上行至约 93.00-9",
+    "case_005_detail_1.jpg": "图表为日线（1D）K线图，底部时间轴显示2023年8月至2024年初区间，右侧价格轴范围约77至97。图左侧标注'TTrader_edu'水印。图上可见三条水平线：约92.86处一条虚线延伸至全图，约88.72处一条水平线附近有橙黄色矩形区域标注，约86.18处有蓝色高亮标签。图右侧K线群集中在88至89区间，并有一条水平线从约86处向右延伸至空白区域。图中部出现一根较长的黑色实体K线，收盘位置约",
+    "case_005_detail_2.jpg": "图表为日线（1D）K 线图，资产代码不可读，右上角显示水印文字 TTrader_edu。可见价格范围约从 76.00 至 97.00。图上有多条水平线标注：约 92.00 处一条红色水平线，约 89.00 处一条橙色矩形区域及蓝色水平线，约 86.00 处一条蓝色水平线。左侧价格轴显示两条虚线价格标签，分别为 83.87 和 83.01。K 线序列从左侧低点约 76.00 上行至约 92.00 后"
+  },
+  "sources": [
+    {
+      "video_id": "DMUiDBnTYc8",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        516.919,
+        877.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对日线订单块分析完整清晰，资产代码CL1!、时间框架1D、关键价位92.86、多个订单块形成过程及风险回报计算都有详细讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:21.018041Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线多重订单块延续趋势分析\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"1D\",\"market_context\":\"原油期货在前月高点92.86附近形成重要水平，价格创造等高点后向下位移，随后形成一系列连续订单块结构，每个订单块都成为趋势延续的潜在入场点。\",\"key_observation\":\"博主识别出前月高点作为关键水平，价格在该水平附近形成多个连续的订单块（Order Block），每个订单块都通过向下位移和收盘确认而形成，构成了一个完整的趋势延续链条。\",\"analysis_steps\":[\"Step 1: 识别前月高点（约92.86）作为重要水平，观察价格是否创造等高点。\",\"Step 2: 确认一系列向上收盘K线进入该重要水平，形成初始订单块候选。\",\"Step 3: 验证价格向下位移并收盘低于这些向上收盘K线的收盘价，确认第一个订单块的形成。\",\"Step 4: 观察价格回测该订单块以及相关的公允价值缺口（FVG）。\",\"Step 5: 识别第二个订单块：价格再次形成向上收盘K线进入重要水平，然后向下位移并收盘确认。\",\"Step 6: 重复识别第三个订单块，确保每个订单块都经历了向下位移和收盘确认的完整过程。\",\"Step 7: 对每个订单块计算风险回报比，使用均值阈值（Mean Threshold）优化入场点以提高风险回报。\",\"Step 8: 强调订单块必须回测到重要水平才能有效，否则不符合趋势延续的条件。\"],\"outcome\":\"价格成功在多个订单块处获得支撑，实现趋势延续上行，每个订单块都提供了有效的入场机会，风险回报比从1.5R到2.6R不等。\",\"lessons\":\"在日线上识别前月高点等重要水平是关键；订单块必须满足三个条件：向上收盘K线进入重要水平、向下位移、收盘确认；使用均值阈值可显著提高风险回报比；止损应放在摆动低点而非订单块另一端，以避免虚假止损。\",\"primary_image_frame_id\":\"DMUiDBnTYc8_f025\",\"supporting_image_frame_ids\":[\"DMUiDBnTYc8_f023\",\"DMUiDBnTYc8_f024\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Market Structure Shift\",\"Mean Threshold\",\"Risk/Reward Ratio\",\"Swing High/Low\",\"Trend Continuation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对日线订单块分析完整清晰，资产代码CL1!、时间框架1D、关键价位92.86、多个订单块形成过程及风险回报计算都有详细讲解。\"}",
+  "error": null
+}

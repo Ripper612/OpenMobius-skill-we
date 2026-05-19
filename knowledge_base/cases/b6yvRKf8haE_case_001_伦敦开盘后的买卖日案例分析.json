@@ -1,0 +1,119 @@
+{
+  "card_id": "b6yvRKf8haE_case_001_伦敦开盘后的买卖日案例分析",
+  "type": "case",
+  "title": "伦敦开盘后亚洲低点被取，纽约时段激进位移跌破深折价区案例",
+  "related_concepts": [
+    {
+      "term": "Midnight Open",
+      "card_id": "midnight_open",
+      "exists": true
+    },
+    {
+      "term": "8:30 Open",
+      "card_id": "8_30_and_midnight_open",
+      "exists": true
+    },
+    {
+      "term": "Discount",
+      "card_id": "discount",
+      "exists": true
+    },
+    {
+      "term": "Deep Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Buy Day",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "midnight_open",
+    "8_30_and_midnight_open",
+    "discount",
+    "premium_discount",
+    "displacement",
+    "fair_value_gap",
+    "order_block",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "5M",
+  "market_context": "伦敦开盘后价格上升并取得亚洲低点，随后在纽约AM/PM时段出现激进位移（Displacement），价格跌破午夜开盘（0:00）和8:30开盘两个关键水平，进入深折价区。",
+  "key_observation": "博主展示了如何利用午夜开盘和8:30开盘作为折价/溢价区的分界线，在买卖日中识别高概率交易机会。伦敦开盘后的激进位移导致价格进入深折价区，为做多提供了设置点。",
+  "analysis_steps": [
+    "Step 1: 识别日内开盘结构——午夜开盘（0:00）和8:30开盘作为折价/溢价区的参考线",
+    "Step 2: 观察伦敦开盘后价格上升并取得亚洲低点的行为",
+    "Step 3: 识别随后在纽约时段出现的激进位移（Displacement），价格突破高点",
+    "Step 4: 追踪价格跌破午夜开盘水平，进入单一折价区（Single Discount）",
+    "Step 5: 确认价格继续跌破8:30开盘水平，进入深折价区（Deep Discount）",
+    "Step 6: 在深折价区内寻找低时间框架设置点，识别FVG和Order Block作为潜在买入区域",
+    "Step 7: 观察价格在深折价区内的回测行为，确认交易机会"
+  ],
+  "outcome": null,
+  "lessons": "在买卖日中，午夜开盘和8:30开盘是关键的结构参考线。深折价区（同时低于两个开盘价）提供了高概率的做多机会。激进位移后的价格回归往往会测试这些关键水平，交易者应在低时间框架内寻找具体的入场设置。",
+  "primary_image": "cards/b6yvRKf8haE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/b6yvRKf8haE/images/case_001_detail_1.jpg",
+    "cards/b6yvRKf8haE/images/case_001_detail_2.jpg",
+    "cards/b6yvRKf8haE/images/case_001_detail_3.jpg",
+    "cards/b6yvRKf8haE/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES 5分钟K线图。图上可见价格范围约从4023到4055。标注有两条水平线：4045处标记为0.886、4039处标记为0.39。图上有两个矩形框分别位于上方4045-4055区间和下方4013-4025区间。此外绘有两条趋势线：一条从上方向下延伸至4025附近，另一条从4025向上延伸至4035附近，形成V形走势。K线显示早期在4039-4045区间内的整理，随后向下运动至4025附近，之后向",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 5分钟线图。图上分左右两个面板，分别标题为'Looking for Longs'和'Looking for Shorts'。两条水平参考线分别标记为8:30和0:00，对应买卖日开盘价位。左侧面板显示从06:00至约23:00的价格波动，呈锯齿状上下振荡，高点约4075，低点约4055。右侧面板显示从00:00至04:30的价格波动，同样呈锯齿状振荡，",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 5分钟线图。图上显示两个标题区域：左侧标记'Looking for Longs'，右侧标记'Looking for Shorts'。左侧下方列出做多条件：'Below 8:30 or 0:00 open on buy day = Discount'和'Below 8:30 AND 0:00 open on buy day = Deep Discount",
+    "case_001_detail_3.jpg": "S&P 500 E-mini 期货 5 分钟 K 线图。图上显示价格范围约从 4020.00 到 4049.30。图中标注有两个矩形区域：上方区域约在 4038.00 至 4045.50 之间，下方区域约在 4024.75 至 4032.00 之间。图上有时间标签 8:22 和 8:30。K 线呈现绿色和红色交替形态，在两个标注区域之间波动。右侧价格标签显示 4045.50。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上有两条水平线，分别标记为0.00和8.32，对应价格约4043.25和4033.75。右侧价格刻度显示范围从4023到4053。图表显示从左侧约4045的高点向下运行至右侧约4023的低点，期间形成多根红色K线。最近的K线显示在4033至4043区间内的整理形态。图上未见其他指标或标注。"
+  },
+  "sources": [
+    {
+      "video_id": "b6yvRKf8haE",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.799,
+        188.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了伦敦开盘后的价格行为、关键水平、折价区定义和交易逻辑，图表清晰标注了0:00和8:30开盘线，价格运动过程明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:39:20.384853Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"伦敦开盘后亚洲低点被取，纽约时段激进位移跌破深折价区案例\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"5M\",\"market_context\":\"伦敦开盘后价格上升并取得亚洲低点，随后在纽约AM/PM时段出现激进位移（Displacement），价格跌破午夜开盘（0:00）和8:30开盘两个关键水平，进入深折价区。\",\"key_observation\":\"博主展示了如何利用午夜开盘和8:30开盘作为折价/溢价区的分界线，在买卖日中识别高概率交易机会。伦敦开盘后的激进位移导致价格进入深折价区，为做多提供了设置点。\",\"analysis_steps\":[\"Step 1: 识别日内开盘结构——午夜开盘（0:00）和8:30开盘作为折价/溢价区的参考线\",\"Step 2: 观察伦敦开盘后价格上升并取得亚洲低点的行为\",\"Step 3: 识别随后在纽约时段出现的激进位移（Displacement），价格突破高点\",\"Step 4: 追踪价格跌破午夜开盘水平，进入单一折价区（Single Discount）\",\"Step 5: 确认价格继续跌破8:30开盘水平，进入深折价区（Deep Discount）\",\"Step 6: 在深折价区内寻找低时间框架设置点，识别FVG和Order Block作为潜在买入区域\",\"Step 7: 观察价格在深折价区内的回测行为，确认交易机会\"],\"outcome\":null,\"lessons\":\"在买卖日中，午夜开盘和8:30开盘是关键的结构参考线。深折价区（同时低于两个开盘价）提供了高概率的做多机会。激进位移后的价格回归往往会测试这些关键水平，交易者应在低时间框架内寻找具体的入场设置。\",\"primary_image_frame_id\":\"b6yvRKf8haE_f007\",\"supporting_image_frame_ids\":[\"b6yvRKf8haE_f002\",\"b6yvRKf8haE_f004\",\"b6yvRKf8haE_f005\",\"b6yvRKf8haE_f006\"],\"related_concepts\":[\"Midnight Open\",\"8:30 Open\",\"Discount\",\"Deep Discount\",\"Displacement\",\"Fair Value Gap\",\"Order Block\",\"Buy Day\",\"Market Structure\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了伦敦开盘后的价格行为、关键水平、折价区定义和交易逻辑，图表清晰标注了0:00和8:30开盘线，价格运动过程明确。\"}",
+  "error": null
+}

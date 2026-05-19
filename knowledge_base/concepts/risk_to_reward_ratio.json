@@ -1,0 +1,284 @@
+{
+  "card_id": "risk_to_reward_ratio",
+  "type": "merged_concept",
+  "canonical_term": "Risk-to-Reward Ratio",
+  "aliases": [
+    "2R",
+    "R",
+    "R:R",
+    "R:R比例",
+    "RRR",
+    "Risk/Reward",
+    "风险收益比",
+    "R倍数",
+    "R值",
+    "RR",
+    "RR比",
+    "R:R Ratio",
+    "Risk-Reward Ratio",
+    "Risk-Reward",
+    "Risk/Reward Ratio",
+    "风险回报比"
+  ],
+  "school": "Risk Management",
+  "definition": "止损点与目标价位之间的距离比值，用R表示每承担1单位风险能获得的潜在收益倍数。风险为入场点至止损点距离，收益为入场点至目标价位距离，两者相除得出倍数（如2R表示收益为风险的2倍）。通常寻求至少2R以确保正期望值。",
+  "identification_rules": [
+    "计算入场价与止损价的距离，作为风险单位（1R）；止损位通常设于Protected Swing高点或低点、K线低点/高点或Order Block边缘",
+    "计算入场价与目标价位的距离，除以风险单位得出R倍数：(目标价位 - 入场价) ÷ (入场价 - 止损价)",
+    "在图表上标注止损位、入场价和目标价位，测量两段距离的比例；交易平台可自动显示",
+    "目标价位可设于结构性位置（前期摆动高低点、Fair Value Gap、Order Block、流动性聚集区）以获得更高比例",
+    "理想情况下目标距离应至少为止损距离的2倍（1:2或更高）；若无法达到，应重新评估交易可行性",
+    "多时间框架对齐时，使用低时间框架（如15分钟）的Protected Swing作为止损，以高时间框架（如日线、4小时）的目标位作为获利目标，可获得更大R倍数（8R以上）",
+    "若初始止损位置无法达到目标比例，可等待新的Protected Swing形成后再入场，以获得更接近止损的入场点"
+  ],
+  "trading_implication": "风险收益比决定交易的期望值与可行性。最低要求2R，即目标收益为风险的2倍，确保胜率仅34%以上也能实现盈亏平衡。通过多时间框架对齐（低时间框架精确入场+高时间框架目标），可将R倍数提升至5R至8R以上。将获利目标设置在结构性支撑/阻力位（FVG、OB、摆动高低点）可进一步优化比例。入场前须先确认止损位，再反推目标是否满足最低比例要求。",
+  "common_mistakes": [
+    "在第一个Protected Swing处直接入场，导致止损距离过远、风险收益比不佳，未等待新的Protected Swing形成就仓促入场",
+    "未在多时间框架对齐的情况下交易，导致止损过大或目标不清晰",
+    "仅关注低时间框架目标，忽视高时间框架可能提供的更大目标",
+    "在价格未形成明确的Protected Swing或高时间框架目标时盲目交易",
+    "机械地使用固定1:1比例而忽视结构性目标，导致获利潜力未充分利用",
+    "未考虑市场结构（摆动高低点、FVG、OB位置）来设置合理的获利目标",
+    "使用K线wick而非完整K线范围作为止损，导致止损过紧、风险收益比虚高",
+    "为追求更高风险收益比而将止损设置在不合理位置，违反市场结构保护原则",
+    "忽视风险回报比，盲目入场而不计算止损与目标的距离关系",
+    "过度追求高风险回报比而错过高概率交易机会，或不愿灵活调整策略",
+    "仅在反转入场点接受不足2R的风险回报，而忽视等待延续入场的机会",
+    "未考虑不同资产特性（如油价倾向形成等高点）对止损宽度的影响",
+    "在高时间框架偏差较弱时仍强行交易，导致实际风险收益比无法实现"
+  ],
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Invalidation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    },
+    {
+      "term": "Target",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-wr4xATE37g_case_003_白银1小时图表的受保护摆动与风险管理",
+      "video_id": "-wr4xATE37g",
+      "title": "白银1小时图表的受保护摆动与风险管理"
+    },
+    {
+      "card_id": "-wr4xATE37g_case_004_apoz_usd的买方受保护摆动形成与延续",
+      "video_id": "-wr4xATE37g",
+      "title": "APOZ/USD买方受保护摆动形成与低风险买入延续"
+    },
+    {
+      "card_id": "1YRs4Z1lMws_case_005_es日线周度目标到5分钟ote执行",
+      "video_id": "1YRs4Z1lMws",
+      "title": "ES日线周度目标到5分钟OTE最优入场执行"
+    },
+    {
+      "card_id": "8BWkRGhuj1k_case_002_apoz_usd_日线与多时间框架联动的空头交易",
+      "video_id": "8BWkRGhuj1k",
+      "title": "APOZ/USD 日线反转信号与多时间框架空头交易"
+    },
+    {
+      "card_id": "FgP2lc9nneM_case_003_原油_ol_周线到日线的高级对齐案例",
+      "video_id": "FgP2lc9nneM",
+      "title": "原油(OL)周线到日线的高级多时间框架对齐案例"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_001_btc小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "BTC小时图V形反转到5分钟图多头延续交易"
+    },
+    {
+      "card_id": "JHVaSKtE1Ys_case_002_es_标普500期货_小时图到5分钟图的多头交易",
+      "video_id": "JHVaSKtE1Ys",
+      "title": "ES 1H到5M多头延续入场，通过FVG和受保护低点获得3.17R"
+    },
+    {
+      "card_id": "TNybDCtwBnc_case_003_nq第三个交易案例_日线反转后多日延续",
+      "video_id": "TNybDCtwBnc",
+      "title": "NQ日线反转后多日延续，小时线CSD确认，5分钟扫盘后入场获5.63R"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_003_nq第三个例子_向下扫盘至折价区",
+      "video_id": "q40pRwjuPYQ",
+      "title": "NQ向下扫盘至折价区FVG的短线交易"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_004_日线反转与小时图延续的多层级交易",
+      "video_id": "qdQYhePcvGE",
+      "title": "日线反转与小时图V形反转的多层级延续交易"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "-wr4xATE37g",
+      "original_card_id": "-wr4xATE37g_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_011"
+      ],
+      "time_range": [
+        746.959,
+        925.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_009",
+        "seg_020",
+        "seg_021"
+      ],
+      "time_range": [
+        333.84000000000003,
+        921.68
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "JHVaSKtE1Ys",
+      "original_card_id": "JHVaSKtE1Ys_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_007",
+        "seg_008",
+        "seg_015",
+        "seg_017"
+      ],
+      "time_range": [
+        43.52,
+        937.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TNybDCtwBnc",
+      "original_card_id": "TNybDCtwBnc_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_013",
+        "seg_018",
+        "seg_026"
+      ],
+      "time_range": [
+        570.48,
+        1185.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        276.8,
+        307.039
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "q40pRwjuPYQ",
+      "original_card_id": "q40pRwjuPYQ_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        418.599,
+        601.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_003",
+        "seg_008",
+        "seg_011",
+        "seg_015",
+        "seg_019",
+        "seg_029",
+        "seg_039",
+        "seg_041"
+      ],
+      "time_range": [
+        263.04,
+        2130.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 7,
+    "source_videos": 7,
+    "high_confidence_sources": 7,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:52:46.443115Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "7张原始卡school字段均为Risk Management，无冲突，直接采用。",
+  "error": null
+}

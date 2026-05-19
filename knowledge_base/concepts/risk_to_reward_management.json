@@ -1,0 +1,316 @@
+{
+  "card_id": "risk_to_reward_management",
+  "type": "merged_concept",
+  "canonical_term": "Risk to Reward Management",
+  "aliases": [
+    "RR Management",
+    "Risk to Reward Ratio",
+    "Solid RR"
+  ],
+  "school": "Risk Management",
+  "definition": "交易中止损距离与目标利润距离的比值，以1:X或XR形式表示。入场越接近止损，RR越高但成交概率可能降低；通常要求至少达到2R标准。可通过下钻低时间框架寻找更精确入场点、调整止损位置或使用Mean Threshold来缩小止损距离，在保持目标不变的前提下改善比值。",
+  "identification_rules": [
+    "确定入场价格和止损价格，计算两者间的点数差（风险距离）",
+    "确定目标价格和入场价格，计算两者间的点数差（收益距离）",
+    "用收益距离除以风险距离得出比值（如收益80点÷风险40点=2:1，即2R）",
+    "收益与风险比值须≥2:1（2R标准）才考虑入场；若不满足，需调整入场点或止损位置",
+    "入场点越接近止损点，RR数值越高，但实际成交概率可能降低；需在两者间权衡",
+    "通过下钻低时间框架（如从15分钟→5分钟→1分钟）寻找更优入场点，在目标不变的前提下缩小止损距离以改善比值",
+    "可通过调整止损位置（如使用Breaker Block止损、Mean Threshold入场）来优化比值",
+    "多时间框架对齐（HTF偏向→中间时间框架结构→LTF入场）可获得更高RR",
+    "在A+设置中，可通过多个部分平仓点位分段实现目标收益，每个部分对应不同RR"
+  ],
+  "trading_implication": "RR是评估交易设置质量的核心指标。交易者需在多个潜在入场点（如FVG、OB、OTE、Breaker Block）中选择，不仅考虑RR数值，还要权衡实际成交概率。通过多时间框架对齐与低时间框架精确入场，可在保持相同目标的情况下缩小止损、显著提升RR（如从1:1.3提升至1:2.6，或达到4:1乃至更高）。更高RR使交易者即使胜率较低也能维持正期望值。",
+  "common_mistakes": [
+    "盲目追求最高RR而忽视成交概率，导致入场点过于激进而无法成交",
+    "不考虑市场结构和PD array质量，仅基于RR数值选择入场点",
+    "未能根据不同时间框架和市场条件灵活调整RR预期",
+    "仅关注绝对收益而忽视风险距离，接受不合理的低比例交易",
+    "使用订单块另一端作为止损而非摆动低点，虽然比例更高但增加被止损的风险",
+    "未考虑调整入场点位（如Mean Threshold）来优化比例，被迫接受初始的低比例设置",
+    "仅在高时间框架入场而不下钻低时间框架，导致止损过大、RR不理想",
+    "忽视在低时间框架中寻找确认信号（如结构突破、FVG）就仓促入场，增加被扫损风险",
+    "使用过大的止损导致RR不理想，未能通过降低时间框架寻找更精确入场点来缩小止损范围",
+    "在RR不足2R的情况下仓促入场，导致风险过大",
+    "为达到2R而过度扩大目标价格，忽视实际的流动性目标",
+    "仅在单一时间框架分析，导致入场点不优，RR偏低",
+    "设置止损过宽或目标过近，导致实际RR不理想",
+    "未在入场前明确计算RR，导致交易缺乏量化依据"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Discount / Premium",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Stop Raid",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    },
+    {
+      "term": "Entry Point",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0OjlQ91TZiU_case_001_固定合约数导致风险不一致的案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "固定合约数导致风险不一致的案例"
+    },
+    {
+      "card_id": "0OjlQ91TZiU_case_004_nq期货迷你与微型合约对比案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "NQ期货迷你与微型合约头寸精度对比"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_002_nasdaq_5分钟图表的breaker_block与fvg嵌套",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 5分钟Breaker Block内嵌FVG的精准入场"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_003_eurusd_5分钟unicorn_model交易设置",
+      "video_id": "75S4vwD4P1U",
+      "title": "EURUSD 5分钟Unicorn Model交易设置与止损策略"
+    },
+    {
+      "card_id": "75S4vwD4P1U_case_004_nq1期货多时间框架breaker_block分析",
+      "video_id": "75S4vwD4P1U",
+      "title": "NQ1期货多时间框架Breaker Block与投影目标分析"
+    },
+    {
+      "card_id": "FXNLGYxfbDc_case_001_es期货空头交易_从15分钟到1分钟的风险回报优化",
+      "video_id": "FXNLGYxfbDc",
+      "title": "ES期货空头交易：多时间框架风险回报优化"
+    },
+    {
+      "card_id": "NgFIza9qsGQ_case_002_s_p_500_e_mini期货看跌mitigation_blo",
+      "video_id": "NgFIza9qsGQ",
+      "title": "ES期货5分钟FVG看跌Mitigation Block多次成功触及目标"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_002_日线扫盘后的5分钟入场案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "日线扫盘后通过小时图FVG和5分钟CSD的多层级入场"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_004_调整策略第一个例子_使用displacement和breaker",
+      "video_id": "q40pRwjuPYQ",
+      "title": "使用Displacement和Breaker Block在30秒图表上获得1.55R"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "original_card_id": "0xygpCMwxbQ_concept_risk_to_reward_management",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        2.82,
+        650.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "DMUiDBnTYc8",
+      "original_card_id": "DMUiDBnTYc8_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        336.24,
+        877.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FXNLGYxfbDc",
+      "original_card_id": "FXNLGYxfbDc_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        6.319,
+        179.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "NgFIza9qsGQ",
+      "original_card_id": "NgFIza9qsGQ_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        187.799,
+        545.04
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TfHlNgAZ_II",
+      "original_card_id": "TfHlNgAZ_II_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        192.4,
+        728.32
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "iEaMbuFZb24",
+      "original_card_id": "iEaMbuFZb24_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        192.36,
+        1215.88
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "lpam8F-N3EM",
+      "original_card_id": "lpam8F-N3EM_concept_risk_to_reward_ratio",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.08,
+        350.44
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 7,
+    "source_videos": 7,
+    "high_confidence_sources": 7,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:13.770448Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 3"
+  ],
+  "merge_notes": "7张原始卡school字段均为Risk Management，无冲突。各卡侧重点略有差异（入场概率权衡、2R标准、多时间框架下钻、部分平仓），已综合合并。",
+  "error": null
+}

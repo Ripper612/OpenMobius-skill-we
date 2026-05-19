@@ -1,0 +1,81 @@
+{
+  "card_id": "0OjlQ91TZiU_case_004_nq期货迷你与微型合约对比案例",
+  "type": "case",
+  "title": "NQ期货迷你与微型合约头寸精度对比",
+  "related_concepts": [
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Position Sizing",
+      "card_id": "position_sizing",
+      "exists": true
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    },
+    {
+      "term": "Contract Specifications",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lot Size",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "position_sizing",
+    "risk_to_reward_management"
+  ],
+  "school": "Risk Management",
+  "asset": "NQ1! / MNQ1!",
+  "timeframe": "1M / 5M",
+  "market_context": "2023年12月18日，博主在100K账户上演示同一笔NASDAQ期货交易，对比迷你合约(NQ1!)与微型合约(MNQ1!)在头寸规模计算中的实际应用差异。",
+  "key_observation": "使用风险回报工具计算同一笔交易时，迷你合约需要2.18份（无法执行），而微型合约可精确执行28份，展示微型合约在头寸精度上的优势。",
+  "analysis_steps": [
+    "Step 1: 在Forex模板基础上，调整风险回报工具设置以适配期货交易（设置lot size为1）。",
+    "Step 2: 计算在100K账户、1%风险、特定止损幅度下，迷你合约NQ1!所需的合约数量为2.18份。",
+    "Step 3: 识别迷你合约2.18份无法实际执行的问题（期货只能交整数份）。",
+    "Step 4: 切换至微型合约MNQ1!（微型合约为迷你合约的1/10），重新计算得到28份微型合约。",
+    "Step 5: 对比两个合约在同一交易中的风险回报标注（目标位、止损位、金额），验证微型合约的精度优势。"
+  ],
+  "outcome": "通过使用28份微型合约替代无法执行的2.18份迷你合约，成功完成头寸规模精确化，同时保持相同的风险回报比例（目标37.00点，止损17.75点）。",
+  "lessons": "微型合约因其1/10的合约乘数，在风险管理中提供更高的头寸精度，特别是在小账户或精确风险控制场景下，避免了迷你合约因整数限制导致的头寸规模偏差。",
+  "primary_image": "cards/0OjlQ91TZiU/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/0OjlQ91TZiU/images/case_004_detail_1.jpg",
+    "cards/0OjlQ91TZiU/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图为 MNQ1! 5 分钟 K 线图，日期标注为 18/12/2023，时间轴覆盖约 08:00 至 12:00。图中央有一个交易标注框，分为上下两个矩形区域：上方绿色区域标注为目标位，文字显示 Target: 37.00 (0.223%) Amount: 103084.51，价格范围约 16848 至 16885；下方灰色区域标注为止损位，文字显示 Stop: 17.75 (0.115%) Am",
+    "case_004_detail_1.jpg": "图上为一张带有弹出对话框的 K 线图，对话框标题为 Short Position，包含 Inputs、Style、Visibility 三个选项卡，当前显示 Inputs 页。对话框内可见以下数值字段：Account size 100000 USD、Lot size 1000、Risk 1.00%、Entry price 1.09246；PROFIT LEVEL 区域 Ticks 125、Pric",
+    "case_004_detail_2.jpg": "图表为 NQ1! 1 分钟 K 线图，日期标注为 2023 年 12 月 18 日，来源标注为 TTrades_edu。图上可见价格范围约从 16808 至 16924。图中央区域有一个交易标注框，分为上下两段：上段为绿色矩形，标注文字为 Target: 37.00 (0.22%) 148, Amount: 102084.51，对应价格约 16885；中段标注 Closed PnL: 37.00,"
+  },
+  "sources": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        478.319,
+        559.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从Forex模板调整、迷你合约计算失败、微型合约替代方案的全过程，关键数字（2.18、28、100K、1%风险）清晰可读，两个合约的图表对比明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:07:05.672155Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ期货迷你与微型合约头寸精度对比\",\"school\":\"Risk Management\",\"asset\":\"NQ1! / MNQ1!\",\"timeframe\":\"1M / 5M\",\"market_context\":\"2023年12月18日，博主在100K账户上演示同一笔NASDAQ期货交易，对比迷你合约(NQ1!)与微型合约(MNQ1!)在头寸规模计算中的实际应用差异。\",\"key_observation\":\"使用风险回报工具计算同一笔交易时，迷你合约需要2.18份（无法执行），而微型合约可精确执行28份，展示微型合约在头寸精度上的优势。\",\"analysis_steps\":[\"Step 1: 在Forex模板基础上，调整风险回报工具设置以适配期货交易（设置lot size为1）。\",\"Step 2: 计算在100K账户、1%风险、特定止损幅度下，迷你合约NQ1!所需的合约数量为2.18份。\",\"Step 3: 识别迷你合约2.18份无法实际执行的问题（期货只能交整数份）。\",\"Step 4: 切换至微型合约MNQ1!（微型合约为迷你合约的1/10），重新计算得到28份微型合约。\",\"Step 5: 对比两个合约在同一交易中的风险回报标注（目标位、止损位、金额），验证微型合约的精度优势。\"],\"outcome\":\"通过使用28份微型合约替代无法执行的2.18份迷你合约，成功完成头寸规模精确化，同时保持相同的风险回报比例（目标37.00点，止损17.75点）。\",\"lessons\":\"微型合约因其1/10的合约乘数，在风险管理中提供更高的头寸精度，特别是在小账户或精确风险控制场景下，避免了迷你合约因整数限制导致的头寸规模偏差。\",\"primary_image_frame_id\":\"0OjlQ91TZiU_f019\",\"supporting_image_frame_ids\":[\"0OjlQ91TZiU_f016\",\"0OjlQ91TZiU_f018\"],\"related_concepts\":[\"Risk Management\",\"Position Sizing\",\"Risk to Reward Ratio\",\"Contract Specifications\",\"Lot Size\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从Forex模板调整、迷你合约计算失败、微型合约替代方案的全过程，关键数字（2.18、28、100K、1%风险）清晰可读，两个合约的图表对比明确。\"}",
+  "error": null
+}

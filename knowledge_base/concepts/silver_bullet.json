@@ -1,0 +1,57 @@
+{
+  "card_id": "silver_bullet",
+  "type": "merged_concept",
+  "canonical_term": "Silver Bullet",
+  "aliases": [
+    "Silver Bullet Window"
+  ],
+  "school": "ICT",
+  "definition": "将Killzone进一步缩小至1小时的交易窗口，通常在东部标准时间10:00-11:00之间，用于在此时段内寻找价格向流动性池回归的高概率交易机会。",
+  "identification_rules": [
+    "确认Killzone时段后，将其缩小至连续的1小时窗口",
+    "Silver Bullet窗口在东部标准时间（EST）10:00-11:00之间",
+    "在图表指标中设置时间戳标记10:00和11:00，用垂直线标出窗口起点和终点",
+    "观察该1小时窗口内价格是否向流动性池或已扫除的流动性区域回归"
+  ],
+  "trading_implication": "Silver Bullet是一个特定的时间窗口交易设置，交易者在此窗口内寻找价格向流动性池回归的机会。该窗口具有较高的概率性，因为它结合了特定时段的市场活动特征。交易者可利用此窗口识别高概率入场点，并结合其他ICT工具（如FVG、Order Block）进行确认。",
+  "common_mistakes": [
+    "未明确说明材料中的常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "o0v4KQxZbpU_case_002_第二个silver_bullet交易案例",
+      "video_id": "o0v4KQxZbpU",
+      "title": "Silver Bullet窗口内价格未能有效扫盘的反转失败案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MPeeE55rNOw",
+      "original_card_id": "MPeeE55rNOw_concept_silver_bullet",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        729.6,
+        828.76
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135905Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

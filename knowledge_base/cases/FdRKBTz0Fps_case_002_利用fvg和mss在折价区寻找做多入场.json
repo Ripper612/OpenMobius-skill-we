@@ -1,0 +1,102 @@
+{
+  "card_id": "FdRKBTz0Fps_case_002_利用fvg和mss在折价区寻找做多入场",
+  "type": "case",
+  "title": "5分钟FVG内MSS反转确认1分钟Displacement精确做多入场",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Pullback vs Reversal",
+      "card_id": "pullback_vs_reversal",
+      "exists": true
+    },
+    {
+      "term": "Short-term Lows",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "displacement",
+    "order_block_ob",
+    "time_frame_confluence",
+    "pullback_vs_reversal"
+  ],
+  "school": "ICT",
+  "asset": "CME_MINI (S&P 500 E-mini Futures)",
+  "timeframe": "5M / 1M",
+  "market_context": "S&P 500 E-mini期货在5分钟图上从看涨趋势转为看跌趋势，价格在约4120-4148区间内形成多个MSS，并在下行过程中产生FVG缺口。",
+  "key_observation": "博主识别到5分钟下行趋势中的MSS反转信号，结合1分钟图表内FVG区域的Displacement确认，在接近底部位置精确定位做多入场点。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别初始MSS（约4088-4096），标记为从看涨到看跌的结构转变。",
+    "Step 2: 确认短期低点被突破，5分钟趋势从看涨转为看跌。",
+    "Step 3: 检查15分钟高时间框架，确认其仍处于看涨趋势，未破坏结构。",
+    "Step 4: 在5分钟下行趋势中寻找MSS回升信号或1分钟图表内FVG的反转机会。",
+    "Step 5: 在1分钟图表中观察到Displacement（能量充足的上升K线序列）创造FVG缺口。",
+    "Step 6: 价格回测FVG区域时，结合1分钟MSS确认，在黄色标注区域（约4092-4100）精确入场做多。"
+  ],
+  "outcome": "价格在1分钟FVG区域内形成MSS反转后上升，入场后价格继续上行至4154.50附近，确认做多交易成功。",
+  "lessons": "在多时间框架分析中，当低时间框架（1分钟）在高时间框架（5分钟）的FVG内形成MSS反转信号时，结合Displacement确认可获得高概率入场点。关键是验证高时间框架趋势仍完整，避免逆势交易。",
+  "primary_image": "cards/FdRKBTz0Fps/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/FdRKBTz0Fps/images/case_002_detail_1.jpg",
+    "cards/FdRKBTz0Fps/images/case_002_detail_2.jpg",
+    "cards/FdRKBTz0Fps/images/case_002_detail_3.jpg",
+    "cards/FdRKBTz0Fps/images/case_002_detail_4.jpg",
+    "cards/FdRKBTz0Fps/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图为 S&P 500 E-mini Futures（CME_MINI）5 分钟 K 线图，可见价格范围约 4064 至 4164。图左上角有多行英文文字标注，内容提及 5min 下行趋势、MSS 及 FVG。图中约 11:00 至 12:00 区域有两处 MSS 文字标签及一个黄色矩形框，约 09:00 至 11:00 之间有一条水平括号线。图右侧约 20:30 至 22:00 区域有一个大黄色矩",
+    "case_002_detail_1.jpg": "图为 S&P 500 E-mini Futures（CME_MINI）5 分钟 K 线图，时间轴覆盖约 04:00 至 22:00。图右侧价格刻度范围约 4064 至 4164，当前价标签显示 4154.50（绿色高亮）。图中约 11:00 处出现一段幅度约 40 点的快速上行 K 线序列，此后 K 线在约 4148 至 4164 区间内横向排列延续至图右端。图右下方有三行英文文字标注，内容分别为",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，图右侧价格刻度范围约 4064 至 4164。图左侧有两段文字标注，分别描述上升趋势与下降趋势中 MSS 的识别方式。图中约 09:00 区域有一个矩形框，标签为 MSS，价格区间约在 4088 至 4096。图右侧中部有文字标注\"If price does not break structure, it is a pullback",
+    "case_002_detail_3.jpg": "图表为 S&P 500 E-mini Futures 5 分钟 K 线图，来自 TradingView CME_MINI 数据源。可见价格范围约为 4064.00 至 4164.00。图左上方有一段英文文字注释，内容为对短期低点被突破后趋势变化的描述。图中约 10:45 处标注有文字标签\"MSS\"。图中约 10:00 至 11:00 区间绘制有一个水平矩形框，位于约 4092.00 至 4096.",
+    "case_002_detail_4.jpg": "图表为 S&P 500 E-mini Futures（CME_MINI）5 分钟 K 线图，可见价格范围约 4064.00 至 4164.00。图左上角有一段文字注释，内容提及 5 分钟图上的下行走势，并提到在 FVG 内寻找 MSS 回转的操作思路。图上约 10:00 附近有一根大幅上涨的绿色 K 线，随后在约 10:30 至 11:00 区域标注有\"MSS\"文字标签。图中约 4092.00 至",
+    "case_002_detail_5.jpg": "S&P 500 E-mini Futures 5分钟K线图，图上可见价格范围约4064至4164。图上标注有三处MSS矩形框，分别位于约11:30、12:00及14:00时间区域，对应价格约4122至4148区间。图左侧有文字注释，内容提及MSS与FVG。图上另有三条水平矩形框分别位于约4092、4112及4132价格处。右侧价格轴当前价标签显示4154.50，背景为绿色高亮。K线从图左侧低点约4"
+  },
+  "sources": [
+    {
+      "video_id": "FdRKBTz0Fps",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.64,
+        187.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟和1分钟的分析过程，清晰标注MSS、FVG、入场点，并给出具体价格区间和交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:48.391658Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"5分钟FVG内MSS反转确认1分钟Displacement精确做多入场\",\"school\":\"ICT\",\"asset\":\"CME_MINI (S&P 500 E-mini Futures)\",\"timeframe\":\"5M / 1M\",\"market_context\":\"S&P 500 E-mini期货在5分钟图上从看涨趋势转为看跌趋势，价格在约4120-4148区间内形成多个MSS，并在下行过程中产生FVG缺口。\",\"key_observation\":\"博主识别到5分钟下行趋势中的MSS反转信号，结合1分钟图表内FVG区域的Displacement确认，在接近底部位置精确定位做多入场点。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别初始MSS（约4088-4096），标记为从看涨到看跌的结构转变。\",\"Step 2: 确认短期低点被突破，5分钟趋势从看涨转为看跌。\",\"Step 3: 检查15分钟高时间框架，确认其仍处于看涨趋势，未破坏结构。\",\"Step 4: 在5分钟下行趋势中寻找MSS回升信号或1分钟图表内FVG的反转机会。\",\"Step 5: 在1分钟图表中观察到Displacement（能量充足的上升K线序列）创造FVG缺口。\",\"Step 6: 价格回测FVG区域时，结合1分钟MSS确认，在黄色标注区域（约4092-4100）精确入场做多。\"],\"outcome\":\"价格在1分钟FVG区域内形成MSS反转后上升，入场后价格继续上行至4154.50附近，确认做多交易成功。\",\"lessons\":\"在多时间框架分析中，当低时间框架（1分钟）在高时间框架（5分钟）的FVG内形成MSS反转信号时，结合Displacement确认可获得高概率入场点。关键是验证高时间框架趋势仍完整，避免逆势交易。\",\"primary_image_frame_id\":\"FdRKBTz0Fps_f007\",\"supporting_image_frame_ids\":[\"FdRKBTz0Fps_f003\",\"FdRKBTz0Fps_f004\",\"FdRKBTz0Fps_f005\",\"FdRKBTz0Fps_f002\",\"FdRKBTz0Fps_f008\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"Displacement\",\"Order Block (OB)\",\"Multi-timeframe Analysis\",\"Pullback vs Reversal\",\"Imbalance\",\"Short-term Lows\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟和1分钟的分析过程，清晰标注MSS、FVG、入场点，并给出具体价格区间和交易结果。\"}",
+  "error": null
+}

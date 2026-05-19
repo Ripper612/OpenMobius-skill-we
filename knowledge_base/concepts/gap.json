@@ -1,0 +1,58 @@
+{
+  "card_id": "gap",
+  "type": "merged_concept",
+  "canonical_term": "Gap",
+  "aliases": [
+    "价格缺口",
+    "完全缺口"
+  ],
+  "school": "Price Action",
+  "definition": "两根相邻K线之间完全没有交易发生的价格区域。相邻K线的高低点之间无任何重叠，形成完全的价格断层。",
+  "identification_rules": [
+    "检查相邻两根K线的高低点范围：前一根K线的最低点与后一根K线的最高点之间（或反向）完全不重叠",
+    "确认该区间内没有任何成交（与成交量不平衡Volume Imbalance区别），即两根K线之间存在完全的交易空白",
+    "可在日线或更高时间框架上更容易识别完全缺口"
+  ],
+  "trading_implication": "完全缺口代表市场结构中的极端不平衡，通常预示强势趋势。当价格回归到缺口区域时，往往会产生强烈的支撑或阻力反应。缺口可作为后续交易的参考位，但需与成交量不平衡区分，因为两者的交易反应机制不同。",
+  "common_mistakes": [
+    "将成交量不平衡（Volume Imbalance）误认为是完全缺口。成交量不平衡中两根K线的高低点之间存在交易重叠，而完全缺口则无任何交易发生",
+    "混淆缺口与公允价值缺口（FVG）。FVG是由快速价格变动导致的K线间不平衡区域，而缺口是完全的交易空白"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "ZVUDpCyvxfQ_case_004_成交量不平衡与真实缺口的对比",
+      "video_id": "ZVUDpCyvxfQ",
+      "title": "成交量不平衡与真实缺口的对比分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "ZVUDpCyvxfQ",
+      "original_card_id": "ZVUDpCyvxfQ_concept_gap",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        543.3,
+        593.399
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133189Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

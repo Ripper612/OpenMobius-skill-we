@@ -1,0 +1,52 @@
+{
+  "card_id": "fair_value_gap_rebalance",
+  "type": "merged_concept",
+  "canonical_term": "Fair Value Gap Rebalance",
+  "aliases": [
+    "FVG Rebalance",
+    "缺口回补"
+  ],
+  "school": "ICT",
+  "definition": "公允价值缺口的平衡过程。分两种：创建后回补——价格下来填补已形成的缺口；创建前回补——价格快速移动时提前回调，防止缺口形成。",
+  "identification_rules": [
+    "创建后回补：识别已形成的FVG，观察价格是否随后下来闭合该缺口区域",
+    "创建前回补：观察快速上升的K线序列中，第三根K线开盘后价格是否立即回调至前两根K线之间的区域，防止新缺口产生",
+    "回补完成后，该区域不再存在不平衡，价格倾向于反转或继续原方向"
+  ],
+  "trading_implication": "FVG回补是价格平衡市场结构的自然过程。创建后回补提示价格可能在填补缺口后反转；创建前回补表明市场在快速移动中自我调整，防止过度不平衡。两种回补都可作为识别支撑/阻力和潜在反转点的参考，尤其在日线图上更为显著。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "opYUBJ8IFgg",
+      "original_card_id": "opYUBJ8IFgg_concept_fair_value_gap_rebalance",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        7.04,
+        137.239
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132962Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

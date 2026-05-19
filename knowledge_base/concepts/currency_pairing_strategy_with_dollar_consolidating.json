@@ -1,0 +1,57 @@
+{
+  "card_id": "currency_pairing_strategy_with_dollar_consolidating",
+  "type": "merged_concept",
+  "canonical_term": "Currency Pairing Strategy with Dollar Consolidating",
+  "aliases": [
+    "Exotic Currency Pairing",
+    "Non-Dollar Pairing Strategy"
+  ],
+  "school": "SMC",
+  "definition": "当美元处于盘整状态时，不与美元配对，而是寻找一个看涨货币与一个看跌货币进行配对，以获得趋势性交易机会的策略。",
+  "identification_rules": [
+    "确认美元（DXY）处于盘整状态，通常出现在大幅扩张后或触及高时间框架关键水平后",
+    "识别美元盘整时，欧元或英镑等主要货币对也会反向盘整或回撤",
+    "在所有货币中找出一个明确看涨的货币和一个明确看跌的货币",
+    "当所有货币都趋势上升且无明确看跌货币时，可用盘整货币与看涨货币配对仍能获得趋势"
+  ],
+  "trading_implication": "美元盘整时，通过配对相反方向的非美元货币（如欧元与加元、欧元与纽元），可以获得强趋势交易机会，避免被美元盘整困住。该策略适用于外汇交易和期货交易，期货交易者可选择做多一个货币期货同时做空另一个，效果等同于交易货币对。",
+  "common_mistakes": [
+    "美元盘整时仍然坚持与美元配对，导致交易缺乏明确趋势",
+    "未能正确识别美元盘整的时机，误判为趋势延续",
+    "在选择配对货币时，未充分比较多个候选货币的强弱程度，选择了次优的配对组合"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "original_card_id": "HrjYoxAUb3s_concept_currency_pairing_strategy_with_dollar_co",
+      "segment_ids": [
+        "seg_007",
+        "seg_008",
+        "seg_016",
+        "seg_017"
+      ],
+      "time_range": [
+        249.28,
+        802.52
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132045Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

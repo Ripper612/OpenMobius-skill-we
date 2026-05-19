@@ -1,0 +1,113 @@
+{
+  "card_id": "IJcfC6wAPZU_case_001_黄金期货_gc_日线至5分钟多时间框架延续交易",
+  "type": "case",
+  "title": "黄金期货(GC)日线至5分钟多时间框架延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Continuation Entry",
+      "card_id": "retest_entry",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Invalidation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "market_structure_shift",
+    "retest_entry",
+    "smart_money_technique",
+    "liquidity",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "GC1!",
+  "timeframe": "1D / 1H / 5m",
+  "market_context": "黄金期货在日线形成反转序列，伴随大幅下跌wick。小时线确认CSD后进入纽约盘，扫除前日高点。价格随后回测FVG并形成对立K线，最终扫除前日低点完成下行目标。",
+  "key_observation": "博主展示了如何在错过初始反转入场后，通过等待新的Order Block形成和FVG回测来捕捉延续交易机会，而不是追逐已经开始的行情。",
+  "analysis_steps": [
+    "Step 1: 在日线图识别反转序列，观察大幅下跌wick和前日低点创造等低(equal lows)的结构。",
+    "Step 2: 在小时线确认CSD(Change in State of Delivery)，并注意到价格扫除前日高点同时配合SMT信号。",
+    "Step 3: 切换到5分钟图，标记出前日低点作为流动性目标(draw in liquidity)，与标准差投影对齐。",
+    "Step 4: 等待价格形成新的Order Block或回测Fair Value Gap，而非追逐初始下跌。",
+    "Step 5: 识别多个FVG区域(约2894、2888、2884附近)，确定不需要预测哪个FVG会被触及。",
+    "Step 6: 观察价格上升至最高FVG(2894附近)，等待通过一系列上升K线收盘的确认。",
+    "Step 7: 在收盘确认后，以该高点作为止损，准备做空延续。",
+    "Step 8: 价格下跌并突破该高点下方，验证新高点形成，最终扫除前日低点(约2870)完成目标。"
+  ],
+  "outcome": "价格成功扫除前日低点，完成下行目标。止损设置在高点(约2889.0)，风险回报比为0.21%。",
+  "lessons": "延续交易的核心是不必捕捉初始反转，而是等待新的Order Block形成或FVG回测后的收盘确认。通过多时间框架验证(日线反转+小时线CSD+5分钟FVG回测)提高入场概率，使用已确认的高点作为止损而非反转低点，能获得更优的风险回报比。",
+  "primary_image": "cards/IJcfC6wAPZU/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/IJcfC6wAPZU/images/case_001_detail_2.jpg",
+    "cards/IJcfC6wAPZU/images/case_001_detail_3.jpg",
+    "cards/IJcfC6wAPZU/images/case_001_detail_4.jpg",
+    "cards/IJcfC6wAPZU/images/case_001_detail_5.jpg",
+    "cards/IJcfC6wAPZU/images/case_001_detail_6.jpg",
+    "cards/IJcfC6wAPZU/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图左上角标注文字'Continuation OB'，图右下角有黄色标签'Invalidation'，位于可见K线序列的最低点附近。图中共约14根K线，颜色分为绿色与黑色两类。K线序列整体呈先下行后上行走势。图右侧有两条水平短线，位于近期K线群的上方区域。图上无价格刻度数字、无资产代码、无时间框架标注。",
+    "case_001_detail_2.jpg": "图为教学幻灯片，左上角标题为'Types'，页码为7，品牌标识为TTrades。图上并排展示两组示意性K线序列，均无价格刻度数字。两组图各含若干绿色与黑色K线，每组图中均有一条水平线及一个黄色标签'Invalidation'，标签通过箭头指向水平线下方区域。两组图结构相似，均以一根较大绿色K线收尾。图上无资产代码、无时间框架标注、无其他术语标签。",
+    "case_001_detail_3.jpg": "图为教学幻灯片，左上角标题文字为'Types'，右下角显示品牌标识'TTrades'及页码'8'。画面中并排展示两组示意性蜡烛图，均无真实资产代码或价格刻度。左侧图组包含若干绿色与黑色蜡烛，底部绘有一个水平矩形框围住低位区域，之后出现一根较高的绿色蜡烛。右侧图组结构相似，底部绘有一条向右上方延伸的斜线，斜线右端附有箭头指向黄色标签'Invalidation'，之后出现两根较高的绿色蜡烛。两组图均无",
+    "case_001_detail_4.jpg": "图表为 GC1!（黄金期货连续合约）1 小时 K 线图，右下角标注 '1H-1D Model' 及 'Bias: Neutral'。可见价格范围约从 2846.0 至 2915.0。图上绘有两个水平矩形框，分别位于约 2882.0–2884.5 及 2869.5–2872.0 区域。另有三条水平线分别位于约 2883.0、2871.5 及 2895.0。图右侧最新价格标签显示 2893.0（蓝色高",
+    "case_001_detail_5.jpg": "图表为 GC1!（黄金期货）5 分钟 K 线图，右下角标注 5m-1H Model，Bias: Neutral。可见价格范围约 2864 至 2900。图上有一条橙色斜线从左侧约 2894 水平延伸至右侧，标注文字为 SMT。图右侧有一条蓝色水平线位于约 2888，另有两条虚线水平线分别位于约 2881.5 和 2879。图右侧可见两个矩形标注区域，一个绿色矩形位于约 2881 至 2884，一个",
+    "case_001_detail_6.jpg": "图为 GC1!（黄金期货）5 分钟 K 线图，时间轴覆盖 02:30 至约 11:30，价格刻度范围约 2866.0 至 2902.0。图右下角标注 5m-1H Model、Bias: Neutral。图上有两条实线水平线，分别位于约 2892.0 和 2870.0。一条橙色上升趋势线从左侧延伸至约 07:00 处的 2894.0 附近。约 06:30 至 07:00 区间有一个灰色矩形框，覆盖价",
+    "case_001_detail_7.jpg": "GC1! 黄金期货 5 分钟 K 线图，可见价格范围约 2866 至 2902。图上有一条橙色上升趋势线从左侧约 02:30 延伸至 07:00 附近，终点接近 2894 水平。图上另有一条灰色水平线位于约 2892，以及底部水平线位于约 2870。07:00 附近出现一组密集 K 线，随后价格下行至约 2880。08:00 附近有两个黄色矩形框标注，位于 2884 至 2890 区间。图右下角标"
+  },
+  "sources": [
+    {
+      "video_id": "IJcfC6wAPZU",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.96,
+        372.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线反转识别、小时线CSD确认、到5分钟FVG回测和最终目标达成的全过程，包括具体价位、止损设置和风险回报比。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:02.272453Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金期货(GC)日线至5分钟多时间框架延续交易\",\"school\":\"ICT\",\"asset\":\"GC1!\",\"timeframe\":\"1D / 1H / 5m\",\"market_context\":\"黄金期货在日线形成反转序列，伴随大幅下跌wick。小时线确认CSD后进入纽约盘，扫除前日高点。价格随后回测FVG并形成对立K线，最终扫除前日低点完成下行目标。\",\"key_observation\":\"博主展示了如何在错过初始反转入场后，通过等待新的Order Block形成和FVG回测来捕捉延续交易机会，而不是追逐已经开始的行情。\",\"analysis_steps\":[\"Step 1: 在日线图识别反转序列，观察大幅下跌wick和前日低点创造等低(equal lows)的结构。\",\"Step 2: 在小时线确认CSD(Change in State of Delivery)，并注意到价格扫除前日高点同时配合SMT信号。\",\"Step 3: 切换到5分钟图，标记出前日低点作为流动性目标(draw in liquidity)，与标准差投影对齐。\",\"Step 4: 等待价格形成新的Order Block或回测Fair Value Gap，而非追逐初始下跌。\",\"Step 5: 识别多个FVG区域(约2894、2888、2884附近)，确定不需要预测哪个FVG会被触及。\",\"Step 6: 观察价格上升至最高FVG(2894附近)，等待通过一系列上升K线收盘的确认。\",\"Step 7: 在收盘确认后，以该高点作为止损，准备做空延续。\",\"Step 8: 价格下跌并突破该高点下方，验证新高点形成，最终扫除前日低点(约2870)完成目标。\"],\"outcome\":\"价格成功扫除前日低点，完成下行目标。止损设置在高点(约2889.0)，风险回报比为0.21%。\",\"lessons\":\"延续交易的核心是不必捕捉初始反转，而是等待新的Order Block形成或FVG回测后的收盘确认。通过多时间框架验证(日线反转+小时线CSD+5分钟FVG回测)提高入场概率，使用已确认的高点作为止损而非反转低点，能获得更优的风险回报比。\",\"primary_image_frame_id\":\"IJcfC6wAPZU_f013\",\"supporting_image_frame_ids\":[\"IJcfC6wAPZU_f003\",\"IJcfC6wAPZU_f004\",\"IJcfC6wAPZU_f005\",\"IJcfC6wAPZU_f007\",\"IJcfC6wAPZU_f008\",\"IJcfC6wAPZU_f009\",\"IJcfC6wAPZU_f010\",\"IJcfC6wAPZU_f011\",\"IJcfC6wAPZU_f012\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in State of Delivery\",\"Continuation Entry\",\"Smart Money Technique\",\"Liquidity\",\"Invalidation\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线反转识别、小时线CSD确认、到5分钟FVG回测和最终目标达成的全过程，包括具体价位、止损设置和风险回报比。\"}",
+  "error": null
+}

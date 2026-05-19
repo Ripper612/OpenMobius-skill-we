@@ -1,0 +1,98 @@
+{
+  "card_id": "rXMVPUZPw4A_case_003_nasdaq_1分钟图_第三个unicorn模型交易案例",
+  "type": "case",
+  "title": "NASDAQ 1分钟图：Unicorn模型第三案例，FVG回测获利2.14R",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Unicorn Model",
+      "card_id": "unicorn_model",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "breaker_block",
+    "displacement",
+    "liquidity",
+    "market_structure",
+    "unicorn_model"
+  ],
+  "school": "ICT",
+  "asset": "NQ1! (NASDAQ)",
+  "timeframe": "1M",
+  "market_context": "NASDAQ 1分钟图上形成低-高-更低-更高的Unicorn结构。价格在等高点处形成流动性目标，随后产生位移和公允价值缺口，为交易设置提供机会。",
+  "key_observation": "博主识别出等高点作为流动性目标，观察到价格位移后形成FVG和Breaker Block。关键是价格回测FVG时，K线体未破坏上升K线的中点水平，这是确认交易有效性的重要信号。",
+  "analysis_steps": [
+    "Step 1: 识别NASDAQ 1分钟图上的等高点（equal highs）作为流动性汇集区域",
+    "Step 2: 观察价格形成低-高-更低的结构，确认Unicorn模型的前两个阶段",
+    "Step 3: 标记出上升K线序列和随后产生的公允价值缺口（FVG）",
+    "Step 4: 识别Breaker Block位置，设置止损位于该区域上方",
+    "Step 5: 监控价格回测FVG时K线体是否破坏上升K线的中点（mean threshold）",
+    "Step 6: 确认价格未破坏中点后，预期价格上升至等高点目标位"
+  ],
+  "outcome": "价格成功上升至目标高点，交易获利2.14R",
+  "lessons": "Unicorn模型的关键在于识别等高点流动性和FVG回测的精确性。K线体相对于上升K线中点的位置是判断回测强度的重要指标——只要体未破坏中点，就保持看涨信号。这个案例展示了如何通过结构识别和精确的回测确认来执行高概率交易。",
+  "primary_image": "cards/rXMVPUZPw4A/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/rXMVPUZPw4A/images/case_003_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 1 分钟 K 线图，日期标注为 12/9/2023。图上显示价格从约 15520 上升至 15640，随后下跌至 15576。图右侧标注有两条水平线，分别位于 15607.50 和 15585.50。图上绘制两个矩形区域：上方矩形（浅绿色背景）覆盖 15607.50 至 15640.00 价格范围；下方矩形（浅灰色背景）覆盖 15585.50 至 15607.50 价格范围。图下方工具栏显",
+    "case_003_detail_1.jpg": "USD 1 分钟 K 线图，时间戳显示 12/9/2023。图表显示价格范围从 15576.00 到 15640.00。左侧显示两个价格标签 15614.00 和 15608.00。图上可见一段上升趋势约 20 根 K 线，从 15520.00 上升至 15640.00，随后出现下降趋势约 15 根 K 线至 15588.00。最近的 K 线显示长下影线形态，下影线刺破至 15588.00 后收回"
+  },
+  "sources": [
+    {
+      "video_id": "rXMVPUZPw4A",
+      "segment_ids": [
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011"
+      ],
+      "time_range": [
+        339.039,
+        460.4
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了NASDAQ 1分钟图的Unicorn交易全过程，包括结构识别、FVG标记、Breaker Block设置、回测确认和最终结果（2.14R），所有关键要素清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:19.506749Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NASDAQ 1分钟图：Unicorn模型第三案例，FVG回测获利2.14R\",\"school\":\"ICT\",\"asset\":\"NQ1! (NASDAQ)\",\"timeframe\":\"1M\",\"market_context\":\"NASDAQ 1分钟图上形成低-高-更低-更高的Unicorn结构。价格在等高点处形成流动性目标，随后产生位移和公允价值缺口，为交易设置提供机会。\",\"key_observation\":\"博主识别出等高点作为流动性目标，观察到价格位移后形成FVG和Breaker Block。关键是价格回测FVG时，K线体未破坏上升K线的中点水平，这是确认交易有效性的重要信号。\",\"analysis_steps\":[\"Step 1: 识别NASDAQ 1分钟图上的等高点（equal highs）作为流动性汇集区域\",\"Step 2: 观察价格形成低-高-更低的结构，确认Unicorn模型的前两个阶段\",\"Step 3: 标记出上升K线序列和随后产生的公允价值缺口（FVG）\",\"Step 4: 识别Breaker Block位置，设置止损位于该区域上方\",\"Step 5: 监控价格回测FVG时K线体是否破坏上升K线的中点（mean threshold）\",\"Step 6: 确认价格未破坏中点后，预期价格上升至等高点目标位\"],\"outcome\":\"价格成功上升至目标高点，交易获利2.14R\",\"lessons\":\"Unicorn模型的关键在于识别等高点流动性和FVG回测的精确性。K线体相对于上升K线中点的位置是判断回测强度的重要指标——只要体未破坏中点，就保持看涨信号。这个案例展示了如何通过结构识别和精确的回测确认来执行高概率交易。\",\"primary_image_frame_id\":\"rXMVPUZPw4A_f015\",\"supporting_image_frame_ids\":[\"rXMVPUZPw4A_f014\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Breaker Block\",\"Displacement\",\"Liquidity\",\"Market Structure\",\"Unicorn Model\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了NASDAQ 1分钟图的Unicorn交易全过程，包括结构识别、FVG标记、Breaker Block设置、回测确认和最终结果（2.14R），所有关键要素清晰可见。\"}",
+  "error": null
+}

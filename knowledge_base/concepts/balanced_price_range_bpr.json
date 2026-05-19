@@ -1,0 +1,173 @@
+{
+  "card_id": "balanced_price_range_bpr",
+  "type": "merged_concept",
+  "canonical_term": "Balanced Price Range (BPR)",
+  "aliases": [
+    "平衡价格区间"
+  ],
+  "school": "ICT",
+  "definition": "由一个看跌FVG与一个看涨FVG重叠形成的价格区域，取两个FVG中较小的重叠部分作为BPR。常出现于盘整→激进突破→激进回测的完整周期中，作为强支撑或阻力位，用于识别高概率入场点。",
+  "identification_rules": [
+    "在图表上识别一个看跌FVG（bearish fair value gap）",
+    "识别一个看涨FVG（bullish fair value gap）与其重叠",
+    "取两个FVG中较小的重叠部分，该区域即为BPR",
+    "识别盘整区间（consolidation range）的上下边界，标记激进突破时形成的看跌FVG与激进回测时形成的看涨FVG，两者重叠区域即为BPR",
+    "BPR通常出现在盘整→激进突破→激进回测的完整周期中",
+    "做多场景下，BPR应位于折价区而非溢价区"
+  ],
+  "trading_implication": "BPR是高概率入场区域，可作为Box Setup的关键确认位，标志操纵阶段的支撑或阻力。交易者等待价格回测至BPR后入场，结合更高时间框架的支撑点（如流动性、旧低点）确认信号，并以低时间框架止损控制风险。若BPR风险过大，可用其作为叙述框架，等待内部低点形成后再寻找具体入场点。",
+  "common_mistakes": [
+    "混淆BPR与简单的盘整区间——BPR必须由两个FVG重叠形成，不是任意的价格范围",
+    "忽视激进性要求——缺乏明确的激进突破和激进回测的区域不构成有效BPR",
+    "在BPR形成前过早入场——应等待激进回测完成、BPR确认后再入场，避免在操纵阶段被扫出",
+    "在溢价区而非折价区寻找BPR做多入场，违反基本原则",
+    "忽视更高时间框架的点位兴趣（如流动性、旧低点），仅依赖BPR本身入场"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "4Gm8p6O7Ebs_case_002_白银日线扩张至反转案例",
+      "video_id": "4Gm8p6O7Ebs",
+      "title": "白银日线三天扩张至反转案例"
+    },
+    {
+      "card_id": "A8UpRZlRzlg_case_001_标普500迷你期货模型一案例",
+      "video_id": "A8UpRZlRzlg",
+      "title": "NQ1!标普500迷你期货Model 1入场流程：流动性扫盘+结构突破+FVG回撤"
+    },
+    {
+      "card_id": "E6bpY4dQvlE_case_001_s_p_500_e_mini期货15秒图box_setup交易案",
+      "video_id": "E6bpY4dQvlE",
+      "title": "ES E-mini期货15秒图Box Setup做多交易案例"
+    },
+    {
+      "card_id": "Ovotm9l99QQ_case_001_es日线看空交易分析_2023年1月18日",
+      "video_id": "Ovotm9l99QQ",
+      "title": "ES日线看空交易分析：多时间框架SMT与PD array级联填补"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_001_纳斯达克与标普500强弱对比交易",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "纳斯达克与标普500强弱对比做多交易"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_002_15分钟fvg回测的多次低时间框架入场",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "4小时FVG回测中的1分钟多次低时间框架入场"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_005_标普500从低位上升至高点的完整交易过程",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "标普500从3790低位上升至3838高点的多时间框架交易过程"
+    },
+    {
+      "card_id": "hh_kKK4Fhrw_case_001_s_p_500_e_mini期货从高点4300下跌至低点3640",
+      "video_id": "hh_kKK4Fhrw",
+      "title": "ES 4H从4300跌至3640的多技术点位识别与LTF入场模型应用"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_003_fvg内的smt应用",
+      "video_id": "q1NmxUTm4n4",
+      "title": "S&P 500与纳斯达克100在FVG内的SMT应用"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_001_标普500期货bpr长仓交易案例",
+      "video_id": "yOPESX2aWkI",
+      "title": "标普500期货BPR长仓交易案例"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_002_突破前期低点后的长仓设置",
+      "video_id": "yOPESX2aWkI",
+      "title": "突破前期低点后的BPR长仓设置"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "E6bpY4dQvlE",
+      "original_card_id": "E6bpY4dQvlE_concept_balanced_price_range_bpr",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        401.3
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "yOPESX2aWkI",
+      "original_card_id": "yOPESX2aWkI_concept_balanced_price_range_bpr",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        182.34
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:11.114284Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

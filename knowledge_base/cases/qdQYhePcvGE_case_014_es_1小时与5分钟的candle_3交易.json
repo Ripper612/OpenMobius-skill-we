@@ -1,0 +1,108 @@
+{
+  "card_id": "qdQYhePcvGE_case_014_es_1小时与5分钟的candle_3交易",
+  "type": "case",
+  "title": "ES 1小时反转后的5分钟Candle 3延续交易",
+  "related_concepts": [
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "V-shape Pattern",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Continuation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower Time Frame Reversal",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "consolidation",
+    "reversal_candle",
+    "liquidity_sweep",
+    "risk_to_reward",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1H / 5m",
+  "market_context": "在伦敦盘出现反转K线后，纽约盘继续该反转趋势。1小时图显示强势上升偏差，5分钟图在consolidation中扫除低点后形成V形反转。",
+  "key_observation": "博主在1小时高时间框架确认上升偏差后，下沉到5分钟图寻找低时间框架反转机会。在consolidation范围内扫除低点后形成明显V形，提供高概率做多入场点。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别consolidation范围和反转K线，确认强势上升偏差",
+    "Step 2: 标记consolidation的上下边界（约6450-6470区域）",
+    "Step 3: 下沉到5分钟图观察价格行为，确认是否扫除consolidation低点",
+    "Step 4: 在5分钟图上识别V形反转形态，观察收盘情况",
+    "Step 5: 确认可在retest或收盘处入场，目标为1小时高点，风险回报比2:1"
+  ],
+  "outcome": "交易成功。入场价格约6477.00，止损5.00（0.08%），目标10.50（0.16%），已平仓P&L 10.50，风险收益比2.1:1，获利金额50210。",
+  "lessons": "在高时间框架确认强势偏差后，可在低时间框架consolidation中寻找反转机会。V形反转与扫除低点的结合提供高概率入场。多时间框架协调（HTF延续+LTF反转）是关键。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_014_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_014_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_014_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_014_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_014_primary.jpg": "USD 5分钟K线图，时间范围从02:00至15:30。图上可见价格范围约6471.00至6490.00。图中有三条水平线分别位于6489.00、6478.00和6477.00处。另有两个矩形框标注，分别覆盖6480.00至6489.00和6477.00至6480.00的价格区间。K线序列显示早期在6483.00至6488.00区间内波动，约04:30至05:00时出现下行，随后在6480.00至",
+    "case_014_detail_1.jpg": "图表显示 USD 资产的 K 线图，价格范围从 6350.00 到 6550.00。图上有多条水平线标注在 6470.00、6450.00 和 6430.00 处。左侧区域显示一系列 K 线在 6380.00 至 6500.00 之间波动，中间存在两个矩形标注区域。右侧显示三根 K 线，其中一根黑色 K 线夹在两根绿色 K 线之间，下影线延伸至约 6370.00。图上标记有文字标签'S&1'和'C",
+    "case_014_detail_2.jpg": "图表显示 USD 资产的 K 线图，价格范围从 6448.00 到 6506.00。图上有 4 条水平线分别位于 6477.75、6496.00、6462.00 和 6452.00。图中标注了多个矩形区域，分别围绕 6486-6488、6462-6468、6480-6490 和 6452-6462 的价格范围。K 线显示从左侧的下跌走势（多根黑色 K 线从 6482 跌至 6448），随后出现上升",
+    "case_014_detail_3.jpg": "USD 5分钟K线图。图上显示从06:00至16:00的价格走势，价格范围在6470至6494之间。图中标注有三个矩形框：上方绿色框标记目标价位10.50（0.16%）42，金额50210；中间绿色框显示已平仓P&L 10.50，数量0.4，风险收益比2.1；下方灰色框标记止损5.00（0.08%）20，金额49900。图上有两条水平线分别位于6489.25和6477.00。08:00处出现向下跳"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_032",
+        "seg_033"
+      ],
+      "time_range": [
+        1637.679,
+        1713.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了多时间框架分析过程、具体价格水平、入场逻辑、止损目标和实际交易结果，所有关键信息清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:14.785920Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES 1小时反转后的5分钟Candle 3延续交易\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1H / 5m\",\"market_context\":\"在伦敦盘出现反转K线后，纽约盘继续该反转趋势。1小时图显示强势上升偏差，5分钟图在consolidation中扫除低点后形成V形反转。\",\"key_observation\":\"博主在1小时高时间框架确认上升偏差后，下沉到5分钟图寻找低时间框架反转机会。在consolidation范围内扫除低点后形成明显V形，提供高概率做多入场点。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别consolidation范围和反转K线，确认强势上升偏差\",\"Step 2: 标记consolidation的上下边界（约6450-6470区域）\",\"Step 3: 下沉到5分钟图观察价格行为，确认是否扫除consolidation低点\",\"Step 4: 在5分钟图上识别V形反转形态，观察收盘情况\",\"Step 5: 确认可在retest或收盘处入场，目标为1小时高点，风险回报比2:1\"],\"outcome\":\"交易成功。入场价格约6477.00，止损5.00（0.08%），目标10.50（0.16%），已平仓P&L 10.50，风险收益比2.1:1，获利金额50210。\",\"lessons\":\"在高时间框架确认强势偏差后，可在低时间框架consolidation中寻找反转机会。V形反转与扫除低点的结合提供高概率入场。多时间框架协调（HTF延续+LTF反转）是关键。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f057\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f055\",\"qdQYhePcvGE_f056\",\"qdQYhePcvGE_f058\"],\"related_concepts\":[\"Consolidation\",\"Reversal Candle\",\"V-shape Pattern\",\"Liquidity Sweep\",\"Higher Time Frame Continuation\",\"Lower Time Frame Reversal\",\"Risk/Reward Ratio\",\"Order Block\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了多时间框架分析过程、具体价格水平、入场逻辑、止损目标和实际交易结果，所有关键信息清晰可读。\"}",
+  "error": null
+}

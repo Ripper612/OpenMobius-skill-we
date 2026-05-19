@@ -1,0 +1,91 @@
+{
+  "card_id": "HbOeD_JVens_case_004_dll日线多月度摆动点分析",
+  "type": "case",
+  "title": "DLL日线3月度摆动点识别与交易反应分析",
+  "related_concepts": [
+    {
+      "term": "Relevant Swings",
+      "card_id": "relevant_swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Monthly High/Low",
+      "card_id": "previous_month_high_low",
+      "exists": true
+    },
+    {
+      "term": "Separation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Structure",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fractal Model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "3-Month Lookback Period",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "relevant_swing_high_low",
+    "previous_month_high_low",
+    "failure_swings",
+    "aligned_timeframe"
+  ],
+  "school": "ICT",
+  "asset": "DLL",
+  "timeframe": "1D",
+  "market_context": "DLL日线图展示多月价格波动，博主应用3月度回看周期识别相关摆动高低点，这些高低点作为更高时间框架的结构参考，用于预测价格反应和交易设置。",
+  "key_observation": "相关摆动点（relevant swings）必须具有充分的分离度（separation），且3月度回看周期内的摆动高低点往往与月度高低点重合，这些高时间框架水平对价格反应最具指导意义。",
+  "analysis_steps": [
+    "Step 1: 识别DLL日线上的相关摆动低点，确认其与前一个低点之间具有充分分离度，使其成为价格反转的有效参考。",
+    "Step 2: 标记相关摆动高点，观察其是否对应月度高点，确认其作为高时间框架结构的有效性。",
+    "Step 3: 应用3月度回看周期（3个月的K线），在此周期内重点关注摆动高低点，这是寻找最佳交易反应的关键范围。",
+    "Step 4: 对比失败摆动（failure swings）与相关摆动，通过分离度判断其相关性——即使是失败摆动，若具有足够分离度也可作为相关参考。",
+    "Step 5: 将识别的月度摆动点与日线价格走势结合，观察价格如何在这些高时间框架水平形成反转和扩展。"
+  ],
+  "outcome": null,
+  "lessons": "在多时间框架分析中，3月度回看周期内的摆动高低点是最可靠的交易参考；相关性判断的核心是分离度而非绝对位置；月度高低点往往与日线相关摆动重合，体现了市场结构的分形特性。",
+  "primary_image": "cards/HbOeD_JVens/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/HbOeD_JVens/images/case_004_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为烛台图，资产代码左上角显示为 DLL，时间框架未能从图上清晰读取。图上可见价格范围约从 64.00 至 88.00。图上绘制有两个矩形框标注：一个较大的矩形覆盖约 66.00 至 82.00 区间，另一个较小矩形嵌套于其内部约 68.00 至 75.00 区间。图左侧可见数根较长的黑色 K 线，图右侧 K 线在约 82.00 至 84.00 区域后出现回落。图底部时间轴显示日期跨度涵盖多个月",
+    "case_004_detail_1.jpg": "图表为烛台图，资产标识左上角显示为 DLL，计价单位为 USD，时间框架未能从图上明确读取。图上可见价格范围约从 63.00 至 88.50。图中有一个较大的矩形标注，覆盖约 71.00 至 80.00 的价格区间，横跨图表中部较宽的水平范围。图右侧有一条水平虚线延伸至图表右边缘，对应价格约 71.00。图左侧另有两条水平线分别位于约 80.00 和 71.00 处。最右侧 K 线群呈向上移动形态"
+  },
+  "sources": [
+    {
+      "video_id": "HbOeD_JVens",
+      "segment_ids": [
+        "seg_009"
+      ],
+      "time_range": [
+        565.36,
+        681.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对DLL日线的3月度摆动点分析步骤清晰完整，资产代码、时间框架、关键概念（相关摆动、分离度、月度高低点）均从转录和图表中明确读取，分析逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:46.859755Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"DLL日线3月度摆动点识别与交易反应分析\",\"school\":\"ICT\",\"asset\":\"DLL\",\"timeframe\":\"1D\",\"market_context\":\"DLL日线图展示多月价格波动，博主应用3月度回看周期识别相关摆动高低点，这些高低点作为更高时间框架的结构参考，用于预测价格反应和交易设置。\",\"key_observation\":\"相关摆动点（relevant swings）必须具有充分的分离度（separation），且3月度回看周期内的摆动高低点往往与月度高低点重合，这些高时间框架水平对价格反应最具指导意义。\",\"analysis_steps\":[\"Step 1: 识别DLL日线上的相关摆动低点，确认其与前一个低点之间具有充分分离度，使其成为价格反转的有效参考。\",\"Step 2: 标记相关摆动高点，观察其是否对应月度高点，确认其作为高时间框架结构的有效性。\",\"Step 3: 应用3月度回看周期（3个月的K线），在此周期内重点关注摆动高低点，这是寻找最佳交易反应的关键范围。\",\"Step 4: 对比失败摆动（failure swings）与相关摆动，通过分离度判断其相关性——即使是失败摆动，若具有足够分离度也可作为相关参考。\",\"Step 5: 将识别的月度摆动点与日线价格走势结合，观察价格如何在这些高时间框架水平形成反转和扩展。\"],\"outcome\":null,\"lessons\":\"在多时间框架分析中，3月度回看周期内的摆动高低点是最可靠的交易参考；相关性判断的核心是分离度而非绝对位置；月度高低点往往与日线相关摆动重合，体现了市场结构的分形特性。\",\"primary_image_frame_id\":\"HbOeD_JVens_f020\",\"supporting_image_frame_ids\":[\"HbOeD_JVens_f019\"],\"related_concepts\":[\"Relevant Swings\",\"Monthly High/Low\",\"Separation\",\"Failure Swings\",\"Higher Time Frame Structure\",\"Fractal Model\",\"3-Month Lookback Period\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对DLL日线的3月度摆动点分析步骤清晰完整，资产代码、时间框架、关键概念（相关摆动、分离度、月度高低点）均从转录和图表中明确读取，分析逻辑连贯。\"}",
+  "error": null
+}

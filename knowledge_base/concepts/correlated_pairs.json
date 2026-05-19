@@ -1,0 +1,61 @@
+{
+  "card_id": "correlated_pairs",
+  "type": "merged_concept",
+  "canonical_term": "Correlated Pairs",
+  "aliases": [
+    "关联货币对",
+    "相关资产对"
+  ],
+  "school": "SMC",
+  "definition": "两个应该同向运动的相关资产，如ES和NQ（股指期货）或EU和GU（美元货币对）。它们通常形成相似的市场结构，包括相同的摆动高低点。",
+  "identification_rules": [
+    "确认两个资产之间存在经济或市场关联（如都是股指期货、都以美元计价）",
+    "在相同时间周期上观察两个资产，标记出摆动高点和低点",
+    "验证两个资产是否在相同时间段内形成相似的结构（如同时出现低点、高点）",
+    "比较两个资产的高低点位置，确认它们通常在相同时间创出相似的摆动"
+  ],
+  "trading_implication": "相关资产对是识别SMT（Smart Money Technique）的基础。当两个相关资产在应该同向运动时出现分歧（一个创出新高/新低而另一个未能创出），这种分歧本身就是SMT信号。交易者可在高时间框架观察相关资产对，在低时间框架寻找SMT作为反转的确认信号，但SMT仅作为汇聚条件，需结合其他结构（如订单块、公允价值缺口）才能形成完整交易设置。",
+  "common_mistakes": [
+    "仅因为存在SMT就盲目交易，而忽视其他结构和高时间框架水平的对齐",
+    "在随机价格水平寻找SMT，而不是在关键水平（如交易时段高低点、前一日高低点、高时间框架水平）寻找",
+    "混淆相关资产对的概念，选择实际上不相关的资产进行对比分析"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "27S9gjgcSlI_case_001_es与nq伦敦高点smt反转案例",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ伦敦高点SMT反转案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "original_card_id": "27S9gjgcSlI_concept_correlated_pairs",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.28,
+        371.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131952Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,63 @@
+{
+  "card_id": "new_day_opening_gap",
+  "type": "merged_concept",
+  "canonical_term": "New Day Opening Gap",
+  "aliases": [
+    "开盘缺口",
+    "日间开盘跳空"
+  ],
+  "school": "ICT",
+  "definition": "新交易日开盘价与前一交易日收盘价之间形成的价格缺口。常在派发阶段被作为价格目标或参考点，标志着日内AMD周期的起点。",
+  "identification_rules": [
+    "在新交易日开盘时（如纽约开盘09:30），观察当日开盘价与前一日收盘价之间是否存在价格跳空",
+    "在1分钟或5分钟图表上标记该缺口位置，作为日内价格运动的参考水平",
+    "确认该缺口是否在随后的派发阶段被价格回测或穿越"
+  ],
+  "trading_implication": "新日开盘缺口常成为日内AMD（积累-操纵-派发）周期的关键参考点。在派发阶段，价格通常会向该缺口方向运动，可用于确认派发目标或设置止盈水平。同时，该缺口也可作为支撑或阻力，帮助交易者识别价格是否有效突破或回测。",
+  "common_mistakes": [
+    "将新日开盘缺口与FVG混淆，忽视其作为日内结构参考点的特定含义",
+    "未能在低时间框架（1分钟）上准确标记缺口位置，导致派发目标识别不准确"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "TCFvsZeYvV8_case_003_日线_olhc_案例_伦敦操纵与纽约派发",
+      "video_id": "TCFvsZeYvV8",
+      "title": "日线OLHC案例：伦敦操纵与纽约派发的AMD模型"
+    },
+    {
+      "card_id": "TCFvsZeYvV8_case_005_1_分钟图中的新日开盘缺口与多层_amd",
+      "video_id": "TCFvsZeYvV8",
+      "title": "1分钟新日开盘缺口中的多层AMD与标准差投影"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_new_day_opening_gap",
+      "segment_ids": [
+        "seg_006"
+      ],
+      "time_range": [
+        550.12,
+        675.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134230Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

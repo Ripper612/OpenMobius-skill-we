@@ -1,0 +1,83 @@
+{
+  "card_id": "MsuEQQl7L6s_case_006_usd_4小时图candle_three_closure与pro",
+  "type": "case",
+  "title": "USD 4H Candle Three Closure与Protected Swing形成案例",
+  "related_concepts": [
+    {
+      "term": "Candle Three Closure",
+      "card_id": "candle_three_closure",
+      "exists": true
+    },
+    {
+      "term": "Candle Two Closure",
+      "card_id": "candle_two_closure",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "candle_three_closure",
+    "candle_two_closure",
+    "protected_high_low",
+    "fair_value_gap",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "4H",
+  "market_context": "USD 4小时图在经历下跌后形成反弹。价格在22325.00附近形成支撑，随后上升突破前期高点，展现出多头力量。",
+  "key_observation": "博主识别出Candle Three Closure的形成，该K线收盘价高于前一根K线的实体，但同时创建了Protected Swing，限制了后续上升空间。",
+  "analysis_steps": [
+    "Step 1: 检查是否形成Candle Two Closure——价格未能回到前一根K线实体内，因此不符合条件。",
+    "Step 2: 等待下一根K线，检查是否形成Candle Three Closure——价格收盘高于Candle Two的实体，确认Candle Three Closure成立。",
+    "Step 3: 识别Candle Three Closure创建的Protected Swing——该形态限制了后续上升的理想性，但仍可考虑向上交易。",
+    "Step 4: 观察价格上升突破前期高点——成功突破，形成新的Candle Two Closure。",
+    "Step 5: 价格进入Fair Value Gap区域，再次检查Candle Two Closure条件——未满足，需等待下一根K线。",
+    "Step 6: 确认Candle Three Closure再次形成——价格收盘高于Candle Two实体，提供新的交易信号。"
+  ],
+  "outcome": null,
+  "lessons": "Candle Three Closure虽然提供交易信号，但当其创建Protected Swing时，交易的理想性会降低。需结合后续K线形态（如Candle Two Closure）和价格突破情况综合判断。Fair Value Gap的回测也是重要的参考点。",
+  "primary_image": "cards/MsuEQQl7L6s/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/MsuEQQl7L6s/images/case_006_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "USD 4小时K线图，价格范围从22050.00至22750.00。图上有两条水平线分别位于22325.00和22208.75，形成一个矩形标注区域。时间标签显示'Mon 10 Feb '25 18:00'。K线序列显示第7根为大幅下跌K线，上影线延伸至22625.00；第12根K线下影线刺破至22175.00；第14根K线为大幅上涨K线，上影线至22700.00。从第14根K线起，后续K线呈上升",
+    "case_006_detail_1.jpg": "USD 4小时K线图。图上显示约12根K线，时间跨度从6:00至18:00。K线以绿色和黑色交替出现。图右侧有两条水平虚线分别位于22586.00和22325.00，形成一个矩形标注区域。14:00位置有一根较大的绿色K线，上影线延伸至约22700。图上还有一条粉红色竖线从约22400向下延伸。整体价格范围在22050至22750之间波动。右下角显示时间戳'Wed 13 Feb 25 22:00'"
+  },
+  "sources": [
+    {
+      "video_id": "MsuEQQl7L6s",
+      "segment_ids": [
+        "seg_011"
+      ],
+      "time_range": [
+        423.96,
+        468.6
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了Candle Three Closure的识别过程、Protected Swing的形成及其影响，并展示了后续价格突破和新的Candle Two Closure形成，分析步骤清晰完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:54.424573Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 4H Candle Three Closure与Protected Swing形成案例\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"4H\",\"market_context\":\"USD 4小时图在经历下跌后形成反弹。价格在22325.00附近形成支撑，随后上升突破前期高点，展现出多头力量。\",\"key_observation\":\"博主识别出Candle Three Closure的形成，该K线收盘价高于前一根K线的实体，但同时创建了Protected Swing，限制了后续上升空间。\",\"analysis_steps\":[\"Step 1: 检查是否形成Candle Two Closure——价格未能回到前一根K线实体内，因此不符合条件。\",\"Step 2: 等待下一根K线，检查是否形成Candle Three Closure——价格收盘高于Candle Two的实体，确认Candle Three Closure成立。\",\"Step 3: 识别Candle Three Closure创建的Protected Swing——该形态限制了后续上升的理想性，但仍可考虑向上交易。\",\"Step 4: 观察价格上升突破前期高点——成功突破，形成新的Candle Two Closure。\",\"Step 5: 价格进入Fair Value Gap区域，再次检查Candle Two Closure条件——未满足，需等待下一根K线。\",\"Step 6: 确认Candle Three Closure再次形成——价格收盘高于Candle Two实体，提供新的交易信号。\"],\"outcome\":null,\"lessons\":\"Candle Three Closure虽然提供交易信号，但当其创建Protected Swing时，交易的理想性会降低。需结合后续K线形态（如Candle Two Closure）和价格突破情况综合判断。Fair Value Gap的回测也是重要的参考点。\",\"primary_image_frame_id\":\"MsuEQQl7L6s_f014\",\"supporting_image_frame_ids\":[\"MsuEQQl7L6s_f015\"],\"related_concepts\":[\"Candle Three Closure\",\"Candle Two Closure\",\"Protected Swing\",\"Fair Value Gap\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了Candle Three Closure的识别过程、Protected Swing的形成及其影响，并展示了后续价格突破和新的Candle Two Closure形成，分析步骤清晰完整。\"}",
+  "error": null
+}

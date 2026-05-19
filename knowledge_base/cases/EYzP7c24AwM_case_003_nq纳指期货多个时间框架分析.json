@@ -1,0 +1,112 @@
+{
+  "card_id": "EYzP7c24AwM_case_003_nq纳指期货多个时间框架分析",
+  "type": "case",
+  "title": "NQ纳指期货多时间框架时间水平与订单块验证",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Opposing Run",
+      "card_id": "judas_swing",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Time Horizontal",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Open Low High Close",
+      "card_id": "open_low_high_close",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "judas_swing",
+    "premium_discount_premium_",
+    "liquidity",
+    "market_structure",
+    "open_low_high_close"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M / 30M / 4H",
+  "market_context": "2024年5月4日NQ纳指期货日内交易，从午夜开盘至下午2点，展示多个时间框架中8:30、9:30、10:00、14:00等关键时间水平如何驱动价格运动和验证订单块。",
+  "key_observation": "博主通过对比多个时间框架发现，8:30和9:30形成对立运动（opposing runs），其中8:30向下突破后回升验证订单块，9:30则制造波动进一步推高；10:00和14:00蜡烛完成开低高收形态，午夜开盘价被反复用作支撑/阻力。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上观察午夜开盘价（0:00）被用作支撑位，价格继续走高。",
+    "Step 2: 识别8:30时间水平形成向下的对立运动（opposing run down），随后收盘在该水平上方，验证其为订单块。",
+    "Step 3: 观察9:30时间水平的作用，价格在此处制造波动后继续上升，确认分布（distribution）发生。",
+    "Step 4: 在4小时图上验证10:00蜡烛形成开低高收形态，扫除低点后继续上升。",
+    "Step 5: 追踪价格如何在午夜开盘、8:30、Daily Open等水平之间反复反应，识别溢价/折价区域。",
+    "Step 6: 确认14:00蜡烛完成开低高收形态，突破流动性高点。",
+    "Step 7: 在ES标普500期货15分钟图上重复相同分析，验证8:30对立运动和9:30波动的一致性。"
+  ],
+  "outcome": null,
+  "lessons": "时间水平（特别是8:30纽约开盘和9:30市场开盘）在多个时间框架上产生对立运动，可用于验证订单块和预测分布时机。开低高收形态在10:00和14:00等关键时间出现，午夜开盘价作为支撑/阻力的反复测试是判断趋势延续的关键。",
+  "primary_image": "cards/EYzP7c24AwM/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/EYzP7c24AwM/images/case_003_detail_1.jpg",
+    "cards/EYzP7c24AwM/images/case_003_detail_2.jpg",
+    "cards/EYzP7c24AwM/images/case_003_detail_3.jpg",
+    "cards/EYzP7c24AwM/images/case_003_detail_4.jpg",
+    "cards/EYzP7c24AwM/images/case_003_detail_5.jpg",
+    "cards/EYzP7c24AwM/images/case_003_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "NQ1! 30 分钟 K 线图，可见价格范围约 17960 至 18480。图左侧有一根覆盖较大范围的长阴线，随后出现多根 K 线在 18100 至 18180 区间内横向排列。图右侧有一个绿色矩形框标注在最新一根 K 线上，范围约 18220 至 18420。图上有四条带文字标签的水平参考线，分别标注为 '8:30'、'NYO'、'0:00' 和 'Daily Open'，其中 'Daily O",
+    "case_003_detail_1.jpg": "图为 NQ1! 5 分钟 K 线图，日期标注为 2024 年 5 月 4 日，图右上角显示 TTrades_edu 水印。可见价格范围约从 18050 至 18270。图上有两条垂直虚线，分别对应时间标注 8:00 与 0:00。右侧有一个绿色矩形标注，价格区间约在 18390 至 18480 之间。左侧价格轴可读到多个价格标签，包括 18152.75、18138.50、18121.50、1807",
+    "case_003_detail_2.jpg": "图为 NQ1! 3 分钟 K 线图，日期标注为 5/4/2024，右上角显示账户标识 TTrades_edu。图右侧价格轴可见四个带高亮背景的价格标签：18121.50、18111.50、18099.75、18078.25。图上有一条虚线垂直线与一条实线垂直线，实线处标注时间 8:30，虚线处标注 0:00。图中约 08:00 至 08:30 区间出现一根大阴线，从约 18150 下行至约 180",
+    "case_003_detail_3.jpg": "图表为 NQ1! 5 分钟 K 线图，日期标注为 5/4/2024，右上角显示 TTrades_edu 水印。图右侧价格轴可见四个带标签的水平虚线，分别位于 18137.25、18122.25、18111.50、18078.25 附近。图上标注有 '8:30' 与 'NYO' 文字标签，以及 '0:00' 标签。图右侧有一根覆盖较大价格区间的绿色矩形 K 线，约从 18060 延伸至 18470。",
+    "case_003_detail_4.jpg": "图表显示 NQ1! 5 分钟 K 线图，日期标注为 2024 年 5 月 4 日，右上角显示账户标识 TTrades_edu。可见价格范围约从 18111 至 18360。图上有一条水平线位于约 18155 附近，另有文字标注 '8:30' 和 'NYO' 标记于图中对应时间位置。11:00 时间附近有一根体量较大的绿色 K 线，主体从约 18200 延伸至 18415。07:00 至 10:30",
+    "case_003_detail_5.jpg": "图表为 ES1! 15 分钟 K 线图，日期标注显示 25/4/2024。右侧价格轴可见范围约 5017.50 至 5112.50。图上标注有三条水平参考线，分别标记为 '0:00'、'8:30' 及 'Daily Open'，对应价格约在 5070 至 5075 区间。图右侧有一个填充黑色矩形标注，覆盖约 5030 至 5075 价格区间，矩形内部有一条虚线水平线。矩形左侧附近有文字标签 'NY",
+    "case_003_detail_6.jpg": "图表显示 ES11（标普500期货）15 分钟 K 线图，日期标注为 25/4/2024，来源标注为 TTrader_edu。图右侧价格刻度范围约从 5017.50 至 5122.50。图上有一条水平线标注为 Daily Open，位于约 5070 价位。另有两处时间标注：0:00 与 8:30，以及文字标签 NYO 出现在约 5040-5050 区域。图左侧 K 线从高点约 5122.50 向下"
+  },
+  "sources": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        548.24,
+        904.56
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了多个时间框架的分析过程，清晰标注了关键时间水平（8:30、9:30、10:00、14:00、午夜开盘），具体描述了订单块验证和对立运动的机制，图表中价格标签和时间标注均可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:30:51.126065Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ纳指期货多时间框架时间水平与订单块验证\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M / 30M / 4H\",\"market_context\":\"2024年5月4日NQ纳指期货日内交易，从午夜开盘至下午2点，展示多个时间框架中8:30、9:30、10:00、14:00等关键时间水平如何驱动价格运动和验证订单块。\",\"key_observation\":\"博主通过对比多个时间框架发现，8:30和9:30形成对立运动（opposing runs），其中8:30向下突破后回升验证订单块，9:30则制造波动进一步推高；10:00和14:00蜡烛完成开低高收形态，午夜开盘价被反复用作支撑/阻力。\",\"analysis_steps\":[\"Step 1: 在5分钟图上观察午夜开盘价（0:00）被用作支撑位，价格继续走高。\",\"Step 2: 识别8:30时间水平形成向下的对立运动（opposing run down），随后收盘在该水平上方，验证其为订单块。\",\"Step 3: 观察9:30时间水平的作用，价格在此处制造波动后继续上升，确认分布（distribution）发生。\",\"Step 4: 在4小时图上验证10:00蜡烛形成开低高收形态，扫除低点后继续上升。\",\"Step 5: 追踪价格如何在午夜开盘、8:30、Daily Open等水平之间反复反应，识别溢价/折价区域。\",\"Step 6: 确认14:00蜡烛完成开低高收形态，突破流动性高点。\",\"Step 7: 在ES标普500期货15分钟图上重复相同分析，验证8:30对立运动和9:30波动的一致性。\"],\"outcome\":null,\"lessons\":\"时间水平（特别是8:30纽约开盘和9:30市场开盘）在多个时间框架上产生对立运动，可用于验证订单块和预测分布时机。开低高收形态在10:00和14:00等关键时间出现，午夜开盘价作为支撑/阻力的反复测试是判断趋势延续的关键。\",\"primary_image_frame_id\":\"EYzP7c24AwM_f020\",\"supporting_image_frame_ids\":[\"EYzP7c24AwM_f019\",\"EYzP7c24AwM_f023\",\"EYzP7c24AwM_f024\",\"EYzP7c24AwM_f025\",\"EYzP7c24AwM_f021\",\"EYzP7c24AwM_f022\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Opposing Run\",\"Premium/Discount\",\"Liquidity\",\"Market Structure\",\"Time Horizontal\",\"Open Low High Close\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了多个时间框架的分析过程，清晰标注了关键时间水平（8:30、9:30、10:00、14:00、午夜开盘），具体描述了订单块验证和对立运动的机制，图表中价格标签和时间标注均可读。\"}",
+  "error": null
+}

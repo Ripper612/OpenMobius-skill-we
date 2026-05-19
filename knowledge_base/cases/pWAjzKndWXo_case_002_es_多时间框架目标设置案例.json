@@ -1,0 +1,104 @@
+{
+  "card_id": "pWAjzKndWXo_case_002_es_多时间框架目标设置案例",
+  "type": "case",
+  "title": "ES多时间框架目标设置：流动性与FVG组合应用",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs / Equal Lows",
+      "card_id": "equal_highs_equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "liquidity",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "short_term_high_short_term_low",
+    "equal_highs_equal_lows",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5m / 15m / 1m",
+  "market_context": "ES在多个时间框架上展现双向波动，博主通过5分钟、15分钟和1分钟图表演示如何在结构转变后系统地识别和设置多层次交易目标。",
+  "key_observation": "博主强调目标设置的两个核心工具：流动性（Liquidity）和不平衡（Imbalances/FVG）。在结构转变后，价格倾向于扫荡这些区域，可作为分层目标或加仓点。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图上识别结构转变（MSS），确认做空或做多的初始入场点。",
+    "Step 2: 标记第一层目标——摆动低点（Swing Low），这是流动性汇集区域。",
+    "Step 3: 识别5分钟图上的FVG（公允价值缺口），作为第二层目标。",
+    "Step 4: 交叉参考15分钟图上的FVG，确认是否与5分钟目标重合，形成更强的目标区。",
+    "Step 5: 标记等低点（Equal Lows）作为额外目标，这些是流动性集中区。",
+    "Step 6: 在1分钟图上细化目标，识别MSS和小型订单块（Order Block），用于加仓或调整止损。",
+    "Step 7: 演示反向交易（Counter-trend Scalp）的目标设置方法——在FVG处做多，目标是上方的不平衡区域。"
+  ],
+  "outcome": null,
+  "lessons": "多时间框架目标设置的关键是层级化：先在高时间框架（5m/15m）确定主要目标（流动性、FVG、等高/低点），再用低时间框架（1m）精确入场和加仓。流动性和不平衡是最可靠的目标，等高/低点也应纳入考虑。",
+  "primary_image": "cards/pWAjzKndWXo/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/pWAjzKndWXo/images/case_002_detail_1.jpg",
+    "cards/pWAjzKndWXo/images/case_002_detail_2.jpg",
+    "cards/pWAjzKndWXo/images/case_002_detail_3.jpg",
+    "cards/pWAjzKndWXo/images/case_002_detail_4.jpg",
+    "cards/pWAjzKndWXo/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ES 5分钟K线图。图上可见价格范围从3729.00至3843.75。图中标注有两个矩形区域：上方矩形约在3765.75至3800.00之间，下方矩形约在3723.50至3765.75之间。图上有文字标签'$$$'位于上方矩形附近。K线显示从左侧3729.00向上运行至右侧3843.75，中间存在约8根K线的整理形态。右侧K线多为绿色。图右侧价格刻度显示多个水平价格标记。",
+    "case_002_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图。图表显示约24小时的价格走势，从18:00至04:30。可见价格范围在3728.00至3843.00之间。图上有一个标记为'$$$'的矩形框，位于图表中上方约3795-3815价格区间。右侧价格轴上标注有三条水平参考线，分别位于3761.75、3785.25和3705.25。K线呈现绿红交替的双向波动形态，未见其他指标或标注。",
+    "case_002_detail_2.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从约3872至3949的上升趋势，跨越约40根K线。图中标注两个矩形区域：上方矩形约在3909至3949价格范围，下方矩形约在3895至3924价格范围。右侧价格刻度显示当前价格附近为3915。图上有两条水平虚线分别位于约3924和3909处。K线整体呈现多根蜡烛体，上下影线分布于整个可见范围。右侧价格标签栏显示多个价格数值从39",
+    "case_002_detail_3.jpg": "S&P 500 E-mini Futures 1 分钟 K 线图。图上绘制了多条矩形框和水平线标注。标注包括一个标记为'mss'的矩形框位于 3920 至 3925 价格区间，以及其他未标记的矩形框分别位于 3900 至 3910 和 3920 至 3930 区间。图右侧显示价格刻度从 3900.00 至 3934.00。可见 K 线由绿色和红色蜡烛体组成，在标注的水平线之间波动。时间轴显示从 0",
+    "case_002_detail_4.jpg": "ES 1分钟K线图。图上显示从约3892到3932的价格范围。图中有多条水平线和多个灰色矩形框标注，其中一个矩形标记为'mss'位于3920-3930区间。右侧价格刻度显示多个标注价格点，包括3920.25、3917.75、3912.25、3909.25、3906.00、3903.50、3900.00等。图上可见小蓝色方形标记出现在约3910-3915区域。K线呈现绿红相间的蜡烛图形态。",
+    "case_002_detail_5.jpg": "ES 15分钟K线图。图上显示S&P 500 E-mini期货合约，价格范围从3640.00至3785.00。图中标注有两个灰色矩形框：上方框位于3713.75至3680.00区间，下方框位于3680.00至3650.00区间。K线呈现绿色和红色交替，显示在标注区域内有整理形态。右侧价格刻度显示最新报价在3785.00附近。时间戳显示19 Jun 22 19:15。"
+  },
+  "sources": [
+    {
+      "video_id": "pWAjzKndWXo",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.72,
+        187.599
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了多个具体案例，清晰标注了资产（ES）、时间框架（5m/15m/1m）、目标类型（流动性、FVG、等低点）和分析步骤顺序。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:43:44.187208Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES多时间框架目标设置：流动性与FVG组合应用\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5m / 15m / 1m\",\"market_context\":\"ES在多个时间框架上展现双向波动，博主通过5分钟、15分钟和1分钟图表演示如何在结构转变后系统地识别和设置多层次交易目标。\",\"key_observation\":\"博主强调目标设置的两个核心工具：流动性（Liquidity）和不平衡（Imbalances/FVG）。在结构转变后，价格倾向于扫荡这些区域，可作为分层目标或加仓点。\",\"analysis_steps\":[\"Step 1: 在5分钟图上识别结构转变（MSS），确认做空或做多的初始入场点。\",\"Step 2: 标记第一层目标——摆动低点（Swing Low），这是流动性汇集区域。\",\"Step 3: 识别5分钟图上的FVG（公允价值缺口），作为第二层目标。\",\"Step 4: 交叉参考15分钟图上的FVG，确认是否与5分钟目标重合，形成更强的目标区。\",\"Step 5: 标记等低点（Equal Lows）作为额外目标，这些是流动性集中区。\",\"Step 6: 在1分钟图上细化目标，识别MSS和小型订单块（Order Block），用于加仓或调整止损。\",\"Step 7: 演示反向交易（Counter-trend Scalp）的目标设置方法——在FVG处做多，目标是上方的不平衡区域。\"],\"outcome\":null,\"lessons\":\"多时间框架目标设置的关键是层级化：先在高时间框架（5m/15m）确定主要目标（流动性、FVG、等高/低点），再用低时间框架（1m）精确入场和加仓。流动性和不平衡是最可靠的目标，等高/低点也应纳入考虑。\",\"primary_image_frame_id\":\"pWAjzKndWXo_f003\",\"supporting_image_frame_ids\":[\"pWAjzKndWXo_f002\",\"pWAjzKndWXo_f004\",\"pWAjzKndWXo_f005\",\"pWAjzKndWXo_f006\",\"pWAjzKndWXo_f007\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Liquidity\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Swing High / Swing Low\",\"Equal Highs / Equal Lows\",\"Multi-timeframe Analysis\",\"Imbalance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了多个具体案例，清晰标注了资产（ES）、时间框架（5m/15m/1m）、目标类型（流动性、FVG、等低点）和分析步骤顺序。\"}",
+  "error": null
+}

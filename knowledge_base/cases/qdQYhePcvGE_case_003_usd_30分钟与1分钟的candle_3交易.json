@@ -1,0 +1,105 @@
+{
+  "card_id": "qdQYhePcvGE_case_003_usd_30分钟与1分钟的candle_3交易",
+  "type": "case",
+  "title": "USD 30分钟反转与1分钟Candle 3延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "protected_high_low",
+    "liquidity",
+    "market_structure_shift",
+    "risk_to_reward",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "30m / 1m",
+  "market_context": "USD在30分钟图上形成受保护摆动，价格在触及公允价值缺口后回撤。1分钟图显示价格在45100-45370区间内波动，形成交易机会。",
+  "key_observation": "30分钟图上价格闭盘低于受保护摆动高点，形成小wick结构，可在1分钟图上交易延续。订单块已在高时间框架K线开盘前形成，提供明确的止损和目标参考。",
+  "analysis_steps": [
+    "Step 1: 在30分钟图上识别受保护摆动，价格闭盘低于该水平，显示小wick结构",
+    "Step 2: 观察价格在触及FVG后的回撤行为，确认反转信号",
+    "Step 3: 切换到1分钟图，寻找在新的高时间框架K线内形成的订单块",
+    "Step 4: 确认订单块已在HTF K线开盘前形成，设定止损位于短期高点上方（不穿过该高点）",
+    "Step 5: 设定初始风险回报比为1:1，随后调整至1:2以获得更优的风险回报",
+    "Step 6: 在Candle 2形成时观察价格行为，注意其虽然扩展但保持短期流动性完整",
+    "Step 7: 在Candle 3中监控价格是否突破短期高点后闭盘低于该水平，形成新的受保护摆动",
+    "Step 8: 确认Candle 3中价格突破短期高点后下跌，闭盘低于该水平，验证延续信号"
+  ],
+  "outcome": "价格在Candle 3中突破短期高点后下跌并闭盘低于该水平，形成受保护摆动，确认了向下延续的预期。交易最终向下扩展，达到目标区域。",
+  "lessons": "在多时间框架分析中，HTF上的订单块形成是关键。即使Candle 2表现不理想（扩展），只要短期流动性保持完整，仍可在Candle 3中交易延续。受保护摆动的形成（突破高点后闭盘低于该水平）是确认延续方向的重要信号。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_003_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_003_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_003_detail_3.jpg",
+    "cards/qdQYhePcvGE/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "USD 1 分钟 K 线图，时间范围从 08:45 至 13:15。图上可见价格范围从 45070 至 45340。图中标注有三个交易相关的矩形框：上方显示止损信息（Stop: 62, Amount: 49900），中间显示开仓信息（Open P&L: 1, Qty: 0.32, Risk/Reward Ratio: 1:1），下方显示目标信息（Target: 69, Amount: 50111.",
+    "case_003_detail_1.jpg": "USD 30分钟K线图。图上显示约45550至44875的价格范围。可见多根绿色和黑色K线，呈现交替排列。图上有两条水平虚线分别位于45100和45350附近。右下角显示时间戳'Wed 03 Sep 25, 13:30'。左上角标注'The Market Lens'。图右侧显示'W1 (13w)'、'15m-4H Maxis'、'03:00:00'、'Bias: -'、'SW1 (Auto): E",
+    "case_003_detail_2.jpg": "USD 1分钟K线图，时间范围从09:30至12:45。图上显示价格范围约45100至45370。可见多条绿色和黑色K线，初期在09:30附近上升至45360后回落。中间区域形成45240至45270之间的整理形态。12:00处出现一根大幅下跌的黑色K线，下影线延伸至45160。之后12:15起出现绿色K线恢复。图上标注有两条水平线及一条向上趋势线。右下角显示交易界面按钮及偏差指标标记为'Bear",
+    "case_003_detail_3.jpg": "USD 1分钟K线图，时间范围从09:00至13:15。图上可见价格范围约45070至45340。图中标注有多条水平线，分别位于45233、45218、45203、45203、45130、45290、45210等价格位置。三个矩形区域分别框定在45200-45290、45130-45210、45240-45310价格范围。09:30处出现一根大幅黑色K线，范围从45340至45250。10:45至",
+    "case_003_detail_4.jpg": "USD 1分钟K线图。图上显示价格范围约从45020至45360。右侧区域有多条水平线和矩形标注，其中标记有L2、-1、-2等文字标签。图右下角显示文字信息包括'TYu1 (3m)'、'3m-3M Model'、'00:21:00'、'Bias: Bearish'、'SMT (Auto): F31, M31'。K线由绿色和黑色蜡烛组成，在45200至45280区间内呈现整理形态，多根K线具有上下影"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        422.56,
+        584.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从30分钟反转识别到1分钟Candle 3交易的全过程，包括具体价位、止损、目标设置及交易结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:41.164770Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 30分钟反转与1分钟Candle 3延续交易\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"30m / 1m\",\"market_context\":\"USD在30分钟图上形成受保护摆动，价格在触及公允价值缺口后回撤。1分钟图显示价格在45100-45370区间内波动，形成交易机会。\",\"key_observation\":\"30分钟图上价格闭盘低于受保护摆动高点，形成小wick结构，可在1分钟图上交易延续。订单块已在高时间框架K线开盘前形成，提供明确的止损和目标参考。\",\"analysis_steps\":[\"Step 1: 在30分钟图上识别受保护摆动，价格闭盘低于该水平，显示小wick结构\",\"Step 2: 观察价格在触及FVG后的回撤行为，确认反转信号\",\"Step 3: 切换到1分钟图，寻找在新的高时间框架K线内形成的订单块\",\"Step 4: 确认订单块已在HTF K线开盘前形成，设定止损位于短期高点上方（不穿过该高点）\",\"Step 5: 设定初始风险回报比为1:1，随后调整至1:2以获得更优的风险回报\",\"Step 6: 在Candle 2形成时观察价格行为，注意其虽然扩展但保持短期流动性完整\",\"Step 7: 在Candle 3中监控价格是否突破短期高点后闭盘低于该水平，形成新的受保护摆动\",\"Step 8: 确认Candle 3中价格突破短期高点后下跌，闭盘低于该水平，验证延续信号\"],\"outcome\":\"价格在Candle 3中突破短期高点后下跌并闭盘低于该水平，形成受保护摆动，确认了向下延续的预期。交易最终向下扩展，达到目标区域。\",\"lessons\":\"在多时间框架分析中，HTF上的订单块形成是关键。即使Candle 2表现不理想（扩展），只要短期流动性保持完整，仍可在Candle 3中交易延续。受保护摆动的形成（突破高点后闭盘低于该水平）是确认延续方向的重要信号。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f017\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f015\",\"qdQYhePcvGE_f016\",\"qdQYhePcvGE_f018\",\"qdQYhePcvGE_f019\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Protected Swing\",\"Liquidity\",\"Market Structure Shift\",\"Risk/Reward Ratio\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从30分钟反转识别到1分钟Candle 3交易的全过程，包括具体价位、止损、目标设置及交易结果。\"}",
+  "error": null
+}

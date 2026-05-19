@@ -1,0 +1,85 @@
+{
+  "card_id": "0OjlQ91TZiU_case_002_固定美元风险改善交易结果的案例",
+  "type": "case",
+  "title": "固定美元风险vs固定合约数：连续亏损后的翻盘案例",
+  "related_concepts": [
+    {
+      "term": "Fixed Dollar Risk",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Position Sizing",
+      "card_id": "position_sizing",
+      "exists": true
+    },
+    {
+      "term": "Risk per Trade",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk-Reward Ratio",
+      "card_id": "risk_to_reward_ratio_risk_to_",
+      "exists": true
+    },
+    {
+      "term": "Micro Contracts",
+      "card_id": "micro_contracts",
+      "exists": true
+    },
+    {
+      "term": "Account Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "position_sizing",
+    "risk_to_reward_ratio_risk_to_",
+    "micro_contracts"
+  ],
+  "school": "Risk Management",
+  "asset": "NQ",
+  "timeframe": null,
+  "market_context": "通过对比固定美元风险与固定合约数两种仓位管理方法，演示在连续两次亏损后第三笔交易的结果差异。",
+  "key_observation": "采用固定美元风险（$1,000/笔）管理仓位，在相同的交易序列（亏损-亏损-盈利4R）中，最终结果从亏损$800改善为盈利$2,000，改善幅度达$2,800。",
+  "analysis_steps": [
+    "Step 1: 建立固定美元风险框架，每笔交易风险固定为$1,000（1R）",
+    "Step 2: 使用相同的交易案例（前两笔亏损1R，第三笔盈利4R）进行对比",
+    "Step 3: 第一笔交易亏损$1,000（-1R）",
+    "Step 4: 第二笔交易再亏损$1,000（-1R，累计-2R）",
+    "Step 5: 第三笔交易因正确的仓位调整，4R收益转化为实际$4,000利润",
+    "Step 6: 计算最终结果：-$1,000 - $1,000 + $4,000 = +$2,000（+2R）",
+    "Step 7: 对比固定合约数方法的结果（-$800），量化改善效果"
+  ],
+  "outcome": "采用固定美元风险管理，最终账户盈利$2,000（+2R），相比固定合约数方法改善$2,800。",
+  "lessons": "固定美元风险通过动态调整仓位大小，确保每笔交易风险恒定，使得盈利交易的收益能够充分补偿前期亏损，显著优于固定合约数方法。这种方法特别适合使用微型期货合约（micros）以获得更灵活的仓位调整空间。",
+  "primary_image": null,
+  "supporting_images": [],
+  "image_descriptions": {},
+  "sources": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        190.799,
+        369.639
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整讲解了固定美元风险的计算方法、具体数值对比（$1,000风险、4R收益、最终+$2,000结果）和改善幅度（vs -$800），逻辑清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "no_primary_image",
+    "missing_timeframe"
+  ],
+  "extracted_at": "2026-05-13T15:06:53.507133Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"固定美元风险vs固定合约数：连续亏损后的翻盘案例\",\"school\":\"Risk Management\",\"asset\":\"NQ\",\"timeframe\":null,\"market_context\":\"通过对比固定美元风险与固定合约数两种仓位管理方法，演示在连续两次亏损后第三笔交易的结果差异。\",\"key_observation\":\"采用固定美元风险（$1,000/笔）管理仓位，在相同的交易序列（亏损-亏损-盈利4R）中，最终结果从亏损$800改善为盈利$2,000，改善幅度达$2,800。\",\"analysis_steps\":[\"Step 1: 建立固定美元风险框架，每笔交易风险固定为$1,000（1R）\",\"Step 2: 使用相同的交易案例（前两笔亏损1R，第三笔盈利4R）进行对比\",\"Step 3: 第一笔交易亏损$1,000（-1R）\",\"Step 4: 第二笔交易再亏损$1,000（-1R，累计-2R）\",\"Step 5: 第三笔交易因正确的仓位调整，4R收益转化为实际$4,000利润\",\"Step 6: 计算最终结果：-$1,000 - $1,000 + $4,000 = +$2,000（+2R）\",\"Step 7: 对比固定合约数方法的结果（-$800），量化改善效果\"],\"outcome\":\"采用固定美元风险管理，最终账户盈利$2,000（+2R），相比固定合约数方法改善$2,800。\",\"lessons\":\"固定美元风险通过动态调整仓位大小，确保每笔交易风险恒定，使得盈利交易的收益能够充分补偿前期亏损，显著优于固定合约数方法。这种方法特别适合使用微型期货合约（micros）以获得更灵活的仓位调整空间。\",\"primary_image_frame_id\":null,\"supporting_image_frame_ids\":[],\"related_concepts\":[\"Fixed Dollar Risk\",\"Position Sizing\",\"Risk per Trade\",\"Risk-Reward Ratio\",\"Micro Contracts\",\"Account Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整讲解了固定美元风险的计算方法、具体数值对比（$1,000风险、4R收益、最终+$2,000结果）和改善幅度（vs -$800），逻辑清晰。\"}",
+  "error": null
+}

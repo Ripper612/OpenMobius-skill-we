@@ -1,0 +1,56 @@
+{
+  "card_id": "currency_pairing_strategy_with_dollar_trending",
+  "type": "merged_concept",
+  "canonical_term": "Currency Pairing Strategy with Dollar Trending",
+  "aliases": [
+    "DXY-Based Currency Pairing",
+    "Dollar Trending Pairing Rule"
+  ],
+  "school": "Price Action",
+  "definition": "根据美元（DXY）趋势方向，选择与之相反强度的货币进行配对的策略。美元上升时配对最弱货币；美元下降时配对最强货币，以获得最大价格扩张。",
+  "identification_rules": [
+    "判断美元（DXY）是否处于明确趋势状态（上升趋势、下降趋势或盘整）",
+    "美元上升趋势时，扫描所有货币找出最弱的货币（最看跌的）",
+    "美元下降趋势时，扫描所有货币找出最强的货币（最看涨的）",
+    "将美元与目标货币配对，形成交易对（如美元看涨+欧元最弱=EUR/USD看跌）",
+    "美元盘整时，改为寻找一个看涨货币与一个看跌货币配对，不直接使用美元"
+  ],
+  "trading_implication": "该策略通过配对强弱货币的组合来放大价格趋势，避免配对两个同向趋势的货币（会导致盘整）。当美元趋势明确时，直接与美元配对最弱/最强货币可获得最强的单向趋势。适用于外汇交易和期货交易，帮助交易者识别最高概率的趋势交易机会。",
+  "common_mistakes": [
+    "将趋势货币与盘整货币配对会产生趋势，但强度不足",
+    "美元趋势时仍将美元与另一个趋势货币配对，导致结果货币对盘整而非趋势",
+    "未能准确识别美元的趋势方向或强度，导致选错配对方向"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "original_card_id": "HrjYoxAUb3s_concept_currency_pairing_strategy_with_dollar_tr",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        193.68,
+        325.64
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132068Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

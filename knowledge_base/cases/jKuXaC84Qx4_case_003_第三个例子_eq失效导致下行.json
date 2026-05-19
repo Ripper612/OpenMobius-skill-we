@@ -1,0 +1,103 @@
+{
+  "card_id": "jKuXaC84Qx4_case_003_第三个例子_eq失效导致下行",
+  "type": "case",
+  "title": "汽油期货：EQ失效导致看跌对立设置与下行",
+  "related_concepts": [
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candles",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "equilibrium_eq",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "change_in_the_state_of_delivery",
+    "market_structure_shift_mss",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1H / Daily",
+  "market_context": "汽油期货日线形成V形反转，收盘强劲。但在小时线上，价格未能尊重EQ（均衡点），失败形成看涨延续，反而形成看跌对立设置，最终下行至前一日低点。",
+  "key_observation": "价格在EQ处未能形成看涨反应或延续，反而收盘跌破EQ，形成看跌对立K线组合，预示下行至前一日低点。EQ失效是关键信号。",
+  "analysis_steps": [
+    "Step 1: 识别日线V形反转，收盘强劲，预期小时线应开低进入兴趣点并尊重EQ向上交易。",
+    "Step 2: 观察小时线价格未能尊重EQ，未形成任何看涨反应或延续。",
+    "Step 3: 识别看跌对立K线组合（bearish opposing candles）形成。",
+    "Step 4: 确认收盘跌破EQ，信号指向前一日低点作为下行目标。",
+    "Step 5: 执行下行交易至前一日低点，验证EQ失效导致的看跌框架。"
+  ],
+  "outcome": "价格成功下行至前一日低点，验证了EQ失效后的看跌对立设置交易逻辑。",
+  "lessons": "EQ失效不意味着自动反转，但表明看涨延续不太可能。当价格未能在EQ处形成反应且收盘跌破EQ时，看跌对立设置成立，提供高概率下行交易机会。",
+  "primary_image": "cards/jKuXaC84Qx4/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/jKuXaC84Qx4/images/case_003_detail_1.jpg",
+    "cards/jKuXaC84Qx4/images/case_003_detail_2.jpg",
+    "cards/jKuXaC84Qx4/images/case_003_detail_3.jpg",
+    "cards/jKuXaC84Qx4/images/case_003_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 K 线图，显示一系列绿色和黑色蜡烛。左侧区域有一个浅绿色矩形标注，中间区域有另一个浅绿色矩形标注。K 线序列呈现多个上下影线，中段显示连续黑色 K 线的下跌走势，右侧显示绿色 K 线的上升走势。图上未显示资产代码、时间框架或价格刻度数值。",
+    "case_003_detail_1.jpg": "图表显示一根蜡烛图K线序列。左侧呈现上升趋势，绿色K线占主导。中间部分出现大幅下跌，黑色K线连续出现。图上用黄色矩形框标注了一个特定的价格区域，位于整体下跌后的盘整区间内。右侧显示一根体量较大的黑色K线，上影线明显延伸。整个图表缺少资产代码、时间框架和价格刻度标注，无法确定具体交易品种和周期。",
+    "case_003_detail_2.jpg": "图上显示一组K线序列，由绿色和黑色蜡烛交替组成。图表中标注有两个浅绿色矩形区域，位置分别在左侧和中间偏上区域。K线普遍呈现上下影线，显示价格在各周期内的波动范围。右侧工具栏可见多个绘图工具图标。图上未显示资产代码、时间框架或价格刻度标签。",
+    "case_003_detail_3.jpg": "K线图表显示一系列绿色和黑色蜡烛交替出现。图表左侧显示上升趋势，中间部分出现明显下降趋势，由一条向下倾斜的趋势线标示。右侧两根黑色K线具有显著的长下影线，延伸至主体下方。整个图表中多数K线都带有下影线。未显示资产代码、时间框架或价格刻度标签。",
+    "case_003_detail_4.jpg": "K线图表显示一系列绿色和黑色蜡烛。左上方有一根带长下影线的黑色K线。中心区域显示混合的绿黑K线形成盘整形态。中下方有一根带长下影线的黑色K线，其后跟随一根带长上影线的绿色K线。图上绘有一条从左上向右下的趋势线。中心区域被一个矩形框标注。右侧独立显示两根K线，上方为黑色，下方为绿色。图上未标注资产代码、时间框架或价格刻度数值。"
+  },
+  "sources": [
+    {
+      "video_id": "jKuXaC84Qx4",
+      "segment_ids": [
+        "seg_015",
+        "seg_016",
+        "seg_017"
+      ],
+      "time_range": [
+        557.88,
+        665.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了EQ失效的分析过程、看跌对立设置的形成、以及下行至前一日低点的结果，逻辑清晰，步骤完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:41:55.209496Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"汽油期货：EQ失效导致看跌对立设置与下行\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1H / Daily\",\"market_context\":\"汽油期货日线形成V形反转，收盘强劲。但在小时线上，价格未能尊重EQ（均衡点），失败形成看涨延续，反而形成看跌对立设置，最终下行至前一日低点。\",\"key_observation\":\"价格在EQ处未能形成看涨反应或延续，反而收盘跌破EQ，形成看跌对立K线组合，预示下行至前一日低点。EQ失效是关键信号。\",\"analysis_steps\":[\"Step 1: 识别日线V形反转，收盘强劲，预期小时线应开低进入兴趣点并尊重EQ向上交易。\",\"Step 2: 观察小时线价格未能尊重EQ，未形成任何看涨反应或延续。\",\"Step 3: 识别看跌对立K线组合（bearish opposing candles）形成。\",\"Step 4: 确认收盘跌破EQ，信号指向前一日低点作为下行目标。\",\"Step 5: 执行下行交易至前一日低点，验证EQ失效导致的看跌框架。\"],\"outcome\":\"价格成功下行至前一日低点，验证了EQ失效后的看跌对立设置交易逻辑。\",\"lessons\":\"EQ失效不意味着自动反转，但表明看涨延续不太可能。当价格未能在EQ处形成反应且收盘跌破EQ时，看跌对立设置成立，提供高概率下行交易机会。\",\"primary_image_frame_id\":\"jKuXaC84Qx4_f021\",\"supporting_image_frame_ids\":[\"jKuXaC84Qx4_f019\",\"jKuXaC84Qx4_f020\",\"jKuXaC84Qx4_f022\",\"jKuXaC84Qx4_f023\"],\"related_concepts\":[\"Equilibrium (EQ)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Opposing Candles\",\"Market Structure Shift (MSS)\",\"Price Action\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了EQ失效的分析过程、看跌对立设置的形成、以及下行至前一日低点的结果，逻辑清晰，步骤完整。\"}",
+  "error": null
+}

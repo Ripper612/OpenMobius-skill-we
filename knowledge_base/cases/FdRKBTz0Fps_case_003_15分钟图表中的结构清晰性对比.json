@@ -1,0 +1,97 @@
+{
+  "card_id": "FdRKBTz0Fps_case_003_15分钟图表中的结构清晰性对比",
+  "type": "case",
+  "title": "15分钟图表结构清晰性对比：噪音少、趋势易识别",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Short-term highs/lows",
+      "card_id": "swing_highs_swing_lows",
+      "exists": true
+    },
+    {
+      "term": "Trend confirmation",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "fair_value_gap_fvg",
+    "displacement",
+    "order_block_ob",
+    "liquidity",
+    "swing_highs_swing_lows"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "15M",
+  "market_context": "E-mini期货日内交易，从早盘低点约4680上升至4164附近。博主对比5分钟与15分钟图表，展示不同时间框架下的结构清晰度差异。",
+  "key_observation": "15分钟图表因噪音少而趋势更清晰。短期高点未被突破（未产生Displacement），确认看涨趋势延续，直至隔夜交易时段。",
+  "analysis_steps": [
+    "Step 1: 在5分钟图表上观察到多个MSS信号和FVG，但噪音较多，结构不够清晰。",
+    "Step 2: 切换到15分钟图表，标记出所有短期高点（short-term highs），发现趋势非常清晰。",
+    "Step 3: 检查这些短期高点是否被突破；发现它们未被触及（not taken yet）。",
+    "Step 4: 识别一个关键高点被突破但未产生Displacement（无FVG、无energetic上升），因此不构成有效的MSS。",
+    "Step 5: 标记出产生Displacement的那个高点突破，确认其创建了FVG和有效的MSS，进入看涨趋势。",
+    "Step 6: 在看涨趋势中标记出短期低点（short-term lows），等待它们被Displacement扫除。",
+    "Step 7: 观察到这些低点从未被扫除，趋势持续至隔夜交易时段。"
+  ],
+  "outcome": null,
+  "lessons": "15分钟图表相比5分钟减少噪音，使市场结构和趋势方向更易识别。Displacement的存在与否是判断MSS有效性的关键；缺乏Displacement的高点突破不足以改变趋势。在确认趋势后，监控关键摆动点是否被扫除可预测趋势延续。",
+  "primary_image": "cards/FdRKBTz0Fps/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/FdRKBTz0Fps/images/case_003_detail_1.jpg",
+    "cards/FdRKBTz0Fps/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 15 分钟 K 线图，来源标注为 CME_MINI TradingView。图右侧价格轴当前价标签显示 4144.50，以红色高亮背景呈现。图上可见两条水平线分别位于约 4196 和 4164 附近，另有四个矩形框标注分布于图中不同价格区域。图左下角有文字注释：\"On the 15min chart the trend is more clear Th",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图，图上可见价格范围约4064至4164。图上标注有三处MSS矩形框，分别位于约11:30、12:00及14:00时间区域，对应价格约4122至4148区间。图左侧有文字注释，内容提及MSS与FVG。图上另有三条水平矩形框分别位于约4092、4112及4132价格处。右侧价格轴当前价标签显示4154.50，背景为绿色高亮。K线从图左侧低点约4",
+    "case_003_detail_2.jpg": "S&P 500 E-mini Futures 15 分钟 K 线图，可见价格范围约 4076 至 4160。图上标注一个文字标签 MSS，位于约 4092 处并附带水平线向右延伸。图右侧有三个矩形框标注，分别位于约 4108-4114、4132-4138、4146-4150 区域。图中央偏左有一段英文注释文字，内容提及 displacement 术语。图上可见一根较大绿色 K 线出现在约 09:0"
+  },
+  "sources": [
+    {
+      "video_id": "FdRKBTz0Fps",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        187.12,
+        269.84
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了5分钟与15分钟对比、MSS识别、Displacement判断、趋势延续确认等全过程，关键价位和分析步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:46.958545Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"15分钟图表结构清晰性对比：噪音少、趋势易识别\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"15M\",\"market_context\":\"E-mini期货日内交易，从早盘低点约4680上升至4164附近。博主对比5分钟与15分钟图表，展示不同时间框架下的结构清晰度差异。\",\"key_observation\":\"15分钟图表因噪音少而趋势更清晰。短期高点未被突破（未产生Displacement），确认看涨趋势延续，直至隔夜交易时段。\",\"analysis_steps\":[\"Step 1: 在5分钟图表上观察到多个MSS信号和FVG，但噪音较多，结构不够清晰。\",\"Step 2: 切换到15分钟图表，标记出所有短期高点（short-term highs），发现趋势非常清晰。\",\"Step 3: 检查这些短期高点是否被突破；发现它们未被触及（not taken yet）。\",\"Step 4: 识别一个关键高点被突破但未产生Displacement（无FVG、无energetic上升），因此不构成有效的MSS。\",\"Step 5: 标记出产生Displacement的那个高点突破，确认其创建了FVG和有效的MSS，进入看涨趋势。\",\"Step 6: 在看涨趋势中标记出短期低点（short-term lows），等待它们被Displacement扫除。\",\"Step 7: 观察到这些低点从未被扫除，趋势持续至隔夜交易时段。\"],\"outcome\":null,\"lessons\":\"15分钟图表相比5分钟减少噪音，使市场结构和趋势方向更易识别。Displacement的存在与否是判断MSS有效性的关键；缺乏Displacement的高点突破不足以改变趋势。在确认趋势后，监控关键摆动点是否被扫除可预测趋势延续。\",\"primary_image_frame_id\":\"FdRKBTz0Fps_f009\",\"supporting_image_frame_ids\":[\"FdRKBTz0Fps_f008\",\"FdRKBTz0Fps_f010\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Fair Value Gap (FVG)\",\"Displacement\",\"Order Block (OB)\",\"Liquidity\",\"Short-term highs/lows\",\"Trend confirmation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了5分钟与15分钟对比、MSS识别、Displacement判断、趋势延续确认等全过程，关键价位和分析步骤清晰。\"}",
+  "error": null
+}

@@ -1,0 +1,54 @@
+{
+  "card_id": "correlated_markets",
+  "type": "merged_concept",
+  "canonical_term": "Correlated Markets",
+  "aliases": [
+    "关联市场三角组合",
+    "相关联资产"
+  ],
+  "school": "SMC",
+  "definition": "三个相互关联的资产组合，用于通过比较它们的价格行为识别分歧（SMT）。典型组合包括外汇的DXY/EURUSD/GBPUSD、指数的NQ/ES/YM、贵金属的GC/XAU EUR/XAU GBP、能源的CL/RB/HO。",
+  "identification_rules": [
+    "确认三个资产之间存在经济或市场关联性（如同一货币篮子、同一资产类别）",
+    "在相同时间框架上并行观察三个资产的价格走势",
+    "识别其中一个资产触及关键水平（摆动高/低、FVG）而其他资产未触及的情况"
+  ],
+  "trading_implication": "相关市场用于识别SMT分歧，增强交易信号的可靠性。当一个资产在摆动高/低或FVG处表现出不同行为（一个触及、一个未触及），预示潜在反转。这种分歧与摆动点结合形成机械化交易框架，提高入场的确定性。",
+  "common_mistakes": [
+    "未正确理解相关市场必须是真正相关联的资产（不是任意三个市场）",
+    "仅观察单个资产的摆动点而忽视相关市场的分歧确认",
+    "在不同时间框架上比较相关市场，导致分歧信号失效"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "3eVxTV_7L2U",
+      "original_card_id": "3eVxTV_7L2U_concept_correlated_markets",
+      "segment_ids": [
+        "seg_006",
+        "seg_007"
+      ],
+      "time_range": [
+        414.96,
+        514.56
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131919Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

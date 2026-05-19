@@ -1,0 +1,102 @@
+{
+  "card_id": "xdm_OexQWJY_case_004_下行后反弹做多延续案例",
+  "type": "case",
+  "title": "ES下行后反弹做多延续案例",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Imbalance",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "market_structure",
+    "fair_value_gap_fvg"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "1H",
+  "market_context": "ES在4小时图上出现大幅下跌（Displacement），随后在1小时图上形成相对等低点结构。博主演示如何在下行后识别反弹做多机会，并预期价格继续上升。",
+  "key_observation": "在下行后识别出相对等低点（relative equal lows）和FVG结构，以及随后的向上位移（Displacement），为做多提供了清晰的入场信号和目标。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别大幅下跌的Displacement走势，标记左侧的下跌红烛和中部的整理区间。",
+    "Step 2: 在1小时图上观察价格从约3975下跌至3840的下行走势，确认下行结构。",
+    "Step 3: 识别下行后的相对等低点（relative equal lows）和下方的FVG不平衡区域。",
+    "Step 4: 等待向上的Displacement出现，确认反弹动能。",
+    "Step 5: 在1小时图上从约3840开始的上升趋势中寻找OTE最优入场点，目标是上方的流动性和等高点。",
+    "Step 6: 标记中部约3961.50-4024.75的整合区域作为回撤预期区间。",
+    "Step 7: 预期价格在创出新高后回撤至该整合区域，然后继续向上延续。"
+  ],
+  "outcome": "博主预期价格应该继续走高，在创出高点后会回撤至整合区域，然后继续上升。",
+  "lessons": "下行后的反弹做多需要识别三个关键要素：Displacement（位移）、Structure（相对等低点）和Imbalance（FVG）。通过这三个要素确认后，可以在低时间框架上寻找OTE入场点，目标是上方的流动性。回撤是正常的延续信号，不应该被视为反转。",
+  "primary_image": "cards/xdm_OexQWJY/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/xdm_OexQWJY/images/case_004_detail_1.jpg",
+    "cards/xdm_OexQWJY/images/case_004_detail_2.jpg",
+    "cards/xdm_OexQWJY/images/case_004_detail_3.jpg",
+    "cards/xdm_OexQWJY/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图表显示从左侧约 3840 开始的上升趋势，延伸至中部约 4010 的高点。K 线序列包含绿色上升 K 线和红色下降 K 线混合排列。图上有一条水平虚线位于 3962.50 价格水平。右侧价格刻度显示范围从 3840.00 至 4080.50。图表底部显示时间标记从 18 日至 28 日，当前时间戳显示 23:50:24（UTC+4",
+    "case_004_detail_1.jpg": "S&P 500 E-mini Futures 4小时K线图。图上左侧有文字标签'Displacement'。右侧价格轴显示当前价格为3924.50（绿色高亮）。图表可见价格范围从3870到4440。左侧显示两个价格标签3924.00和3924.25。图上有一条水平虚线位于3857.50。K线序列显示左侧大幅下跌红烛，中部区间整理，右侧上升趋势中多根绿烛，最后以大幅下跌红烛结束。",
+    "case_004_detail_2.jpg": "S&P 500 E-mini Futures 1 小时图。图表显示从左侧约 3975 下跌至右侧约 3840 的下行走势，跨越多根 K 线。可见价格范围约 3840 至 3982。右侧价格标签显示 3982.25 和 3854.28。图上标注有日期",
+    "case_004_detail_3.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从左侧约 3840 上升至右侧约 4068 的整体上升趋势。中部区域有一个矩形标注框，范围约在 3961.50 至 4024.75 之间，表示一个整合区域。可见 K 线中绿色蜡烛占多数，红色蜡烛分散出现。右侧价格刻度显示当前价格区间，图上未见其他指标或额外标注。",
+    "case_004_detail_4.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从 7 月 21 日至 8 月 3 日的价格走势，价格范围约从 3860 到 4050。图上绘制有两个灰色矩形框：一个位于 3950 至 3980 区间，另一个位于 3860 至 3900 区间。右侧价格刻度显示多个水平线标记。K 线呈现先上升后下降的形态，中间区域有一段相对平稳的整理区间，随后出现向下的移动。图上未见其他指"
+  },
+  "sources": [
+    {
+      "video_id": "xdm_OexQWJY",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.74,
+        204.98
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从4H到1H的分析过程，清晰标注了关键价位（3840、3975、3962.50、4010、4068）、结构特征和入场逻辑，预期结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:53.464165Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES下行后反弹做多延续案例\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"1H\",\"market_context\":\"ES在4小时图上出现大幅下跌（Displacement），随后在1小时图上形成相对等低点结构。博主演示如何在下行后识别反弹做多机会，并预期价格继续上升。\",\"key_observation\":\"在下行后识别出相对等低点（relative equal lows）和FVG结构，以及随后的向上位移（Displacement），为做多提供了清晰的入场信号和目标。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别大幅下跌的Displacement走势，标记左侧的下跌红烛和中部的整理区间。\",\"Step 2: 在1小时图上观察价格从约3975下跌至3840的下行走势，确认下行结构。\",\"Step 3: 识别下行后的相对等低点（relative equal lows）和下方的FVG不平衡区域。\",\"Step 4: 等待向上的Displacement出现，确认反弹动能。\",\"Step 5: 在1小时图上从约3840开始的上升趋势中寻找OTE最优入场点，目标是上方的流动性和等高点。\",\"Step 6: 标记中部约3961.50-4024.75的整合区域作为回撤预期区间。\",\"Step 7: 预期价格在创出新高后回撤至该整合区域，然后继续向上延续。\"],\"outcome\":\"博主预期价格应该继续走高，在创出高点后会回撤至整合区域，然后继续上升。\",\"lessons\":\"下行后的反弹做多需要识别三个关键要素：Displacement（位移）、Structure（相对等低点）和Imbalance（FVG）。通过这三个要素确认后，可以在低时间框架上寻找OTE入场点，目标是上方的流动性。回撤是正常的延续信号，不应该被视为反转。\",\"primary_image_frame_id\":\"xdm_OexQWJY_f006\",\"supporting_image_frame_ids\":[\"xdm_OexQWJY_f003\",\"xdm_OexQWJY_f002\",\"xdm_OexQWJY_f007\",\"xdm_OexQWJY_f008\"],\"related_concepts\":[\"Displacement\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Optimal Trade Entry\",\"Market Structure\",\"Imbalance\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从4H到1H的分析过程，清晰标注了关键价位（3840、3975、3962.50、4010、4068）、结构特征和入场逻辑，预期结果明确。\"}",
+  "error": null
+}

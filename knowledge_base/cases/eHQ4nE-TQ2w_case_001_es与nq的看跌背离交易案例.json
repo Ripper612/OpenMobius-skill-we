@@ -1,0 +1,100 @@
+{
+  "card_id": "eHQ4nE-TQ2w_case_001_es与nq的看跌背离交易案例",
+  "type": "case",
+  "title": "ES与NQ看跌背离交易案例",
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Divergence",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Swing High / Swing Low",
+      "card_id": "short_term_high_short_term_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure",
+    "short_term_high_short_term_low",
+    "liquidity",
+    "point_of_interest"
+  ],
+  "school": "SMC",
+  "asset": "ES / NQ",
+  "timeframe": "15M",
+  "market_context": "ES和NQ通常跟踪相同的市场结构，但在此案例中出现分歧。ES创出更低高点而NQ创出更高高点，形成看跌背离信号。",
+  "key_observation": "ES创出LH（更低高点）而NQ创出HH（更高高点），表明ES相对较弱。根据SMT原则，应交易较弱的资产ES进行做空。",
+  "analysis_steps": [
+    "Step 1: 观察ES和NQ的市场结构，确认两者通常跟踪相同的摆动点（HH、HL、LL）。",
+    "Step 2: 识别看跌背离：ES形成LH而NQ形成HH，表明两资产出现结构分歧。",
+    "Step 3: 根据SMT原则，选择较弱的资产（ES）作为交易对象，因为它创出更低高点。",
+    "Step 4: 寻找流动性或兴趣点（Point of Interest）来确认背离的有效性。",
+    "Step 5: 在ES的摆动低点（LL）设置风险止损，作为背离失效的触发条件。",
+    "Step 6: 对比NQ的强势表现（创出更高低点），进一步确认ES的相对弱势。"
+  ],
+  "outcome": null,
+  "lessons": "SMT背离交易的核心是识别两个相关资产的结构分歧，选择较弱的资产进行交易。风险管理关键是在摆动高/低点设置止损，一旦这些关键点被突破，背离失效。高时间框架（如15分钟）的背离比低时间框架更可靠。",
+  "primary_image": "cards/eHQ4nE-TQ2w/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/eHQ4nE-TQ2w/images/case_001_detail_1.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_001_detail_2.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_001_detail_3.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_001_detail_4.jpg",
+    "cards/eHQ4nE-TQ2w/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图上为两个并排的 15 分钟 K 线图：左侧为 S&P 500 E-mini Futures（ES），右侧为 NASDAQ 100 E-mini Futures（NQ）。两图均为蜡烛图，绿色代表上涨 K 线，红色代表下跌 K 线。ES 图上标注有多个摆动点标签（LH、HH、LL），NQ 图上同样标注有摆动点标签。图中央下方有文字标注说明：NQ 创出更高的高点而 ES 创出更低的高点，标注为'div",
+    "case_001_detail_1.jpg": "图上显示 S&P 500 E-mini 期货和 NASDAQ 100 E-mini 期货的 15 分钟 K 线图。画面左侧为 S&P 500，右侧为 NASDAQ 100。图上标注了多个摆动点标签：HH（更高高点）、HL（更高低点）、LL（更低低点）、LH（更低高点），分布在整个价格走势中。K 线由绿色（上升）和红色（下降）蜡烛组成。左上角文字说明\"You can see this by look",
+    "case_001_detail_2.jpg": "图上为两个并排的 15 分钟 K 线图表：左侧为 ES（标普 500 E-mini 期货），右侧为 NQ（纳斯达克 100 E-mini 期货）。两图均标注了摆动点标签：LH、IH、LL、HH、HL。ES 图上有一条从 LH 经 IH 至 LL 的下行趋势线。NQ 图上有一条从 LH 经 HH 至 HL 的上行趋势线。图下方有文字说明：\"理想情况下，你希望看到流动性的抓取或某个兴趣点来寻找背离\"。",
+    "case_001_detail_3.jpg": "图上显示两个 15 分钟时间框架的并排 K 线图表。左侧为 ES（标普 500 E-mini 期货），右侧为 NQ（纳斯达克 100 E-mini 期货）。左图标注有下行趋势结构，包含两条下行趋势线连接标记为 LH、LL 的摆动点。右图显示盘整结构，标注有 HH、HL、LH、LL 四个摆动点，并用矩形框围绕该区域。图下方有两段文字说明：左侧文字为\"You want to trade the one",
+    "case_001_detail_4.jpg": "图上显示两个并排的 15 分钟 K 线图表：左侧为 S&P 500 E-mini 期货（ES），右侧为纳斯达克 100 E-mini 期货（NQ）。两个图表均标注了 LH（较高的高点）、IH（中间高点）、LL（较低的低点）、HL（较高的低点）四个关键点位。左侧图表从 LH 到 IH 绘有向下趋势线，从 LL 到 HL 绘有向上趋势线。右侧图表结构相似，并在下方价格区域用黄色矩形框标记。图下方有两段",
+    "case_001_detail_5.jpg": "NQ 图表显示一段时间内的价格走势。图上有一个黄色矩形框标注在左下方区域，框内包含多根 K 线。图上绘有一条向上倾斜的趋势线穿过该区域。另有两条水平线分别标记在 11455.50 和 11455.75 价格水平。图右侧显示价格刻度从 11400.00 至 11880.00。图上文字标注说明'由于 NQ 正在创造更高的低点，我们将初步看多它，因为它有更多的强度'。K 线呈绿红相间排列，显示价格在标注"
+  },
+  "sources": [
+    {
+      "video_id": "eHQ4nE-TQ2w",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        7.279,
+        187.36
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了背离识别、资产选择、风险设置的全过程，资产代码、时间框架、关键摆动点均清晰可见。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:00.941217Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES与NQ看跌背离交易案例\",\"school\":\"SMC\",\"asset\":\"ES / NQ\",\"timeframe\":\"15M\",\"market_context\":\"ES和NQ通常跟踪相同的市场结构，但在此案例中出现分歧。ES创出更低高点而NQ创出更高高点，形成看跌背离信号。\",\"key_observation\":\"ES创出LH（更低高点）而NQ创出HH（更高高点），表明ES相对较弱。根据SMT原则，应交易较弱的资产ES进行做空。\",\"analysis_steps\":[\"Step 1: 观察ES和NQ的市场结构，确认两者通常跟踪相同的摆动点（HH、HL、LL）。\",\"Step 2: 识别看跌背离：ES形成LH而NQ形成HH，表明两资产出现结构分歧。\",\"Step 3: 根据SMT原则，选择较弱的资产（ES）作为交易对象，因为它创出更低高点。\",\"Step 4: 寻找流动性或兴趣点（Point of Interest）来确认背离的有效性。\",\"Step 5: 在ES的摆动低点（LL）设置风险止损，作为背离失效的触发条件。\",\"Step 6: 对比NQ的强势表现（创出更高低点），进一步确认ES的相对弱势。\"],\"outcome\":null,\"lessons\":\"SMT背离交易的核心是识别两个相关资产的结构分歧，选择较弱的资产进行交易。风险管理关键是在摆动高/低点设置止损，一旦这些关键点被突破，背离失效。高时间框架（如15分钟）的背离比低时间框架更可靠。\",\"primary_image_frame_id\":\"eHQ4nE-TQ2w_f004\",\"supporting_image_frame_ids\":[\"eHQ4nE-TQ2w_f003\",\"eHQ4nE-TQ2w_f005\",\"eHQ4nE-TQ2w_f002\",\"eHQ4nE-TQ2w_f007\",\"eHQ4nE-TQ2w_f008\"],\"related_concepts\":[\"SMT (Smart Money Technique)\",\"Divergence\",\"Market Structure\",\"Swing High / Swing Low\",\"Liquidity\",\"Point of Interest\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了背离识别、资产选择、风险设置的全过程，资产代码、时间框架、关键摆动点均清晰可见。\"}",
+  "error": null
+}

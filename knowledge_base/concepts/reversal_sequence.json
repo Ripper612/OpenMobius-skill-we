@@ -1,0 +1,161 @@
+{
+  "card_id": "reversal_sequence",
+  "type": "merged_concept",
+  "canonical_term": "Reversal Sequence",
+  "aliases": [
+    "Order of Reversal",
+    "反转序列",
+    "反转形成顺序",
+    "完整反转模式"
+  ],
+  "school": "ICT",
+  "definition": "价格反转的多阶段确认序列，包含：(1)Turtle Soup/SMT扫荡流动性(Purge)；(2)Inversion；(3)状态改变(CSD)/Order Block；(4)FVG；(5)Breaker Block。三阶段核心为清洗-CSD-失效，越往后确认度越高但入场点越晚，失效水平替代原反转点作为止损参考。",
+  "identification_rules": [
+    "识别清洗阶段(Purge)：价格扫除前一摆动高/低点的流动性，形成极端点位；可通过Turtle Soup（扫荡低点）或SMT（相关资产结构分歧）识别",
+    "识别Inversion：收盘穿过该腿产生的FVG，表示反转方向初步确认",
+    "识别状态改变(CSD)/Order Block：价格收盘穿过产生摆动低/高点的一系列同向K线（连续下跌或上涨K线），确认市场结构转变",
+    "识别FVG：三根K线形态，高低不重叠，进一步确认反转方向",
+    "识别Breaker Block：低-高-更低-更高（或反向）的结构，最高确认度，标志反转完全形成",
+    "识别失效水平(Invalidation)：在CSD后形成新的摆动低/高点，该点位成为新的无效水平，替代原反转低点作为止损参考",
+    "确认完整序列：各阶段依次形成，不可跳步；Turtle Soup与SMT互为替代条件，非必须同时出现"
+  ],
+  "trading_implication": "Reversal Sequence提供从低确认度到高确认度的分级入场机制。交易者可根据风险承受度在序列早期（Turtle Soup/SMT）以低确认换取更优价格，或在后期（Breaker Block）以高确认换取更安全入场。序列确认后仍可等待价格回测FVG或摆动高点并形成对立K线再入场，在失效水平处设止损以获更优风险回报比。建议专注序列中1-2个关键概念，避免过度分析。",
+  "common_mistakes": [
+    "误认为错过初始反转入场就失去交易机会，实际上序列确认后仍有多个延续入场点",
+    "在反转序列完整形成前过早入场，未等待足够的阶段确认就承担过高风险",
+    "混淆失效水平与原反转低点，导致止损设置不当",
+    "在没有FVG或摆动高点被回测、对立K线未形成的情况下机械性交易",
+    "未考虑SMT配对，在单一资产上过度依赖反转序列",
+    "试图同时追踪序列中的所有步骤，导致图表过度标注和分析瘫痪",
+    "忽视SMT作为第一步的替代条件，误认为Turtle Soup必须出现",
+    "混淆Breaker Block与Order Block的识别条件（Breaker需要低-高-更低-更高结构）"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Invalidation",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Purge",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    },
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    },
+    {
+      "term": "Inversion",
+      "card_id": "inversion",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "IJcfC6wAPZU_case_006_英镑美元_gbpusd_日线至月线范围交易",
+      "video_id": "IJcfC6wAPZU",
+      "title": "GBPUSD日线-月线范围交易：扫低后CSD确认突破"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "IJcfC6wAPZU",
+      "original_card_id": "IJcfC6wAPZU_concept_reversal_sequence",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_006"
+      ],
+      "time_range": [
+        10.96,
+        1029.6
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wik00c9_2nk",
+      "original_card_id": "wik00c9_2nk_concept_reversal_sequence",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        192.959,
+        1016.639
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:56.758769Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 2"
+  ],
+  "merge_notes": "两张原始卡均为ICT，school无冲突。卡1描述三阶段核心序列（Purge-CSD-Invalidation），卡2描述五步分级序列，两者互补；合并后以五步框架为主干，保留三阶段的失效水平细节。",
+  "error": null
+}

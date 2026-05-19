@@ -1,0 +1,106 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_006_btc_1小时图_扫除高点后的continuation等待",
+  "type": "case",
+  "title": "BTC 1小时图：扫除高点后的continuation等待",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "continuation_pattern",
+    "swing_low_swing_high",
+    "point_of_interest",
+    "inducement",
+    "market_structure",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H",
+  "market_context": "BTC在1小时图上形成短期高点后出现回调，价格在盘整区域内波动，博主演示如何在扫除高点后等待新的continuation形成，而非仓促入场。",
+  "key_observation": "价格扫除短期高点后进入盘整，需要等待新的continuation或额外确认信号，而不是在高点附近直接做多。关键是识别FVG的快速闭合和swing point的确认。",
+  "analysis_steps": [
+    "Step 1: 识别价格运行至短期高点（scenario two），确认不应在高点直接做多。",
+    "Step 2: 观察价格进入Fair Value Gap区域，等待该区域的快速闭合作为continuation信号。",
+    "Step 3: 评估价格向下的移动是否构成continuation——检查是否触及point of interest（swing point）。",
+    "Step 4: 确认没有触及point of interest的下行不构成continuation，强调需要耐心等待操纵（manipulation）。",
+    "Step 5: 演示第二个例子：价格在高点后形成盘整，等待要么操纵低点，要么突破高点的continuation。",
+    "Step 6: 验证在高点的突破不可信，需要看到continuation或新的swing point形成。",
+    "Step 7: 确认价格向下到达point of interest/swing point，并观察该水平的快速闭合，确认continuation成立。"
+  ],
+  "outcome": null,
+  "lessons": "在扫除高点后的盘整中，不应急于入场。必须等待：(1) FVG的快速闭合，(2) 价格触及point of interest，(3) 新的swing point形成。这些确认信号确保交易的continuation而非反转。耐心和额外确认是避免虚假突破的关键。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_006_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_006_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_006_detail_2.jpg",
+    "cards/PQiRV0JMhIQ/images/case_006_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_006_primary.jpg": "BTC 1 小时 K 线图。图上显示从约 3600 到 5100 的价格范围。图中有两条水平线分别位于 4700 和 4550，形成一个矩形标注区域。图下方约 4200-4350 区间有一个黄色矩形标注。K 线序列中绿色 K 线占多数，穿插有数根黑色 K 线。在接近 5100 的位置有一根 K 线呈长上影线形态。图右侧工具栏可见多种绘图工具。",
+    "case_006_detail_1.jpg": "图上为 BTC 1 小时 K 线图，价格范围约从 3.8000 到 4.3000。图表显示约 40 根 K 线，绿色和黑色 K 线交替出现。左下方有一根带长下影线的大绿色 K 线。中间区域出现多根黑色 K 线，伴随较长的上影线。右侧区域 K 线主体较小，显示盘整特征。图上有一个矩形框标注，位置约在 4.0500 至 4.1500 价格区间。整体 K 线呈现高波动性，多数 K 线带有明显的上下影线。",
+    "case_006_detail_2.jpg": "图表为蜡烛图，纵轴价格范围约 3.0 至 5.0。图上绘有一条水平线位于 4.6 价位，以及一个矩形框标注在 4.3 至 4.6 价格区间。K 线序列显示左侧下跌走势、中部盘整、右侧上升后回落的形态。绿色和黑色 K 线交替出现，最高点约 5.0，随后出现回调。除水平线和矩形框外，图上未见其他标注或指标。",
+    "case_006_detail_3.jpg": "K线图显示从约34000下跌至23000的整体下行走势。图上绘制有两条水平线分别位于28500和27000处，以及一个矩形框标注围绕该区间。下行过程中穿插绿色K线，在27000至28500区间内出现混合颜色K线的盘整形态。多根K线具有下影线特征。图右侧可见两条水平线围成的矩形区域。左侧价格刻度清晰可见，时间轴显示为分钟级别。"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_012"
+      ],
+      "time_range": [
+        616.48,
+        724.0
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了两个具体案例，清晰展示了分析步骤、关键价位、FVG和swing point的识别，以及continuation确认的逻辑。图表标注清晰，讲解逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:46.287419Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC 1小时图：扫除高点后的continuation等待\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H\",\"market_context\":\"BTC在1小时图上形成短期高点后出现回调，价格在盘整区域内波动，博主演示如何在扫除高点后等待新的continuation形成，而非仓促入场。\",\"key_observation\":\"价格扫除短期高点后进入盘整，需要等待新的continuation或额外确认信号，而不是在高点附近直接做多。关键是识别FVG的快速闭合和swing point的确认。\",\"analysis_steps\":[\"Step 1: 识别价格运行至短期高点（scenario two），确认不应在高点直接做多。\",\"Step 2: 观察价格进入Fair Value Gap区域，等待该区域的快速闭合作为continuation信号。\",\"Step 3: 评估价格向下的移动是否构成continuation——检查是否触及point of interest（swing point）。\",\"Step 4: 确认没有触及point of interest的下行不构成continuation，强调需要耐心等待操纵（manipulation）。\",\"Step 5: 演示第二个例子：价格在高点后形成盘整，等待要么操纵低点，要么突破高点的continuation。\",\"Step 6: 验证在高点的突破不可信，需要看到continuation或新的swing point形成。\",\"Step 7: 确认价格向下到达point of interest/swing point，并观察该水平的快速闭合，确认continuation成立。\"],\"outcome\":null,\"lessons\":\"在扫除高点后的盘整中，不应急于入场。必须等待：(1) FVG的快速闭合，(2) 价格触及point of interest，(3) 新的swing point形成。这些确认信号确保交易的continuation而非反转。耐心和额外确认是避免虚假突破的关键。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f023\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f021\",\"PQiRV0JMhIQ_f022\",\"PQiRV0JMhIQ_f024\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Continuation\",\"Swing Point\",\"Point of Interest\",\"Manipulation\",\"Market Structure\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了两个具体案例，清晰展示了分析步骤、关键价位、FVG和swing point的识别，以及continuation确认的逻辑。图表标注清晰，讲解逻辑连贯。\"}",
+  "error": null
+}

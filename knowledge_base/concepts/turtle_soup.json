@@ -1,0 +1,237 @@
+{
+  "card_id": "turtle_soup",
+  "type": "merged_concept",
+  "canonical_term": "Turtle Soup",
+  "aliases": [
+    "purge of a high",
+    "purge of a low",
+    "sweep",
+    "sweep above highs",
+    "sweep out previous highs"
+  ],
+  "school": "ICT",
+  "definition": "价格触及或穿过前期摆动高点/低点，清除该区域流动性订单后反向运行的形态。确认条件为扫盘后K线收盘穿过形成该高/低点的K线序列，随后价格不继续朝原方向延伸，而是反向运动。可在多时间框架及特定时间窗口（如Silver Bullet框架）中应用。",
+  "identification_rules": [
+    "价格的影线（wick）触及或穿过前期有效摆动高点/低点（swing high/low）",
+    "扫盘后K线收盘在该水平的反向一侧，或收盘穿过形成该高/低点的K线序列",
+    "穿过后价格反向运行，不继续朝原突破方向延伸",
+    "Sweep可分为浅层（价格仅触及）和深层（价格穿过并产生明显位移）两种形态",
+    "扫盘后通常在反向运动中形成FVG、OB等结构点位",
+    "需结合上位时间框架偏向确认，高时间框架的sweep可为低时间框架提供方向性支撑",
+    "在Silver Bullet框架中，于10-11 a.m.时间窗口内观察价格是否触及或穿过前一小时K线的高点或低点"
+  ],
+  "trading_implication": "Sweep表明机构已清除止损/流动性订单，价格即将反向。确认后（收盘穿过K线序列或下一根K线延续）寻找反向入场机会，止损设于扫盘极值点。常与Change in State of Delivery、FVG、OB、Protected Swing等结构配合使用。Sweep强度及随后位移强度影响交易可信度与风险回报比。在Silver Bullet框架中，目标为前一小时K线的对侧。",
+  "common_mistakes": [
+    "在扫盘发生时立即入场，而非等待K线收盘确认或下一根K线的延续信号",
+    "将单纯的价格触及或穿过高/低点误认为有效Sweep，未确认收盘位置的反向性",
+    "忽视上位时间框架的偏向，仅在低时间框架识别Sweep，导致交易方向错误",
+    "未结合FVG、OB等其他结构来确认Sweep后的具体入场点位",
+    "将浅层Sweep与深层Sweep混淆，在缺乏充分位移的情况下入场",
+    "在Silver Bullet框架中，于11 a.m.时间窗口结束后仍寻求入场，违反时间限制",
+    "忽视Sweep后是否伴随充分的位移（Displacement），在盘整或回撤中入场"
+  ],
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Mitigation Block",
+      "card_id": "mitigation_block",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "7p9MBFk8EEM_case_003_纳指nq5分钟扫盘与订单块案例",
+      "video_id": "7p9MBFk8EEM",
+      "title": "NQ5分钟日线摆动低点扫盘与订单块支撑案例"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_002_nq_小时图与5分钟图_fvg订单块交易",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ小时图FVG与5分钟订单块的多时间框架交易"
+    },
+    {
+      "card_id": "caaS6_Q7O78_case_001_日线图上的反转与延续案例分析",
+      "video_id": "caaS6_Q7O78",
+      "title": "日线范围内回闭与反转延续的机械性分析"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_005_回测第三天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第三天交易——10-11AM窗口无扫盘，交易跳过"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_006_回测第四天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "回测第四天：FVG入场失效，订单被取消"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_015_回测第十三天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "第27天低点扫荡后Breaker Block入场被止损"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_016_回测第十四天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "第27天低点扫荡后反弹不足，放弃交易"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_020_回测第十八天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "扫低后Breaker Block做多，3R获利移至保本"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_021_回测第十九天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "10 AM扫低后反弹乏力的交易分析"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_022_回测第二十天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "NAS100回测第20天：扫低后FVG入场做多获3R收益"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_025_回测第二十三天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "第23天：低点扫荡后Breaker Block入场被止损"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_027_回测第二十五天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "第25天回测：扫低后FVG入场做多，获3R收益后移至保本"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_028_回测第二十六天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "第26天交易：浅扫后反弹乏力，拒绝低质量价格行为"
+    },
+    {
+      "card_id": "o0v4KQxZbpU_case_029_回测第二十七天交易",
+      "video_id": "o0v4KQxZbpU",
+      "title": "第27天：扫低后FVG入场做多被止损"
+    },
+    {
+      "card_id": "vn1RYjhJUnQ_case_001_usd_1小时图有效c2扫盘确认",
+      "video_id": "vn1RYjhJUnQ",
+      "title": "USD 1H有效C2扫盘确认与5分钟CSD验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_sweep",
+      "segment_ids": [
+        "seg_004",
+        "seg_009",
+        "seg_016",
+        "seg_021"
+      ],
+      "time_range": [
+        144.48,
+        1022.72
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "iEaMbuFZb24",
+      "original_card_id": "iEaMbuFZb24_concept_sweep",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        11.0,
+        1085.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "o0v4KQxZbpU",
+      "original_card_id": "o0v4KQxZbpU_concept_sweep",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014"
+      ],
+      "time_range": [
+        64.28,
+        1633.48
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:20.478315Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "3张原始卡均标注ICT，school无冲突。原始卡术语为'Sweep'（流动性扫盘），与规范术语'Turtle Soup'为同一概念的不同表述，已按规范术语输出。",
+  "error": null
+}

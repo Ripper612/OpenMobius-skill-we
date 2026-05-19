@@ -1,0 +1,105 @@
+{
+  "card_id": "E6bpY4dQvlE_case_001_s_p_500_e_mini期货15秒图box_setup交易案",
+  "type": "case",
+  "title": "ES E-mini期货15秒图Box Setup做多交易案例",
+  "related_concepts": [
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range (BPR)",
+      "card_id": "balanced_price_range_bpr",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "box_setup",
+    "accumulation_manipulation_distribution_amd",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "balanced_price_range_bpr",
+    "consolidation",
+    "displacement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "15s",
+  "market_context": "在15秒图上识别盘整区间，观察激进下跌和回升形成的Box Setup结构，在前期低点处寻找做多入场机会，目标为盘整区间上方。",
+  "key_observation": "博主识别出典型的Box Setup模式：盘整-激进下跌-回升至盘整区间下沿，形成Accumulation-Manipulation-Distribution周期，在回升至前期低点时构成高概率做多入场点。",
+  "analysis_steps": [
+    "Step 1: 在4小时图上识别左侧盘整区间（约3050-3275），标记为Accumulation阶段。",
+    "Step 2: 观察价格激进下跌至约2975（Manipulation），突破盘整下沿，产生FVG。",
+    "Step 3: 观察价格激进回升至约3425（Distribution初期），突破盘整上沿，再次产生FVG。",
+    "Step 4: 在15秒图上放大观察，确认右侧盘整区间的形成和结构。",
+    "Step 5: 标记前期低点作为支撑，在价格回升至该低点附近时设置做多入场。",
+    "Step 6: 设置止损在前期低点下方，目标为盘整区间上方。"
+  ],
+  "outcome": "交易成功平仓，盈利3.75点（0.10%），风险回报比为1:3（止损1.25点，目标3.75点），成交量1750。",
+  "lessons": "Box Setup通过识别Accumulation-Manipulation-Distribution周期，在激进回升回测前期低点时提供高概率入场机会。关键是确认盘整区间的边界、FVG的形成，以及在回升时的精确入场位置。",
+  "primary_image": "cards/E6bpY4dQvlE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/E6bpY4dQvlE/images/case_001_detail_1.jpg",
+    "cards/E6bpY4dQvlE/images/case_001_detail_2.jpg",
+    "cards/E6bpY4dQvlE/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表来自 TradingView，资产为 CME_MINI，时间框架为 15 秒。图中央有一条垂直虚线标记入场位置，入场位置上方为绿色矩形区域，标注文字为\"Target: 3.75 (0.10%) 15, Amount: 1750\"；下方为红色矩形区域，标注文字为\"Stop: 1.25 (0.03%) 5, Amount: 750\"。图中还有一个文字标注\"Closed PnL: 3.75, Qty",
+    "case_001_detail_1.jpg": "S&P 500 E-mini 期货 4 小时图，图上绘制的是手绘线条而非标准 K 线。左侧矩形框内线条呈多次震荡波形，价格区间约在 3050 至 3275 之间。线条随后向下延伸至矩形框下方约 2975 附近，再向上进入右侧矩形框，最高触及约 3425。图上有一条竖向虚线位于 Mon 03 Oct '22 02:00 处，以及一条横向虚线位于约 3037。右侧价格轴显示当前价格标签为 3131.2",
+    "case_001_detail_2.jpg": "图表标题显示为 S&P 500 E-mini Futures，4 小时线图，来自 CME_MINI，平台为 TradingView。图上呈现两组结构相似的折线走势，各自被灰色矩形框标注。左侧矩形框内折线呈多次震荡形态，随后折线下穿矩形框底部后急速上行，并附有向上箭头标注。右侧矩形框内同样呈震荡折线，随后折线急速上冲至高点后向下运动，并附有向下箭头标注。右侧价格轴可见三个价格标签：3131.25（高",
+    "case_001_detail_3.jpg": "图左上角标注平台信息为 CME_MINI · TradingView，时间框架标注为 15s。图为蜡烛图，价格刻度不可读，可见价格范围无法确认。图中央偏左位置有一条带两个圆形端点的水平线段标注，图上另有一条贯穿画面的竖向虚线及一条横向虚线交叉光标。图右侧区域可见一组 K 线先形成局部高点后连续下行，随后出现一根较长的绿色 K 线。图上无文字标签、无矩形框、无斐波那契或其他指标标注。"
+  },
+  "sources": [
+    {
+      "video_id": "E6bpY4dQvlE",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        0.659,
+        182.099
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了Box Setup的识别过程、入场逻辑、止损目标设置，并提供了实际交易结果（盈利3.75点）。资产、时间框架、关键价位均从图表清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:54.095236Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES E-mini期货15秒图Box Setup做多交易案例\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"15s\",\"market_context\":\"在15秒图上识别盘整区间，观察激进下跌和回升形成的Box Setup结构，在前期低点处寻找做多入场机会，目标为盘整区间上方。\",\"key_observation\":\"博主识别出典型的Box Setup模式：盘整-激进下跌-回升至盘整区间下沿，形成Accumulation-Manipulation-Distribution周期，在回升至前期低点时构成高概率做多入场点。\",\"analysis_steps\":[\"Step 1: 在4小时图上识别左侧盘整区间（约3050-3275），标记为Accumulation阶段。\",\"Step 2: 观察价格激进下跌至约2975（Manipulation），突破盘整下沿，产生FVG。\",\"Step 3: 观察价格激进回升至约3425（Distribution初期），突破盘整上沿，再次产生FVG。\",\"Step 4: 在15秒图上放大观察，确认右侧盘整区间的形成和结构。\",\"Step 5: 标记前期低点作为支撑，在价格回升至该低点附近时设置做多入场。\",\"Step 6: 设置止损在前期低点下方，目标为盘整区间上方。\"],\"outcome\":\"交易成功平仓，盈利3.75点（0.10%），风险回报比为1:3（止损1.25点，目标3.75点），成交量1750。\",\"lessons\":\"Box Setup通过识别Accumulation-Manipulation-Distribution周期，在激进回升回测前期低点时提供高概率入场机会。关键是确认盘整区间的边界、FVG的形成，以及在回升时的精确入场位置。\",\"primary_image_frame_id\":\"E6bpY4dQvlE_f007\",\"supporting_image_frame_ids\":[\"E6bpY4dQvlE_f003\",\"E6bpY4dQvlE_f004\",\"E6bpY4dQvlE_f006\"],\"related_concepts\":[\"Box Setup\",\"Accumulation, Manipulation, Distribution (AMD)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Balanced Price Range (BPR)\",\"Consolidation\",\"Displacement\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了Box Setup的识别过程、入场逻辑、止损目标设置，并提供了实际交易结果（盈利3.75点）。资产、时间框架、关键价位均从图表清晰可读。\"}",
+  "error": null
+}

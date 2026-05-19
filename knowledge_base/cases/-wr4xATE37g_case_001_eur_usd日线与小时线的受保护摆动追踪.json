@@ -1,0 +1,121 @@
+{
+  "card_id": "-wr4xATE37g_case_001_eur_usd日线与小时线的受保护摆动追踪",
+  "type": "case",
+  "title": "EUR/USD日线反转与小时线受保护摆动追踪",
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Protected High",
+      "card_id": "protected_swing_protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Turtle Soup",
+      "card_id": "turtle_soup_entry",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "protected_high_low",
+    "protected_swing_protected_high_low",
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "liquidity",
+    "displacement",
+    "turtle_soup_entry"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "1H / 1D",
+  "market_context": "EUR/USD从日线高点1.07500附近开始下跌，在日线收盘回到前一日范围内后确认看跌偏差。博主通过日线与小时线的结合分析，追踪多个连续的受保护摆动高点，最终目标指向日线低点约1.03300。",
+  "key_observation": "日线高点被扫除后，价格回到前一日范围内收盘，确认看跌反转。小时线上通过一系列上升收盘K线穿过该高点，形成首个受保护摆动，为后续下跌趋势的延续奠定基础。",
+  "analysis_steps": [
+    "Step 1: 观察日线高点约1.07500被扫除，价格随后回到前一日范围内收盘，确认看跌偏差。",
+    "Step 2: 切换到小时线，确认日线高点被扫除，但需要通过一系列上升收盘K线穿过该高点才能形成受保护摆动。",
+    "Step 3: 识别小时线上第一个受保护摆动高点（约1.06100），通过上升收盘K线穿过该高点确认，预期该高点保持完整。",
+    "Step 4: 追踪后续的高点扫除与受保护摆动形成过程，每次新高被扫除后，等待上升收盘K线穿过该高点以确认新的受保护摆动。",
+    "Step 5: 在多个受保护摆动形成过程中，观察价格是否触及公允价值缺口（FVG），并通过上升收盘K线穿过该区域来确认继续下跌的信号。",
+    "Step 6: 追踪价格向下运行至日线目标低点约1.03300，同时监控受保护摆动高点是否被突破（这将违反看跌趋势）。",
+    "Step 7: 确认价格最终突破日线低点，完成从反转到持续下跌的完整过程。"
+  ],
+  "outcome": "价格成功突破日线目标低点约1.03300，受保护摆动高点在整个下跌过程中保持完整，确认看跌趋势的延续性。",
+  "lessons": "受保护摆动是确认趋势延续的关键工具。通过要求上升收盘K线穿过高点来确认受保护摆动，而非仅依赖高点扫除，可以有效过滤假突破。日线与小时线的结合使用能够提供更精确的入场确认和趋势追踪。",
+  "primary_image": "cards/-wr4xATE37g/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/-wr4xATE37g/images/case_001_detail_1.jpg",
+    "cards/-wr4xATE37g/images/case_001_detail_2.jpg",
+    "cards/-wr4xATE37g/images/case_001_detail_3.jpg",
+    "cards/-wr4xATE37g/images/case_001_detail_4.jpg",
+    "cards/-wr4xATE37g/images/case_001_detail_5.jpg",
+    "cards/-wr4xATE37g/images/case_001_detail_6.jpg",
+    "cards/-wr4xATE37g/images/case_001_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "EURUSD 1 小时 K 线图，可见价格范围约从 1.04800 到 1.06300。图上标注有多条水平线，分布在 1.05100、1.05500、1.05700、1.05800、1.05900、1.06000、1.06100 等价位。图上有一个灰色阴影水平矩形区域，覆盖约 1.05780 至 1.05870 区间。另有一个粉色小矩形标注位于约 1.05850 至 1.05950 区间。图右侧出",
+    "case_001_detail_1.jpg": "EUR/USD 日线K线图，可见价格范围约从1.02500至1.08500。图上有两条虚线水平线分别位于约1.07500和1.06250附近，另有一条实线水平线位于约1.05500处，从图中部延伸至右侧边缘。K线序列从10月14日附近开始，整体呈下行排列，至11月下旬出现低点约1.03500的长下影线K线。此后K线在1.04000至1.05500区间内形成多根小实体K线。图右侧2025标签附近出现",
+    "case_001_detail_2.jpg": "EURUSD 日线K线图，可见价格范围约从1.02500至1.08500。图上有一条虚线水平线位于约1.07000，一条点线水平线位于约1.06250延伸至图右侧，另有一条水平线位于约1.05500。图中Dec区域有一个矩形标注框，覆盖约1.05500至1.06200价格区间内的数根K线。图右侧最新一根K线为大阴线，实体跨度约从1.04000至1.06000，下影线延伸至约1.03500。当前价格",
+    "case_001_detail_3.jpg": "EURUSD 1 小时 K 线图，可见价格范围约从 1.05000 至 1.06400。图上有两条实线水平线分别位于 1.06100 和 1.06000 附近，另有一条虚线水平线位于约 1.05430。图上绘有一个矩形框，覆盖约 1.05850 至 1.05950 区间内的多根 K 线。Dec 6 07:00 附近出现一根高度约达 1.06350 的长阳线，随后数根 K 线下行至约 1.05430",
+    "case_001_detail_4.jpg": "图为 EURUSD 1 小时 K 线图，可见价格范围约从 1.04900 至 1.06400。图上有两条实线水平线，分别位于约 1.06100 和 1.05900 附近，另有一条虚线水平线位于约 1.05420。图上标注有两个矩形框，一个粉色矩形位于约 1.05880 至 1.05980 区间，另一个较大矩形框覆盖约 1.05700 至 1.05900 区间。在 Dec 6 附近出现一根高度较大的",
+    "case_001_detail_5.jpg": "EUR/USD 1 小时 K 线图，可见价格范围约从 1.04800 到 1.06300。图上有多条水平线，分别位于 1.06100、1.05900、1.05800、1.05500 附近。图左上方有文字标注 'C2'，对应一根上影线延伸至约 1.06300 的 K 线。图中有两处矩形框标注，一处位于约 1.05850 至 1.05950 区间（粉色），另一处位于约 1.05220 至 1.0528",
+    "case_001_detail_6.jpg": "EURUSD 1 小时 K 线图，可见价格范围约从 1.04800 至 1.06300。图上有多条水平线分布于 1.06100、1.05900、1.05700、1.05500 及 1.05050 附近。图中存在两个矩形标注区域，分别位于约 1.05780–1.05920 及 1.05820–1.05960 区间，另有一个小矩形位于约 1.05240–1.05280。图右侧出现一根大绿色 K 线，主",
+    "case_001_detail_7.jpg": "EUR/USD 1 小时 K 线图，可见价格范围约从 1.04700 到 1.06200。图右侧当前价标签显示 1.05656。图上有多条水平线，包括约 1.06000 和 1.05900 处的实线，以及约 1.05650 和 1.05100 处的虚线。图中部可见两个矩形框标注，分别位于约 1.05750 至 1.05900 区间。图右侧出现一根大幅上涨 K 线（约从 1.05100 至 1.05"
+  },
+  "sources": [
+    {
+      "video_id": "-wr4xATE37g",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        190.0,
+        746.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对EUR/USD案例的分析完整清晰，包括资产代码、时间框架、关键价位、分析步骤和最终结果，受保护摆动的形成逻辑和追踪过程有详细讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:05:52.485350Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EUR/USD日线反转与小时线受保护摆动追踪\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"1H / 1D\",\"market_context\":\"EUR/USD从日线高点1.07500附近开始下跌，在日线收盘回到前一日范围内后确认看跌偏差。博主通过日线与小时线的结合分析，追踪多个连续的受保护摆动高点，最终目标指向日线低点约1.03300。\",\"key_observation\":\"日线高点被扫除后，价格回到前一日范围内收盘，确认看跌反转。小时线上通过一系列上升收盘K线穿过该高点，形成首个受保护摆动，为后续下跌趋势的延续奠定基础。\",\"analysis_steps\":[\"Step 1: 观察日线高点约1.07500被扫除，价格随后回到前一日范围内收盘，确认看跌偏差。\",\"Step 2: 切换到小时线，确认日线高点被扫除，但需要通过一系列上升收盘K线穿过该高点才能形成受保护摆动。\",\"Step 3: 识别小时线上第一个受保护摆动高点（约1.06100），通过上升收盘K线穿过该高点确认，预期该高点保持完整。\",\"Step 4: 追踪后续的高点扫除与受保护摆动形成过程，每次新高被扫除后，等待上升收盘K线穿过该高点以确认新的受保护摆动。\",\"Step 5: 在多个受保护摆动形成过程中，观察价格是否触及公允价值缺口（FVG），并通过上升收盘K线穿过该区域来确认继续下跌的信号。\",\"Step 6: 追踪价格向下运行至日线目标低点约1.03300，同时监控受保护摆动高点是否被突破（这将违反看跌趋势）。\",\"Step 7: 确认价格最终突破日线低点，完成从反转到持续下跌的完整过程。\"],\"outcome\":\"价格成功突破日线目标低点约1.03300，受保护摆动高点在整个下跌过程中保持完整，确认看跌趋势的延续性。\",\"lessons\":\"受保护摆动是确认趋势延续的关键工具。通过要求上升收盘K线穿过高点来确认受保护摆动，而非仅依赖高点扫除，可以有效过滤假突破。日线与小时线的结合使用能够提供更精确的入场确认和趋势追踪。\",\"primary_image_frame_id\":\"-wr4xATE37g_f013\",\"supporting_image_frame_ids\":[\"-wr4xATE37g_f007\",\"-wr4xATE37g_f008\",\"-wr4xATE37g_f009\",\"-wr4xATE37g_f010\",\"-wr4xATE37g_f011\",\"-wr4xATE37g_f012\",\"-wr4xATE37g_f014\"],\"related_concepts\":[\"Protected Swing\",\"Protected High\",\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"Liquidity\",\"Displacement\",\"Turtle Soup\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对EUR/USD案例的分析完整清晰，包括资产代码、时间框架、关键价位、分析步骤和最终结果，受保护摆动的形成逻辑和追踪过程有详细讲解。\"}",
+  "error": null
+}

@@ -1,0 +1,106 @@
+{
+  "card_id": "Njs-eRpeP9Q_case_001_es期货5分钟图流动性识别案例",
+  "type": "case",
+  "title": "ES期货5分钟图流动性识别与扫荡分析",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "swing_formation",
+    "order_block",
+    "market_structure",
+    "high_low_time_frame"
+  ],
+  "school": "ICT",
+  "asset": "ES",
+  "timeframe": "5m",
+  "market_context": "ES期货在5分钟时间框架上呈现振荡走势，价格在3800-3856区间内波动。博主通过标注明显的摆动高低点来识别买方和卖方流动性所在位置。",
+  "key_observation": "流动性集中在摆动高点上方（买方流动性）和摆动低点下方（卖方流动性）。交易者的止损单通常设置在这些区域，价格扫除流动性后才会形成可交易的设置。",
+  "analysis_steps": [
+    "Step 1: 识别图表上最明显的摆动高点和摆动低点作为流动性基准。",
+    "Step 2: 标注买方流动性（Buy Side Liquidity）位于摆动高点上方约3845-3856区间。",
+    "Step 3: 标注卖方流动性（Sell Side Liquidity）位于摆动低点下方约3800-3825区间。",
+    "Step 4: 观察价格在这些流动性区域的扫荡过程，确认止损单被触发。",
+    "Step 5: 在流动性被扫除后，寻找等高点（equal highs）形成的新流动性目标。",
+    "Step 6: 切换到15分钟时间框架，验证5分钟流动性识别的有效性，观察更清晰的摆动结构。",
+    "Step 7: 在15分钟图上标注多个流动性区域，演示如何在不同时间框架间进行流动性映射。"
+  ],
+  "outcome": null,
+  "lessons": "流动性识别是交易设置的前置条件。交易者需要先确认流动性已被扫除，才能在反向运动中寻找高概率入场点。使用多个时间框架（5分钟和15分钟）可以更清晰地识别流动性聚集区域，提高交易精准度。",
+  "primary_image": "cards/Njs-eRpeP9Q/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/Njs-eRpeP9Q/images/case_001_detail_1.jpg",
+    "cards/Njs-eRpeP9Q/images/case_001_detail_2.jpg",
+    "cards/Njs-eRpeP9Q/images/case_001_detail_3.jpg",
+    "cards/Njs-eRpeP9Q/images/case_001_detail_4.jpg",
+    "cards/Njs-eRpeP9Q/images/case_001_detail_5.jpg",
+    "cards/Njs-eRpeP9Q/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES 5分钟K线图。图上标注两个矩形区域：上方绿色矩形标记为'Buy Side Liquidity'，位于约3845至3856价格范围；下方粉红色矩形标记为'Sell Side Liquidity'，位于约3800至3825价格范围。K线图显示约24小时的价格走势，从19:00至次日20:00，价格在3800至3856之间波动。绿色K线表示收涨，红色K线表示收跌。图右侧价格刻度显示最新价格约384",
+    "case_001_detail_1.jpg": "ES 5分钟K线图。图右侧显示价格标签3851.25、3851.73、3848.79、3848.21。可见价格范围约从3800到3856。图上显示一系列绿色和红色K线，跨越从19:00至20:00的时间段。K线呈现上下波动的形态，多根K线具有上下影线。图上未见其他标注、水平线或指标。",
+    "case_001_detail_2.jpg": "ES 5分钟K线图。图上可见价格范围约从3812.50至3865.00。图中标注有两个粉红色矩形区域，均标记为'Sell Side Liquidity'。下方矩形区域位于约3817.50至3820.00价格范围，上方矩形区域位于约3818.75至3821.25价格范围。K线呈现多根带有上下影线的蜡烛体，显示价格在标注区域附近的波动特征。右侧价格刻度显示当前价格约在3844.75附近。",
+    "case_001_detail_3.jpg": "ES 5分钟K线图。图上可见价格范围从3802.50至3885.00。右侧价格轴显示当前价为3817.25。图上有两条水平参考线分别位于3871.25和3813.25。图中标注了三个粉红色矩形区域，均标记为Sell Side Liquidity或SSL，分别位于3813.25至3820.00和3805.00至3825.00的价格区间。K线在整个可见时间范围内呈现振荡形态。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示从约3732到3828的价格范围。K线序列由绿色（上升）和红色（下降）蜡烛组成，交替出现。右侧价格刻度标注从3732.00到3828.00的整数位。图上未见额外的标注、趋势线或指标。最右侧K线显示向上方向的收盘。",
+    "case_001_detail_5.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上绘制了一个矩形框，上边界约在3823.00，下边界约在3744.00，覆盖图表中间至右侧的大部分K线。可见价格范围从3744.00至3823.00。K线序列中绿色和红色蜡烛交替出现，多根K线具有较长的上下影线。图表右侧显示最新K线呈绿色，价格在上升。除矩形框外，图上未见其他标注或指标。",
+    "case_001_detail_6.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示价格范围从3743.25至3828.00。图表中绘制了4条蓝色矩形框标注，分别位于不同价格区间。K线呈现绿色和红色混合，显示多根K线在3780至3800区间内波动。图右侧价格刻度显示当前价格在3817.25附近。图上未见其他指标或文字标签。"
+  },
+  "sources": [
+    {
+      "video_id": "Njs-eRpeP9Q",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        6.0,
+        187.76
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了5分钟和15分钟图表上的流动性识别过程，清晰标注了买方和卖方流动性区域，价格范围和时间框架均从图表中准确读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:48.496474Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货5分钟图流动性识别与扫荡分析\",\"school\":\"ICT\",\"asset\":\"ES\",\"timeframe\":\"5m\",\"market_context\":\"ES期货在5分钟时间框架上呈现振荡走势，价格在3800-3856区间内波动。博主通过标注明显的摆动高低点来识别买方和卖方流动性所在位置。\",\"key_observation\":\"流动性集中在摆动高点上方（买方流动性）和摆动低点下方（卖方流动性）。交易者的止损单通常设置在这些区域，价格扫除流动性后才会形成可交易的设置。\",\"analysis_steps\":[\"Step 1: 识别图表上最明显的摆动高点和摆动低点作为流动性基准。\",\"Step 2: 标注买方流动性（Buy Side Liquidity）位于摆动高点上方约3845-3856区间。\",\"Step 3: 标注卖方流动性（Sell Side Liquidity）位于摆动低点下方约3800-3825区间。\",\"Step 4: 观察价格在这些流动性区域的扫荡过程，确认止损单被触发。\",\"Step 5: 在流动性被扫除后，寻找等高点（equal highs）形成的新流动性目标。\",\"Step 6: 切换到15分钟时间框架，验证5分钟流动性识别的有效性，观察更清晰的摆动结构。\",\"Step 7: 在15分钟图上标注多个流动性区域，演示如何在不同时间框架间进行流动性映射。\"],\"outcome\":null,\"lessons\":\"流动性识别是交易设置的前置条件。交易者需要先确认流动性已被扫除，才能在反向运动中寻找高概率入场点。使用多个时间框架（5分钟和15分钟）可以更清晰地识别流动性聚集区域，提高交易精准度。\",\"primary_image_frame_id\":\"Njs-eRpeP9Q_f003\",\"supporting_image_frame_ids\":[\"Njs-eRpeP9Q_f002\",\"Njs-eRpeP9Q_f004\",\"Njs-eRpeP9Q_f005\",\"Njs-eRpeP9Q_f001\",\"Njs-eRpeP9Q_f006\",\"Njs-eRpeP9Q_f007\"],\"related_concepts\":[\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Swing High\",\"Swing Low\",\"Order Block\",\"Market Structure\",\"HTF / LTF\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了5分钟和15分钟图表上的流动性识别过程，清晰标注了买方和卖方流动性区域，价格范围和时间框架均从图表中准确读取。\"}",
+  "error": null
+}

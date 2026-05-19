@@ -1,0 +1,112 @@
+{
+  "card_id": "qdQYhePcvGE_case_011_spx_1小时反转与5分钟延续",
+  "type": "case",
+  "title": "USD 1小时反转失败后5分钟延续交易",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Three Drives Pattern",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Continuation Trading",
+      "card_id": "continuation_trading",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "change_in_the_state_of_delivery",
+    "protected_high_low",
+    "liquidity",
+    "sellside_liquidity",
+    "market_structure_shift",
+    "continuation_trading"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1H / 5m",
+  "market_context": "USD在1小时形成长上影线反转蜡烛后，博主转向5分钟图寻找延续交易机会。价格在41.500-41.680区间内波动，先前高点被扫除后形成巩固。",
+  "key_observation": "1小时反转蜡烛虽然形态良好（长上影线、收盘回缩），但5分钟延续交易失败；博主强调宁愿等待延续确认也不急于交易反转本身，因为反转单独交易会被止损。",
+  "analysis_steps": [
+    "Step 1: 识别1小时反转蜡烛——长上影线、收盘回缩至内部，形成潜在反转信号。",
+    "Step 2: 转向5分钟图寻找延续机会——观察V形反转、巩固形态，期望形成受保护摆动。",
+    "Step 3: 第一次延续尝试失败——价格未能形成受保护摆动高点，设置被止损。",
+    "Step 4: 评估交易思路是否失效——确认核心思路仍有效，只是需要新的设置。",
+    "Step 5: 等待新蜡烛收盘——形成三驱动模式（Three Drives Pattern）的潜在设置。",
+    "Step 6: 分析交付状态改变（CSD）——注意卖方流动性与CSD几乎重合，意味着到达CSD时已接近目标。",
+    "Step 7: 观察价格扩张后的阶段——检查是否回测FVG、巩固或反转，排除不符合预期的走势。"
+  ],
+  "outcome": null,
+  "lessons": "反转蜡烛形态良好但单独交易风险高；延续交易提供更高概率的确认；首次设置失败不代表思路错误，需要耐心等待新的有效设置；卖方流动性与CSD位置接近时需谨慎，因为到达CSD时可能已接近目标价位。",
+  "primary_image": "cards/qdQYhePcvGE/images/case_011_primary.jpg",
+  "supporting_images": [
+    "cards/qdQYhePcvGE/images/case_011_detail_1.jpg",
+    "cards/qdQYhePcvGE/images/case_011_detail_2.jpg",
+    "cards/qdQYhePcvGE/images/case_011_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_011_primary.jpg": "图表为 USD 资产 5 分钟周期 K 线图，时间范围从 00:30 至 10:00。价格范围在 41.280 至 41.720 之间。图上有一条水平虚线位于 41.520，贯穿整个图表。一条竖直虚线标记时间点 THU 04 Sep 25 06:05。K 线由绿色和黑色蜡烛组成，多数 K 线具有上下影线。右下角显示文字标签包括'$111 (5x)'、'5m-UI Rocket'、'88/50:88",
+    "case_011_detail_1.jpg": "图表显示 USD 资产的分钟级别 K 线图。可见价格范围从 40.75 至 42.125。图上有三条水平线分别位于 42.000、41.500 和 41.000 价格水平。两个矩形框标注分别覆盖 41.000-42.000 和 41.500-42.000 区间。K 线由绿色和黑色蜡烛组成，显示多次上下波动。右侧面板显示 S11 (30)、1H-1D Resist. 和时间戳 12:00:00 的文",
+    "case_011_detail_2.jpg": "GBPUSD 5分钟K线图。图上显示从01:00至11:00的价格走势，价格范围从41.260至41.740。图表左侧显示上升趋势，绿色K线占主导，从41.320上升至41.680。中间部分出现两条水平虚线分别位于41.500和41.620，随后K线进入盘整区间，绿黑K线交替出现。右侧K线显示在41.560附近的窄幅波动。图上标注有时间戳'Thu 04 Sep 25 05:25'。底部工具栏显示5",
+    "case_011_detail_3.jpg": "USD 5分钟K线图，时间范围从01:30至11:30。图上价格范围约41.260至41.740。可见多条水平线标注在41.640、41.620和41.500价位。图上绘制了三个矩形区域，分别位于不同价格范围。K线序列显示从左侧01:30开始的上升趋势至06:00达到高点约41.680，随后出现下降趋势至08:00，之后在41.500至41.640区间内形成整理形态至09:30。右侧显示交易界面信"
+  },
+  "sources": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "segment_ids": [
+        "seg_025",
+        "seg_026"
+      ],
+      "time_range": [
+        1290.159,
+        1390.4
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从1小时反转识别到5分钟延续交易的全过程，包括失败、重新评估和新设置的形成，关键价位和分析步骤清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:45:07.744610Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 1小时反转失败后5分钟延续交易\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1H / 5m\",\"market_context\":\"USD在1小时形成长上影线反转蜡烛后，博主转向5分钟图寻找延续交易机会。价格在41.500-41.680区间内波动，先前高点被扫除后形成巩固。\",\"key_observation\":\"1小时反转蜡烛虽然形态良好（长上影线、收盘回缩），但5分钟延续交易失败；博主强调宁愿等待延续确认也不急于交易反转本身，因为反转单独交易会被止损。\",\"analysis_steps\":[\"Step 1: 识别1小时反转蜡烛——长上影线、收盘回缩至内部，形成潜在反转信号。\",\"Step 2: 转向5分钟图寻找延续机会——观察V形反转、巩固形态，期望形成受保护摆动。\",\"Step 3: 第一次延续尝试失败——价格未能形成受保护摆动高点，设置被止损。\",\"Step 4: 评估交易思路是否失效——确认核心思路仍有效，只是需要新的设置。\",\"Step 5: 等待新蜡烛收盘——形成三驱动模式（Three Drives Pattern）的潜在设置。\",\"Step 6: 分析交付状态改变（CSD）——注意卖方流动性与CSD几乎重合，意味着到达CSD时已接近目标。\",\"Step 7: 观察价格扩张后的阶段——检查是否回测FVG、巩固或反转，排除不符合预期的走势。\"],\"outcome\":null,\"lessons\":\"反转蜡烛形态良好但单独交易风险高；延续交易提供更高概率的确认；首次设置失败不代表思路错误，需要耐心等待新的有效设置；卖方流动性与CSD位置接近时需谨慎，因为到达CSD时可能已接近目标价位。\",\"primary_image_frame_id\":\"qdQYhePcvGE_f045\",\"supporting_image_frame_ids\":[\"qdQYhePcvGE_f044\",\"qdQYhePcvGE_f046\",\"qdQYhePcvGE_f047\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Change in the state of delivery\",\"Protected Swing\",\"Liquidity\",\"Sellside Liquidity\",\"Three Drives Pattern\",\"Market Structure Shift\",\"Continuation Trading\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从1小时反转识别到5分钟延续交易的全过程，包括失败、重新评估和新设置的形成，关键价位和分析步骤清晰。\"}",
+  "error": null
+}

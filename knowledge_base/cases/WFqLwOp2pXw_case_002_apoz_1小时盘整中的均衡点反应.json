@@ -1,0 +1,94 @@
+{
+  "card_id": "WFqLwOp2pXw_case_002_apoz_1小时盘整中的均衡点反应",
+  "type": "case",
+  "title": "APOZ 1小时盘整中的均衡点反应与低点扫盘",
+  "related_concepts": [
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "equilibrium_eq",
+    "change_in_the_state_of_delivery_csd",
+    "liquidity",
+    "fair_value_gap_fvg",
+    "market_structure_shift_mss",
+    "order_block_ob"
+  ],
+  "school": "ICT",
+  "asset": "APOZ",
+  "timeframe": "1H",
+  "market_context": "APOZ在3368-3416区间形成盘整，价格多次在均衡点3392附近反应。前期形成看跌CSD，但后续出现看涨CSD，产生结构冲突。",
+  "key_observation": "价格在均衡点(EQ)3392处反复反应，未能突破高点3416，最终扫盘低点3368后反向上升，展示机构流动性扫荡的典型模式。",
+  "analysis_steps": [
+    "Step 1: 识别前期看跌CSD（价格突破前一日低点），预期继续下行。",
+    "Step 2: 标记3368-3416区间的均衡点(EQ)3392，作为价格反应的关键水平。",
+    "Step 3: 观察价格在EQ处的反应，发现未能突破高点，反而形成看涨CSD，产生结构冲突。",
+    "Step 4: 确认价格处于盘整状态，未取出高点或低点，等待方向确认。",
+    "Step 5: 识别低点扫盘机会——如果看涨，则预期扫盘低点后上升；如果看跌，则预期扫盘高点后下行。",
+    "Step 6: 观察价格扫盘低点3368，随后形成大幅绿色K线上升，确认看涨方向。"
+  ],
+  "outcome": "价格扫盘低点3368后反向上升，形成强势绿色K线，确认看涨结构。",
+  "lessons": "均衡点(EQ)是判断价格折价/溢价的关键水平。当价格在EQ处反复反应且未能突破结构高点时，预示可能的流动性扫荡。扫盘低点后的反向运动通常标志着趋势确认。",
+  "primary_image": "cards/WFqLwOp2pXw/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/WFqLwOp2pXw/images/case_002_detail_1.jpg",
+    "cards/WFqLwOp2pXw/images/case_002_detail_2.jpg",
+    "cards/WFqLwOp2pXw/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "APOZ 图表显示烛线图。图上有三条水平线分别位于 3416.0、3382.0 和 3368.0 价格水平。一个矩形框标注了 3382.0 至 3416.0 之间的价格区域。可见价格范围从 3324.0 到 3428.0。图表左侧显示从 3328.0 开始的上升趋势，随后出现下降趋势至 3368.0，之后在 3376.0 至 3392.0 区间内出现盘整。右侧显示一根大幅绿色烛线和一根大幅黑色烛线",
+    "case_002_detail_1.jpg": "APOZ 1小时K线图。图上显示从左侧约3308的低点上升至中部约3416的高点，随后下跌。可见三条水平线分别位于3388.8、3376和3395价位。图上有两个矩形框标注，一个围绕3395至3413区间，另一个围绕3376至3388区间。右侧显示一根大型绿色K线收于3404上方，其后跟随一根大型黑色K线向下。早期K线显示向下影线延伸至3320以下。图表底部显示交易控制面板，包含Sell、Buy、",
+    "case_002_detail_2.jpg": "APOZ 图表显示烛线图。可见价格范围从 3320.0 至 3424.0。图上有两条水平线分别位于 3396.0 和 3384.0 处。左侧显示上升趋势，绿色烛线从 3328.0 上升至 3416.0 附近。中间区域出现下降趋势，黑色烛线下行至 3368.0。右侧显示一根大幅绿色烛线达到 3404.0，随后跟随黑色烛线至 3376.0。图上标注有矩形框位于 3376.0 至 3384.0 区间。底",
+    "case_002_detail_3.jpg": "SPY 1 小时 K 线图。图上显示价格范围从 3324.0 至 3420.0。可见多条水平线标注，分别位于 3418.0、3396.0 和 3378.0 价格水平。图上绘制了两个矩形区域，分别覆盖 3418.0 至 3396.0 和 3396.0 至 3378.0 的价格范围。K 线序列显示从左侧低点向上运行至 3418.0 附近形成高点，随后出现回调和整理，期间包含绿色和黑色 K 线交替出现。"
+  },
+  "sources": [
+    {
+      "video_id": "WFqLwOp2pXw",
+      "segment_ids": [
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        467.68,
+        563.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从结构识别、EQ标记、盘整确认到低点扫盘的全过程，关键价位(3368/3392/3416)清晰可见，分析逻辑连贯。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:45.539426Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"APOZ 1小时盘整中的均衡点反应与低点扫盘\",\"school\":\"ICT\",\"asset\":\"APOZ\",\"timeframe\":\"1H\",\"market_context\":\"APOZ在3368-3416区间形成盘整，价格多次在均衡点3392附近反应。前期形成看跌CSD，但后续出现看涨CSD，产生结构冲突。\",\"key_observation\":\"价格在均衡点(EQ)3392处反复反应，未能突破高点3416，最终扫盘低点3368后反向上升，展示机构流动性扫荡的典型模式。\",\"analysis_steps\":[\"Step 1: 识别前期看跌CSD（价格突破前一日低点），预期继续下行。\",\"Step 2: 标记3368-3416区间的均衡点(EQ)3392，作为价格反应的关键水平。\",\"Step 3: 观察价格在EQ处的反应，发现未能突破高点，反而形成看涨CSD，产生结构冲突。\",\"Step 4: 确认价格处于盘整状态，未取出高点或低点，等待方向确认。\",\"Step 5: 识别低点扫盘机会——如果看涨，则预期扫盘低点后上升；如果看跌，则预期扫盘高点后下行。\",\"Step 6: 观察价格扫盘低点3368，随后形成大幅绿色K线上升，确认看涨方向。\"],\"outcome\":\"价格扫盘低点3368后反向上升，形成强势绿色K线，确认看涨结构。\",\"lessons\":\"均衡点(EQ)是判断价格折价/溢价的关键水平。当价格在EQ处反复反应且未能突破结构高点时，预示可能的流动性扫荡。扫盘低点后的反向运动通常标志着趋势确认。\",\"primary_image_frame_id\":\"WFqLwOp2pXw_f019\",\"supporting_image_frame_ids\":[\"WFqLwOp2pXw_f017\",\"WFqLwOp2pXw_f018\",\"WFqLwOp2pXw_f001\"],\"related_concepts\":[\"Equilibrium (EQ)\",\"Change in the state of delivery (CSD)\",\"Liquidity\",\"Fair Value Gap (FVG)\",\"Market Structure Shift (MSS)\",\"Order Block (OB)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从结构识别、EQ标记、盘整确认到低点扫盘的全过程，关键价位(3368/3392/3416)清晰可见，分析逻辑连贯。\"}",
+  "error": null
+}

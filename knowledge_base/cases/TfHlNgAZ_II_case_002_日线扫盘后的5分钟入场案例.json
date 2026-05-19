@@ -1,0 +1,122 @@
+{
+  "card_id": "TfHlNgAZ_II_case_002_日线扫盘后的5分钟入场案例",
+  "type": "case",
+  "title": "日线扫盘后通过小时图FVG和5分钟CSD的多层级入场",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Liquidity (Buyside/Sellside)",
+      "card_id": "liquidity_buyside_sellside",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Internal Range Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "External Range Liquidity",
+      "card_id": "swing_high_swing_low",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Risk to Reward Ratio",
+      "card_id": "risk_to_reward_management",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery_csd",
+    "liquidity_buyside_sellside",
+    "propulsion_block",
+    "internal_range_liquidity",
+    "swing_high_swing_low",
+    "market_structure_shift_mss",
+    "risk_to_reward_management"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "5M / 1H / 1D",
+  "market_context": "日线扫出低点后回到范围内，形成看涨偏好。次日进入小时图，识别内部流动性（FVG）和外部流动性（等高点），为5分钟交易提供多层级参考框架。",
+  "key_observation": "博主通过日线扫盘确认看涨偏好，在小时图识别内部FVG作为目标，外部流动性作为扫荡目标，然后在5分钟图寻找交付状态改变（CSD）以获得最优入场和推进块机会。",
+  "analysis_steps": [
+    "Step 1: 观察日线图，确认已扫出日线低点并回到范围内，建立看涨偏好",
+    "Step 2: 在小时图识别内部范围流动性（FVG在67.28-67.34区间）和外部范围流动性（等高点在67.54附近）",
+    "Step 3: 下钻到5分钟图，寻找交付状态改变（CSD）以确认趋势方向",
+    "Step 4: 识别大幅下跌K线和后续走势作为CSD信号，确认看涨方向",
+    "Step 5: 等待回测机会，在推进块（Propulsion Block）处获得更优入场，止损设在摆动低点下方",
+    "Step 6: 目标设定为2R，通过内部到外部流动性的往复运动验证趋势延续"
+  ],
+  "outcome": "第一个入场在小时图内部流动性处触及TP；后续延续入场在推进块处也触及2R目标，验证了多层级流动性框架的有效性。",
+  "lessons": "多时间框架协同分析提高入场质量：日线确定偏好，小时图定位流动性目标，5分钟图精确CSD入场。推进块提供更优风险回报比。强势偏好下可容忍扫荡外部流动性，但需谨慎管理风险。",
+  "primary_image": "cards/TfHlNgAZ_II/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/TfHlNgAZ_II/images/case_002_detail_1.jpg",
+    "cards/TfHlNgAZ_II/images/case_002_detail_2.jpg",
+    "cards/TfHlNgAZ_II/images/case_002_detail_3.jpg",
+    "cards/TfHlNgAZ_II/images/case_002_detail_4.jpg",
+    "cards/TfHlNgAZ_II/images/case_002_detail_5.jpg",
+    "cards/TfHlNgAZ_II/images/case_002_detail_6.jpg",
+    "cards/TfHlNgAZ_II/images/case_002_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表显示一个 5 分钟周期的 K 线图，时间轴从 18:00 跨越至次日 02:00。价格范围在 67.22 至 67.68 之间。图上有 4 条水平虚线分别位于 67.62、67.54、67.44 和 67.38 处。图下方有一个黄色矩形阴影区域，覆盖约 67.28 至 67.34 的价格范围。K 线以绿色和黑色主体交替出现，各根 K 线具有不同长度的上下影线。右上角显示'The Market ",
+    "case_002_detail_1.jpg": "图表显示一段约7个交易日的K线序列，价格范围从2722.5至2790.0。图上有两条水平虚线分别位于2772.0和2760.0处。中右区域有一个米色矩形框覆盖2760.0至2770.0价格区间。K线由绿色和黑色蜡烛组成，右侧最新K线呈长上影线形态，上影线延伸至2776.0。图上散布多个小方形标记（圆形和方形）。时间轴标注显示从10月28日至31日的交易时段。",
+    "case_002_detail_2.jpg": "图表显示一段时间内的 K 线走势，价格范围从 65.40 到 70.40。左侧显示数字'17'，右上角标注'The Market Lens'。图上有两条水平线分别位于 67.30 和 67.40 价位。右下方区域有一个矩形框标注，范围约在 67.00 至 67.40 之间。时间标签显示'Wed 30 Oct 07:00'。K 线呈现先下跌后在 67.30 附近形成横盘，随后出现一根绿色 K 线上升",
+    "case_002_detail_3.jpg": "图表显示一段时间内的 K 线走势，价格范围从 66.30 到 68.90。图上有多根绿色和黑色 K 线交替出现。两条水平虚线分别位于 67.54 和 67.27 处。图表中部偏下方有一个黄色矩形框标注，覆盖约 67.27 至 67.10 的价格区间。图表右侧有一根较大的黑色 K 线，从约 68.00 下行至 66.70，其后跟随一根较小的黑色 K 线。时间轴显示从 29 日到 31 日的时间跨度，",
+    "case_002_detail_4.jpg": "图表显示一段时间内的K线走势，时间范围从15:30至00:00，资产代码未显示。价格范围在67.14至67.60之间波动。图上有5条水平线标注，分别位于67.54、67.53、67.48、67.34和67.28处。一个黄色矩形框覆盖67.28至67.34的价格区间，跨越整个时间段。图右上角显示'The Market Lens'文字，时间戳标记为'Tue 29 Oct 20:46'。K线由绿色和黑色",
+    "case_002_detail_5.jpg": "图表为蜡烛图，显示价格范围从 67.14 至 67.60。图上有三条水平线分别位于 67.45、67.38 和 67.34 处。两个矩形区域标注分别覆盖 67.28-67.34 和 67.44-67.60 价格范围，其中下方矩形填充为黄色。K 线序列由绿色和黑色蜡烛组成，绿色蜡烛数量较多。时间轴标注从 15:30 至 00:00，跨越多个交易时段。右侧显示'The Market Lens'文字标识",
+    "case_002_detail_6.jpg": "图表为烛线图，显示时间范围从 15:30 至 01:00，价格范围 67.20 至 67.68。图上有四条水平虚线分别位于 67.62、67.54、67.44 和 67.34。两个黄色矩形区域分别标记在 67.28-67.34 和 67.44-67.56 价格区间。一条竖直虚线标记在 Tue 29 Oct 21:40 时刻。K 线由绿色和黑色烛线组成，分布在整个价格范围内。右上角显示'The Ma",
+    "case_002_detail_7.jpg": "图表显示一段约7小时的K线走势，价格范围在67.20至67.66之间。图上有两个矩形标注区域：下方黄色矩形覆盖67.30至67.34价格区间，上方矩形覆盖67.50至67.54区间。一条蓝色水平线标注在67.43处，跨越多根K线。K线由绿色和黑色蜡烛组成，影线长度不一。中部K线呈现67.40至67.54之间的整理形态。右侧显示当前价格标记为67.43。"
+  },
+  "sources": [
+    {
+      "video_id": "TfHlNgAZ_II",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        371.599,
+        728.32
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线→小时图→5分钟图的三层级分析流程，清晰标注了FVG、流动性目标、CSD确认点、推进块入场和2R目标，并给出了实际交易结果验证。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:37:00.802744Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"日线扫盘后通过小时图FVG和5分钟CSD的多层级入场\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"5M / 1H / 1D\",\"market_context\":\"日线扫出低点后回到范围内，形成看涨偏好。次日进入小时图，识别内部流动性（FVG）和外部流动性（等高点），为5分钟交易提供多层级参考框架。\",\"key_observation\":\"博主通过日线扫盘确认看涨偏好，在小时图识别内部FVG作为目标，外部流动性作为扫荡目标，然后在5分钟图寻找交付状态改变（CSD）以获得最优入场和推进块机会。\",\"analysis_steps\":[\"Step 1: 观察日线图，确认已扫出日线低点并回到范围内，建立看涨偏好\",\"Step 2: 在小时图识别内部范围流动性（FVG在67.28-67.34区间）和外部范围流动性（等高点在67.54附近）\",\"Step 3: 下钻到5分钟图，寻找交付状态改变（CSD）以确认趋势方向\",\"Step 4: 识别大幅下跌K线和后续走势作为CSD信号，确认看涨方向\",\"Step 5: 等待回测机会，在推进块（Propulsion Block）处获得更优入场，止损设在摆动低点下方\",\"Step 6: 目标设定为2R，通过内部到外部流动性的往复运动验证趋势延续\"],\"outcome\":\"第一个入场在小时图内部流动性处触及TP；后续延续入场在推进块处也触及2R目标，验证了多层级流动性框架的有效性。\",\"lessons\":\"多时间框架协同分析提高入场质量：日线确定偏好，小时图定位流动性目标，5分钟图精确CSD入场。推进块提供更优风险回报比。强势偏好下可容忍扫荡外部流动性，但需谨慎管理风险。\",\"primary_image_frame_id\":\"TfHlNgAZ_II_f019\",\"supporting_image_frame_ids\":[\"TfHlNgAZ_II_f013\",\"TfHlNgAZ_II_f014\",\"TfHlNgAZ_II_f015\",\"TfHlNgAZ_II_f001\",\"TfHlNgAZ_II_f016\",\"TfHlNgAZ_II_f017\",\"TfHlNgAZ_II_f018\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Change in the state of delivery (CSD)\",\"Liquidity (Buyside/Sellside)\",\"Propulsion Block\",\"Internal Range Liquidity\",\"External Range Liquidity\",\"Market Structure Shift (MSS)\",\"Risk to Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线→小时图→5分钟图的三层级分析流程，清晰标注了FVG、流动性目标、CSD确认点、推进块入场和2R目标，并给出了实际交易结果验证。\"}",
+  "error": null
+}

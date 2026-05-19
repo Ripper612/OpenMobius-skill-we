@@ -1,0 +1,115 @@
+{
+  "card_id": "-GkOTMYoJT4_case_001_标普500五分钟图诱导交易案例",
+  "type": "case",
+  "title": "标普500五分钟图诱导交易完整案例分析",
+  "related_concepts": [
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Accumulation-Manipulation-Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Bullish Orderflow",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Bearish Orderflow",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "inducement",
+    "market_structure_shift_mss",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "liquidity",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "5M",
+  "market_context": "2023年3月27日，标普500五分钟图呈现从看跌到看涨的订单流转变。价格在下行趋势中失败收盘于低点下方，随后突破前期高点触发结构转变，形成订单块和公允价值缺口，最终向上扩展。",
+  "key_observation": "博主识别出完整的诱导设置：价格在低点附近失败收盘→突破高点形成MSS→生成OB和FVG→向下扫除低点作为诱导→最终向上扩展至买方流动性。",
+  "analysis_steps": [
+    "Step 1: 观察价格在下行趋势中失败在低点下方收盘，表明看跌订单流可能转变。",
+    "Step 2: 确认价格突破前期高点，触发市场结构转变（MSS）从看跌转向看涨。",
+    "Step 3: 在结构转变后识别形成的订单块（OB）和公允价值缺口（FVG）。",
+    "Step 4: 观察价格向下运行扫除低点，这是在向上扩展前的诱导动作。",
+    "Step 5: 确认价格尊重FVG和OB，随后向上扩展至买方流动性高点。",
+    "Step 6: 设置交易入场点在低点被扫除后，止损设在前期高点，目标指向买方流动性。"
+  ],
+  "outcome": "价格成功扫除低点后向上扩展，触及买方流动性。交易目标为4013.25，止损为4005.20，实现了预期的诱导后上升走势。",
+  "lessons": "诱导交易的核心是识别价格在关键结构转变后的反向运动。最优设置出现在PD数组内，价格刚好触及或未完全到达折价区时。在诱导被执行后（低点被扫除），价格通常会强势向相反方向扩展。",
+  "primary_image": "cards/-GkOTMYoJT4/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/-GkOTMYoJT4/images/case_001_detail_1.jpg",
+    "cards/-GkOTMYoJT4/images/case_001_detail_2.jpg",
+    "cards/-GkOTMYoJT4/images/case_001_detail_3.jpg",
+    "cards/-GkOTMYoJT4/images/case_001_detail_4.jpg",
+    "cards/-GkOTMYoJT4/images/case_001_detail_5.jpg",
+    "cards/-GkOTMYoJT4/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 5 分钟 K 线图，时间范围覆盖 9:30 至 15:30，可见价格区间约 3999.00 至 4026.00。图上约 12:00 附近有一灰色矩形标注标签 OB，价格区间约 4005.00 至 4010.00。图右侧叠加交易管理面板：绿色矩形为目标区（Target 4013.25，标注 Amount 1306.82），粉色矩形为止损区（Stop 40",
+    "case_001_detail_1.jpg": "图表为 S&P 500 E-mini Futures 5 分钟线图，图上绘制了两组示意性折线图。左侧标注文字为 'Bearish Orderflow'，折线呈现一个高点后下行至低点，再反弹至较低高点处，该较低高点处有一条水平线标注，随后折线向下延伸并附有向下箭头。右侧标注文字为 'Bullish Orderflow'，折线呈现连续抬升的低点与高点结构，末端附有向上箭头。图右侧价格刻度可见范围约为 ",
+    "case_001_detail_2.jpg": "图为 S&P 500 E-mini Futures 5 分钟图表，画面主体为两组手绘示意图，无实际 K 线数据。左侧标注文字'Bearish Orderflow'，图示包含一段向下折线、一个绿色矩形框内的锯齿形走势、一个粉色矩形框及随后向下的箭头与蓝色矩形框。右侧标注文字'Bullish Orderflow'，图示包含一段向下折线、两个波峰与一个波谷、波谷处有一条水平线与圆形标记，随后为向上箭头。",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 5 分钟折线图，时间范围覆盖 2023 年 3 月 27 日约 10:40 至 14:10。图上可见价格范围约 3979 至 3991.5。图中以约 12:00 处的垂直线为分界，左侧区域标注文字 'Bearish Orderflow'，右侧区域标注文字 'Bullish Orderflow'。图下方有一条蓝色水平线，标注为 'HTF PD Array",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 5 分钟折线图，时间范围为 2023 年 3 月 27 日 10:40 至 14:10。图上可见三个灰色矩形框，均标注为 PD ARRAY，分别位于图左侧约 3987–3989.5、图中部约 3983.5–3985.5 及图右侧约 3985.5–3987.5 区域。图下方有一条蓝色水平线，标注为 HTF PD Array，位于约 3981.5 处，横跨",
+    "case_001_detail_5.jpg": "图表为 S&P 500 E-mini 期货（CME_MINI）5 分钟 K 线图，日期为 2023 年 3 月 27 日，时间范围约 09:00 至 15:00。可见价格区间约从 3997 至 4026。图上有一个矩形标注，覆盖约 4001 至 4009 价格区间，位于 11:30 至 12:00 时段附近。右侧价格轴显示当前价 4011.00（绿色高亮）及 4008.50（蓝色高亮）。K 线序列",
+    "case_001_detail_6.jpg": "图为 S&P 500 E-mini Futures（CME_MINI）5 分钟 K 线图，时间轴从 10:00 延伸至 16:00，右侧价格刻度范围约 3996 至 4026。图上绘有两个矩形标注：一个较大的无填充矩形框位于约 10:50 至 12:00 时段、价格区间约 4003 至 4008；另一个带灰色填充的矩形位于约 12:00 至 13:30 时段、价格区间约 4007 至 4010，标"
+  },
+  "sources": [
+    {
+      "video_id": "-GkOTMYoJT4",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        345.06
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了诱导设置的全过程：结构转变、订单块形成、低点扫除、向上扩展，并给出具体价格目标和止损位置。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:02:09.607931Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500五分钟图诱导交易完整案例分析\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"5M\",\"market_context\":\"2023年3月27日，标普500五分钟图呈现从看跌到看涨的订单流转变。价格在下行趋势中失败收盘于低点下方，随后突破前期高点触发结构转变，形成订单块和公允价值缺口，最终向上扩展。\",\"key_observation\":\"博主识别出完整的诱导设置：价格在低点附近失败收盘→突破高点形成MSS→生成OB和FVG→向下扫除低点作为诱导→最终向上扩展至买方流动性。\",\"analysis_steps\":[\"Step 1: 观察价格在下行趋势中失败在低点下方收盘，表明看跌订单流可能转变。\",\"Step 2: 确认价格突破前期高点，触发市场结构转变（MSS）从看跌转向看涨。\",\"Step 3: 在结构转变后识别形成的订单块（OB）和公允价值缺口（FVG）。\",\"Step 4: 观察价格向下运行扫除低点，这是在向上扩展前的诱导动作。\",\"Step 5: 确认价格尊重FVG和OB，随后向上扩展至买方流动性高点。\",\"Step 6: 设置交易入场点在低点被扫除后，止损设在前期高点，目标指向买方流动性。\"],\"outcome\":\"价格成功扫除低点后向上扩展，触及买方流动性。交易目标为4013.25，止损为4005.20，实现了预期的诱导后上升走势。\",\"lessons\":\"诱导交易的核心是识别价格在关键结构转变后的反向运动。最优设置出现在PD数组内，价格刚好触及或未完全到达折价区时。在诱导被执行后（低点被扫除），价格通常会强势向相反方向扩展。\",\"primary_image_frame_id\":\"-GkOTMYoJT4_f008\",\"supporting_image_frame_ids\":[\"-GkOTMYoJT4_f002\",\"-GkOTMYoJT4_f003\",\"-GkOTMYoJT4_f004\",\"-GkOTMYoJT4_f005\",\"-GkOTMYoJT4_f006\",\"-GkOTMYoJT4_f007\"],\"related_concepts\":[\"Inducement\",\"Market Structure Shift (MSS)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Liquidity\",\"PD Array\",\"Accumulation-Manipulation-Distribution\",\"Bullish Orderflow\",\"Bearish Orderflow\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了诱导设置的全过程：结构转变、订单块形成、低点扫除、向上扩展，并给出具体价格目标和止损位置。\"}",
+  "error": null
+}

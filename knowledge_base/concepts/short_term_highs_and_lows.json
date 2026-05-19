@@ -1,0 +1,55 @@
+{
+  "card_id": "short_term_highs_and_lows",
+  "type": "merged_concept",
+  "canonical_term": "Short-term Highs and Lows",
+  "aliases": [
+    "短期摆动高低点",
+    "短期高低点"
+  ],
+  "school": "ICT",
+  "definition": "在较短时间框架（如5分钟图）内形成的局部价格高点和低点。用于监测价格是否突破这些关键水平，判断趋势是否延续或反转。",
+  "identification_rules": [
+    "在选定的时间框架（如5分钟）内，标记出每个局部的摆动高点和摆动低点",
+    "短期低点未被突破表示趋势延续；被突破则可能预示市场结构转变或趋势反转",
+    "短期高点未被突破表示看跌趋势延续；被突破则可能预示看涨趋势形成",
+    "突破应伴随位移（Displacement）和公允价值缺口（FVG）才能确认为有效的结构突破，而非虚假突破"
+  ],
+  "trading_implication": "短期高低点是判断趋势延续与反转的关键参考。在上升趋势中，持续标记短期低点，若未被突破则趋势延续；若被突破则需检查更高时间框架确认是否真正反转。反之亦然。结合位移和FVG识别真实突破，避免被诱导（Inducement）。可用于设置止损位和确认交易方向。",
+  "common_mistakes": [
+    "仅在低时间框架（如5分钟）观察短期高低点被突破就立即反向交易，忽视更高时间框架（如15分钟）的趋势仍在延续",
+    "将没有伴随位移和FVG的虚假突破误认为真实的结构突破，导致被诱导入场",
+    "未能区分突破是否具有能量（energetic move），缺乏位移的突破可能只是噪音"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "FdRKBTz0Fps",
+      "original_card_id": "FdRKBTz0Fps_concept_short_term_highs_and_lows",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.64,
+        269.84
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135886Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

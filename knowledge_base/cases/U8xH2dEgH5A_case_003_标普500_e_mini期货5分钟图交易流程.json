@@ -1,0 +1,123 @@
+{
+  "card_id": "U8xH2dEgH5A_case_003_标普500_e_mini期货5分钟图交易流程",
+  "type": "case",
+  "title": "标普500 E-mini期货5分钟图多层流动性框架交易",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Session High/Low",
+      "card_id": "session_high_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "swing_high_low",
+    "session_high_low",
+    "previous_day_high_low",
+    "displacement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "5M",
+  "market_context": "博主展示标普500 E-mini期货5分钟图上，如何利用会话高低点（Asia、London、New York）、前一日高低点、以及公允价值缺口等多个流动性水平来框架交易设置和确定目标价位。",
+  "key_observation": "价格在不同交易时段会依次扫荡各个流动性水平（Asia session high/low、London session high/low、Previous day high/low），这些水平可用于框架反转、作为吸引流动性的目标，或确定交易目标价位。",
+  "analysis_steps": [
+    "Step 1: 识别并标记摆动低点，确认其成为买方流动性（Buyside Liquidity）",
+    "Step 2: 标记两类流动性——相对相等的高点/低点（Relatively Equal Highs/Lows）和单独突出的前期高低点（Old Highs/Lows）",
+    "Step 3: 在图表上标记前一周的高低点（Previous Week's High/Low），用于框架反转或作为吸引流动性的目标",
+    "Step 4: 标记前一日的高低点（Previous Day High/Low），观察价格是否被吸引至这些水平",
+    "Step 5: 标记会话高低点（Asia Session High/Low、London Session High/Low、New York Session High/Low）",
+    "Step 6: 观察Asia session低点已被扫荡，但Asia session高点、London session高低点尚未被触及",
+    "Step 7: 进入纽约开盘后，价格上升扫荡London session高点，随后扫荡Asia session低点",
+    "Step 8: 识别5分钟公允价值缺口（FVG），观察价格是否回测该缺口",
+    "Step 9: 在第二天标记前一日高低点，观察Asia session高点被创建并扫荡",
+    "Step 10: 观察London session低点被扫荡，但未见明显向下位移",
+    "Step 11: 识别向上位移（Displacement Up）和5分钟FVG，确认FVG被标记",
+    "Step 12: 确定交易目标——优先选择会话高低点或前一日高低点作为目标价位",
+    "Step 13: 观察价格在午夜附近基础整理，未有收盘低于该水平",
+    "Step 14: 扫荡该低点后，继续向前一日高点扩展，确认前一日高点被扫荡",
+    "Step 15: 价格突破前一日高点后继续上升，完成整个交易流程"
+  ],
+  "outcome": null,
+  "lessons": "多层流动性框架（会话高低点、前一日高低点、周高低点、FVG）可有效框架价格目标和反转点。价格倾向于依次扫荡这些流动性水平，交易者应按优先级标记这些水平，用于确定进场、目标和止损位置。",
+  "primary_image": "cards/U8xH2dEgH5A/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/U8xH2dEgH5A/images/case_003_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从02:00至18:00的交易时段。可见价格范围约4382至4418。图上有一条水平线位于4402附近，周围有矩形框标注。K线呈现从左侧4396下跌至4382的走势，随后从05:00开始上升至10:00达到4418高点，之后回落。图右侧显示当前价格标签4392.60。图上标注文字为'[0/0]'。底部显示时间轴和交易控制按钮。",
+    "case_003_detail_1.jpg": "S&P 500 E-mini Futures 5分钟K线图。图上显示从约4402水平向下跳空至4478区域，随后出现急速下跌至约4168低点。图上有三条水平线分别位于4796、4478和4402价格水平。在4168至4478之间形成矩形标注区域，表示该价格范围内的K线活动。右侧价格轴显示当前价格为4488.50。图表时间轴显示从20:00至20:00的交易时段，中间包含Jun 25 Jun 23的"
+  },
+  "sources": [
+    {
+      "video_id": "U8xH2dEgH5A",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        254.58,
+        586.82
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对标普500 E-mini期货5分钟图的分析完整清晰，资产、时间框架、关键价位、分析步骤均明确，多个图表帧展示了完整的交易流程演示。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:09.226107Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500 E-mini期货5分钟图多层流动性框架交易\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"5M\",\"market_context\":\"博主展示标普500 E-mini期货5分钟图上，如何利用会话高低点（Asia、London、New York）、前一日高低点、以及公允价值缺口等多个流动性水平来框架交易设置和确定目标价位。\",\"key_observation\":\"价格在不同交易时段会依次扫荡各个流动性水平（Asia session high/low、London session high/low、Previous day high/low），这些水平可用于框架反转、作为吸引流动性的目标，或确定交易目标价位。\",\"analysis_steps\":[\"Step 1: 识别并标记摆动低点，确认其成为买方流动性（Buyside Liquidity）\",\"Step 2: 标记两类流动性——相对相等的高点/低点（Relatively Equal Highs/Lows）和单独突出的前期高低点（Old Highs/Lows）\",\"Step 3: 在图表上标记前一周的高低点（Previous Week's High/Low），用于框架反转或作为吸引流动性的目标\",\"Step 4: 标记前一日的高低点（Previous Day High/Low），观察价格是否被吸引至这些水平\",\"Step 5: 标记会话高低点（Asia Session High/Low、London Session High/Low、New York Session High/Low）\",\"Step 6: 观察Asia session低点已被扫荡，但Asia session高点、London session高低点尚未被触及\",\"Step 7: 进入纽约开盘后，价格上升扫荡London session高点，随后扫荡Asia session低点\",\"Step 8: 识别5分钟公允价值缺口（FVG），观察价格是否回测该缺口\",\"Step 9: 在第二天标记前一日高低点，观察Asia session高点被创建并扫荡\",\"Step 10: 观察London session低点被扫荡，但未见明显向下位移\",\"Step 11: 识别向上位移（Displacement Up）和5分钟FVG，确认FVG被标记\",\"Step 12: 确定交易目标——优先选择会话高低点或前一日高低点作为目标价位\",\"Step 13: 观察价格在午夜附近基础整理，未有收盘低于该水平\",\"Step 14: 扫荡该低点后，继续向前一日高点扩展，确认前一日高点被扫荡\",\"Step 15: 价格突破前一日高点后继续上升，完成整个交易流程\"],\"outcome\":null,\"lessons\":\"多层流动性框架（会话高低点、前一日高低点、周高低点、FVG）可有效框架价格目标和反转点。价格倾向于依次扫荡这些流动性水平，交易者应按优先级标记这些水平，用于确定进场、目标和止损位置。\",\"primary_image_frame_id\":\"U8xH2dEgH5A_f015\",\"supporting_image_frame_ids\":[\"U8xH2dEgH5A_f014\",\"U8xH2dEgH5A_f016\",\"U8xH2dEgH5A_f017\",\"U8xH2dEgH5A_f018\",\"U8xH2dEgH5A_f019\",\"U8xH2dEgH5",
+  "error": null
+}

@@ -1,0 +1,99 @@
+{
+  "card_id": "6zTz7WMdMWg_case_004_eth_1小时图的范围整理和突破",
+  "type": "case",
+  "title": "ETH 1小时图范围整理中的前一根K线高低点交易法",
+  "related_concepts": [
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Range Trading",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Previous Candle High/Low",
+      "card_id": "previous_candle_high_low",
+      "exists": true
+    },
+    {
+      "term": "Low Time Frame Noise",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "swing_points",
+    "previous_candle_high_low",
+    "market_structure"
+  ],
+  "school": "Price Action",
+  "asset": "ETH",
+  "timeframe": "1H",
+  "market_context": "ETH在1小时图上形成范围整理，价格在35340-35700区间内反复测试高低点，期间伴随多根小实体K线，显示市场处于低时间框架的噪音阶段。",
+  "key_observation": "博主通过追踪前一根K线的高低点来预测价格反转或流动性扫荡，在范围整理中反复验证这一方法的有效性，同时指出该方法在低时间框架上会产生更多噪音。",
+  "analysis_steps": [
+    "Step 1: 观察价格在范围高低点之间反复测试，标记范围高点（约35600）和范围低点（约35340）。",
+    "Step 2: 使用前一根K线的高点作为目标，当价格接近时预期反转或收盘失败。",
+    "Step 3: 当价格无法收盘在前一根K线高点之外时，预期下一步寻求前一根K线的低点。",
+    "Step 4: 反复应用此逻辑，追踪每一根K线的高低点作为下一步的流动性目标。",
+    "Step 5: 观察价格多次扫荡范围高点后回落，确认范围整理的特征。",
+    "Step 6: 注意到在低时间框架（1小时）上该方法产生更多噪音，相比4小时图表现更复杂。"
+  ],
+  "outcome": null,
+  "lessons": "在范围整理中，前一根K线的高低点可作为可靠的流动性目标，但低时间框架会增加噪音。交易者需要接受该方法并非总是正确，而是寻求高概率的流动性扫荡设置。结合更高时间框架的偏差可提高准确性。",
+  "primary_image": "cards/6zTz7WMdMWg/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/6zTz7WMdMWg/images/case_004_detail_1.jpg",
+    "cards/6zTz7WMdMWg/images/case_004_detail_2.jpg",
+    "cards/6zTz7WMdMWg/images/case_004_detail_3.jpg",
+    "cards/6zTz7WMdMWg/images/case_004_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "ETH 1小时K线图，图右侧价格刻度范围约从35340至35700。图上可见一个矩形标注框，覆盖约35340至35500的价格区间，对应时间轴25日18:00至26日01:00附近的一组K线。矩形框右侧有两根绿色K线向上延伸至约35600区域。右侧价格轴高亮标签显示当前价为35592。图左上角显示资产代码，右下角时间框架标注为1H。图上未见其他文字标注或趋势线。",
+    "case_004_detail_1.jpg": "图表显示 ETH 的 1 小时 K 线图，右上角标注账户名 TTrades_edu，右侧价格轴当前高亮标签显示 35646。可见价格范围约从 35320 至 35720。图左侧于日期 24 的 09:00 附近出现一根主体较长的绿色 K 线，随后价格在 35380 至 35520 区间内形成多根绿黑交替的小实体 K 线，持续约 15 根。日期 25 的 09:00 至 12:00 附近出现数根绿色",
+    "case_004_detail_2.jpg": "图为 ETH 1 小时 K 线图，时间轴显示 7 月 25 日区间，右侧价格轴范围约 35000 至 35720。图上可见一段先涨后跌的 K 线序列：左侧多根绿色 K 线从约 35200 上行至 35700 附近，随后多根黑色 K 线从高点回落至约 35460。右侧价格轴标注当前价 35541，另有一条水平线位于 35556 附近。图中 21:00 时间位置附近有一灰色圆形光标及一条短水平线标注。",
+    "case_004_detail_3.jpg": "图表左上角显示资产代码 TM11，右上角标注 ETH 及 B-ADJ 字样，时间框架标注为 4H。图右侧价格刻度范围约从 35225 至 35650，当前价格标签显示约 35567 至 35587。图上可见三个矩形框标注，分别位于约 35380–35430、35460–35520 及 35540–35590 价格区间。K 线序列横跨 7 月 20 日至 28 日，绿色与黑色 K 线交替出现。时间轴",
+    "case_004_detail_4.jpg": "图表显示 ETH 的 K 线图，时间轴横跨日期 20 至 30，每日含多个时间刻度。右侧价格轴可见范围约从 35225 至 35850，当前价格标签显示 35574。图上 K 线由绿色和黑色交替组成，左侧出现一根较长的绿色 K 线，随后价格区间整体向上移动。日期 24 至 25 附近出现多根 K 线密集排列于 35400 至 35550 区间。日期 25 至 26 附近出现两根较高的 K 线，上端"
+  },
+  "sources": [
+    {
+      "video_id": "6zTz7WMdMWg",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        364.259,
+        722.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对1小时图范围整理的分析完整清晰，资产、时间框架、价格区间、分析步骤均明确，图表截图与讲解相符。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:07.945796Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH 1小时图范围整理中的前一根K线高低点交易法\",\"school\":\"Price Action\",\"asset\":\"ETH\",\"timeframe\":\"1H\",\"market_context\":\"ETH在1小时图上形成范围整理，价格在35340-35700区间内反复测试高低点，期间伴随多根小实体K线，显示市场处于低时间框架的噪音阶段。\",\"key_observation\":\"博主通过追踪前一根K线的高低点来预测价格反转或流动性扫荡，在范围整理中反复验证这一方法的有效性，同时指出该方法在低时间框架上会产生更多噪音。\",\"analysis_steps\":[\"Step 1: 观察价格在范围高低点之间反复测试，标记范围高点（约35600）和范围低点（约35340）。\",\"Step 2: 使用前一根K线的高点作为目标，当价格接近时预期反转或收盘失败。\",\"Step 3: 当价格无法收盘在前一根K线高点之外时，预期下一步寻求前一根K线的低点。\",\"Step 4: 反复应用此逻辑，追踪每一根K线的高低点作为下一步的流动性目标。\",\"Step 5: 观察价格多次扫荡范围高点后回落，确认范围整理的特征。\",\"Step 6: 注意到在低时间框架（1小时）上该方法产生更多噪音，相比4小时图表现更复杂。\"],\"outcome\":null,\"lessons\":\"在范围整理中，前一根K线的高低点可作为可靠的流动性目标，但低时间框架会增加噪音。交易者需要接受该方法并非总是正确，而是寻求高概率的流动性扫荡设置。结合更高时间框架的偏差可提高准确性。\",\"primary_image_frame_id\":\"6zTz7WMdMWg_f020\",\"supporting_image_frame_ids\":[\"6zTz7WMdMWg_f018\",\"6zTz7WMdMWg_f019\",\"6zTz7WMdMWg_f013\",\"6zTz7WMdMWg_f014\"],\"related_concepts\":[\"Price Action\",\"Range Trading\",\"Liquidity\",\"Swing Points\",\"Previous Candle High/Low\",\"Low Time Frame Noise\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对1小时图范围整理的分析完整清晰，资产、时间框架、价格区间、分析步骤均明确，图表截图与讲解相符。\"}",
+  "error": null
+}

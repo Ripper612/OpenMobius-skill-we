@@ -1,0 +1,196 @@
+{
+  "card_id": "judas_swing",
+  "type": "merged_concept",
+  "canonical_term": "Judas Swing",
+  "aliases": [
+    "opposing move",
+    "opposing run"
+  ],
+  "school": "ICT",
+  "definition": "在关键时间点（午夜开盘、8:30、9:30、10:00、14:00）形成的与预期趋势方向相反的价格运动（影线或实体），属于Power of 3操纵阶段。浅层反向运动支持当根K线内价格扩张；深层反向运动（耗用约50%时间与范围）则限制扩张潜力，需调整目标至开盘价附近。",
+  "identification_rules": [
+    "在午夜开盘(0:00)、8:30、9:30、10:00、14:00等关键时间点观察价格是否朝预期趋势反方向运动",
+    "确认反向运动后价格是否收盘回到预期方向（看涨预期：反向下行后收盘回升；看跌预期：反向上行后收盘回落）",
+    "测量反向运动形成的影线（wick）相对于K线实体的大小：浅影线（shallow wick）支持同根K线内扩展；大影线（large opposing run）表示需等待下一根K线（Candle 3）的分布阶段",
+    "评估反向运动的深度与耗时：浅层对抗运动使用较少时间和范围；深层对抗运动消耗接近50%的K线周期和范围",
+    "结合CSD（交付状态改变）确认反向运动的有效性",
+    "确认该反向运动是否与已形成的订单块或支撑阻力位相关联",
+    "排除非关键时间点的反向运动，避免误判为有效Judas Swing"
+  ],
+  "trading_implication": "Judas Swing用于验证订单块有效性并确认趋势延续方向。反向运动后价格收盘回归预期方向，说明订单块已被确认，后续价格不太可能再次触及该高/低点。反向运动深度决定目标策略：浅层配合CSD确认可寻找扩张目标或流动性点位；深层则应将目标调整至开盘价附近，而非期待大幅扩张。可据此确认入场点并设置止损。",
+  "common_mistakes": [
+    "将任何反向运动都误认为Judas Swing，忽视关键时间点的必要条件（必须在午夜开盘、8:30、9:30、10:00、14:00等时间点形成）",
+    "未等待反向运动后的收盘确认就提前入场，仅看到反向运动即认为形成了Judas Swing",
+    "忽视Judas Swing与订单块的配对关系，将其作为独立信号而非验证工具使用",
+    "将Judas Swing误认为趋势反转信号，而非趋势延续的验证工具",
+    "忽视反向运动（影线）的大小差异，在大影线形成时立即入场而非等待下一根K线",
+    "忽视对抗运动深度，对所有反转K线都期待相同的扩张幅度",
+    "在深层对抗运动后仍设置远距离扩张目标，导致止损被触发",
+    "未结合CSD确认就交易浅层对抗运动，缺少必要的反转确认"
+  ],
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Expansion Candle",
+      "card_id": "continuation_expansion_candle",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "EYzP7c24AwM_case_001_cl原油期货看跌案例",
+      "video_id": "EYzP7c24AwM",
+      "title": "CL原油期货日线看跌确认与多时间框架派发"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_003_nq纳指期货多个时间框架分析",
+      "video_id": "EYzP7c24AwM",
+      "title": "NQ纳指期货多时间框架时间水平与订单块验证"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_004_es标普500期货15分钟案例",
+      "video_id": "EYzP7c24AwM",
+      "title": "ES标普500期货15分钟：时间水平与订单块验证流程"
+    },
+    {
+      "card_id": "FAKWJ-1NlLE_case_001_nq期货_周三反转周四延续案例",
+      "video_id": "FAKWJ-1NlLE",
+      "title": "NQ期货周三反转周四延续交易案例"
+    },
+    {
+      "card_id": "SlWxhzhLo3A_case_004_黄金15分钟多重反转扩张案例",
+      "video_id": "SlWxhzhLo3A",
+      "title": "黄金15分钟多重反转扩张案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_judas_swing",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.84,
+        904.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "EYzP7c24AwM",
+      "original_card_id": "EYzP7c24AwM_concept_opposing_run",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        191.84,
+        904.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_opposing_candle_opposing_run",
+      "segment_ids": [
+        "seg_002",
+        "seg_007",
+        "seg_019"
+      ],
+      "time_range": [
+        54.16,
+        975.839
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "SlWxhzhLo3A",
+      "original_card_id": "SlWxhzhLo3A_concept_opposing_run",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        149.68,
+        435.44
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 3,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:48.500960Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "4张原始卡均为ICT，school无冲突。第2-4张卡原始术语为opposing run/opposing candle，与Judas Swing高度相关（同属操纵阶段反向运动），内容已综合合并。",
+  "error": null
+}

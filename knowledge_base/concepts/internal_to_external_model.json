@@ -1,0 +1,65 @@
+{
+  "card_id": "internal_to_external_model",
+  "type": "merged_concept",
+  "canonical_term": "Internal to External Model",
+  "aliases": [
+    "Internal to External Liquidity Model",
+    "Internal-External Model"
+  ],
+  "school": "ICT",
+  "definition": "一种多时间框架交易模型，在高时间框架识别内部流动性（FVG）和外部流动性（摆动高低点），下降时间框架寻找Killzone、MSS和FVG形成的入场点，目标为2R收益。",
+  "identification_rules": [
+    "在高时间框架（日线/周线）识别外部流动性：摆动高点（两侧各有更低的高点）或摆动低点（两侧各有更高的低点）",
+    "在高时间框架识别内部流动性：三根K线形成的FVG，第一根和第三根K线的影线不重叠",
+    "确认价格已扫过外部流动性但未能穿透，预期回归内部流动性",
+    "下降时间框架寻找Killzone（特定交易时段如伦敦或纽约开盘）",
+    "在Killzone内寻找MSS（突破前一个摆动高低点）",
+    "在MSS后寻找FVG作为入场点",
+    "设置止损在相反方向的K线高点或低点，或在对立K线上方",
+    "目标设定为2R（风险回报比2:1）"
+  ],
+  "trading_implication": "该模型通过多时间框架联动，利用机构订单流向（从外部流动性扫荡到内部流动性回归）识别高概率入场。交易者在高时间框架确定方向偏差和目标流动性，在低时间框架精确定位入场点和止损，以2R为目标锁定收益。适用于日内交易（日/小时/5分钟）和摇摆交易（周/日/小时）。",
+  "common_mistakes": [
+    "未在高时间框架确认外部流动性已被扫过，导致交易方向错误",
+    "在低时间框架寻找设置时忽视Killzone时间窗口，增加虚假信号风险",
+    "止损设置过紧或过松，未基于对立K线或反向结构合理定位",
+    "贪心持仓超过2R目标，试图追逐更高收益而被回撤止损",
+    "混淆内部流动性（FVG）和外部流动性（摆动点），导致目标设定错误",
+    "在价格形成扩张-扩张（expansion into expansion）时盲目入场，忽视反向风险"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "mwmWNCTEYtY",
+      "original_card_id": "mwmWNCTEYtY_concept_internal_to_external_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_006"
+      ],
+      "time_range": [
+        11.04,
+        913.04
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133598Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

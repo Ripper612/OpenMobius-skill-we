@@ -1,0 +1,59 @@
+{
+  "card_id": "fixed_contract_size",
+  "type": "merged_concept",
+  "canonical_term": "Fixed Contract Size",
+  "aliases": [
+    "固定合约数",
+    "固定手数"
+  ],
+  "school": "Risk Management",
+  "definition": "每笔交易保持合约数量不变的仓位管理方法。由于止损点数不同，导致每笔交易的实际风险金额波动，不符合一致性风险管理原则。",
+  "identification_rules": [
+    "交易者在所有交易中使用相同的合约数量（如每笔都用2张NQ合约）",
+    "观察风险金额表：相同合约数但不同止损点数，会产生不同的美元风险值",
+    "例如：2张NQ合约，20点止损=$800风险，40点止损=$1,600风险，10点止损=$400风险"
+  ],
+  "trading_implication": "固定合约数导致风险金额不一致，破坏了赢率与风险回报比的数学关系。即使交易系统的理论期望值为正，由于仓位不当，实际收益会偏离预期。例如应赚2R的交易因仓位过小只赚1R，应亏1R的交易因仓位过大亏2R，最终账户结果与理论计算不符。",
+  "common_mistakes": [
+    "认为固定合约数等同于固定风险，忽视了不同止损点数导致的风险差异",
+    "使用固定合约数时，即使赢率和风险回报比正确，也无法实现预期的盈利结果",
+    "在两笔亏损后的获胜交易中，因仓位过小而无法充分弥补前期损失"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0OjlQ91TZiU_case_001_固定合约数导致风险不一致的案例",
+      "video_id": "0OjlQ91TZiU",
+      "title": "固定合约数导致风险不一致的案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0OjlQ91TZiU",
+      "original_card_id": "0OjlQ91TZiU_concept_fixed_contract_size",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.44,
+        190.799
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133017Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

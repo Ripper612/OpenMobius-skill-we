@@ -1,0 +1,103 @@
+{
+  "card_id": "MPeeE55rNOw_case_001_eurusd亚洲_伦敦_纽约会话交易案例",
+  "type": "case",
+  "title": "EURUSD 15分钟四大会话Killzone识别与波动特征分析",
+  "related_concepts": [
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Session",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Accumulation, Manipulation, Distribution",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "killzone",
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "EURUSD",
+  "timeframe": "15m",
+  "market_context": "2023年6月10日EURUSD 15分钟图表，跨越亚洲、伦敦、纽约上午及伦敦收盘四个交易会话，展示各会话时段的典型波动范围和价格行为特征。",
+  "key_observation": "博主通过标记四个Killzone时段（亚洲20:00-00:00、伦敦02:00-05:00、纽约上午07:00-10:00、伦敦收盘10:00-12:00），观察到各会话内价格波动幅度不同，其中纽约上午会话产生最大日内波动范围。",
+  "analysis_steps": [
+    "Step 1: 在EURUSD 15分钟图表上标记亚洲会话时间窗口（20:00-00:00），用蓝色矩形框标出该时段的价格积累范围约1.08900-1.09150。",
+    "Step 2: 标记伦敦会话时间窗口（02:00-05:00），用绿色矩形框标出该时段的价格操纵范围约1.09050-1.09250。",
+    "Step 3: 标记纽约上午会话时间窗口（07:00-10:00），观察到价格从1.09300向下运行至1.08000，产生最大位移。",
+    "Step 4: 标记伦敦收盘会话时间窗口（10:00-12:00），观察价格在1.08400-1.08600区间内的盘整形态。",
+    "Step 5: 在TradingView中加载ICT Killzones & Pivots指标，自动识别各会话时段，验证手动标记的准确性。",
+    "Step 6: 在指标设置中确认时区为纽约时间（EST/UTC-4），调整会话绘制数量、时间框架限制等参数。",
+    "Step 7: 观察指标生成的会话标签（AS.H/AS.L、LO.H/LO.L、NYL.H/NYL.L、HYML.H/HYML.L），对应各会话的高低点。"
+  ],
+  "outcome": null,
+  "lessons": "Killzone是识别高波动性交易时段的关键工具。各会话呈现典型的积累-操纵-派发模式：亚洲积累、伦敦操纵、纽约派发。使用自动化指标可提高识别效率，但需确保时区设置正确。纽约上午会话通常产生最大日内范围，是寻找交易机会的重要窗口。",
+  "primary_image": "cards/MPeeE55rNOw/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/MPeeE55rNOw/images/case_001_detail_1.jpg",
+    "cards/MPeeE55rNOw/images/case_001_detail_2.jpg",
+    "cards/MPeeE55rNOw/images/case_001_detail_3.jpg",
+    "cards/MPeeE55rNOw/images/case_001_detail_4.jpg",
+    "cards/MPeeE55rNOw/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "EURUSD 15分钟K线图。图上可见两个矩形标注框：蓝色矩形覆盖约1.08900至1.09150价格区间，绿色矩形覆盖约1.09050至1.09250价格区间。图表左侧显示从1.09300向下运行至1.08000的K线序列，右侧显示从1.08000向上反弹至1.08600附近的K线。图上有黄色十字光标标记，位置约在1.08400。右下角显示时间戳'6/10/2023'和'EURUSD | 15m",
+    "case_001_detail_1.jpg": "EURUSD 15分钟K线图。图表显示从左侧约1.08700上升至中部高点1.09500的上升趋势，随后出现急速下跌至约1.08300的下降趋势。右侧显示在1.08400至1.08900区间内的盘整形态。图上有黄色十字光标标记。底部显示成交量指标。图表时间戳标注为6/10/2023，当前时间显示为21:09:54(UTC-4)。",
+    "case_001_detail_2.jpg": "EURUSD 15分钟K线图。图上显示从左至右的价格走势，整体价格范围在1.04800至1.06050之间。图中有一条蓝色矩形框标注在约1.05350至1.05450的价格区域。右侧价格轴显示当前价格标记。底部时间轴显示交易时间，标注有'Fri 06 Oct 23 02:00'。图上可见成交量指标。K线呈现多次上升、下降和整理的循环形态，其中包含多根绿色上升K线和黑色下降K线。",
+    "case_001_detail_3.jpg": "NQ1! 15分钟K线图。图上可见价格范围约从14680到14900。图中标注有两个矩形框：蓝色矩形位于约14820至14900区间，黄色矩形位于约14760至14820区间。左侧显示价格标签14779.00。图表右下角标注时间戳为6/10/2023及15分钟周期。K线整体呈现上升后下跌的形态，右侧可见一根长黑色K线从高点向下刺破至图表下方。",
+    "case_001_detail_4.jpg": "NQ1! 期货 15 分钟 K 线图。图上可见三个矩形标注区域：左侧一个米色矩形约在 14720 至 14800 区间，中部一个米色矩形约在 14800 至 14860 区间，中心区域一个蓝色矩形约在 14860 至 14880 区间。图上有一条水平虚线位于 14741.00 价格水平。K 线整体价格范围从 14620.00 至 14960.00。右侧可见一根长黑色 K 线，从约 14920 向下",
+    "case_001_detail_5.jpg": "HYML.H 1 小时 K 线图。图上显示 ICT Killzones & Pivots 指标面板，右侧为该指标的设置窗口。图表中标注了 8 条带文字标签的水平线及对应的矩形区域，分别标记为 AS.H、AS.L、LO.I、FRWD、NYL.H、NYL.L、HYML.H、HYML.L，价格范围从 14800 到 15060。左侧 K 线显示约 8 根蜡烛在 14840 至 14920 区间内的盘整形"
+  },
+  "sources": [
+    {
+      "video_id": "MPeeE55rNOw",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.48,
+        370.039
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了四个Killzone时段的标记过程、价格范围、指标设置，并通过实际图表示例验证分析方法。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:06.412597Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"EURUSD 15分钟四大会话Killzone识别与波动特征分析\",\"school\":\"ICT\",\"asset\":\"EURUSD\",\"timeframe\":\"15m\",\"market_context\":\"2023年6月10日EURUSD 15分钟图表，跨越亚洲、伦敦、纽约上午及伦敦收盘四个交易会话，展示各会话时段的典型波动范围和价格行为特征。\",\"key_observation\":\"博主通过标记四个Killzone时段（亚洲20:00-00:00、伦敦02:00-05:00、纽约上午07:00-10:00、伦敦收盘10:00-12:00），观察到各会话内价格波动幅度不同，其中纽约上午会话产生最大日内波动范围。\",\"analysis_steps\":[\"Step 1: 在EURUSD 15分钟图表上标记亚洲会话时间窗口（20:00-00:00），用蓝色矩形框标出该时段的价格积累范围约1.08900-1.09150。\",\"Step 2: 标记伦敦会话时间窗口（02:00-05:00），用绿色矩形框标出该时段的价格操纵范围约1.09050-1.09250。\",\"Step 3: 标记纽约上午会话时间窗口（07:00-10:00），观察到价格从1.09300向下运行至1.08000，产生最大位移。\",\"Step 4: 标记伦敦收盘会话时间窗口（10:00-12:00），观察价格在1.08400-1.08600区间内的盘整形态。\",\"Step 5: 在TradingView中加载ICT Killzones & Pivots指标，自动识别各会话时段，验证手动标记的准确性。\",\"Step 6: 在指标设置中确认时区为纽约时间（EST/UTC-4），调整会话绘制数量、时间框架限制等参数。\",\"Step 7: 观察指标生成的会话标签（AS.H/AS.L、LO.H/LO.L、NYL.H/NYL.L、HYML.H/HYML.L），对应各会话的高低点。\"],\"outcome\":null,\"lessons\":\"Killzone是识别高波动性交易时段的关键工具。各会话呈现典型的积累-操纵-派发模式：亚洲积累、伦敦操纵、纽约派发。使用自动化指标可提高识别效率，但需确保时区设置正确。纽约上午会话通常产生最大日内范围，是寻找交易机会的重要窗口。\",\"primary_image_frame_id\":\"MPeeE55rNOw_f007\",\"supporting_image_frame_ids\":[\"MPeeE55rNOw_f006\",\"MPeeE55rNOw_f008\",\"MPeeE55rNOw_f009\",\"MPeeE55rNOw_f010\",\"MPeeE55rNOw_f012\",\"MPeeE55rNOw_f013\"],\"related_concepts\":[\"Killzone\",\"Session\",\"Accumulation, Manipulation, Distribution\",\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了四个Killzone时段的标记过程、价格范围、指标设置，并通过实际图表示例验证分析方法。\"}",
+  "error": null
+}

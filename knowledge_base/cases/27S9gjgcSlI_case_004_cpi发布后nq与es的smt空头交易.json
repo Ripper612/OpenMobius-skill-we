@@ -1,0 +1,122 @@
+{
+  "card_id": "27S9gjgcSlI_case_004_cpi发布后nq与es的smt空头交易",
+  "type": "case",
+  "title": "CPI发布后NQ与ES的SMT空头交易",
+  "related_concepts": [
+    {
+      "term": "SMT (Smart Money Technique)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Optimal Trade Entry (OTE)",
+      "card_id": "optimal_trade_entry_ote",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "fair_value_gap_fvg",
+    "high_resistance_liquidity",
+    "displacement",
+    "market_structure_shift_mss",
+    "optimal_trade_entry_ote"
+  ],
+  "school": "SMC",
+  "asset": "NQ1! (E-MINI NASDAQ-100 FUTURES)",
+  "timeframe": "15M",
+  "market_context": "CPI数据发布后，NQ创出新高而ES未能跟随，形成Smart Money Technique（SMT）分歧信号。博主识别到这一不对称走势，预期NQ高点将成为阻力，为空头交易提供机会。",
+  "key_observation": "CPI发布后NQ与ES出现分歧：NQ创新高而ES未创新高，形成SMT信号。博主选择追踪显示弱势的NQ进行空头交易，因其扫除了高阻力流动性。",
+  "analysis_steps": [
+    "Step 1: 观察CPI发布后NQ与ES的高点行为，发现NQ创新高而ES未创新高，形成SMT分歧。",
+    "Step 2: 确认NQ的高点将作为阻力位，预期该高点会被尊重（protected high）。",
+    "Step 3: 识别下跌的收盘K线形成Breaker Block，作为空头入场信号。",
+    "Step 4: 将止损设置在高阻力流动性（High Resistance Liquidity）位置，而非简单地设在Breaker Block上方，以应对CPI后的高波动性。",
+    "Step 5: 确定目标为下方的等低点（equal lows），位于约16800附近。",
+    "Step 6: 在15分钟图上入场后，观察价格下行并形成位移（Displacement），确认交易方向正确。",
+    "Step 7: 下钻至1分钟图寻找更优入场点，在PD array中识别额外的低时间框架设置机会。",
+    "Step 8: 在1分钟图上识别Fair Value Gap和Order Block，调整入场位置以获得更好的风险回报比（从1.65R优化至2R）。"
+  ],
+  "outcome": "交易成功执行。价格从入场点下行至目标区域，最终在等低点附近平仓，实现预期的下行目标。",
+  "lessons": "SMT分歧（一个资产创新高而另一个未创新高）是强有力的交易信号。在高波动性事件（如CPI）后，应将止损设置在高阻力流动性而非简单的结构位置。多时间框架分析（从15分钟下钻至1分钟）可以优化入场点和风险回报比。",
+  "primary_image": "cards/27S9gjgcSlI/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/27S9gjgcSlI/images/case_004_detail_1.jpg",
+    "cards/27S9gjgcSlI/images/case_004_detail_2.jpg",
+    "cards/27S9gjgcSlI/images/case_004_detail_3.jpg",
+    "cards/27S9gjgcSlI/images/case_004_detail_4.jpg",
+    "cards/27S9gjgcSlI/images/case_004_detail_5.jpg",
+    "cards/27S9gjgcSlI/images/case_004_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "NQ（E-MINI NASDAQ-100 FUTURES）15 分钟 K 线图，来自 FXReplay 回测平台。图上可见价格范围约 16660 至 17180。图右侧有三个叠加的矩形标注区域：绿色大矩形覆盖约 16800 至 17200，粉红色矩形覆盖约 17000 至 17060，青色矩形覆盖约 16800 至 17000。图右侧标注有止损位（432 +Stop Loss 15.50）和止盈位",
+    "case_004_detail_1.jpg": "图为 FXReplay 平台双面板 15 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ）。两个面板均在 Thu 11 Jan '24 03:45 处标有垂直虚线。右侧 NQ 面板可见价格范围约 16800 至 17080，图上有一个绿色矩形区域覆盖约 17047.49 至 17080.00 区间，当前",
+    "case_004_detail_2.jpg": "图为 FXReplay 回测平台上并排显示的两个 15 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES，右侧为 E-MINI NASDAQ-100 FUTURES，日期均对齐至 2024 年 1 月 11 日。左图价格轴范围约 4780 至 4844，图上有一条水平虚线位于约 4814.25，并有一个小矩形标注区域位于约 4834 至 4838 附近。右图价格轴范围约 168",
+    "case_004_detail_3.jpg": "图为 FXReplay 回测平台的双面板 15 分钟 K 线图，左侧为 E-MINI S&P 500 期货（ES），右侧为 E-MINI NASDAQ-100 期货（NQ）。左侧面板可见一个矩形标注区域，位于约 4828 至 4840 区间，右侧边缘有一根较长的 K 线，当前价格标签显示 4814.25。右侧面板标注有三个叠加矩形区域：红色区域位于约 17014 至 17040，粉色区域位于约 1",
+    "case_004_detail_4.jpg": "图为 FXReplay 平台双面板 15 分钟 K 线图，左侧为 E-MINI S&P 500 FUTURES（ES），右侧为 E-MINI NASDAQ-100 FUTURES（NQ）。左侧面板价格范围约 4794 至 4848，图中有一个无标签矩形框标注于约 4828 至 4848 区域，右侧边缘出现一根较长的阴线，收盘价附近标注 4814.25。右侧面板价格范围约 16800 至 17080",
+    "case_004_detail_5.jpg": "图表为 NQ1!（E-MINI NASDAQ-100 FUTURES）15 分钟 K 线图，来自 FXReplay 回测平台。可见价格范围约从 16660 至 17220。图左侧至中部呈现一段上行 K 线序列，随后在约 17060 附近出现顶部并转为下行。图右侧出现一根带长下影线的大阴线，下影线延伸至约 16490。图上叠加两个矩形标注：粉色矩形覆盖约 16960 至 17060 区间，浅蓝色矩形",
+    "case_004_detail_6.jpg": "图为 NQ（E-MINI NASDAQ-100 FUTURES）1 分钟 K 线图，来自 FXReplay 回测平台。可见价格范围约 16700 至 17000。图上有两条贯穿全图的水平线，分别位于约 16900 和 16800 附近。图右侧标注有一个粉色矩形区域，标签显示止损信息：Stop 35.75（0.21%）143，Amount 750；其下方有一个绿色矩形区域，标签显示 Closed P"
+  },
+  "sources": [
+    {
+      "video_id": "27S9gjgcSlI",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        559.44,
+        741.48
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析完整清晰：资产代码（NQ1!）、时间框架（15M/1M）、关键价位（~17060高点、~16800低点）、分析步骤（SMT识别→Breaker Block→止损设置→目标确定→多时间框架优化）、交易结果（成功平仓）均有明确记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:18:13.443873Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"CPI发布后NQ与ES的SMT空头交易\",\"school\":\"SMC\",\"asset\":\"NQ1! (E-MINI NASDAQ-100 FUTURES)\",\"timeframe\":\"15M\",\"market_context\":\"CPI数据发布后，NQ创出新高而ES未能跟随，形成Smart Money Technique（SMT）分歧信号。博主识别到这一不对称走势，预期NQ高点将成为阻力，为空头交易提供机会。\",\"key_observation\":\"CPI发布后NQ与ES出现分歧：NQ创新高而ES未创新高，形成SMT信号。博主选择追踪显示弱势的NQ进行空头交易，因其扫除了高阻力流动性。\",\"analysis_steps\":[\"Step 1: 观察CPI发布后NQ与ES的高点行为，发现NQ创新高而ES未创新高，形成SMT分歧。\",\"Step 2: 确认NQ的高点将作为阻力位，预期该高点会被尊重（protected high）。\",\"Step 3: 识别下跌的收盘K线形成Breaker Block，作为空头入场信号。\",\"Step 4: 将止损设置在高阻力流动性（High Resistance Liquidity）位置，而非简单地设在Breaker Block上方，以应对CPI后的高波动性。\",\"Step 5: 确定目标为下方的等低点（equal lows），位于约16800附近。\",\"Step 6: 在15分钟图上入场后，观察价格下行并形成位移（Displacement），确认交易方向正确。\",\"Step 7: 下钻至1分钟图寻找更优入场点，在PD array中识别额外的低时间框架设置机会。\",\"Step 8: 在1分钟图上识别Fair Value Gap和Order Block，调整入场位置以获得更好的风险回报比（从1.65R优化至2R）。\"],\"outcome\":\"交易成功执行。价格从入场点下行至目标区域，最终在等低点附近平仓，实现预期的下行目标。\",\"lessons\":\"SMT分歧（一个资产创新高而另一个未创新高）是强有力的交易信号。在高波动性事件（如CPI）后，应将止损设置在高阻力流动性而非简单的结构位置。多时间框架分析（从15分钟下钻至1分钟）可以优化入场点和风险回报比。\",\"primary_image_frame_id\":\"27S9gjgcSlI_f023\",\"supporting_image_frame_ids\":[\"27S9gjgcSlI_f019\",\"27S9gjgcSlI_f020\",\"27S9gjgcSlI_f021\",\"27S9gjgcSlI_f022\",\"27S9gjgcSlI_f024\",\"27S9gjgcSlI_f025\"],\"related_concepts\":[\"SMT (Smart Money Technique)\",\"Breaker Block\",\"Order Block\",\"Fair Value Gap (FVG)\",\"High Resistance Liquidity\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Premium/Discount Array (PD array)\",\"Optimal Trade Entry (OTE)\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析完整清晰：资产代码（NQ1!）、时间框架（1",
+  "error": null
+}

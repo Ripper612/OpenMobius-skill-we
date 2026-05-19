@@ -1,0 +1,64 @@
+{
+  "card_id": "session_analysis_asia_london_new_york",
+  "type": "merged_concept",
+  "canonical_term": "Session Analysis (Asia/London/New York)",
+  "aliases": [
+    "交易时段分析",
+    "多时段分析"
+  ],
+  "school": "Price Action",
+  "definition": "按交易时段（亚洲、伦敦、纽约）分别分析价格行为，识别各时段的方向性、流动性扫荡和范围特征，用于预测后续时段的价格走势和交易设置。",
+  "identification_rules": [
+    "将日线K线按地理时段划分：Asia（亚洲盘）、London（伦敦盘）、New York（纽约盘）",
+    "标记各时段的高点、低点和范围边界",
+    "观察London是否扫除Asia的高低点（两侧流动性）",
+    "判断London是否创造了大部分日线范围，或仅在Asia范围内盘整",
+    "追踪价格在各时段是否突破范围或回归范围内部"
+  ],
+  "trading_implication": "在Seek and Destroy形态中，London通常扫除Asia高低点后为New York设置盘整条件。若London已创造大部分日线范围，New York概率低；若London仅在Asia范围内波动，可预期价格在New York继续在该范围内振荡。交易者可标记各时段的均衡点、折价区和溢价区，寻找价格回归范围的交易机会，而非突破交易。",
+  "common_mistakes": [
+    "未区分London是否真正扫除Asia两侧流动性，误判为突破而非盘整",
+    "当London已创造大部分日线范围时，仍对New York有高概率突破的期待",
+    "试图在Seek and Destroy形态中从范围外向外交易，而非交易回归范围的反弹",
+    "忽视各时段范围的均衡点和折价/溢价区域，导致目标位设置不当"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "FXJBFbZQbck_case_006_亚洲盘提前触及前日高点导致交易机会消失",
+      "video_id": "FXJBFbZQbck",
+      "title": "亚洲盘提前触及前日高点导致纽约盘交易机会消失"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "original_card_id": "4WCiIyCiBrQ_concept_session_analysis_asia_london_new_york",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.0,
+        523.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135585Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

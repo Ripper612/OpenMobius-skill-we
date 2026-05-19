@@ -1,0 +1,253 @@
+{
+  "card_id": "reversal",
+  "type": "merged_concept",
+  "canonical_term": "Reversal",
+  "aliases": [
+    "价格反转",
+    "反转",
+    "趋势反转"
+  ],
+  "school": "ICT",
+  "definition": "价格在关键摆动高/低点或前期高/低点处，两个相反方向的扩张相遇所形成的趋势转折。与回撤或整理不同，反转表示原有趋势终止、新趋势启动，通常伴随更高时间框架灯芯结构及交付状态改变（CSD）或市场结构转变（MSS）。",
+  "identification_rules": [
+    "识别前一个扩张方向（向上或向下），确认价格运行至相关摆动高/低点或前期高/低点等关键点位",
+    "在该点位观察是否出现扩张遇上扩张的形态（expansion met with expansion），而非回撤或盘整",
+    "确认是否形成V形反转或更高时间框架的灯芯结构",
+    "检查是否伴随交付状态改变（Change in the State of Delivery）或市场结构转变（MSS）",
+    "在高点处观察是否形成强势回落K线，在低点处观察是否形成强势反弹K线，而非仅有小影线的整理形态",
+    "对比下一根K线表现：若下一根K线继续原方向运动或形成整理，则为回撤/延续信号而非反转",
+    "使用多时间框架确认：高时间框架观察灯芯结构，低时间框架确认方向相反的两次扩张相遇及摆动点形成"
+  ],
+  "trading_implication": "反转是趋势改变的关键信号，须发生在相关摆动点位（如前一日/周高低点）才具有有效性。反转确认后，交易者应寻找Protected Swing来交易延续方向，而非在反转高低点精确入场。反转后通常跟随回撤或盘整，再以新扩张延续反转方向。有效性需与更高时间框架偏差对齐，并可结合日线收盘、公允价值缺口等因素综合确认。",
+  "common_mistakes": [
+    "在随意的高/低点识别反转，而非相关的摆动点位（如前一日/周高低点），导致虚假信号",
+    "将回撤或整理误认为反转，导致过早退出或反向交易",
+    "仅基于单根K线或单一时间框架判断反转，未等待下一根K线及多时间框架确认",
+    "试图在反转高低点精确入场，而忽视通过Protected Swing在延续中交易",
+    "未在更高时间框架验证反转结构，导致被诱导（Inducement）出局",
+    "忽视反转后的回撤或盘整延续信号，过早反向交易",
+    "忽视日线收盘与反转的对齐，导致交易与整体偏差不符"
+  ],
+  "related_concepts": [
+    {
+      "term": "Expansion",
+      "card_id": "expansion",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Retracement",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Change in the State of Delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame Wick",
+      "card_id": "higher_time_frame_wick",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "6zTz7WMdMWg_case_001_nq期货4小时图的前一根k线高低点应用",
+      "video_id": "6zTz7WMdMWg",
+      "title": "NQ期货4小时图前一根K线高低点的流动性预期应用"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_001_xagusd日线相关摆动点识别与反应",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGUSD日线堆积低点中的相关摆动点识别与价格反应"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_003_xageur日线反转与目标位置确认",
+      "video_id": "HbOeD_JVens",
+      "title": "XAGEUR日线反转确认与失败摆动堆积目标"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_005_gch日线有效分离度判断与反转确认",
+      "video_id": "HbOeD_JVens",
+      "title": "GCH日线有效分离度判断与反转确认"
+    },
+    {
+      "card_id": "LKNQDAdId4s_case_004_高点被扫后wick被不尊重的案例",
+      "video_id": "LKNQDAdId4s",
+      "title": "高点被扫后wick被不尊重导致反转失败"
+    },
+    {
+      "card_id": "MsuEQQl7L6s_case_001_eurusd日线candle_two_closure案例",
+      "video_id": "MsuEQQl7L6s",
+      "title": "EURUSD日线FVG处Candle Two Closure反转案例"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_001_usd_1分钟图_盘整突破后的反转识别",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1分钟：盘整突破后的扩张-扩张反转确认"
+    },
+    {
+      "card_id": "VD4xb9VfMHA_case_003_usd_1小时图_多日反转与保护摆动",
+      "video_id": "VD4xb9VfMHA",
+      "title": "USD 1H：突破前日高点后的反转与FVG目标"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_001_ftse日线前一日高低点交易案例",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "FTSE日线前一日高低点流动性追踪案例"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_002_btc_usdt前一周高低点反转案例",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "BTC/USDT前一周高低点反转案例"
+    },
+    {
+      "card_id": "m4k_1pF5zFI_case_005_gbpusd反转失败案例",
+      "video_id": "m4k_1pF5zFI",
+      "title": "GBPUSD反转失败案例：CSD信号止损，转向EUR成功"
+    },
+    {
+      "card_id": "q1NmxUTm4n4_case_001_es与nq的看涨smt案例",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES与NQ的看涨SMT识别与反转验证"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "8BWkRGhuj1k",
+      "original_card_id": "8BWkRGhuj1k_concept_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_007",
+        "seg_008",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_021",
+        "seg_022",
+        "seg_025",
+        "seg_026"
+      ],
+      "time_range": [
+        11.12,
+        1403.0
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "VD4xb9VfMHA",
+      "original_card_id": "VD4xb9VfMHA_concept_reversal",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003",
+        "seg_004",
+        "seg_005",
+        "seg_006",
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012",
+        "seg_013",
+        "seg_014",
+        "seg_015",
+        "seg_016",
+        "seg_017",
+        "seg_018",
+        "seg_019",
+        "seg_020",
+        "seg_021",
+        "seg_022"
+      ],
+      "time_range": [
+        11.04,
+        1072.28
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "eywpZT3z6GQ",
+      "original_card_id": "eywpZT3z6GQ_concept_reversal",
+      "segment_ids": [
+        "seg_003",
+        "seg_009",
+        "seg_010",
+        "seg_013"
+      ],
+      "time_range": [
+        183.36,
+        781.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:56.461627Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']"
+  ],
+  "merge_notes": "2张ICT + 1张Price Action，按多数选ICT。Price Action卡与ICT卡核心机制高度一致（扩张遇扩张），定义与规则已完整融合。",
+  "error": null
+}

@@ -1,0 +1,277 @@
+{
+  "card_id": "balanced_price_range",
+  "type": "merged_concept",
+  "canonical_term": "Balanced Price Range",
+  "aliases": [
+    "BPR",
+    "box"
+  ],
+  "school": "ICT",
+  "definition": "由一个看涨FVG与一个看跌FVG在价格轴上重叠形成的区域。价格表现为激进下跌后激进回升（或反之）的往返运动，两个方向的FVG交集构成该区域，作为强支撑或阻力，可用作独立的低时间框架入场模型或高概率反转预测区域。",
+  "identification_rules": [
+    "识别一个看涨FVG（价格激进上升留下的不平衡区域）和一个看跌FVG（价格激进下降留下的不平衡区域）",
+    "确认这两个FVG在价格轴上存在重叠（交集），重叠部分即为BPR，而非简单相邻",
+    "观察价格是否出现激进向下运动后激进向上运动（或反之）的往返结构，在图表上形成矩形框状区域",
+    "在较低时间框架（如1分钟、5秒、15秒）上更容易识别BPR的具体形态；高时间框架上该区域可能表现为锤子线或射击星线的灯芯",
+    "BPR可为看涨形态（看跌FVG遇上看涨FVG）或看跌形态（看涨FVG遇上看跌FVG）",
+    "BPR区域通常与高时间框架兴趣点（HTF POI）相关联，可与Box设置互换使用",
+    "观察价格进入该重叠区域后是否出现快速反弹或回落，而非持续穿透"
+  ],
+  "trading_implication": "BPR作为强支撑或阻力区，可在价格接近时切换低时间框架寻找入场模型，结合OTE（0.62斐波那契回撤）入场，止损设在被激进突破的低点或高点，目标指向更高时间框架前期高点或内部高点。看涨BPR在重叠区做多，看跌BPR在重叠区做空。若价格积极穿透BPR未产生反应，则转向下一个PD array追踪趋势。可与折价区/溢价区、Order Block等结合使用。",
+  "common_mistakes": [
+    "将单个FVG误认为BPR；BPR必须由两个方向相反的FVG重叠（交集）组成，而非简单相邻",
+    "将BPR与普通支撑阻力或普通盘整区间混淆，忽视其由两个FVG重叠形成的特殊结构",
+    "未能识别激进运动的关键性——仅看到价格回到某区域，而忽视必须有激进的出入运动（Displacement）",
+    "在没有HTF POI确认的情况下交易BPR，应同时具备高时间框架兴趣点和短期激进运动两个条件",
+    "未在多个时间框架上验证BPR的存在，导致交易信号不够可靠",
+    "忽视BPR中失败位移（failure to displace）的信号，继续按原有偏见交易而错过反向机会",
+    "在价格未产生反应时仍坚持BPR作为目标，而不是灵活转向下一个PD array",
+    "忽视BPR与市场结构转变的关联性，未能预期后续的新价格阶段"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equal Lows",
+      "card_id": "equal_lows",
+      "exists": true
+    },
+    {
+      "term": "Low Resistance Liquidity",
+      "card_id": "low_resistance_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Hammer Candle",
+      "card_id": "hammer_candle",
+      "exists": true
+    },
+    {
+      "term": "Shooter Candle",
+      "card_id": "shooter_candle",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "5rbFskdmEmU_case_001_标普500_e_mini期货11月4日日内走势分析",
+      "video_id": "5rbFskdmEmU",
+      "title": "标普500 E-mini期货11月4日位移与位移缺失分析"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_003_btc日线至小时线的看跌交易",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "BTC日线至小时线的看跌交易：双次入场与止损管理"
+    },
+    {
+      "card_id": "A8UpRZlRzlg_case_003_纳指100迷你期货看跌bpr案例",
+      "video_id": "A8UpRZlRzlg",
+      "title": "纳指100迷你期货看跌BPR做空入场案例"
+    },
+    {
+      "card_id": "E6bpY4dQvlE_case_004_s_p_500_e_mini期货盘整区间突破回测交易",
+      "video_id": "E6bpY4dQvlE",
+      "title": "E-mini期货盘整区间突破回测交易"
+    },
+    {
+      "card_id": "YmdC_LKT-Pk_case_003_错误偏差下的做空尝试与转向做多",
+      "video_id": "YmdC_LKT-Pk",
+      "title": "失败位移识别：从错误做空转向正确做多"
+    },
+    {
+      "card_id": "yOPESX2aWkI_case_003_巩固区间突破与回测交易",
+      "video_id": "yOPESX2aWkI",
+      "title": "ES巩固区间突破与低点回测长仓设置"
+    },
+    {
+      "card_id": "yq4Z7q4E6nU_case_001_标普500期货从3876下跌至3818的bpr交易案例",
+      "video_id": "yq4Z7q4E6nU",
+      "title": "ES期货3876-3818下跌中的BPR交易设置"
+    },
+    {
+      "card_id": "yq4Z7q4E6nU_case_003_多时间框架联动的小时线到5分钟交易案例",
+      "video_id": "yq4Z7q4E6nU",
+      "title": "1小时低点扫除后激进回升，5分钟OTE精确入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "4Gm8p6O7Ebs",
+      "original_card_id": "4Gm8p6O7Ebs_concept_balanced_price_range",
+      "segment_ids": [
+        "seg_010"
+      ],
+      "time_range": [
+        463.68,
+        574.32
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "5rbFskdmEmU",
+      "original_card_id": "5rbFskdmEmU_concept_balanced_price_range",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        183.9,
+        360.96
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "9BY-MQRNy-Y",
+      "original_card_id": "9BY-MQRNy-Y_concept_balanced_price_range",
+      "segment_ids": [
+        "seg_011"
+      ],
+      "time_range": [
+        506.24,
+        574.64
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "A8UpRZlRzlg",
+      "original_card_id": "A8UpRZlRzlg_concept_balanced_price_range",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.72,
+        338.68
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "Ovotm9l99QQ",
+      "original_card_id": "Ovotm9l99QQ_concept_balanced_price_range",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.859,
+        187.5
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "original_card_id": "YmdC_LKT-Pk_concept_balanced_price_range",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        365.82,
+        545.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "hh_kKK4Fhrw",
+      "original_card_id": "hh_kKK4Fhrw_concept_balanced_price_range",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        190.26,
+        368.58
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_balanced_price_range",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        6.74,
+        293.3
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 8,
+    "source_videos": 8,
+    "high_confidence_sources": 6,
+    "medium_confidence_sources": 2,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:54:25.335226Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "8张原始卡均为ICT，school无冲突。各卡对BPR形成机制描述一致，部分卡强调激进运动特征（yq4Z7q4E6nU、YmdC_LKT-Pk），已整合入识别规则。",
+  "error": null
+}

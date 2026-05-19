@@ -1,0 +1,100 @@
+{
+  "card_id": "y6SnEdASVLY_case_005_轻质原油期货看涨反转延续案例",
+  "type": "case",
+  "title": "轻质原油期货看涨反转延续交易案例",
+  "related_concepts": [
+    {
+      "term": "Bullish Reversal Candle",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Time-based Analysis",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Support Level",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Mean Threshold",
+      "card_id": "mean_threshold",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "market_structure",
+    "market_structure_shift",
+    "liquidity",
+    "mean_threshold"
+  ],
+  "school": "ICT",
+  "asset": "CL (Light Crude Oil Futures)",
+  "timeframe": "1D / 30M",
+  "market_context": "轻质原油前一日形成看涨反转K线（收盘在一系列下跌K线上方），次日伦敦时段形成低点，纽约时段继续上升，完成多日交易目标。",
+  "key_observation": "博主识别出前一日的看涨反转K线（bullish reversal candle），预期次日继续走高；伦敦时段形成低点后，纽约时段突破并延续上升趋势，完成交易目标。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别前一日形成的看涨反转K线，收盘价在一系列下跌K线（down close candles）上方。",
+    "Step 2: 基于看涨反转形态，预期次日应该交易更高（trade higher）。",
+    "Step 3: 切换到30分钟图表观察伦敦时段（2-5点）的行动，发现价格走低后在一系列下跌K线上方形成Order Block。",
+    "Step 4: 进入纽约时段后，价格回测该Order Block水平，然后继续上升至更高点。",
+    "Step 5: 验证均值（mean threshold）和午夜开盘价（midnight open）作为支撑被尊重，确认上升趋势延续。",
+    "Step 6: 进入次日，伦敦再次形成低点，纽约继续上升，完成交易目标（TP）。"
+  ],
+  "outcome": "交易成功完成。伦敦形成低点后，纽约时段继续上升至目标价位，完成多日交易目标（finish off the TP）。",
+  "lessons": "看涨反转K线是强有力的反转信号；结合时间框架分析（伦敦低点+纽约上升）可提高交易成功率；Order Block和均值支撑是关键的参考水平；多日目标的完成需要跨越多个交易时段的确认。",
+  "primary_image": "cards/y6SnEdASVLY/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/y6SnEdASVLY/images/case_005_detail_1.jpg",
+    "cards/y6SnEdASVLY/images/case_005_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "Light Crude Oil Futures 日线图。图表显示从 2 月下旬至 3 月初的价格走势，价格范围约 67.00 至 78.50。图上有一条水平虚线位于 69.50 附近。K 线序列呈现绿色（上升）和黑色（下降）交替形态。中期形成上升趋势至 77.50 附近，随后出现 3 根连续黑色 K 线下跌至 70.50 附近。多根 K 线在 76.00-77.50 区间显示长上影线，部分 K 线",
+    "case_005_detail_1.jpg": "轻质原油期货 30 分钟 K 线图。图上可见价格范围约从 70.50 到 72.50。图表中标注有两个矩形框分别标记为 OB，分别位于约 71.40-71.60 和 72.15-72.35 价格区间。图上有一条水平线位于 71.20，另有文字标签 EQ 标注在约 71.50 附近。K 线呈现绿黑相间的蜡烛形态，右侧可见一根较大的绿色 K 线从约 71.50 上升至 72.20。图表底部显示时间标记",
+    "case_005_detail_2.jpg": "轻质原油期货 30 分钟 K 线图。图表显示从 7 月 2 日起约 24 小时的价格走势，价格范围在 70.90 至 72.90 之间。左侧区间以绿色 K 线为主，从约 71.50 上升至 72.50。中间区间出现黑色 K 线与绿色 K 线交替，价格在 71.80 至 72.30 之间波动。右侧有一根大型绿色 K 线，收盘价接近 72.20。图上标注有文字标签'HTD'、'0.00'、'6.10'"
+  },
+  "sources": [
+    {
+      "video_id": "y6SnEdASVLY",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        524.48,
+        675.519
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对轻质原油案例的分析完整清晰，包括资产代码、时间框架、关键价位、反转形态识别、Order Block标记、交易结果等要素均有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:48:45.016691Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"轻质原油期货看涨反转延续交易案例\",\"school\":\"ICT\",\"asset\":\"CL (Light Crude Oil Futures)\",\"timeframe\":\"1D / 30M\",\"market_context\":\"轻质原油前一日形成看涨反转K线（收盘在一系列下跌K线上方），次日伦敦时段形成低点，纽约时段继续上升，完成多日交易目标。\",\"key_observation\":\"博主识别出前一日的看涨反转K线（bullish reversal candle），预期次日继续走高；伦敦时段形成低点后，纽约时段突破并延续上升趋势，完成交易目标。\",\"analysis_steps\":[\"Step 1: 在日线图上识别前一日形成的看涨反转K线，收盘价在一系列下跌K线（down close candles）上方。\",\"Step 2: 基于看涨反转形态，预期次日应该交易更高（trade higher）。\",\"Step 3: 切换到30分钟图表观察伦敦时段（2-5点）的行动，发现价格走低后在一系列下跌K线上方形成Order Block。\",\"Step 4: 进入纽约时段后，价格回测该Order Block水平，然后继续上升至更高点。\",\"Step 5: 验证均值（mean threshold）和午夜开盘价（midnight open）作为支撑被尊重，确认上升趋势延续。\",\"Step 6: 进入次日，伦敦再次形成低点，纽约继续上升，完成交易目标（TP）。\"],\"outcome\":\"交易成功完成。伦敦形成低点后，纽约时段继续上升至目标价位，完成多日交易目标（finish off the TP）。\",\"lessons\":\"看涨反转K线是强有力的反转信号；结合时间框架分析（伦敦低点+纽约上升）可提高交易成功率；Order Block和均值支撑是关键的参考水平；多日目标的完成需要跨越多个交易时段的确认。\",\"primary_image_frame_id\":\"y6SnEdASVLY_f021\",\"supporting_image_frame_ids\":[\"y6SnEdASVLY_f022\",\"y6SnEdASVLY_f023\"],\"related_concepts\":[\"Bullish Reversal Candle\",\"Order Block\",\"Market Structure\",\"Change in State of Delivery\",\"Liquidity\",\"Time-based Analysis\",\"Support Level\",\"Mean Threshold\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对轻质原油案例的分析完整清晰，包括资产代码、时间框架、关键价位、反转形态识别、Order Block标记、交易结果等要素均有明确说明。\"}",
+  "error": null
+}

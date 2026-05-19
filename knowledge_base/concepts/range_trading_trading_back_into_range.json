@@ -1,0 +1,58 @@
+{
+  "card_id": "range_trading_trading_back_into_range",
+  "type": "merged_concept",
+  "canonical_term": "Range Trading / Trading Back into Range",
+  "aliases": [
+    "Range rebalancing",
+    "Trading back into the range"
+  ],
+  "school": "ICT",
+  "definition": "在Seek and Destroy盘整日中，当价格突破区间外时，预期其回归区间内部交易，而非追求突破扩张。利用均衡点和折溢价区作为回归目标。",
+  "identification_rules": [
+    "识别一个明确的价格区间（如Asia range、London range或Daily range）",
+    "观察价格多次突破该区间边界后立即回落至区间内部",
+    "确认价格未能产生有效的位移（Displacement）或突破扩张",
+    "标记区间的均衡点（0.5斐波那契位置）和折溢价区边界",
+    "在价格每次触及区间外部流动性后，预期其向均衡点或区间内部回归"
+  ],
+  "trading_implication": "在盘整日中，交易者应从区间外向区间内寻找交易机会，而非尝试突破。首要目标是均衡点，次要目标是区间低点或初始范围。当价格扫除区间外的流动性后，将其视为磁铁效应，预期价格会回到区间内部进行再平衡。这是一种低概率、低期望的交易方式，通常用于识别何时应该避免交易。",
+  "common_mistakes": [
+    "试图在Seek and Destroy日中交易突破或扩张，而非回归区间",
+    "未能正确标记和识别关键区间（Asia range、London range等）",
+    "忽视均衡点作为首要回归目标的重要性",
+    "在价格已创造大部分日内波幅的情况下（如London已创造大部分日内范围）仍对New York session抱有高期望"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "original_card_id": "4WCiIyCiBrQ_concept_range_trading_trading_back_into_range",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        11.0,
+        523.2
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135190Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

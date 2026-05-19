@@ -1,0 +1,99 @@
+{
+  "card_id": "ubCe509_JLY_case_002_黄金日线到5分钟的反转交易",
+  "type": "case",
+  "title": "黄金日线3天扩张反转至5分钟做空",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "liquidity",
+    "fair_value_gap",
+    "propulsion_block"
+  ],
+  "school": "ICT",
+  "asset": "GC1!",
+  "timeframe": "1D → 1H → 5M",
+  "market_context": "黄金在日线形成3天扩张走势，价格推升至旧高点附近。博主利用日线偏差和小时线结构确认，寻找5分钟级别的高概率做空机会。",
+  "key_observation": "日线3天扩张至旧高点形成偏差，小时线扫出前一日高点后出现看跌结构转变，5分钟回测小时线订单块并收于上升K线下方，三个时间框架完全对齐看跌。",
+  "analysis_steps": [
+    "Step 1: 在日线识别3天扩张走势进入旧高点，作为交易偏差和兴趣点",
+    "Step 2: 切换至小时线，等待前一日高点被扫出（流动性猎杀）",
+    "Step 3: 观察小时线一系列上升收盘K线进入兴趣点，识别为交付状态改变（CSD）信号",
+    "Step 4: 确认小时线与日线偏差对齐后，下钻至5分钟寻找入场",
+    "Step 5: 在5分钟图上，价格回测小时线订单块并收于上升K线下方，形成看跌对齐",
+    "Step 6: 在新K线开盘时入场做空，经历短暂整理后价格扩张下行至目标"
+  ],
+  "outcome": "成功做空，价格从入场点扩张下行，达到预设目标位。交易确认了多时间框架对齐的有效性。",
+  "lessons": "多时间框架对齐是捕捉扩张走势的关键。必须等待低时间框架结构与高时间框架偏差同向，而不是急于在高时间框架直接入场。流动性扫荡（扫出旧高点）往往先于反转发生，是重要的确认信号。",
+  "primary_image": "cards/ubCe509_JLY/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/ubCe509_JLY/images/case_002_detail_1.jpg",
+    "cards/ubCe509_JLY/images/case_002_detail_2.jpg",
+    "cards/ubCe509_JLY/images/case_002_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ES1! 15分钟K线图。图上显示从5月28日13:00至18:00的交易区间。可见价格范围从5504.00至5540.00。图上有一条水平线位于5526.00。右侧标注显示已平仓头寸，P&L为4.50，数量0.444，风险收益比为1。标注框覆盖5516.00至5526.00价格区间。图上标记有止损和目标价位信息。K线序列显示早期出现大幅上升和下降的蜡烛，中间区间呈现盘整，后期出现恢复性上升。",
+    "case_002_detail_1.jpg": "GC1! 1 小时 K 线图，时间范围从 12 月 6 日至 12 月 16 日。图上有三条水平线分别位于 2748.0、2758.0 和 2714.0 价格水平。可见价格范围从 2668.0 至 2788.0。图表显示从左侧低点 2672.0 开始的上升趋势，中间经历 2724.0 至 2736.0 区间的盘整，随后突破至 2740.0 以上。最近的 K 线在 2750.0 至 2758.0 区",
+    "case_002_detail_2.jpg": "GC1! 1小时K线图，价格范围从2668.0至2788.0。图上有两条水平线分别位于2748.0和2738.0。K线序列显示从左侧2676.0附近开始的上升趋势，跨越约20根K线至2760.0附近。自12月11日12:00起，K线进入2728.0至2758.0区间的整理形态，期间出现多根带上影线的K线。右侧垂直虚线标记12月12日02:00。图表右下角显示时间框架为1H。",
+    "case_002_detail_3.jpg": "GC11 1小时K线图。图表显示从左下至右上的上升趋势，价格从约2680.0上升至2760.0。在2760.0附近形成约8根K线的盘整区间，价格在2748.0至2752.0之间波动。盘整后价格下行至2745.0。图上有一条水平线位于2747.5，穿过盘整区域和随后的下行段。右侧标注有时间戳'Thu 12 Dec 01:00'，用虚线标记。K线由绿色和黑色混合组成，整体可见价格范围从2668.0至2"
+  },
+  "sources": [
+    {
+      "video_id": "ubCe509_JLY",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        372.56,
+        730.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线→小时线→5分钟的分析过程，清晰标注了关键价位、结构转变点和入场逻辑，交易结果明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:46:12.283797Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"黄金日线3天扩张反转至5分钟做空\",\"school\":\"ICT\",\"asset\":\"GC1!\",\"timeframe\":\"1D → 1H → 5M\",\"market_context\":\"黄金在日线形成3天扩张走势，价格推升至旧高点附近。博主利用日线偏差和小时线结构确认，寻找5分钟级别的高概率做空机会。\",\"key_observation\":\"日线3天扩张至旧高点形成偏差，小时线扫出前一日高点后出现看跌结构转变，5分钟回测小时线订单块并收于上升K线下方，三个时间框架完全对齐看跌。\",\"analysis_steps\":[\"Step 1: 在日线识别3天扩张走势进入旧高点，作为交易偏差和兴趣点\",\"Step 2: 切换至小时线，等待前一日高点被扫出（流动性猎杀）\",\"Step 3: 观察小时线一系列上升收盘K线进入兴趣点，识别为交付状态改变（CSD）信号\",\"Step 4: 确认小时线与日线偏差对齐后，下钻至5分钟寻找入场\",\"Step 5: 在5分钟图上，价格回测小时线订单块并收于上升K线下方，形成看跌对齐\",\"Step 6: 在新K线开盘时入场做空，经历短暂整理后价格扩张下行至目标\"],\"outcome\":\"成功做空，价格从入场点扩张下行，达到预设目标位。交易确认了多时间框架对齐的有效性。\",\"lessons\":\"多时间框架对齐是捕捉扩张走势的关键。必须等待低时间框架结构与高时间框架偏差同向，而不是急于在高时间框架直接入场。流动性扫荡（扫出旧高点）往往先于反转发生，是重要的确认信号。\",\"primary_image_frame_id\":\"ubCe509_JLY_f020\",\"supporting_image_frame_ids\":[\"ubCe509_JLY_f017\",\"ubCe509_JLY_f018\",\"ubCe509_JLY_f019\"],\"related_concepts\":[\"Displacement\",\"Order Block\",\"Change in the state of delivery\",\"Liquidity\",\"Fair Value Gap\",\"Multi-timeframe alignment\",\"Propulsion Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线→小时线→5分钟的分析过程，清晰标注了关键价位、结构转变点和入场逻辑，交易结果明确。\"}",
+  "error": null
+}

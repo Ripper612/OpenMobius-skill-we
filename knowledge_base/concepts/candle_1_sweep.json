@@ -1,0 +1,50 @@
+{
+  "card_id": "candle_1_sweep",
+  "type": "merged_concept",
+  "canonical_term": "Candle 1 Sweep",
+  "aliases": [
+    "C1 Sweep"
+  ],
+  "school": "ICT",
+  "definition": "标记高时间框架收盘后第一根低时间框架蜡烛扫出的高时间框架前一根蜡烛的高点，用于识别价格是否突破并反转的初始信号。",
+  "identification_rules": [
+    "在高时间框架蜡烛收盘后，观察低时间框架第一根蜡烛是否触及或穿过前一根高时间框架蜡烛的高点",
+    "指标会在高时间框架图表和低时间框架图表上同时标记出该扫荡点位",
+    "扫荡发生在高时间框架收盘与低时间框架第一根蜡烛形成之间"
+  ],
+  "trading_implication": "Candle 1 Sweep标记了价格在高时间框架收盘后立即扫出的流动性点位。这通常表示市场在新周期开始时测试前期高点，可用于确认趋势反转或延续的初期信号。交易者通过观察是否形成Candle 1 Sweep来判断价格是否会继续推进或反向运行，常与其他设置（如C2、C3、C4）结合使用。",
+  "common_mistakes": [
+    "材料未明确提及常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "CqMIh-Vvhbg",
+      "original_card_id": "CqMIh-Vvhbg_concept_candle_1_sweep",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        546.399,
+        725.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.131424Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

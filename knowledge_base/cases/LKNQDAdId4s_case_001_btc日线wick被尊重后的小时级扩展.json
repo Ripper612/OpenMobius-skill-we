@@ -1,0 +1,98 @@
+{
+  "card_id": "LKNQDAdId4s_case_001_btc日线wick被尊重后的小时级扩展",
+  "type": "case",
+  "title": "BTC日线wick被尊重后的小时级扩展",
+  "related_concepts": [
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "wick",
+    "fair_value_gap",
+    "order_block",
+    "market_structure_shift",
+    "premium_discount_premium_",
+    "equilibrium",
+    "change_in_the_state_of_delivery"
+  ],
+  "school": "ICT",
+  "asset": "BTCUSDT",
+  "timeframe": "1H / 1D",
+  "market_context": "BTC日线形成大幅下跌后的wick结构，价格收回到前一日高点内部。博主通过标记wick的0.5位置，在小时图上观察价格是否尊重该关键水平并形成扩展。",
+  "key_observation": "当日线wick形成并收回到前一日高点内时，wick的0.5位置成为小时级扩展的关键参考。价格开盘后形成低点，随后向上扩展但不穿过0.5位置，表明结构被尊重。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别前一日高点被扫出后收回到范围内的大wick结构（约20620-20180区间）。",
+    "Step 2: 标记该wick的0.5位置（约20400）作为小时级交易的关键水平。",
+    "Step 3: 切换到1小时图，观察价格开盘后是否形成低点。",
+    "Step 4: 确认价格向上扩展但不穿过0.5位置，表明wick被尊重。",
+    "Step 5: 验证小时级K线形成open-low-high-close的完整结构，与日线wick的尊重相对应。"
+  ],
+  "outcome": null,
+  "lessons": "wick的0.5位置是判断价格扩展方向的关键参考。当价格在小时级开盘后形成低点，随后向上扩展但不穿过0.5位置时，表明日线结构被尊重，可用于确认小时级的交易方向和入场区域。",
+  "primary_image": "cards/LKNQDAdId4s/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/LKNQDAdId4s/images/case_001_detail_1.jpg",
+    "cards/LKNQDAdId4s/images/case_001_detail_2.jpg",
+    "cards/LKNQDAdId4s/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 K 线图，时间轴显示日期 15 至 20，底部标注 1H 时间框架。价格刻度范围约从 20080 至 20700。图上有一条水平线及一个矩形标注，均位于约 20240 至 20260 价格区域，横跨日期 15 至 17 区间。日期 15 附近出现一根大阴线，从约 20620 下行至 20380；日期 16 出现另一根大阴线，低点延伸至约 20180。日期 17 出现一根大阳线，随后紧跟一根",
+    "case_001_detail_1.jpg": "图表为日线K线图，时间轴覆盖10月初至10月30日附近，价格刻度范围约19840至20960。图右侧当前价格标签显示20321.25，并有一条水平虚线延伸至全图。图上有一个矩形标注，覆盖约10月7日至9日区间，价格范围约20240至20440。图中可见多根绿色阳线与黑色阴线交替出现，10月14日附近出现一根较大阳线，随后10月15至16日出现两根较大阴线，最新K线主体位于20320附近，下影线延伸",
+    "case_001_detail_2.jpg": "图表为日线K线图，右侧价格刻度范围约从5820至6120。图上可见约4至5根K线：左侧一根黑色K线主体位于5840至5890区间；随后出现一根大绿色K线，主体从约5840延伸至6000；之后两根绿色K线主体位于5980至6040附近，上影线延伸至约6080。右侧价格轴标注当前价6021.75，对应一条水平虚线贯穿全图。图上另有一条短水平实线标注于约6020至6030区间。垂直虚线标注当前日期为Tu",
+    "case_001_detail_3.jpg": "图表为 K 线图，价格刻度范围约从 5968.00 至 6068.00。图右侧当前价标签显示 6039.50，并有一条水平虚线贯穿全图。图上另有两条水平实线，分别位于约 6039 和 6026，向右延伸至图表边缘。Nov 11 15:00 处有一条垂直虚线标注。约 Nov 11 06:00 附近有一个小型蓝色矩形框，覆盖价格区间约 6036 至 6042。Nov 12 附近出现两根主体较长的绿色 "
+  },
+  "sources": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        192.959,
+        372.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了日线wick标记、0.5位置计算、小时级开盘低点形成及扩展过程，关键价位清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:41.655586Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"BTC日线wick被尊重后的小时级扩展\",\"school\":\"ICT\",\"asset\":\"BTCUSDT\",\"timeframe\":\"1H / 1D\",\"market_context\":\"BTC日线形成大幅下跌后的wick结构，价格收回到前一日高点内部。博主通过标记wick的0.5位置，在小时图上观察价格是否尊重该关键水平并形成扩展。\",\"key_observation\":\"当日线wick形成并收回到前一日高点内时，wick的0.5位置成为小时级扩展的关键参考。价格开盘后形成低点，随后向上扩展但不穿过0.5位置，表明结构被尊重。\",\"analysis_steps\":[\"Step 1: 在日线图上识别前一日高点被扫出后收回到范围内的大wick结构（约20620-20180区间）。\",\"Step 2: 标记该wick的0.5位置（约20400）作为小时级交易的关键水平。\",\"Step 3: 切换到1小时图，观察价格开盘后是否形成低点。\",\"Step 4: 确认价格向上扩展但不穿过0.5位置，表明wick被尊重。\",\"Step 5: 验证小时级K线形成open-low-high-close的完整结构，与日线wick的尊重相对应。\"],\"outcome\":null,\"lessons\":\"wick的0.5位置是判断价格扩展方向的关键参考。当价格在小时级开盘后形成低点，随后向上扩展但不穿过0.5位置时，表明日线结构被尊重，可用于确认小时级的交易方向和入场区域。\",\"primary_image_frame_id\":\"LKNQDAdId4s_f008\",\"supporting_image_frame_ids\":[\"LKNQDAdId4s_f007\",\"LKNQDAdId4s_f009\",\"LKNQDAdId4s_f010\"],\"related_concepts\":[\"Wick\",\"Fair Value Gap\",\"Order Block\",\"Market Structure Shift\",\"Premium/Discount\",\"Equilibrium\",\"Change in the state of delivery\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了日线wick标记、0.5位置计算、小时级开盘低点形成及扩展过程，关键价位清晰可读。\"}",
+  "error": null
+}

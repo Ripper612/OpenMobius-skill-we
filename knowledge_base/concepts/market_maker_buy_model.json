@@ -1,0 +1,58 @@
+{
+  "card_id": "market_maker_buy_model",
+  "type": "merged_concept",
+  "canonical_term": "Market maker buy model",
+  "aliases": [
+    "Buy model"
+  ],
+  "school": "ICT",
+  "definition": "价格从卖方流动性（外部范围）扫盘后，转向买方流动性（内部范围）的市场结构模式。通过内部到外部流动性的转换框架化交易机会。",
+  "identification_rules": [
+    "价格先前扫除外部范围流动性（摆动高点之上的订单）",
+    "价格随后进入内部范围流动性（形成FVG或回撤区域）",
+    "价格改变交付状态（CSD），突破前一个有效摆动低点",
+    "价格从内部范围流动性向外部范围流动性移动，预示上升趋势"
+  ],
+  "trading_implication": "买方模型表明机构已扫除卖方流动性后准备推高价格。交易者可在价格进入内部范围流动性时寻找做多机会，以外部范围流动性或前期摆动高点作为目标。该模型可跨越多个时间框架使用，高时间框架提供偏向，低时间框架用于精确入场。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "mwmWNCTEYtY_case_006_audjpy周线至15分钟图高时间框架案例",
+      "video_id": "mwmWNCTEYtY",
+      "title": "AUDJPY周线FVG至15分钟Breaker Block高概率入场"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "3OivsP1j_UE",
+      "original_card_id": "3OivsP1j_UE_concept_market_maker_buy_model",
+      "segment_ids": [
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        351.84000000000003,
+        713.88
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134049Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

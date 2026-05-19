@@ -1,0 +1,99 @@
+{
+  "card_id": "IJcfC6wAPZU_case_003_原油期货_cl_激进位移后的回测入场",
+  "type": "case",
+  "title": "原油期货CL激进位移后的回测入场策略",
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CSD)",
+      "card_id": "change_in_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Opposing Candle",
+      "card_id": "opposing_run",
+      "exists": true
+    },
+    {
+      "term": "Retest Entry",
+      "card_id": "retest_entry",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "displacement",
+    "change_in_state_of_delivery_csd",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "opposing_run",
+    "retest_entry",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "1H",
+  "market_context": "原油期货在日线上扫盘后激进下行，跌幅超预期。价格从约89.50跌至83.00附近，形成明显的Displacement。博主采用回测入场策略而非追逐，等待对立K线形成后再入场。",
+  "key_observation": "激进位移后不应在高点直接入场，而应等待价格回测形成对立K线（opposing candle）或扫除高点后的订单块，以获得更优的入场点位和风险回报比。",
+  "analysis_steps": [
+    "Step 1: 识别日线上的Change in State of Delivery（CSD），确认市场结构转变。",
+    "Step 2: 观察激进下行的Displacement走势，注意价格跌幅超过预期投影范围。",
+    "Step 3: 标记前一日低点（previous day's low）作为第一目标位，约84.00区间。",
+    "Step 4: 等待价格形成反转K线（reversal candle），观察是否有延续信号。",
+    "Step 5: 识别价格上升后再次激进下行的Displacement，跌至接近前日低点但未完全触及。",
+    "Step 6: 观察一系列上升收盘K线进入重要水平（扫除左侧高点），形成潜在的Order Block。",
+    "Step 7: 等待价格回测该Order Block区域，形成对立K线后入场，而非在激进下行时追逐。",
+    "Step 8: 确认入场后的延续信号，观察是否继续下行突破。"
+  ],
+  "outcome": "价格在回测Order Block后形成对立K线，随后继续下行，验证了回测入场策略的有效性。相比激进追逐，该策略提供了更好的风险管理和入场确认。",
+  "lessons": "激进Displacement后不应立即入场；应等待价格回测Fair Value Gap或扫除高点形成的Order Block，形成对立K线后再入场。这样可以避免追逐，获得更优的风险回报比和更强的入场确认信号。",
+  "primary_image": "cards/IJcfC6wAPZU/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/IJcfC6wAPZU/images/case_003_detail_1.jpg",
+    "cards/IJcfC6wAPZU/images/case_003_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图为 CL1! 原油期货 1 小时 K 线图，时间轴覆盖 7 月 27 日至 8 月 3 日。图右下角标注 '1H-1D Model' 及 'Bias: Neutral'。图上可见两个矩形标注区域：一个浅绿色填充矩形位于约 84.00 至 86.00 区间，另一个空心矩形位于约 86.50 至 87.50 区间，右侧另有一个相似空心矩形。图上另有多条带短横线的文字标注，包括 '-2.5'、'-2'",
+    "case_003_detail_1.jpg": "图表为 CL1!（原油期货）1 分钟 K 线图，右下角标注显示 1H-1D Model，Bias: Neutral。可见价格范围约 80.50 至 90.50。图上有一个较大的浅绿色矩形框覆盖约 84.00 至 86.00 区间，另有一个灰色虚线矩形框位于约 86.00 至 87.00 区间。两条蓝色水平线分别位于约 85.38 和 85.00 附近。图左侧当前价标签显示 84.57。约 7 月 ",
+    "case_003_detail_2.jpg": "图表为 CL1! 原油期货 1 小时 K 线图，右下角标注 1H-1D Model、Bias: Neutral、09:00:00。可见价格范围约 80.50 至 90.00。图上有两个浅绿色矩形区域：左侧矩形覆盖约 84.50 至 86.50，右侧矩形覆盖约 82.50 至 85.50。右侧另有两个灰色矩形区域位于约 86.50 至 87.50 区间。图上有多条水平虚线，分别位于约 87.50、8"
+  },
+  "sources": [
+    {
+      "video_id": "IJcfC6wAPZU",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        551.44,
+        731.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对CL原油期货的分析步骤清晰完整，资产代码、时间框架、关键价位（84.00、89.50、83.00）均从图表读出，分析逻辑明确，入场策略和结果都有详细说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:32:59.945009Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油期货CL激进位移后的回测入场策略\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"1H\",\"market_context\":\"原油期货在日线上扫盘后激进下行，跌幅超预期。价格从约89.50跌至83.00附近，形成明显的Displacement。博主采用回测入场策略而非追逐，等待对立K线形成后再入场。\",\"key_observation\":\"激进位移后不应在高点直接入场，而应等待价格回测形成对立K线（opposing candle）或扫除高点后的订单块，以获得更优的入场点位和风险回报比。\",\"analysis_steps\":[\"Step 1: 识别日线上的Change in State of Delivery（CSD），确认市场结构转变。\",\"Step 2: 观察激进下行的Displacement走势，注意价格跌幅超过预期投影范围。\",\"Step 3: 标记前一日低点（previous day's low）作为第一目标位，约84.00区间。\",\"Step 4: 等待价格形成反转K线（reversal candle），观察是否有延续信号。\",\"Step 5: 识别价格上升后再次激进下行的Displacement，跌至接近前日低点但未完全触及。\",\"Step 6: 观察一系列上升收盘K线进入重要水平（扫除左侧高点），形成潜在的Order Block。\",\"Step 7: 等待价格回测该Order Block区域，形成对立K线后入场，而非在激进下行时追逐。\",\"Step 8: 确认入场后的延续信号，观察是否继续下行突破。\"],\"outcome\":\"价格在回测Order Block后形成对立K线，随后继续下行，验证了回测入场策略的有效性。相比激进追逐，该策略提供了更好的风险管理和入场确认。\",\"lessons\":\"激进Displacement后不应立即入场；应等待价格回测Fair Value Gap或扫除高点形成的Order Block，形成对立K线后再入场。这样可以避免追逐，获得更优的风险回报比和更强的入场确认信号。\",\"primary_image_frame_id\":\"IJcfC6wAPZU_f020\",\"supporting_image_frame_ids\":[\"IJcfC6wAPZU_f021\",\"IJcfC6wAPZU_f022\"],\"related_concepts\":[\"Displacement\",\"Change in State of Delivery (CSD)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Opposing Candle\",\"Retest Entry\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对CL原油期货的分析步骤清晰完整，资产代码、时间框架、关键价位（84.00、89.50、83.00）均从图表读出，分析逻辑明确，入场策略和结果都有详细说明。\"}",
+  "error": null
+}

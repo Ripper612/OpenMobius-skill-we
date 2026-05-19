@@ -1,0 +1,64 @@
+{
+  "card_id": "low_time_frame_entry_model",
+  "type": "merged_concept",
+  "canonical_term": "Low Time Frame Entry Model",
+  "aliases": [
+    "LTF Entry Model",
+    "低时间框架入场模型"
+  ],
+  "school": "ICT",
+  "definition": "在1分钟、15秒等低时间框架上，通过组合Displacement、FVG、Order Block、OTE、SMT、Inducement和BPR等ICT概念构建的系统化入场框架，用于精确定位交易入场点。",
+  "identification_rules": [
+    "选定具体的低时间框架（如1分钟或15秒）作为入场分析周期",
+    "在特定Killzone时段内搜索符合模型条件的设置",
+    "识别模型中的核心要素：Liquidity Grab、Displacement、Structure Break、FVG回测、OTE确认等",
+    "验证是否存在额外确认条件（如Internal Range Liquidity、SMT、BPR重叠等）",
+    "确保模型中包含明确的风险回报比要求（通常通过OTE验证）"
+  ],
+  "trading_implication": "该模型提供了一套可复制的低时间框架入场决策框架。交易者需先确定入场时间框架和Killzone，然后在图表上标注并验证是否满足所选模型的全部条件（如Model 1：Liquidity Grab→Structure Break→FVG回测；Model 2-4：加入Internal Range Liquidity；BPR模型：两个相反方向的Displacement重叠）。模型的目的是确保每次入场都有明确的逻辑依据和风险回报比。",
+  "common_mistakes": [
+    "未在正确的Killzone时段内搜索模型，导致交易环境不利",
+    "混淆不同模型的要素组合，例如将Model 1和Model 2的条件混用",
+    "忽视OTE确认，导致风险回报比不足",
+    "未在图表上清晰标注和验证所有模型要素，凭感觉而非规则入场",
+    "试图在高时间框架上应用低时间框架模型，或反之"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "q1NmxUTm4n4_case_005_es_1分钟图的订单块入场",
+      "video_id": "q1NmxUTm4n4",
+      "title": "ES 1分钟图订单块二次入场与目标达成"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "A8UpRZlRzlg",
+      "original_card_id": "A8UpRZlRzlg_concept_low_time_frame_entry_model",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        6.72,
+        338.68
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133886Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

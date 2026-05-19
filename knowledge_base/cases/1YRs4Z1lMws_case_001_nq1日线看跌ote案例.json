@@ -1,0 +1,114 @@
+{
+  "card_id": "1YRs4Z1lMws_case_001_nq1日线看跌ote案例",
+  "type": "case",
+  "title": "NQ1日线看跌OTE案例：从摆动高低点绘制斐波那契寻找空头入场",
+  "related_concepts": [
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Zone",
+      "card_id": "premium_discount_zone",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fibonacci_retracement",
+    "swing_formation",
+    "ote_optimal_trade_entry",
+    "premium_discount_zone",
+    "sellside_liquidity",
+    "premium_discount_premium_",
+    "fair_value_gap",
+    "order_block",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1D",
+  "market_context": "NQ1日线从7月中旬高点约16200下行至8月中旬低点约14900，形成明显的摆动高低点结构。博主以此为例演示如何在看跌场景中应用OTE（最优交易入场点）寻找空头机会。",
+  "key_observation": "价格在OTE区域（0.62-0.79斐波那契回撤水平）回撤后，在0.705中点处触及后继续向下扫除卖方流动性，展示了OTE作为高概率空头入场区域的有效性。",
+  "analysis_steps": [
+    "Step 1: 识别摆动高点（swing high）和摆动低点（swing low），确定下行趋势的起点和终点。",
+    "Step 2: 从摆动高点向摆动低点拖拽斐波那契回撤工具，生成0.79、0.705、0.62等关键水平线。",
+    "Step 3: 定义OTE区域为0.62至0.79之间的价格范围，其中0.705为中点（midpoint）。",
+    "Step 4: 观察价格回撤至OTE区域，在0.705中点处形成反弹K线。",
+    "Step 5: 价格从OTE中点向下突破，扫除低点下方的卖方流动性（Sellside Liquidity），完成看跌交易逻辑。",
+    "Step 6: 检查OTE区域左侧是否存在其他PD数组（如FVG、OB）形成汇聚，增强入场信号的可靠性。"
+  ],
+  "outcome": null,
+  "lessons": "OTE是利用斐波那契回撤在折价区（0.62-0.79）寻找的高概率入场区域。在看跌场景中，价格回撤至OTE中点后向下扫除卖方流动性，体现了机构订单流的典型运动模式。与其他PD数组（FVG、OB）的汇聚能显著提高交易成功率。",
+  "primary_image": "cards/1YRs4Z1lMws/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/1YRs4Z1lMws/images/case_001_detail_1.jpg",
+    "cards/1YRs4Z1lMws/images/case_001_detail_2.jpg",
+    "cards/1YRs4Z1lMws/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "NQ1! 日线 K 线图，时间范围覆盖 2022 年 7 月底至 10 月下旬。图右侧标注有斐波那契回撤水平，标签分别为 0.79、0.62 和 0.5，对应价格区间约在 13200 至 13900 之间。图右侧绘有一个水平矩形框，覆盖价格约 12600 至 13200 区域。左侧价格轴显示当前价格标签 13459.50 与 13291.50。K 线从 8 月初高点约 14500 下行至 9 月底",
+    "case_001_detail_1.jpg": "图表为 NQ1! 日线蜡烛图，右下角标注日期 12/9/2023 及品种标签 NQ1! | D，右上角显示水印 TTrades_edu。左侧价格轴可见范围约从 14400 至 16700，当前价格标签显示 15658.75。图上可见 K 线从六月下旬延伸至十一月，时间轴标注 Jul、Aug、Sep、Oct、Nov 等月份。七月中旬附近出现一处高点约 16200，八月中旬出现一处低点约 14900，",
+    "case_001_detail_2.jpg": "图为教学幻灯片截图，标题栏显示'Anchor Points'，右上角文字说明'Anchored from swing high to swing low'并附有'Liquidity PDF'链接。图中展示一段约10根K线的下行序列，顶部K线处标有弧形括号（swing high），底部K线处标有弧形括号及黄色圆圈高亮（swing low）。右侧绘有6条水平线，标签依次为1、.79、.705、.62、",
+    "case_001_detail_3.jpg": "图表顶部标题栏显示文字'Optimal Trade Entry (OTE)'。图上绘制有斐波那契回撤工具，从摆动高点（标记为1）至摆动低点（标记为0），可见水平线分别标注为1、.79、.705、.62、.5、0。其中.705处水平线以橙色标出，位于.79与.62之间的区域对应OTE区间。K线整体走势从图左上方向右下方延伸，图上可见约20根K线。摆动高点与摆动低点处各有一个弧形标注。图中含水印文字'"
+  },
+  "sources": [
+    {
+      "video_id": "1YRs4Z1lMws",
+      "segment_ids": [
+        "seg_002",
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        78.24,
+        297.44
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了NQ1日线OTE案例的全流程：从摆动点识别、斐波那契绘制、OTE区域定义到价格回撤与流动性扫除的实际表现，关键价位和分析步骤均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:15:52.598552Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ1日线看跌OTE案例：从摆动高低点绘制斐波那契寻找空头入场\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1D\",\"market_context\":\"NQ1日线从7月中旬高点约16200下行至8月中旬低点约14900，形成明显的摆动高低点结构。博主以此为例演示如何在看跌场景中应用OTE（最优交易入场点）寻找空头机会。\",\"key_observation\":\"价格在OTE区域（0.62-0.79斐波那契回撤水平）回撤后，在0.705中点处触及后继续向下扫除卖方流动性，展示了OTE作为高概率空头入场区域的有效性。\",\"analysis_steps\":[\"Step 1: 识别摆动高点（swing high）和摆动低点（swing low），确定下行趋势的起点和终点。\",\"Step 2: 从摆动高点向摆动低点拖拽斐波那契回撤工具，生成0.79、0.705、0.62等关键水平线。\",\"Step 3: 定义OTE区域为0.62至0.79之间的价格范围，其中0.705为中点（midpoint）。\",\"Step 4: 观察价格回撤至OTE区域，在0.705中点处形成反弹K线。\",\"Step 5: 价格从OTE中点向下突破，扫除低点下方的卖方流动性（Sellside Liquidity），完成看跌交易逻辑。\",\"Step 6: 检查OTE区域左侧是否存在其他PD数组（如FVG、OB）形成汇聚，增强入场信号的可靠性。\"],\"outcome\":null,\"lessons\":\"OTE是利用斐波那契回撤在折价区（0.62-0.79）寻找的高概率入场区域。在看跌场景中，价格回撤至OTE中点后向下扫除卖方流动性，体现了机构订单流的典型运动模式。与其他PD数组（FVG、OB）的汇聚能显著提高交易成功率。\",\"primary_image_frame_id\":\"1YRs4Z1lMws_f008\",\"supporting_image_frame_ids\":[\"1YRs4Z1lMws_f002\",\"1YRs4Z1lMws_f004\",\"1YRs4Z1lMws_f007\"],\"related_concepts\":[\"Fibonacci Retracement\",\"Swing High\",\"Swing Low\",\"OTE (Optimal Trade Entry)\",\"Premium/Discount Zone\",\"Sellside Liquidity\",\"PD Array\",\"Fair Value Gap\",\"Order Block\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了NQ1日线OTE案例的全流程：从摆动点识别、斐波那契绘制、OTE区域定义到价格回撤与流动性扫除的实际表现，关键价位和分析步骤均清晰可读。\"}",
+  "error": null
+}

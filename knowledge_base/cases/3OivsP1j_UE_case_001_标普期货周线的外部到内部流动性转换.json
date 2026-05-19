@@ -1,0 +1,103 @@
+{
+  "card_id": "3OivsP1j_UE_case_001_标普期货周线的外部到内部流动性转换",
+  "type": "case",
+  "title": "ES1周线：外部流动性到内部流动性的循环转换",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Buyside Liquidity",
+      "card_id": "buyside_sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sellside Liquidity",
+      "card_id": "sellside_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Swing High",
+      "card_id": "swing_formation",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "liquidity",
+    "buyside_sellside_liquidity",
+    "sellside_liquidity",
+    "swing_formation",
+    "market_structure",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "1W",
+  "market_context": "标普期货在2023年7月创出约4675的摆动高点后，随后下跌至8月低点约4225附近，形成外部流动性（卖方流动性）。价格随后反弹并在9月-10月期间在FVG区域（约4375-4490）进行内部流动性的回测。",
+  "key_observation": "博主展示了价格在外部流动性（摆动低点）与内部流动性（FVG）之间的循环关系：价格从外部流动性反弹至内部流动性进行回测，若不尊重内部流动性则继续向旧高点运行，形成完整的流动性转换周期。",
+  "analysis_steps": [
+    "Step 1: 识别7月末约4675的摆动高点作为初始外部流动性（卖方流动性）",
+    "Step 2: 观察价格在8月下跌至约4225的摆动低点，形成新的外部流动性（买方流动性）",
+    "Step 3: 标记7月末大阴线与后续K线之间形成的FVG（约4380-4430区间）作为内部流动性",
+    "Step 4: 追踪价格从8月低点反弹，进入9月并回测FVG区域（内部流动性）",
+    "Step 5: 观察价格在FVG处的反应，若继续上升则目标指向旧高点；若下破则寻求新的外部流动性",
+    "Step 6: 确认价格尊重内部流动性后继续向上，验证外部→内部→外部的流动性转换循环"
+  ],
+  "outcome": null,
+  "lessons": "市场在外部流动性（摆动高/低点）与内部流动性（FVG）之间循环运行。理解这一关系有助于预测价格的下一步目标：从外部流动性反弹后必然寻求内部流动性回测，回测后若不被破坏则继续向旧高/低点运行。这是市场结构的基本运作逻辑。",
+  "primary_image": "cards/3OivsP1j_UE/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/3OivsP1j_UE/images/case_001_detail_1.jpg",
+    "cards/3OivsP1j_UE/images/case_001_detail_2.jpg",
+    "cards/3OivsP1j_UE/images/case_001_detail_3.jpg",
+    "cards/3OivsP1j_UE/images/case_001_detail_4.jpg",
+    "cards/3OivsP1j_UE/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "ES1! 周线蜡烛图，可见价格范围约从 4150 至 4800。图上标注包括：一条粉色水平带位于约 4600 处，从 7 月末延伸至 9 月；一个灰色矩形框覆盖 8 月整理区域，范围约 4375 至 4500；一个粉色填充矩形覆盖 9 月末至 10 月区间，范围约 4350 至 4475。K 线从 6 月低点约 4225 上行至 7 月末约 4675，随后出现大阴线，之后数根 K 线在 4375 ",
+    "case_001_detail_1.jpg": "图为教学示意性 K 线图，顶部标注文字为 Internal Range Liquidity。图上左侧排列 4 根黑色（阴线）K 线，呈下行序列；右侧排列 4 根绿色（阳线）K 线，呈上行序列。两组 K 线各自对应两条向右延伸的水平线，分别标记各组 K 线实体的高低边界范围，共计 4 条水平线。图上无资产代码、无时间框架、无价格刻度数字。",
+    "case_001_detail_2.jpg": "图为教学示意性 K 线图，顶部标题栏显示文字'Relationship'，页码为 3。图上无资产代码、无时间框架标注、无价格刻度数字。图中绘有两条水平线：上方一条标注为'Internal Range Liquidity'，位于 K 线序列的摆动高点附近；下方一条标注为'External Range Liquidity'，位于 K 线序列左侧低点延伸处。K 线序列整体呈先升后降走势，绿色 K 线集中",
+    "case_001_detail_3.jpg": "图为教学幻灯片第8页，顶部标题为'Relationship'，内含一段无价格刻度的示意性K线图。图上共有三条水平虚线标注：一条位于K线群高点附近，标注为'Internal Range Liquidity'；另外两条分别位于左侧低点区域和右侧低点区域，均标注为'External Range Liquidity'。K线整体走势呈弧形，从左侧低点区域上行至中部高点后向右下方回落，最右侧一根为大实体黑色K",
+    "case_001_detail_4.jpg": "ES1! 周线 K 线图，时间范围覆盖 2023 年 5 月至 2024 年初。图右侧价格轴当前标签显示 4549.50，光标位置标签显示 4356.50。图上有一条粉色水平线，位于约 4790 价位，从 7 月末延伸至 9 月初。图上另有一个细长矩形框，覆盖约 4380 至 4430 价格区间，横跨数根 K 线。K 线序列由绿色与黑色（阴线）交替组成，最低点约在 4390 附近出现于 8 月下旬",
+    "case_001_detail_5.jpg": "ES1! 周线蜡烛图，时间范围覆盖 2023 年 6 月至 2024 年初。图上可见价格范围约从 4150 至 4800。图上标注有一条粉色水平色带位于约 4600 附近，两个粉色填充矩形区域分别覆盖约 4375 至 4490 及 4225 至 4550 的价格区间，另有一个灰色矩形框位于约 4225 至 4400 区间。K 线序列从 7 月高点约 4650 向下延伸至 10 月低点约 4200，"
+  },
+  "sources": [
+    {
+      "video_id": "3OivsP1j_UE",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.48,
+        193.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了ES1周线从2023年5月至2024年初的行情，清晰标注了外部流动性（摆动高低点）和内部流动性（FVG区域），价格数据和时间框架均从图表中直接读取，分析步骤按讲解顺序记录。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:20:20.990076Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES1周线：外部流动性到内部流动性的循环转换\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"1W\",\"market_context\":\"标普期货在2023年7月创出约4675的摆动高点后，随后下跌至8月低点约4225附近，形成外部流动性（卖方流动性）。价格随后反弹并在9月-10月期间在FVG区域（约4375-4490）进行内部流动性的回测。\",\"key_observation\":\"博主展示了价格在外部流动性（摆动低点）与内部流动性（FVG）之间的循环关系：价格从外部流动性反弹至内部流动性进行回测，若不尊重内部流动性则继续向旧高点运行，形成完整的流动性转换周期。\",\"analysis_steps\":[\"Step 1: 识别7月末约4675的摆动高点作为初始外部流动性（卖方流动性）\",\"Step 2: 观察价格在8月下跌至约4225的摆动低点，形成新的外部流动性（买方流动性）\",\"Step 3: 标记7月末大阴线与后续K线之间形成的FVG（约4380-4430区间）作为内部流动性\",\"Step 4: 追踪价格从8月低点反弹，进入9月并回测FVG区域（内部流动性）\",\"Step 5: 观察价格在FVG处的反应，若继续上升则目标指向旧高点；若下破则寻求新的外部流动性\",\"Step 6: 确认价格尊重内部流动性后继续向上，验证外部→内部→外部的流动性转换循环\"],\"outcome\":null,\"lessons\":\"市场在外部流动性（摆动高/低点）与内部流动性（FVG）之间循环运行。理解这一关系有助于预测价格的下一步目标：从外部流动性反弹后必然寻求内部流动性回测，回测后若不被破坏则继续向旧高/低点运行。这是市场结构的基本运作逻辑。\",\"primary_image_frame_id\":\"3OivsP1j_UE_f006\",\"supporting_image_frame_ids\":[\"3OivsP1j_UE_f002\",\"3OivsP1j_UE_f003\",\"3OivsP1j_UE_f004\",\"3OivsP1j_UE_f005\",\"3OivsP1j_UE_f007\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Liquidity\",\"Buyside Liquidity\",\"Sellside Liquidity\",\"Swing High\",\"Swing Low\",\"Market Structure\",\"Order Block\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了ES1周线从2023年5月至2024年初的行情，清晰标注了外部流动性（摆动高低点）和内部流动性（FVG区域），价格数据和时间框架均从图表中直接读取，分析步骤按讲解顺序记录。\"}",
+  "error": null
+}

@@ -1,0 +1,126 @@
+{
+  "card_id": "IPZjNI1B5a0_case_002_ym指数多日连续扩张的均衡点追踪",
+  "type": "case",
+  "title": "YM指数多日连续扩张的均衡点追踪",
+  "related_concepts": [
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Protected Low",
+      "card_id": "protected_swing_protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD Array)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Failure Swings",
+      "card_id": "failure_swings",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "equilibrium_eq",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "protected_swing_protected_high_low",
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "failure_swings",
+    "displacement",
+    "liquidity"
+  ],
+  "school": "ICT",
+  "asset": "YM",
+  "timeframe": "1D / 1H",
+  "market_context": "YM指数经历多日连续下行后形成扩张结构。博主通过日线均衡点（EQ）和日线收盘确认，配合小时线结构寻找扩张延续的交易机会。",
+  "key_observation": "每日收盘都尊重前一日的均衡点来继续上行，形成更高时间框架的灯芯。通过追踪日线EQ和PD数组，可以预测价格在上半部分的支撑和阻力。",
+  "analysis_steps": [
+    "Step 1: 检查当日收盘是否突破前一日的均衡点（EQ），以确定价格方向倾向。",
+    "Step 2: 在日线上标记均衡点和前一日的高低点，识别价格范围的上下半部分。",
+    "Step 3: 在日线上半部分寻找PD数组（FVG、受保护的低点等），作为看涨情景下的支撑。",
+    "Step 4: 下钻到小时线图表，观察盘中价格行为和纽约开盘时段的扩张。",
+    "Step 5: 确认小时线是否扫除范围的一侧，然后交易回到对立面。",
+    "Step 6: 追踪每日收盘对前一日EQ的尊重，形成更高时间框架的灯芯结构。",
+    "Step 7: 为每日确定失效条件和预期的PD数组支撑，以管理风险。"
+  ],
+  "outcome": null,
+  "lessons": "日线均衡点是多日扩张中的关键参考点。每日收盘对前一日EQ的尊重预示着趋势延续。结合小时线PD数组和失败摇摆，可以在上半部分找到高概率的交易设置。",
+  "primary_image": "cards/IPZjNI1B5a0/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/IPZjNI1B5a0/images/case_002_detail_1.jpg",
+    "cards/IPZjNI1B5a0/images/case_002_detail_2.jpg",
+    "cards/IPZjNI1B5a0/images/case_002_detail_3.jpg",
+    "cards/IPZjNI1B5a0/images/case_002_detail_4.jpg",
+    "cards/IPZjNI1B5a0/images/case_002_detail_5.jpg",
+    "cards/IPZjNI1B5a0/images/case_002_detail_6.jpg",
+    "cards/IPZjNI1B5a0/images/case_002_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "图表为日线K线图，价格范围约从39000至48000。图上可见一系列连续阴线从约48000下行至约39500区域，共约15根K线。图上标注有两个矩形框：一个位于约41200至41600价格区间，另一个位于约39500至40000价格区间。两条水平线分别对应约41500和约39600价格位置并向右延伸。最右侧可见一根较大阴线后紧跟一根阳线，位于约39500至40500区间。图左侧价格轴当前标签显示约",
+    "case_002_detail_1.jpg": "图表为 ETH 1 小时 K 线图，右侧价格刻度范围约从 40960 至 43340。图右侧可见一根主体较长的黑色 K 线，主体范围约 40700 至 42800，其上方紧接一根小黑 K 线。随后出现一根绿色 K 线，主体范围约 40700 至 42200。图上有一条贯穿全图的水平虚线，位于约 42087 处。时间轴底部高亮显示 Tue 14 Jan 07:00，光标以黄色十字标记定位于该时间点附",
+    "case_002_detail_2.jpg": "图为K线图，右侧价格刻度显示范围约从38000至43300。图中可见一根大型黑色K线，主体从约42800延伸至40700。其右侧有两根大型绿色K线，主体范围约40700至42600。最右侧K线带有向下延伸至约38500的长下影线。图上有三条水平线标注，分别位于约42360、40560及40320处。另有一个橙黄色矩形框标注于约40320至40560区间。图左侧可见多根K线呈下行后回升走势。",
+    "case_002_detail_3.jpg": "图表为 ETH 1 小时 K 线图，可见价格范围约从 41000 至 43440。图上有两条水平线，分别位于约 42100 和 41480 附近。图右侧可见一根大型黑色实体 K 线与一根大型绿色实体 K 线相邻，两根 K 线主体均跨越约 40600 至 42200 至 42600 区间。图中段有多根 K 线在约 41800 至 42800 区间内横向排列。左侧价格轴在约 42396 处有高亮标签。",
+    "case_002_detail_4.jpg": "图表为1小时K线图，价格范围约从37600至41900。图左侧出现一根大阴线，随后K线在约38000至39500区间内形成多根小实体K线的横盘区域。图中部偏右位置标注有一个黄色矩形框，覆盖约39200至39700价格区间。图右侧出现一根大阴线，下影线延伸至约37700，随后两根大阳线收于约40000附近。图上另有两条水平线，分别位于约38600和38000处。底部工具栏显示时间框架为1h。",
+    "case_002_detail_5.jpg": "图表为 ETH 1 小时 K 线图。图上可见多条水平线，分别位于约 43000、42400、40500、40000 附近。图右侧有三个绿色矩形框纵向排列，覆盖约 41600 至 43200 的价格区间。图中部偏左有两个较小的矩形框标注，位于约 40300 至 40700 区间。图右侧最新数根 K 线呈大实体绿色形态，实体较长。图中部可见价格在约 40300 至 40700 区间内经历多根 K 线横",
+    "case_002_detail_6.jpg": "图为K线图，左上角显示卖价44,002、买价44,004。图右侧价格刻度范围约从43,500至45,100。图中央区域有一根大幅下行K线，随后右侧出现一根大幅上行K线。图中有一条虚线水平线位于约44,002处，另有一条虚线垂直线与黄色十字光标交叉于该水平线附近。图左侧至中部可见多根小实体K线在约44,200至44,400区间内密集排列。底部工具栏显示TradingView PRO标识及绘图工具栏。",
+    "case_002_detail_7.jpg": "图为 TradingView 平台上的 K 线图，左上角显示卖价约 44004、买价约 44005。右侧价格刻度范围约从 41600 至 46100。图上可见多根绿色与黑色 K 线，集中分布在 44700 至 45300 区间。图右下方有一个矩形标注框，覆盖约 43800 至 44200 价格区间内的若干 K 线。图中央叠加了一个'Change interval'弹窗，输入框内显示数字'1'，下方"
+  },
+  "sources": [
+    {
+      "video_id": "IPZjNI1B5a0",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        191.28,
+        549.2
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了多日扩张的分析过程，清晰标注了日线EQ、PD数组、小时线结构，并逐日演示了收盘确认和交易机会的识别方法。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:23.765267Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"YM指数多日连续扩张的均衡点追踪\",\"school\":\"ICT\",\"asset\":\"YM\",\"timeframe\":\"1D / 1H\",\"market_context\":\"YM指数经历多日连续下行后形成扩张结构。博主通过日线均衡点（EQ）和日线收盘确认，配合小时线结构寻找扩张延续的交易机会。\",\"key_observation\":\"每日收盘都尊重前一日的均衡点来继续上行，形成更高时间框架的灯芯。通过追踪日线EQ和PD数组，可以预测价格在上半部分的支撑和阻力。\",\"analysis_steps\":[\"Step 1: 检查当日收盘是否突破前一日的均衡点（EQ），以确定价格方向倾向。\",\"Step 2: 在日线上标记均衡点和前一日的高低点，识别价格范围的上下半部分。\",\"Step 3: 在日线上半部分寻找PD数组（FVG、受保护的低点等），作为看涨情景下的支撑。\",\"Step 4: 下钻到小时线图表，观察盘中价格行为和纽约开盘时段的扩张。\",\"Step 5: 确认小时线是否扫除范围的一侧，然后交易回到对立面。\",\"Step 6: 追踪每日收盘对前一日EQ的尊重，形成更高时间框架的灯芯结构。\",\"Step 7: 为每日确定失效条件和预期的PD数组支撑，以管理风险。\"],\"outcome\":null,\"lessons\":\"日线均衡点是多日扩张中的关键参考点。每日收盘对前一日EQ的尊重预示着趋势延续。结合小时线PD数组和失败摇摆，可以在上半部分找到高概率的交易设置。\",\"primary_image_frame_id\":\"IPZjNI1B5a0_f007\",\"supporting_image_frame_ids\":[\"IPZjNI1B5a0_f008\",\"IPZjNI1B5a0_f009\",\"IPZjNI1B5a0_f010\",\"IPZjNI1B5a0_f011\",\"IPZjNI1B5a0_f012\",\"IPZjNI1B5a0_f013\",\"IPZjNI1B5a0_f014\",\"IPZjNI1B5a0_f015\"],\"related_concepts\":[\"Equilibrium (EQ)\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Protected Low\",\"Premium/Discount Array (PD Array)\",\"Market Structure Shift (MSS)\",\"Change in the state of delivery (CSD)\",\"Failure Swings\",\"Displacement\",\"Liquidity\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了多日扩张的分析过程，清晰标注了日线EQ、PD数组、小时线结构，并逐日演示了收盘确认和交易机会的识别方法。\"}",
+  "error": null
+}

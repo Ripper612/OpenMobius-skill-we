@@ -1,0 +1,103 @@
+{
+  "card_id": "o0v4KQxZbpU_case_016_回测第十四天交易",
+  "type": "case",
+  "title": "第27天低点扫荡后反弹不足，放弃交易",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Sweep",
+      "card_id": "turtle_soup",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Entry Model",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "turtle_soup",
+    "displacement",
+    "fair_value_gap",
+    "breaker_block",
+    "order_block"
+  ],
+  "school": "ICT",
+  "asset": "NAS100",
+  "timeframe": "1D / 1m",
+  "market_context": "回测第十四天。价格在第26天形成扫荡低点，第27天再次扫低后反弹。交易者观察反弹强度，等待第三根K线确认，但反弹不够积极，最终放弃该交易机会。",
+  "key_observation": "价格扫低后反弹缺乏攻击性。交易者期望看到立即的强势位移（aggressive displacement），但只观察到温和回撤，不符合高概率入场条件。",
+  "analysis_steps": [
+    "Step 1: 标记第27天的9:00 a.m.高点和低点作为参考结构。",
+    "Step 2: 识别低点被扫荡（sweep of low），确认流动性被清除。",
+    "Step 3: 标记11:00 a.m.区域作为潜在入场模型参考。",
+    "Step 4: 观察反弹后的价格行为——期望看到立即的强势位移或确认性的回撤。",
+    "Step 5: 评估反弹强度不足，缺乏积极的向上推进，决定不入场。",
+    "Step 6: 识别小型Breaker Block中的Fair Value Gap，但因反弹质量不佳而放弃该交易。"
+  ],
+  "outcome": null,
+  "lessons": "高概率交易需要价格在扫荡流动性后立即展现强势位移。仅有温和反弹而无攻击性推进的价格行为应被放弃。等待第三根K线确认可以避免低质量入场。",
+  "primary_image": "cards/o0v4KQxZbpU/images/case_016_primary.jpg",
+  "supporting_images": [
+    "cards/o0v4KQxZbpU/images/case_016_detail_1.jpg",
+    "cards/o0v4KQxZbpU/images/case_016_detail_2.jpg",
+    "cards/o0v4KQxZbpU/images/case_016_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_016_primary.jpg": "NAS100 1分钟K线图。图表显示从09:00至10:40的价格走势。左侧主图显示K线序列，从09:00至09:30呈下跌趋势，多根黑色K线，随后从09:30至10:40呈上升趋势，多根绿色K线。图上绘有6条水平线，分别位于15000、15450、15750、19350、19750等价格水平。右侧面板显示3个矩形框，分别标注在19350-19750、15450-15750、15000-15450",
+    "case_016_detail_1.jpg": "NAS100 日线图表。左侧为蜡烛图，显示从约 14640 上升至 15960 的价格走势。右侧为多面板视图，包含成交量柱状图（绿色和黑色）。图上标注了三条水平价格线：15541.64、15354.41 和 14640。右侧面板绘制了两个矩形区域：一个在 15354.41 至 15541.64 之间，另一个在 14640 至 15000 之间。价格刻度显示在右侧纵轴上。",
+    "case_016_detail_2.jpg": "NAS100 日线图。图上显示多条水平线标注，均标记为'USDT-SwiftGo'，分别位于约15545、15832、15932、18541、19032等价格水平。图表右侧可见两个矩形框，分别围绕15500-16200和18200-19100价格区间。K线显示一根大型绿色K线和一根大型黑色K线在18500-19000区间内相邻排列，下方区间15500-16200处有多根绿黑相间的K线形成密集排列。",
+    "case_016_detail_3.jpg": "NAS100 日线图。左侧主图显示从约 15640 上升至 18065 的上升趋势，随后下跌回至 15640 附近。图上有三条水平线分别位于 15771.3193884、15687.2500000、15642.6333333。右侧面板显示最近的 K 线走势，包含绿色和黑色蜡烛体。图上标注有三个矩形框，分别对应不同价格区间。整体可见价格范围从 15640 至 18065。"
+  },
+  "sources": [
+    {
+      "video_id": "o0v4KQxZbpU",
+      "segment_ids": [
+        "seg_010"
+      ],
+      "time_range": [
+        906.759,
+        1006.8
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了第27天的分析过程，清晰标记了关键价位、扫荡点、反弹观察和放弃决策的理由。图表和转录文本高度匹配。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:44:11.693401Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"第27天低点扫荡后反弹不足，放弃交易\",\"school\":\"ICT\",\"asset\":\"NAS100\",\"timeframe\":\"1D / 1m\",\"market_context\":\"回测第十四天。价格在第26天形成扫荡低点，第27天再次扫低后反弹。交易者观察反弹强度，等待第三根K线确认，但反弹不够积极，最终放弃该交易机会。\",\"key_observation\":\"价格扫低后反弹缺乏攻击性。交易者期望看到立即的强势位移（aggressive displacement），但只观察到温和回撤，不符合高概率入场条件。\",\"analysis_steps\":[\"Step 1: 标记第27天的9:00 a.m.高点和低点作为参考结构。\",\"Step 2: 识别低点被扫荡（sweep of low），确认流动性被清除。\",\"Step 3: 标记11:00 a.m.区域作为潜在入场模型参考。\",\"Step 4: 观察反弹后的价格行为——期望看到立即的强势位移或确认性的回撤。\",\"Step 5: 评估反弹强度不足，缺乏积极的向上推进，决定不入场。\",\"Step 6: 识别小型Breaker Block中的Fair Value Gap，但因反弹质量不佳而放弃该交易。\"],\"outcome\":null,\"lessons\":\"高概率交易需要价格在扫荡流动性后立即展现强势位移。仅有温和反弹而无攻击性推进的价格行为应被放弃。等待第三根K线确认可以避免低质量入场。\",\"primary_image_frame_id\":\"o0v4KQxZbpU_f034\",\"supporting_image_frame_ids\":[\"o0v4KQxZbpU_f031\",\"o0v4KQxZbpU_f032\",\"o0v4KQxZbpU_f033\"],\"related_concepts\":[\"Liquidity\",\"Sweep\",\"Displacement\",\"Fair Value Gap\",\"Breaker Block\",\"Order Block\",\"Entry Model\",\"Price Action\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了第27天的分析过程，清晰标记了关键价位、扫荡点、反弹观察和放弃决策的理由。图表和转录文本高度匹配。\"}",
+  "error": null
+}

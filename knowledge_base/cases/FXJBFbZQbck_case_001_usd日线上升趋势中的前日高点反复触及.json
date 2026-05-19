@@ -1,0 +1,103 @@
+{
+  "card_id": "FXJBFbZQbck_case_001_usd日线上升趋势中的前日高点反复触及",
+  "type": "case",
+  "title": "USD日线上升趋势中连续触及前日高点的流动性扫荡",
+  "related_concepts": [
+    {
+      "term": "Previous Day High",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Previous Day Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Draw on Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "PD Array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Trend Identification",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "draw_on_liquidity",
+    "order_block",
+    "fair_value_gap",
+    "premium_discount_premium_",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "1D",
+  "market_context": "USD处于明确的日线上升趋势中，从7月低点约102.600向上运行至9月中旬高点约105.700，期间出现多根绿色K线，伴随黑色回调K线形成的PD array结构支撑价格持续走高。",
+  "key_observation": "在上升趋势中，价格连续多日反复触及并突破前日高点，这是识别趋势方向和寻找流动性目标的核心特征。每一根新的日K线都在尝试突破前一日的高点，形成阶梯式上升。",
+  "analysis_steps": [
+    "Step 1: 识别市场结构——确认USD处于日线上升趋势，而非盘整状态，通过观察K线序列整体向上排列。",
+    "Step 2: 标记前日高点——在图表上逐日标记每一个前日高点水平线（约104.440、104.785等），作为流动性目标。",
+    "Step 3: 验证前日高点被反复触及——观察后续K线是否持续突破这些前日高点，确认趋势延续的有效性。",
+    "Step 4: 识别PD array支撑——注意到绿黑交替的K线在104.800-105.600区间形成的订单块结构，为价格提供支撑。",
+    "Step 5: 应用流动性概念——将前日高点作为'draw on liquidity'，用于在低时间框架上寻找最优入场点。"
+  ],
+  "outcome": null,
+  "lessons": "在明确的上升趋势中，前日高点是最可靠的流动性目标。通过问自己'价格更可能触及前日高点还是前日低点'，可以快速确定趋势方向和交易目标。PD array（订单块+FVG组合）支撑这一流动性扫荡过程，使其成为高概率的交易设置基础。",
+  "primary_image": "cards/FXJBFbZQbck/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/FXJBFbZQbck/images/case_001_detail_1.jpg",
+    "cards/FXJBFbZQbck/images/case_001_detail_2.jpg",
+    "cards/FXJBFbZQbck/images/case_001_detail_3.jpg",
+    "cards/FXJBFbZQbck/images/case_001_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图表为 USD 日线蜡烛图，可见价格范围约从 102.600 至 107.600。图右侧价格轴上有绿色高亮标签显示当前价 106.653，另有一条虚线水平线对应光标位置 104.785。图上约在 104.200 处有一条水平线标注。K 线序列从 8 月中旬延伸至 9 月底，整体以绿色 K 线为主，其中 9 月中旬出现数根绿黑交替的 K 线，集中于 104.800 至 105.600 区间。9 月下",
+    "case_001_detail_1.jpg": "图为 USD 日线（1D）K 线图，右侧价格轴范围约从 102.600 至 107.600，刻度间距为 0.200。图右侧当前价标签高亮显示为 105.441。图上有一条虚线水平线位于 104.440 附近，另有一条短水平线段位于 104.200 区域，对应 Sep 11 至 18 日期间。图上有一条垂直虚线标注于 Fri 22 Sep '23，并附有黄色十字光标。K 线序列从 7 月 10 日延",
+    "case_001_detail_2.jpg": "图表为 USD 日线蜡烛图，可见价格范围约从 1.05400 至 1.11400。K 线序列从左侧约 1.11400 高点向右下方延伸至右侧约 1.06200 低点，时间轴跨越 7 月至 11 月初。图上在约 1.07000 至 1.07200 区域有两条水平线，并在 Sep 至 Oct 区间约 1.07000–1.07600 处标注有一个矩形框。右侧价格轴当前价标签显示约 1.06919，带高亮",
+    "case_001_detail_3.jpg": "图表为日线（1D）K线图，资产代码显示为USD，可见价格范围约从1.05400至1.11400。图左侧有一根较长的绿色K线延伸至1.11400上方。图右侧K线整体呈下行排列，从约1.11000区域向下延伸至约1.05400。图上有一个矩形标注，位于约1.06800至1.07600价格区间，对应时间轴Sep至Oct区域。左侧价格轴当前高亮标签显示1.09310。光标十字线定位于Mon 28 Aug ",
+    "case_001_detail_4.jpg": "图为教学幻灯片，标题为'Previous Day High & Low'，页码为2，底部注明'Daily Timeframe'。图上文字说明Previous Day High & Low为流动性水平，可用作draw on liquidity。图中包含两组示意K线图：左侧为3根绿色K线，右侧为3根黑色K线，每组均标有'Previous Day High'上边界水平线和'Previous Day Lo"
+  },
+  "sources": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.4,
+        190.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了USD日线上升趋势中前日高点被连续触及的完整过程，标记明确，分析步骤有序，图表证据充分。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:25.756059Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD日线上升趋势中连续触及前日高点的流动性扫荡\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"1D\",\"market_context\":\"USD处于明确的日线上升趋势中，从7月低点约102.600向上运行至9月中旬高点约105.700，期间出现多根绿色K线，伴随黑色回调K线形成的PD array结构支撑价格持续走高。\",\"key_observation\":\"在上升趋势中，价格连续多日反复触及并突破前日高点，这是识别趋势方向和寻找流动性目标的核心特征。每一根新的日K线都在尝试突破前一日的高点，形成阶梯式上升。\",\"analysis_steps\":[\"Step 1: 识别市场结构——确认USD处于日线上升趋势，而非盘整状态，通过观察K线序列整体向上排列。\",\"Step 2: 标记前日高点——在图表上逐日标记每一个前日高点水平线（约104.440、104.785等），作为流动性目标。\",\"Step 3: 验证前日高点被反复触及——观察后续K线是否持续突破这些前日高点，确认趋势延续的有效性。\",\"Step 4: 识别PD array支撑——注意到绿黑交替的K线在104.800-105.600区间形成的订单块结构，为价格提供支撑。\",\"Step 5: 应用流动性概念——将前日高点作为'draw on liquidity'，用于在低时间框架上寻找最优入场点。\"],\"outcome\":null,\"lessons\":\"在明确的上升趋势中，前日高点是最可靠的流动性目标。通过问自己'价格更可能触及前日高点还是前日低点'，可以快速确定趋势方向和交易目标。PD array（订单块+FVG组合）支撑这一流动性扫荡过程，使其成为高概率的交易设置基础。\",\"primary_image_frame_id\":\"FXJBFbZQbck_f004\",\"supporting_image_frame_ids\":[\"FXJBFbZQbck_f003\",\"FXJBFbZQbck_f005\",\"FXJBFbZQbck_f006\",\"FXJBFbZQbck_f007\"],\"related_concepts\":[\"Previous Day High\",\"Previous Day Low\",\"Draw on Liquidity\",\"Order Block\",\"Fair Value Gap\",\"PD Array\",\"Market Structure\",\"Trend Identification\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了USD日线上升趋势中前日高点被连续触及的完整过程，标记明确，分析步骤有序，图表证据充分。\"}",
+  "error": null
+}

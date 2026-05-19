@@ -1,0 +1,98 @@
+{
+  "card_id": "LKNQDAdId4s_case_004_高点被扫后wick被不尊重的案例",
+  "type": "case",
+  "title": "高点被扫后wick被不尊重导致反转失败",
+  "related_concepts": [
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Reversal",
+      "card_id": "reversal",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "HTF/LTF Analysis",
+      "card_id": "multiple_timeframe_analysis",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "wick",
+    "fair_value_gap",
+    "order_block",
+    "reversal",
+    "market_structure",
+    "liquidity",
+    "multiple_timeframe_analysis"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "5M",
+  "market_context": "价格在HTF上形成高点后被扫出，在LTF（5分钟）上形成带长wick的反转K线。博主观察价格是否尊重该wick的0.5位置来判断后续方向。",
+  "key_observation": "价格扫出左侧高点后收回形成wick，但在5分钟图上立即穿过wick的0.5位置，表明wick被不尊重，反转失败，价格更可能继续扫高点而非向下扩展。",
+  "analysis_steps": [
+    "Step 1: 在HTF上识别价格扫出的左侧高点及其后形成的带长wick的反转K线",
+    "Step 2: 下钻到5分钟LTF，观察价格开盘后是否尊重该wick的0.5位置",
+    "Step 3: 确认价格收盘穿过wick的0.5位置（closing over 0.5），同时反转FVG被反转",
+    "Step 4: 基于wick被不尊重的信号，判断价格更可能扫出前一根K线的高点而非向下扩展",
+    "Step 5: 观察后续价格确实形成expansion，向上扫出高点，验证分析结论"
+  ],
+  "outcome": "价格未能形成尊重wick的反转，反而扫出前一根K线的低点后向上扩展，最终扫出高点。",
+  "lessons": "当价格在LTF上立即穿过wick的0.5位置时，表明反转失败，wick被不尊重。此时应预期价格继续朝原方向扩展而非反转，这是判断假突破和真实方向的关键信号。",
+  "primary_image": "cards/LKNQDAdId4s/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/LKNQDAdId4s/images/case_004_detail_1.jpg",
+    "cards/LKNQDAdId4s/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为5分钟K线图，日期标注为Wed 13 Nov，右上角水印显示'The Market Lens'。价格轴范围约从2588.0至2626.0。图上有三条水平线，分别位于约2610.0、2602.5和2596.0处，均无文字标签。K线序列中，约10:00处出现一根大阴线，随后在2604至2612区间内有数根K线横向排列。约11:30处再次出现大阴线，之后在2594至2596附近有数根小阳线。约12",
+    "case_004_detail_1.jpg": "图表为蜡烛图，时间框架标注为1H，右上角带有水印文字'The Market Lens'及'Trades_edu'。可见价格范围约从2576.0至2660.0，K线横跨日期12至14。图左侧出现一根较长的阴线，收盘约在2628.0附近，随后K线在2620.0至2632.0区间内形成多根小实体蜡烛。此后价格下行至约2596.0，随后出现数根阳线回升。日期13前后K线在2604.0至2616.0区间内形",
+    "case_004_detail_2.jpg": "图表为1小时K线图，右上角标注'The Market Lens / Trades_edb'水印。图上可见一个矩形框，上边界约在2624.0，下边界约在2596.0，横跨图中大部分K线区域。右侧价格轴当前高亮标签显示2599.3，并有一条虚线水平延伸至图左。图中K线在2600.0至2624.0区间内交替排列，多根K线上影线触及矩形上边界2624.0附近。时间轴显示日期跨越11月13日至14日，当前垂"
+  },
+  "sources": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        372.72,
+        552.16
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例的分析步骤完整清晰，从HTF识别高点到LTF验证wick是否被尊重，再到最终结果确认，逻辑链条完整，关键价位和时间框架均可从图表读出。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:33:40.575243Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"高点被扫后wick被不尊重导致反转失败\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"5M\",\"market_context\":\"价格在HTF上形成高点后被扫出，在LTF（5分钟）上形成带长wick的反转K线。博主观察价格是否尊重该wick的0.5位置来判断后续方向。\",\"key_observation\":\"价格扫出左侧高点后收回形成wick，但在5分钟图上立即穿过wick的0.5位置，表明wick被不尊重，反转失败，价格更可能继续扫高点而非向下扩展。\",\"analysis_steps\":[\"Step 1: 在HTF上识别价格扫出的左侧高点及其后形成的带长wick的反转K线\",\"Step 2: 下钻到5分钟LTF，观察价格开盘后是否尊重该wick的0.5位置\",\"Step 3: 确认价格收盘穿过wick的0.5位置（closing over 0.5），同时反转FVG被反转\",\"Step 4: 基于wick被不尊重的信号，判断价格更可能扫出前一根K线的高点而非向下扩展\",\"Step 5: 观察后续价格确实形成expansion，向上扫出高点，验证分析结论\"],\"outcome\":\"价格未能形成尊重wick的反转，反而扫出前一根K线的低点后向上扩展，最终扫出高点。\",\"lessons\":\"当价格在LTF上立即穿过wick的0.5位置时，表明反转失败，wick被不尊重。此时应预期价格继续朝原方向扩展而非反转，这是判断假突破和真实方向的关键信号。\",\"primary_image_frame_id\":\"LKNQDAdId4s_f019\",\"supporting_image_frame_ids\":[\"LKNQDAdId4s_f017\",\"LKNQDAdId4s_f018\"],\"related_concepts\":[\"Wick\",\"Fair Value Gap\",\"Order Block\",\"Reversal\",\"Market Structure\",\"Liquidity\",\"HTF/LTF Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例的分析步骤完整清晰，从HTF识别高点到LTF验证wick是否被尊重，再到最终结果确认，逻辑链条完整，关键价位和时间框架均可从图表读出。\"}",
+  "error": null
+}

@@ -1,0 +1,101 @@
+{
+  "card_id": "dcIdzqD3kMU_case_003_长影线破坏块案例",
+  "type": "case",
+  "title": "长影线破坏块：用收盘价到最低点标记熊市破坏块",
+  "related_concepts": [
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Wick Analysis",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "breaker_block",
+    "order_block",
+    "fair_value_gap",
+    "equilibrium",
+    "premium_discount_premium_",
+    "market_structure_shift"
+  ],
+  "school": "ICT",
+  "asset": "ES (E-MINI S&P 500 Futures MAR 2023)",
+  "timeframe": "15M",
+  "market_context": "在15分钟图表中，价格形成了HIGH和HH（更高高点），随后创出LL（更低低点），形成了具有长影线的下跌烛体，该烛体作为熊市破坏块被标记。",
+  "key_observation": "博主识别了一根具有长影线的下跌烛体，其收盘价到最低点的距离被用来标记破坏块区域，并使用0.5斐波那契水平作为均衡点，观察价格是否尊重这一关键水平。",
+  "analysis_steps": [
+    "Step 1: 在30分钟图表中识别市场结构，标记HIGH（约4045）和LOW（约4020），以及后续的HH（约4053）和LL（约4012）",
+    "Step 2: 下钻到15分钟图表，找到具有长影线的下跌烛体（熊市破坏块候选）",
+    "Step 3: 使用收盘价到最低点的距离标记破坏块区域，而非仅用烛体本体",
+    "Step 4: 计算0.5斐波那契水平（收盘价到最低点的中点），作为均衡点和关键阻力",
+    "Step 5: 观察后续价格走势是否尊重该均衡点，确认破坏块的有效性"
+  ],
+  "outcome": null,
+  "lessons": "长影线破坏块的标记方法：使用收盘价到最低点而非仅用烛体本体，0.5斐波那契水平作为均衡点。价格尊重均衡点表明破坏块有效，可作为后续交易的关键参考水平。",
+  "primary_image": "cards/dcIdzqD3kMU/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/dcIdzqD3kMU/images/case_003_detail_1.jpg",
+    "cards/dcIdzqD3kMU/images/case_003_detail_2.jpg",
+    "cards/dcIdzqD3kMU/images/case_003_detail_3.jpg",
+    "cards/dcIdzqD3kMU/images/case_003_detail_4.jpg",
+    "cards/dcIdzqD3kMU/images/case_003_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "S&P 500 E-mini Futures 15 分钟图。图上显示从左侧约 4698.50 下跌至中部约 4683.00 的下降趋势，跨越约 8 根 K 线。图中标注有四个文字标签：HIGH、HH、LOW、LL，其中 HIGH 和 LOW 对应两条水平线，分别位于约 4693.50 和 4689.75。一个浅蓝色矩形框标记了 4689.75 至 4693.50 之间的区域。该区域内有多根 K 线",
+    "case_003_detail_1.jpg": "E-MINI S&P 500 期货 3 月合约 15 分钟图。图上标注有四个文字标签：左侧标记为 HIGH 和 HH 的水平线位于 4170.00 附近，标记为 LOW 和 LL 的水平线位于 4158.50 附近。图中央有一条青色矩形区域，跨越约 05:00 至 08:00 时间段，价格范围约 4163.00 至 4170.00。另有一条水平线位于 4165.00。K 线显示从 03:00 开始",
+    "case_003_detail_2.jpg": "E-MINI S&P 500 期货 3 月合约 4 小时图。图表显示从 1 月 20 日至 2 月 3 日的价格走势，价格范围约从 3970 到 4120。图上绿色 K 线表示上涨，黑色 K 线表示下跌。1 月 20-28 日期间呈上升趋势，最高点约 4110-4120；之后 1 月 28 日至 31 日呈下降趋势，最低点约 4020。图右侧显示当前价格标签 4012.75。整个周期内 K 线多数",
+    "case_003_detail_3.jpg": "E-MINI S&P 500 期货 3 月合约 30 分钟图。图上标注四个文字标签：HH 位于约 4644 价位、HIGH 位于约 4040 价位、LOW 位于约 4020 价位、LL 位于约 4008 价位。可见价格范围从 4008 到 4650。图表左侧显示从高位向下的下跌走势，中间部分形成低点，右侧显示从低点向上的上升走势。K 线以绿色和黑色交替出现。图下方有灰色水平带状区域。右侧价格刻度显",
+    "case_003_detail_4.jpg": "E-MINI S&P 500 期货 3 月合约 30 分钟图。图上标注四个水平价格线：HIGH 在 4045.00、LOW 在 4020.00、HH 在 4053.00、LL 在 4012.00。三个浅蓝色矩形区域分别覆盖 HIGH 和 LOW 标注附近的价格范围。K 线从左侧 4062.00 下跌至 4012.00，随后反弹至 4053.00。右侧价格刻度显示当前价 4021.50。图上未见其他",
+    "case_003_detail_5.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上标注两条水平线：HIGH标记在4693.50，LOW标记在4688.71。右侧价格刻度显示范围约4683至4100。图表从16:00开始显示K线序列，包含绿色和黑色蜡烛体交替出现。19:30处有一根较大的黑色K线向下延伸。20:00之后K线集中在HIGH和LOW水平线之间形成整理形态。图上未见其他指标或标注。"
+  },
+  "sources": [
+    {
+      "video_id": "dcIdzqD3kMU",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        275.22,
+        455.699
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主清晰展示了长影线破坏块的标记方法、关键价位（HIGH/LOW/HH/LL）、0.5斐波那契水平的应用，以及价格尊重均衡点的观察过程。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:40:08.875513Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"长影线破坏块：用收盘价到最低点标记熊市破坏块\",\"school\":\"ICT\",\"asset\":\"ES (E-MINI S&P 500 Futures MAR 2023)\",\"timeframe\":\"15M\",\"market_context\":\"在15分钟图表中，价格形成了HIGH和HH（更高高点），随后创出LL（更低低点），形成了具有长影线的下跌烛体，该烛体作为熊市破坏块被标记。\",\"key_observation\":\"博主识别了一根具有长影线的下跌烛体，其收盘价到最低点的距离被用来标记破坏块区域，并使用0.5斐波那契水平作为均衡点，观察价格是否尊重这一关键水平。\",\"analysis_steps\":[\"Step 1: 在30分钟图表中识别市场结构，标记HIGH（约4045）和LOW（约4020），以及后续的HH（约4053）和LL（约4012）\",\"Step 2: 下钻到15分钟图表，找到具有长影线的下跌烛体（熊市破坏块候选）\",\"Step 3: 使用收盘价到最低点的距离标记破坏块区域，而非仅用烛体本体\",\"Step 4: 计算0.5斐波那契水平（收盘价到最低点的中点），作为均衡点和关键阻力\",\"Step 5: 观察后续价格走势是否尊重该均衡点，确认破坏块的有效性\"],\"outcome\":null,\"lessons\":\"长影线破坏块的标记方法：使用收盘价到最低点而非仅用烛体本体，0.5斐波那契水平作为均衡点。价格尊重均衡点表明破坏块有效，可作为后续交易的关键参考水平。\",\"primary_image_frame_id\":\"dcIdzqD3kMU_f016\",\"supporting_image_frame_ids\":[\"dcIdzqD3kMU_f010\",\"dcIdzqD3kMU_f011\",\"dcIdzqD3kMU_f013\",\"dcIdzqD3kMU_f014\",\"dcIdzqD3kMU_f015\"],\"related_concepts\":[\"Breaker Block\",\"Order Block\",\"Fair Value Gap\",\"Equilibrium\",\"Premium/Discount\",\"Market Structure Shift\",\"Wick Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主清晰展示了长影线破坏块的标记方法、关键价位（HIGH/LOW/HH/LL）、0.5斐波那契水平的应用，以及价格尊重均衡点的观察过程。\"}",
+  "error": null
+}

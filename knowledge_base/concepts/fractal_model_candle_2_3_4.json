@@ -1,0 +1,63 @@
+{
+  "card_id": "fractal_model_candle_2_3_4",
+  "type": "merged_concept",
+  "canonical_term": "Fractal Model - Candle 2, 3, 4",
+  "aliases": [
+    "C2, C3, C4 Model",
+    "Three-Candle Fractal Model"
+  ],
+  "school": "ICT",
+  "definition": "TTrades交易框架中的三蜡烛周期模型。Candle 2为反转蜡烛（大wick），Candle 3为延续或反转蜡烛，Candle 4为延续蜡烛。用于系统化识别趋势反转与延续的交易机会。",
+  "identification_rules": [
+    "Candle 2：识别大wick的反转蜡烛，价格开盘后向一个方向激进运动，随后被相反方向的激进运动抵消，收盘接近开盘价；小wick则支持扩张，不适合作为反转信号。",
+    "Candle 3：在Candle 2反转确认后（需要低时间框架的交付状态改变CSD确认）出现的蜡烛，可能是延续蜡烛（一边倒运动）或反转蜡烛（大wick）。",
+    "Candle 4：总是延续蜡烛，在Candle 3之后形成，继续Candle 2反转后的方向运动。",
+    "关键条件：Candle 2必须保留短期流动性（未完全扫除），才能为Candle 3的延续提供目标。"
+  ],
+  "trading_implication": "该模型用于识别高概率的延续交易机会。当Candle 2形成清晰反转（大wick）且低时间框架确认CSD时，交易者在Candle 3开盘时寻找延续入场，止损设在受保护摆动点，目标指向流动性或公允价值缺口。Candle 3延续比Candle 2反转更容易交易。避免在Candle 2大幅扩张时交易，因易陷入盘整或反转。",
+  "common_mistakes": [
+    "在Candle 2大幅扩张（小wick）时尝试交易，会被困在新的价格阶段、盘整或反转中。",
+    "未等待低时间框架的CSD确认就在Candle 2反转后立即交易，导致虚假信号。",
+    "在Candle 2已完全扫除短期流动性时交易Candle 3，失去明确的延续目标。",
+    "混淆Candle 3的反转与延续，未能区分何时应该改变交易方向。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "qdQYhePcvGE",
+      "original_card_id": "qdQYhePcvGE_concept_fractal_model_candle_2_3_4",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_004",
+        "seg_006",
+        "seg_008",
+        "seg_009",
+        "seg_011",
+        "seg_012",
+        "seg_041"
+      ],
+      "time_range": [
+        11.2,
+        2130.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133101Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

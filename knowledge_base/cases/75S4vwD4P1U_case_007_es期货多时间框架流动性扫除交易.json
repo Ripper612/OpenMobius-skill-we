@@ -1,0 +1,113 @@
+{
+  "card_id": "75S4vwD4P1U_case_007_es期货多时间框架流动性扫除交易",
+  "type": "case",
+  "title": "ES期货多时间框架流动性扫除与Breaker Block交易",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity / Sellside Liquidity (SSL)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Unicorn Model",
+      "card_id": "unicorn_model",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Higher Time Frame (HTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Lower Time Frame (LTF)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "breaker_block",
+    "premium_discount_premium_",
+    "unicorn_model",
+    "market_structure_shift_mss",
+    "displacement"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "60M / 5M",
+  "market_context": "ES期货在2023年11月15日从60分钟高时间框架展现PD array结构，价格从内部流动性向外部流动性移动，卖方流动性在高位被扫除后形成Breaker Block。",
+  "key_observation": "博主展示了从60分钟到5分钟的多时间框架分析：先在HTF识别PD array和卖方流动性位置，再在LTF确认Breaker Block与FVG重叠的高概率入场点，最终因价格反向突破止损位而出场。",
+  "analysis_steps": [
+    "Step 1: 在ES 60分钟图表上识别高时间框架PD array结构，观察价格从内部流动性向外部流动性的移动方向。",
+    "Step 2: 标记60分钟图表上的卖方流动性（Sellside Liquidity）位置，确认该区域为扫除目标。",
+    "Step 3: 下钻至5分钟图表，观察价格是否创出更高的高点（higher high）和更低的低点（lower low），确认Unicorn Model结构。",
+    "Step 4: 在5分钟图表上识别一系列向上收盘的K线作为Breaker Block，并确认其与FVG重叠。",
+    "Step 5: 在FVG区域设置多头入场，止损设置在Breaker Block下方。",
+    "Step 6: 目标设置为等低点（equal lows），追踪交易执行结果。",
+    "Step 7: 价格被填充后，因突破Breaker Block下方的止损位而出场，产生亏损。"
+  ],
+  "outcome": "交易被止损出场。博主强调这个例子展示了交易中不可避免的亏损，用以说明风险管理的重要性。",
+  "lessons": "多时间框架分析需要从HTF的宏观结构（PD array、流动性位置）向LTF的微观入场点（Breaker Block、FVG）逐层深入。Breaker Block与FVG的重叠提供高概率入场，但止损必须严格执行。亏损是交易的必然部分，风险管理比追求完美胜率更重要。",
+  "primary_image": "cards/75S4vwD4P1U/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/75S4vwD4P1U/images/case_007_detail_1.jpg",
+    "cards/75S4vwD4P1U/images/case_007_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "图表为 ES1! 期货 5 分钟 K 线图，日期标注为 2023 年 11 月 15 日，来源标注为 TTrader_edu。图上可见三个矩形标注区域：一个黄色水平矩形横跨约 04:30 至 09:50 时段，价格范围约 4562 至 4568；一个浅绿色矩形覆盖约 10:00 至 13:00 时段，价格范围约 4575 至 4598；一个灰色矩形内含对角虚线，覆盖约 09:30 至 13:00 ",
+    "case_007_detail_1.jpg": "图表为 ES1! 60 分钟 K 线图，日期标注为 2023 年 11 月 15 日。可见价格范围约从 4532 至 4608。图上有一个黄色/米色填充矩形标注，横跨多根 K 线，价格区间约在 4566 至 4572 之间。右侧价格轴当前高亮标签显示 4576.25。图左侧可见数根绿色大实体 K 线，随后 K 线序列整体向右上方延伸至约 4608 区域。图中约 21:00 时间轴处有一条垂直虚线及",
+    "case_007_detail_2.jpg": "ES1! 5 分钟 K 线图，日期标注为 15/11/2023，可见价格范围约 4556.00 至 4595.00。图上有一个浅黄色矩形标注区域，横跨整个图表宽度，价格范围约在 4568.00 至 4571.00 之间。图上另有多个橙色圆点标记，分布于 09:00、09:30、09:45 及 10:30 附近。08:30 附近出现一根向上延伸至约 4591.00 的长影线 K 线，随后 K 线序列"
+  },
+  "sources": [
+    {
+      "video_id": "75S4vwD4P1U",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        639.519,
+        807.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从60分钟到5分钟的分析过程，清晰标注了关键结构（FVG、Breaker Block、流动性），并给出了具体的交易结果（止损出场）。所有关键数字和时间框架均从图表中读取。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:18.228054Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货多时间框架流动性扫除与Breaker Block交易\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"60M / 5M\",\"market_context\":\"ES期货在2023年11月15日从60分钟高时间框架展现PD array结构，价格从内部流动性向外部流动性移动，卖方流动性在高位被扫除后形成Breaker Block。\",\"key_observation\":\"博主展示了从60分钟到5分钟的多时间框架分析：先在HTF识别PD array和卖方流动性位置，再在LTF确认Breaker Block与FVG重叠的高概率入场点，最终因价格反向突破止损位而出场。\",\"analysis_steps\":[\"Step 1: 在ES 60分钟图表上识别高时间框架PD array结构，观察价格从内部流动性向外部流动性的移动方向。\",\"Step 2: 标记60分钟图表上的卖方流动性（Sellside Liquidity）位置，确认该区域为扫除目标。\",\"Step 3: 下钻至5分钟图表，观察价格是否创出更高的高点（higher high）和更低的低点（lower low），确认Unicorn Model结构。\",\"Step 4: 在5分钟图表上识别一系列向上收盘的K线作为Breaker Block，并确认其与FVG重叠。\",\"Step 5: 在FVG区域设置多头入场，止损设置在Breaker Block下方。\",\"Step 6: 目标设置为等低点（equal lows），追踪交易执行结果。\",\"Step 7: 价格被填充后，因突破Breaker Block下方的止损位而出场，产生亏损。\"],\"outcome\":\"交易被止损出场。博主强调这个例子展示了交易中不可避免的亏损，用以说明风险管理的重要性。\",\"lessons\":\"多时间框架分析需要从HTF的宏观结构（PD array、流动性位置）向LTF的微观入场点（Breaker Block、FVG）逐层深入。Breaker Block与FVG的重叠提供高概率入场，但止损必须严格执行。亏损是交易的必然部分，风险管理比追求完美胜率更重要。\",\"primary_image_frame_id\":\"75S4vwD4P1U_f027\",\"supporting_image_frame_ids\":[\"75S4vwD4P1U_f025\",\"75S4vwD4P1U_f026\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Breaker Block\",\"Liquidity / Sellside Liquidity (SSL)\",\"PD array\",\"Unicorn Model\",\"Market Structure Shift (MSS)\",\"Higher Time Frame (HTF)\",\"Lower Time Frame (LTF)\",\"Displacement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从60分钟到5分钟的分析过程，清晰标注了关键结构（FVG、Breaker Block、流动性），并给出了具体的交易结果（止损出场）。所有关键数字和时间框架均从图表中读取。\"}",
+  "error": null
+}

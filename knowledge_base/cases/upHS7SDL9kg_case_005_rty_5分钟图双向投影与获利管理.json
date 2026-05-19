@@ -1,0 +1,106 @@
+{
+  "card_id": "upHS7SDL9kg_case_005_rty_5分钟图双向投影与获利管理",
+  "type": "case",
+  "title": "RTY 5分钟双向投影与获利管理实战",
+  "related_concepts": [
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs/Lows",
+      "card_id": "equal_highs_lows",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Profit Taking",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "standard_deviation_projection",
+    "liquidity",
+    "order_block",
+    "failure_swing",
+    "equal_highs_lows",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "RTY11",
+  "timeframe": "5m",
+  "market_context": "RTY在5分钟图上形成大幅下跌后反转，价格从2490.0附近下跌至2462.5，随后形成反向上升走势，展示投影工具在双向交易中的应用。",
+  "key_observation": "博主通过标准差投影（-1、-2、-2.5）在下跌和上升两个方向上验证目标位，-1投影与等高点重合，-2至-2.5与失败摆动高点对齐，提供双向交易的汇聚信号。",
+  "analysis_steps": [
+    "Step 1: 识别初始下跌走势中的大幅操纵腿（manipulation leg），从2490.0跌至2462.5。",
+    "Step 2: 应用标准差投影工具，标记-1、-2、-2.5三个下行目标位。",
+    "Step 3: 确认价格命中-1投影位后形成整理，随后继续下跌至-2至-2.5区域，与失败摆动高点（failure swings）重合。",
+    "Step 4: 在-2至-2.5区域形成反转信号，价格开始反向上升。",
+    "Step 5: 在上升方向应用投影工具，观察-1投影与等高点（equal highs）的重合。",
+    "Step 6: 确认-1投影作为内部流动性点（internal liquidity point），在盘整范围内成为关键目标。",
+    "Step 7: 监测价格是否突破-1投影高点，进一步上升至-2至-2.5区域的失败摆动高点。"
+  ],
+  "outcome": "价格在下跌中命中-1投影后整理，继续下跌至-2至-2.5目标区域；随后反向上升，-1投影与等高点重合，提供双向交易的汇聚确认。博主建议在-2至-2.5流动性点之前获利，避免过度持仓导致利润回吐。",
+  "lessons": "投影工具在双向交易中提供多重汇聚信号；-1投影常作为内部流动性点和关键支撑阻力；在-2至-2.5目标前获利优于贪心持仓至最终目标；失败摆动与投影重合增强目标区域的可信度。",
+  "primary_image": "cards/upHS7SDL9kg/images/case_005_primary.jpg",
+  "supporting_images": [
+    "cards/upHS7SDL9kg/images/case_005_detail_1.jpg",
+    "cards/upHS7SDL9kg/images/case_005_detail_2.jpg",
+    "cards/upHS7SDL9kg/images/case_005_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_005_primary.jpg": "RTY11 5分钟K线图，价格范围从2452.0至2492.0。图上有多条水平线标注，包括YM11标记在2490.0附近、C2标记在2466.0附近、C4标记在2468.0至2476.0区间。图表显示从07:30至16:40的交易时段。K线形态包括09:00至11:00间的盘整区间，随后11:00至12:30间出现下行走势。14:00附近出现一根大黑K线从2488.0跌至2468.0，随后14:1",
+    "case_005_detail_1.jpg": "RTY11 5分钟K线图，时间范围从05:30至16:00。图上可见价格范围从2462.0至2502.0。标注包括两条水平线分别位于2469.0和2485.0，以及两个矩形框标记为'C2'和'XC2'。图上还有'-2'和'-1'的文字标记。右侧显示'RTY11 (5m)'、'5=1H Model1'、'00:30:00'、'Bias: Neutral'和'SMT (Auto) - W1'等信息。K",
+    "case_005_detail_2.jpg": "USD 5分钟K线图，时间范围从09:00至19:30。图上可见价格范围从2452.0至2496.0。标注有三条水平线分别位于2490.0（标记C2）、2467.0（标记C4）和2462.5（标记C2）。图上有三个矩形框分别围绕这些价格水平。K线形态显示从左侧2474.0上升至2490.0，随后下跌至2462.5，中间在2467.0至2475.0区间出现盘整。15:00处有一根大黑K线从2489.",
+    "case_005_detail_3.jpg": "RTY11 5分钟K线图。图上显示从08:00至19:30的价格走势，价格范围约2460.0至2490.0。图上标注有多条水平线及矩形框：C2标记在2490.0附近、C4标记在2474.0和2468.0处。左侧K线呈下跌走势，中间形成整理区间，右侧出现上升走势伴随绿色K线。图右下角显示'RTY11 (5m)'、'5m-1H Model1'、'80:45:31'、'Risk: Neutral'、'S"
+  },
+  "sources": [
+    {
+      "video_id": "upHS7SDL9kg",
+      "segment_ids": [
+        "seg_014",
+        "seg_015",
+        "seg_016"
+      ],
+      "time_range": [
+        526.9590000000001,
+        670.839
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了RTY 5分钟图的下跌和上升两个方向，清晰标注了投影目标位（-1、-2、-2.5），价格走势与目标的对应关系明确，获利管理策略具体。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:15.064450Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"RTY 5分钟双向投影与获利管理实战\",\"school\":\"ICT\",\"asset\":\"RTY11\",\"timeframe\":\"5m\",\"market_context\":\"RTY在5分钟图上形成大幅下跌后反转，价格从2490.0附近下跌至2462.5，随后形成反向上升走势，展示投影工具在双向交易中的应用。\",\"key_observation\":\"博主通过标准差投影（-1、-2、-2.5）在下跌和上升两个方向上验证目标位，-1投影与等高点重合，-2至-2.5与失败摆动高点对齐，提供双向交易的汇聚信号。\",\"analysis_steps\":[\"Step 1: 识别初始下跌走势中的大幅操纵腿（manipulation leg），从2490.0跌至2462.5。\",\"Step 2: 应用标准差投影工具，标记-1、-2、-2.5三个下行目标位。\",\"Step 3: 确认价格命中-1投影位后形成整理，随后继续下跌至-2至-2.5区域，与失败摆动高点（failure swings）重合。\",\"Step 4: 在-2至-2.5区域形成反转信号，价格开始反向上升。\",\"Step 5: 在上升方向应用投影工具，观察-1投影与等高点（equal highs）的重合。\",\"Step 6: 确认-1投影作为内部流动性点（internal liquidity point），在盘整范围内成为关键目标。\",\"Step 7: 监测价格是否突破-1投影高点，进一步上升至-2至-2.5区域的失败摆动高点。\"],\"outcome\":\"价格在下跌中命中-1投影后整理，继续下跌至-2至-2.5目标区域；随后反向上升，-1投影与等高点重合，提供双向交易的汇聚确认。博主建议在-2至-2.5流动性点之前获利，避免过度持仓导致利润回吐。\",\"lessons\":\"投影工具在双向交易中提供多重汇聚信号；-1投影常作为内部流动性点和关键支撑阻力；在-2至-2.5目标前获利优于贪心持仓至最终目标；失败摆动与投影重合增强目标区域的可信度。\",\"primary_image_frame_id\":\"upHS7SDL9kg_f021\",\"supporting_image_frame_ids\":[\"upHS7SDL9kg_f020\",\"upHS7SDL9kg_f022\",\"upHS7SDL9kg_f023\"],\"related_concepts\":[\"Standard Deviation Projection\",\"Liquidity\",\"Order Block\",\"Failure Swing\",\"Equal Highs/Lows\",\"Market Structure\",\"Risk Management\",\"Profit Taking\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了RTY 5分钟图的下跌和上升两个方向，清晰标注了投影目标位（-1、-2、-2.5），价格走势与目标的对应关系明确，获利管理策略具体。\"}",
+  "error": null
+}

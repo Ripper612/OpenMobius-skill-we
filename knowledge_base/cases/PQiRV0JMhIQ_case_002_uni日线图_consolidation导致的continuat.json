@@ -1,0 +1,96 @@
+{
+  "card_id": "PQiRV0JMhIQ_case_002_uni日线图_consolidation导致的continuat",
+  "type": "case",
+  "title": "UNI日线：consolidation后continuation失败的反向运动",
+  "related_concepts": [
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Continuation",
+      "card_id": "continuation_pattern",
+      "exists": true
+    },
+    {
+      "term": "V-shaped recovery",
+      "card_id": "retracement",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "consolidation",
+    "continuation_pattern",
+    "retracement",
+    "protected_high_low",
+    "order_block",
+    "fair_value_gap",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "UNIUSDT",
+  "timeframe": "1D",
+  "market_context": "UNI日线从约5.5上升至13.75，形成上升趋势。价格在12.8-13.2区间形成consolidation，随后穿过下跌K线但缺乏强势V形反转，最终反向运动。",
+  "key_observation": "虽然价格收盘穿过下跌K线并触及13.75高点，但缺乏快速有力的V形反转特征，反而形成了continuation失败的信号，预示反向运动。",
+  "analysis_steps": [
+    "Step 1: 识别上升趋势中的consolidation区间（12.8-13.2），观察价格在此区域的整理行为。",
+    "Step 2: 注意到一根黑色下跌K线（约12.8-13.0）形成，随后一根绿色K线穿过该下跌K线并收盘至13.75。",
+    "Step 3: 评估这根绿色K线是否形成理想的V形反转：虽然穿过下跌K线，但缺乏快速、有力的反转动能。",
+    "Step 4: 观察后续K线行为，确认缺乏continuation的强势特征（如新高突破、protected swing形成等）。",
+    "Step 5: 识别这是continuation失败的案例，预示价格可能反向运动而非继续上升。"
+  ],
+  "outcome": null,
+  "lessons": "理想的continuation应表现为快速V形反转、形成protected swing、未突破前期高点但有扩张动能。仅穿过下跌K线的收盘不足以确认continuation；需观察后续动能和结构完整性，否则易陷入continuation失败的陷阱。",
+  "primary_image": "cards/PQiRV0JMhIQ/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/PQiRV0JMhIQ/images/case_002_detail_1.jpg",
+    "cards/PQiRV0JMhIQ/images/case_002_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "UNI 日线图表显示从约 5.5 至 13.75 的上升趋势，跨越约 40 根 K 线。图上绘有一条水平线位于 13.2 价格位置，以及一个矩形标注框覆盖约 12.8 至 13.2 的价格区间。K 线序列中绿色和黑色蜡烛交替出现，最右侧区域显示一根黑色 K 线（约 12.8 至 13.0）随后跟随一根绿色 K 线（达 13.2 至 13.75）。图上另有一条黄色水平线位于约 12.4 价格水平。",
+    "case_002_detail_1.jpg": "BTC 1 小时 K 线图。图表显示约 40 根 K 线，价格范围从左侧约 105500 上升至右侧约 119700。K 线以绿色和黑色交替出现，绿色 K 线占多数。大部分 K 线具有上下影线，主体部分宽度不一。图上未见水平线、趋势线、斐波那契工具或其他标注。右下角显示时间戳和交易对信息。",
+    "case_002_detail_2.jpg": "EURUSD 1小时K线图。图表显示从左至右的上升趋势结构，价格范围约1.07500至1.12000。K线序列中绿色和黑色蜡烛交替出现。图上有两个黄色矩形标注框，分别位于约1.10200-1.10600和1.10800-1.11200价格区间。右侧最新K线显示长上影线，收盘价约在1.11800附近。图上可见两条水平参考线，分别在1.11500和1.10000价格水平。除上述标注外，未见其他指标或形"
+  },
+  "sources": [
+    {
+      "video_id": "PQiRV0JMhIQ",
+      "segment_ids": [
+        "seg_005"
+      ],
+      "time_range": [
+        298.0,
+        350.15999999999997
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对UNI案例的分析步骤清晰，资产、时间框架、价格区间、关键形态（consolidation、穿过下跌K线、缺乏V形反转）都有明确讲解，对比理想continuation形成了鲜明对比。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:35:33.310433Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"UNI日线：consolidation后continuation失败的反向运动\",\"school\":\"ICT\",\"asset\":\"UNIUSDT\",\"timeframe\":\"1D\",\"market_context\":\"UNI日线从约5.5上升至13.75，形成上升趋势。价格在12.8-13.2区间形成consolidation，随后穿过下跌K线但缺乏强势V形反转，最终反向运动。\",\"key_observation\":\"虽然价格收盘穿过下跌K线并触及13.75高点，但缺乏快速有力的V形反转特征，反而形成了continuation失败的信号，预示反向运动。\",\"analysis_steps\":[\"Step 1: 识别上升趋势中的consolidation区间（12.8-13.2），观察价格在此区域的整理行为。\",\"Step 2: 注意到一根黑色下跌K线（约12.8-13.0）形成，随后一根绿色K线穿过该下跌K线并收盘至13.75。\",\"Step 3: 评估这根绿色K线是否形成理想的V形反转：虽然穿过下跌K线，但缺乏快速、有力的反转动能。\",\"Step 4: 观察后续K线行为，确认缺乏continuation的强势特征（如新高突破、protected swing形成等）。\",\"Step 5: 识别这是continuation失败的案例，预示价格可能反向运动而非继续上升。\"],\"outcome\":null,\"lessons\":\"理想的continuation应表现为快速V形反转、形成protected swing、未突破前期高点但有扩张动能。仅穿过下跌K线的收盘不足以确认continuation；需观察后续动能和结构完整性，否则易陷入continuation失败的陷阱。\",\"primary_image_frame_id\":\"PQiRV0JMhIQ_f011\",\"supporting_image_frame_ids\":[\"PQiRV0JMhIQ_f010\",\"PQiRV0JMhIQ_f012\"],\"related_concepts\":[\"Consolidation\",\"Continuation\",\"V-shaped recovery\",\"Protected Swing\",\"Order Block\",\"Fair Value Gap\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对UNI案例的分析步骤清晰，资产、时间框架、价格区间、关键形态（consolidation、穿过下跌K线、缺乏V形反转）都有明确讲解，对比理想continuation形成了鲜明对比。\"}",
+  "error": null
+}

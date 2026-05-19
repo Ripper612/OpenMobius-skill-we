@@ -1,0 +1,118 @@
+{
+  "card_id": "SlWxhzhLo3A_case_001_白银小时图反转扩张案例",
+  "type": "case",
+  "title": "白银小时图浅层对抗反转扩张至均衡点",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Shallow opposing run",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Small wick",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Reversal expansion",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Fractal model",
+      "card_id": "aligned_timeframe",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift_mss",
+    "change_in_the_state_of_delivery_csd",
+    "equilibrium_eq",
+    "displacement",
+    "aligned_timeframe",
+    "power_of_3_indicator"
+  ],
+  "school": "ICT",
+  "asset": "XAGUSD",
+  "timeframe": "1H",
+  "market_context": "白银经历两日大幅扩张后，在前一日高点形成浅层对抗运动和小影线，市场结构转变确认支持向下反转扩张至均衡点。",
+  "key_observation": "前一日高点处形成浅层对抗运动（shallow opposing run）配合小影线，市场结构转变（CSD）确认后，支持价格向下扩张至均衡点（EQ）。",
+  "analysis_steps": [
+    "Step 1: 识别两日大幅扩张形成的新阶段条件，评估可能的反转、回撤或整理场景。",
+    "Step 2: 标记前一日高点（约40.500）作为反转交易的关键兴趣点。",
+    "Step 3: 观察价格在前一日高点上方形成浅层对抗运动，伴随小影线（相对日线范围较小）。",
+    "Step 4: 确认市场结构转变（CSD）出现，指示器标记该转变，验证反转信号有效性。",
+    "Step 5: 基于小影线和CSD确认，预期价格向下扩张至均衡点（约38.750）。",
+    "Step 6: 观察价格在纽约盘初期完成向下扩张至均衡点，允许纽约盘继续向下扩张。",
+    "Step 7: 次日确认分形模型，K线2收盘伴随CSD，标记K线3的预期反转区域。"
+  ],
+  "outcome": "价格在前一日高点形成浅层对抗运动后，通过市场结构转变确认，向下扩张至均衡点（约38.750），在纽约盘初期完成扩张，支持后续继续向下运行。",
+  "lessons": "浅层对抗运动配合小影线和市场结构转变确认，是识别反转扩张的关键。时间管理重要——反转应在纽约盘前形成，为纽约盘扩张留出空间。分形模型在K线2收盘时确认，预示K线3的交易机会。",
+  "primary_image": "cards/SlWxhzhLo3A/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/SlWxhzhLo3A/images/case_001_detail_1.jpg",
+    "cards/SlWxhzhLo3A/images/case_001_detail_2.jpg",
+    "cards/SlWxhzhLo3A/images/case_001_detail_3.jpg",
+    "cards/SlWxhzhLo3A/images/case_001_detail_4.jpg",
+    "cards/SlWxhzhLo3A/images/case_001_detail_5.jpg",
+    "cards/SlWxhzhLo3A/images/case_001_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "USD 1 小时 K 线图。图上显示价格从 38.125 上升至 40.000 附近，随后在 39.875 至 40.125 区间内形成盘整，包含多根绿色和黑色 K 线。之后价格下跌至 39.500 附近。图右侧显示一根大幅绿色 K 线从 39.125 上升至 39.500，上方有粉色标记。图上有三条水平虚线分别位于 40.000、39.625 和 38.750 处。右下角标注显示'S311 (1",
+    "case_001_detail_1.jpg": "图上展示一段烛线序列，标题为'Risk of large wick reversal candle'。左侧至中心区域呈上升趋势，由交替的绿色和黑色烛线组成。中心位置有一根浅绿色烛线，其下影线明显延伸。右侧最后一根烛线为绿色，主体较大，上下影线较小。整体未显示具体价格刻度或时间框架信息。",
+    "case_001_detail_2.jpg": "USD 1 小时 K 线图。图上显示从左侧 38.000 至右侧 40.125 的价格范围。K 线序列呈上升趋势，从约 38.000 上升至 39.625，期间约 12 根 K 线。图上有三条水平虚线分别位于 39.000、39.625 和 38.875 处。在 39.500 至 39.625 区间内有一个矩形标注框。右侧显示一根大型绿色 K 线，其上方有一根黑色 K 线带上影线。图右下角标注显示",
+    "case_001_detail_3.jpg": "USD 1小时K线图。图表显示从左侧约38.000上升至右侧40.500的上升趋势，跨越多根K线。图上有三条水平虚线分别位于39.840、39.625和38.750。右侧绘有一条红色曲线从40.500的峰值下降至约39.625。图上标注有两个矩形框分别位于39.500-39.750和38.625-38.875价格区间。右下角显示时间戳21:00:00及'Bias: Neutral'文字。",
+    "case_001_detail_4.jpg": "USD 1小时K线图。图表显示从左侧约38.000上升至右侧约40.375的价格走势。图上有两条水平虚线分别位于39.750和38.625。中间区域约13:00处有一条竖虚线标记。K线以绿色为主，部分区间内混有黑色K线。在39.625至40.000区间内有多根K线形成整理形态。左下角显示时间标记为12:00、18:00、21:00等，右下角显示当前时间信息为14:00:00及Bias标记为Neut",
+    "case_001_detail_5.jpg": "图表显示 USD 资产的 K 线图。价格范围从 38.125 到 40.375。图上有两条水平虚线分别位于 39.880 和 39.940。左侧显示上升趋势，从 38.125 开始逐步上升至 40.000 附近，期间包含多根绿色和黑色 K 线混合。中部区域在 39.875 至 40.000 之间出现盘整，约 4 根 K 线。13:00 处出现向下跳空至 39.500。右侧显示一根大型绿色 K 线从",
+    "case_001_detail_6.jpg": "SPY 1 小时 K 线图。图上显示从左侧 37.750 开始的上升趋势，约 12 根 K 线内上升至 40.000 附近。随后出现回调，下跌至 38.750 附近。图上有一条虚线水平线位于 38.750 处，以及一个矩形框标注在 38.750 至 39.625 价格区间。右侧显示文字标签'S1I1 (1H)'、'1H:30 Neutral'、'01:00:00'、'Bias: Neutral'。"
+  },
+  "sources": [
+    {
+      "video_id": "SlWxhzhLo3A",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_011",
+        "seg_012"
+      ],
+      "time_range": [
+        370.479,
+        561.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了反转扩张的全过程：前一日高点标记、浅层对抗运动识别、CSD确认、向下扩张至EQ、时间管理、分形模型确认等步骤清晰，价格位置和时间框架明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:05.502970Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"白银小时图浅层对抗反转扩张至均衡点\",\"school\":\"ICT\",\"asset\":\"XAGUSD\",\"timeframe\":\"1H\",\"market_context\":\"白银经历两日大幅扩张后，在前一日高点形成浅层对抗运动和小影线，市场结构转变确认支持向下反转扩张至均衡点。\",\"key_observation\":\"前一日高点处形成浅层对抗运动（shallow opposing run）配合小影线，市场结构转变（CSD）确认后，支持价格向下扩张至均衡点（EQ）。\",\"analysis_steps\":[\"Step 1: 识别两日大幅扩张形成的新阶段条件，评估可能的反转、回撤或整理场景。\",\"Step 2: 标记前一日高点（约40.500）作为反转交易的关键兴趣点。\",\"Step 3: 观察价格在前一日高点上方形成浅层对抗运动，伴随小影线（相对日线范围较小）。\",\"Step 4: 确认市场结构转变（CSD）出现，指示器标记该转变，验证反转信号有效性。\",\"Step 5: 基于小影线和CSD确认，预期价格向下扩张至均衡点（约38.750）。\",\"Step 6: 观察价格在纽约盘初期完成向下扩张至均衡点，允许纽约盘继续向下扩张。\",\"Step 7: 次日确认分形模型，K线2收盘伴随CSD，标记K线3的预期反转区域。\"],\"outcome\":\"价格在前一日高点形成浅层对抗运动后，通过市场结构转变确认，向下扩张至均衡点（约38.750），在纽约盘初期完成扩张，支持后续继续向下运行。\",\"lessons\":\"浅层对抗运动配合小影线和市场结构转变确认，是识别反转扩张的关键。时间管理重要——反转应在纽约盘前形成，为纽约盘扩张留出空间。分形模型在K线2收盘时确认，预示K线3的交易机会。\",\"primary_image_frame_id\":\"SlWxhzhLo3A_f018\",\"supporting_image_frame_ids\":[\"SlWxhzhLo3A_f011\",\"SlWxhzhLo3A_f014\",\"SlWxhzhLo3A_f015\",\"SlWxhzhLo3A_f016\",\"SlWxhzhLo3A_f017\",\"SlWxhzhLo3A_f019\"],\"related_concepts\":[\"Market Structure Shift (MSS)\",\"Change in the state of delivery (CSD)\",\"Equilibrium (EQ)\",\"Displacement\",\"Shallow opposing run\",\"Small wick\",\"Reversal expansion\",\"Fractal model\",\"Power of 3\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了反转扩张的全过程：前一日高点标记、浅层对抗运动识别、CSD确认、向下扩张至EQ、时间管理、分形模型确认等步骤清晰，价格位置和时间框架明确。\"}",
+  "error": null
+}

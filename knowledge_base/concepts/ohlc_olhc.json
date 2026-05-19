@@ -1,0 +1,53 @@
+{
+  "card_id": "ohlc_olhc",
+  "type": "merged_concept",
+  "canonical_term": "OHLC / OLHC",
+  "aliases": [
+    "K线开盘高低收盘顺序",
+    "Open High Low Close",
+    "Open Low High Close"
+  ],
+  "school": "ICT",
+  "definition": "描述高时间框架K线内的价格序列顺序。OHLC表示开盘→高点→低点→收盘；OLHC表示开盘→低点→高点→收盘。用于识别日内价格结构和趋势方向。",
+  "identification_rules": [
+    "OHLC：观察K线从开盘价依次形成高点、低点，最后收盘，整体呈现先涨后跌的结构",
+    "OLHC：观察K线从开盘价依次形成低点、高点，最后收盘，整体呈现先跌后涨的结构",
+    "需在高时间框架（如日线）上识别，观察整根K线的四个关键价格点的时间顺序"
+  ],
+  "trading_implication": "OHLC/OLHC是识别Power of Three（积累-操纵-派发）模型的基础。OHLC结构通常预示下跌分布，OLHC结构预示上涨分布。通过识别这两种结构，交易者可在操纵阶段寻找反转入场机会，或在派发阶段寻找延续交易机会，从而捕捉日内主要波幅。",
+  "common_mistakes": [
+    "混淆OHLC和OLHC的含义，导致对后续派发方向判断错误",
+    "仅关注K线形态而忽视高时间框架的订单流和流动性背景，陷入纯形态交易"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "original_card_id": "TCFvsZeYvV8_concept_open_high_low_close_open_low_high_close_",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.36,
+        192.4
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:57:36.649287Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

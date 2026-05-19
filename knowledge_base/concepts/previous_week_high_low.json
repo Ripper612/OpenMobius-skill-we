@@ -1,0 +1,148 @@
+{
+  "card_id": "previous_week_high_low",
+  "type": "merged_concept",
+  "canonical_term": "Previous Week High/Low",
+  "aliases": [
+    "Prior Week High/Low",
+    "Weekly High/Low"
+  ],
+  "school": "Price Action",
+  "definition": "前一周的最高价与最低价，作为更高时间框架的流动性参考水平。价格在当前周期内通常会向这两个水平之一移动，可用于判断趋势延续（Draw On Liquidity）或反转（Failure to Displace），盘整状态除外。",
+  "identification_rules": [
+    "在日线或周线图上标记前一个完整交易周（通常周一至周五）的最高价，作为 Previous Week High",
+    "在日线或周线图上标记前一个完整交易周的最低价，作为 Previous Week Low",
+    "将这两个价格水平以水平线延伸至当前周，持续观察价格与这些水平的互动",
+    "识别价格是否触及、突破或未能突破（Failure to Displace）这些周级别高低点",
+    "价格非盘整状态时，预期价格会向前周高点或低点之一移动；盘整状态下不强制预期方向性突破"
+  ],
+  "trading_implication": "Previous Week High/Low 作为关键流动性水平，有两种主要用途：(1) Draw On Liquidity 框架——趋势向上时预期触及前周高点，趋势向下时预期触及前周低点；(2) Reversal 框架——价格触及前周高/低点但 Failure to Displace，可预期反转。结合多时间框架分析，可提升日线级别交易的方向判断与目标位设定精度。",
+  "common_mistakes": [
+    "未在多个时间框架上同时标记 Previous Week High/Low，导致忽视更高级别的流动性结构",
+    "在价格处于盘整状态时，仍然期望价格必然向这些水平方向性移动，而盘整意味着价格可能在区间内波动"
+  ],
+  "related_concepts": [
+    {
+      "term": "Previous Month High/Low",
+      "card_id": "previous_month_high_low",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Draw On Liquidity",
+      "card_id": "draw_on_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Failure to Displace",
+      "card_id": "failure_to_displace",
+      "exists": true
+    },
+    {
+      "term": "Swing Points",
+      "card_id": "swing_points",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Next Day Model",
+      "card_id": "reversal_vs_continuation",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "U8xH2dEgH5A_case_002_eurusd_日线与小时线多时间框架流动性分析",
+      "video_id": "U8xH2dEgH5A",
+      "title": "EURUSD多时间框架流动性分析与交易目标确定"
+    },
+    {
+      "card_id": "YESqIoA7Wyg_case_001_黄金日线月度高低点回测案例",
+      "video_id": "YESqIoA7Wyg",
+      "title": "黄金日线月度高低点回测与流动性识别"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_002_btc_usdt前一周高低点反转案例",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "BTC/USDT前一周高低点反转案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "YESqIoA7Wyg",
+      "original_card_id": "YESqIoA7Wyg_concept_previous_week_high_low",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.44,
+        373.12
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "g3oDYq4P9ZE",
+      "original_card_id": "g3oDYq4P9ZE_concept_previous_week_high_low",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        186.599,
+        541.92
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 2,
+    "source_videos": 2,
+    "high_confidence_sources": 2,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:58:57.168884Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'Price Action']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "1 张 Price Action + 1 张 ICT，票数相同；两者内容高度兼容，均强调流动性框架，按第一张卡 school 填入 Price Action。",
+  "error": null
+}

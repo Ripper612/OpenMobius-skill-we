@@ -1,0 +1,54 @@
+{
+  "card_id": "lower_time_frame_analysis",
+  "type": "merged_concept",
+  "canonical_term": "Lower Time Frame Analysis",
+  "aliases": [
+    "LTF Analysis",
+    "下探低时间框架"
+  ],
+  "school": "ICT",
+  "definition": "当高时间框架出现关键结构（如Mitigation Block或FVG）时，交易者下探至15秒、1分钟等更低时间框架，寻找具体的入场模型和精确的风险回报比设置。",
+  "identification_rules": [
+    "在高时间框架（如5分钟或日线）识别出Mitigation Block或FVG后，切换至更低时间框架（15秒、1分钟）",
+    "在低时间框架内观察价格是否形成明确的模型（如aggressive price action、FVG、OB等）",
+    "确认低时间框架的入场点与高时间框架目标对齐，风险回报比优于直接在高时间框架入场"
+  ],
+  "trading_implication": "低时间框架分析用于精化高时间框架的交易设置。当高时间框架FVG较宽（如16点止损）时，下探低时间框架可找到更紧凑的入场（如4点止损），显著改善风险回报比。同时可在Mitigation Block内寻找FVG或OB，获得多层次的入场确认和更精确的止损位置。",
+  "common_mistakes": [
+    "直接在高时间框架的FVG上入场，导致止损过大（如16点vs 4点）",
+    "下探低时间框架后忽视高时间框架的目标和结构，导致入场方向错误",
+    "在低时间框架等待过久，错过高时间框架的关键移动（displacement）"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "NgFIza9qsGQ",
+      "original_card_id": "NgFIza9qsGQ_concept_lower_time_frame_analysis",
+      "segment_ids": [
+        "seg_002",
+        "seg_004"
+      ],
+      "time_range": [
+        187.799,
+        582.9590000000001
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133958Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

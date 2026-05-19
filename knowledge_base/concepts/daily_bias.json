@@ -1,0 +1,202 @@
+{
+  "card_id": "daily_bias",
+  "type": "merged_concept",
+  "canonical_term": "Daily Bias",
+  "aliases": [
+    "日线偏向",
+    "日线偏差",
+    "日线方向预期",
+    "每日偏向",
+    "每日偏差"
+  ],
+  "school": "ICT",
+  "definition": "基于日线图分析前日高低点突破/位移情况、公允价值缺口及关键摆动结构，判断当日价格预期扩张方向。收盘突破前日高点为看涨偏向，突破前日低点为看跌偏向；收盘在前日高低点之间则无明确偏向。作为低时间框架入场的方向约束框架。",
+  "identification_rules": [
+    "若价格在日线上位移突破前日高点（displacement over previous day high），则为看涨偏向，预期继续触及前日高点",
+    "若价格未能位移突破前日高点（fail to displace over previous day high），则为看跌偏向，预期触及前日低点",
+    "若价格在日线上位移突破前日低点（displace below previous day low），则为看跌偏向，预期继续触及前日低点",
+    "若价格未能位移突破前日低点（fail to displace below previous day low），则为看涨偏向，预期回到前日高点",
+    "若当日收盘价在前日高低点之间，则不存在明确日线偏向，不应进入低时间框架交易",
+    "在日线图上标记关键水平：前日高低点、日线订单块、日线公允价值缺口（FVG）、摆动高低点",
+    "在日线上寻找K线收盘于FVG内部或反转K线收盘回到前一根K线范围内，作为偏向确认信号",
+    "识别日线上的卖方流动性（摆动高点上方）或买方流动性（摆动低点下方）位置，作为流动性目标",
+    "在趋势中，可回溯3天内的前日高低点作为参考水平"
+  ],
+  "trading_implication": "Daily Bias是多时间框架交易的起点与方向约束。确立日线偏向后，交易者逐级下钻至4小时、1小时、15分钟或5分钟图寻找具体入场点，确保交易方向与日线趋势一致。日线关键水平（订单块、FVG、前日高低点）成为低时间框架分析的参考锚点。看涨偏向时在低时间框架寻找向前日高点的做多机会；看跌偏向时寻找向前日低点的做空机会。",
+  "common_mistakes": [
+    "仅基于单日收盘方向或单根K线形态判断偏向，忽视位移（displacement）的关键性",
+    "在结构仍为看跌时因出现上涨K线而改变偏向，应等待结构确认（如订单块验证）后再调整",
+    "未考虑FVG等其他日线结构因素对偏向的影响",
+    "认为每日都能找到交易机会，偏向确定后仍需在低时间框架找到具体入场点",
+    "在日线K线未完全收盘前仓促确定偏向，导致偏向判断被推翻",
+    "忽视日线关键点位（FVG、摆动点）的具体位置，凭感觉判断方向",
+    "确立偏向后不等待低时间框架确认信号就直接交易，违反多时间框架对齐原则",
+    "将收盘价在前日高低点之间的情况误判为有效偏向，应等待明确突破确认",
+    "未确立Daily Bias就直接在小时线或5分钟线寻找交易机会，导致交易方向与日线趋势相悖",
+    "仅基于单根日线K线形态判断偏向，忽视更大周期的市场结构",
+    "日线偏向看跌但价格未能失败突破摆动高点时，仍坚持看跌方向，导致被扫损"
+  ],
+  "related_concepts": [
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Power of 3",
+      "card_id": "power_of_3_indicator",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Candle 2 Closure",
+      "card_id": "candle_2_closure_c2",
+      "exists": true
+    },
+    {
+      "term": "Candle 3 Expansion",
+      "card_id": "candle_3_expansion",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Swing Point",
+      "card_id": "swing_low_swing_high",
+      "exists": true
+    },
+    {
+      "term": "Point of Interest",
+      "card_id": "point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [
+    {
+      "card_id": "8BWkRGhuj1k_case_001_nq1_5月27日至6月2日的扩张_整理_反转交易案例",
+      "video_id": "8BWkRGhuj1k",
+      "title": "NQ1! 5月27日-6月2日扩张-整理-反转交易案例"
+    },
+    {
+      "card_id": "g3oDYq4P9ZE_case_001_ftse日线前一日高低点交易案例",
+      "video_id": "g3oDYq4P9ZE",
+      "title": "FTSE日线前一日高低点流动性追踪案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "original_card_id": "FXJBFbZQbck_concept_daily_bias",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        190.92,
+        502.199
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "FgP2lc9nneM",
+      "original_card_id": "FgP2lc9nneM_concept_daily_bias",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_006",
+        "seg_011",
+        "seg_016"
+      ],
+      "time_range": [
+        11.12,
+        705.519
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "TNybDCtwBnc",
+      "original_card_id": "TNybDCtwBnc_concept_daily_bias",
+      "segment_ids": [
+        "seg_001",
+        "seg_004"
+      ],
+      "time_range": [
+        11.04,
+        256.16
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "wy3OSPxu5U0",
+      "original_card_id": "wy3OSPxu5U0_concept_daily_bias",
+      "segment_ids": [
+        "seg_001",
+        "seg_005",
+        "seg_009",
+        "seg_013"
+      ],
+      "time_range": [
+        10.4,
+        552.24
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 4,
+    "source_videos": 4,
+    "high_confidence_sources": 4,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:56:30.542421Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": "4张原始卡均为ICT，school无冲突。各卡侧重点不同：FXJBFbZQbck侧重位移规则，FgP2lc9nneM侧重FVG与多时间框架candle结构，TNybDCtwBnc侧重收盘价判断，wy3OSPxu5U0侧重流动性与结构，已综合整合。",
+  "error": null
+}

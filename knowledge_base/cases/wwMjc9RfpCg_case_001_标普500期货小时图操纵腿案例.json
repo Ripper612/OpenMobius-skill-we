@@ -1,0 +1,108 @@
+{
+  "card_id": "wwMjc9RfpCg_case_001_标普500期货小时图操纵腿案例",
+  "type": "case",
+  "title": "标普500期货1小时图操纵腿与标准差目标确认",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "Manipulation Leg",
+      "card_id": "manipulation_leg",
+      "exists": true
+    },
+    {
+      "term": "Confluence",
+      "card_id": "confluence",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "fair_value_gap",
+    "displacement",
+    "fibonacci_retracement",
+    "standard_deviation",
+    "manipulation_leg",
+    "confluence",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1H",
+  "market_context": "标普500期货在1小时图上形成从约3840的低点上升至3975的高点，随后快速下跌至3910附近。博主分析了这一上升-下跌周期中的订单块、FVG和标准差目标的对齐情况。",
+  "key_observation": "博主识别出从低点到高点的操纵腿，通过斐波那契回撤工具发现2.5倍标准差与高点几乎完全重合，提供了强有力的汇聚信号，预示价格最终将触及第4倍标准差目标。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别订单块（Order Block）和公允价值缺口（FVG）的位置，约在3880-3920价格范围内。",
+    "Step 2: 从短期低点（约3910）向高点（约3975）绘制斐波那契回撤工具，投影出多个标准差目标水平。",
+    "Step 3: 观察2.5倍标准差水平与高点（3975）的对齐情况，发现两者几乎完全重合，形成强汇聚信号。",
+    "Step 4: 预期价格在不继续向下位移的情况下，应在订单块/FVG区域产生反应或反转。",
+    "Step 5: 跟踪价格走势，确认价格最终触及第4倍标准差目标，验证分析的有效性。"
+  ],
+  "outcome": "价格最终触及第4倍标准差目标，验证了博主基于2.5倍标准差与高点汇聚的预测。",
+  "lessons": "在识别订单块和FVG后，使用斐波那契工具从低点到高点投影标准差目标，当多个技术水平（如2.5倍标准差与摆动高点）对齐时，形成强汇聚信号，提高了后续目标触及的概率。这体现了ICT方法中多重确认的重要性。",
+  "primary_image": "cards/wwMjc9RfpCg/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/wwMjc9RfpCg/images/case_001_detail_1.jpg",
+    "cards/wwMjc9RfpCg/images/case_001_detail_2.jpg",
+    "cards/wwMjc9RfpCg/images/case_001_detail_3.jpg",
+    "cards/wwMjc9RfpCg/images/case_001_detail_4.jpg",
+    "cards/wwMjc9RfpCg/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示从左侧约 3840 开始的上升趋势，最高点达 3975 附近，随后出现下跌至 3900 区域。图右侧有两条水平线分别标记在 3915.00 和 3897.25。图中央下方有一个粉红色矩形区域，纵跨约 3880 至 3920 价格范围。该区域内及其上方有多个小矩形框和圆形标记聚集在 3910 附近。可见价格在 3900 至 3",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图表显示从左侧约 3850 开始的上升趋势，K 线逐步上行至 3975 附近形成高点。随后出现快速下跌，跌至 3910 附近。图右侧显示价格在 3890 至 3920 区间内的盘整，包含多根绿色和黑色 K 线。右侧价格轴标记当前价格为 3910.00，用绿色高亮显示。图上有两条水平参考线分别位于 3910 和 3890 价格水平。底",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 1小时K线图。图表显示从06:00开始的交易活动，价格范围3845至3980。左侧显示一系列绿色K线上升至约3980的高点，随后出现多根黑色K线下跌。图上有两个重叠的粉红色矩形区域标注在3880至3920价格范围内。右侧价格轴显示多条水平参考线，包括3917.00、3891.25和3902.00。图右下角显示Sell和Buy按钮。当前价格标记为3917",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 1 小时 K 线图。图上显示价格范围从 3910 到 4040。右侧价轴标注当前价 3968.25（粉色背景）。图上有一条水平线位于 3971.25 附近，另有文字标签 3972.50。图中可见约 10:00 时刻处有向下跳空缺口，从约 3975 跌至 3915。随后 K 线在 3915 至 3950 区间内形成多根小实体 K 线（绿黑混合），约 11",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 2分钟K线图。图上显示从左侧约4140.00开始的下跌走势，延伸至右侧约4086.00。图表右下方有粉红色矩形区域覆盖4086.00至4102.00价格范围。右侧价格轴标记当前价格4104.00，并显示4101.75和4102.00两条水平线。图上可见多根绿色和黑色K线，其中包含长下影线形态。底部工具栏显示Sell、Buy、Flatten按钮。时间轴显",
+    "case_001_detail_5.jpg": "S&P 500 E-mini Futures 2分钟K线图。图上显示从左侧约4130下跌至4100的下降趋势，随后在4100至4115区间内形成震荡整理。右侧价格刻度标注有4113.00、4103.75、4100.00等水平线。图下方有一条粉红色矩形区域覆盖约4090至4100价格范围。K线由绿色和黑色蜡烛组成，在整理区间内显示多根带上下影线的K线。时间轴显示从07:40至11:20的交易时段。"
+  },
+  "sources": [
+    {
+      "video_id": "wwMjc9RfpCg",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        187.8,
+        364.62
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从订单块识别、FVG定位、斐波那契投影到标准差目标对齐的全过程，价格最终触及第4倍标准差的结果清晰可见，分析逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:47:06.415507Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"标普500期货1小时图操纵腿与标准差目标确认\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1H\",\"market_context\":\"标普500期货在1小时图上形成从约3840的低点上升至3975的高点，随后快速下跌至3910附近。博主分析了这一上升-下跌周期中的订单块、FVG和标准差目标的对齐情况。\",\"key_observation\":\"博主识别出从低点到高点的操纵腿，通过斐波那契回撤工具发现2.5倍标准差与高点几乎完全重合，提供了强有力的汇聚信号，预示价格最终将触及第4倍标准差目标。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别订单块（Order Block）和公允价值缺口（FVG）的位置，约在3880-3920价格范围内。\",\"Step 2: 从短期低点（约3910）向高点（约3975）绘制斐波那契回撤工具，投影出多个标准差目标水平。\",\"Step 3: 观察2.5倍标准差水平与高点（3975）的对齐情况，发现两者几乎完全重合，形成强汇聚信号。\",\"Step 4: 预期价格在不继续向下位移的情况下，应在订单块/FVG区域产生反应或反转。\",\"Step 5: 跟踪价格走势，确认价格最终触及第4倍标准差目标，验证分析的有效性。\"],\"outcome\":\"价格最终触及第4倍标准差目标，验证了博主基于2.5倍标准差与高点汇聚的预测。\",\"lessons\":\"在识别订单块和FVG后，使用斐波那契工具从低点到高点投影标准差目标，当多个技术水平（如2.5倍标准差与摆动高点）对齐时，形成强汇聚信号，提高了后续目标触及的概率。这体现了ICT方法中多重确认的重要性。\",\"primary_image_frame_id\":\"wwMjc9RfpCg_f001\",\"supporting_image_frame_ids\":[\"wwMjc9RfpCg_f009\",\"wwMjc9RfpCg_f010\",\"wwMjc9RfpCg_f011\",\"wwMjc9RfpCg_f012\",\"wwMjc9RfpCg_f013\"],\"related_concepts\":[\"Order Block\",\"Fair Value Gap\",\"Displacement\",\"Fibonacci Retracement\",\"Standard Deviation\",\"Manipulation Leg\",\"Confluence\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从订单块识别、FVG定位、斐波那契投影到标准差目标对齐的全过程，价格最终触及第4倍标准差的结果清晰可见，分析逻辑完整。\"}",
+  "error": null
+}

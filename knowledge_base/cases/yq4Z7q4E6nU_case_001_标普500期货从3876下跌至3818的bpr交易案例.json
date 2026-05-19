@@ -1,0 +1,119 @@
+{
+  "card_id": "yq4Z7q4E6nU_case_001_标普500期货从3876下跌至3818的bpr交易案例",
+  "type": "case",
+  "title": "ES期货3876-3818下跌中的BPR交易设置",
+  "related_concepts": [
+    {
+      "term": "HTF POI",
+      "card_id": "higher_time_frame_point_of_interest",
+      "exists": true
+    },
+    {
+      "term": "BPR",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Box Setup",
+      "card_id": "box_setup",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "OTE",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "higher_time_frame_point_of_interest",
+    "balanced_price_range",
+    "box_setup",
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "displacement",
+    "premium_discount_premium_",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1M",
+  "market_context": "标普500期货在1小时图上识别到HTF POI后，价格在15分钟图确认前期低点未被突破，随后在1分钟图上出现激进下跌至3818，形成BPR或Box设置的入场机会。",
+  "key_observation": "博主演示了在不等待市场结构转变的情况下，通过识别HTF POI与短期高低点的激进回撤组合，形成BPR或Box设置的交易入场方法。",
+  "analysis_steps": [
+    "Step 1: 在1小时图上识别HTF POI（高时间框架关键点），位于约3792-3810和3745-3755区域。",
+    "Step 2: 切换到15分钟图确认前期低点（约3844.25）未被有效突破，说明还没有理由做多。",
+    "Step 3: 切换到1分钟图观察价格激进下跌，从3876下行至3818，跨越约40根K线。",
+    "Step 4: 识别价格在3818触底后激进回升，形成BPR（平衡价格区间）或Box设置。",
+    "Step 5: 在BPR或Box区域（3837.25-3849.75）寻找入场点，目标为内部高点2.6R。"
+  ],
+  "outcome": null,
+  "lessons": "在不依赖市场结构转变的情况下，结合HTF POI与短期高低点的激进回撤可形成高概率入场。BPR/Box设置提供明确的风险定义区域，目标为内部高点2.6R可获得良好的风险回报比。",
+  "primary_image": "cards/yq4Z7q4E6nU/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/yq4Z7q4E6nU/images/case_001_detail_1.jpg",
+    "cards/yq4Z7q4E6nU/images/case_001_detail_2.jpg",
+    "cards/yq4Z7q4E6nU/images/case_001_detail_3.jpg",
+    "cards/yq4Z7q4E6nU/images/case_001_detail_4.jpg",
+    "cards/yq4Z7q4E6nU/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "S&P 500 E-mini 期货 1 分钟 K 线图。图上显示从左侧约 3880 下跌至右侧约 3820 的下行走势，跨越约 40 根 K 线。图右侧中央有两个矩形标注区域：上方绿色矩形范围为 3849.75 至 3843.75，下方粉色矩形范围为 3843.75 至 3837.25。两个矩形之间有一条水平虚线位于 3843.75。最近的 K 线在这两个标注区域内波动。右侧价格刻度显示当前价格约",
+    "case_001_detail_1.jpg": "S&P 500 E-mini Futures 1 分钟图。图上显示从左侧约 3892 下跌至右侧约 3850 的整体下行走势。中间区域出现 3872 至 3876 之间的盘整形态，随后在右侧出现更陡峭的下跌。右侧价格刻度显示当前价位 3854.00 用绿色高亮标记。图上有一条水平线位于 3854.00 附近。底部显示时间轴从 06:45 至 11:30，标注'Sep 27 09:22 08:17'",
+    "case_001_detail_2.jpg": "S&P 500 E-mini Futures 1小时线图。图表为线形走势图，显示价格范围从3714.00至3835.00。图上标注有两个HTF POI区域，分别位于左侧和右侧结构。右侧结构附近显示斐波那契回撤水平线，标记为0.79、0.62和0.5。左侧结构附近也标注有相同的斐波那契水平线。图上有一个米色矩形框突出显示约3798至3810的价格区域。右侧价格刻度显示当前价格标记在3825.25和3",
+    "case_001_detail_3.jpg": "S&P 500 E-mini Futures 1小时线图。图表为线形走势图，显示价格在3710至3840区间内的波动。图上标注两个POI区域，均标记为HTF POI，分别位于约3792-3810和3745-3755价格水平。右侧显示斐波那契回撤水平线，标注为0.79、0.62、0.5和0.0。图上有多条水平线和矩形框标注，用于标识关键价格区域。时间轴显示从22日至28日的交易数据。",
+    "case_001_detail_4.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示从约3810.00至3890.00的价格范围。图表左侧显示早期K线形成整理形态，随后出现向上跳空缺口至约3878.00。中部区域有一根长上影线K线触及3890.00附近高点。图右侧绘有一条水平线位于3844.25处，跨越多根K线。整体K线呈现高波动性特征，多根K线具有较长影线。图右下角显示当前价格标签。",
+    "case_001_detail_5.jpg": "S&P 500 E-mini 期货 1 分钟图。图上显示从约 09:20 至 11:10 的交易时段。价格范围从 3818.00 至 3880.00。早期约 8 根 K 线在 3874 至 3876 区间内震荡。随后出现约 15 根 K 线的下跌，从 3876 下行至 3818。之后约 10 根 K 线呈恢复态势，多数为绿色实体，价格在 3818 至 3850 之间。图右侧近期 K 线在 3843"
+  },
+  "sources": [
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        188.22
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整演示了从HTF分析到LTF入场的全过程，关键价位（3876、3818、3843.75、3849.75）和时间框架清晰可读，BPR设置和目标2.6R明确。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:49:25.859626Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货3876-3818下跌中的BPR交易设置\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1M\",\"market_context\":\"标普500期货在1小时图上识别到HTF POI后，价格在15分钟图确认前期低点未被突破，随后在1分钟图上出现激进下跌至3818，形成BPR或Box设置的入场机会。\",\"key_observation\":\"博主演示了在不等待市场结构转变的情况下，通过识别HTF POI与短期高低点的激进回撤组合，形成BPR或Box设置的交易入场方法。\",\"analysis_steps\":[\"Step 1: 在1小时图上识别HTF POI（高时间框架关键点），位于约3792-3810和3745-3755区域。\",\"Step 2: 切换到15分钟图确认前期低点（约3844.25）未被有效突破，说明还没有理由做多。\",\"Step 3: 切换到1分钟图观察价格激进下跌，从3876下行至3818，跨越约40根K线。\",\"Step 4: 识别价格在3818触底后激进回升，形成BPR（平衡价格区间）或Box设置。\",\"Step 5: 在BPR或Box区域（3837.25-3849.75）寻找入场点，目标为内部高点2.6R。\"],\"outcome\":null,\"lessons\":\"在不依赖市场结构转变的情况下，结合HTF POI与短期高低点的激进回撤可形成高概率入场。BPR/Box设置提供明确的风险定义区域，目标为内部高点2.6R可获得良好的风险回报比。\",\"primary_image_frame_id\":\"yq4Z7q4E6nU_f007\",\"supporting_image_frame_ids\":[\"yq4Z7q4E6nU_f002\",\"yq4Z7q4E6nU_f003\",\"yq4Z7q4E6nU_f004\",\"yq4Z7q4E6nU_f005\",\"yq4Z7q4E6nU_f006\"],\"related_concepts\":[\"HTF POI\",\"BPR\",\"Box Setup\",\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Displacement\",\"OTE\",\"Premium/Discount\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整演示了从HTF分析到LTF入场的全过程，关键价位（3876、3818、3843.75、3849.75）和时间框架清晰可读，BPR设置和目标2.6R明确。\"}",
+  "error": null
+}

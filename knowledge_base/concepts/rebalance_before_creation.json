@@ -1,0 +1,53 @@
+{
+  "card_id": "rebalance_before_creation",
+  "type": "merged_concept",
+  "canonical_term": "Rebalance Before Creation",
+  "aliases": [
+    "创建前回补",
+    "提前回补"
+  ],
+  "school": "ICT",
+  "definition": "价格快速移动时，在FVG形成前就进行回补。K线开盘后快速下来平衡，确保不产生不平衡，然后继续原方向运行。",
+  "identification_rules": [
+    "价格快速上升或下降后，K线开盘于极端位置",
+    "开盘后立即反向运行，回补到前一K线的范围内",
+    "回补完成后价格继续原趋势方向运行",
+    "整个过程中未形成明显的FVG（不平衡区域被完全填补）"
+  ],
+  "trading_implication": "Rebalance Before Creation表明市场在形成FVG前已自我平衡，说明价格快速移动后的短期调整。这种形态常见于强势趋势中，价格不会在该区域停留，而是快速平衡后继续原方向运行。识别此形态有助于判断价格是否会在当前区域反转或继续推进。",
+  "common_mistakes": [
+    "将回补过程误认为是趋势反转信号，实际上价格平衡后会继续原方向运行",
+    "未能区分Rebalance Before Creation与Rebalance After Creation的不同含义和交易意义"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "opYUBJ8IFgg",
+      "original_card_id": "opYUBJ8IFgg_concept_rebalance_before_creation",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        77.52,
+        137.239
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135271Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

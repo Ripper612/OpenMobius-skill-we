@@ -1,0 +1,55 @@
+{
+  "card_id": "futures_currency_trading_strategy",
+  "type": "merged_concept",
+  "canonical_term": "Futures Currency Trading Strategy",
+  "aliases": [
+    "Currency Futures Pairing Strategy",
+    "Forex Futures Trading Rules"
+  ],
+  "school": "Price Action",
+  "definition": "根据美元趋势状态，通过配对强弱货币期货来捕捉趋势的交易方法。美元趋势时配对相反方向货币；美元盘整时配对两个趋势相反的货币或单独交易最强趋势货币。",
+  "identification_rules": [
+    "美元趋势向上时：找最弱的货币期货配对，形成看跌组合",
+    "美元趋势向下时：找最强的货币期货配对，形成看涨组合",
+    "美元盘整时：找一个看涨货币与一个看跌货币配对，或单独交易趋势最强的货币期货",
+    "若所有货币同向趋势，可用盘整货币与趋势货币配对仍获得趋势"
+  ],
+  "trading_implication": "该策略通过消除美元噪音，直接交易货币间的相对强弱关系。美元趋势时简化为单一期货交易（最强或最弱货币）；美元盘整时可交易单个趋势货币或做多弱货币同时做空强货币的对冲组合，提高信号清晰度和交易概率。",
+  "common_mistakes": [
+    "美元趋势时仍尝试配对两个货币，导致信号混乱",
+    "美元盘整时未能识别强弱货币差异，随意配对",
+    "忽视所有货币同向趋势的特殊情况，错过可用盘整货币的配对机会"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "HrjYoxAUb3s",
+      "original_card_id": "HrjYoxAUb3s_concept_futures_currency_trading_strategy",
+      "segment_ids": [
+        "seg_008",
+        "seg_009"
+      ],
+      "time_range": [
+        325.64,
+        403.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133169Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,58 @@
+{
+  "card_id": "phases_of_price_delivery",
+  "type": "merged_concept",
+  "canonical_term": "Phases of Price Delivery",
+  "aliases": [
+    "Price Delivery Phases",
+    "Three Phases of Price Movement"
+  ],
+  "school": "ICT",
+  "definition": "价格运动的三个阶段循环：扩张（快速、强劲的价格移动）、操纵/整理（盘整或横向波动）、回撤（价格回归或反转）。用于判断市场当前所处阶段，指导交易决策。",
+  "identification_rules": [
+    "扩张阶段：价格连续多根K线收盘在前一根K线高点或低点之外，显示强劲的单向动能。",
+    "操纵/整理阶段：价格在一个范围内震荡，K线收盘回到范围内部，缺乏明确方向性。",
+    "回撤阶段：在扩张后出现的浅层反向移动，通常伴随K线收盘回到前一根K线的范围内，或形成失败摆动。",
+    "阶段转换信号：当扩张持续多根K线后，观察下一根K线是否失败收盘在范围外，以判断是否进入操纵或回撤阶段。"
+  ],
+  "trading_implication": "识别价格所处阶段可优化交易时机。在扩张阶段后期，预期进入操纵或回撤，此时应避免逆势交易；在回撤阶段识别反转信号（如收盘回到范围内）可预期下一阶段的延续方向。该概念是分析日线偏差的基础，可跨时间框架应用（日线、小时线、5分钟线等），帮助交易者与市场结构对齐。",
+  "common_mistakes": [
+    "机械性地在每个范围顶部做空或底部做多，忽视价格所处的整体阶段——应结合三阶段模型判断趋势延续还是反转。",
+    "在扩张阶段中期逆势交易，期望立即回撤——应等待扩张完成信号（失败收盘）再考虑反向交易。",
+    "将单根K线的收盘形态与阶段混淆——需要观察多根K线的连续表现来确认所处阶段，而非单根K线决定。",
+    "不同时间框架间的阶段判断不一致——应在高时间框架确认主要阶段后，再在低时间框架寻找具体入场点。"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "caaS6_Q7O78",
+      "original_card_id": "caaS6_Q7O78_concept_phases_of_price_delivery",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        191.599,
+        1033.959
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.134704Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

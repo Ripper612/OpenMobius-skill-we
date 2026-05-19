@@ -1,0 +1,98 @@
+{
+  "card_id": "Njs-eRpeP9Q_case_004_相等高低点作为后续目标案例",
+  "type": "case",
+  "title": "相等高低点作为后续做空目标",
+  "related_concepts": [
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "liquidity",
+    "fair_value_gap",
+    "displacement",
+    "market_structure_shift",
+    "order_block",
+    "premium_discount_premium_",
+    "equilibrium"
+  ],
+  "school": "ICT",
+  "asset": "ES (S&P 500 E-mini Futures)",
+  "timeframe": "1m / 15m",
+  "market_context": "价格在1分钟图表上形成短期高点，随后出现位移和公允价值缺口。博主展示如何识别未被扫除的流动性水平，以及这些相对相等的高低点如何在后续结构转变后成为交易目标。",
+  "key_observation": "两个未被扫除的流动性水平（相对相等的高点和低点）在初次形成时未被触及，但在市场结构转变后，这些相同的价格水平成为做空头寸的有效目标区域。",
+  "analysis_steps": [
+    "Step 1: 在1分钟图表上识别短期高点，观察价格随后的位移和公允价值缺口形成。",
+    "Step 2: 标记第一个流动性水平（高点），确认其未被扫除。",
+    "Step 3: 标记第二个相对相等的流动性水平（低点），同样确认其未被扫除。",
+    "Step 4: 使用斐波那契回撤工具从位移范围绘制，确认入场点位于折价区，形成有效的2022导师设置。",
+    "Step 5: 观察市场结构转变，当结构转变发生时，先前未被扫除的相等高低点转变为后续做空的目标区域。"
+  ],
+  "outcome": null,
+  "lessons": "相对相等的高低点虽然在初次形成时可能未被触及，但它们在市场结构转变后会成为强有力的交易目标。这体现了智能货币如何利用未扫除的流动性来设置后续交易目标的原理。",
+  "primary_image": "cards/Njs-eRpeP9Q/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/Njs-eRpeP9Q/images/case_004_detail_1.jpg",
+    "cards/Njs-eRpeP9Q/images/case_004_detail_2.jpg",
+    "cards/Njs-eRpeP9Q/images/case_004_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "S&P 500 E-mini Futures 1分钟图表。图上显示价格范围从3747.50至3815.75。图表中部有一个粉红色矩形框标注，框体位置约在3755至3775价格区间，涵盖多根K线。图上有三条水平线分别位于3815.75、3777.50和3747.50处。右侧价格轴显示当前价格为3797.50。图表左侧显示早期高点约3815，下方显示低点约3747.50。除矩形框和水平线外，未见其他标",
+    "case_004_detail_1.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上显示价格范围从3743.25至3828.00。图表中绘制了4条蓝色矩形框标注，分别位于不同价格区间。K线呈现绿色和红色混合，显示多根K线在3780至3800区间内波动。图右侧价格刻度显示当前价格在3817.25附近。图上未见其他指标或文字标签。",
+    "case_004_detail_2.jpg": "S&P 500 E-mini Futures 15分钟K线图。图表显示从左至右的K线序列，价格范围约4420至4660。K线以红绿交替形式呈现，显示多个局部高点和低点。右侧最新K线为绿色，对应价格标签4682.25。图上标注有时间戳",
+    "case_004_detail_3.jpg": "S&P 500 E-mini Futures 15分钟K线图。图上绘制一个矩形框，上边界约在4505.50，下边界约在4420.50，框内包含多根绿红相间的K线。矩形框左侧K线显示从更高位置向下运动，框内K线在该区间内反复波动。图右侧价格刻度显示当前价格范围从4400到4540。矩形框外未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "Njs-eRpeP9Q",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        187.76,
+        283.84000000000003
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了分析过程：识别流动性→确认未被扫除→标记相等高低点→结构转变后成为目标。资产、时间框架、关键价位和分析步骤均清晰。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:34:43.769915Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"相等高低点作为后续做空目标\",\"school\":\"ICT\",\"asset\":\"ES (S&P 500 E-mini Futures)\",\"timeframe\":\"1m / 15m\",\"market_context\":\"价格在1分钟图表上形成短期高点，随后出现位移和公允价值缺口。博主展示如何识别未被扫除的流动性水平，以及这些相对相等的高低点如何在后续结构转变后成为交易目标。\",\"key_observation\":\"两个未被扫除的流动性水平（相对相等的高点和低点）在初次形成时未被触及，但在市场结构转变后，这些相同的价格水平成为做空头寸的有效目标区域。\",\"analysis_steps\":[\"Step 1: 在1分钟图表上识别短期高点，观察价格随后的位移和公允价值缺口形成。\",\"Step 2: 标记第一个流动性水平（高点），确认其未被扫除。\",\"Step 3: 标记第二个相对相等的流动性水平（低点），同样确认其未被扫除。\",\"Step 4: 使用斐波那契回撤工具从位移范围绘制，确认入场点位于折价区，形成有效的2022导师设置。\",\"Step 5: 观察市场结构转变，当结构转变发生时，先前未被扫除的相等高低点转变为后续做空的目标区域。\"],\"outcome\":null,\"lessons\":\"相对相等的高低点虽然在初次形成时可能未被触及，但它们在市场结构转变后会成为强有力的交易目标。这体现了智能货币如何利用未扫除的流动性来设置后续交易目标的原理。\",\"primary_image_frame_id\":\"Njs-eRpeP9Q_f008\",\"supporting_image_frame_ids\":[\"Njs-eRpeP9Q_f007\",\"Njs-eRpeP9Q_f009\",\"Njs-eRpeP9Q_f010\"],\"related_concepts\":[\"Liquidity\",\"Fair Value Gap\",\"Displacement\",\"Market Structure Shift\",\"Order Block\",\"Premium/Discount\",\"Equilibrium\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了分析过程：识别流动性→确认未被扫除→标记相等高低点→结构转变后成为目标。资产、时间框架、关键价位和分析步骤均清晰。\"}",
+  "error": null
+}

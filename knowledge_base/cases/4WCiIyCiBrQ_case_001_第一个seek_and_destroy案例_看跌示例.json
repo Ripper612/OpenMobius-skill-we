@@ -1,0 +1,107 @@
+{
+  "card_id": "4WCiIyCiBrQ_case_001_第一个seek_and_destroy案例_看跌示例",
+  "type": "case",
+  "title": "Seek and Destroy看跌案例：亚洲区间固守，伦敦无法突破，纽约形成犹豫",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Session Analysis",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap",
+    "order_block",
+    "liquidity",
+    "market_structure",
+    "premium_discount_premium_",
+    "equilibrium",
+    "consolidation"
+  ],
+  "school": "ICT",
+  "asset": null,
+  "timeframe": "1D",
+  "market_context": "前一日形成大幅波动后，亚洲时段形成明确的高低点区间。伦敦尝试向上下两侧突破该区间但均失败，价格反复回到区间内部振荡。",
+  "key_observation": "London未能扫除亚洲区间的任一侧流动性，仅在区间内巩固，已创造大部分日内波幅。这为纽约设置了低概率条件，预期纽约将继续在区间内巩固而非产生大幅波动。",
+  "analysis_steps": [
+    "Step 1: 标记出Asia形成的高低点区间范围（粉色和绿色矩形框）",
+    "Step 2: 观察London尝试向上突破Asia高点但失败，价格回到区间内",
+    "Step 3: 观察London尝试向下突破Asia低点但失败，价格再次回到区间内",
+    "Step 4: 识别价格在区间内反复出入的磁铁效应（FVG回补行为）",
+    "Step 5: 标记出区间的Premium和Discount区域（上下半部分）",
+    "Step 6: 注意到London已创造了大部分日内波幅，New York缺乏大幅波动的条件",
+    "Step 7: 观察New York继续在区间内交易，最终形成犹豫日线（Indecision Candle）"
+  ],
+  "outcome": null,
+  "lessons": "当London无法突破Asia区间的任一侧且已创造大部分日内波幅时，New York通常会形成低概率巩固条件。此时应避免寻找大幅波动的交易机会，而是识别区间内的振荡特征。价格在区间边界处反复出入体现了流动性磁铁效应。",
+  "primary_image": "cards/4WCiIyCiBrQ/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/4WCiIyCiBrQ/images/case_001_detail_1.jpg",
+    "cards/4WCiIyCiBrQ/images/case_001_detail_2.jpg",
+    "cards/4WCiIyCiBrQ/images/case_001_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "图为教学幻灯片，标题为'Seek and Destroy'，底部注明'Bearish Example'，品牌标识为TTrades第7页。图上K线序列被三个黄色标签通过弯曲箭头分别指向对应区域：'Asia'指向左侧一组K线，'London'指向中左侧低点区域，'New York'指向中右侧低点区域。图中央有一个粉色矩形框覆盖上方K线区域，一个绿色矩形框覆盖下方K线区域，两者在中间位置部分重叠。图右侧",
+    "case_001_detail_1.jpg": "图为 K 线图，右上角标注'The Market Lens / 1Trades_edu'，资产代码与时间框架未在图上显示。图左侧有一个紫色/淡紫色矩形区域，覆盖约 19820 至 20180 价格范围。图中部有一个粉色矩形与一个蓝色矩形，两者在约 19880 至 19990 区间内部分重叠，并配有两条水平线分别位于约 19980 和 19880。图右侧有一根实体较大的黑色 K 线，主体约从 199",
+    "case_001_detail_2.jpg": "图表为 K 线图，右侧价格轴显示当前价格标签为 19996.00（蓝色高亮）。图上有两个矩形标注区域：一个粉色矩形覆盖约 18:00 至 03:00 时段、价格范围约 19880 至 20000；一个蓝色矩形覆盖约 03:00 至 09:00 时段、价格范围相近。图上另有一条水平虚线从粉色矩形左边界延伸至图右侧，位于约 19996 价位。蓝色矩形底部有一条水平线位于约 19435。图右上角标注文字",
+    "case_001_detail_3.jpg": "图表为 K 线图，右上角标注'The Market Lens'及'1Traders_edu'。图上可见价格范围约从 19700 至 20180。图上绘有三个矩形区域：一个粉红色矩形覆盖约 19880 至 19980 区间，一个蓝色矩形覆盖约 19880 至 19980 区间，一个紫色/粉色矩形覆盖约 19840 至 20000 区间。图上另有两条水平线，分别位于约 19980 和 19880 附近"
+  },
+  "sources": [
+    {
+      "video_id": "4WCiIyCiBrQ",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        192.36,
+        372.039
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了三个交易时段的分析过程，清晰标注了Asia区间、London突破失败、New York巩固的全过程，并明确说明了低概率条件的形成原因。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "missing_asset"
+  ],
+  "extracted_at": "2026-05-13T15:25:15.164646Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"Seek and Destroy看跌案例：亚洲区间固守，伦敦无法突破，纽约形成犹豫\",\"school\":\"ICT\",\"asset\":null,\"timeframe\":\"1D\",\"market_context\":\"前一日形成大幅波动后，亚洲时段形成明确的高低点区间。伦敦尝试向上下两侧突破该区间但均失败，价格反复回到区间内部振荡。\",\"key_observation\":\"London未能扫除亚洲区间的任一侧流动性，仅在区间内巩固，已创造大部分日内波幅。这为纽约设置了低概率条件，预期纽约将继续在区间内巩固而非产生大幅波动。\",\"analysis_steps\":[\"Step 1: 标记出Asia形成的高低点区间范围（粉色和绿色矩形框）\",\"Step 2: 观察London尝试向上突破Asia高点但失败，价格回到区间内\",\"Step 3: 观察London尝试向下突破Asia低点但失败，价格再次回到区间内\",\"Step 4: 识别价格在区间内反复出入的磁铁效应（FVG回补行为）\",\"Step 5: 标记出区间的Premium和Discount区域（上下半部分）\",\"Step 6: 注意到London已创造了大部分日内波幅，New York缺乏大幅波动的条件\",\"Step 7: 观察New York继续在区间内交易，最终形成犹豫日线（Indecision Candle）\"],\"outcome\":null,\"lessons\":\"当London无法突破Asia区间的任一侧且已创造大部分日内波幅时，New York通常会形成低概率巩固条件。此时应避免寻找大幅波动的交易机会，而是识别区间内的振荡特征。价格在区间边界处反复出入体现了流动性磁铁效应。\",\"primary_image_frame_id\":\"4WCiIyCiBrQ_f007\",\"supporting_image_frame_ids\":[\"4WCiIyCiBrQ_f011\",\"4WCiIyCiBrQ_f012\",\"4WCiIyCiBrQ_f013\"],\"related_concepts\":[\"Fair Value Gap\",\"Order Block\",\"Liquidity\",\"Market Structure\",\"Premium/Discount\",\"Equilibrium\",\"Session Analysis\",\"Consolidation\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了三个交易时段的分析过程，清晰标注了Asia区间、London突破失败、New York巩固的全过程，并明确说明了低概率条件的形成原因。\"}",
+  "error": null
+}

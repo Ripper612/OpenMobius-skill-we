@@ -1,0 +1,123 @@
+{
+  "card_id": "_94CPMjWi9E_case_002_eth小时图上升结构分析",
+  "type": "case",
+  "title": "ETH小时图激进上升Displacement与MSS结构分析",
+  "related_concepts": [
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity Sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Optimal Trade Entry",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Breaker Block",
+      "card_id": "breaker_block",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "market_structure_shift",
+    "fair_value_gap",
+    "order_block",
+    "displacement",
+    "liquidity_sweep",
+    "breaker_block",
+    "protected_high_low",
+    "fibonacci_retracement",
+    "premium_discount_premium_"
+  ],
+  "school": "ICT",
+  "asset": "ETHUSDT",
+  "timeframe": "1H",
+  "market_context": "ETH在前周低点附近形成激进上升Displacement，价格突破前高形成Market Structure Shift，随后继续上行扫除伦敦低点。分析涵盖从早期整理到突破后的完整上升结构。",
+  "key_observation": "博主识别出价格在关键高时间框架水平附近的激进位移（Displacement），伴随FVG和Order Block的多重汇聚，形成高概率的结构突破和后续上升延续。",
+  "analysis_steps": [
+    "Step 1: 标记10点新闻时间点，准备观察该时段是否产生结构性突破。",
+    "Step 2: 观察价格是否突破前期低点，确认结构完整性——价格触及但未破低，形成保护性摆动。",
+    "Step 3: 确认新高形成，判断Market Structure Shift的有效性——需要收盘并积极突破前低。",
+    "Step 4: 识别流动性扫荡（Liquidity Sweep）和结构转变的精确时点——大幅下跌K线触及午夜低点后反弹。",
+    "Step 5: 在MSS后寻找交易设置，发现Fair Value Gap与Breaker Block的双重汇聚。",
+    "Step 6: 应用斐波那契回撤工具，在折价区（Discount）发现OTE（最优交易入场点）。",
+    "Step 7: 观察价格进入OTE、FVG和Breaker Block区域，确认Displacement的启动。",
+    "Step 8: 追踪后续FVG形成，价格扫除当前低点并继续上行。",
+    "Step 9: 确认伦敦低点被扫除，完成上升结构的延续目标。"
+  ],
+  "outcome": "价格成功突破前高形成MSS，在OTE和Breaker Block汇聚区域启动激进Displacement，随后扫除伦敦低点，上升结构得到确认和延续。",
+  "lessons": "多重汇聚点（FVG+OB+OTE）提供高概率入场机会；Market Structure Shift需要明确的收盘确认；Displacement通常伴随流动性扫荡；保护性摆动（未破低）增强结构有效性。",
+  "primary_image": "cards/_94CPMjWi9E/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/_94CPMjWi9E/images/case_002_detail_1.jpg",
+    "cards/_94CPMjWi9E/images/case_002_detail_2.jpg",
+    "cards/_94CPMjWi9E/images/case_002_detail_3.jpg",
+    "cards/_94CPMjWi9E/images/case_002_detail_4.jpg",
+    "cards/_94CPMjWi9E/images/case_002_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "ETH 1 分钟 K 线图，时间范围从 08:00 至 14:00。图上可见价格范围约 4537 至 4567。三条带数字标签的水平线分别位于 4557（标记 0.79）、4550（标记 0.70）、4542（标记 0.42）。图中标注有一个矩形框标记为 FVG，位于中上方价格区域。另有一个矩形框位于下方价格区域。K 线序列显示绿色和黑色蜡烛交替出现，其中一根大黑色蜡烛从约 4558 下跌至 44",
+    "case_002_detail_1.jpg": "ETH 1 小时 K 线图。图上显示价格范围约从 4532 到 4562。图中绘有一条水平线位于约 4547 价格水平。K 线序列显示早期上升至约 4562，中间区间在 4536 至 4548 之间波动整理，随后近期 5 根 K 线呈上升趋势从 4548 上升至 4562。图右侧显示当前价格标记为 4547.75。图下方显示成交量指标。时间轴标注显示 [0:00] 文字标签。",
+    "case_002_detail_2.jpg": "ES 1分钟K线图，时间范围从03:00至16:00。图上显示从4538.00至4552.25的上升趋势，跨越约15根K线。早期03:00至06:00区间内黑绿K线混合，在4541.00至4543.00形成整理。06:00后出现向上跳空，随后绿色K线主导，多数K线体量较小。图上有两条水平线分别位于4547.00和4552.25处。最高点4552.25处标有灰色圆形图标。右侧价格刻度显示当前价位45",
+    "case_002_detail_3.jpg": "ETH 1 小时 K 线图。图上显示从左侧约 4540 上升至右侧约 4560 的上升趋势，跨越约 10 根 K 线。图中有两条水平线分别位于 4550 和 4548 处。K 线以绿色为主，近期 K 线在 4558 至 4560 区间内形成盘整，多根 K 线在该区间顶部出现上影线。图下方显示成交量柱状图。时间标签显示 Fri 14 Jul 23 10:00 至 11:00 时段。",
+    "case_002_detail_4.jpg": "ETH 1 小时 K 线图。图上显示从 04:00 到 16:00 的价格走势，可见价格范围约从 4538.00 到 4572.00。早期 K 线（04:00 至 06:00）呈现较小波动，随后从 07:00 开始出现一系列绿色 K 线，价格逐步上升至 11:00 附近。图上有一条水平线位于 4552.00 处。在 11:00 附近的 K 线显示长上影线，刺破至约 4568.00。右侧价格标签显示",
+    "case_002_detail_5.jpg": "ES11 1分钟K线图，时间范围从07:00至13:30。图上显示一条水平线位于4551.00。可见K线从左侧07:00开始上升趋势，至10:30达到峰值约4561.00处，该处标有黄色三角形。峰值K线呈长上影线形态。随后从10:30至11:00出现快速下跌，连续黑色K线下行。图上标注有矩形框标记为'imb'位于4556.00至4558.00区间。下方标注'[0:00]'位于4544.00附近。右"
+  },
+  "sources": [
+    {
+      "video_id": "_94CPMjWi9E",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        184.319,
+        363.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从结构观察、MSS确认、FVG识别、OTE定位到Displacement启动的全过程，关键价位、时间框架、交易逻辑清晰，图表标注详细。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:38:50.868272Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ETH小时图激进上升Displacement与MSS结构分析\",\"school\":\"ICT\",\"asset\":\"ETHUSDT\",\"timeframe\":\"1H\",\"market_context\":\"ETH在前周低点附近形成激进上升Displacement，价格突破前高形成Market Structure Shift，随后继续上行扫除伦敦低点。分析涵盖从早期整理到突破后的完整上升结构。\",\"key_observation\":\"博主识别出价格在关键高时间框架水平附近的激进位移（Displacement），伴随FVG和Order Block的多重汇聚，形成高概率的结构突破和后续上升延续。\",\"analysis_steps\":[\"Step 1: 标记10点新闻时间点，准备观察该时段是否产生结构性突破。\",\"Step 2: 观察价格是否突破前期低点，确认结构完整性——价格触及但未破低，形成保护性摆动。\",\"Step 3: 确认新高形成，判断Market Structure Shift的有效性——需要收盘并积极突破前低。\",\"Step 4: 识别流动性扫荡（Liquidity Sweep）和结构转变的精确时点——大幅下跌K线触及午夜低点后反弹。\",\"Step 5: 在MSS后寻找交易设置，发现Fair Value Gap与Breaker Block的双重汇聚。\",\"Step 6: 应用斐波那契回撤工具，在折价区（Discount）发现OTE（最优交易入场点）。\",\"Step 7: 观察价格进入OTE、FVG和Breaker Block区域，确认Displacement的启动。\",\"Step 8: 追踪后续FVG形成，价格扫除当前低点并继续上行。\",\"Step 9: 确认伦敦低点被扫除，完成上升结构的延续目标。\"],\"outcome\":\"价格成功突破前高形成MSS，在OTE和Breaker Block汇聚区域启动激进Displacement，随后扫除伦敦低点，上升结构得到确认和延续。\",\"lessons\":\"多重汇聚点（FVG+OB+OTE）提供高概率入场机会；Market Structure Shift需要明确的收盘确认；Displacement通常伴随流动性扫荡；保护性摆动（未破低）增强结构有效性。\",\"primary_image_frame_id\":\"_94CPMjWi9E_f011\",\"supporting_image_frame_ids\":[\"_94CPMjWi9E_f007\",\"_94CPMjWi9E_f008\",\"_94CPMjWi9E_f009\",\"_94CPMjWi9E_f001\",\"_94CPMjWi9E_f010\"],\"related_concepts\":[\"Market Structure Shift\",\"Fair Value Gap\",\"Order Block\",\"Displacement\",\"Liquidity Sweep\",\"Optimal Trade Entry\",\"Breaker Block\",\"Protected Swing\",\"Fibonacci Retracement\",\"Premium/Discount\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从结构观察、MSS确认、FVG识别、OTE定位到Displacement启动的全过程，关键价位、时间框架、交易逻辑清晰，图表标注详细。\"}",
+  "error": null
+}

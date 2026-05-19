@@ -1,0 +1,71 @@
+{
+  "card_id": "reaccumulation",
+  "type": "merged_concept",
+  "canonical_term": "Reaccumulation",
+  "aliases": [
+    "redistribution"
+  ],
+  "school": "ICT",
+  "definition": "价格在突破订单块或减伤块后回到该区域进行整理的过程。通常伴随公允价值缺口或其他价格结构，为下一步位移做准备。",
+  "identification_rules": [
+    "价格在Displacement后回到先前的Mitigation Block或Order Block区域",
+    "回测区域内出现多根K线的横向整理或震荡，而非直接穿过",
+    "整理区域通常包含PD array（如FVG、OB等支撑阻力），价格在此产生反应",
+    "Reaccumulation完成后，价格通常继续沿原方向Displacement，突破原有整理区域"
+  ],
+  "trading_implication": "Reaccumulation是确认趋势延续的关键信号。交易者在识别到价格回到Mitigation Block进行整理时，可等待整理完成后的突破作为入场点。当价格在Reaccumulation区域内找到支撑/阻力反应后继续Displacement，表明趋势强劲，提高交易的概率。常与FVG、OB等形成Confluence以增强信号可靠性。",
+  "common_mistakes": [
+    "将Reaccumulation误认为趋势反转，在整理期间过早反向开仓",
+    "未等待Reaccumulation完成就入场，导致被整理中的震荡止损",
+    "忽视Reaccumulation区域内的PD array反应，无法准确判断整理何时结束"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "bbWPoajy2MY_case_003_黄金4小时图的多重mitigation_block应用",
+      "video_id": "bbWPoajy2MY",
+      "title": "黄金4小时图多重Mitigation Block的识别与应用"
+    },
+    {
+      "card_id": "bbWPoajy2MY_case_004_原油日线图的order_block与mitigation_blo",
+      "video_id": "bbWPoajy2MY",
+      "title": "原油日线Order Block与Mitigation Block的多层级回测"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_003_黄金日线智能货币反转与旧fvg支撑案例",
+      "video_id": "uDJI2AbyyCs",
+      "title": "黄金日线智能货币反转与旧FVG支撑案例"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "bbWPoajy2MY",
+      "original_card_id": "bbWPoajy2MY_concept_reaccumulation",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        191.0,
+        563.959
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135235Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

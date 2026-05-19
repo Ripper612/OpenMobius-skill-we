@@ -1,0 +1,61 @@
+{
+  "card_id": "expansion_day",
+  "type": "merged_concept",
+  "canonical_term": "Expansion Day",
+  "aliases": [
+    "膨胀日"
+  ],
+  "school": "Price Action",
+  "definition": "具有小上影线和大实体的K线形态，表示强势方向的延续。通常预示后续时段价格将沿同一方向继续运行。",
+  "identification_rules": [
+    "K线上影线（或下影线）相对较小",
+    "K线实体相对较大，充分展现方向性",
+    "形态出现在盘整或反转后，预示强势延续"
+  ],
+  "trading_implication": "Expansion Day是强势信号，表明市场参与者对该方向的共识强烈。在伦敦时段形成的看涨Expansion Day可预期纽约时段继续上涨。该形态常与流动性扫荡、订单块回测等结构配合使用，作为确认趋势延续的依据，帮助交易者在后续时段寻找延续入场机会。",
+  "common_mistakes": [
+    "未明确说明"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "WFqLwOp2pXw_case_004_eurusd_日线反转至1小时盘整反弹",
+      "video_id": "WFqLwOp2pXw",
+      "title": "EURUSD日线反转至1小时盘整反弹"
+    },
+    {
+      "card_id": "WFqLwOp2pXw_case_005_usd_jpy_1小时18小时盘整的空头延续",
+      "video_id": "WFqLwOp2pXw",
+      "title": "USD/JPY 1H盘整18小时后空头延续至2R目标"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "WFqLwOp2pXw",
+      "original_card_id": "WFqLwOp2pXw_concept_expansion_day",
+      "segment_ids": [
+        "seg_019"
+      ],
+      "time_range": [
+        809.8389999999999,
+        838.399
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132892Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

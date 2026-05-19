@@ -1,0 +1,119 @@
+{
+  "card_id": "WFqLwOp2pXw_case_001_usd_15分钟盘整后的延续上升",
+  "type": "case",
+  "title": "USD 15分钟盘整后的受保护摆动延续上升",
+  "related_concepts": [
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Consolidation",
+      "card_id": "consolidation",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Premium/Discount Array (PD Array)",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "change_in_the_state_of_delivery_csd",
+    "protected_high_low",
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "consolidation",
+    "displacement",
+    "market_structure_shift_mss",
+    "equilibrium_eq"
+  ],
+  "school": "ICT",
+  "asset": "USD",
+  "timeframe": "15m",
+  "market_context": "价格从20650下跌至20490形成底部，随后进入盘整区间（20520-20590），在扫盘低点后通过一系列收盘确认形成受保护摆动，最终延续上升至20680。",
+  "key_observation": "博主识别出价格在盘整后形成的受保护摆动（Protected Swing），通过一系列向下收盘的K线确认突破重要水平，为后续延续上升提供了交易机会。",
+  "analysis_steps": [
+    "Step 1: 识别向下扩张（expansion lower）和反转形成的市场结构转变（CSD/MSS），标记出扫盘低点。",
+    "Step 2: 观察价格回升时的三根扩张K线，但确认价格未能有效突破FVG上方，判断为盘整而非确认的延续。",
+    "Step 3: 标记盘整的高点和低点，观察价格是否保持在该范围内交易。",
+    "Step 4: 等待价格通过一系列向下收盘的K线突破盘整低点，形成受保护摆动的确认。",
+    "Step 5: 在受保护摆动形成后，观察价格是否继续向上突破盘整高点，寻找延续信号。",
+    "Step 6: 确认价格再次回测重要水平（20590）时形成一系列向下收盘K线，并最终突破该水平。",
+    "Step 7: 使用0.5斐波那契水平作为参考点，在没有FVG或明确低点的区域寻找支撑。",
+    "Step 8: 观察最终的延续上升，价格突破至20680，确认趋势延续成立。"
+  ],
+  "outcome": "价格成功延续上升至20680，确认了受保护摆动后的趋势延续交易设置有效。",
+  "lessons": "在大范围扩张后的盘整中，等待通过一系列收盘确认形成受保护摆动是关键。结合操纵（manipulation）与受保护摆动的概念，可以在趋势真正开始前识别高概率的交易机会。",
+  "primary_image": "cards/WFqLwOp2pXw/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/WFqLwOp2pXw/images/case_001_detail_1.jpg",
+    "cards/WFqLwOp2pXw/images/case_001_detail_2.jpg",
+    "cards/WFqLwOp2pXw/images/case_001_detail_3.jpg",
+    "cards/WFqLwOp2pXw/images/case_001_detail_4.jpg",
+    "cards/WFqLwOp2pXw/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "USD 15分钟K线图。图上可见价格范围从20480到20700。左侧显示当前价格标记为20619.00，带有虚线水平线。图表中部绘制有两个矩形框，分别覆盖约20570-20640和20630-20690的价格区间。K线形态包括中上部分的绿色K线、中间部分的黑色K线、以及下部分带长下影线的K线。图右下角可见交易控制面板，包含Sell、Buy、Flatten按钮及1x、15m时间框架选项。",
+    "case_001_detail_1.jpg": "15分钟K线图，资产代码未清晰显示。图上可见价格范围从20470到20690。图中有一条水平虚线位于20590处。矩形标注框覆盖约20520至20560的价格区间。K线序列显示先下跌后整理再上升的形态，最右侧为一根大幅上升的绿色K线，上影线触及20650附近。左下角显示时间标记，右下角可见交易界面按钮（Sell、Buy等）。",
+    "case_001_detail_2.jpg": "图表显示 15 分钟时间框架的 K 线图，价格范围从 20470 到 20690。图上有一条水平虚线位于 20582.20 处。中间区域标注了两个矩形框，分别位于 20570-20590 和 20560-20575 价格区间。K 线序列显示先下跌后上升的走势，下跌段约 8 根 K 线从 20650 跌至 20495，随后上升段约 6 根 K 线从 20495 升至 20610。在 20530 至 ",
+    "case_001_detail_3.jpg": "USD 15分钟K线图。图上显示从23:00至21:00的价格走势，价格范围约20470至20690。图表左侧显示下跌趋势，从20650向下至20490，随后进入盘整区间。中部显示在20520至20590之间的多根K线盘整。右侧显示一根大幅上升的绿色K线，从约20470上升至20680。图上标注有6条水平线，分别位于20650、20640、20590、20570、20520和20608.80处。此",
+    "case_001_detail_4.jpg": "图表显示 15 分钟时间框架的 K 线图。价格范围从 20470 到 20690。图上绘制了三条水平线，分别位于 20650、20590 和 20570 价格水平。另有两个矩形框标注：上方矩形框围绕 20640 至 20650 区间，下方矩形框围绕 20570 至 20590 区间。图上还有一个粉色圆点标记位于 20555 水平以下。K 线序列显示从 20650 区域下跌至 20490 附近，随后",
+    "case_001_detail_5.jpg": "USD 15分钟K线图。图上显示价格范围从20470.00至20690.00。可见三条水平线分别位于20650.00、20642.00和20590.00处。图表左侧显示从14时01:00开始的下跌走势，价格从20650.00下行至20500.00附近。中间区域呈现20540.00至20620.00之间的盘整形态，包含多根上下影线穿过20590.00水平线。右侧显示上升走势，最后一根大绿色K线达到2"
+  },
+  "sources": [
+    {
+      "video_id": "WFqLwOp2pXw",
+      "segment_ids": [
+        "seg_007",
+        "seg_008",
+        "seg_009",
+        "seg_010"
+      ],
+      "time_range": [
+        292.4,
+        467.68
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从识别CSD、盘整、受保护摆动形成到最终延续上升的全过程，关键价位（20650、20590、20520、20680）清晰，分析步骤逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:51.250096Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD 15分钟盘整后的受保护摆动延续上升\",\"school\":\"ICT\",\"asset\":\"USD\",\"timeframe\":\"15m\",\"market_context\":\"价格从20650下跌至20490形成底部，随后进入盘整区间（20520-20590），在扫盘低点后通过一系列收盘确认形成受保护摆动，最终延续上升至20680。\",\"key_observation\":\"博主识别出价格在盘整后形成的受保护摆动（Protected Swing），通过一系列向下收盘的K线确认突破重要水平，为后续延续上升提供了交易机会。\",\"analysis_steps\":[\"Step 1: 识别向下扩张（expansion lower）和反转形成的市场结构转变（CSD/MSS），标记出扫盘低点。\",\"Step 2: 观察价格回升时的三根扩张K线，但确认价格未能有效突破FVG上方，判断为盘整而非确认的延续。\",\"Step 3: 标记盘整的高点和低点，观察价格是否保持在该范围内交易。\",\"Step 4: 等待价格通过一系列向下收盘的K线突破盘整低点，形成受保护摆动的确认。\",\"Step 5: 在受保护摆动形成后，观察价格是否继续向上突破盘整高点，寻找延续信号。\",\"Step 6: 确认价格再次回测重要水平（20590）时形成一系列向下收盘K线，并最终突破该水平。\",\"Step 7: 使用0.5斐波那契水平作为参考点，在没有FVG或明确低点的区域寻找支撑。\",\"Step 8: 观察最终的延续上升，价格突破至20680，确认趋势延续成立。\"],\"outcome\":\"价格成功延续上升至20680，确认了受保护摆动后的趋势延续交易设置有效。\",\"lessons\":\"在大范围扩张后的盘整中，等待通过一系列收盘确认形成受保护摆动是关键。结合操纵（manipulation）与受保护摆动的概念，可以在趋势真正开始前识别高概率的交易机会。\",\"primary_image_frame_id\":\"WFqLwOp2pXw_f016\",\"supporting_image_frame_ids\":[\"WFqLwOp2pXw_f011\",\"WFqLwOp2pXw_f012\",\"WFqLwOp2pXw_f013\",\"WFqLwOp2pXw_f014\",\"WFqLwOp2pXw_f015\"],\"related_concepts\":[\"Change in the state of delivery (CSD)\",\"Protected Swing\",\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Consolidation\",\"Displacement\",\"Market Structure Shift (MSS)\",\"Equilibrium (EQ)\",\"Premium/Discount Array (PD Array)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从识别CSD、盘整、受保护摆动形成到最终延续上升的全过程，关键价位（20650、20590、20520、20680）清晰，分析步骤逻辑完整。\"}",
+  "error": null
+}

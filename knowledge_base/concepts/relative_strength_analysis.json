@@ -1,0 +1,65 @@
+{
+  "card_id": "relative_strength_analysis",
+  "type": "merged_concept",
+  "canonical_term": "Relative Strength Analysis",
+  "aliases": [
+    "相对强弱分析",
+    "货币对相对强度比较"
+  ],
+  "school": "SMC",
+  "definition": "通过比较两种相关货币对（如EURUSD与GBPUSD）的走势，利用其交叉对（如EURGBP）判断两种货币的相对强弱，从而在确定主要货币（如美元）趋势后，选择交易更强或更弱的货币对。",
+  "identification_rules": [
+    "确定主要货币（如美元）的趋势方向（看涨或看跌）",
+    "观察交叉对（如EURGBP）的趋势：看涨表示前者（欧元）强于后者（英镑），看跌表示前者弱于后者",
+    "比较两种货币对在同一时间段的日线收盘强度，更强的收盘表示该货币相对强势",
+    "在低时间框架验证：观察两种货币对在相同事件（如扫荡、突破）中的反应幅度和速度差异"
+  ],
+  "trading_implication": "当美元趋势确定后，利用相对强弱分析选择交易方向：若美元看涨且EURGBP看涨（欧元强），则做空GBPUSD而非EURUSD；若美元看涨且EURGBP看跌（欧元弱），则做空EURUSD。这样配对强货币与弱货币能获得更强的趋势扩展，避免交易错误资产导致的止损或错失行情。",
+  "common_mistakes": [
+    "仅基于单一货币对的走势判断，忽视与相关货币对的相对强弱对比",
+    "在主要货币（美元）趋势不明确时进行相对强弱分析，导致交易方向错误",
+    "交易了相对较弱的货币对，导致在同一扩展日中获利不足或被止损"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "nWHint4Yano_case_001_美元反转后eurusd和gbpusd的相对强弱对比",
+      "video_id": "nWHint4Yano",
+      "title": "美元反转后通过EURGBP判断货币强弱选择做空GBPUSD"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "nWHint4Yano",
+      "original_card_id": "nWHint4Yano_concept_relative_strength_analysis",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_008",
+        "seg_009",
+        "seg_011",
+        "seg_013"
+      ],
+      "time_range": [
+        10.719,
+        715.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135310Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

@@ -1,0 +1,118 @@
+{
+  "card_id": "TCFvsZeYvV8_case_007_伦敦时段的投影与派发预测",
+  "type": "case",
+  "title": "伦敦时段操纵腿投影与派发预测",
+  "related_concepts": [
+    {
+      "term": "Accumulation, Manipulation, Distribution (AMD)",
+      "card_id": "accumulation_manipulation_distribution_amd",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Projection",
+      "card_id": "projection",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation",
+      "card_id": "standard_deviation",
+      "exists": true
+    },
+    {
+      "term": "Killzone",
+      "card_id": "killzone",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "accumulation_manipulation_distribution_amd",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "displacement",
+    "inducement",
+    "projection",
+    "standard_deviation",
+    "killzone",
+    "market_structure"
+  ],
+  "school": "ICT",
+  "asset": "NQ11",
+  "timeframe": "1m / 15m",
+  "market_context": "2023年10月26日伦敦交易时段，价格从14460高点下跌至14260低点，形成明显的操纵-派发结构。博主通过识别伦敦时段的激进价格行为和巩固区间，预测派发目标区域。",
+  "key_observation": "在伦敦时段识别出激进的价格突破与回撤模式，通过从操纵高点到低点的投影计算派发应到达的区域，用于设定交易目标和止损位。",
+  "analysis_steps": [
+    "Step 1: 识别伦敦时段的激进价格行为——价格从14460快速下跌至14260，而非直接关注巩固区间。",
+    "Step 2: 标记出操纵腿的高点（14460）和低点（14260），确定这是从高到低的操纵运动。",
+    "Step 3: 向左回看，找到该操纵腿之前的巩固区间（14300-14350范围）。",
+    "Step 4: 使用投影方法——从操纵高点到低点的距离进行投影，预测派发应到达的下方目标区域。",
+    "Step 5: 在15分钟图表上观察标准差水平（2-2.5标准差和4-4.5标准差），确认派发目标与标准差的对应关系。",
+    "Step 6: 确认日线蜡烛结构——操纵腿形成日线的上影线，派发形成日线的实体。"
+  ],
+  "outcome": "价格按照投影预测向下派发，到达2-2.5标准差区域后出现回撤，随后继续向4-4.5标准差区域派发，最终日线蜡烛形成完整的积累-操纵-派发结构。",
+  "lessons": "在伦敦时段识别操纵腿时，应专注于激进的价格突破而非巩固区间；通过高低点投影可精确预测派发目标；标准差与派发目标的结合提供了明确的风险管理参考点。",
+  "primary_image": "cards/TCFvsZeYvV8/images/case_007_primary.jpg",
+  "supporting_images": [
+    "cards/TCFvsZeYvV8/images/case_007_detail_1.jpg",
+    "cards/TCFvsZeYvV8/images/case_007_detail_2.jpg",
+    "cards/TCFvsZeYvV8/images/case_007_detail_3.jpg",
+    "cards/TCFvsZeYvV8/images/case_007_detail_4.jpg",
+    "cards/TCFvsZeYvV8/images/case_007_detail_5.jpg",
+    "cards/TCFvsZeYvV8/images/case_007_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_007_primary.jpg": "USD 1 分钟 K 线图，时间范围从 10:50 至 13:20。图上价格范围约从 14150 到 14470。图表显示整体下行趋势，期间穿插多根绿色和黑色 K 线。图上标注有三个矩形区域，分别位于约 14230-14280、14270-14290 和 14240-14380 价格范围。两条水平线分别位于 14269.75 和 14290.00。右侧工具栏显示 Sell、Buy、Flatten ",
+    "case_007_detail_1.jpg": "USD 1分钟K线图。图上显示从08:20至11:30的价格走势。可见三条水平虚线分别位于14460、14350和14260价位。图上有两个灰色矩形区域和一个蓝色矩形区域。蓝色矩形区域标注为FVG，覆盖约14350至14420价格范围。K线整体呈现先上升后下降的形态，上升段约12根K线从14340上升至14460，随后出现下行走势至14260附近。图右侧显示HTD标记。",
+    "case_007_detail_2.jpg": "USD 1 分钟 K 线图，时间范围从 08:15 至 12:45，日期标注为 26/10/2023。图上可见价格范围约 14260 至 14530。图中有两条水平线分别位于 14460 和 14300 处。图上标注有两个矩形区域，其中一个蓝色矩形覆盖约 14300 至 14460 的价格区间。K 线形态显示初期上升趋势，随后出现快速下跌，之后在较低价位形成多根绿色 K 线。右侧标注有文字'HYO",
+    "case_007_detail_3.jpg": "USD 1分钟K线图，时间范围显示为26/10/2023。图上价格范围约从14160到14460。可见多条水平虚线标注，包括14450、14320、14240等价位。图表显示一段上升趋势（绿色K线为主），随后转为下降趋势（黑色K线为主），最后在14230至14280区间形成整理形态。图右侧标注有时间信息'NYD'、'8:30'、'0:00'等。底部时间轴显示具体交易时段。",
+    "case_007_detail_4.jpg": "USD 1分钟K线图，时间范围从11:00至12:50。图表显示从14450下跌至14280的下行趋势，跨越约15根K线。图上有三条水平线分别位于14299.75、14280.00和14245.00。三个矩形标注框分别覆盖14460-14500、14280-14320和14240-14290价格区间。绿色阴影区域出现在图表中部偏下方。K线由黑色和绿色蜡烛组成，在14280-14320区间内显示混合",
+    "case_007_detail_5.jpg": "USD 15分钟K线图。图上有一个粉红色矩形框，纵向跨度约从14841.75至15025.75，包含多根K线。矩形内K线呈绿色和棕色混合。矩形右侧有一根独立的绿色K线位于约14960水平。图上有三条水平线分别位于15025.75、14960.00和14841.75。一条竖虚线穿过图表。左下角标注'NYO 8-30'，右下方显示'3/10/2023 NQ11 | 15m'和时间戳'Tue 03 Oc",
+    "case_007_detail_6.jpg": "USD 15分钟K线图。图上显示价格范围约从14720到15040。左侧K线区域内有一个绿色填充矩形框标注，覆盖约14980至15020价格区间。下方有一个灰色矩形框标注，位置约在14740至14800区间。图上标注文字包括'HYD'、'8:30'、'3/10/2023'、'NQ11 | 15m'。右侧可见绿色K线及'Sell'、'Buy'、'Flatten'按钮。时间轴显示从15:00至22:3"
+  },
+  "sources": [
+    {
+      "video_id": "TCFvsZeYvV8",
+      "segment_ids": [
+        "seg_007",
+        "seg_008"
+      ],
+      "time_range": [
+        681.16,
+        985.319
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了伦敦时段的AMD结构识别、投影方法应用、标准差目标设定的全过程，关键价位和时间框架清晰，分析步骤逻辑完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:57.297723Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"伦敦时段操纵腿投影与派发预测\",\"school\":\"ICT\",\"asset\":\"NQ11\",\"timeframe\":\"1m / 15m\",\"market_context\":\"2023年10月26日伦敦交易时段，价格从14460高点下跌至14260低点，形成明显的操纵-派发结构。博主通过识别伦敦时段的激进价格行为和巩固区间，预测派发目标区域。\",\"key_observation\":\"在伦敦时段识别出激进的价格突破与回撤模式，通过从操纵高点到低点的投影计算派发应到达的区域，用于设定交易目标和止损位。\",\"analysis_steps\":[\"Step 1: 识别伦敦时段的激进价格行为——价格从14460快速下跌至14260，而非直接关注巩固区间。\",\"Step 2: 标记出操纵腿的高点（14460）和低点（14260），确定这是从高到低的操纵运动。\",\"Step 3: 向左回看，找到该操纵腿之前的巩固区间（14300-14350范围）。\",\"Step 4: 使用投影方法——从操纵高点到低点的距离进行投影，预测派发应到达的下方目标区域。\",\"Step 5: 在15分钟图表上观察标准差水平（2-2.5标准差和4-4.5标准差），确认派发目标与标准差的对应关系。\",\"Step 6: 确认日线蜡烛结构——操纵腿形成日线的上影线，派发形成日线的实体。\"],\"outcome\":\"价格按照投影预测向下派发，到达2-2.5标准差区域后出现回撤，随后继续向4-4.5标准差区域派发，最终日线蜡烛形成完整的积累-操纵-派发结构。\",\"lessons\":\"在伦敦时段识别操纵腿时，应专注于激进的价格突破而非巩固区间；通过高低点投影可精确预测派发目标；标准差与派发目标的结合提供了明确的风险管理参考点。\",\"primary_image_frame_id\":\"TCFvsZeYvV8_f027\",\"supporting_image_frame_ids\":[\"TCFvsZeYvV8_f023\",\"TCFvsZeYvV8_f024\",\"TCFvsZeYvV8_f025\",\"TCFvsZeYvV8_f026\",\"TCFvsZeYvV8_f029\",\"TCFvsZeYvV8_f030\"],\"related_concepts\":[\"Accumulation, Manipulation, Distribution (AMD)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Displacement\",\"Manipulation\",\"Projection\",\"Standard Deviation\",\"Killzone\",\"Market Structure\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了伦敦时段的AMD结构识别、投影方法应用、标准差目标设定的全过程，关键价位和时间框架清晰，分析步骤逻辑完整。\"}",
+  "error": null
+}

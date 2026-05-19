@@ -1,0 +1,112 @@
+{
+  "card_id": "iEaMbuFZb24_case_004_美元日元日线到5分钟的多次入场机会",
+  "type": "case",
+  "title": "USD/JPY日线到5分钟的多次入场机会分析",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery (CSD)",
+      "card_id": "change_in_the_state_of_delivery_csd",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing / Protected Low",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe alignment",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity sweep",
+      "card_id": "liquidity_sweep",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "change_in_the_state_of_delivery_csd",
+    "displacement",
+    "market_structure_shift_mss",
+    "liquidity_sweep",
+    "risk_to_reward"
+  ],
+  "school": "ICT",
+  "asset": "USDJPY",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "USD/JPY在日线上形成受保护的低点，价格回测至前一日低点并扫除公允价值缺口，预期趋势继续上升。博主通过多时间框架对齐识别多个入场机会。",
+  "key_observation": "在单一日线偏向上的背景下，通过小时线和5分钟线的变化状态改变（CSD）和订单块（OB）识别高概率入场点。关键是多时间框架对齐能够确认价格扩张（expansion）的发生。",
+  "analysis_steps": [
+    "Step 1: 在日线上观察价格回测至前一日低点，形成受保护的低点（Protected Low），并扫除该区域内的公允价值缺口（FVG）。",
+    "Step 2: 确认日线偏向上升，预期价格将交易至前一日高点。",
+    "Step 3: 下降至小时线寻找结构，观察变化状态改变（CSD）以确认预期的上升趋势。",
+    "Step 4: 在小时线上识别价格形成浅幅回撤（shallow run），扫除低点并在盘整中形成订单块。",
+    "Step 5: 等待价格收盘突破下跌蜡烛线（down close candles），确认CSD和新的订单块形成。",
+    "Step 6: 可选择在小时线直接入场（如果风险管理允许），或下降至5分钟线寻找更精确的入场点。",
+    "Step 7: 在5分钟线上观察伦敦时段的第一个设置，预期低点持稳并交易至高点。",
+    "Step 8: 如果错过第一笔交易，回到小时线检查是否仍有机会——观察是否形成对立蜡烛线（opposing candle）。",
+    "Step 9: 若对立蜡烛线形成，预期其持稳，等待新的小时线设置（价格回测订单块、扫除并收盘突破）。",
+    "Step 10: 再次下降至5分钟线，观察扫除后的变化状态改变，寻找新的入场点。",
+    "Step 11: 评估5分钟线设置的质量——如果过于接近低点，预期低点可能被扫除，宁可等待收盘突破后的下一根蜡烛线。",
+    "Step 12: 确认入场后，止损设置在蜡烛线实体或低点，目标可设为2R或回到高时间框架寻找目标位。"
+  ],
+  "outcome": "博主展示了多次成功的入场机会。在小时线上首次设置获得交易，价格形成位移（Displacement）并产生新的公允价值缺口。错过第一笔交易后，通过对立蜡烛线的形成和新的小时线设置重新获得入场机会。在5分钟线上也识别到多个高概率设置，最终价格按预期交易至目标位。",
+  "lessons": "多时间框架对齐是确认价格扩张的关键。即使错过初始入场，通过观察高时间框架的结构变化（如对立蜡烛线、新订单块形成）可以识别重新入场机会。风险管理允许的情况下，可在高时间框架直接入场；否则下降至低时间框架寻找更精确的CSD和入场点。避免在过于接近关键低点的位置入场。",
+  "primary_image": "cards/iEaMbuFZb24/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/iEaMbuFZb24/images/case_004_detail_1.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "USD/JPY 1 小时 K 线图。图上显示从约 12:00 第 6 天至 06:00 第 10 天的价格走势。可见价格范围约从 146200 到 149800。图上有多条水平线标注，包括 149000、148000、147800、147400 等价格位。图中央有一个黄色矩形区域，标记为 Q2，覆盖约 147400 至 147800 的价格范围。另有一个白色矩形框标注在 147600 至 1482",
+    "case_004_detail_1.jpg": "图表为烛线图，纵轴价格范围从139000至152000。图上有一条水平虚线位于147791处。可见K线从左至右跨越约28天至11月6日，显示从147000附近下跌至140500附近，随后上升至148500附近。最右侧K线用黄色高亮显示，位于148000至148500区间。图上绿色和黑色K线交替出现，多数K线具有上下影线。除水平虚线外，图上未见其他标注或指标。"
+  },
+  "sources": [
+    {
+      "video_id": "iEaMbuFZb24",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        549.56,
+        907.04
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对USD/JPY案例的分析完整清晰，涵盖日线、小时线、5分钟线的完整分析流程，包括错过交易后的重新入场机制，关键价位和步骤都有明确说明。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:41:42.289164Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"USD/JPY日线到5分钟的多次入场机会分析\",\"school\":\"ICT\",\"asset\":\"USDJPY\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"USD/JPY在日线上形成受保护的低点，价格回测至前一日低点并扫除公允价值缺口，预期趋势继续上升。博主通过多时间框架对齐识别多个入场机会。\",\"key_observation\":\"在单一日线偏向上的背景下，通过小时线和5分钟线的变化状态改变（CSD）和订单块（OB）识别高概率入场点。关键是多时间框架对齐能够确认价格扩张（expansion）的发生。\",\"analysis_steps\":[\"Step 1: 在日线上观察价格回测至前一日低点，形成受保护的低点（Protected Low），并扫除该区域内的公允价值缺口（FVG）。\",\"Step 2: 确认日线偏向上升，预期价格将交易至前一日高点。\",\"Step 3: 下降至小时线寻找结构，观察变化状态改变（CSD）以确认预期的上升趋势。\",\"Step 4: 在小时线上识别价格形成浅幅回撤（shallow run），扫除低点并在盘整中形成订单块。\",\"Step 5: 等待价格收盘突破下跌蜡烛线（down close candles），确认CSD和新的订单块形成。\",\"Step 6: 可选择在小时线直接入场（如果风险管理允许），或下降至5分钟线寻找更精确的入场点。\",\"Step 7: 在5分钟线上观察伦敦时段的第一个设置，预期低点持稳并交易至高点。\",\"Step 8: 如果错过第一笔交易，回到小时线检查是否仍有机会——观察是否形成对立蜡烛线（opposing candle）。\",\"Step 9: 若对立蜡烛线形成，预期其持稳，等待新的小时线设置（价格回测订单块、扫除并收盘突破）。\",\"Step 10: 再次下降至5分钟线，观察扫除后的变化状态改变，寻找新的入场点。\",\"Step 11: 评估5分钟线设置的质量——如果过于接近低点，预期低点可能被扫除，宁可等待收盘突破后的下一根蜡烛线。\",\"Step 12: 确认入场后，止损设置在蜡烛线实体或低点，目标可设为2R或回到高时间框架寻找目标位。\"],\"outcome\":\"博主展示了多次成功的入场机会。在小时线上首次设置获得交易，价格形成位移（Displacement）并产生新的公允价值缺口。错过第一笔交易后，通过对立蜡烛线的形成和新的小时线设置重新获得入场机会。在5分钟线上也识别到多个高概率设置，最终价格按预期交易至目标位。\",\"lessons\":\"多时间框架对齐是确认价格扩张的关键。即使错过初始入场，通过观察高时间框架的结构变化（如对立蜡烛线、新订单块形成）可以识别重新入场机会。风险管理允许的情况下，可在高时间框架直接入场；否则下降至低时间框架寻找更精确的CSD和入场点。避免在过于接近关键低点的位置入场。\",\"primary_image_frame_id\":\"iEaMbuFZb24_f025\",\"supporting_image_frame_ids\":[\"iEaMbuFZb24_f024\",\"iEaMbuFZb24_f026\",\"iEaMbuFZb24_f027\",\"iEaMbuFZb24_f028\",\"iEaMbuFZb24_f029\",\"iEaMbuFZb24_f030\",\"iEaMbuFZb24_f031\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"C",
+  "error": null
+}

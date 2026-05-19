@@ -1,0 +1,57 @@
+{
+  "card_id": "uptrend_bullish_trend",
+  "type": "merged_concept",
+  "canonical_term": "Uptrend / Bullish Trend",
+  "aliases": [
+    "Higher Highs and Higher Lows",
+    "上升趋势"
+  ],
+  "school": "Price Action",
+  "definition": "价格依次形成更高的高点和更高的低点的趋势方向。通过连续的摆动高点和摆动低点相对上升来定义，是做多交易的基础结构。",
+  "identification_rules": [
+    "识别一个摆动低点（Swing Low），然后确认相对于该低点形成了更高的低点（Higher Low）",
+    "在更高低点之后，确认形成了相对于前一个摆动高点的更高高点（Higher High）",
+    "重复观察：更高的高点 → 更高的低点 → 更高的高点的循环模式",
+    "可在价格突破前一个摆动高点时提前识别更高高点，无需等待完整的摆动形成",
+    "上升趋势中的位移（Displacement）通常伴随更高高点的形成"
+  ],
+  "trading_implication": "上升趋势是做多的基础结构。交易者应在确认更高低点后寻求做多机会，目标是下一个更高高点。重要的是理解高时间框架的趋势方向，因为低时间框架内的回撤可能只是高时间框架趋势中的调整，而非趋势反转。继续跟随高时间框架趋势比试图抄底或抄顶更容易获利。",
+  "common_mistakes": [
+    "在低时间框架看到向下位移就认为趋势反转，忽视了高时间框架仍处于上升趋势的事实，导致在回撤中被止损",
+    "试图在每个低点做空或在每个高点做多，而不是等待市场结构转变（MSS）的确认",
+    "未能区分真正的趋势反转与高时间框架趋势中的正常回撤"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "sgAnVR6RSDg",
+      "original_card_id": "sgAnVR6RSDg_concept_uptrend_bullish_trend",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        10.48,
+        432.72
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.136550Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

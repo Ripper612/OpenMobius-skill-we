@@ -1,0 +1,55 @@
+{
+  "card_id": "expansion_met_with_expansion",
+  "type": "merged_concept",
+  "canonical_term": "Expansion met with Expansion",
+  "aliases": [
+    "双重扩展",
+    "扩展遇见扩展"
+  ],
+  "school": "ICT",
+  "definition": "价格在一个方向扩展后，随即在相反方向再次扩展，形成的反转信号。需等待新方向确认而非继续原方向交易。",
+  "identification_rules": [
+    "价格先向一个方向形成扩展（如向上扩展），随后向相反方向形成第二次扩展（如向下扩展）",
+    "两次扩展之间通常伴随Change in the State of Delivery（交付状态改变）",
+    "第二次扩展的形成表明原趋势反转，需要等待新的Protected Swing或其他确认信号"
+  ],
+  "trading_implication": "Expansion met with Expansion是反转的确认信号。当识别到此形态时，不应继续原方向交易，而应等待新的方向确认。可通过寻找新的Protected Swing、Change in the State of Delivery或下位时间框架的Fractal Model来确认新趋势方向，然后在Candle 3（延续扩展蜡烛）上寻找交易机会。",
+  "common_mistakes": [
+    "在第一次扩展后立即追单，未等待第二次扩展形成就判断趋势继续",
+    "混淆Expansion met with Expansion与单纯的价格回撤，误认为浅层对立运动即为反转确认",
+    "识别到反转信号后仍继续原方向交易，而非等待新方向的Protected Swing确认"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "FAKWJ-1NlLE",
+      "original_card_id": "FAKWJ-1NlLE_concept_expansion_met_with_expansion",
+      "segment_ids": [
+        "seg_009",
+        "seg_010",
+        "seg_017"
+      ],
+      "time_range": [
+        401.84000000000003,
+        912.079
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.132944Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

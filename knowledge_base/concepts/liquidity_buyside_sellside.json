@@ -1,0 +1,89 @@
+{
+  "card_id": "liquidity_buyside_sellside",
+  "type": "merged_concept",
+  "canonical_term": "Liquidity (Buyside/Sellside)",
+  "aliases": [
+    "BSL/SSL",
+    "Buy-side Liquidity",
+    "Sell-side Liquidity"
+  ],
+  "school": "ICT",
+  "definition": "汇集在摆动高点之上（买方流动性）和摆动低点之下（卖方流动性）的订单集中区域。市场主要驱动目标，机构通常扫荡这些区域以获取流动性。",
+  "identification_rules": [
+    "买方流动性（Buyside Liquidity）：位于前期摆动高点之上的价格区域，通常标记为上方水平线或区间",
+    "卖方流动性（Sellside Liquidity）：位于前期摆动低点之下的价格区域，通常标记为下方水平线或区间",
+    "从摆动高到摆动低建立范围后，高点上方和低点下方即为对应的流动性区域",
+    "流动性区域通常与折价区（Discount）和溢价区（Premium）的概念结合使用"
+  ],
+  "trading_implication": "识别流动性区域是制定交易策略的基础。做多时在折价区寻找PD数组（如FVG、OB）；做空时在溢价区寻找PD数组。价格倾向于扫荡这些流动性区域后反向运行。理解流动性位置帮助交易者判断风险回报比和最优入场点位。",
+  "common_mistakes": [
+    "未明确说明材料中的常见误区"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "0xygpCMwxbQ_case_001_nasdaq_15分钟图表的日线fvg填补交易",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 15分钟日线FVG填补的多头入场分析"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_001_es与nq伦敦高点smt反转案例",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ伦敦高点SMT反转案例"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_002_es与nq_11_00低点的多时间框架smt",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES与NQ 11:00低点的多时间框架SMT确认反转"
+    },
+    {
+      "card_id": "5rbFskdmEmU_case_001_标普500_e_mini期货11月4日日内走势分析",
+      "video_id": "5rbFskdmEmU",
+      "title": "标普500 E-mini期货11月4日位移与位移缺失分析"
+    },
+    {
+      "card_id": "TfHlNgAZ_II_case_002_日线扫盘后的5分钟入场案例",
+      "video_id": "TfHlNgAZ_II",
+      "title": "日线扫盘后通过小时图FVG和5分钟CSD的多层级入场"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_002_nasdaq_100_1小时图表的多层级扩张形态",
+      "video_id": "Tjk9bXERZy0",
+      "title": "NQ 1小时图多层级扩张形态与SMT、Power of 3应用"
+    },
+    {
+      "card_id": "klaiq36QnEM_case_004_eurusd周一至周三的看跌延续案例",
+      "video_id": "klaiq36QnEM",
+      "title": "EURUSD周一至周三看跌延续：FVG与订单块确认卖出"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "MlMsG7li9zY",
+      "original_card_id": "MlMsG7li9zY_concept_buyside_liquidity_sellside_liquidity",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        2.82,
+        185.0
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.133754Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

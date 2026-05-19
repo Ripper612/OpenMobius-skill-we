@@ -1,0 +1,62 @@
+{
+  "card_id": "smt_divergence",
+  "type": "merged_concept",
+  "canonical_term": "SMT Divergence",
+  "aliases": [
+    "Smart Money Technique Divergence",
+    "结构分歧"
+  ],
+  "school": "SMC",
+  "definition": "相关资产价格走势出现分歧现象：一个资产创出新高/新低，而另一个资产未能创出相应新高/新低，预示可能的趋势反转。",
+  "identification_rules": [
+    "观察两个相关资产（如ES与NQ、ES与YM）的摆动结构对比",
+    "在低点区域：一个资产创出更低的低点（LL），另一个资产仅创出更高的低点（LH），形成看涨SMT",
+    "在高点区域：一个资产创出更高的高点（HH），另一个资产仅创出更低的高点（LH），形成看跌SMT",
+    "确认分歧点：一个资产突破特定价格水平，另一个资产未能突破该水平"
+  ],
+  "trading_implication": "SMT Divergence作为汇聚信号用于交易决策。当SMT形成时，交易者在高时间框架确认分歧后，转向低时间框架寻找具体入场模型（如FVG、Order Block等）。看涨SMT（低点分歧）预示向上反转机会；看跌SMT（高点分歧）预示向下反转机会。可将一个资产触及的价格目标作为另一资产的交易目标。",
+  "common_mistakes": [
+    "未在两个相关资产间进行对比分析，仅看单一资产的摆动结构",
+    "混淆分歧方向：在高点形成的分歧是看跌信号，在低点形成的分歧是看涨信号",
+    "将SMT作为独立交易信号使用，而非作为汇聚条件与低时间框架模型结合"
+  ],
+  "related_concepts": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "PePk1V0Q4QQ_case_001_s_p_500_e_mini期货24日交易案例",
+      "video_id": "PePk1V0Q4QQ",
+      "title": "S&P 500 E-mini期货24日MSS、位移与FVG多头入场分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "q1NmxUTm4n4",
+      "original_card_id": "q1NmxUTm4n4_concept_smart_money_technique_smt_divergence",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        0.659,
+        396.86
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 1,
+    "source_videos": 1,
+    "high_confidence_sources": 1,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "single_source",
+  "merged_at": "2026-05-13T15:59:04.135954Z",
+  "merge_model": null,
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

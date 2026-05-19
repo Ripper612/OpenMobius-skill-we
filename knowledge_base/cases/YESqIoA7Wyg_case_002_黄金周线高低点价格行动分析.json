@@ -1,0 +1,110 @@
+{
+  "card_id": "YESqIoA7Wyg_case_002_黄金周线高低点价格行动分析",
+  "type": "case",
+  "title": "XAUUSD周线高低点回测与价格行动分析",
+  "related_concepts": [
+    {
+      "term": "Swing High/Low",
+      "card_id": "swing_high_low",
+      "exists": true
+    },
+    {
+      "term": "Price Action",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Indecision Candle",
+      "card_id": "indecision_candle",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Multi-Timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "swing_high_low",
+    "liquidity",
+    "displacement",
+    "indecision_candle",
+    "market_structure",
+    "time_frame_confluence"
+  ],
+  "school": "Price Action",
+  "asset": "XAUUSD",
+  "timeframe": "1W",
+  "market_context": "黄金在2023年2月至11月期间呈现波动走势，价格在1850-2100区间内震荡，形成多个摆动高低点。博主通过周线和日线对比分析价格如何反复回测前期高低点。",
+  "key_observation": "在下跌趋势中，价格倾向于先回测前周低点，若失败则转向回测前周高点；价格在这些关键水平附近形成决策蜡烛（indecision candle），预示后续可能的方向突破。",
+  "analysis_steps": [
+    "Step 1: 识别价格跌破前周低点并收盘走低，预期价格将回测前周低点或前周高点。",
+    "Step 2: 观察价格触及前周低点但未能突破（fail to display），预期随后转向回测前周高点。",
+    "Step 3: 标记前周高点和低点作为关键参考水平，追踪价格是否形成位移（displacement）或决策蜡烛。",
+    "Step 4: 分析决策蜡烛形态（小实体、长上下影线），判断价格可能向高点或低点运动。",
+    "Step 5: 观察价格突破并收盘确认的情况，标记新的高低点以供后续回测参考。",
+    "Step 6: 将同样的分析框架应用于日线图，标记前日高点和前日低点，观察价格如何在这些水平附近形成反转或流动性吸收。",
+    "Step 7: 对比周线和日线的高低点回测模式，验证多时间框架的一致性。"
+  ],
+  "outcome": null,
+  "lessons": "在任何时间框架上，除非价格处于盘整状态，否则价格倾向于回测前期的摆动高点或低点。标记这些关键水平有助于预判流动性吸收点和潜在反转区域。决策蜡烛形态表明市场犹豫，可能预示即将的方向性突破。",
+  "primary_image": "cards/YESqIoA7Wyg/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/YESqIoA7Wyg/images/case_002_detail_1.jpg",
+    "cards/YESqIoA7Wyg/images/case_002_detail_2.jpg",
+    "cards/YESqIoA7Wyg/images/case_002_detail_3.jpg",
+    "cards/YESqIoA7Wyg/images/case_002_detail_4.jpg",
+    "cards/YESqIoA7Wyg/images/case_002_detail_5.jpg",
+    "cards/YESqIoA7Wyg/images/case_002_detail_6.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "XAUUSD 周线图，时间范围从 3 月至 12 月。图上显示一根大型绿色 K 线从约 1850 上升至 1990，随后 4 月至 6 月间出现多根交替的绿色和黑色 K 线，价格在 1980 至 2050 区间波动。6 月中旬出现一根黑色 K 线从 2010 下跌至 1940。6 月末至 7 月期间形成盘整形态，多根小 K 线在 1910 至 1960 区间内。图上标注有两个矩形框位于 1910 ",
+    "case_002_detail_1.jpg": "XAUUSD 周线图，时间范围从二月至十一月。图上显示一系列绿色和黑色 K 线，价格范围约从 1850.000 到 2100.000。左侧标注显示两个价格水平：1957.555 和 1905.403。三月和五月各出现一根大幅上升的绿色 K 线，分别达到约 1980.000 和 2060.000。六月至七月期间 K 线在 1940.000 至 1970.000 区间内波动。图上有黄色十字光标标记，以",
+    "case_002_detail_2.jpg": "XAUUSD 周线图，价格范围从 1800.000 到 2100.000。图上有两条水平虚线分别位于 1904.414 和 1921.525 价格水平。K 线序列从 2 月初的大幅上升绿色 K 线开始，随后 3 月至 5 月中旬呈现绿黑交替的波动形态，价格在 1970 至 2050 区间内波动。5 月中旬出现一根从约 1975 跌至 1920 的黑色 K 线。之后 5 月末至 6 月期间形成较小幅",
+    "case_002_detail_3.jpg": "XAUUSD 周线图，时间范围从 2023 年 4 月至 2024 年 1 月。图上显示绿色和黑色 K 线交替出现，价格范围约 1850.000 至 2100.000。图右侧有一条水平线位于 1921.399 价格水平。图上标注有日期",
+    "case_002_detail_4.jpg": "图上展示两个相同结构的日线K线序列。每个序列包含约10至12根K线，从左至右依次为灰色K线、绿色K线、黑色K线。每个序列上方有标记为'Previous Day High'的水平线，下方有标记为'Previous Day Low'的水平线。图上标注'4 Hour Timeframe'文字。两个序列的K线排列和颜色分布完全相同，黑色K线均位于绿色K线下方。未见价格刻度数字或资产代码。",
+    "case_002_detail_5.jpg": "XAUUSD 日线图。图表显示从 7 月中旬至 8 月初的价格走势，可见价格范围约从 1890000 至 2020000。K 线序列由绿色和黑色蜡烛交替组成。图上有一条水平虚线位于 1932341 处。右下方显示黄色十字光标标记。图表底部标注日期为'Mon 07 Aug 23'。左上角显示资产代码 XAUUSD 及时间框架 D（日线）。",
+    "case_002_detail_6.jpg": "XAUUSD 日线图，时间范围从 7 月初至 9 月初。图上显示约 40 根 K 线，采用绿色（上升）和黑色（下降）蜡烛图表示。价格范围从 1890000 至 2020000。图左侧标注有一个价格水平约 1940000。K 线序列显示从 7 月初的 1900000 上升至 7 月中旬的 1980000 附近，随后在 1930000 至 1970000 区间内波动，8 月下旬出现下行，9 月初的最新"
+  },
+  "sources": [
+    {
+      "video_id": "YESqIoA7Wyg",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        193.2,
+        373.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主详细展示了周线和日线上的具体高低点回测过程，标注了关键价位（如1904.414、1921.525等），分析步骤清晰完整，图表截图与讲解内容高度匹配。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:37:52.929203Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"XAUUSD周线高低点回测与价格行动分析\",\"school\":\"Price Action\",\"asset\":\"XAUUSD\",\"timeframe\":\"1W\",\"market_context\":\"黄金在2023年2月至11月期间呈现波动走势，价格在1850-2100区间内震荡，形成多个摆动高低点。博主通过周线和日线对比分析价格如何反复回测前期高低点。\",\"key_observation\":\"在下跌趋势中，价格倾向于先回测前周低点，若失败则转向回测前周高点；价格在这些关键水平附近形成决策蜡烛（indecision candle），预示后续可能的方向突破。\",\"analysis_steps\":[\"Step 1: 识别价格跌破前周低点并收盘走低，预期价格将回测前周低点或前周高点。\",\"Step 2: 观察价格触及前周低点但未能突破（fail to display），预期随后转向回测前周高点。\",\"Step 3: 标记前周高点和低点作为关键参考水平，追踪价格是否形成位移（displacement）或决策蜡烛。\",\"Step 4: 分析决策蜡烛形态（小实体、长上下影线），判断价格可能向高点或低点运动。\",\"Step 5: 观察价格突破并收盘确认的情况，标记新的高低点以供后续回测参考。\",\"Step 6: 将同样的分析框架应用于日线图，标记前日高点和前日低点，观察价格如何在这些水平附近形成反转或流动性吸收。\",\"Step 7: 对比周线和日线的高低点回测模式，验证多时间框架的一致性。\"],\"outcome\":null,\"lessons\":\"在任何时间框架上，除非价格处于盘整状态，否则价格倾向于回测前期的摆动高点或低点。标记这些关键水平有助于预判流动性吸收点和潜在反转区域。决策蜡烛形态表明市场犹豫，可能预示即将的方向性突破。\",\"primary_image_frame_id\":\"YESqIoA7Wyg_f009\",\"supporting_image_frame_ids\":[\"YESqIoA7Wyg_f007\",\"YESqIoA7Wyg_f008\",\"YESqIoA7Wyg_f010\",\"YESqIoA7Wyg_f011\",\"YESqIoA7Wyg_f012\",\"YESqIoA7Wyg_f013\"],\"related_concepts\":[\"Swing High/Low\",\"Price Action\",\"Liquidity\",\"Displacement\",\"Indecision Candle\",\"Market Structure\",\"Support and Resistance\",\"Multi-Timeframe Analysis\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主详细展示了周线和日线上的具体高低点回测过程，标注了关键价位（如1904.414、1921.525等），分析步骤清晰完整，图表截图与讲解内容高度匹配。\"}",
+  "error": null
+}

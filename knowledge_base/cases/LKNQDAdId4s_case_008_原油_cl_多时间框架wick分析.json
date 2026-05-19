@@ -1,0 +1,105 @@
+{
+  "card_id": "LKNQDAdId4s_case_008_原油_cl_多时间框架wick分析",
+  "type": "case",
+  "title": "原油(CL)多时间框架wick 0.5位置尊重分析",
+  "related_concepts": [
+    {
+      "term": "Wick",
+      "card_id": "wick",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Failure Swing",
+      "card_id": "failure_swing",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    },
+    {
+      "term": "Support and Resistance",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrates_concepts": [
+    "wick",
+    "fair_value_gap",
+    "order_block",
+    "change_in_the_state_of_delivery",
+    "failure_swing",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "多时间框架（日线、1小时、15分钟、5分钟）",
+  "market_context": "原油在11月13-15日形成大幅下行K线，随后收回至前一根K线范围内。博主在多个时间框架上标记wick的0.5中点位置，观察价格在纽约时段的尊重情况及后续扩展运行。",
+  "key_observation": "价格在大幅下行后收回，在多时间框架上wick的0.5位置成为关键支撑/阻力。纽约时段形成的上影线与小时图的CSD相结合，提供了高概率的反向交易机会。",
+  "analysis_steps": [
+    "Step 1: 在日线图上识别大幅下行K线，标记其wick范围（约67.00附近）",
+    "Step 2: 在1小时图上观察CSD（交付状态改变）和失败摆动，标记wick的0.5位置作为潜在反向点",
+    "Step 3: 在15分钟图上标记来自1小时wick的0.5位置（约68.34），观察价格是否尊重该水平",
+    "Step 4: 在纽约时段（New York session）观察价格形成上影线，接近但未突破wick 0.5位置",
+    "Step 5: 在5分钟图上确认价格收盘低于wick 0.5位置，形成做空信号",
+    "Step 6: 设置交易入场（收盘确认）、止损（wick高点）、目标（1:1风险回报比），价格最终达到目标"
+  ],
+  "outcome": "价格在收盘确认低于wick 0.5位置后，从约68.34做空至目标位，达成1:1风险回报比的交易目标。",
+  "lessons": "wick的0.5位置在多时间框架上具有重要的支撑/阻力作用。结合CSD、失败摆动和时间框架连续性，可以提高反向交易的概率。但需注意价格不总是完美尊重这些水平，有时需要额外确认或接受更低的确定性。",
+  "primary_image": "cards/LKNQDAdId4s/images/case_008_primary.jpg",
+  "supporting_images": [
+    "cards/LKNQDAdId4s/images/case_008_detail_1.jpg",
+    "cards/LKNQDAdId4s/images/case_008_detail_2.jpg",
+    "cards/LKNQDAdId4s/images/case_008_detail_3.jpg",
+    "cards/LKNQDAdId4s/images/case_008_detail_4.jpg"
+  ],
+  "image_descriptions": {
+    "case_008_primary.jpg": "15分钟K线图，价格范围从67.65至68.95。图上有4条水平线分别位于68.34、68.49、68.60和68.00处。两个矩形区域分别覆盖68.00至68.60和67.95至68.40的价格范围。K线序列显示从05:00开始的上升趋势至07:30，随后下降至08:15，之后在08:15至09:00间形成盘整，再次上升至10:00，最后下降至12:00。多根K线显示上下影线超过主体长度的特征。",
+    "case_008_detail_1.jpg": "图为日线蜡烛图，右侧价格刻度范围约从65.40至71.20。图上可见约10根K线，时间轴跨越11月4日至25日区间，当前十字线定位于Mon 18 Nov。右侧价格轴高亮标签显示67.00，对应一条贯穿全图的水平虚线。图左侧有一根绿色大实体K线，随后出现两根黑色大实体K线，最低下影线延伸至约67.00附近。图右上角有水印文字'The Market Lens'及'Trades_edu'。图上未见矩形标",
+    "case_008_detail_2.jpg": "图为烛台图，时间轴覆盖11月13日至11月19日，右侧价格刻度范围约66.60至70.00。图右侧当前价标签显示68.65，并有一条水平虚线贯穿全图对应该价位。图上另有一条水平线段位于约69.10，横跨Nov 14 20:00至Nov 17区域。Nov 14 20:00处有一条垂直虚线。Nov 13约06:00处可见一根大幅下行K线，低点约66.90。Nov 14约06:00附近K线上行至约69.",
+    "case_008_detail_3.jpg": "图表为 K 线图，时间轴覆盖 04:30 至 11:00，日期标注为 Friday 15 Nov，当前价格标签显示 68.51。图右侧价格刻度范围约从 67.70 至 69.00。图上有一条水平线位于约 68.60，从 07:00 延伸至 10:00 附近，另有一条虚线水平线对应当前价 68.51。08:30 附近出现一根大绿色 K 线，主体从约 67.95 延伸至 68.55，下影线延伸至约 6",
+    "case_008_detail_4.jpg": "图表为 CL1! 品种的 K 线图，时间轴显示从 05:00 至 12:00。右侧价格刻度范围约为 67.70 至 69.00。图上有两条水平线，分别位于约 68.58 和 68.47 处，延伸区间约为 08:00 至 09:30。09:00 附近出现一根大幅绿色 K 线，主体从约 67.75 延伸至 68.50，下影线延伸至约 67.70。图右上角标注有水印文字\"The Market Lens\""
+  },
+  "sources": [
+    {
+      "video_id": "LKNQDAdId4s",
+      "segment_ids": [
+        "seg_004"
+      ],
+      "time_range": [
+        552.16,
+        709.92
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线到5分钟的多时间框架分析过程，清晰标记了wick 0.5位置，给出了具体的交易入场、止损、目标设置，并展示了最终结果。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:33:56.535096Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油(CL)多时间框架wick 0.5位置尊重分析\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"多时间框架（日线、1小时、15分钟、5分钟）\",\"market_context\":\"原油在11月13-15日形成大幅下行K线，随后收回至前一根K线范围内。博主在多个时间框架上标记wick的0.5中点位置，观察价格在纽约时段的尊重情况及后续扩展运行。\",\"key_observation\":\"价格在大幅下行后收回，在多时间框架上wick的0.5位置成为关键支撑/阻力。纽约时段形成的上影线与小时图的CSD相结合，提供了高概率的反向交易机会。\",\"analysis_steps\":[\"Step 1: 在日线图上识别大幅下行K线，标记其wick范围（约67.00附近）\",\"Step 2: 在1小时图上观察CSD（交付状态改变）和失败摆动，标记wick的0.5位置作为潜在反向点\",\"Step 3: 在15分钟图上标记来自1小时wick的0.5位置（约68.34），观察价格是否尊重该水平\",\"Step 4: 在纽约时段（New York session）观察价格形成上影线，接近但未突破wick 0.5位置\",\"Step 5: 在5分钟图上确认价格收盘低于wick 0.5位置，形成做空信号\",\"Step 6: 设置交易入场（收盘确认）、止损（wick高点）、目标（1:1风险回报比），价格最终达到目标\"],\"outcome\":\"价格在收盘确认低于wick 0.5位置后，从约68.34做空至目标位，达成1:1风险回报比的交易目标。\",\"lessons\":\"wick的0.5位置在多时间框架上具有重要的支撑/阻力作用。结合CSD、失败摆动和时间框架连续性，可以提高反向交易的概率。但需注意价格不总是完美尊重这些水平，有时需要额外确认或接受更低的确定性。\",\"primary_image_frame_id\":\"LKNQDAdId4s_f024\",\"supporting_image_frame_ids\":[\"LKNQDAdId4s_f020\",\"LKNQDAdId4s_f021\",\"LKNQDAdId4s_f022\",\"LKNQDAdId4s_f023\"],\"related_concepts\":[\"Wick\",\"Fair Value Gap\",\"Order Block\",\"Change in the state of delivery\",\"Failure Swing\",\"Multi-timeframe analysis\",\"Support and Resistance\",\"Risk Management\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线到5分钟的多时间框架分析过程，清晰标记了wick 0.5位置，给出了具体的交易入场、止损、目标设置，并展示了最终结果。\"}",
+  "error": null
+}

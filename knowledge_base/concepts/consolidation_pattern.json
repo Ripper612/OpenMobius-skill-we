@@ -1,0 +1,147 @@
+{
+  "card_id": "consolidation_pattern",
+  "type": "merged_concept",
+  "canonical_term": "Consolidation Pattern",
+  "aliases": [
+    "整理形态",
+    "横向整理",
+    "盘整",
+    "盘整形态"
+  ],
+  "school": "Price Action",
+  "definition": "价格在明确高低范围内反复震荡，无法形成新的受保护摆动或延续趋势，通常出现在大幅扩张运动之后。特征为K线开收盘价接近、两侧影线较长，高低点被限制在区间内，需等待范围边界被有效突破后才确认结束。",
+  "identification_rules": [
+    "识别范围高点和低点：前期某根K线的范围涵盖其后所有K线，后续K线高低点均未突破该边界",
+    "价格在区间内反复波动，无法形成新的受保护摆动（Protected Swing），即无法创出新高或新低后维持",
+    "出现多个相似高度的摆动高点或低点，继续尝试突破但失败（失败摆动）",
+    "整理K线特征：开盘价与收盘价接近，两侧影线明显长于实体，表现为上下都有刺破",
+    "通常在大幅扩张运动（Displacement）之后形成，可在多个时间框架上观察到",
+    "观察高时间框架K线是否重叠：不重叠的K线表明存在失败摆动和盘整",
+    "等待范围边界被明确穿破，或出现交付状态改变（CSD）确认整理结束"
+  ],
+  "trading_implication": "整理期间不应主动交易。应等待价格扫除前期高点或低点后，观察是否形成交付状态改变（CSD）或反转K线确认。突破后可交易至对面范围边界；若高点被扫除且形成小上影线，可在反转K线处建立空头，止损设在该高点。大幅上影线出现时应调整目标至日开盘价或会话低点，而非极端目标。配合SMT信号可提高确定性。",
+  "common_mistakes": [
+    "在整理过程中过早入场，未等待范围边界被突破和CSD确认",
+    "忽视失败摆动信号，误认为突破已确认而实际仍在盘整中",
+    "忽视上影线大小的区别——大上影线应等待下一根K线确认，不应立即交易反转K线",
+    "在大幅上影线形成的盘整中期望大幅扩张，应调整目标预期",
+    "未能识别整理与反转K线的区别，误判市场方向",
+    "忽视整理前的扩张运动背景，无法判断整理的重要性",
+    "在整理形态内频繁交易，导致被反复扫损"
+  ],
+  "related_concepts": [
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique",
+      "card_id": "smart_money_technique",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Reversal Candle",
+      "card_id": "reversal_candle",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Directional Candle",
+      "card_id": "directional_candle",
+      "exists": true
+    },
+    {
+      "term": "Indecision Candle",
+      "card_id": "indecision_candle",
+      "exists": true
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "-KKuZb5Z5aU",
+      "original_card_id": "-KKuZb5Z5aU_concept_consolidation_pattern",
+      "segment_ids": [
+        "seg_019",
+        "seg_020"
+      ],
+      "time_range": [
+        795.04,
+        858.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "m4k_1pF5zFI",
+      "original_card_id": "m4k_1pF5zFI_concept_consolidation_pattern",
+      "segment_ids": [
+        "seg_005",
+        "seg_007",
+        "seg_010"
+      ],
+      "time_range": [
+        244.239,
+        541.839
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "sIcsLFSNoXM",
+      "original_card_id": "sIcsLFSNoXM_concept_consolidation_pattern",
+      "segment_ids": [
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        549.32,
+        842.32
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 3,
+    "source_videos": 3,
+    "high_confidence_sources": 3,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:57:23.283054Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "merge_notes": null,
+  "error": null
+}

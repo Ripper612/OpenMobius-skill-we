@@ -1,0 +1,108 @@
+{
+  "card_id": "CHIK5oBRKiw_case_003_es期货10月11日双向交易案例",
+  "type": "case",
+  "title": "ES期货10月11日双向交易案例：操纵-CISD-订单块完整设置",
+  "related_concepts": [
+    {
+      "term": "Manipulation",
+      "card_id": "inducement",
+      "exists": true
+    },
+    {
+      "term": "Change in State of Delivery (CISD)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Standard Deviation Projection",
+      "card_id": "standard_deviation_projection",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "inducement",
+    "order_block_ob",
+    "fair_value_gap_fvg",
+    "displacement",
+    "standard_deviation_projection",
+    "liquidity",
+    "market_structure_shift_mss"
+  ],
+  "school": "ICT",
+  "asset": "ES1!",
+  "timeframe": "1M",
+  "market_context": "2023年10月11日ES期货在09:15-10:30区间内形成明显的操纵-反向结构。价格先从约4385下行至4372形成做空设置，随后反向上升至旧高点附近，展现完整的双向交易机会。",
+  "key_observation": "博主识别出完整的操纵-CISD-订单块交易模型：先识别做空的操纵与CISD确认，随后价格反向时再次通过CISD确认做多方向，目标为旧高点和标准差投影。",
+  "analysis_steps": [
+    "Step 1: 在1分钟图上识别初始操纵——价格从约4385快速下行至4372，形成明显的位移(Displacement)。",
+    "Step 2: 确认做空的CISD(Change in State of Delivery)——价格收盘跌破一系列上升K线的收盘价，验证下行趋势。",
+    "Step 3: 标记做空的订单块(Order Block)——在操纵高点附近形成的K线作为潜在支撑/阻力区。",
+    "Step 4: 投影做空目标——利用标准差(-2至-2.5)和旧低点作为下行目标。",
+    "Step 5: 识别反向操纵——价格在低点附近形成新的操纵，开始向上运行。",
+    "Step 6: 确认做多的CISD——价格收盘突破一系列下降K线的收盘价，验证上行趋势转变。",
+    "Step 7: 标记做多的订单块——在反向操纵区域形成的K线作为新的支撑。",
+    "Step 8: 投影做多目标——旧高点(约4385-4387)和标准差投影作为上行目标。"
+  ],
+  "outcome": "价格成功完成双向交易：先下行至-2到-2.5标准差区域，随后反向上升至旧高点附近，验证了完整的操纵-CISD-订单块交易模型的有效性。",
+  "lessons": "完整的交易设置需要三个关键要素：(1)操纵(Manipulation)确认价格的强势方向；(2)CISD确认趋势转变或延续；(3)订单块和FVG提供具体的入场和目标区域。通过多时间框架确认和标准差投影可以提高交易的概率和精确性。",
+  "primary_image": "cards/CHIK5oBRKiw/images/case_003_primary.jpg",
+  "supporting_images": [
+    "cards/CHIK5oBRKiw/images/case_003_detail_1.jpg",
+    "cards/CHIK5oBRKiw/images/case_003_detail_2.jpg",
+    "cards/CHIK5oBRKiw/images/case_003_detail_3.jpg"
+  ],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图为 ES1! 1 分钟 K 线图，时间轴覆盖约 09:30 至 10:35，日期标注为 10/11/2023，水印显示 TTrades_edu。图右侧价格刻度可见范围约 4368.50 至 4393.00。图上有三条水平线，分别位于约 4386.50、4372.25 及 4368.50 附近，左侧标有数字编号 1、2、2.5。约 09:44 处有一个小型粉红色矩形框标注于 4385.00 至 4",
+    "case_003_detail_1.jpg": "ES1! 1 分钟 K 线图，时间范围覆盖 2023 年 10 月 11 日约 09:10 至 10:15。图右侧价格刻度显示可见范围约为 4370.00 至 4391.00。图上有一条虚线水平线位于 4377.00 附近，右侧价格轴标注当前价 4382.50（带高亮背景）。K 线序列中，09:30 至 09:45 区间出现连续阴线，从约 4385.00 下行至约 4372.00；此后 09:45",
+    "case_003_detail_2.jpg": "ES1! 1分钟K线图，日期为2023年10月11日，时间轴覆盖09:15至10:20。图上有一个大型矩形框，上边界约在4385.00，下边界约在4372.00，横跨多根K线。矩形框上方另有一个较小的粉色矩形，位于4385.00至4387.00附近，出现在09:45前后。图上两条水平线分别对应矩形框的上下边界。K线序列从09:28附近开始向下运行至约4372，随后从09:40附近向上运行回至438",
+    "case_003_detail_3.jpg": "图为 ES1! 1 分钟 K 线图，时间轴显示 2023 年 11 月 10 日 09:20 至 10:25 区间，价格刻度范围约 4367 至 4393。图上有一条带文字标签的水平线，标注为 CSD，位于约 4261 价位处，并延伸至图右侧灰色矩形区域。图右侧有两个矩形标注：一个灰色矩形和一个浅绿色矩形，均位于垂直虚线右侧。图左上方有一个粉色小矩形，位于约 4385 至 4387 价位。图上另有"
+  },
+  "sources": [
+    {
+      "video_id": "CHIK5oBRKiw",
+      "segment_ids": [
+        "seg_004",
+        "seg_005",
+        "seg_006"
+      ],
+      "time_range": [
+        416.56,
+        846.72
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对该案例分析完整清晰：资产(ES1!)、时间框架(1分钟)、关键价位(4385、4372、4368等)、分析步骤(操纵-CISD-订单块)和交易结果都有明确展示和讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:29:54.981567Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"ES期货10月11日双向交易案例：操纵-CISD-订单块完整设置\",\"school\":\"ICT\",\"asset\":\"ES1!\",\"timeframe\":\"1M\",\"market_context\":\"2023年10月11日ES期货在09:15-10:30区间内形成明显的操纵-反向结构。价格先从约4385下行至4372形成做空设置，随后反向上升至旧高点附近，展现完整的双向交易机会。\",\"key_observation\":\"博主识别出完整的操纵-CISD-订单块交易模型：先识别做空的操纵与CISD确认，随后价格反向时再次通过CISD确认做多方向，目标为旧高点和标准差投影。\",\"analysis_steps\":[\"Step 1: 在1分钟图上识别初始操纵——价格从约4385快速下行至4372，形成明显的位移(Displacement)。\",\"Step 2: 确认做空的CISD(Change in State of Delivery)——价格收盘跌破一系列上升K线的收盘价，验证下行趋势。\",\"Step 3: 标记做空的订单块(Order Block)——在操纵高点附近形成的K线作为潜在支撑/阻力区。\",\"Step 4: 投影做空目标——利用标准差(-2至-2.5)和旧低点作为下行目标。\",\"Step 5: 识别反向操纵——价格在低点附近形成新的操纵，开始向上运行。\",\"Step 6: 确认做多的CISD——价格收盘突破一系列下降K线的收盘价，验证上行趋势转变。\",\"Step 7: 标记做多的订单块——在反向操纵区域形成的K线作为新的支撑。\",\"Step 8: 投影做多目标——旧高点(约4385-4387)和标准差投影作为上行目标。\"],\"outcome\":\"价格成功完成双向交易：先下行至-2到-2.5标准差区域，随后反向上升至旧高点附近，验证了完整的操纵-CISD-订单块交易模型的有效性。\",\"lessons\":\"完整的交易设置需要三个关键要素：(1)操纵(Manipulation)确认价格的强势方向；(2)CISD确认趋势转变或延续；(3)订单块和FVG提供具体的入场和目标区域。通过多时间框架确认和标准差投影可以提高交易的概率和精确性。\",\"primary_image_frame_id\":\"CHIK5oBRKiw_f020\",\"supporting_image_frame_ids\":[\"CHIK5oBRKiw_f017\",\"CHIK5oBRKiw_f018\",\"CHIK5oBRKiw_f019\",\"CHIK5oBRKiw_f021\",\"CHIK5oBRKiw_f022\",\"CHIK5oBRKiw_f023\"],\"related_concepts\":[\"Manipulation\",\"Change in State of Delivery (CISD)\",\"Order Block (OB)\",\"Fair Value Gap (FVG)\",\"Displacement\",\"Standard Deviation Projection\",\"Liquidity\",\"Market Structure Shift (MSS)\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对该案例分析完整清晰：资产(ES1!)、时间框架(1分钟)、关键价位(4385、4372、4368等)、分析步骤(操纵-CISD-订单块)和交易结果都有明确展示和讲解。\"}",
+  "error": null
+}

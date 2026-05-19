@@ -1,0 +1,113 @@
+{
+  "card_id": "9PKJ0U1gl4g_case_001_原油期货日线propulsion_block交易案例",
+  "type": "case",
+  "title": "原油期货日线Propulsion Block交易案例",
+  "related_concepts": [
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Propulsion Block",
+      "card_id": "propulsion_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Market Structure",
+      "card_id": "market_structure",
+      "exists": true
+    },
+    {
+      "term": "Risk Management",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Entry Point",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Stop Loss",
+      "card_id": "stop_loss",
+      "exists": true
+    },
+    {
+      "term": "Risk/Reward Ratio",
+      "card_id": "risk_to_reward",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "order_block",
+    "propulsion_block",
+    "displacement",
+    "fair_value_gap",
+    "market_structure",
+    "stop_loss",
+    "risk_to_reward"
+  ],
+  "school": "ICT",
+  "asset": "CL1!",
+  "timeframe": "1D",
+  "market_context": "原油期货在8月至10月期间从74.00上升至95.00附近，随后回落至82.00区域。博主在10月下旬识别出Order Block回测后形成的Propulsion Block结构，用于日线交易设置。",
+  "key_observation": "价格在回测初始Order Block后，形成新的Propulsion Block（更小的Order Block），开盘价成为敏感入场点。博主强调不希望看到价格突破Propulsion Block的中线阈值。",
+  "analysis_steps": [
+    "Step 1: 识别初始Order Block——一系列上升收盘K线在重要水平前形成，随后价格位移并收于这些K线下方，验证Order Block成立。",
+    "Step 2: 确认Order Block回测——价格回升至Order Block区域进行回测。",
+    "Step 3: 识别Propulsion Block形成——回测时的上升收盘K线（或系列K线）收于初始Order Block上方，在该K线下方形成新的Propulsion Block。",
+    "Step 4: 设定交易参数——在Propulsion Block的开盘价入场，止损设在K线实体另一侧（约86.00），目标为摆动低点（约80.22）。",
+    "Step 5: 验证风险回报比——计算风险回报比为2.27R，确认交易设置的有效性。",
+    "Step 6: 执行交易——以开盘价入场，同日获利达成。"
+  ],
+  "outcome": "交易同日获利。根据交易面板显示：入场价约82.21-85.52，止损约86.00（风险1.61，1.92%），目标约80.22（收益3.65，4.55%），风险回报比2.27R，持仓数量1.242手。",
+  "lessons": "Propulsion Block是Order Block的高级应用，通过在已验证的Order Block基础上识别更小的结构，可以获得更精确的入场点。开盘价的敏感性和中线阈值的保护是Propulsion Block交易的关键。严格的风险管理（止损位置、风险回报比）确保了交易的可执行性。",
+  "primary_image": "cards/9PKJ0U1gl4g/images/case_001_primary.jpg",
+  "supporting_images": [
+    "cards/9PKJ0U1gl4g/images/case_001_detail_1.jpg",
+    "cards/9PKJ0U1gl4g/images/case_001_detail_2.jpg",
+    "cards/9PKJ0U1gl4g/images/case_001_detail_3.jpg",
+    "cards/9PKJ0U1gl4g/images/case_001_detail_4.jpg",
+    "cards/9PKJ0U1gl4g/images/case_001_detail_5.jpg"
+  ],
+  "image_descriptions": {
+    "case_001_primary.jpg": "CL1（原油期货）日线K线图，图上可见价格范围约从77.00至95.00。图右侧叠加一个交易管理面板，显示三个水平区域：止损标注约在86.00（Stop: 1.61, 1.92%, Amount: 198000）、入场/持仓区约在82.21至85.52（Open P&L: 0.96, Qty: 1.242, Risk/Reward Ratio: 2.27）、目标区约在80.22（Target: 3",
+    "case_001_detail_1.jpg": "原油期货（CL）日线蜡烛图，数据来源标注为 FXReplay 平台 CME 数据。图上价格刻度范围约从 74.00 至 96.00。K 线走势显示从约 74.00 区域向上延伸至约 95.00 区域后回落，右侧最新 K 线收于 83.48 附近，图右侧有当前价高亮标签显示 83.48。图上未见额外的水平线、趋势线、矩形框或其他标注工具。底部时间轴显示时间范围覆盖 8 月至 12 月初。",
+    "case_001_detail_2.jpg": "图为教学示意图，顶部标题栏显示'Orderblocks'。图中包含上下两组 K 线序列，均为无价格刻度的示意性蜡烛图，K 线由绿色和黑色蜡烛组成。上方组合图中，顶部有一条水平线标注'Important Level'，中下部有一条水平线标注'OB'，并附有一个虚线矩形框。下方组合图中，底部有一条水平线标注'Important Level'并附虚线矩形框，中上部有一条水平线标注'OB'。图上无具体价格",
+    "case_001_detail_3.jpg": "图为教学示意性 K 线图，顶部标题栏标注'Propulsion Block'。图上有两条水平线：下方水平线标注'Important Level'，其上方有一个虚线矩形框圈住数根 K 线；上方水平线标注'OB'，位于图中偏上区域并向右延伸。图中共约 12 根 K 线，分为左侧和右侧两组，均由绿色和黑色实体 K 线混合组成。右侧一根 K 线上附有黄色圆形标记，位于 OB 水平线附近。图右下角显示页码'",
+    "case_001_detail_4.jpg": "CL1! 日线 K 线图，可见价格范围约 77.00 至 95.00。图上有一条水平虚线从左侧延伸至约 Oct 19 附近的一根带黄色高亮边框的 K 线，水平线对应价格约 89.19。右侧价格轴显示当前价标签 89.29（蓝色高亮）及 89.19 和 84.01 两个价格标记。图上可见一段从约 80.50 低点向上的多根 K 线序列，随后在约 Oct 19 附近出现带黄色高亮的 K 线，其后跟随一",
+    "case_001_detail_5.jpg": "CL1! 日线蜡烛图，时间范围覆盖 2023 年 8 月下旬至 12 月中旬。图右侧价格轴可见刻度从约 77.00 至 95.00。图上有两条带价格标签的水平虚线，分别位于 85.97 和 85.48。另有一条蓝色细矩形水平标注横跨多根 K 线，位于约 88.80 至 89.20 区间。光标定位于 2023 年 10 月 27 日 K 线处，对应价格约 85.97。图左下角显示 TradingVi"
+  },
+  "sources": [
+    {
+      "video_id": "9PKJ0U1gl4g",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        12.44,
+        196.28
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了Propulsion Block的识别过程、交易参数设置、实际图表标注和交易结果，所有关键信息（资产CL1!、时间框架1D、价格水平、入场止损目标、风险回报比）均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:28:57.738591Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"原油期货日线Propulsion Block交易案例\",\"school\":\"ICT\",\"asset\":\"CL1!\",\"timeframe\":\"1D\",\"market_context\":\"原油期货在8月至10月期间从74.00上升至95.00附近，随后回落至82.00区域。博主在10月下旬识别出Order Block回测后形成的Propulsion Block结构，用于日线交易设置。\",\"key_observation\":\"价格在回测初始Order Block后，形成新的Propulsion Block（更小的Order Block），开盘价成为敏感入场点。博主强调不希望看到价格突破Propulsion Block的中线阈值。\",\"analysis_steps\":[\"Step 1: 识别初始Order Block——一系列上升收盘K线在重要水平前形成，随后价格位移并收于这些K线下方，验证Order Block成立。\",\"Step 2: 确认Order Block回测——价格回升至Order Block区域进行回测。\",\"Step 3: 识别Propulsion Block形成——回测时的上升收盘K线（或系列K线）收于初始Order Block上方，在该K线下方形成新的Propulsion Block。\",\"Step 4: 设定交易参数——在Propulsion Block的开盘价入场，止损设在K线实体另一侧（约86.00），目标为摆动低点（约80.22）。\",\"Step 5: 验证风险回报比——计算风险回报比为2.27R，确认交易设置的有效性。\",\"Step 6: 执行交易——以开盘价入场，同日获利达成。\"],\"outcome\":\"交易同日获利。根据交易面板显示：入场价约82.21-85.52，止损约86.00（风险1.61，1.92%），目标约80.22（收益3.65，4.55%），风险回报比2.27R，持仓数量1.242手。\",\"lessons\":\"Propulsion Block是Order Block的高级应用，通过在已验证的Order Block基础上识别更小的结构，可以获得更精确的入场点。开盘价的敏感性和中线阈值的保护是Propulsion Block交易的关键。严格的风险管理（止损位置、风险回报比）确保了交易的可执行性。\",\"primary_image_frame_id\":\"9PKJ0U1gl4g_f007\",\"supporting_image_frame_ids\":[\"9PKJ0U1gl4g_f002\",\"9PKJ0U1gl4g_f003\",\"9PKJ0U1gl4g_f004\",\"9PKJ0U1gl4g_f005\",\"9PKJ0U1gl4g_f006\"],\"related_concepts\":[\"Order Block\",\"Propulsion Block\",\"Displacement\",\"Fair Value Gap\",\"Market Structure\",\"Risk Management\",\"Entry Point\",\"Stop Loss\",\"Risk/Reward Ratio\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了Propulsion Block的识别过程、交易参数设置、实际图表标注和交易结果，所有关键信息（资产CL1!、时间框架1D、价格水平、入场止损目标、风险回报比）均清晰可读。\"}",
+  "error": null
+}

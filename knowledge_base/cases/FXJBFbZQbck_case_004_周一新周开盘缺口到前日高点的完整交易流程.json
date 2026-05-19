@@ -1,0 +1,105 @@
+{
+  "card_id": "FXJBFbZQbck_case_004_周一新周开盘缺口到前日高点的完整交易流程",
+  "type": "case",
+  "title": "周一新周开盘缺口到前日高点的完整AMD交易流程",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 / AMD (Accumulation, Manipulation, Distribution)",
+      "card_id": "power_of_3_amd_accumulation_manipulation_distribution",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "New Week Opening Gap",
+      "card_id": "new_week_opening_gap",
+      "exists": true
+    },
+    {
+      "term": "Previous Day High/Low",
+      "card_id": "previous_day_high_low",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "liquidity",
+    "power_of_3_amd_accumulation_manipulation_distribution",
+    "market_structure_shift_mss",
+    "new_week_opening_gap",
+    "previous_day_high_low"
+  ],
+  "school": "ICT",
+  "asset": "ETH/USD",
+  "timeframe": "1D / 1H / 5M",
+  "market_context": "周一新周开盘，价格从新周开盘缺口（约15490）向下，在亚洲和伦敦时段盘整，纽约开盘前出现操纵下行，随后分布上升至前日高点（约15540）。",
+  "key_observation": "博主识别出典型的AMD（积累-操纵-派发）模式：新周开盘缺口作为流动性目标，前日高点作为分布目标；在纽约开盘时出现操纵下行后，预期价格分布上升至前日高点。",
+  "analysis_steps": [
+    "Step 1: 在日线上标记新周开盘缺口（约15490）和前日高点（约15540）作为关键流动性水平。",
+    "Step 2: 观察周一亚洲和伦敦时段的盘整行为，确认为积累阶段。",
+    "Step 3: 纽约开盘时识别操纵下行（news-driven），确认为AMD中的操纵阶段。",
+    "Step 4: 下探至1小时图，在操纵低点附近识别5分钟FVG作为入场点。",
+    "Step 5: 在5分钟图上设置交易：止损在操纵低点（约14949.75），目标在前日高点（约15185.00），风险回报比约2R。",
+    "Step 6: 价格从FVG反弹，触及新周开盘缺口后继续上升至前日高点，完成分布阶段。"
+  ],
+  "outcome": "价格成功从5分钟FVG入场点反弹，突破新周开盘缺口，最终触及前日高点（约15540），完成AMD周期，交易目标达成。",
+  "lessons": "AMD模式在多时间框架中的应用：日线识别大结构（缺口、前日高点），小时图确认操纵信号，5分钟图精确入场。新周开盘缺口和前日高点作为关键流动性目标，新闻驱动的操纵常常是分布前的最后积累机会。",
+  "primary_image": "cards/FXJBFbZQbck/images/case_004_primary.jpg",
+  "supporting_images": [
+    "cards/FXJBFbZQbck/images/case_004_detail_1.jpg",
+    "cards/FXJBFbZQbck/images/case_004_detail_2.jpg"
+  ],
+  "image_descriptions": {
+    "case_004_primary.jpg": "图表为 5M 蜡烛图，资产代码未明确显示，货币单位为 USD。图右侧有一个绿色矩形区域覆盖约 15018.00 至 15185.00 价格范围，标注目标价信息：Target 130.75（0.87%），Amount 200190.84。图右侧另有一个粉红色矩形区域覆盖约 14949.75 至 15018.00，标注止损信息：Stop 68.25（0.45%），Amount 199900。图中央弹出",
+    "case_004_detail_1.jpg": "日线蜡烛图，右侧价格轴可见范围约从14400到15850。图上有一个矩形标注，覆盖约15200至15500区间，横跨图表中部。右侧价格轴有两个高亮标签：15069.75（带虚线延伸）及14749.00。图中可见两段短水平线段，分别位于约15100及14700附近。K线序列显示从9月底至10月初有多根绿色K线，随后10月中旬起出现多根黑色K线，最低延伸至约14400附近。时间轴标注从8月28日延伸至",
+    "case_004_detail_2.jpg": "图表显示 ETH/USD 1 小时 K 线图，可见价格范围约从 14600 到 15440。图右侧价格轴标注当前价约 15005.25，另有 15054.50 和 15040.00 两个价格标签。图中央有一根大阳线从约 14680 上涨至约 15120，其后 K 线在约 14960 至 15160 区间内横向整理。图上有一个矩形框标注区域，覆盖约 15080 至 15160 价格范围，并延伸至图右"
+  },
+  "sources": [
+    {
+      "video_id": "FXJBFbZQbck",
+      "segment_ids": [
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        371.88,
+        738.959
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了从日线识别到5分钟入场的全流程，清晰标注了关键价位（新周缺口15490、前日高点15540、FVG入场14949.75-15018、目标15185），交易结果明确，AMD模式应用完整。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:31:28.057489Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"周一新周开盘缺口到前日高点的完整AMD交易流程\",\"school\":\"ICT\",\"asset\":\"ETH/USD\",\"timeframe\":\"1D / 1H / 5M\",\"market_context\":\"周一新周开盘，价格从新周开盘缺口（约15490）向下，在亚洲和伦敦时段盘整，纽约开盘前出现操纵下行，随后分布上升至前日高点（约15540）。\",\"key_observation\":\"博主识别出典型的AMD（积累-操纵-派发）模式：新周开盘缺口作为流动性目标，前日高点作为分布目标；在纽约开盘时出现操纵下行后，预期价格分布上升至前日高点。\",\"analysis_steps\":[\"Step 1: 在日线上标记新周开盘缺口（约15490）和前日高点（约15540）作为关键流动性水平。\",\"Step 2: 观察周一亚洲和伦敦时段的盘整行为，确认为积累阶段。\",\"Step 3: 纽约开盘时识别操纵下行（news-driven），确认为AMD中的操纵阶段。\",\"Step 4: 下探至1小时图，在操纵低点附近识别5分钟FVG作为入场点。\",\"Step 5: 在5分钟图上设置交易：止损在操纵低点（约14949.75），目标在前日高点（约15185.00），风险回报比约2R。\",\"Step 6: 价格从FVG反弹，触及新周开盘缺口后继续上升至前日高点，完成分布阶段。\"],\"outcome\":\"价格成功从5分钟FVG入场点反弹，突破新周开盘缺口，最终触及前日高点（约15540），完成AMD周期，交易目标达成。\",\"lessons\":\"AMD模式在多时间框架中的应用：日线识别大结构（缺口、前日高点），小时图确认操纵信号，5分钟图精确入场。新周开盘缺口和前日高点作为关键流动性目标，新闻驱动的操纵常常是分布前的最后积累机会。\",\"primary_image_frame_id\":\"FXJBFbZQbck_f019\",\"supporting_image_frame_ids\":[\"FXJBFbZQbck_f017\",\"FXJBFbZQbck_f018\",\"FXJBFbZQbck_f020\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Liquidity\",\"Power of 3 / AMD (Accumulation, Manipulation, Distribution)\",\"Market Structure Shift (MSS)\",\"New Week Opening Gap\",\"Previous Day High/Low\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主完整展示了从日线识别到5分钟入场的全流程，清晰标注了关键价位（新周缺口15490、前日高点15540、FVG入场14949.75-15018、目标15185），交易结果明确，AMD模式应用完整。\"}",
+  "error": null
+}

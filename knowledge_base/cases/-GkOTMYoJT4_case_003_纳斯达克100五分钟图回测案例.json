@@ -1,0 +1,92 @@
+{
+  "card_id": "-GkOTMYoJT4_case_003_纳斯达克100五分钟图回测案例",
+  "type": "case",
+  "title": "纳斯达克100五分钟图：强势上升后回测FVG内旧低点",
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap (FVG)",
+      "card_id": "fair_value_gap_fvg",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Inducement",
+      "card_id": "inducement",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "fair_value_gap_fvg",
+    "order_block_ob",
+    "displacement",
+    "liquidity",
+    "premium_discount_premium_",
+    "market_structure_shift_mss",
+    "inducement"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "5M",
+  "market_context": "纳斯达克100期货在09:30附近形成强势上升，价格从约13060上行至13140-13160高点，随后无法收盘在高点上方，转而下跌回测旧低点。",
+  "key_observation": "价格在强势上升后失败收盘于高点，随后下跌回测的低点位于先前形成的公允价值缺口（FVG）内部，预期后续向上扩展。",
+  "analysis_steps": [
+    "Step 1: 识别09:30附近的强势上升K线，价格从约13060上行至13140-13160，形成大幅位移。",
+    "Step 2: 观察价格无法收盘在高点上方，出现回撤信号。",
+    "Step 3: 标记先前形成的公允价值缺口（FVG）区域。",
+    "Step 4: 追踪价格下跌回测，确认低点位于FVG内部。",
+    "Step 5: 根据低点在PD array内的位置，预期价格后续向上扩展至买方流动性（高点）。"
+  ],
+  "outcome": null,
+  "lessons": "当价格在强势上升后无法收盘于高点，随后回测的低点若位于FVG内部，这通常构成高概率的多头设置。低点在PD array内表明市场结构完整，预期后续向上扩展。",
+  "primary_image": "cards/-GkOTMYoJT4/images/case_003_primary.jpg",
+  "supporting_images": [],
+  "image_descriptions": {
+    "case_003_primary.jpg": "图表为 NASDAQ 100 E-mini Futures 5 分钟 K 线图，时间轴从 07:30 延伸至约 13:30。右侧价格刻度范围约为 13048 至 13176。图上右侧价格标签显示当前价为 13118.00。09:30 附近出现一根大幅绿色 K 线，从约 13060 上行至 13140。10:00 附近有一根带长上影线的 K 线，影线延伸至约 13160。此后 10:00 至 10:"
+  },
+  "sources": [
+    {
+      "video_id": "-GkOTMYoJT4",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        165.0,
+        361.82
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主对纳斯达克100五分钟图的分析完整清晰，资产代码、时间框架、关键价位、FVG位置及预期方向都有明确标注和讲解。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:02:19.652758Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"纳斯达克100五分钟图：强势上升后回测FVG内旧低点\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"5M\",\"market_context\":\"纳斯达克100期货在09:30附近形成强势上升，价格从约13060上行至13140-13160高点，随后无法收盘在高点上方，转而下跌回测旧低点。\",\"key_observation\":\"价格在强势上升后失败收盘于高点，随后下跌回测的低点位于先前形成的公允价值缺口（FVG）内部，预期后续向上扩展。\",\"analysis_steps\":[\"Step 1: 识别09:30附近的强势上升K线，价格从约13060上行至13140-13160，形成大幅位移。\",\"Step 2: 观察价格无法收盘在高点上方，出现回撤信号。\",\"Step 3: 标记先前形成的公允价值缺口（FVG）区域。\",\"Step 4: 追踪价格下跌回测，确认低点位于FVG内部。\",\"Step 5: 根据低点在PD array内的位置，预期价格后续向上扩展至买方流动性（高点）。\"],\"outcome\":null,\"lessons\":\"当价格在强势上升后无法收盘于高点，随后回测的低点若位于FVG内部，这通常构成高概率的多头设置。低点在PD array内表明市场结构完整，预期后续向上扩展。\",\"primary_image_frame_id\":\"-GkOTMYoJT4_f012\",\"supporting_image_frame_ids\":[\"-GkOTMYoJT4_f013\"],\"related_concepts\":[\"Fair Value Gap (FVG)\",\"Order Block (OB)\",\"Displacement\",\"Liquidity\",\"PD array\",\"Market Structure Shift (MSS)\",\"Inducement\"],\"extraction_confidence\":\"high\",\"confidence_reason\":\"博主对纳斯达克100五分钟图的分析完整清晰，资产代码、时间框架、关键价位、FVG位置及预期方向都有明确标注和讲解。\"}",
+  "error": null
+}

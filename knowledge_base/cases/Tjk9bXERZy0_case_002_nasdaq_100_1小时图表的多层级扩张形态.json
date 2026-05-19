@@ -1,0 +1,122 @@
+{
+  "card_id": "Tjk9bXERZy0_case_002_nasdaq_100_1小时图表的多层级扩张形态",
+  "type": "case",
+  "title": "NQ 1小时图多层级扩张形态与SMT、Power of 3应用",
+  "related_concepts": [
+    {
+      "term": "Broadening Formation",
+      "card_id": "broadening_formation",
+      "exists": true
+    },
+    {
+      "term": "Smart Money Technique (SMT)",
+      "card_id": "smart_money_technique_smt",
+      "exists": true
+    },
+    {
+      "term": "Power of 3 (Accumulation, Manipulation, Distribution)",
+      "card_id": null,
+      "exists": false
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "exists": true
+    },
+    {
+      "term": "Liquidity (Buyside/Sellside)",
+      "card_id": "liquidity_buyside_sellside",
+      "exists": true
+    },
+    {
+      "term": "Order Block (OB)",
+      "card_id": "order_block_ob",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift (MSS)",
+      "card_id": "market_structure_shift_mss",
+      "exists": true
+    },
+    {
+      "term": "Multi-timeframe Analysis",
+      "card_id": "time_frame_confluence",
+      "exists": true
+    }
+  ],
+  "illustrates_concepts": [
+    "broadening_formation",
+    "smart_money_technique_smt",
+    "premium_discount",
+    "equilibrium_eq",
+    "liquidity_buyside_sellside",
+    "order_block_ob",
+    "market_structure_shift_mss",
+    "time_frame_confluence"
+  ],
+  "school": "ICT",
+  "asset": "NQ1!",
+  "timeframe": "1H",
+  "market_context": "NQ在初始高点18750下跌至17950后进入盘整，形成18050-18350的初始区间。随后价格多次失败突破该区间边界，逐步扩张形成更大的扩张形态，同时内部包含更小的扩张结构。",
+  "key_observation": "博主展示了扩张形态内部存在多层级的扩张结构：初始盘整区间内部有更小的扩张形态，外层还有更大的扩张形态。每次价格失败突破一侧时，就会转向另一侧，逐步扩大范围。",
+  "analysis_steps": [
+    "Step 1: 识别初始盘整区间——从高点18750下跌至17950后，价格在18050-18350形成初始盘整范围。",
+    "Step 2: 标记扩张形态边界——绘制上下趋势线，上线从约18300向下倾斜，下线从约18050向上倾斜，形成扩张结构。",
+    "Step 3: 观察多次失败突破——价格多次尝试突破上边界但失败，同时也未能有效突破下边界，导致范围不断扩大。",
+    "Step 4: 发现内部扩张形态——在较小时间框架（15分钟）上，盘整区间内部也形成了更小的扩张形态，展示多层级结构。",
+    "Step 5: 应用SMT寻找反转点——在扩张形态的边界处寻找Smart Money Technique信号，特别是在失败摆动处。",
+    "Step 6: 结合Power of 3模型——将扩张形态与积累-操纵-派发周期对应，识别操纵阶段扫荡流动性后的派发方向。",
+    "Step 7: 使用折价/溢价区定位目标——将初始区间分割为折价区（下半部分）和溢价区（上半部分），预期价格在失败突破后回归均衡点或对侧边界。",
+    "Step 8: 标记初始区间高低作为兴趣点——记录初始盘整的高低点（约18350和18050），用作后续价格回测的参考位。"
+  ],
+  "outcome": null,
+  "lessons": "扩张形态可以在多个时间框架上同时出现，内部结构反映外部结构。结合SMT在边界处寻找反转机会，使用Power of 3识别市场操纵阶段，利用折价/溢价区和均衡点精确定位目标价位。扩张形态的边界本身既是支撑/阻力，也是潜在的反转或延续触发点。",
+  "primary_image": "cards/Tjk9bXERZy0/images/case_002_primary.jpg",
+  "supporting_images": [
+    "cards/Tjk9bXERZy0/images/case_002_detail_1.jpg",
+    "cards/Tjk9bXERZy0/images/case_002_detail_2.jpg",
+    "cards/Tjk9bXERZy0/images/case_002_detail_3.jpg",
+    "cards/Tjk9bXERZy0/images/case_002_detail_4.jpg",
+    "cards/Tjk9bXERZy0/images/case_002_detail_5.jpg",
+    "cards/Tjk9bXERZy0/images/case_002_detail_6.jpg",
+    "cards/Tjk9bXERZy0/images/case_002_detail_7.jpg"
+  ],
+  "image_descriptions": {
+    "case_002_primary.jpg": "NQ100 1小时K线图。图上显示价格范围约从18050到19750。中央区域有一个矩形标注框，内部包含多根K线在18200至18450区间内波动。矩形上下方各有一条蓝色趋势线：上方趋势线从左上向右下倾斜，下方趋势线从左下向右上倾斜，两线形成收敛形态。图右侧出现一根长黑色K线，向下刺破至约18050。图上标注有日期'10-4 2024'和文字'NQ11 / 6588'。左侧价格刻度显示18415.",
+    "case_002_detail_1.jpg": "NASDAQ 100 E-mini期货15分钟K线图。图上绘制一个矩形框，上边界约19520，下边界约18000。矩形内K线密集波动，显示多次上下穿梭。矩形右侧有一根K线用黄色高亮标记，位于区间上半部分。两条蓝色趋势线分别从矩形上边界向下倾斜至下边界，以及从下边界向上倾斜至上边界。图表右上角显示时间戳10/4/2024及NQ1!|15M标识。左上角显示资产名称及当前价格信息。",
+    "case_002_detail_2.jpg": "NASDAQ 100 E-mini Futures 15分钟图表。图上绘制一个矩形结构，大约范围从18950至19350。矩形内部有两条趋势线形成楔形：上趋势线从约19350向下延伸至19000，下趋势线从约18950向上延伸至19520。K线在该矩形及楔形结构内震荡，跨越多根15分钟K线。图右侧有一条水平参考线位于19885.25。图上标注显示日期为10/4/2024，周期为NQ11 | 15M",
+    "case_002_detail_3.jpg": "NASDAQ 100 E-mini Futures 1小时K线图。图上显示一根大幅下跌的黑色K线从约18500跌至18000，带有长下影线。随后出现约8根K线的盘整形态，在18000至18400区间内震荡，包含多根绿色和黑色K线。图上标注有两个矩形框围绕盘整区域，以及一条水平线位于18191.50。右侧标注显示日期8/4/2024和NQ11 6084。",
+    "case_002_detail_4.jpg": "NQ100 1小时K线图。图上显示价格范围约从17800到18700。左侧有一根大幅下跌的K线。中间区域显示一个矩形标注框，范围在18300至18100之间，该区域内有多根K线形成盘整。图上绘有一条向下倾斜的蓝色趋势线，从左上向右下延伸穿过盘整区域。另有两条水平线分别位于18300和18100价格水平。右侧靠近18100处有一个黄色圆形标记。图表底部显示时间标签9/4/2024及10:11|6:0",
+    "case_002_detail_5.jpg": "NQ100 1小时K线图。图上显示从左侧高点18750向下跌至17950的初始下跌，随后进入约15根K线的盘整区间，价格在18050至18350之间波动。图上绘有一条向下倾斜的趋势线，从约18300下行至18050，以及一条水平线位于18298处。右侧标注显示时间为10/4/2024 16:11。可见K线整体价格范围约从17950到18750。",
+    "case_002_detail_6.jpg": "NQ100 1小时K线图。图上绘制两条向下倾斜的蓝色趋势线，上方趋势线从左上方约18540向右下方延伸至约17600，下方趋势线从约18100向右下方延伸。图表左侧显示一段上升K线序列，中间区域呈现18100至18300之间的盘整形态，随后出现一根大幅下跌的黑色K线从18500跌至18000附近，之后K线在18000至18200区间内小幅波动。右侧显示一个黄色十字光标标记在约18100价格水平。图",
+    "case_002_detail_7.jpg": "NQ100 1小时K线图。图上显示价格范围从18040到18640。绘制两条蓝色趋势线：一条从左下向右上延伸，另一条从左上向右下延伸，两线在中间区域形成收敛。矩形框标注覆盖约18200至18500的价格区间。K线由绿色和黑色组成，左侧和右侧区域绿色K线较多，中间区域黑色K线占比较大。右侧最新K线为绿色。图表底部显示时间标记为11/4/2024，周期标注为NQ1! | 60M。"
+  },
+  "sources": [
+    {
+      "video_id": "Tjk9bXERZy0",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        191.56,
+        687.12
+      ]
+    }
+  ],
+  "extraction_confidence": "high",
+  "confidence_reason": "博主完整展示了扩张形态的识别过程、多层级结构、SMT应用、Power of 3模型和折价溢价区的使用，资产代码、时间框架、价格范围均清晰可读。",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [],
+  "extracted_at": "2026-05-13T15:36:54.552208Z",
+  "model_used": "anthropic/claude-haiku-4.5",
+  "raw_response": "{\"title\":\"NQ 1小时图多层级扩张形态与SMT、Power of 3应用\",\"school\":\"ICT\",\"asset\":\"NQ1!\",\"timeframe\":\"1H\",\"market_context\":\"NQ在初始高点18750下跌至17950后进入盘整，形成18050-18350的初始区间。随后价格多次失败突破该区间边界，逐步扩张形成更大的扩张形态，同时内部包含更小的扩张结构。\",\"key_observation\":\"博主展示了扩张形态内部存在多层级的扩张结构：初始盘整区间内部有更小的扩张形态，外层还有更大的扩张形态。每次价格失败突破一侧时，就会转向另一侧，逐步扩大范围。\",\"analysis_steps\":[\"Step 1: 识别初始盘整区间——从高点18750下跌至17950后，价格在18050-18350形成初始盘整范围。\",\"Step 2: 标记扩张形态边界——绘制上下趋势线，上线从约18300向下倾斜，下线从约18050向上倾斜，形成扩张结构。\",\"Step 3: 观察多次失败突破——价格多次尝试突破上边界但失败，同时也未能有效突破下边界，导致范围不断扩大。\",\"Step 4: 发现内部扩张形态——在较小时间框架（15分钟）上，盘整区间内部也形成了更小的扩张形态，展示多层级结构。\",\"Step 5: 应用SMT寻找反转点——在扩张形态的边界处寻找Smart Money Technique信号，特别是在失败摆动处。\",\"Step 6: 结合Power of 3模型——将扩张形态与积累-操纵-派发周期对应，识别操纵阶段扫荡流动性后的派发方向。\",\"Step 7: 使用折价/溢价区定位目标——将初始区间分割为折价区（下半部分）和溢价区（上半部分），预期价格在失败突破后回归均衡点或对侧边界。\",\"Step 8: 标记初始区间高低作为兴趣点——记录初始盘整的高低点（约18350和18050），用作后续价格回测的参考位。\"],\"outcome\":null,\"lessons\":\"扩张形态可以在多个时间框架上同时出现，内部结构反映外部结构。结合SMT在边界处寻找反转机会，使用Power of 3识别市场操纵阶段，利用折价/溢价区和均衡点精确定位目标价位。扩张形态的边界本身既是支撑/阻力，也是潜在的反转或延续触发点。\",\"primary_image_frame_id\":\"Tjk9bXERZy0_f011\",\"supporting_image_frame_ids\":[\"Tjk9bXERZy0_f007\",\"Tjk9bXERZy0_f008\",\"Tjk9bXERZy0_f009\",\"Tjk9bXERZy0_f010\",\"Tjk9bXERZy0_f001\",\"Tjk9bXERZy0_f012\",\"Tjk9bXERZy0_f013\"],\"related_concepts\":[\"Broadening Formation\",\"Smart Money Technique (SMT)\",\"Power of 3 (Accumulation, Manipulation, Distribution)\",\"Premium / Discount\",\"Equilibrium (EQ)\",\"Liquidity (Buyside/Sellside)\",\"Order Block (OB)\",\"Market Structure Shift (MSS)\",\"Multi-timeframe Analysis\"],\"extraction_confidence\":\"high\",\"co",
+  "error": null
+}

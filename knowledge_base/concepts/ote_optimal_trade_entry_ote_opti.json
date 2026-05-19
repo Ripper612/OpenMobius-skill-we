@@ -1,0 +1,223 @@
+{
+  "card_id": "ote_optimal_trade_entry_ote_opti",
+  "type": "merged_concept",
+  "canonical_term": "OTE / Optimal Trade Entry",
+  "aliases": [
+    "OTE信号",
+    "OTE入场",
+    "折价/溢价区入场",
+    "最优交易入场点",
+    "最优入场点",
+    "高概率入场区域"
+  ],
+  "school": "ICT",
+  "definition": "在折价区或溢价区内，从位移起点到终点绘制斐波那契回撤（如0.5、0.62、0.79水平），结合公允价值缺口或订单块识别的高概率入场区域。通常在高时间框架确认位移、结构破坏和不平衡后，下沉至低时间框架在该斐波那契区域内等待具体触发信号入场。",
+  "identification_rules": [
+    "在高时间框架确认位移（Displacement）、市场结构破坏（MSS）和不平衡（Imbalance）三要素，确定趋势方向",
+    "确认当前价格所处区间属于折价区（做多）或溢价区（做空），以0.5斐波那契水平为分界线",
+    "从位移的起点向终点绘制斐波那契回撤工具，将0.5、0.62、0.79等水平标记为OTE候选区域",
+    "在OTE区域内寻找PD array（公允价值缺口FVG、订单块OB等）作为具体入场触发点",
+    "切换至低时间框架，等待价格回撤至OTE区域后出现结构性确认信号（如位移、结构破裂、锤子线/射击星灯芯）",
+    "确认OTE区域内价格受到尊重（无K线收盘穿破该区域），并观察内部流动性位置避免被扫荡",
+    "入场目标位应指向明确的流动性区域（如摆动高/低点、FVG或等高/等低点）"
+  ],
+  "trading_implication": "OTE是从高时间框架方向判断向低时间框架精确执行的桥梁。交易者先在高时间框架确认流动性目标、位移和结构破坏，再下沉至低时间框架在折价/溢价区的斐波那契水平处等待FVG或OB触发入场。相比在均衡点入场，OTE可将风险收益比从约1.6:1提升至3:1以上。入场后根据结构破坏逐步移动止损至受保护的摆动点。",
+  "common_mistakes": [
+    "未在高时间框架确认位移、结构破坏和不平衡就直接在低时间框架寻找OTE，导致交易方向错误",
+    "将OTE与均衡点（0.5）混淆，误认为0.5本身就是最优入场点而非折价/溢价区的分界线",
+    "在溢价区寻找做多的OTE或在折价区寻找做空的OTE，方向相反",
+    "将OTE区域与入场信号混淆，OTE只是候选区域而非确认信号，需等待价格实际回撤至该区域并出现触发形态",
+    "未从位移的完整范围（起点到终点）绘制斐波那契，导致入场区域定义不准确",
+    "未等待低时间框架的结构性确认信号（如位移或结构破裂），仅凭价格触及OTE区域就入场",
+    "忽视内部流动性的位置，导致入场后立即被扫荡",
+    "忽视高时间框架的流动性参考，仅依赖低时间框架形态入场",
+    "在入场后未等待结构破坏确认就移动止损，增加被扫损的风险",
+    "未确认价格在高时间框架上未能有效突破，误判为真实突破而错过回归机会"
+  ],
+  "related_concepts": [
+    {
+      "term": "Fair Value Gap",
+      "card_id": "fair_value_gap",
+      "exists": true
+    },
+    {
+      "term": "Order Block",
+      "card_id": "order_block",
+      "exists": true
+    },
+    {
+      "term": "Displacement",
+      "card_id": "displacement",
+      "exists": true
+    },
+    {
+      "term": "Market Structure Shift",
+      "card_id": "market_structure_shift",
+      "exists": true
+    },
+    {
+      "term": "Premium / Discount",
+      "card_id": "premium_discount",
+      "exists": true
+    },
+    {
+      "term": "Equilibrium",
+      "card_id": "equilibrium",
+      "exists": true
+    },
+    {
+      "term": "PD array",
+      "card_id": "premium_discount_premium_",
+      "exists": true
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "card_id": "fibonacci_retracement",
+      "exists": true
+    },
+    {
+      "term": "Liquidity",
+      "card_id": "liquidity",
+      "exists": true
+    },
+    {
+      "term": "Internal Liquidity",
+      "card_id": "internal_range_liquidity",
+      "exists": true
+    },
+    {
+      "term": "Balanced Price Range",
+      "card_id": "balanced_price_range",
+      "exists": true
+    },
+    {
+      "term": "Protected Swing",
+      "card_id": "protected_high_low",
+      "exists": true
+    },
+    {
+      "term": "Equal Highs / Equal Lows",
+      "card_id": "equal_highs_equal_lows",
+      "exists": true
+    },
+    {
+      "term": "HTF / LTF",
+      "card_id": "high_low_time_frame",
+      "exists": true
+    },
+    {
+      "term": "The Strat",
+      "card_id": null,
+      "exists": false
+    }
+  ],
+  "illustrated_by_cases": [],
+  "source_cards": [
+    {
+      "video_id": "9MUej4g9Jyg",
+      "original_card_id": "9MUej4g9Jyg_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        189.44,
+        288.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "LZZAaILYNyI",
+      "original_card_id": "LZZAaILYNyI_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        189.519,
+        281.639
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "MlMsG7li9zY",
+      "original_card_id": "MlMsG7li9zY_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        361.32,
+        509.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "YmdC_LKT-Pk",
+      "original_card_id": "YmdC_LKT-Pk_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        7.28,
+        545.76
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "aDYzoae3viQ",
+      "original_card_id": "aDYzoae3viQ_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        58.32,
+        160.28
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "xdm_OexQWJY",
+      "original_card_id": "xdm_OexQWJY_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002"
+      ],
+      "time_range": [
+        6.74,
+        187.44
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "yq4Z7q4E6nU",
+      "original_card_id": "yq4Z7q4E6nU_concept_optimal_trade_entry",
+      "segment_ids": [
+        "seg_002",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        6.74,
+        443.12
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 7,
+    "source_videos": 7,
+    "high_confidence_sources": 7,
+    "medium_confidence_sources": 0,
+    "low_confidence_sources": 0
+  },
+  "merge_strategy": "llm_synthesis",
+  "merged_at": "2026-05-13T15:55:01.753151Z",
+  "merge_model": "anthropic/claude-sonnet-4.6",
+  "review_status": "pending",
+  "notes": null,
+  "warnings": [
+    "school_conflict: ['ICT', 'The Strat']",
+    "unresolved_refs: 1"
+  ],
+  "merge_notes": "6张ICT + 1张The Strat，按多数选ICT。The Strat卡侧重低时间框架K线形态触发（绿色蜡烛、2:2反转、内部柱），与ICT斐波那契回撤框架存在方法论差异，已将其低时间框架确认思路融入identification_rules。",
+  "error": null
+}
