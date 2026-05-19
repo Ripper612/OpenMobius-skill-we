@@ -328,7 +328,21 @@ See `workflows/klines.md` Step 4 for the full item-type reference and style-role
 
 ### Step 6: Output conversational reply (5 sections, user-facing)
 
-Reply with **exactly this structure** in the user's language:
+**Output format is MANDATORY.** The reply MUST use the four section
+headings below **verbatim**, in this exact order, in the user's language:
+
+- `## 结论 / Conclusion`
+- `## 分析逻辑 / Analysis`
+- `## 后续走势与操作 / Outcome Cases`
+- `## 风险与失效 / Risks & Invalidation`
+
+A fifth section `## 信息缺失 / Missing Information` is optional and only
+added when confidence ≤ medium.
+
+Free-form prose without these `##` headings is an **incomplete reply** and
+must be rejected before sending to the user.
+
+Reply structure (verbatim) in the user's language:
 
 ```markdown
 ## 结论 / Conclusion

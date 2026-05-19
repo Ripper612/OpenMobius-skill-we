@@ -13,6 +13,14 @@ A unified skill for four interaction modes with a curated knowledge base (380 co
 
 The knowledge base contains rule-based identification criteria and documented pitfalls that generic training data lacks. **Always retrieve first, then synthesize** — don't answer trading questions from memory alone.
 
+## Output format is mandatory
+
+Every workflow ends in a synthesis step with `##` section headings (see
+each `workflows/<name>.md`'s final step). **Those headings MUST appear
+verbatim in your user-facing reply**, in the order specified, in the
+user's language. Free-form prose that omits the headings is an
+**incomplete reply** and must be revised before sending.
+
 ## Scenario Router
 
 Pick the right sub-workflow based on the user's input. Each workflow has detailed steps in its own document:

@@ -193,7 +193,22 @@ Output is a TradingView-grade PNG ready to include in your reply.
 
 ### Step 5: Synthesize + output
 
-Build the **same 5-section output** as `analyze.md` Step 6, but **without auto-annotation** (no image to annotate):
+**Output format is MANDATORY.** The reply MUST use the four section
+headings below **verbatim**, in this exact order, in the user's language:
+
+- `## 结论 / Conclusion`
+- `## 分析逻辑 / Analysis`
+- `## 后续走势与操作 / Outcome Cases`
+- `## 风险与失效 / Risks & Invalidation`
+
+A fifth section `## 信息缺失 / Missing Information` is optional and only
+added when confidence ≤ medium.
+
+Free-form prose without these `##` headings is an **incomplete reply** and
+must be rejected before sending to the user.
+
+The template below is the only acceptable structure (this workflow has no
+image input, so the auto-annotation step from `analyze.md` is omitted):
 
 ```markdown
 ## 结论 / Conclusion
