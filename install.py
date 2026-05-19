@@ -21,7 +21,9 @@ What this script does NOT do:
     huggingface.co (model download), and playwright.azureedge.net
     (chromium for chart rendering). These are documented in PRIVACY.md.
   - No file writes outside <skill-dir>, the venv, ~/.cache/huggingface,
-    ~/.cache/ms-playwright, and the chosen ~/.<agent>/skills/ symlink.
+    Playwright's per-OS browser cache (~/.cache/ms-playwright on Linux,
+    ~/Library/Caches/ms-playwright on macOS, %LOCALAPPDATA%\\ms-playwright
+    on Windows), and the chosen ~/.<agent>/skills/ symlink.
   - No background processes, daemons, startup entries, or system hooks.
   - No collection or transmission of user data, credentials, or telemetry.
 
@@ -99,9 +101,16 @@ HF_HUB_CACHE = Path(
 ) / "hub"
 NOMIC_CACHE_DIR = HF_HUB_CACHE / f"models--{NOMIC_MODEL_ID.replace('/', '--')}"
 
-PW_CACHE = Path(os.environ.get("PLAYWRIGHT_BROWSERS_PATH", "") or
-                (Path.home() / ".cache" / "ms-playwright" if not IS_WIN else
-                 Path(os.environ.get("LOCALAPPDATA", str(Path.home()))) / "ms-playwright"))
+def _default_playwright_cache() -> Path:
+    """Default Playwright browser cache directory, per OS convention."""
+    if IS_WIN:
+        return Path(os.environ.get("LOCALAPPDATA", str(Path.home()))) / "ms-playwright"
+    if sys.platform == "darwin":
+        return Path.home() / "Library" / "Caches" / "ms-playwright"
+    return Path.home() / ".cache" / "ms-playwright"  # Linux / *BSD
+
+
+PW_CACHE = Path(os.environ.get("PLAYWRIGHT_BROWSERS_PATH") or _default_playwright_cache())
 
 PYTHON_INSTALL_HINTS = {
     "Darwin":  "brew install python@3.12  (or https://www.python.org/downloads/)",
@@ -675,7 +684,7 @@ def cmd_uninstall(platforms: list[str], target_dir: Optional[Path],
     """
     if purge and not yes_i_know:
         fail("--purge needs --yes-i-know (removes global caches that other "
-             "projects may share: ~/.cache/ms-playwright/, "
+             "projects may share: Playwright browser cache + "
              "~/.cache/huggingface/hub/models--nomic-*/)")
         return 2
 

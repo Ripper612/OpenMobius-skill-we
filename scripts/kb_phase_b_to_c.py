@@ -12,14 +12,14 @@ This glue script:
 
 Usage:
     # Just convert JSON
-    python tools/kb_phase_b_to_c.py \\
+    python scripts/kb_phase_b_to_c.py \\
         --input analysis.json \\
         --chart-bbox "50,30,800,400" \\
         --y-range "70000,96000" \\
         --output annotation.json
 
     # One-shot: convert + draw
-    python tools/kb_phase_b_to_c.py \\
+    python scripts/kb_phase_b_to_c.py \\
         --input analysis.json \\
         --chart-bbox "50,30,800,400" \\
         --y-range "70000,96000" \\

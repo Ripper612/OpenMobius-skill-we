@@ -43,7 +43,7 @@ class Retriever:
         if not index_dir.is_dir():
             raise FileNotFoundError(
                 f"向量索引不存在: {index_dir}\n"
-                f"请先跑：python tools/build_kb_index.py -n <project_name>"
+                f"请先跑：.venv/bin/python scripts/build_index.py"
             )
         self.client = chromadb.PersistentClient(path=str(index_dir))
         try:

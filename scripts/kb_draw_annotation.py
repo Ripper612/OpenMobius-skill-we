@@ -12,10 +12,10 @@ skill after the platform LLM has determined chart_bbox + y_axis_range + annotati
 
 Usage:
     # JSON file mode
-    python tools/kb_draw_annotation.py --json annotation.json
+    python scripts/kb_draw_annotation.py --json annotation.json
 
     # Inline JSON
-    python tools/kb_draw_annotation.py \\
+    python scripts/kb_draw_annotation.py \\
         --input chart.png \\
         --output chart_annotated.png \\
         --bbox "50,30,800,400" \\
@@ -157,7 +157,7 @@ def _load_font(size: int = 14) -> ImageFont.FreeTypeFont:
     log.warning(
         "⚠️  未找到 CJK 字体 — 中文 label 将渲染为方块 (口口口)。\n"
         "%s\n"
-        "或运行 `python tools/kb_doctor.py` 做完整环境体检。",
+        "或运行 `python scripts/kb_doctor.py` 做完整环境体检。",
         _cjk_install_hint(),
     )
     for path in LATIN_FALLBACK_FONTS:

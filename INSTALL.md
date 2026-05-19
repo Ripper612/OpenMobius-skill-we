@@ -68,7 +68,7 @@ Each platform gets its own `SKILL.md` (with platform-specific frontmatter) at it
 | 4 | Playwright chromium (~280 MB) | ~1 min | skip if cached |
 | 5 | CJK font check (warn only) | <1 s | <1 s |
 | 6 | Pre-warm nomic-embed model (~274 MB) | ~30 s | skip if cached |
-| 7 | Build vector index (964 cards) | ~30 s | skip if exists |
+| 7 | Build vector index (964 cards, from precomputed embeddings) | ~2 s | skip if exists |
 | 8 | Register to `~/.claude/skills/OpenMobius-skill` | <1 s | skip if exists |
 | 9 | Run `kb_doctor` health check | ~5 s | ~5 s |
 
@@ -179,7 +179,7 @@ Cleanup levels:
 |---|---|
 | (default) | `~/.<platform>/skills/OpenMobius-skill/` registration only |
 | `--full` | + `.venv/` + `knowledge_base/_index/` |
-| `--purge --yes-i-know` | + `~/.cache/ms-playwright/chromium*` + `~/.cache/huggingface/hub/models--nomic-*` |
+| `--purge --yes-i-know` | + Playwright browser cache `chromium*` (`~/.cache/ms-playwright` Linux · `~/Library/Caches/ms-playwright` macOS · `%LOCALAPPDATA%\ms-playwright` Windows) + `~/.cache/huggingface/hub/models--nomic-*` |
 
 **Not removed** (you delete manually if you want):
 - The cloned repo at `<your-clone-dir>` — just `rm -rf` it

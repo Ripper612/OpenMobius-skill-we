@@ -1,16 +1,25 @@
 #!/usr/bin/env python3
-"""建知识库向量索引（skill 内置 knowledge_base/ → knowledge_base/_index/）。
+"""Build the vector index for the skill's knowledge_base/.
 
-读 <skill>/knowledge_base/{concepts,cases}/*.json
-  → 每张卡拼成 embed 友好的文本
-  → 调 embedder 转向量
-  → 存到 ChromaDB（<skill>/knowledge_base/_index/）
+This script has two modes:
+
+  Default mode — fast install path (used by every user):
+    Reads pre-computed embeddings from each JSON card's `_embedding` field
+    and writes them into ChromaDB. Takes a few seconds. Does NOT need the
+    nomic embedding model.
+
+  --regenerate — KB maintainer path:
+    Loads the embedding model, computes embeddings for every card, writes
+    them back into the JSON cards' `_embedding` / `_embedding_model` fields,
+    then writes ChromaDB. Takes 30 s – 10 min depending on CPU.
 
 Usage:
-    python scripts/build_index.py
-    python scripts/build_index.py --force        # 强制重建
-    python scripts/build_index.py --limit 10     # 只索引 10 张测试
-    python scripts/build_index.py --embedder openai  # 切换 embedder
+    python scripts/build_index.py                       # fast load from JSON
+    python scripts/build_index.py --force               # rebuild ChromaDB only
+    python scripts/build_index.py --regenerate          # KB maintainer: recompute
+    python scripts/build_index.py --regenerate --force  # full rebuild
+    python scripts/build_index.py --limit 10            # only first N (testing)
+    python scripts/build_index.py --regenerate --embedder openai  # different model
 """
 
 from __future__ import annotations
@@ -24,17 +33,23 @@ from typing import Optional
 
 
 THIS_DIR = Path(__file__).resolve().parent        # scripts/
-SKILL_DIR = THIS_DIR.parent                       # skill 根
-sys.path.insert(0, str(THIS_DIR))                 # 让 _lib 可见
-
-from _lib.embedder import get_embedder  # noqa: E402
+SKILL_DIR = THIS_DIR.parent                       # skill root
+sys.path.insert(0, str(THIS_DIR))                 # for _lib import
 
 
 log = logging.getLogger("build_kb_index")
 
 
+# The canonical embedding model used to populate `_embedding` fields in the
+# bundled knowledge_base/ JSON cards. If --regenerate uses a different model
+# (e.g. openai), this constant doesn't change — the per-card
+# `_embedding_model` field reflects the actual model that produced its vector.
+EXPECTED_MODEL = "nomic-ai/nomic-embed-text-v1.5"
+EXPECTED_DIM   = 768
+
+
 def build_concept_text(card: dict) -> str:
-    """把 concept 卡拼成 embedding 友好的纯文本。"""
+    """Compose a concept card into embedding-friendly plain text."""
     parts: list[str] = []
     term = card.get("canonical_term") or card.get("term") or ""
     if term:
@@ -59,7 +74,6 @@ def build_concept_text(card: dict) -> str:
         parts.append("Common mistakes:\n" + "\n".join(f"- {m}" for m in mistakes))
     related = card.get("related_concepts") or []
     if related:
-        # related_concepts 可能是字符串列表或 dict 列表
         rel_strs = [
             r.get("term") if isinstance(r, dict) else r
             for r in related
@@ -71,7 +85,7 @@ def build_concept_text(card: dict) -> str:
 
 
 def build_case_text(card: dict) -> str:
-    """把 case 卡拼成 embedding 友好的纯文本。"""
+    """Compose a case card into embedding-friendly plain text."""
     parts: list[str] = []
     title = card.get("title") or ""
     if title:
@@ -108,7 +122,7 @@ def build_case_text(card: dict) -> str:
 
 
 def collect_cards(kb_dir: Path, limit: Optional[int] = None) -> list[dict]:
-    """读所有 concept + case 卡，返回 [{id, type, file_path, card_data, text}]。"""
+    """Return all concept+case cards as [{id, type, file_path, card, text}]."""
     items: list[dict] = []
 
     concepts_dir = kb_dir / "concepts"
@@ -117,7 +131,7 @@ def collect_cards(kb_dir: Path, limit: Optional[int] = None) -> list[dict]:
             try:
                 d = json.loads(f.read_text(encoding="utf-8"))
             except Exception as e:  # noqa: BLE001
-                log.warning("跳过损坏的 %s: %s", f.name, e)
+                log.warning("skipping corrupt %s: %s", f.name, e)
                 continue
             text = build_concept_text(d)
             if not text:
@@ -136,7 +150,7 @@ def collect_cards(kb_dir: Path, limit: Optional[int] = None) -> list[dict]:
             try:
                 d = json.loads(f.read_text(encoding="utf-8"))
             except Exception as e:  # noqa: BLE001
-                log.warning("跳过损坏的 %s: %s", f.name, e)
+                log.warning("skipping corrupt %s: %s", f.name, e)
                 continue
             text = build_case_text(d)
             if not text:
@@ -154,24 +168,65 @@ def collect_cards(kb_dir: Path, limit: Optional[int] = None) -> list[dict]:
     return items
 
 
+def write_card_json(file_path: Path, card_data: dict) -> None:
+    """Atomic write a card JSON back to disk (UTF-8, indent=2, preserves CJK)."""
+    tmp = file_path.with_suffix(file_path.suffix + ".tmp")
+    tmp.write_text(
+        json.dumps(card_data, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp.replace(file_path)
+
+
+def load_embeddings_from_cards(items: list[dict]) -> tuple[list[list[float]], list[str]]:
+    """Read pre-computed embeddings from each card's `_embedding` field.
+
+    Returns (embeddings, missing_or_stale_ids).
+    """
+    embeddings: list[list[float]] = []
+    bad: list[str] = []
+    for it in items:
+        emb = it["card"].get("_embedding")
+        model = it["card"].get("_embedding_model")
+        if (
+            emb is None
+            or model != EXPECTED_MODEL
+            or not isinstance(emb, list)
+            or len(emb) != EXPECTED_DIM
+        ):
+            bad.append(it["id"])
+            embeddings.append([])  # placeholder, won't be used
+            continue
+        embeddings.append(emb)
+    return embeddings, bad
+
+
 def main() -> int:
-    p = argparse.ArgumentParser(description="Build vector index for the skill's knowledge_base/.")
+    p = argparse.ArgumentParser(
+        description="Build vector index for the skill's knowledge_base/."
+    )
     p.add_argument(
         "--kb", default=None,
-        help=f"knowledge_base 目录（默认 {SKILL_DIR / 'knowledge_base'}）",
+        help=f"knowledge_base directory (default {SKILL_DIR / 'knowledge_base'})",
     )
     p.add_argument(
         "--embedder", default="local",
         choices=["local", "openai"],
-        help="embedding provider：local（nomic-embed，开源默认）/ openai",
+        help="(--regenerate) embedding provider — local (nomic) or openai",
     )
     p.add_argument(
         "--force", action="store_true",
-        help="已存在索引时强制重建",
+        help="rebuild ChromaDB even if it already exists",
+    )
+    p.add_argument(
+        "--regenerate", action="store_true",
+        help="recompute embeddings and write them back into each JSON card "
+             "(KB maintainer mode; needs the embedding model). "
+             "Default mode reads existing embeddings from JSON (no model needed).",
     )
     p.add_argument(
         "--limit", type=int, default=None,
-        help="只索引前 N 张卡（测试用）",
+        help="only process first N cards (testing)",
     )
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args()
@@ -184,46 +239,85 @@ def main() -> int:
 
     kb_dir = Path(args.kb) if args.kb else SKILL_DIR / "knowledge_base"
     if not kb_dir.is_dir():
-        log.error("knowledge_base/ 不存在: %s", kb_dir)
+        log.error("knowledge_base/ not found: %s", kb_dir)
         return 1
 
     index_dir = kb_dir / "_index"
 
-    # 检查现有索引
+    # Existence check for the ChromaDB output
     if index_dir.exists() and not args.force:
         log.error(
-            "索引目录已存在: %s\n加 --force 强制重建", index_dir,
+            "Index already exists: %s\nAdd --force to rebuild.", index_dir,
         )
         return 1
-
     if args.force and index_dir.exists():
         import shutil  # noqa: PLC0415
-        log.info("--force：删除旧索引 %s", index_dir)
+        log.info("--force: removing old index %s", index_dir)
         shutil.rmtree(index_dir)
 
-    # 收集卡片
-    log.info("扫描知识库: %s", kb_dir)
+    # Collect cards
+    log.info("Scanning knowledge base: %s", kb_dir)
     items = collect_cards(kb_dir, limit=args.limit)
     n_concept = sum(1 for it in items if it["type"] == "concept")
     n_case = sum(1 for it in items if it["type"] == "case")
-    log.info("发现 %d concept + %d case = %d 张卡", n_concept, n_case, len(items))
+    log.info("Found %d concept + %d case = %d cards", n_concept, n_case, len(items))
     if args.limit:
-        log.info("（--limit %d 限制）", args.limit)
+        log.info("(--limit %d applied)", args.limit)
     if not items:
-        log.error("没有可索引的卡片。")
+        log.error("No cards to index.")
         return 1
 
-    # Embed
-    log.info("加载 embedder（%s）...", args.embedder)
-    embedder = get_embedder(args.embedder)
-    log.info("embedding dimension: %d", embedder.dim)
+    # ── Two paths to obtain embeddings ──────────────────────────────────────
 
-    texts = [it["text"] for it in items]
-    log.info("批量 embedding %d 张卡...", len(texts))
-    vecs = embedder.embed_documents(texts)
+    if args.regenerate:
+        # Compute fresh embeddings via the model, write back to JSON
+        from _lib.embedder import get_embedder  # noqa: PLC0415
 
-    # 存到 ChromaDB
-    log.info("建 ChromaDB collection 并写入...")
+        log.info("[regenerate] Loading embedder (%s)...", args.embedder)
+        embedder = get_embedder(args.embedder)
+        log.info("[regenerate] embedding dim = %d", embedder.dim)
+
+        texts = [it["text"] for it in items]
+        log.info("[regenerate] Embedding %d cards (this can take 30 s – 10 min)...", len(texts))
+        vecs = embedder.embed_documents(texts)
+
+        # Persist embeddings into each JSON card
+        log.info("[regenerate] Writing embeddings back into JSON cards...")
+        model_label = getattr(embedder, "model_name", "unknown")
+        for it, vec in zip(items, vecs):
+            it["card"]["_embedding"]       = [float(x) for x in vec.tolist()]
+            it["card"]["_embedding_model"] = model_label
+            json_path = kb_dir / it["file_path"]
+            write_card_json(json_path, it["card"])
+        log.info("[regenerate] Updated %d JSON files", len(items))
+
+        embeddings_for_chroma = [v.tolist() for v in vecs]
+        embedding_dim = embedder.dim
+    else:
+        # Load embeddings directly from each JSON card
+        log.info("[load] Reading embeddings from JSON cards...")
+        embeddings_for_chroma, bad = load_embeddings_from_cards(items)
+        if bad:
+            log.error("")
+            log.error("%d / %d cards have missing / stale / wrong-dim embeddings:",
+                      len(bad), len(items))
+            for cid in bad[:5]:
+                log.error("  - %s", cid)
+            if len(bad) > 5:
+                log.error("  ... and %d more", len(bad) - 5)
+            log.error("")
+            log.error("To regenerate embeddings (needs the nomic model, takes 30 s – 10 min):")
+            log.error("  python scripts/build_index.py --regenerate --force")
+            return 1
+        log.info(
+            "[load] All %d cards have valid embeddings (%s, %dd)",
+            len(items), EXPECTED_MODEL, EXPECTED_DIM,
+        )
+        embedding_dim = EXPECTED_DIM
+
+    # ── Write to ChromaDB ───────────────────────────────────────────────────
+
+    log.info("Writing ChromaDB collection...")
     import chromadb  # noqa: PLC0415
     client = chromadb.PersistentClient(path=str(index_dir))
     collection = client.create_collection(
@@ -232,7 +326,7 @@ def main() -> int:
     )
 
     ids = [it["id"] for it in items]
-    documents = texts
+    documents = [it["text"] for it in items]
     metadatas = [
         {
             "type": it["type"],
@@ -247,25 +341,19 @@ def main() -> int:
         }
         for it in items
     ]
-    embeddings = [v.tolist() for v in vecs]
 
-    # ChromaDB 单次 add 上限通常是 ~5000，分批
     BATCH = 1000
     for i in range(0, len(ids), BATCH):
         collection.add(
             ids=ids[i : i + BATCH],
-            embeddings=embeddings[i : i + BATCH],
+            embeddings=embeddings_for_chroma[i : i + BATCH],
             documents=documents[i : i + BATCH],
             metadatas=metadatas[i : i + BATCH],
         )
 
     log.info(
-        "✓ 完成。%d 个向量（%d 维）已持久化到 %s",
-        len(items), embedder.dim, index_dir,
-    )
-    log.info(
-        "下一步：python tools/kb_retrieve.py \"你的问题\" --kb \"%s\"",
-        kb_dir,
+        "✓ Index built: %d vectors (%d-d) → %s",
+        len(items), embedding_dim, index_dir,
     )
     return 0
 

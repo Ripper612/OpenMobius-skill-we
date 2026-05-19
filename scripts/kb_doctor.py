@@ -146,8 +146,14 @@ def check_kb_index() -> bool:
 def check_playwright_chromium() -> bool:
     _section("Playwright Chromium (图表渲染)")
     import os as _os  # noqa: PLC0415
-    cache = Path(_os.environ.get("PLAYWRIGHT_BROWSERS_PATH",
-                                  Path.home() / ".cache" / "ms-playwright"))
+    import sys as _sys  # noqa: PLC0415
+    if _sys.platform == "win32":
+        default = Path(_os.environ.get("LOCALAPPDATA", str(Path.home()))) / "ms-playwright"
+    elif _sys.platform == "darwin":
+        default = Path.home() / "Library" / "Caches" / "ms-playwright"
+    else:
+        default = Path.home() / ".cache" / "ms-playwright"
+    cache = Path(_os.environ.get("PLAYWRIGHT_BROWSERS_PATH") or default)
     if not cache.is_dir():
         _fail(
             f"{cache} 不存在",
@@ -231,22 +237,6 @@ def check_skill_install() -> bool:
     return all_ok
 
 
-def check_local_claude_endpoint() -> bool:
-    _section("local-claude endpoint (可选)")
-    import socket  # noqa: PLC0415
-    host, port = "172.16.0.203", 8080
-    try:
-        with socket.create_connection((host, port), timeout=2):
-            _ok(f"可达: http://{host}:{port}")
-            return True
-    except Exception as e:  # noqa: BLE001
-        _warn(
-            f"http://{host}:{port} 不可达 ({e.__class__.__name__})",
-            "如果你只用 OpenRouter / API key 模式，可忽略此项",
-        )
-        return True  # 不算 fail
-
-
 def check_mobius_api() -> bool:
     """Mobius Quant API connectivity check (public endpoint, no auth)."""
     _section("Mobius Quant API (for live market data and chart generation)")
@@ -309,13 +299,11 @@ def main() -> int:
         "Playwright Chromium": check_playwright_chromium(),
         "CJK 字体":            check_cjk_fonts(),
         "Skill 安装":          check_skill_install(),
-        "local-claude":       check_local_claude_endpoint(),
         "Mobius API":         check_mobius_api(),
     }
 
-    # 关键项（决定 exit code）— local-claude / Mobius 都是可选
-    critical = {k: v for k, v in results.items()
-                if k not in ("local-claude", "Mobius API")}
+    # 关键项（决定 exit code）— Mobius API 是可选
+    critical = {k: v for k, v in results.items() if k != "Mobius API"}
 
     print(f"\n{DIM}{'=' * 64}{RESET}")
     print("  Summary")

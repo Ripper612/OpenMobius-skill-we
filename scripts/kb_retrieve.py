@@ -6,12 +6,12 @@
 让平台 LLM 拿到检索结果后自己综合答案。
 
 Usage:
-    python tools/kb_retrieve.py "什么是 Fair Value Gap"
-    python tools/kb_retrieve.py "FVG 怎么入场" --top-k 5
-    python tools/kb_retrieve.py "ICT killzone" --kb "materials/Education - ICT/knowledge_base"
-    python tools/kb_retrieve.py "BTC reversal" --type case
-    python tools/kb_retrieve.py "Order Block" --school ICT
-    python tools/kb_retrieve.py "..." --format json   # JSON 输出便于程序解析
+    python scripts/kb_retrieve.py "什么是 Fair Value Gap"
+    python scripts/kb_retrieve.py "FVG 怎么入场" --top-k 5
+    python scripts/kb_retrieve.py "ICT killzone" --kb "materials/Education - ICT/knowledge_base"
+    python scripts/kb_retrieve.py "BTC reversal" --type case
+    python scripts/kb_retrieve.py "Order Block" --school ICT
+    python scripts/kb_retrieve.py "..." --format json   # JSON 输出便于程序解析
 """
 
 from __future__ import annotations

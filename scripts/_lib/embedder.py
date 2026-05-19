@@ -1,7 +1,8 @@
-"""Embedding：把文本转向量。
+"""Embedding utilities — text → vector.
 
-默认走本地 nomic-embed-text-v1.5（开源 + 多语言 + 274MB）。
-开源场景下用户零 API key 即可用；私人测试想换 OpenAI 也行。
+Default: local `nomic-embed-text-v1.5` (Apache 2.0, multilingual, ~274MB).
+Users need no API key. An optional OpenAI-compatible provider is also
+available; see `get_embedder('openai')`.
 """
 
 from __future__ import annotations
@@ -59,6 +60,7 @@ class LocalNomicEmbedder:
 
         from sentence_transformers import SentenceTransformer  # noqa: PLC0415
         name = model_name or self.DEFAULT_MODEL
+        self.model_name = name
         log.info("加载 embedding model: %s（首次使用会自动下载 ~274MB）", name)
         # 加载模型时全局压制 <ERROR 级别日志 + 重定向 stderr
         # ("<All keys matched successfully>" 等无害噪音不应打到用户屏幕)
@@ -98,9 +100,9 @@ class LocalNomicEmbedder:
 
 
 class OpenAIEmbedder:
-    """OpenAI / OpenRouter text-embedding-3-small（私人快速测试用）。
+    """OpenAI text-embedding-3-small (alternative embedding provider).
 
-    需要 OPENAI_API_KEY（或兼容的）环境变量。
+    Requires OPENAI_API_KEY environment variable.
     """
 
     DEFAULT_MODEL = "text-embedding-3-small"

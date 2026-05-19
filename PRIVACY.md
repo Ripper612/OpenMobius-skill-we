@@ -24,7 +24,7 @@ The installer writes only to these locations:
 |---|---|---|
 | `<skill-dir>/.venv/` | Python virtual environment | `python install.py --uninstall --full` |
 | `~/.cache/huggingface/hub/` | nomic embedding model cache | `python install.py --uninstall --purge --yes-i-know` |
-| `~/.cache/ms-playwright/` | chromium browser binary | `python install.py --uninstall --purge --yes-i-know` |
+| Playwright browser cache *(per OS)* — `~/.cache/ms-playwright` on Linux, `~/Library/Caches/ms-playwright` on macOS, `%LOCALAPPDATA%\ms-playwright` on Windows | chromium browser binary | `python install.py --uninstall --purge --yes-i-know` |
 | `<skill-dir>/knowledge_base/_index/` | Local ChromaDB vector index | `python install.py --uninstall --full` |
 | `~/.<agent>/skills/OpenMobius-skill/` (symlink) | Skill registration into your AI agent | `python install.py --uninstall` |
 
