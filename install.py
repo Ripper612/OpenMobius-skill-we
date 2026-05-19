@@ -55,18 +55,30 @@ from typing import Callable, Optional
 # Constants & platform detection
 # ============================================================================
 
-SKILL_DIR = Path(__file__).resolve().parent
 SKILL_NAME = "OpenMobius-skill"
 
 IS_WIN = platform.system() == "Windows"
 IS_MAC = platform.system() == "Darwin"
 IS_LIN = platform.system() == "Linux"
 
+# SOURCE_DIR is where this install.py lives (the clone). Read-only; we copy
+# from here into the per-platform install target. Never rebound.
+SOURCE_DIR = Path(__file__).resolve().parent
+
+# SKILL_DIR is the install *target* — venv, _index, and SKILL.md live here.
+# Defaults to SOURCE_DIR (in-place install). For standalone install (the
+# common case: clone is ephemeral, target is the agent's skills dir),
+# _rebind_paths_to(target) re-points the install-dir-relative globals below.
+SKILL_DIR = SOURCE_DIR
+
 VENV_DIR = SKILL_DIR / ".venv"
-VENV_PY = (VENV_DIR / ("Scripts" if IS_WIN else "bin") /
-           ("python.exe" if IS_WIN else "python"))
+VENV_PY  = (VENV_DIR / ("Scripts" if IS_WIN else "bin") /
+            ("python.exe" if IS_WIN else "python"))
 VENV_PIP = (VENV_DIR / ("Scripts" if IS_WIN else "bin") /
             ("pip.exe" if IS_WIN else "pip"))
+INDEX_FILE    = SKILL_DIR / "knowledge_base" / "_index" / "chroma.sqlite3"
+PLATFORMS_DIR = SKILL_DIR / "platforms"
+SKILL_BODY_MD = SKILL_DIR / "SKILL.body.md"
 
 # ─── Multi-platform skill registration ──────────────────────────────────────
 # Each agent platform has its own conventional skill directory.
@@ -79,20 +91,71 @@ PLATFORM_DEFAULTS = {
     "hermes":      Path.home() / ".hermes"   / "skills" / "market-data" / SKILL_NAME,
 }
 
-# Source files we symlink into the target. SKILL.md is generated separately.
-SHARED_ENTRIES = [
-    # chart_render lives at scripts/chart_render/, follows scripts/ — no separate entry needed
-    "scripts", "workflows", "knowledge_base",
-    ".venv", "requirements.txt",
+
+def _rebind_paths_to(target: Path) -> None:
+    """Re-point install-dir-relative globals to a new target.
+
+    Called when running a standalone install (target != SOURCE_DIR).
+    User-global caches (HF_HUB_CACHE, PW_CACHE, NOMIC_CACHE_DIR) are NOT
+    rebound — they're shared across platforms by design.
+    """
+    global SKILL_DIR, VENV_DIR, VENV_PY, VENV_PIP
+    global INDEX_FILE, PLATFORMS_DIR, SKILL_BODY_MD
+    SKILL_DIR     = target
+    VENV_DIR      = SKILL_DIR / ".venv"
+    VENV_PY       = (VENV_DIR / ("Scripts" if IS_WIN else "bin") /
+                     ("python.exe" if IS_WIN else "python"))
+    VENV_PIP      = (VENV_DIR / ("Scripts" if IS_WIN else "bin") /
+                     ("pip.exe" if IS_WIN else "pip"))
+    INDEX_FILE    = SKILL_DIR / "knowledge_base" / "_index" / "chroma.sqlite3"
+    PLATFORMS_DIR = SKILL_DIR / "platforms"
+    SKILL_BODY_MD = SKILL_DIR / "SKILL.body.md"
+
+
+# Files/dirs copied from SOURCE_DIR to TARGET_DIR during standalone install.
+COPY_ENTRIES = [
+    # core (required at runtime)
+    "scripts", "workflows", "knowledge_base", "platforms",
+    "SKILL.body.md", "requirements.txt", "install.py",
+    # docs (useful in-target for reference / re-update)
+    "README.md", "README.zh.md", "INSTALL.md",
+    "ATTRIBUTION.md", "PRIVACY.md", "LICENSE",
+    # shell wrappers
+    "install.sh", "install.ps1",
+    # gitignore (for completeness)
+    ".gitignore",
 ]
-# Optional entries — symlink if exists in source
-OPTIONAL_ENTRIES = ["README.md", "INSTALL.md"]
+# Excluded from copy (artifacts / per-install rebuilds / secrets)
+COPY_EXCLUDE = {
+    "__pycache__", ".venv", "_index",
+    ".env.local", ".env.local.example",
+    ".DS_Store", ".git", "node_modules", ".pytest_cache",
+}
 
-PLATFORMS_DIR  = SKILL_DIR / "platforms"
-SKILL_BODY_MD  = SKILL_DIR / "SKILL.body.md"
 
-CLAUDE_SKILLS_DIR = Path.home() / ".claude" / "skills"   # kept for legacy refs
-INDEX_FILE = SKILL_DIR / "knowledge_base" / "_index" / "chroma.sqlite3"
+def copy_source_to_target(src: Path, dst: Path) -> int:
+    """Copy clone source into the per-platform target install dir.
+
+    Returns the number of top-level entries copied. Idempotent — overwrites
+    existing files. Skips build artifacts, secrets, and per-install dirs.
+    """
+    dst.mkdir(parents=True, exist_ok=True)
+
+    def _ignore(_dir, names):
+        return [n for n in names if n in COPY_EXCLUDE or n.endswith(".pyc")]
+
+    copied = 0
+    for entry in COPY_ENTRIES:
+        src_path = src / entry
+        if not src_path.exists():
+            continue
+        dst_path = dst / entry
+        if src_path.is_dir():
+            shutil.copytree(src_path, dst_path, ignore=_ignore, dirs_exist_ok=True)
+        else:
+            shutil.copy2(src_path, dst_path)
+        copied += 1
+    return copied
 
 NOMIC_MODEL_ID = "nomic-ai/nomic-embed-text-v1.5"
 HF_HUB_CACHE = Path(
@@ -519,134 +582,26 @@ def _compose_skill_md(platform_name: str) -> str:
     return f"---\n{fm}\n---{body}"
 
 
-def _make_link(src: Path, dst: Path, copy_mode: bool) -> str:
-    """symlink src → dst. Fallback to junction (Windows) or copy.
+def register_skill(no_register: bool, platform_name: str) -> bool:
+    """Write SKILL.md (platform-specific frontmatter + shared body) to SKILL_DIR.
 
-    Returns: 'symlink' | 'junction' | 'copy'
+    Source files have already been copied to SKILL_DIR by main() (or this is
+    an in-place install where source==target). This step only writes the
+    SKILL.md that is specific to the chosen agent platform.
     """
-    if dst.is_symlink() or dst.exists():
-        # Skip if already points to same source
-        try:
-            if dst.is_symlink() and dst.resolve() == src.resolve():
-                return "exists"
-        except Exception:  # noqa: BLE001
-            pass
-        # Otherwise leave the existing entry alone
-        return "exists"
-
-    if copy_mode:
-        if src.is_dir():
-            shutil.copytree(src, dst, symlinks=True)
-        else:
-            shutil.copy2(src, dst)
-        return "copy"
-
-    try:
-        os.symlink(src, dst, target_is_directory=src.is_dir())
-        return "symlink"
-    except OSError as e:
-        if not IS_WIN:
-            raise
-        # Windows fallback to directory junction (no admin needed)
-        if src.is_dir():
-            run_cmd(["cmd", "/c", "mklink", "/J", str(dst), str(src)], shell=False)
-            return "junction"
-        # File on Windows without symlink — just copy
-        shutil.copy2(src, dst)
-        return "copy"
-
-
-def register_skill(no_register: bool, platform_name: str,
-                   target_dir: Optional[Path], copy_mode: bool) -> bool:
     if no_register:
-        step("Skipping skill registration (--no-register)")
+        step("Skipping SKILL.md generation (--no-register)")
         return True
 
-    target = target_dir or PLATFORM_DEFAULTS.get(platform_name)
-    if target is None:
-        step("Registering skill")
-        fail(f"Unknown platform: {platform_name!r}; pass --target-dir explicitly")
-        return False
-
-    step(f"Registering to {target}  (platform={platform_name})")
-
-    # In-place install (target_dir == SKILL_DIR): just update SKILL.md
-    if target.resolve() == SKILL_DIR.resolve():
-        info("In-place install: target == repo dir, only refreshing SKILL.md")
-        try:
-            skill_md = _compose_skill_md(platform_name)
-            (target / "SKILL.md").write_text(skill_md, encoding="utf-8")
-            ok(f"Wrote {target}/SKILL.md ({platform_name} frontmatter)")
-            return True
-        except Exception as e:  # noqa: BLE001
-            fail(f"Failed to refresh SKILL.md: {e}")
-            return False
-
-    # Symlink-style install
-    # 1) Existing target check
-    if target.is_symlink():
-        existing = target.resolve()
-        if existing == SKILL_DIR.resolve():
-            ok(f"Already registered (symlink → repo): {target}")
-            # still refresh SKILL.md (target is a symlink to repo, edit propagates)
-            return True
-        warn(f"Existing symlink points elsewhere: {target} → {existing}; not overwriting")
-        return True
-
-    if target.exists() and not target.is_dir():
-        warn(f"Target path exists and is not a directory: {target}; not overwriting")
-        return True
-
-    target.mkdir(parents=True, exist_ok=True)
-
-    # 2) Symlink each shared entry
-    results: dict[str, str] = {}
-    for entry in SHARED_ENTRIES:
-        src = SKILL_DIR / entry
-        if not src.exists():
-            warn(f"Source {src} missing, skipping")
-            continue
-        dst = target / entry
-        try:
-            results[entry] = _make_link(src, dst, copy_mode)
-        except Exception as e:  # noqa: BLE001
-            warn(f"Failed to link {entry}: {e}")
-
-    for entry in OPTIONAL_ENTRIES:
-        src = SKILL_DIR / entry
-        if not src.exists():
-            continue
-        dst = target / entry
-        try:
-            results[entry] = _make_link(src, dst, copy_mode)
-        except Exception as e:  # noqa: BLE001
-            warn(f"Failed to link {entry}: {e}")
-
-    # 3) Generate SKILL.md (always a fresh file in target — frontmatter is platform-specific)
+    step(f"Generating SKILL.md (platform={platform_name})")
     try:
         skill_md = _compose_skill_md(platform_name)
-        (target / "SKILL.md").write_text(skill_md, encoding="utf-8")
-        results["SKILL.md"] = "generated"
+        (SKILL_DIR / "SKILL.md").write_text(skill_md, encoding="utf-8")
+        ok(f"Wrote {SKILL_DIR / 'SKILL.md'}  ({platform_name} frontmatter)")
+        return True
     except Exception as e:  # noqa: BLE001
         fail(f"Failed to write SKILL.md: {e}")
         return False
-
-    # 4) Optional: also write platforms/ dir as link (for upgradability)
-    platforms_src = SKILL_DIR / "platforms"
-    platforms_dst = target / "platforms"
-    if platforms_src.is_dir() and not platforms_dst.exists():
-        try:
-            results["platforms"] = _make_link(platforms_src, platforms_dst, copy_mode)
-        except Exception:  # noqa: BLE001
-            pass
-
-    # Summary
-    by_kind: dict[str, list[str]] = {}
-    for k, v in results.items():
-        by_kind.setdefault(v, []).append(k)
-    for kind, names in sorted(by_kind.items()):
-        ok(f"{kind}: {', '.join(names)}")
-    return True
 
 
 # ============================================================================
@@ -678,9 +633,16 @@ def cmd_uninstall(platforms: list[str], target_dir: Optional[Path],
                   full: bool, purge: bool, yes_i_know: bool) -> int:
     """Uninstall the skill from one or more platforms.
 
-    Default (soft): remove only the platform-specific install directory.
-    --full: also remove .venv and built vector index.
-    --purge --yes-i-know: also remove global caches (chromium + nomic).
+    Each platform's target directory is fully self-contained (it owns its own
+    `.venv` and `_index`), so removing the target dir is a complete uninstall
+    for that platform.
+
+    --purge --yes-i-know: also delete user-global caches (Playwright chromium
+        ~280MB and the nomic embedding model ~274MB). Other tools / projects
+        on your machine may share these — only purge if you are sure.
+    --full: kept for backward-compat. In standalone install mode it's a
+        no-op (the target dir already contains .venv and _index, which are
+        removed by the default uninstall).
     """
     if purge and not yes_i_know:
         fail("--purge needs --yes-i-know (removes global caches that other "
@@ -693,19 +655,19 @@ def cmd_uninstall(platforms: list[str], target_dir: Optional[Path],
     print(f"{BOLD}  OpenMobius-skill — uninstaller{RESET}")
     print(f"{DIM}{'═' * 64}{RESET}")
     print(f"  Platforms: {', '.join(platforms)}")
-    print(f"  Mode:      {'PURGE (with global cache)' if purge else 'FULL' if full else 'SOFT'}")
+    print(f"  Mode:      {'PURGE (with global cache)' if purge else 'STANDARD'}")
     print()
 
     overall_ok = True
 
-    # ── 1. Per-platform: remove target directory ────────────────────────────
+    # ── 1. Per-platform: rm -rf target dir (self-contained) ─────────────────
     for pname in platforms:
         target = _resolve_target(pname, target_dir)
         if target is None:
             warn(f"[{pname}] no target resolved, skipping")
             overall_ok = False
             continue
-        step(f"[{pname}] Uninstalling from {target}")
+        step(f"[{pname}] Removing {target}")
         if not target.exists() and not target.is_symlink():
             info("not installed, nothing to remove")
             continue
@@ -714,23 +676,13 @@ def cmd_uninstall(platforms: list[str], target_dir: Optional[Path],
         else:
             overall_ok = False
 
-    # ── 2. --full: local build artifacts ────────────────────────────────────
     if full:
-        step("Removing local build artifacts")
-        for path, label in [
-            (VENV_DIR, ".venv"),
-            (SKILL_DIR / "knowledge_base" / "_index", "vector index"),
-        ]:
-            if path.exists() or path.is_symlink():
-                if _remove_path(path):
-                    ok(f"Removed {label}: {path}")
-            else:
-                info(f"{label} not present, skipping")
+        info("--full: standalone install removes everything by default; "
+             "--full is now a no-op")
 
-    # ── 3. --purge: global caches ───────────────────────────────────────────
+    # ── 2. --purge: user-global caches (shared across platforms) ────────────
     if purge:
-        step("Purging global caches (chromium + nomic model)")
-        # Chromium
+        step("Purging user-global caches (Playwright chromium + nomic model)")
         if PW_CACHE.exists():
             chromium_dirs = (
                 list(PW_CACHE.glob("chromium-*"))
@@ -739,12 +691,11 @@ def cmd_uninstall(platforms: list[str], target_dir: Optional[Path],
             for d in chromium_dirs:
                 if _remove_path(d):
                     ok(f"Removed {d}")
-        # Nomic model
         if NOMIC_CACHE_DIR.exists():
             if _remove_path(NOMIC_CACHE_DIR):
                 ok(f"Removed {NOMIC_CACHE_DIR}")
 
-    # ── 4. Final note ───────────────────────────────────────────────────────
+    # ── 3. Final note ───────────────────────────────────────────────────────
     print()
     print(f"{DIM}{'═' * 64}{RESET}")
     if overall_ok:
@@ -752,24 +703,56 @@ def cmd_uninstall(platforms: list[str], target_dir: Optional[Path],
     else:
         print(f"{YELLOW}{BOLD}  ⚠ Uninstall finished with some issues{RESET}")
     print(f"{DIM}{'═' * 64}{RESET}")
-    print(f"  {DIM}Note:{RESET} the repo checkout at {SKILL_DIR} is kept; remove it manually with `rm -rf`.")
-    if not full:
-        print(f"  {DIM}Local .venv kept.{RESET} Re-add full cleanup with --full")
     if not purge:
-        print(f"  {DIM}Global caches kept.{RESET} (chromium / nomic). Other projects may need them.")
-    print(f"  {DIM}Re-install:{RESET} python install.py [--platform <name>]")
+        print(f"  {DIM}User-global caches kept{RESET} (Playwright chromium / nomic). "
+              f"Other tools may need them; pass --purge --yes-i-know to remove.")
+    print(f"  {DIM}Re-install:{RESET}  python install.py [--platform <name>]")
     print()
     return 0 if overall_ok else 1
+
+
+REPO_URL = "https://github.com/MobiusQuant/OpenMobius-skill.git"
+
+
+def _clone_fresh_to_tmp() -> Optional[Path]:
+    """Clone the upstream repo into a fresh /tmp directory, return its path.
+
+    Returns None on failure.
+    """
+    import tempfile  # noqa: PLC0415
+    tmp_root = Path(tempfile.mkdtemp(prefix="openmobius-update-"))
+    step(f"Cloning fresh source to {tmp_root}")
+    try:
+        run_cmd(["git", "clone", "--depth", "1", REPO_URL, str(tmp_root / "src")])
+        ok(f"Cloned {REPO_URL} → {tmp_root}/src")
+        return tmp_root / "src"
+    except subprocess.CalledProcessError as e:
+        fail(f"git clone failed: {e}")
+        shutil.rmtree(tmp_root, ignore_errors=True)
+        return None
 
 
 def cmd_update(platforms: list[str], target_dir: Optional[Path],
                no_pull: bool, rebuild_index: bool,
                args: argparse.Namespace) -> int:
-    """Update the skill: git pull + resume install + regenerate SKILL.md.
+    """Update each already-installed platform with the latest upstream code.
 
-    --no-pull: skip git pull (user already pulled)
-    --rebuild-index: force vector index rebuild
+    Flow:
+      1. Clone the upstream repo into a fresh /tmp dir (unless --no-pull,
+         in which case the source is the current SOURCE_DIR — useful when
+         user has already pulled their clone manually).
+      2. For each requested platform whose target dir exists, copy the
+         updated source files into the target, then re-run install steps
+         in resume mode (skips already-done work). SKILL.md is regenerated.
+      3. Clean up the /tmp clone.
+
+    --no-pull: don't fetch upstream; use current SOURCE_DIR as the source.
+    --rebuild-index: force the vector index rebuild step.
     """
+    global SOURCE_DIR
+    saved_source = SOURCE_DIR
+    tmp_source: Optional[Path] = None
+
     print()
     print(f"{DIM}{'═' * 64}{RESET}")
     print(f"{BOLD}  OpenMobius-skill — updater{RESET}")
@@ -777,92 +760,56 @@ def cmd_update(platforms: list[str], target_dir: Optional[Path],
     print(f"  Platforms: {', '.join(platforms)}")
     print()
 
-    # ── 1. git pull ─────────────────────────────────────────────────────────
-    if not no_pull:
-        step("Pulling latest from git")
-        # Find the actual git root (could be in mono-repo)
-        git_root = SKILL_DIR
-        while git_root != git_root.parent:
-            if (git_root / ".git").exists():
-                break
-            git_root = git_root.parent
-        if not (git_root / ".git").exists():
-            warn("Not a git checkout — skipping pull")
-            warn("If you need updates, manually update the source then re-run --update --no-pull")
-        else:
-            try:
-                run_cmd(["git", "-C", str(git_root), "pull"])
-                ok("git pull complete")
-            except subprocess.CalledProcessError as e:
-                warn(f"git pull failed: {e}; continuing with current code")
+    # ── 1. Decide the update source ─────────────────────────────────────────
+    if no_pull:
+        info(f"--no-pull: using current source at {SOURCE_DIR}")
     else:
-        info("--no-pull: skipping git pull")
+        tmp_source = _clone_fresh_to_tmp()
+        if tmp_source is None:
+            fail("Could not obtain fresh source. Re-run with --no-pull to "
+                 "use the current local source instead.")
+            return 1
+        # Mutate SOURCE_DIR so _run_single_install's copy_source_to_target
+        # uses the fresh code.
+        SOURCE_DIR = tmp_source
 
-    # ── 2. Resume install (Python checks, deps, etc.) ───────────────────────
-    step("Re-running install steps in resume mode")
-    # Run a subset of install steps (skip "Step 8: Skill registration" — we
-    # handle it specially below per-platform)
-    install_results: dict[str, bool] = {}
-    install_results["Python version"] = check_python_version()
-    if not install_results["Python version"]:
-        return 1
-    install_results["Virtual env"]      = ensure_venv(resume=True)
-    install_results["Python deps"]      = install_deps(strict=False)
-    if not args.skip_chromium:
-        install_results["Chromium"]     = install_chromium(strict=False, resume=True)
-    if not args.skip_fonts:
-        install_results["CJK fonts"]    = check_cjk_fonts()
-    install_results["Embedding model"]  = prewarm_embedding_model(
-        strict=False, resume=True)
+    overall_ok = True
+    try:
+        # ── 2. Per-platform update ──────────────────────────────────────────
+        for pname in platforms:
+            target = _resolve_target(pname, target_dir)
+            if target is None:
+                warn(f"[{pname}] no target resolved, skipping")
+                continue
+            if not target.exists():
+                info(f"[{pname}] not installed at {target}; running fresh install")
+            print()
+            print(f"{CYAN}{BOLD}━━━ Updating {pname} @ {target} ━━━{RESET}")
+            args.platform = pname
+            # If --rebuild-index, blow away the target's _index so build_index
+            # treats it as fresh.
+            if rebuild_index:
+                idx = target / "knowledge_base" / "_index"
+                if idx.exists():
+                    info(f"--rebuild-index: removing {idx}")
+                    _remove_path(idx)
+            rc = _run_single_install(args)
+            if rc != 0:
+                overall_ok = False
+    finally:
+        SOURCE_DIR = saved_source
+        if tmp_source is not None:
+            shutil.rmtree(tmp_source.parent, ignore_errors=True)
+            info(f"Cleaned up {tmp_source.parent}")
 
-    # Index: respect --rebuild-index
-    if rebuild_index:
-        step("Rebuilding vector index (--rebuild-index)")
-        if INDEX_FILE.exists():
-            _remove_path(INDEX_FILE.parent)
-        install_results["Vector index"] = build_index(resume=False)
-    else:
-        install_results["Vector index"] = build_index(resume=True)
-
-    # ── 3. Regenerate SKILL.md for each platform ────────────────────────────
-    for pname in platforms:
-        target = _resolve_target(pname, target_dir)
-        if target is None:
-            warn(f"[{pname}] no target resolved, skipping SKILL.md update")
-            continue
-        step(f"[{pname}] Regenerating SKILL.md at {target}")
-        if not target.exists():
-            info(f"[{pname}] not installed; running fresh install")
-            ok2 = register_skill(no_register=False, platform_name=pname,
-                                  target_dir=target, copy_mode=args.copy)
-            install_results[f"register [{pname}]"] = ok2
-            continue
-        try:
-            skill_md = _compose_skill_md(pname)
-            (target / "SKILL.md").write_text(skill_md, encoding="utf-8")
-            ok(f"[{pname}] Refreshed {target}/SKILL.md")
-            install_results[f"refresh [{pname}]"] = True
-        except Exception as e:  # noqa: BLE001
-            fail(f"[{pname}] Failed to write SKILL.md: {e}")
-            install_results[f"refresh [{pname}]"] = False
-
-    # ── 4. Doctor ───────────────────────────────────────────────────────────
-    if not args.skip_doctor:
-        install_results["Doctor"] = run_doctor()
-
-    # ── 5. Final ────────────────────────────────────────────────────────────
-    all_ok = all(install_results.values())
     print()
     print(f"{DIM}{'═' * 64}{RESET}")
-    if all_ok:
+    if overall_ok:
         print(f"{GREEN}{BOLD}  ✓ Update complete{RESET}")
     else:
         print(f"{YELLOW}{BOLD}  ⚠ Update finished with issues{RESET}")
     print(f"{DIM}{'═' * 64}{RESET}")
-    for name, ok_ in install_results.items():
-        mark = f"{GREEN}✓{RESET}" if ok_ else f"{RED}✗{RESET}"
-        print(f"  {mark} {name}")
-    return 0 if all_ok else 1
+    return 0 if overall_ok else 1
 
 
 def cmd_install_all(platforms: list[str], args: argparse.Namespace) -> int:
@@ -885,44 +832,84 @@ def cmd_install_all(platforms: list[str], args: argparse.Namespace) -> int:
     return 0 if overall_ok else 1
 
 
+def _resolve_install_target(args: argparse.Namespace) -> Path:
+    """Determine the directory where this install should land.
+
+    Priority:
+      1. --target-dir <path>            (explicit override)
+      2. PLATFORM_DEFAULTS[--platform]  (standard agent skills dir)
+      3. SOURCE_DIR                     (in-place install — last resort)
+    """
+    if args.target_dir:
+        return Path(args.target_dir).expanduser().resolve()
+    if args.platform in PLATFORM_DEFAULTS:
+        return PLATFORM_DEFAULTS[args.platform].resolve()
+    return SOURCE_DIR.resolve()
+
+
 def _run_single_install(args: argparse.Namespace) -> int:
     """Run a normal install for the current args.platform.
 
-    Extracted so cmd_install_all can call it once per platform.
+    Layout:
+      1. Decide target dir (agent skills dir, by default).
+      2. If target != SOURCE_DIR, copy source files into target, then rebind
+         module-level path globals so subsequent steps operate on target.
+      3. Run the install steps (venv / deps / chromium / model / index /
+         SKILL.md / doctor) against the target. Each platform install is
+         fully self-contained — the source clone is never referenced again
+         and may be deleted after install.
     """
     global _step_num
     _step_num = 0   # reset step counter for each platform
 
-    results: dict[str, bool] = {}
-    target_dir_arg = Path(args.target_dir).expanduser() if args.target_dir else None
+    target = _resolve_install_target(args)
+    in_place = target == SOURCE_DIR.resolve()
 
-    results["Python version"]      = check_python_version()
+    print()
+    print(f"  Install target : {target}")
+    print(f"  Source clone   : {SOURCE_DIR}{'  (in-place)' if in_place else ''}")
+    print()
+
+    # Step 0: copy source → target (skipped when in-place)
+    if not in_place:
+        step(f"Staging source files → {target}")
+        try:
+            n = copy_source_to_target(SOURCE_DIR, target)
+            ok(f"Copied {n} top-level entries (excluding .venv, _index, .git, secrets)")
+        except Exception as e:  # noqa: BLE001
+            fail(f"Failed to stage source files: {e}")
+            return 1
+        # Rebind install-dir-relative globals so subsequent steps see target.
+        _rebind_paths_to(target)
+
+    results: dict[str, bool] = {}
+
+    results["Python version"] = check_python_version()
     if not results["Python version"]:
         return 1
-    results["Virtual env"]          = ensure_venv(args.resume)
-    # venv 失败 → 后续 pip / deps / model 全跑不起来，立即停止
+    results["Virtual env"]    = ensure_venv(args.resume)
     if not results["Virtual env"]:
+        # venv broken — everything after pip is useless; stop now
         print_summary(results, all_ok=False,
-                      platform_name=args.platform, target_dir=target_dir_arg)
+                      platform_name=args.platform, target_dir=target)
         return 1
-    results["Python dependencies"]  = install_deps(args.strict)
+    results["Python dependencies"]    = install_deps(args.strict)
     if not args.skip_chromium:
         results["Playwright chromium"] = install_chromium(args.strict, args.resume)
     if not args.skip_fonts:
-        results["CJK fonts"]        = check_cjk_fonts()
-    results["Embedding model"]      = prewarm_embedding_model(args.strict, args.resume)
-    results["Vector index"]         = build_index(args.resume)
-    results["Skill registration"]   = register_skill(
+        results["CJK fonts"]           = check_cjk_fonts()
+    results["Embedding model"]        = prewarm_embedding_model(args.strict, args.resume)
+    results["Vector index"]           = build_index(args.resume)
+    results["Skill registration"]     = register_skill(
         no_register=args.no_register,
         platform_name=args.platform,
-        target_dir=target_dir_arg,
-        copy_mode=args.copy,
     )
     if not args.skip_doctor:
-        results["Doctor"]           = run_doctor()
+        results["Doctor"]              = run_doctor()
+
     all_ok = all(results.values())
     print_summary(results, all_ok=all_ok,
-                  platform_name=args.platform, target_dir=target_dir_arg)
+                  platform_name=args.platform, target_dir=target)
     return 0 if all_ok else 1
 
 
@@ -1030,11 +1017,8 @@ def main() -> int:
         "--target-dir", default=None,
         help="Override install path (default: platform-specific, e.g. ~/.claude/skills/OpenMobius-skill)",
     )
-    parser.add_argument("--copy", action="store_true",
-                        help="Copy shared resources instead of symlink (slower, uses more disk; "
-                             "useful if symlink/junction unavailable)")
     parser.add_argument("--no-register", action="store_true",
-                        help="Skip platform skill registration entirely")
+                        help="Skip platform SKILL.md generation")
     parser.add_argument("--resume", action="store_true", default=True,
                         help="Skip already-done steps (default ON)")
     parser.add_argument("--no-resume", action="store_false", dest="resume",
@@ -1111,79 +1095,16 @@ def main() -> int:
             rebuild_index=args.rebuild_index,
             args=args,
         )
-    # Default: install for single platform (--platform all install handled below)
-    if args.platform == "all":
-        # 装 4 个平台时，循环跑现有 install 逻辑
-        return cmd_install_all(platforms_to_apply, args)
 
+    # ── Install ─────────────────────────────────────────────────────────────
     banner()
+    if args.interactive:
+        warn("-i / --interactive: per-step prompts have been removed in the "
+             "standalone-install rewrite. Continuing non-interactively.")
 
-    def maybe_prompt(name: str) -> bool:
-        if not args.interactive:
-            return True
-        ans = input(f"  {DIM}Run step '{name}'? [Y/n]:{RESET} ").strip().lower()
-        return ans not in ("n", "no")
-
-    results: dict[str, bool] = {}
-
-    if maybe_prompt("Python version"):
-        results["Python version"] = check_python_version()
-        if not results["Python version"]:
-            print_summary(results, all_ok=False)
-            return 1
-
-    if maybe_prompt("Virtual env"):
-        results["Virtual env"] = ensure_venv(args.resume)
-        # venv 失败 → 后续 pip / deps / model 全跑不起来，立即停止（不管 strict）
-        if not results["Virtual env"]:
-            print_summary(results, all_ok=False,
-                          platform_name=args.platform, target_dir=target_dir_arg)
-            return 1
-
-    if maybe_prompt("Python dependencies"):
-        results["Python dependencies"] = install_deps(args.strict)
-        if not results["Python dependencies"] and args.strict:
-            print_summary(results, all_ok=False)
-            return 1
-
-    if not args.skip_chromium and maybe_prompt("Playwright chromium"):
-        results["Playwright chromium"] = install_chromium(args.strict, args.resume)
-        if not results["Playwright chromium"] and args.strict:
-            print_summary(results, all_ok=False)
-            return 1
-
-    if not args.skip_fonts and maybe_prompt("CJK fonts"):
-        results["CJK fonts"] = check_cjk_fonts()
-
-    if maybe_prompt("Embedding model"):
-        results["Embedding model"] = prewarm_embedding_model(args.strict, args.resume)
-        if not results["Embedding model"] and args.strict:
-            print_summary(results, all_ok=False)
-            return 1
-
-    if maybe_prompt("Vector index"):
-        results["Vector index"] = build_index(args.resume)
-        if not results["Vector index"] and args.strict:
-            print_summary(results, all_ok=False)
-            return 1
-
-    if maybe_prompt("Skill registration"):
-        target_dir = Path(args.target_dir).expanduser() if args.target_dir else None
-        results["Skill registration"] = register_skill(
-            no_register=args.no_register,
-            platform_name=args.platform,
-            target_dir=target_dir,
-            copy_mode=args.copy,
-        )
-
-    if not args.skip_doctor and maybe_prompt("Doctor"):
-        results["Doctor"] = run_doctor()
-
-    all_ok = all(results.values())
-    target_dir = Path(args.target_dir).expanduser() if args.target_dir else None
-    print_summary(results, all_ok=all_ok,
-                  platform_name=args.platform, target_dir=target_dir)
-    return 0 if all_ok else 1
+    if args.platform == "all":
+        return cmd_install_all(platforms_to_apply, args)
+    return _run_single_install(args)
 
 
 if __name__ == "__main__":

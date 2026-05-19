@@ -21,6 +21,29 @@ py --version            # Windows
 
 Should print `Python 3.10.x` or higher.
 
+## Installation model
+
+**Each platform installs to a self-contained directory.** Source files are
+**copied** (not symlinked) into the per-platform target. The clone you
+start from is purely a source-bundle — once the install finishes, you can
+delete the clone.
+
+```
+git clone https://github.com/MobiusQuant/OpenMobius-skill /tmp/openmobius-src
+cd /tmp/openmobius-src
+python install.py --platform claude-code     # → ~/.claude/skills/OpenMobius-skill/
+
+rm -rf /tmp/openmobius-src                    # ✓ safe to delete
+```
+
+The target dir owns its own `.venv` and `_index`. Removing the target
+(`python install.py --uninstall`) is a complete uninstall for that platform.
+
+User-global caches (the open-source nomic embedding model and Playwright
+chromium) stay in your OS's standard cache locations — shared across
+platforms by design, so installing N platforms does not re-download them
+N times.
+
 ## One-line install
 
 | OS | Command |
@@ -33,9 +56,9 @@ The installer is **idempotent** — re-running skips already-done steps. First r
 
 ## Target agent platform
 
-The installer registers the skill to your agent's skills directory. Pick your platform:
+Pick your platform:
 
-| Agent | Flag | Default path |
+| Agent | Flag | Install path |
 |---|---|---|
 | **Claude Code** (default) | `--platform claude-code` (or omit) | `~/.claude/skills/OpenMobius-skill/` |
 | **Codex** | `--platform codex` | `~/.codex/skills/OpenMobius-skill/` |
@@ -44,32 +67,34 @@ The installer registers the skill to your agent's skills directory. Pick your pl
 
 Other options:
 
-- `--platform auto` — Detect installed agents by scanning `~/.<agent>` dirs. If one found, use it; if multiple, prompt to pick.
-- `--target-dir <path>` — Override the default path. Use when your agent stores skills in a non-standard location.
-- `--copy` — Full file copy instead of symlink. Slower + uses more disk, but works when symlinks aren't allowed.
+- `--platform auto` — Detect installed agents by scanning `~/.<agent>` dirs.
+- `--target-dir <path>` — Override the default install path.
+- `--platform all` — Install to all four platforms in one go (each gets its own self-contained copy).
 
-## Installing on multiple agents (same machine)
+## Installing on multiple agents
 
 ```bash
-for p in claude-code codex openclaw hermes; do
-    python install.py --platform $p
-done
+python install.py --platform all
 ```
 
-Each platform gets its own `SKILL.md` (with platform-specific frontmatter) at its install path. Shared resources (`scripts/`, `knowledge_base/`, `chart_render/`, `.venv/`) are **symlinked to this repo** — so 4 platforms still use only ~13 MB extra disk total (just the SKILL.md files).
+Each platform gets its own complete install (its own `.venv`, its own
+`_index`). The shared caches (nomic ~274MB, Playwright chromium ~280MB)
+are downloaded **once** and shared via your OS's user-global cache, so
+installing all four platforms doesn't quadruple the download.
 
 ## What the installer does (9 steps)
 
 | # | Step | First run | Subsequent |
 |---|---|---|---|
+| 0 | Stage source files → target dir (copy) | <1 s | overwrites |
 | 1 | Check Python ≥ 3.10 | <1 s | <1 s |
-| 2 | Create `.venv/` | ~5 s | skip if exists |
-| 3 | `pip install -r requirements.txt` | ~3 min | seconds (cache) |
-| 4 | Playwright chromium (~280 MB) | ~1 min | skip if cached |
+| 2 | Create `<target>/.venv/` | ~5 s | skip if exists |
+| 3 | `pip install -r requirements.txt` into `<target>/.venv/` | ~3 min | seconds (pip wheel cache) |
+| 4 | Playwright chromium (~280 MB, user-global cache) | ~1 min | skip if cached |
 | 5 | CJK font check (warn only) | <1 s | <1 s |
-| 6 | Pre-warm nomic-embed model (~274 MB) | ~30 s | skip if cached |
-| 7 | Build vector index (964 cards, from precomputed embeddings) | ~2 s | skip if exists |
-| 8 | Register to `~/.claude/skills/OpenMobius-skill` | <1 s | skip if exists |
+| 6 | Pre-warm nomic-embed model (~274 MB, user-global cache) | ~30 s | skip if cached |
+| 7 | Build vector index from precomputed embeddings (964 cards) | ~2 s | skip if exists |
+| 8 | Generate `<target>/SKILL.md` (platform frontmatter + shared body) | <1 s | overwrites |
 | 9 | Run `kb_doctor` health check | ~5 s | ~5 s |
 
 ## Common options

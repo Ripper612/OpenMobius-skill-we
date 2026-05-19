@@ -39,21 +39,26 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/MobiusQuant/OpenMobius-skill.git
-cd OpenMobius-skill
-python install.py
+git clone https://github.com/MobiusQuant/OpenMobius-skill.git /tmp/openmobius-src
+cd /tmp/openmobius-src
+python install.py --platform claude-code      # 或 codex / openclaw / hermes / all
+
+rm -rf /tmp/openmobius-src                     # ✓ clone 仅作搬运,可删
 ```
 
-安装器会：
+安装器会把源文件 copy 到 `~/.claude/skills/OpenMobius-skill/`（或你选的
+平台目录），然后在那个目录里：
 
 1. 创建 `.venv/` 并装依赖
-2. 下载 Playwright chromium（约 280 MB）
-3. 下载 `nomic-embed-text-v1.5` 嵌入模型（约 274 MB）
-4. 构建 964 张卡片的向量索引
-5. 注册 Skill 到 `~/.claude/skills/OpenMobius-skill/`
+2. 下载 Playwright chromium（约 280 MB，存到 OS 用户级缓存）
+3. 下载 `nomic-embed-text-v1.5` 模型（约 274 MB，存到 HuggingFace 缓存）
+4. 从预计算 embedding 载入 → 构建向量索引（约 2 秒）
+5. 生成平台对应的 `SKILL.md`
 6. 跑健康检查
 
-**首次安装**：约 5–10 分钟 · **后续 `--update`**：<30 秒
+每个平台**完全自给自足**（自有 `.venv` / `_index`）。clone 只是一次性搬运车。
+
+**首次安装**：约 5–10 分钟 · **后续 `python install.py --update`**：<1 分钟
 
 装完后，在你的 AI Agent 里直接问：
 
@@ -87,8 +92,9 @@ python install.py --platform <name>
 
 </div>
 
-共享资源（`scripts/`、`knowledge_base/`、`.venv/`、模型缓存）用 symlink 共用 ——
-装 4 个平台只多占 ~17 KB 磁盘。
+每个平台**完全自给自足**（自有 `.venv`、自有 `_index`）。nomic 模型和
+Playwright chromium 存在 OS 用户级缓存里，跨平台共享 —— 装 N 个平台不会
+N 倍下载。
 
 ---
 

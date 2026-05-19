@@ -42,21 +42,27 @@ hand-waving.
 ## Quick start
 
 ```bash
-git clone https://github.com/MobiusQuant/OpenMobius-skill.git
-cd OpenMobius-skill
-python install.py
+git clone https://github.com/MobiusQuant/OpenMobius-skill.git /tmp/openmobius-src
+cd /tmp/openmobius-src
+python install.py --platform claude-code      # or codex / openclaw / hermes / all
+
+rm -rf /tmp/openmobius-src                     # ✓ clone is ephemeral; safe to delete
 ```
 
-The installer:
+The installer copies source files into `~/.claude/skills/OpenMobius-skill/`
+(or your chosen platform's skills dir), then in that directory:
 
 1. Creates `.venv/` and installs dependencies
-2. Downloads Playwright chromium (~280 MB)
-3. Downloads `nomic-embed-text-v1.5` embedding model (~274 MB)
-4. Builds the 964-card vector index
-5. Registers the skill into `~/.claude/skills/OpenMobius-skill/`
+2. Downloads Playwright chromium (~280 MB, into your OS's user-global cache)
+3. Downloads `nomic-embed-text-v1.5` model (~274 MB, into your HuggingFace cache)
+4. Loads precomputed embeddings → builds vector index (~2 s)
+5. Generates the platform-specific `SKILL.md`
 6. Runs a health check
 
-**First run**: ~5–10 min · **Subsequent runs** (with `--update`): <30 s
+Each platform install is **self-contained**: it owns its own `.venv` and
+`_index`. The clone is just a one-shot source bundle.
+
+**First run**: ~5–10 min · **Subsequent runs** (`python install.py --update`): <1 min
 
 After install, in your AI agent just ask:
 
@@ -90,8 +96,10 @@ python install.py --platform <name>
 
 </div>
 
-Shared resources (`scripts/`, `knowledge_base/`, `.venv/`, model cache) are
-symlinked — installing on 4 platforms adds only ~17 KB extra per platform.
+Each platform install is fully **self-contained** (its own `.venv`, its own
+`_index`). The nomic model and Playwright chromium live in your OS's
+user-global cache, shared across platforms — so installing on N platforms
+doesn't N× the download.
 
 ---
 
