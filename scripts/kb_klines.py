@@ -2085,7 +2085,7 @@ def main() -> int:
     p_chart.add_argument("--limit", type=int, default=200, help="K 线数量（默认 200）")
     p_chart.add_argument(
         "--value-range-buffer", type=float, default=0.08,
-        help="value_range 在 K 线 high/low 基础上加的 buffer（默认 0.08 = 8%；"
+        help="value_range 在 K 线 high/low 基础上加的 buffer（默认 0.08 = 8%%；"
              "trade setup hline 在此范围内不会拉伸 priceScale，K 线保持稠密）",
     )
     p_chart.add_argument("--output", "-o", help="输出 JSON 文件；省略 stdout")
