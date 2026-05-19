@@ -26,7 +26,12 @@ Pick the right sub-workflow based on the user's input. Each workflow has detaile
 | Concept question, **no chart, no data, no asset name** ("什么是 FVG", "how to identify OB", "止损放哪里") | **Q&A** | `workflows/qna.md` |
 | **Chart attached** + any question about it ("分析", "看一下", "走势", "where to enter", "what's happening") | **Analyze** (auto-fetches real OHLCV + annotation) | `workflows/analyze.md` |
 | User explicitly asks to **draw/annotate** an image, OR follows up after analysis with "把这个标在图上" | **Annotate** | `workflows/annotate.md` |
-| User pastes **OHLCV data** OR mentions **asset + timeframe by name** without chart ("BTC 1h 怎么样" / pastes CSV / "茅台日线") | **Kline analysis** | `workflows/klines.md` |
+| User pastes **OHLCV data** OR mentions **asset + timeframe by name** without chart ("BTC 1h 怎么样" / pastes CSV / "茅台日线") | **Kline analysis** (auto-generates a fresh chart PNG) | `workflows/klines.md` |
+
+> **Chart output is part of the standard reply** for the **Analyze** and
+> **Kline analysis** workflows — render a PNG and include its path in the
+> output. Skip the chart step ONLY when the user explicitly opts out
+> ("只要文字" / "skip chart" / "no image" / "不用画图").
 
 **How to route**:
 
@@ -233,6 +238,6 @@ cd "${SKILL_DIR}" && .venv/bin/python scripts/kb_doctor.py
 > User: [after analysis JSON exists] "把刚才分析的画到图上"
 > → Read `workflows/annotate.md` → call kb_phase_b_to_c.py → output annotated image
 
-**Example 4 — Kline analysis** (no chart):
+**Example 4 — Kline analysis** (no user-supplied chart):
 > User: "BTC 1h 现在怎么样" (or pastes a CSV of OHLCV)
-> → Read `workflows/klines.md` → fetch/parse → analyze (extract features) → retrieve → 5-section reply with exact data-grounded prices
+> → Read `workflows/klines.md` → fetch/parse → analyze (extract features) → retrieve → **generate fresh chart PNG** → 5-section reply citing precise data-grounded prices + chart path

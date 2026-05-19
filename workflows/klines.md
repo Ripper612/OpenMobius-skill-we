@@ -102,9 +102,18 @@ Pick keywords from the surfaced features:
 
 Multiple retrievals encouraged when several patterns surface.
 
-### Step 4: (Optional) Generate a fresh chart image
+### Step 4: Generate a fresh chart image (default ON)
 
-If the user wants a visual chart, build it from pure K-lines + knowledge-base overlays (no indicators — those are out of scope for this skill).
+**This step is REQUIRED** for asset + timeframe queries (e.g. "BTC 1h 怎么样",
+"ETH 4h 现在如何", "茅台日线分析"). A market-analysis answer without a
+chart is **incomplete** — users expect to see the K-lines plus the
+FVG/OB/sweep overlays that the analysis cites.
+
+Skip this step ONLY if the user explicitly opts out
+("只要文字" / "skip chart" / "不用画图" / "no image").
+
+Build the chart from pure K-lines + knowledge-base overlays (no indicators —
+those are out of scope for this skill).
 
 ```bash
 # 1. Pull pure K-lines → panels payload skeleton (items=[])
@@ -245,7 +254,7 @@ After the 5 sections, append:
 ```
 📊 数据源 / Data: <fetch/parse> @ <symbol> <interval> (<count> candles)
 📂 特征摘要 / Features: <path to features.txt>
-🖼️ 行情图 / Chart: <path to rendered PNG>   ← only if Step 4 ran
+🖼️ 行情图 / Chart: <path to rendered PNG>   ← REQUIRED unless user opted out
 ```
 
 ## Key advantages over visual-only
