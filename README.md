@@ -31,6 +31,14 @@ market data, technical indicators, and chart generation to
 
 ## Overview
 
+<div align="center">
+  <img src="./docs/assets/demo.gif" alt="OpenMobius-skill demo" width="780">
+  <br>
+  <sub>Works on <b>Claude Code</b>, <b>Codex</b>, <b>OpenClaw</b>, and <b>Hermes</b>.</sub>
+</div>
+
+<br>
+
 Drop this skill into your AI coding agent and ask trading questions in plain
 language. The skill grounds every answer in a curated knowledge base + real
 market data — no hallucinated price levels, no generic "looks bearish"

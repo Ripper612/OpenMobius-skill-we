@@ -30,6 +30,14 @@
 
 ## 这个 Skill 做什么
 
+<div align="center">
+  <img src="./docs/assets/demo.gif" alt="OpenMobius-skill 演示" width="780">
+  <br>
+  <sub>支持 <b>Claude Code</b>、<b>Codex</b>、<b>OpenClaw</b>、<b>Hermes</b> 四个平台。</sub>
+</div>
+
+<br>
+
 把它装进你的 AI 编程 Agent，然后用自然语言问交易问题。Skill 会基于
 精选知识库 + 实时市场数据来回答 —— 不会瞎编价位，不会泛泛说 "看着偏空"。
 
