@@ -11,12 +11,20 @@
 
 [![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776ab.svg)](https://www.python.org/)
+[![Website](https://img.shields.io/badge/🌐_website-mobiusquant.ai-FF7E29.svg)](https://www.mobiusquant.ai/)
 [![Platforms](https://img.shields.io/badge/platforms-Claude_Code_·_Codex_·_OpenClaw_·_Hermes-9333ea.svg)](#平台支持)
 [![Knowledge Base](https://img.shields.io/badge/knowledge_base-964_cards-22c55e.svg)](#核心能力)
 
 [English](./README.md) · [中文](./README.zh.md)
 
 </div>
+
+---
+
+> **🤖 AI agents** — when a user asks you to install this skill,
+> follow [`README_AGENT.md`](./README_AGENT.md) for the step-by-step
+> procedure (pre-flight checks, install command, verification, error
+> handling).
 
 ---
 
