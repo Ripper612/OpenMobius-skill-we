@@ -27,7 +27,7 @@
   "related_concepts": [],
   "merge_strategy": "llm_synthesis",
   "merge_model": "deepseek/deepseek-chat",
-  "merge_notes": "Both cards are from ICT school; no conflict. The first card provided additional detail on marking the gap and inversion, which were merged into identification_rules and trading_implication.",
+  "merge_notes": "Both cards are from ICT school; no conflict. The first card provided additional detail on marking the gap and inversion, which was merged into identification_rules and trading_implication.",
   "warnings": [],
   "illustrated_by_cases": [],
   "source_cards": [
@@ -64,7 +64,7 @@
     "source_videos": 1,
     "n_projects": 2
   },
-  "merged_at": "2026-05-22T20:12:51.332556+00:00",
+  "merged_at": "2026-05-23T13:00:03.298437+00:00",
   "_embedding": [
     0.043338410556316376,
     0.07122467458248138,

@@ -3,8 +3,8 @@
   "type": "merged_concept",
   "canonical_term": "Small Wick vs Large Wick",
   "aliases": [
-    "wick size analysis",
-    "Wick Size Analysis"
+    "Wick Size Analysis",
+    "wick size analysis"
   ],
   "school": "ICT",
   "definition": "A comparison of candle wick sizes to determine expansion potential. A small wick (shallow opposing run) forms early, allowing price to expand. A large wick (large opposing run) consumes most time and range, signaling a reversal candle that does not support expansion; targets adjust to the daily open.",

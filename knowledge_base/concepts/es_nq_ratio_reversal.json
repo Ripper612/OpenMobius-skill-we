@@ -3,10 +3,10 @@
   "type": "merged_concept",
   "canonical_term": "ES/NQ Ratio Reversal",
   "aliases": [
-    "esnq reversal",
     "ESNQ Reversal",
-    "ratio reversal",
-    "Ratio Reversal"
+    "esnq reversal",
+    "Ratio Reversal",
+    "ratio reversal"
   ],
   "school": "ICT",
   "definition": "A reversal on the ES/NQ ratio chart, where the ratio sweeps a prior high or low and closes back inside the range, signaling a shift in relative strength correlation. This often precedes an actual reversal on the ES or NQ price charts, acting as a leading indicator.",

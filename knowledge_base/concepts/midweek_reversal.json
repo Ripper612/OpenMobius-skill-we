@@ -3,8 +3,8 @@
   "type": "merged_concept",
   "canonical_term": "Midweek Reversal",
   "aliases": [
-    "wednesday reversal",
     "Wednesday Reversal",
+    "wednesday reversal",
     "周中反转"
   ],
   "school": "ICT",
@@ -28,7 +28,7 @@
   "related_concepts": [],
   "merge_strategy": "llm_synthesis",
   "merge_model": "deepseek/deepseek-chat",
-  "merge_notes": "School conflict: first card says 'Price Action', second says 'ICT'; picked ICT by majority (1 vs 1, but ICT is more specific). First card's definition is in Chinese and less precise; second card's definition is more operational and used as base. First card's identification rules are less specific; second card's rules are more detailed and kept. Common mistakes from both cards are merged.",
+  "merge_notes": "School conflict: first card says 'Price Action', second says 'ICT'; picked ICT by majority (1 vs 1, but ICT is more specific). First card's definition is in Chinese and less precise; second card's definition used as it is more operational. First card's identification rules are less specific; second card's rules used. Common mistakes from both cards merged.",
   "warnings": [
     "school_conflict: ['ICT', 'Price Action']"
   ],
@@ -92,7 +92,7 @@
     "source_videos": 2,
     "n_projects": 2
   },
-  "merged_at": "2026-05-22T20:13:33.170490+00:00",
+  "merged_at": "2026-05-23T13:00:26.952369+00:00",
   "_embedding": [
     -0.002029241994023323,
     0.011917063035070896,

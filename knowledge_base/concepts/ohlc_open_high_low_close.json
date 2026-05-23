@@ -3,8 +3,8 @@
   "type": "merged_concept",
   "canonical_term": "OHLC / Open High Low Close",
   "aliases": [
-    "K线四价",
     "k线四价",
+    "K线四价",
     "olhc",
     "OLHC",
     "Open Low High Close"

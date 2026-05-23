@@ -3,10 +3,10 @@
   "type": "merged_concept",
   "canonical_term": "Important Time Levels",
   "aliases": [
-    "key intraday times",
     "Key Intraday Times",
-    "key time levels",
-    "Key Time Levels"
+    "key intraday times",
+    "Key Time Levels",
+    "key time levels"
   ],
   "school": "ICT",
   "definition": "Specific intraday times (e.g., 8:30, 9:30, 10:00 AM ET) during the New York session where price frequently reacts with reversals, continuations, or retracements, often coinciding with session opens, economic news, or candle closes.",

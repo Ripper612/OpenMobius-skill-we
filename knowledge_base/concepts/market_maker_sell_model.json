@@ -3,10 +3,10 @@
   "type": "merged_concept",
   "canonical_term": "Market Maker Sell Model",
   "aliases": [
-    "MMSM",
     "mmsm",
-    "Sell Model",
-    "sell model"
+    "MMSM",
+    "sell model",
+    "Sell Model"
   ],
   "school": "ICT",
   "definition": "A bearish price delivery sequence where price moves from external range liquidity (an old high) into internal range liquidity (a fair value gap), then displaces lower toward new external range liquidity (old lows). The inverse of the market maker buy model.",

@@ -5,8 +5,8 @@
   "aliases": [
     "Relative Strength",
     "Relative Weakness",
-    "rs/rw",
     "RS/RW",
+    "rs/rw",
     "相关资产强弱对比",
     "相对强弱"
   ],
@@ -72,7 +72,7 @@
     "source_videos": 1,
     "n_projects": 2
   },
-  "merged_at": "2026-05-22T20:13:53.660705+00:00",
+  "merged_at": "2026-05-23T13:00:38.458763+00:00",
   "_embedding": [
     0.04952402040362358,
     0.026155518367886543,

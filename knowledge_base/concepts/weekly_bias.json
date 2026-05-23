@@ -25,7 +25,7 @@
   "related_concepts": [],
   "merge_strategy": "llm_synthesis",
   "merge_model": "deepseek/deepseek-chat",
-  "merge_notes": "Both cards are from ICT school; no conflict. The updated card provides more operational rules and trading implications, which were adopted.",
+  "merge_notes": "Both cards are from ICT school; no conflict. The updated card provides more operational identification rules and trading implications, which were adopted.",
   "warnings": [],
   "illustrated_by_cases": [],
   "source_cards": [
@@ -61,7 +61,7 @@
     "source_videos": 1,
     "n_projects": 2
   },
-  "merged_at": "2026-05-22T20:14:20.134971+00:00",
+  "merged_at": "2026-05-23T13:00:57.389998+00:00",
   "_embedding": [
     0.028848182410001755,
     0.01803424023091793,

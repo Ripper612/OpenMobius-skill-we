@@ -1,17 +1,17 @@
 {
   "project_name": "cross_project_merged",
-  "generated_at": "2026-05-22T20:14:38.787610+00:00",
+  "generated_at": "2026-05-23T13:01:18.481142+00:00",
   "stats": {
-    "n_source_projects": 5,
-    "n_raw_concepts": 696,
-    "n_raw_cases": 1094,
-    "n_merged_concepts": 443,
-    "n_merged_cases": 1093,
-    "n_single_source_groups": 293,
-    "n_multi_source_groups": 150,
+    "n_source_projects": 8,
+    "n_raw_concepts": 1004,
+    "n_raw_cases": 1247,
+    "n_merged_concepts": 666,
+    "n_merged_cases": 1246,
+    "n_single_source_groups": 489,
+    "n_multi_source_groups": 177,
     "n_failed_merges": 0,
-    "n_alias_conflicts": 374,
-    "elapsed_seconds": 159.73886135400244
+    "n_alias_conflicts": 421,
+    "elapsed_seconds": 104.50811038799293
   },
   "alias_conflicts": [
     {
@@ -160,6 +160,35 @@
       ]
     },
     {
+      "alias": "choch",
+      "winner": "Change of Character",
+      "mappings": [
+        {
+          "canonical": "Change of Character",
+          "occurrences": 3,
+          "projects": [
+            "SMC-Extra-Supplement",
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Change in the State of Delivery",
+          "occurrences": 1,
+          "projects": [
+            "Daily Profiles"
+          ]
+        },
+        {
+          "canonical": "Change of Character (CHoCH)",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "change in state of delivery",
       "winner": "Change In State Of Delivery",
       "mappings": [
@@ -242,9 +271,10 @@
         },
         {
           "canonical": "Discount Zone",
-          "occurrences": 1,
+          "occurrences": 2,
           "projects": [
-            "Daily Profiles"
+            "Daily Profiles",
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -259,6 +289,13 @@
           "occurrences": 1,
           "projects": [
             "Daily Profiles"
+          ]
+        },
+        {
+          "canonical": "Premium and Discount Zones",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -285,9 +322,24 @@
         },
         {
           "canonical": "Discount Zone",
+          "occurrences": 2,
+          "projects": [
+            "Daily Profiles",
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Premium and Discount Zones",
           "occurrences": 1,
           "projects": [
-            "Daily Profiles"
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Premium/Discount",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Extra-Supplement"
           ]
         }
       ]
@@ -298,9 +350,10 @@
       "mappings": [
         {
           "canonical": "Discount Zone",
-          "occurrences": 1,
+          "occurrences": 2,
           "projects": [
-            "Daily Profiles"
+            "Daily Profiles",
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -341,10 +394,11 @@
       "mappings": [
         {
           "canonical": "Breakout",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT",
-            "Education - ICT (Updated)"
+            "Education - ICT (Updated)",
+            "SMC-Strong-Weak-Supplement"
           ]
         },
         {
@@ -375,6 +429,33 @@
           "projects": [
             "Education - ICT",
             "Education - ICT (Updated)"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "impulsive move",
+      "winner": "Displacement",
+      "mappings": [
+        {
+          "canonical": "Displacement",
+          "occurrences": 1,
+          "projects": [
+            "Daily Profiles"
+          ]
+        },
+        {
+          "canonical": "Impulse Move",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Impulsive Move",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
           ]
         }
       ]
@@ -478,8 +559,16 @@
     },
     {
       "alias": "external liquidity",
-      "winner": "External Range Liquidity",
+      "winner": "External Liquidity",
       "mappings": [
+        {
+          "canonical": "External Liquidity",
+          "occurrences": 2,
+          "projects": [
+            "Daily Profiles",
+            "SMC-Indicator-Supplement"
+          ]
+        },
         {
           "canonical": "External Range Liquidity",
           "occurrences": 2,
@@ -493,13 +582,6 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
-          ]
-        },
-        {
-          "canonical": "External Liquidity",
-          "occurrences": 1,
-          "projects": [
-            "Daily Profiles"
           ]
         },
         {
@@ -517,9 +599,10 @@
       "mappings": [
         {
           "canonical": "Equal Highs",
-          "occurrences": 1,
+          "occurrences": 2,
           "projects": [
-            "Education - ICT (Updated)"
+            "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -544,10 +627,11 @@
       "mappings": [
         {
           "canonical": "Equal Lows",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT",
-            "Education - ICT (Updated)"
+            "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -574,6 +658,32 @@
       ]
     },
     {
+      "alias": "fair value gap",
+      "winner": "Fair Value Gap",
+      "mappings": [
+        {
+          "canonical": "Fair Value Gap",
+          "occurrences": 7,
+          "projects": [
+            "Daily Profiles",
+            "Education - ICT",
+            "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
+            "SMC-Strong-Weak-Supplement",
+            "Strat + ICT",
+            "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Inefficiency",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "imbalance",
       "winner": "Fair Value Gap",
       "mappings": [
@@ -591,6 +701,20 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
+          ]
+        },
+        {
+          "canonical": "Imbalance",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Inefficiency",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
           ]
         }
       ]
@@ -649,6 +773,14 @@
           ]
         },
         {
+          "canonical": "Internal Liquidity",
+          "occurrences": 2,
+          "projects": [
+            "Daily Profiles",
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
           "canonical": "Buyside/Sellside Liquidity",
           "occurrences": 1,
           "projects": [
@@ -660,13 +792,6 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
-          ]
-        },
-        {
-          "canonical": "Internal Liquidity",
-          "occurrences": 1,
-          "projects": [
-            "Daily Profiles"
           ]
         },
         {
@@ -942,11 +1067,13 @@
       "mappings": [
         {
           "canonical": "Order Block",
-          "occurrences": 4,
+          "occurrences": 6,
           "projects": [
             "Daily Profiles",
             "Education - ICT",
             "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
@@ -1071,6 +1198,14 @@
           ]
         },
         {
+          "canonical": "Premium Zone",
+          "occurrences": 2,
+          "projects": [
+            "Daily Profiles",
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
           "canonical": "Premium / Discount",
           "occurrences": 1,
           "projects": [
@@ -1078,17 +1213,17 @@
           ]
         },
         {
-          "canonical": "Premium Zone",
+          "canonical": "Premium and Discount",
           "occurrences": 1,
           "projects": [
             "Daily Profiles"
           ]
         },
         {
-          "canonical": "Premium and Discount",
+          "canonical": "Premium and Discount Zones",
           "occurrences": 1,
           "projects": [
-            "Daily Profiles"
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -1114,9 +1249,24 @@
         },
         {
           "canonical": "Premium Zone",
+          "occurrences": 2,
+          "projects": [
+            "Daily Profiles",
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Premium and Discount Zones",
           "occurrences": 1,
           "projects": [
-            "Daily Profiles"
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Premium/Discount",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Extra-Supplement"
           ]
         }
       ]
@@ -1345,6 +1495,13 @@
           "projects": [
             "Daily Profiles"
           ]
+        },
+        {
+          "canonical": "Sellside Liquidity",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
         }
       ]
     },
@@ -1354,10 +1511,19 @@
       "mappings": [
         {
           "canonical": "Sell Side Liquidity",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
             "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Sellside Liquidity",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT",
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -1379,13 +1545,6 @@
           "occurrences": 1,
           "projects": [
             "Daily Profiles"
-          ]
-        },
-        {
-          "canonical": "Sellside Liquidity",
-          "occurrences": 1,
-          "projects": [
-            "Education - ICT"
           ]
         }
       ]
@@ -1396,10 +1555,19 @@
       "mappings": [
         {
           "canonical": "Sell Side Liquidity",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
             "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Sellside Liquidity",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT",
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -1421,13 +1589,6 @@
           "occurrences": 1,
           "projects": [
             "Daily Profiles"
-          ]
-        },
-        {
-          "canonical": "Sellside Liquidity",
-          "occurrences": 1,
-          "projects": [
-            "Education - ICT"
           ]
         }
       ]
@@ -1999,10 +2160,18 @@
       "mappings": [
         {
           "canonical": "Buy Side Liquidity",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
             "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Buyside Liquidity",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -2061,9 +2230,10 @@
       "mappings": [
         {
           "canonical": "Buy Side Liquidity",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
             "The Foundation"
           ]
         },
@@ -2143,6 +2313,13 @@
           ]
         },
         {
+          "canonical": "Buyside Liquidity",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
           "canonical": "Buyside/Sellside Liquidity",
           "occurrences": 1,
           "projects": [
@@ -2195,6 +2372,13 @@
           "projects": [
             "Education - ICT (Updated)",
             "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Buyside Liquidity",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -2310,8 +2494,16 @@
     },
     {
       "alias": "liquidity grab",
-      "winner": "Buyside/Sellside Liquidity",
+      "winner": "Liquidity Grab",
       "mappings": [
+        {
+          "canonical": "Liquidity Grab",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT (Updated)",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
         {
           "canonical": "Buyside/Sellside Liquidity",
           "occurrences": 1,
@@ -2327,10 +2519,10 @@
           ]
         },
         {
-          "canonical": "Liquidity Grab",
+          "canonical": "Liquidity Sweep",
           "occurrences": 1,
           "projects": [
-            "Education - ICT (Updated)"
+            "SMC-Indicator-Supplement"
           ]
         }
       ]
@@ -2341,9 +2533,10 @@
       "mappings": [
         {
           "canonical": "Sell Side Liquidity",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
             "The Foundation"
           ]
         },
@@ -2352,6 +2545,13 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
+          ]
+        },
+        {
+          "canonical": "Sellside Liquidity",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -3053,6 +3253,35 @@
       ]
     },
     {
+      "alias": "consolidation",
+      "winner": "Consolidation",
+      "mappings": [
+        {
+          "canonical": "Consolidation",
+          "occurrences": 3,
+          "projects": [
+            "Education - ICT",
+            "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Pullback",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Sideways Market",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "range",
       "winner": "Consolidation",
       "mappings": [
@@ -3290,9 +3519,10 @@
       "mappings": [
         {
           "canonical": "Continuation Pattern",
-          "occurrences": 1,
+          "occurrences": 2,
           "projects": [
-            "Education - ICT"
+            "Education - ICT",
+            "SMC-Strong-Weak-Supplement"
           ]
         },
         {
@@ -3549,8 +3779,16 @@
     },
     {
       "alias": "directional bias",
-      "winner": "Bias",
+      "winner": "Directional Bias",
       "mappings": [
+        {
+          "canonical": "Directional Bias",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT",
+            "SMC-Extra-Supplement"
+          ]
+        },
         {
           "canonical": "Bias",
           "occurrences": 1,
@@ -3566,10 +3804,10 @@
           ]
         },
         {
-          "canonical": "Directional Bias",
+          "canonical": "Market Structure",
           "occurrences": 1,
           "projects": [
-            "Education - ICT"
+            "SMC-Extra-Supplement"
           ]
         }
       ]
@@ -4551,6 +4789,20 @@
           ]
         },
         {
+          "canonical": "Multi-Timeframe Analysis",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Multiple Timeframe Analysis",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Extra-Supplement"
+          ]
+        },
+        {
           "canonical": "Time Frame Analysis",
           "occurrences": 1,
           "projects": [
@@ -4562,6 +4814,13 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
+          ]
+        },
+        {
+          "canonical": "Top-Down Analysis",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
           ]
         }
       ]
@@ -4582,6 +4841,13 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
+          ]
+        },
+        {
+          "canonical": "Time Frame Combination",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
           ]
         },
         {
@@ -4615,8 +4881,22 @@
     },
     {
       "alias": "false breakout",
-      "winner": "Inducement",
+      "winner": "Failed Breakout",
       "mappings": [
+        {
+          "canonical": "Failed Breakout",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Failure Test",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
         {
           "canonical": "Inducement",
           "occurrences": 1,
@@ -4635,8 +4915,16 @@
     },
     {
       "alias": "manipulation",
-      "winner": "Inducement",
+      "winner": "Manipulation",
       "mappings": [
+        {
+          "canonical": "Manipulation",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT (Updated)",
+            "SMC-Extra-Supplement"
+          ]
+        },
         {
           "canonical": "Inducement",
           "occurrences": 1,
@@ -4649,13 +4937,6 @@
           "occurrences": 1,
           "projects": [
             "The Foundation"
-          ]
-        },
-        {
-          "canonical": "Manipulation",
-          "occurrences": 1,
-          "projects": [
-            "Education - ICT (Updated)"
           ]
         }
       ]
@@ -4945,14 +5226,39 @@
       ]
     },
     {
+      "alias": "liquidity",
+      "winner": "Liquidity",
+      "mappings": [
+        {
+          "canonical": "Liquidity",
+          "occurrences": 3,
+          "projects": [
+            "Education - ICT",
+            "SMC-Extra-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Liquidity Pool",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "liquidity sweep",
       "winner": "Liquidity Sweep",
       "mappings": [
         {
           "canonical": "Liquidity Sweep",
-          "occurrences": 3,
+          "occurrences": 6,
           "projects": [
             "Education - ICT",
+            "SMC-Extra-Supplement",
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement",
             "Strat + ICT",
             "The Foundation"
           ]
@@ -5025,6 +5331,27 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "liquidity run",
+      "winner": "Liquidity Sweep",
+      "mappings": [
+        {
+          "canonical": "Liquidity Sweep",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT",
+            "Strat + ICT"
+          ]
+        },
+        {
+          "canonical": "Liquidity Run",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Extra-Supplement"
           ]
         }
       ]
@@ -5143,6 +5470,13 @@
           ]
         },
         {
+          "canonical": "Change of Character",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
           "canonical": "Market Structure",
           "occurrences": 1,
           "projects": [
@@ -5157,11 +5491,21 @@
       "mappings": [
         {
           "canonical": "Break of Structure",
-          "occurrences": 3,
+          "occurrences": 6,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement",
             "Strat + ICT",
             "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Break of Structure (BOS)",
+          "occurrences": 2,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
           ]
         },
         {
@@ -5179,11 +5523,21 @@
       "mappings": [
         {
           "canonical": "Break of Structure",
-          "occurrences": 3,
+          "occurrences": 6,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Extra-Supplement",
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement",
             "Strat + ICT",
             "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Break of Structure (BOS)",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
           ]
         },
         {
@@ -5191,6 +5545,28 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "mss",
+      "winner": "Market Structure Shift",
+      "mappings": [
+        {
+          "canonical": "Market Structure Shift",
+          "occurrences": 3,
+          "projects": [
+            "Education - ICT",
+            "Education - ICT (Updated)",
+            "Strat + ICT"
+          ]
+        },
+        {
+          "canonical": "Change of Character",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
           ]
         }
       ]
@@ -5341,8 +5717,9 @@
       "mappings": [
         {
           "canonical": "Break of Structure",
-          "occurrences": 1,
+          "occurrences": 2,
           "projects": [
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
@@ -5443,17 +5820,25 @@
           ]
         },
         {
+          "canonical": "Top-Down Analysis",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Multi-Timeframe Analysis",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
           "canonical": "Multiple Timeframe Analysis",
           "occurrences": 1,
           "projects": [
             "Education - ICT"
-          ]
-        },
-        {
-          "canonical": "Top-Down Analysis",
-          "occurrences": 1,
-          "projects": [
-            "Education - ICT (Updated)"
           ]
         },
         {
@@ -5692,6 +6077,13 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
+          ]
+        },
+        {
+          "canonical": "Optimal Trading Entry",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -6010,17 +6402,18 @@
     },
     {
       "alias": "pd",
-      "winner": "Premium / Discount",
+      "winner": "Premium/Discount",
       "mappings": [
         {
-          "canonical": "Premium / Discount",
-          "occurrences": 1,
+          "canonical": "Premium/Discount",
+          "occurrences": 2,
           "projects": [
-            "Education - ICT"
+            "Education - ICT",
+            "SMC-Extra-Supplement"
           ]
         },
         {
-          "canonical": "Premium/Discount",
+          "canonical": "Premium / Discount",
           "occurrences": 1,
           "projects": [
             "Education - ICT"
@@ -6189,8 +6582,16 @@
     },
     {
       "alias": "premium/discount",
-      "winner": "Discount / Premium",
+      "winner": "Premium/Discount",
       "mappings": [
+        {
+          "canonical": "Premium/Discount",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT",
+            "SMC-Extra-Supplement"
+          ]
+        },
         {
           "canonical": "Discount / Premium",
           "occurrences": 1,
@@ -6203,13 +6604,6 @@
           "occurrences": 1,
           "projects": [
             "The Foundation"
-          ]
-        },
-        {
-          "canonical": "Premium/Discount",
-          "occurrences": 1,
-          "projects": [
-            "Education - ICT"
           ]
         },
         {
@@ -6328,9 +6722,10 @@
       "mappings": [
         {
           "canonical": "Continuation Order Block",
-          "occurrences": 1,
+          "occurrences": 2,
           "projects": [
-            "Education - ICT (Updated)"
+            "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement"
           ]
         },
         {
@@ -6565,6 +6960,35 @@
       ]
     },
     {
+      "alias": "retracement",
+      "winner": "Pullback",
+      "mappings": [
+        {
+          "canonical": "Pullback",
+          "occurrences": 2,
+          "projects": [
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Retracement",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT",
+            "Education - ICT (Updated)"
+          ]
+        },
+        {
+          "canonical": "Corrective Move",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "v-shaped recovery",
       "winner": "Retracement",
       "mappings": [
@@ -6686,6 +7110,13 @@
           "projects": [
             "Education - ICT"
           ]
+        },
+        {
+          "canonical": "Risk/Reward Ratio",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
         }
       ]
     },
@@ -6786,6 +7217,28 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "risk-to-reward ratio",
+      "winner": "Risk-to-Reward Ratio",
+      "mappings": [
+        {
+          "canonical": "Risk-to-Reward Ratio",
+          "occurrences": 3,
+          "projects": [
+            "Education - ICT",
+            "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Risk/Reward Ratio",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
           ]
         }
       ]
@@ -7395,10 +7848,11 @@
       "mappings": [
         {
           "canonical": "Stop Loss",
-          "occurrences": 3,
+          "occurrences": 4,
           "projects": [
             "Education - ICT",
             "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
@@ -7407,6 +7861,13 @@
           "occurrences": 1,
           "projects": [
             "Education - ICT (Updated)"
+          ]
+        },
+        {
+          "canonical": "Stop-Loss Order",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
           ]
         }
       ]
@@ -7477,9 +7938,10 @@
       "mappings": [
         {
           "canonical": "Swing High",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
@@ -7519,9 +7981,10 @@
       "mappings": [
         {
           "canonical": "Swing Low",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
@@ -7753,6 +8216,26 @@
       ]
     },
     {
+      "alias": "turning points",
+      "winner": "Swing Points",
+      "mappings": [
+        {
+          "canonical": "Swing Points",
+          "occurrences": 1,
+          "projects": [
+            "Education - ICT"
+          ]
+        },
+        {
+          "canonical": "Turning Points",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "time frame alignment",
       "winner": "Time Frame Alignment",
       "mappings": [
@@ -7866,6 +8349,26 @@
         },
         {
           "canonical": "Top-down analysis",
+          "occurrences": 1,
+          "projects": [
+            "Education - ICT"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "trailing stop loss",
+      "winner": "Trailing Stop",
+      "mappings": [
+        {
+          "canonical": "Trailing Stop",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Trailing Stop Loss",
           "occurrences": 1,
           "projects": [
             "Education - ICT"
@@ -8385,6 +8888,27 @@
       ]
     },
     {
+      "alias": "inefficiency",
+      "winner": "Fair Value Gap",
+      "mappings": [
+        {
+          "canonical": "Fair Value Gap",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT (Updated)",
+            "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Inefficiency",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "fixed dollar risk",
       "winner": "Fixed Dollar Risk",
       "mappings": [
@@ -8417,6 +8941,67 @@
         },
         {
           "canonical": "Position Sizing",
+          "occurrences": 1,
+          "projects": [
+            "Education - ICT (Updated)"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "shooting star",
+      "winner": "Hammer/Shooter Candle",
+      "mappings": [
+        {
+          "canonical": "Hammer/Shooter Candle",
+          "occurrences": 1,
+          "projects": [
+            "Education - ICT (Updated)"
+          ]
+        },
+        {
+          "canonical": "Shooting Star",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "doji",
+      "winner": "Indecision Candle",
+      "mappings": [
+        {
+          "canonical": "Indecision Candle",
+          "occurrences": 2,
+          "projects": [
+            "Education - ICT (Updated)",
+            "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Doji Candlestick",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "doji candle",
+      "winner": "Doji Candlestick",
+      "mappings": [
+        {
+          "canonical": "Doji Candlestick",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Indecision Candle",
           "occurrences": 1,
           "projects": [
             "Education - ICT (Updated)"
@@ -8477,9 +9062,10 @@
       "mappings": [
         {
           "canonical": "Inversion Fair Value Gap",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
@@ -8498,21 +9084,23 @@
       "mappings": [
         {
           "canonical": "Inversion Fair Value Gap",
-          "occurrences": 2,
+          "occurrences": 3,
           "projects": [
             "Education - ICT (Updated)",
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
         {
-          "canonical": "Inversion (FVG Inversion)",
-          "occurrences": 1,
+          "canonical": "Inverted Fair Value Gap",
+          "occurrences": 2,
           "projects": [
-            "Education - ICT (Updated)"
+            "Education - ICT (Updated)",
+            "SMC-Extra-Supplement"
           ]
         },
         {
-          "canonical": "Inverted Fair Value Gap",
+          "canonical": "Inversion (FVG Inversion)",
           "occurrences": 1,
           "projects": [
             "Education - ICT (Updated)"
@@ -8543,17 +9131,18 @@
     },
     {
       "alias": "inverted fair value gap",
-      "winner": "Inversion (FVG Inversion)",
+      "winner": "Inverted Fair Value Gap",
       "mappings": [
         {
-          "canonical": "Inversion (FVG Inversion)",
-          "occurrences": 1,
+          "canonical": "Inverted Fair Value Gap",
+          "occurrences": 2,
           "projects": [
-            "Education - ICT (Updated)"
+            "Education - ICT (Updated)",
+            "SMC-Extra-Supplement"
           ]
         },
         {
-          "canonical": "Inverted Fair Value Gap",
+          "canonical": "Inversion (FVG Inversion)",
           "occurrences": 1,
           "projects": [
             "Education - ICT (Updated)"
@@ -8737,6 +9326,34 @@
       ]
     },
     {
+      "alias": "pullback",
+      "winner": "Pullback",
+      "mappings": [
+        {
+          "canonical": "Pullback",
+          "occurrences": 2,
+          "projects": [
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Corrective Move",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Retracement",
+          "occurrences": 1,
+          "projects": [
+            "Education - ICT (Updated)"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "reversal day",
       "winner": "Reversal Candle",
       "mappings": [
@@ -8856,8 +9473,9 @@
       "mappings": [
         {
           "canonical": "Liquidity Sweep",
-          "occurrences": 1,
+          "occurrences": 2,
           "projects": [
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
@@ -8911,6 +9529,26 @@
       ]
     },
     {
+      "alias": "turning point",
+      "winner": "Swing Point",
+      "mappings": [
+        {
+          "canonical": "Swing Point",
+          "occurrences": 1,
+          "projects": [
+            "Education - ICT (Updated)"
+          ]
+        },
+        {
+          "canonical": "Turning Point",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "candle wick",
       "winner": "Wick",
       "mappings": [
@@ -8951,13 +9589,55 @@
       ]
     },
     {
+      "alias": "bias",
+      "winner": "Bias",
+      "mappings": [
+        {
+          "canonical": "Bias",
+          "occurrences": 1,
+          "projects": [
+            "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Directional Bias",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Extra-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "true market structure",
+      "winner": "Internal vs External Structure",
+      "mappings": [
+        {
+          "canonical": "Internal vs External Structure",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Extra-Supplement"
+          ]
+        },
+        {
+          "canonical": "Market Structure",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Extra-Supplement"
+          ]
+        }
+      ]
+    },
+    {
       "alias": "structure",
       "winner": "Market Structure",
       "mappings": [
         {
           "canonical": "Market Structure",
-          "occurrences": 1,
+          "occurrences": 3,
           "projects": [
+            "SMC-Extra-Supplement",
+            "SMC-Indicator-Supplement",
             "The Foundation"
           ]
         },
@@ -8966,6 +9646,572 @@
           "occurrences": 1,
           "projects": [
             "The Foundation"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "smart money",
+      "winner": "Smart Money",
+      "mappings": [
+        {
+          "canonical": "Smart Money",
+          "occurrences": 3,
+          "projects": [
+            "SMC-Extra-Supplement",
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Smart Money Concepts",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "atr",
+      "winner": "Average True Range",
+      "mappings": [
+        {
+          "canonical": "Average True Range",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Average True Range (ATR)",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "break of structure (bos)",
+      "winner": "Break of Structure",
+      "mappings": [
+        {
+          "canonical": "Break of Structure",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Break of Structure (BOS)",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "change of character (choch)",
+      "winner": "Change of Character",
+      "mappings": [
+        {
+          "canonical": "Change of Character",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Change of Character (CHoCH)",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "correction",
+      "winner": "Corrective Move",
+      "mappings": [
+        {
+          "canonical": "Corrective Move",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Pullback",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "demand zone",
+      "winner": "Demand Zone",
+      "mappings": [
+        {
+          "canonical": "Demand Zone",
+          "occurrences": 2,
+          "projects": [
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Supply and Demand Zones",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "demand area",
+      "winner": "Demand Zone",
+      "mappings": [
+        {
+          "canonical": "Demand Zone",
+          "occurrences": 2,
+          "projects": [
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Supply and Demand Zones",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "double top",
+      "winner": "Double Top",
+      "mappings": [
+        {
+          "canonical": "Double Top",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Equal Highs",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "double bottom",
+      "winner": "Double Bottom",
+      "mappings": [
+        {
+          "canonical": "Double Bottom",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Equal Lows",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "htf analysis",
+      "winner": "Higher Timeframe Analysis",
+      "mappings": [
+        {
+          "canonical": "Higher Timeframe Analysis",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        },
+        {
+          "canonical": "Top Down Analysis",
+          "occurrences": 1,
+          "projects": [
+            "The Foundation"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "fake out",
+      "winner": "Liquidity Grab",
+      "mappings": [
+        {
+          "canonical": "Liquidity Grab",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Liquidity Sweep",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "bearish divergence",
+      "winner": "Bearish Divergence",
+      "mappings": [
+        {
+          "canonical": "Bearish Divergence",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "RSI Divergence",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "bullish divergence",
+      "winner": "Bullish Divergence",
+      "mappings": [
+        {
+          "canonical": "Bullish Divergence",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "RSI Divergence",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "divergence",
+      "winner": "Divergence",
+      "mappings": [
+        {
+          "canonical": "Divergence",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "RSI Divergence",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "supply area",
+      "winner": "Supply Zone",
+      "mappings": [
+        {
+          "canonical": "Supply Zone",
+          "occurrences": 2,
+          "projects": [
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Supply and Demand Zones",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "supply zone",
+      "winner": "Supply Zone",
+      "mappings": [
+        {
+          "canonical": "Supply Zone",
+          "occurrences": 2,
+          "projects": [
+            "SMC-Indicator-Supplement",
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Supply and Demand Zones",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Indicator-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "alma",
+      "winner": "Arnaud Legoux Moving Average (ALMA)",
+      "mappings": [
+        {
+          "canonical": "Arnaud Legoux Moving Average (ALMA)",
+          "occurrences": 2,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Arnaud Legoux Moving Average",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "regular bearish divergence",
+      "winner": "Bearish Divergence",
+      "mappings": [
+        {
+          "canonical": "Bearish Divergence",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Regular Bearish Divergence",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "break down",
+      "winner": "Break of Structure",
+      "mappings": [
+        {
+          "canonical": "Break of Structure",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Break of Structure (BOS)",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "break up",
+      "winner": "Break of Structure",
+      "mappings": [
+        {
+          "canonical": "Break of Structure",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Break of Structure (BOS)",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "channel break",
+      "winner": "Break of Structure",
+      "mappings": [
+        {
+          "canonical": "Break of Structure",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Break of Structure (BOS)",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "bullish engulfing pattern",
+      "winner": "Bullish Engulfing",
+      "mappings": [
+        {
+          "canonical": "Bullish Engulfing",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Bullish Engulfing Pattern",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "golden pocket",
+      "winner": "Golden Pocket",
+      "mappings": [
+        {
+          "canonical": "Golden Pocket",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Golden Zone",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "resistance level",
+      "winner": "Resistance Level",
+      "mappings": [
+        {
+          "canonical": "Resistance Level",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Support and Resistance",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "risk reward ratio",
+      "winner": "Risk to Reward",
+      "mappings": [
+        {
+          "canonical": "Risk to Reward",
+          "occurrences": 1,
+          "projects": [
+            "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Risk/Reward Ratio",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "sl",
+      "winner": "Stop Loss",
+      "mappings": [
+        {
+          "canonical": "Stop Loss",
+          "occurrences": 1,
+          "projects": [
+            "The Foundation"
+          ]
+        },
+        {
+          "canonical": "Stop-Loss Order",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "support level",
+      "winner": "Support Level",
+      "mappings": [
+        {
+          "canonical": "Support Level",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Support and Resistance",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        }
+      ]
+    },
+    {
+      "alias": "support zone",
+      "winner": "Support Level",
+      "mappings": [
+        {
+          "canonical": "Support Level",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
+          ]
+        },
+        {
+          "canonical": "Support and Resistance",
+          "occurrences": 1,
+          "projects": [
+            "SMC-Strong-Weak-Supplement"
           ]
         }
       ]

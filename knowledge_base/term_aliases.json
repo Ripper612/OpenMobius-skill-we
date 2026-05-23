@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-05-22T20:14:38.781706+00:00",
+  "generated_at": "2026-05-23T13:01:18.476609+00:00",
   "mappings": [
+    {
+      "canonical": "%D line",
+      "card_id": "d_line",
+      "aliases": [
+        "percentage d line",
+        "slow stochastic line",
+        "stochastic rsi %d"
+      ]
+    },
+    {
+      "canonical": "%K Line",
+      "card_id": "k_line",
+      "aliases": [
+        "fast stochastic line",
+        "percentage k line"
+      ]
+    },
+    {
+      "canonical": "1-2% Rule",
+      "card_id": "1_2_rule",
+      "aliases": []
+    },
     {
       "canonical": "10:00 AM Four-Hour Candle Open",
       "card_id": "10_00_am_four_hour_candle_open",
@@ -50,19 +72,19 @@
       ]
     },
     {
-      "canonical": "8:30 and Midnight Open",
-      "card_id": "8_30_and_midnight_open",
-      "aliases": [
-        "daily open levels"
-      ]
-    },
-    {
       "canonical": "8:30 Economic News Release",
       "card_id": "8_30_economic_news_release",
       "aliases": [
         "8:30 news",
         "8:30 open",
         "news embargo lift"
+      ]
+    },
+    {
+      "canonical": "8:30 and Midnight Open",
+      "card_id": "8_30_and_midnight_open",
+      "aliases": [
+        "daily open levels"
       ]
     },
     {
@@ -74,12 +96,24 @@
       ]
     },
     {
+      "canonical": "AMD (Accumulation, Manipulation, Distribution)",
+      "card_id": "amd_accumulation_manipulation_distribution",
+      "aliases": [
+        "积累-操纵-派发模型"
+      ]
+    },
+    {
       "canonical": "Accumulation Manipulation Distribution",
       "card_id": "accumulation_manipulation_distribution",
       "aliases": [
         "amd",
         "ict power of three"
       ]
+    },
+    {
+      "canonical": "Accumulation Phase",
+      "card_id": "accumulation_phase",
+      "aliases": []
     },
     {
       "canonical": "Accumulation, Manipulation, Distribution",
@@ -97,6 +131,26 @@
       ]
     },
     {
+      "canonical": "Aggressive Demand Zone",
+      "card_id": "aggressive_demand_zone",
+      "aliases": []
+    },
+    {
+      "canonical": "Aggressive Pullback Model",
+      "card_id": "aggressive_pullback_model",
+      "aliases": []
+    },
+    {
+      "canonical": "Aggressive Supply Zone",
+      "card_id": "aggressive_supply_zone",
+      "aliases": []
+    },
+    {
+      "canonical": "Algorithmic Price Delivery",
+      "card_id": "algorithmic_price_delivery",
+      "aliases": []
+    },
+    {
       "canonical": "Aligned Timeframe",
       "card_id": "aligned_timeframe",
       "aliases": [
@@ -104,11 +158,21 @@
       ]
     },
     {
-      "canonical": "AMD (Accumulation, Manipulation, Distribution)",
-      "card_id": "amd_accumulation_manipulation_distribution",
+      "canonical": "Arnaud Legoux Moving Average",
+      "card_id": "arnaud_legoux_moving_average",
+      "aliases": []
+    },
+    {
+      "canonical": "Arnaud Legoux Moving Average (ALMA)",
+      "card_id": "arnaud_legoux_moving_average_alma",
       "aliases": [
-        "积累-操纵-派发模型"
+        "alma"
       ]
+    },
+    {
+      "canonical": "Ascending Triangle",
+      "card_id": "ascending_triangle",
+      "aliases": []
     },
     {
       "canonical": "Asia Session",
@@ -136,6 +200,20 @@
       ]
     },
     {
+      "canonical": "Auto Chart Pattern Indicator",
+      "card_id": "auto_chart_pattern_indicator",
+      "aliases": [
+        "all chart patterns indicator"
+      ]
+    },
+    {
+      "canonical": "Automatic Rally",
+      "card_id": "automatic_rally",
+      "aliases": [
+        "ar"
+      ]
+    },
+    {
       "canonical": "Automatic Time Frame",
       "card_id": "automatic_time_frame",
       "aliases": [
@@ -151,9 +229,22 @@
       ]
     },
     {
+      "canonical": "Average True Range",
+      "card_id": "average_true_range",
+      "aliases": [
+        "atr"
+      ]
+    },
+    {
+      "canonical": "Average True Range (ATR)",
+      "card_id": "average_true_range_atr",
+      "aliases": []
+    },
+    {
       "canonical": "Backtesting",
       "card_id": "backtesting",
       "aliases": [
+        "back test",
         "历史数据验证",
         "回测"
       ]
@@ -175,6 +266,38 @@
       ]
     },
     {
+      "canonical": "Base Currency",
+      "card_id": "base_currency",
+      "aliases": []
+    },
+    {
+      "canonical": "Basic Order Block Entry",
+      "card_id": "basic_order_block_entry",
+      "aliases": []
+    },
+    {
+      "canonical": "Bear Flag",
+      "card_id": "bear_flag",
+      "aliases": [
+        "bar flag"
+      ]
+    },
+    {
+      "canonical": "Bearish Divergence",
+      "card_id": "bearish_divergence",
+      "aliases": [
+        "bearish div",
+        "bearish rsi divergence",
+        "normal bearish divergence",
+        "regular bearish divergence"
+      ]
+    },
+    {
+      "canonical": "Bearish Engulfing Pattern",
+      "card_id": "bearish_engulfing_pattern",
+      "aliases": []
+    },
+    {
       "canonical": "Bearish Fair Value Gap (SIBI)",
       "card_id": "bearish_fair_value_gap_sibi",
       "aliases": [
@@ -187,7 +310,6 @@
       "card_id": "bias",
       "aliases": [
         "direction bias",
-        "directional bias",
         "higher time frame bias",
         "narrative",
         "交易方向偏差",
@@ -227,6 +349,24 @@
       ]
     },
     {
+      "canonical": "Bollinger Bands",
+      "card_id": "bollinger_bands",
+      "aliases": [
+        "bb on rsi",
+        "bollinger bands on rsi"
+      ]
+    },
+    {
+      "canonical": "Bollinger Bands Squeeze",
+      "card_id": "bollinger_bands_squeeze",
+      "aliases": []
+    },
+    {
+      "canonical": "Bonds",
+      "card_id": "bonds",
+      "aliases": []
+    },
+    {
       "canonical": "Box Setup",
       "card_id": "box_setup",
       "aliases": [
@@ -251,11 +391,20 @@
       "card_id": "break_of_structure",
       "aliases": [
         "bos",
+        "break down",
+        "break of structure (bos)",
         "break structure",
+        "break up",
+        "channel break",
         "market structure break",
         "shift in structure",
         "structure break"
       ]
+    },
+    {
+      "canonical": "Break-even Win Rate",
+      "card_id": "break_even_win_rate",
+      "aliases": []
     },
     {
       "canonical": "Breaker Block",
@@ -285,6 +434,7 @@
       "canonical": "Breakout",
       "card_id": "breakout",
       "aliases": [
+        "break",
         "breakout signature",
         "突破"
       ]
@@ -313,11 +463,26 @@
       ]
     },
     {
-      "canonical": "Bullish and Bearish Candles",
-      "card_id": "bullish_and_bearish_candles",
+      "canonical": "Bull Flag Pattern",
+      "card_id": "bull_flag_pattern",
       "aliases": [
-        "上升蜡烛和下降蜡烛",
-        "看涨k线和看跌k线"
+        "bull flag"
+      ]
+    },
+    {
+      "canonical": "Bullish Divergence",
+      "card_id": "bullish_divergence",
+      "aliases": [
+        "bullish div",
+        "bullish rsi divergence",
+        "regular bullish divergence"
+      ]
+    },
+    {
+      "canonical": "Bullish Engulfing",
+      "card_id": "bullish_engulfing",
+      "aliases": [
+        "bullish engulfing pattern"
       ]
     },
     {
@@ -325,6 +490,14 @@
       "card_id": "bullish_fair_value_gap_bfvg",
       "aliases": [
         "buy side imbalance sell side inefficiency"
+      ]
+    },
+    {
+      "canonical": "Bullish and Bearish Candles",
+      "card_id": "bullish_and_bearish_candles",
+      "aliases": [
+        "上升蜡烛和下降蜡烛",
+        "看涨k线和看跌k线"
       ]
     },
     {
@@ -355,7 +528,6 @@
         "buyside/sellside liquidity (bsl/ssl)",
         "external and internal liquidity",
         "highs and lows",
-        "liquidity grab",
         "sell side liquidity (ssl)",
         "sell-side liquidity (ssl)",
         "sellside liquidity (ssl)",
@@ -437,6 +609,16 @@
       ]
     },
     {
+      "canonical": "Candle Breakout Entry Method",
+      "card_id": "candle_breakout_entry_method",
+      "aliases": []
+    },
+    {
+      "canonical": "Candle Close Confirmation",
+      "card_id": "candle_close_confirmation",
+      "aliases": []
+    },
+    {
       "canonical": "Candle Closure",
       "card_id": "candle_closure",
       "aliases": [
@@ -467,6 +649,11 @@
       ]
     },
     {
+      "canonical": "Candlestick Anatomy",
+      "card_id": "candlestick_anatomy",
+      "aliases": []
+    },
+    {
       "canonical": "Candlestick Components (Open, High, Low, Close)",
       "card_id": "candlestick_components_open_high_low_close",
       "aliases": [
@@ -481,6 +668,11 @@
         "k线形成方式",
         "蜡烛线形态类型"
       ]
+    },
+    {
+      "canonical": "Candlestick Pattern",
+      "card_id": "candlestick_pattern",
+      "aliases": []
     },
     {
       "canonical": "Change In State Of Delivery",
@@ -519,17 +711,6 @@
       ]
     },
     {
-      "canonical": "Change in the state of delivery",
-      "card_id": "change_in_the_state_of_delivery",
-      "aliases": [
-        "opposing candles",
-        "reversal sequence completion",
-        "state of delivery confirmation",
-        "市场结构转变（在伦敦反转背景下）",
-        "状态交付改变"
-      ]
-    },
-    {
       "canonical": "Change in the State of Delivery (Bearish)",
       "card_id": "change_in_the_state_of_delivery_bearish",
       "aliases": [
@@ -556,6 +737,34 @@
       ]
     },
     {
+      "canonical": "Change in the state of delivery",
+      "card_id": "change_in_the_state_of_delivery",
+      "aliases": [
+        "opposing candles",
+        "reversal sequence completion",
+        "state of delivery confirmation",
+        "市场结构转变（在伦敦反转背景下）",
+        "状态交付改变"
+      ]
+    },
+    {
+      "canonical": "Change of Character",
+      "card_id": "change_of_character",
+      "aliases": [
+        "change of character (choch)",
+        "change of character plus",
+        "choch",
+        "choch plus",
+        "choch+",
+        "trend reversal signal"
+      ]
+    },
+    {
+      "canonical": "Chart Pattern",
+      "card_id": "chart_pattern",
+      "aliases": []
+    },
+    {
       "canonical": "Cheat Code Entry",
       "card_id": "cheat_code_entry",
       "aliases": [
@@ -578,6 +787,21 @@
       ]
     },
     {
+      "canonical": "Cluster of Candles Method",
+      "card_id": "cluster_of_candles_method",
+      "aliases": []
+    },
+    {
+      "canonical": "Cluster of Three Candles Method",
+      "card_id": "cluster_of_three_candles_method",
+      "aliases": []
+    },
+    {
+      "canonical": "Commodities",
+      "card_id": "commodities",
+      "aliases": []
+    },
+    {
       "canonical": "Confirmation Levels",
       "card_id": "confirmation_levels",
       "aliases": [
@@ -588,6 +812,8 @@
       "canonical": "Confluence",
       "card_id": "confluence",
       "aliases": [
+        "confirmation signals",
+        "confluence key",
         "confluences",
         "matching levels",
         "overlapping projections"
@@ -618,6 +844,7 @@
       "card_id": "consolidation",
       "aliases": [
         "accumulation",
+        "choppy market",
         "consolidating",
         "consolidation range",
         "non-trending",
@@ -625,6 +852,7 @@
         "range-bound",
         "range-bound phase",
         "range-bound price action",
+        "ranging market",
         "sideways movement",
         "small range",
         "区间整理",
@@ -706,18 +934,15 @@
       ]
     },
     {
+      "canonical": "Continuation Entry Model",
+      "card_id": "continuation_entry_model",
+      "aliases": []
+    },
+    {
       "canonical": "Continuation Expansion Candle",
       "card_id": "continuation_expansion_candle",
       "aliases": [
         "distribution candle"
-      ]
-    },
-    {
-      "canonical": "Continuation of Trend",
-      "card_id": "continuation_of_trend",
-      "aliases": [
-        "趋势延续",
-        "趋势继续"
       ]
     },
     {
@@ -729,13 +954,6 @@
       ]
     },
     {
-      "canonical": "Continuation Pattern",
-      "card_id": "continuation_pattern",
-      "aliases": [
-        "延续形态"
-      ]
-    },
-    {
       "canonical": "Continuation PSP",
       "card_id": "continuation_psp",
       "aliases": [
@@ -744,11 +962,25 @@
       ]
     },
     {
+      "canonical": "Continuation Pattern",
+      "card_id": "continuation_pattern",
+      "aliases": [
+        "延续形态"
+      ]
+    },
+    {
       "canonical": "Continuation Setup",
       "card_id": "continuation_setup",
       "aliases": [
         "continuation day",
         "daily continuation"
+      ]
+    },
+    {
+      "canonical": "Continuation Signal",
+      "card_id": "continuation_signal",
+      "aliases": [
+        "trend continuation signal"
       ]
     },
     {
@@ -762,12 +994,37 @@
       "aliases": []
     },
     {
+      "canonical": "Continuation of Trend",
+      "card_id": "continuation_of_trend",
+      "aliases": [
+        "趋势延续",
+        "趋势继续"
+      ]
+    },
+    {
       "canonical": "Continuation vs Reversal",
       "card_id": "continuation_vs_reversal",
       "aliases": [
         "延续与反转",
         "盘整后的两种走势"
       ]
+    },
+    {
+      "canonical": "Convergence",
+      "card_id": "convergence",
+      "aliases": []
+    },
+    {
+      "canonical": "Corrective Move",
+      "card_id": "corrective_move",
+      "aliases": [
+        "correction"
+      ]
+    },
+    {
+      "canonical": "Corrective Pullback",
+      "card_id": "corrective_pullback",
+      "aliases": []
     },
     {
       "canonical": "Correlated Asset Triad",
@@ -820,12 +1077,24 @@
       ]
     },
     {
+      "canonical": "Cryptocurrencies",
+      "card_id": "cryptocurrencies",
+      "aliases": [
+        "crypto"
+      ]
+    },
+    {
       "canonical": "Currency Futures Pairing Strategy",
       "card_id": "currency_futures_pairing_strategy",
       "aliases": [
         "dxy pairing strategy",
         "strongest vs weakest currency pairing"
       ]
+    },
+    {
+      "canonical": "Currency Pair",
+      "card_id": "currency_pair",
+      "aliases": []
     },
     {
       "canonical": "Currency Pair Fraction Framework",
@@ -882,6 +1151,18 @@
       ]
     },
     {
+      "canonical": "Daily High",
+      "card_id": "daily_high",
+      "aliases": [
+        "day's high"
+      ]
+    },
+    {
+      "canonical": "Daily Low",
+      "card_id": "daily_low",
+      "aliases": []
+    },
+    {
       "canonical": "Daily Open",
       "card_id": "daily_open",
       "aliases": [
@@ -895,18 +1176,18 @@
       ]
     },
     {
+      "canonical": "Daily Open High Low Close (OHLC)",
+      "card_id": "daily_open_high_low_close_ohlc",
+      "aliases": [
+        "daily ohlc"
+      ]
+    },
+    {
       "canonical": "Daily Open as Target",
       "card_id": "daily_open_as_target",
       "aliases": [
         "daily open level",
         "日线开盘价作为目标位"
-      ]
-    },
-    {
-      "canonical": "Daily Open High Low Close (OHLC)",
-      "card_id": "daily_open_high_low_close_ohlc",
-      "aliases": [
-        "daily ohlc"
       ]
     },
     {
@@ -949,10 +1230,28 @@
       ]
     },
     {
+      "canonical": "Day Trading",
+      "card_id": "day_trading",
+      "aliases": []
+    },
+    {
       "canonical": "Dealing Range",
       "card_id": "dealing_range",
       "aliases": [
         "交易范围"
+      ]
+    },
+    {
+      "canonical": "Delta",
+      "card_id": "delta",
+      "aliases": []
+    },
+    {
+      "canonical": "Demand Zone",
+      "card_id": "demand_zone",
+      "aliases": [
+        "demand area",
+        "demand level"
       ]
     },
     {
@@ -967,6 +1266,7 @@
       "canonical": "Directional Bias",
       "card_id": "directional_bias",
       "aliases": [
+        "market direction",
         "交易偏向",
         "方向性偏好"
       ]
@@ -998,8 +1298,7 @@
       "card_id": "discount_premium",
       "aliases": [
         "discount and premium",
-        "discount/premium",
-        "premium/discount"
+        "discount/premium"
       ]
     },
     {
@@ -1060,6 +1359,35 @@
       ]
     },
     {
+      "canonical": "Divergence",
+      "card_id": "divergence",
+      "aliases": [
+        "macd divergence"
+      ]
+    },
+    {
+      "canonical": "Doji Candlestick",
+      "card_id": "doji_candlestick",
+      "aliases": [
+        "doji candle"
+      ]
+    },
+    {
+      "canonical": "Double Bottom",
+      "card_id": "double_bottom",
+      "aliases": []
+    },
+    {
+      "canonical": "Double Top",
+      "card_id": "double_top",
+      "aliases": []
+    },
+    {
+      "canonical": "Double Zone Breakout",
+      "card_id": "double_zone_breakout",
+      "aliases": []
+    },
+    {
       "canonical": "Down-Close Candle",
       "card_id": "down_close_candle",
       "aliases": [
@@ -1068,12 +1396,22 @@
       ]
     },
     {
+      "canonical": "Downtrend",
+      "card_id": "downtrend",
+      "aliases": []
+    },
+    {
       "canonical": "Downtrend / Bearish Trend",
       "card_id": "downtrend_bearish_trend",
       "aliases": [
         "lower highs and lower lows",
         "下降趋势"
       ]
+    },
+    {
+      "canonical": "Dragonfly Doji",
+      "card_id": "dragonfly_doji",
+      "aliases": []
     },
     {
       "canonical": "Draw On Liquidity",
@@ -1122,124 +1460,16 @@
       ]
     },
     {
-      "canonical": "Economic Calendar",
-      "card_id": "economic_calendar",
+      "canonical": "Dumb Money",
+      "card_id": "dumb_money",
       "aliases": [
-        "新闻日历",
-        "经济日历"
+        "dummy money",
+        "retail traders"
       ]
     },
     {
-      "canonical": "Engulfing Candle",
-      "card_id": "engulfing_candle",
-      "aliases": [
-        "包含形态",
-        "吞没形态"
-      ]
-    },
-    {
-      "canonical": "Entry",
-      "card_id": "entry",
-      "aliases": [
-        "低时间框架入场",
-        "入场点"
-      ]
-    },
-    {
-      "canonical": "Entry Sequence",
-      "card_id": "entry_sequence",
-      "aliases": [
-        "时间框架对齐入场流程"
-      ]
-    },
-    {
-      "canonical": "Entry Timeframe",
-      "card_id": "entry_timeframe",
-      "aliases": [
-        "交易入场周期",
-        "入场时间框架"
-      ]
-    },
-    {
-      "canonical": "Equal Highs",
-      "card_id": "equal_highs",
-      "aliases": [
-        "failure swing highs",
-        "relatively equal highs",
-        "stacked highs"
-      ]
-    },
-    {
-      "canonical": "Equal Highs / Equal Lows",
-      "card_id": "equal_highs_equal_lows",
-      "aliases": [
-        "relatively equal lows",
-        "相同高点/相同低点",
-        "等高点/等低点"
-      ]
-    },
-    {
-      "canonical": "Equal Highs and Equal Lows",
-      "card_id": "equal_highs_and_equal_lows",
-      "aliases": [
-        "clustered highs/lows",
-        "relative equal highs",
-        "relative equal lows",
-        "relatively equal highs/lows",
-        "相同价格水平的摆动点"
-      ]
-    },
-    {
-      "canonical": "Equal Highs/Lows",
-      "card_id": "equal_highs_lows",
-      "aliases": [
-        "相同高点/低点",
-        "等高/等低"
-      ]
-    },
-    {
-      "canonical": "Equal Low",
-      "card_id": "equal_low",
-      "aliases": [
-        "相等低点"
-      ]
-    },
-    {
-      "canonical": "Equal Lows",
-      "card_id": "equal_lows",
-      "aliases": [
-        "stacked lows",
-        "等低"
-      ]
-    },
-    {
-      "canonical": "Equilibrium",
-      "card_id": "equilibrium",
-      "aliases": [
-        "0.5 fib",
-        "0.5 fibonacci",
-        "0.5 fibonacci level",
-        "0.5 level",
-        "0.5斐波那契水平线",
-        "50% level",
-        "50% midpoint",
-        "50% of the wick",
-        "candle equilibrium",
-        "eq",
-        "eq point",
-        "equilibrium level",
-        "mean threshold of the wick",
-        "midpoint",
-        "midpoint of range",
-        "中点",
-        "中点价格",
-        "中线",
-        "均衡点"
-      ]
-    },
-    {
-      "canonical": "Equilibrium (EQ)",
-      "card_id": "equilibrium_eq",
+      "canonical": "Dynamic Liquidity",
+      "card_id": "dynamic_liquidity",
       "aliases": []
     },
     {
@@ -1266,6 +1496,177 @@
       ]
     },
     {
+      "canonical": "Economic Calendar",
+      "card_id": "economic_calendar",
+      "aliases": [
+        "新闻日历",
+        "经济日历"
+      ]
+    },
+    {
+      "canonical": "Engulfing Candle",
+      "card_id": "engulfing_candle",
+      "aliases": [
+        "engulfing candle breakout",
+        "包含形态",
+        "吞没形态"
+      ]
+    },
+    {
+      "canonical": "Entry",
+      "card_id": "entry",
+      "aliases": [
+        "低时间框架入场",
+        "入场点"
+      ]
+    },
+    {
+      "canonical": "Entry Placement Adjustments",
+      "card_id": "entry_placement_adjustments",
+      "aliases": []
+    },
+    {
+      "canonical": "Entry Sequence",
+      "card_id": "entry_sequence",
+      "aliases": [
+        "时间框架对齐入场流程"
+      ]
+    },
+    {
+      "canonical": "Entry Signal",
+      "card_id": "entry_signal",
+      "aliases": []
+    },
+    {
+      "canonical": "Entry Timeframe",
+      "card_id": "entry_timeframe",
+      "aliases": [
+        "交易入场周期",
+        "入场时间框架"
+      ]
+    },
+    {
+      "canonical": "Entry, Stop Loss, Target",
+      "card_id": "entry_stop_loss_target",
+      "aliases": []
+    },
+    {
+      "canonical": "Equal Highs",
+      "card_id": "equal_highs",
+      "aliases": [
+        "failure swing highs",
+        "relatively equal highs",
+        "stacked highs",
+        "triple top"
+      ]
+    },
+    {
+      "canonical": "Equal Highs / Equal Lows",
+      "card_id": "equal_highs_equal_lows",
+      "aliases": [
+        "relatively equal lows",
+        "相同高点/相同低点",
+        "等高点/等低点"
+      ]
+    },
+    {
+      "canonical": "Equal Highs and Equal Lows",
+      "card_id": "equal_highs_and_equal_lows",
+      "aliases": [
+        "clustered highs/lows",
+        "relative equal highs",
+        "relative equal lows",
+        "relatively equal highs/lows",
+        "相同价格水平的摆动点"
+      ]
+    },
+    {
+      "canonical": "Equal Highs and Lows",
+      "card_id": "equal_highs_and_lows",
+      "aliases": [
+        "double bottoms",
+        "double tops",
+        "triple bottoms",
+        "triple tops"
+      ]
+    },
+    {
+      "canonical": "Equal Highs/Lows",
+      "card_id": "equal_highs_lows",
+      "aliases": [
+        "相同高点/低点",
+        "等高/等低"
+      ]
+    },
+    {
+      "canonical": "Equal Highs/Lows Sweep + FVG Strategy",
+      "card_id": "equal_highs_lows_sweep_fvg_strategy",
+      "aliases": [
+        "strategy three"
+      ]
+    },
+    {
+      "canonical": "Equal Low",
+      "card_id": "equal_low",
+      "aliases": [
+        "相等低点"
+      ]
+    },
+    {
+      "canonical": "Equal Lows",
+      "card_id": "equal_lows",
+      "aliases": [
+        "eql",
+        "stacked lows",
+        "triple bottom",
+        "等低"
+      ]
+    },
+    {
+      "canonical": "Equilibrium",
+      "card_id": "equilibrium",
+      "aliases": [
+        "0.5 fib",
+        "0.5 fibonacci",
+        "0.5 fibonacci level",
+        "0.5 level",
+        "0.5斐波那契水平线",
+        "50% level",
+        "50% midpoint",
+        "50% of the wick",
+        "50% retracement level",
+        "candle equilibrium",
+        "eq",
+        "eq point",
+        "equilibrium level",
+        "mean threshold of the wick",
+        "midpoint",
+        "midpoint of range",
+        "中点",
+        "中点价格",
+        "中线",
+        "均衡点"
+      ]
+    },
+    {
+      "canonical": "Equilibrium (EQ)",
+      "card_id": "equilibrium_eq",
+      "aliases": []
+    },
+    {
+      "canonical": "Exchange Traded Fund",
+      "card_id": "exchange_traded_fund",
+      "aliases": [
+        "etf",
+        "etfs"
+      ]
+    },
+    {
+      "canonical": "Exotic Pairs",
+      "card_id": "exotic_pairs",
+      "aliases": []
+    },
+    {
       "canonical": "Expansion",
       "card_id": "expansion",
       "aliases": [
@@ -1283,6 +1684,21 @@
         "price expansion",
         "strong directional move",
         "strong momentum phase"
+      ]
+    },
+    {
+      "canonical": "Expansion Candle vs Reversal Candle",
+      "card_id": "expansion_candle_vs_reversal_candle",
+      "aliases": [
+        "continuation candle vs reversal candle",
+        "扩张蜡烛 vs 反转蜡烛"
+      ]
+    },
+    {
+      "canonical": "Expansion Day",
+      "card_id": "expansion_day",
+      "aliases": [
+        "膨胀日"
       ]
     },
     {
@@ -1310,21 +1726,6 @@
       ]
     },
     {
-      "canonical": "Expansion Candle vs Reversal Candle",
-      "card_id": "expansion_candle_vs_reversal_candle",
-      "aliases": [
-        "continuation candle vs reversal candle",
-        "扩张蜡烛 vs 反转蜡烛"
-      ]
-    },
-    {
-      "canonical": "Expansion Day",
-      "card_id": "expansion_day",
-      "aliases": [
-        "膨胀日"
-      ]
-    },
-    {
       "canonical": "Expansion into Retracement",
       "card_id": "expansion_into_retracement",
       "aliases": [
@@ -1340,6 +1741,33 @@
       ]
     },
     {
+      "canonical": "Expected Value",
+      "card_id": "expected_value",
+      "aliases": []
+    },
+    {
+      "canonical": "Exponential Moving Average",
+      "card_id": "exponential_moving_average",
+      "aliases": [
+        "ema"
+      ]
+    },
+    {
+      "canonical": "External Break of Structure",
+      "card_id": "external_break_of_structure",
+      "aliases": [
+        "ebos"
+      ]
+    },
+    {
+      "canonical": "External Change of Character",
+      "card_id": "external_change_of_character",
+      "aliases": [
+        "echoch",
+        "external choch"
+      ]
+    },
+    {
       "canonical": "External Liquidity",
       "card_id": "external_liquidity",
       "aliases": [
@@ -1352,11 +1780,34 @@
       "card_id": "external_range_liquidity",
       "aliases": [
         "erl",
-        "external liquidity",
         "old highs",
         "old lows",
         "旧低点",
         "旧高点"
+      ]
+    },
+    {
+      "canonical": "External Structure",
+      "card_id": "external_structure",
+      "aliases": []
+    },
+    {
+      "canonical": "FVG Psychology",
+      "card_id": "fvg_psychology",
+      "aliases": [
+        "fair value gap psychology"
+      ]
+    },
+    {
+      "canonical": "FVG Trading Rules",
+      "card_id": "fvg_trading_rules",
+      "aliases": []
+    },
+    {
+      "canonical": "Failed Breakout",
+      "card_id": "failed_breakout",
+      "aliases": [
+        "false breakout"
       ]
     },
     {
@@ -1387,6 +1838,11 @@
       "aliases": [
         "failed swings"
       ]
+    },
+    {
+      "canonical": "Failure Test",
+      "card_id": "failure_test",
+      "aliases": []
     },
     {
       "canonical": "Failure to Displace",
@@ -1439,6 +1895,11 @@
       ]
     },
     {
+      "canonical": "Falling Wedge",
+      "card_id": "falling_wedge",
+      "aliases": []
+    },
+    {
       "canonical": "Federal Open Market Committee",
       "card_id": "federal_open_market_committee",
       "aliases": [
@@ -1446,6 +1907,11 @@
         "fomc",
         "fomc day"
       ]
+    },
+    {
+      "canonical": "Fibonacci Extension",
+      "card_id": "fibonacci_extension",
+      "aliases": []
     },
     {
       "canonical": "Fibonacci Projection",
@@ -1460,6 +1926,9 @@
       "card_id": "fibonacci_retracement",
       "aliases": [
         "fib",
+        "fib retracement",
+        "fib tool",
+        "fibonacci",
         "fibonacci retracement tool",
         "ote fib",
         "斐波那契回撤"
@@ -1496,6 +1965,20 @@
         "一致头寸规模",
         "固定百分比风险",
         "固定美元风险"
+      ]
+    },
+    {
+      "canonical": "Forex",
+      "card_id": "forex",
+      "aliases": [
+        "foreign exchange"
+      ]
+    },
+    {
+      "canonical": "Forex Trading",
+      "card_id": "forex_trading",
+      "aliases": [
+        "foreign exchange trading"
       ]
     },
     {
@@ -1569,6 +2052,11 @@
       ]
     },
     {
+      "canonical": "Free Bar",
+      "card_id": "free_bar",
+      "aliases": []
+    },
+    {
       "canonical": "Futures Currency Trading Strategy",
       "card_id": "futures_currency_trading_strategy",
       "aliases": [
@@ -1591,106 +2079,27 @@
       ]
     },
     {
-      "canonical": "Hammer Candle",
-      "card_id": "hammer_candle",
+      "canonical": "Going Long",
+      "card_id": "going_long",
       "aliases": [
-        "hammer wick",
-        "锤子形k线"
+        "buying",
+        "long position"
       ]
     },
     {
-      "canonical": "Hammer/Shooter Candle",
-      "card_id": "hammer_shooter_candle",
-      "aliases": [
-        "shooter candle",
-        "shooting star"
-      ]
-    },
-    {
-      "canonical": "High Resistance Liquidity",
-      "card_id": "high_resistance_liquidity",
-      "aliases": [
-        "hrl",
-        "高阻力流动性"
-      ]
-    },
-    {
-      "canonical": "High/Low Probability Order Block",
-      "card_id": "high_low_probability_order_block",
+      "canonical": "Going Short",
+      "card_id": "going_short",
       "aliases": []
     },
     {
-      "canonical": "High/Low Time Frame",
-      "card_id": "high_low_time_frame",
-      "aliases": [
-        "htf / ltf"
-      ]
-    },
-    {
-      "canonical": "Higher High / Higher Low",
-      "card_id": "higher_high_higher_low",
+      "canonical": "Golden Pocket",
+      "card_id": "golden_pocket",
       "aliases": []
     },
     {
-      "canonical": "Higher Time Frame",
-      "card_id": "higher_time_frame",
-      "aliases": [
-        "higher time frame context",
-        "higher time frame key level",
-        "higher time frame level",
-        "higher time frame objective",
-        "htf",
-        "htf pd array"
-      ]
-    },
-    {
-      "canonical": "Higher Time Frame Level",
-      "card_id": "higher_time_frame_level",
-      "aliases": [
-        "htf level",
-        "高时间框架水平"
-      ]
-    },
-    {
-      "canonical": "Higher Time Frame Point of Interest",
-      "card_id": "higher_time_frame_point_of_interest",
-      "aliases": [
-        "htf poi",
-        "高时间框架兴趣点"
-      ]
-    },
-    {
-      "canonical": "Higher Time Frame Points of Interest",
-      "card_id": "higher_time_frame_points_of_interest",
-      "aliases": [
-        "htf points of interest",
-        "高时间框架关键点位"
-      ]
-    },
-    {
-      "canonical": "Higher Time Frame Target",
-      "card_id": "higher_time_frame_target",
-      "aliases": [
-        "htf objective",
-        "htf target"
-      ]
-    },
-    {
-      "canonical": "Higher Time Frame Wick",
-      "card_id": "higher_time_frame_wick",
-      "aliases": [
-        "htf wick",
-        "高时间框架影线",
-        "高时间框架灯芯"
-      ]
-    },
-    {
-      "canonical": "History Setting",
-      "card_id": "history_setting",
-      "aliases": [
-        "history",
-        "历史设置"
-      ]
+      "canonical": "Golden Zone",
+      "card_id": "golden_zone",
+      "aliases": []
     },
     {
       "canonical": "HTF / LTF (High Time Frame / Low Time Frame Analysis)",
@@ -1761,6 +2170,184 @@
       ]
     },
     {
+      "canonical": "Hammer",
+      "card_id": "hammer",
+      "aliases": [
+        "bullish hammer",
+        "hammer pattern"
+      ]
+    },
+    {
+      "canonical": "Hammer Candle",
+      "card_id": "hammer_candle",
+      "aliases": [
+        "hammer wick",
+        "锤子形k线"
+      ]
+    },
+    {
+      "canonical": "Hammer/Shooter Candle",
+      "card_id": "hammer_shooter_candle",
+      "aliases": [
+        "shooter candle",
+        "shooting star"
+      ]
+    },
+    {
+      "canonical": "Head and Shoulders",
+      "card_id": "head_and_shoulders",
+      "aliases": [
+        "inverse head and shoulders"
+      ]
+    },
+    {
+      "canonical": "Hidden Bearish Divergence",
+      "card_id": "hidden_bearish_divergence",
+      "aliases": [
+        "hidden bearish macd divergence"
+      ]
+    },
+    {
+      "canonical": "Hidden Bullish Divergence",
+      "card_id": "hidden_bullish_divergence",
+      "aliases": [
+        "hidden bullish div",
+        "hidden bullish macd divergence",
+        "hidden bullish rsi divergence"
+      ]
+    },
+    {
+      "canonical": "High Resistance Liquidity",
+      "card_id": "high_resistance_liquidity",
+      "aliases": [
+        "hrl",
+        "高阻力流动性"
+      ]
+    },
+    {
+      "canonical": "High/Low Probability Order Block",
+      "card_id": "high_low_probability_order_block",
+      "aliases": []
+    },
+    {
+      "canonical": "High/Low Time Frame",
+      "card_id": "high_low_time_frame",
+      "aliases": [
+        "htf / ltf"
+      ]
+    },
+    {
+      "canonical": "Higher High",
+      "card_id": "higher_high",
+      "aliases": []
+    },
+    {
+      "canonical": "Higher High / Higher Low",
+      "card_id": "higher_high_higher_low",
+      "aliases": []
+    },
+    {
+      "canonical": "Higher Low",
+      "card_id": "higher_low",
+      "aliases": []
+    },
+    {
+      "canonical": "Higher Time Frame",
+      "card_id": "higher_time_frame",
+      "aliases": [
+        "higher time frame context",
+        "higher time frame key level",
+        "higher time frame level",
+        "higher time frame objective",
+        "htf",
+        "htf pd array"
+      ]
+    },
+    {
+      "canonical": "Higher Time Frame Level",
+      "card_id": "higher_time_frame_level",
+      "aliases": [
+        "htf level",
+        "高时间框架水平"
+      ]
+    },
+    {
+      "canonical": "Higher Time Frame Mitigation",
+      "card_id": "higher_time_frame_mitigation",
+      "aliases": [
+        "htf mitigation"
+      ]
+    },
+    {
+      "canonical": "Higher Time Frame Point of Interest",
+      "card_id": "higher_time_frame_point_of_interest",
+      "aliases": [
+        "htf poi",
+        "高时间框架兴趣点"
+      ]
+    },
+    {
+      "canonical": "Higher Time Frame Points of Interest",
+      "card_id": "higher_time_frame_points_of_interest",
+      "aliases": [
+        "htf points of interest",
+        "高时间框架关键点位"
+      ]
+    },
+    {
+      "canonical": "Higher Time Frame Target",
+      "card_id": "higher_time_frame_target",
+      "aliases": [
+        "htf objective",
+        "htf target"
+      ]
+    },
+    {
+      "canonical": "Higher Time Frame Wick",
+      "card_id": "higher_time_frame_wick",
+      "aliases": [
+        "htf wick",
+        "高时间框架影线",
+        "高时间框架灯芯"
+      ]
+    },
+    {
+      "canonical": "Higher Timeframe Analysis",
+      "card_id": "higher_timeframe_analysis",
+      "aliases": [
+        "daily chart analysis",
+        "htf analysis"
+      ]
+    },
+    {
+      "canonical": "Higher Timeframe Key Levels",
+      "card_id": "higher_timeframe_key_levels",
+      "aliases": [
+        "htf key levels",
+        "key higher timeframe levels"
+      ]
+    },
+    {
+      "canonical": "History Setting",
+      "card_id": "history_setting",
+      "aliases": [
+        "history",
+        "历史设置"
+      ]
+    },
+    {
+      "canonical": "Horizontal Line",
+      "card_id": "horizontal_line",
+      "aliases": []
+    },
+    {
+      "canonical": "Hull Moving Average",
+      "card_id": "hull_moving_average",
+      "aliases": [
+        "hma"
+      ]
+    },
+    {
       "canonical": "ICT Son's Model",
       "card_id": "ict_son_s_model",
       "aliases": [
@@ -1786,12 +2373,16 @@
       ]
     },
     {
+      "canonical": "Impulse Move",
+      "card_id": "impulse_move",
+      "aliases": []
+    },
+    {
       "canonical": "Indecision Candle",
       "card_id": "indecision_candle",
       "aliases": [
         "broadening formation candle",
         "doji",
-        "doji candle",
         "doji-like candle",
         "indecision bar",
         "seek and destroy candle",
@@ -1812,11 +2403,10 @@
       "card_id": "inducement",
       "aliases": [
         "fake breakout",
-        "false breakout",
         "inducement model",
         "inducement move",
+        "inducement zone",
         "liquidity inducement",
-        "manipulation",
         "假突破",
         "假突破入场",
         "假突破诱导",
@@ -1826,6 +2416,24 @@
         "诱导突破",
         "诱导设置"
       ]
+    },
+    {
+      "canonical": "Inefficiency",
+      "card_id": "inefficiency",
+      "aliases": [
+        "liquidity void",
+        "price void"
+      ]
+    },
+    {
+      "canonical": "Initial Candle",
+      "card_id": "initial_candle",
+      "aliases": []
+    },
+    {
+      "canonical": "Initiation",
+      "card_id": "initiation",
+      "aliases": []
     },
     {
       "canonical": "Inside Bar",
@@ -1867,6 +2475,19 @@
       ]
     },
     {
+      "canonical": "Internal Break of Structure",
+      "card_id": "internal_break_of_structure",
+      "aliases": [
+        "ibos",
+        "minor break of structure"
+      ]
+    },
+    {
+      "canonical": "Internal Change of Character",
+      "card_id": "internal_change_of_character",
+      "aliases": []
+    },
+    {
       "canonical": "Internal Low",
       "card_id": "internal_low",
       "aliases": [
@@ -1893,6 +2514,19 @@
       ]
     },
     {
+      "canonical": "Internal Structure",
+      "card_id": "internal_structure",
+      "aliases": []
+    },
+    {
+      "canonical": "Internal and External Break of Structure and Change of Character",
+      "card_id": "internal_and_external_break_of_structure_and_change_of_character",
+      "aliases": [
+        "fractal market structure breaks",
+        "internal and external bos and choch"
+      ]
+    },
+    {
       "canonical": "Internal to External Liquidity",
       "card_id": "internal_to_external_liquidity",
       "aliases": [
@@ -1906,6 +2540,14 @@
       "aliases": [
         "internal to external liquidity model",
         "internal-external model"
+      ]
+    },
+    {
+      "canonical": "Internal vs External Structure",
+      "card_id": "internal_vs_external_structure",
+      "aliases": [
+        "internal/external structure",
+        "true market structure"
       ]
     },
     {
@@ -1974,9 +2616,7 @@
     {
       "canonical": "Inversion (FVG Inversion)",
       "card_id": "inversion_fvg_inversion",
-      "aliases": [
-        "inverted fair value gap"
-      ]
+      "aliases": []
     },
     {
       "canonical": "Inversion Fair Value Gap",
@@ -1991,6 +2631,13 @@
       "card_id": "inverted_fair_value_gap",
       "aliases": [
         "inversion gap"
+      ]
+    },
+    {
+      "canonical": "Keltner Channels",
+      "card_id": "keltner_channels",
+      "aliases": [
+        "kelner channels"
       ]
     },
     {
@@ -2050,10 +2697,16 @@
       ]
     },
     {
+      "canonical": "Leverage",
+      "card_id": "leverage",
+      "aliases": []
+    },
+    {
       "canonical": "Liquidity",
       "card_id": "liquidity",
       "aliases": [
         "buy-side liquidity",
+        "retail liquidity",
         "sell-side liquidity"
       ]
     },
@@ -2076,11 +2729,26 @@
       ]
     },
     {
+      "canonical": "Liquidity Grab",
+      "card_id": "liquidity_grab",
+      "aliases": [
+        "fake out"
+      ]
+    },
+    {
+      "canonical": "Liquidity Pool",
+      "card_id": "liquidity_pool",
+      "aliases": [
+        "liquidity level"
+      ]
+    },
+    {
       "canonical": "Liquidity Sweep",
       "card_id": "liquidity_sweep",
       "aliases": [
         "buy stop sweep",
         "liquidity run",
+        "liquidity sweep pattern",
         "manipulation of low/high",
         "raid",
         "sell stop sweep",
@@ -2114,6 +2782,11 @@
       ]
     },
     {
+      "canonical": "Liquidity Zones",
+      "card_id": "liquidity_zones",
+      "aliases": []
+    },
+    {
       "canonical": "London Reversal",
       "card_id": "london_reversal",
       "aliases": [
@@ -2137,12 +2810,22 @@
       ]
     },
     {
+      "canonical": "Long Position Tool",
+      "card_id": "long_position_tool",
+      "aliases": []
+    },
+    {
       "canonical": "Long Term High/Low",
       "card_id": "long_term_high_low",
       "aliases": [
         "lth",
         "ltl"
       ]
+    },
+    {
+      "canonical": "Long, Short, and Leverage",
+      "card_id": "long_short_and_leverage",
+      "aliases": []
     },
     {
       "canonical": "Long-term High / Long-term Low",
@@ -2248,6 +2931,14 @@
       ]
     },
     {
+      "canonical": "Lower Timeframe Confirmation",
+      "card_id": "lower_timeframe_confirmation",
+      "aliases": [
+        "ltf confirmation",
+        "multi‑timeframe refinement"
+      ]
+    },
+    {
       "canonical": "Lower Timeframe Confirmation Entry",
       "card_id": "lower_timeframe_confirmation_entry",
       "aliases": [
@@ -2264,11 +2955,52 @@
       ]
     },
     {
+      "canonical": "MACD Settings (Linda Raschke)",
+      "card_id": "macd_settings_linda_raschke",
+      "aliases": [
+        "3-10-16 macd",
+        "linda raschke macd settings"
+      ]
+    },
+    {
+      "canonical": "Major Change of Character",
+      "card_id": "major_change_of_character",
+      "aliases": [
+        "major choch"
+      ]
+    },
+    {
+      "canonical": "Major High",
+      "card_id": "major_high",
+      "aliases": [
+        "major swing high"
+      ]
+    },
+    {
+      "canonical": "Major Low",
+      "card_id": "major_low",
+      "aliases": []
+    },
+    {
+      "canonical": "Major Pairs",
+      "card_id": "major_pairs",
+      "aliases": [
+        "major currency pairs",
+        "major pair"
+      ]
+    },
+    {
+      "canonical": "Major Swing",
+      "card_id": "major_swing",
+      "aliases": []
+    },
+    {
       "canonical": "Manipulation",
       "card_id": "manipulation",
       "aliases": [
         "deviation",
-        "false move"
+        "false move",
+        "market manipulation"
       ]
     },
     {
@@ -2302,14 +3034,34 @@
       ]
     },
     {
+      "canonical": "Market Movement Factors",
+      "card_id": "market_movement_factors",
+      "aliases": [
+        "what drives market movements?"
+      ]
+    },
+    {
+      "canonical": "Market Psychology",
+      "card_id": "market_psychology",
+      "aliases": []
+    },
+    {
       "canonical": "Market Structure",
       "card_id": "market_structure",
       "aliases": [
+        "abc pattern",
         "basic market structure",
+        "fundamental trend pattern",
+        "market structure levels",
+        "market structure model",
+        "market structure schematic",
+        "ms",
+        "price pulls",
         "price structure",
         "structure",
         "swing structure",
         "trend structure",
+        "true structure",
         "价格结构",
         "市场结构"
       ]
@@ -2319,8 +3071,6 @@
       "card_id": "market_structure_shift",
       "aliases": [
         "breaking structure",
-        "change of character",
-        "choch",
         "mss",
         "shift structure",
         "市场结构改变",
@@ -2341,6 +3091,13 @@
         "change in trend",
         "trend reversal",
         "趋势转变"
+      ]
+    },
+    {
+      "canonical": "Marking Supply and Demand Zones",
+      "card_id": "marking_supply_and_demand_zones",
+      "aliases": [
+        "drawing supply and demand zones"
       ]
     },
     {
@@ -2382,6 +3139,11 @@
       ]
     },
     {
+      "canonical": "Measured Move",
+      "card_id": "measured_move",
+      "aliases": []
+    },
+    {
       "canonical": "Micro Contracts",
       "card_id": "micro_contracts",
       "aliases": [
@@ -2420,12 +3182,93 @@
       ]
     },
     {
+      "canonical": "Minor Change of Character",
+      "card_id": "minor_change_of_character",
+      "aliases": []
+    },
+    {
+      "canonical": "Minor Pairs",
+      "card_id": "minor_pairs",
+      "aliases": []
+    },
+    {
+      "canonical": "Minor Swing",
+      "card_id": "minor_swing",
+      "aliases": []
+    },
+    {
+      "canonical": "Mitigation",
+      "card_id": "mitigation",
+      "aliases": []
+    },
+    {
       "canonical": "Mitigation Block",
       "card_id": "mitigation_block",
       "aliases": [
         "ob dragged over",
         "old order block reused",
         "减伤块"
+      ]
+    },
+    {
+      "canonical": "Momentum",
+      "card_id": "momentum",
+      "aliases": []
+    },
+    {
+      "canonical": "Momentum Candle",
+      "card_id": "momentum_candle",
+      "aliases": [
+        "bullish momentum candle",
+        "bullish momentum pattern",
+        "large candle",
+        "momentum pattern",
+        "strong momentum candle"
+      ]
+    },
+    {
+      "canonical": "Momentum Divergence",
+      "card_id": "momentum_divergence",
+      "aliases": []
+    },
+    {
+      "canonical": "Money Flow Index",
+      "card_id": "money_flow_index",
+      "aliases": [
+        "mfi"
+      ]
+    },
+    {
+      "canonical": "Moving Average",
+      "card_id": "moving_average",
+      "aliases": [
+        "ma"
+      ]
+    },
+    {
+      "canonical": "Moving Average Breakout",
+      "card_id": "moving_average_breakout",
+      "aliases": []
+    },
+    {
+      "canonical": "Moving Average Convergence Divergence",
+      "card_id": "moving_average_convergence_divergence",
+      "aliases": [
+        "5355 macd",
+        "macd",
+        "moving average convergence divergence (macd)"
+      ]
+    },
+    {
+      "canonical": "Moving Average of Volume",
+      "card_id": "moving_average_of_volume",
+      "aliases": []
+    },
+    {
+      "canonical": "Multi-Timeframe Analysis",
+      "card_id": "multi_timeframe_analysis",
+      "aliases": [
+        "top-down trading strategy steps"
       ]
     },
     {
@@ -2437,10 +3280,18 @@
       ]
     },
     {
+      "canonical": "Multiple Order Blocks",
+      "card_id": "multiple_order_blocks",
+      "aliases": [
+        "multiple obs"
+      ]
+    },
+    {
       "canonical": "Multiple Timeframe Analysis",
       "card_id": "multiple_timeframe_analysis",
       "aliases": [
         "htf/ltf analysis",
+        "mtf analysis",
         "时间框架递推",
         "跨时间框架分析"
       ]
@@ -2562,6 +3413,34 @@
       ]
     },
     {
+      "canonical": "OLHC Sequence",
+      "card_id": "olhc_sequence",
+      "aliases": [
+        "k线开盘顺序",
+        "open, low, high, close sequence"
+      ]
+    },
+    {
+      "canonical": "OTE (Optimal Trade Entry)",
+      "card_id": "ote_optimal_trade_entry",
+      "aliases": [
+        "ote of a range",
+        "最优交易入场",
+        "最优交易入场点",
+        "最优入场点",
+        "高概率入场区域"
+      ]
+    },
+    {
+      "canonical": "OTE / Optimal Trade Entry",
+      "card_id": "ote_optimal_trade_entry",
+      "aliases": [
+        "ote信号",
+        "ote入场",
+        "折价/溢价区入场"
+      ]
+    },
+    {
       "canonical": "Old Highs and Lows",
       "card_id": "old_highs_and_lows",
       "aliases": [
@@ -2573,14 +3452,6 @@
       "card_id": "old_highs_and_old_lows",
       "aliases": [
         "historical swing extremes"
-      ]
-    },
-    {
-      "canonical": "OLHC Sequence",
-      "card_id": "olhc_sequence",
-      "aliases": [
-        "k线开盘顺序",
-        "open, low, high, close sequence"
       ]
     },
     {
@@ -2670,6 +3541,11 @@
       ]
     },
     {
+      "canonical": "Optimal Trading Entry",
+      "card_id": "optimal_trading_entry",
+      "aliases": []
+    },
+    {
       "canonical": "Order Block",
       "card_id": "order_block",
       "aliases": [
@@ -2693,11 +3569,16 @@
       "aliases": []
     },
     {
-      "canonical": "Order Block on Buy Side of Curve",
-      "card_id": "order_block_on_buy_side_of_curve",
+      "canonical": "Order Block Entry Types",
+      "card_id": "order_block_entry_types",
       "aliases": [
-        "buy side order block"
+        "ob entry types"
       ]
+    },
+    {
+      "canonical": "Order Block Liquidity Sweep Entry",
+      "card_id": "order_block_liquidity_sweep_entry",
+      "aliases": []
     },
     {
       "canonical": "Order Block Projections",
@@ -2708,6 +3589,38 @@
       ]
     },
     {
+      "canonical": "Order Block Zone Handling",
+      "card_id": "order_block_zone_handling",
+      "aliases": []
+    },
+    {
+      "canonical": "Order Block and Change of Character Entry",
+      "card_id": "order_block_and_change_of_character_entry",
+      "aliases": [
+        "ob + choch entry",
+        "two-timeframe order block strategy"
+      ]
+    },
+    {
+      "canonical": "Order Block on Buy Side of Curve",
+      "card_id": "order_block_on_buy_side_of_curve",
+      "aliases": [
+        "buy side order block"
+      ]
+    },
+    {
+      "canonical": "Order Block within Order Block Strategy",
+      "card_id": "order_block_within_order_block_strategy",
+      "aliases": [
+        "order block in order block"
+      ]
+    },
+    {
+      "canonical": "Order Book",
+      "card_id": "order_book",
+      "aliases": []
+    },
+    {
       "canonical": "Order Flow",
       "card_id": "order_flow",
       "aliases": [
@@ -2716,35 +3629,32 @@
       ]
     },
     {
-      "canonical": "Order Type Entry",
-      "card_id": "order_type_entry",
+      "canonical": "Order Flow Analysis",
+      "card_id": "order_flow_analysis",
       "aliases": []
     },
     {
-      "canonical": "OTE (Optimal Trade Entry)",
-      "card_id": "ote_optimal_trade_entry",
-      "aliases": [
-        "ote of a range",
-        "最优交易入场",
-        "最优交易入场点",
-        "最优入场点",
-        "高概率入场区域"
-      ]
-    },
-    {
-      "canonical": "OTE / Optimal Trade Entry",
-      "card_id": "ote_optimal_trade_entry",
-      "aliases": [
-        "ote信号",
-        "ote入场",
-        "折价/溢价区入场"
-      ]
+      "canonical": "Order Type Entry",
+      "card_id": "order_type_entry",
+      "aliases": []
     },
     {
       "canonical": "Outside Bar",
       "card_id": "outside_bar",
       "aliases": [
         "ob on higher timeframe"
+      ]
+    },
+    {
+      "canonical": "Overbought and Oversold",
+      "card_id": "overbought_and_oversold",
+      "aliases": []
+    },
+    {
+      "canonical": "Overbought and Oversold Levels",
+      "card_id": "overbought_and_oversold_levels",
+      "aliases": [
+        "overbought/oversold"
       ]
     },
     {
@@ -2790,6 +3700,22 @@
       ]
     },
     {
+      "canonical": "Pip",
+      "card_id": "pip",
+      "aliases": []
+    },
+    {
+      "canonical": "Pivot Points",
+      "card_id": "pivot_points",
+      "aliases": [
+        "pivot high",
+        "pivot high low",
+        "pivot low",
+        "pivot point",
+        "pivot points high low"
+      ]
+    },
+    {
       "canonical": "Pivot and Target Usage",
       "card_id": "pivot_and_target_usage",
       "aliases": [
@@ -2797,14 +3723,24 @@
       ]
     },
     {
+      "canonical": "Point of Control",
+      "card_id": "point_of_control",
+      "aliases": [
+        "poc"
+      ]
+    },
+    {
       "canonical": "Point of Interest",
       "card_id": "point_of_interest",
       "aliases": [
+        "area of interest",
         "context",
         "important level",
+        "key area of interest",
         "key level",
         "pda",
         "poi",
+        "zone of potential interest",
         "关键价格区域",
         "关键价格水平"
       ]
@@ -2827,16 +3763,16 @@
       ]
     },
     {
+      "canonical": "Position Sizing for Multiple Trades",
+      "card_id": "position_sizing_for_multiple_trades",
+      "aliases": []
+    },
+    {
       "canonical": "Positional Entry",
       "card_id": "positional_entry",
       "aliases": [
         "位置性入场"
       ]
-    },
-    {
-      "canonical": "Power of 3 / Accumulation, Manipulation, Distribution",
-      "card_id": "power_of_3_accumulation_manipulation_distribution",
-      "aliases": []
     },
     {
       "canonical": "Power of 3 / AMD",
@@ -2850,6 +3786,11 @@
         "daily ohlc pattern",
         "周期运动模式"
       ]
+    },
+    {
+      "canonical": "Power of 3 / Accumulation, Manipulation, Distribution",
+      "card_id": "power_of_3_accumulation_manipulation_distribution",
+      "aliases": []
     },
     {
       "canonical": "Power of 3 Indicator",
@@ -2879,6 +3820,13 @@
       ]
     },
     {
+      "canonical": "Preliminary Support",
+      "card_id": "preliminary_support",
+      "aliases": [
+        "ps"
+      ]
+    },
+    {
       "canonical": "Premium",
       "card_id": "premium",
       "aliases": [
@@ -2897,7 +3845,6 @@
       "card_id": "premium_discount",
       "aliases": [
         "deep discount",
-        "pd",
         "pd区",
         "premium zone / discount zone",
         "premium/discount entry",
@@ -2916,9 +3863,15 @@
       ]
     },
     {
+      "canonical": "Premium and Discount Zones",
+      "card_id": "premium_and_discount_zones",
+      "aliases": []
+    },
+    {
       "canonical": "Premium/Discount",
       "card_id": "premium_discount",
       "aliases": [
+        "pd",
         "premium zone/discount zone"
       ]
     },
@@ -3055,6 +4008,16 @@
       ]
     },
     {
+      "canonical": "Price Action",
+      "card_id": "price_action",
+      "aliases": []
+    },
+    {
+      "canonical": "Price Action Confirmation",
+      "card_id": "price_action_confirmation",
+      "aliases": []
+    },
+    {
       "canonical": "Price Delivery Array",
       "card_id": "price_delivery_array",
       "aliases": [
@@ -3082,19 +4045,19 @@
       ]
     },
     {
-      "canonical": "Projection as Standalone Target",
-      "card_id": "projection_as_standalone_target",
-      "aliases": [
-        "投影作为单独目标",
-        "独立投影目标"
-      ]
-    },
-    {
       "canonical": "Projection Target Levels",
       "card_id": "projection_target_levels",
       "aliases": [
         "fibonacci projection targets",
         "projections"
+      ]
+    },
+    {
+      "canonical": "Projection as Standalone Target",
+      "card_id": "projection_as_standalone_target",
+      "aliases": [
+        "投影作为单独目标",
+        "独立投影目标"
       ]
     },
     {
@@ -3154,11 +4117,35 @@
       ]
     },
     {
+      "canonical": "Pullback",
+      "card_id": "pullback",
+      "aliases": [
+        "retracement"
+      ]
+    },
+    {
       "canonical": "Pullback vs Reversal",
       "card_id": "pullback_vs_reversal",
       "aliases": [
         "回调 vs 反转",
         "趋势延续 vs 趋势反转"
+      ]
+    },
+    {
+      "canonical": "Push Distance",
+      "card_id": "push_distance",
+      "aliases": []
+    },
+    {
+      "canonical": "Quote Currency",
+      "card_id": "quote_currency",
+      "aliases": []
+    },
+    {
+      "canonical": "RSI Divergence",
+      "card_id": "rsi_divergence",
+      "aliases": [
+        "regular divergence"
       ]
     },
     {
@@ -3172,6 +4159,11 @@
     {
       "canonical": "Range Consolidation",
       "card_id": "range_consolidation",
+      "aliases": []
+    },
+    {
+      "canonical": "Range Detector",
+      "card_id": "range_detector",
       "aliases": []
     },
     {
@@ -3191,6 +4183,11 @@
       ]
     },
     {
+      "canonical": "Ranging Order Block",
+      "card_id": "ranging_order_block",
+      "aliases": []
+    },
+    {
       "canonical": "Reaccumulation",
       "card_id": "reaccumulation",
       "aliases": [
@@ -3206,6 +4203,11 @@
       ]
     },
     {
+      "canonical": "Reaction Candle",
+      "card_id": "reaction_candle",
+      "aliases": []
+    },
+    {
       "canonical": "Rebalance After Creation",
       "card_id": "rebalance_after_creation",
       "aliases": [
@@ -3219,6 +4221,13 @@
       "aliases": [
         "创建前回补",
         "提前回补"
+      ]
+    },
+    {
+      "canonical": "Regular Bearish Divergence",
+      "card_id": "regular_bearish_divergence",
+      "aliases": [
+        "bearish macd divergence"
       ]
     },
     {
@@ -3247,6 +4256,13 @@
       "aliases": [
         "相对强弱分析",
         "货币对相对强度比较"
+      ]
+    },
+    {
+      "canonical": "Relative Strength Index",
+      "card_id": "relative_strength_index",
+      "aliases": [
+        "rsi"
       ]
     },
     {
@@ -3283,6 +4299,14 @@
       ]
     },
     {
+      "canonical": "Resistance Level",
+      "card_id": "resistance_level",
+      "aliases": [
+        "resistance",
+        "resistance area"
+      ]
+    },
+    {
       "canonical": "Retest",
       "card_id": "retest",
       "aliases": [
@@ -3301,7 +4325,6 @@
       "card_id": "retracement",
       "aliases": [
         "continuation retracement",
-        "pullback",
         "shallow pullback",
         "v-shaped recovery",
         "回撤",
@@ -3350,6 +4373,11 @@
       ]
     },
     {
+      "canonical": "Reversal Order Block",
+      "card_id": "reversal_order_block",
+      "aliases": []
+    },
+    {
       "canonical": "Reversal Pattern",
       "card_id": "reversal_pattern",
       "aliases": [
@@ -3385,6 +4413,11 @@
       "aliases": [
         "previous candle model"
       ]
+    },
+    {
+      "canonical": "Risk Management",
+      "card_id": "risk_management",
+      "aliases": []
     },
     {
       "canonical": "Risk Management in Box Setup",
@@ -3468,9 +4501,39 @@
       ]
     },
     {
+      "canonical": "Runaway Gap",
+      "card_id": "runaway_gap",
+      "aliases": [
+        "bullish runaway gap"
+      ]
+    },
+    {
       "canonical": "Runners",
       "card_id": "runners",
       "aliases": []
+    },
+    {
+      "canonical": "SIBI / BISI",
+      "card_id": "sibi_bisi",
+      "aliases": [
+        "bearish fair value gap"
+      ]
+    },
+    {
+      "canonical": "SMT Divergence",
+      "card_id": "smt_divergence",
+      "aliases": [
+        "smart money technique divergence",
+        "结构分歧"
+      ]
+    },
+    {
+      "canonical": "SMT Fill",
+      "card_id": "smt_fill",
+      "aliases": [
+        "breakaway gap smt",
+        "fair value gap smt"
+      ]
     },
     {
       "canonical": "Scalping",
@@ -3486,6 +4549,13 @@
       "aliases": [
         "15-second chart scalping",
         "lower timeframe scalping"
+      ]
+    },
+    {
+      "canonical": "Secondary Test",
+      "card_id": "secondary_test",
+      "aliases": [
+        "st"
       ]
     },
     {
@@ -3513,6 +4583,18 @@
         "sellside liquidity",
         "ssl",
         "卖方流动性"
+      ]
+    },
+    {
+      "canonical": "Seller Absorption",
+      "card_id": "seller_absorption",
+      "aliases": []
+    },
+    {
+      "canonical": "Selling Climax",
+      "card_id": "selling_climax",
+      "aliases": [
+        "sc"
       ]
     },
     {
@@ -3655,6 +4737,18 @@
       ]
     },
     {
+      "canonical": "Shooting Star",
+      "card_id": "shooting_star",
+      "aliases": [
+        "bearish shooting star"
+      ]
+    },
+    {
+      "canonical": "Short Position Tool",
+      "card_id": "short_position_tool",
+      "aliases": []
+    },
+    {
       "canonical": "Short-Term High / Short-Term Low",
       "card_id": "short_term_high_short_term_low",
       "aliases": [
@@ -3665,16 +4759,23 @@
       ]
     },
     {
+      "canonical": "Short-Term High/Low",
+      "card_id": "short_term_high_low",
+      "aliases": []
+    },
+    {
+      "canonical": "Short-Term Low",
+      "card_id": "short_term_low",
+      "aliases": [
+        "short-term swing low"
+      ]
+    },
+    {
       "canonical": "Short-term High / Short-term Low",
       "card_id": "short_term_high_short_term_low",
       "aliases": [
         "sth / stl"
       ]
-    },
-    {
-      "canonical": "Short-Term High/Low",
-      "card_id": "short_term_high_low",
-      "aliases": []
     },
     {
       "canonical": "Short-term High/Low",
@@ -3693,18 +4794,9 @@
       ]
     },
     {
-      "canonical": "Short-Term Low",
-      "card_id": "short_term_low",
-      "aliases": [
-        "short-term swing low"
-      ]
-    },
-    {
-      "canonical": "SIBI / BISI",
-      "card_id": "sibi_bisi",
-      "aliases": [
-        "bearish fair value gap"
-      ]
+      "canonical": "Sideways Market",
+      "card_id": "sideways_market",
+      "aliases": []
     },
     {
       "canonical": "Silver Bullet",
@@ -3722,11 +4814,47 @@
       ]
     },
     {
+      "canonical": "Simple Moving Average",
+      "card_id": "simple_moving_average",
+      "aliases": [
+        "sma"
+      ]
+    },
+    {
+      "canonical": "Simple Moving Average (SMA 50)",
+      "card_id": "simple_moving_average_sma_50",
+      "aliases": [
+        "sma 50"
+      ]
+    },
+    {
       "canonical": "Small Wick vs Large Wick",
       "card_id": "small_wick_vs_large_wick",
       "aliases": [
         "wick size analysis"
       ]
+    },
+    {
+      "canonical": "Smart Money",
+      "card_id": "smart_money",
+      "aliases": [
+        "big players",
+        "institutional money",
+        "institutional traders",
+        "large players"
+      ]
+    },
+    {
+      "canonical": "Smart Money Concepts",
+      "card_id": "smart_money_concepts",
+      "aliases": [
+        "smc"
+      ]
+    },
+    {
+      "canonical": "Smart Money Manipulation",
+      "card_id": "smart_money_manipulation",
+      "aliases": []
     },
     {
       "canonical": "Smart Money Reversal",
@@ -3767,19 +4895,11 @@
       "aliases": []
     },
     {
-      "canonical": "SMT Divergence",
-      "card_id": "smt_divergence",
+      "canonical": "Spring",
+      "card_id": "spring",
       "aliases": [
-        "smart money technique divergence",
-        "结构分歧"
-      ]
-    },
-    {
-      "canonical": "SMT Fill",
-      "card_id": "smt_fill",
-      "aliases": [
-        "breakaway gap smt",
-        "fair value gap smt"
+        "bear trap",
+        "false breakdown"
       ]
     },
     {
@@ -3833,6 +4953,29 @@
       ]
     },
     {
+      "canonical": "Static Liquidity",
+      "card_id": "static_liquidity",
+      "aliases": []
+    },
+    {
+      "canonical": "Static and Dynamic Liquidity",
+      "card_id": "static_and_dynamic_liquidity",
+      "aliases": []
+    },
+    {
+      "canonical": "Stochastic Relative Strength Index",
+      "card_id": "stochastic_relative_strength_index",
+      "aliases": [
+        "stoch rsi",
+        "stochastic rsi"
+      ]
+    },
+    {
+      "canonical": "Stocks",
+      "card_id": "stocks",
+      "aliases": []
+    },
+    {
       "canonical": "Stop Loss",
       "card_id": "stop_loss",
       "aliases": [
@@ -3864,6 +5007,11 @@
       ]
     },
     {
+      "canonical": "Stop-Loss Order",
+      "card_id": "stop_loss_order",
+      "aliases": []
+    },
+    {
       "canonical": "Strat Reversal",
       "card_id": "strat_reversal",
       "aliases": [
@@ -3871,15 +5019,44 @@
       ]
     },
     {
-      "canonical": "Strong and Weak Swing Pivots",
-      "card_id": "strong_weak_pivots",
+      "canonical": "Strategy Two (Liquidity Zone Sweep + FVG)",
+      "card_id": "strategy_two_liquidity_zone_sweep_fvg",
+      "aliases": []
+    },
+    {
+      "canonical": "Strong Candle Close",
+      "card_id": "strong_candle_close",
+      "aliases": []
+    },
+    {
+      "canonical": "Strong Level Criteria",
+      "card_id": "strong_level_criteria",
+      "aliases": []
+    },
+    {
+      "canonical": "Strong Trend",
+      "card_id": "strong_trend",
       "aliases": [
-        "strong high",
-        "strong low",
-        "weak high",
-        "weak low",
-        "strong/weak pivot labels",
-        "trailing extreme labels"
+        "clear trend",
+        "steep trend"
+      ]
+    },
+    {
+      "canonical": "Strong and Weak Highs and Lows",
+      "card_id": "strong_and_weak_highs_and_lows",
+      "aliases": []
+    },
+    {
+      "canonical": "Strong and Weak Levels",
+      "card_id": "strong_and_weak_levels",
+      "aliases": []
+    },
+    {
+      "canonical": "Strong and Weak Price Levels",
+      "card_id": "strong_and_weak_price_levels",
+      "aliases": [
+        "strong highs and lows",
+        "weak highs and lows"
       ]
     },
     {
@@ -3896,11 +5073,45 @@
       ]
     },
     {
+      "canonical": "Supply Zone",
+      "card_id": "supply_zone",
+      "aliases": [
+        "supply area"
+      ]
+    },
+    {
+      "canonical": "Supply and Demand Trading Strategies",
+      "card_id": "supply_and_demand_trading_strategies",
+      "aliases": []
+    },
+    {
+      "canonical": "Supply and Demand Zones",
+      "card_id": "supply_and_demand_zones",
+      "aliases": []
+    },
+    {
+      "canonical": "Support Level",
+      "card_id": "support_level",
+      "aliases": [
+        "support",
+        "support area",
+        "support zone"
+      ]
+    },
+    {
       "canonical": "Support and Resistance",
       "card_id": "support_and_resistance",
       "aliases": [
-        "s&r"
+        "key levels",
+        "resistance zone",
+        "s&r",
+        "s/r"
       ]
+    },
+    {
+      "canonical": "Support and Resistance Flip",
+      "card_id": "support_and_resistance_flip",
+      "aliases": []
     },
     {
       "canonical": "Support and Resistance Levels",
@@ -3909,6 +5120,21 @@
         "s&r levels",
         "support/resistance",
         "时间支撑阻力位"
+      ]
+    },
+    {
+      "canonical": "Support and Resistance Levels with Breaks (LuxAlgo)",
+      "card_id": "support_and_resistance_levels_with_breaks_luxalgo",
+      "aliases": [
+        "luxalgo support and resistance",
+        "support and resistance with breaks"
+      ]
+    },
+    {
+      "canonical": "Sweeping Pullback Model",
+      "card_id": "sweeping_pullback_model",
+      "aliases": [
+        "sweeping pullback"
       ]
     },
     {
@@ -3923,6 +5149,7 @@
       "canonical": "Swing High",
       "card_id": "swing_high",
       "aliases": [
+        "candlestick swing high",
         "high",
         "intermediate-term high",
         "local high",
@@ -4035,6 +5262,16 @@
       ]
     },
     {
+      "canonical": "Take Profit",
+      "card_id": "take_profit",
+      "aliases": []
+    },
+    {
+      "canonical": "Technical Analysis",
+      "card_id": "technical_analysis",
+      "aliases": []
+    },
+    {
       "canonical": "Thank God It's Friday",
       "card_id": "thank_god_it_s_friday",
       "aliases": [
@@ -4073,7 +5310,8 @@
       "canonical": "Time Frame",
       "card_id": "time_frame",
       "aliases": [
-        "htf/ltf"
+        "htf/ltf",
+        "timeframe"
       ]
     },
     {
@@ -4103,6 +5341,13 @@
       ]
     },
     {
+      "canonical": "Time Frame Combination",
+      "card_id": "time_frame_combination",
+      "aliases": [
+        "multi-timeframe combination"
+      ]
+    },
+    {
       "canonical": "Time Frame Confirmation",
       "card_id": "time_frame_confirmation",
       "aliases": [
@@ -4125,10 +5370,28 @@
       ]
     },
     {
+      "canonical": "Time Frame Ratio",
+      "card_id": "time_frame_ratio",
+      "aliases": []
+    },
+    {
       "canonical": "Time Frame Selection for Entry",
       "card_id": "time_frame_selection_for_entry",
       "aliases": [
         "entry time frame selection"
+      ]
+    },
+    {
+      "canonical": "Time of Day and Week for Trading",
+      "card_id": "time_of_day_and_week_for_trading",
+      "aliases": []
+    },
+    {
+      "canonical": "Time-based Liquidity",
+      "card_id": "time_based_liquidity",
+      "aliases": [
+        "opening session liquidity",
+        "session-based liquidity"
       ]
     },
     {
@@ -4153,7 +5416,6 @@
       "card_id": "top_down_analysis",
       "aliases": [
         "higher time frame analysis",
-        "htf analysis",
         "multi-time frame alignment",
         "multi-timeframe alignment",
         "multi-timeframe analysis",
@@ -4178,11 +5440,38 @@
       ]
     },
     {
+      "canonical": "Tradeoffs",
+      "card_id": "tradeoffs",
+      "aliases": []
+    },
+    {
+      "canonical": "Trading Hours",
+      "card_id": "trading_hours",
+      "aliases": []
+    },
+    {
+      "canonical": "Trading Range",
+      "card_id": "trading_range",
+      "aliases": []
+    },
+    {
+      "canonical": "Trading Style",
+      "card_id": "trading_style",
+      "aliases": []
+    },
+    {
       "canonical": "TradingView Risk-Reward Tool",
       "card_id": "tradingview_risk_reward_tool",
       "aliases": [
         "risk reward tool",
         "tradingview风险收益工具"
+      ]
+    },
+    {
+      "canonical": "Trailing Stop",
+      "card_id": "trailing_stop",
+      "aliases": [
+        "trailing stop loss"
       ]
     },
     {
@@ -4202,6 +5491,18 @@
       ]
     },
     {
+      "canonical": "Trend + FVG + Liquidity Sweep Strategy",
+      "card_id": "trend_fvg_liquidity_sweep_strategy",
+      "aliases": [
+        "strategy one"
+      ]
+    },
+    {
+      "canonical": "Trend Channel",
+      "card_id": "trend_channel",
+      "aliases": []
+    },
+    {
       "canonical": "Trend Continuation",
       "card_id": "trend_continuation",
       "aliases": [
@@ -4214,6 +5515,26 @@
       "aliases": [
         "趋势定义"
       ]
+    },
+    {
+      "canonical": "Trend Line",
+      "card_id": "trend_line",
+      "aliases": []
+    },
+    {
+      "canonical": "Trend Trading with Support and Resistance",
+      "card_id": "trend_trading_with_support_and_resistance",
+      "aliases": []
+    },
+    {
+      "canonical": "Trendline Liquidity",
+      "card_id": "trendline_liquidity",
+      "aliases": []
+    },
+    {
+      "canonical": "Triple Divergence",
+      "card_id": "triple_divergence",
+      "aliases": []
     },
     {
       "canonical": "Turtle Soup",
@@ -4256,6 +5577,14 @@
       ]
     },
     {
+      "canonical": "US Dollar Index (DXY) Bias Framework",
+      "card_id": "us_dollar_index_dxy_bias_framework",
+      "aliases": [
+        "dollar bias pairing framework",
+        "dxy bias"
+      ]
+    },
+    {
       "canonical": "Unicorn Entry Model",
       "card_id": "unicorn_entry_model",
       "aliases": [
@@ -4286,19 +5615,16 @@
       ]
     },
     {
+      "canonical": "Uptrend",
+      "card_id": "uptrend",
+      "aliases": []
+    },
+    {
       "canonical": "Uptrend / Bullish Trend",
       "card_id": "uptrend_bullish_trend",
       "aliases": [
         "higher highs and higher lows",
         "上升趋势"
-      ]
-    },
-    {
-      "canonical": "US Dollar Index (DXY) Bias Framework",
-      "card_id": "us_dollar_index_dxy_bias_framework",
-      "aliases": [
-        "dollar bias pairing framework",
-        "dxy bias"
       ]
     },
     {
@@ -4322,12 +5648,60 @@
       ]
     },
     {
+      "canonical": "Valid Pullback",
+      "card_id": "valid_pullback",
+      "aliases": []
+    },
+    {
       "canonical": "Valid Separation",
       "card_id": "valid_separation",
       "aliases": [
         "adequate distance between swing points",
         "sufficient separation"
       ]
+    },
+    {
+      "canonical": "Value Area",
+      "card_id": "value_area",
+      "aliases": []
+    },
+    {
+      "canonical": "Volatility",
+      "card_id": "volatility",
+      "aliases": []
+    },
+    {
+      "canonical": "Volume",
+      "card_id": "volume",
+      "aliases": [
+        "volume bars"
+      ]
+    },
+    {
+      "canonical": "Volume Footprint",
+      "card_id": "volume_footprint",
+      "aliases": []
+    },
+    {
+      "canonical": "Volume Imbalance",
+      "card_id": "volume_imbalance",
+      "aliases": [
+        "volume and balance",
+        "volume imbalance gap"
+      ]
+    },
+    {
+      "canonical": "Volume Profile",
+      "card_id": "volume_profile",
+      "aliases": [
+        "visible range volume profile",
+        "vrvp"
+      ]
+    },
+    {
+      "canonical": "Volume Profile Strategy",
+      "card_id": "volume_profile_strategy",
+      "aliases": []
     },
     {
       "canonical": "Volume and Balance (Imbalance)",
@@ -4344,12 +5718,9 @@
       ]
     },
     {
-      "canonical": "Volume Imbalance",
-      "card_id": "volume_imbalance",
-      "aliases": [
-        "volume and balance",
-        "volume imbalance gap"
-      ]
+      "canonical": "Weak Support/Resistance Levels",
+      "card_id": "weak_support_resistance_levels",
+      "aliases": []
     },
     {
       "canonical": "Weekly Bias",
@@ -4434,6 +5805,11 @@
         "wick support for expansion",
         "影线大小与扩张支撑"
       ]
+    },
+    {
+      "canonical": "Wick Zone",
+      "card_id": "wick_zone",
+      "aliases": []
     },
     {
       "canonical": "Wick-to-Body Ratio",

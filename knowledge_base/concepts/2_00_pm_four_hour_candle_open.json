@@ -3,10 +3,10 @@
   "type": "merged_concept",
   "canonical_term": "2:00 PM Four-Hour Candle Open",
   "aliases": [
-    "14:00 EST 4-Hour Open",
     "14:00 est 4-hour open",
-    "2 pm 4h open",
-    "2 PM 4H Open"
+    "14:00 EST 4-Hour Open",
+    "2 PM 4H Open",
+    "2 pm 4h open"
   ],
   "school": "ICT",
   "definition": "The 2:00 PM EST opening of a new 4-hour candle, used to anticipate the final intraday 4-hour candle's OHLC (Power of 3) structure, marking the timing of retracements or continuation moves that complete the daily candle before close.",

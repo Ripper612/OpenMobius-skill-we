@@ -3,8 +3,8 @@
   "type": "merged_concept",
   "canonical_term": "Twitter Model",
   "aliases": [
-    "MMXM Trader's Twitter Model",
-    "mmxm trader's twitter model"
+    "mmxm trader's twitter model",
+    "MMXM Trader's Twitter Model"
   ],
   "school": "SMC",
   "definition": "一种跨时间框架交易模型，从外部流动性转向内部流动性，结合前一日高/低点、小时级FVG、15分钟市场结构转变和SMT，在午夜开盘价附近寻找交易机会。",
