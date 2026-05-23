@@ -27,7 +27,11 @@ Both result in standard OHLCV → feed to feature extractor → 5-section output
 
 ## Mandatory Workflow (4 steps)
 
-### Step 1: Acquire data
+### Step 1: Acquire FRESH data (every turn, no caching)
+
+For ANY market question — **even if you answered the same asset
+recently in this conversation** — call the API fresh. Never reuse
+older-than-current-turn prices.
 
 **Path A — fetch from API**:
 
@@ -65,7 +69,60 @@ The parser auto-detects: JSON array (binance-style), CSV with header, Markdown t
 
 **If parser fails** (rare unusual format): you (the LLM) can convert the user's text into a JSON object array `[{"time": ..., "open": ..., "high": ..., "low": ..., "close": ..., "volume": ...}]` and feed via stdin to `parse`.
 
-### Step 2: Extract features
+### Step 1b: Verify freshness from the API response
+
+Every API response (`fetch` / `indicators` / `chart`) now includes a
+top-level `freshness` block:
+
+```json
+{
+  "fetched_at":             "2026-05-23T15:21:14Z",
+  "last_bar_open_time_utc": "2026-05-23T15:00:00Z",
+  "last_bar_age_seconds":   1274,
+  "interval_seconds":       3600,
+  "is_stale":               false,
+  "data_source":            "Mobius Quant API (api.mobiusquant.ai)"
+}
+```
+
+You MUST:
+
+1. **Read and remember** the `freshness` values for the current asset.
+2. **Quote them verbatim** in the Step 5 output footer (do not paraphrase
+   timestamps, do not invent "as of right now" wording).
+3. **If `is_stale == true`** (latest bar is older than 2 × interval),
+   tell the user explicitly: "数据可能滞后 / data may be stale — market
+   could be closed or API delayed."
+4. **Never** answer using prices, structures, or pivots from your training
+   data or from older turns in the conversation. Step 2 (SMC indicator
+   fetch) re-grounds you in fresh data; do not narrate ahead of it.
+
+### Step 2: Fetch SMC structural indicator (default)
+
+```bash
+.venv/bin/python scripts/kb_klines.py indicators \
+    --query "<asset>" --interval <tf> \
+    --limit 200 --format compact \
+    --output /tmp/<symbol>_smc.txt
+```
+
+This is the structural source of truth for the analysis. Output covers:
+- **Per-bar state** (last row of `data`): swing/internal trend bias,
+  active swing & internal pivots, trailing extremes
+- **`objects` sidecar**: swing pivots (HH/HL/LH/LL), BOS/CHoCH events
+  (`swing_structures` / `internal_structures`), Order Blocks (with
+  `status: active|mitigated`), Fair Value Gaps (same status field),
+  equal highs/lows, premium/equilibrium/discount zones, trailing
+  extremes with `Strong High` / `Weak Low` / etc. labels
+- **`alerts_last_bar`**: boolean dict of structural events that fired
+  on the latest candle
+
+Read the output via `Read` — it's compact text, ~30-80 lines. Use the
+field-semantics map in `SKILL.body.md` to consume each section.
+
+### Step 2 (fallback): Local feature extraction
+
+If the SMC API is unreachable (network error / 5xx), fall back to:
 
 ```bash
 .venv/bin/python scripts/kb_klines.py analyze \
@@ -73,18 +130,12 @@ The parser auto-detects: JSON array (binance-style), CSV with header, Markdown t
     --output /tmp/<symbol>_features.txt
 ```
 
-The output is a structured text summary including:
-- **Market state**: current close, range, trend %, ATR(14)
-- **Structure**: swing sequence (HH/HL/LH/LL), BOS/CHoCH events
-- **FVG candidates**: untested / partial bullish & bearish FVGs with mitigation %
-- **Order Block candidates**: bullish/bearish OB with displacement strength
-- **Liquidity Sweep candidates**: buy-side / sell-side sweeps with wick size
-- **Displacement candles**: > 2× ATR moves with magnitude
-- **Volume anomalies**: > 2× avg volume candles
+This computes BOS/CHoCH / Order Blocks / Fair Value Gaps / Liquidity
+Sweeps / Displacement locally from OHLCV. State explicitly in the reply
+that the data came from local extraction rather than the SMC API.
 
-If HTF was fetched, summary includes both **primary** and **HTF** sections.
-
-Read this file via the `Read` tool — it's plaintext, ~50-100 lines.
+If HTF was fetched, the local analyze output includes both **primary**
+and **HTF** sections.
 
 ### Step 3: Retrieve knowledge base concepts
 
@@ -115,85 +166,62 @@ Skip this step ONLY if the user explicitly opts out
 Build the chart from pure K-lines + knowledge-base overlays (no indicators —
 those are out of scope for this skill).
 
+**Generate the chart in one command**: `kb_klines.py chart` now auto-fills
+the structural overlay from the SMC indicator (BOS/CHoCH markers,
+trailing-extreme labels, active Order Blocks, active Fair Value Gaps,
+equal H/L, premium/equilibrium/discount zone bands, internal OBs,
+mitigated OBs/FVGs as muted history) — no manual JSON authoring needed.
+
 ```bash
-# 1. Pull pure K-lines → panels payload skeleton (items=[])
 .venv/bin/python scripts/kb_klines.py chart \
     --query "<asset>" --interval <tf> --limit 200 \
     --output /tmp/<sym>_chart.json
 ```
 
-Then merge into `panels[0].items` your KB overlays from the analyze features JSON
-(field `suggested_overlay_items`, which already contains FVG/OB rectangles, sweep
-hlines + markers, swing markers — auto-generated from the analysis) PLUS your
-own trade-setup hlines.
+**Trade-setup**: if you have entry / SL / target prices to draw, write a
+small JSON file and pass it at render time. **You only ever author hline
+items** — the structural geometry is handled for you.
 
-**Item types**:
-
-| Type | Use for | Required fields |
-|---|---|---|
-| `rectangle` | FVG / Order Block / Killzone zones | `time_start`, `price_top`, `price_bottom`, `label`, `style.role` (`time_end` optional, omit = extend to right) |
-| `hline` | Entry / SL / Target / Swept level / Current price | `value`, `label`, `style.role` |
-| `markers` | Swing point, sweep candle | `data: [{time, shape, position, text}]`, `style.role` |
-
-**Style roles** (color auto-resolved from theme):
-
-| Role | Semantic |
-|---|---|
-| `fvg` / `fvg_bear` | Bullish / Bearish Fair Value Gap |
-| `ob` / `ob_bear` | Bullish / Bearish Order Block |
-| `breaker` | Breaker Block |
-| `liquidity` | Liquidity Sweep |
-| `entry_long` / `entry_short` | Long / Short entry |
-| `stop_loss` / `target` | SL / TP |
-| `bullish` / `bearish` / `muted` | Generic up / down / hint |
-
-**Critical: keep labels short.** They're rendered next to the price-axis on the right side and long labels eat into the K-line area.
-
-```
-✓ "Short 2202"             (≤ 12 chars including price)
-✓ "SL 2231"
-✓ "T1 2176"
-✓ "bear FVG"
-✗ "Short Entry 2202 (FVG mid)"     ← 太长，挡 K 线
-✗ "SL 2230.80 (above 4h OB)"
-✗ "T1 2176.09 (HL sweep)"
+```bash
+cat > /tmp/<sym>_setup.json <<'JSON'
+{"items": [
+  {"type": "hline", "value": 78500, "label": "Short 78500",
+   "style": {"role": "entry_short", "width": 2}},
+  {"type": "hline", "value": 80000, "label": "SL 80000",
+   "style": {"role": "stop_loss", "dash": "dashed", "width": 2}},
+  {"type": "hline", "value": 77000, "label": "T1 77000",
+   "style": {"role": "target", "width": 2}}
+]}
+JSON
 ```
 
-Put rationale ("Entry at FVG mid", "SL above 4h OB", "T1 at HL sweep") in **prose**, not in the chart label.
+Available `style.role` values for trade-setup hlines: `entry_long`,
+`entry_short`, `stop_loss`, `target`.
 
-**Example** — short setup at 78500, SL 80000, T1 77000:
+**Label rule**: ≤ 12 chars including the price (e.g. `"Short 78500"`,
+`"SL 80000"`, `"T1 77000"`). Put rationale ("Entry at FVG mid", "SL
+above 4h OB") in the prose reply, not in the chart label.
 
-```json
-{"type": "hline", "value": 78500, "label": "Short 78500",
- "style": {"role": "entry_short", "width": 2}}
-{"type": "hline", "value": 80000, "label": "SL 80000",
- "style": {"role": "stop_loss", "dash": "dashed", "width": 2}}
-{"type": "hline", "value": 77000, "label": "T1 77000",
- "style": {"role": "target", "width": 2}}
-```
+**Skip the trade-setup file** when you have no specific trade levels to
+draw; the chart still renders with the SMC structural overlay alone.
 
-**Overlay item count guideline**: keep total items in `panels[0].items` ≤ 8.
-- From `suggested_overlay_items`: pick the **2 most relevant** rectangles + **1-2 sweep lines** + the **most recent 1-2 swing markers**.
-- Trade setup: entry / SL / 1-2 targets (4 hlines max).
-- More than 8 → labels overlap and crowd the right edge.
+**Fallback behavior**: if the SMC API is unreachable, the chart command
+returns with empty items and logs a warning. You can either accept a
+plain K-line chart, OR (if you ran a local `analyze` in Step 2) drop in
+its `suggested_overlay_items` via the trade-setup JSON.
 
-**Example** — bearish FVG zone 80300-80500 starting from candle time 1747000000:
+**Auto-overlay knobs** (defaults shown):
+- `--max-items 8` — caps non-zone overlay items
+- `--no-auto-overlay` — disable SMC fetch (items will be empty)
+- `--no-include-mitigated` / `--no-include-zones` / `--no-include-internal`
+  — turn off the matching item category
 
-```json
-{"type": "rectangle",
- "time_start": 1747000000,
- "time_end":   null,
- "price_top":    80500,
- "price_bottom": 80300,
- "label": "bearish FVG",
- "style": {"role": "fvg_bear", "fill_opacity": 0.15, "border_width": 1, "dash": "dashed"}}
-```
-
-Then render to PNG:
+Then render to PNG (pass `--trade-setup` only if you authored a setup file):
 
 ```bash
 .venv/bin/python scripts/kb_klines.py render \
     --input /tmp/<sym>_chart.json \
+    --trade-setup /tmp/<sym>_setup.json \
     --output /tmp/<sym>_chart.png \
     --theme dark --width 1400 --height 900
 ```
@@ -250,12 +278,31 @@ image input, so the auto-annotation step from `analyze.md` is omitted):
 ## 信息缺失 / Missing Information (optional, only if confidence ≤ medium)
 ```
 
-After the 5 sections, append:
+After the 5 sections, append the **mandatory freshness footer** —
+values come directly from the API response's `freshness` block, do NOT
+fabricate them:
+
 ```
-📊 数据源 / Data: <fetch/parse> @ <symbol> <interval> (<count> candles)
-📂 特征摘要 / Features: <path to features.txt>
-🖼️ 行情图 / Chart: <path to rendered PNG>   ← REQUIRED unless user opted out
+📅 数据时点 / Data as of (UTC): <freshness.last_bar_open_time_utc>
+🕐 当前价 / Current price:     <current_price>
+📡 数据源 / Source:            Mobius Quant API → <exchange>:<market>:<symbol> @ <interval>, <count> candles
+🔍 拉取时刻 / Fetched at (UTC): <freshness.fetched_at>
+⏱️  K 线年龄 / Bar age:        <freshness.last_bar_age_seconds>s (is_stale=<freshness.is_stale>)
+📂 结构摘要 / Structure:       <path to SMC output, or local features.txt if fallback>
+🖼️ 行情图 / Chart:            <path to rendered PNG>   ← REQUIRED unless user opted out
 ```
+
+If `freshness.is_stale == true`, also add a top-level warning line at
+the start of the reply:
+
+```
+⚠️ 数据可能滞后 / Stale data warning: latest <interval> bar is
+   <last_bar_age_seconds>s old (>2× interval). Market may be closed or
+   API delayed; treat prices as last-known, not live.
+```
+
+The footer is non-negotiable. A reply without these freshness fields is
+incomplete and must be revised before sending.
 
 ## Key advantages over visual-only
 
@@ -287,10 +334,10 @@ User: "BTC 1h 现在怎么样"
 
 Steps:
 1. `kb_klines.py fetch --query "BTC" --interval 1h --limit 200 --with-htf --output /tmp/btc.json`
-2. `kb_klines.py analyze --input /tmp/btc.json --output /tmp/btc_features.txt`
-3. Read `/tmp/btc_features.txt`
+2. `kb_klines.py indicators --query "BTC" --interval 1h --limit 200 --format compact --output /tmp/btc_smc.txt` (default = SMC)
+3. Read `/tmp/btc_smc.txt`
 4. Retrieve relevant concepts (e.g. `kb_retrieve.py "liquidity sweep FVG market structure"`)
-5. Output 5-section reply with **exact** prices from feature summary
+5. Output 5-section reply with **exact** prices from the SMC objects sidecar
 
 ### Example 2 — Pasted CSV
 
@@ -305,8 +352,9 @@ time,open,high,low,close,volume
 Steps:
 1. Save the pasted text to `/tmp/eth_paste.csv`
 2. `kb_klines.py parse --input /tmp/eth_paste.csv --symbol ETHUSDT --interval 5m --output /tmp/eth.json`
-3. `kb_klines.py analyze --input /tmp/eth.json --output /tmp/eth_features.txt`
-4. Read features + retrieve + 5-section output
+3. SMC indicator API works on a live symbol+timeframe, not on pasted data. Fall back to local extraction:
+   `kb_klines.py analyze --input /tmp/eth.json --output /tmp/eth_features.txt`
+4. Read features + retrieve + 5-section output. State explicitly that the structure came from local extraction.
 5. **NOTE**: user-pasted data has no HTF fetched (since asset may be from any source); state this and offer to fetch HTF from Mobius if applicable
 
 ### Example 3 — Stock
@@ -344,7 +392,11 @@ kb_klines.py fetch --exchange binance --market perp --symbol BTCUSDT --interval 
 kb_klines.py parse --input <file> --symbol <s> --interval <tf> --output <json>
 echo '<text>' | kb_klines.py parse --symbol <s> --interval <tf>
 
-# Analyze (extract features)
+# Fetch SMC structural indicator (default — primary structural source)
+kb_klines.py indicators --query "<name>" --interval <tf> --format compact \
+    --output <smc.txt>
+
+# Local fallback: extract features from OHLCV when API unreachable
 kb_klines.py analyze --input <json> --output <features.txt>
 ```
 

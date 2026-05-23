@@ -100,15 +100,53 @@ If Step 1d succeeded, **fetch real data**:
     --output <image_dir>/<image_stem>.klines.json
 ```
 
-Then extract features:
+### Step 1f: Fetch SMC structural indicator (default)
+
+The SMC indicator gives a structural ground-truth reading to complement
+the visual chart analysis:
+
+```bash
+.venv/bin/python scripts/kb_klines.py indicators \
+    --exchange <ex> --market <mkt> --symbol <sym> \
+    --interval <tf> --limit 200 --format compact \
+    --output <image_dir>/<image_stem>.smc.txt
+```
+
+**Read the .smc.txt** with the `Read` tool. It contains exact prices for:
+- Per-bar trend bias (swing & internal)
+- Active swing / internal pivots, trailing extremes with Strong/Weak labels
+- `objects` sidecar: Order Blocks (active/mitigated), Fair Value Gaps,
+  equal highs/lows, premium/equilibrium/discount zones, BOS/CHoCH events
+- `alerts_last_bar`: structural events that fired on the latest candle
+
+Use the field-semantics map in `SKILL.body.md` to consume each section.
+
+### Step 1g: Verify freshness
+
+The .smc.txt header now includes (or the JSON response has) a `freshness`
+block:
+
+```
+data_source:          Mobius Quant API (api.mobiusquant.ai)
+fetched_at (UTC):     2026-05-23T15:21:14Z
+last_bar_open (UTC):  2026-05-23T15:00:00Z
+last_bar_age:         1274s (interval=3600s, is_stale=False)
+current_price:        75609.9
+```
+
+**You MUST** carry these values verbatim into the Step 6 output footer.
+**Never** answer using prices, structures, or pivots from training data
+or older conversation turns — Step 1e/1f re-grounds you in fresh data.
+
+If `is_stale=True`, prepend a warning line to the final reply.
+
+**Fallback to local extraction** (only if SMC API unreachable):
 
 ```bash
 .venv/bin/python scripts/kb_klines.py analyze \
     --input <image_dir>/<image_stem>.klines.json \
     --output <image_dir>/<image_stem>.features.txt
 ```
-
-**Read the features.txt** with the `Read` tool. It contains exact prices for: current close, swing high/low, FVG ranges + mitigation%, Order Block candidates, Liquidity Sweep candidates (with exact swept level), Displacement candles, Volume anomalies, and structure events (BOS/CHoCH).
 
 **Sanity check** — compare data to chart:
 
@@ -307,19 +345,37 @@ Use when:
     --output <image_dir>/<image_stem>.chart.json
 ```
 
-Merge into `panels[0].items` from two sources:
-- **From `analyze --format json` (Step 1e)**: pick top untested FVGs / OBs / sweeps from `suggested_overlay_items` — these are already formatted as `rectangle` / `hline` / `markers` items.
-- **From your `trade_setup`**: add `hline` items with `style.role` ∈ {`entry_long`, `entry_short`, `stop_loss`, `target`}.
-
-See `workflows/klines.md` Step 4 for the full item-type reference and style-role table.
+`kb_klines.py chart` auto-fills the structural overlay from the SMC
+indicator — no manual `panels[0].items` authoring needed. If you have a
+trade-setup (entry / SL / target) to draw, write a small JSON file with
+only those hlines:
 
 ```bash
-# 2. Render
+cat > <image_dir>/<image_stem>.setup.json <<'JSON'
+{"items": [
+  {"type": "hline", "value": 78500, "label": "Short 78500",
+   "style": {"role": "entry_short", "width": 2}},
+  {"type": "hline", "value": 80000, "label": "SL 80000",
+   "style": {"role": "stop_loss", "dash": "dashed", "width": 2}},
+  {"type": "hline", "value": 77000, "label": "T1 77000",
+   "style": {"role": "target", "width": 2}}
+]}
+JSON
+```
+
+Render (pass `--trade-setup` only if you authored a setup file):
+
+```bash
 .venv/bin/python scripts/kb_klines.py render \
     --input <image_dir>/<image_stem>.chart.json \
+    --trade-setup <image_dir>/<image_stem>.setup.json \
     --output <image_dir>/<image_stem>.chart.png \
     --theme dark --width 1400 --height 900
 ```
+
+See `workflows/klines.md` Step 4 for the auto-overlay knobs
+(`--max-items`, `--no-include-mitigated`, etc.) and trade-setup label
+rules.
 
 #### Skip both if
 
@@ -389,12 +445,25 @@ If chart is too ambiguous for 2+ scenarios, replace with:
 - <list of missing pieces that would raise confidence>
 ```
 
-After the 5 sections, append at most these two lines:
+After the 5 sections, append the **mandatory freshness footer** — values
+come directly from Step 1g's API response, do NOT fabricate them:
 
 ```
-📂 分析数据 / Analysis JSON: <absolute path>
-🖼️ 标注图 / Annotated chart: <absolute path>  ← only if Step 7 succeeded
+📅 数据时点 / Data as of (UTC): <freshness.last_bar_open_time_utc>
+🕐 当前价 / Current price:     <current_price>
+📡 数据源 / Source:            Mobius Quant API → <exchange>:<market>:<symbol> @ <interval>
+🔍 拉取时刻 / Fetched at (UTC): <freshness.fetched_at>
+⏱️  K 线年龄 / Bar age:        <freshness.last_bar_age_seconds>s (is_stale=<freshness.is_stale>)
+📂 分析数据 / Analysis JSON:   <absolute path>
+🖼️ 标注图 / Annotated chart:  <absolute path>  ← only if Step 7 succeeded
 ```
+
+If `freshness.is_stale == true`, prepend a top-level warning line at the
+very start of the reply:
+`⚠️ 数据可能滞后 / Stale data warning: latest <interval> bar is <age>s old.`
+
+If Step 1e/1f was skipped (visual-only mode), omit the freshness lines
+and mark the reply with `(visual-only — no live data fetched)`.
 
 If Step 7 was skipped, omit the annotated chart line and optionally add:
 `(标注图未生成：<reason, e.g. chart_bbox 无法可靠标定 / multi-panel 暂不支持>)`

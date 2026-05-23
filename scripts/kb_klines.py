@@ -17,7 +17,9 @@ Sub-commands:
   analyze     OHLCV → feature summary (with panels.items visualization hints)
   chart       fetch K-lines → assemble panels payload
   render      panels JSON → PNG (Playwright + lightweight-charts)
-  indicators  fetch technical indicator values (RSI/MACD/EMA/...)
+  indicators  fetch indicator output (defaults to the SMC structural
+              indicator; pass --inds <name> only when the user explicitly
+              named one)
 """
 
 from __future__ import annotations
@@ -32,6 +34,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
 
@@ -1569,11 +1572,363 @@ def _ohlcv_to_klines(rows: list[list]) -> list[dict]:
     return out
 
 
-def cmd_chart(args: argparse.Namespace) -> int:
-    """拉纯 K 线，组装 panels 协议（单 main panel，items 为空）。
+# ----------------------------------------------------------------------------
+# Freshness metadata — exposed to the LLM so it can NEVER claim data
+# freshness from memory. Every API-driven response includes this block.
+# ----------------------------------------------------------------------------
 
-    输出可直接喂 render；LLM 自行往 panels[0].items 加 FVG/OB rectangle、
-    swing markers、entry/SL/target hlines 等知识库标注。
+INTERVAL_SECONDS = {
+    "1m": 60, "5m": 300, "15m": 900, "30m": 1800,
+    "1h": 3600, "4h": 14400, "1d": 86400,
+}
+
+
+def _utc_iso(ts_seconds: int) -> str:
+    """Unix seconds → ISO 8601 UTC string (always with 'Z' suffix)."""
+    return datetime.fromtimestamp(int(ts_seconds), tz=timezone.utc).strftime(
+        "%Y-%m-%dT%H:%M:%SZ",
+    )
+
+
+def _compute_freshness(
+    klines: list[dict],
+    interval: str,
+) -> dict:
+    """Build the freshness metadata block.
+
+    Fields:
+      fetched_at:             ISO UTC of when this skill fetched from the API
+      last_bar_open_time_utc: ISO UTC of the latest bar's open time
+      last_bar_age_seconds:   now - last_bar_open_time (positive = older)
+      interval_seconds:       expected bar period
+      is_stale:               True when bar age exceeds 2 × interval
+      data_source:            constant "Mobius Quant API (api.mobiusquant.ai)"
+    """
+    now_s = int(time.time())
+    last_bar_t = int(klines[-1]["time"]) if klines else None
+    iv_secs = INTERVAL_SECONDS.get(interval, 0)
+    age_s = (now_s - last_bar_t) if last_bar_t is not None else None
+    is_stale = (
+        age_s is not None and iv_secs > 0 and age_s > 2 * iv_secs
+    )
+    out: dict = {
+        "fetched_at":             _utc_iso(now_s),
+        "last_bar_open_time_utc": _utc_iso(last_bar_t) if last_bar_t else None,
+        "last_bar_age_seconds":   age_s,
+        "interval_seconds":       iv_secs,
+        "is_stale":               is_stale,
+        "data_source":            "Mobius Quant API (api.mobiusquant.ai)",
+    }
+    if is_stale:
+        log.warning(
+            "data staleness: latest %s bar is %ds old (>2× interval=%ds) — "
+            "market may be closed or API delayed",
+            interval, age_s, iv_secs,
+        )
+    return out
+
+
+# ----------------------------------------------------------------------------
+# SMC objects sidecar → chart panel items
+# ----------------------------------------------------------------------------
+
+def _ms_to_s(ts_ms: Optional[int]) -> Optional[int]:
+    """Convert millisecond timestamp (SMC objects) to second timestamp (panels)."""
+    if ts_ms is None:
+        return None
+    try:
+        return int(ts_ms) // 1000
+    except (TypeError, ValueError):
+        return None
+
+
+def _smc_objects_to_items(
+    objects: dict,
+    current_price: Optional[float],
+    *,
+    first_kline_time: Optional[int] = None,
+    include_mitigated: bool = True,
+    include_zones: bool = False,
+    include_internal: bool = True,
+    max_items: int = 400,
+) -> list[dict]:
+    """Convert SMC indicator `objects` sidecar → panels[0].items list.
+
+    TradingView-style: full structural narrative — every BOS/CHoCH event with
+    its broken-pivot connector, every active OB / FVG, every equal-highs /
+    equal-lows pair, plus the trailing-extreme price labels.
+    """
+    items: list[dict] = []
+
+    def _add(item: dict) -> bool:
+        if len(items) >= max_items:
+            return False
+        items.append(item)
+        return True
+
+    def _clip_left(t_s: Optional[int]) -> Optional[int]:
+        if t_s is None:
+            return first_kline_time
+        if first_kline_time is not None and t_s < first_kline_time:
+            return first_kline_time
+        return t_s
+
+    # ----- 1. trailing_extremes (Strong High / Weak Low labels) ----------
+    te = objects.get("trailing_extremes") or {}
+    if te.get("top") is not None:
+        _add({
+            "type":  "hline",
+            "value": te["top"],
+            "label": te.get("top_label") or "trailing high",
+            "style": {"role": "muted", "width": 1, "dash": "dotted"},
+        })
+    if te.get("bottom") is not None:
+        _add({
+            "type":  "hline",
+            "value": te["bottom"],
+            "label": te.get("bottom_label") or "trailing low",
+            "style": {"role": "muted", "width": 1, "dash": "dotted"},
+        })
+
+    # ----- 2. ALL BOS/CHoCH events (swing + optionally internal) ---------
+    bull_markers: list[dict] = []
+    bear_markers: list[dict] = []
+    structures_groups: list[list[dict]] = [(objects.get("swing_structures") or [])]
+    if include_internal:
+        structures_groups.append(objects.get("internal_structures") or [])
+    for group in structures_groups:
+        for s in group:
+            bias = (s.get("bias") or "").lower()
+            kind = (s.get("kind") or "").upper()
+            pivot_t_raw = _ms_to_s(s.get("pivot_time"))
+            confirm_t_raw = _ms_to_s(s.get("confirm_time"))
+            pivot_p = s.get("pivot_price")
+            if pivot_t_raw is None or confirm_t_raw is None or pivot_p is None:
+                continue
+            if first_kline_time is not None and confirm_t_raw < first_kline_time:
+                continue
+            pivot_t = _clip_left(pivot_t_raw)
+            confirm_t = _clip_left(confirm_t_raw)
+            if pivot_t == confirm_t:
+                continue
+            _add({
+                "type": "line",
+                "data": [
+                    {"time": pivot_t,   "value": pivot_p},
+                    {"time": confirm_t, "value": pivot_p},
+                ],
+                "style": {
+                    "role":  "bullish" if bias == "bull" else "bearish",
+                    "dash":  "dashed",
+                    "width": 1,
+                    "lastValueVisible": False,
+                },
+            })
+            (bull_markers if bias == "bull" else bear_markers).append({
+                "time":     confirm_t,
+                "shape":    "circle",
+                "size":     0,
+                "position": "belowBar" if bias == "bull" else "aboveBar",
+                "text":     kind,
+            })
+    if bull_markers:
+        _add({"type": "markers", "data": bull_markers, "style": {"role": "bullish"}})
+    if bear_markers:
+        _add({"type": "markers", "data": bear_markers, "style": {"role": "bearish"}})
+
+    # ----- 3. ALL active swing-level Order Blocks ------------------------
+    swing_obs = objects.get("order_blocks_swing") or []
+    active_swing_obs = [x for x in swing_obs if (x.get("status") or "").lower() == "active"]
+    mitig_swing_obs  = [x for x in swing_obs if (x.get("status") or "").lower() == "mitigated"]
+    for ob in active_swing_obs:
+        bias = (ob.get("bias") or "").lower()
+        _add({
+            "type":         "rectangle",
+            "time_start":   _clip_left(_ms_to_s(ob.get("anchor_time"))),
+            "time_end":     None,
+            "price_top":    ob.get("top"),
+            "price_bottom": ob.get("bottom"),
+            "label":        "",
+            "style": {
+                "role":         "ob" if bias == "bull" else "ob_bear",
+                "fill_opacity": 0.22,
+                "border_width": 0,
+            },
+        })
+
+    # ----- 4. ALL active Fair Value Gaps --------------------------------
+    fvgs = objects.get("fair_value_gaps") or []
+    active_fvgs = [x for x in fvgs if (x.get("status") or "").lower() == "active"]
+    mitig_fvgs  = [x for x in fvgs if (x.get("status") or "").lower() == "mitigated"]
+    for fvg in active_fvgs:
+        bias = (fvg.get("bias") or "").lower()
+        _add({
+            "type":         "rectangle",
+            "time_start":   _clip_left(_ms_to_s(fvg.get("anchor_time"))),
+            "time_end":     None,
+            "price_top":    fvg.get("top"),
+            "price_bottom": fvg.get("bottom"),
+            "label":        "",
+            "style": {
+                "role":         "fvg" if bias == "bull" else "fvg_bear",
+                "fill_opacity": 0.14,
+                "border_width": 0,
+            },
+        })
+
+    # ----- 5. ALL active internal Order Blocks (subtle) -----------------
+    if include_internal:
+        internal_obs = [
+            x for x in (objects.get("order_blocks_internal") or [])
+            if (x.get("status") or "").lower() == "active"
+        ]
+        for ob in internal_obs:
+            bias = (ob.get("bias") or "").lower()
+            _add({
+                "type":         "rectangle",
+                "time_start":   _clip_left(_ms_to_s(ob.get("anchor_time"))),
+                "time_end":     None,
+                "price_top":    ob.get("top"),
+                "price_bottom": ob.get("bottom"),
+                "label":        "",
+                "style": {
+                    "role":         "ob" if bias == "bull" else "ob_bear",
+                    "fill_opacity": 0.08,
+                    "border_width": 0,
+                },
+            })
+
+    # ----- 6. Equal highs / lows: short dashed connectors with labels ----
+    eqh_markers: list[dict] = []
+    eql_markers: list[dict] = []
+    for eq in (objects.get("equal_highs") or []):
+        anchor_t_raw  = _ms_to_s(eq.get("anchor_time"))
+        confirm_t_raw = _ms_to_s(eq.get("confirm_time"))
+        level = eq.get("level")
+        if anchor_t_raw is None or confirm_t_raw is None or level is None:
+            continue
+        if first_kline_time is not None and confirm_t_raw < first_kline_time:
+            continue
+        anchor_t  = _clip_left(anchor_t_raw)
+        confirm_t = _clip_left(confirm_t_raw)
+        if anchor_t == confirm_t:
+            continue
+        _add({
+            "type": "line",
+            "data": [
+                {"time": anchor_t,  "value": level},
+                {"time": confirm_t, "value": level},
+            ],
+            "style": {"role": "muted", "dash": "dashed", "width": 1, "lastValueVisible": False},
+        })
+        eqh_markers.append({
+            "time": confirm_t, "shape": "circle", "size": 0,
+            "position": "aboveBar", "text": "EQH",
+        })
+    for eq in (objects.get("equal_lows") or []):
+        anchor_t_raw  = _ms_to_s(eq.get("anchor_time"))
+        confirm_t_raw = _ms_to_s(eq.get("confirm_time"))
+        level = eq.get("level")
+        if anchor_t_raw is None or confirm_t_raw is None or level is None:
+            continue
+        if first_kline_time is not None and confirm_t_raw < first_kline_time:
+            continue
+        anchor_t  = _clip_left(anchor_t_raw)
+        confirm_t = _clip_left(confirm_t_raw)
+        if anchor_t == confirm_t:
+            continue
+        _add({
+            "type": "line",
+            "data": [
+                {"time": anchor_t,  "value": level},
+                {"time": confirm_t, "value": level},
+            ],
+            "style": {"role": "muted", "dash": "dashed", "width": 1, "lastValueVisible": False},
+        })
+        eql_markers.append({
+            "time": confirm_t, "shape": "circle", "size": 0,
+            "position": "belowBar", "text": "EQL",
+        })
+    if eqh_markers:
+        _add({"type": "markers", "data": eqh_markers, "style": {"role": "muted"}})
+    if eql_markers:
+        _add({"type": "markers", "data": eql_markers, "style": {"role": "muted"}})
+
+    # ----- 7. Mitigated OBs & FVGs (historical, very muted) -------------
+    if include_mitigated:
+        for mit_ob in mitig_swing_obs:
+            bias = (mit_ob.get("bias") or "").lower()
+            _add({
+                "type":         "rectangle",
+                "time_start":   _clip_left(_ms_to_s(mit_ob.get("anchor_time"))),
+                "time_end":     _ms_to_s(mit_ob.get("mitigation_time")),
+                "price_top":    mit_ob.get("top"),
+                "price_bottom": mit_ob.get("bottom"),
+                "label":        "",
+                "style": {
+                    "role":         "ob" if bias == "bull" else "ob_bear",
+                    "fill_opacity": 0.07,
+                    "border_width": 0,
+                },
+            })
+        for mit_fvg in mitig_fvgs:
+            bias = (mit_fvg.get("bias") or "").lower()
+            _add({
+                "type":         "rectangle",
+                "time_start":   _clip_left(_ms_to_s(mit_fvg.get("anchor_time"))),
+                "time_end":     _ms_to_s(mit_fvg.get("mitigation_time")),
+                "price_top":    mit_fvg.get("top"),
+                "price_bottom": mit_fvg.get("bottom"),
+                "label":        "",
+                "style": {
+                    "role":         "fvg" if bias == "bull" else "fvg_bear",
+                    "fill_opacity": 0.05,
+                    "border_width": 0,
+                },
+            })
+
+    # ----- 8. Optional premium / equilibrium / discount zone bands -------
+    if include_zones:
+        zone_items: list[dict] = []
+        for name, role in (
+            ("premium_zone",     "premium"),
+            ("equilibrium_zone", "equilibrium"),
+            ("discount_zone",    "discount"),
+        ):
+            z = objects.get(name) or {}
+            top, bot = z.get("top"), z.get("bottom")
+            if top is None or bot is None:
+                continue
+            zone_items.append({
+                "type":         "rectangle",
+                "time_start":   first_kline_time if first_kline_time is not None else 0,
+                "time_end":     None,
+                "price_top":    top,
+                "price_bottom": bot,
+                "label":        "",
+                "style": {
+                    "role":         role,
+                    "fill_opacity": 0.05,
+                    "border_width": 0,
+                },
+            })
+        items = zone_items + items
+
+    _ = current_price  # currently unused — all events shown, no distance ranking
+    return items
+
+
+def cmd_chart(args: argparse.Namespace) -> int:
+    """Pull K-lines + SMC structural indicator → panels JSON with auto-filled
+    overlay items (BOS/CHoCH connectors, Order Blocks, FVGs, equal H/L,
+    trailing extremes labels) plus a volume sub-panel.
+
+    Defaults:
+      - auto-overlay: ON (--no-auto-overlay turns it off)
+      - include mitigated OBs/FVGs (muted history)
+      - include internal Order Blocks
+      - include volume panel
+      - exclude premium/discount/equilibrium zone bands (--include-zones to add)
     """
     client = MobiusClient()
 
@@ -1627,20 +1982,98 @@ def cmd_chart(args: argparse.Namespace) -> int:
     buffer = span * args.value_range_buffer  # 默认 0.08 = 8%（上下各加）
     value_range = [lo - buffer, hi + buffer]
 
-    # 组装 panels payload（单 main panel，items 空 — 由 LLM 填充知识库标注）
-    payload = {
-        "symbol":   asset.symbol,
-        "interval": args.interval,
-        "klines":   klines,
-        "panels": [
+    # Auto-fill items from SMC indicator (default ON; --no-auto-overlay opts out)
+    items: list[dict] = []
+    if getattr(args, "auto_overlay", True):
+        try:
+            smc_resp = client.indicators(
+                exchange=asset.exchange,
+                market=asset.market,
+                symbol=asset.symbol,
+                interval=args.interval,
+                calc=[{
+                    "name":   "smc",
+                    "params": {
+                        "show_swing_points":           True,
+                        "show_premium_discount_zones": True,
+                    },
+                }],
+                limit=args.limit,
+                explain=False,
+            )
+            current_price = smc_resp.get("current_price")
+            inds = smc_resp.get("indicators") or {}
+            objects = {}
+            for _key, payload_ind in inds.items():
+                if isinstance(payload_ind, dict) and payload_ind.get("objects"):
+                    objects = payload_ind["objects"]
+                    break
+            if objects:
+                first_kline_t = klines[0]["time"] if klines else None
+                items = _smc_objects_to_items(
+                    objects, current_price,
+                    first_kline_time=first_kline_t,
+                    include_mitigated=args.include_mitigated,
+                    include_zones=args.include_zones,
+                    include_internal=args.include_internal,
+                    max_items=args.max_items,
+                )
+                log.info(
+                    "auto-overlay: %d items from SMC (mitigated=%s zones=%s internal=%s)",
+                    len(items), args.include_mitigated, args.include_zones, args.include_internal,
+                )
+            else:
+                log.warning("auto-overlay: SMC response had no `objects` sidecar; items empty")
+        except Exception as e:  # noqa: BLE001
+            log.warning(
+                "auto-overlay: SMC fetch failed (%s); falling back to empty items.", e,
+            )
+
+    # Volume panel: per-bar histogram, red/green by close vs open
+    volume_items: list[dict] = []
+    if getattr(args, "volume_panel", True):
+        vol_color_up   = "rgba(38, 166, 154, 0.6)"
+        vol_color_down = "rgba(239, 83, 80, 0.6)"
+        vol_data = [
             {
-                "id":           "main",
-                "overlay":      True,
-                "height_ratio": 1.0,
-                "value_range":  value_range,    # K 线主体 ±buffer
-                "items":        [],
-            },
-        ],
+                "time":  k["time"],
+                "value": k.get("volume", 0),
+                "color": vol_color_up if k["close"] >= k["open"] else vol_color_down,
+            }
+            for k in klines
+        ]
+        volume_items = [{
+            "type":  "histogram",
+            "data":  vol_data,
+            "label": "Volume",
+            "style": {"role": "muted", "lastValueVisible": False},
+        }]
+
+    panels = [
+        {
+            "id":           "main",
+            "overlay":      True,
+            "height_ratio": 4.0,
+            "value_range":  value_range,
+            "items":        items,
+        },
+    ]
+    if volume_items:
+        panels.append({
+            "id":           "volume",
+            "overlay":      False,
+            "height_ratio": 1.0,
+            "items":        volume_items,
+        })
+
+    payload = {
+        "symbol":    asset.symbol,
+        "interval":  args.interval,
+        # Freshness meta — LLM MUST quote these in user-facing output instead
+        # of making up timestamps. See SKILL.body.md § Freshness Mandate.
+        "freshness": _compute_freshness(klines, args.interval),
+        "klines":    klines,
+        "panels":    panels,
     }
 
     text = json.dumps(payload, ensure_ascii=False, indent=2)
@@ -1772,6 +2205,29 @@ def cmd_render(args: argparse.Namespace) -> int:
         log.error("payload 缺 'panels' 字段。请用 chart 子命令的输出（而非 fetch）")
         return 1
 
+    # Merge trade-setup items (LLM-authored entry / SL / target hlines)
+    if getattr(args, "trade_setup", None):
+        setup_path = Path(args.trade_setup)
+        if not setup_path.is_file():
+            log.error("--trade-setup file not found: %s", setup_path)
+            return 1
+        try:
+            setup = json.loads(setup_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            log.error("--trade-setup JSON parse failed: %s", e)
+            return 1
+        extra_items = setup.get("items") if isinstance(setup, dict) else None
+        if not isinstance(extra_items, list):
+            log.error("--trade-setup must be a JSON object with an 'items' array")
+            return 1
+        panels = payload.get("panels") or []
+        if not panels:
+            log.error("--trade-setup: payload has no panels to merge into")
+            return 1
+        existing = panels[0].setdefault("items", [])
+        existing.extend(extra_items)
+        log.info("merged %d trade-setup items into panels[0]", len(extra_items))
+
     # 写临时 HTML
     render_dir = CHART_RENDER_DIR
     if not render_dir.is_dir():
@@ -1816,6 +2272,10 @@ def cmd_render(args: argparse.Namespace) -> int:
 # 'ema:50,rsi:14,macd:12:26:9,bollinger:20:2,atr:14' → list[dict]
 INDS_SPECS = {
     # name: (positional_param_keys, single_int_fallback_key)
+    # SMC: structural indicator (BOS/CHoCH, Order Block, FVG, equal H/L,
+    # premium/discount, trailing extremes). No positional params; server
+    # uses sensible defaults.
+    "smc":       ([], None),
     "ema":       (["period"], "period"),
     "sma":       (["period"], "period"),
     "wma":       (["period"], "period"),
@@ -1830,6 +2290,9 @@ INDS_SPECS = {
     "obv":       ([], None),
     "cvd":       ([], None),
 }
+
+# When --inds is empty / not passed, this is what we fetch.
+DEFAULT_INDS = "smc"
 
 
 def _parse_inds(inds_str: str) -> list[dict]:
@@ -1862,8 +2325,65 @@ def _parse_inds(inds_str: str) -> list[dict]:
             # 未知指标：单数字按 period 兜底
             if nums:
                 params["period"] = nums[0]
+        # SMC: enable the boolean toggles that produce the richest objects
+        # sidecar. Server defaults skip these.
+        if name == "smc":
+            params.setdefault("show_swing_points", True)
+            params.setdefault("show_premium_discount_zones", True)
         out.append({"name": name, "params": params})
     return out
+
+
+def _format_objects_summary(objects: dict) -> list[str]:
+    """Render the `objects` sidecar compactly (SMC indicator etc.)."""
+    lines: list[str] = ["  Objects:"]
+
+    te = objects.get("trailing_extremes") or {}
+    if te:
+        top = te.get("top"); bot = te.get("bottom")
+        tlbl = te.get("top_label") or ""; blbl = te.get("bottom_label") or ""
+        lines.append(f"    trailing_extremes: top={top} ({tlbl}) / bottom={bot} ({blbl})")
+
+    zones = []
+    for name in ("premium_zone", "equilibrium_zone", "discount_zone"):
+        z = objects.get(name) or {}
+        if z and z.get("top") is not None and z.get("bottom") is not None:
+            zones.append(f"{name.replace('_zone','')}={z['bottom']}-{z['top']}")
+    if zones:
+        lines.append("    zones: " + " | ".join(zones))
+
+    for key in (
+        "swing_pivots", "swing_structures", "internal_structures",
+        "equal_highs", "equal_lows",
+    ):
+        v = objects.get(key) or []
+        if v:
+            lines.append(f"    {key}: {len(v)} events")
+
+    def _show_active(name: str, max_n: int = 3) -> None:
+        items = [
+            x for x in (objects.get(name) or [])
+            if (x.get("status") or "").lower() == "active"
+        ]
+        if not items:
+            return
+        recent = items[-max_n:]
+        line = f"    {name} (active, recent {len(recent)}/{len(items)}): " + " | ".join(
+            f"[{x.get('bias','?')}] {x.get('bottom')}-{x.get('top')}"
+            for x in recent
+        )
+        lines.append(line)
+
+    _show_active("order_blocks_swing")
+    _show_active("order_blocks_internal")
+    _show_active("fair_value_gaps", max_n=5)
+
+    alerts = objects.get("alerts_last_bar") or {}
+    fired = [k for k, v in alerts.items() if v]
+    if fired:
+        lines.append("    alerts_last_bar (fired): " + ", ".join(fired))
+
+    return lines
 
 
 def _format_indicators_compact(resp: dict) -> str:
@@ -1885,8 +2405,19 @@ def _format_indicators_compact(resp: dict) -> str:
     cnt = resp.get("count", 0)
     cur = resp.get("current_price")
     lines.append(f"== {sym} @ {iv} ({cnt} candles) ==")
+    # Freshness header — LLM must cite these in user-facing output.
+    fr = resp.get("freshness") or {}
+    if fr:
+        lines.append(f"data_source:           {fr.get('data_source','?')}")
+        lines.append(f"fetched_at (UTC):      {fr.get('fetched_at','?')}")
+        lines.append(f"last_bar_open (UTC):   {fr.get('last_bar_open_time_utc','?')}")
+        lines.append(
+            f"last_bar_age:          {fr.get('last_bar_age_seconds','?')}s"
+            f" (interval={fr.get('interval_seconds','?')}s, "
+            f"is_stale={fr.get('is_stale','?')})"
+        )
     if cur is not None:
-        lines.append(f"current_price: {cur}")
+        lines.append(f"current_price:         {cur}")
     lines.append("")
 
     inds = resp.get("indicators") or {}
@@ -1894,6 +2425,7 @@ def _format_indicators_compact(resp: dict) -> str:
         cols    = payload.get("columns") or []
         data    = payload.get("data") or []
         explain = payload.get("explain") or {}
+        objects = payload.get("objects") or {}
         if not data or not cols:
             lines.append(f"{key}: (no data)")
             continue
@@ -1901,6 +2433,10 @@ def _format_indicators_compact(resp: dict) -> str:
         # 跳过第一列（open_time）
         value_pairs = [f"{c}={last[i]}" for i, c in enumerate(cols) if i > 0]
         lines.append(f"{key}:  " + ", ".join(value_pairs))
+
+        # objects sidecar (SMC structural events etc.)
+        if objects:
+            lines.extend(_format_objects_summary(objects))
 
         # explain: category + desc
         if explain:
@@ -1971,13 +2507,15 @@ def cmd_indicators(args: argparse.Namespace) -> int:
         log.error("provide either --query, or all of --exchange/--market/--symbol")
         return 2
 
-    # 解析 inds
-    calc = _parse_inds(args.inds)
+    # 解析 inds —— 默认 SMC 结构指标
+    inds_str = (args.inds or "").strip() or DEFAULT_INDS
+    calc = _parse_inds(inds_str)
     if not calc:
-        log.error("--inds is empty; provide e.g. 'rsi:14,macd:12:26:9,ema:50'")
+        log.error("could not parse --inds %r", inds_str)
         return 2
     log.info("indicators: %s", [c["name"] for c in calc])
 
+    # explain block is always suppressed; field semantics live in SKILL.body.md
     resp = client.indicators(
         exchange=asset.exchange,
         market=asset.market,
@@ -1985,11 +2523,19 @@ def cmd_indicators(args: argparse.Namespace) -> int:
         interval=args.interval,
         calc=calc,
         limit=args.limit,
-        explain=not args.no_explain,
+        explain=False,
     )
     log.info("got %s @ %s: %d candles, %d indicators",
              asset.symbol, args.interval,
              resp.get("count", 0), len(resp.get("indicators") or {}))
+
+    # Inject freshness metadata — LLM MUST quote these instead of inventing
+    # timestamps. See SKILL.body.md § Freshness Mandate.
+    klines_for_meta = []
+    for row in (resp.get("klines") or []):
+        if isinstance(row, list) and len(row) >= 1:
+            klines_for_meta.append({"time": int(row[0]) // 1000})  # ms→s
+    resp["freshness"] = _compute_freshness(klines_for_meta, args.interval)
 
     # 输出
     if args.format == "compact":
@@ -2042,7 +2588,8 @@ def main() -> int:
     p_fetch.add_argument("--symbol", help="canonical symbol")
     p_fetch.add_argument("--interval", required=True,
                          choices=["1m", "5m", "15m", "30m", "1h", "4h", "1d"])
-    p_fetch.add_argument("--limit", type=int, default=200, help="主 timeframe 数量 (默认 200)")
+    p_fetch.add_argument("--limit", type=int, default=300,
+                          help="主 timeframe 数量（默认 300，给 SMC ATR(200) 留暖机）")
     p_fetch.add_argument("--with-htf", action="store_true",
                          help="自动联拉上一档 HTF")
     p_fetch.add_argument("--htf-limit", type=int, default=100,
@@ -2074,7 +2621,8 @@ def main() -> int:
     # chart
     p_chart = sub.add_parser(
         "chart",
-        help="拉纯 K 线 → 组装 panels payload（无指标；items 由 LLM 填充知识库标注）",
+        help="K-lines + auto-filled SMC structural overlay + volume sub-panel "
+             "→ panels JSON. Append trade-setup hlines at render time via --trade-setup.",
     )
     p_chart.add_argument("--query", help="自然名（与 --symbol 二选一）")
     p_chart.add_argument("--exchange", help="venue exchange")
@@ -2082,11 +2630,44 @@ def main() -> int:
     p_chart.add_argument("--symbol", help="canonical symbol")
     p_chart.add_argument("--interval", required=True,
                          choices=["1m", "5m", "15m", "30m", "1h", "4h", "1d"])
-    p_chart.add_argument("--limit", type=int, default=200, help="K 线数量（默认 200）")
+    p_chart.add_argument("--limit", type=int, default=300,
+                         help="K 线数量（默认 300，给 SMC ATR(200) 留暖机）")
     p_chart.add_argument(
         "--value-range-buffer", type=float, default=0.08,
         help="value_range 在 K 线 high/low 基础上加的 buffer（默认 0.08 = 8%%；"
              "trade setup hline 在此范围内不会拉伸 priceScale，K 线保持稠密）",
+    )
+    # Auto-overlay flags
+    p_chart.add_argument(
+        "--no-auto-overlay", dest="auto_overlay", action="store_false",
+        default=True,
+        help="Disable auto-population of overlay items from the SMC indicator.",
+    )
+    p_chart.add_argument(
+        "--max-items", type=int, default=400,
+        help="Safety cap on auto-filled overlay items (default 400 — generous).",
+    )
+    p_chart.add_argument(
+        "--no-include-mitigated", dest="include_mitigated", action="store_false",
+        default=True,
+        help="Exclude mitigated Order Blocks / FVGs (default: included with muted style).",
+    )
+    p_chart.add_argument(
+        "--include-zones", dest="include_zones", action="store_true",
+        default=False,
+        help="Include premium / equilibrium / discount background bands "
+             "(default OFF — TV-style chart doesn't draw these).",
+    )
+    p_chart.add_argument(
+        "--no-include-internal", dest="include_internal", action="store_false",
+        default=True,
+        help="Exclude internal-structure events (BOS/CHoCH connectors + "
+             "internal OBs). Default: included.",
+    )
+    p_chart.add_argument(
+        "--no-volume-panel", dest="volume_panel", action="store_false",
+        default=True,
+        help="Disable the volume sub-panel (default: ON, TV-style).",
     )
     p_chart.add_argument("--output", "-o", help="输出 JSON 文件；省略 stdout")
     p_chart.set_defaults(func=cmd_chart)
@@ -2101,17 +2682,25 @@ def main() -> int:
     p_render.add_argument("--output", "-o", required=True, help="输出 PNG 路径")
     p_render.add_argument("--width", type=int, default=1280, help="图像宽度（默认 1280）")
     p_render.add_argument("--height", type=int, default=800, help="图像高度（默认 800）")
-    p_render.add_argument("--theme", default="dark", choices=["dark", "light"])
+    p_render.add_argument("--theme", default="light", choices=["dark", "light"])
     p_render.add_argument("--timeout-ms", type=int, default=15000,
                           help="等待 chartReady 的超时（默认 15000ms）")
     p_render.add_argument("--keep-html", action="store_true",
                           help="保留临时 HTML 文件（debug 用）")
+    p_render.add_argument(
+        "--trade-setup", default=None,
+        help="Optional JSON file with extra panels[0].items to merge in "
+             "(e.g. entry / SL / target hlines). Schema: "
+             '{"items": [{"type": "hline", "value": ..., "label": ..., '
+             '"style": {"role": "entry_short", "width": 2}}, ...]}',
+    )
     p_render.set_defaults(func=cmd_render)
 
-    # indicators (tech indicator query — text output, NOT rendered on chart)
+    # indicators (default SMC; user-named indicators pass through)
     p_inds = sub.add_parser(
         "indicators",
-        help="Pull tech indicator values (RSI/MACD/EMA/...) from Mobius API. Text-only output.",
+        help="Fetch indicator output. Default: SMC structural indicator. "
+             "Pass --inds <name[:params]> only when the user named one.",
     )
     p_inds.add_argument("--query", help="自然名（与 --symbol 二选一）")
     p_inds.add_argument("--exchange", help="venue exchange")
@@ -2120,17 +2709,15 @@ def main() -> int:
     p_inds.add_argument("--interval", required=True,
                         choices=["1m", "5m", "15m", "30m", "1h", "4h", "1d"])
     p_inds.add_argument(
-        "--inds", required=True,
-        help="紧凑指标格式：ema:50,ema:200,rsi:14,macd:12:26:9,bollinger:20:2,atr:14",
+        "--inds", default="",
+        help="Indicator spec. Default empty → SMC structural indicator.",
     )
-    p_inds.add_argument("--limit", type=int, default=200,
-                        help="K 线数量（默认 200，指标需要 warm-up）")
+    p_inds.add_argument("--limit", type=int, default=300,
+                        help="K 线数量（默认 300，给 ATR(200) 等长周期指标暖机）")
     p_inds.add_argument(
         "--format", default="json", choices=["json", "compact"],
         help="json: 完整原始响应（默认）；compact: LLM 友好的当前值摘要",
     )
-    p_inds.add_argument("--no-explain", action="store_true",
-                        help="don't request explain field from API")
     p_inds.add_argument("--output", "-o", help="output file; omit for stdout")
     p_inds.set_defaults(func=cmd_indicators)
 

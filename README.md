@@ -16,7 +16,7 @@ market data, technical indicators, and chart generation to
 [![Platforms](https://img.shields.io/badge/platforms-Claude_Code_·_Codex_·_OpenClaw_·_Hermes-9333ea.svg)](#platform-support)
 [![Knowledge Base](https://img.shields.io/badge/knowledge_base-964_cards-22c55e.svg)](#features)
 
-[English](./README.md) · [中文](./README.zh.md)
+[English](./README.md) · [中文](./README.zh.md) · 📜 [Changelog](./CHANGELOG.md)
 
 </div>
 
@@ -48,9 +48,9 @@ hand-waving.
 |---|---|
 | *"What is Fair Value Gap, how to trade it?"* | Vector-retrieves FVG concept card + related (CISD / OTE / Premium-Discount) — answers with cited rules from the knowledge base |
 | *Attach a BTCUSDT 1h chart + "analyze this"* | Identifies asset → fetches real OHLCV → extracts FVG / OB / sweep / displacement → outputs 5-section reply with **exact prices** + auto-annotated PNG |
-| *"How is BTC 1h looking?"* (no chart) | Live data fetch → feature extraction → KB-grounded analysis |
-| *"What's RSI(14) and MACD on BTC?"* | Calls indicator endpoint for values + per-indicator analysis dimensions |
-| *Paste a CSV of OHLCV* | Parses → analyzes → KB cross-reference → 5-section reply |
+| *"How is BTC 1h looking?"* (no chart) | Live data fetch + built-in SMC structural indicator (BOS/CHoCH, Order Blocks, FVGs, equal H/L, premium-discount zones, strong/weak pivots) → KB-grounded analysis |
+| *"What's <indicator> on BTC?"* (user names a specific indicator) | Pass-through to the indicator API — no auto-fetch of indicators the user did not name |
+| *Paste a CSV of OHLCV* | Parses → local structural extraction (fallback when API unavailable) → KB cross-reference → 5-section reply |
 | *"Generate a chart with my entry/SL/target"* | Rendered chart via Playwright + lightweight-charts |
 
 ---
@@ -86,7 +86,7 @@ After install, in your AI agent just ask:
 "What is Liquidity Sweep"
 [attach chart] "analyze this setup"
 "How is ETH 4h looking, give me a chart"
-"BTC 1h RSI(14) and MACD?"
+"BTC 1h structure check"
 ```
 
 > **Prerequisites**: Python 3.10+. See [INSTALL.md](./INSTALL.md) for details.
@@ -169,9 +169,11 @@ skill routes to one of four workflows:
 
 **Indicators & tools**
 
-- **SMC concepts as indicators** — abstract Liquidity Sweep / FVG / Order
-  Block / Killzone into computable indicators, queryable like RSI / MACD,
-  with numeric readings + occurrence frequency.
+- **Expanded SMC indicator coverage** — the built-in SMC structural
+  indicator covers BOS/CHoCH, Order Blocks, FVGs, equal H/L, premium-
+  discount zones and strong/weak pivot labels today. Upcoming: Killzone
+  windows, Stop Run / Inducement events, and per-event probability
+  scoring as computable signals.
 
 **Access surfaces**
 

@@ -120,14 +120,35 @@
     if (!anchor && needsAnchor) {
       anchor = chart.addLineSeries({ color: 'transparent', priceLineVisible: false });
     }
+    // Accumulate markers across all `markers` items so we only call setMarkers
+    // once (lightweight-charts' setMarkers replaces, not appends).
+    const allMarkers = [];
     for (const item of items) {
-      if (item.type === 'hline' || item.type === 'markers') {
+      if (item.type === 'hline') {
         if (!anchor) continue;
-        renderStaticItem(anchor, item, theme);
+        renderHline(anchor, item, theme);
+      } else if (item.type === 'markers') {
+        if (!anchor) continue;
+        const itemColor = colorFor(theme, item.style && item.style.role, theme.roles.muted);
+        for (const m of (item.data || [])) {
+          if (m.time == null) continue;
+          allMarkers.push({
+            time:     m.time,
+            position: m.position || 'aboveBar',
+            color:    m.color || itemColor,
+            shape:    m.shape || 'circle',
+            text:     m.text || '',
+            size:     m.size,
+          });
+        }
       } else if (item.type === 'rectangle') {
         if (!anchor) continue;
         attachRectangle(anchor, item, theme);
       }
+    }
+    if (anchor && allMarkers.length) {
+      allMarkers.sort((a, b) => (a.time || 0) - (b.time || 0));
+      anchor.setMarkers(allMarkers);
     }
   }
 
@@ -173,10 +194,14 @@
 
     switch (item.type) {
       case 'line': {
+        const lvv = (item.style && item.style.lastValueVisible);
         const s = chart.addLineSeries({
           color, lineWidth, lineStyle,
           priceLineVisible: false,
-          lastValueVisible: true,
+          // Default false so dense BOS/CHoCH dashed connectors don't clutter
+          // the right axis with price labels; opt in via style.lastValueVisible.
+          lastValueVisible: lvv === true,
+          crosshairMarkerVisible: false,
           title: item.label || '',
         });
         s.setData((item.data || []).map(p => ({ time: p.time, value: p.value })));
@@ -187,9 +212,16 @@
           color,
           base: (item.style && item.style.baseline) != null ? item.style.baseline : 0,
           priceLineVisible: false,
+          lastValueVisible: !!(item.style && item.style.lastValueVisible),
           title: item.label || '',
         });
-        s.setData((item.data || []).map(p => ({ time: p.time, value: p.value })));
+        // Per-bar color via `color` field on each data point (used for volume:
+        // green when close > open, red when close < open). Falls back to series color.
+        s.setData((item.data || []).map(p => {
+          const d = { time: p.time, value: p.value };
+          if (p.color) d.color = p.color;
+          return d;
+        }));
         return s;
       }
       case 'area': {
@@ -221,37 +253,22 @@
     }
   }
 
-  // ── 静态 item 渲染（hline / markers） ─────────────────────────────────────
-  function renderStaticItem(anchor, item, theme) {
+  // ── hline 渲染（markers 已在主循环统一收集） ─────────────────────────────
+  function renderHline(anchor, item, theme) {
     const color = colorFor(theme, item.style && item.style.role, theme.roles.muted);
     const dash = item.style && item.style.dash;
     const lineStyle =
       dash === 'dashed' ? LineStyle.Dashed :
       dash === 'dotted' ? LineStyle.Dotted :
       LineStyle.Solid;
-
-    if (item.type === 'hline') {
-      anchor.createPriceLine({
-        price: item.value,
-        color,
-        lineWidth: (item.style && item.style.width) || 1,
-        lineStyle,
-        axisLabelVisible: true,
-        title: item.label || '',
-      });
-      return;
-    }
-
-    if (item.type === 'markers') {
-      const markers = (item.data || []).map(m => ({
-        time: m.time,
-        position: m.position || 'aboveBar',
-        color,
-        shape: m.shape || 'circle',
-        text: m.text || '',
-      }));
-      anchor.setMarkers(markers);
-    }
+    anchor.createPriceLine({
+      price: item.value,
+      color,
+      lineWidth: (item.style && item.style.width) || 1,
+      lineStyle,
+      axisLabelVisible: (item.style && item.style.axisLabelVisible !== false),
+      title: item.label || '',
+    });
   }
 
   // ── Chart 选项 ─────────────────────────────────────────────────────────────

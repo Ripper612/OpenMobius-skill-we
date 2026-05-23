@@ -1,7 +1,41 @@
-// theme.js — 主题色（仅知识库语义 role）。
-// 不含技术指标 role（指标暂不在 skill 范围内）。
+// theme.js — TradingView-style palette for SMC structural overlays.
 
 const THEMES = {
+  light: {
+    name:       'light',
+    background: '#ffffff',
+    text:       '#1f2937',
+    grid:       '#f0f3f5',
+    border:     '#d1d5db',
+    upColor:    '#26a69a',
+    downColor:  '#ef5350',
+    volumeUp:   '#26a69a',
+    volumeDown: '#ef5350',
+    roles: {
+      bullish:    '#26a69a',
+      bearish:    '#ef5350',
+      muted:      '#9ca3af',
+
+      // SMC structural — TV palette: light pink for bear OB, light blue for bull OB
+      fvg:         '#26a69a',   // bull FVG (light green tint)
+      fvg_bear:    '#ef5350',   // bear FVG (light red tint)
+      ob:          '#90caf9',   // bull OB — light blue
+      ob_bear:     '#ef9a9a',   // bear OB — light pink (TV signature)
+      breaker:     '#9c27b0',
+      liquidity:   '#ff9800',
+
+      // Trade setup
+      entry_long:  '#26a69a',
+      entry_short: '#ef5350',
+      stop_loss:   '#ef5350',
+      target:      '#2196f3',
+
+      // SMC zones (kept for opt-in --include-zones)
+      premium:     '#ef5350',
+      equilibrium: '#9ca3af',
+      discount:    '#26a69a',
+    },
+  },
   dark: {
     name:       'dark',
     background: '#0e1116',
@@ -10,51 +44,28 @@ const THEMES = {
     border:     '#2a2f38',
     upColor:    '#26a69a',
     downColor:  '#ef5350',
+    volumeUp:   '#26a69a',
+    volumeDown: '#ef5350',
     roles: {
-      // K 线 / 趋势相关
       bullish:    '#26a69a',
       bearish:    '#ef5350',
       muted:      '#5a6373',
 
-      // ICT/SMC 知识库语义
-      fvg:         '#26a69a',   // Fair Value Gap（默认 bullish 绿；bearish 用 fvg_bear）
+      fvg:         '#26a69a',
       fvg_bear:    '#ef5350',
-      ob:          '#9c27b0',   // Order Block
-      ob_bear:     '#7b1fa2',
+      ob:          '#64b5f6',    // bull OB — soft blue (TV-like, slightly brighter for dark bg)
+      ob_bear:     '#e57373',    // bear OB — soft pink/red
       breaker:     '#aa55ff',
-      liquidity:   '#ff9800',   // 流动性 / sweep
+      liquidity:   '#ff9800',
 
-      // Trade setup
       entry_long:  '#26a69a',
       entry_short: '#ef5350',
       stop_loss:   '#ef5350',
       target:      '#2196f3',
-    },
-  },
-  light: {
-    name:       'light',
-    background: '#ffffff',
-    text:       '#1f2937',
-    grid:       '#e5e7eb',
-    border:     '#d1d5db',
-    upColor:    '#22a06b',
-    downColor:  '#e53935',
-    roles: {
-      bullish:    '#22a06b',
-      bearish:    '#e53935',
-      muted:      '#9ca3af',
 
-      fvg:         '#22a06b',
-      fvg_bear:    '#e53935',
-      ob:          '#7b1fa2',
-      ob_bear:     '#5d1090',
-      breaker:     '#9c27b0',
-      liquidity:   '#e65100',
-
-      entry_long:  '#22a06b',
-      entry_short: '#e53935',
-      stop_loss:   '#e53935',
-      target:      '#1976d2',
+      premium:     '#ef5350',
+      equilibrium: '#5a6373',
+      discount:    '#26a69a',
     },
   },
 };

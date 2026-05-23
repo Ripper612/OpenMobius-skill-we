@@ -15,7 +15,7 @@
 [![Platforms](https://img.shields.io/badge/platforms-Claude_Code_·_Codex_·_OpenClaw_·_Hermes-9333ea.svg)](#平台支持)
 [![Knowledge Base](https://img.shields.io/badge/knowledge_base-964_cards-22c55e.svg)](#核心能力)
 
-[English](./README.md) · [中文](./README.zh.md)
+[English](./README.md) · [中文](./README.zh.md) · 📜 [更新日志](./CHANGELOG.zh.md)
 
 </div>
 
@@ -45,8 +45,8 @@
 |---|---|
 | *"什么是 Fair Value Gap，怎么交易？"* | 向量检索 FVG 概念卡 + 关联概念（CISD / OTE / Premium-Discount）→ 引用知识库规则给出回答 |
 | *上传 BTCUSDT 1h 图 + "分析一下"* | 识别资产 → 拉真实 OHLCV → 提取 FVG / OB / sweep / displacement → 输出含**精确价位**的 5 段回答 + 自动标注 PNG |
-| *"BTC 1h 现在怎么样？"*（无图） | 拉实时数据 → 特征提取 → 知识库匹配分析 |
-| *"BTC 上 RSI(14) 和 MACD 多少？"* | 调指标端点拿数值 + 内置的分析维度 |
+| *"BTC 1h 现在怎么样？"*（无图） | 拉实时数据 + 内置 SMC 结构指标（BOS/CHoCH、Order Block、FVG、equal H/L、premium-discount 区、strong/weak pivot 标签）→ 知识库匹配分析 |
+| *"BTC 的 <指标名> 多少？"*（用户字面指定一个指标名） | 透传到指标接口 —— 不会自动拉用户没明说的指标 |
 | *粘贴 OHLCV CSV* | 解析 → 分析 → 知识库交叉引用 → 5 段回答 |
 | *"按入场 / 止损 / 止盈帮我画张图"* | Playwright + lightweight-charts 生成图表 |
 
@@ -82,7 +82,7 @@ rm -rf /tmp/openmobius-src                     # ✓ clone 仅作搬运,可删
 "什么是 Liquidity Sweep"
 [上传图] "分析这个走势"
 "ETH 4h 现在怎么样，给我画张图"
-"BTC 1h 的 RSI(14) 和 MACD 多少？"
+"BTC 1h 结构看一下"
 ```
 
 > **前置依赖**：Python 3.10+。详见 [INSTALL.md](./INSTALL.md)。
@@ -163,9 +163,9 @@ Skill 会路由到 4 个 workflow 之一：
 
 **指标 & 工具**
 
-- **SMC 概念指标化** —— 把 Liquidity Sweep / FVG / Order Block /
-  Killzone 等概念抽象为**可计算指标**，与 RSI / MACD 同级查询，
-  输出数值化判读 + 出现频率统计。
+- **SMC 指标扩展** —— 内置 SMC 结构指标已覆盖 BOS/CHoCH、Order Block、
+  FVG、equal H/L、premium-discount 区、strong/weak pivot 标签。后续补
+  Killzone 时段、Stop Run / Inducement 事件，以及各事件的概率打分。
 
 **访问入口**
 

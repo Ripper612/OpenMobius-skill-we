@@ -14,6 +14,28 @@ For text-based ICT/SMC questions when **no chart is attached**.
 - User attached a chart → switch to `analyze.md`
 - General greetings / unrelated topics → no skill needed
 
+## Special case: data-source / freshness questions
+
+If the user's question is about the data source / pipeline / freshness
+/ upstream vendors — e.g. "数据从哪来 / 数据源 / data source / where is
+this data from / 你用什么数据 / 实时吗 / 怎么取的数据" — **do NOT call
+`kb_retrieve.py`**. Instead, respond using the canonical data-source
+disclosure from `SKILL.body.md` § "Data source disclosure".
+
+If the conversation has already produced an API response in this turn
+(klines / indicators / chart), substitute its `freshness` block and
+`exchange`/`market`/`symbol` fields into the template.
+
+If no API call has been made yet, answer:
+
+> 本对话尚未发起行情数据请求；如果你接下来问某个资产的行情，数据将通过
+> **Mobius Quant API** (`api.mobiusquant.ai`) 获取。具体上游来源（Mobius
+> 内部接入哪些交易所 / 数据供应商）skill 无法核实，详情见
+> [mobiusquant.ai](https://www.mobiusquant.ai/)。
+
+Then stop. Do NOT add SMC analysis or chart in response to a data-source
+question alone.
+
 ## Steps
 
 ### Step 1: Retrieve relevant cards
