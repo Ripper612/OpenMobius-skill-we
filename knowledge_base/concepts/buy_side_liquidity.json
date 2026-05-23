@@ -1,0 +1,1463 @@
+{
+  "card_id": "buy_side_liquidity",
+  "type": "merged_concept",
+  "canonical_term": "Buy Side Liquidity",
+  "aliases": [
+    "bsl",
+    "BSL",
+    "Buy Stops",
+    "buy stops",
+    "Buy-Side Liquidity",
+    "buy-side liquidity pool",
+    "Buy-Side Liquidity Pool",
+    "buyside liquidity",
+    "Buyside Liquidity"
+  ],
+  "school": "ICT",
+  "definition": "Buy stops resting above swing highs or equal highs, representing stop-losses of short sellers and breakout buy orders. Smart money targets these pools to pair institutional orders before a reversal or directional continuation. A sweep of buy side liquidity often precedes a bearish shift, while in bullish trends it serves as a draw for upward expansion.",
+  "identification_rules": [
+    "Identify buy side liquidity above prior swing highs: a swing high has a lower high on its left and right; buy stops cluster above it.",
+    "Spot clusters of two or more equal or nearly equal highs, concentrating stop orders into stronger liquidity pools.",
+    "Mark obvious chart highs such as previous session, daily, weekly, monthly highs, and session highs (Asian/London/NY) as significant buy side liquidity draws.",
+    "In a trading range, the range high itself serves as buy side liquidity to be swept.",
+    "Confirm a sweep when price trades above the marked high and then sharply reverses back into the range (aggressive displacement), often leaving a wick; a subsequent close below or a change in state of delivery validates bearish intent.",
+    "After a bullish market structure shift from a discount, treat the next unswept swing high as a buy side liquidity target for long trades.",
+    "When price breaks above the previous candle's high and closes above it, the buy side liquidity is considered swept; update to the next valid swing high.",
+    "When price breaks above a high but quickly closes back inside the range (fails to sustain), it is a liquidity sweep, not a true breakout.",
+    "When price simultaneously breaks above the previous candle's high and below its low, it is an outside bar, sweeping both buy and sell side liquidity.",
+    "If price breaks neither the previous candle's high nor low, it is consolidation; buy side liquidity is untouched.",
+    "After marking buy side liquidity on higher timeframes, switch to lower timeframes to confirm sweep details."
+  ],
+  "trading_implication": "Buy side liquidity serves as a profit target for longs and a reversal trigger for shorts. In bullish conditions, target multiple BSL levels for partials and runners (aim for at least 2R). When price sweeps BSL with aggressive displacement and a proven shift (e.g., MSS, CISD, or FVG inversion), enter short on a retest of the order block that formed the sweep, stop above the manipulation high, target sell side liquidity down to at least 2R. Combine with multi-timeframe analysis to determine bias and dynamically update swept levels.",
+  "common_mistakes": [
+    "Entering a short trade on a buy side liquidity sweep without waiting for a confirmed order flow shift (e.g., change in state of delivery, market structure shift, fair value gap inversion, or close below the sweep high).",
+    "Misidentifying a minor price pierce or non-aggressive move above a high as a completed liquidity sweep; price must aggressively displace above and back to validate the raid.",
+    "Relying on lower time frame equal highs as buy side liquidity without aligning them with higher time frame levels, leading to false sweeps.",
+    "Targeting buy side liquidity that offers insufficient risk-to-reward (less than 2R) instead of seeking setups with better potential.",
+    "Failing to treat buy side liquidity as a partial or target level, causing premature profit exit before the liquidity is reached.",
+    "Using only candle bodies to mark buy side liquidity when wicks often define the actual resting stop level, particularly on daily time frames.",
+    "Treating a partial close above 50% of a bullish fair value gap as a complete inversion, ignoring the requirement for a full close below the gap to confirm the shift.",
+    "Continuing to monitor a buy side liquidity level after it has been swept; update to the next swing high.",
+    "Ignoring equal highs as a merged buy side liquidity zone, marking them separately.",
+    "Focusing only on one timeframe's swing highs, ignoring multi-layered BSL from previous week, day, month, and session highs.",
+    "Expecting price to always hit buy side liquidity during consolidation; consolidation is one of three candle types.",
+    "Entering short solely on a BSL sweep without additional confirmation like FVG, inversion FVG, or CISD.",
+    "Entering short on the first sweep of an old high without waiting for a lower timeframe CISD to confirm change in state of delivery.",
+    "Mistaking a sweep of a random high as a valid signal without support from higher timeframe PD arrays or FVGs.",
+    "Misinterpreting a bullish candle that sweeps a high and continues upward as a BSL sweep reversal, when it may be a retracement toward higher BSL."
+  ],
+  "related_concepts": [
+    {
+      "term": "Box Setup"
+    },
+    {
+      "term": "Change in State of Delivery"
+    },
+    {
+      "term": "Deviation"
+    },
+    {
+      "term": "Discount"
+    },
+    {
+      "term": "Displacement"
+    },
+    {
+      "term": "Draw on Liquidity"
+    },
+    {
+      "term": "Equal Highs"
+    },
+    {
+      "term": "Failure Swing"
+    },
+    {
+      "term": "Fair Value Gap"
+    },
+    {
+      "term": "Inducement"
+    },
+    {
+      "term": "Inversion"
+    },
+    {
+      "term": "Liquidity Sweep"
+    },
+    {
+      "term": "Manipulation Leg"
+    },
+    {
+      "term": "Market Structure Shift"
+    },
+    {
+      "term": "Order Block"
+    },
+    {
+      "term": "Power of 3"
+    },
+    {
+      "term": "Previous Day High"
+    },
+    {
+      "term": "Previous Week High"
+    },
+    {
+      "term": "Propulsion Block"
+    },
+    {
+      "term": "Sell Side Liquidity"
+    },
+    {
+      "term": "Smart Money"
+    },
+    {
+      "term": "Standard Deviation Projection"
+    },
+    {
+      "term": "Swing High"
+    },
+    {
+      "term": "Swing Low"
+    },
+    {
+      "term": "Break of Structure"
+    },
+    {
+      "term": "Directional Candle"
+    },
+    {
+      "term": "Indecision Candle"
+    },
+    {
+      "term": "Bias"
+    },
+    {
+      "term": "Timeframe Alignment"
+    },
+    {
+      "term": "External Range Liquidity"
+    },
+    {
+      "term": "Inversion Fair Value Gap"
+    },
+    {
+      "term": "Market Structure"
+    },
+    {
+      "term": "PD Array"
+    },
+    {
+      "term": "Top Down Analysis"
+    },
+    {
+      "term": "AMD"
+    },
+    {
+      "term": "Standard Deviation"
+    },
+    {
+      "term": "Session High"
+    }
+  ],
+  "merge_strategy": "llm_synthesis",
+  "merge_model": "deepseek/deepseek-chat",
+  "merge_notes": "Both cards are from ICT school; no conflict. The Foundation card provided additional identification rules (outside bar, consolidation, multi-timeframe marking) and common mistakes (updating swept levels, ignoring equal highs, etc.) that were merged. The definition from ICT (Updated) was preferred for its precision; the Foundation's Chinese definition was not used. Related concepts were unioned.",
+  "warnings": [],
+  "illustrated_by_cases": [
+    {
+      "card_id": "-GkOTMYoJT4_case_002_s_p_500_15_minute_stop_run_into_",
+      "video_id": "-GkOTMYoJT4",
+      "title": "S&P 500 15-minute Stop Run into Overlapping Fair Value Gap with Inducement Low"
+    },
+    {
+      "card_id": "-GkOTMYoJT4_case_004_nasdaq_100_4_hour_multiple_induc",
+      "video_id": "-GkOTMYoJT4",
+      "title": "NASDAQ 100 4-Hour Chart: Two Inducement Moves Within a Single Price Leg"
+    },
+    {
+      "card_id": "-wr4xATE37g_case_005_silver_bullish_reversal_with_pro",
+      "video_id": "-wr4xATE37g",
+      "title": "Silver 1H Bullish Reversal: Protected Low Confirmation After Previous Day Low Sweep"
+    },
+    {
+      "card_id": "0xygpCMwxbQ_case_001_nasdaq_15_minute_daily_fvg_fill_",
+      "video_id": "0xygpCMwxbQ",
+      "title": "NASDAQ 15-minute: Daily FVG Fill with Stop Raid, MSS, and Nested FVG/OB Entry at OTE"
+    },
+    {
+      "card_id": "27S9gjgcSlI_case_003_es_vs_nq_higher_high_divergence_",
+      "video_id": "27S9gjgcSlI",
+      "title": "ES vs NQ Higher High SMT Divergence Confirmed by Bullish PD Array Rejection"
+    },
+    {
+      "card_id": "4jU547ocod4_case_006_daily_hourly_model_with_15_minut",
+      "video_id": "4jU547ocod4",
+      "title": "Daily-Hourly Bias with 15-Minute Inversion Entry Targeting Equal Highs on ETH"
+    },
+    {
+      "card_id": "7p9MBFk8EEM_case_002_us_oil_daily_reversal_with_previ",
+      "video_id": "7p9MBFk8EEM",
+      "title": "US Oil Daily Reversal Using Previous Month's High and Weekly FVG as Overlapping PD Arrays"
+    },
+    {
+      "card_id": "9BY-MQRNy-Y_case_002_ng_natural_gas_weekly_to_hourly_",
+      "video_id": "9BY-MQRNy-Y",
+      "title": "NG Natural Gas Weekly Swing Point Bullish Bias with Daily V-Shaped Reversal and Hourly SMT Entry"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_003_gbp_usd_60_minute_propulsion_blo",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "GBP/USD 60-Minute Propulsion Block Long Entry with SMT Confirmation Targeting Buy-Side Liquidity"
+    },
+    {
+      "card_id": "9PKJ0U1gl4g_case_004_usd_jpy_daily_propulsion_block_e",
+      "video_id": "9PKJ0U1gl4g",
+      "title": "USD/JPY Daily Propulsion Block Short After Buy-Stop Sweep and Displacement Lower"
+    },
+    {
+      "card_id": "AdmnWLjf8rY_case_004_es_midnight_open_bias_with_londo",
+      "video_id": "AdmnWLjf8rY",
+      "title": "ES Short Setup: London Sweeps Hourly High Above Midnight Open Targeting Daily FVG"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_001_nq_5_minute_reversal_with_cisd_a",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ 5-minute CISD reversal after buy-side sweep targeting London lows (8/11/2023)"
+    },
+    {
+      "card_id": "CHIK5oBRKiw_case_002_nq_daily_to_2_minute_multi_timef",
+      "video_id": "CHIK5oBRKiw",
+      "title": "NQ top-down: daily FVG draw, hourly CISD, 2-minute short entry targeting equal lows (10/12/2023)"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_001_nq_5_minute_order_block_entry_wi",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ 5-minute order block entry fails due to absence of higher time frame POI"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_002_eth_hourly_fair_value_gap_with_5",
+      "video_id": "DMUiDBnTYc8",
+      "title": "ETH hourly fair value gap paired with 5-minute order block entry reaches 2R target"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_005_crude_oil_daily_continuation_wit",
+      "video_id": "DMUiDBnTYc8",
+      "title": "Crude oil daily continuation using stacked order blocks at previous month high"
+    },
+    {
+      "card_id": "DMUiDBnTYc8_case_006_nq_5_minute_secondary_order_bloc",
+      "video_id": "DMUiDBnTYc8",
+      "title": "NQ 5-minute secondary bullish order block entry after missing initial setup"
+    },
+    {
+      "card_id": "E89d1HArbgM_case_003_oil_futures_cl_monthly_to_daily_",
+      "video_id": "E89d1HArbgM",
+      "title": "Oil Futures (CL) Monthly-to-Daily: Three Sequential Order Flow Shift Signals After Buy-Stop Raid"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_002_cl_bullish_continuation_with_10_",
+      "video_id": "EYzP7c24AwM",
+      "title": "CL bullish continuation: 6 AM sweep and closure above down-close candles, 10 AM forms 4H low, 2 PM expands to take liquidity highs"
+    },
+    {
+      "card_id": "EYzP7c24AwM_case_003_nq_bullish_setup_with_8_30_oppos",
+      "video_id": "EYzP7c24AwM",
+      "title": "NQ Bullish Setup: 8:30 Opposing Run Forms Order Block, 10 AM Drives Continuation Higher"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_001_es_1_hour_box_setup_with_range_h",
+      "video_id": "HFfChGFHD44",
+      "title": "ES 1-Hour Box Setup: Range High/Low Deviation and Retest Entry"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_003_es_1_hour_box_setup_using_displa",
+      "video_id": "HFfChGFHD44",
+      "title": "ES 1-Hour Box Setup: Using Displacement to Identify Range When No Clear Consolidation Exists"
+    },
+    {
+      "card_id": "HFfChGFHD44_case_004_es_1_hour_box_setup_with_multipl",
+      "video_id": "HFfChGFHD44",
+      "title": "ES 1-Hour Box Setup: Multiple Highs with Aggressive Displacement Out and Back Into Range"
+    },
+    {
+      "card_id": "HbOeD_JVens_case_002_oil_ng1_daily_chart_building_fai",
+      "video_id": "HbOeD_JVens",
+      "title": "Oil (CL1!) Daily Chart: Identifying Stacked Failure Swings and Relevant Lows"
+    },
+    {
+      "card_id": "IJcfC6wAPZU_case_006_gbp_usd_daily_to_monthly_range_c",
+      "video_id": "IJcfC6wAPZU",
+      "title": "GBP/USD Daily Range Reversal Sequence with Inversion, CISD, and Continuation Entries to Range High"
+    },
+    {
+      "card_id": "IeXtmeKqjnQ_case_003_oil_failure_swing_to_range_rever",
+      "video_id": "IeXtmeKqjnQ",
+      "title": "Oil Failure Swing to Range Reversal Setup via 5-min CISD After 8:30 Sweep"
+    },
+    {
+      "card_id": "MlMsG7li9zY_case_001_nasdaq_daily_range_analysis_with",
+      "video_id": "MlMsG7li9zY",
+      "title": "NASDAQ Daily Premium/Discount Range with Fair Value Gap Long Entry in Discount"
+    },
+    {
+      "card_id": "PQiRV0JMhIQ_case_001_ideal_continuation_on_xauusd_15_",
+      "video_id": "PQiRV0JMhIQ",
+      "title": "Ideal Continuation Setup on XAUUSD 15-Minute with V-Shaped Recovery into Fair Value Gap"
+    },
+    {
+      "card_id": "Pcbyc9TdNsU_case_001_nq_5_minute_amd_with_standard_de",
+      "video_id": "Pcbyc9TdNsU",
+      "title": "NQ 5-minute AMD setup with standard deviation projections for distribution targets"
+    },
+    {
+      "card_id": "Qt7Ek4keMzs_case_002_nq_classic_expansion_with_tuesda",
+      "video_id": "Qt7Ek4keMzs",
+      "title": "NQ Classic Expansion: Tuesday Low Candle Two Closure in FVG with Hourly CISD Confirmation"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_001_broadening_formation_on_15_min_n",
+      "video_id": "Tjk9bXERZy0",
+      "title": "Broadening formation on 15-min NQ chart with expanding lower lows and equal highs triggering liquidity sweep"
+    },
+    {
+      "card_id": "Tjk9bXERZy0_case_002_broadening_formation_within_a_br",
+      "video_id": "Tjk9bXERZy0",
+      "title": "Broadening formation within a broadening formation on NQ1! hourly chart, showing nested expanding range structures"
+    },
+    {
+      "card_id": "U8xH2dEgH5A_case_001_identifying_swing_points_and_liq",
+      "video_id": "U8xH2dEgH5A",
+      "title": "Identifying Swing Points and Sequential Liquidity Sweeps on EUR/USD 4-Hour Chart"
+    },
+    {
+      "card_id": "q40pRwjuPYQ_case_003_nq_bearish_setup_sweeping_previo",
+      "video_id": "q40pRwjuPYQ",
+      "title": "NQ Bearish Setup: Sweep of Previous High on 15-min, Entry via 30-sec FVG with 10-point Stop"
+    },
+    {
+      "card_id": "qdQYhePcvGE_case_004_es1_daily_reversal_and_hourly_co",
+      "video_id": "qdQYhePcvGE",
+      "title": "ES1! daily reversal candle with V-shaped hourly reversal and SMT-confirmed continuation entry targeting buy-side liquidity"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_001_eurusd_5_minute_inversion_trade",
+      "video_id": "uDJI2AbyyCs",
+      "title": "EURUSD 5-Minute Inversion Trade: Sweep of Buy Stops, FVG Inversion, and Consequent Encroachment Retest"
+    },
+    {
+      "card_id": "uDJI2AbyyCs_case_003_gold_daily_old_fvg_reaccumulatio",
+      "video_id": "uDJI2AbyyCs",
+      "title": "Gold Daily Chart: Reaccumulation Using Old Bearish FVG as Support After Smart Money Reversal"
+    },
+    {
+      "card_id": "umyCqr_0NsI_case_001_nq_1_minute_structure_after_buy_",
+      "video_id": "umyCqr_0NsI",
+      "title": "NQ 1-Minute Structure Validation After Buy Side Liquidity Sweep of 15-Minute High"
+    },
+    {
+      "card_id": "01 - Open High Low Close - Understanding Candlesticks_case_002_nq期货连续三日看跌方向性k线案例",
+      "video_id": "01 - Open High Low Close - Understanding Candlesticks",
+      "title": "NQ期货连续三日看跌方向性K线在15分钟图上的结构拆解"
+    },
+    {
+      "card_id": "01 - Open High Low Close - Understanding Candlesticks_case_006_黄金期货2024年5月3日日线无方向性_15分钟拆解",
+      "video_id": "01 - Open High Low Close - Understanding Candlesticks",
+      "title": "黄金期货2024年5月3日日线无方向性K线15分钟拆解"
+    },
+    {
+      "card_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts_case_001_eurusd_4小时图买卖侧流动性动态识别演练",
+      "video_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts",
+      "title": "EURUSD 4小时图买卖侧流动性动态识别与更新演练"
+    },
+    {
+      "card_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts_case_002_eurusd日线前周高低点作为流动性目标案例",
+      "video_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts",
+      "title": "EURUSD日线前周高低点作为流动性目标案例"
+    },
+    {
+      "card_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts_case_003_s_p_500期货5分钟图时段高低点流动性交易案例_6月26日",
+      "video_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts",
+      "title": "S&P 500期货5分钟图亚洲/伦敦时段高低点流动性依次扫除与FVG回测案例（6月26日）"
+    },
+    {
+      "card_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts_case_004_s_p_500期货5分钟图前日高低点与时段流动性综合案例_6月2",
+      "video_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts",
+      "title": "S&P 500期货5分钟图6月27日多层时段流动性综合演示"
+    },
+    {
+      "card_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT_case_001_黄金月线前月高低点流动性分析",
+      "video_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT",
+      "title": "黄金月线前月高低点流动性目标与反转分析"
+    },
+    {
+      "card_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT_case_002_黄金日线前月高低点延伸标注案例",
+      "video_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT",
+      "title": "黄金日线前月高低点延伸标注验证流动性目标案例"
+    },
+    {
+      "card_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT_case_003_黄金周线前周高低点逐步分析",
+      "video_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT",
+      "title": "XAUUSD 周线逐根K线分析前周高低点流动性目标"
+    },
+    {
+      "card_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT_case_006_纳斯达克月线至15分钟自上而下完整交易案例",
+      "video_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT",
+      "title": "NQ1! 月线至15分钟自上而下完整做空交易案例"
+    },
+    {
+      "card_id": "04 - Discount & Premium - ICT Concepts_case_001_nasdaq_100_日线折扣溢价范围识别",
+      "video_id": "04 - Discount & Premium - ICT Concepts",
+      "title": "NASDAQ 100 日线折扣溢价范围识别与FVG反弹案例"
+    },
+    {
+      "card_id": "05 - ICT Daily Bias - The Only Video You Will Ever Need!_case_001_nq日线前日高低点偏差演示",
+      "video_id": "05 - ICT Daily Bias - The Only Video You Will Ever Need!",
+      "title": "NQ日线前日高低点偏差逐日演示"
+    },
+    {
+      "card_id": "05 - ICT Daily Bias - The Only Video You Will Ever Need!_case_002_nq日线前周高低点分析",
+      "video_id": "05 - ICT Daily Bias - The Only Video You Will Ever Need!",
+      "title": "NQ期货日线前周高低点反转与流动性目标分析"
+    },
+    {
+      "card_id": "06 - Understanding Fair Value Gaps (FVG) - ICT Concepts_case_001_nq_1小时图_sibi与bisi识别示例",
+      "video_id": "06 - Understanding Fair Value Gaps (FVG) - ICT Concepts",
+      "title": "NQ 1小时图 SIBI与BISI识别及Consequent Encroachment示例"
+    },
+    {
+      "card_id": "07 - Internal & External Liquidity (Daily Bias) - ICT Concepts_case_001_s_p500期货周线内外部流动性循环演示",
+      "video_id": "07 - Internal & External Liquidity (Daily Bias) - ICT Concepts",
+      "title": "ES1!周线内外部流动性循环：外部→内部→外部演示"
+    },
+    {
+      "card_id": "07 - Internal & External Liquidity (Daily Bias) - ICT Concepts_case_004_nq5分钟图内外部流动性实时循环演示",
+      "video_id": "07 - Internal & External Liquidity (Daily Bias) - ICT Concepts",
+      "title": "NQ1! 5分钟图内外部流动性交替获取实时演示"
+    },
+    {
+      "card_id": "09 - Breaker Blocks Simplified - ICT Concepts_case_004_eurusd_60分钟空头unicorn_model示例_202",
+      "video_id": "09 - Breaker Blocks Simplified - ICT Concepts",
+      "title": "EURUSD 60分钟空头Unicorn Model：Breaker Block与FVG重叠直接入场做空"
+    },
+    {
+      "card_id": "10 - Inversion Fair Value Gaps (IFVG) - ICT Concepts_case_001_eurusd_60分钟_5分钟_ifvg做空案例",
+      "video_id": "10 - Inversion Fair Value Gaps (IFVG) - ICT Concepts",
+      "title": "EURUSD 60分钟扫买方流动性后5分钟IFVG做空案例"
+    },
+    {
+      "card_id": "10 - Inversion Fair Value Gaps (IFVG) - ICT Concepts_case_002_eurusd_5分钟_扫低后ifvg做多案例",
+      "video_id": "10 - Inversion Fair Value Gaps (IFVG) - ICT Concepts",
+      "title": "EURUSD 5分钟扫低后看跌FVG反转为IFVG做多"
+    },
+    {
+      "card_id": "10 - Inversion Fair Value Gaps (IFVG) - ICT Concepts_case_005_黄金日线_旧fvg支撑再积累做多案例",
+      "video_id": "10 - Inversion Fair Value Gaps (IFVG) - ICT Concepts",
+      "title": "黄金日线旧看跌FVG转支撑再积累做多案例"
+    },
+    {
+      "card_id": "11 - Order Blocks Simplified - ICT Concepts_case_001_nq1_5分钟图_无效订单块_缺乏高时间框架水平",
+      "video_id": "11 - Order Blocks Simplified - ICT Concepts",
+      "title": "NQ1! 5分钟图——无效订单块因缺乏高时间框架重要水平被止损"
+    },
+    {
+      "card_id": "11 - Order Blocks Simplified - ICT Concepts_case_002_nq1_小时图fvg触发的有效订单块做多",
+      "video_id": "11 - Order Blocks Simplified - ICT Concepts",
+      "title": "NQ1! 小时图FVG触发的有效订单块做多"
+    },
+    {
+      "card_id": "11 - Order Blocks Simplified - ICT Concepts_case_004_nq1_15分钟图_买侧曲线订单块_扫亚洲低点后做多",
+      "video_id": "11 - Order Blocks Simplified - ICT Concepts",
+      "title": "NQ1! 15分钟图——扫亚洲低点后买侧曲线订单块做多"
+    },
+    {
+      "card_id": "11 - Order Blocks Simplified - ICT Concepts_case_005_cl1_日线图_趋势延续中的多层订单块",
+      "video_id": "11 - Order Blocks Simplified - ICT Concepts",
+      "title": "CL1! 日线图——前月高点附近等高点形成后多层订单块趋势延续"
+    },
+    {
+      "card_id": "11 - Order Blocks Simplified - ICT Concepts_case_006_nq1_5分钟图_最终综合案例_止损位置对比与二次入场",
+      "video_id": "11 - Order Blocks Simplified - ICT Concepts",
+      "title": "NQ1! 5分钟图：Order Block首次入场与均值阈值二次入场对比及止损位置讨论"
+    },
+    {
+      "card_id": "13 - Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts_case_001_nq_2023年8月11日_5分钟图_cisd做空案例",
+      "video_id": "13 - Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts",
+      "title": "NQ 2023年8月11日 5分钟图 CISD识别与Order Block做空案例"
+    },
+    {
+      "card_id": "13 - Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts_case_002_nq_2023年10月13日_多时间框架做空案例",
+      "video_id": "13 - Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts",
+      "title": "NQ 2023年10月13日 日线FVG看跌偏差多时间框架做空案例"
+    },
+    {
+      "card_id": "13 - Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts_case_003_es_2023年10月11日_1分钟图做空后做多案例",
+      "video_id": "13 - Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts",
+      "title": "ES 2023年10月11日1分钟图看跌操纵做空后看涨操纵做多"
+    },
+    {
+      "card_id": "19 - Timeframe Alignment： How To Align Timeframes For Expansion_case_001_es1_周线_4小时_15分钟三层对齐空头案例",
+      "video_id": "19 - Timeframe Alignment： How To Align Timeframes For Expansion",
+      "title": "ES1! 周线旧高兴趣点驱动的三层时间框架对齐空头案例"
+    },
+    {
+      "card_id": "20 - High Resistance vs Low Resistance Liquidity - ICT Concepts_case_001_es_5分钟图_扫出等低点后向failure_swing高点运行",
+      "video_id": "20 - High Resistance vs Low Resistance Liquidity - ICT Concepts",
+      "title": "ES 5分钟图：扫出等低点形成高阻力流动性后向Failure Swing高点运行"
+    },
+    {
+      "card_id": "20 - High Resistance vs Low Resistance Liquidity - ICT Concepts_case_002_nq日线图_前三日低点failure_swing与高阻力流动性偏",
+      "video_id": "20 - High Resistance vs Low Resistance Liquidity - ICT Concepts",
+      "title": "NQ日线：前三日低点Failure Swing与高阻力流动性偏差分析"
+    },
+    {
+      "card_id": "20 - High Resistance vs Low Resistance Liquidity - ICT Concepts_case_005_nq_es_smt背离_高阻力流动性高点配合es低阻力低点做多",
+      "video_id": "20 - High Resistance vs Low Resistance Liquidity - ICT Concepts",
+      "title": "NQ/ES SMT背离：NQ高阻力流动性高点配合ES低阻力低点做多"
+    },
+    {
+      "card_id": "21 - ICT Killzones & Indicator Settings_case_003_nq指数2023年3月10日kill_zone交易分析",
+      "video_id": "21 - ICT Killzones & Indicator Settings",
+      "title": "NQ指数2023年3月10日Kill Zone亚洲低点扫盘至纽约AM做空完整分析"
+    }
+  ],
+  "source_cards": [
+    {
+      "video_id": "0xygpCMwxbQ",
+      "original_card_id": "0xygpCMwxbQ_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        548.1
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "9PKJ0U1gl4g",
+      "original_card_id": "9PKJ0U1gl4g_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        196.28,
+        542.519
+      ],
+      "extraction_confidence": "medium"
+    },
+    {
+      "video_id": "CHIK5oBRKiw",
+      "original_card_id": "CHIK5oBRKiw_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_003"
+      ],
+      "time_range": [
+        10.48,
+        416.56
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "DMUiDBnTYc8",
+      "original_card_id": "DMUiDBnTYc8_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_005"
+      ],
+      "time_range": [
+        10.4,
+        877.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "E89d1HArbgM",
+      "original_card_id": "E89d1HArbgM_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_003"
+      ],
+      "time_range": [
+        369.12,
+        546.92
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "HFfChGFHD44",
+      "original_card_id": "HFfChGFHD44_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        380.84
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "U8xH2dEgH5A",
+      "original_card_id": "U8xH2dEgH5A_concept_buyside_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        2.82,
+        246.799
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts",
+      "original_card_id": "02 - Liquidity： Buyside & Sellside - ICT Concepts_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002",
+        "seg_003"
+      ],
+      "time_range": [
+        2.82,
+        439.139
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT",
+      "original_card_id": "03 - Important Liquidity Levels - Draw On Liquidity - ICT_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001"
+      ],
+      "time_range": [
+        10.44,
+        193.2
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "10 - Inversion Fair Value Gaps (IFVG) - ICT Concepts",
+      "original_card_id": "10 - Inversion Fair Value Gaps (IFVG) - ICT Concepts_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_002"
+      ],
+      "time_range": [
+        10.4,
+        370.199
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "11 - Order Blocks Simplified - ICT Concepts",
+      "original_card_id": "11 - Order Blocks Simplified - ICT Concepts_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004",
+        "seg_005"
+      ],
+      "time_range": [
+        10.4,
+        877.36
+      ],
+      "extraction_confidence": "high"
+    },
+    {
+      "video_id": "13 - Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts",
+      "original_card_id": "13 - Change In State Of Delivery [CISD] - Orderblock Formation - ICT Concepts_concept_buy_side_liquidity",
+      "segment_ids": [
+        "seg_001",
+        "seg_003",
+        "seg_004"
+      ],
+      "time_range": [
+        10.48,
+        593.8
+      ],
+      "extraction_confidence": "high"
+    }
+  ],
+  "stats": {
+    "source_count": 12,
+    "source_videos": 12,
+    "n_projects": 2
+  },
+  "merged_at": "2026-05-22T20:14:30.806210+00:00",
+  "_embedding": [
+    0.049606263637542725,
+    0.07088751345872879,
+    -0.20909175276756287,
+    -0.026149339973926544,
+    0.04136041924357414,
+    -0.018519770354032516,
+    0.03346962109208107,
+    0.011973966844379902,
+    0.003001453587785363,
+    -0.017349066212773323,
+    0.0028196880593895912,
+    0.0477774553000927,
+    0.07363766431808472,
+    -0.024812260642647743,
+    0.0322820283472538,
+    -0.030263202264904976,
+    -0.04278111830353737,
+    -0.02985405921936035,
+    0.04160335659980774,
+    0.019997434690594673,
+    -0.043086275458335876,
+    0.021522771567106247,
+    -0.07590441405773163,
+    -0.06587091833353043,
+    0.04076731577515602,
+    -0.037731871008872986,
+    -0.036377765238285065,
+    -0.013804796151816845,
+    -0.0003053411783184856,
+    0.002815746236592531,
+    -0.024076053872704506,
+    -0.01785450428724289,
+    0.025689374655485153,
+    -0.04287346079945564,
+    -0.0779426172375679,
+    -0.0003522353945299983,
+    0.03294569253921509,
+    0.02008567750453949,
+    -0.039493512362241745,
+    -0.03649942949414253,
+    0.016833115369081497,
+    0.04440062493085861,
+    0.030520111322402954,
+    -0.05678689479827881,
+    0.044777095317840576,
+    0.011369914747774601,
+    0.09072031080722809,
+    -0.00688941590487957,
+    0.06694257259368896,
+    -0.046135853976011276,
+    0.055761583149433136,
+    0.023736706003546715,
+    -0.004464740864932537,
+    -0.015464447438716888,
+    0.05793504789471626,
+    0.04397410526871681,
+    0.022080037742853165,
+    0.06283089518547058,
+    -0.013936749659478664,
+    -0.010791610926389694,
+    0.045782171189785004,
+    0.0299834031611681,
+    0.01604795828461647,
+    0.08414406329393387,
+    0.03677816689014435,
+    -0.025990812107920647,
+    -0.01783401146531105,
+    0.02558445744216442,
+    -0.016837848350405693,
+    -0.07030588388442993,
+    0.060538288205862045,
+    0.03912249580025673,
+    0.014916347339749336,
+    -0.03415486961603165,
+    -0.03225979581475258,
+    -0.0025600509252399206,
+    -0.057878050953149796,
+    0.00911321397870779,
+    -0.0014056620420888066,
+    0.010048305615782738,
+    0.024287980049848557,
+    -0.007167370058596134,
+    0.0685940682888031,
+    0.01255234144628048,
+    0.0912463590502739,
+    0.03881518915295601,
+    -0.00359544949606061,
+    -0.02366640418767929,
+    -0.026448814198374748,
+    0.0587284080684185,
+    0.011309310793876648,
+    0.004612152464687824,
+    0.05146339163184166,
+    0.0579945407807827,
+    -0.10094310343265533,
+    0.008690159767866135,
+    0.026537446305155754,
+    0.010161520913243294,
+    -0.03971175104379654,
+    -0.030477073043584824,
+    -0.045503657311201096,
+    -0.03618207946419716,
+    0.019549788907170296,
+    -0.006163354497402906,
+    0.01658416911959648,
+    0.07264270633459091,
+    -0.010176163166761398,
+    -0.003262879326939583,
+    0.005777548532932997,
+    -0.009904433973133564,
+    -0.04940502345561981,
+    0.030094880610704422,
+    -0.02837408147752285,
+    -0.02522827312350273,
+    -0.0006403697771020234,
+    0.005667325109243393,
+    0.06317441165447235,
+    0.007324937731027603,
+    0.0004334464611019939,
+    0.014781960286200047,
+    0.010665965266525745,
+    -0.018535874783992767,
+    0.02347560226917267,
+    0.052606306970119476,
+    0.023546963930130005,
+    0.04564507305622101,
+    -0.026806551963090897,
+    0.01176011748611927,
+    0.004290139302611351,
+    -0.04051797464489937,
+    0.014016219414770603,
+    -0.00899858120828867,
+    -0.016377881169319153,
+    -0.010559975169599056,
+    0.022922230884432793,
+    0.059691887348890305,
+    0.01971687190234661,
+    0.009548974223434925,
+    0.009023367427289486,
+    0.04108000174164772,
+    0.01654074713587761,
+    -0.0010067301336675882,
+    0.0009481846354901791,
+    0.011273659765720367,
+    0.0118365827947855,
+    -0.044635605067014694,
+    0.022510362789034843,
+    -0.02928537130355835,
+    -0.038749948143959045,
+    0.0026029907166957855,
+    -0.022341005504131317,
+    0.028014427050948143,
+    -0.02339639887213707,
+    0.01919742114841938,
+    0.017338141798973083,
+    -0.03622734546661377,
+    0.012074748985469341,
+    -0.003356133820489049,
+    0.048932261765003204,
+    0.0428653247654438,
+    0.037077199667692184,
+    -0.018379827961325645,
+    -0.06844169646501541,
+    0.044650595635175705,
+    -0.07282840460538864,
+    -0.040333375334739685,
+    -0.007224720437079668,
+    0.0620526522397995,
+    0.016429472714662552,
+    0.06432068347930908,
+    -0.046655189245939255,
+    -0.014040469191968441,
+    -0.03722842410206795,
+    -0.00775833148509264,
+    0.05147857964038849,
+    0.033043548464775085,
+    0.058137137442827225,
+    -0.03626566380262375,
+    0.008085540495812893,
+    -0.04631434381008148,
+    0.009561761282384396,
+    -0.02481180988252163,
+    0.04454028233885765,
+    0.05738094821572304,
+    0.015039384365081787,
+    -0.01730395294725895,
+    0.05622090399265289,
+    -0.04302320256829262,
+    -0.013598890043795109,
+    -0.024578897282481194,
+    0.005684590898454189,
+    0.016289424151182175,
+    -0.04094596579670906,
+    -0.009109570644795895,
+    -0.04409179463982582,
+    -0.04971841350197792,
+    0.07843992859125137,
+    0.025358542799949646,
+    0.01065414771437645,
+    -0.050659406930208206,
+    -0.04370706528425217,
+    -0.03186577558517456,
+    -0.045666441321372986,
+    -0.004265148658305407,
+    -0.04821223020553589,
+    0.1036987230181694,
+    -0.018035883083939552,
+    0.058546032756567,
+    -0.039366673678159714,
+    0.042409732937812805,
+    0.059094179421663284,
+    -0.036025118082761765,
+    0.02122892066836357,
+    -0.054081764072179794,
+    0.029283665120601654,
+    -0.017492827028036118,
+    0.0007740592700429261,
+    -0.008716548793017864,
+    -0.0007070899591781199,
+    0.007997340522706509,
+    0.013506670482456684,
+    -0.023425405845046043,
+    0.0035879360511898994,
+    0.021714257076382637,
+    0.018631037324666977,
+    -0.020601609721779823,
+    0.012012126855552197,
+    0.021611789241433144,
+    -0.005573825910687447,
+    0.014512852765619755,
+    -0.03308219835162163,
+    -0.06153729557991028,
+    0.051458511501550674,
+    -0.014045585878193378,
+    0.013419054448604584,
+    -0.008928438648581505,
+    0.03422146290540695,
+    0.031477391719818115,
+    0.036484140902757645,
+    -0.004556311760097742,
+    0.0030949111096560955,
+    0.029468631371855736,
+    -0.026201410219073296,
+    -0.014652254059910774,
+    -0.06163283810019493,
+    0.04325373098254204,
+    0.03042672760784626,
+    -0.015795528888702393,
+    -0.011572880670428276,
+    0.022096259519457817,
+    -0.005093647167086601,
+    0.03606801480054855,
+    0.05144750699400902,
+    0.015458022244274616,
+    0.012439480051398277,
+    -0.017910581082105637,
+    -0.020702844485640526,
+    0.00771991116926074,
+    -0.009291509166359901,
+    -0.014986412599682808,
+    0.0020328413229435682,
+    -0.022307883948087692,
+    0.09387853741645813,
+    -0.0635320171713829,
+    -0.02083110809326172,
+    -0.060138996690511703,
+    -0.05680243670940399,
+    -0.03919624909758568,
+    0.0021782671101391315,
+    0.005185415968298912,
+    0.0014006738783791661,
+    0.002485632197931409,
+    0.04274116829037666,
+    0.06598379462957382,
+    0.032882530242204666,
+    -0.0020649658981710672,
+    0.022092459723353386,
+    -0.023557500913739204,
+    -0.00797217432409525,
+    0.06785731017589569,
+    -0.008417907170951366,
+    -0.010986533015966415,
+    -0.019002830609679222,
+    0.018044978380203247,
+    -0.01788971573114395,
+    0.09161289781332016,
+    0.034098073840141296,
+    0.03570116311311722,
+    0.02018997073173523,
+    0.019527358934283257,
+    -0.004440598655492067,
+    -0.037224914878606796,
+    0.011604477651417255,
+    0.005247101653367281,
+    0.0018815180519595742,
+    0.01615448109805584,
+    0.05696256831288338,
+    -0.010285026393830776,
+    0.012590242549777031,
+    -0.036901578307151794,
+    -0.005511078983545303,
+    0.03867138549685478,
+    0.031426556408405304,
+    0.02426288276910782,
+    -0.012185834348201752,
+    0.008943190798163414,
+    0.01995239406824112,
+    -0.037696827203035355,
+    -0.017958536744117737,
+    -0.023190490901470184,
+    -0.037595152854919434,
+    0.012072478421032429,
+    -0.05955098941922188,
+    0.024807482957839966,
+    -0.07711519300937653,
+    0.031916651874780655,
+    0.02661196142435074,
+    0.04153541103005409,
+    0.009759465232491493,
+    -0.05710543319582939,
+    0.016995811834931374,
+    -0.03275713697075844,
+    -0.02827499434351921,
+    -0.018401002511382103,
+    0.0325465090572834,
+    0.018239235505461693,
+    -0.03826279193162918,
+    0.02153305523097515,
+    -0.06993982940912247,
+    -0.00814738217741251,
+    0.019179845228791237,
+    0.014082553796470165,
+    0.008156298659741879,
+    -0.02214932255446911,
+    -0.007312324829399586,
+    -0.0008759465417824686,
+    0.0039015274960547686,
+    0.016910376027226448,
+    0.031384482979774475,
+    0.0669720470905304,
+    0.05360661819577217,
+    -0.018379688262939453,
+    0.061032094061374664,
+    -0.033982355147600174,
+    -0.03920351713895798,
+    -0.018239423632621765,
+    -0.045810267329216,
+    0.017621489241719246,
+    0.05678630992770195,
+    0.005946880206465721,
+    -0.01570097915828228,
+    -0.0164694394916296,
+    -0.024147525429725647,
+    -0.01282844040542841,
+    -0.0072076148353517056,
+    0.02522503398358822,
+    0.07313837856054306,
+    -0.009841199032962322,
+    0.027533849701285362,
+    0.007528461050242186,
+    0.04862698167562485,
+    -0.018520517274737358,
+    -0.007633967325091362,
+    -0.01364685408771038,
+    -0.011078245006501675,
+    -0.0023617909755557775,
+    0.046585824340581894,
+    -0.009415965527296066,
+    0.005505208391696215,
+    -0.032703567296266556,
+    -0.041829176247119904,
+    0.017403237521648407,
+    -0.015341783873736858,
+    0.05876404419541359,
+    -0.008852613158524036,
+    0.010194460861384869,
+    -0.059371672570705414,
+    -0.008712372742593288,
+    -0.029794663190841675,
+    -0.0035400642082095146,
+    0.02851705253124237,
+    -0.0507514514029026,
+    -0.016372643411159515,
+    0.0341634564101696,
+    0.00727646891027689,
+    -0.024923942983150482,
+    -0.04756403714418411,
+    -0.039771199226379395,
+    0.010608498938381672,
+    0.007749981712549925,
+    -0.002578438725322485,
+    -0.015028703957796097,
+    -0.01440463773906231,
+    -0.018964817747473717,
+    0.04050301015377045,
+    -0.0031975791789591312,
+    0.01619359478354454,
+    -0.011568733491003513,
+    -0.028276842087507248,
+    0.04054306447505951,
+    -0.04474359378218651,
+    -0.06465031951665878,
+    0.01676919311285019,
+    -0.004877927713096142,
+    -0.01142553985118866,
+    0.03249438852071762,
+    -0.004029685165733099,
+    -0.02668941393494606,
+    0.039529986679553986,
+    0.010667838156223297,
+    0.0439194031059742,
+    0.012131300754845142,
+    -0.03224989399313927,
+    -0.06685879081487656,
+    0.009727331809699535,
+    0.06920555233955383,
+    0.08567044883966446,
+    0.006295774132013321,
+    0.0073889573104679585,
+    -0.00834833923727274,
+    0.04794498160481453,
+    0.0378991961479187,
+    -0.005961259361356497,
+    -0.014983456581830978,
+    0.004055014345794916,
+    0.01361175999045372,
+    0.022387387230992317,
+    0.028344782069325447,
+    -0.0007834532880224288,
+    -0.08808253705501556,
+    0.015035821124911308,
+    0.02383078821003437,
+    0.006489863153547049,
+    -0.0542730987071991,
+    0.007872535847127438,
+    -0.035580482333898544,
+    0.00742662837728858,
+    -0.012381556443870068,
+    -0.038960050791502,
+    0.05724557489156723,
+    0.04296201840043068,
+    -0.047073423862457275,
+    -0.057413652539253235,
+    -0.024440348148345947,
+    0.020693356171250343,
+    0.053205009549856186,
+    0.023528743535280228,
+    -0.05648398771882057,
+    -0.03205057233572006,
+    0.01216112356632948,
+    -0.031324028968811035,
+    0.05331955477595329,
+    0.04307769984006882,
+    0.014065325260162354,
+    0.05208970233798027,
+    -0.07888288795948029,
+    0.012540723197162151,
+    0.033051084727048874,
+    0.005404633469879627,
+    0.019955217838287354,
+    0.04270831495523453,
+    -0.0006831912323832512,
+    -0.0679352805018425,
+    0.0019764748867601156,
+    0.03297082334756851,
+    -0.00786571204662323,
+    0.02001226507127285,
+    -0.04437083378434181,
+    0.04467884078621864,
+    0.06578421592712402,
+    -0.05755069851875305,
+    0.006413273513317108,
+    0.03575113043189049,
+    0.020177852362394333,
+    -0.007754574064165354,
+    -0.02868354320526123,
+    0.015244503505527973,
+    0.0017156979301944375,
+    0.013210608623921871,
+    0.006529295351356268,
+    -0.004124391358345747,
+    0.005250674672424793,
+    0.0104291383177042,
+    -0.026611002162098885,
+    -0.038307949900627136,
+    0.05605879798531532,
+    0.05545579269528389,
+    -0.05150415748357773,
+    0.037111151963472366,
+    0.008559761568903923,
+    0.02300286293029785,
+    0.05478803068399429,
+    0.01038347464054823,
+    -0.018267838284373283,
+    -0.05949188768863678,
+    -0.023880526423454285,
+    -0.01824166439473629,
+    0.05783738195896149,
+    -0.003808662761002779,
+    0.022741982713341713,
+    0.020117588341236115,
+    0.033808633685112,
+    0.02653665840625763,
+    -0.008898003958165646,
+    0.062139153480529785,
+    -0.036755286157131195,
+    0.02400951087474823,
+    -0.05972215533256531,
+    -0.041305217891931534,
+    0.011492619290947914,
+    -0.016010355204343796,
+    0.006788303144276142,
+    -0.004606017377227545,
+    0.013666229322552681,
+    0.059207040816545486,
+    -0.0919003114104271,
+    0.06453719735145569,
+    0.015284531749784946,
+    -0.012007827870547771,
+    0.034504733979701996,
+    -0.021594194695353508,
+    -0.025714779272675514,
+    -0.04815571382641792,
+    0.016821393743157387,
+    -0.04274052008986473,
+    -0.005460258573293686,
+    -0.027093445882201195,
+    -0.04989839345216751,
+    0.028956277295947075,
+    -0.021733228117227554,
+    0.03586478531360626,
+    0.04167834296822548,
+    0.00768737867474556,
+    0.005415069870650768,
+    0.0017736587906256318,
+    -0.002137888688594103,
+    -0.0158461332321167,
+    0.04390467703342438,
+    -0.01275496743619442,
+    0.011216210201382637,
+    -0.027964076027274132,
+    0.028157928958535194,
+    -0.015214837156236172,
+    0.028277210891246796,
+    0.007361497264355421,
+    -0.022816378623247147,
+    -0.0215893741697073,
+    -0.028064779937267303,
+    -0.012515359558165073,
+    -0.07676035910844803,
+    0.03474444895982742,
+    -0.05357440188527107,
+    -0.00935670081526041,
+    -0.044989436864852905,
+    0.050303686410188675,
+    -0.04970609024167061,
+    -0.04711182415485382,
+    -0.003415876068174839,
+    -0.06584993749856949,
+    -0.03372911363840103,
+    -0.005250036250799894,
+    0.016760077327489853,
+    0.05141746997833252,
+    0.016803501173853874,
+    0.06385555118322372,
+    -0.036626484245061874,
+    -0.015077110379934311,
+    0.017472637817263603,
+    0.030681679025292397,
+    0.03837965801358223,
+    0.0004469296836759895,
+    -0.03868723660707474,
+    0.0036782589741051197,
+    0.0006740230601280928,
+    -0.011831649579107761,
+    0.014895051717758179,
+    -0.005709017626941204,
+    -0.002386737847700715,
+    -0.036567799746990204,
+    0.01385549083352089,
+    0.006349213887006044,
+    -0.024241548031568527,
+    0.02262304350733757,
+    0.03829772770404816,
+    -0.01556434016674757,
+    -0.011796885170042515,
+    -0.01924796588718891,
+    0.0017944625578820705,
+    -0.005189241375774145,
+    -0.0558098666369915,
+    -0.04475664347410202,
+    0.0004072689334861934,
+    0.02012716233730316,
+    -0.04331720992922783,
+    0.018339328467845917,
+    0.006501157768070698,
+    -0.030779685825109482,
+    -0.05909029021859169,
+    -0.05590404197573662,
+    -0.09236345440149307,
+    -0.042301978915929794,
+    0.0025151357986032963,
+    0.00010701340215746313,
+    -0.0702635794878006,
+    0.04206640273332596,
+    0.04485037922859192,
+    -0.004541871137917042,
+    0.05546324700117111,
+    -0.023973433300852776,
+    -0.027108030393719673,
+    0.05237366631627083,
+    -0.023646945133805275,
+    0.007214202545583248,
+    -0.04690410941839218,
+    0.005545095074921846,
+    -0.05538216605782509,
+    0.042375460267066956,
+    0.001431213691830635,
+    -0.009850171394646168,
+    -0.042205553501844406,
+    -0.028185302391648293,
+    -0.06216839700937271,
+    0.06988348066806793,
+    -0.007853223010897636,
+    0.06504849344491959,
+    0.035710278898477554,
+    -0.04309505224227905,
+    -0.053431496024131775,
+    -0.005261937156319618,
+    0.0628018006682396,
+    -0.012249255552887917,
+    -0.010425430722534657,
+    -0.057522159069776535,
+    -0.026872757822275162,
+    -0.04146745428442955,
+    0.012643159367144108,
+    -0.054833218455314636,
+    0.0189504474401474,
+    -0.03566506505012512,
+    0.04276399686932564,
+    0.021718336269259453,
+    -0.028018321841955185,
+    0.04902167618274689,
+    0.022174950689077377,
+    0.05035361275076866,
+    -0.06511703133583069,
+    0.00486069405451417,
+    0.05373768508434296,
+    0.0797373503446579,
+    -0.03876729682087898,
+    0.08597639948129654,
+    0.03730374574661255,
+    -0.006770727224647999,
+    0.005995399318635464,
+    -0.0036096363328397274,
+    -0.009333706460893154,
+    0.053621843457221985,
+    -0.02306050807237625,
+    -0.033841174095869064,
+    -0.050762467086315155,
+    0.00919494591653347,
+    0.008589522913098335,
+    -0.006079020909965038,
+    0.01704767346382141,
+    -0.0003391181817278266,
+    0.00494385464116931,
+    -0.03400151804089546,
+    -0.009602830745279789,
+    -0.04064072296023369,
+    -0.047695938497781754,
+    0.027809232473373413,
+    -0.006580922286957502,
+    0.0009508325019851327,
+    -0.014786869287490845,
+    -0.01324218325316906,
+    0.008953624404966831,
+    0.04584411904215813,
+    0.06560695171356201,
+    0.01503306906670332,
+    -0.06236056983470917,
+    -0.03160829842090607,
+    -0.0038592955097556114,
+    -0.033248063176870346,
+    -0.02661794424057007,
+    -0.058517713099718094,
+    -0.028710808604955673,
+    0.0044003017246723175,
+    0.018189748749136925,
+    0.00221303291618824,
+    -0.02945716306567192,
+    -0.034868061542510986,
+    -0.04012788087129593,
+    -0.015891114249825478,
+    0.03742712736129761,
+    0.007597655523568392,
+    -0.005483855027705431,
+    0.016767777502536774,
+    0.0037838967982679605,
+    -0.05405719205737114,
+    0.028752246871590614,
+    -0.027671299874782562,
+    0.037905361503362656,
+    0.015032457187771797,
+    0.031729117035865784,
+    -0.03418456017971039,
+    -0.017189646139740944,
+    0.03934987261891365,
+    0.010722366161644459,
+    -0.008479295298457146,
+    0.018127433955669403,
+    0.018006281927227974,
+    0.01105102151632309,
+    0.02171660028398037,
+    0.05299966782331467,
+    0.011581872589886189,
+    0.017792657017707825,
+    0.025281066074967384,
+    -0.1042717695236206,
+    -0.023294173181056976,
+    0.01607181690633297,
+    0.027993328869342804,
+    -0.02593088336288929,
+    -0.05139117315411568,
+    -0.010814555920660496,
+    -0.009512664750218391,
+    -0.020279962569475174,
+    0.017507966607809067,
+    -0.021126653999090195,
+    0.007485318463295698,
+    -0.0016943137161433697,
+    -0.027668731287121773,
+    -0.0002147474733646959,
+    -0.01646745763719082,
+    0.05690881237387657,
+    -0.01936355233192444,
+    0.028940526768565178,
+    -0.04953031614422798,
+    -0.0013693884247913957,
+    -0.054412513971328735,
+    -0.0041024270467460155,
+    -0.05788255110383034,
+    -0.02381386049091816,
+    0.013152794912457466,
+    -0.016370326280593872,
+    -0.03198922798037529,
+    -0.033816270530223846,
+    -0.021055404096841812,
+    0.0209727231413126,
+    0.02089349925518036,
+    -0.02471587434411049,
+    0.027613995596766472,
+    0.0053848642855882645,
+    -0.039226021617650986,
+    0.005312638357281685,
+    -0.016482576727867126,
+    0.05961614102125168,
+    0.019016597419977188,
+    0.03744623810052872,
+    0.0736459270119667,
+    -0.00257332855835557,
+    0.015021496452391148,
+    -0.05146859213709831,
+    0.024951254948973656,
+    -0.04000331088900566,
+    -0.0037693907506763935,
+    -0.025255849584937096,
+    -0.06532678753137589,
+    -0.01976221427321434
+  ],
+  "_embedding_model": "nomic-ai/nomic-embed-text-v1.5"
+}
