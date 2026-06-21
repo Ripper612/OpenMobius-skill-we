@@ -1,0 +1,25 @@
+#!/bin/sh
+# Block pushes to MobiusQuant upstream; this fork pushes to origin only.
+
+remote="$1"
+url="$2"
+
+case "$remote" in
+  upstream)
+    echo "pre-push: blocked push to remote 'upstream'." >&2
+    echo "Push to origin (Ripper612/OpenMobius-skill-we) only:" >&2
+    echo "  git push origin main" >&2
+    exit 1
+    ;;
+esac
+
+case "$url" in
+  *MobiusQuant/OpenMobius-skill*|*github.com/MobiusQuant/*)
+    echo "pre-push: blocked push to upstream URL ($url)." >&2
+    echo "Push to origin (Ripper612/OpenMobius-skill-we) only:" >&2
+    echo "  git push origin main" >&2
+    exit 1
+    ;;
+esac
+
+exit 0

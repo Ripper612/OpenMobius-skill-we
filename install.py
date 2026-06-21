@@ -711,11 +711,11 @@ def cmd_uninstall(platforms: list[str], target_dir: Optional[Path],
     return 0 if overall_ok else 1
 
 
-REPO_URL = "https://github.com/MobiusQuant/OpenMobius-skill.git"
+REPO_URL = "https://github.com/Ripper612/OpenMobius-skill-we.git"
 
 
 def _clone_fresh_to_tmp() -> Optional[Path]:
-    """Clone the upstream repo into a fresh /tmp directory, return its path.
+    """Clone the fork default repo into a fresh /tmp directory, return its path.
 
     Returns None on failure.
     """
@@ -735,10 +735,10 @@ def _clone_fresh_to_tmp() -> Optional[Path]:
 def cmd_update(platforms: list[str], target_dir: Optional[Path],
                no_pull: bool, rebuild_index: bool,
                args: argparse.Namespace) -> int:
-    """Update each already-installed platform with the latest upstream code.
+    """Update each already-installed platform with the latest fork code.
 
     Flow:
-      1. Clone the upstream repo into a fresh /tmp dir (unless --no-pull,
+      1. Clone the fork default repo into a fresh /tmp dir (unless --no-pull,
          in which case the source is the current SOURCE_DIR — useful when
          user has already pulled their clone manually).
       2. For each requested platform whose target dir exists, copy the
@@ -746,7 +746,7 @@ def cmd_update(platforms: list[str], target_dir: Optional[Path],
          in resume mode (skips already-done work). SKILL.md is regenerated.
       3. Clean up the /tmp clone.
 
-    --no-pull: don't fetch upstream; use current SOURCE_DIR as the source.
+    --no-pull: don't fetch from REPO_URL; use current SOURCE_DIR as the source.
     --rebuild-index: force the vector index rebuild step.
     """
     global SOURCE_DIR
